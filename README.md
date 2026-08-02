@@ -52,3 +52,9 @@ aim is to let the words mean what they mean, in place.
 One file per verse: the verse itself, and a word-by-word rendering
 aligned to the Hebrew, so each Hebrew word can be read against its
 English.
+
+## Support Selah
+
+This rendering remains open under CC BY-SA 4.0. If it serves you and you want
+to help carry its translation, correction, publication, and continued work,
+visit [selahproject.com/support](https://selahproject.com/support).
