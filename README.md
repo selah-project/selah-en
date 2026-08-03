@@ -58,3 +58,11 @@ English.
 This rendering remains open under CC BY-SA 4.0. If it serves you and you want
 to help carry its translation, correction, publication, and continued work,
 visit [selahproject.com/support](https://selahproject.com/support).
+
+## Contribute a correction
+
+Readers, Hebrew students, translators, and native English speakers are welcome
+to help improve this rendering. Read [CONTRIBUTING.md](CONTRIBUTING.md) before
+opening an issue or pull request. A useful report names the verse and token,
+quotes the current and proposed wording, and explains the Hebrew or English
+reason for the change.

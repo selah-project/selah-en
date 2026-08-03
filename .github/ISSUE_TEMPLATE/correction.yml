@@ -1,0 +1,65 @@
+name: Corpus correction
+description: Report a translation, lexical, alignment, or commentary problem
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve this open corpus. Use this form for content corrections, not security or private account matters.
+  - type: input
+    id: record
+    attributes:
+      label: Record or reference
+      description: Give the book, chapter, verse, token, Strong's number, commentator, or repository path.
+      placeholder: "Genesis 1:1, בראשית, or H7225"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: "English, Español, Português, 简体中文"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Quote only the text needed to identify the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: Give the exact replacement when you can, or explain the decision that is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reason and evidence
+      description: Explain the lexical, grammatical, contextual, source-text, or target-language basis. Name sources when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: perspective
+    attributes:
+      label: Language background and review
+      description: Are you a native speaker? Do you read the source language? Was AI or machine translation used?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have read CONTRIBUTING.md and can contribute the proposed wording under this repository's license.
+          required: true
+        - label: This report contains no credentials, private account data, or another person's personal information.
+          required: true
+        - label: I disclosed any material use of AI or machine translation above; none was used if I left it unstated.
+          required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add a screenshot or related reference only if it helps establish the correction.
