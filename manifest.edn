@@ -1,0 +1,96 @@
+#:rendering{:label "English",
+            :source
+            {:text :oshb-wlc,
+             :corpus :tanakh,
+             :verses 23213,
+             :tokens 305508},
+            :provenance
+            {:derived
+             [:lang
+              :version
+              :label
+              :status
+              :lineage
+              :source
+              :rails
+              :rails-commit
+              :name-seat
+              :models
+              :tiers
+              :produced
+              :license
+              :catalog],
+             :declared
+             [:rendering/people
+              :role
+              :open-questions
+              :rendering/process
+              :rendering/checks]},
+            :role :served,
+            :produced {:from "2026-05-03", :to "2026-08-24"},
+            :people
+            {:ruled-by "Scott",
+             :shovel "Claude (Fable 5)",
+             :assayer "Codex"},
+            :id "en.v1",
+            :catalog {:ui "resources/i18n/ui/en.edn"},
+            :license "CC BY-SA 4.0 (The Selah English Rendering)",
+            :model
+            {:provider :z.ai,
+             :models
+             {"glm-4.5" 15206,
+              "glm-5.2" 6518,
+              "glm-5.1" 663,
+              "opus-4.8-hand" 455,
+              "glm-5.3" 371},
+             :tiers {"bulk" 15430, "glm-5.2" 7110, "glm-5.1" 673},
+             :prompt "selah.translate.prompt",
+             :canonical-forms "data/translation/canonical-forms.edn"},
+            :discipline
+            {:rails "docs/methodology/translation-discipline/en.md",
+             :rails-commit "8d3b2ac9",
+             :foundation
+             [:hebrew-first
+              :deut-6-4-double-fidelity
+              :no-foreknowledge
+              :aleph-tav-total
+              :fills-bracketed
+              :no-translator-notes
+              :tough-verse-lay-it-bare],
+             :name-seat {"אלהים" "Elohim", "יהוה" "YHWH"},
+             :open-questions
+             [:khesed
+              :mashiach
+              :person-names
+              :word-order
+              :fills
+              :aramaic-elah
+              :fill-density]},
+            :status :live,
+            :checks
+            {:census
+             {:LORD-files 396,
+              :Yahweh-stray 9,
+              :God-files 46,
+              :note "measured by the en1↔en2 diff survey 2026-08-30"},
+             :fills {:count 143965}},
+            :version "v1",
+            :lineage
+            {:git
+             {:repo "selah-project/selah-en",
+              :ref "v1-final",
+              :commit "f5ef7056a",
+              :tags ["v1-final" "v2-final"],
+              :branches ["main" "v2" "v3"]},
+             :parents []},
+            :lang :en,
+            :process
+            [{:stage :burn,
+              :note
+              "months of relay presses, mixed models — see :models histogram"}
+             {:stage :repairs,
+              :note
+              "aleph-tav (deterministic) + surface restoration from graph"}
+             {:stage :normalization,
+              :note
+              "the Name normalization 2026-07-16 — YHWH/Elohim, no variants"}]}
