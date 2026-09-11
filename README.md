@@ -66,3 +66,9 @@ to help improve this rendering. Read [CONTRIBUTING.md](CONTRIBUTING.md) before
 opening an issue or pull request. A useful report names the verse and token,
 quotes the current and proposed wording, and explains the Hebrew or English
 reason for the change.
+
+## Selah
+
+- The languages of Selah — every chair, native name and status: https://selahproject.com/learn/languages/index.md
+- How the renderings are made — the process, the discipline, the receipts: https://selahproject.com/learn/data-sources/selah-renderings.md
+- The source text — OSHB / WLC 4.20, the record every rendering stands on: https://selahproject.com/learn/data-sources/oshb-wlc.md
