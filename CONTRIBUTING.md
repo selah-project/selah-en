@@ -82,3 +82,8 @@ force of rhetoric. A proposal may be accepted, revised through discussion,
 left open for more evidence, or declined with an explanation.
 
 Please be patient and kind. Critique the reading, not the reader.
+
+## Conduct
+
+Be honest, be kind, show your evidence. Distinguish certainty from
+suggestion. The maintainers weigh and decide.
