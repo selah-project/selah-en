@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "micah 2:4",
-  "book": "micah",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "In that day a parable shall be taken up against you and he wails a wailing, a wailing of woe, saying: Spoiled — we are spoiled; he has changed the portion of my people; how does he withdraw ⟨it⟩ to me? To the apostate he divides our fields.",
+  "translation": "In that day they shall take up against you a taunt-proverb, and wail a wailing of woe, saying: We are utterly spoiled; he changes the portion of my people — how he withdraws ⟨it⟩ from me! To the apostate he divides our fields.",
   "tokens": [
     {
       "surface": "ביום",
@@ -16,8 +11,23 @@
       "gloss": "that"
     },
     {
-      "surface": "ישא",
-      "gloss": "shall be taken up"
+      "surface": "י שא",
+      "gloss": "they shall take up",
+      "readings": [
+        "they shall take up",
+        "shall be taken up"
+      ],
+      "held_by": {
+        "they shall take up": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "shall be taken up": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עליכם",
@@ -25,16 +35,29 @@
     },
     {
       "surface": "משל",
-      "gloss": "a parable",
+      "gloss": "a taunt-proverb",
       "readings": [
+        "a taunt-proverb",
         "a parable",
-        "a proverb",
         "a taunt"
-      ]
+      ],
+      "held_by": {
+        "a taunt-proverb": [
+          "v1",
+          "v3"
+        ],
+        "a parable": [
+          "en4"
+        ],
+        "a taunt": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ונהה",
-      "gloss": "and he wails"
+      "gloss": "and wail"
     },
     {
       "surface": "נהי",
@@ -78,7 +101,22 @@
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "from me",
+      "readings": [
+        "from me",
+        "to me"
+      ],
+      "held_by": {
+        "from me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to me": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לשובב",
@@ -93,6 +131,6 @@
       "gloss": "he divides"
     }
   ],
-  "timestamp": "2026-09-20T13:53:39.618312779Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

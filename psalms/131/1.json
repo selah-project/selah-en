@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 131:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 131,
-  "translation": "A song of the ascents. Of David. YHWH, my heart has not been high, and not have my eyes been raised, and I have not walked in great things and in wonders beyond me.",
+  "translation": "A Song of Ascents, of David. YHWH, my heart is not haughty, nor are my eyes lofty, nor have I walked in great things and in wonders beyond me.",
   "tokens": [
     {
       "surface": "שיר",
-      "gloss": "a song"
+      "gloss": "A song"
     },
     {
       "surface": "המעלות",
-      "gloss": "of the ascents"
+      "gloss": "of ascents"
     },
     {
       "surface": "לדוד",
@@ -29,11 +24,21 @@
     },
     {
       "surface": "גבה",
-      "gloss": "has been high",
+      "gloss": "is haughty",
       "readings": [
-        "has been high",
-        "has soared"
-      ]
+        "is haughty",
+        "has been high"
+      ],
+      "held_by": {
+        "is haughty": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "has been high": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לבי",
@@ -45,7 +50,7 @@
     },
     {
       "surface": "רמו",
-      "gloss": "have been raised"
+      "gloss": "are lofty"
     },
     {
       "surface": "עיני",
@@ -57,11 +62,25 @@
     },
     {
       "surface": "הלכתי",
-      "gloss": "I have walked"
+      "gloss": "have I walked"
     },
     {
       "surface": "בגדלות",
-      "gloss": "in great things"
+      "gloss": "in great things",
+      "readings": [
+        "in great things",
+        "in things too great"
+      ],
+      "held_by": {
+        "in great things": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "in things too great": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "ובנפלאות",
@@ -69,9 +88,28 @@
     },
     {
       "surface": "ממני",
-      "gloss": "beyond me"
+      "gloss": "from me",
+      "readings": [
+        "from me",
+        "beyond me",
+        "for me"
+      ],
+      "held_by": {
+        "from me": [
+          "v1",
+          "en4"
+        ],
+        "beyond me": [
+          "en4"
+        ],
+        "for me": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:10:08.520880267Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

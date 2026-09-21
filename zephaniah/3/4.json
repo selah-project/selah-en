@@ -1,24 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "zephaniah 3:4",
-  "book": "zephaniah",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Her prophets — reckless, men of treacheries; her priests profaned holiness, did violence to Torah.",
+  "translation": "Her prophets are reckless, men of treacheries; her priests have profaned holiness, they have done violence to Torah.",
   "tokens": [
     {
       "surface": "נביאיה",
-      "gloss": "her prophets"
+      "gloss": "Her prophets"
     },
     {
       "surface": "פחזים",
       "gloss": "reckless",
       "readings": [
         "reckless",
-        "boiling-over",
         "unstable"
-      ]
+      ],
+      "held_by": {
+        "reckless": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "unstable": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אנשי",
@@ -34,25 +39,50 @@
     },
     {
       "surface": "חללו",
-      "gloss": "profaned"
+      "gloss": "have profaned"
     },
     {
       "surface": "קדש",
       "gloss": "holiness",
       "readings": [
         "holiness",
-        "the holy place"
-      ]
+        "the holy ⟨thing⟩"
+      ],
+      "held_by": {
+        "holiness": [
+          "en4"
+        ],
+        "the holy ⟨thing⟩": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "חמסו",
-      "gloss": "did violence to"
+      "gloss": "they have done violence to"
     },
     {
       "surface": "תורה",
-      "gloss": "Torah"
+      "gloss": "Torah",
+      "readings": [
+        "Torah",
+        "the law"
+      ],
+      "held_by": {
+        "Torah": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the law": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T17:44:47.759828100Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

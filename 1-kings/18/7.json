@@ -1,15 +1,22 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "1-kings 18:7",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "And it was, Obadiah was on the way, and behold, Elijah to meet him; and he recognized him and fell on his face and said, Is it you, this, my lord Elijah?",
+  "translation": "And it was, as Obadiah was on the way, behold, Elijah to meet him; and he recognized him and fell on his face and said, Is it you, this, my lord Elijah?",
   "tokens": [
     {
       "surface": "ויהי",
-      "gloss": "and it was"
+      "gloss": "and it was",
+      "readings": [
+        "and it was",
+        "and it happened"
+      ],
+      "held_by": {
+        "and it was": [
+          "en4"
+        ],
+        "and it happened": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "עבדיהו",
@@ -33,11 +40,25 @@
     },
     {
       "surface": "ויכרהו",
-      "gloss": "and he recognized him"
+      "gloss": "and he recognized him",
+      "readings": [
+        "and he recognized him",
+        "and he knew him"
+      ],
+      "held_by": {
+        "and he recognized him": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and he knew him": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ויפל",
-      "gloss": "and fell"
+      "gloss": "and he fell"
     },
     {
       "surface": "על",
@@ -68,6 +89,6 @@
       "gloss": "Elijah"
     }
   ],
-  "timestamp": "2026-09-20T13:15:01.187537401Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

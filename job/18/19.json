@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "job 18:19",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "No progeny to him, and no offspring among his people, and no survivor in his dwellings.",
+  "translation": "No progeny to him, and no offspring among his people, and there is no survivor in his dwellings.",
   "tokens": [
     {
       "surface": "לא",
-      "gloss": "no"
+      "gloss": "No"
     },
     {
       "surface": "נין",
-      "gloss": "progeny"
+      "gloss": "progeny",
+      "readings": [
+        "progeny",
+        "offspring"
+      ],
+      "held_by": {
+        "progeny": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "offspring": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "לו",
@@ -25,7 +34,21 @@
     },
     {
       "surface": "נכד",
-      "gloss": "offspring"
+      "gloss": "offspring",
+      "readings": [
+        "offspring",
+        "descendant"
+      ],
+      "held_by": {
+        "offspring": [
+          "v1",
+          "en4"
+        ],
+        "descendant": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "בעמו",
@@ -44,6 +67,6 @@
       "gloss": "in his dwellings"
     }
   ],
-  "timestamp": "2026-09-20T16:43:29.615960347Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

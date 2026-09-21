@@ -1,46 +1,67 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 21,
-  "ref": "job 30:21",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "You have turned to be cruel to me; with the might of your hand you persecute me.",
+  "translation": "You turn to be cruel against me; with the strength of your hand you persecute me.",
   "tokens": [
     {
-      "surface": "תֵּהָפֵךְ",
-      "gloss": "you have turned",
-      "readings": [
-        "you have turned",
-        "you have been overturned"
-      ]
+      "surface": "תהפך",
+      "gloss": "You turn"
     },
     {
-      "surface": "לְאַכְזָר",
+      "surface": "לאכזר",
       "gloss": "to be cruel"
     },
     {
-      "surface": "לִי",
-      "gloss": "to me"
+      "surface": "לי",
+      "gloss": "against me",
+      "readings": [
+        "against me",
+        "to me"
+      ],
+      "held_by": {
+        "against me": [
+          "v1",
+          "v3"
+        ],
+        "to me": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בְּעֹצֶם",
-      "gloss": "with the might of"
+      "surface": "בעצם",
+      "gloss": "with the strength of"
     },
     {
-      "surface": "יָדְךָ",
-      "gloss": "your hand"
+      "surface": "ידך",
+      "gloss": "of your hand"
     },
     {
-      "surface": "תִשְׂטְמֵנִי",
+      "surface": "תשטמני",
       "gloss": "you persecute me",
       "readings": [
         "you persecute me",
         "you hate me",
         "you lurk against me"
-      ]
+      ],
+      "held_by": {
+        "you persecute me": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "you hate me": [
+          "v2",
+          "en4"
+        ],
+        "you lurk against me": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:52:23.896054411Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

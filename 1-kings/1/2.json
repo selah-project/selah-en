@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "1-kings 1:2",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And his servants said to him, Let them seek for my lord the king a young woman, a virgin, and let her stand before the king, and let her be to him a סכנת — one who attends; and let her lie in your bosom, and my lord the king be warm.",
+  "translation": "And his servants said to him, “Let them seek for my lord the king a young woman, a virgin, and let her stand before the king, and let her be to him a caretaker, and let her lie in your bosom, and my lord the king be warm.”",
   "tokens": [
     {
       "surface": "ויאמרו",
@@ -33,7 +28,21 @@
     },
     {
       "surface": "נערה",
-      "gloss": "a young woman"
+      "gloss": "a young woman",
+      "readings": [
+        "a young woman",
+        "a young girl"
+      ],
+      "held_by": {
+        "a young woman": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "a young girl": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "בתולה",
@@ -61,12 +70,25 @@
     },
     {
       "surface": "סכנת",
-      "gloss": "an attender",
+      "gloss": "a caretaker",
       "readings": [
-        "an attender",
-        "a cherisher",
+        "a caretaker",
+        "a companion",
         "a nurse"
-      ]
+      ],
+      "held_by": {
+        "a caretaker": [
+          "v2",
+          "v3"
+        ],
+        "a companion": [
+          "v1"
+        ],
+        "a nurse": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ושכבה",
@@ -89,6 +111,6 @@
       "gloss": "the king"
     }
   ],
-  "timestamp": "2026-09-20T13:10:18.075456821Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

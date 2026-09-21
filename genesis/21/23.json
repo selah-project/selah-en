@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "genesis 21:23",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "And now, swear to me here by Elohim, that you will not deal falsely with me, nor with my child, nor with my grandchild; according to the chesed that I have done with you, you shall do with me, and with the land in which you have sojourned.",
+  "translation": "And now, swear to me here by Elohim: if you will deal falsely with me, or with my child, or with my grandchild — according to the chesed that I have done with you, do with me and with the land in which you have sojourned.”",
   "tokens": [
     {
       "surface": "ועתה",
-      "gloss": "and now"
+      "gloss": "And now"
     },
     {
       "surface": "השבעה",
@@ -29,11 +24,7 @@
     },
     {
       "surface": "אם",
-      "gloss": "that",
-      "readings": [
-        "that",
-        "if"
-      ]
+      "gloss": "if"
     },
     {
       "surface": "תשקר",
@@ -41,7 +32,18 @@
       "readings": [
         "you will deal falsely",
         "you will lie"
-      ]
+      ],
+      "held_by": {
+        "you will deal falsely": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you will lie": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לי",
@@ -49,20 +51,30 @@
     },
     {
       "surface": "ולניני",
-      "gloss": "nor with my child"
+      "gloss": "or with my child"
     },
     {
       "surface": "ולנכדי",
-      "gloss": "nor with my grandchild"
+      "gloss": "or with my grandchild"
     },
     {
       "surface": "כחסד",
       "gloss": "according to the chesed",
       "readings": [
         "according to the chesed",
-        "according to the steadfast love",
-        "according to the kindness"
-      ]
+        "according to the steadfast love"
+      ],
+      "held_by": {
+        "according to the chesed": [
+          "v3",
+          "en4"
+        ],
+        "according to the steadfast love": [
+          "v1",
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אשר",
@@ -78,7 +90,7 @@
     },
     {
       "surface": "תעשה",
-      "gloss": "you shall do"
+      "gloss": "do"
     },
     {
       "surface": "עמדי",
@@ -105,6 +117,6 @@
       "gloss": "in it"
     }
   ],
-  "timestamp": "2026-09-20T16:08:06.791722855Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

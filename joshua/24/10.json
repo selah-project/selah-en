@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "joshua 24:10",
-  "book": "joshua",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "And I was not willing to hear Balaam, and he blessed you a blessing — and I delivered ⟨את⟩ you from his hand.",
+  "translation": "And I was not willing to listen to Balaam, so he blessed ⟨את⟩ you a blessing, and I delivered ⟨את⟩ you from his hand.",
   "tokens": [
     {
       "surface": "ולא",
@@ -17,24 +12,52 @@
     },
     {
       "surface": "לשמע",
-      "gloss": "to hear"
+      "gloss": "to listen",
+      "readings": [
+        "to listen",
+        "to hear"
+      ],
+      "held_by": {
+        "to listen": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to hear": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לבלעם",
-      "gloss": "Balaam"
+      "gloss": "to Balaam"
     },
     {
       "surface": "ויברך",
-      "gloss": "and he blessed"
+      "gloss": "so he blessed"
     },
     {
       "surface": "ברוך",
-      "gloss": "a blessing"
+      "gloss": "a blessing",
+      "readings": [
+        "a blessing",
+        "again and again"
+      ],
+      "held_by": {
+        "a blessing": [
+          "en4"
+        ],
+        "again and again": [
+          "v2",
+          "v3",
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you (object of blessed)"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "ואצל",
@@ -42,14 +65,27 @@
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you (object of delivered)"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "מידו",
-      "gloss": "from his hand"
+      "gloss": "from his hand",
+      "readings": [
+        "from his hand",
+        "out of his hand"
+      ],
+      "held_by": {
+        "from his hand": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "out of his hand": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:04:35.351187997Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

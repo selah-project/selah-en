@@ -1,53 +1,79 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "lamentations 5:10",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "Our skin is like an oven, shriveled, because of the burning heats of famine.",
+  "translation": "Our skin, like an oven, has shriveled because of the burning blasts of famine.",
   "tokens": [
     {
-      "surface": "עוֹרֵנוּ",
-      "gloss": "our skin"
+      "surface": "עורנו",
+      "gloss": "Our skin"
     },
     {
-      "surface": "כְּתַנּוּר",
+      "surface": "כתנור",
       "gloss": "like an oven"
     },
     {
-      "surface": "נִכְמְרוּ",
-      "gloss": "they are shriveled",
+      "surface": "נכמרו",
+      "gloss": "have shriveled",
       "readings": [
-        "they are shriveled",
-        "they are blackened"
-      ]
+        "have shriveled",
+        "are blackened"
+      ],
+      "held_by": {
+        "have shriveled": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "are blackened": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִפְּנֵי",
-      "gloss": "because of",
-      "readings": [
-        "because of",
-        "from the face of"
-      ]
+      "surface": "מפני",
+      "gloss": "because of"
     },
     {
-      "surface": "זַלְעֲפוֹת",
-      "gloss": "burning heats",
+      "surface": "זלעפות",
+      "gloss": "burning blasts",
       "readings": [
-        "burning heats",
-        "glowings"
-      ]
+        "burning blasts",
+        "burning heats"
+      ],
+      "held_by": {
+        "burning blasts": [
+          "v2",
+          "en4"
+        ],
+        "burning heats": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "רָעָב",
-      "gloss": "famine",
+      "surface": "רעב",
+      "gloss": "of famine",
       "readings": [
-        "famine",
-        "hunger"
-      ]
+        "of famine",
+        "of hunger"
+      ],
+      "held_by": {
+        "of famine": [
+          "v2",
+          "en4"
+        ],
+        "of hunger": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:59:24.357125407Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

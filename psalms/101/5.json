@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 101:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 101,
-  "translation": "The one slandering his neighbor in secret — him I will destroy; the high of eyes and wide of heart — him I cannot ⟨endure⟩.",
+  "translation": "The one who slanders his neighbor in secret — ⟨את⟩ him I will cut off; the haughty of eyes and broad of heart — ⟨את⟩ him I cannot ⟨endure⟩.",
   "tokens": [
     {
       "surface": "מלושני",
-      "gloss": "the one slandering"
+      "gloss": "the one who slanders"
     },
     {
       "surface": "בסתר",
@@ -21,16 +16,43 @@
     },
     {
       "surface": "אותו",
-      "gloss": "⟨את⟩ him",
-      "marks": "him I will destroy"
+      "gloss": "⟨את⟩ him"
     },
     {
       "surface": "אצמית",
-      "gloss": "I will destroy"
+      "gloss": "I will cut off",
+      "readings": [
+        "I will cut off",
+        "I will destroy"
+      ],
+      "held_by": {
+        "I will cut off": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I will destroy": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "גבה",
-      "gloss": "high"
+      "gloss": "haughty",
+      "readings": [
+        "haughty",
+        "high"
+      ],
+      "held_by": {
+        "haughty": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "high": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עינים",
@@ -38,7 +60,7 @@
     },
     {
       "surface": "ורחב",
-      "gloss": "and wide"
+      "gloss": "and broad"
     },
     {
       "surface": "לבב",
@@ -46,8 +68,7 @@
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him",
-      "marks": "him I cannot endure"
+      "gloss": "⟨את⟩ him"
     },
     {
       "surface": "לא",
@@ -58,11 +79,21 @@
       "gloss": "I can",
       "readings": [
         "I can",
-        "I am able",
         "I endure"
-      ]
+      ],
+      "held_by": {
+        "I can": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I endure": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:44:40.532198250Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

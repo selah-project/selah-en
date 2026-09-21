@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "isaiah 45:10",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 45,
-  "translation": "Woe to ⟨the⟩ one saying to a father, ‘What do you beget?’ — and to a woman, ‘What do you travail ⟨with⟩?’",
+  "translation": "Woe to him who says to a father, “What are you begetting?” and to a woman, “What are you bringing forth?”",
   "tokens": [
     {
       "surface": "הוי",
@@ -13,7 +8,21 @@
     },
     {
       "surface": "אמר",
-      "gloss": "to ⟨the⟩ one saying"
+      "gloss": "says",
+      "readings": [
+        "says",
+        "saying"
+      ],
+      "held_by": {
+        "says": [
+          "v2",
+          "v3"
+        ],
+        "saying": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לאב",
@@ -25,11 +34,22 @@
     },
     {
       "surface": "תוליד",
-      "gloss": "do you beget",
+      "gloss": "are you begetting",
       "readings": [
-        "do you beget",
+        "are you begetting",
         "do you bear"
-      ]
+      ],
+      "held_by": {
+        "are you begetting": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "do you bear": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולאשה",
@@ -41,14 +61,24 @@
     },
     {
       "surface": "תחילין",
-      "gloss": "do you travail ⟨with⟩",
+      "gloss": "are you bringing forth",
       "readings": [
-        "do you travail ⟨with⟩",
-        "do you writh",
-        "do you whirl"
-      ]
+        "are you bringing forth",
+        "do you writhe"
+      ],
+      "held_by": {
+        "are you bringing forth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "do you writhe": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:24:16.487880378Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

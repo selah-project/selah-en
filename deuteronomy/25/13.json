@@ -1,53 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "deuteronomy 25:13",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 25,
-  "translation": "Not there shall be to you in your bag a stone and a stone, a great one and a small one.",
+  "translation": "There shall not be to you in your pouch a stone and a stone, a great and a small.",
   "tokens": [
     {
-      "surface": "לֹֽא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יִהְיֶ֥ה",
+      "surface": "יִהְיֶה",
       "gloss": "there shall be"
     },
     {
-      "surface": "לְךָ֛",
+      "surface": "לְךָ",
       "gloss": "to you"
     },
     {
-      "surface": "בְּכִיסְךָ֖",
-      "gloss": "in your bag"
+      "surface": "בְּכִיסְךָ",
+      "gloss": "in your pouch",
+      "readings": [
+        "in your pouch",
+        "in your bag"
+      ],
+      "held_by": {
+        "in your pouch": [
+          "v1",
+          "v3"
+        ],
+        "in your bag": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֶ֣בֶן",
+      "surface": "אֶבֶן",
       "gloss": "a stone",
       "readings": [
         "a stone",
         "a weight"
-      ]
+      ],
+      "held_by": {
+        "a stone": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a weight": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וָאָ֑בֶן",
-      "gloss": "and a stone",
-      "readings": [
-        "and a stone",
-        "and a weight"
-      ]
+      "surface": "וָאֶבֶן",
+      "gloss": "and a stone"
     },
     {
-      "surface": "גְּדוֹלָ֖ה",
-      "gloss": "a great one"
+      "surface": "גְּדוֹלָה",
+      "gloss": "a great"
     },
     {
-      "surface": "וּקְטַנָּֽה",
-      "gloss": "and a small one"
+      "surface": "וּקְטַנָּה",
+      "gloss": "and a small"
     }
   ],
-  "timestamp": "2026-09-20T12:49:38.242121708Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

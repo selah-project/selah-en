@@ -1,42 +1,76 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 59,
-  "ref": "lamentations 3:59",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "You have seen, YHWH, my wrong; you have judged my verdict.",
+  "translation": "You have seen, YHWH, my oppression; judge my cause!",
   "tokens": [
     {
-      "surface": "רָאִ֤יתָה",
-      "gloss": "you have seen"
+      "surface": "ראיתה",
+      "gloss": "You have seen"
     },
     {
-      "surface": "יְהוָה֙",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "עַוָּ֣תָתִ֔י",
-      "gloss": "my wrong",
+      "surface": "עותתי",
+      "gloss": "my oppression",
       "readings": [
-        "my wrong",
-        "my oppression"
-      ]
+        "my oppression",
+        "my wrong"
+      ],
+      "held_by": {
+        "my oppression": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my wrong": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שָׁפְטָ֖ה",
-      "gloss": "you have judged"
+      "surface": "שפטה",
+      "gloss": "judge",
+      "readings": [
+        "judge",
+        "you have judged"
+      ],
+      "held_by": {
+        "judge": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you have judged": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "מִשְׁפָּטִֽי",
-      "gloss": "my verdict",
+      "surface": "משפטי",
+      "gloss": "my cause",
       "readings": [
-        "my verdict",
         "my cause",
+        "my verdict",
         "my justice"
-      ]
+      ],
+      "held_by": {
+        "my cause": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my verdict": [
+          "en4"
+        ],
+        "my justice": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:24:04.977794476Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,20 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "psalms 88:16",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 88,
-  "translation": "Afflicted ⟨אני⟩ I ⟨אני⟩ am, and dying from youth; I bear your terrors, I am bewildered.",
+  "translation": "Afflicted ⟨am⟩ I, and perishing from ⟨my⟩ youth; I have borne ⟨your⟩ terrors— I am dazed.",
   "tokens": [
     {
       "surface": "עני",
-      "gloss": "afflicted",
-      "readings": [
-        "afflicted",
-        "poor",
-        "bent down"
-      ]
+      "gloss": "Afflicted"
     },
     {
       "surface": "אני",
@@ -22,43 +12,54 @@
     },
     {
       "surface": "וגוע",
-      "gloss": "and dying",
+      "gloss": "and perishing",
       "readings": [
-        "and dying",
-        "and expiring"
-      ]
+        "and perishing",
+        "and ready to die"
+      ],
+      "held_by": {
+        "and perishing": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and ready to die": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "מנער",
-      "gloss": "from youth"
+      "gloss": "from ⟨my⟩ youth"
     },
     {
       "surface": "נשאתי",
-      "gloss": "I bear",
-      "readings": [
-        "I bear",
-        "I carry",
-        "I endure"
-      ]
+      "gloss": "I have borne"
     },
     {
       "surface": "אמיך",
-      "gloss": "your terrors",
-      "readings": [
-        "your terrors",
-        "your terrors that you cause"
-      ]
+      "gloss": "⟨your⟩ terrors"
     },
     {
       "surface": "אפונה",
-      "gloss": "I am bewildered",
+      "gloss": "I am dazed",
       "readings": [
-        "I am bewildered",
-        "I faint away",
-        "I am distracted"
-      ]
+        "I am dazed",
+        "I am confounded"
+      ],
+      "held_by": {
+        "I am dazed": [
+          "v1",
+          "en4"
+        ],
+        "I am confounded": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:05:03.767596235Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,50 +1,73 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "proverbs 1:11",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "If they say, ‘Walk ⟨with⟩ us: let us lie in wait for blood; let us hide ⟨ourselves⟩ for the innocent without cause,’",
+  "translation": "If they say, “Come with ⟨את⟩ us: let us lie in wait for blood; let us lurk for the innocent without cause,”",
   "tokens": [
     {
-      "surface": "אִם",
-      "gloss": "if"
+      "surface": "אם",
+      "gloss": "If"
     },
     {
-      "surface": "יֹאמְרוּ",
+      "surface": "יאמרו",
       "gloss": "they say"
     },
     {
-      "surface": "לְכָה",
-      "gloss": "walk"
+      "surface": "לכה",
+      "gloss": "Come",
+      "readings": [
+        "Come",
+        "walk"
+      ],
+      "held_by": {
+        "Come": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "walk": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אִתָּנוּ",
-      "gloss": "⟨את⟩ us",
-      "marks": "with us"
+      "surface": "אתנו",
+      "gloss": "with ⟨את⟩ us"
     },
     {
-      "surface": "נֶאֶרְבָה",
+      "surface": "נארבה",
       "gloss": "let us lie in wait"
     },
     {
-      "surface": "לְדָם",
+      "surface": "לדם",
       "gloss": "for blood"
     },
     {
-      "surface": "נִצְפְּנָה",
-      "gloss": "let us hide"
+      "surface": "נצפנה",
+      "gloss": "let us lurk",
+      "readings": [
+        "let us lurk",
+        "let us hide"
+      ],
+      "held_by": {
+        "let us lurk": [
+          "v1",
+          "v3"
+        ],
+        "let us hide": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְנָקִי",
+      "surface": "לנקי",
       "gloss": "for the innocent"
     },
     {
-      "surface": "חִנָּם",
+      "surface": "חנם",
       "gloss": "without cause"
     }
   ],
-  "timestamp": "2026-09-20T14:10:49.901981192Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

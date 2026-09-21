@@ -1,14 +1,9 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "job 33:24",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "and he is gracious to him, and says: Redeem him from going down to the pit; I have found a ransom.",
+  "translation": "And he is gracious to him, and says: “Deliver him from going down to the pit; I have found a ransom.”",
   "tokens": [
     {
-      "surface": "וַיְחֻנֶּנּוּ",
+      "surface": "וַיְחַנֶּנּוּ",
       "gloss": "and he is gracious to him"
     },
     {
@@ -17,7 +12,22 @@
     },
     {
       "surface": "פְּדָעֵהוּ",
-      "gloss": "redeem him"
+      "gloss": "Deliver him",
+      "readings": [
+        "Deliver him",
+        "Redeem him"
+      ],
+      "held_by": {
+        "Deliver him": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "Redeem him": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מֵרֶדֶת",
@@ -28,23 +38,44 @@
       "gloss": "the pit",
       "readings": [
         "the pit",
-        "the pit-trap",
         "destruction"
-      ]
+      ],
+      "held_by": {
+        "the pit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "destruction": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מָצָאתִי",
       "gloss": "I have found"
     },
     {
-      "surface": "כֹפֶר",
+      "surface": "כֹּפֶר",
       "gloss": "a ransom",
       "readings": [
         "a ransom",
         "an atonement-price"
-      ]
+      ],
+      "held_by": {
+        "a ransom": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "an atonement-price": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:52:54.046046998Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

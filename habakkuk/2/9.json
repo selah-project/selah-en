@@ -1,37 +1,50 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "habakkuk 2:9",
-  "book": "habakkuk",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "Woe, one cutting off a cut-off-thing of evil for his house, to set his nest on high, to be delivered from the palm of evil!",
+  "translation": "Woe to him who plunders plunder of evil for his house, to set his nest on high, to be delivered from the palm of calamity!",
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe",
-      "readings": [
-        "Woe",
-        "Alas",
-        "Oh!"
-      ]
+      "gloss": "Woe"
     },
     {
       "surface": "בצע",
-      "gloss": "one cutting off"
+      "gloss": "who plunders",
+      "readings": [
+        "who plunders",
+        "one cutting off"
+      ],
+      "held_by": {
+        "who plunders": [
+          "v2",
+          "v3"
+        ],
+        "one cutting off": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בצע",
-      "gloss": "a cut-off-thing",
+      "gloss": "plunder",
       "readings": [
-        "a cut-off-thing",
         "plunder",
         "unjust gain"
-      ]
+      ],
+      "held_by": {
+        "plunder": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "unjust gain": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רע",
-      "gloss": "of evil"
+      "gloss": "evil"
     },
     {
       "surface": "לביתו",
@@ -58,15 +71,40 @@
       "gloss": "from the palm of",
       "readings": [
         "from the palm of",
-        "from the hand of",
-        "from the power of"
-      ]
+        "from the hand of"
+      ],
+      "held_by": {
+        "from the palm of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from the hand of": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רע",
-      "gloss": "evil"
+      "gloss": "calamity",
+      "readings": [
+        "calamity",
+        "evil"
+      ],
+      "held_by": {
+        "calamity": [
+          "v2",
+          "v3"
+        ],
+        "evil": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T16:38:20.317080160Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "deuteronomy 30:3",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "then YHWH your Elohim will turn ⟨את⟩ your captivity, and he will have compassion on you, and will return and gather you from all the peoples where YHWH your Elohim has scattered you.",
+  "translation": "then YHWH your Elohim will restore ⟨את⟩ your captivity and have compassion on you, and he will return and gather you from all the peoples where YHWH your Elohim has scattered you there.",
   "tokens": [
     {
       "surface": "ושב",
-      "gloss": "then he will turn"
+      "gloss": "will restore",
+      "readings": [
+        "will restore",
+        "will turn",
+        "will return"
+      ],
+      "held_by": {
+        "will restore": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will turn": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -21,25 +31,49 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "your captivity"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "שבותך",
       "gloss": "your captivity",
       "readings": [
         "your captivity",
-        "your returning",
-        "your fortunes"
-      ]
+        "your fortunes",
+        "your returning"
+      ],
+      "held_by": {
+        "your captivity": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "your fortunes": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ורחמך",
-      "gloss": "and he will have compassion on you"
+      "gloss": "and have compassion on you"
     },
     {
       "surface": "ושב",
-      "gloss": "and will return"
+      "gloss": "and he will return",
+      "readings": [
+        "and he will return",
+        "and he will turn"
+      ],
+      "held_by": {
+        "and he will return": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and he will turn": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "וקבצך",
@@ -74,6 +108,6 @@
       "gloss": "there"
     }
   ],
-  "timestamp": "2026-09-20T16:16:53.143790127Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

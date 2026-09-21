@@ -1,49 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "psalms 140:13",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 140,
-  "translation": "I have known that YHWH will make דין the afflicted, משפט the needy ones.",
+  "translation": "I know that YHWH will do ⟨the⟩ judgment of the afflicted, ⟨the⟩ judgment of the needy.",
   "tokens": [
     {
-      "surface": "יָדַעְתִּי",
-      "gloss": "I have known"
+      "surface": "ידעת",
+      "gloss": "I know"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "that"
     },
     {
-      "surface": "יַעֲשֶׂה",
-      "gloss": "will make"
+      "surface": "יעשה",
+      "gloss": "will do",
+      "readings": [
+        "will do",
+        "will make"
+      ],
+      "held_by": {
+        "will do": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will make": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "דִּין",
+      "surface": "דין",
       "gloss": "judgment"
     },
     {
-      "surface": "עָנִי",
+      "surface": "עני",
       "gloss": "the afflicted",
       "readings": [
         "the afflicted",
         "the poor"
-      ]
+      ],
+      "held_by": {
+        "the afflicted": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the poor": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִשְׁפַּט",
-      "gloss": "the justice of"
+      "surface": "משפט",
+      "gloss": "judgment"
     },
     {
-      "surface": "אֶבְיֹנִים",
-      "gloss": "the needy ones"
+      "surface": "אבינים",
+      "gloss": "the needy",
+      "readings": [
+        "the needy",
+        "the destitute"
+      ],
+      "held_by": {
+        "the needy": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the destitute": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:09:46.068077884Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

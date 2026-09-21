@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "1-samuel 23:15",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "And David saw that Saul had come out to seek ⟨את⟩ his life; and David was in the wilderness of Ziph, in Horesh.",
+  "translation": "And David saw that Saul had gone out to seek ⟨את⟩ his life; and David was in the wilderness of Ziph, in Horesh.",
   "tokens": [
     {
       "surface": "וירא",
@@ -21,7 +16,22 @@
     },
     {
       "surface": "יצא",
-      "gloss": "had come out"
+      "gloss": "had gone out",
+      "readings": [
+        "had gone out",
+        "had come out"
+      ],
+      "held_by": {
+        "had gone out": [
+          "v1",
+          "v3"
+        ],
+        "had come out": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שאול",
@@ -33,8 +43,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "his life"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "נפשו",
@@ -42,7 +51,18 @@
       "readings": [
         "his life",
         "his soul"
-      ]
+      ],
+      "held_by": {
+        "his life": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his soul": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ודוד",
@@ -62,9 +82,20 @@
       "readings": [
         "in Horesh",
         "in a forest"
-      ]
+      ],
+      "held_by": {
+        "in Horesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in a forest": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:04:11.026177173Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

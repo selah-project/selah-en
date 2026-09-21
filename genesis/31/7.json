@@ -1,10 +1,5 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "genesis 31:7",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 31,
   "translation": "And your father has mocked me, and he has changed ⟨את⟩ my wages ten times; and Elohim has not given him to do harm with me.",
   "tokens": [
     {
@@ -17,7 +12,18 @@
       "readings": [
         "has mocked",
         "has deceived"
-      ]
+      ],
+      "held_by": {
+        "has mocked": [
+          "v1",
+          "en4"
+        ],
+        "has deceived": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בי",
@@ -29,8 +35,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "my wages"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "משכרתי",
@@ -42,11 +47,7 @@
     },
     {
       "surface": "מנים",
-      "gloss": "times",
-      "readings": [
-        "times",
-        "counted portions"
-      ]
+      "gloss": "times"
     },
     {
       "surface": "ולא",
@@ -54,11 +55,22 @@
     },
     {
       "surface": "נתנו",
-      "gloss": "he has given him",
+      "gloss": "has given him",
       "readings": [
-        "he has given him",
-        "he has permitted him"
-      ]
+        "has given him",
+        "has permitted him"
+      ],
+      "held_by": {
+        "has given him": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "has permitted him": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהים",
@@ -73,6 +85,6 @@
       "gloss": "with me"
     }
   ],
-  "timestamp": "2026-09-20T12:22:28.443273451Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

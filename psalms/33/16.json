@@ -1,62 +1,92 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "psalms 33:16",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "No king is delivered by the abundance of a host; a mighty man is not snatched away by the abundance of strength.",
+  "translation": "No king is saved by the abundance of a host, and a mighty man is not delivered by the abundance of strength.",
   "tokens": [
     {
-      "surface": "אֵין",
-      "gloss": "there is no"
+      "surface": "אין",
+      "gloss": "no"
     },
     {
-      "surface": "הַמֶּלֶךְ",
+      "surface": "המלך",
       "gloss": "king"
     },
     {
-      "surface": "נוֹשָׁע",
-      "gloss": "delivered",
+      "surface": "נושע",
+      "gloss": "is saved",
       "readings": [
-        "delivered",
-        "saved"
-      ]
+        "is saved",
+        "is delivered"
+      ],
+      "held_by": {
+        "is saved": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "is delivered": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בְּרָב",
+      "surface": "ברב",
       "gloss": "by the abundance of"
     },
     {
-      "surface": "חַיִל",
+      "surface": "חיל",
       "gloss": "a host",
       "readings": [
         "a host",
-        "a force",
-        "wealth"
-      ]
+        "an army"
+      ],
+      "held_by": {
+        "a host": [
+          "v1",
+          "en4"
+        ],
+        "an army": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "גִּבּוֹר",
+      "surface": "גבור",
       "gloss": "a mighty man"
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יִנָּצֵל",
-      "gloss": "is snatched away"
+      "surface": "ינצל",
+      "gloss": "is delivered",
+      "readings": [
+        "is delivered",
+        "is snatched away"
+      ],
+      "held_by": {
+        "is delivered": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "is snatched away": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּרָב",
+      "surface": "ברב",
       "gloss": "by the abundance of"
     },
     {
-      "surface": "כֹּחַ",
+      "surface": "כח",
       "gloss": "strength"
     }
   ],
-  "timestamp": "2026-09-20T10:42:41.841182529Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

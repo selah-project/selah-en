@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "2-kings 9:17",
-  "book": "2-kings",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And the watchman was standing on the tower in Jezreel, and he saw ⟨את⟩ the company of Jehu in his coming, and said, A company I see. And Jehoram said, Take a rider and send to meet them, and let him say, Is it peace?",
+  "translation": "And the watchman standing on the tower in Jezreel saw ⟨את⟩ the company of Jehu in his coming, and said, A company I see. And Jehoram said, Take a rider and send to meet them, and let him say, Is it peace?",
   "tokens": [
     {
       "surface": "והצפה",
@@ -33,8 +28,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the company of Jehu"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "שפעת",
@@ -78,7 +72,21 @@
     },
     {
       "surface": "רכב",
-      "gloss": "a rider"
+      "gloss": "a rider",
+      "readings": [
+        "a rider",
+        "a horseman"
+      ],
+      "held_by": {
+        "a rider": [
+          "v2",
+          "en4"
+        ],
+        "a horseman": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "ושלח",
@@ -94,13 +102,24 @@
     },
     {
       "surface": "השלום",
-      "gloss": "Is it peace",
+      "gloss": "Is it peace?",
       "readings": [
-        "Is it peace",
-        "Is it well"
-      ]
+        "Is it peace?",
+        "Is it well?"
+      ],
+      "held_by": {
+        "Is it peace?": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "Is it well?": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:19:34.023334194Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

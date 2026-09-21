@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "judges 9:13",
-  "book": "judges",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And the vine said to them, Should I leave ⟨את⟩ my new wine, which cheers Elohim and men, and go to sway over the trees?",
+  "translation": "And the vine said to them, “Should I cease ⟨את⟩ my new wine, which cheers Elohim and men, and go to sway over the trees?”",
   "tokens": [
     {
       "surface": "וַתֹּאמֶר",
-      "gloss": "and said"
+      "gloss": "And … said"
     },
     {
       "surface": "לָהֶם",
@@ -20,28 +15,34 @@
       "gloss": "the vine"
     },
     {
-      "surface": "הֶחֳדַלְתִּי",
-      "gloss": "should I leave",
+      "surface": "הֶחְדַלְתִּי",
+      "gloss": "Should I cease",
       "readings": [
-        "should I leave",
-        "have I ceased"
-      ]
+        "Should I cease",
+        "Should I leave"
+      ],
+      "held_by": {
+        "Should I cease": [
+          "v2",
+          "v3"
+        ],
+        "Should I leave": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "my new wine"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "תִּירוֹשִׁי",
-      "gloss": "my new wine",
-      "readings": [
-        "my new wine",
-        "my wine"
-      ]
+      "gloss": "my new wine"
     },
     {
-      "surface": "הַמְשַׂמֵּחַ",
+      "surface": "הַמְשַׂמֵחַ",
       "gloss": "which cheers"
     },
     {
@@ -62,7 +63,18 @@
       "readings": [
         "to sway",
         "to tremble"
-      ]
+      ],
+      "held_by": {
+        "to sway": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "to tremble": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עַל",
@@ -73,6 +85,6 @@
       "gloss": "the trees"
     }
   ],
-  "timestamp": "2026-09-20T16:19:42.220396761Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

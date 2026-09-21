@@ -1,45 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "job 12:15",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "Behold, He withholds ⟨in⟩ the waters, and they dry up; and He sends them out, and they overturn the earth.",
+  "translation": "Behold, He holds back the waters, and they dry up; and He sends them out, and they overturn the earth.",
   "tokens": [
     {
-      "surface": "הֵ֤ן",
+      "surface": "הן",
       "gloss": "behold"
     },
     {
-      "surface": "יַעְצֹ֣ר",
-      "gloss": "he withholds"
+      "surface": "יעצר",
+      "gloss": "holds back",
+      "readings": [
+        "holds back",
+        "withholds"
+      ],
+      "held_by": {
+        "holds back": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "withholds": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בַּמַּ֣יִם",
-      "gloss": "in the waters"
+      "surface": "במים",
+      "gloss": "the waters"
     },
     {
-      "surface": "וְיִבָ֑שׁוּ",
+      "surface": "ויבשו",
       "gloss": "and they dry up"
     },
     {
-      "surface": "וִֽ֝ישַׁלְּחֵ֗ם",
+      "surface": "וישלחם",
       "gloss": "and He sends them out"
     },
     {
-      "surface": "וְיַ֖הַפְכוּ",
+      "surface": "ויהפכו",
       "gloss": "and they overturn"
     },
     {
-      "surface": "אָֽרֶץ",
+      "surface": "ארץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:51:23.615777844Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

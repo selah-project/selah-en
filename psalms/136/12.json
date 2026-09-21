@@ -1,53 +1,78 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 136:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 136,
-  "translation": "With a strong hand and with an outstretched arm, for His chesed endures for the age.",
+  "translation": "With a strong hand and with an outstretched arm, for His chesed endures forever.",
   "tokens": [
     {
-      "surface": "בְּיָד",
+      "surface": "ביד",
       "gloss": "with a hand"
     },
     {
-      "surface": "חֲזָקָה",
+      "surface": "חזקה",
       "gloss": "strong"
     },
     {
-      "surface": "וּבִזְרוֹעַ",
+      "surface": "ובזרוע",
       "gloss": "and with an arm"
     },
     {
-      "surface": "נְטוּיָה",
+      "surface": "נטויה",
       "gloss": "outstretched",
       "readings": [
         "outstretched",
         "bent away"
-      ]
+      ],
+      "held_by": {
+        "outstretched": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "bent away": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "לְעוֹלָם",
-      "gloss": "for the age",
+      "surface": "לעולם",
+      "gloss": "forever",
       "readings": [
-        "for the age",
-        "forever"
-      ]
+        "forever",
+        "for the age"
+      ],
+      "held_by": {
+        "forever": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for the age": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חַסְדּוֹ",
+      "surface": "חסדו",
       "gloss": "His chesed",
       "readings": [
         "His chesed",
         "His steadfast love"
-      ]
+      ],
+      "held_by": {
+        "His chesed": [
+          "v3",
+          "en4"
+        ],
+        "His steadfast love": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:49:44.981724294Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

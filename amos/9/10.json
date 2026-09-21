@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "amos 9:10",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "By the sword shall die all the sinners of my people, the ones saying, The evil shall not draw near nor confront us.",
+  "translation": "By the sword shall die all the sinners of my people, who say, “The evil shall not overtake nor confront us.”",
   "tokens": [
     {
       "surface": "בחרב",
@@ -29,7 +24,7 @@
     },
     {
       "surface": "האמרים",
-      "gloss": "the ones saying"
+      "gloss": "who say"
     },
     {
       "surface": "לא",
@@ -37,24 +32,60 @@
     },
     {
       "surface": "תגיש",
-      "gloss": "shall draw near",
+      "gloss": "overtake",
       "readings": [
-        "shall draw near",
-        "shall overtake"
-      ]
+        "overtake",
+        "draw near"
+      ],
+      "held_by": {
+        "overtake": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "draw near": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ותקדים",
       "gloss": "nor confront",
       "readings": [
         "nor confront",
-        "nor come before",
-        "nor meet"
-      ]
+        "nor go before"
+      ],
+      "held_by": {
+        "nor confront": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "nor go before": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בעדינו",
-      "gloss": "us"
+      "gloss": "against us",
+      "readings": [
+        "against us",
+        "for ⟨our⟩ sake"
+      ],
+      "held_by": {
+        "against us": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "for ⟨our⟩ sake": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "הרעה",
@@ -62,9 +93,20 @@
       "readings": [
         "the evil",
         "the disaster"
-      ]
+      ],
+      "held_by": {
+        "the evil": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the disaster": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:38:12.914383784Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

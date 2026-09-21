@@ -1,41 +1,60 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "psalms 44:17",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 44,
   "translation": "From the voice of the reviler and the blasphemer, from before the enemy and the avenger.",
   "tokens": [
     {
-      "surface": "מִקּוֹל",
+      "surface": "מקול",
       "gloss": "from the voice of"
     },
     {
-      "surface": "מְחָרֵף",
-      "gloss": "the reviler"
+      "surface": "מחרף",
+      "gloss": "the reproacher",
+      "readings": [
+        "the reproacher",
+        "the reviler"
+      ],
+      "held_by": {
+        "the reproacher": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the reviler": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וּמְגַדֵּף",
+      "surface": "ומגדף",
       "gloss": "and the blasphemer"
     },
     {
-      "surface": "מִפְּנֵי",
+      "surface": "מפני",
       "gloss": "from before",
       "readings": [
         "from before",
         "from the face of"
-      ]
+      ],
+      "held_by": {
+        "from before": [
+          "en4"
+        ],
+        "from the face of": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אוֹיֵב",
+      "surface": "אויב",
       "gloss": "the enemy"
     },
     {
-      "surface": "וּמִתְנַקֵּם",
+      "surface": "ומתנקם",
       "gloss": "and the avenger"
     }
   ],
-  "timestamp": "2026-09-20T10:43:19.665454039Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

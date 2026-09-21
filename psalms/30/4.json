@@ -1,50 +1,88 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 30:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "YHWH, you have brought up my nefesh from Sheol; you have kept me alive, from among those going down to the pit.",
+  "translation": "YHWH, you brought up my nefesh from Sheol; you kept me alive from among those going down to the pit.",
   "tokens": [
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "הֶעֱלִיתָ",
-      "gloss": "you have brought up"
+      "surface": "העלית",
+      "gloss": "you brought up"
     },
     {
-      "surface": "מִן",
+      "surface": "מן",
       "gloss": "from"
     },
     {
-      "surface": "שְׁאוֹל",
+      "surface": "שאול",
       "gloss": "Sheol"
     },
     {
-      "surface": "נַפְשִׁי",
+      "surface": "נפשי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
         "my life",
         "my soul"
-      ]
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חִיִּיתַנִי",
-      "gloss": "you have kept me alive"
+      "surface": "חייתני",
+      "gloss": "you kept me alive"
     },
     {
-      "surface": "מִיּוֹרְדֵי",
-      "gloss": "from among those going down to"
+      "surface": "מיורדי",
+      "gloss": "from among those going down",
+      "readings": [
+        "from among those going down",
+        "from going down"
+      ],
+      "held_by": {
+        "from among those going down": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from going down": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "בוֹר",
-      "gloss": "the pit"
+      "surface": "בור",
+      "gloss": "to the pit",
+      "readings": [
+        "to the pit",
+        "the pit"
+      ],
+      "held_by": {
+        "to the pit": [
+          "v1",
+          "en4"
+        ],
+        "the pit": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:42:17.947013175Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

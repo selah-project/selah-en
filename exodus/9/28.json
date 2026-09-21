@@ -1,19 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 28,
-  "ref": "exodus 9:28",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "Pray to YHWH, and it is much — the voices of Elohim and the hail — and I will let you go, and you shall not add to stand.",
+  "translation": "Make supplication to YHWH — and it is much from being the voices of Elohim and the hail — and I will send ⟨את⟩ you away, and you shall not add to stand.",
   "tokens": [
     {
       "surface": "העתירו",
-      "gloss": "Pray",
+      "gloss": "make supplication",
       "readings": [
-        "Pray",
-        "make supplication"
-      ]
+        "make supplication",
+        "entreat"
+      ],
+      "held_by": {
+        "make supplication": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "entreat": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אל",
@@ -25,7 +31,21 @@
     },
     {
       "surface": "ורב",
-      "gloss": "and it is much"
+      "gloss": "and it is much",
+      "readings": [
+        "and it is much",
+        "and it is enough"
+      ],
+      "held_by": {
+        "and it is much": [
+          "v1",
+          "en4"
+        ],
+        "and it is enough": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "מהית",
@@ -37,24 +57,48 @@
       "readings": [
         "voices",
         "thunders"
-      ]
+      ],
+      "held_by": {
+        "voices": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "thunders": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהים",
-      "gloss": "Elohim"
+      "gloss": "of Elohim"
     },
     {
       "surface": "וברד",
-      "gloss": "and the hail"
+      "gloss": "and hail"
     },
     {
       "surface": "ואשלחה",
-      "gloss": "and I will let go"
+      "gloss": "and I will send",
+      "readings": [
+        "and I will send",
+        "and I will let go"
+      ],
+      "held_by": {
+        "and I will send": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I will let go": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "ולא",
@@ -62,13 +106,13 @@
     },
     {
       "surface": "תספון",
-      "gloss": "you shall add"
+      "gloss": "add"
     },
     {
       "surface": "לעמד",
       "gloss": "to stand"
     }
   ],
-  "timestamp": "2026-09-20T16:10:31.974850246Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

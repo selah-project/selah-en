@@ -1,49 +1,107 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 49,
-  "ref": "lamentations 3:49",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "My eye is poured out and does not cease, without intermissions.",
+  "translation": "My eye pours down and does not cease, for there is no relief.",
   "tokens": [
     {
-      "surface": "עֵינִי",
+      "surface": "עיני",
       "gloss": "My eye"
     },
     {
-      "surface": "נִגְּרָה",
-      "gloss": "is poured out",
+      "surface": "נגרה",
+      "gloss": "pours down",
       "readings": [
-        "is poured out",
-        "flows down"
-      ]
+        "pours down",
+        "is poured out"
+      ],
+      "held_by": {
+        "pours down": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "is poured out": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְלֹא",
-      "gloss": "and does not"
+      "surface": "ולא",
+      "gloss": "and does not",
+      "readings": [
+        "and does not",
+        "and will not"
+      ],
+      "held_by": {
+        "and does not": [
+          "v1",
+          "en4"
+        ],
+        "and will not": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "תִדְמֶה",
+      "surface": "תדמה",
       "gloss": "cease",
       "readings": [
         "cease",
         "be silent"
-      ]
+      ],
+      "held_by": {
+        "cease": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "be silent": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מֵאֵין",
-      "gloss": "without"
-    },
-    {
-      "surface": "הֲפֻגֽוֹת",
-      "gloss": "intermissions",
+      "surface": "מאין",
+      "gloss": "for there is no",
       "readings": [
-        "intermissions",
-        "relaxings"
-      ]
+        "for there is no",
+        "from no",
+        "without"
+      ],
+      "held_by": {
+        "for there is no": [
+          "v2"
+        ],
+        "from no": [
+          "v1",
+          "v3"
+        ],
+        "without": [
+          "en4"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "הפגות",
+      "gloss": "relief",
+      "readings": [
+        "relief",
+        "intermissions"
+      ],
+      "held_by": {
+        "relief": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "intermissions": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:54:35.562577712Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

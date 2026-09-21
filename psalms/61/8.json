@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 61:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 61,
-  "translation": "He will sit forever before Elohim; chesed and truth — appoint them, that they may guard him.",
+  "translation": "May he sit enthroned before Elohim forever; chesed and truth appoint — may they guard him.",
   "tokens": [
     {
       "surface": "ישב",
-      "gloss": "He will sit"
+      "gloss": "may he sit enthroned",
+      "readings": [
+        "may he sit enthroned",
+        "may he dwell"
+      ],
+      "held_by": {
+        "may he sit enthroned": [
+          "v2",
+          "v3"
+        ],
+        "may he dwell": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עולם",
@@ -29,7 +38,18 @@
       "readings": [
         "chesed",
         "steadfast love"
-      ]
+      ],
+      "held_by": {
+        "chesed": [
+          "v3",
+          "en4"
+        ],
+        "steadfast love": [
+          "v1",
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואמת",
@@ -37,7 +57,18 @@
       "readings": [
         "and truth",
         "and faithfulness"
-      ]
+      ],
+      "held_by": {
+        "and truth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and faithfulness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מן",
@@ -45,13 +76,39 @@
       "readings": [
         "appoint",
         "allot"
-      ]
+      ],
+      "held_by": {
+        "appoint": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "allot": [
+          "en4"
+        ]
+      },
+      "disputed": false
     },
     {
       "surface": "ינצרהו",
-      "gloss": "they will guard him"
+      "gloss": "may they guard him",
+      "readings": [
+        "may they guard him",
+        "that they may preserve him"
+      ],
+      "held_by": {
+        "may they guard him": [
+          "v2",
+          "v3"
+        ],
+        "that they may preserve him": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:02:36.600577313Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

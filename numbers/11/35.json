@@ -1,23 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 35,
-  "ref": "numbers 11:35",
-  "book": "numbers",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "From Kibroth-hattaavah the people pulled up ⟨to⟩ Hazeroth, and they were at Hazeroth.",
+  "translation": "From Kibroth-Hattaavah the people journeyed to Hazeroth, and they stayed at Hazeroth.",
   "tokens": [
     {
       "surface": "מקברות",
-      "gloss": "from Kibroth"
+      "gloss": "From Kibroth"
     },
     {
       "surface": "התאוה",
-      "gloss": "hattaavah"
+      "gloss": "-Hattaavah"
     },
     {
       "surface": "נסעו",
-      "gloss": "pulled up, journeyed"
+      "gloss": "journeyed",
+      "readings": [
+        "journeyed",
+        "pulled up"
+      ],
+      "held_by": {
+        "journeyed": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "pulled up": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "העם",
@@ -25,17 +34,30 @@
     },
     {
       "surface": "חצרות",
-      "gloss": "Hazeroth"
+      "gloss": "to Hazeroth"
     },
     {
       "surface": "ויהיו",
-      "gloss": "and they were"
+      "gloss": "and they were",
+      "readings": [
+        "and they were",
+        "and they stayed"
+      ],
+      "held_by": {
+        "and they were": [
+          "en4"
+        ],
+        "and they stayed": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "בחצרות",
-      "gloss": "at Hazeroth"
+      "gloss": "in Hazeroth"
     }
   ],
-  "timestamp": "2026-09-20T12:40:24.802523056Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

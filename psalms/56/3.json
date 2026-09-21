@@ -1,24 +1,30 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 56:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 56,
-  "translation": "My adversaries swallowed — all the day; for many are fighting against me, O high one.",
+  "translation": "My enemies swallow me all the day, for many are fighting against me from on high.",
   "tokens": [
     {
       "surface": "שאפו",
-      "gloss": "they swallowed",
+      "gloss": "they swallow",
       "readings": [
-        "they swallowed",
-        "they gasped after",
-        "they trampled"
-      ]
+        "they swallow",
+        "they pant after",
+        "they trample"
+      ],
+      "held_by": {
+        "they swallow": [
+          "en4"
+        ],
+        "they pant after": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שוררי",
-      "gloss": "my adversaries"
+      "gloss": "my enemies"
     },
     {
       "surface": "כל",
@@ -38,7 +44,7 @@
     },
     {
       "surface": "לחמים",
-      "gloss": "are fighting"
+      "gloss": "fighting"
     },
     {
       "surface": "לי",
@@ -46,13 +52,23 @@
     },
     {
       "surface": "מרום",
-      "gloss": "O high one",
+      "gloss": "from on high",
       "readings": [
-        "O high one",
-        "on high"
-      ]
+        "from on high",
+        "O High One"
+      ],
+      "held_by": {
+        "from on high": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "O High One": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:44:41.179765778Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

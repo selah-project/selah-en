@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "1-samuel 13:14",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "And now your kingdom shall not stand. YHWH has sought for himself a man after his own heart, and YHWH has commanded him to be leader over his people, for you have not kept ⟨את⟩ that which YHWH commanded you.”",
+  "translation": "But now your kingdom shall not stand; YHWH has sought for himself a man according to his own heart, and YHWH has commanded him ⟨to be⟩ leader over his people, because you have not kept ⟨את⟩ what YHWH commanded you.”",
   "tokens": [
     {
       "surface": "ועתה",
-      "gloss": "and now"
+      "gloss": "But now"
     },
     {
       "surface": "ממלכתך",
@@ -24,9 +19,18 @@
       "gloss": "shall stand",
       "readings": [
         "shall stand",
-        "shall arise",
-        "shall endure"
-      ]
+        "shall continue"
+      ],
+      "held_by": {
+        "shall stand": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "shall continue": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "בקש",
@@ -46,11 +50,22 @@
     },
     {
       "surface": "כלבבו",
-      "gloss": "after his own heart",
+      "gloss": "according to his own heart",
       "readings": [
-        "after his own heart",
-        "according to his heart"
-      ]
+        "according to his own heart",
+        "after his own heart"
+      ],
+      "held_by": {
+        "according to his own heart": [
+          "v1",
+          "v3"
+        ],
+        "after his own heart": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויצוהו",
@@ -62,12 +77,22 @@
     },
     {
       "surface": "לנגיד",
-      "gloss": "to be leader",
+      "gloss": "leader",
       "readings": [
-        "to be leader",
-        "to be prince",
-        "to be commissioner"
-      ]
+        "leader",
+        "prince"
+      ],
+      "held_by": {
+        "leader": [
+          "v1",
+          "en4"
+        ],
+        "prince": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
@@ -79,7 +104,7 @@
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "because"
     },
     {
       "surface": "לא",
@@ -91,12 +116,24 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "that which YHWH commanded you"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "אשר",
-      "gloss": "that which"
+      "gloss": "which",
+      "readings": [
+        "which",
+        "that which"
+      ],
+      "held_by": {
+        "which": [
+          "v1",
+          "v3"
+        ],
+        "that which": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "צוך",
@@ -107,6 +144,6 @@
       "gloss": "YHWH"
     }
   ],
-  "timestamp": "2026-09-20T10:08:32.927585767Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

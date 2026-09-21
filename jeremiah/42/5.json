@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "jeremiah 42:5",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 42,
-  "translation": "And they said to Jeremiah, Let YHWH be against us for a witness of truth and faithfulness — if not: according to all the word that YHWH your God sends you to us, so we will do.",
+  "translation": "Then they said to Jeremiah, “Let YHWH be among us for a witness of truth and faithfulness: if not — according to all the word that YHWH your Elohim sends you to us, so we will do.”",
   "tokens": [
     {
       "surface": "וְהֵמָּה",
@@ -25,15 +20,30 @@
     },
     {
       "surface": "יְהִי",
-      "gloss": "let… be"
+      "gloss": "let be"
     },
     {
       "surface": "יְהוָה",
       "gloss": "YHWH"
     },
     {
-      "surface": "בָּנוּ",
-      "gloss": "against us"
+      "surface": "בנו",
+      "gloss": "among us",
+      "readings": [
+        "among us",
+        "against us"
+      ],
+      "held_by": {
+        "among us": [
+          "v1",
+          "v3"
+        ],
+        "against us": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לְעֵד",
@@ -56,12 +66,27 @@
       "gloss": "not"
     },
     {
-      "surface": "כְּכָל",
+      "surface": "כְּכֹל",
       "gloss": "according to all"
     },
     {
       "surface": "הַדָּבָר",
-      "gloss": "the word"
+      "gloss": "the word",
+      "readings": [
+        "the word",
+        "the matter"
+      ],
+      "held_by": {
+        "the word": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the matter": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אֲשֶׁר",
@@ -69,7 +94,7 @@
     },
     {
       "surface": "יִשְׁלָחֲךָ",
-      "gloss": "he sends you"
+      "gloss": "sends you"
     },
     {
       "surface": "יְהוָה",
@@ -77,7 +102,7 @@
     },
     {
       "surface": "אֱלֹהֶיךָ",
-      "gloss": "your God"
+      "gloss": "your Elohim"
     },
     {
       "surface": "אֵלֵינוּ",
@@ -92,6 +117,6 @@
       "gloss": "we will do"
     }
   ],
-  "timestamp": "2026-09-20T15:31:14.777903794Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

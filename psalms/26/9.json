@@ -1,62 +1,72 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 26:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "Do not gather with sinners my soul, and with men of blood my life.",
+  "translation": "Do not gather my soul with sinners, nor my life with men of bloods.",
   "tokens": [
     {
-      "surface": "אַל",
-      "gloss": "not"
+      "surface": "אל",
+      "gloss": "Do not"
     },
     {
-      "surface": "תֶּאֱסֹף",
+      "surface": "תאסף",
       "gloss": "gather"
     },
     {
-      "surface": "עִם",
+      "surface": "עם",
       "gloss": "with"
     },
     {
-      "surface": "חַטָּאִים",
+      "surface": "חטאים",
       "gloss": "sinners"
     },
     {
-      "surface": "נַפְשִׁי",
+      "surface": "נפשי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my life",
-        "my breath"
-      ]
+        "my life"
+      ],
+      "held_by": {
+        "my soul": [
+          "v1",
+          "en4"
+        ],
+        "my nefesh": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "וְעִם",
-      "gloss": "and with"
+      "surface": "ועם",
+      "gloss": "nor with"
     },
     {
-      "surface": "אַנְשֵׁי",
+      "surface": "אנשי",
       "gloss": "men of"
     },
     {
-      "surface": "דָמִים",
-      "gloss": "blood",
+      "surface": "דמים",
+      "gloss": "bloods",
       "readings": [
-        "blood",
+        "bloods",
         "bloodshed"
-      ]
+      ],
+      "held_by": {
+        "bloods": [
+          "v2",
+          "v3"
+        ],
+        "blood": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חַיָּי",
-      "gloss": "my life",
-      "readings": [
-        "my life",
-        "my living"
-      ]
+      "surface": "חיי",
+      "gloss": "my life"
     }
   ],
-  "timestamp": "2026-09-20T13:59:04.012088282Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

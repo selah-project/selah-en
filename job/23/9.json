@@ -1,23 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "job 23:9",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "To the left, in his doing — and not do I behold; he covers himself on the right — and not do I see.",
+  "translation": "On the left when he acts, and I do not behold; he covers himself on the right hand, and I do not see.",
   "tokens": [
     {
       "surface": "שמאול",
-      "gloss": "to the left",
+      "gloss": "on the left",
       "readings": [
-        "to the left",
-        "to the north"
-      ]
+        "on the left",
+        "the north"
+      ],
+      "held_by": {
+        "on the left": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the north": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בעשתו",
-      "gloss": "in his doing"
+      "gloss": "when he acts"
     },
     {
       "surface": "ולא",
@@ -25,24 +31,60 @@
     },
     {
       "surface": "אחז",
-      "gloss": "I behold"
+      "gloss": "I behold",
+      "readings": [
+        "I behold",
+        "I perceive"
+      ],
+      "held_by": {
+        "I behold": [
+          "v1",
+          "en4"
+        ],
+        "I perceive": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יעטף",
       "gloss": "he covers himself",
       "readings": [
         "he covers himself",
-        "he shrouds himself",
         "he turns aside"
-      ]
+      ],
+      "held_by": {
+        "he covers himself": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "he turns aside": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ימין",
-      "gloss": "the right",
+      "gloss": "the right hand",
       "readings": [
-        "the right",
+        "the right hand",
         "the south"
-      ]
+      ],
+      "held_by": {
+        "the right hand": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the south": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולא",
@@ -53,6 +95,6 @@
       "gloss": "I see"
     }
   ],
-  "timestamp": "2026-09-20T10:56:17.391430493Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

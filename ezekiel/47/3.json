@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "ezekiel 47:3",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 47,
-  "translation": "In the going out of the man eastward, and a line in his hand, and he measured a thousand by the cubit, and he caused me to pass through the waters — waters of the ankles.",
+  "translation": "At the going out of the man eastward, and ⟨a⟩ line in his hand, and he measured a thousand by the cubit, and he brought me through the waters — waters of the ankles.",
   "tokens": [
     {
       "surface": "בצאת",
-      "gloss": "in the going out of"
+      "gloss": "at the going out of"
     },
     {
       "surface": "האיש",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "וקו",
-      "gloss": "and a line"
+      "gloss": "and ⟨a⟩ line"
     },
     {
       "surface": "בידו",
@@ -41,7 +36,21 @@
     },
     {
       "surface": "ויעברני",
-      "gloss": "and he caused me to pass through"
+      "gloss": "and he brought me through",
+      "readings": [
+        "and he brought me through",
+        "and he caused me to pass through"
+      ],
+      "held_by": {
+        "and he brought me through": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and he caused me to pass through": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "במים",
@@ -49,13 +58,28 @@
     },
     {
       "surface": "מי",
-      "gloss": "waters of"
+      "gloss": "waters"
     },
     {
       "surface": "אפסים",
-      "gloss": "the ankles"
+      "gloss": "of the ankles",
+      "readings": [
+        "of the ankles",
+        "to the ankles"
+      ],
+      "held_by": {
+        "of the ankles": [
+          "v1",
+          "en4"
+        ],
+        "to the ankles": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:36:10.747460021Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

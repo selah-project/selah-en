@@ -1,69 +1,100 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 50:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 50,
-  "translation": "A psalm for Asaph. El Elohim YHWH spoke and called the earth, from the rising of the sun to its going in.",
+  "translation": "A psalm of Asaph: El, Elohim, YHWH—has spoken, and has called the earth from the rising of the sun until its going down.",
   "tokens": [
     {
-      "surface": "מִזְמוֹר",
+      "surface": "מזמור",
       "gloss": "A psalm"
     },
     {
-      "surface": "לְאָסָף",
-      "gloss": "for Asaph"
+      "surface": "לאסף",
+      "gloss": "of Asaph"
     },
     {
-      "surface": "אֵל",
+      "surface": "אל",
       "gloss": "El"
     },
     {
-      "surface": "אֱלֹהִים",
+      "surface": "אלהים",
       "gloss": "Elohim"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "דִּבֶּר",
-      "gloss": "spoke"
+      "surface": "דבר",
+      "gloss": "has spoken"
     },
     {
-      "surface": "וַיִּקְרָא",
-      "gloss": "and called"
+      "surface": "ויקרא",
+      "gloss": "and has called"
     },
     {
-      "surface": "אָרֶץ",
+      "surface": "ארץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִמִּזְרַח",
-      "gloss": "from the rising of"
+      "surface": "ממזרח",
+      "gloss": "from the rising"
     },
     {
-      "surface": "שֶׁמֶשׁ",
-      "gloss": "the sun"
+      "surface": "שמש",
+      "gloss": "of the sun"
     },
     {
-      "surface": "עַד",
-      "gloss": "unto"
-    },
-    {
-      "surface": "מְבֹאוֹ",
-      "gloss": "its going in",
+      "surface": "עד",
+      "gloss": "until",
       "readings": [
-        "its going in",
-        "its setting"
-      ]
+        "until",
+        "to"
+      ],
+      "held_by": {
+        "until": [
+          "v1",
+          "v3"
+        ],
+        "to": [
+          "v2",
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "מבאו",
+      "gloss": "its going down",
+      "readings": [
+        "its going down",
+        "its going in"
+      ],
+      "disputed": true,
+      "held_by": {
+        "its going down": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "its going in": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:43:51.373913193Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

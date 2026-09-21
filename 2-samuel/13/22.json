@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "2-samuel 13:22",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "And Absalom did not speak with Amnon from evil and until good, for Absalom hated ⟨את⟩ Amnon, on account of the word that he humbled ⟨את⟩ Tamar his sister.",
+  "translation": "And Absalom did not speak with Amnon from evil and until good, for Absalom hated ⟨את⟩ Amnon, on account of the matter that he humiliated ⟨את⟩ Tamar his sister.",
   "tokens": [
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "And…not"
     },
     {
       "surface": "דבר",
-      "gloss": "spoke"
+      "gloss": "did speak"
     },
     {
       "surface": "אבשלום",
@@ -21,7 +16,11 @@
     },
     {
       "surface": "עם",
-      "gloss": "with"
+      "gloss": "with",
+      "readings": [
+        "with",
+        "to"
+      ]
     },
     {
       "surface": "אמנון",
@@ -33,7 +32,11 @@
     },
     {
       "surface": "ועד",
-      "gloss": "and until"
+      "gloss": "and until",
+      "readings": [
+        "and until",
+        "to"
+      ]
     },
     {
       "surface": "טוב",
@@ -53,8 +56,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Amnon"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "אמנון",
@@ -66,11 +68,22 @@
     },
     {
       "surface": "דבר",
-      "gloss": "the word",
+      "gloss": "the matter",
       "readings": [
-        "the word",
-        "the matter"
-      ]
+        "the matter",
+        "the word"
+      ],
+      "held_by": {
+        "the matter": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the word": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אשר",
@@ -78,17 +91,26 @@
     },
     {
       "surface": "ענה",
-      "gloss": "humbled",
+      "gloss": "he humiliated",
       "readings": [
-        "humbled",
-        "afflicted",
-        "violated"
-      ]
+        "he humiliated",
+        "humbled"
+      ],
+      "held_by": {
+        "he humiliated": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "humbled": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Tamar"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "תמר",
@@ -99,6 +121,6 @@
       "gloss": "his sister"
     }
   ],
-  "timestamp": "2026-09-20T17:23:37.616439191Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

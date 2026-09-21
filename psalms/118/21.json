@@ -1,45 +1,62 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 21,
-  "ref": "psalms 118:21",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 118,
-  "translation": "I will give thanks to you, for you answered me, and you became my salvation.",
+  "translation": "I will give thanks to you, for you have answered me, and you have become for me for salvation.",
   "tokens": [
     {
-      "surface": "אוֹדְךָ",
+      "surface": "אודך",
       "gloss": "I will give thanks to you"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "עֲנִיתָנִי",
-      "gloss": "you answered me",
+      "surface": "עניתני",
+      "gloss": "you have answered me",
       "readings": [
-        "you answered me",
+        "you have answered me",
         "you afflicted me"
-      ]
+      ],
+      "held_by": {
+        "you have answered me": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you afflicted me": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וַתְּהִי",
-      "gloss": "and you became"
+      "surface": "ותהי",
+      "gloss": "and you have become"
     },
     {
-      "surface": "לִי",
+      "surface": "לי",
       "gloss": "for me"
     },
     {
-      "surface": "לִישׁוּעָה",
+      "surface": "לישועה",
       "gloss": "for salvation",
       "readings": [
         "for salvation",
-        "for deliverance"
-      ]
+        "a salvation"
+      ],
+      "held_by": {
+        "for salvation": [
+          "en4"
+        ],
+        "a salvation": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:08:12.003094128Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

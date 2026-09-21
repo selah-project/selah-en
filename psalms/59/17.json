@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "psalms 59:17",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 59,
-  "translation": "But as for me, I will sing of your strength, and I will sing aloud at morning of your chesed, for you have been a high place ⟨for me⟩, and a refuge in a day of narrowness ⟨for me⟩.",
+  "translation": "But as for me, I will sing of your strength, and I will shout aloud in the morning of your chesed; for you have been a high tower for me, and a refuge in the day of distress for me.",
   "tokens": [
     {
       "surface": "ואני",
@@ -17,19 +12,33 @@
     },
     {
       "surface": "עזך",
-      "gloss": "your strength"
+      "gloss": "of your strength"
     },
     {
       "surface": "וארנן",
-      "gloss": "and I will sing aloud"
+      "gloss": "and I will shout aloud"
     },
     {
       "surface": "לבקר",
-      "gloss": "at morning"
+      "gloss": "in the morning"
     },
     {
       "surface": "חסדך",
-      "gloss": "your chesed"
+      "gloss": "of your chesed",
+      "readings": [
+        "of your chesed",
+        "of your lovingkindness"
+      ],
+      "held_by": {
+        "of your chesed": [
+          "v3",
+          "en4"
+        ],
+        "of your lovingkindness": [
+          "v1",
+          "v2"
+        ]
+      }
     },
     {
       "surface": "כי",
@@ -41,7 +50,21 @@
     },
     {
       "surface": "משגב",
-      "gloss": "a high place"
+      "gloss": "a high tower",
+      "readings": [
+        "a high tower",
+        "a high place"
+      ],
+      "held_by": {
+        "a high tower": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a high place": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לי",
@@ -53,22 +76,36 @@
     },
     {
       "surface": "ביום",
-      "gloss": "in a day of"
+      "gloss": "in the day of"
     },
     {
       "surface": "צר",
-      "gloss": "narrowness",
+      "gloss": "distress",
       "readings": [
-        "narrowness",
         "distress",
+        "narrowness",
         "an adversary"
-      ]
+      ],
+      "held_by": {
+        "distress": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "narrowness": [
+          "en4"
+        ],
+        "an adversary": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לי",
       "gloss": "for me"
     }
   ],
-  "timestamp": "2026-09-20T15:44:22.930037891Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

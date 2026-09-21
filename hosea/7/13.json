@@ -1,19 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "hosea 7:13",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "Woe to them, for they have strayed from me; havoc to them, for they have rebelled against me — and I, I would ransom them, and they have spoken lies against me.",
+  "translation": "Woe to them, for they have wandered from me — destruction to them, for they have transgressed against me! And I — I would ransom them, and they spoke lies against me.",
   "tokens": [
     {
       "surface": "אוי",
-      "gloss": "Woe",
-      "readings": [
-        "Woe",
-        "Oh!"
-      ]
+      "gloss": "Woe"
     },
     {
       "surface": "להם",
@@ -25,7 +16,7 @@
     },
     {
       "surface": "נדדו",
-      "gloss": "they have strayed"
+      "gloss": "they have wandered"
     },
     {
       "surface": "ממני",
@@ -33,12 +24,21 @@
     },
     {
       "surface": "שד",
-      "gloss": "havoc",
+      "gloss": "destruction",
       "readings": [
-        "havoc",
-        "violence",
-        "devastation"
-      ]
+        "destruction",
+        "havoc"
+      ],
+      "held_by": {
+        "destruction": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "havoc": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "להם",
@@ -50,11 +50,7 @@
     },
     {
       "surface": "פשעו",
-      "gloss": "they have rebelled",
-      "readings": [
-        "they have rebelled",
-        "they have transgressed"
-      ]
+      "gloss": "they have transgressed"
     },
     {
       "surface": "בי",
@@ -70,7 +66,18 @@
       "readings": [
         "I would ransom them",
         "I ransomed them"
-      ]
+      ],
+      "held_by": {
+        "I would ransom them": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I ransomed them": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והמה",
@@ -78,7 +85,7 @@
     },
     {
       "surface": "דברו",
-      "gloss": "have spoken"
+      "gloss": "spoke"
     },
     {
       "surface": "עלי",
@@ -86,13 +93,9 @@
     },
     {
       "surface": "כזבים",
-      "gloss": "lies",
-      "readings": [
-        "lies",
-        "falsehoods"
-      ]
+      "gloss": "lies"
     }
   ],
-  "timestamp": "2026-09-20T17:09:47.191630847Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

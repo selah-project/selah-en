@@ -1,42 +1,75 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "psalms 38:6",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 38,
-  "translation": "They have stunk, they have festered — my wounds — because of my folly.",
+  "translation": "They stink; my bruises melt away — from before my folly.",
   "tokens": [
     {
-      "surface": "הִבְאִישׁוּ",
-      "gloss": "they have stunk"
+      "surface": "הבאישו",
+      "gloss": "They stink"
     },
     {
-      "surface": "נָמַקּוּ",
-      "gloss": "they have festered",
+      "surface": "נמקו",
+      "gloss": "melt away",
       "readings": [
-        "they have festered",
-        "they have melted away"
-      ]
+        "melt away",
+        "fester"
+      ],
+      "held_by": {
+        "melt away": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "fester": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חַבּוּרֹתָי",
-      "gloss": "my wounds",
+      "surface": "חבורתי",
+      "gloss": "my bruises",
       "readings": [
-        "my wounds",
-        "my weals",
-        "my bruises"
-      ]
+        "my bruises",
+        "my wounds"
+      ],
+      "held_by": {
+        "my bruises": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my wounds": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִפְּנֵי",
-      "gloss": "because of"
+      "surface": "מפני",
+      "gloss": "from before",
+      "readings": [
+        "from before",
+        "because of"
+      ],
+      "held_by": {
+        "from before": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "because of": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אִוַּלְתִּי",
+      "surface": "אולתי",
       "gloss": "my folly"
     }
   ],
-  "timestamp": "2026-09-20T14:00:02.021823847Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,19 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "2-chronicles 11:14",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "For the Levites forsook ⟨את⟩ their pasturelands and ⟨את⟩ their possession and went to Judah and to Jerusalem, for Jeroboam and his sons had rejected them from serving as priests to YHWH.",
+  "translation": "For the Levites abandoned ⟨את⟩ their pasturelands and their possession, and went to Judah and to Jerusalem, because Jeroboam and his sons had rejected them from serving as priests to YHWH.",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "For"
     },
     {
       "surface": "עזבו",
-      "gloss": "forsook"
+      "gloss": "abandoned",
+      "readings": [
+        "abandoned",
+        "forsook",
+        "left"
+      ],
+      "held_by": {
+        "abandoned": [
+          "v1",
+          "v3"
+        ],
+        "forsook": [
+          "en4"
+        ],
+        "left": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הלוים",
@@ -21,8 +34,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "their pasturelands"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "מגרשיהם",
@@ -46,11 +58,26 @@
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "because"
     },
     {
       "surface": "הזניחם",
-      "gloss": "had rejected them"
+      "gloss": "had rejected them",
+      "readings": [
+        "had rejected them",
+        "had cast them off"
+      ],
+      "held_by": {
+        "had rejected them": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "had cast them off": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ירבעם",
@@ -62,13 +89,13 @@
     },
     {
       "surface": "מכהן",
-      "gloss": "from serving as priest"
+      "gloss": "from serving as priests"
     },
     {
       "surface": "ליהוה",
       "gloss": "to YHWH"
     }
   ],
-  "timestamp": "2026-09-20T16:49:47.973419626Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

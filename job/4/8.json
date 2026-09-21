@@ -1,50 +1,98 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "job 4:8",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "As I have seen: plowers of wickedness and sowers of trouble reap it.",
+  "translation": "As I have seen: those who plow iniquity and sow trouble reap it.",
   "tokens": [
     {
-      "surface": "כַּאֲשֶׁר",
+      "surface": "כאשר",
       "gloss": "As"
     },
     {
-      "surface": "רָאִיתִי",
+      "surface": "ראיתי",
       "gloss": "I have seen"
     },
     {
-      "surface": "חֹרְשֵׁי",
-      "gloss": "plowers of"
+      "surface": "חרשי",
+      "gloss": "plowers of",
+      "readings": [
+        "plowers of",
+        "those who plow"
+      ],
+      "held_by": {
+        "plowers of": [
+          "v1",
+          "en4"
+        ],
+        "those who plow": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אָוֶן",
-      "gloss": "wickedness",
+      "surface": "און",
+      "gloss": "iniquity",
       "readings": [
-        "wickedness",
+        "iniquity",
         "trouble",
         "vanity"
-      ]
+      ],
+      "held_by": {
+        "iniquity": [
+          "v2",
+          "v3"
+        ],
+        "trouble": [
+          "v1"
+        ],
+        "vanity": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְזֹרְעֵי",
-      "gloss": "and sowers of"
+      "surface": "וזרעי",
+      "gloss": "and sowers of",
+      "readings": [
+        "and sowers of",
+        "and sow"
+      ],
+      "held_by": {
+        "and sowers of": [
+          "v1",
+          "en4"
+        ],
+        "and sow": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "עָמָל",
-      "gloss": "trouble",
+      "surface": "עמל",
+      "gloss": "toil",
       "readings": [
         "toil",
         "trouble"
-      ]
+      ],
+      "held_by": {
+        "toil": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "trouble": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "יִקְצְרֻהוּ",
+      "surface": "יקצרהו",
       "gloss": "reap it"
     }
   ],
-  "timestamp": "2026-09-20T14:16:13.262110441Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,54 +1,103 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "psalms 86:13",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 86,
-  "translation": "For great ⟨is⟩ your chesed upon me, and you have delivered my nefesh from Sheol, the lowest.",
+  "translation": "For great ⟨is⟩ your chesed toward me, and you have delivered my nefesh from Sheol, from beneath it.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "חַסְדְּךָ",
+      "surface": "חסדך",
       "gloss": "your chesed",
       "readings": [
         "your chesed",
         "your kindness"
-      ]
+      ],
+      "held_by": {
+        "your chesed": [
+          "v3",
+          "en4"
+        ],
+        "your kindness": [
+          "v1",
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "גָּדוֹל",
+      "surface": "גדול",
       "gloss": "great"
     },
     {
-      "surface": "עָלַי",
-      "gloss": "upon me"
+      "surface": "עלי",
+      "gloss": "toward me",
+      "readings": [
+        "toward me",
+        "upon me"
+      ],
+      "held_by": {
+        "toward me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "upon me": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְהִצַּלְתָּ",
+      "surface": "והצלת",
       "gloss": "and you have delivered"
     },
     {
-      "surface": "נַפְשִׁי",
+      "surface": "נפשי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
         "my soul",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my nefesh": [
+          "en4"
+        ],
+        "my soul": [
+          "v1"
+        ],
+        "my life": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "מִשְּׁאוֹל",
+      "surface": "משאול",
       "gloss": "from Sheol"
     },
     {
-      "surface": "תַּחְתִּיָּה",
-      "gloss": "the lowest"
+      "surface": "תחתיה",
+      "gloss": "from beneath it",
+      "readings": [
+        "from beneath it",
+        "below",
+        "the lowest"
+      ],
+      "held_by": {
+        "from beneath it": [
+          "v3"
+        ],
+        "below": [
+          "v2",
+          "v3"
+        ],
+        "the lowest": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:46:36.320363355Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

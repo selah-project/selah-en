@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "psalms 120:2",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 120,
-  "translation": "YHWH, rescue my soul from a lip of falsehood, from a tongue of deceit.",
+  "translation": "YHWH, deliver my nefesh from a lip of falsehood, from a tongue of deceit.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,34 +8,62 @@
     },
     {
       "surface": "הצילה",
-      "gloss": "rescue"
+      "gloss": "deliver",
+      "readings": [
+        "deliver",
+        "rescue"
+      ],
+      "held_by": {
+        "deliver": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "rescue": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נפשי",
-      "gloss": "my soul",
+      "gloss": "my nefesh",
       "readings": [
+        "my nefesh",
         "my soul",
-        "my life",
-        "my nefesh"
-      ]
+        "my life"
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "משפת",
-      "gloss": "from a lip of"
+      "gloss": "from a lip"
     },
     {
       "surface": "שקר",
-      "gloss": "falsehood"
+      "gloss": "of falsehood"
     },
     {
       "surface": "מלשון",
-      "gloss": "from a tongue of"
+      "gloss": "from a tongue"
     },
     {
       "surface": "רמיה",
-      "gloss": "deceit"
+      "gloss": "of deceit"
     }
   ],
-  "timestamp": "2026-09-20T16:41:26.682707397Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

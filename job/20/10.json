@@ -1,46 +1,62 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "job 20:10",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "His sons shall seek the favor of the poor, and his hands shall give back his wealth.",
+  "translation": "His sons shall appease the poor, and his hands shall give back his wealth.",
   "tokens": [
     {
-      "surface": "בָּנָיו",
+      "surface": "בניו",
       "gloss": "his sons"
     },
     {
-      "surface": "יְרַצּוּ",
-      "gloss": "shall seek the favor of",
+      "surface": "ירצו",
+      "gloss": "shall appease",
       "readings": [
-        "shall seek the favor of",
-        "shall satisfy",
-        "shall oppress"
-      ]
+        "shall appease",
+        "shall seek the favor of"
+      ],
+      "held_by": {
+        "shall appease": [
+          "v1"
+        ],
+        "shall seek the favor of": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "דַּלִּים",
+      "surface": "דלים",
       "gloss": "the poor"
     },
     {
-      "surface": "וְיָדָיו",
+      "surface": "וידיו",
       "gloss": "and his hands"
     },
     {
-      "surface": "תָּשֵׁבְנָה",
+      "surface": "תשבנה",
       "gloss": "shall give back"
     },
     {
-      "surface": "אוֹנוֹ",
+      "surface": "אונו",
       "gloss": "his wealth",
       "readings": [
         "his wealth",
         "his power"
-      ]
+      ],
+      "held_by": {
+        "his wealth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his power": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:18:24.229860246Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,33 +1,51 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 61:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 61,
-  "translation": "For the overseer, on a melody, of David.",
+  "translation": "For the overseer, on a stringed instrument. Of David.",
   "tokens": [
     {
-      "surface": "לְמַנְצֵּחַ",
-      "gloss": "For the overseer"
+      "surface": "למנצח",
+      "gloss": "For the overseer",
+      "readings": [
+        "For the overseer",
+        "To the conductor"
+      ],
+      "held_by": {
+        "For the overseer": [
+          "en4"
+        ],
+        "To the conductor": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "on"
     },
     {
-      "surface": "נְגִינַת",
-      "gloss": "a melody of",
+      "surface": "נגינת",
+      "gloss": "a stringed instrument of",
       "readings": [
-        "a melody of",
-        "a stringing of"
-      ]
+        "a stringed instrument of",
+        "a melody of"
+      ],
+      "held_by": {
+        "a stringed instrument of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a melody of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְדָוִד",
-      "gloss": "David"
+      "surface": "לדוד",
+      "gloss": "Of David"
     }
   ],
-  "timestamp": "2026-09-20T14:02:34.284145090Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

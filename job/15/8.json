@@ -1,20 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "job 15:8",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 15,
-  "translation": "In the secret council of Eloah do you sit and hear? And do you draw away wisdom to yourself?",
+  "translation": "In the secret council of Eloah do you hear, and do you withhold wisdom to yourself?",
   "tokens": [
     {
       "surface": "הבסוד",
       "gloss": "in the secret council of",
       "readings": [
         "in the secret council of",
-        "in the council of",
-        "in the secret of"
-      ]
+        "in the council of"
+      ],
+      "held_by": {
+        "in the secret council of": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "in the council of": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלוה",
@@ -26,12 +31,25 @@
     },
     {
       "surface": "ותגרע",
-      "gloss": "and do you draw away",
+      "gloss": "and do you withhold",
       "readings": [
+        "and do you withhold",
         "and do you draw away",
-        "and do you limit",
-        "and do you withhold"
-      ]
+        "and do you limit"
+      ],
+      "held_by": {
+        "and do you withhold": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and do you draw away": [
+          "en4"
+        ],
+        "and do you limit": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אליך",
@@ -42,6 +60,6 @@
       "gloss": "wisdom"
     }
   ],
-  "timestamp": "2026-09-20T15:51:39.953846999Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

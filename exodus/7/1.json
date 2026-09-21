@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "exodus 7:1",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "And said YHWH to Moses: See, I have given you as Elohim to Pharaoh; and Aaron your brother shall be your prophet.",
+  "translation": "And YHWH said to Moses: See, I have given you as Elohim to Pharaoh, and Aaron your brother shall be your prophet.",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -29,15 +24,39 @@
     },
     {
       "surface": "נתתיך",
-      "gloss": "I have given you"
+      "gloss": "I have given you",
+      "readings": [
+        "I have given you",
+        "I have made you"
+      ],
+      "held_by": {
+        "I have given you": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "I have made you": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "אלהים",
-      "gloss": "Elohim",
+      "gloss": "as Elohim",
       "readings": [
-        "Elohim",
-        "a god"
-      ]
+        "as Elohim",
+        "as ⟨a⟩ god"
+      ],
+      "held_by": {
+        "as Elohim": [
+          "v2",
+          "en4"
+        ],
+        "as ⟨a⟩ god": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "לפרעה",
@@ -60,6 +79,6 @@
       "gloss": "your prophet"
     }
   ],
-  "timestamp": "2026-09-20T12:27:03.462530649Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

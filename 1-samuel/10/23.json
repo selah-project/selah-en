@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "1-samuel 10:23",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "And they ran and took him from there, and he stationed himself in the midst of the people, and he was taller than all the people, from his shoulders and upward.",
+  "translation": "And they ran and took him from there, and he stationed himself in the midst of the people, and he was taller than any of the people, from his shoulders and upward.",
   "tokens": [
     {
       "surface": "וירצו",
-      "gloss": "and they ran"
+      "gloss": "And they ran"
     },
     {
       "surface": "ויקחהו",
-      "gloss": "and took him"
+      "gloss": "and took him",
+      "readings": [
+        "and took him",
+        "and brought him"
+      ],
+      "held_by": {
+        "and took him": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and brought him": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "משם",
@@ -37,7 +46,22 @@
     },
     {
       "surface": "מכל",
-      "gloss": "than all"
+      "gloss": "than any of",
+      "readings": [
+        "than any of",
+        "than all"
+      ],
+      "held_by": {
+        "than any of": [
+          "v2",
+          "v3"
+        ],
+        "than all": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "העם",
@@ -52,6 +76,6 @@
       "gloss": "and upward"
     }
   ],
-  "timestamp": "2026-09-20T10:08:29.391522891Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

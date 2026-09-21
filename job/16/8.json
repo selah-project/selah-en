@@ -1,49 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "job 16:8",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 16,
-  "translation": "You have shrivelled me — a witness it has become; and my leanness rises up in me, before my face it answers.",
+  "translation": "And ⟨you⟩ have shriveled me for a witness; and my leanness has risen up against me, in my face it answers.",
   "tokens": [
     {
-      "surface": "וַתִּקְמְטֵנִי",
-      "gloss": "you have shrivelled me"
+      "surface": "ותקמטני",
+      "gloss": "and ⟨you⟩ have shriveled me"
     },
     {
-      "surface": "לְעֵד",
+      "surface": "לעד",
       "gloss": "for a witness"
     },
     {
-      "surface": "הָיָה",
+      "surface": "היה",
       "gloss": "it has become"
     },
     {
-      "surface": "וַיָּקָם",
-      "gloss": "and rises up"
+      "surface": "ויקם",
+      "gloss": "and has risen up"
     },
     {
-      "surface": "בִּי",
-      "gloss": "in me"
+      "surface": "בי",
+      "gloss": "against me",
+      "readings": [
+        "against me",
+        "in me"
+      ],
+      "held_by": {
+        "against me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in me": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כַּחֲשִׁי",
+      "surface": "כחשי",
       "gloss": "my leanness",
       "readings": [
         "my leanness",
-        "my emaciation"
-      ]
+        "my failure"
+      ],
+      "held_by": {
+        "my leanness": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my failure": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בְּפָנַי",
-      "gloss": "before my face"
+      "surface": "בפני",
+      "gloss": "in my face"
     },
     {
-      "surface": "יַעֲנֶה",
-      "gloss": "it answers"
+      "surface": "יענה",
+      "gloss": "it answers",
+      "readings": [
+        "it answers",
+        "it testifies"
+      ],
+      "held_by": {
+        "it answers": [
+          "en4"
+        ],
+        "it testifies": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:17:54.213694936Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

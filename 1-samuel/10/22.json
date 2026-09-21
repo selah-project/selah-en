@@ -1,19 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "1-samuel 10:22",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "And they asked again of YHWH, Has the man come yet here? And YHWH said, Look, he is hidden among the baggage.",
+  "translation": "And they inquired yet again of YHWH, “Has ⟨the⟩ man come here yet?” And YHWH said, “Behold, he is hidden among the baggage.”",
   "tokens": [
     {
       "surface": "וישאלו",
-      "gloss": "and they asked"
+      "gloss": "And they inquired"
     },
     {
       "surface": "עוד",
-      "gloss": "again"
+      "gloss": "yet again",
+      "readings": [
+        "yet again",
+        "again"
+      ],
+      "held_by": {
+        "yet again": [
+          "v1",
+          "v3"
+        ],
+        "again": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ביהוה",
@@ -21,7 +31,7 @@
     },
     {
       "surface": "הבא",
-      "gloss": "has come"
+      "gloss": "Has ⟨he⟩ come"
     },
     {
       "surface": "עוד",
@@ -33,11 +43,11 @@
     },
     {
       "surface": "איש",
-      "gloss": "the man"
+      "gloss": "⟨the⟩ man"
     },
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "And said"
     },
     {
       "surface": "יהוה",
@@ -45,7 +55,21 @@
     },
     {
       "surface": "הנה",
-      "gloss": "look"
+      "gloss": "Behold",
+      "readings": [
+        "Behold",
+        "look"
+      ],
+      "held_by": {
+        "Behold": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "look": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הוא",
@@ -53,7 +77,21 @@
     },
     {
       "surface": "נחבא",
-      "gloss": "is hidden"
+      "gloss": "is hidden",
+      "readings": [
+        "is hidden",
+        "has hidden himself"
+      ],
+      "held_by": {
+        "is hidden": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "has hidden himself": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "אל",
@@ -64,11 +102,21 @@
       "gloss": "the baggage",
       "readings": [
         "the baggage",
-        "the vessels",
-        "the gear"
-      ]
+        "the vessels"
+      ],
+      "held_by": {
+        "the baggage": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the vessels": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:08:29.391309997Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

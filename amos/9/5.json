@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "amos 9:5",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And Adonai YHWH of hosts — who touches the earth and it melts, and all dwellers in her mourn; and it rises like the Nile, all of her, and sinks like the Nile of Egypt —",
+  "translation": "And Adonai YHWH of hosts — who touches the land and it melts, and all who dwell in it mourn; and it rises up wholly like the Nile, and sinks like the Nile of Egypt.",
   "tokens": [
     {
       "surface": "ואדני",
@@ -17,11 +12,7 @@
     },
     {
       "surface": "הצבאות",
-      "gloss": "of hosts",
-      "readings": [
-        "of hosts",
-        "of armies"
-      ]
+      "gloss": "of hosts"
     },
     {
       "surface": "הנוגע",
@@ -29,11 +20,19 @@
     },
     {
       "surface": "בארץ",
-      "gloss": "the earth",
+      "gloss": "the land",
       "readings": [
-        "the earth",
-        "the land"
-      ]
+        "the land",
+        "the earth"
+      ],
+      "held_by": {
+        "the land": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ותמוג",
@@ -49,15 +48,29 @@
     },
     {
       "surface": "יושבי",
-      "gloss": "dwellers of"
+      "gloss": "who dwell",
+      "readings": [
+        "who dwell",
+        "inhabitants"
+      ],
+      "held_by": {
+        "who dwell": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "inhabitants": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "בה",
-      "gloss": "in her"
+      "gloss": "in it"
     },
     {
       "surface": "ועלתה",
-      "gloss": "and rises"
+      "gloss": "and it rises up"
     },
     {
       "surface": "כיאר",
@@ -65,7 +78,7 @@
     },
     {
       "surface": "כלה",
-      "gloss": "all of her"
+      "gloss": "wholly"
     },
     {
       "surface": "ושקעה",
@@ -80,6 +93,6 @@
       "gloss": "of Egypt"
     }
   ],
-  "timestamp": "2026-09-20T10:38:26.432149598Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

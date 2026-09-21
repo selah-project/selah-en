@@ -1,28 +1,18 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "1-samuel 12:24",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "Only fear ⟨את⟩ YHWH and serve ⟨את⟩ him in truth, with all your heart; for see ⟨את⟩ what he has made great with you.",
+  "translation": "Only fear ⟨את⟩ YHWH and serve ⟨את⟩ him in truth with all your heart; for see ⟨את⟩ what he has made great with you.",
   "tokens": [
     {
       "surface": "אך",
-      "gloss": "only"
+      "gloss": "Only"
     },
     {
       "surface": "יראו",
-      "gloss": "fear",
-      "readings": [
-        "fear",
-        "revere"
-      ]
+      "gloss": "fear"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "YHWH"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "יהוה",
@@ -34,8 +24,7 @@
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him",
-      "marks": "him"
+      "gloss": "⟨את⟩ him"
     },
     {
       "surface": "באמת",
@@ -43,7 +32,18 @@
       "readings": [
         "in truth",
         "in faithfulness"
-      ]
+      ],
+      "held_by": {
+        "in truth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in faithfulness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בכל",
@@ -62,13 +62,23 @@
       "gloss": "see",
       "readings": [
         "see",
-        "consider"
-      ]
+        "you have seen"
+      ],
+      "held_by": {
+        "see": [
+          "v2",
+          "en4"
+        ],
+        "you have seen": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "what he has made great"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "אשר",
@@ -76,13 +86,13 @@
     },
     {
       "surface": "הגדל",
-      "gloss": "he has made great"
+      "gloss": "has made great"
     },
     {
       "surface": "עמכם",
       "gloss": "with you"
     }
   ],
-  "timestamp": "2026-09-20T15:10:03.193355803Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

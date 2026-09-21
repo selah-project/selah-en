@@ -1,71 +1,108 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "joel 4:1",
-  "book": "joel",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "For behold, in those days and in that time, when I turn back ⟨את⟩ the exile of Judah and Jerusalem,",
+  "translation": "For behold, in those days and at that time, when I restore ⟨את⟩ the fortunes of Judah and Jerusalem,",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "הִנֵּה",
+      "surface": "הנה",
       "gloss": "behold"
     },
     {
-      "surface": "בַּיָּמִים",
-      "gloss": "in the days"
+      "surface": "בימים",
+      "gloss": "in ⟨the⟩ days"
     },
     {
-      "surface": "הָהֵמָּה",
+      "surface": "ההמה",
       "gloss": "those"
     },
     {
-      "surface": "וּבָעֵת",
-      "gloss": "and in the time"
+      "surface": "ובעת",
+      "gloss": "and at"
     },
     {
-      "surface": "הַהִיא",
-      "gloss": "that"
+      "surface": "ההיא",
+      "gloss": "that time"
     },
     {
-      "surface": "אֲשֶׁר",
+      "surface": "אשר",
       "gloss": "when",
       "readings": [
         "when",
         "that"
-      ]
+      ],
+      "held_by": {
+        "when": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "that": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אשוב",
-      "gloss": "I turn back"
-    },
-    {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the exile"
-    },
-    {
-      "surface": "שְׁבוּת",
-      "gloss": "the exile of",
+      "gloss": "I restore",
       "readings": [
-        "the exile of",
+        "I restore",
+        "I turn back",
+        "I will return"
+      ],
+      "held_by": {
+        "I restore": [
+          "v2",
+          "v3"
+        ],
+        "I turn back": [
+          "en4"
+        ],
+        "I will return": [
+          "v1"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "את",
+      "gloss": "⟨את⟩"
+    },
+    {
+      "surface": "שבות",
+      "gloss": "the fortunes of",
+      "readings": [
+        "the fortunes of",
         "the captivity of",
-        "the returned fortune of"
-      ]
+        "the exile of"
+      ],
+      "held_by": {
+        "the fortunes of": [
+          "v2",
+          "v3"
+        ],
+        "the captivity of": [
+          "v1",
+          "en4"
+        ],
+        "the exile of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יְהוּדָה",
-      "gloss": "Judah"
+      "surface": "יהודה",
+      "gloss": "of Judah"
     },
     {
-      "surface": "וִירוּשָׁלִָם",
+      "surface": "וירושלם",
       "gloss": "and Jerusalem"
     }
   ],
-  "timestamp": "2026-09-20T15:39:25.549451716Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

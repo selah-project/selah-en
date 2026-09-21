@@ -1,37 +1,91 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 27:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 27,
-  "translation": "For my father and my mother have forsaken me, and YHWH will gather me.",
+  "translation": "Though my father and my mother have forsaken me, and YHWH will gather me in.",
   "tokens": [
     {
-      "surface": "כִּי",
-      "gloss": "for"
+      "surface": "כי",
+      "gloss": "Though",
+      "readings": [
+        "Though",
+        "For",
+        "Surely"
+      ],
+      "held_by": {
+        "Though": [
+          "v1",
+          "v3"
+        ],
+        "For": [
+          "v2",
+          "en4"
+        ],
+        "Surely": []
+      },
+      "disputed": true
     },
     {
-      "surface": "אָבִי",
+      "surface": "אבי",
       "gloss": "my father"
     },
     {
-      "surface": "וְאִמִּי",
+      "surface": "ואמי",
       "gloss": "and my mother"
     },
     {
-      "surface": "עֲזָבוּנִי",
-      "gloss": "have forsaken me"
+      "surface": "עזבוני",
+      "gloss": "have forsaken me",
+      "readings": [
+        "have forsaken me",
+        "have abandoned me"
+      ],
+      "held_by": {
+        "have forsaken me": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "have abandoned me": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "וַיהוָה",
-      "gloss": "and YHWH"
+      "surface": "ויהוה",
+      "gloss": "and YHWH",
+      "readings": [
+        "and YHWH",
+        "but YHWH"
+      ],
+      "held_by": {
+        "and YHWH": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "but YHWH": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "יַאַסְפֵנִי",
-      "gloss": "will gather me"
+      "surface": "יאספני",
+      "gloss": "will gather me in",
+      "readings": [
+        "will gather me in",
+        "will gather me"
+      ],
+      "held_by": {
+        "will gather me in": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will gather me": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T16:39:30.997009172Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 121:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 121,
-  "translation": "YHWH shall keep you from all evil; he shall keep ⟨את⟩ your soul.",
+  "translation": "YHWH will guard you from all evil; He will guard ⟨את⟩ your nefesh.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "ישמרך",
-      "gloss": "he shall keep you"
+      "gloss": "will guard you"
     },
     {
       "surface": "מכל",
@@ -25,22 +20,50 @@
       "readings": [
         "evil",
         "harm"
-      ]
+      ],
+      "held_by": {
+        "evil": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "harm": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ישמר",
-      "gloss": "he shall keep"
+      "gloss": "He will guard"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "your soul"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "נפשך",
-      "gloss": "your soul"
+      "gloss": "your nefesh",
+      "readings": [
+        "your nefesh",
+        "your soul",
+        "your life"
+      ],
+      "held_by": {
+        "your nefesh": [
+          "v2"
+        ],
+        "your soul": [
+          "en4"
+        ],
+        "your life": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:47:45.098719652Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

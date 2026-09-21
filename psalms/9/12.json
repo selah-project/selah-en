@@ -1,19 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 9:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "Sing praise to YHWH, seated in Zion; declare among the peoples his deeds.",
+  "translation": "Sing praises to YHWH, dwelling in Zion; declare among the peoples his deeds.",
   "tokens": [
     {
       "surface": "זמרו",
-      "gloss": "Sing praise",
-      "readings": [
-        "Sing praise",
-        "Make music"
-      ]
+      "gloss": "Sing praises"
     },
     {
       "surface": "ליהוה",
@@ -21,12 +12,22 @@
     },
     {
       "surface": "ישב",
-      "gloss": "seated",
+      "gloss": "dwelling",
       "readings": [
-        "seated",
         "dwelling",
         "enthroned"
-      ]
+      ],
+      "held_by": {
+        "dwelling": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "enthroned": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ציון",
@@ -45,11 +46,21 @@
       "gloss": "his deeds",
       "readings": [
         "his deeds",
-        "his exploits",
-        "his practices"
-      ]
+        "his exploits"
+      ],
+      "held_by": {
+        "his deeds": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his exploits": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:41:11.050401578Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

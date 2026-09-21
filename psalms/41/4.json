@@ -1,53 +1,87 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 41:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 41,
-  "translation": "YHWH will support him upon the couch of sickness — all his bed You have turned in his illness.",
+  "translation": "YHWH will sustain him upon the bed of languishing; all his couch You have turned in his sickness.",
   "tokens": [
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "יִסְעָדֶנּוּ",
-      "gloss": "will support him"
+      "surface": "יסעדנו",
+      "gloss": "will sustain him",
+      "readings": [
+        "will sustain him",
+        "sustains him"
+      ],
+      "held_by": {
+        "will sustain him": [
+          "v1",
+          "v3"
+        ],
+        "sustains him": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "upon"
     },
     {
-      "surface": "עֶרֶשׂ",
-      "gloss": "the couch of"
+      "surface": "ערש",
+      "gloss": "bed"
     },
     {
-      "surface": "דְּוָי",
-      "gloss": "sickness"
+      "surface": "דוי",
+      "gloss": "of languishing",
+      "readings": [
+        "of languishing",
+        "of sickness"
+      ],
+      "held_by": {
+        "of languishing": [
+          "v1",
+          "v3"
+        ],
+        "of sickness": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כָּל",
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "מִשְׁכָּבוֹ",
-      "gloss": "his bed"
+      "surface": "משכבו",
+      "gloss": "his couch"
     },
     {
-      "surface": "הָפַכְתָּ",
+      "surface": "הפכת",
       "gloss": "You have turned",
       "readings": [
         "You have turned",
         "You will turn"
-      ]
+      ],
+      "held_by": {
+        "You have turned": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "You will turn": [
+          "en4"
+        ]
+      },
+      "disputed": false
     },
     {
-      "surface": "בְּחָלְיוֹ",
-      "gloss": "in his illness"
+      "surface": "בחליו",
+      "gloss": "in his sickness"
     }
   ],
-  "timestamp": "2026-09-20T14:00:58.767163734Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

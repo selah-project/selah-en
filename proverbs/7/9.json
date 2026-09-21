@@ -1,37 +1,47 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "proverbs 7:9",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "In the twilight, in the evening of day, in the pupil of night and in darkness.",
+  "translation": "In the twilight, in the evening of day, in the blackness of night and darkness.",
   "tokens": [
     {
-      "surface": "בְּנֶשֶׁף",
+      "surface": "בנשף",
       "gloss": "in the twilight"
     },
     {
-      "surface": "בְּעֶרֶב",
+      "surface": "בערב",
       "gloss": "in the evening of"
     },
     {
-      "surface": "יוֹם",
+      "surface": "יום",
       "gloss": "day"
     },
     {
-      "surface": "בְּאִישׁוֹן",
-      "gloss": "in the pupil of"
+      "surface": "באישון",
+      "gloss": "in the blackness of",
+      "readings": [
+        "in the blackness of",
+        "in the pupil of"
+      ],
+      "held_by": {
+        "in the blackness of": [
+          "v1",
+          "v3"
+        ],
+        "in the pupil of": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לַיְלָה",
+      "surface": "לילה",
       "gloss": "night"
     },
     {
-      "surface": "וַאֲפֵלָה",
+      "surface": "ואפלה",
       "gloss": "and darkness"
     }
   ],
-  "timestamp": "2026-09-20T16:41:55.036132301Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

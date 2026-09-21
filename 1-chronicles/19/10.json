@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "1-chronicles 19:10",
-  "book": "1-chronicles",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "And Joab saw that the face of the battle was toward him in front and behind; and he chose from all the choice of Israel and arrayed to meet Aram.",
+  "translation": "And Joab saw that the face of the battle was toward him front and rear; and he chose from all the chosen of Israel, and arrayed ⟨them⟩ to meet Aram.",
   "tokens": [
     {
       "surface": "וירא",
@@ -37,16 +32,43 @@
     },
     {
       "surface": "פנים",
-      "gloss": "in front",
+      "gloss": "front",
       "readings": [
-        "in front",
+        "front",
         "face",
         "before"
-      ]
+      ],
+      "held_by": {
+        "front": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "face": [
+          "en4"
+        ],
+        "before": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואחור",
-      "gloss": "and behind"
+      "gloss": "and rear",
+      "readings": [
+        "and rear",
+        "and behind"
+      ],
+      "held_by": {
+        "and rear": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and behind": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ויבחר",
@@ -58,15 +80,26 @@
     },
     {
       "surface": "בחור",
-      "gloss": "the choice of",
+      "gloss": "the chosen",
       "readings": [
-        "the choice of",
-        "the chosen men of"
-      ]
+        "the chosen",
+        "the choice of"
+      ],
+      "held_by": {
+        "the chosen": [
+          "v2",
+          "v3"
+        ],
+        "the choice of": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בישראל",
-      "gloss": "Israel"
+      "gloss": "of Israel"
     },
     {
       "surface": "ויערך",
@@ -81,6 +114,6 @@
       "gloss": "Aram"
     }
   ],
-  "timestamp": "2026-09-20T14:37:23.708579309Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

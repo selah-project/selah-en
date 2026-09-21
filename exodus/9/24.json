@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "exodus 9:24",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And there was hail, and fire taking hold within the hail, very heavy, such as had not been like it in all the land of Egypt since it had become a nation.",
+  "translation": "And there was hail, and fire taking hold of itself in the midst of the hail, very heavy, such as had not been like it in all the land of Egypt since it had become a nation.",
   "tokens": [
     {
       "surface": "ויהי",
@@ -21,16 +16,25 @@
     },
     {
       "surface": "מתלקחת",
-      "gloss": "taking hold",
+      "gloss": "taking hold of itself",
       "readings": [
-        "taking hold",
-        "flashing up",
-        "kindling itself"
-      ]
+        "taking hold of itself",
+        "flashing up"
+      ],
+      "held_by": {
+        "taking hold of itself": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "flashing up": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בתוך",
-      "gloss": "within"
+      "gloss": "in the midst of"
     },
     {
       "surface": "הברד",
@@ -38,12 +42,7 @@
     },
     {
       "surface": "כבד",
-      "gloss": "heavy",
-      "readings": [
-        "heavy",
-        "grievous",
-        "severe"
-      ]
+      "gloss": "heavy"
     },
     {
       "surface": "מאד",
@@ -55,11 +54,11 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "had not"
     },
     {
       "surface": "היה",
-      "gloss": "had been"
+      "gloss": "been"
     },
     {
       "surface": "כמהו",
@@ -71,15 +70,41 @@
     },
     {
       "surface": "ארץ",
-      "gloss": "the land of",
+      "gloss": "land of",
       "readings": [
-        "the land of",
-        "the earth"
-      ]
+        "land of",
+        "earth of"
+      ],
+      "held_by": {
+        "land of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "earth of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מצרים",
-      "gloss": "Egypt"
+      "gloss": "Egypt",
+      "readings": [
+        "Egypt",
+        "Mitsrayim"
+      ],
+      "held_by": {
+        "Egypt": [
+          "v1",
+          "en4"
+        ],
+        "Mitsrayim": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מאז",
@@ -94,6 +119,6 @@
       "gloss": "a nation"
     }
   ],
-  "timestamp": "2026-09-20T14:51:40.250376983Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

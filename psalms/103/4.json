@@ -1,45 +1,64 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 103:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 103,
-  "translation": "The redeemer of your life from the pit, the crowner of you with chesed and compassions.",
+  "translation": "The one redeeming your life from the pit, the one crowning you with chesed and compassions.",
   "tokens": [
     {
-      "surface": "הַגּוֹאֵל",
-      "gloss": "the redeemer of"
+      "surface": "הגואל",
+      "gloss": "The one redeeming"
     },
     {
-      "surface": "מִשַּׁחַת",
+      "surface": "משחת",
       "gloss": "from the pit",
       "readings": [
         "from the pit",
         "from destruction"
-      ]
+      ],
+      "held_by": {
+        "from the pit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from destruction": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חַיָּיְכִי",
+      "surface": "חייכי",
       "gloss": "your life"
     },
     {
-      "surface": "הַמְעַטְּרֵכִי",
-      "gloss": "the crowner of you"
+      "surface": "המעטרכי",
+      "gloss": "the one crowning you"
     },
     {
-      "surface": "חֶסֶד",
+      "surface": "חסד",
       "gloss": "chesed",
       "readings": [
         "chesed",
+        "loving devotion",
         "steadfast love"
-      ]
+      ],
+      "held_by": {
+        "chesed": [
+          "en4"
+        ],
+        "loving devotion": [
+          "v1",
+          "v3"
+        ],
+        "steadfast love": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְרַחֲמִים",
+      "surface": "ורחמים",
       "gloss": "and compassions"
     }
   ],
-  "timestamp": "2026-09-20T15:46:37.734105163Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

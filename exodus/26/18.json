@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "exodus 26:18",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "And you shall make ⟨את⟩ the boards for the tabernacle: twenty boards, for the side toward the Negeb, southward.",
+  "translation": "And you shall make ⟨את⟩ the boards for the tabernacle: twenty boards for the south side, southward.",
   "tokens": [
     {
       "surface": "ועשית",
@@ -13,8 +8,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the boards"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הקרשים",
@@ -38,15 +32,37 @@
       "readings": [
         "for the side of",
         "for the corner of"
-      ]
+      ],
+      "held_by": {
+        "for the side of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "for the corner of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נגבה",
-      "gloss": "toward the Negeb",
+      "gloss": "the south",
       "readings": [
-        "toward the Negeb",
-        "toward the south"
-      ]
+        "the south",
+        "the Negeb"
+      ],
+      "held_by": {
+        "the south": [
+          "v2",
+          "v3"
+        ],
+        "the Negeb": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תימנה",
@@ -54,9 +70,20 @@
       "readings": [
         "southward",
         "toward Teman"
-      ]
+      ],
+      "held_by": {
+        "southward": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "toward Teman": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T16:55:25.893365454Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

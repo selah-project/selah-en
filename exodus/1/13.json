@@ -1,46 +1,74 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "exodus 1:13",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And Egypt made ⟨את⟩ the sons of Israel serve with crushing labor.",
+  "translation": "And ⟨the⟩ Egyptians worked ⟨את⟩ the sons of Israel with rigour.",
   "tokens": [
     {
-      "surface": "וַיַּעֲבִדוּ",
-      "gloss": "and made serve"
-    },
-    {
-      "surface": "מִצְרַיִם",
-      "gloss": "Egypt",
+      "surface": "ויעבדו",
+      "gloss": "and made serve",
       "readings": [
-        "Egypt",
-        "the Egyptians"
-      ]
+        "and made serve",
+        "and worked"
+      ],
+      "held_by": {
+        "and made serve": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and worked": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the sons of Israel"
+      "surface": "מצרים",
+      "gloss": "Egyptians",
+      "readings": [
+        "Egyptians",
+        "Egypt"
+      ],
+      "held_by": {
+        "Egyptians": [
+          "v1",
+          "v3"
+        ],
+        "Egypt": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּנֵי",
+      "surface": "את",
+      "gloss": "⟨את⟩"
+    },
+    {
+      "surface": "בני",
       "gloss": "sons of"
     },
     {
-      "surface": "יִשְׂרָאֵל",
+      "surface": "ישראל",
       "gloss": "Israel"
     },
     {
-      "surface": "בְּפָרֶךְ",
-      "gloss": "with crushing labor",
+      "surface": "בפרך",
+      "gloss": "with rigour",
       "readings": [
-        "with crushing labor",
-        "with rigor"
-      ]
+        "with rigour",
+        "with crushing labor"
+      ],
+      "held_by": {
+        "with rigour": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "with crushing labor": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T12:26:14.687698873Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

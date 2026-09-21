@@ -1,50 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "psalms 25:19",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 25,
-  "translation": "See my enemies, for they are many; and with hatred of violence they hate me.",
+  "translation": "See my enemies, for they are many, and with the hatred of violence they hate me.",
   "tokens": [
     {
-      "surface": "רְאֵה",
+      "surface": "ראה",
       "gloss": "See"
     },
     {
-      "surface": "אוֹיְבַי",
+      "surface": "אויבי",
       "gloss": "my enemies"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "רָבּוּ",
+      "surface": "רבו",
       "gloss": "they are many",
       "readings": [
         "they are many",
         "they have multiplied"
-      ]
+      ],
+      "held_by": {
+        "they are many": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they have multiplied": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְשִׂנְאַת",
+      "surface": "ושנאת",
       "gloss": "and with the hatred of"
     },
     {
-      "surface": "חָמָס",
-      "gloss": "violence",
+      "surface": "חמס",
+      "gloss": "of violence",
       "readings": [
-        "violence",
-        "cruelty",
-        "unjust gain"
-      ]
+        "of violence",
+        "of cruelty"
+      ],
+      "held_by": {
+        "of violence": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of cruelty": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שְׂנֵאוּנִי",
+      "surface": "שנאוני",
       "gloss": "they hate me"
     }
   ],
-  "timestamp": "2026-09-20T13:59:04.424087027Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

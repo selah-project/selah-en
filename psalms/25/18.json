@@ -1,50 +1,81 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "psalms 25:18",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 25,
-  "translation": "See my affliction and my toil, and bear away all my sins.",
+  "translation": "See my affliction and my toil, and lift ⟨up⟩ all my sins.",
   "tokens": [
     {
-      "surface": "רְאֵה",
+      "surface": "ראה",
       "gloss": "See"
     },
     {
-      "surface": "עָנְיִי",
+      "surface": "עניי",
       "gloss": "my affliction",
       "readings": [
         "my affliction",
         "my misery"
-      ]
+      ],
+      "held_by": {
+        "my affliction": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my misery": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וַעֲמָלִי",
+      "surface": "ועמלי",
       "gloss": "and my toil",
       "readings": [
         "and my toil",
         "and my trouble"
-      ]
+      ],
+      "held_by": {
+        "and my toil": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and my trouble": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְשָׂא",
-      "gloss": "and bear away",
+      "surface": "ושא",
+      "gloss": "and lift ⟨up⟩",
       "readings": [
+        "and lift ⟨up⟩",
         "and bear away",
-        "and forgive",
-        "and carry"
-      ]
+        "and forgive"
+      ],
+      "held_by": {
+        "and lift ⟨up⟩": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and bear away": [
+          "en4"
+        ],
+        "and forgive": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְכָל",
+      "surface": "לכל",
       "gloss": "all"
     },
     {
-      "surface": "חַטֹּאותָי",
+      "surface": "חטאותי",
       "gloss": "my sins"
     }
   ],
-  "timestamp": "2026-09-20T13:59:04.423943072Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

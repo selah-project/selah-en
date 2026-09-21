@@ -1,46 +1,69 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "psalms 69:2",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 69,
-  "translation": "Save me, Elohim, for the waters have come to ⟨the⟩ nefesh.",
+  "translation": "Save me, O Elohim, for the waters have come in even unto the nefesh.",
   "tokens": [
     {
-      "surface": "הוֹשִׁיעֵנִי",
-      "gloss": "save me"
+      "surface": "הושיעני",
+      "gloss": "Save me"
     },
     {
-      "surface": "אֱלֹהִים",
-      "gloss": "Elohim"
+      "surface": "אלהים",
+      "gloss": "O Elohim"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "בָּאוּ",
-      "gloss": "have come"
+      "surface": "באו",
+      "gloss": "have come",
+      "readings": [
+        "have come",
+        "have come in"
+      ],
+      "held_by": {
+        "have come": [
+          "v1",
+          "en4"
+        ],
+        "have come in": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "מַיִם",
+      "surface": "מים",
       "gloss": "the waters"
     },
     {
-      "surface": "עַד",
-      "gloss": "to"
+      "surface": "עד",
+      "gloss": "even unto"
     },
     {
-      "surface": "נָפֶשׁ",
-      "gloss": "the nefesh",
+      "surface": "נפש",
+      "gloss": "nefesh",
       "readings": [
-        "the nefesh",
+        "nefesh",
         "the soul",
         "the life"
-      ]
+      ],
+      "held_by": {
+        "nefesh": [
+          "v2",
+          "v3"
+        ],
+        "the soul": [
+          "v1",
+          "en4"
+        ],
+        "the life": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:03:00.171046034Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

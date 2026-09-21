@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 93:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 93,
-  "translation": "YHWH has reigned; majesty he has clothed himself in; YHWH has clothed himself — strength he has girded himself with; indeed the world is established, never shall it be moved.",
+  "translation": "YHWH reigns, clothed in majesty; YHWH is clothed, girded with strength. Indeed the world is established — never shall it be moved.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,7 +8,21 @@
     },
     {
       "surface": "מלך",
-      "gloss": "has reigned"
+      "gloss": "reigns",
+      "readings": [
+        "reigns",
+        "has reigned"
+      ],
+      "held_by": {
+        "reigns": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "has reigned": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "גאות",
@@ -22,11 +31,25 @@
         "majesty",
         "exaltation",
         "pride"
-      ]
+      ],
+      "held_by": {
+        "majesty": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "exaltation": [
+          "en4"
+        ],
+        "pride": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לבש",
-      "gloss": "he has clothed himself in"
+      "gloss": "clothed"
     },
     {
       "surface": "לבש",
@@ -38,24 +61,30 @@
     },
     {
       "surface": "עז",
-      "gloss": "strength",
-      "readings": [
-        "strength",
-        "might"
-      ]
+      "gloss": "strength"
     },
     {
       "surface": "התאזר",
-      "gloss": "he has girded himself with"
+      "gloss": "girded himself"
     },
     {
       "surface": "אף",
       "gloss": "indeed",
       "readings": [
         "indeed",
-        "also",
-        "even"
-      ]
+        "also"
+      ],
+      "held_by": {
+        "indeed": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "also": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "תכון",
@@ -66,9 +95,18 @@
       "gloss": "the world",
       "readings": [
         "the world",
-        "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the world": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בל",
@@ -79,6 +117,6 @@
       "gloss": "shall it be moved"
     }
   ],
-  "timestamp": "2026-09-20T10:47:19.765811204Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "job 42:2",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 42,
-  "translation": "I have known that You are able for all, and that no plan is withheld from You:",
+  "translation": "I know that You are able ⟨to do⟩ all, and that no plan can be cut off from You.",
   "tokens": [
     {
       "surface": "ידעת",
-      "gloss": "I have known"
+      "gloss": "I know"
     },
     {
       "surface": "כי",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "תוכל",
-      "gloss": "you are able for"
+      "gloss": "You are able"
     },
     {
       "surface": "ולא",
@@ -29,25 +24,47 @@
     },
     {
       "surface": "יבצר",
-      "gloss": "is withheld",
+      "gloss": "can be cut off",
       "readings": [
-        "is withheld",
-        "is cut off"
-      ]
+        "can be cut off",
+        "is withheld"
+      ],
+      "held_by": {
+        "can be cut off": [
+          "v1",
+          "v3"
+        ],
+        "is withheld": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ממך",
-      "gloss": "from you"
+      "gloss": "from You"
     },
     {
       "surface": "מזמה",
-      "gloss": "a plan",
+      "gloss": "plan",
       "readings": [
-        "a plan",
+        "plan",
         "a purpose"
-      ]
+      ],
+      "held_by": {
+        "plan": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a purpose": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:57:56.332346985Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

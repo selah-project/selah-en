@@ -1,41 +1,80 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "2-chronicles 7:4",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "And the king and all the people were sacrificing a sacrifice before YHWH.",
+  "translation": "And the king and all the people were sacrificing sacrifices before YHWH.",
   "tokens": [
     {
-      "surface": "וְהַמֶּלֶךְ",
+      "surface": "והמלך",
       "gloss": "and the king"
     },
     {
-      "surface": "וְכֹל",
+      "surface": "וכל",
       "gloss": "and all"
     },
     {
-      "surface": "הָעָם",
+      "surface": "העם",
       "gloss": "the people"
     },
     {
-      "surface": "זֹבְחִים",
-      "gloss": "were sacrificing"
+      "surface": "זבחים",
+      "gloss": "were sacrificing",
+      "readings": [
+        "were sacrificing",
+        "were slaughtering"
+      ],
+      "held_by": {
+        "were sacrificing": [
+          "v1",
+          "en4"
+        ],
+        "were slaughtering": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "זֶבַח",
-      "gloss": "a sacrifice"
+      "surface": "זבח",
+      "gloss": "sacrifices",
+      "readings": [
+        "sacrifices",
+        "a sacrifice"
+      ],
+      "held_by": {
+        "sacrifices": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a sacrifice": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לִפְנֵי",
-      "gloss": "before"
+      "surface": "לפני",
+      "gloss": "before",
+      "readings": [
+        "before",
+        "before the face of"
+      ],
+      "held_by": {
+        "before": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "before the face of": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     }
   ],
-  "timestamp": "2026-09-20T16:50:00.688261994Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

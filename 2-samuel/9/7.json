@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "2-samuel 9:7",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And David said to him, “Do not fear, for doing I will do with you chesed, for the sake of Jonathan your father, and I will return to you ⟨את⟩ all the field of Saul your father; and you shall eat bread at my table continually.”",
+  "translation": "And David said to him, “Do not fear, for doing I will do chesed with you for the sake of Jonathan your father, and I will restore to you ⟨את⟩ all the field of Saul your father; and you shall eat bread at my table continually.”",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "אל",
-      "gloss": "do not"
+      "gloss": "not"
     },
     {
       "surface": "תירא",
@@ -45,7 +40,21 @@
     },
     {
       "surface": "חסד",
-      "gloss": "chesed"
+      "gloss": "chesed",
+      "readings": [
+        "chesed",
+        "kindness"
+      ],
+      "held_by": {
+        "chesed": [
+          "v3",
+          "en4"
+        ],
+        "kindness": [
+          "v1",
+          "v2"
+        ]
+      }
     },
     {
       "surface": "בעבור",
@@ -61,7 +70,22 @@
     },
     {
       "surface": "והשבתי",
-      "gloss": "and I will return"
+      "gloss": "and I will restore",
+      "readings": [
+        "and I will restore",
+        "and I will return"
+      ],
+      "held_by": {
+        "and I will restore": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I will return": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לך",
@@ -69,8 +93,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "all the field of Saul your father"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "כל",
@@ -113,6 +136,6 @@
       "gloss": "continually"
     }
   ],
-  "timestamp": "2026-09-20T13:07:01.279179066Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

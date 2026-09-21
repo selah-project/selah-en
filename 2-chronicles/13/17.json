@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "2-chronicles 13:17",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "And Abijah and his people struck among them a blow, a great one, and there fell slain of Israel five hundred thousand men, chosen.",
+  "translation": "And Abijah and his people struck them ⟨with⟩ a great slaughter, and there fell slain of Israel five hundred thousand chosen men.",
   "tokens": [
     {
       "surface": "ויכו",
@@ -13,7 +8,21 @@
     },
     {
       "surface": "בהם",
-      "gloss": "among them"
+      "gloss": "them",
+      "readings": [
+        "them",
+        "among them"
+      ],
+      "held_by": {
+        "them": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "among them": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אביה",
@@ -25,23 +34,49 @@
     },
     {
       "surface": "מכה",
-      "gloss": "a blow"
+      "gloss": "slaughter",
+      "readings": [
+        "slaughter",
+        "a blow"
+      ],
+      "held_by": {
+        "slaughter": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a blow": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רבה",
-      "gloss": "a great one"
+      "gloss": "great"
     },
     {
       "surface": "ויפלו",
-      "gloss": "and fell"
+      "gloss": "and there fell"
     },
     {
       "surface": "חללים",
       "gloss": "slain",
       "readings": [
         "slain",
-        "pierced"
-      ]
+        "wounded"
+      ],
+      "held_by": {
+        "slain": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "wounded": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מישראל",
@@ -68,6 +103,6 @@
       "gloss": "chosen"
     }
   ],
-  "timestamp": "2026-09-20T16:50:07.226032867Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

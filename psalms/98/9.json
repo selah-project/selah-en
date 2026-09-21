@@ -1,14 +1,9 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 98:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 98,
-  "translation": "Before YHWH, for he has come to judge the earth; he judges the inhabited world in righteousness, and the peoples in uprightness.",
+  "translation": "Before YHWH, for he has come to judge the earth; he will judge the world in righteousness, and the peoples in uprightness.",
   "tokens": [
     {
-      "surface": "לִֽפְנֵי",
+      "surface": "לפני",
       "gloss": "before"
     },
     {
@@ -16,54 +11,101 @@
       "gloss": "YHWH"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "בָא",
+      "surface": "בא",
       "gloss": "he has come"
     },
     {
-      "surface": "לִשְׁפֹּט",
+      "surface": "לשפט",
       "gloss": "to judge"
     },
     {
-      "surface": "הָאָרֶץ",
+      "surface": "הארץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יִשְׁפֹּט",
-      "gloss": "he judges"
-    },
-    {
-      "surface": "תֵבֵל",
-      "gloss": "the inhabited world",
+      "surface": "ישפט",
+      "gloss": "he will judge",
       "readings": [
-        "the inhabited world",
-        "the world"
-      ]
+        "he will judge",
+        "he judges"
+      ],
+      "held_by": {
+        "he will judge": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "he judges": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּצֶדֶק",
+      "surface": "תבל",
+      "gloss": "the world",
+      "readings": [
+        "the world",
+        "the inhabited world"
+      ],
+      "held_by": {
+        "the world": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the inhabited world": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "בצדק",
       "gloss": "in righteousness"
     },
     {
-      "surface": "וְעַמִּים",
+      "surface": "ועמים",
       "gloss": "and the peoples"
     },
     {
-      "surface": "בְּמֵישָׁרִים",
+      "surface": "במישרים",
       "gloss": "in uprightness",
       "readings": [
         "in uprightness",
         "in equity"
-      ]
+      ],
+      "held_by": {
+        "in uprightness": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in equity": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:48:51.274614664Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

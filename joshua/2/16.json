@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "joshua 2:16",
-  "book": "joshua",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "And she said to them: To the mountain go, lest the pursuers fall upon you; and you shall hide yourselves there three days, until the pursuers return, and afterward you shall go on your way.",
+  "translation": "And she said to them, “Go to the mountain, lest the pursuers meet you, and hide yourselves there three days until the return of the pursuers; and afterward you shall go on your way.”",
   "tokens": [
     {
       "surface": "ותאמר",
@@ -29,11 +24,22 @@
     },
     {
       "surface": "יפגעו",
-      "gloss": "they fall upon",
+      "gloss": "they meet",
       "readings": [
-        "they fall upon",
-        "they meet"
-      ]
+        "they meet",
+        "they fall upon"
+      ],
+      "held_by": {
+        "they meet": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "they fall upon": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בכם",
@@ -45,7 +51,22 @@
     },
     {
       "surface": "ונחבתם",
-      "gloss": "and you shall hide yourselves"
+      "gloss": "and hide yourselves",
+      "readings": [
+        "and hide yourselves",
+        "and be hidden"
+      ],
+      "held_by": {
+        "and hide yourselves": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and be hidden": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שמה",
@@ -81,9 +102,9 @@
     },
     {
       "surface": "לדרככם",
-      "gloss": "on your way"
+      "gloss": "your way"
     }
   ],
-  "timestamp": "2026-09-20T12:52:01.214793705Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

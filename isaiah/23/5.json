@@ -1,46 +1,61 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "isaiah 23:5",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "According as the report <is> to Egypt, they writhe; according as the report of Tyre.",
+  "translation": "As the report to Egypt, they shall writhe; as the report of Tyre.",
   "tokens": [
     {
-      "surface": "כַּאֲשֶׁר",
-      "gloss": "according as"
+      "surface": "כאשר",
+      "gloss": "as"
     },
     {
-      "surface": "שֵׁמַע",
+      "surface": "שמע",
       "gloss": "report",
       "readings": [
         "report",
-        "rumor",
-        "sound"
-      ]
+        "rumor"
+      ],
+      "held_by": {
+        "report": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "rumor": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לְמִצְרָיִם",
-      "gloss": "to Egypt"
-    },
-    {
-      "surface": "יָחִילוּ",
-      "gloss": "they writhe",
+      "surface": "למצרים",
+      "gloss": "to Egypt",
       "readings": [
-        "they writhe",
-        "they are in pain"
-      ]
+        "to Egypt",
+        "concerning Egypt"
+      ],
+      "held_by": {
+        "to Egypt": [
+          "en4"
+        ],
+        "concerning Egypt": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "כְּשֵׁמַע",
-      "gloss": "according to the report"
+      "surface": "יחילו",
+      "gloss": "they shall writhe"
     },
     {
-      "surface": "צֹר",
+      "surface": "כשמע",
+      "gloss": "as the report"
+    },
+    {
+      "surface": "צר",
       "gloss": "Tyre"
     }
   ],
-  "timestamp": "2026-09-20T10:21:50.609630169Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,29 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "psalms 122:6",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 122,
-  "translation": "Ask for the peace of Jerusalem; may those who love you be secure.",
+  "translation": "Ask for the peace of Jerusalem; may they be at ease, those who love you.",
   "tokens": [
     {
       "surface": "שאלו",
-      "gloss": "ask",
-      "readings": [
-        "ask",
-        "inquire",
-        "request"
-      ]
+      "gloss": "Ask"
     },
     {
       "surface": "שלום",
       "gloss": "the peace of",
       "readings": [
         "the peace of",
-        "the welfare of",
         "the wholeness of"
-      ]
+      ],
+      "held_by": {
+        "the peace of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the wholeness of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ירושלם",
@@ -31,18 +31,27 @@
     },
     {
       "surface": "ישליו",
-      "gloss": "may they be secure",
+      "gloss": "may they be at ease",
       "readings": [
-        "may they be secure",
-        "may they be tranquil",
+        "may they be at ease",
         "may they prosper"
-      ]
+      ],
+      "held_by": {
+        "may they be at ease": [
+          "v2",
+          "v3"
+        ],
+        "may they prosper": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אהביך",
       "gloss": "those who love you"
     }
   ],
-  "timestamp": "2026-09-20T10:49:31.597791424Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 146:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 146,
-  "translation": "YHWH guards ⟨את⟩ strangers; the fatherless and the widow he sustains; but the way of the wicked he makes crooked.",
+  "translation": "YHWH keeps ⟨את⟩ the sojourners; the fatherless and the widow he upholds, but the way of the wicked he makes crooked.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,24 +8,34 @@
     },
     {
       "surface": "שמר",
-      "gloss": "guards"
+      "gloss": "keeps"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "strangers"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "גרים",
-      "gloss": "strangers",
+      "gloss": "the sojourners",
       "readings": [
-        "strangers",
-        "sojourners"
-      ]
+        "the sojourners",
+        "strangers"
+      ],
+      "held_by": {
+        "the sojourners": [
+          "v2",
+          "v3"
+        ],
+        "strangers": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יתום",
-      "gloss": "fatherless"
+      "gloss": "the fatherless"
     },
     {
       "surface": "ואלמנה",
@@ -38,31 +43,36 @@
     },
     {
       "surface": "יעודד",
-      "gloss": "he sustains",
+      "gloss": "upholds",
       "readings": [
-        "he sustains",
-        "he lifts up",
-        "he restores"
-      ]
+        "upholds",
+        "sustains"
+      ],
+      "held_by": {
+        "upholds": [
+          "v2",
+          "v3"
+        ],
+        "sustains": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ודרך",
-      "gloss": "and the way of"
+      "gloss": "but the way"
     },
     {
       "surface": "רשעים",
-      "gloss": "the wicked"
+      "gloss": "of the wicked"
     },
     {
       "surface": "יעות",
-      "gloss": "he makes crooked",
-      "readings": [
-        "he makes crooked",
-        "he bends",
-        "he perverts"
-      ]
+      "gloss": "makes crooked"
     }
   ],
-  "timestamp": "2026-09-20T14:10:55.822169058Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

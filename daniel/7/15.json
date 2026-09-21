@@ -1,24 +1,43 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "daniel 7:15",
-  "book": "daniel",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "My spirit was distressed — I, Daniel — inside ⟨the⟩ sheath, and the visions of my head were alarming me.",
+  "translation": "My spirit was grieved — I, Daniel — in the midst of my sheath, and the visions of my head alarmed me.",
   "tokens": [
     {
       "surface": "אתכרית",
-      "gloss": "was distressed"
+      "gloss": "was grieved",
+      "readings": [
+        "was grieved",
+        "was distressed"
+      ],
+      "held_by": {
+        "was grieved": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "was distressed": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רוחי",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
-        "my wind",
         "my breath"
-      ]
+      ],
+      "held_by": {
+        "my spirit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my breath": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אנה",
@@ -30,15 +49,26 @@
     },
     {
       "surface": "בגוא",
-      "gloss": "inside"
+      "gloss": "in the midst of"
     },
     {
       "surface": "נדנה",
-      "gloss": "the sheath",
+      "gloss": "my sheath",
       "readings": [
-        "the sheath",
-        "the body"
-      ]
+        "my sheath",
+        "my body"
+      ],
+      "held_by": {
+        "my sheath": [
+          "v1",
+          "en4"
+        ],
+        "my body": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וחזוי",
@@ -50,13 +80,23 @@
     },
     {
       "surface": "יבהלנני",
-      "gloss": "were alarming me",
+      "gloss": "alarmed me",
       "readings": [
-        "were alarming me",
-        "were terrifying me"
-      ]
+        "alarmed me",
+        "terrified me"
+      ],
+      "held_by": {
+        "alarmed me": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "terrified me": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T11:02:18.070908331Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

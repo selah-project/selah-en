@@ -1,58 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 136:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 136,
-  "translation": "⟨את⟩ the moon and the stars for rules in the night, for His chesed endures for the age.",
+  "translation": "⟨את⟩ the moon and the stars to rule in the night, for His chesed ⟨endures⟩ forever.",
   "tokens": [
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the moon"
+      "surface": "את",
+      "gloss": "⟨את⟩"
     },
     {
-      "surface": "הַיָּרֵחַ",
+      "surface": "הירח",
       "gloss": "the moon"
     },
     {
-      "surface": "וְכוֹכָבִים",
+      "surface": "וכוכבים",
       "gloss": "and the stars"
     },
     {
-      "surface": "לְמֶמְשְׁלוֹת",
-      "gloss": "for rules",
+      "surface": "לממשלות",
+      "gloss": "to rule",
       "readings": [
-        "for rules",
+        "to rule",
         "for dominions"
-      ]
+      ],
+      "held_by": {
+        "to rule": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for dominions": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בַּלָּיְלָה",
+      "surface": "בלילה",
       "gloss": "in the night"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "לְעוֹלָם",
-      "gloss": "for the age",
+      "surface": "לעולם",
+      "gloss": "forever",
       "readings": [
-        "for the age",
-        "forever"
-      ]
+        "forever",
+        "for the age"
+      ],
+      "held_by": {
+        "forever": [
+          "v2",
+          "v3"
+        ],
+        "for the age": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חַסְדּוֹ",
+      "surface": "חסדו",
       "gloss": "His chesed",
       "readings": [
         "His chesed",
         "His steadfast love"
-      ]
+      ],
+      "held_by": {
+        "His chesed": [
+          "v3",
+          "en4"
+        ],
+        "His steadfast love": [
+          "v1",
+          "v2"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:49:44.981261071Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

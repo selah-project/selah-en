@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "job 18:20",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "Over his day those of the west are appalled, and those of the east seize horror.",
+  "translation": "At his day ⟨the⟩ later ⟨ones⟩ are appalled, and ⟨the⟩ earlier ⟨ones⟩ seized ⟨with⟩ horror.",
   "tokens": [
     {
       "surface": "על",
-      "gloss": "over"
+      "gloss": "At",
+      "readings": [
+        "At",
+        "Over"
+      ],
+      "held_by": {
+        "At": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "Over": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יומו",
@@ -21,31 +30,73 @@
     },
     {
       "surface": "אחרנים",
-      "gloss": "those of the west",
+      "gloss": "the later ones",
       "readings": [
+        "the later ones",
         "those of the west",
-        "those who come after",
-        "the latter ones"
-      ]
+        "those who come after"
+      ],
+      "held_by": {
+        "the later ones": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "those of the west": [
+          "en4"
+        ],
+        "those who come after": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וקדמנים",
-      "gloss": "and those of the east",
+      "gloss": "and the earlier ones",
       "readings": [
+        "and the earlier ones",
         "and those of the east",
-        "those who went before",
-        "the former ones"
-      ]
+        "and those who went before"
+      ],
+      "held_by": {
+        "and the earlier ones": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and those of the east": [
+          "en4"
+        ],
+        "and those who went before": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אחזו",
-      "gloss": "seize"
+      "gloss": "seized",
+      "readings": [
+        "seized",
+        "seize"
+      ],
+      "held_by": {
+        "seized": [
+          "v1",
+          "v3"
+        ],
+        "seize": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "שער",
       "gloss": "horror"
     }
   ],
-  "timestamp": "2026-09-20T16:43:29.616084815Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

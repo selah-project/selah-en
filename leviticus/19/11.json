@@ -1,50 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "leviticus 19:11",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "You shall not steal, and you shall not deny, and you shall not lie — a man against his fellow.",
+  "translation": "You shall not steal, and you shall not deal falsely, and you shall not lie — a man with his fellow.",
   "tokens": [
     {
-      "surface": "לֹ֖א",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "תִּגְנֹ֑בוּ",
+      "surface": "תגנבו",
       "gloss": "you shall steal"
     },
     {
-      "surface": "וְלֹא",
+      "surface": "ולא",
       "gloss": "and not"
     },
     {
-      "surface": "תְכַחֲשׁ֥וּ",
-      "gloss": "you shall deny",
+      "surface": "תכחשו",
+      "gloss": "you shall deal falsely",
       "readings": [
-        "you shall deny",
         "you shall deal falsely",
-        "you shall disown"
-      ]
+        "you shall deny"
+      ],
+      "held_by": {
+        "you shall deal falsely": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you shall deny": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְלֹֽא",
+      "surface": "ולא",
       "gloss": "and not"
     },
     {
-      "surface": "תְשַׁקְּר֖וּ",
+      "surface": "תשקרו",
       "gloss": "you shall lie"
     },
     {
-      "surface": "אִ֥ישׁ",
+      "surface": "איש",
       "gloss": "a man"
     },
     {
-      "surface": "בַּעֲמִיתֽוֹ",
-      "gloss": "against his fellow"
+      "surface": "בעמיתו",
+      "gloss": "with his fellow",
+      "readings": [
+        "with his fellow",
+        "against his fellow"
+      ],
+      "held_by": {
+        "with his fellow": [
+          "v1",
+          "v3"
+        ],
+        "against his fellow": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T12:37:02.298981884Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

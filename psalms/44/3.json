@@ -1,45 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 44:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 44,
-  "translation": "You — your hand dispossessed the nations, and planted them; you broke the peoples, and sent them out.",
+  "translation": "You — your hand dispossessed nations and planted them; you afflicted peoples and sent them away.",
   "tokens": [
     {
-      "surface": "אַתָּה",
-      "gloss": "you"
+      "surface": "אתה",
+      "gloss": "You"
     },
     {
-      "surface": "יָדְךָ",
+      "surface": "ידך",
       "gloss": "your hand"
     },
     {
-      "surface": "גּוֹיִם",
+      "surface": "גוים",
       "gloss": "nations"
     },
     {
-      "surface": "הוֹרַשְׁתָּ",
-      "gloss": "dispossessed"
+      "surface": "הורשת",
+      "gloss": "dispossessed",
+      "readings": [
+        "dispossessed",
+        "drove out"
+      ],
+      "held_by": {
+        "dispossessed": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "drove out": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וַתִּטָּעֵם",
+      "surface": "ותטעם",
       "gloss": "and planted them"
     },
     {
-      "surface": "תָּרַע",
-      "gloss": "broke"
+      "surface": "תרע",
+      "gloss": "you afflicted",
+      "readings": [
+        "you afflicted",
+        "you broke"
+      ],
+      "held_by": {
+        "you afflicted": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you broke": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְאֻמִּים",
+      "surface": "לאמים",
       "gloss": "peoples"
     },
     {
-      "surface": "וַתְּשַׁלְּחֵם",
-      "gloss": "and sent them out"
+      "surface": "ותשלחם",
+      "gloss": "and sent them away"
     }
   ],
-  "timestamp": "2026-09-20T15:43:53.096056031Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

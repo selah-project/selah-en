@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "amos 9:9",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "For behold, I am commanding, and I will shake ⟨את⟩ the house of Israel among all the nations, as one shakes with a sieve, and not a kernel falls to the earth.",
+  "translation": "For behold, I am commanding, and I will shake ⟨את⟩ the house of Israel among all the nations, as one shakes with a sieve, and not a pebble falls to the earth.",
   "tokens": [
     {
       "surface": "כי",
@@ -28,8 +23,19 @@
       "gloss": "and I will shake",
       "readings": [
         "and I will shake",
-        "and I will cause to sway"
-      ]
+        "and I will sift"
+      ],
+      "held_by": {
+        "and I will shake": [
+          "v1",
+          "en4"
+        ],
+        "and I will sift": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בכל",
@@ -41,8 +47,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the house of Israel"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "בית",
@@ -61,8 +66,19 @@
       "gloss": "one shakes",
       "readings": [
         "one shakes",
-        "it is shaken"
-      ]
+        "is sifted"
+      ],
+      "held_by": {
+        "one shakes": [
+          "v1",
+          "en4"
+        ],
+        "is sifted": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בכברה",
@@ -78,22 +94,27 @@
     },
     {
       "surface": "צרור",
-      "gloss": "a kernel",
+      "gloss": "a pebble",
       "readings": [
-        "a kernel",
         "a pebble",
-        "a bundled parcel"
-      ]
+        "the smallest grain"
+      ],
+      "held_by": {
+        "a pebble": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the smallest grain": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ארץ",
-      "gloss": "to the earth",
-      "readings": [
-        "to the earth",
-        "to the land"
-      ]
+      "gloss": "to the earth"
     }
   ],
-  "timestamp": "2026-09-20T10:38:12.914083861Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

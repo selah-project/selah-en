@@ -1,16 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "2-chronicles 4:20",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "and ⟨את⟩ the lampstands and their lamps, for their burning according to the ordinance, before the debir — gold shut up, that is, refined.",
+  "translation": "And ⟨את⟩ the lampstands and their lamps, for burning them according to the ordinance before the inner sanctuary — gold shut up, that is, refined.",
   "tokens": [
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩",
-      "marks": "the lampstands"
+      "gloss": "and ⟨את⟩"
     },
     {
       "surface": "המנרות",
@@ -22,7 +16,21 @@
     },
     {
       "surface": "לבערם",
-      "gloss": "for their burning"
+      "gloss": "for burning them",
+      "readings": [
+        "for burning them",
+        "to burn them"
+      ],
+      "held_by": {
+        "for burning them": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "to burn them": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "כמשפט",
@@ -34,7 +42,25 @@
     },
     {
       "surface": "הדביר",
-      "gloss": "the debir"
+      "gloss": "the inner sanctuary",
+      "readings": [
+        "the inner sanctuary",
+        "the debir",
+        "the oracle"
+      ],
+      "held_by": {
+        "the inner sanctuary": [
+          "v2",
+          "v3"
+        ],
+        "the debir": [
+          "en4"
+        ],
+        "the oracle": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "זהב",
@@ -42,9 +68,24 @@
     },
     {
       "surface": "סגור",
-      "gloss": "shut up, that is, refined"
+      "gloss": "shut up",
+      "readings": [
+        "shut up",
+        "refined"
+      ],
+      "held_by": {
+        "shut up": [
+          "v1",
+          "en4"
+        ],
+        "refined": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T11:09:24.649039027Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

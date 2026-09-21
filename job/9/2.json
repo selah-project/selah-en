@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "job 9:2",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "Truly I have known that it is so; and how can a mortal be righteous with El?",
+  "translation": "Truly I know that it is so; but how can a mortal be righteous with El?",
   "tokens": [
     {
-      "surface": "אָמְנָם",
+      "surface": "אמנם",
       "gloss": "truly"
     },
     {
       "surface": "יָדַעְתִּי",
-      "gloss": "I have known"
+      "gloss": "I know",
+      "readings": [
+        "I know",
+        "I have known"
+      ],
+      "held_by": {
+        "I know": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I have known": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כִּי",
@@ -25,11 +34,25 @@
     },
     {
       "surface": "וּמָה",
-      "gloss": "and how"
+      "gloss": "but how",
+      "readings": [
+        "but how",
+        "and how"
+      ],
+      "held_by": {
+        "but how": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and how": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יִצְדַּק",
-      "gloss": "can be righteous"
+      "surface": "יִצְדָּק",
+      "gloss": "be righteous"
     },
     {
       "surface": "אֱנוֹשׁ",
@@ -37,7 +60,18 @@
       "readings": [
         "a mortal",
         "mankind"
-      ]
+      ],
+      "held_by": {
+        "a mortal": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "mankind": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עִם",
@@ -48,6 +82,6 @@
       "gloss": "El"
     }
   ],
-  "timestamp": "2026-09-20T14:16:48.547518489Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

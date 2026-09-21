@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "deuteronomy 21:1",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "When one is found slain in the land that YHWH your Elohim is giving to you to possess it, fallen in the field, and it is not known who struck him,",
+  "translation": "If one is found slain in the land that YHWH your Elohim is giving to you to possess it, fallen in the field, and it is not known who struck him —",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "When"
+      "gloss": "If",
+      "readings": [
+        "If",
+        "When"
+      ],
+      "held_by": {
+        "If": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "When": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ימצא",
@@ -17,11 +26,22 @@
     },
     {
       "surface": "חלל",
-      "gloss": "slain",
+      "gloss": "slain one",
       "readings": [
-        "slain",
-        "pierced"
-      ]
+        "slain one",
+        "pierced one"
+      ],
+      "held_by": {
+        "slain one": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "pierced one": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "באדמה",
@@ -65,7 +85,7 @@
     },
     {
       "surface": "נודע",
-      "gloss": "it is known"
+      "gloss": "is known"
     },
     {
       "surface": "מי",
@@ -76,6 +96,6 @@
       "gloss": "struck him"
     }
   ],
-  "timestamp": "2026-09-20T12:48:55.750572588Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

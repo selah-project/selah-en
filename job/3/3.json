@@ -1,53 +1,84 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "job 3:3",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Let the day perish wherein I was born, and the night that said, ‘A man is conceived.’",
+  "translation": "Let the day perish on which I was born, and the night that said, ‘A man is conceived.’",
   "tokens": [
     {
-      "surface": "יֹאבַד",
+      "surface": "יאבד",
       "gloss": "Let perish"
     },
     {
-      "surface": "יוֹם",
+      "surface": "יום",
       "gloss": "the day"
     },
     {
-      "surface": "אִוָּלֶד",
-      "gloss": "I was begotten"
+      "surface": "אולד",
+      "gloss": "I was born",
+      "readings": [
+        "I was born",
+        "I was begotten"
+      ],
+      "held_by": {
+        "I was born": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I was begotten": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בּוֹ",
-      "gloss": "in it"
+      "surface": "בו",
+      "gloss": "on which"
     },
     {
-      "surface": "וְהַלַּיְלָה",
+      "surface": "והלילה",
       "gloss": "and the night"
     },
     {
-      "surface": "אָמַר",
-      "gloss": "said"
+      "surface": "אמר",
+      "gloss": "that said"
     },
     {
-      "surface": "הֹרָה",
+      "surface": "הרה",
       "gloss": "is conceived",
       "readings": [
         "is conceived",
-        "pregnant"
-      ]
+        "is pregnant"
+      ],
+      "held_by": {
+        "is conceived": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "is pregnant": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "גָּבֶר",
+      "surface": "גבר",
       "gloss": "a man",
       "readings": [
         "a man",
         "a mighty man"
-      ]
+      ],
+      "held_by": {
+        "a man": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a mighty man": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:54:12.631162367Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

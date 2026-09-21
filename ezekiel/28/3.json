@@ -1,22 +1,17 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "ezekiel 28:3",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 28,
-  "translation": "Behold, you are wiser than Daniel; every secret — they were not able to hide from you.",
+  "translation": "Behold, you are wiser than Daniel — no secret thing was hidden from you —",
   "tokens": [
     {
-      "surface": "הִנֵּה",
+      "surface": "הנה",
       "gloss": "Behold"
     },
     {
-      "surface": "חָכָם",
-      "gloss": "wise"
+      "surface": "חכם",
+      "gloss": "wiser"
     },
     {
-      "surface": "אַתָּה",
+      "surface": "אתה",
       "gloss": "you"
     },
     {
@@ -24,30 +19,65 @@
       "gloss": "than Daniel"
     },
     {
-      "surface": "כָּל",
-      "gloss": "every"
-    },
-    {
-      "surface": "סָתוּם",
-      "gloss": "secret",
+      "surface": "כל",
+      "gloss": "no",
       "readings": [
-        "secret",
-        "hidden thing"
-      ]
+        "no",
+        "every"
+      ],
+      "held_by": {
+        "no": [
+          "v2",
+          "v3"
+        ],
+        "every": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לֹא",
+      "surface": "סתום",
+      "gloss": "secret thing",
+      "readings": [
+        "secret thing",
+        "hidden thing"
+      ],
+      "held_by": {
+        "secret thing": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "hidden thing": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "עֲמָמוּךָ",
-      "gloss": "they hid from you",
+      "surface": "עממוך",
+      "gloss": "was hidden from you",
       "readings": [
-        "they hid from you",
-        "they overshadowed you"
-      ]
+        "was hidden from you",
+        "did they obscure from you"
+      ],
+      "held_by": {
+        "was hidden from you": [
+          "v2",
+          "v3"
+        ],
+        "did they obscure from you": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:34:06.464862136Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

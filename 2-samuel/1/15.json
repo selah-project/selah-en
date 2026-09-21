@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "2-samuel 1:15",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And David called to one of the young men and said, “Go near, fall upon him.” And he struck him, and he died.",
+  "translation": "And David called to one of the young men and said, “Draw near, strike him down.” And he struck him, and he died.",
   "tokens": [
     {
       "surface": "ויקרא",
-      "gloss": "and called"
+      "gloss": "And called"
     },
     {
       "surface": "דוד",
@@ -29,11 +24,26 @@
     },
     {
       "surface": "גש",
-      "gloss": "go near"
+      "gloss": "Draw near"
     },
     {
       "surface": "פגע",
-      "gloss": "fall upon"
+      "gloss": "strike down",
+      "readings": [
+        "strike down",
+        "fall upon"
+      ],
+      "held_by": {
+        "strike down": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "fall upon": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בו",
@@ -41,13 +51,13 @@
     },
     {
       "surface": "ויכהו",
-      "gloss": "and struck him"
+      "gloss": "and he struck him"
     },
     {
       "surface": "וימת",
       "gloss": "and he died"
     }
   ],
-  "timestamp": "2026-09-20T13:05:39.451050484Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

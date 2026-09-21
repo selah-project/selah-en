@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 38:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 38,
-  "translation": "For Your arrows have come down into me, and Your hand has come down upon me.",
+  "translation": "For your arrows have sunk into me, and your hand has pressed down upon me.",
   "tokens": [
     {
       "surface": "כי",
@@ -13,11 +8,26 @@
     },
     {
       "surface": "חציך",
-      "gloss": "Your arrows"
+      "gloss": "your arrows"
     },
     {
       "surface": "נחתו",
-      "gloss": "have come down"
+      "gloss": "have sunk",
+      "readings": [
+        "have sunk",
+        "have come down"
+      ],
+      "held_by": {
+        "have sunk": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "have come down": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בי",
@@ -25,17 +35,32 @@
     },
     {
       "surface": "ותנחת",
-      "gloss": "and has come down"
+      "gloss": "and has pressed down",
+      "readings": [
+        "and has pressed down",
+        "and has come down"
+      ],
+      "held_by": {
+        "and has pressed down": [
+          "v1",
+          "v3"
+        ],
+        "and has come down": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עלי",
-      "gloss": "upon"
+      "gloss": "upon me"
     },
     {
       "surface": "ידך",
-      "gloss": "Your hand"
+      "gloss": "your hand"
     }
   ],
-  "timestamp": "2026-09-20T10:42:58.517818616Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

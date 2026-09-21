@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 108:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 108,
-  "translation": "Have not you, Elohim, rejected us? And will not you, Elohim, go forth with our hosts?",
+  "translation": "Have you not cast us off, Elohim, and do you not go out, Elohim, with our hosts?",
   "tokens": [
     {
       "surface": "הלא",
-      "gloss": "Have not"
+      "gloss": "Have you not"
     },
     {
       "surface": "אלהים",
@@ -17,7 +12,21 @@
     },
     {
       "surface": "זנחתנו",
-      "gloss": "you rejected us"
+      "gloss": "cast us off",
+      "readings": [
+        "cast us off",
+        "rejected us"
+      ],
+      "held_by": {
+        "cast us off": [
+          "v2",
+          "v3"
+        ],
+        "rejected us": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולא",
@@ -25,7 +34,21 @@
     },
     {
       "surface": "תצא",
-      "gloss": "will you go forth"
+      "gloss": "go out",
+      "readings": [
+        "go out",
+        "go forth"
+      ],
+      "held_by": {
+        "go out": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "go forth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהים",
@@ -33,9 +56,23 @@
     },
     {
       "surface": "בצבאתינו",
-      "gloss": "with our hosts"
+      "gloss": "with our hosts",
+      "readings": [
+        "with our hosts",
+        "with our armies"
+      ],
+      "held_by": {
+        "with our hosts": [
+          "v2",
+          "en4"
+        ],
+        "with our armies": [
+          "v1",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:47:06.088792720Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "jeremiah 8:13",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "Gathering I will gather them, says YHWH: there are no grapes on the vine, and no figs on the fig tree, and the leaf has withered, and I gave to them — they pass over them.",
+  "translation": "Gathering I will gather them, oracle of YHWH: no grapes on the vine and no figs on the fig tree, and the leaf has withered, and I gave to them — they shall pass over them.",
   "tokens": [
     {
       "surface": "אסף",
@@ -17,7 +12,7 @@
     },
     {
       "surface": "נאם",
-      "gloss": "says"
+      "gloss": "oracle of"
     },
     {
       "surface": "יהוה",
@@ -25,7 +20,7 @@
     },
     {
       "surface": "אין",
-      "gloss": "there are no"
+      "gloss": "no"
     },
     {
       "surface": "ענבים",
@@ -57,7 +52,18 @@
       "readings": [
         "has withered",
         "has fallen away"
-      ]
+      ],
+      "held_by": {
+        "has withered": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "has fallen away": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואתן",
@@ -69,9 +75,22 @@
     },
     {
       "surface": "יעברום",
-      "gloss": "they pass over them"
+      "gloss": "they shall pass over them",
+      "readings": [
+        "they shall pass over them",
+        "they shall pass from them"
+      ],
+      "held_by": {
+        "they shall pass over them": [
+          "en4"
+        ],
+        "they shall pass from them": [
+          "v2"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:26:29.472161731Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

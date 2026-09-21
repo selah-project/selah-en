@@ -1,50 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 54:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 54,
-  "translation": "For from every distress he delivered me, and against my enemies my eye has looked.",
+  "translation": "For from all distress he delivered me, and upon my enemies my eye has looked.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "מִכָּל",
-      "gloss": "from every"
+      "surface": "מכל",
+      "gloss": "from all"
     },
     {
-      "surface": "צָרָה",
-      "gloss": "distress",
-      "readings": [
-        "distress",
-        "tightness",
-        "trouble"
-      ]
+      "surface": "צרה",
+      "gloss": "distress"
     },
     {
-      "surface": "הִצִּילָנִי",
+      "surface": "הצילני",
       "gloss": "he delivered me"
     },
     {
-      "surface": "וּבְאֹיְבַי",
-      "gloss": "and against my enemies"
+      "surface": "ובאיבי",
+      "gloss": "and upon my enemies",
+      "readings": [
+        "and upon my enemies",
+        "and against my enemies"
+      ],
+      "held_by": {
+        "and upon my enemies": [
+          "v2",
+          "v3"
+        ],
+        "and against my enemies": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "רָאֲתָה",
+      "surface": "ראתה",
       "gloss": "has looked",
       "readings": [
         "has looked",
         "has seen"
-      ]
+      ],
+      "held_by": {
+        "has looked": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "has seen": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "עֵינִי",
+      "surface": "עיני",
       "gloss": "my eye"
     }
   ],
-  "timestamp": "2026-09-20T16:39:58.236135250Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

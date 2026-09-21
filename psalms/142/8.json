@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 142:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 142,
-  "translation": "Bring out from confinement my nefesh, to give thanks to ⟨את⟩ your name; because of me the righteous will surround me, for you will deal bountifully with me.",
+  "translation": "Bring out from prison my nefesh, to give thanks to ⟨את⟩ your name; the righteous will surround me, for you will deal bountifully with me.",
   "tokens": [
     {
       "surface": "הוציאה",
@@ -13,12 +8,21 @@
     },
     {
       "surface": "ממסגר",
-      "gloss": "from confinement",
+      "gloss": "from prison",
       "readings": [
-        "from confinement",
         "from prison",
-        "from the stronghold"
-      ]
+        "from confinement"
+      ],
+      "held_by": {
+        "from prison": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "from confinement": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נפשי",
@@ -27,7 +31,21 @@
         "my nefesh",
         "my soul",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "להודות",
@@ -35,8 +53,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "your name"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "שמך",
@@ -44,7 +61,25 @@
     },
     {
       "surface": "בי",
-      "gloss": "because of me"
+      "gloss": "around me",
+      "readings": [
+        "around me",
+        "because of me",
+        "in me"
+      ],
+      "held_by": {
+        "around me": [
+          "v2",
+          "v3"
+        ],
+        "because of me": [
+          "en4"
+        ],
+        "in me": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יכתרו",
@@ -52,7 +87,18 @@
       "readings": [
         "will surround",
         "will crown"
-      ]
+      ],
+      "held_by": {
+        "will surround": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "will crown": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "צדיקים",
@@ -64,13 +110,13 @@
     },
     {
       "surface": "תגמל",
-      "gloss": "you deal bountifully"
+      "gloss": "you will deal bountifully"
     },
     {
       "surface": "עלי",
       "gloss": "with me"
     }
   ],
-  "timestamp": "2026-09-20T10:50:05.269694440Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

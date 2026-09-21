@@ -1,27 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 30,
-  "ref": "1-samuel 20:30",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "And the anger of Saul burned in him against Jonathan, and he said to him, Son of a crooked perverseness! Do I not know that you have chosen the son of Jesse, to your shame, and to the shame of the nakedness of your mother?",
+  "translation": "And the nose of Saul burned against Jonathan, and he said to him: Son of perverse rebellion! Do I not know that you have chosen the son of Jesse, to your shame, and to the shame of the nakedness of your mother?",
   "tokens": [
     {
       "surface": "ויחר",
-      "gloss": "and burned",
-      "readings": [
-        "and burned",
-        "and kindled"
-      ]
+      "gloss": "and burned"
     },
     {
       "surface": "אף",
-      "gloss": "the anger of",
+      "gloss": "the nose of",
       "readings": [
-        "the anger of",
-        "the nose of"
-      ]
+        "the nose of",
+        "the anger of"
+      ],
+      "held_by": {
+        "the nose of": [
+          "v1",
+          "v3"
+        ],
+        "the anger of": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שאול",
@@ -29,7 +31,7 @@
     },
     {
       "surface": "ביהונתן",
-      "gloss": "in Jonathan, against"
+      "gloss": "against Jonathan"
     },
     {
       "surface": "ויאמר",
@@ -41,23 +43,43 @@
     },
     {
       "surface": "בן",
-      "gloss": "Son of"
+      "gloss": "Son"
     },
     {
       "surface": "נעות",
-      "gloss": "crookedness",
+      "gloss": "of perverse",
       "readings": [
-        "crookedness",
-        "perverseness"
-      ]
+        "of perverse",
+        "of crookedness"
+      ],
+      "held_by": {
+        "of perverse": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "of crookedness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "המרדות",
-      "gloss": "the perverseness",
+      "gloss": "rebellion",
       "readings": [
-        "the perverseness",
-        "the rebellion"
-      ]
+        "rebellion",
+        "perverseness"
+      ],
+      "held_by": {
+        "rebellion": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "perverseness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הלוא",
@@ -101,13 +123,24 @@
       "readings": [
         "the nakedness of",
         "the disgrace of"
-      ]
+      ],
+      "held_by": {
+        "the nakedness of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the disgrace of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אמך",
-      "gloss": "your mother"
+      "gloss": "of your mother"
     }
   ],
-  "timestamp": "2026-09-20T17:01:08.351114183Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "genesis 24:8",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "And if the woman is not willing to go after you, then you will be clean from my oath, this one; only ⟨את⟩ my son you shall not return there.",
+  "translation": "And if the woman is not willing to go after you, then you shall be free from my oath, this one; only ⟨את⟩ my son you shall not return there.",
   "tokens": [
     {
       "surface": "ואם",
@@ -17,12 +12,7 @@
     },
     {
       "surface": "תאבה",
-      "gloss": "be willing",
-      "readings": [
-        "be willing",
-        "consent",
-        "desire"
-      ]
+      "gloss": "be willing"
     },
     {
       "surface": "האשה",
@@ -38,7 +28,22 @@
     },
     {
       "surface": "ונקית",
-      "gloss": "then you will be clean"
+      "gloss": "then you shall be free",
+      "readings": [
+        "then you shall be free",
+        "then you will be clean"
+      ],
+      "held_by": {
+        "then you shall be free": [
+          "v1",
+          "v3"
+        ],
+        "then you will be clean": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "משבעתי",
@@ -54,8 +59,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "my son"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "בני",
@@ -67,13 +71,28 @@
     },
     {
       "surface": "תשב",
-      "gloss": "you shall return"
+      "gloss": "you shall return",
+      "readings": [
+        "you shall return",
+        "bring back"
+      ],
+      "held_by": {
+        "you shall return": [
+          "v2",
+          "en4"
+        ],
+        "bring back": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שמה",
       "gloss": "there"
     }
   ],
-  "timestamp": "2026-09-20T12:20:17.363596853Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

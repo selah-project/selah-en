@@ -1,80 +1,130 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 30,
-  "ref": "numbers 35:30",
-  "book": "numbers",
-  "lang": "en4",
-  "chapter": 35,
-  "translation": "Everyone striking a life — at the mouth of witnesses ⟨את⟩ the slayer shall be slain; but one witness shall not answer against a life, to die.",
+  "translation": "Whoever strikes a person — by the mouth of witnesses ⟨את⟩ the slayer shall be slain; but one witness shall not testify against a person to die.",
   "tokens": [
     {
-      "surface": "כֹּל",
-      "gloss": "everyone"
+      "surface": "כל",
+      "gloss": "whoever"
     },
     {
-      "surface": "מַכֵּה",
-      "gloss": "striking"
+      "surface": "מכה",
+      "gloss": "strikes"
     },
     {
-      "surface": "נֶפֶשׁ",
-      "gloss": "a life",
+      "surface": "נפש",
+      "gloss": "a person",
       "readings": [
-        "a life",
         "a person",
+        "a life",
         "a soul"
-      ]
+      ],
+      "held_by": {
+        "a person": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a life": [
+          "en4"
+        ],
+        "a soul": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְפִי",
-      "gloss": "at the mouth of"
+      "surface": "לפי",
+      "gloss": "by the mouth of"
     },
     {
-      "surface": "עֵדִים",
+      "surface": "עדים",
       "gloss": "witnesses"
     },
     {
-      "surface": "יִרְצַח",
-      "gloss": "the slayer shall be slain"
+      "surface": "ירצח",
+      "gloss": "shall be slain"
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "הָרֹצֵחַ"
+      "surface": "את",
+      "gloss": "⟨את⟩"
     },
     {
-      "surface": "הָרֹצֵחַ",
+      "surface": "הרצח",
       "gloss": "the slayer"
     },
     {
-      "surface": "וְעֵד",
-      "gloss": "but a witness"
+      "surface": "ועד",
+      "gloss": "but one witness",
+      "readings": [
+        "but one witness",
+        "and one witness"
+      ],
+      "held_by": {
+        "but one witness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and one witness": []
+      }
     },
     {
-      "surface": "אֶחָד",
-      "gloss": "one"
+      "surface": "אחד",
+      "gloss": ""
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יַעֲנֶה",
-      "gloss": "shall answer"
-    },
-    {
-      "surface": "בְּנֶפֶשׁ",
-      "gloss": "against a life",
+      "surface": "יענה",
+      "gloss": "shall testify",
       "readings": [
-        "against a life",
-        "against a person",
-        "against a soul"
-      ]
+        "shall testify",
+        "shall answer"
+      ],
+      "held_by": {
+        "shall testify": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "shall answer": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לָמוּת",
+      "surface": "בנפש",
+      "gloss": "against a person",
+      "readings": [
+        "against a person",
+        "against a life",
+        "against a soul"
+      ],
+      "held_by": {
+        "against a person": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "against a life": [
+          "en4"
+        ],
+        "against a soul": [
+          "en4"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "למות",
       "gloss": "to die"
     }
   ],
-  "timestamp": "2026-09-20T16:15:32.851404053Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

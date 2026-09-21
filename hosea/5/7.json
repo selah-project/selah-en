@@ -1,70 +1,127 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "hosea 5:7",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "Against YHWH they dealt treacherously, for they have begotten strange sons; now a month eats them with ⟨את⟩ their portions.",
+  "translation": "Against YHWH they have dealt treacherously, for they have begotten strange children; now a new moon will devour them with ⟨את⟩ their portions.",
   "tokens": [
     {
-      "surface": "בַּיהוָה",
+      "surface": "ביהוה",
       "gloss": "against YHWH"
     },
     {
-      "surface": "בָגָדוּ",
-      "gloss": "they dealt treacherously"
+      "surface": "בגדו",
+      "gloss": "they have dealt treacherously"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "בָנִים",
-      "gloss": "sons"
+      "surface": "בנים",
+      "gloss": "children",
+      "readings": [
+        "children",
+        "sons"
+      ],
+      "held_by": {
+        "children": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "sons": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "זָרִים",
+      "surface": "זרים",
       "gloss": "strange",
       "readings": [
         "strange",
         "foreign"
-      ]
+      ],
+      "held_by": {
+        "strange": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "foreign": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יָלָדוּ",
-      "gloss": "they have begotten"
+      "surface": "ילדו",
+      "gloss": "they have begotten",
+      "readings": [
+        "they have begotten",
+        "they have borne"
+      ],
+      "held_by": {
+        "they have begotten": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "they have borne": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "עַתָּה",
+      "surface": "עתה",
       "gloss": "now"
     },
     {
-      "surface": "יֹאכְלֵם",
-      "gloss": "eats them"
+      "surface": "יאכלם",
+      "gloss": "will devour them"
     },
     {
-      "surface": "חֹדֶשׁ",
-      "gloss": "a month",
+      "surface": "חדש",
+      "gloss": "a new moon",
       "readings": [
-        "a month",
-        "the new moon"
-      ]
+        "a new moon",
+        "a month"
+      ],
+      "held_by": {
+        "a new moon": [
+          "v2",
+          "v3"
+        ],
+        "a month": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "their portions"
+      "surface": "את",
+      "gloss": "⟨את⟩"
     },
     {
-      "surface": "חֶלְקֵיהֶם",
+      "surface": "חלקיהם",
       "gloss": "their portions",
       "readings": [
         "their portions",
-        "their fields"
-      ]
+        "their territories"
+      ],
+      "held_by": {
+        "their portions": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "their territories": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:50:25.867153871Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,27 +1,50 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "1-kings 5:10",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And it grew great, the wisdom of Solomon, beyond the wisdom of all the sons of Qedem, and beyond all the wisdom of Mitsrayim.",
+  "translation": "And the wisdom of Solomon was greater than the wisdom of all the sons of the east, and than all the wisdom of Mitsrayim.",
   "tokens": [
     {
       "surface": "ותרב",
-      "gloss": "and grew great"
+      "gloss": "and was greater",
+      "readings": [
+        "and was greater",
+        "and grew great"
+      ],
+      "held_by": {
+        "and was greater": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and grew great": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חכמת",
-      "gloss": "the wisdom of"
+      "gloss": "the wisdom"
     },
     {
       "surface": "שלמה",
-      "gloss": "Solomon"
+      "gloss": "of Solomon"
     },
     {
       "surface": "מחכמת",
-      "gloss": "beyond the wisdom of"
+      "gloss": "than the wisdom",
+      "readings": [
+        "than the wisdom",
+        "beyond the wisdom"
+      ],
+      "held_by": {
+        "than the wisdom": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "beyond the wisdom": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כל",
@@ -29,33 +52,55 @@
     },
     {
       "surface": "בני",
-      "gloss": "the sons of"
+      "gloss": "the sons"
     },
     {
       "surface": "קדם",
-      "gloss": "Qedem",
+      "gloss": "of the east",
       "readings": [
-        "Qedem",
-        "the east"
-      ]
+        "of the east",
+        "of Qedem"
+      ],
+      "held_by": {
+        "of the east": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of Qedem": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ומכל",
-      "gloss": "and beyond all"
+      "gloss": "and than all"
     },
     {
       "surface": "חכמת",
-      "gloss": "the wisdom of"
+      "gloss": "the wisdom"
     },
     {
       "surface": "מצרים",
-      "gloss": "Mitsrayim",
+      "gloss": "of Mitsrayim",
       "readings": [
-        "Mitsrayim",
-        "Egypt"
-      ]
+        "of Mitsrayim",
+        "of Egypt"
+      ],
+      "held_by": {
+        "of Mitsrayim": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of Egypt": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:14:08.578292046Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

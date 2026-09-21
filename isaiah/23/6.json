@@ -1,37 +1,57 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "isaiah 23:6",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 23,
   "translation": "Pass over to Tarshish; howl, you who sit in the island.",
   "tokens": [
     {
-      "surface": "עִבְרוּ",
-      "gloss": "pass over"
+      "surface": "עברו",
+      "gloss": "Pass over"
     },
     {
-      "surface": "תַּרְשִׁישָׁה",
+      "surface": "תרשישה",
       "gloss": "to Tarshish"
     },
     {
-      "surface": "הֵילִילוּ",
+      "surface": "הילילו",
       "gloss": "howl"
     },
     {
-      "surface": "יֹשְׁבֵי",
-      "gloss": "you who sit in"
+      "surface": "ישבי",
+      "gloss": "you who sit in",
+      "readings": [
+        "you who sit in",
+        "inhabitants of"
+      ],
+      "held_by": {
+        "you who sit in": [
+          "en4"
+        ],
+        "inhabitants of": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אִי",
-      "gloss": "the island",
+      "surface": "אי",
+      "gloss": "island",
       "readings": [
-        "the island",
-        "the coastland"
-      ]
+        "island",
+        "coastland"
+      ],
+      "held_by": {
+        "island": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "coastland": [
+          "v2"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:21:50.610124895Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

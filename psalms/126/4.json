@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 126:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 126,
-  "translation": "Return, YHWH, ⟨את⟩ our captivity, like the wadis in the Negev.",
+  "translation": "Return, YHWH, ⟨את⟩ our captivity, like streams in the Negev.",
   "tokens": [
     {
       "surface": "שובה",
-      "gloss": "return"
+      "gloss": "Return",
+      "readings": [
+        "Return",
+        "Turn back"
+      ],
+      "held_by": {
+        "Return": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "Turn back": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -17,8 +26,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "our captivity"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "שבותנו",
@@ -26,13 +34,27 @@
     },
     {
       "surface": "כאפיקים",
-      "gloss": "like the wadis"
+      "gloss": "like streams",
+      "readings": [
+        "like streams",
+        "like the wadis"
+      ],
+      "held_by": {
+        "like streams": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "like the wadis": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בנגב",
       "gloss": "in the Negev"
     }
   ],
-  "timestamp": "2026-09-20T14:09:11.129728965Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

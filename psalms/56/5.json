@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 56:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 56,
-  "translation": "In Elohim I will praise his word; in Elohim I have trusted; I shall not fear — what can flesh do to me?",
+  "translation": "In Elohim I will praise his word; in Elohim I have trusted; I will not fear — what can flesh do to me?",
   "tokens": [
     {
       "surface": "באלהים",
@@ -17,7 +12,18 @@
       "readings": [
         "I will praise",
         "I will shine forth"
-      ]
+      ],
+      "held_by": {
+        "I will praise": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I will shine forth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "דברו",
@@ -29,7 +35,22 @@
     },
     {
       "surface": "בטחתי",
-      "gloss": "I have trusted"
+      "gloss": "I have trusted",
+      "readings": [
+        "I have trusted",
+        "I trust"
+      ],
+      "held_by": {
+        "I have trusted": [
+          "en4"
+        ],
+        "I trust": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לא",
@@ -37,20 +58,30 @@
     },
     {
       "surface": "אירא",
-      "gloss": "I shall fear"
+      "gloss": "I will fear"
     },
     {
       "surface": "מה",
-      "gloss": "what"
+      "gloss": "What"
     },
     {
       "surface": "יעשה",
       "gloss": "can do",
       "readings": [
         "can do",
-        "does",
         "will do"
-      ]
+      ],
+      "held_by": {
+        "can do": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "will do": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בשר",
@@ -61,6 +92,6 @@
       "gloss": "to me"
     }
   ],
-  "timestamp": "2026-09-20T14:01:41.423644365Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

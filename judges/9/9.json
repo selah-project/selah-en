@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "judges 9:9",
-  "book": "judges",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And the olive tree said to them, Have I ceased ⟨את⟩ my fatness, which by me they honor Elohim and men, and gone to wave over the trees?",
+  "translation": "And the olive tree said to them, “Should I leave my fatness, by which ⟨את⟩ Elohim and men are honored, and go to sway over the trees?”",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -21,20 +16,30 @@
     },
     {
       "surface": "החדלתי",
-      "gloss": "have I ceased"
+      "gloss": "Should I leave",
+      "readings": [
+        "Should I leave",
+        "Have I ceased"
+      ],
+      "held_by": {
+        "Should I leave": [
+          "v2",
+          "v3"
+        ],
+        "Have I ceased": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "my fatness"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "דשני",
-      "gloss": "my fatness",
-      "readings": [
-        "my fatness",
-        "my richness"
-      ]
+      "gloss": "my fatness"
     },
     {
       "surface": "אשר",
@@ -46,7 +51,22 @@
     },
     {
       "surface": "יכבדו",
-      "gloss": "they honor"
+      "gloss": "are honored",
+      "readings": [
+        "are honored",
+        "they honor"
+      ],
+      "held_by": {
+        "are honored": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "they honor": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אלהים",
@@ -58,16 +78,30 @@
     },
     {
       "surface": "והלכתי",
-      "gloss": "and gone"
+      "gloss": "and go"
     },
     {
       "surface": "לנוע",
-      "gloss": "to wave",
+      "gloss": "to sway",
       "readings": [
-        "to wave",
-        "to tremble",
-        "to stagger"
-      ]
+        "to sway",
+        "to stagger",
+        "to wave"
+      ],
+      "held_by": {
+        "to sway": [
+          "v2",
+          "v3"
+        ],
+        "to stagger": [
+          "v1",
+          "en4"
+        ],
+        "to wave": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
@@ -78,6 +112,6 @@
       "gloss": "the trees"
     }
   ],
-  "timestamp": "2026-09-20T10:05:45.835545715Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

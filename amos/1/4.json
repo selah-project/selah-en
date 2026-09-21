@@ -1,53 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "amos 1:4",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And I will send fire into the house of Hazael, and it shall eat the citadels of Ben-Hadad.",
+  "translation": "And I will send fire into the house of Hazael, and it shall devour the citadels of Ben-Hadad.",
   "tokens": [
     {
-      "surface": "וְשִׁלַּ֥חְתִּי",
+      "surface": "וְשָׁלַחְתִּי",
       "gloss": "And I will send"
     },
     {
-      "surface": "אֵ֖שׁ",
+      "surface": "אֵשׁ",
       "gloss": "fire"
     },
     {
-      "surface": "בְּבֵ֣ית",
-      "gloss": "into the house of"
+      "surface": "בְּבֵית",
+      "gloss": "into the house of",
+      "readings": [
+        "into the house of",
+        "on the house of"
+      ],
+      "held_by": {
+        "into the house of": [
+          "v1",
+          "en4"
+        ],
+        "on the house of": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חֲזָאֵ֑ל",
+      "surface": "חֲזָאֵל",
       "gloss": "Hazael"
     },
     {
-      "surface": "וְאָכְלָ֖ה",
-      "gloss": "and it shall eat",
-      "readings": [
-        "and it shall eat",
-        "and it shall devour"
-      ]
+      "surface": "וְאָכְלָה",
+      "gloss": "and it shall devour"
     },
     {
-      "surface": "אַרְמְנ֥וֹת",
+      "surface": "ארמנות",
       "gloss": "the citadels of",
       "readings": [
         "the citadels of",
         "the palaces of"
-      ]
+      ],
+      "held_by": {
+        "the citadels of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the palaces of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בֶּן",
       "gloss": "Ben-"
     },
     {
-      "surface": "הֲדָֽד",
+      "surface": "הֲדַד",
       "gloss": "Hadad"
     }
   ],
-  "timestamp": "2026-09-20T17:28:17.964539900Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,19 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 28,
-  "ref": "deuteronomy 33:28",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "And Israel dwells in safety, alone; the eye of Jacob ⟨is⟩ toward a land of grain and new wine, and also his heavens drip dew.",
+  "translation": "And Israel dwells securely, alone — the fountain of Jacob — in a land of grain and new wine; also his heavens drip dew.",
   "tokens": [
     {
-      "surface": "וַיִּשְׁכֹּן",
+      "surface": "וישכן",
       "gloss": "and dwells",
       "readings": [
         "and dwells",
         "and tabernacles"
-      ]
+      ],
+      "held_by": {
+        "and dwells": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and tabernacles": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יִשְׂרָאֵל",
@@ -21,7 +27,7 @@
     },
     {
       "surface": "בֶּטַח",
-      "gloss": "in safety"
+      "gloss": "securely"
     },
     {
       "surface": "בָּדָד",
@@ -29,11 +35,23 @@
     },
     {
       "surface": "עֵין",
-      "gloss": "the eye",
+      "gloss": "the fountain",
       "readings": [
-        "the eye",
-        "the fountain"
-      ]
+        "the fountain",
+        "the eye"
+      ],
+      "held_by": {
+        "the fountain": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the eye": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יַעֲקֹב",
@@ -41,7 +59,20 @@
     },
     {
       "surface": "אֶל",
-      "gloss": "toward"
+      "gloss": "in",
+      "readings": [
+        "in",
+        "toward"
+      ],
+      "held_by": {
+        "in": [
+          "v2",
+          "v3"
+        ],
+        "toward": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אֶרֶץ",
@@ -57,21 +88,21 @@
     },
     {
       "surface": "אַף",
-      "gloss": "and also"
+      "gloss": "also"
     },
     {
       "surface": "שָׁמָיו",
       "gloss": "his heavens"
     },
     {
-      "surface": "יַעַרְפּוּ",
+      "surface": "יַעַרְפוּ",
       "gloss": "drip"
     },
     {
-      "surface": "טָל",
+      "surface": "טַל",
       "gloss": "dew"
     }
   ],
-  "timestamp": "2026-09-20T10:02:03.552062641Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

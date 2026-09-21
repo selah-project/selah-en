@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 5:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "Hold them guilty, Elohim; let them fall by their own counsels; in the abundance of their transgressions thrust them out, for they have rebelled against you.",
+  "translation": "Hold them guilty, Elohim; let them fall from their counsels; in the multitude of their transgressions thrust them out, for they have rebelled against you.",
   "tokens": [
     {
       "surface": "האשימם",
-      "gloss": "hold them guilty"
+      "gloss": "hold them guilty",
+      "readings": [
+        "hold them guilty",
+        "declare them guilty"
+      ],
+      "held_by": {
+        "hold them guilty": [
+          "v1",
+          "en4"
+        ],
+        "declare them guilty": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אלהים",
@@ -21,11 +31,39 @@
     },
     {
       "surface": "ממעצותיהם",
-      "gloss": "from their counsels"
+      "gloss": "from their counsels",
+      "readings": [
+        "from their counsels",
+        "by their counsels"
+      ],
+      "held_by": {
+        "from their counsels": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "by their counsels": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ברב",
-      "gloss": "in the abundance of"
+      "gloss": "in the multitude of",
+      "readings": [
+        "in the multitude of",
+        "in the abundance of"
+      ],
+      "held_by": {
+        "in the multitude of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in the abundance of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "פשעיהם",
@@ -33,7 +71,21 @@
     },
     {
       "surface": "הדיחמו",
-      "gloss": "thrust them out"
+      "gloss": "thrust them out",
+      "readings": [
+        "thrust them out",
+        "cast them down"
+      ],
+      "held_by": {
+        "thrust them out": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "cast them down": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "כי",
@@ -45,13 +97,24 @@
       "readings": [
         "they have rebelled",
         "they have been bitter"
-      ]
+      ],
+      "held_by": {
+        "they have rebelled": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they have been bitter": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בך",
       "gloss": "against you"
     }
   ],
-  "timestamp": "2026-09-20T10:40:51.195592463Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

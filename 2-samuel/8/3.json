@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "2-samuel 8:3",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And David smote ⟨את⟩ Hadadezer son of Rehob, king of Zobah, in his going to bring back his hand at the River.",
+  "translation": "And David struck ⟨את⟩ Hadadezer son of Rechob, king of Zobah, as he went to restore his hand at the River.",
   "tokens": [
     {
       "surface": "ויך",
-      "gloss": "and smote"
+      "gloss": "and struck"
     },
     {
       "surface": "דוד",
@@ -17,8 +12,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Hadadezer"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הדדעזר",
@@ -30,7 +24,7 @@
     },
     {
       "surface": "רחב",
-      "gloss": "Rehob"
+      "gloss": "Rechob"
     },
     {
       "surface": "מלך",
@@ -42,11 +36,39 @@
     },
     {
       "surface": "בלכתו",
-      "gloss": "in his going"
+      "gloss": "as he went",
+      "readings": [
+        "as he went",
+        "in his going"
+      ],
+      "held_by": {
+        "as he went": [
+          "v2",
+          "v3"
+        ],
+        "in his going": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "להשיב",
-      "gloss": "to bring back"
+      "gloss": "to restore",
+      "readings": [
+        "to restore",
+        "to bring back"
+      ],
+      "held_by": {
+        "to restore": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to bring back": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ידו",
@@ -54,13 +76,24 @@
       "readings": [
         "his hand",
         "his power"
-      ]
+      ],
+      "held_by": {
+        "his hand": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his power": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בנהר",
       "gloss": "at the River"
     }
   ],
-  "timestamp": "2026-09-20T10:11:41.064430505Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

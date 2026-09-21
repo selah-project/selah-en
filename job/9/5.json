@@ -1,23 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "job 9:5",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "The mover of mountains, and they knew not — he who overturned them in his anger.",
+  "translation": "Who moves the mountains, and they do not know it, when he overturns them in his anger.",
   "tokens": [
     {
       "surface": "המעתיק",
-      "gloss": "the mover of"
+      "gloss": "Who moves"
     },
     {
       "surface": "הרים",
-      "gloss": "mountains",
+      "gloss": "the mountains",
       "readings": [
-        "mountains",
-        "hill country"
-      ]
+        "the mountains",
+        "the hill country"
+      ],
+      "held_by": {
+        "the mountains": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the hill country": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולא",
@@ -25,15 +31,30 @@
     },
     {
       "surface": "ידעו",
-      "gloss": "they knew"
+      "gloss": "they know"
     },
     {
       "surface": "אשר",
-      "gloss": "who"
+      "gloss": "when",
+      "readings": [
+        "when",
+        "who"
+      ],
+      "held_by": {
+        "when": [
+          "v2",
+          "v3"
+        ],
+        "who": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הפכם",
-      "gloss": "he overturned them"
+      "gloss": "he overturns them"
     },
     {
       "surface": "באפו",
@@ -41,9 +62,20 @@
       "readings": [
         "in his anger",
         "in his nostril"
-      ]
+      ],
+      "held_by": {
+        "in his anger": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in his nostril": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:12:44.958095178Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

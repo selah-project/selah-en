@@ -1,22 +1,17 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "psalms 34:22",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 34,
-  "translation": "Evil kills the wicked, and the haters of the righteous are held guilty.",
+  "translation": "Evil shall put to death the wicked, and the haters of the righteous shall be held guilty.",
   "tokens": [
     {
-      "surface": "תְּמוֹתֵת",
-      "gloss": "kills"
+      "surface": "תמותת",
+      "gloss": "shall put to death"
     },
     {
-      "surface": "רָשָׁע",
+      "surface": "רשע",
       "gloss": "the wicked"
     },
     {
-      "surface": "רָעָה",
+      "surface": "רעה",
       "gloss": "evil",
       "readings": [
         "evil",
@@ -24,23 +19,45 @@
       ]
     },
     {
-      "surface": "וְשֹׂנְאֵי",
-      "gloss": "and the haters of"
+      "surface": "ושנאי",
+      "gloss": "and ⟨those who⟩ hate",
+      "readings": [
+        "and ⟨those who⟩ hate",
+        "and the haters of"
+      ],
+      "held_by": {
+        "and ⟨those who⟩ hate": [
+          "v1",
+          "v3"
+        ],
+        "and the haters of": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "צַדִּיק",
+      "surface": "צדיק",
       "gloss": "the righteous"
     },
     {
-      "surface": "יֶאְשָׁמוּ",
-      "gloss": "are held guilty",
+      "surface": "יאשמו",
+      "gloss": "shall be held guilty",
       "readings": [
-        "are held guilty",
-        "are punished",
-        "perish"
-      ]
+        "shall be held guilty",
+        "shall be punished",
+        "shall perish"
+      ],
+      "held_by": {
+        "shall be held guilty": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:59:30.301377760Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 29:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 29,
-  "translation": "YHWH sat ⟨at⟩ the flood; and YHWH sits, a king, forever.",
+  "translation": "YHWH sat ⟨at⟩ the flood, and YHWH sits ⟨as⟩ king forever.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "למבול",
-      "gloss": "to the flood"
+      "gloss": "at the flood"
     },
     {
       "surface": "ישב",
@@ -21,7 +16,20 @@
       "readings": [
         "sat",
         "sat enthroned"
-      ]
+      ],
+      "held_by": {
+        "sat": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "sat enthroned": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וישב",
@@ -29,7 +37,19 @@
       "readings": [
         "and sits",
         "and sits enthroned"
-      ]
+      ],
+      "held_by": {
+        "and sits": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and sits enthroned": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -37,13 +57,40 @@
     },
     {
       "surface": "מלך",
-      "gloss": "a king"
+      "gloss": "king",
+      "readings": [
+        "king",
+        "reigns"
+      ],
+      "held_by": {
+        "king": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "reigns": []
+      }
     },
     {
       "surface": "לעולם",
-      "gloss": "forever"
+      "gloss": "forever",
+      "readings": [
+        "forever",
+        "for the age"
+      ],
+      "held_by": {
+        "forever": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "for the age": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:11:14.807946851Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

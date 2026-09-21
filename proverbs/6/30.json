@@ -1,64 +1,91 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 30,
-  "ref": "proverbs 6:30",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "They do not despise a thief, though he steals to fill his nefesh, though he hungers.",
+  "translation": "They do not despise the thief when he steals to fill his nefesh, when he is hungry.",
   "tokens": [
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יָבוּזוּ",
+      "surface": "יבוזו",
       "gloss": "they despise"
     },
     {
-      "surface": "לַגַּנָּב",
+      "surface": "לגנב",
       "gloss": "the thief"
     },
     {
-      "surface": "כִּי",
-      "gloss": "though",
+      "surface": "כי",
+      "gloss": "when",
       "readings": [
-        "though",
         "when",
         "for"
-      ]
+      ],
+      "held_by": {
+        "when": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יִגְנֹב",
+      "surface": "יגנוב",
       "gloss": "he steals"
     },
     {
-      "surface": "לְמַלֵּא",
+      "surface": "למלא",
       "gloss": "to fill"
     },
     {
-      "surface": "נַפְשׁוֹ",
+      "surface": "נפשו",
       "gloss": "his nefesh",
       "readings": [
         "his nefesh",
         "his appetite",
         "his life"
-      ]
+      ],
+      "held_by": {
+        "his nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the soul": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "כִּי",
-      "gloss": "though",
+      "surface": "כי",
+      "gloss": "when",
       "readings": [
-        "though",
         "when",
         "for"
-      ]
+      ],
+      "held_by": {
+        "when": [
+          "v2",
+          "v3"
+        ],
+        "for": [
+          "en4"
+        ],
+        "because": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יִרְעָב",
-      "gloss": "he hungers"
+      "surface": "ירעב",
+      "gloss": "he is hungry"
     }
   ],
-  "timestamp": "2026-09-20T14:11:42.183446273Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

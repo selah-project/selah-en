@@ -1,53 +1,91 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "deuteronomy 23:16",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "You shall not shut in a slave, to his master, who has slipped away to you, from with his master.",
+  "translation": "You shall not surrender ⟨a⟩ slave to his master who has escaped to you from with his master.",
   "tokens": [
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "תַסְגִּיר",
-      "gloss": "you shall shut in"
+      "surface": "תסגיר",
+      "gloss": "you shall surrender",
+      "readings": [
+        "you shall surrender",
+        "you shall shut in"
+      ],
+      "held_by": {
+        "you shall surrender": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you shall shut in": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "עֶבֶד",
-      "gloss": "a slave"
+      "surface": "עבד",
+      "gloss": "⟨a⟩ slave"
     },
     {
-      "surface": "אֶל",
+      "surface": "אל",
       "gloss": "to"
     },
     {
-      "surface": "אֲדֹנָיו",
+      "surface": "אדניו",
       "gloss": "his master"
     },
     {
-      "surface": "אֲשֶׁר",
+      "surface": "אשר",
       "gloss": "who"
     },
     {
-      "surface": "יִנָּצֵל",
-      "gloss": "has slipped away"
+      "surface": "ינצל",
+      "gloss": "has escaped",
+      "readings": [
+        "has escaped",
+        "is saved"
+      ],
+      "held_by": {
+        "has escaped": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "is saved": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "אֵלֶיךָ",
+      "surface": "אליך",
       "gloss": "to you"
     },
     {
-      "surface": "מֵעִם",
-      "gloss": "from with"
+      "surface": "מעם",
+      "gloss": "from with",
+      "readings": [
+        "from with",
+        "from the presence of"
+      ],
+      "held_by": {
+        "from with": [
+          "en4"
+        ],
+        "from the presence of": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֲדֹנָיו",
+      "surface": "אדניו",
       "gloss": "his master"
     }
   ],
-  "timestamp": "2026-09-20T16:16:44.301700706Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

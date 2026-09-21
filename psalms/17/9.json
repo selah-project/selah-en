@@ -1,63 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 17:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 17,
-  "translation": "From the face of the wicked — their portion; from my enemies, who in soul encircle me,",
+  "translation": "From the face of the wicked who despoil me — my enemies, in soul, surround me against me.",
   "tokens": [
     {
-      "surface": "מִפְּנֵי",
+      "surface": "מפני",
       "gloss": "from the face of"
     },
     {
-      "surface": "רְשָׁעִים",
-      "gloss": "the wicked",
-      "readings": [
-        "the wicked",
-        "wrongdoers"
-      ]
+      "surface": "רשעים",
+      "gloss": "the wicked"
     },
     {
-      "surface": "זוּ",
+      "surface": "זו",
       "gloss": "who",
       "readings": [
         "who",
-        "that",
         "this"
-      ]
+      ],
+      "held_by": {
+        "who": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "this": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שַׁדּוּנִי",
-      "gloss": "my despoilers",
-      "readings": [
-        "my despoilers",
-        "who despoil me"
-      ]
+      "surface": "שדוני",
+      "gloss": "despoil me"
     },
     {
-      "surface": "אֹיְבַי",
+      "surface": "איבי",
       "gloss": "my enemies"
     },
     {
-      "surface": "בְּנֶפֶשׁ",
+      "surface": "בנפש",
       "gloss": "in soul",
       "readings": [
         "in soul",
-        "for the life",
-        "in appetite"
-      ]
+        "against ⟨my⟩ life"
+      ],
+      "held_by": {
+        "in soul": [
+          "v1",
+          "en4"
+        ],
+        "against ⟨my⟩ life": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יַקִּיפוּ",
-      "gloss": "they encircle"
+      "surface": "יקיפו",
+      "gloss": "surround"
     },
     {
-      "surface": "עָלַי",
+      "surface": "עלי",
       "gloss": "against me"
     }
   ],
-  "timestamp": "2026-09-20T10:41:51.359501371Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

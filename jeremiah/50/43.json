@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 43,
-  "ref": "jeremiah 50:43",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 50,
-  "translation": "The king of Babylon has heard ⟨את⟩ their report, and his hands have gone limp; distress has seized him — writhing, like a woman in childbirth.",
+  "translation": "The king of Babylon heard ⟨את⟩ their report, and his hands went slack; anguish seized him, pain like a woman in labor.",
   "tokens": [
     {
       "surface": "שמע",
-      "gloss": "has heard"
+      "gloss": "heard"
     },
     {
       "surface": "מלך",
@@ -21,20 +16,34 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "their report"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "שמעם",
-      "gloss": "their report"
+      "gloss": "their report",
+      "readings": [
+        "their report",
+        "the report of them"
+      ]
     },
     {
       "surface": "ורפו",
-      "gloss": "and have gone limp",
+      "gloss": "and went slack",
       "readings": [
-        "and have gone limp",
-        "and have dropped"
-      ]
+        "and went slack",
+        "and dropped"
+      ],
+      "held_by": {
+        "and went slack": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and dropped": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ידיו",
@@ -42,21 +51,49 @@
     },
     {
       "surface": "צרה",
-      "gloss": "distress"
+      "gloss": "anguish",
+      "readings": [
+        "anguish",
+        "distress"
+      ],
+      "held_by": {
+        "anguish": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "distress": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "החזיקתהו",
-      "gloss": "has seized him"
+      "gloss": "seized him"
     },
     {
       "surface": "חיל",
-      "gloss": "writhing"
+      "gloss": "pain",
+      "readings": [
+        "pain",
+        "writhing"
+      ],
+      "held_by": {
+        "pain": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "writhing": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כיולדה",
-      "gloss": "like a woman giving birth"
+      "gloss": "like a woman in labor"
     }
   ],
-  "timestamp": "2026-09-20T13:39:50.857598801Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

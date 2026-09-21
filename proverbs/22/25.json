@@ -1,42 +1,64 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 25,
-  "ref": "proverbs 22:25",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "Lest you learn his ways and take a snare to your soul.",
+  "translation": "Lest you learn his road, and you take a snare for your life.",
   "tokens": [
     {
-      "surface": "פֶּן",
+      "surface": "פן",
       "gloss": "lest"
     },
     {
-      "surface": "תֶּאֱלַף",
+      "surface": "תאלף",
       "gloss": "you learn"
     },
     {
       "surface": "ארחתו",
-      "gloss": "his ways"
+      "gloss": "his road",
+      "readings": [
+        "his road",
+        "his ways"
+      ],
+      "held_by": {
+        "his road": [
+          "v1",
+          "v3"
+        ],
+        "his ways": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְלָקַחְתָּ",
-      "gloss": "and take"
+      "surface": "ולקחת",
+      "gloss": "and you take"
     },
     {
-      "surface": "מוֹקֵשׁ",
+      "surface": "מוקש",
       "gloss": "a snare"
     },
     {
-      "surface": "לְנַפְשֶׁךָ",
-      "gloss": "to your soul",
+      "surface": "לנפשך",
+      "gloss": "for your life",
       "readings": [
-        "to your soul",
-        "to your life",
-        "to your throat"
-      ]
+        "for your life",
+        "for your soul",
+        "for your throat"
+      ],
+      "held_by": {
+        "for your life": [
+          "v1",
+          "en4"
+        ],
+        "for your soul": [
+          "en4",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:52:52.806568864Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

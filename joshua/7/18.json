@@ -1,36 +1,41 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "joshua 7:18",
-  "book": "joshua",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "And he brought near ⟨את⟩ his household by the men, and Achan son of Carmi son of Zabdi son of Zerah of the tribe of Judah was captured.",
+  "translation": "And he brought near ⟨את⟩ his household man by man, and Achan son of Karmi, son of Zabdi, son of Zerah, of the tribe of Judah, was taken.",
   "tokens": [
     {
       "surface": "ויקרב",
-      "gloss": "and he brought near"
+      "gloss": "And he brought near"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "his household"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ביתו",
-      "gloss": "his household",
-      "readings": [
-        "his household",
-        "his house"
-      ]
+      "gloss": "his household"
     },
     {
       "surface": "לגברים",
-      "gloss": "by the men"
+      "gloss": "man by man",
+      "readings": [
+        "man by man",
+        "to the men"
+      ],
+      "held_by": {
+        "man by man": [
+          "v2",
+          "v3"
+        ],
+        "to the men": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וילכד",
-      "gloss": "and was captured"
+      "gloss": "and was taken"
     },
     {
       "surface": "עכן",
@@ -42,7 +47,7 @@
     },
     {
       "surface": "כרמי",
-      "gloss": "Carmi"
+      "gloss": "Karmi"
     },
     {
       "surface": "בן",
@@ -66,13 +71,24 @@
       "readings": [
         "of the tribe of",
         "of the staff of"
-      ]
+      ],
+      "held_by": {
+        "of the tribe of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of the staff of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהודה",
       "gloss": "Judah"
     }
   ],
-  "timestamp": "2026-09-20T12:52:46.360462399Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

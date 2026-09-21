@@ -1,53 +1,85 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 24:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "Who shall ascend in the mountain of YHWH, and who shall rise in his holy place?",
+  "translation": "Who shall ascend in the mountain of YHWH, and who shall stand in the place of his holiness?",
   "tokens": [
     {
-      "surface": "מִי",
-      "gloss": "who"
+      "surface": "מי",
+      "gloss": "Who"
     },
     {
-      "surface": "יַעֲלֶה",
+      "surface": "יעלה",
       "gloss": "shall ascend"
     },
     {
-      "surface": "בְּהַר",
+      "surface": "בהר",
       "gloss": "in the mountain of",
       "readings": [
         "in the mountain of",
         "in the hill of"
-      ]
+      ],
+      "held_by": {
+        "in the mountain of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in the hill of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "וּמִי",
+      "surface": "ומי",
       "gloss": "and who"
     },
     {
-      "surface": "יָקוּם",
-      "gloss": "shall rise"
+      "surface": "יקום",
+      "gloss": "shall stand",
+      "readings": [
+        "shall stand",
+        "shall rise"
+      ],
+      "held_by": {
+        "shall stand": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "shall rise": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בִּמְקוֹם",
+      "surface": "במקום",
       "gloss": "in the place of"
     },
     {
-      "surface": "קָדְשׁוֹ",
+      "surface": "קדשו",
       "gloss": "his holiness",
       "readings": [
         "his holiness",
         "his holy place"
-      ]
+      ],
+      "held_by": {
+        "his holiness": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his holy place": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T17:28:40.814782997Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

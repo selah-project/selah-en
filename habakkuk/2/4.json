@@ -1,23 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "habakkuk 2:4",
-  "book": "habakkuk",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "Look, one puffed up — his soul is not upright in him; but the righteous by his steadfastness shall live.",
+  "translation": "Behold, his soul is swollen — it is not upright within him — but the righteous shall live by his faithfulness.",
   "tokens": [
     {
       "surface": "הנה",
-      "gloss": "Look"
+      "gloss": "Behold"
     },
     {
       "surface": "עפלה",
-      "gloss": "one puffed up",
+      "gloss": "is swollen",
       "readings": [
-        "one puffed up",
-        "swollen"
-      ]
+        "is swollen",
+        "is puffed up"
+      ],
+      "held_by": {
+        "is swollen": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "is puffed up": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לא",
@@ -25,7 +31,7 @@
     },
     {
       "surface": "ישרה",
-      "gloss": "is upright"
+      "gloss": "upright"
     },
     {
       "surface": "נפשו",
@@ -41,18 +47,27 @@
     },
     {
       "surface": "באמונתו",
-      "gloss": "by his steadfastness",
+      "gloss": "by his faithfulness",
       "readings": [
-        "by his steadfastness",
         "by his faithfulness",
         "by his faith"
-      ]
+      ],
+      "held_by": {
+        "by his faithfulness": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "by his faith": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יחיה",
       "gloss": "shall live"
     }
   ],
-  "timestamp": "2026-09-20T10:39:24.435533560Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

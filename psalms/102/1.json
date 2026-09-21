@@ -1,57 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 102:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 102,
-  "translation": "A prayer of the afflicted one, when he is enveloped, and pours out his meditation before YHWH.",
+  "translation": "A prayer of the afflicted one, when he faints, and before YHWH he pours out his complaint.",
   "tokens": [
     {
-      "surface": "תְּפִלָּה",
+      "surface": "תפלה",
       "gloss": "A prayer"
     },
     {
-      "surface": "לְעָנִי",
-      "gloss": "of the afflicted one",
-      "readings": [
-        "of the afflicted one",
-        "of the poor one"
-      ]
+      "surface": "לעני",
+      "gloss": "of the afflicted one"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "when"
     },
     {
-      "surface": "יַעֲטֹף",
-      "gloss": "he is enveloped",
+      "surface": "יעטף",
+      "gloss": "he faints",
       "readings": [
-        "he is enveloped",
-        "he faints"
-      ]
+        "he faints",
+        "he is enveloped"
+      ],
+      "held_by": {
+        "he faints": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "he is enveloped": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְלִפְנֵי",
+      "surface": "ולפני",
       "gloss": "and before"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "יִשְׁפֹּךְ",
+      "surface": "ישפך",
       "gloss": "he pours out"
     },
     {
-      "surface": "שִׂיחוֹ",
-      "gloss": "his meditation",
+      "surface": "שיחו",
+      "gloss": "his complaint",
       "readings": [
-        "his meditation",
-        "his complaint"
-      ]
+        "his complaint",
+        "his meditation"
+      ],
+      "held_by": {
+        "his complaint": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "his meditation": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:06:50.928972427Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

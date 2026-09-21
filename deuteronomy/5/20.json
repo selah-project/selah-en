@@ -1,43 +1,73 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "deuteronomy 5:20",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And not you shall answer against your neighbour ⟨את⟩ a witness of emptiness.",
+  "translation": "And you shall not answer against your neighbor ⟨as⟩ a false witness.",
   "tokens": [
     {
-      "surface": "וְלֹֽא",
+      "surface": "ולא",
       "gloss": "and not"
     },
     {
-      "surface": "תַּעֲנֶ֥ה",
+      "surface": "תענה",
       "gloss": "you shall answer",
       "readings": [
         "you shall answer",
         "you shall bear witness"
-      ]
+      ],
+      "held_by": {
+        "you shall answer": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you shall bear witness": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּרֵֽעֲךָ֖",
-      "gloss": "against your neighbour"
-    },
-    {
-      "surface": "עֵ֥ד",
-      "gloss": "⟨את⟩",
-      "marks": "a witness of emptiness"
-    },
-    {
-      "surface": "שָֽׁוְא",
-      "gloss": "of emptiness",
+      "surface": "ברעך",
+      "gloss": "against your neighbor",
       "readings": [
-        "of emptiness",
-        "of falsehood",
-        "of ruin"
-      ]
+        "against your neighbor",
+        "in your neighbor"
+      ],
+      "held_by": {
+        "against your neighbor": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in your neighbor": [
+          "v1"
+        ]
+      }
+    },
+    {
+      "surface": "עד",
+      "gloss": "witness"
+    },
+    {
+      "surface": "שוא",
+      "gloss": "false",
+      "readings": [
+        "false",
+        "emptiness"
+      ],
+      "held_by": {
+        "false": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "emptiness": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:00:55.391661755Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

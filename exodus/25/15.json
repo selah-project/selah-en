@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "exodus 25:15",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 25,
-  "translation": "In the rings of the ark the bars shall be; they shall not turn aside from it.",
+  "translation": "In the rings of the ark the staves shall be; they shall not be removed from it.",
   "tokens": [
     {
       "surface": "בְּטַבְּעֹת",
-      "gloss": "In the rings of"
+      "gloss": "In the rings"
     },
     {
       "surface": "הָאָרֹן",
-      "gloss": "the ark"
+      "gloss": "of the ark"
     },
     {
       "surface": "יִהְיוּ",
@@ -21,7 +16,20 @@
     },
     {
       "surface": "הַבַּדִּים",
-      "gloss": "the bars"
+      "gloss": "the staves",
+      "readings": [
+        "the staves",
+        "the bars"
+      ],
+      "held_by": {
+        "the staves": [
+          "v2",
+          "v3"
+        ],
+        "the bars": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לֹא",
@@ -29,17 +37,29 @@
     },
     {
       "surface": "יָסֻרוּ",
-      "gloss": "they shall turn aside",
+      "gloss": "they shall be removed",
       "readings": [
-        "they shall turn aside",
-        "they shall be removed"
-      ]
+        "they shall be removed",
+        "they shall turn aside"
+      ],
+      "held_by": {
+        "they shall be removed": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they shall turn aside": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מִמֶּנּוּ",
       "gloss": "from it"
     }
   ],
-  "timestamp": "2026-09-20T16:11:24.565641407Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

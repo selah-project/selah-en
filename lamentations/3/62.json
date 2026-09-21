@@ -1,28 +1,51 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 62,
-  "ref": "lamentations 3:62",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "The lips of those who rose against me and their muttering against me all the day.",
+  "translation": "The lips of those rising up against me and their murmurings against me all the day.",
   "tokens": [
     {
       "surface": "שפתי",
-      "gloss": "the lips of"
+      "gloss": "The lips of"
     },
     {
       "surface": "קמי",
-      "gloss": "those who rose against me"
+      "gloss": "of those rising up",
+      "readings": [
+        "of those rising up",
+        "my assailants"
+      ],
+      "held_by": {
+        "of those rising up": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my assailants": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והגיונם",
-      "gloss": "and their muttering",
+      "gloss": "and their murmurings",
       "readings": [
+        "and their murmurings",
         "and their muttering",
-        "and their whispering",
         "and their scheming"
-      ]
+      ],
+      "held_by": {
+        "and their murmurings": [
+          "v2",
+          "v3"
+        ],
+        "and their muttering": [
+          "en4"
+        ],
+        "and their scheming": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עלי",
@@ -37,6 +60,6 @@
       "gloss": "the day"
     }
   ],
-  "timestamp": "2026-09-20T10:59:19.963106213Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

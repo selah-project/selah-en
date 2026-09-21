@@ -1,46 +1,85 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 35:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 35,
-  "translation": "Let them be like chaff before the wind, and the messenger of YHWH driving ⟨them⟩ on.",
+  "translation": "Let them be like chaff before the wind, and the angel of YHWH driving ⟨them⟩ away.",
   "tokens": [
     {
-      "surface": "יִֽהְי֗וּ",
+      "surface": "יהיו",
       "gloss": "let them be"
     },
     {
-      "surface": "כְּמֹ֥ץ",
+      "surface": "כמץ",
       "gloss": "like chaff"
     },
     {
-      "surface": "לִפְנֵי",
+      "surface": "לפני",
       "gloss": "before"
     },
     {
-      "surface": "ר֑וּחַ",
+      "surface": "רוח",
       "gloss": "the wind",
       "readings": [
         "the wind",
         "the breath",
         "the spirit"
-      ]
+      ],
+      "held_by": {
+        "the wind": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the breath": [
+          "en4"
+        ],
+        "the spirit": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וּמַלְאַ֖ךְ",
-      "gloss": "and the messenger of"
+      "surface": "ומלאך",
+      "gloss": "and the angel of",
+      "readings": [
+        "and the angel of",
+        "and the messenger of"
+      ],
+      "held_by": {
+        "and the angel of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and the messenger of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יְהוָ֣ה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "דּוֹחֶֽה",
-      "gloss": "driving on"
+      "surface": "דוחה",
+      "gloss": "driving ⟨them⟩ away",
+      "readings": [
+        "driving ⟨them⟩ away",
+        "driving ⟨them⟩ on"
+      ],
+      "held_by": {
+        "driving ⟨them⟩ away": [
+          "v2",
+          "v3"
+        ],
+        "driving ⟨them⟩ on": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T13:59:42.399431061Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

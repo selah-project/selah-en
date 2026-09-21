@@ -1,27 +1,48 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "ezekiel 14:9",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "And the prophet, when he is enticed and speaks a word — I, YHWH, have enticed ⟨את⟩ that prophet, and I will stretch out ⟨את⟩ my hand upon him, and I will destroy him from the midst of my people Israel.",
+  "translation": "And the prophet, if he is enticed and speaks a word — I, YHWH, have enticed ⟨את⟩ that prophet, and I will stretch out ⟨את⟩ my hand against him, and I will destroy him from the midst of my people Israel.",
   "tokens": [
     {
       "surface": "והנביא",
-      "gloss": "and the prophet"
+      "gloss": "And the prophet"
     },
     {
       "surface": "כי",
-      "gloss": "when"
+      "gloss": "if",
+      "readings": [
+        "if",
+        "when"
+      ],
+      "held_by": {
+        "if": [
+          "v1"
+        ],
+        "when": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יפתה",
-      "gloss": "he is enticed",
+      "gloss": "is enticed",
       "readings": [
-        "he is enticed",
-        "he is deceived"
-      ]
+        "is enticed",
+        "is deceived"
+      ],
+      "held_by": {
+        "is enticed": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "is deceived": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ודבר",
@@ -41,16 +62,26 @@
     },
     {
       "surface": "פתיתי",
-      "gloss": "I have enticed",
+      "gloss": "have enticed",
       "readings": [
-        "I have enticed",
-        "I have deceived"
-      ]
+        "have enticed",
+        "have deceived"
+      ],
+      "held_by": {
+        "have enticed": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "have deceived": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "that prophet"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הנביא",
@@ -66,8 +97,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "my hand"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ידי",
@@ -75,7 +105,22 @@
     },
     {
       "surface": "עליו",
-      "gloss": "upon him"
+      "gloss": "against him",
+      "readings": [
+        "against him",
+        "upon him"
+      ],
+      "held_by": {
+        "against him": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "upon him": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והשמדתיו",
@@ -94,6 +139,6 @@
       "gloss": "Israel"
     }
   ],
-  "timestamp": "2026-09-20T15:33:21.476202739Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "deuteronomy 13:12",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "And all Israel shall hear, and fear, and shall not add again to do like this evil thing in your midst.",
+  "translation": "And all Israel shall hear, and fear, and shall not add to do like this evil word in your midst.",
   "tokens": [
     {
       "surface": "וכל",
-      "gloss": "and all"
+      "gloss": "And all"
     },
     {
       "surface": "ישראל",
@@ -29,11 +24,23 @@
     },
     {
       "surface": "יוספו",
-      "gloss": "shall add again",
+      "gloss": "shall add",
       "readings": [
-        "shall add again",
+        "shall add",
         "shall continue"
-      ]
+      ],
+      "held_by": {
+        "shall add": [
+          "v2",
+          "en4"
+        ],
+        "shall continue": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לעשות",
@@ -41,7 +48,20 @@
     },
     {
       "surface": "כדבר",
-      "gloss": "like the word"
+      "gloss": "like the word",
+      "readings": [
+        "like the word",
+        "like the matter"
+      ],
+      "held_by": {
+        "like the word": [
+          "en4"
+        ],
+        "like the matter": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "הרע",
@@ -56,6 +76,6 @@
       "gloss": "in your midst"
     }
   ],
-  "timestamp": "2026-09-20T10:00:13.758982587Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

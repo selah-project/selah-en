@@ -1,63 +1,92 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "deuteronomy 23:10",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "When a camp goes out against your enemies, and you shall keep yourself from every evil thing.",
+  "translation": "When you go out as a camp against your enemies, then you shall guard yourself from every evil thing.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "When"
     },
     {
-      "surface": "תֵצֵא",
-      "gloss": "goes out"
-    },
-    {
-      "surface": "מַחֲנֶה",
-      "gloss": "a camp",
+      "surface": "תצא",
+      "gloss": "you go out",
       "readings": [
-        "a camp",
-        "an encampment",
-        "an army"
-      ]
+        "you go out",
+        "goes out"
+      ],
+      "held_by": {
+        "you go out": [
+          "v1",
+          "v3"
+        ],
+        "goes out": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "עַל",
+      "surface": "מחנה",
+      "gloss": "as a camp",
+      "readings": [
+        "as a camp",
+        "a camp",
+        "an army"
+      ],
+      "held_by": {
+        "as a camp": [
+          "v1",
+          "v3"
+        ],
+        "a camp": [
+          "v2",
+          "en4"
+        ],
+        "an army": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "על",
       "gloss": "against"
     },
     {
-      "surface": "אֹיְבֶיךָ",
+      "surface": "איביך",
       "gloss": "your enemies"
     },
     {
-      "surface": "וְנִשְׁמַרְתָּ",
-      "gloss": "and you shall keep yourself",
-      "readings": [
-        "and you shall keep yourself",
-        "and you shall guard yourself"
-      ]
+      "surface": "ונשמרת",
+      "gloss": "then you shall guard yourself"
     },
     {
-      "surface": "מִכֹּל",
+      "surface": "מכל",
       "gloss": "from every"
     },
     {
-      "surface": "דָּבָר",
+      "surface": "דבר",
       "gloss": "thing",
       "readings": [
         "thing",
-        "word",
-        "matter"
-      ]
+        "word"
+      ],
+      "held_by": {
+        "thing": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "word": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "רָע",
+      "surface": "רע",
       "gloss": "evil"
     }
   ],
-  "timestamp": "2026-09-20T10:01:02.851382387Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

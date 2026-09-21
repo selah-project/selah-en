@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "nehemiah 5:10",
-  "book": "nehemiah",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And also I, my brothers, and my servants are lending to them silver and grain. Let us leave, please, ⟨את⟩ this lending.",
+  "translation": "And also I, my brothers and my servants, have lent them silver and grain. Let us leave off, please, ⟨את⟩ this burden.",
   "tokens": [
     {
       "surface": "וגם",
-      "gloss": "and also"
+      "gloss": "And also"
     },
     {
       "surface": "אני",
@@ -25,7 +20,22 @@
     },
     {
       "surface": "נשים",
-      "gloss": "are lending"
+      "gloss": "have lent",
+      "readings": [
+        "have lent",
+        "are lending"
+      ],
+      "held_by": {
+        "have lent": [
+          "v2"
+        ],
+        "are lending": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בהם",
@@ -41,7 +51,7 @@
     },
     {
       "surface": "נעזבה",
-      "gloss": "let us leave"
+      "gloss": "let us leave off"
     },
     {
       "surface": "נא",
@@ -49,18 +59,31 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "this lending"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "המשא",
-      "gloss": "the lending"
+      "gloss": "the burden",
+      "readings": [
+        "the burden",
+        "the lending"
+      ],
+      "held_by": {
+        "the burden": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the lending": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הזה",
       "gloss": "this"
     }
   ],
-  "timestamp": "2026-09-20T17:39:42.759056616Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

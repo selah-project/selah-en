@@ -1,27 +1,36 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 39:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 39,
-  "translation": "With reproofs upon perversity you discipline a man, and you melt like a moth his preciousness; surely vanity is every man. Selah.",
+  "translation": "With rebukes for iniquity you chasten a man, and you melt away like a moth his treasure; surely vanity — all mankind. Selah.",
   "tokens": [
     {
       "surface": "בתוכחות",
-      "gloss": "with reproofs"
+      "gloss": "with rebukes"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "for"
     },
     {
       "surface": "עון",
-      "gloss": "perversity"
+      "gloss": "iniquity"
     },
     {
       "surface": "יסרת",
-      "gloss": "you discipline"
+      "gloss": "you chasten",
+      "readings": [
+        "you chasten",
+        "you discipline"
+      ],
+      "held_by": {
+        "you chasten": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you discipline": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "איש",
@@ -29,7 +38,7 @@
     },
     {
       "surface": "ותמס",
-      "gloss": "and you melt"
+      "gloss": "and you melt away"
     },
     {
       "surface": "כעש",
@@ -37,7 +46,23 @@
     },
     {
       "surface": "חמודו",
-      "gloss": "his preciousness"
+      "gloss": "his treasure",
+      "readings": [
+        "his treasure",
+        "his beauty"
+      ],
+      "held_by": {
+        "his treasure": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his beauty": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אך",
@@ -49,21 +74,46 @@
       "readings": [
         "vanity",
         "vapor"
-      ]
+      ],
+      "held_by": {
+        "vanity": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "vapor": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כל",
-      "gloss": "every"
+      "gloss": "all"
     },
     {
       "surface": "אדם",
-      "gloss": "man"
+      "gloss": "mankind",
+      "readings": [
+        "mankind",
+        "man"
+      ],
+      "held_by": {
+        "mankind": [
+          "v1",
+          "v3"
+        ],
+        "man": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "סלה",
       "gloss": "Selah"
     }
   ],
-  "timestamp": "2026-09-20T15:43:32.410227386Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

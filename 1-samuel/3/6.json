@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "1-samuel 3:6",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "And YHWH added to call again, “Samuel!” And Samuel arose and went to Eli and said, “Here I am, for you called me.” And he said, “I did not call, my son; turn back, lie down.”",
+  "translation": "And YHWH added to call again, “Samuel!” And Samuel arose and went to Eli and said, “Here I am, for you called me.” And he said, “I did not call, my son; go back, lie down.”",
   "tokens": [
     {
       "surface": "ויסף",
-      "gloss": "and added"
+      "gloss": "and he added"
     },
     {
       "surface": "יהוה",
@@ -53,11 +48,22 @@
     },
     {
       "surface": "הנני",
-      "gloss": "here I am",
+      "gloss": "Here I am",
       "readings": [
-        "here I am",
+        "Here I am",
         "behold me"
-      ]
+      ],
+      "held_by": {
+        "Here I am": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "behold me": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כי",
@@ -89,13 +95,28 @@
     },
     {
       "surface": "שוב",
-      "gloss": "turn back"
+      "gloss": "go back",
+      "readings": [
+        "go back",
+        "return"
+      ],
+      "held_by": {
+        "go back": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "return": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "שכב",
       "gloss": "lie down"
     }
   ],
-  "timestamp": "2026-09-20T13:00:06.266434227Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

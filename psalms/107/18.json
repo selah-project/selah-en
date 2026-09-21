@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "psalms 107:18",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 107,
-  "translation": "All food their nefesh loathed, and they drew near to the gates of death.",
+  "translation": "All food their nefesh loathes, and they arrive at the gates of death.",
   "tokens": [
     {
       "surface": "כל",
@@ -17,20 +12,33 @@
     },
     {
       "surface": "תתעב",
-      "gloss": "loathed"
+      "gloss": "loathes"
     },
     {
       "surface": "נפשם",
       "gloss": "their nefesh",
       "readings": [
         "their nefesh",
-        "their soul",
-        "their life"
-      ]
+        "their throat",
+        "their soul"
+      ],
+      "held_by": {
+        "their nefesh": [
+          "en4"
+        ],
+        "their throat": [
+          "v2",
+          "v3"
+        ],
+        "their soul": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויגיעו",
-      "gloss": "and they drew near"
+      "gloss": "and they arrive"
     },
     {
       "surface": "עד",
@@ -45,6 +53,6 @@
       "gloss": "death"
     }
   ],
-  "timestamp": "2026-09-20T14:07:07.689358932Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

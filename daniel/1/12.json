@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "daniel 1:12",
-  "book": "daniel",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "Test, please, ⟨את⟩ your servants ten days, and let them give us from the seeds, and we will eat, and water, and we will drink.",
+  "translation": "Test, I pray, ⟨את⟩ your servants ten days, and let them give us from the seeds, and we will eat, and water, and we will drink.",
   "tokens": [
     {
       "surface": "נס",
@@ -13,12 +8,25 @@
     },
     {
       "surface": "נא",
-      "gloss": "please"
+      "gloss": "I pray",
+      "readings": [
+        "I pray",
+        "please"
+      ],
+      "held_by": {
+        "I pray": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "please": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "your servants"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "עבדיך",
@@ -46,11 +54,26 @@
     },
     {
       "surface": "הזרעים",
-      "gloss": "the seeds"
+      "gloss": "the seeds",
+      "readings": [
+        "the seeds",
+        "the vegetables"
+      ],
+      "held_by": {
+        "the seeds": [
+          "v1",
+          "en4"
+        ],
+        "the vegetables": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ונאכלה",
-      "gloss": "and we will eat"
+      "gloss": "and let us eat"
     },
     {
       "surface": "ומים",
@@ -58,9 +81,9 @@
     },
     {
       "surface": "ונשתה",
-      "gloss": "and we will drink"
+      "gloss": "and let us drink"
     }
   ],
-  "timestamp": "2026-09-20T11:01:16.320054641Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,61 +1,92 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "isaiah 21:5",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "Arrange the table, watch the watch-post, eating, drinking — rise, princes, anoint the shield.",
+  "translation": "Arrange the table, watch the watch, eat, drink — rise up, you princes, anoint the shield.",
   "tokens": [
     {
-      "surface": "עָרֹךְ",
+      "surface": "ערך",
       "gloss": "arrange"
     },
     {
-      "surface": "הַשֻּׁלְחָן",
+      "surface": "השלחן",
       "gloss": "the table"
     },
     {
-      "surface": "צָפֹה",
+      "surface": "צפה",
       "gloss": "watch",
       "readings": [
         "watch",
         "overlay"
-      ]
+      ],
+      "held_by": {
+        "watch": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "overlay": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "הַצָּפִית",
-      "gloss": "the watch-post",
+      "surface": "הצפית",
+      "gloss": "the watch",
       "readings": [
-        "the watch-post",
+        "the watch",
         "the lamp"
-      ]
+      ],
+      "held_by": {
+        "the watch": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the lamp": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אָכוֹל",
-      "gloss": "eating"
+      "surface": "אכול",
+      "gloss": "eat"
     },
     {
-      "surface": "שָׁתֹה",
-      "gloss": "drinking"
+      "surface": "שתה",
+      "gloss": "drink"
     },
     {
-      "surface": "קוּמוּ",
-      "gloss": "rise"
+      "surface": "קומו",
+      "gloss": "rise up"
     },
     {
-      "surface": "הַשָּׂרִים",
-      "gloss": "princes"
+      "surface": "השרים",
+      "gloss": "you princes"
     },
     {
-      "surface": "מִשְׁחוּ",
+      "surface": "משחו",
       "gloss": "anoint"
     },
     {
-      "surface": "מָגֵן",
-      "gloss": "the shield"
+      "surface": "מגן",
+      "gloss": "the shield",
+      "readings": [
+        "the shield",
+        "a shield"
+      ],
+      "held_by": {
+        "the shield": [
+          "v1",
+          "en4"
+        ],
+        "a shield": [
+          "v2",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:53:45.198787368Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

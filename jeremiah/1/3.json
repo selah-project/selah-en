@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "jeremiah 1:3",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And it was in the days of Jehoiakim son of Josiah, king of Judah, unto the completion of the eleventh year of Zedekiah son of Josiah, king of Judah, unto the exile of Jerusalem, in the fifth month.",
+  "translation": "And it came to be in the days of Jehoiakim son of Josiah, king of Judah, until the completion of the eleventh year of Zedekiah son of Josiah, king of Judah, until the exile of Jerusalem, in the fifth month.",
   "tokens": [
     {
       "surface": "ויהי",
-      "gloss": "and it was"
+      "gloss": "And it came to be",
+      "readings": [
+        "And it came to be",
+        "and it was"
+      ],
+      "held_by": {
+        "And it came to be": [
+          "v1",
+          "v3"
+        ],
+        "and it was": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בימי",
@@ -37,7 +46,7 @@
     },
     {
       "surface": "עד",
-      "gloss": "unto"
+      "gloss": "until"
     },
     {
       "surface": "תם",
@@ -49,15 +58,11 @@
     },
     {
       "surface": "עשרה",
-      "gloss": "ten"
+      "gloss": "-teenth"
     },
     {
       "surface": "שנה",
-      "gloss": "year",
-      "readings": [
-        "year",
-        "years"
-      ]
+      "gloss": "year"
     },
     {
       "surface": "לצדקיהו",
@@ -81,7 +86,7 @@
     },
     {
       "surface": "עד",
-      "gloss": "unto"
+      "gloss": "until"
     },
     {
       "surface": "גלות",
@@ -89,7 +94,18 @@
       "readings": [
         "the exile of",
         "the uncovering of"
-      ]
+      ],
+      "held_by": {
+        "the exile of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the uncovering of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ירושלם",
@@ -104,6 +120,6 @@
       "gloss": "the fifth"
     }
   ],
-  "timestamp": "2026-09-20T17:43:51.881630137Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

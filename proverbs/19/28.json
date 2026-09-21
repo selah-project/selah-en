@@ -1,31 +1,33 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 28,
-  "ref": "proverbs 19:28",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "A witness of belial scoffs ⟨את⟩ justice, and the mouth of the wicked swallows iniquity.",
+  "translation": "A witness of worthlessness scoffs at justice, and the mouth of the wicked swallows up iniquity.",
   "tokens": [
     {
       "surface": "עד",
-      "gloss": "a witness"
+      "gloss": "A witness"
     },
     {
       "surface": "בליעל",
-      "gloss": "of belial",
+      "gloss": "of worthlessness",
       "readings": [
-        "of belial",
-        "worthless"
-      ]
+        "of worthlessness",
+        "of Belial"
+      ],
+      "held_by": {
+        "of worthlessness": [
+          "v1",
+          "v3"
+        ],
+        "of Belial": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יליץ",
-      "gloss": "scoffs",
-      "readings": [
-        "scoffs",
-        "mocks"
-      ]
+      "gloss": "scoffs at"
     },
     {
       "surface": "משפט",
@@ -33,7 +35,18 @@
       "readings": [
         "justice",
         "judgment"
-      ]
+      ],
+      "held_by": {
+        "justice": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "judgment": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ופי",
@@ -45,18 +58,26 @@
     },
     {
       "surface": "יבלע",
-      "gloss": "swallows"
+      "gloss": "swallows up"
     },
     {
       "surface": "און",
       "gloss": "iniquity",
       "readings": [
         "iniquity",
-        "trouble",
-        "nothingness"
-      ]
+        "trouble"
+      ],
+      "held_by": {
+        "iniquity": [
+          "en4"
+        ],
+        "trouble": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:52:51.703949493Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

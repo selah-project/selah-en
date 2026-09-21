@@ -1,58 +1,113 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 46:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 46,
-  "translation": "Go, behold the works of YHWH, who has set desolations in the earth.",
+  "translation": "Come, see the works of YHWH, who has set desolations in the earth.",
   "tokens": [
     {
-      "surface": "לְכוּ",
-      "gloss": "Go"
-    },
-    {
-      "surface": "חֲזוּ",
-      "gloss": "behold",
+      "surface": "לכו",
+      "gloss": "Come",
       "readings": [
-        "behold",
-        "gaze at"
-      ]
+        "Come",
+        "Go"
+      ],
+      "held_by": {
+        "Come": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "Go": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִפְעֲלוֹת",
+      "surface": "חזו",
+      "gloss": "see",
+      "readings": [
+        "see",
+        "behold"
+      ],
+      "held_by": {
+        "see": [
+          "v1",
+          "v3"
+        ],
+        "behold": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "מפעלות",
       "gloss": "the works"
     },
     {
-      "surface": "יְהוָה",
-      "gloss": "YHWH"
+      "surface": "יהוה",
+      "gloss": "of YHWH"
     },
     {
-      "surface": "אֲשֶׁר",
+      "surface": "אשר",
       "gloss": "who"
     },
     {
-      "surface": "שָׂם",
-      "gloss": "has set"
+      "surface": "שם",
+      "gloss": "has set",
+      "readings": [
+        "has set",
+        "has made"
+      ],
+      "held_by": {
+        "has set": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "has made": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "שַׁמּוֹת",
+      "surface": "שמות",
       "gloss": "desolations",
       "readings": [
         "desolations",
-        "ruins",
-        "astoundings"
-      ]
+        "ruins"
+      ],
+      "held_by": {
+        "desolations": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "ruins": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בָּאָרֶץ",
+      "surface": "בארץ",
       "gloss": "in the earth",
       "readings": [
         "in the earth",
         "in the land"
-      ]
+      ],
+      "held_by": {
+        "in the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:43:57.252782133Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

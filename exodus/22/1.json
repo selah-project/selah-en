@@ -1,53 +1,75 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "exodus 22:1",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "If in the dark the thief is found, and he is struck and dies, there is no blood for him.",
+  "translation": "If in a breaking through the thief is found, and he is struck and dies, there is no blood for him.",
   "tokens": [
     {
-      "surface": "אִם",
+      "surface": "אם",
       "gloss": "If"
     },
     {
-      "surface": "בַּמַּחְתֶּרֶת",
-      "gloss": "in the dark"
+      "surface": "במחתרת",
+      "gloss": "in a breaking through",
+      "readings": [
+        "in a breaking through",
+        "in the dark"
+      ],
+      "held_by": {
+        "in a breaking through": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in the dark": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יִמָּצֵא",
+      "surface": "ימצא",
       "gloss": "he is found"
     },
     {
-      "surface": "הַגַּנָּב",
+      "surface": "הגנב",
       "gloss": "the thief"
     },
     {
-      "surface": "וְהֻכָּה",
+      "surface": "והכה",
       "gloss": "and he is struck"
     },
     {
-      "surface": "וָמֵת",
+      "surface": "ומת",
       "gloss": "and dies"
     },
     {
-      "surface": "אֵין",
+      "surface": "אין",
       "gloss": "there is no"
     },
     {
-      "surface": "לוֹ",
+      "surface": "לו",
       "gloss": "for him"
     },
     {
-      "surface": "דָּמִים",
+      "surface": "דמים",
       "gloss": "blood",
       "readings": [
         "blood",
-        "bloodguilt"
-      ]
+        "bloodguiltiness"
+      ],
+      "held_by": {
+        "blood": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "bloodguiltiness": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T12:29:43.289720310Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,41 +1,61 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 77:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 77,
-  "translation": "You have seized the watchings of my eyes; I am struck, and I cannot speak.",
+  "translation": "You have seized the watchings of my eyes; I am agitated, and I cannot speak.",
   "tokens": [
     {
-      "surface": "אָחַזְתָּ",
+      "surface": "אחזת",
       "gloss": "You have seized"
     },
     {
-      "surface": "שְׁמֻרוֹת",
+      "surface": "שמרות",
       "gloss": "the watchings",
       "readings": [
         "the watchings",
         "the eyelids"
-      ]
+      ],
+      "held_by": {
+        "the watchings": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the eyelids": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "עֵינַי",
+      "surface": "עיני",
       "gloss": "of my eyes"
     },
     {
-      "surface": "נִפְעַמְתִּי",
-      "gloss": "I am struck"
+      "surface": "נפעמתי",
+      "gloss": "I am agitated",
+      "readings": [
+        "I am agitated",
+        "I am struck"
+      ],
+      "held_by": {
+        "I am agitated": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I am struck": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְלֹא",
-      "gloss": "and not"
+      "surface": "ולא",
+      "gloss": "and I cannot"
     },
     {
-      "surface": "אֲדַבֵּר",
-      "gloss": "I speak"
+      "surface": "אדבר",
+      "gloss": "speak"
     }
   ],
-  "timestamp": "2026-09-20T10:45:32.465773990Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

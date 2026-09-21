@@ -1,31 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 65:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 65,
-  "translation": "Its furrows you water, its ridges you settle down; with showers you soften it — its sprouting you bless.",
+  "translation": "Her furrows You drench abundantly; her ridges You settle down; with showers You soften her; her sprouting You bless.",
   "tokens": [
     {
       "surface": "תלמיה",
-      "gloss": "its furrows"
+      "gloss": "her furrows"
     },
     {
       "surface": "רוה",
-      "gloss": "you water"
+      "gloss": "you water",
+      "readings": [
+        "you water",
+        "you drench abundantly"
+      ],
+      "held_by": {
+        "you water": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "you drench abundantly": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "נחת",
-      "gloss": "you settle down"
+      "gloss": "you press down",
+      "readings": [
+        "you press down",
+        "you settle down"
+      ],
+      "held_by": {
+        "you press down": [
+          "v1",
+          "v3"
+        ],
+        "you settle down": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "גדודיה",
-      "gloss": "its ridges",
+      "gloss": "her ridges",
       "readings": [
-        "its ridges",
-        "its furrows"
-      ]
+        "her ridges",
+        "her furrows"
+      ],
+      "held_by": {
+        "her ridges": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "her furrows": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ברביבים",
@@ -33,17 +67,17 @@
     },
     {
       "surface": "תמגגנה",
-      "gloss": "you soften it"
+      "gloss": "you soften her"
     },
     {
       "surface": "צמחה",
-      "gloss": "its sprouting"
+      "gloss": "her sprouting"
     },
     {
       "surface": "תברך",
       "gloss": "you bless"
     }
   ],
-  "timestamp": "2026-09-20T14:02:42.007980248Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

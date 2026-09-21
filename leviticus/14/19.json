@@ -1,24 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "leviticus 14:19",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "And the priest shall make ⟨את⟩ the sin offering, and cover over on behalf of the one being cleansed from his uncleanness, and afterward he shall slaughter ⟨את⟩ the burnt offering.",
+  "translation": "And the priest shall make ⟨את⟩ the sin offering, and shall make atonement for the one being cleansed from his uncleanness, and afterward he shall slaughter ⟨את⟩ the burnt offering.",
   "tokens": [
     {
       "surface": "וְעָשָׂה",
-      "gloss": "and he shall make"
+      "gloss": "And shall make",
+      "readings": [
+        "And shall make",
+        "And shall offer"
+      ],
+      "held_by": {
+        "And shall make": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "And shall offer": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "הַכֹּהֵן",
       "gloss": "the priest"
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the sin offering"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הַחַטָּאת",
@@ -26,11 +34,39 @@
     },
     {
       "surface": "וְכִפֶּר",
-      "gloss": "and cover over"
+      "gloss": "and shall make atonement",
+      "readings": [
+        "and shall make atonement",
+        "and cover over"
+      ],
+      "held_by": {
+        "and shall make atonement": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and cover over": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עַל",
-      "gloss": "on behalf of"
+      "gloss": "for",
+      "readings": [
+        "for",
+        "on behalf of"
+      ],
+      "held_by": {
+        "for": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "on behalf of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הַמִּטַּהֵר",
@@ -49,15 +85,14 @@
       "gloss": "he shall slaughter"
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the burnt offering"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הָעֹלָה",
       "gloss": "the burnt offering"
     }
   ],
-  "timestamp": "2026-09-20T12:36:32.572749848Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

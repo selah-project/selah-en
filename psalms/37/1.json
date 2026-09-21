@@ -1,32 +1,37 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 37:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 37,
-  "translation": "Of David: Do not heat yourself because of the evil-doers; do not be jealous of the workers of unrighteousness.",
+  "translation": "Of David. Do not burn ⟨with anger⟩ over the evildoers; do not be jealous of the workers of iniquity.",
   "tokens": [
     {
       "surface": "לדוד",
-      "gloss": "of David"
+      "gloss": "Of David"
     },
     {
       "surface": "אל",
-      "gloss": "do not"
+      "gloss": "Do not"
     },
     {
       "surface": "תתחר",
-      "gloss": "heat yourself",
+      "gloss": "burn ⟨with anger⟩",
       "readings": [
-        "heat yourself",
-        "fret",
-        "be angry"
-      ]
+        "burn ⟨with anger⟩",
+        "fret"
+      ],
+      "held_by": {
+        "burn ⟨with anger⟩": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "fret": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "במרעים",
-      "gloss": "because of the evil-doers"
+      "gloss": "over the evildoers"
     },
     {
       "surface": "אל",
@@ -42,13 +47,27 @@
     },
     {
       "surface": "עולה",
-      "gloss": "unrighteousness",
+      "gloss": "iniquity",
       "readings": [
+        "iniquity",
         "unrighteousness",
-        "injustice"
-      ]
+        "wrongdoing"
+      ],
+      "held_by": {
+        "iniquity": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "unrighteousness": [
+          "en4"
+        ],
+        "wrongdoing": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:43:00.215499870Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

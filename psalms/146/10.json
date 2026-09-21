@@ -1,19 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 146:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 146,
-  "translation": "YHWH reigns forever, your Elohim, O Zion, for generation and generation. Praise Yah.",
+  "translation": "YHWH shall reign forever, your Elohim, ⟨O⟩ Zion, to generation and generation. Praise ⟨ye⟩ Yah.",
   "tokens": [
     {
       "surface": "ימלך",
-      "gloss": "reigns",
+      "gloss": "shall reign",
       "readings": [
-        "reigns",
-        "will reign"
-      ]
+        "shall reign",
+        "reigns"
+      ],
+      "held_by": {
+        "shall reign": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "reigns": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -29,25 +34,41 @@
     },
     {
       "surface": "ציון",
-      "gloss": "Zion"
+      "gloss": "⟨O⟩ Zion"
     },
     {
       "surface": "לדר",
-      "gloss": "for generation"
+      "gloss": "to generation",
+      "readings": [
+        "to generation",
+        "for generation"
+      ],
+      "held_by": {
+        "to generation": [
+          "v1",
+          "v3"
+        ],
+        "for generation": [
+          "en4"
+        ],
+        "generation": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "ודר",
-      "gloss": "and generation"
+      "gloss": "⟨and⟩ generation"
     },
     {
       "surface": "הללו",
-      "gloss": "praise"
+      "gloss": "Praise ⟨ye⟩"
     },
     {
       "surface": "יה",
       "gloss": "Yah"
     }
   ],
-  "timestamp": "2026-09-20T14:10:55.822521157Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

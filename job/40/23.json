@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "job 40:23",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 40,
-  "translation": "Behold, a river oppresses — he does not hurry; he is secure though a Jordan gushes forth to his mouth.",
+  "translation": "Behold, a river oppresses — he does not hurry; he trusts, though Jordan gushes forth to his mouth.",
   "tokens": [
     {
       "surface": "הן",
@@ -16,9 +11,19 @@
       "gloss": "oppresses",
       "readings": [
         "oppresses",
-        "overflows",
-        "presses upon"
-      ]
+        "overflows"
+      ],
+      "held_by": {
+        "oppresses": [
+          "v1",
+          "en4"
+        ],
+        "overflows": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "נהר",
@@ -30,20 +35,30 @@
     },
     {
       "surface": "יחפוז",
-      "gloss": "does he hurry",
-      "readings": [
-        "does he hurry",
-        "does he startle",
-        "does he flee"
-      ]
+      "gloss": "hurries"
     },
     {
       "surface": "יבטח",
-      "gloss": "he is secure"
+      "gloss": "he trusts"
     },
     {
       "surface": "כי",
-      "gloss": "though"
+      "gloss": "though",
+      "readings": [
+        "though",
+        "because"
+      ],
+      "held_by": {
+        "though": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "because": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יגיח",
@@ -51,7 +66,7 @@
     },
     {
       "surface": "ירדן",
-      "gloss": "a Jordan"
+      "gloss": "Jordan"
     },
     {
       "surface": "אל",
@@ -62,6 +77,6 @@
       "gloss": "his mouth"
     }
   ],
-  "timestamp": "2026-09-20T14:21:24.845290433Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

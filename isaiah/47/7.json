@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "isaiah 47:7",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 47,
-  "translation": "And you said, forever I shall be mistress — until you did not set these things upon your heart, you did not remember her latter end.",
+  "translation": "And you said, “Forever I shall be mistress,” until you did not lay these things to heart, you did not remember her latter end.",
   "tokens": [
     {
       "surface": "ותאמרי",
-      "gloss": "and you said"
+      "gloss": "And you said"
     },
     {
       "surface": "לעולם",
@@ -25,7 +20,21 @@
     },
     {
       "surface": "עד",
-      "gloss": "until"
+      "gloss": "until",
+      "readings": [
+        "until",
+        "so that"
+      ],
+      "held_by": {
+        "until": [
+          "en4"
+        ],
+        "so that": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לא",
@@ -37,7 +46,7 @@
     },
     {
       "surface": "אלה",
-      "gloss": "these"
+      "gloss": "these things"
     },
     {
       "surface": "על",
@@ -60,11 +69,21 @@
       "gloss": "her latter end",
       "readings": [
         "her latter end",
-        "her future",
         "her posterity"
-      ]
+      ],
+      "held_by": {
+        "her latter end": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "her posterity": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:24:56.414261435Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

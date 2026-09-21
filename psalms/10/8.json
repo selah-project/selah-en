@@ -1,66 +1,88 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 10:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "He sits in ⟨an⟩ ambush of villages; in the hiding places he kills the innocent; his eyes for the helpless he hides in wait.",
+  "translation": "He sits in ambush in ⟨the⟩ courtyards; in hiding places he murders the innocent. His eyes for the hapless lie hidden.",
   "tokens": [
     {
-      "surface": "יֵשֵׁב",
+      "surface": "ישב",
       "gloss": "he sits",
       "readings": [
         "he sits",
-        "he dwells",
         "he lies in wait"
-      ]
+      ],
+      "held_by": {
+        "he sits": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "he lies in wait": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּמַאְרָב",
-      "gloss": "in an ambush"
+      "surface": "במארב",
+      "gloss": "in ambush"
     },
     {
-      "surface": "חֲצֵרִים",
-      "gloss": "of villages",
+      "surface": "חצרים",
+      "gloss": "courtyards",
       "readings": [
-        "of villages",
-        "of enclosures"
-      ]
+        "courtyards",
+        "villages"
+      ],
+      "held_by": {
+        "courtyards": [
+          "v1",
+          "v3"
+        ],
+        "villages": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בַּמִּסְתָּרִים",
-      "gloss": "in the hiding places"
+      "surface": "במסתרים",
+      "gloss": "in hiding places"
     },
     {
-      "surface": "יַהֲרֹג",
-      "gloss": "he kills",
-      "readings": [
-        "he kills",
-        "he slays"
-      ]
+      "surface": "יהרג",
+      "gloss": "he murders"
     },
     {
-      "surface": "נָקִי",
+      "surface": "נקי",
       "gloss": "the innocent"
     },
     {
-      "surface": "עֵינָיו",
+      "surface": "עיניו",
       "gloss": "his eyes"
     },
     {
-      "surface": "לְחֵלְכָה",
-      "gloss": "for the helpless"
+      "surface": "לחלכה",
+      "gloss": "for the hapless"
     },
     {
-      "surface": "יִצְפֹּנוּ",
-      "gloss": "he hides in wait",
+      "surface": "יצפנו",
+      "gloss": "they lie hidden",
       "readings": [
-        "he hides in wait",
-        "he conceals"
-      ]
+        "they lie hidden",
+        "they watch"
+      ],
+      "held_by": {
+        "they lie hidden": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "they watch": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:41:37.587495877Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

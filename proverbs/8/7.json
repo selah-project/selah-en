@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "proverbs 8:7",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "For truth my palate murmurs, and an abomination of my lips ⟨is⟩ wickedness.",
+  "translation": "For truth my palate will utter, and wickedness is an abomination to my lips.",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "For"
     },
     {
       "surface": "אמת",
@@ -17,12 +12,26 @@
     },
     {
       "surface": "יהגה",
-      "gloss": "murmurs",
+      "gloss": "will utter",
       "readings": [
+        "will utter",
         "murmurs",
-        "ponders",
-        "utters"
-      ]
+        "ponders"
+      ],
+      "held_by": {
+        "will utter": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "murmurs": [
+          "en4"
+        ],
+        "ponders": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "חכי",
@@ -30,21 +39,31 @@
       "readings": [
         "my palate",
         "my mouth"
-      ]
+      ],
+      "held_by": {
+        "my palate": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my mouth": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ותועבת",
-      "gloss": "and an abomination of"
+      "gloss": "and an abomination"
     },
     {
       "surface": "שפתי",
-      "gloss": "my lips"
+      "gloss": "to my lips"
     },
     {
       "surface": "רשע",
       "gloss": "wickedness"
     }
   ],
-  "timestamp": "2026-09-20T10:51:45.500667787Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

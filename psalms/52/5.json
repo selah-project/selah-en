@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 52:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 52,
-  "translation": "You have loved evil more than good, falsehood more than speaking righteousness. Selah.",
+  "translation": "You love evil more than good, falsehood more than speaking righteousness. Selah.",
   "tokens": [
     {
       "surface": "אהבת",
-      "gloss": "You have loved"
+      "gloss": "You love",
+      "readings": [
+        "You love",
+        "You have loved"
+      ],
+      "held_by": {
+        "You love": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "You have loved": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רע",
@@ -21,25 +30,35 @@
     },
     {
       "surface": "שקר",
-      "gloss": "falsehood",
-      "readings": [
-        "falsehood",
-        "a lie"
-      ]
+      "gloss": "falsehood"
     },
     {
       "surface": "מדבר",
-      "gloss": "more than speaking"
+      "gloss": "than speaking"
     },
     {
       "surface": "צדק",
-      "gloss": "righteousness"
+      "gloss": "righteousness",
+      "readings": [
+        "righteousness",
+        "what is right"
+      ],
+      "held_by": {
+        "righteousness": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "what is right": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "סלה",
       "gloss": "Selah"
     }
   ],
-  "timestamp": "2026-09-20T15:44:18.408897596Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

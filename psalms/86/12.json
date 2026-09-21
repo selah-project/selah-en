@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 86:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 86,
-  "translation": "I will give thanks to you, Adonai my Elohim, with all my heart, and give weight to your name forever.",
+  "translation": "I will praise you, Adonai my Elohim, with all my heart, and I will glorify your name forever.",
   "tokens": [
     {
       "surface": "אודך",
-      "gloss": "I will give thanks to you"
+      "gloss": "I will praise you"
     },
     {
       "surface": "אדני",
@@ -29,7 +24,22 @@
     },
     {
       "surface": "ואכבדה",
-      "gloss": "and give weight to"
+      "gloss": "and I will glorify",
+      "readings": [
+        "and I will glorify",
+        "and give weight to"
+      ],
+      "held_by": {
+        "and I will glorify": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and give weight to": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שמך",
@@ -40,11 +50,21 @@
       "gloss": "forever",
       "readings": [
         "forever",
-        "for the age",
-        "into eternity"
-      ]
+        "for the age"
+      ],
+      "held_by": {
+        "forever": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "for the age": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:46:34.447358036Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,24 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "ezekiel 48:17",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 48,
-  "translation": "And it shall be open land for the city: northward fifty and two hundred, and southward fifty and two hundred, and eastward fifty and two hundred, and seaward fifty and two hundred.",
+  "translation": "And there shall be ⟨a⟩ pastureland for the city: northward fifty and two hundred, and southward fifty and two hundred, and eastward fifty and two hundred, and westward fifty and two hundred.",
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and it shall be"
+      "gloss": "And there shall be"
     },
     {
       "surface": "מגרש",
-      "gloss": "open land",
+      "gloss": "pastureland",
       "readings": [
-        "open land",
         "pastureland",
-        "suburb"
-      ]
+        "open land"
+      ],
+      "held_by": {
+        "pastureland": [
+          "v1",
+          "v3"
+        ],
+        "open land": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לעיר",
@@ -62,7 +67,21 @@
     },
     {
       "surface": "וימה",
-      "gloss": "and seaward"
+      "gloss": "and westward",
+      "readings": [
+        "and westward",
+        "and seaward"
+      ],
+      "held_by": {
+        "and westward": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and seaward": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חמשים",
@@ -73,6 +92,6 @@
       "gloss": "and two hundred"
     }
   ],
-  "timestamp": "2026-09-20T15:38:14.101799844Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

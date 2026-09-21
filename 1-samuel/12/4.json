@@ -1,57 +1,77 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "1-samuel 12:4",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "And they said, “You have not oppressed us, and you have not crushed us, and you have not taken from the hand of any man anything.”",
+  "translation": "And they said, “You have not oppressed us, and you have not crushed us, and you have not taken anything from the hand of any man.”",
   "tokens": [
     {
-      "surface": "וַיֹּאמְרוּ",
-      "gloss": "and they said"
+      "surface": "ויאמרו",
+      "gloss": "And they said"
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "עֲשַׁקְתָּנוּ",
-      "gloss": "you have oppressed us"
+      "surface": "עשקתנו",
+      "gloss": "oppressed us",
+      "readings": [
+        "oppressed us",
+        "defrauded us"
+      ],
+      "held_by": {
+        "oppressed us": [
+          "v1",
+          "en4"
+        ],
+        "defrauded us": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְלֹא",
-      "gloss": "and not"
+      "surface": "ולא",
+      "gloss": "and you have not"
     },
     {
-      "surface": "רַצּוֹתָנוּ",
-      "gloss": "you have crushed us"
+      "surface": "רצותנו",
+      "gloss": "crushed us",
+      "readings": [
+        "crushed us",
+        "oppressed us"
+      ],
+      "held_by": {
+        "crushed us": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "oppressed us": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "וְלֹא",
-      "gloss": "and not"
+      "surface": "ולא",
+      "gloss": "and you have not"
     },
     {
-      "surface": "לָקַחְתָּ",
+      "surface": "לקחת",
       "gloss": "you have taken"
     },
     {
-      "surface": "מִיַּד",
+      "surface": "מיד",
       "gloss": "from the hand of"
     },
     {
-      "surface": "אִישׁ",
+      "surface": "איש",
       "gloss": "any man"
     },
     {
-      "surface": "מְאוּמָה",
-      "gloss": "anything",
-      "readings": [
-        "anything",
-        "anything at all"
-      ]
+      "surface": "מאומה",
+      "gloss": "anything"
     }
   ],
-  "timestamp": "2026-09-20T17:23:11.368974172Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

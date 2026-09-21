@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 113:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 113,
-  "translation": "From the rising of the sun unto its coming in — praised be the name of YHWH.",
+  "translation": "From the rising of the sun unto its setting, praised ⟨be⟩ the name of YHWH.",
   "tokens": [
     {
       "surface": "ממזרח",
-      "gloss": "from the rising of"
+      "gloss": "From the rising of"
     },
     {
       "surface": "שמש",
@@ -21,16 +16,26 @@
     },
     {
       "surface": "מבואו",
-      "gloss": "its coming in",
+      "gloss": "its setting",
       "readings": [
-        "its coming in",
         "its setting",
-        "its entrance"
-      ]
+        "its coming in"
+      ],
+      "held_by": {
+        "its setting": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "its coming in": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מהלל",
-      "gloss": "praised be"
+      "gloss": "praised"
     },
     {
       "surface": "שם",
@@ -41,6 +46,6 @@
       "gloss": "of YHWH"
     }
   ],
-  "timestamp": "2026-09-20T10:48:21.211364083Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

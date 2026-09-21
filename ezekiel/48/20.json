@@ -1,24 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "ezekiel 48:20",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 48,
-  "translation": "All the contribution: five and twenty thousand by five and twenty thousand; four-square you shall lift up ⟨את⟩ the contribution of the holiness, with the possession of the city.",
+  "translation": "All the contribution: five and twenty thousand by five and twenty thousand; a fourth part you shall lift up ⟨את⟩ the contribution of the holy, with the possession of the city.",
   "tokens": [
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "All"
     },
     {
       "surface": "התרומה",
       "gloss": "the contribution",
       "readings": [
         "the contribution",
-        "the heave-offering",
-        "the lifting"
-      ]
+        "the heave-offering"
+      ],
+      "held_by": {
+        "the contribution": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the heave-offering": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חמשה",
@@ -46,11 +51,22 @@
     },
     {
       "surface": "רביעית",
-      "gloss": "four-square",
+      "gloss": "a fourth part",
       "readings": [
-        "four-square",
-        "a fourth"
-      ]
+        "a fourth part",
+        "four-square"
+      ],
+      "held_by": {
+        "a fourth part": [
+          "v2",
+          "v3"
+        ],
+        "four-square": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תרימו",
@@ -58,8 +74,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the contribution of the holiness"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "תרומת",
@@ -67,11 +82,26 @@
     },
     {
       "surface": "הקדש",
-      "gloss": "the holiness"
+      "gloss": "the holy"
     },
     {
       "surface": "אל",
-      "gloss": "with"
+      "gloss": "with",
+      "readings": [
+        "with",
+        "toward"
+      ],
+      "held_by": {
+        "with": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "toward": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אחזת",
@@ -82,6 +112,6 @@
       "gloss": "the city"
     }
   ],
-  "timestamp": "2026-09-20T15:38:14.102409119Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

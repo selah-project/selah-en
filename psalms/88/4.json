@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 88:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 88,
-  "translation": "For my nefesh is sated with evils, and my life has reached Sheol.",
+  "translation": "For my nefesh is sated with troubles, and my life has reached Sheol.",
   "tokens": [
     {
       "surface": "כי",
@@ -17,16 +12,41 @@
     },
     {
       "surface": "ברעות",
-      "gloss": "with evils"
+      "gloss": "with troubles",
+      "readings": [
+        "with troubles",
+        "with evils"
+      ],
+      "held_by": {
+        "with troubles": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "with evils": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "נפשי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul",
-        "my life"
-      ]
+        "my soul"
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וחיי",
@@ -41,6 +61,6 @@
       "gloss": "has reached"
     }
   ],
-  "timestamp": "2026-09-20T14:05:00.783493586Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

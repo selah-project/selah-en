@@ -1,18 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "genesis 49:17",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 49,
-  "translation": "Let Dan be a serpent on the way, a horned adder on the path, biting the horse’s heels, and its rider falls backward.",
+  "translation": "Dan shall be a serpent on the way, a horned adder on the path, that bites the heels of the horse, and its rider falls backward.",
   "tokens": [
     {
       "surface": "יְהִי",
-      "gloss": "let him be"
+      "gloss": "shall be",
+      "readings": [
+        "shall be",
+        "let him be"
+      ],
+      "held_by": {
+        "shall be": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "let him be": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "דָן",
+      "surface": "דָּן",
       "gloss": "Dan"
     },
     {
@@ -20,19 +30,37 @@
       "gloss": "a serpent"
     },
     {
-      "surface": "עֲלֵי",
+      "surface": "עָלֵי",
       "gloss": "on"
     },
     {
       "surface": "דֶּרֶךְ",
-      "gloss": "the way"
+      "gloss": "the way",
+      "readings": [
+        "the way",
+        "a way"
+      ]
     },
     {
       "surface": "שְׁפִיפֹן",
-      "gloss": "a horned adder"
+      "gloss": "a horned adder",
+      "readings": [
+        "a horned adder",
+        "a horned snake"
+      ],
+      "held_by": {
+        "a horned adder": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a horned snake": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "עֲלֵי",
+      "surface": "עָלֵי",
       "gloss": "on"
     },
     {
@@ -41,19 +69,62 @@
     },
     {
       "surface": "הַנֹּשֵׁךְ",
-      "gloss": "biting"
+      "gloss": "that bites",
+      "readings": [
+        "that bites",
+        "biting"
+      ],
+      "held_by": {
+        "that bites": [
+          "v2",
+          "v3"
+        ],
+        "biting": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "עִקְּבֵי",
+      "surface": "עֲקֵבֵי",
       "gloss": "the heels of"
     },
     {
       "surface": "סוּס",
-      "gloss": "a horse"
+      "gloss": "the horse",
+      "readings": [
+        "the horse",
+        "a horse"
+      ],
+      "held_by": {
+        "the horse": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a horse": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וַיִּפֹּל",
-      "gloss": "and falls"
+      "surface": "וְיָפֵל",
+      "gloss": "and falls",
+      "readings": [
+        "and falls",
+        "and he falls"
+      ],
+      "held_by": {
+        "and falls": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and he falls": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "רֹכְבוֹ",
@@ -64,6 +135,6 @@
       "gloss": "backward"
     }
   ],
-  "timestamp": "2026-09-20T17:18:55.078187597Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

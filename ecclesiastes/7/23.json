@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "ecclesiastes 7:23",
-  "book": "ecclesiastes",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "All this I tested with wisdom; I said, “I will be wise” — and it was far from me.",
+  "translation": "All this I tested by wisdom; I said, “I will be wise” — but it was far from me.",
   "tokens": [
     {
       "surface": "כל",
@@ -21,7 +16,24 @@
     },
     {
       "surface": "בחכמה",
-      "gloss": "with wisdom"
+      "gloss": "by wisdom",
+      "readings": [
+        "by wisdom",
+        "in wisdom",
+        "with wisdom"
+      ],
+      "held_by": {
+        "by wisdom": [
+          "v2",
+          "v3"
+        ],
+        "in wisdom": [
+          "v1"
+        ],
+        "with wisdom": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אמרתי",
@@ -33,17 +45,32 @@
     },
     {
       "surface": "והיא",
-      "gloss": "and it"
+      "gloss": "but it"
     },
     {
       "surface": "רחוקה",
-      "gloss": "was far"
+      "gloss": "was far",
+      "readings": [
+        "was far",
+        "is far"
+      ],
+      "held_by": {
+        "was far": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "is far": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ממני",
       "gloss": "from me"
     }
   ],
-  "timestamp": "2026-09-20T14:25:01.127501228Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

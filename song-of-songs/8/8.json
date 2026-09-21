@@ -1,23 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "song-of-songs 8:8",
-  "book": "song-of-songs",
-  "lang": "en4",
-  "chapter": 8,
   "translation": "We have a little sister, and she has no breasts; what shall we do for our sister in the day she is spoken for?",
   "tokens": [
     {
       "surface": "אחות",
-      "gloss": "A sister"
+      "gloss": "a sister"
     },
     {
       "surface": "לנו",
-      "gloss": "we have",
+      "gloss": "to us",
       "readings": [
-        "we have",
-        "is to us"
-      ]
+        "to us",
+        "we have"
+      ],
+      "held_by": {
+        "to us": [
+          "v1",
+          "v3"
+        ],
+        "we have": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "קטנה",
@@ -57,9 +62,25 @@
     },
     {
       "surface": "בה",
-      "gloss": "concerning her"
+      "gloss": "concerning her",
+      "readings": [
+        "concerning her",
+        "for her",
+        "about her"
+      ],
+      "held_by": {
+        "concerning her": [
+          "en4"
+        ],
+        "for her": [
+          "v3"
+        ],
+        "about her": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:22:25.814737334Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

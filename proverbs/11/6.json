@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "proverbs 11:6",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "The rightness of the upright delivers them, and in the mischief of the treacherous they are trapped.",
+  "translation": "The righteousness of the upright delivers them, but the treacherous are caught by their own craving.",
   "tokens": [
     {
       "surface": "צדקת",
-      "gloss": "the rightness of"
+      "gloss": "the righteousness of"
     },
     {
       "surface": "ישרים",
@@ -21,12 +16,26 @@
     },
     {
       "surface": "ובהות",
-      "gloss": "the mischief of",
+      "gloss": "but by the craving of",
       "readings": [
-        "the mischief of",
-        "the desire of",
-        "the destruction of"
-      ]
+        "but by the craving of",
+        "but in the mischief of",
+        "but by the destruction of"
+      ],
+      "held_by": {
+        "but by the craving of": [
+          "v2",
+          "v3"
+        ],
+        "but in the mischief of": [
+          "en4",
+          "v1"
+        ],
+        "but by the destruction of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בגדים",
@@ -34,9 +43,24 @@
     },
     {
       "surface": "ילכדו",
-      "gloss": "they are trapped"
+      "gloss": "they are caught",
+      "readings": [
+        "they are caught",
+        "it traps them"
+      ],
+      "held_by": {
+        "they are caught": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "it traps them": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:52:13.040957958Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

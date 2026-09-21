@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "psalms 101:6",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 101,
-  "translation": "My eyes are upon the faithful of the land, to dwell with me; the one walking in a way of wholeness — he will serve me.",
+  "translation": "My eyes are upon the faithful of the land, to dwell with me; he who walks in a blameless way, he shall serve me.",
   "tokens": [
     {
       "surface": "עיני",
-      "gloss": "my eyes"
+      "gloss": "My eyes"
     },
     {
       "surface": "בנאמני",
@@ -21,7 +16,18 @@
       "readings": [
         "the land",
         "the earth"
-      ]
+      ],
+      "held_by": {
+        "the land": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the earth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לשבת",
@@ -33,20 +39,33 @@
     },
     {
       "surface": "הלך",
-      "gloss": "the one walking"
+      "gloss": "he who walks"
     },
     {
       "surface": "בדרך",
-      "gloss": "in a way of"
+      "gloss": "in a way"
     },
     {
       "surface": "תמים",
-      "gloss": "wholeness",
+      "gloss": "blameless",
       "readings": [
+        "blameless",
         "wholeness",
-        "integrity",
-        "blamelessness"
-      ]
+        "perfect"
+      ],
+      "held_by": {
+        "blameless": [
+          "v2",
+          "v3"
+        ],
+        "wholeness": [
+          "en4"
+        ],
+        "perfect": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הוא",
@@ -54,9 +73,9 @@
     },
     {
       "surface": "ישרתני",
-      "gloss": "will serve me"
+      "gloss": "shall serve me"
     }
   ],
-  "timestamp": "2026-09-20T17:44:40.532437197Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

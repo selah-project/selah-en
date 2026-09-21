@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 10:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "He lurks in a hiding place like a lion in his covert; he lurks to seize the afflicted; he seizes the afflicted, drawing him in his net.",
+  "translation": "He lurks in ⟨a⟩ secret place like a lion in his covert; he lurks to seize the poor; he seizes the poor, drawing ⟨him⟩ in his net.",
   "tokens": [
     {
       "surface": "יארב",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "במסתר",
-      "gloss": "in a hiding place"
+      "gloss": "in ⟨a⟩ secret place"
     },
     {
       "surface": "כאריה",
@@ -21,7 +16,22 @@
     },
     {
       "surface": "בסכה",
-      "gloss": "in his covert"
+      "gloss": "in his covert",
+      "readings": [
+        "in his covert",
+        "in his thicket"
+      ],
+      "held_by": {
+        "in his covert": [
+          "v1",
+          "en4"
+        ],
+        "in his thicket": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יארב",
@@ -33,11 +43,21 @@
     },
     {
       "surface": "עני",
-      "gloss": "the afflicted",
+      "gloss": "the poor",
       "readings": [
-        "the afflicted",
-        "the poor"
-      ]
+        "the poor",
+        "the afflicted"
+      ],
+      "held_by": {
+        "the poor": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the afflicted": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יחטף",
@@ -45,21 +65,31 @@
     },
     {
       "surface": "עני",
-      "gloss": "the afflicted",
+      "gloss": "the poor",
       "readings": [
-        "the afflicted",
-        "the poor"
-      ]
+        "the poor",
+        "the afflicted"
+      ],
+      "held_by": {
+        "the poor": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the afflicted": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "במשכו",
-      "gloss": "in his drawing"
+      "gloss": "in his drawing ⟨him⟩"
     },
     {
       "surface": "ברשתו",
       "gloss": "in his net"
     }
   ],
-  "timestamp": "2026-09-20T13:58:21.010411907Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

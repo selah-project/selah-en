@@ -1,53 +1,89 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "1-samuel 20:18",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "And Jonathan said to him, Tomorrow is the new moon, and you will be visited, for your seat will be visited.",
+  "translation": "And Jonathan said to him, Tomorrow is the new moon, and you will be missed, for your seat will be missed.",
   "tokens": [
     {
-      "surface": "וַיֹּאמֶר",
+      "surface": "ויאמר",
       "gloss": "and said"
     },
     {
-      "surface": "לוֹ",
+      "surface": "לו",
       "gloss": "to him"
     },
     {
-      "surface": "יְהוֹנָתָן",
+      "surface": "יהונתן",
       "gloss": "Jonathan"
     },
     {
-      "surface": "מָחָר",
+      "surface": "מחר",
       "gloss": "tomorrow"
     },
     {
-      "surface": "חֹדֶשׁ",
+      "surface": "חדש",
       "gloss": "new moon",
       "readings": [
         "new moon",
         "month"
-      ]
+      ],
+      "held_by": {
+        "new moon": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "month": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְנִפְקַדְתָּ",
-      "gloss": "and you will be visited"
+      "surface": "ונפקדת",
+      "gloss": "and you will be missed",
+      "readings": [
+        "and you will be missed",
+        "and you will be visited"
+      ],
+      "held_by": {
+        "and you will be missed": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and you will be visited": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "יִפָּקֵד",
-      "gloss": "it will be visited"
+      "surface": "יפקד",
+      "gloss": "will be missed",
+      "readings": [
+        "will be missed",
+        "will be visited"
+      ],
+      "held_by": {
+        "will be missed": [
+          "v2",
+          "v3",
+          "v1"
+        ],
+        "will be visited": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "מוֹשָׁבֶךָ",
+      "surface": "מושבך",
       "gloss": "your seat"
     }
   ],
-  "timestamp": "2026-09-20T15:11:25.508065912Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

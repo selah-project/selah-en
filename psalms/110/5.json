@@ -1,45 +1,67 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 110:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 110,
-  "translation": "Adonai at your right hand crushes kings in the day of his anger.",
+  "translation": "⟨The⟩ Adonai ⟨is⟩ at your right hand; he shattered kings in the day of his wrath.",
   "tokens": [
     {
-      "surface": "אֲדֹנָי",
+      "surface": "אדני",
       "gloss": "Adonai"
     },
     {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "at"
     },
     {
-      "surface": "יְמִינְךָ",
+      "surface": "ימינך",
       "gloss": "your right hand"
     },
     {
-      "surface": "מָחַץ",
-      "gloss": "crushes"
+      "surface": "מחץ",
+      "gloss": "he shattered",
+      "readings": [
+        "he shattered",
+        "he strikes"
+      ],
+      "held_by": {
+        "he shattered": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "he strikes": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בְּיוֹם",
+      "surface": "ביום",
       "gloss": "in the day of"
     },
     {
-      "surface": "אַפּוֹ",
-      "gloss": "his anger",
+      "surface": "אפו",
+      "gloss": "his wrath",
       "readings": [
-        "his anger",
+        "his wrath",
         "his nose"
-      ]
+      ],
+      "held_by": {
+        "his wrath": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his nose": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מְלָכִים",
+      "surface": "מלכים",
       "gloss": "kings"
     }
   ],
-  "timestamp": "2026-09-20T15:47:08.266785505Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

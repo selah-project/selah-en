@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 39,
-  "ref": "job 38:39",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 38,
-  "translation": "Will you hunt prey for the lioness, and the life of young lions will you fill?",
+  "translation": "Will you hunt prey for the lioness, and fill the life of the young lions?",
   "tokens": [
     {
       "surface": "התצוד",
@@ -13,11 +8,7 @@
     },
     {
       "surface": "ללביא",
-      "gloss": "for the lioness",
-      "readings": [
-        "for the lioness",
-        "for the lion"
-      ]
+      "gloss": "for the lioness"
     },
     {
       "surface": "טרף",
@@ -25,7 +16,18 @@
       "readings": [
         "prey",
         "torn food"
-      ]
+      ],
+      "held_by": {
+        "prey": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "torn food": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וחית",
@@ -33,17 +35,28 @@
       "readings": [
         "and the life of",
         "and the appetite of"
-      ]
+      ],
+      "held_by": {
+        "and the life of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and the appetite of": [
+          "en4",
+          "v1"
+        ]
+      }
     },
     {
       "surface": "כפירים",
-      "gloss": "young lions"
+      "gloss": "the young lions"
     },
     {
       "surface": "תמלא",
       "gloss": "will you fill"
     }
   ],
-  "timestamp": "2026-09-20T15:53:45.270510811Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 42,
-  "ref": "psalms 78:42",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 78,
-  "translation": "They did not remember ⟨את⟩ His hand, the day that He redeemed them from the adversary,",
+  "translation": "They did not remember ⟨את⟩ his hand, the day when he ransomed them from the foe.",
   "tokens": [
     {
       "surface": "לא",
@@ -13,32 +8,41 @@
     },
     {
       "surface": "זכרו",
-      "gloss": "they remembered"
+      "gloss": "remembered"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "His hand"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ידו",
-      "gloss": "His hand"
+      "gloss": "his hand"
     },
     {
       "surface": "יום",
-      "gloss": "the day"
+      "gloss": "day"
     },
     {
       "surface": "אשר",
-      "gloss": "that"
+      "gloss": "when",
+      "readings": [
+        "when",
+        "that"
+      ],
+      "held_by": {
+        "when": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "that": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "פדם",
-      "gloss": "He redeemed",
-      "readings": [
-        "He redeemed",
-        "He ransomed"
-      ]
+      "gloss": "he ransomed them"
     },
     {
       "surface": "מני",
@@ -46,14 +50,24 @@
     },
     {
       "surface": "צר",
-      "gloss": "the adversary",
+      "gloss": "the foe",
       "readings": [
-        "the adversary",
         "the foe",
         "distress"
-      ]
+      ],
+      "held_by": {
+        "the foe": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "distress": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:45:51.874287855Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

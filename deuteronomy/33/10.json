@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "deuteronomy 33:10",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "They teach your judgments to Jacob and your torah to Israel; they set incense in your nose and whole offering upon your altar.",
+  "translation": "They shall teach your judgments to Jacob, and your Torah to Israel; they shall set incense in your nostrils, and whole burnt offering upon your altar.",
   "tokens": [
     {
       "surface": "יורו",
-      "gloss": "they teach"
+      "gloss": "they shall teach",
+      "readings": [
+        "they shall teach",
+        "they shall cast"
+      ],
+      "held_by": {
+        "they shall teach": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they shall cast": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "משפטיך",
@@ -21,7 +30,7 @@
     },
     {
       "surface": "ותורתך",
-      "gloss": "and your torah"
+      "gloss": "and your Torah"
     },
     {
       "surface": "לישראל",
@@ -29,19 +38,47 @@
     },
     {
       "surface": "ישימו",
-      "gloss": "they set"
+      "gloss": "they shall set"
     },
     {
       "surface": "קטורה",
-      "gloss": "incense"
+      "gloss": "incense",
+      "readings": [
+        "incense",
+        "smoke"
+      ],
+      "held_by": {
+        "incense": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "smoke": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "באפך",
-      "gloss": "in your nose"
+      "gloss": "in your nostrils",
+      "readings": [
+        "in your nostrils",
+        "in your nose"
+      ],
+      "held_by": {
+        "in your nostrils": [
+          "v1",
+          "v3"
+        ],
+        "in your nose": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וכליל",
-      "gloss": "and whole offering"
+      "gloss": "and whole burnt offering"
     },
     {
       "surface": "על",
@@ -52,6 +89,6 @@
       "gloss": "your altar"
     }
   ],
-  "timestamp": "2026-09-20T12:51:31.851026408Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

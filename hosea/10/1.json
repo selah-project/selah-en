@@ -1,23 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "hosea 10:1",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "A vine emptied out is Israel; fruit he makes equal to himself. According to the abundance of his fruit he multiplied for the altars; according to the goodness of his land they made good the pillars.",
+  "translation": "A vine emptying out is Israel; fruit he makes like to himself. According to the abundance of his fruit he multiplies the altars; according to the goodness of his land they make good the pillars.",
   "tokens": [
     {
       "surface": "גפן",
-      "gloss": "a vine"
+      "gloss": "a vine",
+      "readings": [
+        "a vine",
+        "an empty vine"
+      ],
+      "held_by": {
+        "a vine": [
+          "v2",
+          "en4"
+        ],
+        "an empty vine": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בוקק",
       "gloss": "emptying out",
       "readings": [
         "emptying out",
-        "poured out",
-        "luxuriant"
+        "poured out"
       ]
     },
     {
@@ -30,12 +39,20 @@
     },
     {
       "surface": "ישוה",
-      "gloss": "he makes equal",
+      "gloss": "he makes like to himself",
       "readings": [
-        "he makes equal",
-        "he sets",
-        "he resembles"
-      ]
+        "he makes like to himself",
+        "he makes equal"
+      ],
+      "held_by": {
+        "he makes like to himself": [
+          "v1",
+          "v3"
+        ],
+        "he makes equal": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לו",
@@ -47,15 +64,30 @@
     },
     {
       "surface": "לפריו",
-      "gloss": "his fruit"
+      "gloss": "of his fruit"
     },
     {
       "surface": "הרבה",
-      "gloss": "he multiplied"
+      "gloss": "he multiplies"
     },
     {
       "surface": "למזבחות",
-      "gloss": "for the altars"
+      "gloss": "the altars",
+      "readings": [
+        "the altars",
+        "for the altars"
+      ],
+      "held_by": {
+        "the altars": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for the altars": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "כטוב",
@@ -63,17 +95,35 @@
     },
     {
       "surface": "לארצו",
-      "gloss": "his land"
+      "gloss": "of his land"
     },
     {
       "surface": "היטיבו",
-      "gloss": "they made good"
+      "gloss": "they make good"
     },
     {
       "surface": "מצבות",
-      "gloss": "the pillars"
+      "gloss": "the pillars",
+      "readings": [
+        "the pillars",
+        "the standing-pillars",
+        "the sacred pillars"
+      ],
+      "held_by": {
+        "the pillars": [
+          "v2",
+          "en4"
+        ],
+        "the standing-pillars": [
+          "v1",
+          "v3"
+        ],
+        "the sacred pillars": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:50:28.236556280Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,41 +1,74 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 33,
-  "ref": "psalms 78:33",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 78,
-  "translation": "And he consumed in breath their days, and their years in terror.",
+  "translation": "And he ended in vanity their days, and their years in terror.",
   "tokens": [
     {
-      "surface": "וַיְכַל",
-      "gloss": "and he consumed"
-    },
-    {
-      "surface": "בַּהֶבֶל",
-      "gloss": "in breath",
+      "surface": "ויכל",
+      "gloss": "and he ended",
       "readings": [
-        "in breath",
-        "in vanity"
-      ]
+        "and he ended",
+        "and he consumed"
+      ],
+      "held_by": {
+        "and he ended": [
+          "v2",
+          "v3"
+        ],
+        "and he consumed": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יְמֵיהֶם",
+      "surface": "בהבל",
+      "gloss": "in vanity",
+      "readings": [
+        "in vanity",
+        "in breath"
+      ],
+      "held_by": {
+        "in vanity": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in breath": [
+          "en4"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "ימיהם",
       "gloss": "their days"
     },
     {
-      "surface": "וּשְׁנוֹתָם",
+      "surface": "ושנותם",
       "gloss": "and their years"
     },
     {
-      "surface": "בַּבֶּהָלָה",
+      "surface": "בבהלה",
       "gloss": "in terror",
       "readings": [
         "in terror",
         "in haste"
-      ]
+      ],
+      "held_by": {
+        "in terror": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in haste": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:04:22.863280344Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

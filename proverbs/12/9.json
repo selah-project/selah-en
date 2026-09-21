@@ -1,23 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "proverbs 12:9",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "Better is one despised, and a servant to him, than one making himself weighty, and lacking bread.",
+  "translation": "Better is one lightly held, and a servant to him, than one who honors himself and lacks bread.",
   "tokens": [
     {
       "surface": "טוב",
-      "gloss": "better"
+      "gloss": "Better"
     },
     {
       "surface": "נקלה",
-      "gloss": "one despised",
+      "gloss": "one lightly held",
       "readings": [
-        "one despised",
-        "one made light"
-      ]
+        "one lightly held",
+        "one despised"
+      ],
+      "held_by": {
+        "one lightly held": [
+          "v2",
+          "v3"
+        ],
+        "one despised": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ועבד",
@@ -29,11 +34,22 @@
     },
     {
       "surface": "ממתכבד",
-      "gloss": "than one making himself weighty",
+      "gloss": "one who honors himself",
       "readings": [
-        "than one making himself weighty",
-        "than one honoring himself"
-      ]
+        "one who honors himself",
+        "one making himself weighty"
+      ],
+      "held_by": {
+        "one who honors himself": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "one making himself weighty": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וחסר",
@@ -44,6 +60,6 @@
       "gloss": "bread"
     }
   ],
-  "timestamp": "2026-09-20T14:12:23.465697497Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

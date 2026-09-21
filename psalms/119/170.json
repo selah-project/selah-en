@@ -1,49 +1,106 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 170,
-  "ref": "psalms 119:170",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 119,
-  "translation": "Let my entreaty come before you; according to your utterance rescue me.",
+  "translation": "Let my supplication come before Your face; according to Your word deliver me.",
   "tokens": [
     {
-      "surface": "תָּבוֹא",
+      "surface": "תבוא",
       "gloss": "let come",
       "readings": [
         "let come",
         "comes"
-      ]
+      ],
+      "held_by": {
+        "let come": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "comes": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "תְּחִנָּתִי",
-      "gloss": "my entreaty",
+      "surface": "תחנתי",
+      "gloss": "my supplication",
       "readings": [
-        "my entreaty",
-        "my plea for favor"
-      ]
+        "my supplication",
+        "my plea",
+        "my entreaty"
+      ],
+      "held_by": {
+        "my supplication": [
+          "v2",
+          "v3"
+        ],
+        "my plea": [
+          "v1"
+        ],
+        "my entreaty": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לְפָנֶיךָ",
-      "gloss": "before you"
-    },
-    {
-      "surface": "כְּאִמְרָתְךָ",
-      "gloss": "according to your utterance",
+      "surface": "לפניך",
+      "gloss": "before Your face",
       "readings": [
-        "according to your utterance",
-        "according to your promise"
-      ]
+        "before Your face",
+        "before you"
+      ],
+      "held_by": {
+        "before Your face": [
+          "v2",
+          "v3"
+        ],
+        "before you": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "הַצִּילֵנִי",
-      "gloss": "snatch me away",
+      "surface": "כאמרתך",
+      "gloss": "according to Your word",
       "readings": [
-        "snatch me away",
-        "rescue me"
-      ]
+        "according to Your word",
+        "according to Your promise"
+      ],
+      "held_by": {
+        "according to Your word": [
+          "v1",
+          "v3"
+        ],
+        "according to Your promise": [
+          "v2",
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "הצילני",
+      "gloss": "deliver me",
+      "readings": [
+        "deliver me",
+        "rescue me",
+        "snatch me away"
+      ],
+      "held_by": {
+        "deliver me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "rescue me": [
+          "en4"
+        ],
+        "snatch me away": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:49:16.735805506Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

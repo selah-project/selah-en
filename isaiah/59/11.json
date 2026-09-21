@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "isaiah 59:11",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 59,
-  "translation": "All of us we growl like bears; and like doves — moaning, we moan. We hope for justice — and there is none; for salvation — it is far from us.",
+  "translation": "All of us roar like bears, and like doves — moaning, we moan; we wait for justice, and there is none; for salvation, it is far from us.",
   "tokens": [
     {
       "surface": "נהמה",
-      "gloss": "we growl"
+      "gloss": "we roar",
+      "readings": [
+        "we roar",
+        "we growl"
+      ],
+      "held_by": {
+        "we roar": [
+          "v1",
+          "v3"
+        ],
+        "we growl": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כדבים",
@@ -33,12 +42,21 @@
     },
     {
       "surface": "נקוה",
-      "gloss": "we hope",
+      "gloss": "we wait for",
       "readings": [
-        "we hope",
         "we wait for",
-        "we look for"
-      ]
+        "we hope for"
+      ],
+      "held_by": {
+        "we wait for": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "we hope for": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "למשפט",
@@ -46,7 +64,18 @@
       "readings": [
         "for justice",
         "for judgment"
-      ]
+      ],
+      "held_by": {
+        "for justice": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "for judgment": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ואין",
@@ -58,13 +87,13 @@
     },
     {
       "surface": "רחקה",
-      "gloss": "far"
+      "gloss": "it is far"
     },
     {
       "surface": "ממנו",
       "gloss": "from us"
     }
   ],
-  "timestamp": "2026-09-20T13:30:05.555729765Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

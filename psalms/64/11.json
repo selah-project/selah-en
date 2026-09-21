@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 64:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 64,
-  "translation": "The righteous will rejoice in YHWH and take refuge in him, and all the upright of heart will boast.",
+  "translation": "The righteous shall be glad in YHWH and take refuge in him, and all the upright of heart shall glory.",
   "tokens": [
     {
       "surface": "ישמח",
-      "gloss": "will rejoice"
+      "gloss": "shall be glad",
+      "readings": [
+        "shall be glad",
+        "shall rejoice"
+      ],
+      "held_by": {
+        "shall be glad": [
+          "v2",
+          "v3"
+        ],
+        "shall rejoice": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "צדיק",
@@ -21,7 +31,7 @@
     },
     {
       "surface": "וחסה",
-      "gloss": "and taken refuge"
+      "gloss": "and take refuge"
     },
     {
       "surface": "בו",
@@ -29,7 +39,21 @@
     },
     {
       "surface": "ויתהללו",
-      "gloss": "and will boast"
+      "gloss": "and shall glory",
+      "readings": [
+        "and shall glory",
+        "and shall boast"
+      ],
+      "held_by": {
+        "and shall glory": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and shall boast": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כל",
@@ -44,6 +68,6 @@
       "gloss": "heart"
     }
   ],
-  "timestamp": "2026-09-20T15:44:26.217560819Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

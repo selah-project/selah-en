@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "genesis 31:5",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 31,
-  "translation": "And he said to them, “I am seeing ⟨את⟩ the face of your father, that he is not toward me as yesterday ⟨the⟩ day before; and the Elohim of my father has been with me.”",
+  "translation": "And he said to them, “I see ⟨את⟩ the face of your father — that it is not toward me as yesterday, the day before — and the Elohim of my father has been with me.”",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -25,8 +20,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the face of your father"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "פני",
@@ -42,7 +36,22 @@
     },
     {
       "surface": "איננו",
-      "gloss": "he is not"
+      "gloss": "it is not",
+      "readings": [
+        "it is not",
+        "he is not"
+      ],
+      "held_by": {
+        "it is not": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "he is not": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אלי",
@@ -58,7 +67,18 @@
       "readings": [
         "the day before",
         "three days ago"
-      ]
+      ],
+      "held_by": {
+        "the day before": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "three days ago": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואלהי",
@@ -77,6 +97,6 @@
       "gloss": "with me"
     }
   ],
-  "timestamp": "2026-09-20T12:22:28.442786269Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

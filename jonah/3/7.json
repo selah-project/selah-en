@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "jonah 3:7",
-  "book": "jonah",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "And he cried out and said in Nineveh: By decree of the king and his great ones, saying: The human and the beast, the herd and the flock — let them not taste anything; let them not graze; and water let them not drink.",
+  "translation": "And he caused to be proclaimed, and he said in Nineveh by decree of the king and his great ones, saying: The man and the beast, the herd and the flock — let them not taste anything; let them not graze, and water let them not drink.",
   "tokens": [
     {
       "surface": "ויזעק",
-      "gloss": "and cried out"
+      "gloss": "and he caused to be proclaimed",
+      "readings": [
+        "and he caused to be proclaimed",
+        "and he cried out"
+      ],
+      "held_by": {
+        "and he caused to be proclaimed": [
+          "v2",
+          "v3"
+        ],
+        "and he cried out": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויאמר",
@@ -37,11 +47,22 @@
     },
     {
       "surface": "האדם",
-      "gloss": "the human",
+      "gloss": "the man",
       "readings": [
-        "the human",
+        "the man",
         "mankind"
-      ]
+      ],
+      "held_by": {
+        "the man": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "mankind": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והבהמה",
@@ -88,6 +109,6 @@
       "gloss": "let them drink"
     }
   ],
-  "timestamp": "2026-09-20T10:39:04.758062538Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

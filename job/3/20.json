@@ -1,46 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "job 3:20",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Why is light given to the weary, and life to the bitter of nefesh?",
+  "translation": "Why is light given to the sufferer, and life to the bitter of nefesh?",
   "tokens": [
     {
-      "surface": "לָמָּה",
+      "surface": "למה",
       "gloss": "Why"
     },
     {
-      "surface": "יִתֵּן",
+      "surface": "יתן",
       "gloss": "is given"
     },
     {
-      "surface": "לְעָמֵל",
-      "gloss": "to the weary"
+      "surface": "לעמל",
+      "gloss": "to the sufferer",
+      "readings": [
+        "to the sufferer",
+        "to the weary"
+      ],
+      "held_by": {
+        "to the sufferer": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to the weary": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אוֹר",
+      "surface": "אור",
       "gloss": "light"
     },
     {
-      "surface": "וְחַיִּים",
+      "surface": "וחיים",
       "gloss": "and life"
     },
     {
-      "surface": "לְמָרֵי",
+      "surface": "למרי",
       "gloss": "to the bitter of"
     },
     {
-      "surface": "נָפֶשׁ",
+      "surface": "נפש",
       "gloss": "nefesh",
       "readings": [
         "nefesh",
         "soul",
         "life"
-      ]
+      ],
+      "held_by": {
+        "nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "soul": [
+          "v1",
+          "en4"
+        ],
+        "life": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:54:09.775117947Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

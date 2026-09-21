@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "esther 9:1",
-  "book": "esther",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And in the twelfth month — it is the month Adar — on the thirteenth day of it, when the word of the king and his law drew near to be done, on the day the enemies of the Jews hoped to rule over them — and it was turned about, that the Jews, they, ruled over their haters.",
+  "translation": "And in the twelfth month — it is the month Adar — on the thirteenth day of it, when the word of the king and his law came to be done, on the day that the enemies of the Jews hoped to rule over them, it was turned to the contrary: the Jews ruled over those who hated them.",
   "tokens": [
     {
       "surface": "ובשנים",
-      "gloss": "And in the two"
+      "gloss": "And in the twelfth"
     },
     {
       "surface": "עשר",
-      "gloss": "and tenth"
+      "gloss": "-teenth"
     },
     {
       "surface": "חדש",
@@ -33,11 +28,11 @@
     },
     {
       "surface": "בשלושה",
-      "gloss": "on the three"
+      "gloss": "on the thir"
     },
     {
       "surface": "עשר",
-      "gloss": "and tenth"
+      "gloss": "-teenth"
     },
     {
       "surface": "יום",
@@ -53,15 +48,29 @@
     },
     {
       "surface": "הגיע",
-      "gloss": "drew near"
+      "gloss": "came",
+      "readings": [
+        "came",
+        "drew near"
+      ],
+      "held_by": {
+        "came": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "drew near": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "דבר",
-      "gloss": "the word of"
+      "gloss": "the word"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "of the king"
     },
     {
       "surface": "ודתו",
@@ -85,7 +94,18 @@
       "readings": [
         "hoped",
         "waited for"
-      ]
+      ],
+      "held_by": {
+        "hoped": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "waited for": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "איבי",
@@ -97,7 +117,7 @@
     },
     {
       "surface": "לשלוט",
-      "gloss": "to rule"
+      "gloss": "to rule over"
     },
     {
       "surface": "בהם",
@@ -105,11 +125,21 @@
     },
     {
       "surface": "ונהפוך",
-      "gloss": "and it was turned about",
+      "gloss": "and it was turned to the contrary",
       "readings": [
-        "and it was turned about",
+        "and it was turned to the contrary",
         "and a reversal"
-      ]
+      ],
+      "held_by": {
+        "and it was turned to the contrary": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and a reversal": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הוא",
@@ -121,7 +151,21 @@
     },
     {
       "surface": "ישלטו",
-      "gloss": "would rule"
+      "gloss": "would rule over",
+      "readings": [
+        "would rule over",
+        "should rule over"
+      ],
+      "held_by": {
+        "would rule over": [
+          "v2",
+          "en4"
+        ],
+        "should rule over": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "היהודים",
@@ -133,9 +177,23 @@
     },
     {
       "surface": "בשנאיהם",
-      "gloss": "over their haters"
+      "gloss": "over their haters",
+      "readings": [
+        "over their haters",
+        "over those who hated them"
+      ],
+      "held_by": {
+        "over their haters": [
+          "en4"
+        ],
+        "over those who hated them": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T11:01:34.266723662Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

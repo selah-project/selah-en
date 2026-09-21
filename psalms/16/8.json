@@ -1,20 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 16:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 16,
-  "translation": "I have set YHWH before me continually; for ⟨he is⟩ at my right hand, I shall not slip.",
+  "translation": "I have set YHWH before me continually; because ⟨he is⟩ at my right hand, I shall not be shaken.",
   "tokens": [
     {
       "surface": "שויתי",
       "gloss": "I have set",
       "readings": [
         "I have set",
-        "I have made equal to",
-        "I have placed"
-      ]
+        "I have made equal"
+      ],
+      "held_by": {
+        "I have set": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I have made equal": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -30,26 +35,50 @@
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "because"
     },
     {
       "surface": "מימיני",
-      "gloss": "from my right hand"
+      "gloss": "at my right hand",
+      "readings": [
+        "at my right hand",
+        "from my right hand"
+      ],
+      "held_by": {
+        "at my right hand": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "from my right hand": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בל",
-      "gloss": "not at all"
+      "gloss": "not"
     },
     {
       "surface": "אמוט",
-      "gloss": "I shall slip",
+      "gloss": "I shall be shaken",
       "readings": [
-        "I shall slip",
-        "I shall shake",
-        "I shall totter"
-      ]
+        "I shall be shaken",
+        "I shall slip"
+      ],
+      "held_by": {
+        "I shall be shaken": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I shall slip": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:43:10.268440573Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

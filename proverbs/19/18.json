@@ -1,62 +1,97 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "proverbs 19:18",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "Discipline your son, for there is hope; and toward his being put to death do not lift up your soul.",
+  "translation": "Discipline your son, for there is hope, and to ⟨make him⟩ die do not lift up your soul.",
   "tokens": [
     {
-      "surface": "יַסֵּר",
+      "surface": "יסר",
       "gloss": "Discipline"
     },
     {
-      "surface": "בִּנְךָ",
+      "surface": "בנך",
       "gloss": "your son"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "יֵשׁ",
+      "surface": "יש",
       "gloss": "there is"
     },
     {
-      "surface": "תִּקְוָה",
+      "surface": "תקוה",
       "gloss": "hope",
       "readings": [
         "hope",
         "a cord"
-      ]
+      ],
+      "held_by": {
+        "hope": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a cord": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְאֶל",
-      "gloss": "and toward"
+      "surface": "ואל",
+      "gloss": "and to",
+      "readings": [
+        "and to",
+        "but not"
+      ],
+      "held_by": {
+        "and to": [
+          "v1",
+          "en4"
+        ],
+        "but not": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "הֲמִיתוֹ",
-      "gloss": "his being put to death"
+      "surface": "המיתו",
+      "gloss": "make him die"
     },
     {
-      "surface": "אַל",
-      "gloss": "not"
+      "surface": "אל",
+      "gloss": "do not"
     },
     {
-      "surface": "תִּשָּׂא",
+      "surface": "תשא",
       "gloss": "lift up"
     },
     {
-      "surface": "נַפְשֶׁךָ",
+      "surface": "נפשך",
       "gloss": "your soul",
       "readings": [
         "your soul",
-        "your life",
-        "yourself"
-      ]
+        "your nefesh",
+        "your life"
+      ],
+      "held_by": {
+        "your soul": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "your nefesh": [
+          "v2"
+        ],
+        "your life": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:53:17.314404485Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 130:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 130,
-  "translation": "I have waited, YHWH — waited, my being; and for his word I have hoped.",
+  "translation": "I have waited for YHWH; my soul waits, and for his word I have hoped.",
   "tokens": [
     {
       "surface": "קויתי",
-      "gloss": "I have waited"
+      "gloss": "I have waited",
+      "readings": [
+        "I have waited",
+        "I wait"
+      ],
+      "held_by": {
+        "I have waited": [
+          "en4"
+        ],
+        "I wait": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -17,16 +26,29 @@
     },
     {
       "surface": "קותה",
-      "gloss": "waited"
+      "gloss": "waits"
     },
     {
       "surface": "נפשי",
-      "gloss": "my being",
+      "gloss": "my soul",
       "readings": [
-        "my being",
         "my soul",
+        "my being",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my soul": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my being": [
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולדברו",
@@ -37,6 +59,6 @@
       "gloss": "I have hoped"
     }
   ],
-  "timestamp": "2026-09-20T14:09:31.042946303Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

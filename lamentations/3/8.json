@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "lamentations 3:8",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Even when I cry out and call for help, he has stopped up my prayer.",
+  "translation": "Even when I cry out and call for help, he shuts out my prayer.",
   "tokens": [
     {
       "surface": "גם",
@@ -17,11 +12,7 @@
     },
     {
       "surface": "אזעק",
-      "gloss": "I cry out",
-      "readings": [
-        "I cry out",
-        "I call aloud"
-      ]
+      "gloss": "I cry out"
     },
     {
       "surface": "ואשוע",
@@ -29,22 +20,28 @@
     },
     {
       "surface": "שתם",
-      "gloss": "he has stopped up",
+      "gloss": "he shuts out",
       "readings": [
-        "he has stopped up",
-        "he has shut out",
-        "he keeps secret"
-      ]
+        "he shuts out",
+        "he has stopped up"
+      ],
+      "held_by": {
+        "he shuts out": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "he has stopped up": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "תפלתי",
-      "gloss": "my prayer",
-      "readings": [
-        "my prayer",
-        "my supplication"
-      ]
+      "gloss": "my prayer"
     }
   ],
-  "timestamp": "2026-09-20T10:59:41.432110226Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

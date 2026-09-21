@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "job 2:4",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "And the satan answered ⟨את⟩ YHWH and said, Skin for skin — and all that a man has he will give for his nefesh.",
+  "translation": "And the satan answered ⟨את⟩ YHWH and said, “Skin for skin — and all that to the man he will give for his life.”",
   "tokens": [
     {
       "surface": "ויען",
@@ -13,16 +8,11 @@
     },
     {
       "surface": "השטן",
-      "gloss": "the satan",
-      "readings": [
-        "the satan",
-        "the adversary"
-      ]
+      "gloss": "the satan"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "YHWH"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "יהוה",
@@ -54,7 +44,22 @@
     },
     {
       "surface": "לאיש",
-      "gloss": "a man has"
+      "gloss": "to the man",
+      "readings": [
+        "to the man",
+        "a man has"
+      ],
+      "held_by": {
+        "to the man": [
+          "v1",
+          "v3"
+        ],
+        "a man has": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יתן",
@@ -66,14 +71,27 @@
     },
     {
       "surface": "נפשו",
-      "gloss": "his nefesh",
+      "gloss": "his life",
       "readings": [
-        "his nefesh",
         "his life",
+        "his nefesh",
         "his soul"
-      ]
+      ],
+      "held_by": {
+        "his life": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "his nefesh": [
+          "en4"
+        ],
+        "his soul": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:15:59.453349452Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

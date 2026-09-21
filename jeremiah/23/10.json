@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "jeremiah 23:10",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "For the land is full of adulterers; for because of the curse the land mourns, the pastures of the wilderness have dried up. And their course has become evil, and their might is not upright.",
+  "translation": "For the land is full of adulterers; for because of the curse the land mourns, the pastures of the wilderness have dried up; and their course has become evil, and their might is not right.",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "For"
     },
     {
       "surface": "מנאפים",
-      "gloss": "of adulterers"
+      "gloss": "adulterers"
     },
     {
       "surface": "מלאה",
@@ -21,7 +16,11 @@
     },
     {
       "surface": "הארץ",
-      "gloss": "the land"
+      "gloss": "the land",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
     },
     {
       "surface": "כי",
@@ -29,7 +28,23 @@
     },
     {
       "surface": "מפני",
-      "gloss": "because of"
+      "gloss": "because of",
+      "readings": [
+        "because of",
+        "from before"
+      ],
+      "held_by": {
+        "because of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from before": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "אלה",
@@ -41,7 +56,11 @@
     },
     {
       "surface": "הארץ",
-      "gloss": "the land"
+      "gloss": "the land",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
     },
     {
       "surface": "יבשו",
@@ -49,7 +68,18 @@
       "readings": [
         "have dried up",
         "are ashamed"
-      ]
+      ],
+      "held_by": {
+        "have dried up": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "are ashamed": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נאות",
@@ -77,13 +107,27 @@
     },
     {
       "surface": "לא",
-      "gloss": "is not"
+      "gloss": "not"
     },
     {
       "surface": "כן",
-      "gloss": "upright"
+      "gloss": "right",
+      "readings": [
+        "right",
+        "upright"
+      ],
+      "held_by": {
+        "right": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "upright": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:34:56.227651605Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,57 +1,95 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 37:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 37,
-  "translation": "Let go from anger, and forsake heat; do not heat yourself — only to do harm.",
+  "translation": "Cease from anger, and forsake heat; do not heat yourself — only to do harm.",
   "tokens": [
     {
-      "surface": "הֶרֶף",
-      "gloss": "Let go"
+      "surface": "הרף",
+      "gloss": "Cease",
+      "readings": [
+        "Cease",
+        "Let go"
+      ],
+      "held_by": {
+        "Cease": [
+          "v1",
+          "v3"
+        ],
+        "Let go": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מֵאַף",
+      "surface": "מאף",
       "gloss": "from anger"
     },
     {
-      "surface": "וַעֲזֹב",
+      "surface": "ועזב",
       "gloss": "and forsake"
     },
     {
-      "surface": "חֵמָה",
+      "surface": "חמה",
       "gloss": "heat",
       "readings": [
         "heat",
-        "fury"
-      ]
+        "wrath"
+      ],
+      "held_by": {
+        "heat": [
+          "en4"
+        ],
+        "wrath": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אַל",
+      "surface": "אל",
       "gloss": "do not"
     },
     {
-      "surface": "תִּתְחַר",
+      "surface": "תתחר",
       "gloss": "heat yourself",
       "readings": [
         "heat yourself",
-        "fret"
-      ]
+        "burn with anger"
+      ],
+      "held_by": {
+        "heat yourself": [
+          "en4"
+        ],
+        "burn with anger": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אַךְ",
+      "surface": "אך",
       "gloss": "only"
     },
     {
-      "surface": "לְהָרֵעַ",
+      "surface": "להרע",
       "gloss": "to do harm",
       "readings": [
         "to do harm",
         "to do evil"
-      ]
+      ],
+      "held_by": {
+        "to do harm": [
+          "en4"
+        ],
+        "to do evil": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:00:14.095910325Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "proverbs 12:10",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "The righteous knows the nefesh of his beast, and the mercies of the wicked are cruel.",
+  "translation": "A righteous one knows the life of his beast, but the mercies of the wicked are cruel.",
   "tokens": [
     {
       "surface": "יודע",
@@ -13,20 +8,56 @@
       "readings": [
         "knows",
         "regards"
-      ]
+      ],
+      "held_by": {
+        "knows": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "regards": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "צדיק",
-      "gloss": "the righteous"
+      "gloss": "A righteous one",
+      "readings": [
+        "A righteous one",
+        "the righteous"
+      ],
+      "held_by": {
+        "A righteous one": [
+          "v2",
+          "v3"
+        ],
+        "the righteous": [
+          "en4",
+          "v1"
+        ]
+      }
     },
     {
       "surface": "נפש",
-      "gloss": "nefesh",
+      "gloss": "the life",
       "readings": [
-        "nefesh",
-        "life",
-        "soul"
-      ]
+        "the life",
+        "the soul",
+        "nefesh"
+      ],
+      "held_by": {
+        "the life": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "nefesh": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בהמתו",
@@ -34,17 +65,17 @@
     },
     {
       "surface": "ורחמי",
-      "gloss": "and the mercies of"
+      "gloss": "but the mercies"
     },
     {
       "surface": "רשעים",
-      "gloss": "the wicked"
+      "gloss": "of the wicked"
     },
     {
       "surface": "אכזרי",
       "gloss": "cruel"
     }
   ],
-  "timestamp": "2026-09-20T14:12:23.465951740Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

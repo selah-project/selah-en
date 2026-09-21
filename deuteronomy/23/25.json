@@ -1,71 +1,100 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 25,
-  "ref": "deuteronomy 23:25",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "When you come into ⟨את⟩ the vineyard of your neighbor, and you eat grapes according to your desire, your fill — but to your vessel you shall not give.",
+  "translation": "When you come into the vineyard of your neighbor, and you eat grapes according to your soul, your fill — but into your vessel you shall not give.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "When"
     },
     {
-      "surface": "תָבֹא",
+      "surface": "תבא",
       "gloss": "you come"
     },
     {
-      "surface": "בְּכֶרֶם",
+      "surface": "בכרם",
       "gloss": "into the vineyard of"
     },
     {
-      "surface": "רֵעֶךָ",
+      "surface": "רעך",
       "gloss": "your neighbor"
     },
     {
-      "surface": "וְאָכַלְתָּ",
+      "surface": "ואכלת",
       "gloss": "and you eat"
     },
     {
-      "surface": "עֲנָבִים",
+      "surface": "ענבים",
       "gloss": "grapes"
     },
     {
-      "surface": "כְּנַפְשְׁךָ",
-      "gloss": "according to your desire",
+      "surface": "כנפשך",
+      "gloss": "according to your soul",
       "readings": [
-        "according to your desire",
         "according to your soul",
-        "according to your appetite"
-      ]
+        "according to your desire"
+      ],
+      "held_by": {
+        "according to your soul": [
+          "v1",
+          "v3"
+        ],
+        "according to your desire": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "שָׂבְעֶךָ",
+      "surface": "שבעך",
       "gloss": "your fill"
     },
     {
-      "surface": "וְאֶל",
-      "gloss": "but to"
+      "surface": "ואל",
+      "gloss": "but into"
     },
     {
-      "surface": "כֶּלְיְךָ",
+      "surface": "כליך",
       "gloss": "your vessel",
       "readings": [
         "your vessel",
-        "your bag",
-        "your container"
-      ]
+        "your bag"
+      ],
+      "held_by": {
+        "your vessel": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "your bag": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "תִתֵּן",
-      "gloss": "you shall give"
+      "surface": "תתן",
+      "gloss": "you shall give",
+      "readings": [
+        "you shall give",
+        "you shall put"
+      ],
+      "held_by": {
+        "you shall give": [
+          "en4"
+        ],
+        "you shall put": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T12:49:06.994902426Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

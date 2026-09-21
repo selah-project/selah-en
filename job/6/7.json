@@ -1,46 +1,80 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "job 6:7",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "My nefesh refuses to touch them; they are like my sickening bread.",
+  "translation": "My soul refuses to touch them; they are like my sickening bread.",
   "tokens": [
     {
-      "surface": "מֵאָנָה",
+      "surface": "מאנה",
       "gloss": "refuses"
     },
     {
-      "surface": "לִנְגּוֹעַ",
+      "surface": "לנגוע",
       "gloss": "to touch"
     },
     {
-      "surface": "נַפְשִׁי",
-      "gloss": "my nefesh",
+      "surface": "נפשי",
+      "gloss": "my soul",
       "readings": [
-        "my nefesh",
         "my soul",
+        "my nefesh",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my soul": [
+          "v1",
+          "v3"
+        ],
+        "my nefesh": [
+          "v2",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "הֵמָּה",
+      "surface": "המה",
       "gloss": "they"
     },
     {
-      "surface": "כִּדְוֵי",
-      "gloss": "like the sickness of",
+      "surface": "כדוי",
+      "gloss": "like my sickening",
       "readings": [
-        "like the sickness of",
-        "like the loathsomeness of"
-      ]
+        "like my sickening",
+        "like the sickness of"
+      ],
+      "held_by": {
+        "like my sickening": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "like the sickness of": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לַחְמִי",
-      "gloss": "my bread"
+      "surface": "לחמי",
+      "gloss": "my bread",
+      "readings": [
+        "my bread",
+        "my food"
+      ],
+      "held_by": {
+        "my bread": [
+          "en4"
+        ],
+        "my food": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:51:07.216742672Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

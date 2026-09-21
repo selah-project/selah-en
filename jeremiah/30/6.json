@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "jeremiah 30:6",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "Ask, pray, and see: does a male give birth? Why do I see every man — his hands on his loins — like a woman in labor? And every face has turned to pallor.",
+  "translation": "Ask now, and see: if a male gives birth — why have I seen every man with his hands on his loins like a woman in labor, and all faces turned to paleness?",
   "tokens": [
     {
       "surface": "שאלו",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "נא",
-      "gloss": "pray"
+      "gloss": "now"
     },
     {
       "surface": "וראו",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "אם",
-      "gloss": "whether"
+      "gloss": "if"
     },
     {
       "surface": "ילד",
@@ -29,7 +24,17 @@
       "readings": [
         "gives birth",
         "begets"
-      ]
+      ],
+      "held_by": {
+        "gives birth": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "begets": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "זכר",
@@ -41,7 +46,7 @@
     },
     {
       "surface": "ראיתי",
-      "gloss": "do I see"
+      "gloss": "have I seen"
     },
     {
       "surface": "כל",
@@ -53,7 +58,18 @@
       "readings": [
         "man",
         "strong man"
-      ]
+      ],
+      "held_by": {
+        "man": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "strong man": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ידיו",
@@ -73,25 +89,36 @@
     },
     {
       "surface": "ונהפכו",
-      "gloss": "and have turned"
+      "gloss": "turned"
     },
     {
       "surface": "כל",
-      "gloss": "every"
+      "gloss": "all"
     },
     {
       "surface": "פנים",
-      "gloss": "face"
+      "gloss": "faces"
     },
     {
       "surface": "לירקון",
-      "gloss": "to pallor",
+      "gloss": "to paleness",
       "readings": [
-        "to pallor",
+        "to paleness",
         "to greenness"
-      ]
+      ],
+      "held_by": {
+        "to paleness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "to greenness": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T16:31:54.769043748Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

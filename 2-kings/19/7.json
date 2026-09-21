@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "2-kings 19:7",
-  "book": "2-kings",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "Behold, I am putting in him a spirit, and he shall hear a report, and shall return to his land; and I will cause him to fall by the sword in his land.",
+  "translation": "Behold, I ⟨am⟩ putting in him a spirit, and he shall hear a rumor, and shall return to his own land; and I shall cause him to fall by the sword in his own land.",
   "tokens": [
     {
       "surface": "הנני",
-      "gloss": "Behold me"
+      "gloss": "Behold, I"
     },
     {
       "surface": "נתן",
-      "gloss": "giving"
+      "gloss": "I ⟨am⟩ giving",
+      "readings": [
+        "I ⟨am⟩ giving",
+        "I ⟨am⟩ putting"
+      ],
+      "held_by": {
+        "I ⟨am⟩ giving": [
+          "v1",
+          "v3"
+        ],
+        "I ⟨am⟩ putting": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בו",
@@ -26,7 +35,21 @@
         "a spirit",
         "a wind",
         "a breath"
-      ]
+      ],
+      "held_by": {
+        "a spirit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a wind": [
+          "en4"
+        ],
+        "a breath": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ושמע",
@@ -34,7 +57,7 @@
     },
     {
       "surface": "שמועה",
-      "gloss": "a report"
+      "gloss": "a rumor"
     },
     {
       "surface": "ושב",
@@ -42,11 +65,11 @@
     },
     {
       "surface": "לארצו",
-      "gloss": "to his land"
+      "gloss": "to his own land"
     },
     {
       "surface": "והפלתיו",
-      "gloss": "and I will cause him to fall"
+      "gloss": "and I shall cause him to fall"
     },
     {
       "surface": "בחרב",
@@ -54,9 +77,9 @@
     },
     {
       "surface": "בארצו",
-      "gloss": "in his land"
+      "gloss": "in his own land"
     }
   ],
-  "timestamp": "2026-09-20T15:21:02.567996023Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

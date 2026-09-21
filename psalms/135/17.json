@@ -1,62 +1,92 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "psalms 135:17",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 135,
-  "translation": "Ears they have, but they do not listen; indeed, there is no breath in their mouths.",
+  "translation": "Ears to them, and they do not hear; also there is no breath in their mouths.",
   "tokens": [
     {
-      "surface": "אָזְנַיִם",
-      "gloss": "ears",
-      "readings": [
-        "ears"
-      ]
+      "surface": "אזנים",
+      "gloss": "ears"
     },
     {
-      "surface": "לָהֶם",
+      "surface": "להם",
       "gloss": "to them"
     },
     {
-      "surface": "וְלֹא",
+      "surface": "ולא",
       "gloss": "and not"
     },
     {
-      "surface": "יַאֲזִינוּ",
-      "gloss": "they listen"
+      "surface": "יאזינו",
+      "gloss": "they hear",
+      "readings": [
+        "they hear",
+        "they listen"
+      ],
+      "held_by": {
+        "they hear": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "they listen": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אַף",
-      "gloss": "indeed",
+      "surface": "אף",
+      "gloss": "also",
       "readings": [
-        "indeed",
         "also",
         "nose"
-      ]
+      ],
+      "held_by": {
+        "also": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "nose": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֵין",
-      "gloss": "there is no"
+      "surface": "אין",
+      "gloss": "there is not"
     },
     {
-      "surface": "יֶשׁ",
+      "surface": "יש",
       "gloss": "there is"
     },
     {
-      "surface": "רוּחַ",
+      "surface": "רוח",
       "gloss": "breath",
       "readings": [
         "breath",
         "wind",
         "spirit"
-      ]
+      ],
+      "held_by": {
+        "breath": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "wind": [
+          "en4"
+        ],
+        "spirit": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּפִיהֶם",
-      "gloss": "in their mouth"
+      "surface": "בפיהם",
+      "gloss": "in their mouths"
     }
   ],
-  "timestamp": "2026-09-20T16:42:04.656319174Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

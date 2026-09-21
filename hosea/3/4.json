@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "hosea 3:4",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "For many days the children of Israel shall sit — no king, and no prince, and no sacrifice, and no standing-pillar, and no ephod, and teraphim.",
+  "translation": "For many days the sons of Israel shall dwell: no king, and no prince, and no sacrifice, and no standing-pillar, and no ephod, and teraphim.",
   "tokens": [
     {
-      "surface": "כִּי",
-      "gloss": "for"
+      "surface": "כי",
+      "gloss": "For"
     },
     {
       "surface": "יָמִים",
@@ -21,16 +16,28 @@
     },
     {
       "surface": "יֵשְׁבוּ",
-      "gloss": "shall sit",
+      "gloss": "shall dwell",
       "readings": [
-        "shall sit",
         "shall dwell",
-        "shall remain"
-      ]
+        "shall sit"
+      ],
+      "held_by": {
+        "shall dwell": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "shall sit": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בְּנֵי",
-      "gloss": "the children of"
+      "gloss": "the sons of"
     },
     {
       "surface": "יִשְׂרָאֵל",
@@ -57,7 +64,7 @@
       "gloss": "and no"
     },
     {
-      "surface": "זֶבַח",
+      "surface": "זָבַח",
       "gloss": "sacrifice"
     },
     {
@@ -69,9 +76,20 @@
       "gloss": "standing-pillar",
       "readings": [
         "standing-pillar",
-        "pillar",
         "memorial stone"
-      ]
+      ],
+      "held_by": {
+        "standing-pillar": [
+          "v2",
+          "en4"
+        ],
+        "memorial stone": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וְאֵין",
@@ -86,6 +104,6 @@
       "gloss": "and teraphim"
     }
   ],
-  "timestamp": "2026-09-20T10:37:22.515623357Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

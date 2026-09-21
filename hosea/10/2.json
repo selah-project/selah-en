@@ -1,20 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "hosea 10:2",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "Smooth was their heart; now they bear guilt. He will break the neck of their altars, he will ruin their pillars.",
+  "translation": "Smooth-divided is their heart; now they will be found guilty. He will break the neck of their altars; he will demolish their standing-pillars.",
   "tokens": [
     {
       "surface": "חלק",
-      "gloss": "smooth",
+      "gloss": "smooth-divided",
       "readings": [
+        "smooth-divided",
         "smooth",
-        "divided",
-        "flattering"
-      ]
+        "divided"
+      ],
+      "held_by": {
+        "smooth-divided": [
+          "v1",
+          "v3"
+        ],
+        "smooth": [
+          "en4"
+        ],
+        "divided": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לבם",
@@ -26,12 +35,21 @@
     },
     {
       "surface": "יאשמו",
-      "gloss": "they bear guilt",
+      "gloss": "they will be found guilty",
       "readings": [
-        "they bear guilt",
-        "they are found guilty",
-        "they perish"
-      ]
+        "they will be found guilty",
+        "they will bear guilt"
+      ],
+      "held_by": {
+        "they will be found guilty": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "they will bear guilt": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "הוא",
@@ -42,8 +60,18 @@
       "gloss": "he will break the neck of",
       "readings": [
         "he will break the neck of",
-        "he will destroy"
-      ]
+        "he will break down"
+      ],
+      "held_by": {
+        "he will break the neck of": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "he will break down": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "מזבחותם",
@@ -51,17 +79,27 @@
     },
     {
       "surface": "ישדד",
-      "gloss": "he will ruin",
-      "readings": [
-        "he will ruin",
-        "he will ravage"
-      ]
+      "gloss": "he will demolish"
     },
     {
       "surface": "מצבותם",
-      "gloss": "their pillars"
+      "gloss": "their standing-pillars",
+      "readings": [
+        "their standing-pillars",
+        "their pillars"
+      ],
+      "held_by": {
+        "their standing-pillars": [
+          "v1",
+          "v3"
+        ],
+        "their pillars": [
+          "v2",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:50:28.236830151Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

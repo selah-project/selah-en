@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 28,
-  "ref": "lamentations 3:28",
-  "book": "lamentations",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Let him sit alone and be silent, for he has taken ⟨it⟩ upon him.",
+  "translation": "Let him sit alone and be silent, for ⟨it was⟩ laid upon him.",
   "tokens": [
     {
       "surface": "ישב",
-      "gloss": "Let him sit"
+      "gloss": "Let him sit",
+      "readings": [
+        "Let him sit",
+        "He shall sit"
+      ],
+      "held_by": {
+        "Let him sit": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "He shall sit": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "בדד",
@@ -25,13 +34,27 @@
     },
     {
       "surface": "נטל",
-      "gloss": "he has taken"
+      "gloss": "⟨it was⟩ laid",
+      "readings": [
+        "⟨it was⟩ laid",
+        "He laid ⟨it⟩"
+      ],
+      "held_by": {
+        "⟨it was⟩ laid": [
+          "v2"
+        ],
+        "He laid ⟨it⟩": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עליו",
       "gloss": "upon him"
     }
   ],
-  "timestamp": "2026-09-20T17:13:42.789805767Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,10 +1,5 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "song-of-songs 2:13",
-  "book": "song-of-songs",
-  "lang": "en4",
-  "chapter": 2,
   "translation": "The fig tree has ripened her unripe figs, and the vines in blossom have given fragrance. Arise, go, my companion, my beautiful one, and go for yourself.",
   "tokens": [
     {
@@ -17,11 +12,36 @@
       "readings": [
         "has ripened",
         "has spiced"
-      ]
+      ],
+      "held_by": {
+        "has ripened": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "has spiced": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "פגיה",
-      "gloss": "her unripe figs"
+      "gloss": "her unripe figs",
+      "readings": [
+        "her unripe figs",
+        "its early figs"
+      ],
+      "held_by": {
+        "her unripe figs": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "its early figs": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "והגפנים",
@@ -45,15 +65,41 @@
     },
     {
       "surface": "לכי",
-      "gloss": "go"
+      "gloss": "go",
+      "readings": [
+        "go",
+        "come away"
+      ],
+      "held_by": {
+        "go": [
+          "v1",
+          "en4"
+        ],
+        "come away": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "רעיתי",
       "gloss": "my companion",
       "readings": [
         "my companion",
-        "my friend"
-      ]
+        "my love"
+      ],
+      "held_by": {
+        "my companion": [
+          "v1",
+          "en4"
+        ],
+        "my love": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יפתי",
@@ -68,6 +114,6 @@
       "gloss": "for yourself"
     }
   ],
-  "timestamp": "2026-09-20T10:58:16.671814010Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

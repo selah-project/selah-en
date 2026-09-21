@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 31,
-  "ref": "exodus 9:31",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And the flax and the barley were struck, for the barley ⟨was⟩ אָבִיב ⟨in ear⟩, and the flax גִּבְעֹל ⟨in bloom⟩.",
+  "translation": "And the flax and the barley were struck, because the barley ⟨was⟩ in the ear and the flax ⟨was⟩ in the calyx.",
   "tokens": [
     {
       "surface": "והפשתה",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "because"
     },
     {
       "surface": "השערה",
@@ -29,12 +24,22 @@
     },
     {
       "surface": "אביב",
-      "gloss": "in ear",
+      "gloss": "in the ear",
       "readings": [
-        "in ear",
-        "Abib",
-        "green ear"
-      ]
+        "in the ear",
+        "Abib"
+      ],
+      "held_by": {
+        "in the ear": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "Abib": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והפשתה",
@@ -42,13 +47,24 @@
     },
     {
       "surface": "גבעל",
-      "gloss": "in bloom",
+      "gloss": "in the calyx",
       "readings": [
-        "in bloom",
+        "in the calyx",
         "in bud"
-      ]
+      ],
+      "held_by": {
+        "in the calyx": [
+          "v1",
+          "v3"
+        ],
+        "in bud": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T09:42:24.472750733Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

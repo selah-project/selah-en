@@ -1,41 +1,51 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "proverbs 26:5",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "Answer a fool according to his folly, lest he become wise in his own eyes.",
+  "translation": "Answer a fool according to his folly, lest he be wise in his own eyes.",
   "tokens": [
     {
-      "surface": "עֲנֶה",
+      "surface": "ענה",
       "gloss": "Answer"
     },
     {
-      "surface": "כְּסִיל",
+      "surface": "כסיל",
       "gloss": "a fool"
     },
     {
-      "surface": "כְּאִוַּלְתּוֹ",
+      "surface": "כאולתו",
       "gloss": "according to his folly"
     },
     {
-      "surface": "פֶּן",
+      "surface": "פן",
       "gloss": "lest"
     },
     {
-      "surface": "יִהְיֶה",
-      "gloss": "he become"
+      "surface": "יהיה",
+      "gloss": "he be",
+      "readings": [
+        "he be",
+        "he become"
+      ],
+      "held_by": {
+        "he be": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "he become": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חָכָם",
+      "surface": "חכם",
       "gloss": "wise"
     },
     {
-      "surface": "בְּעֵינָיו",
+      "surface": "בעיניו",
       "gloss": "in his own eyes"
     }
   ],
-  "timestamp": "2026-09-20T14:14:51.579200565Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "leviticus 2:7",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "And if your offering is an offering of the stewpan — fine flour with oil it shall be made.",
+  "translation": "And if your offering is a grain offering of the stewpan, fine flour with oil it shall be made.",
   "tokens": [
     {
       "surface": "ואם",
@@ -13,11 +8,25 @@
     },
     {
       "surface": "מנחת",
-      "gloss": "an offering of"
+      "gloss": "a grain offering"
     },
     {
       "surface": "מרחשת",
-      "gloss": "the stewpan"
+      "gloss": "of the stewpan",
+      "readings": [
+        "of the stewpan",
+        "in a deep pan"
+      ],
+      "held_by": {
+        "of the stewpan": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in a deep pan": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "קרבנך",
@@ -29,13 +38,28 @@
     },
     {
       "surface": "בשמן",
-      "gloss": "with oil"
+      "gloss": "with oil",
+      "readings": [
+        "with oil",
+        "in oil"
+      ],
+      "held_by": {
+        "with oil": [
+          "v2",
+          "en4"
+        ],
+        "in oil": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תעשה",
       "gloss": "it shall be made"
     }
   ],
-  "timestamp": "2026-09-20T09:46:41.354139921Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,41 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 65:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 65,
-  "translation": "Words of iniquities have prevailed against me; ⟨as for⟩ our transgressions — you will cover them.",
+  "translation": "Words of iniquities have prevailed against me; as for our transgressions — you will cover them.",
   "tokens": [
     {
-      "surface": "דִּבְרֵי",
+      "surface": "דברי",
       "gloss": "words of"
     },
     {
-      "surface": "עֲוֺנֹת",
+      "surface": "עונת",
       "gloss": "iniquities"
     },
     {
-      "surface": "גָּבְרוּ",
+      "surface": "גברו",
       "gloss": "have prevailed"
     },
     {
-      "surface": "מֶנִּי",
-      "gloss": "against me"
+      "surface": "מני",
+      "gloss": "against me",
+      "readings": [
+        "against me",
+        "over me"
+      ],
+      "held_by": {
+        "against me": [
+          "v1",
+          "en4"
+        ],
+        "over me": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "פְּשָׁעֵינוּ",
+      "surface": "פשעינו",
       "gloss": "our transgressions"
     },
     {
-      "surface": "אַתָּה",
+      "surface": "אתה",
       "gloss": "you"
     },
     {
-      "surface": "תְכַפְּרֵם",
-      "gloss": "you will cover them"
+      "surface": "תכפרם",
+      "gloss": "you will cover them",
+      "readings": [
+        "you will cover them",
+        "you will purge them"
+      ],
+      "held_by": {
+        "you will cover them": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you will purge them": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T16:40:25.751017114Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

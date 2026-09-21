@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "2-samuel 8:4",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And David captured from him a thousand and seven hundred horsemen, and twenty thousand men of foot; and David cut the sinew of ⟨all⟩ the chariotry, and left of it a hundred chariots.",
+  "translation": "And David captured from him a thousand and seven hundred horsemen, and twenty thousand men of foot; and David hocked ⟨את⟩ all the chariot horses, and left from them a hundred chariots.",
   "tokens": [
     {
       "surface": "וילכד",
@@ -45,15 +40,15 @@
     },
     {
       "surface": "איש",
-      "gloss": "men of"
+      "gloss": "men"
     },
     {
       "surface": "רגלי",
-      "gloss": "foot"
+      "gloss": "of foot"
     },
     {
       "surface": "ויעקר",
-      "gloss": "and cut the sinew of"
+      "gloss": "and hocked"
     },
     {
       "surface": "דוד",
@@ -61,8 +56,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "all the chariotry"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "כל",
@@ -70,11 +64,22 @@
     },
     {
       "surface": "הרכב",
-      "gloss": "the chariotry",
+      "gloss": "the chariot horses",
       "readings": [
-        "the chariotry",
-        "the chariot horses"
-      ]
+        "the chariot horses",
+        "the chariotry"
+      ],
+      "held_by": {
+        "the chariot horses": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the chariotry": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויותר",
@@ -82,7 +87,7 @@
     },
     {
       "surface": "ממנו",
-      "gloss": "of it"
+      "gloss": "from them"
     },
     {
       "surface": "מאה",
@@ -94,9 +99,20 @@
       "readings": [
         "chariots",
         "riders"
-      ]
+      ],
+      "held_by": {
+        "chariots": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "riders": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:11:41.065910982Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "isaiah 56:12",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 56,
-  "translation": "Come, let me take wine, and let us drink heavily; and tomorrow shall be like this day — great, exceeding, beyond measure.",
+  "translation": "“Come,” ⟨they say⟩, “let me take wine, and let us drink our fill of strong drink; and tomorrow shall be as this day — great, exceedingly, beyond measure.”",
   "tokens": [
     {
       "surface": "אתיו",
-      "gloss": "Come"
+      "gloss": "come"
     },
     {
       "surface": "אקחה",
@@ -21,11 +16,21 @@
     },
     {
       "surface": "ונסבאה",
-      "gloss": "and let us drink heavily",
+      "gloss": "and let us drink our fill",
       "readings": [
-        "and let us drink heavily",
-        "and let us be satiated"
-      ]
+        "and let us drink our fill",
+        "and let us drink"
+      ],
+      "held_by": {
+        "and let us drink our fill": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and let us drink": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "שכר",
@@ -53,17 +58,27 @@
     },
     {
       "surface": "יתר",
-      "gloss": "beyond",
+      "gloss": "beyond measure",
       "readings": [
-        "beyond",
+        "beyond measure",
         "exceeding"
-      ]
+      ],
+      "held_by": {
+        "beyond measure": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "exceeding": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מאד",
-      "gloss": "measure"
+      "gloss": "exceedingly"
     }
   ],
-  "timestamp": "2026-09-20T15:25:28.657275665Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

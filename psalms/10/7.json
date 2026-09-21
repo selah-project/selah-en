@@ -1,58 +1,74 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 10:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "Cursing, his mouth is full, and deceits and oppression; under his tongue are trouble and iniquity.",
+  "translation": "Cursing fills his mouth, and deceit and fraud; under his tongue are toil and iniquity.",
   "tokens": [
     {
-      "surface": "אָלָה",
+      "surface": "אלה",
       "gloss": "cursing"
     },
     {
-      "surface": "פִּיהוּ",
+      "surface": "פיהו",
       "gloss": "his mouth"
     },
     {
-      "surface": "מָלֵא",
-      "gloss": "is full"
+      "surface": "מלא",
+      "gloss": "is full of"
     },
     {
-      "surface": "וּמִרְמוֹת",
-      "gloss": "and deceits",
+      "surface": "ומרמות",
+      "gloss": "and deceit"
+    },
+    {
+      "surface": "ותך",
+      "gloss": "and fraud",
       "readings": [
-        "and deceits",
-        "and treachery"
-      ]
+        "and fraud",
+        "and oppression"
+      ],
+      "held_by": {
+        "and fraud": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and oppression": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וָתֹךְ",
-      "gloss": "and oppression"
-    },
-    {
-      "surface": "תַּחַת",
+      "surface": "תחת",
       "gloss": "under"
     },
     {
-      "surface": "לְשׁוֹנוֹ",
+      "surface": "לשונו",
       "gloss": "his tongue"
     },
     {
-      "surface": "עָמָל",
-      "gloss": "trouble",
+      "surface": "עמל",
+      "gloss": "toil",
       "readings": [
-        "trouble",
         "toil",
-        "mischief"
-      ]
+        "trouble"
+      ],
+      "held_by": {
+        "toil": [
+          "v2",
+          "v3"
+        ],
+        "trouble": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וָאָוֶן",
+      "surface": "ואון",
       "gloss": "and iniquity"
     }
   ],
-  "timestamp": "2026-09-20T10:41:37.587343262Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

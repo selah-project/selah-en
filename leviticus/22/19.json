@@ -1,42 +1,91 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "leviticus 22:19",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "for your acceptance: whole, a male — in the herd, in the flock, and in the goats.",
+  "translation": "for your acceptance ⟨it shall be⟩ unblemished, a male, of the cattle, of the sheep, or of the goats.",
   "tokens": [
     {
-      "surface": "לִרְצֹנְכֶם",
+      "surface": "לרצנכם",
       "gloss": "for your acceptance"
     },
     {
-      "surface": "תָּמִים",
-      "gloss": "whole",
+      "surface": "תמים",
+      "gloss": "unblemished",
       "readings": [
-        "whole",
-        "without blemish",
-        "complete"
-      ]
+        "unblemished",
+        "whole"
+      ],
+      "held_by": {
+        "unblemished": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "whole": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "זָכָר",
+      "surface": "זכר",
       "gloss": "a male"
     },
     {
-      "surface": "בַּבָּקָר",
-      "gloss": "in the herd"
+      "surface": "בבקר",
+      "gloss": "of the cattle",
+      "readings": [
+        "of the cattle",
+        "in the cattle"
+      ],
+      "held_by": {
+        "of the cattle": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in the cattle": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בַּכְּשָׂבִים",
-      "gloss": "in the lambs"
+      "surface": "בכשבים",
+      "gloss": "of the sheep",
+      "readings": [
+        "of the sheep",
+        "in the sheep"
+      ],
+      "held_by": {
+        "of the sheep": [
+          "v2",
+          "v3"
+        ],
+        "in the sheep": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וּבָעִזִּים",
-      "gloss": "and in the goats"
+      "surface": "ובעזים",
+      "gloss": "or of the goats",
+      "readings": [
+        "or of the goats",
+        "and in the goats"
+      ],
+      "held_by": {
+        "or of the goats": [
+          "v2",
+          "v3"
+        ],
+        "and in the goats": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T16:13:22.291467691Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

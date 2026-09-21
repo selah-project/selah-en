@@ -1,53 +1,91 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "job 31:16",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 31,
-  "translation": "If I withheld from the poor their desire, and let the eyes of the widow fail,",
+  "translation": "If I withheld from the poor their desire, or caused the eyes of the widow to fail,",
   "tokens": [
     {
-      "surface": "אִם",
+      "surface": "אם",
       "gloss": "If"
     },
     {
-      "surface": "אֶמְנַע",
-      "gloss": "I withheld"
-    },
-    {
-      "surface": "מֵחֵפֶץ",
-      "gloss": "from the desire of",
+      "surface": "אמנע",
+      "gloss": "I withheld",
       "readings": [
-        "from the desire of",
-        "from the delight of"
+        "I withheld",
+        "I debarred"
       ]
     },
     {
-      "surface": "דַּלִּים",
+      "surface": "מחפץ",
+      "gloss": "their desire",
+      "readings": [
+        "their desire",
+        "the desire of",
+        "the delight of"
+      ],
+      "held_by": {
+        "their desire": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the desire of": [
+          "en4"
+        ],
+        "the delight of": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "דלים",
       "gloss": "the poor",
       "readings": [
         "the poor",
         "the weak"
-      ]
+      ],
+      "held_by": {
+        "the poor": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the weak": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְעֵינֵי",
-      "gloss": "and the eyes of"
+      "surface": "ועיני",
+      "gloss": "or the eyes of"
     },
     {
-      "surface": "אַלְמָנָה",
+      "surface": "אלמנה",
       "gloss": "the widow"
     },
     {
-      "surface": "אֲכַלֶּה",
-      "gloss": "I let fail",
+      "surface": "אכלה",
+      "gloss": "caused to fail",
       "readings": [
-        "I let fail",
-        "I consume"
-      ]
+        "caused to fail",
+        "caused to perish",
+        "I let fail"
+      ],
+      "held_by": {
+        "caused to fail": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "caused to perish": [
+          "v1"
+        ],
+        "I let fail": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:19:53.941845161Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

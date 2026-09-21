@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "isaiah 43:6",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 43,
-  "translation": "I will say to the north, Give; and to the south, Do not hold back. Bring my sons from far off, and my daughters from the end of the earth.",
+  "translation": "I will say to the north: Give ⟨them⟩ up; and to the south: Do not hold back — bring my sons from far off, and my daughters from the end of ⟨the⟩ earth.",
   "tokens": [
     {
       "surface": "אמר",
-      "gloss": "I will say"
+      "gloss": "I will say",
+      "readings": [
+        "I will say",
+        "I say"
+      ],
+      "held_by": {
+        "I will say": [
+          "v1",
+          "en4"
+        ],
+        "I say": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "לצפון",
@@ -17,7 +26,7 @@
     },
     {
       "surface": "תני",
-      "gloss": "give"
+      "gloss": "Give ⟨them⟩ up"
     },
     {
       "surface": "ולתימן",
@@ -25,7 +34,7 @@
     },
     {
       "surface": "אל",
-      "gloss": "not"
+      "gloss": "Do not"
     },
     {
       "surface": "תכלאי",
@@ -57,9 +66,20 @@
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:04:56.997813513Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

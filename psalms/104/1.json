@@ -1,29 +1,33 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 104:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 104,
-  "translation": "Bless, my soul, ⟨את⟩ YHWH. YHWH my Elohim, you have become very great; majesty and splendor you have clothed yourself with.",
+  "translation": "Bless, O my soul, ⟨את⟩ YHWH. O YHWH my Elohim, you ⟨are⟩ very great; with splendor and majesty you are clothed.",
   "tokens": [
     {
       "surface": "ברכי",
-      "gloss": "bless"
+      "gloss": "Bless"
     },
     {
       "surface": "נפשי",
-      "gloss": "my soul",
+      "gloss": "O my soul",
       "readings": [
-        "my soul",
-        "my life",
-        "my throat"
-      ]
+        "O my soul",
+        "my life"
+      ],
+      "held_by": {
+        "O my soul": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "YHWH"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "יהוה",
@@ -31,7 +35,7 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "O YHWH"
     },
     {
       "surface": "אלהי",
@@ -39,7 +43,20 @@
     },
     {
       "surface": "גדלת",
-      "gloss": "you have become great"
+      "gloss": "you ⟨are⟩ very great",
+      "readings": [
+        "you ⟨are⟩ very great",
+        "you have become very great"
+      ],
+      "held_by": {
+        "you ⟨are⟩ very great": [
+          "v1",
+          "v3"
+        ],
+        "you have become very great": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מאד",
@@ -47,17 +64,60 @@
     },
     {
       "surface": "הוד",
-      "gloss": "majesty"
+      "gloss": "splendor",
+      "readings": [
+        "splendor",
+        "majesty"
+      ],
+      "held_by": {
+        "splendor": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "majesty": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והדר",
-      "gloss": "and splendor"
+      "gloss": "and majesty",
+      "readings": [
+        "and majesty",
+        "and splendor"
+      ],
+      "held_by": {
+        "and majesty": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and splendor": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לבשת",
-      "gloss": "you have clothed yourself with"
+      "gloss": "you are clothed",
+      "readings": [
+        "you are clothed",
+        "you have clothed yourself with"
+      ],
+      "held_by": {
+        "you are clothed": [
+          "v2",
+          "v3"
+        ],
+        "you have clothed yourself with": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:47:18.079488729Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

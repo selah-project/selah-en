@@ -1,41 +1,89 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "job 24:9",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "They snatch from the breast the fatherless, and upon the poor they seize a pledge.",
+  "translation": "They snatch the orphan from the breast, and against the poor they take a pledge.",
   "tokens": [
     {
-      "surface": "יִגְזְלוּ",
+      "surface": "יגזלו",
       "gloss": "they snatch"
     },
     {
-      "surface": "מִשֹּׁד",
-      "gloss": "from the breast",
+      "surface": "משד",
+      "gloss": "the breast",
       "readings": [
-        "from the breast",
-        "from plunder"
-      ]
+        "the breast",
+        "plunder"
+      ],
+      "held_by": {
+        "the breast": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "plunder": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יָתוֹם",
-      "gloss": "the fatherless"
+      "surface": "יתום",
+      "gloss": "the orphan",
+      "readings": [
+        "the orphan",
+        "the fatherless"
+      ],
+      "held_by": {
+        "the orphan": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the fatherless": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְעַל",
-      "gloss": "and upon"
+      "surface": "ועל",
+      "gloss": "and against"
     },
     {
-      "surface": "עָנִי",
-      "gloss": "the poor"
+      "surface": "עני",
+      "gloss": "the poor",
+      "readings": [
+        "the poor",
+        "the needy"
+      ],
+      "held_by": {
+        "the poor": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the needy": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "יַחְבֹּלוּ",
-      "gloss": "they seize a pledge"
+      "surface": "יחבלו",
+      "gloss": "they take a pledge",
+      "readings": [
+        "they take a pledge",
+        "they seize a pledge"
+      ],
+      "held_by": {
+        "they take a pledge": [
+          "v2",
+          "v3"
+        ],
+        "they seize a pledge": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:56:09.539007244Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

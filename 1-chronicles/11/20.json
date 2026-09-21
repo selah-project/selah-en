@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "1-chronicles 11:20",
-  "book": "1-chronicles",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "And Abishai, the brother of Joab — he was head of the three; and he raised up ⟨את⟩ his spear against three hundred slain, and had a name among the three.",
+  "translation": "And Abishai the brother of Joab — he was head of the three, and he brandished ⟨את⟩ his spear against three hundred slain; but he had ⟨no⟩ name among the three.",
   "tokens": [
     {
       "surface": "ואבשי",
-      "gloss": "and Abishai"
+      "gloss": "And Abishai"
     },
     {
       "surface": "אחי",
-      "gloss": "the brother of"
+      "gloss": "brother of"
     },
     {
       "surface": "יואב",
@@ -41,12 +36,28 @@
     },
     {
       "surface": "עורר",
-      "gloss": "raised up"
+      "gloss": "brandished",
+      "readings": [
+        "brandished",
+        "wielded",
+        "raised up"
+      ],
+      "held_by": {
+        "brandished": [
+          "v1",
+          "v3"
+        ],
+        "wielded": [
+          "v2"
+        ],
+        "raised up": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "his spear"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "חניתו",
@@ -69,9 +80,19 @@
       "gloss": "slain",
       "readings": [
         "slain",
-        "pierced",
-        "wounded"
-      ]
+        "pierced"
+      ],
+      "held_by": {
+        "slain": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "pierced": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולא",
@@ -79,17 +100,13 @@
     },
     {
       "surface": "שם",
-      "gloss": "had a name",
-      "readings": [
-        "had a name",
-        "was famed"
-      ]
+      "gloss": "⟨a⟩ name"
     },
     {
       "surface": "בשלושה",
       "gloss": "among the three"
     }
   ],
-  "timestamp": "2026-09-20T11:07:28.429397491Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

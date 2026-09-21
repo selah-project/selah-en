@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "exodus 8:16",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And YHWH said to Moses, Rise early in the morning and station yourself before Pharaoh; behold, he is going out to the water; and you shall say to him, Thus said YHWH: Send away my people, and let them serve me.",
+  "translation": "And YHWH said to Moses: Rise early in the morning and station yourself before Pharaoh — behold, he goes out to the water — and you shall say to him: Thus says YHWH: Send my people, and they shall serve me.",
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "And he said"
     },
     {
       "surface": "יהוה",
@@ -25,7 +20,7 @@
     },
     {
       "surface": "השכם",
-      "gloss": "rise early"
+      "gloss": "Rise early"
     },
     {
       "surface": "בבקר",
@@ -49,7 +44,21 @@
     },
     {
       "surface": "יוצא",
-      "gloss": "he is going out"
+      "gloss": "he goes out",
+      "readings": [
+        "he goes out",
+        "he is going out"
+      ],
+      "held_by": {
+        "he goes out": [
+          "v2",
+          "v3"
+        ],
+        "he is going out": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "המימה",
@@ -69,7 +78,7 @@
     },
     {
       "surface": "אמר",
-      "gloss": "said"
+      "gloss": "says"
     },
     {
       "surface": "יהוה",
@@ -77,7 +86,7 @@
     },
     {
       "surface": "שלח",
-      "gloss": "Send away"
+      "gloss": "Send"
     },
     {
       "surface": "עמי",
@@ -85,9 +94,23 @@
     },
     {
       "surface": "ויעבדני",
-      "gloss": "and let them serve me"
+      "gloss": "and they shall serve me",
+      "readings": [
+        "and they shall serve me",
+        "that they may serve me"
+      ],
+      "held_by": {
+        "and they shall serve me": [
+          "en4"
+        ],
+        "that they may serve me": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:51:52.052329154Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

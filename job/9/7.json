@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "job 9:7",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "The one saying to the sun, and it does not rise, and sealing up ⟨את⟩ the stars.",
+  "translation": "The one saying to the sun, and it does not shine, and upon the stars he seals up.",
   "tokens": [
     {
       "surface": "האמר",
-      "gloss": "the one saying"
+      "gloss": "the one saying",
+      "readings": [
+        "the one saying",
+        "the one commanding"
+      ],
+      "held_by": {
+        "the one saying": [
+          "v2",
+          "en4"
+        ],
+        "the one commanding": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לחרס",
@@ -21,11 +31,22 @@
     },
     {
       "surface": "יזרח",
-      "gloss": "it rises",
+      "gloss": "it shines",
       "readings": [
-        "it rises",
-        "it shines forth"
-      ]
+        "it shines",
+        "it rises"
+      ],
+      "held_by": {
+        "it shines": [
+          "v2",
+          "en4"
+        ],
+        "it rises": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ובעד",
@@ -40,6 +61,6 @@
       "gloss": "he seals up"
     }
   ],
-  "timestamp": "2026-09-20T17:12:44.958446298Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

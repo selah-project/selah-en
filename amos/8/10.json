@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "amos 8:10",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And I will turn your festivals into mourning, and all your songs into lamentation; and I will bring up on every loin sackcloth, and on every head baldness; and I will make it like mourning for an only one, and her end like a day of bitterness.",
+  "translation": "And I will turn your feasts into mourning, and all your songs into lamentation; and I will bring up sackcloth upon all loins, and baldness upon every head; and I will set ⟨it⟩ like mourning for an only son, and its end like a bitter day.",
   "tokens": [
     {
       "surface": "והפכתי",
-      "gloss": "and I will turn"
+      "gloss": "And I will turn"
     },
     {
       "surface": "חגיכם",
-      "gloss": "your festivals"
+      "gloss": "your feasts",
+      "readings": [
+        "your feasts",
+        "your festivals"
+      ],
+      "held_by": {
+        "your feasts": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "your festivals": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לאבל",
@@ -37,15 +46,29 @@
     },
     {
       "surface": "על",
-      "gloss": "on"
+      "gloss": "upon"
     },
     {
       "surface": "כל",
-      "gloss": "every"
+      "gloss": "all"
     },
     {
       "surface": "מתנים",
-      "gloss": "loin"
+      "gloss": "loins",
+      "readings": [
+        "loins",
+        "waist"
+      ],
+      "held_by": {
+        "loins": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "waist": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "שק",
@@ -53,7 +76,7 @@
     },
     {
       "surface": "ועל",
-      "gloss": "and on"
+      "gloss": "and upon"
     },
     {
       "surface": "כל",
@@ -69,7 +92,7 @@
     },
     {
       "surface": "ושמתיה",
-      "gloss": "and I will make it"
+      "gloss": "and I will set it"
     },
     {
       "surface": "כאבל",
@@ -77,25 +100,40 @@
     },
     {
       "surface": "יחיד",
-      "gloss": "an only one",
+      "gloss": "an only son",
       "readings": [
+        "an only son",
         "an only one",
         "a beloved one"
-      ]
+      ],
+      "held_by": {
+        "an only son": [
+          "v1",
+          "v3"
+        ],
+        "an only one": [
+          "v2",
+          "en4"
+        ],
+        "a beloved one": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ואחריתה",
-      "gloss": "and her end"
+      "gloss": "and its end"
     },
     {
       "surface": "כיום",
-      "gloss": "like a day of"
+      "gloss": "like a day"
     },
     {
       "surface": "מר",
-      "gloss": "bitterness"
+      "gloss": "bitter"
     }
   ],
-  "timestamp": "2026-09-20T10:38:36.789414176Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

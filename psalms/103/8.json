@@ -1,49 +1,81 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 103:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 103,
-  "translation": "Compassionate and gracious is YHWH, long of nostrils and great of chesed.",
+  "translation": "Compassionate and gracious is YHWH, long of nostrils and great in chesed.",
   "tokens": [
     {
-      "surface": "רַחוּם",
-      "gloss": "compassionate"
+      "surface": "רחום",
+      "gloss": "Compassionate"
     },
     {
-      "surface": "וְחַנּוּן",
+      "surface": "וחנון",
       "gloss": "and gracious"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "אֶרֶךְ",
-      "gloss": "long of"
+      "surface": "ארך",
+      "gloss": "long of",
+      "readings": [
+        "long of",
+        "slow"
+      ],
+      "held_by": {
+        "long of": [
+          "v1",
+          "en4"
+        ],
+        "slow": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אַפַּיִם",
+      "surface": "אפים",
       "gloss": "nostrils",
       "readings": [
         "nostrils",
         "anger"
-      ]
+      ],
+      "held_by": {
+        "nostrils": [
+          "v1",
+          "en4"
+        ],
+        "anger": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְרַב",
-      "gloss": "and great of"
+      "surface": "ורב",
+      "gloss": "and great"
     },
     {
-      "surface": "חֶסֶד",
+      "surface": "חסד",
       "gloss": "chesed",
       "readings": [
         "chesed",
         "steadfast love"
-      ]
+      ],
+      "held_by": {
+        "chesed": [
+          "v3",
+          "en4"
+        ],
+        "steadfast love": [
+          "v1",
+          "v2",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:46:35.210102593Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

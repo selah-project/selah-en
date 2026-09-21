@@ -1,57 +1,93 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 23:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "You arrange before me a table in front of my adversaries; you have made fat with oil my head; my cup ⟨is⟩ full.",
+  "translation": "You arrange before me ⟨a⟩ table opposite my adversaries; you anoint my head with oil; my cup ⟨is⟩ saturated.",
   "tokens": [
     {
-      "surface": "תַּעֲרֹךְ",
-      "gloss": "you arrange"
+      "surface": "תערך",
+      "gloss": "You arrange"
     },
     {
-      "surface": "לְפָנַי",
+      "surface": "לפני",
       "gloss": "before me"
     },
     {
-      "surface": "שֻׁלְחָן",
-      "gloss": "a table"
+      "surface": "שלחן",
+      "gloss": "⟨a⟩ table"
     },
     {
-      "surface": "נֶגֶד",
-      "gloss": "in front of"
+      "surface": "נגד",
+      "gloss": "opposite",
+      "readings": [
+        "opposite",
+        "in front of"
+      ],
+      "held_by": {
+        "opposite": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in front of": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "צֹרְרָי",
+      "surface": "צררי",
       "gloss": "my adversaries"
     },
     {
-      "surface": "דִּשַּׁנְתָּ",
-      "gloss": "you have made fat"
+      "surface": "דשנת",
+      "gloss": "you anoint",
+      "readings": [
+        "you anoint",
+        "you have made fat"
+      ],
+      "held_by": {
+        "you anoint": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you have made fat": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בַּשֶּׁמֶן",
+      "surface": "בשמן",
       "gloss": "with oil"
     },
     {
-      "surface": "רֹאשִׁי",
+      "surface": "ראשי",
       "gloss": "my head"
     },
     {
-      "surface": "כּוֹסִי",
+      "surface": "כוסי",
       "gloss": "my cup"
     },
     {
-      "surface": "רְוָיָה",
-      "gloss": "full",
+      "surface": "רויה",
+      "gloss": "saturated",
       "readings": [
-        "full",
+        "saturated",
         "satisfaction"
-      ]
+      ],
+      "held_by": {
+        "saturated": [
+          "v1",
+          "en4"
+        ],
+        "satisfaction": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:41:58.136213453Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,45 +1,79 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "job 20:11",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "His bones were full of his youth, and it shall lie down with him on the dust.",
+  "translation": "His bones are full of his youth, and it shall lie down with him on the dust.",
   "tokens": [
     {
-      "surface": "עַצְמוֹתָיו",
+      "surface": "עצמותיו",
       "gloss": "his bones"
     },
     {
-      "surface": "מָלְאוּ",
-      "gloss": "were full of"
+      "surface": "מלאו",
+      "gloss": "are full of",
+      "readings": [
+        "are full of",
+        "were full of"
+      ],
+      "held_by": {
+        "are full of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "were full of": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "עָלוּמוֹ",
+      "surface": "עלומו",
       "gloss": "his youth",
       "readings": [
         "his youth",
-        "his vigor"
-      ]
+        "his youthful vigor"
+      ],
+      "held_by": {
+        "his youth": [
+          "en4"
+        ],
+        "his youthful vigor": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְעִמּוֹ",
+      "surface": "ועמו",
       "gloss": "and with him"
     },
     {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "on"
     },
     {
-      "surface": "עָפָר",
+      "surface": "עפר",
       "gloss": "the dust"
     },
     {
-      "surface": "תִּשְׁכָּב",
-      "gloss": "it shall lie down"
+      "surface": "תשכב",
+      "gloss": "it shall lie down",
+      "readings": [
+        "it shall lie down",
+        "it lies down"
+      ],
+      "held_by": {
+        "it shall lie down": [
+          "v1",
+          "en4"
+        ],
+        "it lies down": [
+          "v2",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:18:24.229991140Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

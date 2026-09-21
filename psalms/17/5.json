@@ -1,42 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 17:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 17,
-  "translation": "Sustain my steps in your tracks; not at all have my feet slipped.",
+  "translation": "My steps have held fast to your paths; not at all have my feet slipped.",
   "tokens": [
     {
-      "surface": "תָּמֹךְ",
-      "gloss": "sustain"
+      "surface": "תמך",
+      "gloss": "have held fast",
+      "readings": [
+        "have held fast",
+        "sustain"
+      ],
+      "held_by": {
+        "have held fast": [
+          "v2",
+          "v3"
+        ],
+        "sustain": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֲשֻׁרַי",
+      "surface": "אשרי",
       "gloss": "my steps"
     },
     {
-      "surface": "בְּמַעְגְּלוֹתֶיךָ",
-      "gloss": "in your tracks"
+      "surface": "במעגלותיך",
+      "gloss": "to your paths",
+      "readings": [
+        "to your paths",
+        "in your paths",
+        "in your tracks"
+      ],
+      "held_by": {
+        "to your paths": [
+          "v2"
+        ],
+        "in your paths": [
+          "v1",
+          "v3"
+        ],
+        "in your tracks": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בַּל",
-      "gloss": "not at all"
+      "surface": "בל",
+      "gloss": "not"
     },
     {
-      "surface": "נָמוֹטּוּ",
-      "gloss": "they have slipped"
+      "surface": "נמוטו",
+      "gloss": "have slipped"
     },
     {
-      "surface": "פְעָמָי",
+      "surface": "פעמי",
       "gloss": "my feet",
       "readings": [
         "my feet",
         "my footsteps",
         "my times"
-      ]
+      ],
+      "held_by": {
+        "my feet": [
+          "v2",
+          "en4"
+        ],
+        "my footsteps": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my times": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:58:13.927071681Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

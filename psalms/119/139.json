@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 139,
-  "ref": "psalms 119:139",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 119,
-  "translation": "My zeal has cut me off, for my adversaries have forgotten your words.",
+  "translation": "My zeal has consumed me, because my adversaries have forgotten your words.",
   "tokens": [
     {
       "surface": "צמתתני",
-      "gloss": "has cut me off"
+      "gloss": "has consumed me",
+      "readings": [
+        "has consumed me",
+        "has cut me off"
+      ],
+      "held_by": {
+        "has consumed me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "has cut me off": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "קנאתי",
@@ -17,11 +26,36 @@
       "readings": [
         "my zeal",
         "my jealousy"
-      ]
+      ],
+      "held_by": {
+        "my zeal": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my jealousy": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "because",
+      "readings": [
+        "because",
+        "for"
+      ],
+      "held_by": {
+        "because": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "שכחו",
@@ -36,11 +70,20 @@
       "gloss": "my adversaries",
       "readings": [
         "my adversaries",
-        "my foes",
-        "my troubles"
-      ]
+        "my foes"
+      ],
+      "held_by": {
+        "my adversaries": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my foes": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:47:29.531033300Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

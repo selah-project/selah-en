@@ -1,49 +1,66 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "psalms 145:14",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 145,
-  "translation": "YHWH is propping up all the falling, and raising up all the bowed down.",
+  "translation": "YHWH upholds all the falling, and straightens all the bowed down.",
   "tokens": [
     {
-      "surface": "סוֹמֵ֣ךְ",
-      "gloss": "propping up",
-      "readings": [
-        "propping up",
-        "upholding"
-      ]
+      "surface": "סומך",
+      "gloss": "upholds"
     },
     {
-      "surface": "יְ֭הוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "לְכָל",
+      "surface": "לכל",
       "gloss": "all"
     },
     {
-      "surface": "הַנֹּפְלִ֑ים",
+      "surface": "הנפלים",
       "gloss": "the falling",
       "readings": [
         "the falling",
         "the fallen"
-      ]
+      ],
+      "held_by": {
+        "the falling": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the fallen": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְ֝זוֹקֵ֗ף",
-      "gloss": "and raising up"
+      "surface": "וזוקף",
+      "gloss": "and straightens",
+      "readings": [
+        "and straightens",
+        "and raises up"
+      ],
+      "held_by": {
+        "and straightens": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and raises up": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְכָל",
+      "surface": "לכל",
       "gloss": "all"
     },
     {
-      "surface": "הַכְּפוּפִֽים",
+      "surface": "הכפופים",
       "gloss": "the bowed down"
     }
   ],
-  "timestamp": "2026-09-20T14:10:40.445637694Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

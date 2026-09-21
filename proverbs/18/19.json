@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "proverbs 18:19",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "A brother — one transgressed against — than a city of strength; and contentions like the bar of a citadel.",
+  "translation": "A brother offended is harder to win than a strong city, and contentions are like the bars of a citadel.",
   "tokens": [
     {
       "surface": "אח",
@@ -13,12 +8,23 @@
     },
     {
       "surface": "נפשע",
-      "gloss": "one transgressed against",
+      "gloss": "offended",
       "readings": [
-        "one transgressed against",
         "offended",
-        "one trespassed against"
-      ]
+        "one transgressed against"
+      ],
+      "held_by": {
+        "offended": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "one transgressed against": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מקרית",
@@ -26,7 +32,18 @@
       "readings": [
         "than a city",
         "from a city"
-      ]
+      ],
+      "held_by": {
+        "than a city": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from a city": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עז",
@@ -34,25 +51,31 @@
     },
     {
       "surface": "ומדונים",
-      "gloss": "and contentions",
-      "readings": [
-        "and contentions",
-        "and strifes"
-      ]
+      "gloss": "and contentions"
     },
     {
       "surface": "כבריח",
-      "gloss": "like the bar",
+      "gloss": "like the bars of",
       "readings": [
-        "like the bar",
-        "like the bolt"
-      ]
+        "like the bars of",
+        "like the bar of"
+      ],
+      "held_by": {
+        "like the bars of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "like the bar of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ארמון",
       "gloss": "of a citadel"
     }
   ],
-  "timestamp": "2026-09-20T16:42:39.244343092Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

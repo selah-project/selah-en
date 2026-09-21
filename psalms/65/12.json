@@ -1,31 +1,36 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 65:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 65,
-  "translation": "You have crowned the year of your goodness, and your paths drip ⟨with⟩ fatness.",
+  "translation": "You crown the year with Your goodness, and Your wagon-tracks drip ⟨with⟩ fatness.",
   "tokens": [
     {
       "surface": "עטרת",
-      "gloss": "you have crowned"
+      "gloss": "You crown"
     },
     {
       "surface": "שנת",
-      "gloss": "the year of"
+      "gloss": "the year"
     },
     {
       "surface": "טובתך",
-      "gloss": "your goodness"
+      "gloss": "with Your goodness"
     },
     {
       "surface": "ומעגליך",
-      "gloss": "and your paths",
+      "gloss": "and Your wagon-tracks",
       "readings": [
-        "and your paths",
-        "and your tracks"
-      ]
+        "and Your wagon-tracks",
+        "and Your paths"
+      ],
+      "held_by": {
+        "and Your wagon-tracks": [
+          "v2",
+          "v3"
+        ],
+        "and Your paths": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ירעפון",
@@ -37,9 +42,20 @@
       "readings": [
         "fatness",
         "abundance"
-      ]
+      ],
+      "held_by": {
+        "fatness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "abundance": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:02:42.008127276Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

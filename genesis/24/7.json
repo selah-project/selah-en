@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "genesis 24:7",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "YHWH, Elohim of the heavens, who took me from the house of my father and from the land of my birth, and who spoke to me and who swore to me, saying, To your seed I will give ⟨את⟩ this land — he will send his messenger before you, and you shall take a woman for my son from there.",
+  "translation": "YHWH, Elohim of the heavens, who took me from the house of my father and from the land of my kindred, and who spoke to me and who swore to me, saying, To your seed I will give ⟨את⟩ the land, this one — he will send his messenger before you, and you shall take a wife for my son from there.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -41,11 +36,22 @@
     },
     {
       "surface": "מולדתי",
-      "gloss": "my birth",
+      "gloss": "my kindred",
       "readings": [
-        "my birth",
-        "my kindred"
-      ]
+        "my kindred",
+        "my birth"
+      ],
+      "held_by": {
+        "my kindred": [
+          "v1",
+          "v3"
+        ],
+        "my birth": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ואשר",
@@ -85,8 +91,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "this land"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הארץ",
@@ -110,7 +115,19 @@
       "readings": [
         "his messenger",
         "his angel"
-      ]
+      ],
+      "held_by": {
+        "his messenger": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "his angel": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לפניך",
@@ -122,7 +139,22 @@
     },
     {
       "surface": "אשה",
-      "gloss": "a woman"
+      "gloss": "a wife",
+      "readings": [
+        "a wife",
+        "a woman"
+      ],
+      "held_by": {
+        "a wife": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a woman": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לבני",
@@ -133,6 +165,6 @@
       "gloss": "from there"
     }
   ],
-  "timestamp": "2026-09-20T12:20:17.363370968Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

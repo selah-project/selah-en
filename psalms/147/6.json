@@ -1,51 +1,80 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "psalms 147:6",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 147,
-  "translation": "YHWH is lifting up the afflicted, casting down the wicked to the earth.",
+  "translation": "YHWH sustains the humble, casting down the wicked to the earth.",
   "tokens": [
     {
-      "surface": "מְעוֹדֵד",
-      "gloss": "lifting up"
-    },
-    {
-      "surface": "עֲנָוִים",
-      "gloss": "the afflicted",
+      "surface": "מעודד",
+      "gloss": "sustains",
       "readings": [
-        "the afflicted",
-        "the humble",
-        "the needy"
-      ]
+        "sustains",
+        "lifts up"
+      ],
+      "held_by": {
+        "sustains": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "lifts up": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יְהוָה",
+      "surface": "ענוים",
+      "gloss": "the humble",
+      "readings": [
+        "the humble",
+        "the afflicted"
+      ],
+      "held_by": {
+        "the humble": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the afflicted": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "מַשְׁפִּיל",
+      "surface": "משפיל",
       "gloss": "casting down"
     },
     {
-      "surface": "רְשָׁעִים",
+      "surface": "רשעים",
       "gloss": "the wicked"
     },
     {
-      "surface": "עֲדֵי",
-      "gloss": "unto"
+      "surface": "עדי",
+      "gloss": "to"
     },
     {
-      "surface": "אָרֶץ",
+      "surface": "ארץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
-        "the ground",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:10:35.008756658Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

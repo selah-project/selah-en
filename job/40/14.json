@@ -1,51 +1,99 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "job 40:14",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 40,
-  "translation": "And even I — I acknowledge you, for your right hand delivers you.",
+  "translation": "And even I will praise you, for your right hand saves you.",
   "tokens": [
     {
-      "surface": "וְגַם",
-      "gloss": "and even"
+      "surface": "וגם",
+      "gloss": "and even",
+      "readings": [
+        "and even",
+        "and also"
+      ],
+      "held_by": {
+        "and even": [
+          "en4",
+          "v2"
+        ],
+        "and also": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אֲנִי",
+      "surface": "אני",
       "gloss": "I"
     },
     {
-      "surface": "אוֹדְךָ",
-      "gloss": "I acknowledge you",
+      "surface": "אודך",
+      "gloss": "I praise you",
       "readings": [
-        "I acknowledge you",
         "I praise you",
+        "I acknowledge you",
         "I confess you"
-      ]
+      ],
+      "held_by": {
+        "I praise you": [
+          "v2",
+          "v3"
+        ],
+        "I acknowledge you": [
+          "en4"
+        ],
+        "I confess you": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "כִּי",
-      "gloss": "for"
-    },
-    {
-      "surface": "תוֹשִׁיעַ",
-      "gloss": "delivers",
+      "surface": "כי",
+      "gloss": "for",
       "readings": [
-        "delivers",
-        "gives victory to",
-        "saves"
-      ]
+        "for",
+        "that"
+      ],
+      "held_by": {
+        "for": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "that": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "לְךָ",
+      "surface": "תושע",
+      "gloss": "saves",
+      "readings": [
+        "saves",
+        "delivers",
+        "gives victory to"
+      ],
+      "held_by": {
+        "saves": [
+          "en4",
+          "v1"
+        ],
+        "delivers": [
+          "en4"
+        ],
+        "gives victory to": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "לך",
       "gloss": "you"
     },
     {
-      "surface": "יְמִינֶךָ",
+      "surface": "ימינך",
       "gloss": "your right hand"
     }
   ],
-  "timestamp": "2026-09-20T14:21:24.611074135Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

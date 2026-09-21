@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 137:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 137,
-  "translation": "Remember, YHWH, for the sons of Edom, ⟨את⟩ the day of Jerusalem — the ones saying: “Lay bare, lay bare, unto the foundation in her!”",
+  "translation": "Remember, O YHWH, against the sons of Edom ⟨את⟩ the day of Jerusalem, the ones saying: “Lay bare, lay bare, down to the foundation in her!”",
   "tokens": [
     {
       "surface": "זכר",
@@ -13,11 +8,26 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "O YHWH"
     },
     {
       "surface": "לבני",
-      "gloss": "for the sons of"
+      "gloss": "against the sons of",
+      "readings": [
+        "against the sons of",
+        "for the sons of"
+      ],
+      "held_by": {
+        "against the sons of": [
+          "v2",
+          "v3"
+        ],
+        "for the sons of": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אדום",
@@ -25,8 +35,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the day of Jerusalem"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "יום",
@@ -50,7 +59,7 @@
     },
     {
       "surface": "עד",
-      "gloss": "unto"
+      "gloss": "down to"
     },
     {
       "surface": "היסוד",
@@ -61,6 +70,6 @@
       "gloss": "in her"
     }
   ],
-  "timestamp": "2026-09-20T14:10:09.911850546Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

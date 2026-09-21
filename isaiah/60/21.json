@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 21,
-  "ref": "isaiah 60:21",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 60,
-  "translation": "And your people — all of them righteous — forever they shall inherit ⟨the⟩ earth, a shoot of My planting, the work of My hands, to be glorified.",
+  "translation": "And your people — all of them righteous — shall inherit ⟨the⟩ land forever, ⟨a⟩ shoot of my planting, the work of my hands, to be glorified.",
   "tokens": [
     {
       "surface": "וְעַמֵּךְ",
@@ -24,46 +19,92 @@
       "gloss": "forever"
     },
     {
-      "surface": "יִירְשׁוּ",
-      "gloss": "they shall inherit"
+      "surface": "יִירָשׁוּ",
+      "gloss": "they shall inherit",
+      "readings": [
+        "they shall inherit",
+        "they shall possess"
+      ],
+      "held_by": {
+        "they shall inherit": [
+          "v1",
+          "en4"
+        ],
+        "they shall possess": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "אָרֶץ",
-      "gloss": "earth",
+      "gloss": "⟨the⟩ land",
       "readings": [
-        "earth",
-        "land"
-      ]
+        "⟨the⟩ land",
+        "⟨the⟩ earth"
+      ],
+      "held_by": {
+        "⟨the⟩ land": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "⟨the⟩ earth": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "נֵצֶר",
-      "gloss": "a shoot",
+      "gloss": "⟨a⟩ shoot",
       "readings": [
-        "a shoot",
-        "a descendant"
-      ]
+        "⟨a⟩ shoot",
+        "⟨a⟩ descendant"
+      ],
+      "held_by": {
+        "⟨a⟩ shoot": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "⟨a⟩ descendant": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מַטָּעוֹ",
-      "gloss": "of My planting"
+      "gloss": "of my planting"
     },
     {
-      "surface": "מַעֲשֶׂה",
+      "surface": "מַעֲשֵׂה",
       "gloss": "the work of"
     },
     {
       "surface": "יָדַי",
-      "gloss": "My hands"
+      "gloss": "my hands"
     },
     {
       "surface": "לְהִתְפָּאֵר",
       "gloss": "to be glorified",
       "readings": [
         "to be glorified",
-        "to glorify Myself"
-      ]
+        "to be beautified"
+      ],
+      "held_by": {
+        "to be glorified": [
+          "v1",
+          "en4"
+        ],
+        "to be beautified": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:24:51.922302975Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

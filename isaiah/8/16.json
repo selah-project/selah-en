@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "isaiah 8:16",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "Bind up the testimony, seal the instruction among my disciples.",
+  "translation": "Bind up the testimony; seal the Torah among my disciples.",
   "tokens": [
     {
       "surface": "צור",
-      "gloss": "Bind up"
+      "gloss": "Bind",
+      "readings": [
+        "Bind",
+        "Bind up"
+      ],
+      "held_by": {
+        "Bind": [
+          "v1",
+          "v3"
+        ],
+        "Bind up": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "תעודה",
@@ -21,13 +30,31 @@
     },
     {
       "surface": "תורה",
-      "gloss": "the instruction"
+      "gloss": "the Torah",
+      "readings": [
+        "the Torah",
+        "the instruction",
+        "the law"
+      ],
+      "held_by": {
+        "the Torah": [
+          "v2",
+          "v3"
+        ],
+        "the instruction": [
+          "en4"
+        ],
+        "the law": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בלמדי",
       "gloss": "among my disciples"
     }
   ],
-  "timestamp": "2026-09-20T15:21:49.460244773Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

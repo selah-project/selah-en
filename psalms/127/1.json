@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 127:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 127,
-  "translation": "A song of the ascents. For Solomon. If YHWH does not build a house, in vain have its builders toiled in it; if YHWH does not guard a city, in vain has the watcher watched.",
+  "translation": "A song of ascents. Of Solomon. If YHWH does not build ⟨a⟩ house, in vain have its builders toiled in it; if YHWH does not guard ⟨a⟩ city, in vain stays awake the watchman.",
   "tokens": [
     {
       "surface": "שיר",
@@ -13,11 +8,11 @@
     },
     {
       "surface": "המעלות",
-      "gloss": "of the ascents"
+      "gloss": "of ascents"
     },
     {
       "surface": "לשלמה",
-      "gloss": "for Solomon"
+      "gloss": "of Solomon"
     },
     {
       "surface": "אם",
@@ -37,11 +32,21 @@
     },
     {
       "surface": "בית",
-      "gloss": "a house",
+      "gloss": "house",
       "readings": [
-        "a house",
-        "a household"
-      ]
+        "house",
+        "household"
+      ],
+      "held_by": {
+        "house": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "household": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "שוא",
@@ -57,7 +62,20 @@
     },
     {
       "surface": "בו",
-      "gloss": "in it"
+      "gloss": "in it",
+      "readings": [
+        "in it",
+        "at it"
+      ],
+      "held_by": {
+        "in it": [
+          "en4"
+        ],
+        "at it": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "אם",
@@ -77,7 +95,7 @@
     },
     {
       "surface": "עיר",
-      "gloss": "a city"
+      "gloss": "city"
     },
     {
       "surface": "שוא",
@@ -85,13 +103,27 @@
     },
     {
       "surface": "שקד",
-      "gloss": "has watched"
+      "gloss": "stays awake"
     },
     {
       "surface": "שומר",
-      "gloss": "the watcher"
+      "gloss": "the watchman",
+      "readings": [
+        "the watchman",
+        "the watcher"
+      ],
+      "held_by": {
+        "the watchman": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the watcher": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T16:41:29.476123417Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

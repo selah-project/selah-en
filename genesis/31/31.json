@@ -1,38 +1,47 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 31,
-  "ref": "genesis 31:31",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 31,
-  "translation": "And Jacob answered and said to Laban, Because I feared; for I said, Lest you seize ⟨את⟩ your daughters from with me.",
+  "translation": "And Jacob answered and said to Laban, “Because I was afraid, for I said, ‘Lest you take violently ⟨את⟩ your daughters from with me.’”",
   "tokens": [
     {
-      "surface": "וַיַּעַן",
+      "surface": "ויען",
       "gloss": "and answered"
     },
     {
-      "surface": "יַעֲקֹב",
+      "surface": "יעקב",
       "gloss": "Jacob"
     },
     {
-      "surface": "וַיֹּאמֶר",
+      "surface": "ויאמר",
       "gloss": "and said"
     },
     {
-      "surface": "לְלָבָן",
+      "surface": "ללבן",
       "gloss": "to Laban"
     },
     {
-      "surface": "כִּי",
-      "gloss": "because"
+      "surface": "כי",
+      "gloss": "Because"
     },
     {
       "surface": "יָרֵאתִי",
-      "gloss": "I feared"
+      "gloss": "I was afraid",
+      "readings": [
+        "I was afraid",
+        "I feared"
+      ],
+      "held_by": {
+        "I was afraid": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I feared": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
@@ -45,12 +54,26 @@
     },
     {
       "surface": "תִּגְזֹל",
-      "gloss": "you would seize"
+      "gloss": "you take violently",
+      "readings": [
+        "you take violently",
+        "you would seize"
+      ],
+      "held_by": {
+        "you take violently": [
+          "v1",
+          "v3"
+        ],
+        "you would seize": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "your daughters"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "בְּנוֹתֶיךָ",
@@ -58,9 +81,23 @@
     },
     {
       "surface": "מֵעִמִּי",
-      "gloss": "from with me"
+      "gloss": "from with me",
+      "readings": [
+        "from with me",
+        "from me"
+      ],
+      "held_by": {
+        "from with me": [
+          "en4"
+        ],
+        "from me": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T12:22:49.380707989Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

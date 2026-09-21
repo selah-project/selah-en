@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "1-samuel 17:20",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 17,
-  "translation": "And David rose early in the morning, and left ⟨את⟩ the flock with a keeper, and lifted up and went as Jesse had commanded him, and he came to the wagon-track, and the force going out to the battle line shouted in the battle.",
+  "translation": "And David rose early in the morning, and left ⟨את⟩ the flock with a keeper, and took and went as Jesse had commanded him; and he came to the wagon-circle, and the army going out to the battle-line shouted in the battle.",
   "tokens": [
     {
       "surface": "וישכם",
@@ -25,12 +20,21 @@
       "readings": [
         "and left",
         "and forsook"
-      ]
+      ],
+      "held_by": {
+        "and left": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and forsook": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the flock"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הצאן",
@@ -38,11 +42,7 @@
     },
     {
       "surface": "על",
-      "gloss": "with",
-      "readings": [
-        "with",
-        "to"
-      ]
+      "gloss": "with"
     },
     {
       "surface": "שמר",
@@ -50,11 +50,22 @@
     },
     {
       "surface": "וישא",
-      "gloss": "and lifted up",
+      "gloss": "and took",
       "readings": [
-        "and lifted up",
-        "and took up"
-      ]
+        "and took",
+        "and lifted up"
+      ],
+      "held_by": {
+        "and took": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and lifted up": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וילך",
@@ -66,7 +77,7 @@
     },
     {
       "surface": "צוהו",
-      "gloss": "he had commanded him"
+      "gloss": "had commanded him"
     },
     {
       "surface": "ישי",
@@ -74,20 +85,33 @@
     },
     {
       "surface": "ויבא",
-      "gloss": "and he came to"
+      "gloss": "and he came"
     },
     {
       "surface": "המעגלה",
-      "gloss": "the wagon-track",
+      "gloss": "the wagon-circle",
       "readings": [
-        "the wagon-track",
-        "the place of the wagons",
-        "the barricade"
-      ]
+        "the wagon-circle",
+        "the wagon-rampart",
+        "the wagon-track"
+      ],
+      "held_by": {
+        "the wagon-circle": [
+          "v1",
+          "v3"
+        ],
+        "the wagon-rampart": [
+          "v2"
+        ],
+        "the wagon-track": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והחיל",
-      "gloss": "and the force"
+      "gloss": "and the army"
     },
     {
       "surface": "היצא",
@@ -99,7 +123,7 @@
     },
     {
       "surface": "המערכה",
-      "gloss": "the battle line"
+      "gloss": "the battle-line"
     },
     {
       "surface": "והרעו",
@@ -110,6 +134,6 @@
       "gloss": "in the battle"
     }
   ],
-  "timestamp": "2026-09-20T10:09:05.271214231Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

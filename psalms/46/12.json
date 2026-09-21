@@ -1,59 +1,70 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "psalms 46:12",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 46,
-  "translation": "YHWH of hosts is with us: a high place for us is the Elohim of Jacob. Selah.",
+  "translation": "YHWH of hosts is with us; a high tower for us is the Elohim of Jacob. Selah.",
   "tokens": [
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "צְבָאוֹת",
+      "surface": "צבאות",
       "gloss": "of hosts",
       "readings": [
         "of hosts",
         "of armies"
-      ]
+      ],
+      "held_by": {
+        "of hosts": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of armies": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "עִמָּנוּ",
-      "gloss": "is with us"
+      "surface": "עמנו",
+      "gloss": "with us"
     },
     {
-      "surface": "מִשְׂגָּב",
-      "gloss": "a high place",
+      "surface": "משגב",
+      "gloss": "a high tower",
       "readings": [
-        "a high place",
-        "a stronghold",
-        "a retreat"
-      ]
+        "a high tower",
+        "a stronghold"
+      ],
+      "held_by": {
+        "a high tower": [
+          "v2",
+          "v3"
+        ],
+        "a stronghold": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לָנוּ",
+      "surface": "לנו",
       "gloss": "for us"
     },
     {
-      "surface": "אֱלֹהֵי",
-      "gloss": "the Elohim of"
+      "surface": "אלהי",
+      "gloss": "Elohim of"
     },
     {
-      "surface": "יַעֲקֹב",
+      "surface": "יעקב",
       "gloss": "Jacob"
     },
     {
-      "surface": "סֶלָה",
-      "gloss": "Selah",
-      "readings": [
-        "Selah",
-        "a lifting",
-        "a pause"
-      ]
+      "surface": "סלה",
+      "gloss": "Selah"
     }
   ],
-  "timestamp": "2026-09-20T10:43:57.253286987Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

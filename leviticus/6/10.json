@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "leviticus 6:10",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "It shall not be baked leavened; their portion I gave it ⟨את⟩ from My offerings made by fire; holy of holies it ⟨is⟩, like the sin-offering and like the guilt-offering.",
+  "translation": "It shall not be baked leavened; their portion I gave ⟨את⟩ it from My fire-offerings; holy of holies it ⟨is⟩, like the sin-offering and like the guilt-offering.",
   "tokens": [
     {
       "surface": "לא",
@@ -20,8 +15,18 @@
       "gloss": "leavened",
       "readings": [
         "leavened",
-        "fermented"
-      ]
+        "with leaven"
+      ],
+      "held_by": {
+        "leavened": [
+          "v1",
+          "en4"
+        ],
+        "with leaven": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "חלקם",
@@ -33,12 +38,25 @@
     },
     {
       "surface": "אתה",
-      "gloss": "⟨את⟩ it",
-      "marks": "מאשי"
+      "gloss": "⟨את⟩ it"
     },
     {
       "surface": "מאשי",
-      "gloss": "from My offerings made by fire"
+      "gloss": "from My fire-offerings",
+      "readings": [
+        "from My fire-offerings",
+        "from My offerings made by fire"
+      ],
+      "held_by": {
+        "from My fire-offerings": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "from My offerings made by fire": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "קדש",
@@ -50,7 +68,7 @@
     },
     {
       "surface": "הוא",
-      "gloss": "it"
+      "gloss": "it ⟨is⟩"
     },
     {
       "surface": "כחטאת",
@@ -61,6 +79,6 @@
       "gloss": "and like the guilt-offering"
     }
   ],
-  "timestamp": "2026-09-20T14:55:03.090740680Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

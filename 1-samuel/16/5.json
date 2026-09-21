@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "1-samuel 16:5",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 16,
-  "translation": "And he said, Peace. To sacrifice to YHWH I have come. Sanctify yourselves, and come with ⟨את⟩ me in the sacrifice. And he sanctified ⟨את⟩ Jesse and ⟨את⟩ his sons, and called them to the sacrifice.",
+  "translation": "And he said, Peace. To sacrifice to YHWH I have come. Consecrate yourselves, and come with ⟨את⟩ me in the sacrifice. And he consecrated ⟨את⟩ Jesse and ⟨את⟩ his sons, and he called them to the sacrifice.",
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and he said"
     },
     {
       "surface": "שלום",
@@ -17,7 +12,18 @@
       "readings": [
         "peace",
         "welfare"
-      ]
+      ],
+      "held_by": {
+        "peace": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "welfare": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לזבח",
@@ -33,7 +39,21 @@
     },
     {
       "surface": "התקדשו",
-      "gloss": "sanctify yourselves"
+      "gloss": "consecrate yourselves",
+      "readings": [
+        "consecrate yourselves",
+        "sanctify yourselves"
+      ],
+      "held_by": {
+        "consecrate yourselves": [
+          "v1",
+          "v3"
+        ],
+        "sanctify yourselves": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ובאתם",
@@ -41,21 +61,48 @@
     },
     {
       "surface": "אתי",
-      "gloss": "with ⟨את⟩ me",
-      "marks": "me"
+      "gloss": "with ⟨את⟩ me"
     },
     {
       "surface": "בזבח",
-      "gloss": "in the sacrifice"
+      "gloss": "in the sacrifice",
+      "readings": [
+        "in the sacrifice",
+        "to the sacrifice"
+      ],
+      "held_by": {
+        "in the sacrifice": [
+          "en4"
+        ],
+        "to the sacrifice": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויקדש",
-      "gloss": "and sanctified"
+      "gloss": "and he consecrated",
+      "readings": [
+        "and he consecrated",
+        "and he sanctified"
+      ],
+      "held_by": {
+        "and he consecrated": [
+          "v1",
+          "v3"
+        ],
+        "and he sanctified": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Jesse"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ישי",
@@ -63,8 +110,7 @@
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩",
-      "marks": "his sons"
+      "gloss": "and ⟨את⟩"
     },
     {
       "surface": "בניו",
@@ -72,7 +118,7 @@
     },
     {
       "surface": "ויקרא",
-      "gloss": "and called"
+      "gloss": "and he called"
     },
     {
       "surface": "להם",
@@ -83,6 +129,6 @@
       "gloss": "to the sacrifice"
     }
   ],
-  "timestamp": "2026-09-20T15:10:50.625793879Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

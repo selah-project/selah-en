@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "genesis 26:20",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "And the shepherds of Gerar strove with Isaac’s shepherds, saying, “The water is ours”; and he called the name of the well Esek, because they strove with him.",
+  "translation": "And the shepherds of Gerar strove with the shepherds of Isaac, saying, “Ours is the water”; and he called the name of the well Esek, because they strove with him.",
   "tokens": [
     {
       "surface": "ויריבו",
-      "gloss": "and strove"
+      "gloss": "and they contended",
+      "readings": [
+        "and they contended",
+        "and strove"
+      ],
+      "held_by": {
+        "and they contended": [
+          "v1",
+          "v3"
+        ],
+        "and strove": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רעי",
@@ -45,15 +54,15 @@
     },
     {
       "surface": "ויקרא",
-      "gloss": "and he called"
+      "gloss": "so he called"
     },
     {
       "surface": "שם",
-      "gloss": "the name"
+      "gloss": "the name of"
     },
     {
       "surface": "הבאר",
-      "gloss": "of the well"
+      "gloss": "the well"
     },
     {
       "surface": "עשק",
@@ -65,13 +74,27 @@
     },
     {
       "surface": "התעשקו",
-      "gloss": "they strove"
+      "gloss": "they strove",
+      "readings": [
+        "they strove",
+        "they contended"
+      ],
+      "held_by": {
+        "they strove": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they contended": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "עמו",
       "gloss": "with him"
     }
   ],
-  "timestamp": "2026-09-20T12:20:48.482973888Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

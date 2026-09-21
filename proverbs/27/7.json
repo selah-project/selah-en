@@ -1,28 +1,36 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "proverbs 27:7",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 27,
-  "translation": "A nefesh sated treads down ⟨the⟩ honeycomb, and a nefesh hungry — all bitter ⟨is⟩ sweet.",
+  "translation": "A satiated soul tramples ⟨a⟩ honeycomb, but to a hungry soul every bitter thing is sweet.",
   "tokens": [
     {
       "surface": "נפש",
-      "gloss": "A nefesh",
+      "gloss": "soul",
       "readings": [
-        "A nefesh",
-        "A soul",
-        "A throat"
-      ]
+        "soul",
+        "appetite",
+        "nefesh"
+      ],
+      "held_by": {
+        "soul": [
+          "v1",
+          "v3"
+        ],
+        "appetite": [
+          "v2"
+        ],
+        "nefesh": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שבעה",
-      "gloss": "sated"
+      "gloss": "satiated"
     },
     {
       "surface": "תבוס",
-      "gloss": "treads down"
+      "gloss": "tramples"
     },
     {
       "surface": "נפת",
@@ -30,12 +38,25 @@
     },
     {
       "surface": "ונפש",
-      "gloss": "and a nefesh",
+      "gloss": "and a soul",
       "readings": [
-        "and a nefesh",
         "and a soul",
-        "and a throat"
-      ]
+        "and an appetite",
+        "and a nefesh"
+      ],
+      "held_by": {
+        "and a soul": [
+          "v1",
+          "v3"
+        ],
+        "and an appetite": [
+          "v2"
+        ],
+        "and a nefesh": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "רעבה",
@@ -43,7 +64,7 @@
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "every"
     },
     {
       "surface": "מר",
@@ -54,6 +75,6 @@
       "gloss": "sweet"
     }
   ],
-  "timestamp": "2026-09-20T15:50:19.657793150Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

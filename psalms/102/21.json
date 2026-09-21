@@ -1,49 +1,77 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 21,
-  "ref": "psalms 102:21",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 102,
-  "translation": "To hear the groaning of the prisoner, to open ⟨את⟩ the sons of death;",
+  "translation": "To hear the groaning of the prisoner, to loose the sons of death.",
   "tokens": [
     {
-      "surface": "לִשְׁמֹעַ",
+      "surface": "לשמע",
       "gloss": "to hear"
     },
     {
-      "surface": "אֶנְקַת",
+      "surface": "אנקת",
       "gloss": "the groaning of",
       "readings": [
         "the groaning of",
         "the shrieking of"
-      ]
+      ],
+      "held_by": {
+        "the groaning of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the shrieking of": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אָסִיר",
-      "gloss": "the prisoner"
-    },
-    {
-      "surface": "לְפַתֵּחַ",
-      "gloss": "to open",
+      "surface": "אסיר",
+      "gloss": "the prisoner",
       "readings": [
-        "to open",
-        "to release"
-      ]
+        "the prisoner",
+        "the captive"
+      ],
+      "held_by": {
+        "the prisoner": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the captive": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בְּנֵי",
+      "surface": "לפתח",
+      "gloss": "to loose",
+      "readings": [
+        "to loose",
+        "to open"
+      ],
+      "held_by": {
+        "to loose": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to open": [
+          "en4"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "בני",
       "gloss": "the sons of"
     },
     {
-      "surface": "תְמוּתָה",
-      "gloss": "death",
-      "readings": [
-        "death",
-        "execution"
-      ]
+      "surface": "תמותה",
+      "gloss": "death"
     }
   ],
-  "timestamp": "2026-09-20T10:47:11.763994189Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

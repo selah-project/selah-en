@@ -1,64 +1,90 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "psalms 31:6",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 31,
   "translation": "Into your hand I commit my spirit; you have ransomed ⟨את⟩ me, YHWH, El of truth.",
   "tokens": [
     {
-      "surface": "בְּיָדְךָ",
+      "surface": "בידך",
       "gloss": "Into your hand"
     },
     {
-      "surface": "אַפְקִיד",
-      "gloss": "I commit",
-      "readings": [
-        "I commit",
-        "I entrust",
-        "I entrust for keeping"
-      ]
+      "surface": "אפקיד",
+      "gloss": "I commit"
     },
     {
-      "surface": "רוּחִי",
+      "surface": "רוחי",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
-        "my wind",
-        "my breath"
-      ]
+        "my breath",
+        "my wind"
+      ],
+      "held_by": {
+        "my spirit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my breath": [
+          "en4"
+        ],
+        "my wind": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "פָּדִיתָה",
+      "surface": "פדיתה",
       "gloss": "you have ransomed",
       "readings": [
         "you have ransomed",
         "you have redeemed"
-      ]
+      ],
+      "held_by": {
+        "you have ransomed": [
+          "v1",
+          "en4"
+        ],
+        "you have redeemed": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אוֹתִי",
-      "gloss": "⟨את⟩ me",
-      "marks": "me"
+      "surface": "אותי",
+      "gloss": "⟨את⟩ me"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "אֵל",
+      "surface": "אל",
       "gloss": "El"
     },
     {
-      "surface": "אֱמֶת",
+      "surface": "אמת",
       "gloss": "of truth",
       "readings": [
         "of truth",
         "of faithfulness"
-      ]
+      ],
+      "held_by": {
+        "of truth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of faithfulness": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:59:34.165578943Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 5:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "For there is no steadiness in their mouth; their inward part is destructions; their throat an open grave; they make smooth with their tongue.",
+  "translation": "For there is no steadfastness in his mouth; their inward part is destructions; their throat an open grave; they make smooth with their tongue.",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "For"
     },
     {
       "surface": "אין",
@@ -17,16 +12,26 @@
     },
     {
       "surface": "בפיהו",
-      "gloss": "in their mouth"
+      "gloss": "in his mouth"
     },
     {
       "surface": "נכונה",
-      "gloss": "steadiness",
+      "gloss": "steadfastness",
       "readings": [
-        "steadiness",
-        "what is firm",
+        "steadfastness",
         "faithfulness"
-      ]
+      ],
+      "held_by": {
+        "steadfastness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "faithfulness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "קרבם",
@@ -37,9 +42,18 @@
       "gloss": "destructions",
       "readings": [
         "destructions",
-        "ruin",
-        "desires"
-      ]
+        "ruin"
+      ],
+      "held_by": {
+        "destructions": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "ruin": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "קבר",
@@ -55,7 +69,7 @@
     },
     {
       "surface": "לשונם",
-      "gloss": "with their tongue"
+      "gloss": "their tongue"
     },
     {
       "surface": "יחליקון",
@@ -63,9 +77,20 @@
       "readings": [
         "they make smooth",
         "they flatter"
-      ]
+      ],
+      "held_by": {
+        "they make smooth": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they flatter": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:40:51.195174709Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

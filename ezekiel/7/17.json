@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "ezekiel 7:17",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "All the hands shall loosen, and all knees shall go — waters.",
+  "translation": "All the hands shall go slack, and all the knees shall flow away ⟨as⟩ water.",
   "tokens": [
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "All"
     },
     {
       "surface": "הידים",
@@ -17,7 +12,21 @@
     },
     {
       "surface": "תרפינה",
-      "gloss": "shall loosen"
+      "gloss": "shall go slack",
+      "readings": [
+        "shall go slack",
+        "shall loosen"
+      ],
+      "held_by": {
+        "shall go slack": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "shall loosen": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וכל",
@@ -25,21 +34,31 @@
     },
     {
       "surface": "ברכים",
-      "gloss": "knees"
+      "gloss": "the knees"
     },
     {
       "surface": "תלכנה",
-      "gloss": "shall go"
+      "gloss": "shall flow away",
+      "readings": [
+        "shall flow away",
+        "shall drip"
+      ],
+      "held_by": {
+        "shall flow away": [
+          "v1",
+          "v3"
+        ],
+        "shall drip": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מים",
-      "gloss": "waters",
-      "readings": [
-        "waters",
-        "urine"
-      ]
+      "gloss": "water"
     }
   ],
-  "timestamp": "2026-09-20T15:32:51.064975905Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

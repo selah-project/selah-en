@@ -1,41 +1,79 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "job 21:6",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "And if I remember, I am dismayed, and trembling takes hold of my flesh — horror.",
+  "translation": "And if I remember, then I ⟨am⟩ terrified, and trembling seizes my flesh — horror!",
   "tokens": [
     {
-      "surface": "וְאִם",
-      "gloss": "and if"
+      "surface": "ואם",
+      "gloss": "And if"
     },
     {
-      "surface": "זָכַרְתִּי",
+      "surface": "זכרתי",
       "gloss": "I remember"
     },
     {
-      "surface": "וְנִבְהָלְתִּי",
-      "gloss": "I am dismayed"
+      "surface": "ונבהלתי",
+      "gloss": "then I ⟨am⟩ terrified",
+      "readings": [
+        "then I ⟨am⟩ terrified",
+        "then I ⟨am⟩ dismayed"
+      ],
+      "held_by": {
+        "then I ⟨am⟩ terrified": [
+          "v1",
+          "v3"
+        ],
+        "then I ⟨am⟩ dismayed": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְאָחַז",
-      "gloss": "and takes hold of"
+      "surface": "ואחז",
+      "gloss": "and seizes",
+      "readings": [
+        "and seizes",
+        "and takes hold of"
+      ],
+      "held_by": {
+        "and seizes": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and takes hold of": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּשָׂרִי",
+      "surface": "בשרי",
       "gloss": "my flesh"
     },
     {
-      "surface": "פַּלָּצוּת",
+      "surface": "פלצות",
       "gloss": "horror",
       "readings": [
         "horror",
-        "terror"
-      ]
+        "terror",
+        "shuddering"
+      ],
+      "held_by": {
+        "horror": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "terror": [
+          "en4"
+        ],
+        "shuddering": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:55:57.603980049Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

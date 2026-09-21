@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "deuteronomy 30:1",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "And it shall be, when all these things come upon you, the blessing and the curse, which I have set before you, and you take it back to your heart among all the nations where YHWH your Elohim has driven you,",
+  "translation": "And it shall come to pass, when all these things come upon you—the blessing and the curse, which I have set before your face—and you bring back to your heart among all the nations where YHWH your Elohim has driven you there,",
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and it shall be"
+      "gloss": "And it shall come to pass",
+      "readings": [
+        "And it shall come to pass",
+        "and it shall be"
+      ],
+      "held_by": {
+        "And it shall come to pass": [
+          "v1",
+          "v3"
+        ],
+        "and it shall be": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כי",
@@ -17,7 +26,7 @@
     },
     {
       "surface": "יבאו",
-      "gloss": "come"
+      "gloss": "come upon"
     },
     {
       "surface": "עליך",
@@ -29,11 +38,21 @@
     },
     {
       "surface": "הדברים",
-      "gloss": "the things",
+      "gloss": "these things",
       "readings": [
-        "the things",
-        "the words"
-      ]
+        "these things",
+        "these words"
+      ],
+      "held_by": {
+        "these things": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "these words": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "האלה",
@@ -53,15 +72,58 @@
     },
     {
       "surface": "נתתי",
-      "gloss": "I have given"
+      "gloss": "I have set",
+      "readings": [
+        "I have set",
+        "I have given"
+      ],
+      "held_by": {
+        "I have set": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I have given": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לפניך",
-      "gloss": "before you"
+      "gloss": "before your face",
+      "readings": [
+        "before your face",
+        "before you"
+      ],
+      "held_by": {
+        "before your face": [
+          "v1",
+          "v3"
+        ],
+        "before you": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והשבת",
-      "gloss": "and you have returned"
+      "gloss": "and you bring back",
+      "readings": [
+        "and you bring back",
+        "and you return"
+      ],
+      "held_by": {
+        "and you bring back": [
+          "v2"
+        ],
+        "and you return": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אל",
@@ -100,6 +162,6 @@
       "gloss": "there"
     }
   ],
-  "timestamp": "2026-09-20T16:16:53.143283875Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

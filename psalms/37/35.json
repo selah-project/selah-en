@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 35,
-  "ref": "psalms 37:35",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 37,
-  "translation": "I have seen a wicked one, fearsome, and spreading himself like a native green tree.",
+  "translation": "I have seen a wicked tyrant, spreading himself like a native tree, flourishing.",
   "tokens": [
     {
       "surface": "ראיתי",
@@ -13,15 +8,26 @@
     },
     {
       "surface": "רשע",
-      "gloss": "a wicked one"
+      "gloss": "a wicked ⟨man⟩"
     },
     {
       "surface": "עריץ",
-      "gloss": "fearsome",
+      "gloss": "tyrant",
       "readings": [
-        "fearsome",
-        "tyrannical"
-      ]
+        "tyrant",
+        "fearsome one"
+      ],
+      "held_by": {
+        "tyrant": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "fearsome one": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ומתערה",
@@ -29,26 +35,42 @@
       "readings": [
         "and spreading himself",
         "and flourishing"
-      ]
+      ],
+      "held_by": {
+        "and spreading himself": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and flourishing": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כאזרח",
-      "gloss": "like a native",
-      "readings": [
-        "like a native",
-        "like a native tree"
-      ]
+      "gloss": "like a native tree"
     },
     {
       "surface": "רענן",
-      "gloss": "green",
+      "gloss": "flourishing",
       "readings": [
-        "green",
-        "verdant",
-        "flourishing"
-      ]
+        "flourishing",
+        "green"
+      ],
+      "held_by": {
+        "flourishing": [
+          "v2",
+          "v3"
+        ],
+        "green": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:43:23.764857731Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

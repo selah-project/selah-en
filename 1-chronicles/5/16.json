@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "1-chronicles 5:16",
-  "book": "1-chronicles",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And they dwelt in Gilead, in Bashan and in her towns, and in all the pasturelands of Sharon, upon their outlets.",
+  "translation": "And they settled in Gilead, in Bashan and in her daughters, and in all the pasturelands of Sharon, upon their outlets.",
   "tokens": [
     {
       "surface": "וישבו",
-      "gloss": "and they dwelt"
+      "gloss": "and they settled",
+      "readings": [
+        "and they settled",
+        "and they dwelt"
+      ],
+      "held_by": {
+        "and they settled": [
+          "v1",
+          "v3"
+        ],
+        "and they dwelt": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בגלעד",
@@ -21,7 +30,26 @@
     },
     {
       "surface": "ובבנתיה",
-      "gloss": "and in her towns"
+      "gloss": "her daughters",
+      "readings": [
+        "her daughters",
+        "her towns",
+        "her dependent-villages"
+      ],
+      "held_by": {
+        "her daughters": [
+          "en5"
+        ],
+        "her towns": [
+          "v2",
+          "en4"
+        ],
+        "her dependent-villages": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ובכל",
@@ -41,9 +69,24 @@
     },
     {
       "surface": "תוצאותם",
-      "gloss": "their outlets"
+      "gloss": "their outlets",
+      "readings": [
+        "their outlets",
+        "their borders"
+      ],
+      "held_by": {
+        "their outlets": [
+          "en4"
+        ],
+        "their borders": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T11:06:09.997149936Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

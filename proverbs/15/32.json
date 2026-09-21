@@ -1,19 +1,46 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 32,
-  "ref": "proverbs 15:32",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 15,
-  "translation": "Whoever casts off discipline despises his nefesh, but whoever hears reproof acquires a heart.",
+  "translation": "Whoever casts off discipline despises his own nefesh, but whoever hears reproof acquires a heart.",
   "tokens": [
     {
       "surface": "פורע",
-      "gloss": "casts off"
+      "gloss": "casts off",
+      "readings": [
+        "casts off",
+        "looses",
+        "refuses"
+      ],
+      "held_by": {
+        "casts off": [
+          "en4"
+        ],
+        "looses": [
+          "v1",
+          "v3"
+        ],
+        "refuses": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מוסר",
-      "gloss": "discipline"
+      "gloss": "discipline",
+      "readings": [
+        "discipline",
+        "instruction"
+      ],
+      "held_by": {
+        "discipline": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "instruction": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "מואס",
@@ -21,16 +48,28 @@
     },
     {
       "surface": "נפשו",
-      "gloss": "his nefesh",
+      "gloss": "his own nefesh",
       "readings": [
-        "his nefesh",
-        "his soul",
-        "his life"
-      ]
+        "his own nefesh",
+        "his own soul",
+        "his own life"
+      ],
+      "held_by": {
+        "his own nefesh": [
+          "en4"
+        ],
+        "his own soul": [
+          "v1",
+          "v3"
+        ],
+        "his own life": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "ושומע",
-      "gloss": "but whoever hears"
+      "gloss": "but hears"
     },
     {
       "surface": "תוכחת",
@@ -42,9 +81,23 @@
     },
     {
       "surface": "לב",
-      "gloss": "a heart"
+      "gloss": "a heart",
+      "readings": [
+        "a heart",
+        "understanding"
+      ],
+      "held_by": {
+        "a heart": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "understanding": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:13:33.082585753Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

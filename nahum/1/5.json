@@ -1,27 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "nahum 1:5",
-  "book": "nahum",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "Mountains quake from him, and the hills melt, and the earth is upheaved at his face, and the world and all who dwell in her.",
+  "translation": "The mountains quake from before Him, and the hills melt; and the earth lifts up ⟨itself⟩ at His presence, and the world and all dwelling in it.",
   "tokens": [
     {
       "surface": "הרים",
-      "gloss": "Mountains"
+      "gloss": "The mountains"
     },
     {
       "surface": "רעשו",
-      "gloss": "quake",
-      "readings": [
-        "quake",
-        "shake"
-      ]
+      "gloss": "quake"
     },
     {
       "surface": "ממנו",
-      "gloss": "from him"
+      "gloss": "from before Him",
+      "readings": [
+        "from before Him",
+        "because of him"
+      ],
+      "held_by": {
+        "from before Him": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "because of him": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "והגבעות",
@@ -33,12 +38,26 @@
     },
     {
       "surface": "ותשא",
-      "gloss": "and is upheaved",
+      "gloss": "and lifts up",
       "readings": [
-        "and is upheaved",
-        "and is lifted",
+        "and lifts up",
+        "and is lifted up",
         "and totters"
-      ]
+      ],
+      "held_by": {
+        "and lifts up": [
+          "v1",
+          "v3"
+        ],
+        "and is lifted up": [
+          "v2",
+          "en4"
+        ],
+        "and totters": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הארץ",
@@ -46,11 +65,22 @@
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מפניו",
-      "gloss": "at his face"
+      "gloss": "at His presence"
     },
     {
       "surface": "ותבל",
@@ -62,13 +92,13 @@
     },
     {
       "surface": "ישבי",
-      "gloss": "who dwell in"
+      "gloss": "dwelling"
     },
     {
       "surface": "בה",
-      "gloss": "her"
+      "gloss": "in it"
     }
   ],
-  "timestamp": "2026-09-20T10:39:04.554920811Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

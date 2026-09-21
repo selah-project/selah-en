@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "ezekiel 41:7",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 41,
-  "translation": "And it broadened, and it turned about, upward, upward, to the side-chambers; for the winding about of the house was upward, upward, round about, round about, to the house; therefore the breadth of the house went upward, and so the lowest went up upon the highest, to the middle.",
+  "translation": "And it widened and wound upward, upward, to the side-chambers; for the winding about of the house was upward, upward, round about, round about, to the house; therefore the breadth of the house went upward, and so the lowest went up upon the highest, to the middlemost.",
   "tokens": [
     {
       "surface": "ורחבה",
-      "gloss": "and it broadened"
+      "gloss": "and it widened"
     },
     {
       "surface": "ונסבה",
-      "gloss": "and it turned about"
+      "gloss": "and wound"
     },
     {
       "surface": "למעלה",
@@ -33,15 +28,26 @@
     },
     {
       "surface": "מוסב",
-      "gloss": "the winding about of",
+      "gloss": "the winding about",
       "readings": [
-        "the winding about of",
-        "the circuit of"
-      ]
+        "the winding about",
+        "the circuit"
+      ],
+      "held_by": {
+        "the winding about": [
+          "v1",
+          "en4"
+        ],
+        "the circuit": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הבית",
-      "gloss": "the house"
+      "gloss": "of the house"
     },
     {
       "surface": "למעלה",
@@ -65,11 +71,26 @@
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "therefore",
+      "readings": [
+        "therefore",
+        "upon"
+      ],
+      "held_by": {
+        "therefore": [
+          "v2"
+        ],
+        "upon": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "כן",
-      "gloss": "therefore"
+      "gloss": "so"
     },
     {
       "surface": "רחב",
@@ -81,7 +102,7 @@
     },
     {
       "surface": "למעלה",
-      "gloss": "went upward"
+      "gloss": "upward"
     },
     {
       "surface": "וכן",
@@ -105,9 +126,9 @@
     },
     {
       "surface": "לתיכונה",
-      "gloss": "to the middle"
+      "gloss": "to the middlemost"
     }
   ],
-  "timestamp": "2026-09-20T13:47:39.455702558Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "exodus 26:17",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "Two hands for the one board, joined fast, each woman to her sister; so you shall make for all the boards of the tabernacle.",
+  "translation": "Two tenons for the one board, set parallel, a woman to her sister; so you shall make for all the boards of the tabernacle.",
   "tokens": [
     {
       "surface": "שתי",
@@ -13,20 +8,39 @@
     },
     {
       "surface": "ידות",
-      "gloss": "hands",
+      "gloss": "tenons",
       "readings": [
-        "hands",
-        "tenons"
-      ]
+        "tenons",
+        "hands"
+      ],
+      "held_by": {
+        "tenons": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "hands": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לקרש",
       "gloss": "for the board",
       "readings": [
         "for the board",
-        "for the plank",
-        "for the frame"
-      ]
+        "for the plank"
+      ],
+      "held_by": {
+        "for the board": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "for the plank": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "האחד",
@@ -34,19 +48,45 @@
     },
     {
       "surface": "משלבת",
-      "gloss": "joined fast",
+      "gloss": "set parallel",
       "readings": [
+        "set parallel",
         "joined fast",
-        "spaced evenly"
-      ]
+        "evenly spaced"
+      ],
+      "held_by": {
+        "set parallel": [
+          "v2",
+          "v3"
+        ],
+        "joined fast": [
+          "en4"
+        ],
+        "evenly spaced": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אשה",
-      "gloss": "each",
+      "gloss": "a woman",
       "readings": [
-        "each",
-        "a woman"
-      ]
+        "a woman",
+        "each"
+      ],
+      "held_by": {
+        "a woman": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "each": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אל",
@@ -77,6 +117,6 @@
       "gloss": "the tabernacle"
     }
   ],
-  "timestamp": "2026-09-20T16:55:25.893071816Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

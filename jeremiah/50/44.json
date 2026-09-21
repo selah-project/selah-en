@@ -1,27 +1,35 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 44,
-  "ref": "jeremiah 50:44",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 50,
-  "translation": "Lo, like a lion he comes up from the pride of the Jordan to the enduring abode; for in an instant I will make them run from her — and who is a chosen one, that I may appoint against her? For who is like me? And who will appoint me? And who is this shepherd who will stand before me?",
+  "translation": "Behold, as a lion he will ascend from the swelling of the Jordan against the enduring habitation; for I will suddenly make them run from upon her; and who is a chosen man, that I may appoint against her? For who is like me? And who will appoint me? And who is this shepherd who will stand before me?",
   "tokens": [
     {
       "surface": "הנה",
-      "gloss": "lo"
+      "gloss": "Behold"
     },
     {
       "surface": "כאריה",
-      "gloss": "like a lion"
+      "gloss": "as a lion"
     },
     {
       "surface": "יעלה",
-      "gloss": "he comes up"
+      "gloss": "he will ascend"
     },
     {
       "surface": "מגאון",
-      "gloss": "from the pride"
+      "gloss": "from the swelling",
+      "readings": [
+        "from the swelling",
+        "from the pride"
+      ],
+      "held_by": {
+        "from the swelling": [
+          "v1",
+          "v3"
+        ],
+        "from the pride": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הירדן",
@@ -29,15 +37,25 @@
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "against"
     },
     {
       "surface": "נוה",
-      "gloss": "the abode",
+      "gloss": "habitation",
       "readings": [
-        "the abode",
-        "the pasture"
-      ]
+        "habitation",
+        "pasture"
+      ],
+      "held_by": {
+        "habitation": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "pasture": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "איתן",
@@ -49,11 +67,11 @@
     },
     {
       "surface": "ארגעה",
-      "gloss": "in an instant I"
+      "gloss": "I will suddenly"
     },
     {
       "surface": "ארוצם",
-      "gloss": "will make them run"
+      "gloss": "make them run"
     },
     {
       "surface": "מעליה",
@@ -65,7 +83,18 @@
     },
     {
       "surface": "בחור",
-      "gloss": "is a chosen one"
+      "gloss": "chosen man",
+      "readings": [
+        "chosen man",
+        "young man"
+      ],
+      "held_by": {
+        "chosen man": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אליה",
@@ -73,7 +102,22 @@
     },
     {
       "surface": "אפקד",
-      "gloss": "I may appoint"
+      "gloss": "I will appoint",
+      "readings": [
+        "I will appoint",
+        "I will summon"
+      ],
+      "held_by": {
+        "I will appoint": [
+          "v2",
+          "en4"
+        ],
+        "I will summon": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "כי",
@@ -85,7 +129,7 @@
     },
     {
       "surface": "כמוני",
-      "gloss": "is like me"
+      "gloss": "like me"
     },
     {
       "surface": "ומי",
@@ -93,7 +137,21 @@
     },
     {
       "surface": "יועדני",
-      "gloss": "will appoint me"
+      "gloss": "will appoint me",
+      "readings": [
+        "will appoint me",
+        "would summon me"
+      ],
+      "held_by": {
+        "will appoint me": [
+          "en4"
+        ],
+        "would summon me": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ומי",
@@ -101,7 +159,7 @@
     },
     {
       "surface": "זה",
-      "gloss": "is this"
+      "gloss": "this"
     },
     {
       "surface": "רעה",
@@ -120,6 +178,6 @@
       "gloss": "before me"
     }
   ],
-  "timestamp": "2026-09-20T13:39:50.857796538Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

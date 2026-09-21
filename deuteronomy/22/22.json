@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "deuteronomy 22:22",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "If a man is found lying with a woman married to a husband, and they die, even both of them — the man lying with the woman, and the woman — and you shall burn away the evil from Israel.",
+  "translation": "If a man is found lying with a woman married to a husband, then both of them shall die — the man lying with the woman, and the woman — and you shall burn away the evil from Israel.",
   "tokens": [
     {
       "surface": "כי",
@@ -37,7 +32,18 @@
       "readings": [
         "married to",
         "a possessor of"
-      ]
+      ],
+      "held_by": {
+        "married to": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a possessor of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בעל",
@@ -45,19 +51,45 @@
       "readings": [
         "a husband",
         "a master"
-      ]
+      ],
+      "held_by": {
+        "a husband": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a master": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ומתו",
-      "gloss": "and they die"
+      "gloss": "then they shall die"
     },
     {
       "surface": "גם",
-      "gloss": "even"
+      "gloss": "both",
+      "readings": [
+        "both",
+        "even"
+      ],
+      "held_by": {
+        "both": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "even": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שניהם",
-      "gloss": "both of them"
+      "gloss": "of them"
     },
     {
       "surface": "האיש",
@@ -65,7 +97,21 @@
     },
     {
       "surface": "השכב",
-      "gloss": "the one lying"
+      "gloss": "the one lying",
+      "readings": [
+        "the one lying",
+        "who lay"
+      ],
+      "held_by": {
+        "the one lying": [
+          "v1",
+          "en4"
+        ],
+        "who lay": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "עם",
@@ -92,6 +138,6 @@
       "gloss": "from Israel"
     }
   ],
-  "timestamp": "2026-09-20T10:01:07.690620733Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

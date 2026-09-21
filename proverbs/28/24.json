@@ -1,19 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "proverbs 28:24",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 28,
-  "translation": "One robbing his father and his mother, and saying, It is no transgression — a companion he ⟨is⟩ to a man who destroys.",
+  "translation": "He who robs his father and his mother and says, “It is no transgression” — he is a companion to a man who destroys.",
   "tokens": [
     {
       "surface": "גוזל",
-      "gloss": "one robbing",
+      "gloss": "He who robs",
       "readings": [
-        "one robbing",
-        "one plundering"
-      ]
+        "He who robs",
+        "He who plunders"
+      ],
+      "held_by": {
+        "He who robs": [
+          "v2",
+          "v3"
+        ],
+        "He who plunders": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אביו",
@@ -25,11 +30,11 @@
     },
     {
       "surface": "ואמר",
-      "gloss": "and saying"
+      "gloss": "and says"
     },
     {
       "surface": "אין",
-      "gloss": "there is no"
+      "gloss": "no"
     },
     {
       "surface": "פשע",
@@ -37,7 +42,18 @@
       "readings": [
         "transgression",
         "rebellion"
-      ]
+      ],
+      "held_by": {
+        "transgression": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "rebellion": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חבר",
@@ -53,13 +69,9 @@
     },
     {
       "surface": "משחית",
-      "gloss": "who destroys",
-      "readings": [
-        "who destroys",
-        "who ruins"
-      ]
+      "gloss": "who destroys"
     }
   ],
-  "timestamp": "2026-09-20T15:50:56.890303544Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

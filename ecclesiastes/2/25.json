@@ -1,49 +1,62 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 25,
-  "ref": "ecclesiastes 2:25",
-  "book": "ecclesiastes",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "For who can eat, and who can hurry in enjoyment, apart from me?",
+  "translation": "For who can eat, and who can feel enjoyment, apart from me?",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "מִי",
+      "surface": "מי",
       "gloss": "who"
     },
     {
-      "surface": "יֹאכַל",
+      "surface": "יאכל",
       "gloss": "can eat"
     },
     {
-      "surface": "וּמִי",
+      "surface": "ומי",
       "gloss": "and who"
     },
     {
-      "surface": "יָחוּשׁ",
-      "gloss": "can hurry",
+      "surface": "יחוש",
+      "gloss": "can feel enjoyment",
       "readings": [
-        "can hurry",
-        "can be eager in enjoyment"
-      ]
+        "can feel enjoyment",
+        "can hurry"
+      ],
+      "held_by": {
+        "can feel enjoyment": [
+          "v2",
+          "v3"
+        ],
+        "can hurry": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חוּץ",
-      "gloss": "apart",
+      "surface": "חוץ",
+      "gloss": "apart from",
       "readings": [
-        "apart",
+        "apart from",
         "outside"
-      ]
+      ],
+      "held_by": {
+        "apart from": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִמֶּֽנִּי",
+      "surface": "ממני",
       "gloss": "from me"
     }
   ],
-  "timestamp": "2026-09-20T15:54:53.882507180Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

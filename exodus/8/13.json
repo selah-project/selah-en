@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "exodus 8:13",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And they did so, and Aaron stretched out ⟨את⟩ his hand with his staff, and struck ⟨את⟩ the dust of the earth, and the gnat came to be on man and on beast; all the dust of the earth was gnats in all the land of Egypt.",
+  "translation": "And they did so, and Aaron stretched out ⟨את⟩ his hand with his staff, and struck ⟨את⟩ the dust of the earth, and the gnats came to be on man and on beast; all the dust of the earth became gnats in all the land of Egypt.",
   "tokens": [
     {
       "surface": "ויעשו",
@@ -25,8 +20,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "his hand"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ידו",
@@ -42,8 +36,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the dust of the earth"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "עפר",
@@ -55,16 +48,45 @@
     },
     {
       "surface": "ותהי",
-      "gloss": "and came to be"
+      "gloss": "and came to be",
+      "readings": [
+        "and came to be",
+        "and came"
+      ],
+      "held_by": {
+        "and came to be": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and came": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "הכנם",
-      "gloss": "the gnat",
+      "gloss": "the gnats",
       "readings": [
-        "the gnat",
         "the gnats",
+        "the gnat",
         "the lice"
-      ]
+      ],
+      "held_by": {
+        "the gnats": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the gnat": [
+          "en4"
+        ],
+        "the lice": [
+          "en4",
+          "v1"
+        ]
+      }
     },
     {
       "surface": "באדם",
@@ -88,7 +110,21 @@
     },
     {
       "surface": "היה",
-      "gloss": "was"
+      "gloss": "became",
+      "readings": [
+        "became",
+        "was"
+      ],
+      "held_by": {
+        "became": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "was": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כנים",
@@ -96,7 +132,19 @@
       "readings": [
         "gnats",
         "lice"
-      ]
+      ],
+      "held_by": {
+        "gnats": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "lice": [
+          "en4",
+          "v1"
+        ]
+      }
     },
     {
       "surface": "בכל",
@@ -111,6 +159,6 @@
       "gloss": "Egypt"
     }
   ],
-  "timestamp": "2026-09-20T14:51:52.051742788Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

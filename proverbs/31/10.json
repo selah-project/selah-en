@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "proverbs 31:10",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 31,
-  "translation": "A woman of valor — who can find? And far from pearls ⟨is⟩ her worth.",
+  "translation": "A woman of valor, who can find? And far above pearls is her price.",
   "tokens": [
     {
       "surface": "אשת",
@@ -18,7 +13,21 @@
         "valor",
         "strength",
         "wealth"
-      ]
+      ],
+      "held_by": {
+        "valor": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "strength": [
+          "en4"
+        ],
+        "wealth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מי",
@@ -30,26 +39,51 @@
     },
     {
       "surface": "ורחק",
-      "gloss": "and far"
+      "gloss": "and far above"
     },
     {
       "surface": "מפנינים",
-      "gloss": "from pearls",
+      "gloss": "pearls",
       "readings": [
-        "from pearls",
-        "from corals",
-        "from rubies"
-      ]
+        "pearls",
+        "corals",
+        "rubies"
+      ],
+      "held_by": {
+        "pearls": [
+          "v2",
+          "en4"
+        ],
+        "rubies": [
+          "v1",
+          "v3"
+        ],
+        "corals": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מכרה",
-      "gloss": "her worth",
+      "gloss": "her price",
       "readings": [
-        "her worth",
-        "her price"
-      ]
+        "her price",
+        "her worth"
+      ],
+      "held_by": {
+        "her price": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "her worth": [
+          "v2",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:15:44.242853377Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

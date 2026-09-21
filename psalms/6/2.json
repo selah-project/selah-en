@@ -1,55 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "psalms 6:2",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "YHWH, not in your anger discipline me, and not in your wrath chasten me.",
+  "translation": "YHWH, do not rebuke me in your anger, and do not discipline me in your wrath.",
   "tokens": [
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "אַל",
-      "gloss": "not"
+      "surface": "אל",
+      "gloss": "do not"
     },
     {
-      "surface": "בְּאַפְּךָ",
+      "surface": "באפך",
       "gloss": "in your anger",
       "readings": [
         "in your anger",
-        "in your nose",
         "in your nostrils"
-      ]
+      ],
+      "held_by": {
+        "in your anger": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in your nostrils": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "תוֹכִיחֵנִי",
-      "gloss": "discipline me",
+      "surface": "תוכיחני",
+      "gloss": "rebuke me",
       "readings": [
-        "discipline me",
-        "reprove me",
-        "argue me down"
-      ]
+        "rebuke me",
+        "discipline me"
+      ],
+      "held_by": {
+        "rebuke me": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "discipline me": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְאַל",
-      "gloss": "and not"
+      "surface": "ואל",
+      "gloss": "and do not"
     },
     {
-      "surface": "בַּחֲמָתְךָ",
-      "gloss": "in your wrath",
-      "readings": [
-        "in your wrath",
-        "in your heat"
-      ]
+      "surface": "בחמתך",
+      "gloss": "in your wrath"
     },
     {
-      "surface": "תְיַסְּרֵנִי",
-      "gloss": "chasten me"
+      "surface": "תיסרני",
+      "gloss": "chastise me"
     }
   ],
-  "timestamp": "2026-09-20T16:39:41.464590515Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

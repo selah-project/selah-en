@@ -1,57 +1,82 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 144:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 144,
-  "translation": "Send Your hand from on high; tear me away and rescue me from many waters, from the hand of sons of foreignness.",
+  "translation": "Send forth Your hand from on high; rend me and deliver me from many waters, from ⟨the⟩ hand of sons of foreignness.",
   "tokens": [
     {
-      "surface": "שְׁלַח",
-      "gloss": "send"
+      "surface": "שלח",
+      "gloss": "Send forth"
     },
     {
-      "surface": "יָדֶיךָ",
+      "surface": "ידיך",
       "gloss": "Your hand"
     },
     {
-      "surface": "מִמָּרוֹם",
+      "surface": "ממרום",
       "gloss": "from on high"
     },
     {
-      "surface": "פְּצֵנִי",
-      "gloss": "tear me away"
+      "surface": "פצני",
+      "gloss": "rend me",
+      "readings": [
+        "rend me",
+        "rescue me"
+      ],
+      "held_by": {
+        "rend me": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "rescue me": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְהַצִּילֵנִי",
-      "gloss": "and rescue me"
+      "surface": "והצילני",
+      "gloss": "and deliver me"
     },
     {
-      "surface": "מִמַּיִם",
+      "surface": "ממים",
       "gloss": "from waters"
     },
     {
-      "surface": "רַבִּים",
+      "surface": "רבים",
       "gloss": "many"
     },
     {
-      "surface": "מִיַּד",
-      "gloss": "from the hand of"
+      "surface": "מיד",
+      "gloss": "from ⟨the⟩ hand"
     },
     {
-      "surface": "בְּנֵי",
-      "gloss": "sons of"
+      "surface": "בני",
+      "gloss": "of sons"
     },
     {
-      "surface": "נֵכָר",
+      "surface": "נכר",
       "gloss": "foreignness",
       "readings": [
         "foreignness",
+        "the foreigner",
         "a foreign land"
-      ]
+      ],
+      "held_by": {
+        "foreignness": [
+          "v1",
+          "en4"
+        ],
+        "the foreigner": [
+          "v2",
+          "v3"
+        ],
+        "a foreign land": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:10:26.193265465Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,27 +1,34 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "2-chronicles 13:20",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "And Jeroboam did not hold strength again in the days of Abijah, and YHWH struck him, and he died.",
+  "translation": "And Jeroboam did not recover strength again in the days of Abijah; and YHWH struck him, and he died.",
   "tokens": [
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "And...not"
     },
     {
       "surface": "עצר",
-      "gloss": "he held"
+      "gloss": "recover",
+      "readings": [
+        "recover",
+        "hold back",
+        "he held"
+      ],
+      "held_by": {
+        "recover": [
+          "v1",
+          "v3"
+        ],
+        "hold back": [],
+        "he held": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "כח",
-      "gloss": "strength",
-      "readings": [
-        "strength",
-        "power"
-      ]
+      "gloss": "strength"
     },
     {
       "surface": "ירבעם",
@@ -41,11 +48,7 @@
     },
     {
       "surface": "ויגפהו",
-      "gloss": "and struck him",
-      "readings": [
-        "and struck him",
-        "and smote him"
-      ]
+      "gloss": "and struck him"
     },
     {
       "surface": "יהוה",
@@ -56,6 +59,6 @@
       "gloss": "and he died"
     }
   ],
-  "timestamp": "2026-09-20T16:50:07.226669523Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

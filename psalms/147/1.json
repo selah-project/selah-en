@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 147:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 147,
-  "translation": "Praise Yah, for good is zimmerah to our Elohim, for pleasant, beautiful, praise.",
+  "translation": "Praise Yah! For ⟨it is⟩ good to sing praise to our Elohim; for ⟨it is⟩ pleasant, and praise is fitting.",
   "tokens": [
     {
       "surface": "הללו",
-      "gloss": "praise"
+      "gloss": "Praise"
     },
     {
       "surface": "יה",
@@ -17,7 +12,7 @@
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "For"
     },
     {
       "surface": "טוב",
@@ -25,11 +20,22 @@
     },
     {
       "surface": "זמרה",
-      "gloss": "sing",
+      "gloss": "to sing praise",
       "readings": [
-        "sing",
-        "play music"
-      ]
+        "to sing praise",
+        "to play music"
+      ],
+      "held_by": {
+        "to sing praise": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "to play music": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהינו",
@@ -45,13 +51,28 @@
     },
     {
       "surface": "נאוה",
-      "gloss": "beautiful"
+      "gloss": "fitting",
+      "readings": [
+        "fitting",
+        "lovely"
+      ],
+      "held_by": {
+        "fitting": [
+          "v2",
+          "v3"
+        ],
+        "lovely": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תהלה",
       "gloss": "praise"
     }
   ],
-  "timestamp": "2026-09-20T15:48:16.263311663Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "ezekiel 8:2",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "And I looked, and behold, a likeness like the appearance of fire — from the appearance of his loins and downward, fire; and from his loins and upward, like the appearance of brightness, like the look of the chashmal.",
+  "translation": "Then I looked, and behold, a likeness like the appearance of fire — from the appearance of his loins and downward, fire; and from his loins and upward, like the appearance of brightness, like the look of the chashmal.",
   "tokens": [
     {
       "surface": "ואראה",
-      "gloss": "and I looked"
+      "gloss": "Then I looked",
+      "readings": [
+        "Then I looked",
+        "and I looked"
+      ],
+      "held_by": {
+        "Then I looked": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I looked": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והנה",
@@ -61,13 +70,48 @@
     },
     {
       "surface": "כעין",
-      "gloss": "like the look of"
+      "gloss": "like the look of",
+      "readings": [
+        "like the look of",
+        "like the appearance of",
+        "like the color of"
+      ],
+      "held_by": {
+        "like the look of": [
+          "en4"
+        ],
+        "like the appearance of": [
+          "v1"
+        ],
+        "like the color of": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "החשמלה",
-      "gloss": "the chashmal"
+      "gloss": "the chashmal",
+      "readings": [
+        "the chashmal",
+        "electrum",
+        "amber"
+      ],
+      "held_by": {
+        "the chashmal": [
+          "en4"
+        ],
+        "electrum": [
+          "v2",
+          "v3"
+        ],
+        "amber": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T13:41:20.297856902Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

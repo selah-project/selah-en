@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "genesis 23:8",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "And he spoke with them, saying: If there is ⟨את⟩ your soul to bury ⟨את⟩ my dead from before me — hear me, and meet for me with Ephron son of Zohar.",
+  "translation": "And ⟨he⟩ spoke with ⟨את⟩ them, saying: If there is ⟨את⟩ your soul to bury ⟨את⟩ my dead from before me, hear me, and intercede for me with Ephron son of Zohar.",
   "tokens": [
     {
       "surface": "וידבר",
@@ -29,8 +24,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "your soul"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "נפשכם",
@@ -39,7 +33,17 @@
         "your soul",
         "your life",
         "your appetite"
-      ]
+      ],
+      "held_by": {
+        "your soul": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "your life": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לקבר",
@@ -47,8 +51,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "my dead"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "מתי",
@@ -64,12 +67,20 @@
     },
     {
       "surface": "ופגעו",
-      "gloss": "and meet for me",
+      "gloss": "and intercede",
       "readings": [
-        "and meet for me",
-        "and entreat for me",
-        "and intercede for me"
-      ]
+        "and intercede",
+        "and entreat",
+        "and meet"
+      ],
+      "held_by": {
+        "and intercede": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לי",
@@ -88,6 +99,6 @@
       "gloss": "Zohar"
     }
   ],
-  "timestamp": "2026-09-20T12:20:25.253888099Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "jeremiah 30:7",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "Woe! For great is that day — from where, its like? And a time of distress it is for Jacob, and from it he shall be saved.",
+  "translation": "Alas! for great is that day — from where, its like? And a time of distress it is for Jacob, yet from it he shall be saved.",
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe!"
+      "gloss": "Alas!"
     },
     {
       "surface": "כי",
-      "gloss": "For"
+      "gloss": "for"
     },
     {
       "surface": "גדול",
@@ -21,7 +16,7 @@
     },
     {
       "surface": "היום",
-      "gloss": "is the day"
+      "gloss": "is that day"
     },
     {
       "surface": "ההוא",
@@ -29,15 +24,25 @@
     },
     {
       "surface": "מאין",
-      "gloss": "from where"
+      "gloss": "from where",
+      "readings": [
+        "from where",
+        "like it"
+      ],
+      "held_by": {
+        "from where": [
+          "en4"
+        ],
+        "like it": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "כמהו",
-      "gloss": "its like",
-      "readings": [
-        "its like",
-        "like it"
-      ]
+      "gloss": "its like"
     },
     {
       "surface": "ועת",
@@ -48,8 +53,22 @@
       "gloss": "distress",
       "readings": [
         "distress",
+        "trouble",
         "tightness"
-      ]
+      ],
+      "held_by": {
+        "distress": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "trouble": [
+          "v2"
+        ],
+        "tightness": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "היא",
@@ -61,17 +80,13 @@
     },
     {
       "surface": "וממנה",
-      "gloss": "and from it"
+      "gloss": "yet from it"
     },
     {
       "surface": "יושע",
-      "gloss": "he shall be saved",
-      "readings": [
-        "he shall be saved",
-        "he shall be delivered"
-      ]
+      "gloss": "he shall be saved"
     }
   ],
-  "timestamp": "2026-09-20T16:31:54.769205444Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,14 +1,9 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "2-chronicles 21:16",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "And YHWH stirred up against Jehoram ⟨את⟩ the spirit of the Philistines and of the Arabians who are beside the Cushites.",
+  "translation": "And YHWH stirred up against Jehoram ⟨את⟩ the spirit of the Philistines and of the Arabs, who are beside the side of the Cushites.",
   "tokens": [
     {
-      "surface": "וַיָּעַר",
+      "surface": "ויער",
       "gloss": "and stirred up"
     },
     {
@@ -25,24 +20,34 @@
     },
     {
       "surface": "אֵת",
-      "gloss": "⟨את⟩",
-      "marks": "the spirit of the Philistines"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "רוּחַ",
-      "gloss": "the spirit of",
+      "gloss": "the spirit",
       "readings": [
-        "the spirit of",
-        "the wind of"
-      ]
+        "the spirit",
+        "the wind"
+      ],
+      "held_by": {
+        "the spirit": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the wind": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הַפְּלִשְׁתִּים",
-      "gloss": "the Philistines"
+      "gloss": "of the Philistines"
     },
     {
       "surface": "וְהָעַרְבִּים",
-      "gloss": "and of the Arabians"
+      "gloss": "and of the Arabs"
     },
     {
       "surface": "אֲשֶׁר",
@@ -54,13 +59,27 @@
     },
     {
       "surface": "יַד",
-      "gloss": "the hand of"
+      "gloss": "the side of",
+      "readings": [
+        "the side of",
+        "the hand of"
+      ],
+      "held_by": {
+        "the side of": [
+          "v2",
+          "v3"
+        ],
+        "the hand of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "כּוּשִׁים",
       "gloss": "the Cushites"
     }
   ],
-  "timestamp": "2026-09-20T11:11:05.711270115Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

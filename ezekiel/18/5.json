@@ -1,19 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "ezekiel 18:5",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "And a man, if he is righteous, and has done justice and righteousness,",
+  "translation": "And a man, if he is righteous and has done justice and righteousness,",
   "tokens": [
     {
       "surface": "ואיש",
-      "gloss": "and a man"
+      "gloss": "And a man"
     },
     {
       "surface": "כי",
-      "gloss": "if"
+      "gloss": "if",
+      "readings": [
+        "if",
+        "when"
+      ],
+      "held_by": {
+        "if": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "when": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יהיה",
@@ -21,7 +31,16 @@
       "readings": [
         "he is",
         "he becomes"
-      ]
+      ],
+      "held_by": {
+        "he is": [
+          "v2",
+          "en4"
+        ],
+        "he becomes": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "צדיק",
@@ -37,13 +56,24 @@
       "readings": [
         "justice",
         "judgment"
-      ]
+      ],
+      "held_by": {
+        "justice": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "judgment": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וצדקה",
       "gloss": "and righteousness"
     }
   ],
-  "timestamp": "2026-09-20T10:32:53.432792816Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

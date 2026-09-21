@@ -1,56 +1,90 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "proverbs 29:11",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 29,
-  "translation": "All his spirit a fool brings out; but a wise man, behind, stills it.",
+  "translation": "A fool brings out all his spirit, but a wise man afterward stills it.",
   "tokens": [
     {
-      "surface": "כֹּל",
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "רוּחוֹ",
+      "surface": "רוחו",
       "gloss": "his spirit",
       "readings": [
         "his spirit",
         "his wind",
         "his breath"
-      ]
+      ],
+      "held_by": {
+        "his spirit": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his wind": [
+          "v1",
+          "en4"
+        ],
+        "his breath": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יוֹצִיא",
+      "surface": "יוציא",
       "gloss": "brings out"
     },
     {
-      "surface": "כְּסִיל",
+      "surface": "כסיל",
       "gloss": "a fool"
     },
     {
-      "surface": "וְחָכָם",
+      "surface": "וחכם",
       "gloss": "but a wise man"
     },
     {
-      "surface": "בְּאָחוֹר",
-      "gloss": "behind",
+      "surface": "באחור",
+      "gloss": "afterward",
       "readings": [
-        "behind",
-        "backward",
-        "in reserve"
-      ]
+        "afterward",
+        "behind"
+      ],
+      "held_by": {
+        "afterward": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "behind": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יְשַׁבְּחֶנָּה",
+      "surface": "ישבחנה",
       "gloss": "stills it",
       "readings": [
         "stills it",
-        "praises it",
-        "calms it"
-      ]
+        "holds it back",
+        "praises it"
+      ],
+      "held_by": {
+        "stills it": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "holds it back": [
+          "v2",
+          "v3"
+        ],
+        "praises it": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T15:50:38.311946379Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

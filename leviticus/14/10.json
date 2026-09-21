@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "leviticus 14:10",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "And on the eighth day he shall take two lambs, whole ones, and one ewe-lamb, a daughter of her year, whole; and three tenth-parts of fine flour, a grain offering mixed with oil, and one log of oil.",
+  "translation": "And on the eighth day he shall take two male lambs without blemish, and one ewe lamb, a daughter of a year old, without blemish, and three tenth-parts of fine flour ⟨for⟩ ⟨a⟩ grain offering, mixed with oil, and one log of oil.",
   "tokens": [
     {
       "surface": "וביום",
-      "gloss": "and on the day of"
+      "gloss": "And on the day"
     },
     {
       "surface": "השמיני",
@@ -25,19 +20,44 @@
     },
     {
       "surface": "כבשים",
-      "gloss": "lambs"
+      "gloss": "male lambs",
+      "readings": [
+        "male lambs",
+        "lambs"
+      ],
+      "held_by": {
+        "male lambs": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "lambs": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תמימים",
-      "gloss": "whole ones",
+      "gloss": "without blemish",
       "readings": [
-        "whole ones",
-        "unblemished"
-      ]
+        "without blemish",
+        "whole"
+      ],
+      "held_by": {
+        "without blemish": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "whole": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וכבשה",
-      "gloss": "and a ewe-lamb"
+      "gloss": "and one ewe lamb"
     },
     {
       "surface": "אחת",
@@ -49,11 +69,25 @@
     },
     {
       "surface": "שנתה",
-      "gloss": "her year"
+      "gloss": "a year old"
     },
     {
       "surface": "תמימה",
-      "gloss": "whole"
+      "gloss": "without blemish",
+      "readings": [
+        "without blemish",
+        "whole"
+      ],
+      "held_by": {
+        "without blemish": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "whole": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ושלשה",
@@ -69,12 +103,22 @@
     },
     {
       "surface": "מנחה",
-      "gloss": "a grain offering",
+      "gloss": "grain offering",
       "readings": [
-        "a grain offering",
-        "an offering",
+        "grain offering",
         "a tribute"
-      ]
+      ],
+      "held_by": {
+        "grain offering": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a tribute": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בלולה",
@@ -86,7 +130,7 @@
     },
     {
       "surface": "ולג",
-      "gloss": "and a log"
+      "gloss": "and one log"
     },
     {
       "surface": "אחד",
@@ -97,6 +141,6 @@
       "gloss": "of oil"
     }
   ],
-  "timestamp": "2026-09-20T14:56:12.959183534Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,62 +1,92 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 40,
-  "ref": "genesis 31:40",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 31,
-  "translation": "Thus I was: in the day drought consumed me, and frost in the night, and my sleep fled from my eyes.",
+  "translation": "I was: in the day the heat consumed me, and frost in the night, and my sleep fled from my eyes.",
   "tokens": [
     {
-      "surface": "הָיִיתִי",
+      "surface": "הייתי",
       "gloss": "I was"
     },
     {
-      "surface": "בַּיּוֹם",
+      "surface": "ביום",
       "gloss": "in the day"
     },
     {
-      "surface": "אֲכָלַנִי",
+      "surface": "אכלני",
       "gloss": "consumed me",
       "readings": [
         "consumed me",
         "ate me"
-      ]
+      ],
+      "held_by": {
+        "consumed me": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "ate me": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חֹרֶב",
-      "gloss": "drought",
+      "surface": "חרב",
+      "gloss": "the heat",
       "readings": [
-        "drought",
-        "heat"
-      ]
+        "the heat",
+        "drought"
+      ],
+      "held_by": {
+        "the heat": [
+          "v2",
+          "v3"
+        ],
+        "drought": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְקֶרַח",
+      "surface": "וקרח",
       "gloss": "and frost"
     },
     {
-      "surface": "בַּלַּיְלָה",
+      "surface": "בלילה",
       "gloss": "in the night"
     },
     {
-      "surface": "וַתִּדַּד",
+      "surface": "ותדד",
       "gloss": "and fled",
       "readings": [
         "and fled",
-        "and escaped",
+        "and departed",
         "and wandered"
-      ]
+      ],
+      "held_by": {
+        "and fled": [
+          "v3",
+          "en4"
+        ],
+        "and departed": [
+          "v1"
+        ],
+        "and wandered": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "שְׁנָתִי",
+      "surface": "שנתי",
       "gloss": "my sleep"
     },
     {
-      "surface": "מֵעֵינָי",
+      "surface": "מעיני",
       "gloss": "from my eyes"
     }
   ],
-  "timestamp": "2026-09-20T16:54:04.387316313Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

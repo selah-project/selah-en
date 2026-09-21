@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "2-chronicles 14:7",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "And Asa had a force bearing shield and spear, from Judah three hundred thousand, and from Benjamin bearers of shield and treading ⟨the⟩ bow, two hundred and eighty thousand — all these were mighty ones of force.",
+  "translation": "And there was to Asa an army bearing large shield and spear: from Judah three hundred thousand, and from Benjamin bearers of shield and drawing bow: two hundred and eighty thousand; all these were mighty men of valor.",
   "tokens": [
     {
       "surface": "ויהי",
-      "gloss": "and there was"
+      "gloss": "And there was"
     },
     {
       "surface": "לאסא",
@@ -17,7 +12,22 @@
     },
     {
       "surface": "חיל",
-      "gloss": "a force"
+      "gloss": "army",
+      "readings": [
+        "army",
+        "force"
+      ],
+      "held_by": {
+        "army": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "force": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "נשא",
@@ -25,11 +35,21 @@
     },
     {
       "surface": "צנה",
-      "gloss": "shield",
+      "gloss": "large shield",
       "readings": [
-        "shield",
-        "large shield"
-      ]
+        "large shield",
+        "shield"
+      ],
+      "held_by": {
+        "large shield": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "shield": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ורמח",
@@ -65,7 +85,22 @@
     },
     {
       "surface": "ודרכי",
-      "gloss": "and treading"
+      "gloss": "drawing",
+      "readings": [
+        "drawing",
+        "treading"
+      ],
+      "held_by": {
+        "drawing": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "treading": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "קשת",
@@ -93,13 +128,32 @@
     },
     {
       "surface": "גבורי",
-      "gloss": "mighty ones of"
+      "gloss": "mighty men of"
     },
     {
       "surface": "חיל",
-      "gloss": "force"
+      "gloss": "valor",
+      "readings": [
+        "valor",
+        "force",
+        "army"
+      ],
+      "held_by": {
+        "valor": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "force": [
+          "en4"
+        ],
+        "army": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T11:10:27.753839521Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

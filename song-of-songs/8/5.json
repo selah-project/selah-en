@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "song-of-songs 8:5",
-  "book": "song-of-songs",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "Who is this coming up from the wilderness, leaning upon her beloved? Under the apple tree I awakened you; there your mother was in travail with you; there she was in travail who bore you.",
+  "translation": "Who is this coming up from the wilderness, leaning upon her beloved? Under the apple tree I awakened you; there your mother writhed in labor with you; there she writhed and bore you.",
   "tokens": [
     {
       "surface": "מי",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "זאת",
-      "gloss": "is this"
+      "gloss": "this"
     },
     {
       "surface": "עלה",
@@ -29,7 +24,7 @@
     },
     {
       "surface": "מתרפקת",
-      "gloss": "leaning"
+      "gloss": "leaning upon"
     },
     {
       "surface": "על",
@@ -37,15 +32,11 @@
     },
     {
       "surface": "דודה",
-      "gloss": "her beloved",
-      "readings": [
-        "her beloved",
-        "her love"
-      ]
+      "gloss": "her beloved"
     },
     {
       "surface": "תחת",
-      "gloss": "Under"
+      "gloss": "under"
     },
     {
       "surface": "התפוח",
@@ -61,11 +52,26 @@
     },
     {
       "surface": "חבלתך",
-      "gloss": "your mother was in travail with you",
+      "gloss": "writhed in labor with you",
       "readings": [
-        "she travailed with you",
-        "she pledged for you"
-      ]
+        "writhed in labor with you",
+        "conceived you",
+        "pledged for you"
+      ],
+      "held_by": {
+        "writhed in labor with you": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "conceived you": [
+          "v1"
+        ],
+        "pledged for you": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אמך",
@@ -77,17 +83,28 @@
     },
     {
       "surface": "חבלה",
-      "gloss": "she was in travail",
+      "gloss": "she writhed",
       "readings": [
-        "she travailed",
+        "she writhed",
         "she gave pledge"
-      ]
+      ],
+      "held_by": {
+        "she writhed": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "she gave pledge": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ילדתך",
-      "gloss": "who bore you"
+      "gloss": "bore you"
     }
   ],
-  "timestamp": "2026-09-20T14:22:25.813928365Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

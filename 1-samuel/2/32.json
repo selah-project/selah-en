@@ -1,28 +1,47 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 32,
-  "ref": "1-samuel 2:32",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "And you shall look upon a foe, a habitation, in all that he does good ⟨את⟩ Israel; and there shall not be an old man in your house all the days.",
+  "translation": "And you shall look with hostility upon the habitation, in all that He does good ⟨את⟩ Israel; and there will not be an old man in your house all the days.",
   "tokens": [
     {
       "surface": "והבטת",
-      "gloss": "And you shall look upon"
+      "gloss": "and you shall look",
+      "readings": [
+        "and you shall look",
+        "and you shall see"
+      ],
+      "held_by": {
+        "and you shall look": [
+          "v2",
+          "en4"
+        ],
+        "and you shall see": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "צר",
-      "gloss": "a foe",
+      "gloss": "with hostility",
       "readings": [
-        "a foe",
-        "a distress",
-        "a rival"
-      ]
+        "with hostility",
+        "a foe"
+      ],
+      "held_by": {
+        "with hostility": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a foe": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מעון",
-      "gloss": "a habitation"
+      "gloss": "upon the habitation"
     },
     {
       "surface": "בכל",
@@ -34,12 +53,25 @@
     },
     {
       "surface": "ייטיב",
-      "gloss": "he does good"
+      "gloss": "He does good",
+      "readings": [
+        "He does good",
+        "He will do good"
+      ],
+      "held_by": {
+        "He does good": [
+          "v2",
+          "en4"
+        ],
+        "He will do good": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Israel"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "ישראל",
@@ -51,7 +83,7 @@
     },
     {
       "surface": "יהיה",
-      "gloss": "there shall be"
+      "gloss": "there will be"
     },
     {
       "surface": "זקן",
@@ -70,6 +102,6 @@
       "gloss": "the days"
     }
   ],
-  "timestamp": "2026-09-20T10:07:50.009814017Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

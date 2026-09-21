@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "1-kings 18:5",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "And Ahab said to Obadiah, Go in the land, to all the springs of the waters and to all the brooks; perhaps grass will be found, and we will keep alive horse and mule, and not be cut off from the beasts.",
+  "translation": "And Ahab said to Obadiah: Go through the land, to all the springs of water and to all the wadis; perhaps we may find grass, and we will keep alive horse and mule, and not cut off ⟨any⟩ from the beasts.",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -29,11 +24,21 @@
     },
     {
       "surface": "בארץ",
-      "gloss": "in the land",
+      "gloss": "through the land",
       "readings": [
-        "in the land",
+        "through the land",
         "in the earth"
-      ]
+      ],
+      "held_by": {
+        "through the land": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in the earth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אל",
@@ -45,11 +50,25 @@
     },
     {
       "surface": "מעיני",
-      "gloss": "springs of"
+      "gloss": "the springs of"
     },
     {
       "surface": "המים",
-      "gloss": "the waters"
+      "gloss": "the waters",
+      "readings": [
+        "the waters",
+        "water"
+      ],
+      "held_by": {
+        "the waters": [
+          "en4"
+        ],
+        "water": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "ואל",
@@ -61,12 +80,27 @@
     },
     {
       "surface": "הנחלים",
-      "gloss": "the brooks",
+      "gloss": "the wadis",
       "readings": [
-        "the brooks",
         "the wadis",
+        "the brooks",
         "the streams"
-      ]
+      ],
+      "held_by": {
+        "the wadis": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the brooks": [
+          "v1",
+          "en4"
+        ],
+        "the streams": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אולי",
@@ -74,7 +108,21 @@
     },
     {
       "surface": "נמצא",
-      "gloss": "will be found"
+      "gloss": "we may find",
+      "readings": [
+        "we may find",
+        "will be found"
+      ],
+      "held_by": {
+        "we may find": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will be found": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חציר",
@@ -82,7 +130,18 @@
       "readings": [
         "grass",
         "hay"
-      ]
+      ],
+      "held_by": {
+        "grass": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "hay": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ונחיה",
@@ -102,13 +161,27 @@
     },
     {
       "surface": "נכרית",
-      "gloss": "be cut off"
+      "gloss": "cut off",
+      "readings": [
+        "cut off",
+        "be cut off"
+      ],
+      "held_by": {
+        "cut off": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "be cut off": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מהבהמה",
       "gloss": "from the beasts"
     }
   ],
-  "timestamp": "2026-09-20T13:15:01.187048193Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

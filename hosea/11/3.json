@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "hosea 11:3",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "And I — I taught Ephraim ⟨to walk⟩, taking them on his arms, and they did not know that I healed them.",
+  "translation": "And I taught Ephraim to walk, taking them by his arms; and they did not know that I healed them.",
   "tokens": [
     {
       "surface": "ואנכי",
@@ -13,7 +8,22 @@
     },
     {
       "surface": "תרגלתי",
-      "gloss": "I caused to walk"
+      "gloss": "I taught to walk",
+      "readings": [
+        "I taught to walk",
+        "I caused to walk"
+      ],
+      "held_by": {
+        "I taught to walk": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I caused to walk": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לאפרים",
@@ -21,15 +31,60 @@
     },
     {
       "surface": "קחם",
-      "gloss": "taking them"
+      "gloss": "taking them",
+      "readings": [
+        "taking them",
+        "I took them"
+      ],
+      "held_by": {
+        "taking them": [
+          "v1",
+          "en4"
+        ],
+        "I took them": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
-      "gloss": "on"
+      "gloss": "by",
+      "readings": [
+        "by",
+        "on"
+      ],
+      "held_by": {
+        "by": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "on": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "זרועתיו",
-      "gloss": "his arms"
+      "gloss": "his arms",
+      "readings": [
+        "his arms",
+        "their arms"
+      ],
+      "held_by": {
+        "his arms": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "their arms": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ולא",
@@ -48,6 +103,6 @@
       "gloss": "I healed them"
     }
   ],
-  "timestamp": "2026-09-20T15:38:10.618473868Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

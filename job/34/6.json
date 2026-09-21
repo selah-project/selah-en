@@ -1,45 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "job 34:6",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 34,
-  "translation": "Upon my judgment I lie; my arrow is incurable, without transgression.",
+  "translation": "“Against my right do I lie? My arrow-wound ⟨is⟩ incurable, without transgression.”",
   "tokens": [
     {
-      "surface": "עַל",
-      "gloss": "Upon"
+      "surface": "על",
+      "gloss": "Against"
     },
     {
-      "surface": "מִשְׁפָּטִי",
-      "gloss": "my judgment"
+      "surface": "משפטי",
+      "gloss": "my right"
     },
     {
-      "surface": "אֲכַזֵּב",
-      "gloss": "I lie"
+      "surface": "אכזב",
+      "gloss": "do I lie",
+      "readings": [
+        "do I lie",
+        "I am counted a liar"
+      ],
+      "held_by": {
+        "do I lie": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "I am counted a liar": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "אָנוּשׁ",
+      "surface": "אנוש",
       "gloss": "incurable",
       "readings": [
         "incurable",
-        "despairing"
-      ]
+        "despairing",
+        "mortal"
+      ],
+      "held_by": {
+        "incurable": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "despairing": [
+          "en4"
+        ],
+        "mortal": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חִצִּי",
-      "gloss": "my arrow"
+      "surface": "חצי",
+      "gloss": "my arrow-wound",
+      "readings": [
+        "my arrow-wound",
+        "my arrow"
+      ],
+      "held_by": {
+        "my arrow-wound": [
+          "v2",
+          "v3"
+        ],
+        "my arrow": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּלִי",
+      "surface": "בלי",
       "gloss": "without"
     },
     {
-      "surface": "פָּשַׁע",
+      "surface": "פשע",
       "gloss": "transgression"
     }
   ],
-  "timestamp": "2026-09-20T14:21:00.785730708Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

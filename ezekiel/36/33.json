@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 33,
-  "ref": "ezekiel 36:33",
-  "book": "ezekiel",
-  "lang": "en4",
-  "chapter": 36,
-  "translation": "Thus said Adonai YHWH: In the day of my cleansing ⟨את⟩ you from all your iniquities — and I will cause to be inhabited ⟨את⟩ the cities, and the wastes shall be built.",
+  "translation": "Thus said Adonai YHWH: In the day I cleanse ⟨את⟩ you from all your iniquities, I will cause the cities ⟨את⟩ to be inhabited — and I will cause ⟨את⟩ the cities to be inhabited, and the ruins shall be built.",
   "tokens": [
     {
       "surface": "כה",
-      "gloss": "thus"
+      "gloss": "Thus"
     },
     {
       "surface": "אמר",
@@ -25,16 +20,29 @@
     },
     {
       "surface": "ביום",
-      "gloss": "in the day of"
+      "gloss": "In the day"
     },
     {
       "surface": "טהרי",
-      "gloss": "my cleansing"
+      "gloss": "I cleanse",
+      "readings": [
+        "I cleanse",
+        "my cleansing"
+      ],
+      "held_by": {
+        "I cleanse": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my cleansing": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you from all your iniquities"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "מכל",
@@ -42,11 +50,7 @@
     },
     {
       "surface": "עונותיכם",
-      "gloss": "your iniquities",
-      "readings": [
-        "your iniquities",
-        "your perversities"
-      ]
+      "gloss": "your iniquities"
     },
     {
       "surface": "והושבתי",
@@ -54,12 +58,21 @@
       "readings": [
         "and I will cause to be inhabited",
         "and I will cause to be resettled"
-      ]
+      ],
+      "held_by": {
+        "and I will cause to be inhabited": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and I will cause to be resettled": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the cities"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הערים",
@@ -71,13 +84,26 @@
     },
     {
       "surface": "החרבות",
-      "gloss": "the wastes",
+      "gloss": "the ruins",
       "readings": [
-        "the wastes",
-        "the desolate places"
-      ]
+        "the ruins",
+        "the desolations",
+        "the wastes"
+      ],
+      "held_by": {
+        "the ruins": [
+          "v1",
+          "v3"
+        ],
+        "the desolations": [
+          "v2"
+        ],
+        "the wastes": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:47:14.766344513Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

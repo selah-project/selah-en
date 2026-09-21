@@ -1,35 +1,38 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 27,
-  "ref": "deuteronomy 32:27",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 32,
-  "translation": "if not — the vexation of an enemy I fear, lest their adversaries misdiscern, lest they say, Our hand is high, and YHWH has not done all this.",
+  "translation": "Were it not that I dreaded the provocation of the enemy, lest their adversaries misjudge, lest they say, “Our hand is high, and not YHWH has done all this.”",
   "tokens": [
     {
       "surface": "לולי",
-      "gloss": "if not"
+      "gloss": "were it not that"
     },
     {
       "surface": "כעס",
-      "gloss": "the vexation of",
+      "gloss": "the provocation of",
       "readings": [
-        "the vexation of",
-        "the provocation of"
-      ]
+        "the provocation of",
+        "the vexation of"
+      ],
+      "held_by": {
+        "the provocation of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the vexation of": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אויב",
-      "gloss": "an enemy"
+      "gloss": "the enemy"
     },
     {
       "surface": "אגור",
-      "gloss": "I fear",
-      "readings": [
-        "I fear",
-        "I dread"
-      ]
+      "gloss": "I dreaded"
     },
     {
       "surface": "פן",
@@ -37,12 +40,26 @@
     },
     {
       "surface": "ינכרו",
-      "gloss": "misdiscern",
+      "gloss": "should misjudge",
       "readings": [
-        "misdiscern",
-        "recognize",
-        "behave strangely"
-      ]
+        "should misjudge",
+        "should recognize",
+        "should behave strangely"
+      ],
+      "held_by": {
+        "should misjudge": [
+          "v2",
+          "v3"
+        ],
+        "should recognize": [
+          "v1",
+          "en4"
+        ],
+        "should behave strangely": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "צרימו",
@@ -62,11 +79,7 @@
     },
     {
       "surface": "רמה",
-      "gloss": "is high",
-      "readings": [
-        "is high",
-        "is exalted"
-      ]
+      "gloss": "is high"
     },
     {
       "surface": "ולא",
@@ -78,7 +91,21 @@
     },
     {
       "surface": "פעל",
-      "gloss": "has done"
+      "gloss": "has worked",
+      "readings": [
+        "has worked",
+        "has done"
+      ],
+      "held_by": {
+        "has worked": [
+          "v2",
+          "v3"
+        ],
+        "has done": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "כל",
@@ -89,6 +116,6 @@
       "gloss": "this"
     }
   ],
-  "timestamp": "2026-09-20T10:01:48.280959253Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

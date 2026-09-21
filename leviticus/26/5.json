@@ -1,32 +1,36 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "leviticus 26:5",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "And your threshing shall reach unto the vintage, and the vintage shall reach unto ⟨את⟩ the seed; and you shall eat your bread to satisfaction, and you shall dwell in security in your land.",
+  "translation": "And the threshing shall overtake for you ⟨את⟩ the vintage, and the vintage shall overtake ⟨את⟩ the sowing; and you shall eat your bread to satisfaction, and you shall dwell securely in your land.",
   "tokens": [
     {
       "surface": "והשיג",
-      "gloss": "and shall reach"
+      "gloss": "and shall overtake",
+      "readings": [
+        "and shall overtake",
+        "and shall reach"
+      ],
+      "held_by": {
+        "and shall overtake": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and shall reach": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לכם",
-      "gloss": "to you"
+      "gloss": "for you"
     },
     {
       "surface": "דיש",
-      "gloss": "threshing",
-      "readings": [
-        "threshing",
-        "threshing-floor"
-      ]
+      "gloss": "threshing"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "בציר the vintage"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "בציר",
@@ -38,20 +42,45 @@
     },
     {
       "surface": "ישיג",
-      "gloss": "shall reach"
+      "gloss": "shall overtake",
+      "readings": [
+        "shall overtake",
+        "shall reach"
+      ],
+      "held_by": {
+        "shall overtake": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "shall reach": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "זרע the seed"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "זרע",
-      "gloss": "the seed",
+      "gloss": "the sowing",
       "readings": [
-        "the seed",
-        "the sowing"
-      ]
+        "the sowing",
+        "the seed"
+      ],
+      "held_by": {
+        "the sowing": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the seed": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ואכלתם",
@@ -59,11 +88,7 @@
     },
     {
       "surface": "לחמכם",
-      "gloss": "your bread",
-      "readings": [
-        "your bread",
-        "your food"
-      ]
+      "gloss": "your bread"
     },
     {
       "surface": "לשבע",
@@ -75,13 +100,13 @@
     },
     {
       "surface": "לבטח",
-      "gloss": "in security"
+      "gloss": "securely"
     },
     {
       "surface": "בארצכם",
       "gloss": "in your land"
     }
   ],
-  "timestamp": "2026-09-20T16:56:17.350138621Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 32,
-  "ref": "exodus 9:32",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And the wheat and the spelt were not struck, for they אֲפִילֹת ⟨are⟩ late.",
+  "translation": "And the wheat and the spelt were not struck, for they are late.",
   "tokens": [
     {
       "surface": "והחטה",
-      "gloss": "and the wheat"
+      "gloss": "and the wheat",
+      "readings": [
+        "and the wheat",
+        "but the wheat"
+      ],
+      "held_by": {
+        "and the wheat": [
+          "v1",
+          "en4"
+        ],
+        "but the wheat": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והכסמת",
@@ -33,13 +43,26 @@
       "readings": [
         "late",
         "unripe"
-      ]
+      ],
+      "held_by": {
+        "late": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "unripe": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הנה",
-      "gloss": "they"
+      "gloss": "they are"
     }
   ],
-  "timestamp": "2026-09-20T09:42:24.473940929Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

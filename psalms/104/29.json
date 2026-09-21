@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 29,
-  "ref": "psalms 104:29",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 104,
-  "translation": "You hide your face, they are terrified; you gather their breath, they expire, and to their dust they return.",
+  "translation": "You hide your face — they panic; you gather their breath — they expire, and to their dust they return.",
   "tokens": [
     {
       "surface": "תסתיר",
-      "gloss": "you hide"
+      "gloss": "You hide"
     },
     {
       "surface": "פניך",
@@ -17,11 +12,26 @@
     },
     {
       "surface": "יבהלון",
-      "gloss": "they are terrified"
+      "gloss": "they panic"
     },
     {
       "surface": "תסף",
-      "gloss": "you gather"
+      "gloss": "you gather",
+      "readings": [
+        "you gather",
+        "you take away"
+      ],
+      "held_by": {
+        "you gather": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "you take away": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "רוחם",
@@ -30,7 +40,18 @@
         "their breath",
         "their wind",
         "their spirit"
-      ]
+      ],
+      "held_by": {
+        "their breath": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "their spirit": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יגועון",
@@ -49,6 +70,6 @@
       "gloss": "they return"
     }
   ],
-  "timestamp": "2026-09-20T14:06:43.580412458Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

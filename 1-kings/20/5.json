@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "1-kings 20:5",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "And the messengers returned and said, Thus said Ben-Hadad, saying, Indeed I sent to you, saying, Your silver and your gold and your wives and your sons — to me you shall give.",
+  "translation": "And the messengers returned and said, “Thus says Ben-Hadad, saying: I sent to you, saying: your silver and your gold and your wives and your sons — to me you shall give.”",
   "tokens": [
     {
       "surface": "וישבו",
-      "gloss": "and returned"
+      "gloss": "And returned"
     },
     {
       "surface": "המלאכים",
@@ -21,11 +16,26 @@
     },
     {
       "surface": "כה",
-      "gloss": "thus"
+      "gloss": "Thus"
     },
     {
       "surface": "אמר",
-      "gloss": "said"
+      "gloss": "says",
+      "readings": [
+        "says",
+        "said"
+      ],
+      "held_by": {
+        "says": [
+          "v1",
+          "v3"
+        ],
+        "said": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בן",
@@ -69,7 +79,21 @@
     },
     {
       "surface": "ובניך",
-      "gloss": "and your sons"
+      "gloss": "and your sons",
+      "readings": [
+        "and your sons",
+        "and your children"
+      ],
+      "held_by": {
+        "and your sons": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and your children": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "לי",
@@ -80,6 +104,6 @@
       "gloss": "you shall give"
     }
   ],
-  "timestamp": "2026-09-20T15:17:29.024166932Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

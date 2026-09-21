@@ -1,19 +1,41 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "1-kings 21:24",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 21,
-  "translation": "One dying to Ahab in the city the dogs shall eat, and the one dying in the field the birds of the heavens shall eat.",
+  "translation": "The one dying belonging to Ahab in the city the dogs will eat, and the one dying in the field the birds of the heavens will eat.",
   "tokens": [
     {
       "surface": "המת",
-      "gloss": "one dying"
+      "gloss": "the one dying",
+      "readings": [
+        "the one dying",
+        "the dead one"
+      ],
+      "held_by": {
+        "the one dying": [
+          "en4"
+        ],
+        "the dead one": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "לאחאב",
-      "gloss": "to Ahab"
+      "gloss": "belonging to Ahab",
+      "readings": [
+        "belonging to Ahab",
+        "of Ahab",
+        "to Ahab"
+      ],
+      "held_by": {
+        "of Ahab": [
+          "v2",
+          "v3"
+        ],
+        "to Ahab": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בעיר",
@@ -21,7 +43,7 @@
     },
     {
       "surface": "יאכלו",
-      "gloss": "shall eat"
+      "gloss": "will eat"
     },
     {
       "surface": "הכלבים",
@@ -37,17 +59,32 @@
     },
     {
       "surface": "יאכלו",
-      "gloss": "shall eat"
+      "gloss": "will eat"
     },
     {
       "surface": "עוף",
-      "gloss": "birds of"
+      "gloss": "fowl",
+      "readings": [
+        "fowl",
+        "the birds"
+      ],
+      "held_by": {
+        "fowl": [
+          "v1"
+        ],
+        "the birds": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "השמים",
-      "gloss": "the heavens"
+      "gloss": "of the heavens"
     }
   ],
-  "timestamp": "2026-09-20T13:15:16.840085236Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

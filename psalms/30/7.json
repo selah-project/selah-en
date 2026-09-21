@@ -1,51 +1,76 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 30:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 30,
-  "translation": "And I said in my ease: I shall never slip.",
+  "translation": "And I said in my ease, “I shall never be moved, forever.”",
   "tokens": [
     {
-      "surface": "וַאֲנִי",
+      "surface": "ואני",
       "gloss": "And I"
     },
     {
-      "surface": "אָמַרְתִּי",
-      "gloss": "said"
+      "surface": "אמרתי",
+      "gloss": "I said"
     },
     {
-      "surface": "בְּשַׁלְוִי",
+      "surface": "בשלוי",
       "gloss": "in my ease",
       "readings": [
         "in my ease",
-        "in my security",
         "in my prosperity"
-      ]
+      ],
+      "held_by": {
+        "in my ease": [
+          "v2",
+          "en4"
+        ],
+        "in my prosperity": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בַּל",
+      "surface": "בל",
       "gloss": "never",
       "readings": [
         "never",
         "not at all"
-      ]
+      ],
+      "held_by": {
+        "never": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "not at all": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אֶמּוֹט",
-      "gloss": "slip",
+      "surface": "אמוט",
+      "gloss": "be moved",
       "readings": [
-        "slip",
-        "be shaken",
-        "be moved"
-      ]
+        "be moved",
+        "slip"
+      ],
+      "held_by": {
+        "be moved": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "slip": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לְעוֹלָם",
+      "surface": "לעולם",
       "gloss": "forever"
     }
   ],
-  "timestamp": "2026-09-20T13:59:29.638534549Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

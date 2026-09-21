@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 48,
-  "ref": "numbers 33:48",
-  "book": "numbers",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "And they journeyed from the mountains of Abarim, and encamped in the plains of Moab, by the Jordan ⟨at⟩ Jericho.",
+  "translation": "And they journeyed from the mountains of Abarim, and encamped in the plains of Moab, upon the Jordan by Jericho.",
   "tokens": [
     {
       "surface": "ויסעו",
@@ -17,23 +12,30 @@
     },
     {
       "surface": "העברים",
-      "gloss": "Abarim",
-      "readings": [
-        "Abarim",
-        "the crossings"
-      ]
+      "gloss": "Abarim"
     },
     {
       "surface": "ויחנו",
-      "gloss": "and they encamped"
+      "gloss": "and encamped"
     },
     {
       "surface": "בערבת",
       "gloss": "in the plains of",
       "readings": [
         "in the plains of",
-        "in the desert of"
-      ]
+        "in the Arabah of"
+      ],
+      "held_by": {
+        "in the plains of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in the Arabah of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מואב",
@@ -41,7 +43,21 @@
     },
     {
       "surface": "על",
-      "gloss": "by"
+      "gloss": "upon",
+      "readings": [
+        "upon",
+        "by"
+      ],
+      "held_by": {
+        "upon": [
+          "v2",
+          "v3"
+        ],
+        "by": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ירדן",
@@ -52,6 +68,6 @@
       "gloss": "Jericho"
     }
   ],
-  "timestamp": "2026-09-20T17:42:10.264474959Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

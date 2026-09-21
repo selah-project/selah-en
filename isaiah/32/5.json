@@ -1,61 +1,74 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "isaiah 32:5",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 32,
-  "translation": "No longer shall a fool be called noble, and the miser shall no more be said to be generous.",
+  "translation": "No longer shall the fool be called noble, nor the miser said ⟨to be⟩ rich.",
   "tokens": [
     {
-      "surface": "לֹֽא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יִקָּרֵ֥א",
+      "surface": "יקרא",
       "gloss": "shall be called"
     },
     {
-      "surface": "ע֛וֹד",
-      "gloss": "no longer"
+      "surface": "עוד",
+      "gloss": "any longer"
     },
     {
-      "surface": "לְנָבָ֖ל",
-      "gloss": "to the fool",
-      "readings": [
-        "to the fool",
-        "to the vile one"
-      ]
+      "surface": "לנבל",
+      "gloss": "the fool"
     },
     {
-      "surface": "נָדִ֑יב",
+      "surface": "נדיב",
       "gloss": "noble",
       "readings": [
         "noble",
         "generous"
-      ]
+      ],
+      "held_by": {
+        "noble": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "generous": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וּלְכִילַ֕י",
-      "gloss": "and to the miser"
+      "surface": "ולכילי",
+      "gloss": "nor ⟨to⟩ the miser"
     },
     {
-      "surface": "לֹ֥א",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יֵֽאָמֵ֖ר",
+      "surface": "יאמר",
       "gloss": "shall be said"
     },
     {
-      "surface": "שֽׁוֹעַ",
-      "gloss": "generous",
+      "surface": "שוע",
+      "gloss": "rich",
       "readings": [
-        "generous",
-        "rich"
-      ]
+        "rich",
+        "generous"
+      ],
+      "held_by": {
+        "rich": [
+          "v1",
+          "v3"
+        ],
+        "generous": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T13:25:46.479103463Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

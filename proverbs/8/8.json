@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "proverbs 8:8",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "In righteousness are all ⟨the⟩ sayings of my mouth; there is nothing in them twisted or crooked.",
+  "translation": "In righteousness are all the words of my mouth; there is nothing twisted or crooked in them.",
   "tokens": [
     {
       "surface": "בצדק",
-      "gloss": "in righteousness"
+      "gloss": "In righteousness"
     },
     {
       "surface": "כל",
@@ -17,11 +12,25 @@
     },
     {
       "surface": "אמרי",
-      "gloss": "sayings of"
+      "gloss": "the words",
+      "readings": [
+        "the words",
+        "the sayings"
+      ],
+      "held_by": {
+        "the words": [
+          "v2",
+          "v3"
+        ],
+        "the sayings": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "פי",
-      "gloss": "my mouth"
+      "gloss": "of my mouth"
     },
     {
       "surface": "אין",
@@ -37,13 +46,39 @@
       "readings": [
         "twisted",
         "wrested"
-      ]
+      ],
+      "held_by": {
+        "twisted": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "wrested": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ועקש",
-      "gloss": "or crooked"
+      "gloss": "or crooked",
+      "readings": [
+        "or crooked",
+        "or perverse"
+      ],
+      "held_by": {
+        "or crooked": [
+          "en4"
+        ],
+        "or perverse": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:51:45.500845407Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

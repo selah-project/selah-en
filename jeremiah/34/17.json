@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "jeremiah 34:17",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 34,
-  "translation": "Therefore thus said YHWH: You did not hear Me, to proclaim freedom, a man to his brother and a man to his neighbor — behold, I am proclaiming freedom to you, an utterance of YHWH — to the sword, to the pestilence, and to the famine. And I will give ⟨את⟩ you for a trembling to all the kingdoms of the earth.",
+  "translation": "Therefore thus says YHWH: You did not obey me, to proclaim liberty, each man to his brother and each man to his neighbor — behold, I am proclaiming to you liberty, declares YHWH, to the sword, to the pestilence, and to the famine. And I will give ⟨את⟩ you for a horror to all the kingdoms of the earth.",
   "tokens": [
     {
       "surface": "לכן",
@@ -17,7 +12,7 @@
     },
     {
       "surface": "אמר",
-      "gloss": "said"
+      "gloss": "says"
     },
     {
       "surface": "יהוה",
@@ -33,11 +28,26 @@
     },
     {
       "surface": "שמעתם",
-      "gloss": "you heard"
+      "gloss": "obeyed",
+      "readings": [
+        "obeyed",
+        "heard"
+      ],
+      "held_by": {
+        "obeyed": [
+          "v1",
+          "v3"
+        ],
+        "heard": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אלי",
-      "gloss": "Me"
+      "gloss": "me"
     },
     {
       "surface": "לקרא",
@@ -45,11 +55,11 @@
     },
     {
       "surface": "דרור",
-      "gloss": "freedom"
+      "gloss": "liberty"
     },
     {
       "surface": "איש",
-      "gloss": "a man"
+      "gloss": "each man"
     },
     {
       "surface": "לאחיו",
@@ -57,7 +67,7 @@
     },
     {
       "surface": "ואיש",
-      "gloss": "and a man"
+      "gloss": "and each man"
     },
     {
       "surface": "לרעהו",
@@ -65,7 +75,7 @@
     },
     {
       "surface": "הנני",
-      "gloss": "behold, I"
+      "gloss": "Behold, I"
     },
     {
       "surface": "קרא",
@@ -77,11 +87,11 @@
     },
     {
       "surface": "דרור",
-      "gloss": "freedom"
+      "gloss": "liberty"
     },
     {
       "surface": "נאם",
-      "gloss": "an utterance of"
+      "gloss": "declares"
     },
     {
       "surface": "יהוה",
@@ -117,16 +127,26 @@
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you for a trembling"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "לזועה",
-      "gloss": "for a trembling",
+      "gloss": "for a horror",
       "readings": [
-        "for a trembling",
-        "for a horror"
-      ]
+        "for a horror",
+        "for a trembling"
+      ],
+      "held_by": {
+        "for a horror": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "for a trembling": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לכל",
@@ -134,7 +154,7 @@
     },
     {
       "surface": "ממלכות",
-      "gloss": "kingdoms of"
+      "gloss": "the kingdoms of"
     },
     {
       "surface": "הארץ",
@@ -142,9 +162,20 @@
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:30:27.926499897Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

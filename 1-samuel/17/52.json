@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 52,
-  "ref": "1-samuel 17:52",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 17,
-  "translation": "And the men of Israel and Judah arose and shouted and pursued ⟨את⟩ the Philistines until your coming to the valley, and to the gates of Ekron; and the wounded of the Philistines fell on the way of Shaaraim, and to Gath, and to Ekron.",
+  "translation": "And the men of Israel and Judah arose and shouted and pursued ⟨את⟩ the Philistines until your coming to the valley, and to the gates of Ekron; and the slain of the Philistines fell on the way of Shaaraim, and to Gath, and to Ekron.",
   "tokens": [
     {
       "surface": "ויקמו",
@@ -33,8 +28,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the Philistines"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הפלשתים",
@@ -46,7 +40,21 @@
     },
     {
       "surface": "בואך",
-      "gloss": "your coming"
+      "gloss": "your coming",
+      "readings": [
+        "your coming",
+        "as you come to"
+      ],
+      "held_by": {
+        "your coming": [
+          "v1",
+          "en4"
+        ],
+        "as you come to": [
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "גיא",
@@ -66,15 +74,25 @@
     },
     {
       "surface": "ויפלו",
-      "gloss": "and fell"
+      "gloss": "and…fell"
     },
     {
       "surface": "חללי",
-      "gloss": "the wounded of",
+      "gloss": "the slain of",
       "readings": [
-        "the wounded of",
-        "the slain of"
-      ]
+        "the slain of",
+        "the wounded of"
+      ],
+      "held_by": {
+        "the slain of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the wounded of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "פלשתים",
@@ -105,6 +123,6 @@
       "gloss": "Ekron"
     }
   ],
-  "timestamp": "2026-09-20T13:03:21.888341686Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

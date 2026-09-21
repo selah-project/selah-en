@@ -1,45 +1,65 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "genesis 42:3",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 42,
   "translation": "And the brothers of Joseph, ten, went down to buy grain from Egypt.",
   "tokens": [
     {
-      "surface": "וַיֵּרְדוּ",
+      "surface": "וירדו",
       "gloss": "and went down"
     },
     {
-      "surface": "אֲחֵי",
-      "gloss": "the brothers of"
+      "surface": "אחי",
+      "gloss": "brothers of"
     },
     {
-      "surface": "יוֹסֵף",
+      "surface": "יוסף",
       "gloss": "Joseph"
     },
     {
-      "surface": "עֲשָׂרָה",
+      "surface": "עשרה",
       "gloss": "ten"
     },
     {
-      "surface": "לִשְׁבֹּר",
-      "gloss": "to buy"
+      "surface": "לשבר",
+      "gloss": "to buy",
+      "readings": [
+        "to buy",
+        "to buy grain"
+      ],
+      "held_by": {
+        "to buy": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "to buy grain": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "בָּר",
+      "surface": "בר",
       "gloss": "grain",
       "readings": [
         "grain",
-        "clean grain"
-      ]
+        "choice grain"
+      ],
+      "held_by": {
+        "grain": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "choice grain": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מִמִּצְרַיִם",
+      "surface": "ממצרים",
       "gloss": "from Egypt"
     }
   ],
-  "timestamp": "2026-09-20T12:24:53.186897466Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

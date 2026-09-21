@@ -1,41 +1,62 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "joel 4:15",
-  "book": "joel",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "Sun and moon have grown dark, and the stars have gathered in their brightness.",
+  "translation": "The sun and the moon have grown dark, and the stars have withdrawn their shining.",
   "tokens": [
     {
-      "surface": "שֶׁמֶשׁ",
-      "gloss": "Sun"
+      "surface": "שמש",
+      "gloss": "the sun"
     },
     {
-      "surface": "וְיָרֵחַ",
-      "gloss": "and moon"
+      "surface": "וירח",
+      "gloss": "and the moon"
     },
     {
-      "surface": "קָדָרוּ",
+      "surface": "קדרו",
       "gloss": "have grown dark",
       "readings": [
         "have grown dark",
         "have mourned"
-      ]
+      ],
+      "held_by": {
+        "have grown dark": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "have mourned": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְכוֹכָבִים",
+      "surface": "וכוכבים",
       "gloss": "and the stars"
     },
     {
-      "surface": "אָסְפוּ",
-      "gloss": "have gathered in"
+      "surface": "אספו",
+      "gloss": "have withdrawn",
+      "readings": [
+        "have withdrawn",
+        "have gathered in"
+      ],
+      "held_by": {
+        "have withdrawn": [
+          "v2",
+          "v3"
+        ],
+        "have gathered in": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "נָגְהָם",
-      "gloss": "their brightness"
+      "surface": "נגהם",
+      "gloss": "their shining"
     }
   ],
-  "timestamp": "2026-09-20T15:39:26.385664373Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

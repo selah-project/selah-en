@@ -1,47 +1,90 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "psalms 6:8",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "My eye is wasted away from vexation; it grows old because of all my foes.",
+  "translation": "My eye is dim from vexation; it grows old because of all my adversaries.",
   "tokens": [
     {
-      "surface": "עָֽשְׁשָׁ֣ה",
-      "gloss": "is wasted away"
+      "surface": "עששה",
+      "gloss": "is dim",
+      "readings": [
+        "is dim",
+        "is wasted away"
+      ],
+      "held_by": {
+        "is dim": [
+          "v2",
+          "v3"
+        ],
+        "is wasted away": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "מִכַּ֣עַס",
+      "surface": "מכעס",
       "gloss": "from vexation",
       "readings": [
         "from vexation",
-        "from anger",
-        "from grief"
-      ]
+        "from anger"
+      ],
+      "held_by": {
+        "from vexation": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from anger": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "עֵינִ֑י",
+      "surface": "עיני",
       "gloss": "my eye"
     },
     {
-      "surface": "עָֽ֝תְקָ֗ה",
+      "surface": "עתקה",
       "gloss": "it grows old"
     },
     {
-      "surface": "בְכָל",
-      "gloss": "because of all"
+      "surface": "בכל",
+      "gloss": "because of all",
+      "readings": [
+        "because of all",
+        "from all"
+      ],
+      "held_by": {
+        "because of all": [
+          "v1",
+          "en4"
+        ],
+        "from all": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "צוֹרְרָֽי",
-      "gloss": "my foes",
+      "surface": "צוררי",
+      "gloss": "my adversaries",
       "readings": [
-        "my foes",
         "my adversaries",
         "my besiegers"
-      ]
+      ],
+      "held_by": {
+        "my adversaries": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my besiegers": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:57:21.965738790Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

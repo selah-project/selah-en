@@ -1,19 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "isaiah 59:9",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 59,
-  "translation": "Therefore is justice far from us, and righteousness does not overtake us. We hope for light — and behold, darkness; for brightness — in thick darkness we walk.",
+  "translation": "Therefore justice is far from us, and righteousness does not overtake us; we wait for light, and behold, darkness; for brightness, in thick darkness we walk.",
   "tokens": [
     {
       "surface": "על",
-      "gloss": "on"
+      "gloss": "therefore"
     },
     {
       "surface": "כן",
-      "gloss": "therefore"
+      "gloss": "so"
     },
     {
       "surface": "רחק",
@@ -26,7 +21,21 @@
         "justice",
         "judgment",
         "the verdict"
-      ]
+      ],
+      "held_by": {
+        "justice": [
+          "v2",
+          "en4"
+        ],
+        "judgment": [
+          "v1",
+          "v3"
+        ],
+        "the verdict": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ממנו",
@@ -46,12 +55,22 @@
     },
     {
       "surface": "נקוה",
-      "gloss": "we hope",
+      "gloss": "we wait for",
       "readings": [
-        "we hope",
         "we wait for",
-        "we look for"
-      ]
+        "we hope"
+      ],
+      "held_by": {
+        "we wait for": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "we hope": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לאור",
@@ -78,6 +97,6 @@
       "gloss": "we walk"
     }
   ],
-  "timestamp": "2026-09-20T13:30:05.555314873Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

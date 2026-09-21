@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "amos 3:2",
-  "book": "amos",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "Only you I have known of all the families of the earth; therefore I will visit against you ⟨את⟩ all your iniquities.",
+  "translation": "Only ⟨את⟩ you have I known, of all the families of the earth; therefore I will visit against you ⟨את⟩ all your iniquities.",
   "tokens": [
     {
       "surface": "רק",
@@ -13,12 +8,11 @@
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you",
-      "marks": "you I have known"
+      "gloss": "⟨את⟩ you"
     },
     {
       "surface": "ידעתי",
-      "gloss": "I have known"
+      "gloss": "have I known"
     },
     {
       "surface": "מכל",
@@ -34,7 +28,18 @@
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "על",
@@ -42,16 +47,27 @@
     },
     {
       "surface": "כן",
-      "gloss": "so"
+      "gloss": "therefore"
     },
     {
       "surface": "אפקד",
       "gloss": "I will visit",
       "readings": [
         "I will visit",
-        "I will muster",
         "I will punish"
-      ]
+      ],
+      "held_by": {
+        "I will visit": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I will punish": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עליכם",
@@ -59,8 +75,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "all your iniquities"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "כל",
@@ -71,6 +86,6 @@
       "gloss": "your iniquities"
     }
   ],
-  "timestamp": "2026-09-20T13:51:35.026025974Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

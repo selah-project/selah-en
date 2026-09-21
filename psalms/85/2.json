@@ -1,45 +1,62 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "psalms 85:2",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 85,
-  "translation": "You have accepted YHWH your land; you have turned the captivity of Jacob.",
+  "translation": "You were pleased with your land, YHWH; you turned the fortunes of Jacob.",
   "tokens": [
     {
-      "surface": "רָצִיתָ",
-      "gloss": "you have accepted"
+      "surface": "רצית",
+      "gloss": "You were pleased with"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "אַרְצֶךָ",
+      "surface": "ארצך",
       "gloss": "your land"
     },
     {
-      "surface": "שַׁבְתָּ",
-      "gloss": "you have turned",
+      "surface": "שבת",
+      "gloss": "you turned",
       "readings": [
-        "you have turned",
-        "you have returned"
-      ]
+        "you turned",
+        "you returned"
+      ],
+      "held_by": {
+        "you turned": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "you returned": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שְׁבוּת",
-      "gloss": "the captivity",
+      "surface": "שבות",
+      "gloss": "the fortunes",
       "readings": [
-        "the captivity",
-        "the exile"
-      ]
+        "the fortunes",
+        "the captivity"
+      ],
+      "disputed": true,
+      "held_by": {
+        "the fortunes": [
+          "v1"
+        ],
+        "the captivity": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יַעֲקֹב",
+      "surface": "יעקב",
       "gloss": "of Jacob"
     }
   ],
-  "timestamp": "2026-09-20T10:46:16.252431073Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

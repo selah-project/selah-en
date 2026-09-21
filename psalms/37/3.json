@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 37:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 37,
-  "translation": "Trust in YHWH and do good; dwell in the land and feed on faithfulness.",
+  "translation": "Trust in YHWH and do good; dwell in the land, and feed on faithfulness.",
   "tokens": [
     {
       "surface": "בטח",
-      "gloss": "trust"
+      "gloss": "Trust"
     },
     {
       "surface": "ביהוה",
@@ -33,7 +28,18 @@
       "readings": [
         "the land",
         "the earth"
-      ]
+      ],
+      "held_by": {
+        "the land": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the earth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ורעה",
@@ -41,18 +47,40 @@
       "readings": [
         "and feed on",
         "and shepherd"
-      ]
+      ],
+      "held_by": {
+        "and feed on": [
+          "v2",
+          "en4"
+        ],
+        "and shepherd": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אמונה",
       "gloss": "faithfulness",
       "readings": [
         "faithfulness",
-        "security",
         "firmness"
-      ]
+      ],
+      "held_by": {
+        "faithfulness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "firmness": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:43:00.215906799Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

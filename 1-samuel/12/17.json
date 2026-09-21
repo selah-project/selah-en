@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "1-samuel 12:17",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 12,
-  "translation": "Is it not wheat harvest today? I will call to YHWH, and he will give voices and rain, and know and see that your evil is great, which you have done in the eyes of YHWH, to ask for yourselves a king.",
+  "translation": "Is it not wheat harvest today? I will call to YHWH, and he will give voices and rain; and know and see that your evil is great, which you have done in the eyes of YHWH, to ask for yourselves a king.",
   "tokens": [
     {
       "surface": "הלוא",
@@ -44,8 +39,19 @@
       "gloss": "voices",
       "readings": [
         "voices",
-        "thunders"
-      ]
+        "thunder"
+      ],
+      "held_by": {
+        "voices": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "thunder": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ומטר",
@@ -65,7 +71,22 @@
     },
     {
       "surface": "רעתכם",
-      "gloss": "your evil"
+      "gloss": "your evil",
+      "readings": [
+        "your evil",
+        "your wickedness"
+      ],
+      "held_by": {
+        "your evil": [
+          "v2",
+          "en4"
+        ],
+        "your wickedness": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "רבה",
@@ -100,6 +121,6 @@
       "gloss": "a king"
     }
   ],
-  "timestamp": "2026-09-20T15:10:15.651878062Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

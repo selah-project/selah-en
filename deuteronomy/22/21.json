@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 21,
-  "ref": "deuteronomy 22:21",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "And they shall bring out ⟨את⟩ the girl to the opening of the house of her father, and the men of her city shall stone her with stones, and she shall die, because she committed folly in Israel, to whore ⟨against⟩ the house of her father; and you shall burn away the evil from your midst.",
+  "translation": "And they shall bring out ⟨את⟩ the girl to the opening of the house of her father, and the men of her city shall stone her with stones, and she shall die, because she has done a disgraceful thing in Israel, to commit whoredom in the house of her father; and you shall burn away the evil from your midst.",
   "tokens": [
     {
       "surface": "והוציאו",
@@ -13,8 +8,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the girl"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "הנער",
@@ -38,11 +32,7 @@
     },
     {
       "surface": "וסקלוה",
-      "gloss": "and stoned her",
-      "readings": [
-        "and stoned her",
-        "and hurled stones at her"
-      ]
+      "gloss": "and they shall stone her"
     },
     {
       "surface": "אנשי",
@@ -66,16 +56,25 @@
     },
     {
       "surface": "עשתה",
-      "gloss": "she committed"
+      "gloss": "she has done"
     },
     {
       "surface": "נבלה",
-      "gloss": "folly",
+      "gloss": "a disgraceful thing",
       "readings": [
-        "folly",
-        "an outrage",
-        "disgrace"
-      ]
+        "a disgraceful thing",
+        "folly"
+      ],
+      "held_by": {
+        "a disgraceful thing": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "folly": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בישראל",
@@ -83,11 +82,11 @@
     },
     {
       "surface": "לזנות",
-      "gloss": "to whore"
+      "gloss": "to commit whoredom"
     },
     {
       "surface": "בית",
-      "gloss": "⟨against⟩ the house of"
+      "gloss": "the house of"
     },
     {
       "surface": "אביה",
@@ -98,8 +97,18 @@
       "gloss": "and you shall burn away",
       "readings": [
         "and you shall burn away",
-        "and you shall consume"
-      ]
+        "and you shall put away"
+      ],
+      "held_by": {
+        "and you shall burn away": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and you shall put away": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "הרע",
@@ -110,6 +119,6 @@
       "gloss": "from your midst"
     }
   ],
-  "timestamp": "2026-09-20T10:01:07.690276527Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

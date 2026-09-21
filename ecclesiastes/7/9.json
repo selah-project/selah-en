@@ -1,53 +1,74 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "ecclesiastes 7:9",
-  "book": "ecclesiastes",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "Do not hurry in your spirit to be angry, for vexation rests in the bosom of fools.",
+  "translation": "Do not be hasty in your spirit to be angry, for vexation rests in the bosom of fools.",
   "tokens": [
     {
-      "surface": "אַל",
-      "gloss": "do not"
+      "surface": "אל",
+      "gloss": "Do not"
     },
     {
-      "surface": "תְּבַהֵל",
-      "gloss": "hurry"
+      "surface": "תבהל",
+      "gloss": "be hasty"
     },
     {
-      "surface": "בְּרוּחֲךָ",
+      "surface": "ברוחך",
       "gloss": "in your spirit"
     },
     {
-      "surface": "לִכְעוֹס",
-      "gloss": "to be angry"
+      "surface": "לכעוס",
+      "gloss": "to be angry",
+      "readings": [
+        "to be angry",
+        "to be vexed"
+      ],
+      "held_by": {
+        "to be angry": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "to be vexed": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "for"
     },
     {
-      "surface": "כַּעַס",
+      "surface": "כעס",
       "gloss": "vexation",
       "readings": [
         "vexation",
         "anger"
-      ]
+      ],
+      "held_by": {
+        "vexation": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "anger": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּחֵיק",
-      "gloss": "in the bosom of"
+      "surface": "בחיק",
+      "gloss": "in the bosom"
     },
     {
-      "surface": "כְּסִילִים",
-      "gloss": "fools"
+      "surface": "כסילים",
+      "gloss": "of fools"
     },
     {
-      "surface": "יָנוּחַ",
+      "surface": "ינוח",
       "gloss": "rests"
     }
   ],
-  "timestamp": "2026-09-20T16:45:23.285270306Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

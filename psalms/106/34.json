@@ -1,46 +1,69 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 34,
-  "ref": "psalms 106:34",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 106,
-  "translation": "They did not destroy ⟨את⟩ the peoples whom YHWH said to them,",
+  "translation": "They did not destroy ⟨את⟩ the peoples that YHWH had said to them,",
   "tokens": [
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "הִשְׁמִידוּ",
+      "surface": "השמידו",
       "gloss": "they destroyed"
     },
     {
-      "surface": "אֶת",
-      "gloss": "⟨את⟩",
-      "marks": "the peoples"
+      "surface": "את",
+      "gloss": "⟨את⟩"
     },
     {
-      "surface": "הָעַמִּים",
+      "surface": "העמים",
       "gloss": "the peoples"
     },
     {
-      "surface": "אֲשֶׁר",
-      "gloss": "whom"
+      "surface": "אשר",
+      "gloss": "that",
+      "readings": [
+        "that",
+        "whom"
+      ],
+      "held_by": {
+        "that": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "whom": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אָמַר",
-      "gloss": "said"
+      "surface": "אמר",
+      "gloss": "had said",
+      "readings": [
+        "had said",
+        "had commanded"
+      ],
+      "held_by": {
+        "had said": [
+          "v1",
+          "en4"
+        ],
+        "had commanded": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "לָהֶם",
+      "surface": "להם",
       "gloss": "to them"
     }
   ],
-  "timestamp": "2026-09-20T15:46:55.621811779Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "psalms 107:20",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 107,
-  "translation": "He sent his word and healed them, and delivered them from their destructions.",
+  "translation": "He sends his word and heals them, and delivers ⟨them⟩ from their destructions.",
   "tokens": [
     {
       "surface": "ישלח",
-      "gloss": "He sent"
+      "gloss": "He sends",
+      "readings": [
+        "He sends",
+        "He sent"
+      ],
+      "held_by": {
+        "He sends": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "He sent": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "דברו",
@@ -17,25 +26,46 @@
       "readings": [
         "his word",
         "his matter"
-      ]
+      ],
+      "held_by": {
+        "his word": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his matter": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וירפאם",
-      "gloss": "and healed them"
+      "gloss": "and heals them"
     },
     {
       "surface": "וימלט",
-      "gloss": "and delivered them"
+      "gloss": "and delivers"
     },
     {
       "surface": "משחיתותם",
       "gloss": "from their destructions",
       "readings": [
         "from their destructions",
-        "from their pits"
-      ]
+        "from their ruin-pits"
+      ],
+      "held_by": {
+        "from their destructions": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from their ruin-pits": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:07:07.689627774Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

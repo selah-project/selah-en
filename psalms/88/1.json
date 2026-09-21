@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 88:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 88,
-  "translation": "A song, a psalm, for the sons of Korah, for the one who excels; upon Mahalath, to afflict; a maschil for Heman the Ezrahite.",
+  "translation": "A song, a psalm of the sons of Korah, for the Chief Musician, upon Machalath Leannoth, an instruction of Heman the Ezrahite.",
   "tokens": [
     {
       "surface": "שיר",
@@ -17,7 +12,7 @@
     },
     {
       "surface": "לבני",
-      "gloss": "for the sons of"
+      "gloss": "of the sons of"
     },
     {
       "surface": "קרח",
@@ -25,7 +20,21 @@
     },
     {
       "surface": "למנצח",
-      "gloss": "for the one who excels"
+      "gloss": "for the Chief Musician",
+      "readings": [
+        "for the Chief Musician",
+        "for the one who excels"
+      ],
+      "held_by": {
+        "for the Chief Musician": [
+          "v2",
+          "v3"
+        ],
+        "for the one who excels": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
@@ -33,7 +42,7 @@
     },
     {
       "surface": "מחלת",
-      "gloss": "Mahalath"
+      "gloss": "Machalath"
     },
     {
       "surface": "לענות",
@@ -41,21 +50,47 @@
       "readings": [
         "to afflict",
         "Leannoth"
-      ]
+      ],
+      "held_by": {
+        "to afflict": [
+          "v1",
+          "en4"
+        ],
+        "Leannoth": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "משכיל",
-      "gloss": "a maschil"
+      "gloss": "an instruction",
+      "readings": [
+        "an instruction",
+        "a maschil"
+      ],
+      "held_by": {
+        "an instruction": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "a maschil": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "להימן",
-      "gloss": "for Heman"
+      "gloss": "of Heman"
     },
     {
       "surface": "האזרחי",
       "gloss": "the Ezrahite"
     }
   ],
-  "timestamp": "2026-09-20T14:05:00.782987824Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

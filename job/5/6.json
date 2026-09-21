@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "job 5:6",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "For mischief does not go out from dust, and from the earth toil does not sprout.",
+  "translation": "For trouble does not go out from the dust, and from the ground trouble does not sprout.",
   "tokens": [
     {
       "surface": "כי",
@@ -17,24 +12,36 @@
     },
     {
       "surface": "יצא",
-      "gloss": "goes out"
+      "gloss": "does go out"
     },
     {
       "surface": "מעפר",
-      "gloss": "from dust"
+      "gloss": "from the dust"
     },
     {
       "surface": "און",
-      "gloss": "mischief",
+      "gloss": "trouble",
       "readings": [
+        "trouble",
         "mischief",
-        "iniquity",
-        "vanity"
-      ]
+        "evil"
+      ],
+      "held_by": {
+        "trouble": [
+          "v2",
+          "v3"
+        ],
+        "mischief": [
+          "en4"
+        ],
+        "evil": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "ומאדמה",
-      "gloss": "and from the earth"
+      "gloss": "and from the ground"
     },
     {
       "surface": "לא",
@@ -42,18 +49,27 @@
     },
     {
       "surface": "יצמח",
-      "gloss": "sprouts"
+      "gloss": "does sprout"
     },
     {
       "surface": "עמל",
-      "gloss": "toil",
+      "gloss": "trouble",
       "readings": [
-        "toil",
         "trouble",
-        "misery"
-      ]
+        "toil"
+      ],
+      "held_by": {
+        "trouble": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "toil": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:17:07.274167842Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

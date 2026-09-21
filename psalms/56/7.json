@@ -1,24 +1,44 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 56:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 56,
-  "translation": "They band together, they hide themselves — they — watching my heels; as they have waited for my soul.",
+  "translation": "They gather, they hide — they — watch my heels; as they wait for my life.",
   "tokens": [
     {
       "surface": "יגורו",
-      "gloss": "they band together",
+      "gloss": "gather",
       "readings": [
-        "they band together",
-        "they sojourn",
-        "they stir up"
-      ]
+        "gather",
+        "sojourn"
+      ],
+      "held_by": {
+        "gather": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "sojourn": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יצפינו",
-      "gloss": "they hide themselves"
+      "gloss": "hide",
+      "readings": [
+        "hide",
+        "lurk in ambush"
+      ],
+      "held_by": {
+        "hide": [
+          "v1",
+          "en4"
+        ],
+        "lurk in ambush": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "המה",
@@ -38,18 +58,42 @@
     },
     {
       "surface": "קוו",
-      "gloss": "they have waited"
+      "gloss": "wait for",
+      "readings": [
+        "wait for",
+        "hope for"
+      ],
+      "held_by": {
+        "wait for": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "hope for": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "נפשי",
-      "gloss": "my soul",
+      "gloss": "my life",
       "readings": [
-        "my soul",
         "my life",
-        "my throat"
-      ]
+        "my soul"
+      ],
+      "held_by": {
+        "my life": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my soul": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:01:41.424059745Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

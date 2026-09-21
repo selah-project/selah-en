@@ -1,19 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "esther 1:5",
-  "book": "esther",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And at the filling of these days the king made for all the people found in Shushan the citadel, from great and unto small, a drinking-feast seven days, in the court of the garden of the palace of the king.",
+  "translation": "And at the fullness of these days the king made for all the people found in Shushan the citadel, from great and unto small, a banquet ⟨of⟩ seven days, in the court of the garden of the palace of the king.",
   "tokens": [
     {
       "surface": "ובמלואת",
-      "gloss": "and at the filling of",
-      "readings": [
-        "and at the filling of",
-        "and at the fullness of"
-      ]
+      "gloss": "and at the fullness of"
     },
     {
       "surface": "הימים",
@@ -49,7 +40,22 @@
     },
     {
       "surface": "הבירה",
-      "gloss": "the citadel"
+      "gloss": "the citadel",
+      "readings": [
+        "the citadel",
+        "the palace"
+      ],
+      "held_by": {
+        "the citadel": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the palace": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "למגדול",
@@ -65,11 +71,22 @@
     },
     {
       "surface": "משתה",
-      "gloss": "a drinking-feast",
+      "gloss": "a banquet",
       "readings": [
-        "a drinking-feast",
-        "a banquet"
-      ]
+        "a banquet",
+        "a drinking-feast"
+      ],
+      "held_by": {
+        "a banquet": [
+          "v2",
+          "v3"
+        ],
+        "a drinking-feast": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שבעת",
@@ -96,6 +113,6 @@
       "gloss": "the king"
     }
   ],
-  "timestamp": "2026-09-20T11:00:43.499392714Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

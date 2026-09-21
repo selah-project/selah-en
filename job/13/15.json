@@ -1,57 +1,75 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "job 13:15",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 13,
-  "translation": "Behold — he kills me; I do not wait. Only, my ways to his face I will argue.",
+  "translation": "Behold, he will kill me — I will not wait; only my ways to his face I will argue.",
   "tokens": [
     {
-      "surface": "הֵן",
+      "surface": "הן",
       "gloss": "Behold"
     },
     {
-      "surface": "יִקְטְלֵנִי",
-      "gloss": "he kills me"
+      "surface": "יקטלני",
+      "gloss": "he will kill me"
     },
     {
       "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "אֲיַחֵל",
-      "gloss": "I do I-wait",
+      "surface": "איחל",
+      "gloss": "wait",
       "readings": [
-        "I do I-wait",
-        "I hope"
-      ]
+        "wait",
+        "hope"
+      ],
+      "held_by": {
+        "wait": [
+          "v1",
+          "v3"
+        ],
+        "hope": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אַךְ",
+      "surface": "אך",
       "gloss": "Only"
     },
     {
-      "surface": "דְּרָכַי",
+      "surface": "דרכי",
       "gloss": "my ways"
     },
     {
-      "surface": "אֶל",
+      "surface": "אל",
       "gloss": "to"
     },
     {
-      "surface": "פָּנָיו",
+      "surface": "פניו",
       "gloss": "his face"
     },
     {
-      "surface": "אוֹכִיחַ",
+      "surface": "אוכיח",
       "gloss": "I will argue",
       "readings": [
         "I will argue",
         "I will prove right"
-      ]
+      ],
+      "held_by": {
+        "I will argue": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "I will prove right": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T16:44:03.657833213Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,28 +1,33 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "2-samuel 9:10",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "And you shall serve him ⟨את⟩ the ground — you and your sons and your servants — and bring in, and it shall be to the son of your lord bread and he shall eat it. And Mephibosheth, the son of your lord, shall eat continually bread at my table; and to Ziba were fifteen sons and twenty servants.",
+  "translation": "And you shall work ⟨את⟩ the ground for him — you and your sons and your servants — and you shall bring in, and it shall be for your lord's son bread, and he shall eat it; and Mephibosheth, your lord's son, shall eat continually bread upon my table. Now to Tsiba ⟨were⟩ fifteen sons and twenty servants.",
   "tokens": [
     {
       "surface": "ועבדת",
-      "gloss": "and you shall serve",
+      "gloss": "and you shall work",
       "readings": [
-        "and you shall serve",
-        "and you shall work"
-      ]
+        "and you shall work",
+        "and you shall serve"
+      ],
+      "held_by": {
+        "and you shall work": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and you shall serve": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לו",
-      "gloss": "him"
+      "gloss": "for him"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the ground"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "האדמה",
@@ -30,7 +35,18 @@
       "readings": [
         "the ground",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the ground": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אתה",
@@ -54,11 +70,11 @@
     },
     {
       "surface": "לבן",
-      "gloss": "to the son of"
+      "gloss": "for ⟨the⟩ son"
     },
     {
       "surface": "אדניך",
-      "gloss": "your lord"
+      "gloss": "of your lord"
     },
     {
       "surface": "לחם",
@@ -66,7 +82,18 @@
       "readings": [
         "bread",
         "food"
-      ]
+      ],
+      "held_by": {
+        "bread": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "food": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואכלו",
@@ -78,11 +105,11 @@
     },
     {
       "surface": "בן",
-      "gloss": "son of"
+      "gloss": "⟨the⟩ son"
     },
     {
       "surface": "אדניך",
-      "gloss": "your lord"
+      "gloss": "of your lord"
     },
     {
       "surface": "יאכל",
@@ -98,7 +125,22 @@
     },
     {
       "surface": "על",
-      "gloss": "at"
+      "gloss": "upon",
+      "readings": [
+        "upon",
+        "at"
+      ],
+      "held_by": {
+        "upon": [
+          "v1",
+          "v3"
+        ],
+        "at": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שלחני",
@@ -106,11 +148,11 @@
     },
     {
       "surface": "ולציבא",
-      "gloss": "and to Ziba"
+      "gloss": "and to Tsiba"
     },
     {
       "surface": "חמשה",
-      "gloss": "five"
+      "gloss": "fifteen"
     },
     {
       "surface": "עשר",
@@ -129,6 +171,6 @@
       "gloss": "servants"
     }
   ],
-  "timestamp": "2026-09-20T10:11:34.013231007Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

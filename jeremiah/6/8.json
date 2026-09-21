@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 8,
-  "ref": "jeremiah 6:8",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "Be instructed, Jerusalem, lest my soul be wrenched away from you, lest I make you a devastation, a land not inhabited.",
+  "translation": "Be corrected, O Jerusalem, lest my nefesh be torn from you, lest I make you a desolation, a land not inhabited.",
   "tokens": [
     {
       "surface": "הוסרי",
-      "gloss": "Be instructed"
+      "gloss": "Be corrected",
+      "readings": [
+        "Be corrected",
+        "Be instructed"
+      ],
+      "held_by": {
+        "Be corrected": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "Be instructed": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "gloss": "O Jerusalem"
     },
     {
       "surface": "פן",
@@ -21,19 +30,44 @@
     },
     {
       "surface": "תקע",
-      "gloss": "be wrenched away",
+      "gloss": "be torn",
       "readings": [
-        "be wrenched away",
+        "be torn",
         "be alienated"
-      ]
+      ],
+      "held_by": {
+        "be torn": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "be alienated": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נפשי",
-      "gloss": "my soul",
+      "gloss": "my nefesh",
       "readings": [
+        "my nefesh",
         "my soul",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ממך",
@@ -49,11 +83,21 @@
     },
     {
       "surface": "שממה",
-      "gloss": "a devastation",
+      "gloss": "a desolation",
       "readings": [
-        "a devastation",
+        "a desolation",
         "an astonishment"
-      ]
+      ],
+      "held_by": {
+        "a desolation": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "an astonishment": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ארץ",
@@ -61,7 +105,18 @@
       "readings": [
         "a land",
         "the earth"
-      ]
+      ],
+      "held_by": {
+        "a land": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the earth": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לוא",
@@ -69,13 +124,9 @@
     },
     {
       "surface": "נושבה",
-      "gloss": "inhabited",
-      "readings": [
-        "inhabited",
-        "sat upon"
-      ]
+      "gloss": "inhabited"
     }
   ],
-  "timestamp": "2026-09-20T13:31:45.107574753Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

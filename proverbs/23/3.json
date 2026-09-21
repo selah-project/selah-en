@@ -1,45 +1,76 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "proverbs 23:3",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "Do not desire his delicacies, for it ⟨is⟩ bread of falsehoods.",
+  "translation": "Do not crave his delicacies, for it is bread of lies.",
   "tokens": [
     {
-      "surface": "אַל",
+      "surface": "אל",
       "gloss": "Do not"
     },
     {
-      "surface": "תִּתְאָו",
-      "gloss": "desire"
+      "surface": "תתאו",
+      "gloss": "crave",
+      "readings": [
+        "crave",
+        "desire"
+      ],
+      "held_by": {
+        "crave": [
+          "v2",
+          "v3"
+        ],
+        "desire": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לְמַטְעַמּוֹתָיו",
+      "surface": "למטעמותיו",
       "gloss": "his delicacies"
     },
     {
-      "surface": "וְהוּא",
+      "surface": "והוא",
       "gloss": "for it"
     },
     {
-      "surface": "לֶחֶם",
+      "surface": "לחם",
       "gloss": "bread",
       "readings": [
         "bread",
         "food"
-      ]
+      ],
+      "held_by": {
+        "bread": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "food": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כְּזָבִים",
-      "gloss": "of falsehoods",
+      "surface": "כזבים",
+      "gloss": "of lies",
       "readings": [
-        "of falsehoods",
-        "of lies"
-      ]
+        "of lies",
+        "of falsehoods"
+      ],
+      "held_by": {
+        "of lies": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of falsehoods": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:53:15.346743475Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

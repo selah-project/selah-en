@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 138:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 138,
-  "translation": "Of David. I give thanks to You with all my heart; before Elohim I sing praise to You.",
+  "translation": "Of David. I give thanks to You with all my heart; before Elohim I make music to You.",
   "tokens": [
     {
       "surface": "לדוד",
@@ -16,9 +11,23 @@
       "gloss": "I give thanks to You",
       "readings": [
         "I give thanks to You",
-        "I confess You",
-        "I praise You"
-      ]
+        "I praise You",
+        "I confess You"
+      ],
+      "held_by": {
+        "I give thanks to You": [
+          "v2",
+          "en4"
+        ],
+        "I praise You": [
+          "v1",
+          "v3"
+        ],
+        "I confess You": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בכל",
@@ -33,9 +42,19 @@
       "gloss": "before",
       "readings": [
         "before",
-        "in front of",
         "opposite"
-      ]
+      ],
+      "held_by": {
+        "before": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "opposite": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהים",
@@ -43,17 +62,24 @@
       "readings": [
         "Elohim",
         "gods"
-      ]
+      ],
+      "held_by": {
+        "Elohim": [
+          "en4"
+        ],
+        "gods": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אזמרך",
-      "gloss": "I sing praise to You",
-      "readings": [
-        "I sing praise to You",
-        "I play music to You"
-      ]
+      "gloss": "I make music to You"
     }
   ],
-  "timestamp": "2026-09-20T10:49:57.877192988Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

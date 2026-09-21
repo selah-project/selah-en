@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 131:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 131,
-  "translation": "Let Israel wait to YHWH, from now and unto forever.",
+  "translation": "Let Israel hope in YHWH from now and unto forever.",
   "tokens": [
     {
       "surface": "יחל",
-      "gloss": "let wait"
+      "gloss": "let hope",
+      "readings": [
+        "let hope",
+        "let wait"
+      ],
+      "held_by": {
+        "let hope": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "let wait": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ישראל",
@@ -17,7 +26,21 @@
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "in",
+      "readings": [
+        "in",
+        "to"
+      ],
+      "held_by": {
+        "in": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -36,11 +59,21 @@
       "gloss": "forever",
       "readings": [
         "forever",
-        "the age",
-        "concealment"
-      ]
+        "the age"
+      ],
+      "held_by": {
+        "forever": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the age": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:10:08.521312550Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

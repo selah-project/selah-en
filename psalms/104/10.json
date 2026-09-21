@@ -1,41 +1,77 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 104:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 104,
-  "translation": "You who send the springs into the wadis — between the mountains they walk.",
+  "translation": "Who sends forth springs in the valleys — between the mountains they walk.",
   "tokens": [
     {
-      "surface": "הַמְשַׁלֵּחַ",
-      "gloss": "the one sending"
+      "surface": "המשלח",
+      "gloss": "who sends forth",
+      "readings": [
+        "who sends forth",
+        "the one sending"
+      ],
+      "held_by": {
+        "who sends forth": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the one sending": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מַעְיָנִים",
+      "surface": "מעינים",
       "gloss": "springs"
     },
     {
-      "surface": "בַּנְּחָלִים",
-      "gloss": "into the wadis",
+      "surface": "בנחלים",
+      "gloss": "in the valleys",
       "readings": [
-        "into the wadis",
-        "into the valleys"
-      ]
+        "in the valleys",
+        "in the wadis"
+      ],
+      "held_by": {
+        "in the valleys": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "in the wadis": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "בֵּין",
+      "surface": "בין",
       "gloss": "between"
     },
     {
-      "surface": "הָרִים",
+      "surface": "הרים",
       "gloss": "the mountains"
     },
     {
-      "surface": "יְהַלֵּכוּן",
-      "gloss": "they walk"
+      "surface": "יהלכון",
+      "gloss": "they walk",
+      "readings": [
+        "they walk",
+        "they flow"
+      ],
+      "held_by": {
+        "they walk": [
+          "v2",
+          "en4"
+        ],
+        "they flow": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:48:00.358353091Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

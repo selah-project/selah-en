@@ -1,23 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "genesis 39:16",
-  "book": "genesis",
-  "lang": "en4",
-  "chapter": 39,
-  "translation": "And she laid his garment beside her, until his lord came to his house.",
+  "translation": "And she laid his garment beside her until his master came ⟨to⟩ his house.",
   "tokens": [
     {
       "surface": "וַתַּנַּח",
       "gloss": "and she laid"
     },
     {
-      "surface": "בִּגְדוֹ",
+      "surface": "בְּגָדוֹ",
       "gloss": "his garment"
     },
     {
       "surface": "אֶצְלָהּ",
-      "gloss": "beside her"
+      "gloss": "beside her",
+      "readings": [
+        "beside her",
+        "near her"
+      ],
+      "held_by": {
+        "beside her": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "near her": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "עַד",
@@ -29,7 +38,22 @@
     },
     {
       "surface": "אֲדֹנָיו",
-      "gloss": "his lord"
+      "gloss": "his master",
+      "readings": [
+        "his master",
+        "his lord"
+      ],
+      "held_by": {
+        "his master": [
+          "v2",
+          "v3"
+        ],
+        "his lord": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אֶל",
@@ -40,6 +64,6 @@
       "gloss": "his house"
     }
   ],
-  "timestamp": "2026-09-20T17:18:58.569499419Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "psalms 125:3",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 125,
-  "translation": "For the scepter of wickedness does not rest upon the lot of the righteous, so that the righteous do not stretch out their hands to wrongdoing.",
+  "translation": "For the scepter of wickedness shall not rest upon the lot of the righteous, so that the righteous do not stretch out their hands to iniquity.",
   "tokens": [
     {
       "surface": "כי",
@@ -17,20 +12,45 @@
     },
     {
       "surface": "ינוח",
-      "gloss": "it rests"
+      "gloss": "shall rest"
     },
     {
       "surface": "שבט",
       "gloss": "the scepter of",
       "readings": [
         "the scepter of",
-        "the rod of",
-        "the staff of"
-      ]
+        "the rod of"
+      ],
+      "held_by": {
+        "the scepter of": [
+          "v2",
+          "en4"
+        ],
+        "the rod of": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הרשע",
-      "gloss": "wickedness"
+      "gloss": "of wickedness",
+      "readings": [
+        "of wickedness",
+        "of the wicked"
+      ],
+      "held_by": {
+        "of wickedness": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "of the wicked": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
@@ -38,11 +58,11 @@
     },
     {
       "surface": "גורל",
-      "gloss": "the lot of"
+      "gloss": "the lot"
     },
     {
       "surface": "הצדיקים",
-      "gloss": "the righteous"
+      "gloss": "of the righteous"
     },
     {
       "surface": "למען",
@@ -54,11 +74,22 @@
     },
     {
       "surface": "ישלחו",
-      "gloss": "they stretch out",
+      "gloss": "stretch out",
       "readings": [
-        "they stretch out",
-        "they send out"
-      ]
+        "stretch out",
+        "send out"
+      ],
+      "held_by": {
+        "stretch out": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "send out": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הצדיקים",
@@ -66,13 +97,13 @@
     },
     {
       "surface": "בעולתה",
-      "gloss": "to wrongdoing"
+      "gloss": "to iniquity"
     },
     {
       "surface": "ידיהם",
       "gloss": "their hands"
     }
   ],
-  "timestamp": "2026-09-20T10:49:54.966535931Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

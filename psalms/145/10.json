@@ -1,20 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 145:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 145,
-  "translation": "All your works will thank you, YHWH, and your chasidim will bless you.",
+  "translation": "All your works will praise you, YHWH, and your faithful ones will bless you.",
   "tokens": [
     {
       "surface": "יודוך",
-      "gloss": "will thank you",
+      "gloss": "will praise you",
       "readings": [
-        "will thank you",
         "will praise you",
-        "will confess you"
-      ]
+        "will thank you"
+      ],
+      "held_by": {
+        "will praise you": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will thank you": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יהוה",
@@ -22,7 +27,7 @@
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "All"
     },
     {
       "surface": "מעשיך",
@@ -30,17 +35,29 @@
     },
     {
       "surface": "וחסידיך",
-      "gloss": "and your chasidim",
+      "gloss": "and your faithful ones",
       "readings": [
-        "and your chasidim",
-        "and your faithful ones"
-      ]
+        "and your faithful ones",
+        "and your chasidim"
+      ],
+      "held_by": {
+        "and your faithful ones": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and your chasidim": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יברכוכה",
       "gloss": "will bless you"
     }
   ],
-  "timestamp": "2026-09-20T14:10:33.606650043Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

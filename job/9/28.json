@@ -1,45 +1,66 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 28,
-  "ref": "job 9:28",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 9,
-  "translation": "I am in dread of all my pains; I know that you will not hold me clean.",
+  "translation": "I dread all my pains; I know that you will not hold me clean.",
   "tokens": [
     {
-      "surface": "יָגֹרְתִּי",
-      "gloss": "I am in dread of"
+      "surface": "יגרתי",
+      "gloss": "I dread"
     },
     {
-      "surface": "כָּל",
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "עַצְּבֹתָי",
+      "surface": "עצבתי",
       "gloss": "my pains",
       "readings": [
         "my pains",
         "my idols"
-      ]
+      ],
+      "held_by": {
+        "my pains": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my idols": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יָדַעְתִּי",
+      "surface": "ידעתי",
       "gloss": "I know"
     },
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "that"
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "תְנַקֵּנִי",
-      "gloss": "you will hold me clean"
+      "surface": "תנקני",
+      "gloss": "you will hold me clean",
+      "readings": [
+        "you will hold me clean",
+        "you will acquit me"
+      ],
+      "held_by": {
+        "you will hold me clean": [
+          "en4"
+        ],
+        "you will acquit me": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:54:58.751292279Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

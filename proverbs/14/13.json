@@ -1,41 +1,64 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "proverbs 14:13",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "Even in laughter the heart is pained, and its afterward is joy ⟨in⟩ grief.",
+  "translation": "Even in laughter the heart may ache, and the end of that joy is grief.",
   "tokens": [
     {
-      "surface": "גַּם",
+      "surface": "גם",
       "gloss": "Even"
     },
     {
-      "surface": "בִּשְׂחוֹק",
+      "surface": "בשחוק",
       "gloss": "in laughter"
     },
     {
-      "surface": "יִכְאַב",
-      "gloss": "is pained"
+      "surface": "יכאב",
+      "gloss": "may ache",
+      "readings": [
+        "may ache",
+        "is pained"
+      ],
+      "held_by": {
+        "may ache": [
+          "v2",
+          "v3"
+        ],
+        "is pained": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לֵב",
+      "surface": "לב",
       "gloss": "the heart"
     },
     {
-      "surface": "וְאַחֲרִיתָהּ",
-      "gloss": "and its afterward"
+      "surface": "ואחריתה",
+      "gloss": "and the end of that",
+      "readings": [
+        "and the end of that",
+        "and its afterward"
+      ],
+      "held_by": {
+        "and the end of that": [
+          "v2",
+          "v3",
+          "v1"
+        ],
+        "and its afterward": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שִׂמְחָה",
+      "surface": "שמחה",
       "gloss": "joy"
     },
     {
-      "surface": "תוּגָה",
-      "gloss": "grief"
+      "surface": "תוגה",
+      "gloss": "is grief"
     }
   ],
-  "timestamp": "2026-09-20T14:12:44.704636521Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

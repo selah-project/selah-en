@@ -1,45 +1,83 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "psalms 73:19",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 73,
-  "translation": "How have they become ⟨to⟩ desolation, like a moment! They are snatched away, finished, ⟨from⟩ terrors.",
+  "translation": "How have they become ⟨a⟩ desolation, as ⟨in⟩ a moment! They are finished, they are consumed by terrors.",
   "tokens": [
     {
-      "surface": "אֵיךְ",
+      "surface": "איך",
       "gloss": "How"
     },
     {
-      "surface": "הָיוּ",
+      "surface": "היו",
       "gloss": "have they become"
     },
     {
-      "surface": "לְשַׁמָּה",
-      "gloss": "to desolation"
+      "surface": "לשמה",
+      "gloss": "⟨a⟩ desolation",
+      "readings": [
+        "⟨a⟩ desolation",
+        "to desolation"
+      ],
+      "held_by": {
+        "⟨a⟩ desolation": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to desolation": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כְּרָגַע",
-      "gloss": "like a moment"
+      "surface": "כרגע",
+      "gloss": "as ⟨in⟩ a moment",
+      "readings": [
+        "as ⟨in⟩ a moment",
+        "like a moment"
+      ],
+      "held_by": {
+        "as ⟨in⟩ a moment": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "like a moment": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "סָפוּ",
-      "gloss": "they are snatched away"
+      "surface": "ספו",
+      "gloss": "they are finished",
+      "readings": [
+        "they are finished",
+        "they are swept away"
+      ],
+      "held_by": {
+        "they are finished": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they are swept away": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "תַּמּוּ",
-      "gloss": "finished"
+      "surface": "תמו",
+      "gloss": "they are consumed"
     },
     {
-      "surface": "מִן",
-      "gloss": "from"
+      "surface": "מן",
+      "gloss": "by"
     },
     {
-      "surface": "בַּלָּהוֹת",
+      "surface": "בלהות",
       "gloss": "terrors"
     }
   ],
-  "timestamp": "2026-09-20T14:04:20.550645497Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

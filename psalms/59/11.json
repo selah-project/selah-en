@@ -1,49 +1,77 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 59:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 59,
-  "translation": "The Elohim of his chesed will meet me; Elohim will let me see my watchers.",
+  "translation": "The Elohim of his chesed will meet me; Elohim will let me see my foes.",
   "tokens": [
     {
-      "surface": "אֱלֹהֵי",
-      "gloss": "Elohim of"
+      "surface": "אלהי",
+      "gloss": "the Elohim of"
     },
     {
-      "surface": "חֲסָדוֹ",
+      "surface": "חסדו",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
         "his steadfast love"
-      ]
+      ],
+      "held_by": {
+        "his chesed": [
+          "v3",
+          "en4"
+        ],
+        "his steadfast love": [
+          "v1",
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יְקַדְּמֵנִי",
+      "surface": "יקדמני",
       "gloss": "will meet me",
       "readings": [
         "will meet me",
         "will go before me"
-      ]
+      ],
+      "held_by": {
+        "will meet me": [
+          "v1",
+          "en4"
+        ],
+        "will go before me": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֱלֹהִים",
+      "surface": "אלהים",
       "gloss": "Elohim"
     },
     {
-      "surface": "יַרְאֵנִי",
+      "surface": "יראני",
       "gloss": "will let me see"
     },
     {
-      "surface": "בְּשֹׁרְרָי",
-      "gloss": "my watchers",
+      "surface": "בשררי",
+      "gloss": "my foes",
       "readings": [
-        "my watchers",
-        "my foes"
-      ]
+        "my foes",
+        "my watchers"
+      ],
+      "held_by": {
+        "my foes": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my watchers": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:02:22.656615944Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

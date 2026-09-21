@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "deuteronomy 19:15",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 19,
-  "translation": "One witness shall not rise against a man, for every iniquity and for every sin, in every sin that he sins; at the mouth of two witnesses or at the mouth of three witnesses shall a matter rise.",
+  "translation": "One witness shall not rise up against a man for any iniquity or for any sin, in any sin that he sins; on the mouth of two witnesses or on the mouth of three witnesses a matter shall be established.",
   "tokens": [
     {
       "surface": "לא",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "יקום",
-      "gloss": "shall rise"
+      "gloss": "shall … rise up"
     },
     {
       "surface": "עד",
@@ -29,19 +24,15 @@
     },
     {
       "surface": "לכל",
-      "gloss": "for every"
+      "gloss": "for any"
     },
     {
       "surface": "עון",
-      "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "perversity"
-      ]
+      "gloss": "iniquity"
     },
     {
       "surface": "ולכל",
-      "gloss": "and for every"
+      "gloss": "or for any"
     },
     {
       "surface": "חטאת",
@@ -49,11 +40,22 @@
       "readings": [
         "sin",
         "sin-offering"
-      ]
+      ],
+      "held_by": {
+        "sin": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "sin-offering": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בכל",
-      "gloss": "in every"
+      "gloss": "in any"
     },
     {
       "surface": "חטא",
@@ -69,15 +71,15 @@
     },
     {
       "surface": "על",
-      "gloss": "at"
+      "gloss": "on"
     },
     {
       "surface": "פי",
-      "gloss": "the mouth of"
+      "gloss": "the mouth"
     },
     {
       "surface": "שני",
-      "gloss": "two"
+      "gloss": "of two"
     },
     {
       "surface": "עדים",
@@ -89,15 +91,15 @@
     },
     {
       "surface": "על",
-      "gloss": "at"
+      "gloss": "on"
     },
     {
       "surface": "פי",
-      "gloss": "the mouth of"
+      "gloss": "the mouth"
     },
     {
       "surface": "שלשה",
-      "gloss": "three"
+      "gloss": "of three"
     },
     {
       "surface": "עדים",
@@ -105,22 +107,42 @@
     },
     {
       "surface": "יקום",
-      "gloss": "shall rise",
+      "gloss": "shall be established",
       "readings": [
-        "shall rise",
-        "shall stand"
-      ]
+        "shall be established",
+        "shall rise"
+      ],
+      "held_by": {
+        "shall be established": [
+          "v2"
+        ],
+        "shall rise": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "דבר",
       "gloss": "a matter",
       "readings": [
         "a matter",
-        "a word",
-        "a thing"
-      ]
+        "a word"
+      ],
+      "held_by": {
+        "a matter": [
+          "v2",
+          "en4"
+        ],
+        "a word": [
+          "v1",
+          "v3"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T12:49:16.797202058Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

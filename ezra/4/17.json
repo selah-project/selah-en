@@ -1,20 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "ezra 4:17",
-  "book": "ezra",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "A decree the king sent concerning Rehum ⟨the⟩ master of judgment, and Shimshai ⟨the⟩ scribe, and ⟨the⟩ rest of their companions dwelling in Samaria, and ⟨the⟩ rest beyond the River: “Peace, and now —”",
+  "translation": "A decree the king sent to Rehum the master of judgment, and Shimshai the scribe, and the rest of their companions who dwell in Samaria, and the rest beyond the River: Peace, and now —",
   "tokens": [
     {
       "surface": "פתגמא",
-      "gloss": "A decree",
+      "gloss": "decree",
       "readings": [
-        "a decree",
-        "a word",
-        "a letter"
-      ]
+        "decree",
+        "an answer"
+      ],
+      "held_by": {
+        "decree": [
+          "v1",
+          "v3"
+        ],
+        "an answer": [
+          "v2"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שלח",
@@ -26,7 +30,22 @@
     },
     {
       "surface": "על",
-      "gloss": "concerning"
+      "gloss": "to",
+      "readings": [
+        "to",
+        "concerning"
+      ],
+      "held_by": {
+        "to": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "concerning": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "רחום",
@@ -38,12 +57,7 @@
     },
     {
       "surface": "טעם",
-      "gloss": "judgment",
-      "readings": [
-        "judgment",
-        "decision",
-        "flavor"
-      ]
+      "gloss": "judgment"
     },
     {
       "surface": "ושמשי",
@@ -67,7 +81,7 @@
     },
     {
       "surface": "יתבין",
-      "gloss": "are dwelling"
+      "gloss": "dwell"
     },
     {
       "surface": "בשמרין",
@@ -75,7 +89,7 @@
     },
     {
       "surface": "ושאר",
-      "gloss": "and the rest"
+      "gloss": "and to the rest"
     },
     {
       "surface": "עבר",
@@ -90,15 +104,24 @@
       "gloss": "Peace",
       "readings": [
         "Peace",
-        "prosperity",
-        "welfare"
-      ]
+        "prosperity"
+      ],
+      "held_by": {
+        "Peace": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "prosperity": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וכעת",
       "gloss": "and now"
     }
   ],
-  "timestamp": "2026-09-20T17:30:21.862159288Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

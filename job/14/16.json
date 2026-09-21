@@ -1,60 +1,82 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 16,
-  "ref": "job 14:16",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "For now You would number my steps; You would not watch over my sin.",
+  "translation": "For now You number my steps; You do not watch over my sin.",
   "tokens": [
     {
-      "surface": "כִּי",
-      "gloss": "for"
+      "surface": "כי",
+      "gloss": "For"
     },
     {
-      "surface": "עַתָּה",
+      "surface": "עתה",
       "gloss": "now"
     },
     {
-      "surface": "צְעָדַי",
+      "surface": "צעדי",
       "gloss": "my steps"
     },
     {
-      "surface": "תִּסְפּוֹר",
-      "gloss": "You would number",
+      "surface": "תספור",
+      "gloss": "You number",
       "readings": [
-        "You would number",
-        "You would count",
-        "You would tally"
-      ]
+        "You number",
+        "You would count"
+      ],
+      "held_by": {
+        "You number": [
+          "v1",
+          "v3"
+        ],
+        "You would count": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לֹא",
-      "gloss": "not"
+      "surface": "לא",
+      "gloss": "but You do not"
     },
     {
-      "surface": "תִּשְׁמוֹר",
-      "gloss": "You would watch over",
+      "surface": "תשמור",
+      "gloss": "watch",
       "readings": [
-        "You would watch over",
-        "You would guard",
-        "You would keep watch for"
-      ]
+        "watch",
+        "keep watch"
+      ],
+      "held_by": {
+        "watch": [
+          "v1",
+          "v3"
+        ],
+        "keep watch": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "over"
     },
     {
-      "surface": "חַטָּאתִי",
+      "surface": "חטאתי",
       "gloss": "my sin",
       "readings": [
         "my sin",
-        "my offence",
         "my punishment"
-      ]
+      ],
+      "held_by": {
+        "my sin": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my punishment": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:55:29.831422279Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

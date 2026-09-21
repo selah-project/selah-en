@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "esther 8:14",
-  "book": "esther",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "The runners, riders of the rekesh, the achashteranim, went out hurried and pressed on by the word of the king; and the decree was given in Shushan the citadel.",
+  "translation": "The couriers, riders of the royal steeds, went out hurried and pressed on by the word of the king; and the decree was given in Shushan the citadel.",
   "tokens": [
     {
       "surface": "הרצים",
-      "gloss": "the runners"
+      "gloss": "the couriers",
+      "readings": [
+        "the couriers",
+        "the runners"
+      ],
+      "held_by": {
+        "the couriers": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the runners": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רכבי",
@@ -17,15 +26,37 @@
     },
     {
       "surface": "הרכש",
-      "gloss": "the rekesh",
+      "gloss": "the steeds",
       "readings": [
-        "the rekesh",
-        "the swift steed"
-      ]
+        "the steeds",
+        "the rekesh"
+      ],
+      "held_by": {
+        "the steeds": [
+          "v2",
+          "v3"
+        ],
+        "the rekesh": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "האחשתרנים",
-      "gloss": "the achashteranim"
+      "gloss": "the royal",
+      "readings": [
+        "the royal",
+        "the achashteranim"
+      ],
+      "held_by": {
+        "the royal": [
+          "v2",
+          "v3"
+        ],
+        "the achashteranim": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יצאו",
@@ -49,7 +80,21 @@
     },
     {
       "surface": "והדת",
-      "gloss": "and the decree"
+      "gloss": "and the decree",
+      "readings": [
+        "and the decree",
+        "and the edict"
+      ],
+      "held_by": {
+        "and the decree": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and the edict": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "נתנה",
@@ -64,6 +109,6 @@
       "gloss": "the citadel"
     }
   ],
-  "timestamp": "2026-09-20T17:29:57.609578580Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

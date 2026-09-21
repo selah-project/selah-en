@@ -1,24 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 122:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 122,
-  "translation": "Let there be peace within your walls, security within your palaces.",
+  "translation": "May there be peace within your walls, quietness within your palaces.",
   "tokens": [
     {
       "surface": "יהי",
-      "gloss": "let there be"
+      "gloss": "May there be"
     },
     {
       "surface": "שלום",
       "gloss": "peace",
       "readings": [
         "peace",
-        "welfare",
-        "wholeness"
-      ]
+        "welfare"
+      ],
+      "held_by": {
+        "peace": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "welfare": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בחילך",
@@ -26,22 +31,44 @@
       "readings": [
         "within your walls",
         "within your rampart"
-      ]
+      ],
+      "held_by": {
+        "within your walls": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "within your rampart": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "שלוה",
-      "gloss": "security",
+      "gloss": "quietness",
       "readings": [
-        "security",
-        "tranquility",
-        "quietness"
-      ]
+        "quietness",
+        "security"
+      ],
+      "held_by": {
+        "quietness": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "security": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בארמנותיך",
       "gloss": "within your palaces"
     }
   ],
-  "timestamp": "2026-09-20T10:49:31.597948719Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

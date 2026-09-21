@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 19,
-  "ref": "job 20:19",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "For he crushed, he abandoned the weak; a house he plundered, and he will not build it.",
+  "translation": "Because he crushed ⟨and⟩ forsook ⟨את⟩ the poor; ⟨את⟩ a house he seized, and shall not rebuild it.",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "Because",
+      "readings": [
+        "Because",
+        "For"
+      ],
+      "held_by": {
+        "Because": [
+          "v1",
+          "v3"
+        ],
+        "For": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "רצץ",
@@ -17,11 +26,11 @@
     },
     {
       "surface": "עזב",
-      "gloss": "he abandoned"
+      "gloss": "forsook"
     },
     {
       "surface": "דלים",
-      "gloss": "the weak"
+      "gloss": "the poor"
     },
     {
       "surface": "בית",
@@ -29,17 +38,31 @@
     },
     {
       "surface": "גזל",
-      "gloss": "he plundered"
+      "gloss": "he seized",
+      "readings": [
+        "he seized",
+        "he plundered"
+      ],
+      "held_by": {
+        "he seized": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "he plundered": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and shall not"
     },
     {
       "surface": "יבנהו",
-      "gloss": "he will build it"
+      "gloss": "rebuild it"
     }
   ],
-  "timestamp": "2026-09-20T15:51:41.729914649Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

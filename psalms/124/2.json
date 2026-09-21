@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 2,
-  "ref": "psalms 124:2",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 124,
-  "translation": "If YHWH had not been for us, when mankind rose up against us,",
+  "translation": "If not for YHWH, who was for us, when humanity rose up against us,",
   "tokens": [
     {
       "surface": "לולי",
-      "gloss": "if not"
+      "gloss": "if not for"
     },
     {
       "surface": "יהוה",
@@ -17,7 +12,19 @@
     },
     {
       "surface": "שהיה",
-      "gloss": "who had been"
+      "gloss": "who was",
+      "readings": [
+        "who was",
+        "who had been"
+      ],
+      "held_by": {
+        "who was": [
+          "v2"
+        ],
+        "who had been": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לנו",
@@ -25,7 +32,20 @@
     },
     {
       "surface": "בקום",
-      "gloss": "in the rising up of"
+      "gloss": "when [they] rose up",
+      "readings": [
+        "when [they] rose up",
+        "in the rising up of"
+      ],
+      "held_by": {
+        "when [they] rose up": [
+          "v1",
+          "v3"
+        ],
+        "in the rising up of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עלינו",
@@ -33,9 +53,22 @@
     },
     {
       "surface": "אדם",
-      "gloss": "mankind"
+      "gloss": "humanity",
+      "readings": [
+        "humanity",
+        "man"
+      ],
+      "held_by": {
+        "humanity": [
+          "v1",
+          "v3"
+        ],
+        "man": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:09:30.178983730Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

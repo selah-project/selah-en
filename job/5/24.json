@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 24,
-  "ref": "job 5:24",
-  "book": "job",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And you shall know that your tent ⟨is⟩ in peace, and you shall visit your dwelling and not miss.",
+  "translation": "And you shall know that peace ⟨is⟩ in your tent, and you shall visit your fold and shall not miss the mark.",
   "tokens": [
     {
       "surface": "וידעת",
@@ -13,21 +8,11 @@
     },
     {
       "surface": "כי",
-      "gloss": "that",
-      "readings": [
-        "that",
-        "for",
-        "when"
-      ]
+      "gloss": "that"
     },
     {
       "surface": "שלום",
-      "gloss": "in peace",
-      "readings": [
-        "in peace",
-        "in welfare",
-        "in wholeness"
-      ]
+      "gloss": "peace"
     },
     {
       "surface": "אהלך",
@@ -35,19 +20,25 @@
     },
     {
       "surface": "ופקדת",
-      "gloss": "and you shall visit",
-      "readings": [
-        "and you shall visit",
-        "and you shall attend to"
-      ]
+      "gloss": "and you shall visit"
     },
     {
       "surface": "נוך",
       "gloss": "your dwelling",
       "readings": [
         "your dwelling",
-        "your habitation"
-      ]
+        "your fold"
+      ],
+      "held_by": {
+        "your dwelling": [
+          "v1",
+          "en4"
+        ],
+        "your fold": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "ולא",
@@ -55,13 +46,23 @@
     },
     {
       "surface": "תחטא",
-      "gloss": "you miss",
+      "gloss": "miss the mark",
       "readings": [
-        "you miss",
-        "you sin"
-      ]
+        "miss the mark",
+        "sin"
+      ],
+      "held_by": {
+        "miss the mark": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "sin": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:54:15.742746218Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

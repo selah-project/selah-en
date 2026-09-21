@@ -1,19 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 10:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 10,
-  "translation": "And the crushed, he crouches and sinks; and the helpless fall by his mighty ones.",
+  "translation": "He is crushed, he crouches; and the wretched fall by his mighty ones.",
   "tokens": [
     {
       "surface": "ודכה",
-      "gloss": "and the crushed"
+      "gloss": "he is crushed"
     },
     {
       "surface": "ישח",
-      "gloss": "he crouches and sinks"
+      "gloss": "crouches",
+      "readings": [
+        "crouches",
+        "sinks"
+      ],
+      "held_by": {
+        "crouches": [
+          "v2",
+          "v3"
+        ],
+        "sinks": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ונפל",
@@ -21,13 +31,42 @@
     },
     {
       "surface": "בעצומיו",
-      "gloss": "by his mighty ones"
+      "gloss": "by his mighty ones",
+      "readings": [
+        "by his mighty ones",
+        "by his might"
+      ],
+      "held_by": {
+        "by his mighty ones": [
+          "v1",
+          "en4"
+        ],
+        "by his might": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "חלכאים",
-      "gloss": "the helpless"
+      "gloss": "the wretched",
+      "readings": [
+        "the wretched",
+        "the helpless"
+      ],
+      "held_by": {
+        "the wretched": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the helpless": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:58:21.010686127Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

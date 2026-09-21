@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "isaiah 60:3",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 60,
-  "translation": "And nations walk to your light, and kings to the brightness of your dawn.",
+  "translation": "And nations shall walk to your light, and kings to the brightness of your rising.",
   "tokens": [
     {
       "surface": "והלכו",
-      "gloss": "and walk"
+      "gloss": "and shall walk"
     },
     {
       "surface": "גוים",
@@ -17,11 +12,37 @@
       "readings": [
         "nations",
         "Gentiles"
-      ]
+      ],
+      "held_by": {
+        "nations": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "Gentiles": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לאורך",
-      "gloss": "to your light"
+      "gloss": "to your light",
+      "readings": [
+        "to your light",
+        "by your light"
+      ],
+      "held_by": {
+        "to your light": [
+          "v1",
+          "en4"
+        ],
+        "by your light": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ומלכים",
@@ -33,13 +54,9 @@
     },
     {
       "surface": "זרחך",
-      "gloss": "of your dawn",
-      "readings": [
-        "of your dawn",
-        "of your rising"
-      ]
+      "gloss": "of your rising"
     }
   ],
-  "timestamp": "2026-09-20T13:29:19.910364441Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

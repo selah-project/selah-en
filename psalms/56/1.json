@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 56:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 56,
-  "translation": "To the choirmaster, upon the dove of the far silence, by David, a michtam, when the Philistines seized ⟨את⟩ him in Gath.",
+  "translation": "To the chief musician, upon the dove of silence, far off, of David, a Michtam, when the Philistines seized ⟨את⟩ him in Gath.",
   "tokens": [
     {
       "surface": "למנצח",
-      "gloss": "To the choirmaster"
+      "gloss": "To the chief musician",
+      "readings": [
+        "To the chief musician",
+        "To the conqueror"
+      ],
+      "held_by": {
+        "To the chief musician": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "To the conqueror": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "על",
@@ -17,36 +26,45 @@
     },
     {
       "surface": "יונת",
-      "gloss": "the dove of"
+      "gloss": "the dove"
     },
     {
       "surface": "אלם",
-      "gloss": "silence"
+      "gloss": "of silence"
     },
     {
       "surface": "רחקים",
-      "gloss": "far away",
+      "gloss": "far off",
       "readings": [
-        "far away",
+        "far off",
         "the distant ones"
-      ]
+      ],
+      "held_by": {
+        "far off": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the distant ones": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לדוד",
-      "gloss": "by David"
+      "gloss": "of David"
     },
     {
       "surface": "מכתם",
-      "gloss": "a michtam"
+      "gloss": "a Michtam"
     },
     {
       "surface": "באחז",
-      "gloss": "in the seizing of"
+      "gloss": "when he seized"
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him",
-      "marks": "him, seized by the Philistines"
+      "gloss": "⟨את⟩ him"
     },
     {
       "surface": "פלשתים",
@@ -57,6 +75,6 @@
       "gloss": "in Gath"
     }
   ],
-  "timestamp": "2026-09-20T10:44:41.179161881Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

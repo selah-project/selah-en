@@ -1,54 +1,99 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 6:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "Turn back, YHWH, pull out my soul; save me for the sake of your chesed.",
+  "translation": "Return, O YHWH; deliver my soul; save me for the sake of your chesed.",
   "tokens": [
     {
-      "surface": "שׁוּבָ֣ה",
-      "gloss": "Turn back"
-    },
-    {
-      "surface": "יְהוָה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "חַלְּצָ֣ה",
-      "gloss": "pull out",
+      "surface": "שובה",
+      "gloss": "Return",
       "readings": [
+        "Return",
+        "Turn back"
+      ],
+      "held_by": {
+        "Return": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "Turn back": [
+          "en4"
+        ]
+      }
+    },
+    {
+      "surface": "יהוה",
+      "gloss": "O YHWH"
+    },
+    {
+      "surface": "חלצה",
+      "gloss": "deliver",
+      "readings": [
+        "deliver",
         "pull out",
         "rescue"
-      ]
+      ],
+      "held_by": {
+        "deliver": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "pull out": [
+          "en4"
+        ],
+        "rescue": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "נַפְשִׁ֑י",
+      "surface": "נפשי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my life",
-        "my nefesh"
-      ]
+        "my nefesh",
+        "my life"
+      ],
+      "held_by": {
+        "my soul": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my nefesh": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "ה֝וֹשִׁיעֵ֗נִי",
+      "surface": "הושיעני",
       "gloss": "save me"
     },
     {
-      "surface": "לְמַ֣עַן",
+      "surface": "למען",
       "gloss": "for the sake of"
     },
     {
-      "surface": "חַסְדֶּֽךָ",
+      "surface": "חסדך",
       "gloss": "your chesed",
       "readings": [
         "your chesed",
         "your steadfast love"
-      ]
+      ],
+      "held_by": {
+        "your chesed": [
+          "v3",
+          "en4"
+        ],
+        "your steadfast love": [
+          "v1",
+          "v2",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:57:21.965025791Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

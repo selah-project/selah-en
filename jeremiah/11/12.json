@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 12,
-  "ref": "jeremiah 11:12",
-  "book": "jeremiah",
-  "lang": "en4",
-  "chapter": 11,
-  "translation": "And the cities of Judah and the inhabitants of Jerusalem will go and cry to the gods to whom they are making smoke to them, but saving they will not save them in the time of their evil.",
+  "translation": "Then the cities of Judah and the inhabitants of Jerusalem will go and cry out to the gods to whom they are burning incense, but saving they will not save them in the time of their evil.”",
   "tokens": [
     {
       "surface": "והלכו",
@@ -29,7 +24,7 @@
     },
     {
       "surface": "וזעקו",
-      "gloss": "and cry"
+      "gloss": "and cry out"
     },
     {
       "surface": "אל",
@@ -41,7 +36,7 @@
     },
     {
       "surface": "אשר",
-      "gloss": "whom"
+      "gloss": "to whom"
     },
     {
       "surface": "הם",
@@ -49,11 +44,21 @@
     },
     {
       "surface": "מקטרים",
-      "gloss": "are making smoke",
+      "gloss": "are burning incense",
       "readings": [
-        "are making smoke",
-        "are offering incense"
-      ]
+        "are burning incense",
+        "are making smoke"
+      ],
+      "held_by": {
+        "are burning incense": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "are making smoke": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "להם",
@@ -84,10 +89,21 @@
       "gloss": "their evil",
       "readings": [
         "their evil",
-        "their trouble"
-      ]
+        "their calamity"
+      ],
+      "held_by": {
+        "their evil": [
+          "v2",
+          "en4"
+        ],
+        "their calamity": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T17:26:25.457456727Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

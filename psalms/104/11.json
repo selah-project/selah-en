@@ -1,49 +1,66 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 104:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 104,
-  "translation": "They water every living thing of the field; the wild donkeys break their thirst.",
+  "translation": "They give drink to every beast of the field; the wild asses break their thirst.",
   "tokens": [
     {
-      "surface": "יַשְׁקוּ",
-      "gloss": "they water",
-      "readings": [
-        "they water",
-        "they give drink to"
-      ]
+      "surface": "ישקו",
+      "gloss": "they give drink"
     },
     {
-      "surface": "כָּל",
+      "surface": "כל",
       "gloss": "every"
     },
     {
-      "surface": "חַיְתוֹ",
-      "gloss": "living thing of"
-    },
-    {
-      "surface": "שָׂדָי",
-      "gloss": "the field"
-    },
-    {
-      "surface": "יִשְׁבְּרוּ",
-      "gloss": "they break"
-    },
-    {
-      "surface": "פְרָאִים",
-      "gloss": "the wild donkeys",
+      "surface": "חיתו",
+      "gloss": "beast of",
       "readings": [
-        "the wild donkeys",
-        "the onagers"
-      ]
+        "beast of",
+        "living thing of"
+      ],
+      "held_by": {
+        "beast of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "living thing of": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "צְמָאָם",
+      "surface": "שדי",
+      "gloss": "of the field"
+    },
+    {
+      "surface": "ישברו",
+      "gloss": "they break",
+      "readings": [
+        "they break",
+        "they quench"
+      ],
+      "held_by": {
+        "they break": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "they quench": [
+          "v1"
+        ]
+      },
+      "disputed": true
+    },
+    {
+      "surface": "פראים",
+      "gloss": "the wild asses"
+    },
+    {
+      "surface": "צמאם",
       "gloss": "their thirst"
     }
   ],
-  "timestamp": "2026-09-20T10:48:00.358548663Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

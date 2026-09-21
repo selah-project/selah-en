@@ -1,15 +1,10 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 37,
-  "ref": "1-kings 22:37",
-  "book": "1-kings",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "And the king died, and came to Shomeron, and they buried ⟨את⟩ the king in Shomeron.",
+  "translation": "And the king died and was brought to Samaria, and they buried ⟨את⟩ the king in Samaria.",
   "tokens": [
     {
       "surface": "וימת",
-      "gloss": "and died"
+      "gloss": "And died"
     },
     {
       "surface": "המלך",
@@ -17,11 +12,41 @@
     },
     {
       "surface": "ויבוא",
-      "gloss": "and came"
+      "gloss": "and was brought",
+      "readings": [
+        "and was brought",
+        "and came"
+      ],
+      "held_by": {
+        "and was brought": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and came": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שמרון",
-      "gloss": "Shomeron"
+      "gloss": "to Samaria",
+      "readings": [
+        "to Samaria",
+        "to Shomeron"
+      ],
+      "held_by": {
+        "to Samaria": [
+          "v1",
+          "v3"
+        ],
+        "to Shomeron": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ויקברו",
@@ -29,8 +54,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "the king"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "המלך",
@@ -38,9 +62,9 @@
     },
     {
       "surface": "בשמרון",
-      "gloss": "in Shomeron"
+      "gloss": "in Samaria"
     }
   ],
-  "timestamp": "2026-09-20T13:15:33.092552232Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

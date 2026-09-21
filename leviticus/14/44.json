@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 44,
-  "ref": "leviticus 14:44",
-  "book": "leviticus",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "And the priest shall come and look, and behold, the plague has spread in the house; a malignant eruption it is in the house; unclean it is.",
+  "translation": "Then the priest shall come and look, and behold, the plague has spread in the house; it is a malignant leprosy in the house; it is unclean.",
   "tokens": [
     {
       "surface": "ובא",
@@ -37,11 +32,21 @@
     },
     {
       "surface": "צרעת",
-      "gloss": "an eruption of",
+      "gloss": "leprosy",
       "readings": [
-        "an eruption of",
-        "a leprosy of"
-      ]
+        "leprosy",
+        "an eruption of"
+      ],
+      "held_by": {
+        "leprosy": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "an eruption of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ממארת",
@@ -49,7 +54,17 @@
       "readings": [
         "malignant",
         "bitter"
-      ]
+      ],
+      "held_by": {
+        "malignant": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "bitter": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הוא",
@@ -68,6 +83,6 @@
       "gloss": "it is"
     }
   ],
-  "timestamp": "2026-09-20T16:13:01.727643138Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

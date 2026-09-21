@@ -1,32 +1,47 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 57:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 57,
-  "translation": "My soul is in the midst of lions; I lie down among the blazing ones, sons of men, whose teeth are a spear and arrows, and their tongue a sharp sword.",
+  "translation": "My soul is in the midst of lions; I lie down among the blazing ones, sons of man, whose teeth are a spear and arrows, and their tongue a sharp sword.",
   "tokens": [
     {
       "surface": "נפשי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my throat",
-        "my life"
-      ]
+        "my life",
+        "my throat"
+      ],
+      "held_by": {
+        "my soul": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ],
+        "my throat": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בתוך",
-      "gloss": "in the midst of"
+      "gloss": "in the midst of",
+      "held_by": {
+        "in the midst of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "among": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "לבאם",
-      "gloss": "lions",
-      "readings": [
-        "lions",
-        "lionesses"
-      ]
+      "gloss": "lions"
     },
     {
       "surface": "אשכבה",
@@ -38,7 +53,14 @@
       "readings": [
         "the blazing ones",
         "the flames"
-      ]
+      ],
+      "held_by": {
+        "the blazing ones": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בני",
@@ -50,7 +72,17 @@
       "readings": [
         "man",
         "mankind"
-      ]
+      ],
+      "held_by": {
+        "man": [
+          "v1",
+          "en4"
+        ],
+        "men": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "שניהם",
@@ -77,6 +109,6 @@
       "gloss": "sharp"
     }
   ],
-  "timestamp": "2026-09-20T14:01:52.943963115Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

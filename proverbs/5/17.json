@@ -1,42 +1,75 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "proverbs 5:17",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "Let them be to you alone, and none to strangers ⟨את⟩ with you.",
+  "translation": "Let them be yours, to you alone, and ⟨let there be⟩ none to strangers with ⟨את⟩ you.",
   "tokens": [
     {
-      "surface": "יִֽהְיוּ",
-      "gloss": "let them be"
+      "surface": "יהיו",
+      "gloss": "Let them be"
     },
     {
-      "surface": "לְךָ֥",
+      "surface": "לך",
       "gloss": "to you"
     },
     {
-      "surface": "לְבַדֶּ֑ךָ",
-      "gloss": "alone for you"
+      "surface": "לבדך",
+      "gloss": "alone",
+      "readings": [
+        "alone",
+        "alone for you"
+      ],
+      "held_by": {
+        "alone": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "alone for you": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְאֵ֖ין",
-      "gloss": "and none"
+      "surface": "ואין",
+      "gloss": "and ⟨let there be⟩ none",
+      "readings": [
+        "and ⟨let there be⟩ none",
+        "and not"
+      ],
+      "held_by": {
+        "and ⟨let there be⟩ none": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "and not": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "לְזָרִ֣ים",
+      "surface": "לזרים",
       "gloss": "to strangers",
       "readings": [
         "to strangers",
         "to the strange ones"
-      ]
+      ],
+      "held_by": {
+        "to strangers": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "to the strange ones": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "אִתָּֽךְ",
-      "gloss": "⟨את⟩ with you",
-      "marks": "with you"
+      "surface": "אתך",
+      "gloss": "with ⟨את⟩ you"
     }
   ],
-  "timestamp": "2026-09-20T14:12:07.988052342Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "hosea 7:14",
-  "book": "hosea",
-  "lang": "en4",
-  "chapter": 7,
-  "translation": "And they have not cried out to me with their heart — though they wail upon their beds; over grain and new wine they gather themselves — they turn aside against me.",
+  "translation": "And they have not cried out to me with their heart, though they howl upon their beds; for grain and new wine they gather themselves — they turn aside against me.",
   "tokens": [
     {
       "surface": "ולא",
@@ -28,12 +23,27 @@
       "gloss": "though",
       "readings": [
         "though",
-        "for"
-      ]
+        "for",
+        "but"
+      ],
+      "held_by": {
+        "though": [
+          "en4"
+        ],
+        "for": [
+          "v1",
+          "v3"
+        ],
+        "but": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "יילילו",
-      "gloss": "they wail"
+      "gloss": "they howl"
     },
     {
       "surface": "על",
@@ -41,15 +51,11 @@
     },
     {
       "surface": "משכבותם",
-      "gloss": "their beds",
-      "readings": [
-        "their beds",
-        "their couches"
-      ]
+      "gloss": "their beds"
     },
     {
       "surface": "על",
-      "gloss": "over"
+      "gloss": "for"
     },
     {
       "surface": "דגן",
@@ -64,9 +70,20 @@
       "gloss": "they gather themselves",
       "readings": [
         "they gather themselves",
-        "they slash themselves",
-        "they lodge themselves"
-      ]
+        "they gash themselves"
+      ],
+      "held_by": {
+        "they gather themselves": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "they gash themselves": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יסורו",
@@ -74,9 +91,23 @@
     },
     {
       "surface": "בי",
-      "gloss": "against me"
+      "gloss": "against me",
+      "readings": [
+        "against me",
+        "from me"
+      ],
+      "held_by": {
+        "against me": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "from me": [
+          "v2"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T17:09:47.191879362Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

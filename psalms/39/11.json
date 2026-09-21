@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 11,
-  "ref": "psalms 39:11",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 39,
-  "translation": "Turn aside from upon me your blow; from the contesting of your hand I am finished.",
+  "translation": "Remove your plague from upon me; by the contention of your hand I am consumed.",
   "tokens": [
     {
       "surface": "הסר",
-      "gloss": "turn aside"
+      "gloss": "remove",
+      "readings": [
+        "remove",
+        "turn aside"
+      ],
+      "held_by": {
+        "remove": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "turn aside": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מעלי",
@@ -17,15 +26,27 @@
     },
     {
       "surface": "נגעך",
-      "gloss": "your blow",
+      "gloss": "your plague",
       "readings": [
-        "your blow",
-        "your plague"
-      ]
+        "your plague",
+        "your blow"
+      ],
+      "held_by": {
+        "your plague": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "your blow": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מתגרת",
-      "gloss": "from the contesting of"
+      "gloss": "by the contention of"
     },
     {
       "surface": "ידך",
@@ -37,13 +58,25 @@
     },
     {
       "surface": "כליתי",
-      "gloss": "am finished",
+      "gloss": "am consumed",
       "readings": [
-        "am finished",
-        "am consumed"
-      ]
+        "am consumed",
+        "am finished"
+      ],
+      "held_by": {
+        "am consumed": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "am finished": [
+          "v1",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:43:32.410080498Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

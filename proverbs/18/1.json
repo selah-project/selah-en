@@ -1,50 +1,95 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "proverbs 18:1",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 18,
-  "translation": "For a desire seeks one separated himself; with all sound wisdom he breaks away.",
+  "translation": "For a desire he seeks who separates himself; with all sound wisdom he breaks out.",
   "tokens": [
     {
-      "surface": "לְֽתַאֲוָה",
+      "surface": "לתאוה",
       "gloss": "for a desire"
     },
     {
-      "surface": "יְבַקֵּשׁ",
+      "surface": "יבקש",
       "gloss": "he seeks"
     },
     {
-      "surface": "נִפְרָד",
-      "gloss": "one separated",
+      "surface": "נפרד",
+      "gloss": "who separates himself",
       "readings": [
-        "one separated",
-        "he separates himself"
-      ]
+        "who separates himself",
+        "one separated"
+      ],
+      "held_by": {
+        "who separates himself": [
+          "en4"
+        ],
+        "one separated": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "בְּכָל",
-      "gloss": "with all"
+      "surface": "בכל",
+      "gloss": "with all",
+      "readings": [
+        "with all",
+        "against all"
+      ],
+      "held_by": {
+        "with all": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "against all": [
+          "v2"
+        ]
+      }
     },
     {
-      "surface": "תּוּשִׁיָּה",
+      "surface": "תושיה",
       "gloss": "sound wisdom",
       "readings": [
         "sound wisdom",
-        "substance",
-        "understanding"
-      ]
+        "understanding",
+        "substance"
+      ],
+      "held_by": {
+        "sound wisdom": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "understanding": [
+          "en4"
+        ],
+        "substance": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יִתְגַּלָּע",
-      "gloss": "he breaks away",
+      "surface": "יתגלע",
+      "gloss": "he breaks out",
       "readings": [
-        "he breaks away",
-        "he becomes obstinate"
-      ]
+        "he breaks out",
+        "he intermeddles"
+      ],
+      "held_by": {
+        "he breaks out": [
+          "v2",
+          "en4"
+        ],
+        "he intermeddles": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:52:31.046962393Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

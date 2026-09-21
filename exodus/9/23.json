@@ -1,10 +1,5 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "exodus 9:23",
-  "book": "exodus",
-  "lang": "en4",
-  "chapter": 9,
   "translation": "And Moses stretched out ⟨את⟩ his staff toward the heavens, and YHWH gave voices and hail, and fire walked earthward, and YHWH rained hail upon the land of Egypt.",
   "tokens": [
     {
@@ -17,17 +12,11 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "his staff"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "מטהו",
-      "gloss": "his staff",
-      "readings": [
-        "his staff",
-        "his rod",
-        "his tribe"
-      ]
+      "gloss": "his staff"
     },
     {
       "surface": "על",
@@ -35,11 +24,7 @@
     },
     {
       "surface": "השמים",
-      "gloss": "the heavens",
-      "readings": [
-        "the heavens",
-        "the sky"
-      ]
+      "gloss": "the heavens"
     },
     {
       "surface": "ויהוה",
@@ -54,9 +39,20 @@
       "gloss": "voices",
       "readings": [
         "voices",
-        "thunders",
-        "sounds"
-      ]
+        "thunders"
+      ],
+      "held_by": {
+        "voices": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "thunders": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וברד",
@@ -72,7 +68,25 @@
     },
     {
       "surface": "ארצה",
-      "gloss": "earthward"
+      "gloss": "earthward",
+      "readings": [
+        "earthward",
+        "upon the earth",
+        "to the earth"
+      ],
+      "held_by": {
+        "earthward": [
+          "en4"
+        ],
+        "upon the earth": [
+          "v1"
+        ],
+        "to the earth": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "וימטר",
@@ -92,17 +106,43 @@
     },
     {
       "surface": "ארץ",
-      "gloss": "the land of",
+      "gloss": "land of",
       "readings": [
-        "the land of",
-        "the earth"
-      ]
+        "land of",
+        "earth of"
+      ],
+      "held_by": {
+        "land of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "earth of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מצרים",
-      "gloss": "Egypt"
+      "gloss": "Egypt",
+      "readings": [
+        "Egypt",
+        "Mitsrayim"
+      ],
+      "held_by": {
+        "Egypt": [
+          "v1",
+          "en4"
+        ],
+        "Mitsrayim": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:51:40.250172751Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

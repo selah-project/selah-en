@@ -1,23 +1,18 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "deuteronomy 2:15",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "Moreover, the hand of YHWH was against them, to confound them from the midst of the camp until their consuming.",
+  "translation": "And also the hand of YHWH was against them, to destroy them from the midst of the camp, until they were consumed.",
   "tokens": [
     {
       "surface": "וְגַם",
-      "gloss": "and also"
+      "gloss": "And also"
     },
     {
       "surface": "יַד",
-      "gloss": "the hand of"
+      "gloss": "the hand"
     },
     {
       "surface": "יְהוָה",
-      "gloss": "YHWH"
+      "gloss": "of YHWH"
     },
     {
       "surface": "הָיְתָה",
@@ -28,8 +23,22 @@
       "gloss": "against them"
     },
     {
-      "surface": "לְהֻמָּם",
-      "gloss": "to confound them"
+      "surface": "לְהַמֵּם",
+      "gloss": "to destroy them",
+      "readings": [
+        "to destroy them",
+        "to confound them"
+      ],
+      "held_by": {
+        "to destroy them": [
+          "v2",
+          "v3"
+        ],
+        "to confound them": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מִקֶּרֶב",
@@ -44,10 +53,23 @@
       "gloss": "until"
     },
     {
-      "surface": "תֻמָּם",
-      "gloss": "their consuming"
+      "surface": "תֹּמֵם",
+      "gloss": "they were consumed",
+      "readings": [
+        "they were consumed",
+        "their end"
+      ],
+      "held_by": {
+        "they were consumed": [
+          "v2",
+          "v3"
+        ],
+        "their end": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T12:45:46.678883921Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

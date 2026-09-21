@@ -1,15 +1,24 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 130:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 130,
-  "translation": "Wait, Israel, for YHWH; for with YHWH ⟨is⟩ the chesed, and abundance of redemption ⟨is⟩ with him.",
+  "translation": "Israel, hope in YHWH; for with YHWH is chesed, and with him is redemption in abundance.",
   "tokens": [
     {
       "surface": "יחל",
-      "gloss": "wait"
+      "gloss": "hope",
+      "readings": [
+        "hope",
+        "wait"
+      ],
+      "held_by": {
+        "hope": [
+          "v2",
+          "v3"
+        ],
+        "wait": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ישראל",
@@ -17,7 +26,7 @@
     },
     {
       "surface": "אל",
-      "gloss": "for"
+      "gloss": "in"
     },
     {
       "surface": "יהוה",
@@ -37,15 +46,24 @@
     },
     {
       "surface": "החסד",
-      "gloss": "the chesed",
+      "gloss": "chesed",
       "readings": [
-        "the chesed",
+        "chesed",
         "the steadfast love"
-      ]
+      ],
+      "held_by": {
+        "chesed": [
+          "v3",
+          "en4"
+        ],
+        "the steadfast love": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והרבה",
-      "gloss": "and abundance of"
+      "gloss": "and in abundance"
     },
     {
       "surface": "עמו",
@@ -56,6 +74,6 @@
       "gloss": "redemption"
     }
   ],
-  "timestamp": "2026-09-20T14:09:31.043382219Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

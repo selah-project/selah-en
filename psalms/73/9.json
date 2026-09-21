@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "psalms 73:9",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 73,
-  "translation": "They set in the heavens their mouth, and their tongue walks in the earth.",
+  "translation": "They set in the heavens their mouth, and their tongue walks through the earth.",
   "tokens": [
     {
       "surface": "שתו",
-      "gloss": "they set"
+      "gloss": "They set"
     },
     {
       "surface": "בשמים",
-      "gloss": "in the heavens"
+      "gloss": "in the heavens",
+      "readings": [
+        "in the heavens",
+        "against the heavens"
+      ],
+      "held_by": {
+        "in the heavens": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "against the heavens": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "פיהם",
@@ -29,13 +38,25 @@
     },
     {
       "surface": "בארץ",
-      "gloss": "in the earth",
+      "gloss": "through the earth",
       "readings": [
-        "in the earth",
-        "in the land"
-      ]
+        "through the earth",
+        "through the land",
+        "in the earth"
+      ],
+      "held_by": {
+        "through the earth": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "through the land": [],
+        "in the earth": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:03:29.170460760Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,15 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "2-kings 24:3",
-  "book": "2-kings",
-  "lang": "en4",
-  "chapter": 24,
-  "translation": "Surely at the mouth of YHWH this came upon Judah, to remove them from before his face, because of the sins of Manasseh, according to all that he did;",
+  "translation": "Surely at the mouth of YHWH this came upon Judah, to remove them from before his face, for the sins of Manasseh, according to all that he did;",
   "tokens": [
     {
       "surface": "אך",
-      "gloss": "Surely"
+      "gloss": "Surely",
+      "readings": [
+        "Surely",
+        "Only"
+      ],
+      "held_by": {
+        "Surely": [
+          "v2",
+          "en4"
+        ],
+        "Only": [
+          "v1",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "על",
@@ -37,15 +47,29 @@
     },
     {
       "surface": "מעל",
-      "gloss": "from"
+      "gloss": "from before"
     },
     {
       "surface": "פניו",
-      "gloss": "before his face"
+      "gloss": "his face"
     },
     {
       "surface": "בחטאת",
-      "gloss": "because of the sins of"
+      "gloss": "for the sins of",
+      "readings": [
+        "for the sins of",
+        "because of the sins of"
+      ],
+      "held_by": {
+        "for the sins of": [
+          "v2",
+          "v3"
+        ],
+        "because of the sins of": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מנשה",
@@ -64,6 +88,6 @@
       "gloss": "he did"
     }
   ],
-  "timestamp": "2026-09-20T16:26:54.921409462Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

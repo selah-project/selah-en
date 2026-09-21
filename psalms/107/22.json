@@ -1,47 +1,80 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "psalms 107:22",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 107,
-  "translation": "And let them slaughter slaughterings of thanksgiving, and recount his works with rejoicing.",
+  "translation": "And let them sacrifice sacrifices ⟨of⟩ thanksgiving, and recount his works with a shout of joy.",
   "tokens": [
     {
-      "surface": "וְיִזְבְּחוּ",
-      "gloss": "and let them slaughter"
+      "surface": "ויזבחו",
+      "gloss": "and let them sacrifice",
+      "readings": [
+        "and let them sacrifice",
+        "and let them slaughter"
+      ],
+      "held_by": {
+        "and let them sacrifice": [
+          "v2",
+          "v3"
+        ],
+        "and let them slaughter": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "זִבְחֵי",
-      "gloss": "slaughterings of"
+      "surface": "זבחי",
+      "gloss": "sacrifices ⟨of⟩"
     },
     {
-      "surface": "תוֹדָה",
+      "surface": "תודה",
       "gloss": "thanksgiving",
       "readings": [
         "thanksgiving",
         "confession",
         "praise"
-      ]
+      ],
+      "held_by": {
+        "thanksgiving": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "confession": [
+          "en4"
+        ],
+        "praise": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְיִסַּפְּרוּ",
-      "gloss": "and let them recount"
+      "surface": "ויספרו",
+      "gloss": "and recount"
     },
     {
-      "surface": "מַעֲשָׂיו",
+      "surface": "מעשיו",
       "gloss": "his works"
     },
     {
-      "surface": "בְּרִנָּה",
-      "gloss": "with rejoicing",
+      "surface": "ברנה",
+      "gloss": "with a shout of joy",
       "readings": [
-        "with rejoicing",
-        "with ringing cry",
+        "with a shout of joy",
         "with singing"
-      ]
+      ],
+      "held_by": {
+        "with a shout of joy": [
+          "v1"
+        ],
+        "with singing": [
+          "v2",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:48:09.280413937Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

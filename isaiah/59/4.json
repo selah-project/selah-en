@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "isaiah 59:4",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 59,
-  "translation": "There is none calling in righteousness, and none pleading in faithfulness; trusting on emptiness and speaking falsehood — conceiving trouble and begetting iniquity.",
+  "translation": "There is none calling out in righteousness, and none pleading in faithfulness; trusting on emptiness and speaking falsehood — conceiving trouble and giving birth to iniquity.",
   "tokens": [
     {
       "surface": "אין",
@@ -13,7 +8,7 @@
     },
     {
       "surface": "קרא",
-      "gloss": "calling"
+      "gloss": "calling out"
     },
     {
       "surface": "בצדק",
@@ -21,11 +16,27 @@
     },
     {
       "surface": "ואין",
-      "gloss": "and none"
+      "gloss": "and there is none"
     },
     {
       "surface": "נשפט",
-      "gloss": "pleading"
+      "gloss": "pleading",
+      "readings": [
+        "pleading",
+        "judging"
+      ],
+      "held_by": {
+        "pleading": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "judging": [
+          "v1"
+        ]
+      },
+      "disputed": false
     },
     {
       "surface": "באמונה",
@@ -45,7 +56,18 @@
       "readings": [
         "emptiness",
         "waste"
-      ]
+      ],
+      "held_by": {
+        "emptiness": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "waste": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ודבר",
@@ -53,7 +75,22 @@
     },
     {
       "surface": "שוא",
-      "gloss": "falsehood"
+      "gloss": "falsehood",
+      "readings": [
+        "falsehood",
+        "emptiness"
+      ],
+      "held_by": {
+        "falsehood": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "emptiness": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הרו",
@@ -61,21 +98,50 @@
     },
     {
       "surface": "עמל",
-      "gloss": "trouble"
+      "gloss": "trouble",
+      "readings": [
+        "trouble",
+        "toil"
+      ],
+      "held_by": {
+        "trouble": [
+          "v1",
+          "en4"
+        ],
+        "toil": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "והוליד",
-      "gloss": "and begetting"
+      "gloss": "and giving birth to"
     },
     {
       "surface": "און",
       "gloss": "iniquity",
       "readings": [
         "iniquity",
+        "wickedness",
         "nothingness"
-      ]
+      ],
+      "held_by": {
+        "iniquity": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "wickedness": [
+          "v1"
+        ],
+        "nothingness": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:24:54.608801911Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,72 +1,123 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 17,
-  "ref": "isaiah 1:17",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "Learn to do good; seek justice; make straight ⟨the⟩ crushed; judge ⟨the⟩ fatherless; contend for ⟨the⟩ widow.",
+  "translation": "Learn to do good; seek justice; make straight the oppressed; judge the fatherless; contend for the widow.",
   "tokens": [
     {
-      "surface": "לִמְדוּ",
+      "surface": "למדו",
       "gloss": "learn"
     },
     {
-      "surface": "הֵיטֵב",
-      "gloss": "to do well",
+      "surface": "היטב",
+      "gloss": "to do good",
       "readings": [
-        "to do well",
-        "good"
-      ]
+        "to do good",
+        "to do well"
+      ],
+      "held_by": {
+        "to do good": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "to do well": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "דִּרְשׁוּ",
+      "surface": "דרשו",
       "gloss": "seek"
     },
     {
-      "surface": "מִשְׁפָּט",
+      "surface": "משפט",
       "gloss": "justice",
       "readings": [
         "justice",
-        "judgment",
-        "the verdict"
-      ]
+        "judgment"
+      ],
+      "held_by": {
+        "justice": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "judgment": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "אַשְּׁרוּ",
+      "surface": "אשרו",
       "gloss": "make straight",
       "readings": [
         "make straight",
-        "make happy",
-        "set right"
-      ]
+        "make happy"
+      ],
+      "held_by": {
+        "make straight": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "make happy": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חָמוֹץ",
-      "gloss": "the crushed",
+      "surface": "חמוץ",
+      "gloss": "the oppressed",
       "readings": [
+        "the oppressed",
         "the crushed",
-        "the violent one",
         "the robber"
-      ]
+      ],
+      "held_by": {
+        "the oppressed": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the crushed": [
+          "en4"
+        ],
+        "the robber": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "שִׁפְטוּ",
+      "surface": "שפטו",
       "gloss": "judge"
     },
     {
-      "surface": "יָתוֹם",
+      "surface": "יתום",
       "gloss": "the fatherless"
     },
     {
-      "surface": "רִיבוּ",
-      "gloss": "contend for"
+      "surface": "ריבו",
+      "gloss": "contend for",
+      "readings": [
+        "contend for",
+        "plead for"
+      ],
+      "held_by": {
+        "contend for": [
+          "en4"
+        ],
+        "plead for": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
-      "surface": "אַלְמָנָה",
+      "surface": "אלמנה",
       "gloss": "the widow"
     }
   ],
-  "timestamp": "2026-09-20T16:27:16.979977670Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

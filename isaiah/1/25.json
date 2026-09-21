@@ -1,61 +1,116 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 25,
-  "ref": "isaiah 1:25",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 1,
-  "translation": "And I will return my hand upon you, and I will refine as purity your dross, and I will remove all your tin.",
+  "translation": "And I will turn my hand upon you, and I will smelt away your dross as with lye, and I will remove all your tin.",
   "tokens": [
     {
-      "surface": "וְאָשִׁיבָה",
-      "gloss": "and I will return"
+      "surface": "ואשיבה",
+      "gloss": "and I will turn",
+      "readings": [
+        "and I will turn",
+        "and I will return"
+      ],
+      "held_by": {
+        "and I will turn": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I will return": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "יָדִי",
+      "surface": "ידי",
       "gloss": "my hand"
     },
     {
-      "surface": "עָלַיִךְ",
+      "surface": "עליך",
       "gloss": "upon you",
       "readings": [
         "upon you",
         "against you"
-      ]
+      ],
+      "held_by": {
+        "upon you": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "against you": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְאֶצְרֹף",
-      "gloss": "and I will refine"
-    },
-    {
-      "surface": "כַּבֹּר",
-      "gloss": "as purity"
-    },
-    {
-      "surface": "סִיגָיִךְ",
-      "gloss": "your dross",
+      "surface": "ואצרף",
+      "gloss": "and I will smelt",
       "readings": [
-        "your dross",
-        "your refuse"
-      ]
+        "and I will smelt",
+        "and I will refine"
+      ],
+      "held_by": {
+        "and I will smelt": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I will refine": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְאָסִירָה",
+      "surface": "כבר",
+      "gloss": "as with lye",
+      "readings": [
+        "as with lye",
+        "as borax"
+      ],
+      "held_by": {
+        "as with lye": [
+          "v2",
+          "v3"
+        ],
+        "as borax": [
+          "v1"
+        ]
+      }
+    },
+    {
+      "surface": "סיגיך",
+      "gloss": "your dross"
+    },
+    {
+      "surface": "ואסירה",
       "gloss": "and I will remove"
     },
     {
-      "surface": "כָּל",
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "בְּדִילָיִךְ",
+      "surface": "בדיליך",
       "gloss": "your tin",
       "readings": [
         "your tin",
         "your alloy"
-      ]
+      ],
+      "held_by": {
+        "your tin": [
+          "v1",
+          "en4"
+        ],
+        "your alloy": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T13:21:03.071581343Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

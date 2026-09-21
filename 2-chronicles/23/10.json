@@ -1,20 +1,14 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "2-chronicles 23:10",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "And he stationed ⟨את⟩ all the people, and each man his spear in his hand, from the shoulder of the house on the right to the shoulder of the house on the left, at the altar and at the house, around the king.",
+  "translation": "And he stationed ⟨את⟩ all the people, each man his weapon in his hand, from the shoulder of the house on the right to the shoulder of the house on the left, at the altar and at the house, around the king.",
   "tokens": [
     {
       "surface": "ויעמד",
-      "gloss": "and stationed"
+      "gloss": "And he stationed"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "all the people"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "כל",
@@ -30,12 +24,22 @@
     },
     {
       "surface": "שלחו",
-      "gloss": "his spear",
+      "gloss": "his weapon",
       "readings": [
-        "his spear",
-        "his branch",
-        "his shoot"
-      ]
+        "his weapon",
+        "his spear"
+      ],
+      "held_by": {
+        "his weapon": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "his spear": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "בידו",
@@ -55,7 +59,18 @@
       "readings": [
         "on the right",
         "on the south"
-      ]
+      ],
+      "held_by": {
+        "on the right": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "on the south": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עד",
@@ -75,7 +90,18 @@
       "readings": [
         "on the left",
         "on the north"
-      ]
+      ],
+      "held_by": {
+        "on the left": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "on the north": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "למזבח",
@@ -98,6 +124,6 @@
       "gloss": "round about"
     }
   ],
-  "timestamp": "2026-09-20T14:42:07.980522588Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

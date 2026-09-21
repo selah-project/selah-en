@@ -1,20 +1,25 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 22,
-  "ref": "deuteronomy 23:22",
-  "book": "deuteronomy",
-  "lang": "en4",
-  "chapter": 23,
-  "translation": "When you vow a vow to YHWH your Elohim, you shall not delay to pay it, for seeking YHWH your Elohim will surely seek it from you, and it will be in you a sin.",
+  "translation": "When you vow a vow to YHWH your Elohim, you shall not delay to pay it, for seeking YHWH your Elohim will surely seek it from you, and it will be sin in you.",
   "tokens": [
     {
       "surface": "כי",
       "gloss": "when",
       "readings": [
         "when",
-        "if",
-        "for"
-      ]
+        "if"
+      ],
+      "held_by": {
+        "when": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "if": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "תדר",
@@ -49,13 +54,38 @@
       "gloss": "for",
       "readings": [
         "for",
-        "when",
-        "if"
-      ]
+        "when"
+      ],
+      "held_by": {
+        "for": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "when": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "דרש",
-      "gloss": "seeking"
+      "gloss": "seeking",
+      "readings": [
+        "seeking",
+        "requiring"
+      ],
+      "held_by": {
+        "seeking": [
+          "en4"
+        ],
+        "requiring": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ידרשנו",
@@ -63,7 +93,18 @@
       "readings": [
         "he will surely seek it",
         "he will require it"
-      ]
+      ],
+      "held_by": {
+        "he will surely seek it": [
+          "en4"
+        ],
+        "he will require it": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "יהוה",
@@ -75,7 +116,22 @@
     },
     {
       "surface": "מעמך",
-      "gloss": "from with you"
+      "gloss": "from you",
+      "readings": [
+        "from you",
+        "from with you"
+      ],
+      "held_by": {
+        "from you": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "from with you": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "והיה",
@@ -87,9 +143,9 @@
     },
     {
       "surface": "חטא",
-      "gloss": "a sin"
+      "gloss": "sin"
     }
   ],
-  "timestamp": "2026-09-20T15:03:00.068436727Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

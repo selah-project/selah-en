@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 4,
-  "ref": "psalms 129:4",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 129,
-  "translation": "YHWH ⟨is⟩ righteous: he has cut off the cords of the wicked.",
+  "translation": "YHWH ⟨is⟩ righteous; he has cut the cords of the wicked.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -17,22 +12,32 @@
     },
     {
       "surface": "קצץ",
-      "gloss": "has cut off"
+      "gloss": "he has cut",
+      "readings": [
+        "he has cut",
+        "he has cut off"
+      ],
+      "held_by": {
+        "he has cut": [
+          "v1",
+          "v3"
+        ],
+        "he has cut off": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עבות",
-      "gloss": "the cords",
-      "readings": [
-        "the cords",
-        "the bands",
-        "the ropes"
-      ]
+      "gloss": "the cords"
     },
     {
       "surface": "רשעים",
       "gloss": "of the wicked"
     }
   ],
-  "timestamp": "2026-09-20T14:09:27.390781492Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

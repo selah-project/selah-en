@@ -1,19 +1,28 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "isaiah 43:7",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 43,
-  "translation": "Everyone who is called by my name, and for my glory — I created him, I formed him, indeed I made him.",
+  "translation": "All who are called by my name, and for my glory — I created him, I formed him, even I made him.",
   "tokens": [
     {
       "surface": "כל",
-      "gloss": "everyone"
+      "gloss": "all",
+      "readings": [
+        "all",
+        "everyone"
+      ],
+      "held_by": {
+        "all": [
+          "v1",
+          "v3"
+        ],
+        "everyone": [
+          "en4",
+          "v2"
+        ]
+      }
     },
     {
       "surface": "הנקרא",
-      "gloss": "who is called"
+      "gloss": "who are called"
     },
     {
       "surface": "בשמי",
@@ -25,7 +34,18 @@
       "readings": [
         "and for my glory",
         "and for my weight"
-      ]
+      ],
+      "held_by": {
+        "and for my glory": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "and for my weight": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "בראתיו",
@@ -37,13 +57,27 @@
     },
     {
       "surface": "אף",
-      "gloss": "indeed"
+      "gloss": "even",
+      "readings": [
+        "even",
+        "indeed"
+      ],
+      "held_by": {
+        "even": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "indeed": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עשיתיו",
       "gloss": "I made him"
     }
   ],
-  "timestamp": "2026-09-20T17:04:56.997976955Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,19 +1,27 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 23,
-  "ref": "joshua 4:23",
-  "book": "joshua",
-  "lang": "en4",
-  "chapter": 4,
-  "translation": "For YHWH your Elohim dried up ⟨את⟩ the waters of the Jordan from before you until you crossed over, just as YHWH your Elohim did to the Sea of Reeds, which he dried up from before us until we crossed over.",
+  "translation": "For YHWH your Elohim dried up ⟨את⟩ the waters of the Jordan from before you, until you crossed over — as YHWH your Elohim did to ⟨the⟩ Sea of Suf, which he dried up from before us, until we crossed over.",
   "tokens": [
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that",
+      "readings": [
+        "that",
+        "which"
+      ],
+      "held_by": {
+        "that": [
+          "v1",
+          "v3"
+        ],
+        "which": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "הוביש",
-      "gloss": "he dried up"
+      "gloss": "dried up"
     },
     {
       "surface": "יהוה",
@@ -25,16 +33,15 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "מי"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "מי",
-      "gloss": "the waters of"
+      "gloss": "the waters"
     },
     {
       "surface": "הירדן",
-      "gloss": "the Jordan"
+      "gloss": "of the Jordan"
     },
     {
       "surface": "מפניכם",
@@ -46,15 +53,15 @@
     },
     {
       "surface": "עברכם",
-      "gloss": "your crossing over"
+      "gloss": "you crossed over"
     },
     {
       "surface": "כאשר",
-      "gloss": "just as"
+      "gloss": "as"
     },
     {
       "surface": "עשה",
-      "gloss": "he did"
+      "gloss": "did"
     },
     {
       "surface": "יהוה",
@@ -66,15 +73,26 @@
     },
     {
       "surface": "לים",
-      "gloss": "to the sea of"
+      "gloss": "to ⟨the⟩ Sea"
     },
     {
       "surface": "סוף",
-      "gloss": "Reed",
+      "gloss": "of Suf",
       "readings": [
-        "Reed",
-        "end"
-      ]
+        "of Suf",
+        "of Reeds"
+      ],
+      "held_by": {
+        "of Suf": [
+          "v2",
+          "v3"
+        ],
+        "of Reeds": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "אשר",
@@ -94,9 +112,9 @@
     },
     {
       "surface": "עברנו",
-      "gloss": "our crossing over"
+      "gloss": "we crossed over"
     }
   ],
-  "timestamp": "2026-09-20T12:52:08.025715540Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

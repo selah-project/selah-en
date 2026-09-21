@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 1,
-  "ref": "psalms 99:1",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 99,
-  "translation": "YHWH reigns — peoples tremble. He who sits ⟨among⟩ the cherubim — the earth slips.",
+  "translation": "YHWH ⟨has⟩ reigned — ⟨the⟩ peoples tremble! He who sits ⟨upon⟩ ⟨the⟩ cherubim — let the earth quake!",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,37 +8,38 @@
     },
     {
       "surface": "מלך",
-      "gloss": "reigns",
+      "gloss": "reigned",
       "readings": [
+        "reigned",
         "reigns",
-        "has become king",
-        "is king"
-      ]
+        "has become king"
+      ],
+      "held_by": {
+        "reigned": [
+          "v1",
+          "v3"
+        ],
+        "reigns": [
+          "v2",
+          "en4"
+        ],
+        "has become king": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ירגזו",
-      "gloss": "tremble",
-      "readings": [
-        "tremble",
-        "quake",
-        "are agitated"
-      ]
+      "gloss": "tremble"
     },
     {
       "surface": "עמים",
-      "gloss": "peoples",
-      "readings": [
-        "peoples",
-        "nations"
-      ]
+      "gloss": "peoples"
     },
     {
       "surface": "ישב",
-      "gloss": "who sits",
-      "readings": [
-        "who sits",
-        "who is enthroned"
-      ]
+      "gloss": "sits"
     },
     {
       "surface": "כרובים",
@@ -51,12 +47,25 @@
     },
     {
       "surface": "תנוט",
-      "gloss": "slips",
+      "gloss": "let quake",
       "readings": [
-        "slips",
-        "shakes",
-        "totters"
-      ]
+        "let quake",
+        "quakes",
+        "slips"
+      ],
+      "held_by": {
+        "let quake": [
+          "v1",
+          "v3"
+        ],
+        "quakes": [
+          "v2"
+        ],
+        "slips": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "הארץ",
@@ -64,9 +73,20 @@
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:47:14.852731444Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

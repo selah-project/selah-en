@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 13,
-  "ref": "isaiah 26:13",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 26,
-  "translation": "YHWH our Elohim — lords besides you possessed us; in you alone we remember your name.",
+  "translation": "O YHWH our Elohim, other lords besides you have ruled over us; but by you only we will make mention of your name.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -17,12 +12,21 @@
     },
     {
       "surface": "בעלונו",
-      "gloss": "possessed us",
+      "gloss": "have ruled over us",
       "readings": [
-        "possessed us",
-        "mastered us",
-        "ruled over us"
-      ]
+        "have ruled over us",
+        "have owned us"
+      ],
+      "held_by": {
+        "have ruled over us": [
+          "v1",
+          "v3"
+        ],
+        "have owned us": [
+          "v2",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אדנים",
@@ -34,21 +38,50 @@
     },
     {
       "surface": "לבד",
-      "gloss": "alone"
+      "gloss": "only"
     },
     {
       "surface": "בך",
-      "gloss": "in you"
+      "gloss": "in you",
+      "readings": [
+        "in you",
+        "by you"
+      ],
+      "held_by": {
+        "in you": [
+          "v2",
+          "en4"
+        ],
+        "by you": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "נזכיר",
-      "gloss": "we remember"
+      "gloss": "we will make mention of",
+      "readings": [
+        "we will make mention of",
+        "we remember"
+      ],
+      "held_by": {
+        "we will make mention of": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "we remember": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "שמך",
       "gloss": "your name"
     }
   ],
-  "timestamp": "2026-09-20T10:22:10.707362719Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

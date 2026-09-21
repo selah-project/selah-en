@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "isaiah 5:9",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "In my ears, YHWH of hosts: Surely many houses shall become a desolation, great and good, without inhabitant.",
+  "translation": "In my ears, YHWH of hosts: surely many houses shall become a desolation, great and fine, without inhabitant.",
   "tokens": [
     {
       "surface": "באזני",
@@ -17,15 +12,26 @@
     },
     {
       "surface": "צבאות",
-      "gloss": "of hosts",
-      "readings": [
-        "of hosts",
-        "of armies"
-      ]
+      "gloss": "of hosts"
     },
     {
       "surface": "אם",
-      "gloss": "Surely"
+      "gloss": "surely",
+      "readings": [
+        "surely",
+        "if"
+      ],
+      "held_by": {
+        "surely": [
+          "v1",
+          "en4"
+        ],
+        "if": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "לא",
@@ -41,11 +47,25 @@
     },
     {
       "surface": "לשמה",
-      "gloss": "for a desolation"
+      "gloss": "for a desolation",
+      "readings": [
+        "for a desolation",
+        "a desolation"
+      ],
+      "held_by": {
+        "for a desolation": [
+          "en4"
+        ],
+        "a desolation": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "יהיו",
-      "gloss": "they shall become"
+      "gloss": "shall become"
     },
     {
       "surface": "גדלים",
@@ -53,7 +73,23 @@
     },
     {
       "surface": "וטובים",
-      "gloss": "and good"
+      "gloss": "and fine",
+      "readings": [
+        "and fine",
+        "and good"
+      ],
+      "held_by": {
+        "and fine": [
+          "v1",
+          "v3"
+        ],
+        "and good": [
+          "en4"
+        ],
+        "v2-collapsed": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "מאין",
@@ -65,9 +101,20 @@
       "readings": [
         "inhabitant",
         "one sitting"
-      ]
+      ],
+      "held_by": {
+        "inhabitant": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "one sitting": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:21:28.803344940Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

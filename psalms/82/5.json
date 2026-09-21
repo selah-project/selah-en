@@ -1,57 +1,78 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 5,
-  "ref": "psalms 82:5",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 82,
-  "translation": "Not have they known, and not do they understand; in the darkness they walk about; all the foundations of the earth slip.",
+  "translation": "They do not know, and they do not understand; in darkness they walk about; all the foundations of the earth are shaken.",
   "tokens": [
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "יָדְעוּ",
-      "gloss": "they have known"
+      "surface": "ידעו",
+      "gloss": "they know"
     },
     {
-      "surface": "וְלֹא",
+      "surface": "ולא",
       "gloss": "and not"
     },
     {
-      "surface": "יָבִינוּ",
+      "surface": "יבינו",
       "gloss": "they understand"
     },
     {
-      "surface": "בַּחֲשֵׁכָה",
-      "gloss": "in the darkness"
+      "surface": "בחשכה",
+      "gloss": "in darkness"
     },
     {
-      "surface": "יִתְהַלָּכוּ",
+      "surface": "יתהלכו",
       "gloss": "they walk about"
     },
     {
-      "surface": "יִמּוֹטוּ",
-      "gloss": "they slip"
+      "surface": "ימוטו",
+      "gloss": "are shaken",
+      "readings": [
+        "are shaken",
+        "they slip"
+      ],
+      "held_by": {
+        "are shaken": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "they slip": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "כָּל",
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "מוֹסְדֵי",
+      "surface": "מוסדי",
       "gloss": "foundations of"
     },
     {
-      "surface": "אָרֶץ",
+      "surface": "ארץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
-      ]
+      ],
+      "held_by": {
+        "the earth": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the land": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T15:45:58.076543806Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

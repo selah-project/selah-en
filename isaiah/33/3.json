@@ -1,24 +1,29 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 3,
-  "ref": "isaiah 33:3",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 33,
-  "translation": "At the voice of a tumult, peoples fled; at your lifting up, nations scattered.",
+  "translation": "From the voice of the tumult peoples fled; from your exaltation nations were scattered.",
   "tokens": [
     {
       "surface": "מקול",
-      "gloss": "At the voice of"
+      "gloss": "from the voice of"
     },
     {
       "surface": "המון",
-      "gloss": "a tumult",
+      "gloss": "tumult",
       "readings": [
-        "a tumult",
-        "a multitude",
-        "a noise"
-      ]
+        "tumult",
+        "a multitude"
+      ],
+      "held_by": {
+        "tumult": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a multitude": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נדדו",
@@ -30,21 +35,46 @@
     },
     {
       "surface": "מרוממתך",
-      "gloss": "at your lifting up"
+      "gloss": "from your exaltation",
+      "readings": [
+        "from your exaltation",
+        "from your lifting up"
+      ],
+      "held_by": {
+        "from your exaltation": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "from your lifting up": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נפצו",
-      "gloss": "scattered",
+      "gloss": "were scattered",
       "readings": [
-        "scattered",
+        "were scattered",
         "were dashed to pieces"
-      ]
+      ],
+      "held_by": {
+        "were scattered": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "were dashed to pieces": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "גוים",
       "gloss": "nations"
     }
   ],
-  "timestamp": "2026-09-20T13:25:21.729695230Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

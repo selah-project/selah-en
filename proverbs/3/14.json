@@ -1,45 +1,95 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "proverbs 3:14",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 3,
-  "translation": "For good is her merchandise from the merchandise of silver, and from fine gold her yield.",
+  "translation": "For her profit is better than the trade of silver, and her yield than fine gold.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "טוֹב",
-      "gloss": "good is"
+      "surface": "טוב",
+      "gloss": "is better",
+      "readings": [
+        "is better",
+        "is good"
+      ],
+      "held_by": {
+        "is better": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "is good": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "סַחְרָהּ",
-      "gloss": "her merchandise"
+      "surface": "סחרה",
+      "gloss": "her profit",
+      "readings": [
+        "her profit",
+        "her merchandise"
+      ],
+      "held_by": {
+        "her profit": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "her merchandise": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "מִסְּחַר",
-      "gloss": "from the merchandise of"
+      "surface": "מסחר",
+      "gloss": "than the trade of",
+      "readings": [
+        "than the trade of",
+        "than the merchandise of"
+      ],
+      "held_by": {
+        "than the trade of": [
+          "v2",
+          "v3"
+        ],
+        "than the merchandise of": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כֶּסֶף",
+      "surface": "כסף",
       "gloss": "silver"
     },
     {
-      "surface": "וּמֵחָרוּץ",
-      "gloss": "and from fine gold",
+      "surface": "ומחרוץ",
+      "gloss": "than fine gold",
       "readings": [
-        "and from fine gold",
-        "and from the gold-cut"
-      ]
+        "than fine gold",
+        "than the gold-cut"
+      ],
+      "held_by": {
+        "than fine gold": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "than the gold-cut": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "תְּבוּאָתָהּ",
+      "surface": "תבואתה",
       "gloss": "her yield"
     }
   ],
-  "timestamp": "2026-09-20T14:11:31.882154108Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

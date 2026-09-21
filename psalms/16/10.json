@@ -1,66 +1,116 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 16:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 16,
-  "translation": "For you will not forsake my nefesh to Sheol; you will not give your chasid to see the pit.",
+  "translation": "For you will not abandon my nefesh to Sheol; you will not give your chasid to see the pit.",
   "tokens": [
     {
-      "surface": "כִּי",
+      "surface": "כי",
       "gloss": "For"
     },
     {
-      "surface": "לֹא",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "תַעֲזֹב",
-      "gloss": "you will forsake"
+      "surface": "תעזב",
+      "gloss": "you will abandon",
+      "readings": [
+        "you will abandon",
+        "you will forsake"
+      ],
+      "held_by": {
+        "you will abandon": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "you will forsake": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "נַפְשִׁי",
+      "surface": "נפשי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
         "my soul",
         "my life"
-      ]
+      ],
+      "held_by": {
+        "my nefesh": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "my soul": [
+          "v1",
+          "en4"
+        ],
+        "my life": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לִשְׁאוֹל",
+      "surface": "לשאול",
       "gloss": "to Sheol"
     },
     {
-      "surface": "לֹא",
-      "gloss": "not"
+      "surface": "לא",
+      "gloss": "nor"
     },
     {
-      "surface": "תִתֵּן",
-      "gloss": "you will give"
+      "surface": "תתן",
+      "gloss": "will you give"
     },
     {
-      "surface": "חֲסִידְךָ",
+      "surface": "חסידך",
       "gloss": "your chasid",
       "readings": [
         "your chasid",
-        "your faithful one"
-      ]
+        "your kind one",
+        "your devout one"
+      ],
+      "held_by": {
+        "your chasid": [
+          "en4"
+        ],
+        "your kind one": [
+          "v2",
+          "v3"
+        ],
+        "your devout one": [
+          "v1"
+        ]
+      }
     },
     {
-      "surface": "לִרְאוֹת",
+      "surface": "לראות",
       "gloss": "to see"
     },
     {
-      "surface": "שָׁחַת",
+      "surface": "שחת",
       "gloss": "the pit",
       "readings": [
         "the pit",
+        "corruption",
         "destruction"
-      ]
+      ],
+      "held_by": {
+        "the pit": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "corruption": [
+          "v1"
+        ],
+        "destruction": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T13:57:47.131946654Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

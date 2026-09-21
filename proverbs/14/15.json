@@ -1,50 +1,116 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "proverbs 14:15",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "The simple one trusts every word, but the shrewd one understands ⟨his⟩ going.",
+  "translation": "The simple believes every word, but the prudent understands his step.",
   "tokens": [
     {
-      "surface": "פֶּתִי",
-      "gloss": "The simple one"
+      "surface": "פתי",
+      "gloss": "The simple"
     },
     {
-      "surface": "יַאֲמִין",
-      "gloss": "trusts"
+      "surface": "יאמין",
+      "gloss": "believes",
+      "readings": [
+        "believes",
+        "trusts"
+      ],
+      "held_by": {
+        "believes": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "trusts": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לְכָל",
+      "surface": "לכל",
       "gloss": "every"
     },
     {
-      "surface": "דָּבָר",
+      "surface": "דבר",
       "gloss": "word",
       "readings": [
         "word",
         "matter",
         "thing"
-      ]
+      ],
+      "held_by": {
+        "word": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "matter": [
+          "en4"
+        ],
+        "thing": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וְעָרוּם",
-      "gloss": "and the shrewd one",
+      "surface": "וערום",
+      "gloss": "but the prudent",
       "readings": [
-        "and the shrewd one",
-        "and the cunning one"
-      ]
+        "but the prudent",
+        "but the shrewd"
+      ],
+      "held_by": {
+        "but the prudent": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "but the shrewd": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "יָבִין",
-      "gloss": "understands"
+      "surface": "יבין",
+      "gloss": "understands",
+      "readings": [
+        "understands",
+        "gives heed",
+        "considers"
+      ],
+      "held_by": {
+        "understands": [
+          "en4"
+        ],
+        "gives heed": [
+          "v2",
+          "v3"
+        ],
+        "considers": [
+          "v1"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "לַאֲשֻׁרוֹ",
-      "gloss": "his going"
+      "surface": "לאשרו",
+      "gloss": "to his step",
+      "readings": [
+        "to his step",
+        "his going"
+      ],
+      "held_by": {
+        "to his step": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his going": [
+          "v1"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T14:12:44.705058746Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

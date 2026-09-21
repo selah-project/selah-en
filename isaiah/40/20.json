@@ -1,27 +1,44 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 20,
-  "ref": "isaiah 40:20",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 40,
-  "translation": "The one impoverished by an offering chooses wood that does not rot; he seeks for himself a skilled craftsman to set up an idol that will not be moved.",
+  "translation": "He who is too poor for a contribution chooses wood that will not rot; he seeks for himself a skilled craftsman to establish an idol that will not totter.",
   "tokens": [
     {
       "surface": "המסכן",
-      "gloss": "The one impoverished",
+      "gloss": "He who is too poor",
       "readings": [
-        "The one impoverished",
-        "The poor one"
-      ]
+        "He who is too poor",
+        "the poor one"
+      ],
+      "held_by": {
+        "He who is too poor": [
+          "v2",
+          "v3"
+        ],
+        "the poor one": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "תרומה",
-      "gloss": "by an offering",
+      "gloss": "for a contribution",
       "readings": [
-        "by an offering",
-        "by a contribution"
-      ]
+        "for a contribution",
+        "for an offering"
+      ],
+      "held_by": {
+        "for a contribution": [
+          "v2",
+          "v3"
+        ],
+        "for an offering": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "עץ",
@@ -29,7 +46,17 @@
       "readings": [
         "wood",
         "a tree"
-      ]
+      ],
+      "held_by": {
+        "wood": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a tree": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "לא",
@@ -37,15 +64,29 @@
     },
     {
       "surface": "ירקב",
-      "gloss": "rots"
+      "gloss": "rot",
+      "readings": [
+        "rot",
+        "rots"
+      ],
+      "held_by": {
+        "rot": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "rots": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יבחר",
-      "gloss": "chooses"
+      "gloss": "he chooses"
     },
     {
       "surface": "חרש",
-      "gloss": "a craftsman"
+      "gloss": "a skilled craftsman"
     },
     {
       "surface": "חכם",
@@ -57,15 +98,39 @@
     },
     {
       "surface": "לו",
-      "gloss": "for himself"
+      "gloss": "for himself",
+      "readings": [
+        "for himself",
+        "to himself"
+      ],
+      "held_by": {
+        "for himself": [
+          "v2",
+          "en4"
+        ],
+        "to himself": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "להכין",
-      "gloss": "to set up",
+      "gloss": "to establish",
       "readings": [
-        "to set up",
-        "to establish"
-      ]
+        "to establish",
+        "to prepare"
+      ],
+      "held_by": {
+        "to establish": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "to prepare": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "פסל",
@@ -73,7 +138,18 @@
       "readings": [
         "an idol",
         "a carved image"
-      ]
+      ],
+      "held_by": {
+        "an idol": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "a carved image": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "לא",
@@ -81,13 +157,23 @@
     },
     {
       "surface": "ימוט",
-      "gloss": "be moved",
+      "gloss": "totter",
       "readings": [
-        "be moved",
-        "topple"
-      ]
+        "totter",
+        "be moved"
+      ],
+      "held_by": {
+        "totter": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "be moved": [
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:23:10.619100020Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

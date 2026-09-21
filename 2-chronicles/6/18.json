@@ -1,27 +1,32 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "2-chronicles 6:18",
-  "book": "2-chronicles",
-  "lang": "en4",
-  "chapter": 6,
-  "translation": "For is it truly so that Elohim will dwell with man on the earth? Behold, the heavens and the heavens of the heavens cannot contain you — indeed, this house that I have built!",
+  "translation": "But will Elohim truly dwell with ⟨את⟩ the man upon the earth? Behold, the heavens and the heavens of the heavens cannot contain you — how much less this house that I have built!",
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "But"
     },
     {
       "surface": "האמנם",
-      "gloss": "truly?",
-      "readings": [
-        "truly?",
-        "in earnest?"
-      ]
+      "gloss": "truly"
     },
     {
       "surface": "ישב",
-      "gloss": "will sit"
+      "gloss": "will dwell",
+      "readings": [
+        "will dwell",
+        "will sit"
+      ],
+      "held_by": {
+        "will dwell": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "will sit": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אלהים",
@@ -29,8 +34,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "האדם"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "האדם",
@@ -38,11 +42,22 @@
       "readings": [
         "the man",
         "mankind"
-      ]
+      ],
+      "held_by": {
+        "the man": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "mankind": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "על",
-      "gloss": "on"
+      "gloss": "upon"
     },
     {
       "surface": "הארץ",
@@ -50,7 +65,7 @@
     },
     {
       "surface": "הנה",
-      "gloss": "behold"
+      "gloss": "Behold"
     },
     {
       "surface": "שמים",
@@ -66,24 +81,30 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "cannot"
     },
     {
       "surface": "יכלכלוך",
-      "gloss": "can hold you",
+      "gloss": "contain you",
       "readings": [
-        "can hold you",
-        "can contain you",
-        "can sustain you"
-      ]
+        "contain you",
+        "sustain you"
+      ],
+      "held_by": {
+        "contain you": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "sustain you": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "אף",
-      "gloss": "indeed",
-      "readings": [
-        "indeed",
-        "how much less"
-      ]
+      "gloss": "how much less"
     },
     {
       "surface": "כי",
@@ -106,6 +127,6 @@
       "gloss": "I have built"
     }
   ],
-  "timestamp": "2026-09-20T16:03:36.457200373Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

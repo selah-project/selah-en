@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 14,
-  "ref": "joshua 5:14",
-  "book": "joshua",
-  "lang": "en4",
-  "chapter": 5,
-  "translation": "And he said, No, for I, prince of the host of YHWH, have now come; and Joshua fell on his face to the earth and bowed down, and said to him, What is my lord speaking to his servant?",
+  "translation": "And he said, “No; for as prince of the host of YHWH I have now come.” And Joshua fell on his face to the earth and bowed down, and said to him, “What is my Adonai speaking to his servant?”",
   "tokens": [
     {
       "surface": "ויאמר",
@@ -28,17 +23,38 @@
       "gloss": "prince of",
       "readings": [
         "prince of",
-        "chief of",
         "commander of"
-      ]
+      ],
+      "held_by": {
+        "prince of": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "commander of": [
+          "v1",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "צבא",
-      "gloss": "the host",
+      "gloss": "the host of",
       "readings": [
-        "the host",
-        "the army"
-      ]
+        "the host of",
+        "the army of"
+      ],
+      "held_by": {
+        "the host of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the army of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "יהוה",
@@ -90,7 +106,22 @@
     },
     {
       "surface": "אדני",
-      "gloss": "my lord"
+      "gloss": "my Adonai",
+      "readings": [
+        "my Adonai",
+        "my lord"
+      ],
+      "held_by": {
+        "my Adonai": [
+          "v2",
+          "v3"
+        ],
+        "my lord": [
+          "v1",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "מדבר",
@@ -105,6 +136,6 @@
       "gloss": "his servant"
     }
   ],
-  "timestamp": "2026-09-20T12:52:27.923638547Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 33,
-  "ref": "2-samuel 22:33",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "The El, my fortress, my strength; and He sets whole His way.",
+  "translation": "The El is my stronghold of strength, and He makes perfect His way.",
   "tokens": [
     {
       "surface": "האל",
@@ -13,33 +8,60 @@
     },
     {
       "surface": "מעוזי",
-      "gloss": "my fortress"
+      "gloss": "my stronghold",
+      "readings": [
+        "my stronghold",
+        "my fortress"
+      ],
+      "held_by": {
+        "my stronghold": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "my fortress": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חיל",
-      "gloss": "my strength",
-      "readings": [
-        "my strength",
-        "my might",
-        "my wealth"
-      ]
+      "gloss": "strength"
     },
     {
       "surface": "ויתר",
-      "gloss": "and He sets free",
+      "gloss": "and He makes perfect",
+      "disputed": true,
       "readings": [
-        "and He sets free",
-        "and He lets go"
-      ]
+        "and He makes perfect",
+        "and He sets whole"
+      ],
+      "held_by": {
+        "and He makes perfect": [
+          "v2"
+        ],
+        "and He sets whole": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "תמים",
-      "gloss": "whole",
+      "gloss": "perfect",
       "readings": [
-        "whole",
-        "complete",
-        "blameless"
-      ]
+        "perfect",
+        "whole"
+      ],
+      "held_by": {
+        "perfect": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "whole": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "דרכו",
@@ -47,9 +69,20 @@
       "readings": [
         "His way",
         "my way"
-      ]
+      ],
+      "held_by": {
+        "His way": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "my way": [
+          "v2",
+          "en4"
+        ]
+      }
     }
   ],
-  "timestamp": "2026-09-20T10:13:11.595699866Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

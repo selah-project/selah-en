@@ -1,41 +1,64 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 26,
-  "ref": "proverbs 22:26",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 22,
-  "translation": "Do not be among those who strike the palm, among those who are sureties for loans.",
+  "translation": "Do not be among those who strike the palm, among those who pledge ⟨themselves for⟩ debts.",
   "tokens": [
     {
-      "surface": "אַל",
-      "gloss": "do not"
+      "surface": "אל",
+      "gloss": "Do not"
     },
     {
-      "surface": "תְּהִי",
+      "surface": "תהי",
       "gloss": "be"
     },
     {
-      "surface": "בְתֹקְעֵי",
+      "surface": "בתקעי",
       "gloss": "among those who strike"
     },
     {
-      "surface": "כָף",
+      "surface": "כף",
       "gloss": "the palm"
     },
     {
-      "surface": "בַּעֹרְבִים",
-      "gloss": "among those who interweave themselves",
+      "surface": "בערבים",
+      "gloss": "among those who pledge",
       "readings": [
-        "among those who interweave themselves",
+        "among those who pledge",
         "among sureties"
-      ]
+      ],
+      "held_by": {
+        "among those who pledge": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "among sureties": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "מַשָּׁאוֹת",
-      "gloss": "for loans"
+      "surface": "משאות",
+      "gloss": "debts",
+      "readings": [
+        "debts",
+        "loans",
+        "pledges"
+      ],
+      "held_by": {
+        "debts": [
+          "v2"
+        ],
+        "loans": [
+          "v3",
+          "en4"
+        ],
+        "pledges": [
+          "v1"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T10:52:52.806806552Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

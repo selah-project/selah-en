@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 9,
-  "ref": "1-samuel 2:9",
-  "book": "1-samuel",
-  "lang": "en4",
-  "chapter": 2,
-  "translation": "The feet of his chasid he will keep, and the wicked in darkness are silenced, for not by strength does a man prevail.",
+  "translation": "The feet of his chasid he will keep, and the wicked in darkness will be silenced, for not by strength will a man prevail.",
   "tokens": [
     {
       "surface": "רגלי",
@@ -13,7 +8,18 @@
       "readings": [
         "the feet of",
         "the steps of"
-      ]
+      ],
+      "held_by": {
+        "the feet of": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "the steps of": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "חסידו",
@@ -21,7 +27,18 @@
       "readings": [
         "his chasid",
         "his faithful one"
-      ]
+      ],
+      "held_by": {
+        "his chasid": [
+          "en4"
+        ],
+        "his faithful one": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "ישמר",
@@ -37,11 +54,21 @@
     },
     {
       "surface": "ידמו",
-      "gloss": "are silenced",
+      "gloss": "will be silenced",
       "readings": [
-        "are silenced",
-        "are cut off"
-      ]
+        "will be silenced",
+        "will perish"
+      ],
+      "held_by": {
+        "will be silenced": [
+          "v1",
+          "v3",
+          "en4"
+        ],
+        "will perish": [
+          "v2"
+        ]
+      }
     },
     {
       "surface": "כי",
@@ -57,13 +84,13 @@
     },
     {
       "surface": "יגבר",
-      "gloss": "does prevail"
+      "gloss": "will prevail"
     },
     {
       "surface": "איש",
       "gloss": "a man"
     }
   ],
-  "timestamp": "2026-09-20T13:00:15.043413690Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

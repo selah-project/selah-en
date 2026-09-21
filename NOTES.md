@@ -1,36 +1,87 @@
-# en4 — the blind fourth pass (English)
+# en5 — the judge
 
-*Rendered 2026-09-20. 23,213 verses, 39 books. Written ALONGSIDE the live `en`
-canon — never over it. Not seated, not served.*
+*Landed 2026-09-20 → 09-21. 23,213 verses of 23,213.*
 
-- **What it is:** an independent rendering from the Hebrew. The model saw the
-  Hebrew tokens and the rails (`prompts/en4.md`) and **none** of v1, v2 or v3.
-  Its job is to be a second pair of eyes that has not read the first; a later
-  pass (en5) judges all passes together.
-- **Format:** the readings format (`docs/spec/the-readings-format.md` in the
-  selah repo): every token keeps `gloss` (reading 1) and MAY carry an ordered
-  `readings` list (≤ 3) of what the Hebrew form permits — never target-language
-  synonyms; never for the divine register, names, the את-family, numbers, fills.
-- **Model:** glm-5.3-flash, batch size 4, thinking disabled.
-- **The burn's signature:** lit 05:33 local at fan-out 40; ended 07:10 on its own
-  with 4,518 api-errors of 6,167 runs (6,130 verses landed). Relit 08:16 at
-  fan-out 20 as an engine-side loop of passes, each pass re-running only what
-  had not landed. The api-errors were HTTP 429s — flash refuses even 20 in
-  flight, so each pass landed about half of what the last was refused:
-  2,163 · 1,099 · 585 · 317 · 181 · 99 · 54 · 29 · 13 · 10 → **complete at 13:55,
-  ten passes, residue zero.** Sustained rate ≈ 50–65 verses/min.
-- **Audit:** see the selah repo, `dev/experiments/860_*` (run after this commit).
-- **Known from the pilot (Ruth · Song · Lev 8):** flash drops ≈ 8 % of the flow's
-  ⟨את⟩ markers against its own rows; verb errors and register drift are more
-  frequent than in the serving model; structure (JSON, token counts, the Name)
-  holds.
+## What this pass is
 
-## Audit (selah repo, dev/experiments/860_the_en4_audit.clj — 2026-09-20)
+The fifth English pass is not a rendering from scratch. It is the **judge**: for
+every verse it is shown the four earlier passes side by side, token by token on
+the Hebrew spine — **v1 · v2 · v3** (the seated canon's history) and **en4** (the
+blind witness on a different model, in the readings format) — together with both
+disciplines verbatim (`prompts/system.md` = `en5.md` + `en4.md`), and it seats one
+line and one gloss per token.
 
-Parse failures 0 · the Name 6,826 / 6,826 · bare את 7,321 / 7,368 keep the
-marker · ואת 2,237 / 2,249 carry marker and vav · fabricated markers 57 ·
-**35 verses disagree with the canon's token count** (Gen 19:7, Ps 150:6 among
-them — batch bleed; re-render before any use) · **851 verses' flowing lines
-carry fewer ⟨את⟩ than their rows** (≈ 8.6 % of markers) · tokens with readings
-20,601 of 305,526 (6.7 %); readings[0] ≠ gloss 291 ×; one Name row multiplied
-(Ps 91:2) · whole-bracket glosses 6.
+Format: every token carries `gloss`; a token **may** carry `readings` (≤ 3, ordered,
+`readings[0] == gloss`), `held_by` (which passes held each reading) and `disputed`
+(the passes genuinely disagreed and the judge does not pretend otherwise).
+See `docs/spec/the-readings-format.md` in the selah repo.
+
+Written ALONGSIDE the live canon (`en`), never over it. Nothing here is seated.
+
+## The burn (its signature)
+
+- Model: the serving lane (9 permits), `:repair` priority, reasoning low.
+- **Corpus run** 09-20 14:30 → 18:31, three verses a call, ≈ 85 verses/min:
+  22,346 landed, **872 refused** by the validator (a verse dropped from a batch of
+  three, or a token count off the spine).
+- A first relight over the 380 affected chapters **starved**: ~9,000 queued runs of
+  which 8% were real work; `pmap` is ordered, so one or two calls ran at a time —
+  2 verses/min with every lane idle. (Cured in `run-chapters!`: it now queues only
+  unjudged verses.)
+- **Dense passes** over only what was missing, one verse a call, ≈ 50/min:
+  739 → 44 (21:43–21:58) → 8 (22:04) → **0** (three tries each, 23:10).
+- A hand call on Prov 17:25 showed aligned inputs and a valid answer: the residue
+  was the model's occasional stumble, not bad verses.
+
+## Read by eye
+
+- **Ruth 3:9** — כנף restored to *wing* (the earlier passes had smoothed it to
+  *skirt / garment*); flagged `disputed`.
+- **Isa 49:2** — ברור: *polished* (all four) · *purified* · *chosen* (en4).
+- **Hab 2:11** — *a stone from the wall shall cry out, and a rafter from the timber
+  shall answer it*; כפיס: *rafter · fastening · beam*.
+- **Ps 27:4** — *One thing I have asked… it I seek*; שבתי and ולבקר both `disputed`
+  — honestly: they are cruxes.
+- **Lev 8:35** — *you shall keep ⟨את⟩ the charge of YHWH*; משמרת: *the charge of ·
+  the watch of · the guard duty of*; תשבו: *sit · abide*.
+- **2 Sam 14:9** — *“Upon me, my lord the king, ⟨be⟩ the iniquity, and upon the house
+  of my father; and the king and his throne ⟨are⟩ innocent.”*
+
+## Forks left for Scott
+
+- **Exod 3:14 אהיה** — *I will be* (en4 alone) was seated over *I AM* (v1 · v2 · v3),
+  and flagged `disputed`. The judge followed the form; three passes followed the
+  tradition of the rendering. His call.
+
+## The first audit (09-21) and repair pass 1
+
+0 unparsed · 305,507 tokens · **8,373 disputed** · **29,976 multi-reading** · the Name
+glossed YHWH on every row that holds it · 13 markers on non-family rows · 56 verses whose
+flow has fewer ⟨את⟩ than its rows · and **361 Hebrew surfaces respelled by the judge**
+(the Name written where the text has *Joah*, 2 Chr 29:12). Cure, deterministic
+(`dev/scripts/en5_surface_restore.py` in the selah repo): surfaces restored from the
+canon's spine, glosses untouched, every change in `repair-log.json`; ten verses where
+the judge had MOVED tokens were deleted and re-judged. The restore now reports 0 / 0.
+*The Hebrew is never the judge's to write* — the next judge prompt should not ask it to.
+
+Most multi-reading forms: הארץ 610 · על 366 · כי 288 · ארץ 221 · רוח 202 · אשר · בני ·
+נפשי · אל · נפש · עולם · חסד 75 · כבוד 66. Most disputed: כי · על · אל · אשר · אם · דברי ·
+בני · אף · the נפש family · עולם · הדבר · תמים.
+
+## Repair pass 2 (09-21) — the markers
+
+Five ⟨את⟩ on rows whose surface is no family word — stripped. (ומאת ×7 is family and
+lawful; Dan 3:12's Aramaic ית is left for the Aramaic ruling.) 56 verses whose flowing
+line carried fewer markers than its rows: re-judged; the validator now REQUIRES
+flow ⟨את⟩ ≥ row ⟨את⟩ (*the row and the flow are two surfaces*). **Three hand verses** — the
+judge would not carry the markers into the sentence in five rounds; the rows are the
+judge's, the flow is the shovel's, each file marked `"hand"`: **Ezra 1:5 · 2 Kgs 18:22 ·
+Jer 35:14.** After the pass: 23,213 verses · surfaces 0 drifted · 0 short flows · 1 marker
+on a non-family row (the Aramaic one).
+
+## Owed
+
+- The audit (as exp 860 did for en4): parse · the Name's count · fabricated markers ·
+  flow-vs-row marker parity · token alignment against the canon · doubled fills.
+- Tallies of `disputed` slots and multi-reading tokens **by lemma** — the seed list
+  for the cross-language sense work.

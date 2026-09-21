@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 18,
-  "ref": "numbers 14:18",
-  "book": "numbers",
-  "lang": "en4",
-  "chapter": 14,
-  "translation": "YHWH is slow to anger and great in chesed, bearing iniquity and transgression; and He will not acquit the acquitted — visiting the iniquity of fathers upon sons, upon the third and upon the fourth.",
+  "translation": "YHWH is slow to anger and great in chesed, bearing iniquity and transgression, and acquitting — not acquitting — visiting the iniquity of the fathers upon the sons, upon the third and upon the fourth.",
   "tokens": [
     {
       "surface": "יהוה",
@@ -13,23 +8,30 @@
     },
     {
       "surface": "ארך",
-      "gloss": "slow of",
-      "readings": [
-        "slow of",
-        "long of"
-      ]
+      "gloss": "slow"
     },
     {
       "surface": "אפים",
-      "gloss": "nostrils",
+      "gloss": "to anger",
       "readings": [
-        "nostrils",
-        "anger"
-      ]
+        "to anger",
+        "of nostrils"
+      ],
+      "held_by": {
+        "to anger": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "of nostrils": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ורב",
-      "gloss": "and great of"
+      "gloss": "and great"
     },
     {
       "surface": "חסד",
@@ -38,7 +40,21 @@
         "chesed",
         "steadfast love",
         "kindness"
-      ]
+      ],
+      "held_by": {
+        "chesed": [
+          "v3",
+          "en4"
+        ],
+        "steadfast love": [
+          "v2",
+          "en4"
+        ],
+        "kindness": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
       "surface": "נשא",
@@ -46,19 +62,11 @@
     },
     {
       "surface": "עון",
-      "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "perversity"
-      ]
+      "gloss": "iniquity"
     },
     {
       "surface": "ופשע",
-      "gloss": "and transgression",
-      "readings": [
-        "and transgression",
-        "and rebellion"
-      ]
+      "gloss": "and transgression"
     },
     {
       "surface": "ונקה",
@@ -70,7 +78,7 @@
     },
     {
       "surface": "ינקה",
-      "gloss": "He will acquit"
+      "gloss": "acquitting"
     },
     {
       "surface": "פקד",
@@ -78,19 +86,26 @@
       "readings": [
         "visiting",
         "attending to"
-      ]
+      ],
+      "held_by": {
+        "visiting": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "attending to": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עון",
-      "gloss": "the iniquity",
-      "readings": [
-        "the iniquity",
-        "the perversity"
-      ]
+      "gloss": "the iniquity"
     },
     {
       "surface": "אבות",
-      "gloss": "of fathers"
+      "gloss": "of the fathers"
     },
     {
       "surface": "על",
@@ -98,7 +113,21 @@
     },
     {
       "surface": "בנים",
-      "gloss": "sons"
+      "gloss": "sons",
+      "readings": [
+        "sons",
+        "children"
+      ],
+      "held_by": {
+        "sons": [
+          "v1",
+          "en4"
+        ],
+        "children": [
+          "v2",
+          "v3"
+        ]
+      }
     },
     {
       "surface": "על",
@@ -106,11 +135,7 @@
     },
     {
       "surface": "שלשים",
-      "gloss": "thirds",
-      "readings": [
-        "thirds",
-        "third generation"
-      ]
+      "gloss": "the third"
     },
     {
       "surface": "ועל",
@@ -118,13 +143,9 @@
     },
     {
       "surface": "רבעים",
-      "gloss": "fourths",
-      "readings": [
-        "fourths",
-        "fourth generation"
-      ]
+      "gloss": "the fourth"
     }
   ],
-  "timestamp": "2026-09-20T09:54:32.345825099Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

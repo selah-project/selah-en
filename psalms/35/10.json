@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 10,
-  "ref": "psalms 35:10",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 35,
-  "translation": "All my bones shall say, YHWH, who is like You, delivering the afflicted from one stronger than he, and the afflicted and the needy from his plunderer.",
+  "translation": "All my bones will say: 'YHWH, who ⟨is⟩ like you, ⟨who⟩ delivers the poor from the stronger than he, and the poor and the needy from his plunderer?'",
   "tokens": [
     {
       "surface": "כל",
@@ -17,7 +12,7 @@
     },
     {
       "surface": "תאמרנה",
-      "gloss": "shall say"
+      "gloss": "will say"
     },
     {
       "surface": "יהוה",
@@ -29,27 +24,48 @@
     },
     {
       "surface": "כמוך",
-      "gloss": "is like You"
+      "gloss": "like you"
     },
     {
       "surface": "מציל",
-      "gloss": "delivering",
+      "gloss": "who delivers",
       "readings": [
-        "delivering",
+        "who delivers",
         "snatching away"
-      ]
+      ],
+      "held_by": {
+        "who delivers": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "snatching away": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "עני",
-      "gloss": "the afflicted",
+      "gloss": "the poor",
       "readings": [
-        "the afflicted",
-        "the poor"
-      ]
+        "the poor",
+        "the afflicted"
+      ],
+      "held_by": {
+        "the poor": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "the afflicted": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "מחזק",
-      "gloss": "from one stronger than he"
+      "gloss": "from the stronger"
     },
     {
       "surface": "ממנו",
@@ -57,7 +73,21 @@
     },
     {
       "surface": "ועני",
-      "gloss": "and the afflicted"
+      "gloss": "and the poor",
+      "readings": [
+        "and the poor",
+        "and the afflicted"
+      ],
+      "held_by": {
+        "and the poor": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and the afflicted": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "ואביון",
@@ -68,6 +98,6 @@
       "gloss": "from his plunderer"
     }
   ],
-  "timestamp": "2026-09-20T10:42:42.750526854Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

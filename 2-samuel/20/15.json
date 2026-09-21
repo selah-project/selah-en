@@ -1,11 +1,6 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 15,
-  "ref": "2-samuel 20:15",
-  "book": "2-samuel",
-  "lang": "en4",
-  "chapter": 20,
-  "translation": "And they came and besieged him in Abel of Beth-Maakah, and they poured out a rampart against the city, and it stood in the trench; and all the people who were with ⟨את⟩ Joab were destroying, to throw down the wall.",
+  "translation": "And they came and besieged him in Abel of Beth-Maakah, and they poured out a siege mound against the city, and it stood in the outer rampart; and all the people who were with ⟨את⟩ Joab were destroying, to throw down the wall.",
   "tokens": [
     {
       "surface": "ויבאו",
@@ -37,7 +32,20 @@
     },
     {
       "surface": "סללה",
-      "gloss": "a rampart"
+      "gloss": "a siege mound",
+      "readings": [
+        "a siege mound",
+        "a siege ramp"
+      ],
+      "held_by": {
+        "a siege mound": [
+          "v2",
+          "v3"
+        ],
+        "a siege ramp": [
+          "v1"
+        ]
+      }
     },
     {
       "surface": "אל",
@@ -48,16 +56,26 @@
       "gloss": "the city"
     },
     {
-      "surface": "ותעמוד",
+      "surface": "ותעמד",
       "gloss": "and it stood"
     },
     {
       "surface": "בחל",
-      "gloss": "in the trench",
+      "gloss": "in the outer rampart",
       "readings": [
-        "in the trench",
-        "against the outer rampart"
-      ]
+        "in the outer rampart",
+        "in the trench"
+      ],
+      "held_by": {
+        "in the outer rampart": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "in the trench": [
+          "en4"
+        ]
+      }
     },
     {
       "surface": "וכל",
@@ -73,8 +91,7 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩",
-      "marks": "Joab"
+      "gloss": "⟨את⟩"
     },
     {
       "surface": "יואב",
@@ -82,7 +99,22 @@
     },
     {
       "surface": "משחיתם",
-      "gloss": "were destroying"
+      "gloss": "were destroying",
+      "readings": [
+        "were destroying",
+        "battering"
+      ],
+      "held_by": {
+        "were destroying": [
+          "v1",
+          "en4"
+        ],
+        "battering": [
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     },
     {
       "surface": "להפיל",
@@ -93,6 +125,6 @@
       "gloss": "the wall"
     }
   ],
-  "timestamp": "2026-09-20T15:14:40.673215512Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

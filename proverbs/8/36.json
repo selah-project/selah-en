@@ -1,50 +1,81 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 36,
-  "ref": "proverbs 8:36",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "But one missing me does violence to his soul; all who hate me have loved death.",
+  "translation": "But one missing me wrongs his own life; all who hate me love death.",
   "tokens": [
     {
-      "surface": "וְחֹטְאִי",
-      "gloss": "but one missing me",
+      "surface": "וחטאי",
+      "gloss": "one missing me",
       "readings": [
-        "but one missing me",
-        "but one sinning against me"
-      ]
+        "one missing me",
+        "one sinning against me"
+      ],
+      "held_by": {
+        "one missing me": [
+          "v2",
+          "en4"
+        ],
+        "one sinning against me": [
+          "v1",
+          "v3",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "חֹמֵס",
-      "gloss": "does violence to"
-    },
-    {
-      "surface": "נַפְשׁוֹ",
-      "gloss": "his soul",
+      "surface": "חמס",
+      "gloss": "wrongs",
       "readings": [
-        "his soul",
-        "his life",
-        "his throat"
-      ]
+        "wrongs",
+        "does violence to"
+      ],
+      "held_by": {
+        "wrongs": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "does violence to": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "כָּל",
+      "surface": "נפשו",
+      "gloss": "his own life",
+      "readings": [
+        "his own life",
+        "his soul"
+      ],
+      "held_by": {
+        "his own life": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "his soul": [
+          "en4",
+          "v1"
+        ]
+      }
+    },
+    {
+      "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "מְשַׂנְאַי",
+      "surface": "משנאי",
       "gloss": "who hate me"
     },
     {
-      "surface": "אָהֲבוּ",
-      "gloss": "have loved"
+      "surface": "אהבו",
+      "gloss": "love"
     },
     {
-      "surface": "מָוֶת",
+      "surface": "מות",
       "gloss": "death"
     }
   ],
-  "timestamp": "2026-09-20T14:12:05.936404388Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

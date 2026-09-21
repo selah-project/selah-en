@@ -1,41 +1,58 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 33,
-  "ref": "proverbs 8:33",
-  "book": "proverbs",
-  "lang": "en4",
-  "chapter": 8,
-  "translation": "Hear instruction, and be wise, and do not let loose ⟨of it⟩.",
+  "translation": "Hear instruction, and be wise, and do not refuse it.",
   "tokens": [
     {
-      "surface": "שִׁמְעוּ",
-      "gloss": "hear"
+      "surface": "שמעו",
+      "gloss": "Hear"
     },
     {
-      "surface": "מוּסָר",
+      "surface": "מוסר",
       "gloss": "instruction",
       "readings": [
         "instruction",
         "chastisement"
-      ]
+      ],
+      "held_by": {
+        "instruction": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "chastisement": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "וַחֲכָמוּ",
+      "surface": "וחכמו",
       "gloss": "and be wise"
     },
     {
-      "surface": "וְאַל",
+      "surface": "ואל",
       "gloss": "and do not"
     },
     {
-      "surface": "תִּפְרָעוּ",
-      "gloss": "let loose",
+      "surface": "תפרעו",
+      "gloss": "refuse",
       "readings": [
-        "let loose",
-        "ignore"
-      ]
+        "refuse",
+        "let loose"
+      ],
+      "held_by": {
+        "refuse": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "let loose": [
+          "en4"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T14:12:05.935856019Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

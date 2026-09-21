@@ -1,66 +1,104 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 7,
-  "ref": "psalms 146:7",
-  "book": "psalms",
-  "lang": "en4",
-  "chapter": 146,
-  "translation": "Doing justice for the oppressed, giving bread to the hungry; YHWH releases the bound ones.",
+  "translation": "doing justice for the oppressed, giving bread to the hungry; YHWH loosens the bound ones.",
   "tokens": [
     {
-      "surface": "עֹשֶׂה",
-      "gloss": "Doing"
+      "surface": "עשה",
+      "gloss": "doing"
     },
     {
-      "surface": "מִשְׁפָּט",
+      "surface": "משפט",
       "gloss": "justice",
       "readings": [
         "justice",
-        "judgment",
-        "verdict"
-      ]
+        "judgment"
+      ],
+      "held_by": {
+        "justice": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "judgment": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לָעֲשׁוּקִים",
+      "surface": "לעשוקים",
       "gloss": "for the oppressed"
     },
     {
-      "surface": "נֹתֵן",
+      "surface": "נתן",
       "gloss": "giving"
     },
     {
-      "surface": "לֶחֶם",
+      "surface": "לחם",
       "gloss": "bread",
       "readings": [
         "bread",
         "food"
-      ]
+      ],
+      "held_by": {
+        "bread": [
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "food": [
+          "v1",
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "לָרְעֵבִים",
+      "surface": "לרעבים",
       "gloss": "to the hungry"
     },
     {
-      "surface": "יְהוָה",
+      "surface": "יהוה",
       "gloss": "YHWH"
     },
     {
-      "surface": "מַתִּיר",
-      "gloss": "releases",
+      "surface": "מתיר",
+      "gloss": "loosens",
       "readings": [
-        "releases",
-        "untying"
-      ]
+        "loosens",
+        "sets free"
+      ],
+      "held_by": {
+        "loosens": [
+          "v1",
+          "v3"
+        ],
+        "sets free": [
+          "v2",
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אֲסוּרִים",
+      "surface": "אסורים",
       "gloss": "the bound ones",
       "readings": [
         "the bound ones",
         "the prisoners"
-      ]
+      ],
+      "held_by": {
+        "the bound ones": [
+          "en4"
+        ],
+        "the prisoners": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "disputed": true
     }
   ],
-  "timestamp": "2026-09-20T16:41:54.510949815Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }

@@ -1,70 +1,110 @@
 {
-  "tier": "glm-5.3-flash",
   "verse": 6,
-  "ref": "isaiah 65:6",
-  "book": "isaiah",
-  "lang": "en4",
-  "chapter": 65,
-  "translation": "Behold, written before me: I will not keep silent, for then I have repaid — and I repay — into their bosom.",
+  "translation": "Behold, ⟨it is⟩ written before me: I will not keep silent, but I will indeed repay, and I will repay into their bosom.",
   "tokens": [
     {
-      "surface": "הִנֵּ֥ה",
+      "surface": "הנה",
       "gloss": "Behold"
     },
     {
-      "surface": "כְתוּבָ֖ה",
-      "gloss": "written"
+      "surface": "כתובה",
+      "gloss": "⟨it is⟩ written"
     },
     {
-      "surface": "לְפָנָ֑י",
+      "surface": "לפני",
       "gloss": "before me"
     },
     {
-      "surface": "לֹ֤א",
+      "surface": "לא",
       "gloss": "not"
     },
     {
-      "surface": "אֶחֱשֶׂה֙",
+      "surface": "אחשה",
       "gloss": "I will keep silent"
     },
     {
-      "surface": "כִּ֣י",
-      "gloss": "for",
+      "surface": "כי",
+      "gloss": "but"
+    },
+    {
+      "surface": "אם",
+      "gloss": "indeed",
       "readings": [
-        "for",
-        "but"
-      ]
+        "indeed",
+        "if"
+      ],
+      "held_by": {
+        "indeed": [
+          "v1"
+        ],
+        "if": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "אִם",
-      "gloss": "if",
+      "surface": "שלמתי",
+      "gloss": "I will repay",
       "readings": [
-        "if",
-        "unless",
-        "then"
-      ]
+        "I will repay",
+        "I have repaid"
+      ],
+      "held_by": {
+        "I will repay": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "I have repaid": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "שִׁלַּ֔מְתִּי",
-      "gloss": "I have repaid"
+      "surface": "ושלמתי",
+      "gloss": "and I will repay",
+      "readings": [
+        "and I will repay",
+        "and I repay"
+      ],
+      "held_by": {
+        "and I will repay": [
+          "v1",
+          "v2",
+          "v3"
+        ],
+        "and I repay": [
+          "en4"
+        ]
+      },
+      "disputed": true
     },
     {
-      "surface": "וְשִׁלַּמְתִּ֖י",
-      "gloss": "and I repay"
-    },
-    {
-      "surface": "עַל",
+      "surface": "על",
       "gloss": "into",
       "readings": [
         "into",
         "upon"
-      ]
+      ],
+      "held_by": {
+        "into": [
+          "v1",
+          "v2",
+          "v3",
+          "en4"
+        ],
+        "upon": [
+          "en4"
+        ]
+      }
     },
     {
-      "surface": "חֵיקָֽם",
+      "surface": "חיקם",
       "gloss": "their bosom"
     }
   ],
-  "timestamp": "2026-09-20T10:26:06.172983016Z",
-  "model": "glm-5.3-flash"
+  "pass": "en5",
+  "judge": "glm-5.3"
 }
