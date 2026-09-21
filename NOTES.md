@@ -34,3 +34,13 @@ them — batch bleed; re-render before any use) · **851 verses' flowing lines
 carry fewer ⟨את⟩ than their rows** (≈ 8.6 % of markers) · tokens with readings
 20,601 of 305,526 (6.7 %); readings[0] ≠ gloss 291 ×; one Name row multiplied
 (Ps 91:2) · whole-bracket glosses 6.
+
+## The 35 (09-21) — token alignment closed
+
+The audit found 35 verses whose token count differed from the canon's spine (Gen 19:7
+came back with 34 tokens for 5; Ps 139:1–4 shifted by one; several Psalm titles). The
+input was not at fault — the batch feeds the canon's own graph tokens; the model had
+slipped verse boundaries inside four-verse calls. Cure: each re-rendered ALONE, same
+rails, blind as before, on the serving lane. All 35 now align; the token-count diff
+against the spine is 0. (These 35 are therefore the serving model's hand, not flash's —
+recorded in each file's `tier`.)
