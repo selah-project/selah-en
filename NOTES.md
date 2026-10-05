@@ -1,6 +1,6 @@
 # en6 — the clean room
 
-*Rendered 2026-10-05, 02:05 → 07:44 (US Eastern), corrections to 20:2x. 23,213 verses of 23,213.*
+*Rendered 2026-10-05, 02:05 → 07:44 (US Eastern), corrections to 16:2x. 23,213 verses of 23,213.*
 
 ## What this pass is
 
@@ -29,7 +29,7 @@ Written alongside the main English rendering (v3, `main`), never over it. Nothin
 - Model glm-5.3; runs of up to four verses; book by book; ~85 verses/min.
 - First pass 02:05–06:45; the residue pass (06:45–07:44) re-rendered 1,430 verses: 76 whose glosses did not match the
   Hebrew word for word, 964 whose text had dropped an ⟨את⟩ the glosses kept, and those whose answer was unreadable.
-  The last 20 (and one with a moved token) at 20:1x–20:2x.
+  The last 20 (and one with a moved token) at 16:1x–16:2x.
 - The model's JSON broke in small regular ways (a doubled brace, an unclosed note, a bracket left open, program code
   written into a value); fifteen kinds were repaired mechanically, never rewritten; irregular answers were rendered
   again.
