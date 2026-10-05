@@ -1,68 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Say of the righteous that ⟨it is⟩ good, for ⟨the⟩ fruit of their doings they shall eat.",
+  "ref": "isaiah 3:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "Say ⟨of⟩ the righteous",
+      "rationale": "אמרו צדיק is read as 'call the righteous happy' or 'it shall be said of the righteous'; the imperative form is rendered literally."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨of⟩",
+      "rationale": "English needs a preposition between 'say' and 'righteous'; the Hebrew constructs them directly."
+    }
+  ],
+  "translation": "Say ⟨of⟩ the righteous that it is well, for the fruit of their deeds they shall eat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40bb91314926dd13d9d51beb616ea774407cb0e77b43dcdbdc399bb837eaf6fc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/3\/9-12.1791188045948.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אמרו",
-      "gloss": "Say"
+      "surface": "אִמְרוּ",
+      "gloss": "Say",
+      "sense": "S1"
     },
     {
-      "surface": "צדיק",
-      "gloss": "of the righteous",
-      "readings": [
-        "of the righteous",
-        "to the righteous"
-      ],
-      "held_by": {
-        "of the righteous": [
-          "v2",
-          "v3"
-        ],
-        "to the righteous": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "צַדִּיק",
+      "gloss": "⟨of⟩ the righteous",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "טוב",
-      "gloss": "good"
+      "surface": "טוֹב",
+      "gloss": "it is well",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "פרי",
-      "gloss": "⟨the⟩ fruit"
+      "surface": "פְּרִי",
+      "gloss": "the fruit of",
+      "sense": "S1"
     },
     {
-      "surface": "מעלליהם",
-      "gloss": "of their doings",
-      "readings": [
-        "of their doings",
-        "of their deeds"
-      ],
-      "held_by": {
-        "of their doings": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of their deeds": [
-          "en4"
-        ]
-      }
+      "surface": "מַעֲלֵיהֶם",
+      "gloss": "their deeds",
+      "sense": "S1"
     },
     {
-      "surface": "יאכלו",
-      "gloss": "they shall eat"
+      "surface": "יֹאכֵלוּ",
+      "gloss": "they shall eat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:05.949263337Z",
+  "model": "glm-5.3"
 }

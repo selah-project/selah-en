@@ -1,24 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "You shall not muzzle ⟨an⟩ ox in its threshing.",
-  "tokens": [
+  "ref": "deuteronomy 25:4",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-person singular prohibition addressed to the law's hearer."
     },
     {
-      "surface": "תחסם",
-      "gloss": "you shall muzzle"
-    },
-    {
-      "surface": "שור",
-      "gloss": "⟨an⟩ ox"
-    },
-    {
-      "surface": "בדישו",
-      "gloss": "in its threshing"
+      "kind": "crux",
+      "subject": "לא תחסם שור בדישו",
+      "rationale": "Plain sense protects the working animal; later traditions read it as the laborer's right to wages — the Hebrew itself says only the ox."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You shall not muzzle an ox while it is threshing ⟨grain⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bf2779b48ca7c97e2e5f11b148cc0caf726b306d811009cb16f91c2370272333",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/25\/1-4.1791184044596.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַחְסֹם",
+      "gloss": "You shall muzzle",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹר",
+      "gloss": "an ox",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדִישׁוֹ",
+      "gloss": "while it is threshing",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:07:24.597717720Z",
+  "model": "glm-5.3"
 }

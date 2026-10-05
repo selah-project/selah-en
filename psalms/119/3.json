@@ -1,46 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Indeed, they have not done injustice; in His ways they have walked.",
-  "tokens": [
+  "ref": "psalms 119:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "אף",
-      "gloss": "Indeed"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "פעלו",
-      "gloss": "they have done",
-      "readings": [
-        "they have done",
-        "they have wrought"
-      ],
-      "held_by": {
-        "they have done": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they have wrought": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עולה",
-      "gloss": "injustice"
-    },
-    {
-      "surface": "בדרכיו",
-      "gloss": "in His ways"
-    },
-    {
-      "surface": "הלכו",
-      "gloss": "they have walked"
+      "kind": "wordplay",
+      "subject": "הלכו \/ ההלכים",
+      "rationale": "Verse 3's הלכו echoes verse 1's participle, binding the strophe together."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Indeed, no wrong have they done; in His ways they have walked.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "59b5019c85be845583745b606de89866ce05f9e62fe95f5922666726849fa6ab",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/1-4.1791193425118.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַף",
+      "gloss": "Indeed",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "no",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָעֲלוּ",
+      "gloss": "have they done",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַוְלָה",
+      "gloss": "wrong",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדְרָכָיו",
+      "gloss": "in His ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָלָכוּ",
+      "gloss": "they have walked",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:45.119661304Z",
+  "model": "glm-5.3"
 }

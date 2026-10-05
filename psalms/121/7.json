@@ -1,69 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "YHWH will guard you from all evil; He will guard ⟨את⟩ your nefesh.",
-  "tokens": [
+  "ref": "psalms 121:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 121,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-principle, the animating self; transliterated to keep the term visible"
     },
     {
-      "surface": "ישמרך",
-      "gloss": "will guard you"
-    },
-    {
-      "surface": "מכל",
-      "gloss": "from all"
-    },
-    {
-      "surface": "רע",
-      "gloss": "evil",
-      "readings": [
-        "evil",
-        "harm"
-      ],
-      "held_by": {
-        "evil": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "harm": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישמר",
-      "gloss": "He will guard"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "נפשך",
-      "gloss": "your nefesh",
-      "readings": [
-        "your nefesh",
-        "your soul",
-        "your life"
-      ],
-      "held_by": {
-        "your nefesh": [
-          "v2"
-        ],
-        "your soul": [
-          "en4"
-        ],
-        "your life": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "ישמרך \/ ישמר",
+      "rationale": "repetition of שמר across vv.3–8 builds the psalm's refrain of guarding"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH will keep you from all evil; he will keep ⟨את⟩ your nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea4360178d6439241b7d6ea33d640f321496cd25c900c2df8bd1004ba4e28836",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/121\/5-8.1791193507395.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְֽהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁמָרְךָ֥",
+      "gloss": "will keep you",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִכָּל",
+      "gloss": "from all",
+      "sense": null
+    },
+    {
+      "surface": "רָ֑ע",
+      "gloss": "evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִ֝שְׁמֹ֗ר",
+      "gloss": "he will keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your nefesh",
+      "sense": null
+    },
+    {
+      "surface": "נַפְשֶֽׁךָ",
+      "gloss": "your nefesh",
+      "sense": "S1",
+      "readings": [
+        "your nefesh",
+        "your life",
+        "your soul"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:07.396684641Z",
+  "model": "glm-5.3"
 }

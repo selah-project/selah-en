@@ -1,44 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And if eating it it is eaten on ⟨the⟩ day of the third, it is an abomination; it shall not be accepted.",
-  "tokens": [
+  "ref": "leviticus 19:7",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ואם",
-      "gloss": "And if"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew pronoun הוא has no verb; copula supplied."
     },
     {
-      "surface": "האכל",
-      "gloss": "eating it"
+      "kind": "wordplay",
+      "subject": "האכל יאכל",
+      "rationale": "Infinitive absolute doubling the verb: 'eaten it is eaten', kept doubled per the discipline."
     },
     {
-      "surface": "יאכל",
-      "gloss": "it is eaten"
-    },
-    {
-      "surface": "ביום",
-      "gloss": "on ⟨the⟩ day"
-    },
-    {
-      "surface": "השלישי",
-      "gloss": "of the third"
-    },
-    {
-      "surface": "פגול",
-      "gloss": "it is an abomination"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it is"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ירצה",
-      "gloss": "it shall be accepted"
+      "kind": "crux",
+      "subject": "פגול",
+      "rationale": "Rare word (Lev 7:18; Isa 65:4; Ezek 4:14): 'fetid\/unclean meat' — rendered abomination vs unclean thing vs refuse."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And if eaten it is eaten on the third day, it is an abomination; it shall not be accepted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "65c0a1b65ffd41c77709cc220a80725a128e91d5bb45316ec981af9b2fd428e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/5-8.1791182530724.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִ֛ם",
+      "gloss": "And if",
+      "sense": null
+    },
+    {
+      "surface": "הֵאָכֹ֥ל",
+      "gloss": "eaten",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵאָכֵ֖ל",
+      "gloss": "it is eaten",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיּ֣וֹם",
+      "gloss": "on the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשְּׁלִישִׁ֑י",
+      "gloss": "the third",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּגּ֥וּל",
+      "gloss": "an abomination",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֖וּא",
+      "gloss": "it is",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵרָצֶֽה",
+      "gloss": "it shall be accepted",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:42:10.725664292Z",
+  "model": "glm-5.3"
 }

@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And precious is the ransom of their soul, and it ceases for ever.",
-  "tokens": [
+  "ref": "psalms 49:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "ויקר",
-      "gloss": "and precious"
-    },
-    {
-      "surface": "פדיון",
-      "gloss": "the ransom of"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their soul",
-      "readings": [
-        "their soul",
-        "their life"
-      ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וחדל",
-      "gloss": "and it ceases",
-      "readings": [
-        "and it ceases",
-        "and one must give it up"
-      ],
-      "held_by": {
-        "and it ceases": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and one must give it up": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "kind": "crux",
+      "subject": "וחדל",
+      "rationale": "'and he\/it ceases forever': either the ransom is never made, or man ceases forever — subject ambiguous in Hebrew."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And too precious is the ransom of their life, and it ceases forever,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8eabd1dad5f26fbb15ae93587b3252495b57bab485a71ff3dcb6a7409618b59a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/9-12.1791192760374.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְ֭יֵקַר",
+      "gloss": "and too precious",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּדְי֥וֹן",
+      "gloss": "the ransom",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁ֗ם",
+      "gloss": "of their life",
+      "readings": [
+        "of their life",
+        "of their throat",
+        "of their soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחָדַ֥ל",
+      "gloss": "and it ceases",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָֽם",
+      "gloss": "forever",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:40.375361423Z",
+  "model": "glm-5.3"
 }

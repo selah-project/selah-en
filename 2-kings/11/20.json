@@ -1,71 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And all the people of the land rejoiced, and the city was quiet; and ⟨את⟩ Athaliah they put to death with the sword in the house of the king.",
+  "ref": "2-kings 11:20",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "of the king",
+      "rationale": "Ketiv מלך lacks the article; qere reads המלך — 'the king's house'. Ketiv is the ground here."
+    },
+    {
+      "kind": "substitution",
+      "subject": "was quiet",
+      "rationale": "שקטה is 'was at rest\/quiet' — the city's stillness after the bloodshed, not merely 'calm'."
+    }
+  ],
+  "translation": "And all the people of the land rejoiced, and the city was quiet, and ⟨את⟩ Athaliah they put to death by the sword, in the house of the king.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6895c5835fbcbddbc26f1f7c1c547eac80c6f82479f81638e0ab1c30cf49f4a9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/11\/17-20.1791187637280.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
       "surface": "וישמח",
-      "gloss": "and rejoiced"
+      "gloss": "And rejoiced",
+      "sense": "S1"
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "all ⟨of⟩",
+      "sense": null
     },
     {
       "surface": "עם",
-      "gloss": "the people of"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
-      "gloss": "the land",
+      "gloss": "of the land",
+      "sense": "S1",
       "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+        "of the land",
+        "of the earth"
+      ]
     },
     {
       "surface": "והעיר",
-      "gloss": "and the city"
+      "gloss": "and the city",
+      "sense": "S1"
     },
     {
       "surface": "שקטה",
-      "gloss": "was quiet"
+      "gloss": "was quiet",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "Athaliah",
+      "sense": null
     },
     {
       "surface": "עתליהו",
-      "gloss": "Athaliah"
+      "gloss": "Athaliah",
+      "sense": null
     },
     {
       "surface": "המיתו",
-      "gloss": "they put to death"
+      "gloss": "they put to death",
+      "sense": "S1"
     },
     {
       "surface": "בחרב",
-      "gloss": "with the sword"
+      "gloss": "by the sword",
+      "sense": null
     },
     {
       "surface": "בית",
-      "gloss": "the house of"
+      "gloss": "in the house",
+      "sense": "S1"
     },
     {
       "surface": "מלך",
-      "gloss": "the king"
+      "gloss": "of ⟨the⟩ king",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:07:17.282523913Z",
+  "model": "glm-5.3"
 }

@@ -1,77 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "The Elohim of his chesed will meet me; Elohim will let me see my foes.",
-  "tokens": [
+  "ref": "psalms 59:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
     {
-      "surface": "אלהי",
-      "gloss": "the Elohim of"
+      "kind": "crux",
+      "subject": "his chesed",
+      "rationale": "Ketiv חסדו 'his chesed' vs qere חסדי 'my chesed' — 'Elohim of my chesed' (my loyalty) vs 'his chesed' (Elohim's); ketiv is rendered."
     },
     {
-      "surface": "חסדו",
-      "gloss": "his chesed",
-      "readings": [
-        "his chesed",
-        "his steadfast love"
-      ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יקדמני",
-      "gloss": "will meet me",
-      "readings": [
-        "will meet me",
-        "will go before me"
-      ],
-      "held_by": {
-        "will meet me": [
-          "v1",
-          "en4"
-        ],
-        "will go before me": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "יראני",
-      "gloss": "will let me see"
-    },
-    {
-      "surface": "בשררי",
-      "gloss": "my foes",
-      "readings": [
-        "my foes",
-        "my watchers"
-      ],
-      "held_by": {
-        "my foes": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my watchers": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "The hiphil 'let me see' lacks a stated object; the object of seeing is supplied from context and bracketed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The Elohim of his chesed will come to meet me; Elohim will let me see ⟨it⟩ among my enemies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f120bf5bc87ea6843b6735c33bdcaad009e839a96adc3cd9607cb9db4de04e13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/9-12.1791192845159.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱלֹהֵי",
+      "gloss": "The Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּוֹ",
+      "gloss": "his chesed",
+      "sense": "S1",
+      "readings": [
+        "his chesed",
+        "my chesed"
+      ]
+    },
+    {
+      "surface": "יְקַדְּמֵנִי",
+      "gloss": "will come to meet me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַרְאֵנִי",
+      "gloss": "will let me see",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשֹׁרְרָי",
+      "gloss": "among my enemies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:05.160124052Z",
+  "model": "glm-5.3"
 }

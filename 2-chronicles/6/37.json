@@ -1,10 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 37,
-  "translation": "And they bring back to their heart in the land where they were taken captive, there, and they return and plead for favor to you in the land of their captivity, saying, 'We have sinned, we have acted crookedly, and we have done wickedly.'",
+  "ref": "2-chronicles 6:37",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "נשבו \/ ושבו",
+      "rationale": "Root pair שׁבה\/שׁוב: carried captive (נִשְׁבּוּ) and turned back (וְשָׁבוּ) sit side by side; English cannot carry the sound echo."
+    },
+    {
+      "kind": "alternative",
+      "subject": "בארץ שבים",
+      "rationale": "1 Kings 8:47 reads שֹׁבֵיהֶם 'their captors'; Chronicles has שִׁבְיָם 'their captivity', an abstractive for the concrete captors."
+    }
+  ],
+  "translation": "And they bring back to their heart in the land where they were carried captive there, and they turn and make supplication to you in the land of their captivity, saying, We have sinned, we have done wrong, and we have acted wickedly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8af463a53c8626895b2c1ab7adce89f2011eaf2867e90135f77d3dd2bbab145c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/6\/37-40.1791196596969.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "והשיבו",
-      "gloss": "and they bring back"
+      "gloss": "and they bring back",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -12,11 +40,13 @@
     },
     {
       "surface": "לבבם",
-      "gloss": "their heart"
+      "gloss": "their heart",
+      "sense": "S1"
     },
     {
       "surface": "בארץ",
-      "gloss": "in the land"
+      "gloss": "in the land",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -24,19 +54,23 @@
     },
     {
       "surface": "נשבו",
-      "gloss": "they were taken captive"
+      "gloss": "they were carried captive",
+      "sense": "S1"
     },
     {
       "surface": "שם",
-      "gloss": "there"
+      "gloss": "there",
+      "sense": "S1"
     },
     {
       "surface": "ושבו",
-      "gloss": "and they return"
+      "gloss": "and they turn",
+      "sense": "S1"
     },
     {
       "surface": "והתחננו",
-      "gloss": "and plead for favor"
+      "gloss": "and make supplication",
+      "sense": "S1"
     },
     {
       "surface": "אליך",
@@ -44,44 +78,35 @@
     },
     {
       "surface": "בארץ",
-      "gloss": "in the land"
+      "gloss": "in the land",
+      "sense": "S1"
     },
     {
       "surface": "שבים",
-      "gloss": "of their captivity"
+      "gloss": "of their captivity",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "חטאנו",
-      "gloss": "We have sinned"
+      "gloss": "We have sinned",
+      "sense": "S1"
     },
     {
       "surface": "העוינו",
-      "gloss": "we have acted crookedly",
-      "readings": [
-        "we have acted crookedly",
-        "we have done iniquity"
-      ],
-      "held_by": {
-        "we have acted crookedly": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "we have done iniquity": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "we have done wrong",
+      "sense": "S1"
     },
     {
       "surface": "ורשענו",
-      "gloss": "and we have done wickedly"
+      "gloss": "and we have acted wickedly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:36:36.970691281Z",
+  "model": "glm-5.3"
 }

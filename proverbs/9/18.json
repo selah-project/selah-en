@@ -1,73 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And he does not know that the Rephaim are there, in the depths of Sheol her invited ones ⟨are⟩.",
-  "tokens": [
+  "ref": "proverbs 9:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "kind": "crux",
+      "subject": "קְרֻאֶיהָ",
+      "rationale": "Read as 'her guests' (those summoned to her house) or 'her called ones'; I keep the passive 'called' to expose the form."
     },
     {
-      "surface": "ידע",
-      "gloss": "he does not know"
+      "kind": "substitution",
+      "subject": "Refaim",
+      "rationale": "רְפָאִים are the spirits of the dead, rendered as a transliterated name to keep the term rather than 'the dead'."
     },
     {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "רפאים",
-      "gloss": "the Rephaim",
-      "readings": [
-        "the Rephaim",
-        "the shades",
-        "the dead"
-      ],
-      "held_by": {
-        "the Rephaim": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the shades": [
-          "en4"
-        ],
-        "the dead": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שם",
-      "gloss": "there"
-    },
-    {
-      "surface": "בעמקי",
-      "gloss": "in the depths of"
-    },
-    {
-      "surface": "שאול",
-      "gloss": "Sheol"
-    },
-    {
-      "surface": "קראיה",
-      "gloss": "her invited ones",
-      "readings": [
-        "her invited ones",
-        "her called ones"
-      ],
-      "held_by": {
-        "her invited ones": [
-          "en4"
-        ],
-        "her called ones": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "secret",
+      "subject": "depths of Sheol",
+      "rationale": "The verse reveals what the simple man does not know: his destination is the hidden realm below."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he does not know that the Refaim are there — in the depths of Sheol are her called ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "52c0544ea54cde408ff38b226a39ab8c8e953b6da0d86de240896725a53b060a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/9\/17-18.1791193782311.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְֽלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֭דַע",
+      "gloss": "he knows",
+      "sense": null
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "רְפָאִ֣ים",
+      "gloss": "the Refaim",
+      "sense": "S1",
+      "readings": [
+        "the Refaim",
+        "the shades"
+      ]
+    },
+    {
+      "surface": "שָׁ֑ם",
+      "gloss": "there",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעִמְקֵ֖י",
+      "gloss": "in the depths of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁא֣וֹל",
+      "gloss": "Sheol",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְרֻאֶֽיהָ",
+      "gloss": "her called ones",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:42.311883762Z",
+  "model": "glm-5.3"
 }

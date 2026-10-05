@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Not forever will He contend, and not for eternity will He keep ⟨His anger⟩.",
-  "tokens": [
+  "ref": "psalms 103:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "Not"
+      "kind": "addition",
+      "subject": "anger",
+      "rationale": "יִטּוֹר carries its object only implicitly; the supplied 'anger' is bracketed"
     },
     {
-      "surface": "לנצח",
-      "gloss": "forever"
-    },
-    {
-      "surface": "יריב",
-      "gloss": "will He contend"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "for eternity"
-    },
-    {
-      "surface": "יטור",
-      "gloss": "will He keep",
-      "readings": [
-        "will He keep",
-        "will He hold"
-      ],
-      "held_by": {
-        "will He keep": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will He hold": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "contend",
+      "rationale": "יָרִיב could read 'accuse' or 'prosecute a dispute', the courtroom edge of ריב"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Not forever will He contend, and not for eternity will He keep ⟨anger⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d83b212356130c4c95cdd4eda78da027d1b42e4ed4f21fec50a92f531c22dd7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/9-12.1791193273629.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "Not",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָנֶצַח",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרִיב",
+      "gloss": "will He contend",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "for eternity",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִטּוֹר",
+      "gloss": "will He keep ⟨anger⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:13.629778654Z",
+  "model": "glm-5.3"
 }

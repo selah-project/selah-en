@@ -1,74 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Let darkness redeem it, and the shadow of death; let ⟨a⟩ cloud dwell upon it; let them terrify it like the bitter things of day.",
-  "tokens": [
+  "ref": "job 3:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "יגאלהו",
-      "gloss": "redeem it"
+      "kind": "hapax",
+      "subject": "עננה",
+      "rationale": "'cloudiness' occurs only here in the Tanakh."
     },
     {
-      "surface": "חשך",
-      "gloss": "darkness"
+      "kind": "hapax",
+      "subject": "כמרירי",
+      "rationale": "'bitter-darks' (traditionally 'eclipses') occurs only here; the literal picture of light shriveling is kept."
     },
     {
-      "surface": "וצלמות",
-      "gloss": "and the shadow of death"
+      "kind": "crux",
+      "subject": "shadow-of-death",
+      "rationale": "צלמות rendered literally as a compound 'shadow of death' rather than smoothed to 'deep darkness'."
     },
     {
-      "surface": "תשכן",
-      "gloss": "dwell",
-      "readings": [
-        "dwell",
-        "tabernacle"
-      ],
-      "held_by": {
-        "dwell": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "tabernacle": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עליו",
-      "gloss": "upon it"
-    },
-    {
-      "surface": "עננה",
-      "gloss": "⟨a⟩ cloud"
-    },
-    {
-      "surface": "יבעתהו",
-      "gloss": "let them terrify it"
-    },
-    {
-      "surface": "כמרירי",
-      "gloss": "like the bitter things of",
-      "readings": [
-        "like the bitter things of",
-        "the darkenings of"
-      ],
-      "held_by": {
-        "like the bitter things of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the darkenings of": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יום",
-      "gloss": "day"
+      "kind": "mystery",
+      "subject": "the day",
+      "rationale": "Job's curse is an incantation-like wishing of the day out of existence."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May darkness redeem it, and shadow-of-death settle on it, a cloud; may the bitter-darks of day terrify it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2ed2a9c707ddc81db6a43d5f6d2e17ae46c1d20f11a48a88fa34d1bd6c02d2a9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/3\/5-8.1791194117271.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִגְאָלֻ֡הוּ",
+      "gloss": "may they redeem it",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹ֣שֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֭צַלְמָוֶת",
+      "gloss": "and shadow-of-death",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁכָּן",
+      "gloss": "may she settle",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלָ֣יו",
+      "gloss": "on it",
+      "sense": null
+    },
+    {
+      "surface": "עֲנָנָ֑ה",
+      "gloss": "a cloud",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֝בַעֲתֻ֗הוּ",
+      "gloss": "may they terrify it",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽמְרִ֥ירֵי",
+      "gloss": "the bitter-darks of",
+      "sense": null
+    },
+    {
+      "surface": "יֽוֹם",
+      "gloss": "day",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:17.272073689Z",
+  "model": "glm-5.3"
 }

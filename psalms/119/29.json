@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "The way of falsehood turn aside from me, and with your Torah favor me.",
+  "ref": "psalms 119:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨knowledge⟩",
+      "rationale": "חנני here is 'grant me knowledge out of kindness'; the object is supplied"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דרך…דרך",
+      "rationale": "'way of falsehood' (v.29) answers 'way of faithfulness' (v.30), a deliberate pairing lost in English"
+    }
+  ],
+  "translation": "The way of falsehood turn aside from me, and with your Torah grant me ⟨knowledge⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2cdaf2ae4497cdd3522ae34982353bc58a5ad0f784676756fee229a5c5d69fd8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/29-32.1791193438714.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "דרך",
-      "gloss": "the way"
+      "surface": "דֶּֽרֶךְ",
+      "gloss": "The way of",
+      "sense": "S1"
     },
     {
-      "surface": "שקר",
-      "gloss": "of falsehood"
+      "surface": "שֶׁ֭קֶר",
+      "gloss": "falsehood",
+      "sense": "S1"
     },
     {
-      "surface": "הסר",
+      "surface": "הָסֵ֣ר",
       "gloss": "turn aside",
-      "readings": [
-        "turn aside",
-        "remove"
-      ],
-      "held_by": {
-        "turn aside": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "remove": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
+      "surface": "מִמֶּ֑נִּי",
       "gloss": "from me"
     },
     {
-      "surface": "ותורתך",
-      "gloss": "and with your Torah"
+      "surface": "וְֽתוֹרָתְךָ֥",
+      "gloss": "and with your Torah",
+      "sense": "S1"
     },
     {
-      "surface": "חנני",
-      "gloss": "favor me"
+      "surface": "חָנֵּֽנִי",
+      "gloss": "grant me ⟨knowledge⟩",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:58.715452668Z",
+  "model": "glm-5.3"
 }

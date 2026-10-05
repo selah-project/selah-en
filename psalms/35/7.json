@@ -1,73 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For without cause they hid for me their pit, their net; without cause they dug for my nefesh.",
+  "ref": "psalms 35:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul'; kept transliterated as the marked-term type specimen."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חנם...חנם",
+      "rationale": "the doubled 'without cause' brackets the line — repetition kept."
+    }
+  ],
+  "translation": "For without cause they hid for me a pit — their net; without cause they dug for my nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05fa029cba9f4d48f955c163dabac86c37ad8c2088eddc5db021ed5860865d86",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/5-8.1791192618116.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "חנם",
-      "gloss": "without cause"
+      "surface": "חִנָּ֣ם",
+      "gloss": "without cause",
+      "sense": "S1"
     },
     {
-      "surface": "טמנו",
-      "gloss": "they hid"
+      "surface": "טָֽמְנוּ",
+      "gloss": "they hid",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִ֭י",
       "gloss": "for me"
     },
     {
-      "surface": "שחת",
+      "surface": "שַׁ֣חַת",
       "gloss": "a pit",
-      "readings": [
-        "a pit",
-        "destruction"
-      ],
-      "held_by": {
-        "a pit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "destruction": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רשתם",
-      "gloss": "their net"
+      "surface": "רִשְׁתָּ֑ם",
+      "gloss": "their net",
+      "sense": "S1"
     },
     {
-      "surface": "חנם",
-      "gloss": "without cause"
+      "surface": "חִנָּ֗ם",
+      "gloss": "without cause",
+      "sense": "S1"
     },
     {
-      "surface": "חפרו",
-      "gloss": "they dug"
+      "surface": "חָפְר֥וּ",
+      "gloss": "they dug",
+      "sense": "S1"
     },
     {
-      "surface": "לנפשי",
+      "surface": "לְנַפְשִֽׁי",
       "gloss": "for my nefesh",
       "readings": [
         "for my nefesh",
-        "for my soul"
+        "for my life",
+        "for my throat"
       ],
-      "held_by": {
-        "for my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for my soul": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:18.117893613Z",
+  "model": "glm-5.3"
 }

@@ -1,84 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "And this is unclean to you among the swarming things that swarm upon the earth: the mole, and the mouse, and the tortoise after its kind,",
+  "ref": "leviticus 11:29",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "חֹלֶד",
+      "rationale": "the weasel occurs only here in the Tanakh; the SDBH sense itself flags the identification as unsure."
+    },
+    {
+      "kind": "crux",
+      "subject": "צָב",
+      "rationale": "rendered 'great-lizard' (the spiny-tailed lizard, Uromastyx); the same consonants elsewhere mean a covered wagon (Num 7:3, Isa 66:20)."
+    },
+    {
+      "kind": "measurement",
+      "subject": "the catalogue",
+      "rationale": "the verse is a species list — a taxonomic inventory of the unclean swarming creatures, three named here, five more in v. 30."
+    }
+  ],
+  "translation": "And this for you is the unclean among the swarming creatures that swarm on the earth: the weasel, and the mouse, and the great-lizard after its kind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98ce292cec3e032d22b108208ce5652a72f51817be3938af3e01d88319ecc7c8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/11\/29-32.1791182371420.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וזה",
-      "gloss": "And this"
+      "surface": "וְזֶ֤ה",
+      "gloss": "And this",
+      "sense": "S1"
     },
     {
-      "surface": "לכם",
-      "gloss": "to you"
+      "surface": "לָכֶם֙",
+      "gloss": "for you",
+      "sense": null
     },
     {
-      "surface": "הטמא",
-      "gloss": "the unclean"
+      "surface": "הַטָּמֵ֔א",
+      "gloss": "the unclean",
+      "sense": "S1"
     },
     {
-      "surface": "בשרץ",
-      "gloss": "among the swarming things"
+      "surface": "בַּשֶּׁ֖רֶץ",
+      "gloss": "among the swarming creatures",
+      "sense": "S1"
     },
     {
-      "surface": "השרץ",
-      "gloss": "that swarm"
+      "surface": "הַשֹּׁרֵ֣ץ",
+      "gloss": "that swarms",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָ֑רֶץ",
       "gloss": "the earth",
+      "sense": "S1",
       "readings": [
         "the earth",
         "the land"
       ]
     },
     {
-      "surface": "החלד",
-      "gloss": "the mole",
-      "readings": [
-        "the mole",
-        "the weasel"
-      ],
-      "held_by": {
-        "the mole": [
-          "v2",
-          "v3"
-        ],
-        "the weasel": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "הַחֹ֥לֶד",
+      "gloss": "the weasel",
+      "sense": "S1"
     },
     {
-      "surface": "והעכבר",
-      "gloss": "and the mouse"
+      "surface": "וְהָעַכְבָּ֖ר",
+      "gloss": "and the mouse",
+      "sense": "S1"
     },
     {
-      "surface": "והצב",
-      "gloss": "the tortoise",
-      "readings": [
-        "the tortoise",
-        "the great lizard"
-      ],
-      "held_by": {
-        "the tortoise": [
-          "v1",
-          "v3"
-        ],
-        "the great lizard": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "surface": "וְהַצָּ֥ב",
+      "gloss": "and the great-lizard",
+      "sense": "S1"
     },
     {
-      "surface": "למינהו",
-      "gloss": "after its kind"
+      "surface": "לְמִינֵֽהוּ",
+      "gloss": "after its kind",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:39:31.421829972Z",
+  "model": "glm-5.3"
 }

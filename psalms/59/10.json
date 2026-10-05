@@ -1,60 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "His strength — for you I will watch; for Elohim ⟨is⟩ my high tower.",
-  "tokens": [
+  "ref": "psalms 59:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
     {
-      "surface": "עזו",
-      "gloss": "his strength",
-      "readings": [
-        "his strength",
-        "my strength"
-      ],
-      "held_by": {
-        "his strength": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my strength": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "His strength",
+      "rationale": "Ketiv עֻזּוֹ reads 'his strength'; many read with the sense 'my strength' (עֻזִּי) as a vocative, 'my strength, I watch for you'; ketiv is the ground."
     },
     {
-      "surface": "אליך",
-      "gloss": "for you"
-    },
-    {
-      "surface": "אשמרה",
-      "gloss": "I will watch"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "משגבי",
-      "gloss": "my high tower",
-      "readings": [
-        "my high tower",
-        "my stronghold"
-      ],
-      "held_by": {
-        "my high tower": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my stronghold": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "toward you I will keep watch",
+      "rationale": "Some render שׁמר here as 'wait for \/ look expectantly'; the SDBH sense 'watch, observe over time' supports keeping watch."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His strength — toward you I will keep watch; for Elohim is my high fortress.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f120bf5bc87ea6843b6735c33bdcaad009e839a96adc3cd9607cb9db4de04e13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/9-12.1791192845159.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֻזּוֹ",
+      "gloss": "His strength",
+      "sense": "S1",
+      "readings": [
+        "His strength",
+        "my strength"
+      ]
+    },
+    {
+      "surface": "אֵלֶיךָ",
+      "gloss": "toward you",
+      "sense": null
+    },
+    {
+      "surface": "אֶשְׁמֹרָה",
+      "gloss": "I will keep watch",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׂגַּבִּי",
+      "gloss": "my high fortress",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:05.159966966Z",
+  "model": "glm-5.3"
 }

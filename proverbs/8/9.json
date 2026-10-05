@@ -1,46 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "All of them are straightforward to the one who understands, and upright to those who find knowledge.",
-  "tokens": [
+  "ref": "proverbs 8:9",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "כלם",
-      "gloss": "All of them"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between כלם and the adjectives"
     },
     {
-      "surface": "נכחים",
+      "kind": "invitation",
+      "subject": "to the one who understands",
+      "rationale": "the verse summons the discerning reader into the words of Wisdom"
+    }
+  ],
+  "translation": "All of them are straightforward to the one who understands, and right to those who find knowledge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4abe2c354c3dd4a3099cce5c9904acebc2c47a39b96ec841a9e9e97da9b621c0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/8\/9-12.1791193765415.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֻּלָּם",
+      "gloss": "All of them",
+      "sense": null
+    },
+    {
+      "surface": "נְכֹחִים",
       "gloss": "straightforward",
       "readings": [
         "straightforward",
-        "straight"
+        "equitable"
       ],
-      "held_by": {
-        "straightforward": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "straight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "למבין",
-      "gloss": "to the one who understands"
+      "surface": "לַמֵּבִין",
+      "gloss": "to the one who understands",
+      "sense": "S1"
     },
     {
-      "surface": "וישרים",
-      "gloss": "and upright"
+      "surface": "וִישָׁרִים",
+      "gloss": "and right",
+      "readings": [
+        "and right",
+        "and straight"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "למצאי",
-      "gloss": "to those who find"
+      "surface": "לְמֹצְאֵי",
+      "gloss": "to those who find",
+      "sense": "S1"
     },
     {
-      "surface": "דעת",
-      "gloss": "knowledge"
+      "surface": "דַּעַת",
+      "gloss": "knowledge",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:49:25.415897187Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And your seed, and your vineyards, he will tithe, and he will give to his eunuchs, and to his servants.",
-  "tokens": [
+  "ref": "1-samuel 8:15",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "וזרעיכם",
-      "gloss": "and your seed"
+      "kind": "crux",
+      "subject": "סריסיו",
+      "rationale": "סריס ranges from 'eunuch' to a high royal officer; SDBH's contextual sense here is a trusted palace official."
     },
     {
-      "surface": "וכרמיכם",
-      "gloss": "and your vineyards"
-    },
-    {
-      "surface": "יעשר",
-      "gloss": "he will tithe"
-    },
-    {
-      "surface": "ונתן",
-      "gloss": "and give"
-    },
-    {
-      "surface": "לסריסיו",
-      "gloss": "to his eunuchs",
-      "readings": [
-        "to his eunuchs",
-        "to his officers"
-      ],
-      "held_by": {
-        "to his eunuchs": [
-          "v1",
-          "en4"
-        ],
-        "to his officers": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ולעבדיו",
-      "gloss": "and to his servants"
+      "kind": "wordplay",
+      "subject": "עשר \/ מעשר",
+      "rationale": "The verb 'he will tithe' shares its root with the noun 'tenth-part', linking the king's taking to the tithe."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your seed and your vineyards he will tithe, and give to his officers and to his servants.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e35d693de6b542a20cda90e578149966237d4defac9d73d1ef6f4996e7e4efe8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/8\/13-16.1791185486574.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְזַרְעֵיכֶם",
+      "gloss": "Your seed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכַרְמֵיכֶם",
+      "gloss": "and your vineyards",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעְשֹׂר",
+      "gloss": "he will tithe",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָתַן",
+      "gloss": "and give",
+      "sense": null
+    },
+    {
+      "surface": "לְסָרִיסָיו",
+      "gloss": "to his officers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַעֲבָדָיו",
+      "gloss": "and to his servants",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:31:26.575220618Z",
+  "model": "glm-5.3"
 }

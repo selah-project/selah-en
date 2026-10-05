@@ -1,40 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "How have you helped one without power? How have you saved the arm with no strength?",
-  "tokens": [
+  "ref": "job 26:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "מה",
-      "gloss": "how"
+      "kind": "idiom",
+      "subject": "מה",
+      "rationale": "מה as a rhetorical exclamation rendered 'how', not the plain interrogative 'what'"
     },
     {
-      "surface": "עזרת",
-      "gloss": "have you helped"
+      "kind": "substitution",
+      "subject": "ללא",
+      "rationale": "literally 'to no strength', rendered 'the one without strength'; לֹא negates the noun, not a verb"
     },
     {
-      "surface": "ללא",
-      "gloss": "without"
-    },
-    {
-      "surface": "כח",
-      "gloss": "power"
-    },
-    {
-      "surface": "הושעת",
-      "gloss": "how have you saved"
-    },
-    {
-      "surface": "זרוע",
-      "gloss": "the arm"
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "עז",
-      "gloss": "strength"
+      "kind": "you",
+      "subject": "to Bildad",
+      "rationale": "Job addresses Bildad with biting rhetorical questions"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How you have helped ⟨את⟩ the one without strength, saved ⟨את⟩ the arm without might!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a2ecd75e64266fc5056d97d598f04586ad4f67de03907aa95a12abe57835d333",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/26\/1-4.1791194424424.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֶה",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָזַ֥רְתָּ",
+      "gloss": "you have helped",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְלֹא",
+      "gloss": "the one without",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹ֑חַ",
+      "gloss": "strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֝וֹשַׁ֗עְתָּ",
+      "gloss": "you have saved",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְר֣וֹעַ",
+      "gloss": "the arm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "without",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹֽז",
+      "gloss": "might",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:24.425579880Z",
+  "model": "glm-5.3"
 }

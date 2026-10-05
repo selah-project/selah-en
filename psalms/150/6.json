@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Every breath ⟨shall⟩ praise Yah; praise Yah!",
-  "tokens": [
+  "ref": "psalms 150:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 150,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "Every"
+      "kind": "crux",
+      "subject": "הנשמה",
+      "rationale": "'All that breathes' (every living creature) vs 'every breath' (each human soul); the SDBH sense includes animals as animated beings."
     },
     {
-      "surface": "הנשמה",
-      "gloss": "breath"
+      "kind": "wordplay",
+      "subject": "תהלל...הללו יה",
+      "rationale": "Verse opens and closes on הלל and יה — the book of Psalms ends on the root it began, an envelope sealing the whole collection."
     },
     {
-      "surface": "תהלל",
-      "gloss": "⟨shall⟩ praise"
-    },
-    {
-      "surface": "יה",
-      "gloss": "Yah"
-    },
-    {
-      "surface": "הללו",
-      "gloss": "praise"
-    },
-    {
-      "surface": "יה",
-      "gloss": "Yah"
+      "kind": "invitation",
+      "subject": "Praise Yah",
+      "rationale": "Final imperative addresses all hearers; the doxology's closing summons."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Every breathing-thing let it praise Yah; praise Yah!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1a94fbeda1e1947a1474e494141b31a900795a33df5d804de69ebc36bff8074a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/150\/5-6.1791193659301.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּ֣ל",
+      "gloss": "Every",
+      "sense": null
+    },
+    {
+      "surface": "הַ֭נְּשָׁמָה",
+      "gloss": "breathing-thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּהַלֵּ֥ל",
+      "gloss": "let it praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֗הּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַֽלְלוּ",
+      "gloss": "Praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָֽהּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:39.302280933Z",
+  "model": "glm-5.3"
 }

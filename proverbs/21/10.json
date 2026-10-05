@@ -1,60 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The soul of the wicked craves evil; his neighbor finds no favor in his eyes.",
+  "ref": "proverbs 21:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש here is the seat of desire — 'appetite' is near the literal throat-sense."
+    },
+    {
+      "kind": "idiom",
+      "subject": "in his eyes",
+      "rationale": "בעיניו literally 'in his eyes' — Hebrew idiom for 'in his judgment'."
+    }
+  ],
+  "translation": "The soul of a wicked man craves evil; no favor is shown in his eyes to his fellow.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "945d34ebea9af8bcf4847d1fa630f753d8312ef54e344fefcb3bf60c36777fcd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/9-12.1791193947840.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "נפש",
+      "surface": "נֶפֶשׁ",
       "gloss": "The soul of",
       "readings": [
         "The soul of",
-        "The life of",
-        "The appetite of"
+        "The appetite of",
+        "The life of"
       ],
-      "held_by": {
-        "The soul of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "The life of": [
-          "en4"
-        ],
-        "The appetite of": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
+      "surface": "רָשָׁע",
+      "gloss": "a wicked man",
+      "sense": "S1"
     },
     {
-      "surface": "אותה",
-      "gloss": "craves"
+      "surface": "אִוְּתָה",
+      "gloss": "craves",
+      "sense": "S1"
     },
     {
-      "surface": "רע",
-      "gloss": "evil"
+      "surface": "רָע",
+      "gloss": "evil",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "no"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "יחן",
-      "gloss": "finds favor"
+      "surface": "יֻחַן",
+      "gloss": "is favor shown",
+      "sense": "S1"
     },
     {
-      "surface": "בעיניו",
-      "gloss": "in his eyes"
+      "surface": "בְּעֵינָיו",
+      "gloss": "in his eyes",
+      "sense": "S1"
     },
     {
-      "surface": "רעהו",
-      "gloss": "his neighbor"
+      "surface": "רֵעֵהוּ",
+      "gloss": "to his fellow",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:27.841549318Z",
+  "model": "glm-5.3"
 }

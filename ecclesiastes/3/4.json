@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "A time to weep, and a time to laugh; a time to mourn, and a time to dance.",
-  "tokens": [
+  "ref": "ecclesiastes 3:4",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "עת",
-      "gloss": "a time"
-    },
-    {
-      "surface": "לבכות",
-      "gloss": "to weep"
-    },
-    {
-      "surface": "ועת",
-      "gloss": "and a time"
-    },
-    {
-      "surface": "לשחוק",
-      "gloss": "to laugh",
-      "readings": [
-        "to laugh",
-        "to play"
-      ],
-      "held_by": {
-        "to laugh": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to play": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עת",
-      "gloss": "a time"
-    },
-    {
-      "surface": "ספוד",
-      "gloss": "to mourn"
-    },
-    {
-      "surface": "ועת",
-      "gloss": "and a time"
-    },
-    {
-      "surface": "רקוד",
-      "gloss": "to dance"
+      "kind": "elision",
+      "subject": "ל prefix",
+      "rationale": "the second pair drops the ל on the infinitives, a construct 'time of' instead of 'time to', kept in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A time to weep and a time to laugh; a time of mourning and a time of dancing.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "81348a9bb44491606b112d77fd8eba7b0c41f65c8eb3b844c1337e782209e6b0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/3\/1-4.1791194809094.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵת",
+      "gloss": "A time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְכּוֹת",
+      "gloss": "to weep",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵת",
+      "gloss": "and a time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׂחוֹק",
+      "gloss": "to laugh",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵת",
+      "gloss": "a time of",
+      "sense": "S1"
+    },
+    {
+      "surface": "סְפוֹד",
+      "gloss": "mourning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵת",
+      "gloss": "and a time of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְקוֹד",
+      "gloss": "dancing",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:49.095941025Z",
+  "model": "glm-5.3"
 }

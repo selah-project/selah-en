@@ -1,74 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Know now that Eloah has wronged me, and his net around me he has closed.",
-  "tokens": [
+  "ref": "job 19:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "דעו",
-      "gloss": "Know"
+      "kind": "invitation",
+      "subject": "Know then",
+      "rationale": "Imperative 'know' summons the hearers to acknowledge Job's claim."
     },
     {
-      "surface": "אפו",
-      "gloss": "now"
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Plural imperative addressed to the friends."
     },
     {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "אלוה",
-      "gloss": "Eloah"
-    },
-    {
-      "surface": "עותני",
-      "gloss": "has wronged me",
-      "readings": [
-        "has wronged me",
-        "has wrested me",
-        "has twisted me"
-      ],
-      "held_by": {
-        "has wronged me": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "has wrested me": [
-          "en4"
-        ],
-        "has twisted me": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ומצודו",
-      "gloss": "and his net"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "around me"
-    },
-    {
-      "surface": "הקיף",
-      "gloss": "he has closed",
-      "readings": [
-        "he has closed",
-        "is round about"
-      ],
-      "held_by": {
-        "he has closed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "is round about": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "his net",
+      "rationale": "מצוד as layered fishing-net (S1) vs a fortress\/fastness (S2); with עלי הקיף, 'surrounded me' fits either."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Know then that Eloah has wronged me, and his net around me he has closed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2bb07a8c142737bd5952f32ac868933b3c1265a96de14f8af1d6f5f0e93e595",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/5-8.1791194338309.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דְּֽעוּ",
+      "gloss": "Know",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֭פוֹ",
+      "gloss": "then",
+      "sense": null
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "אֱל֣וֹהַּ",
+      "gloss": "Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִוְּתָ֑נִי",
+      "gloss": "has wronged me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְצוּד֗וֹ",
+      "gloss": "and his net",
+      "sense": "S1",
+      "readings": [
+        "and his net",
+        "and his fastness"
+      ]
+    },
+    {
+      "surface": "עָלַ֥י",
+      "gloss": "around me",
+      "sense": null
+    },
+    {
+      "surface": "הִקִּֽיף",
+      "gloss": "he has closed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:58.310045087Z",
+  "model": "glm-5.3"
 }

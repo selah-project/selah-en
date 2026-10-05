@@ -1,65 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "For he causes pain, and binds up; he crushes, and his hands heal.",
-  "tokens": [
+  "ref": "job 5:18",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "binds up",
+      "rationale": "חבש literally 'wraps firmly' as a bandage; picture kept partially in 'binds up'"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "kind": "wordplay",
+      "subject": "wounds\/binds, crushes\/mends",
+      "rationale": "antithetical parallel pairs, same subject doing both — the theological point of the verse"
     },
     {
-      "surface": "יכאיב",
-      "gloss": "causes pain",
-      "readings": [
-        "causes pain",
-        "wounds"
-      ],
-      "held_by": {
-        "causes pain": [
-          "en4"
-        ],
-        "wounds": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויחבש",
-      "gloss": "and binds up"
-    },
-    {
-      "surface": "ימחץ",
-      "gloss": "crushes",
-      "readings": [
-        "crushes",
-        "smashes"
-      ],
-      "held_by": {
-        "crushes": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "smashes": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וידו",
-      "gloss": "and his hands"
-    },
-    {
-      "surface": "תרפינה",
-      "gloss": "heal"
+      "kind": "alternative",
+      "subject": "and his hands",
+      "rationale": "יד dual construct, literally 'two hands'; the dual number is absorbed into plural English 'hands'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For he wounds and he binds up; he crushes and his hands mend.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "278f03c6a165003f583314ef0f327ca0a6aa6b877b7d2b1af339d8c89a4aadc8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/17-20.1791194166424.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "יַכְאִיב",
+      "gloss": "wounds",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֶחְבָּשׁ",
+      "gloss": "and he binds up",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִמְחַץ",
+      "gloss": "he crushes",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָדֹו",
+      "gloss": "and his hands",
+      "sense": "S1",
+      "readings": [
+        "and his hands",
+        "and his power"
+      ]
+    },
+    {
+      "surface": "תִּרְפֶּינָה",
+      "gloss": "mend",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:06.425273379Z",
+  "model": "glm-5.3"
 }

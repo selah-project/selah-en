@@ -1,71 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "O Elohim, the arrogant have risen against me, and an assembly of ruthless men have sought my life, and have not set you before them.",
+  "ref": "psalms 86:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 86,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "Elohim",
+      "rationale": "vocative 'O Elohim' vs reading אלהים as subject 'the haughty have risen as gods' or 'godless men'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "my life",
+      "rationale": "נפש here is the life sought by enemies, literally the throat\/self"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "the whole verse is direct address to Elohim concerning enemies"
+    }
+  ],
+  "translation": "Elohim, arrogant ones have risen against me, and an assembly of violent ones has sought my life, and they have not set you before them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e710f70ef36bd26f69202f1d2f1c3719b99db438b18e35aaabbf97442ce7641f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/86\/13-16.1791193135177.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "זדים",
-      "gloss": "the arrogant"
+      "surface": "זֵדִים",
+      "gloss": "arrogant ones",
+      "sense": "S1"
     },
     {
-      "surface": "קמו",
-      "gloss": "have risen"
+      "surface": "קָמוּ",
+      "gloss": "have risen",
+      "sense": null
     },
     {
-      "surface": "עלי",
-      "gloss": "against me"
+      "surface": "עָלַי",
+      "gloss": "against me",
+      "sense": null
     },
     {
-      "surface": "ועדת",
-      "gloss": "and an assembly of"
+      "surface": "וַעֲדַת",
+      "gloss": "and an assembly of",
+      "sense": "S1"
     },
     {
-      "surface": "עריצים",
-      "gloss": "ruthless men"
+      "surface": "עָרִיצִים",
+      "gloss": "violent ones",
+      "sense": "S1"
     },
     {
-      "surface": "בקשו",
-      "gloss": "have sought"
+      "surface": "בִּקְשׁוּ",
+      "gloss": "has sought",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my life",
       "readings": [
         "my life",
-        "my nefesh",
-        "my soul"
+        "my throat"
       ],
-      "held_by": {
-        "my life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my soul": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and have not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "שמוך",
-      "gloss": "have set you"
+      "surface": "שָׂמוּךָ",
+      "gloss": "they have set you",
+      "sense": "S1"
     },
     {
-      "surface": "לנגדם",
-      "gloss": "before them"
+      "surface": "לְנֶגְדָּם",
+      "gloss": "before them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:55.178209786Z",
+  "model": "glm-5.3"
 }

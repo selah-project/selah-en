@@ -1,55 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "The righteous shall never be shaken, and the wicked shall not dwell in the land.",
+  "ref": "proverbs 10:30",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "in the land",
+      "rationale": "Hebrew has no preposition; English needs 'in' before ארץ."
+    },
+    {
+      "kind": "substitution",
+      "subject": "will be shaken",
+      "rationale": "מוט literally 'slip, waver, be moved'; rendered with the shaken picture."
+    }
+  ],
+  "translation": "The righteous, for forever, will not be shaken, and the wicked will not dwell in the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35230c1dd312dc5ad2dedb9d545da70799cc6f215ae93e3c1176ebcd51fd0604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/30-32.1791200145540.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "צדיק",
-      "gloss": "The righteous"
+      "surface": "צַדִּ֣יק",
+      "gloss": "The righteous",
+      "sense": "S1"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "for forever",
+      "sense": "S1"
     },
     {
-      "surface": "בל",
-      "gloss": "never"
+      "surface": "בַּל",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ימוט",
-      "gloss": "be shaken"
+      "surface": "יִמּ֑וֹט",
+      "gloss": "will be shaken",
+      "sense": "S1"
     },
     {
-      "surface": "ורשעים",
-      "gloss": "and the wicked"
+      "surface": "וּ֝רְשָׁעִ֗ים",
+      "gloss": "and the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "shall not"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ישכנו",
-      "gloss": "dwell"
+      "surface": "יִשְׁכְּנ֥וּ",
+      "gloss": "will dwell",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "in the land",
       "readings": [
         "in the land",
         "in the earth"
       ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:35:45.541078999Z",
+  "model": "glm-5.3"
 }

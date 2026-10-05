@@ -1,58 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Luminous are you, majestic, beyond the mountains of prey.",
-  "tokens": [
+  "ref": "psalms 76:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 76,
+  "notes": [
     {
-      "surface": "נאור",
-      "gloss": "luminous"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between participle and pronoun"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "crux",
+      "subject": "from the mountains of prey",
+      "rationale": "מהררי טרף read either comparatively (more majestic than mountains of prey) or locally (you who shine from the mountains where prey is taken)"
     },
     {
-      "surface": "אדיר",
-      "gloss": "majestic",
-      "readings": [
-        "majestic",
-        "mighty"
-      ],
-      "held_by": {
-        "majestic": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "mighty": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מהררי",
-      "gloss": "than the mountains of"
-    },
-    {
-      "surface": "טרף",
-      "gloss": "prey",
-      "readings": [
-        "prey",
-        "torn food"
-      ],
-      "held_by": {
-        "prey": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "torn food": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "Shining",
+      "rationale": "נאור niphal of אור can be 'illuminated' or 'making luminous'; the picture of light kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Shining are you, awe-inspiring, from the mountains of prey.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2951b8af2b9492e5e958a1291dd0770e5866eee1535b86b993c51453d21cf5d3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/76\/5-8.1791193032134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נָ֭אוֹר",
+      "gloss": "Shining",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּ֥ה",
+      "gloss": "are you",
+      "sense": null
+    },
+    {
+      "surface": "אַדִּ֗יר",
+      "gloss": "awe-inspiring",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽהַרְרֵי",
+      "gloss": "from the mountains of",
+      "sense": "S1"
+    },
+    {
+      "surface": "טָֽרֶף",
+      "gloss": "prey",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:12.134871246Z",
+  "model": "glm-5.3"
 }

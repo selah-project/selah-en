@@ -1,122 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "He set darkness ⟨as⟩ his hiding-place; round about him his booth — darkness of waters, thick clouds of the skies.",
-  "tokens": [
+  "ref": "psalms 18:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "ישת",
-      "gloss": "He set"
+      "kind": "hapax",
+      "subject": "darkness of",
+      "rationale": "חשכה occurs only here in the Tanakh."
     },
     {
-      "surface": "חשך",
-      "gloss": "darkness"
+      "kind": "crux",
+      "subject": "his hiding-place",
+      "rationale": "2 Samuel 22:12 omits סתרו ('his hiding-place') — the Psalm adds the noun the Samuel text lacks."
     },
     {
-      "surface": "סתרו",
-      "gloss": "his hiding-place",
-      "readings": [
-        "his hiding-place",
-        "his covering"
-      ],
-      "held_by": {
-        "his hiding-place": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his covering": [
-          "en4"
-        ]
-      }
+      "kind": "secret",
+      "subject": "his hiding-place",
+      "rationale": "סתר — the concealed shelter, God wrapping himself in darkness so he cannot be seen."
     },
     {
-      "surface": "סביבותיו",
-      "gloss": "round about him",
-      "readings": [
-        "round about him",
-        "his surroundings"
-      ],
-      "held_by": {
-        "round about him": [
-          "v1",
-          "v3"
-        ],
-        "his surroundings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "סכתו",
-      "gloss": "his booth",
-      "readings": [
-        "his booth",
-        "his pavilion",
-        "his lair"
-      ],
-      "held_by": {
-        "his booth": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "his pavilion": [
-          "v2",
-          "en4"
-        ],
-        "his lair": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חשכת",
-      "gloss": "darkness of"
-    },
-    {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "עבי",
-      "gloss": "thick clouds of",
-      "readings": [
-        "thick clouds of",
-        "masses of"
-      ],
-      "held_by": {
-        "thick clouds of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "masses of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שחקים",
-      "gloss": "the skies",
-      "readings": [
-        "the skies",
-        "the clouds"
-      ],
-      "held_by": {
-        "the skies": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the clouds": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "חשך \/ חשכת",
+      "rationale": "Near-duplicate darkness words in parallel cola; English repeats 'darkness' to keep the echo."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He made darkness his hiding-place round about him, his booth — darkness of waters, thick clouds of the skies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a56cbf139a2f3eff899d04d0376854bcdbabb1affdfdf81e9842ae1717c69a20",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/9-12.1791192461444.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָ֤שֶׁת",
+      "gloss": "he made",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹ֨שֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "סִתְר֗וֹ",
+      "gloss": "his hiding-place",
+      "sense": "S1"
+    },
+    {
+      "surface": "סְבִֽיבוֹתָ֥יו",
+      "gloss": "round about him",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֻכָּת֑וֹ",
+      "gloss": "his booth",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶשְׁכַת",
+      "gloss": "darkness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֝֗יִם",
+      "gloss": "waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָבֵ֥י",
+      "gloss": "thick clouds of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁחָקִֽים",
+      "gloss": "the skies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:41.445531044Z",
+  "model": "glm-5.3"
 }

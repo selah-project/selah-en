@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "When I went out to the gate upon the city, when I prepared my seat in the square,",
-  "tokens": [
+  "ref": "job 29:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "בצאתי",
-      "gloss": "when I went out"
-    },
-    {
-      "surface": "שער",
-      "gloss": "the gate"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "upon"
-    },
-    {
-      "surface": "קרת",
-      "gloss": "the city"
-    },
-    {
-      "surface": "ברחוב",
-      "gloss": "in the square"
-    },
-    {
-      "surface": "אכין",
-      "gloss": "I prepared"
-    },
-    {
-      "surface": "מושבי",
-      "gloss": "my seat"
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English requires articles on gate, city, square; Hebrew has them only on the last two"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When I went out to the gate upon the city, in the square I prepared my seat,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84be3a5ade69abd4e218166acc0b7fdc5bf6253b31bd4656fdb8f1f80fe2bf8e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/29\/5-8.1791194455132.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּצֵ֣אתִי",
+      "gloss": "when I went out",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁ֣עַר",
+      "gloss": "the gate",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵ֣י",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "קָ֑רֶת",
+      "gloss": "the city",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּֽרְח֗וֹב",
+      "gloss": "in the square",
+      "sense": null
+    },
+    {
+      "surface": "אָכִ֥ין",
+      "gloss": "I prepared",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹשָׁבִֽי",
+      "gloss": "my seat",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:55.133744303Z",
+  "model": "glm-5.3"
 }

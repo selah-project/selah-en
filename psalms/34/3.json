@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "In YHWH my soul boasts; the humble will hear and rejoice.",
-  "tokens": [
+  "ref": "psalms 34:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "ביהוה",
-      "gloss": "In YHWH"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul' in a Greek sense; kept as nefesh with readings."
     },
     {
-      "surface": "תתהלל",
-      "gloss": "boasts"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul"
-    },
-    {
-      "surface": "ישמעו",
-      "gloss": "will hear"
-    },
-    {
-      "surface": "ענוים",
-      "gloss": "the humble"
-    },
-    {
-      "surface": "וישמחו",
-      "gloss": "and rejoice"
+      "kind": "invitation",
+      "subject": "the humble shall hear",
+      "rationale": "The verse summons the humble to hear and join the rejoicing."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In YHWH shall my nefesh boast; the humble shall hear and rejoice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "73271547953c86fc2eef576dd2404bf3bebd38c1c0ad6be05085f6fa3dda28d6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/1-4.1791192599659.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּ֭יהוָה",
+      "gloss": "In YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּתְהַלֵּ֣ל",
+      "gloss": "shall boast",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁ֑י",
+      "gloss": "my nefesh",
+      "sense": "S1",
+      "readings": [
+        "my nefesh",
+        "my life",
+        "my throat"
+      ]
+    },
+    {
+      "surface": "יִשְׁמְע֖וּ",
+      "gloss": "shall hear",
+      "sense": null
+    },
+    {
+      "surface": "עֲנָוִ֣ים",
+      "gloss": "the humble",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִשְׂמָֽחוּ",
+      "gloss": "and rejoice",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:59.660236864Z",
+  "model": "glm-5.3"
 }

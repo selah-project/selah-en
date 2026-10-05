@@ -1,116 +1,120 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "A soul that touches it is unclean until the evening, and shall not eat of the holy things, unless he has washed his flesh in the waters.",
-  "tokens": [
+  "ref": "leviticus 22:6",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "נפש",
-      "gloss": "soul",
-      "readings": [
-        "soul",
-        "person",
-        "life"
-      ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "person": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "person",
+      "rationale": "נפש is a breathing being \/ life-force, not the Greek 'soul'"
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "תגע",
-      "gloss": "touches"
-    },
-    {
-      "surface": "בו",
-      "gloss": "it"
-    },
-    {
-      "surface": "וטמאה",
-      "gloss": "and is unclean"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "הערב",
-      "gloss": "the evening"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and shall not"
-    },
-    {
-      "surface": "יאכל",
-      "gloss": "he shall eat"
-    },
-    {
-      "surface": "מן",
-      "gloss": "of"
-    },
-    {
-      "surface": "הקדשים",
-      "gloss": "the holy things"
-    },
-    {
-      "surface": "כי",
-      "gloss": "unless"
-    },
-    {
-      "surface": "אם",
-      "gloss": "if"
-    },
-    {
-      "surface": "רחץ",
-      "gloss": "has washed"
-    },
-    {
-      "surface": "בשרו",
-      "gloss": "his flesh",
-      "readings": [
-        "his flesh",
-        "his body"
-      ],
-      "held_by": {
-        "his flesh": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "his body": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "במים",
-      "gloss": "in the waters",
-      "readings": [
-        "in the waters",
-        "in water"
-      ],
-      "held_by": {
-        "in the waters": [
-          "en4"
-        ],
-        "in water": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "כִּי אִם",
+      "rationale": "literally 'for if', an idiom of restriction: 'unless' or 'but rather'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "the person who touches it is unclean until the evening, and he shall not eat of the holy things unless he has washed his flesh in water.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "814555b818e615f197d0ec064ee8b76ed8021480f585bd57fbbef6eefe45c75e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/22\/5-8.1791182590620.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֶפֶשׁ",
+      "gloss": "the person",
+      "readings": [
+        "the person",
+        "the nefesh",
+        "the living being"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "תִּגַּע",
+      "gloss": "touches",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹ",
+      "gloss": "it",
+      "sense": null
+    },
+    {
+      "surface": "וְטָמְאָה",
+      "gloss": "and is unclean",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעָרֶב",
+      "gloss": "the evening",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכַל",
+      "gloss": "he shall eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִן",
+      "gloss": "of",
+      "sense": null
+    },
+    {
+      "surface": "הַקֳּדָשִׁים",
+      "gloss": "the holy things",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "unless",
+      "sense": null
+    },
+    {
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "רָחַץ",
+      "gloss": "he has washed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשָׂרוֹ",
+      "gloss": "his flesh",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמָּיִם",
+      "gloss": "in the water",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:43:10.621969743Z",
+  "model": "glm-5.3"
 }

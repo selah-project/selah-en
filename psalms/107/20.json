@@ -1,71 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "He sends his word and heals them, and delivers ⟨them⟩ from their destructions.",
-  "tokens": [
+  "ref": "psalms 107:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ישלח",
-      "gloss": "He sends",
-      "readings": [
-        "He sends",
-        "He sent"
-      ],
-      "held_by": {
-        "He sends": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "He sent": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דברו",
-      "gloss": "his word",
-      "readings": [
-        "his word",
-        "his matter"
-      ],
-      "held_by": {
-        "his word": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his matter": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וירפאם",
-      "gloss": "and heals them"
-    },
-    {
-      "surface": "וימלט",
-      "gloss": "and delivers"
-    },
-    {
-      "surface": "משחיתותם",
-      "gloss": "from their destructions",
-      "readings": [
-        "from their destructions",
-        "from their ruin-pits"
-      ],
-      "held_by": {
-        "from their destructions": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from their ruin-pits": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "their pits",
+      "rationale": "שְּׁחִיתוֹת can read as 'their destructions' (from שָׁחַת) rather than the pits of Sheol"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He sent his word and healed them, and delivered them from their pits",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a95cca317f42caec7d0a42ee597c631c3c8904c924db7bebb8a47488cd1fff4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/17-20.1791193334262.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִשְׁלַ֣ח",
+      "gloss": "He sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבָרֹ֭ו",
+      "gloss": "his word",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִרְפָּאֵ֑ם",
+      "gloss": "and healed them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִֽימַלֵּ֗ט",
+      "gloss": "and delivered",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְּׁחִיתֹתָֽם",
+      "gloss": "from their pits",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:14.263673224Z",
+  "model": "glm-5.3"
 }

@@ -1,107 +1,154 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "The Spirit of Adonai YHWH is upon me, because YHWH has anointed ⟨את⟩ me to bring good news to the humble; he has sent me to bind up the broken of heart, to proclaim liberty to the captives and the opening of the prison to the bound.",
+  "ref": "isaiah 61:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 61,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "פְּקַח־קֹחַ",
+      "rationale": "This two-noun compound occurs only here; meaning disputed: 'opening of the dungeon\/eyes' from a root related to opening wide"
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before 'upon me'"
+    },
+    {
+      "kind": "crux",
+      "subject": "דְּרוֹר",
+      "rationale": "'Liberty' versus 'jubilee-release': the word used for release of slaves and land in the year of release (Lev 25:10)"
+    }
+  ],
+  "translation": "The spirit of Adonai YHWH ⟨is⟩ upon me, because YHWH has anointed ⟨את⟩ me; he has sent me to bring good news to the humble, to bind up the broken of heart, to proclaim liberty to the captives and the opening of the dungeon to the prisoners.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4d6568194e1116aa2808abd601956f977ed61f0056e8fb21d6cbcaaa51478062",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/61\/1-4.1791188943528.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "רוח",
-      "gloss": "the Spirit of",
+      "surface": "רוּחַ",
+      "gloss": "the spirit of",
       "readings": [
-        "the Spirit of",
+        "the spirit of",
         "the wind of",
         "the breath of"
       ],
-      "held_by": {
-        "the Spirit of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wind of": [
-          "en4"
-        ],
-        "the breath of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוִה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "is upon me"
+      "surface": "עָלַי",
+      "gloss": "upon me",
+      "sense": null
     },
     {
-      "surface": "יען",
-      "gloss": "because"
+      "surface": "יַעַן",
+      "gloss": "because",
+      "sense": "S1"
     },
     {
-      "surface": "משח",
-      "gloss": "has anointed"
+      "surface": "מָשַׁח",
+      "gloss": "has anointed",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אתי",
-      "gloss": "⟨את⟩ me"
+      "surface": "אֹתִי",
+      "gloss": "⟨את⟩ me",
+      "marks": "me",
+      "sense": null
     },
     {
-      "surface": "לבשר",
-      "gloss": "to bring good news"
+      "surface": "לְבַשֵּׂר",
+      "gloss": "to bring good news to",
+      "sense": "S1"
     },
     {
-      "surface": "ענוים",
-      "gloss": "to the humble"
+      "surface": "עֲנָוִים",
+      "gloss": "the humble",
+      "readings": [
+        "the humble",
+        "the poor"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "שלחני",
-      "gloss": "he has sent me"
+      "surface": "שְׁלָחַנִי",
+      "gloss": "he has sent me",
+      "sense": "S1"
     },
     {
-      "surface": "לחבש",
-      "gloss": "to bind up"
+      "surface": "לַחֲבֹשׁ",
+      "gloss": "to bind up",
+      "sense": "S1"
     },
     {
-      "surface": "לנשברי",
-      "gloss": "the broken of"
+      "surface": "לְנִשְׁבְּרֵי",
+      "gloss": "the broken of",
+      "sense": "S1"
     },
     {
-      "surface": "לב",
-      "gloss": "heart"
+      "surface": "לֵב",
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
-      "surface": "לקרא",
-      "gloss": "to proclaim"
+      "surface": "לִקְרֹא",
+      "gloss": "to proclaim",
+      "sense": "S1"
     },
     {
-      "surface": "לשבוים",
-      "gloss": "to the captives"
+      "surface": "לִשְׁבוּיִם",
+      "gloss": "to the captives",
+      "sense": "S1"
     },
     {
-      "surface": "דרור",
-      "gloss": "liberty"
+      "surface": "דְּרוֹר",
+      "gloss": "liberty",
+      "readings": [
+        "liberty",
+        "release"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ולאסורים",
-      "gloss": "and to the bound"
+      "surface": "וְלַאֲסוּרִים",
+      "gloss": "and to the prisoners",
+      "sense": "S1"
     },
     {
-      "surface": "פקח",
-      "gloss": "opening"
+      "surface": "פְּקַח",
+      "gloss": "the opening of",
+      "sense": "S1"
     },
     {
-      "surface": "קוח",
-      "gloss": "prison"
+      "surface": "קֹחַ",
+      "gloss": "the dungeon",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:29:03.536154693Z",
+  "model": "glm-5.3"
 }

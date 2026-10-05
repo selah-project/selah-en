@@ -1,101 +1,107 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "The highways lie desolate; the one crossing the path has ceased; he has broken ⟨the⟩ covenant, he has despised cities, he regards no mortal.",
+  "ref": "isaiah 33:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "has ceased",
+      "rationale": "שבת is literally 'has sabbathed' — come to rest, no longer found on the road"
+    },
+    {
+      "kind": "crux",
+      "subject": "he has broken the covenant",
+      "rationale": "the subject is unnamed — Assyria, or Israel's own unfaithfulness; each verse's first reader has no antecedent named"
+    }
+  ],
+  "translation": "The highways lie desolate; the wayfarer has ceased; he has broken the covenant, he has despised the cities, he has not regarded man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "88261e71176abdb07f567a6b860a3e5c84b716b26ca22f37e2cef0d249e8893a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/5-8.1791188485775.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "נשמו",
-      "gloss": "lie desolate"
+      "surface": "נָשַׁמּוּ",
+      "gloss": "lie desolate",
+      "sense": "S1"
     },
     {
-      "surface": "מסלות",
-      "gloss": "the highways"
+      "surface": "מְסִלּוֹת",
+      "gloss": "the highways",
+      "sense": "S1"
     },
     {
-      "surface": "שבת",
-      "gloss": "has ceased"
+      "surface": "שָׁבַת",
+      "gloss": "has ceased",
+      "readings": [
+        "has ceased",
+        "has come to sabbath-rest"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "עבר",
-      "gloss": "the one crossing"
+      "surface": "עֹבֵר",
+      "gloss": "the wayfarer",
+      "sense": "S1"
     },
     {
-      "surface": "ארח",
+      "surface": "אֹרַח",
       "gloss": "the path",
       "readings": [
         "the path",
-        "the caravan"
+        "the way"
       ],
-      "held_by": {
-        "the path": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the caravan": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "הפר",
-      "gloss": "has broken"
+      "surface": "הֵפֵר",
+      "gloss": "he has broken",
+      "sense": "S1"
     },
     {
-      "surface": "ברית",
-      "gloss": "⟨the⟩ covenant"
+      "surface": "בְּרִית",
+      "gloss": "⟨the⟩ covenant",
+      "sense": "S1"
     },
     {
-      "surface": "מאס",
-      "gloss": "has despised"
+      "surface": "מָאַס",
+      "gloss": "he has despised",
+      "sense": "S1"
     },
     {
-      "surface": "ערים",
-      "gloss": "cities",
+      "surface": "עָרִים",
+      "gloss": "the cities",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָשַׁב",
+      "gloss": "he has regarded",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱנוֹשׁ",
+      "gloss": "man",
       "readings": [
-        "cities",
-        "enemies"
+        "man",
+        "mortal"
       ],
-      "held_by": {
-        "cities": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "enemies": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "חשב",
-      "gloss": "he regards"
-    },
-    {
-      "surface": "אנוש",
-      "gloss": "mortal",
-      "readings": [
-        "mortal",
-        "man"
-      ],
-      "held_by": {
-        "mortal": [
-          "v2",
-          "v3"
-        ],
-        "man": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:25.786484325Z",
+  "model": "glm-5.3"
 }

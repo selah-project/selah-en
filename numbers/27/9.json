@@ -1,54 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And if there is not a daughter to him, and you-give ⟨את⟩ his inheritance to his brothers.",
+  "ref": "numbers 27:9",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "then",
+      "rationale": "English needs a connective where Hebrew joins clauses with vav alone"
+    }
+  ],
+  "translation": "And if he has no daughter, then you shall give ⟨את⟩ his inheritance to his brothers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "37b2acce23cee658ca216857a74a9140a8c5b7ca26dc714e895ff200a8ac29f1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/27\/9-12.1791183339145.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ואם",
-      "gloss": "and if"
+      "surface": "וְאִם",
+      "gloss": "And if"
     },
     {
-      "surface": "אין",
+      "surface": "אֵין",
       "gloss": "there is not"
     },
     {
-      "surface": "לו",
+      "surface": "לוֹ",
       "gloss": "to him"
     },
     {
-      "surface": "בת",
-      "gloss": "a daughter"
+      "surface": "בַּת",
+      "gloss": "daughter",
+      "sense": "S1"
     },
     {
-      "surface": "ונתתם",
-      "gloss": "and you-give",
-      "readings": [
-        "and you-give",
-        "and you shall give"
-      ],
-      "held_by": {
-        "and you-give": [
-          "v1",
-          "v3"
-        ],
-        "and you shall give": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "וּנְתַתֶּם",
+      "gloss": "then you shall give"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his inheritance"
     },
     {
-      "surface": "נחלתו",
-      "gloss": "his inheritance"
+      "surface": "נַחֲלָתוֹ",
+      "gloss": "his inheritance",
+      "sense": "S1"
     },
     {
-      "surface": "לאחיו",
-      "gloss": "to his brothers"
+      "surface": "לְאֶחָיו",
+      "gloss": "to his brothers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:55:39.153751882Z",
+  "model": "glm-5.3"
 }

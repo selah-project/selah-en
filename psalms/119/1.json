@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "How happy the blameless in the way, the walkers in the Torah of YHWH.",
-  "tokens": [
+  "ref": "psalms 119:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "אשרי",
-      "gloss": "How happy"
+      "kind": "alternative",
+      "subject": "of way",
+      "rationale": "דרך construct of תמימי: 'blameless in their way' reads the construct as specification; the bound form is kept."
     },
     {
-      "surface": "תמימי",
-      "gloss": "the blameless",
-      "readings": [
-        "the blameless",
-        "those whole"
-      ],
-      "held_by": {
-        "the blameless": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "those whole": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דרך",
-      "gloss": "in the way"
-    },
-    {
-      "surface": "ההלכים",
-      "gloss": "the walkers"
-    },
-    {
-      "surface": "בתורת",
-      "gloss": "in the Torah of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "invitation",
+      "subject": "the verse",
+      "rationale": "Beatitude opening summons the hearer with 'How happy are…'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How happy are the ones-blameless of way, who walk in the teaching of YHWH!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "59b5019c85be845583745b606de89866ce05f9e62fe95f5922666726849fa6ab",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/1-4.1791193425118.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַשְׁרֵי",
+      "gloss": "How happy are",
+      "sense": null
+    },
+    {
+      "surface": "תְּמִימֵי",
+      "gloss": "the ones-blameless",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֶּרֶךְ",
+      "gloss": "of way",
+      "sense": "S1",
+      "readings": [
+        "of way",
+        "of the course of life"
+      ]
+    },
+    {
+      "surface": "הַהֹלְכִים",
+      "gloss": "who walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּתוֹרַת",
+      "gloss": "in the teaching of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:45.119306062Z",
+  "model": "glm-5.3"
 }

@@ -1,41 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And he brought near ⟨את⟩ the tribe of Benjamin by its families, and the family of the Matrites was taken, and Saul son of Kish was taken; and they sought him, and he was not found.",
+  "ref": "1-samuel 10:21",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "המטרי",
+      "rationale": "The gentilic 'the Matri' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "crux",
+      "subject": "was taken",
+      "rationale": "לכד is literally 'to capture'; here the lot 'captures' — rendered 'was taken' for the lot-casting; 'was captured' keeps the net picture."
+    },
+    {
+      "kind": "measurement",
+      "subject": "the lot-casting",
+      "rationale": "The verse narrows tribe → clan → man by successive selection, a structural counting-down."
+    }
+  ],
+  "translation": "And he brought near ⟨את⟩ the tribe of Benjamin by its clans, and the clan of the Matri was taken, and Saul son of Kish was taken; and they looked for him, but he was not found.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2975c2423b6fa0b4cb32b2425d3ea127591e0f9eb44ffa3213cad36e692c6dac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/10\/21-24.1791185548829.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויקרב",
-      "gloss": "And he brought near"
+      "gloss": "and he brought near",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the tribe of Benjamin"
     },
     {
       "surface": "שבט",
-      "gloss": "the tribe"
+      "gloss": "tribe of",
+      "sense": "S1"
     },
     {
       "surface": "בנימן",
-      "gloss": "of Benjamin"
+      "gloss": "Benjamin",
+      "sense": "S1"
     },
     {
       "surface": "למשפחתו",
-      "gloss": "by its families",
-      "readings": [
-        "by its families",
-        "to its family"
-      ],
-      "held_by": {
-        "by its families": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to its family": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "by its clans",
+      "sense": "S1"
     },
     {
       "surface": "ותלכד",
@@ -43,11 +65,12 @@
     },
     {
       "surface": "משפחת",
-      "gloss": "family"
+      "gloss": "the clan of"
     },
     {
       "surface": "המטרי",
-      "gloss": "of the Matrites"
+      "gloss": "the Matri",
+      "sense": "S1"
     },
     {
       "surface": "וילכד",
@@ -55,29 +78,34 @@
     },
     {
       "surface": "שאול",
-      "gloss": "Saul"
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
       "surface": "בן",
-      "gloss": "son"
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
       "surface": "קיש",
-      "gloss": "of Kish"
+      "gloss": "Kish"
     },
     {
       "surface": "ויבקשהו",
-      "gloss": "and they sought him"
+      "gloss": "and they looked for him",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "but not",
+      "sense": "S1"
     },
     {
       "surface": "נמצא",
-      "gloss": "he was found"
+      "gloss": "he was found",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:32:28.830007297Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "Their land swarmed with frogs, in the chambers of their kings.",
-  "tokens": [
+  "ref": "psalms 105:30",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "שרץ",
-      "gloss": "swarmed",
-      "readings": [
-        "swarmed",
-        "crept"
-      ],
-      "held_by": {
-        "swarmed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "crept": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ארצם",
-      "gloss": "their land"
-    },
-    {
-      "surface": "צפרדעים",
-      "gloss": "frogs"
-    },
-    {
-      "surface": "בחדרי",
-      "gloss": "in the chambers of"
-    },
-    {
-      "surface": "מלכיהם",
-      "gloss": "their kings"
+      "kind": "substitution",
+      "subject": "swarmed with",
+      "rationale": "שרץ is a verb whose object is ארצם; English idiom inverts subject and object: 'their land swarmed'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Their land swarmed with frogs, in the chambers of their kings.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a811b452ef7801b533c9c61386f4f86cfd6cead3f91a8b4c3f7c027bb846c7cc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/29-32.1791193298014.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׁרַ֣ץ",
+      "gloss": "swarmed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַרְצָ֣ם",
+      "gloss": "their land",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְפַרְדְּעִ֑ים",
+      "gloss": "with frogs",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחַדְרֵ֗י",
+      "gloss": "in the chambers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכֵיהֶֽם",
+      "gloss": "their kings",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:38.015694352Z",
+  "model": "glm-5.3"
 }

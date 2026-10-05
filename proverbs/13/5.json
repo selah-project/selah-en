@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "A word of falsehood the righteous hates, and the wicked makes a stench and is put to shame.",
-  "tokens": [
+  "ref": "proverbs 13:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "דבר",
-      "gloss": "a word of"
+      "kind": "addition",
+      "subject": "himself",
+      "rationale": "Hiphil verbs with the wicked as subject need a reflexive object in English"
     },
     {
-      "surface": "שקר",
-      "gloss": "falsehood"
-    },
-    {
-      "surface": "ישנא",
-      "gloss": "hates"
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ורשע",
-      "gloss": "but the wicked"
-    },
-    {
-      "surface": "יבאיש",
-      "gloss": "makes a stench",
-      "readings": [
-        "makes a stench",
-        "acts shamefully"
-      ],
-      "held_by": {
-        "makes a stench": [
-          "en4"
-        ],
-        "acts shamefully": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויחפיר",
-      "gloss": "and is put to shame",
-      "readings": [
-        "and is put to shame",
-        "and brings disgrace"
-      ],
-      "held_by": {
-        "and is put to shame": [
-          "en4"
-        ],
-        "and brings disgrace": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "and brings shame",
+      "rationale": "ויחפיר hiphil could also read intransitively: 'and is put to shame'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A word of falsehood the righteous hates, and the wicked makes ⟨himself⟩ stink and brings shame.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c465c40f4280a152b9390a019e4e394f93791f6cedba6efd65f4eb36533d099a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/5-8.1791193839339.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דְּבַר",
+      "gloss": "A word of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁקֶר",
+      "gloss": "falsehood",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂנָא",
+      "gloss": "hates",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּיק",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרָשָׁע",
+      "gloss": "and the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַבְאִישׁ",
+      "gloss": "makes ⟨himself⟩ stink",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיַחְפִּיר",
+      "gloss": "and brings shame",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:39.340196095Z",
+  "model": "glm-5.3"
 }

@@ -1,71 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "And a cutting for the dead you shall not put in your flesh; and a writing, a gash-mark you shall not put on you; I am YHWH.",
+  "ref": "leviticus 19:28",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "make",
+      "rationale": "תתנו is 'give\/put'; rendered 'make' as the idiom requires in English."
+    },
+    {
+      "kind": "hapax",
+      "subject": "כתבת קעקע",
+      "rationale": "both 'inscription' and 'gash' occur only here in the Tanakh; the phrase likely means an incised, inked-in tattoo."
+    },
+    {
+      "kind": "substitution",
+      "subject": "dead body",
+      "rationale": "נפש here is the corpse, not the 'soul' of tradition."
+    }
+  ],
+  "translation": "And a cut for a dead body you shall not make in your flesh, and an inscription of a gash you shall not make in yourselves; I am YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cede97fcd040cd991ec473fe2d6d63e6f7c9d4eb607a7112bad6798819d354bc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/25-28.1791182545342.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "ושרט",
-      "gloss": "and a cutting"
+      "surface": "וְשֶׂרֶט",
+      "gloss": "and a cut",
+      "sense": "S1"
     },
     {
-      "surface": "לנפש",
-      "gloss": "for the dead",
-      "readings": [
-        "for the dead",
-        "for the soul"
-      ],
-      "held_by": {
-        "for the dead": [
-          "v2",
-          "v3"
-        ],
-        "for the soul": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "לָנֶפֶשׁ",
+      "gloss": "for a dead body",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תתנו",
-      "gloss": "you shall put"
+      "surface": "תִּתְּנוּ",
+      "gloss": "you shall make",
+      "sense": null
     },
     {
-      "surface": "בבשרכם",
-      "gloss": "in your flesh"
+      "surface": "בִּבְשַׂרְכֶם",
+      "gloss": "in your flesh",
+      "sense": "S1"
     },
     {
-      "surface": "וכתבת",
-      "gloss": "and a writing"
+      "surface": "וּכְתֹבֶת",
+      "gloss": "and an inscription of",
+      "sense": "S1"
     },
     {
-      "surface": "קעקע",
-      "gloss": "a gash-mark"
+      "surface": "קַעֲקַע",
+      "gloss": "a gash",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תתנו",
-      "gloss": "you shall put"
+      "surface": "תִּתְּנוּ",
+      "gloss": "you shall make",
+      "sense": null
     },
     {
-      "surface": "בכם",
-      "gloss": "on you"
+      "surface": "בָּכֶם",
+      "gloss": "in yourselves"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:42:25.344387319Z",
+  "model": "glm-5.3"
 }

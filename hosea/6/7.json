@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And they like Adam have transgressed the covenant; there they have dealt treacherously against me.",
-  "tokens": [
+  "ref": "hosea 6:7",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "והמה",
-      "gloss": "and they"
+      "kind": "crux",
+      "subject": "like Adam",
+      "rationale": "כאדם: 'like Adam' (the first man) vs 'like men' vs 'at Adam' (a place, cf. Josh 3:16)"
     },
     {
-      "surface": "כאדם",
+      "kind": "elision",
+      "subject": "בְּרִית",
+      "rationale": "covenant lacks the Hebrew article; ⟨את⟩ marks it as the known covenant"
+    }
+  ],
+  "translation": "And they like Adam crossed ⟨את⟩ covenant; there they dealt treacherously with me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7335435acec3d43ba4cb5a78b3495e1337ddb78f02ae34b733ee0e0c0d3836f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/6\/5-8.1791191300018.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהֵמָּה",
+      "gloss": "and they",
+      "sense": null
+    },
+    {
+      "surface": "כְּאָדָם",
       "gloss": "like Adam",
       "readings": [
         "like Adam",
-        "like humankind"
+        "like men"
       ],
-      "held_by": {
-        "like Adam": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "like humankind": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עברו",
-      "gloss": "have transgressed"
+      "surface": "עָבְרוּ",
+      "gloss": "crossed",
+      "sense": null
     },
     {
-      "surface": "ברית",
-      "gloss": "covenant"
+      "surface": "בְּרִית",
+      "gloss": "⟨את⟩ covenant",
+      "sense": "S1"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "surface": "שָׁם",
+      "gloss": "there",
+      "sense": "S1"
     },
     {
-      "surface": "בגדו",
-      "gloss": "have dealt treacherously"
+      "surface": "בָּגְדוּ",
+      "gloss": "they dealt treacherously",
+      "sense": "S1"
     },
     {
-      "surface": "בי",
-      "gloss": "against me"
+      "surface": "בִּי",
+      "gloss": "with me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:20.019584477Z",
+  "model": "glm-5.3"
 }

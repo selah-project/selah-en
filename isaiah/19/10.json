@@ -1,69 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And her foundations shall be crushed — all who work for wages, grieved in soul.",
+  "ref": "isaiah 19:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew lacks a copula between the passive participle and its subject"
+    },
+    {
+      "kind": "hapax",
+      "subject": "אַגְמֵי",
+      "rationale": "occurs only here; a figurative use of a word for pools\/marshes, rendered grieving"
+    },
+    {
+      "kind": "substitution",
+      "subject": "of soul",
+      "rationale": "נפש is throat\/life-force, the seat of desire and feeling, not an immaterial soul"
+    }
+  ],
+  "translation": "And her foundations ⟨were⟩ crushed; all makers of wages, grieving of soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b450c69ac2c5ad65cd393c3727250cea3f2398619dd447e8ef7e8e015f36cf3e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/19\/9-12.1791188282851.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "והיו",
-      "gloss": "and shall be"
+      "surface": "וְהָי֥וּ",
+      "gloss": "and became"
     },
     {
-      "surface": "שתתיה",
+      "surface": "שָׁתֹתֶ֖יהָ",
       "gloss": "her foundations",
-      "readings": [
-        "her foundations",
-        "her cloth-workers"
-      ],
-      "held_by": {
-        "her foundations": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "her cloth-workers": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מדכאים",
-      "gloss": "crushed"
+      "surface": "מְדֻכָּאִ֑ים",
+      "gloss": "crushed",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "עשי",
-      "gloss": "makers of"
+      "surface": "עֹ֥שֵׂי",
+      "gloss": "makers of",
+      "sense": "S1"
     },
     {
-      "surface": "שכר",
-      "gloss": "wages"
+      "surface": "שֶׂ֖כֶר",
+      "gloss": "wages",
+      "sense": "S1"
     },
     {
-      "surface": "אגמי",
-      "gloss": "grieved",
-      "readings": [
-        "grieved",
-        "ponds"
-      ],
-      "held_by": {
-        "grieved": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "ponds": [
-          "en4"
-        ]
-      }
+      "surface": "אַגְמֵ֥י",
+      "gloss": "grieving",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "soul"
+      "surface": "נֶֽפֶשׁ",
+      "gloss": "of soul",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:18:02.852544998Z",
+  "model": "glm-5.3"
 }

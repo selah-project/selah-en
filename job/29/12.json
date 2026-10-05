@@ -1,68 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "For I delivered the poor crying out, and the fatherless, and him who had no helper.",
-  "tokens": [
+  "ref": "job 29:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "addition",
+      "subject": "there was",
+      "rationale": "Hebrew verbless clause; English needs a copula, bracketed."
     },
     {
-      "surface": "אמלט",
-      "gloss": "I delivered"
-    },
-    {
-      "surface": "עני",
-      "gloss": "the poor"
-    },
-    {
-      "surface": "משוע",
-      "gloss": "crying out",
-      "readings": [
-        "crying out",
-        "crying for help"
-      ],
-      "held_by": {
-        "crying out": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "crying for help": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויתום",
-      "gloss": "and the fatherless",
-      "readings": [
-        "and the fatherless",
-        "and the orphan"
-      ],
-      "held_by": {
-        "and the fatherless": [
-          "v1",
-          "en4"
-        ],
-        "and the orphan": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and there was no"
-    },
-    {
-      "surface": "עזר",
-      "gloss": "helper"
-    },
-    {
-      "surface": "לו",
-      "gloss": "to him"
+      "kind": "alternative",
+      "subject": "for him",
+      "rationale": "The suffix לו may point to either the poor man or the orphan; both are kept in view."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For I delivered the poor one crying for help, and the orphan, and ⟨there was⟩ no helper for him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2e328b37be7e2bfdb1b09241b3483c6a30aadb495124e1df942f7b82349a997f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/29\/9-12.1791194458892.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אֲמַלֵּט",
+      "gloss": "I delivered",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָנִי",
+      "gloss": "the poor one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְשַׁוֵּעַ",
+      "gloss": "crying for help",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָתוֹם",
+      "gloss": "and the orphan",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and ⟨there was⟩ no",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹזֵר",
+      "gloss": "helper",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "for him"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:58.893206591Z",
+  "model": "glm-5.3"
 }

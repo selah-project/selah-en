@@ -1,69 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "My loved ones and my friends stand off from my plague, and my near ones have stood far off.",
-  "tokens": [
+  "ref": "psalms 38:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "אהבי",
-      "gloss": "my loved ones"
+      "kind": "wordplay",
+      "subject": "מנגד \/ נגעי",
+      "rationale": "near-sounding pair — 'opposite' (neged) against 'my plague' (negai) — lost in English"
     },
     {
-      "surface": "ורעי",
-      "gloss": "and my friends"
-    },
-    {
-      "surface": "מנגד",
-      "gloss": "off from",
-      "readings": [
-        "off from",
-        "opposite"
-      ],
-      "held_by": {
-        "off from": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "opposite": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נגעי",
-      "gloss": "my plague",
-      "readings": [
-        "my plague",
-        "my stroke"
-      ],
-      "held_by": {
-        "my plague": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my stroke": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יעמדו",
-      "gloss": "stand"
-    },
-    {
-      "surface": "וקרובי",
-      "gloss": "and my near ones"
-    },
-    {
-      "surface": "מרחק",
-      "gloss": "far off"
-    },
-    {
-      "surface": "עמדו",
-      "gloss": "have stood"
+      "kind": "alternative",
+      "subject": "my wound",
+      "rationale": "נגע can read 'my plague' or 'my affliction', something strikingly sent"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My loved ones and my friends stand opposite my wound; they keep their distance, and my kinsmen stand far off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fdd104865ff3ab86191c90a123d61b75a41fecff8e74aad118b3e2f3163b0081",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/9-12.1791192660571.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֹֽהֲבַ֨י",
+      "gloss": "my loved ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרֵעַ֗י",
+      "gloss": "and my friends",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנֶּ֣גֶד",
+      "gloss": "opposite",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִגְעִ֣י",
+      "gloss": "my wound",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲמֹ֑דוּ",
+      "gloss": "stand",
+      "sense": null
+    },
+    {
+      "surface": "וּ֝קְרוֹבַ֗י",
+      "gloss": "and my kinsmen",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרָחֹ֥ק",
+      "gloss": "far off",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָמָֽדוּ",
+      "gloss": "have stood",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:00.572518913Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And all Judah was standing before YHWH, also their little ones, their wives, and their children.",
-  "tokens": [
+  "ref": "2-chronicles 20:13",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "וכל",
-      "gloss": "And all"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew participle עֹמְדִים has no copula; English requires one"
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
-    },
-    {
-      "surface": "עמדים",
-      "gloss": "standing"
-    },
-    {
-      "surface": "לפני",
-      "gloss": "before"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "גם",
-      "gloss": "also"
-    },
-    {
-      "surface": "טפם",
-      "gloss": "their little ones",
-      "readings": [
-        "their little ones",
-        "their children"
-      ],
-      "held_by": {
-        "their little ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their children": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נשיהם",
-      "gloss": "their wives"
-    },
-    {
-      "surface": "ובניהם",
-      "gloss": "and their children"
+      "kind": "substitution",
+      "subject": "little ones",
+      "rationale": "טַף is a collective for children still dependent on their mothers"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And all Judah was standing before YHWH, also their little ones, their women and their sons.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15de8afdb7ff146fb0f179f370b796702e001730b3852398e78498842a0cbc3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/20\/13-16.1791196806850.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכָ֨ל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "יְהוּדָ֔ה",
+      "gloss": "Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹמְדִ֖ים",
+      "gloss": "was standing",
+      "sense": null
+    },
+    {
+      "surface": "לִפְנֵ֣י",
+      "gloss": "before",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
+    },
+    {
+      "surface": "טַפָּ֖ם",
+      "gloss": "their little ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְשֵׁיהֶ֥ם",
+      "gloss": "their women",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְנֵיהֶֽם",
+      "gloss": "and their sons",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:40:06.851217021Z",
+  "model": "glm-5.3"
 }

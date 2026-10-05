@@ -1,42 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 105,
-  "translation": "A lamp to my feet is your word, and a light to my path.",
-  "tokens": [
+  "ref": "psalms 119:105",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "נר",
-      "gloss": "a lamp",
-      "readings": [
-        "a lamp",
-        "a light"
-      ],
-      "held_by": {
-        "a lamp": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a light": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the two noun phrases"
     },
     {
-      "surface": "לרגלי",
-      "gloss": "to my feet"
-    },
-    {
-      "surface": "דברך",
-      "gloss": "your word"
-    },
-    {
-      "surface": "ואור",
-      "gloss": "and a light"
-    },
-    {
-      "surface": "לנתיבתי",
-      "gloss": "to my path"
+      "kind": "alternative",
+      "subject": "foot",
+      "rationale": "רגל here metonymic for the whole person walking; 'for my going' possible but the literal foot is kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A lamp for my foot is Your word, and a light for my path.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dad240160452e0757ef57ed19b4b359f74479f44722c9620c84cc67928305866",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/105-108.1791193469491.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֵר",
+      "gloss": "A lamp",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרַגְלִי",
+      "gloss": "for my foot",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְבָרֶךָ",
+      "gloss": "is Your word",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאוֹר",
+      "gloss": "and a light",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִנְתִיבָתִי",
+      "gloss": "for my path",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:29.492150182Z",
+  "model": "glm-5.3"
 }

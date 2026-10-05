@@ -1,118 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Better ⟨is⟩ the sight of the eyes than the walking of the appetite; this too is vapor and a shepherding of wind.",
+  "ref": "ecclesiastes 6:9",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat, the desiring life-force; 'walking of the soul' is restless roaming desire."
+    },
+    {
+      "kind": "crux",
+      "subject": "walking of the soul",
+      "rationale": "מהלך נפש read as 'roaming of desire' vs 'traveling of the appetite'; rendered literally to keep the picture."
+    },
+    {
+      "kind": "mystery",
+      "subject": "striving after wind",
+      "rationale": "The refrain marks what cannot be grasped."
+    }
+  ],
+  "translation": "Better the sight of the eyes than the walking of the soul; this too is vapor and a striving after wind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "92dc44525b2c0c32e68aa786c636389d803e62e09df501be5a147bc0da89e0d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/6\/9-12.1791194904589.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Better"
+      "surface": "טוֹב",
+      "gloss": "better",
+      "sense": "S1"
     },
     {
-      "surface": "מראה",
-      "gloss": "the sight"
+      "surface": "מַרְאֵה",
+      "gloss": "the sight",
+      "sense": "S1"
     },
     {
-      "surface": "עינים",
-      "gloss": "of the eyes"
+      "surface": "עֵינַיִם",
+      "gloss": "of the eyes",
+      "sense": "S1"
     },
     {
-      "surface": "מהלך",
-      "gloss": "the walking"
+      "surface": "מֵֽהֲלָךְ",
+      "gloss": "than the walking",
+      "sense": "S2"
     },
     {
-      "surface": "נפש",
-      "gloss": "the appetite",
+      "surface": "נָפֶשׁ",
+      "gloss": "of the soul",
       "readings": [
-        "the appetite",
-        "the soul",
-        "the life"
+        "of the soul",
+        "of the appetite"
       ],
-      "held_by": {
-        "the appetite": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the soul": [
-          "v1",
-          "en4"
-        ],
-        "the life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "גם",
-      "gloss": "also"
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
     },
     {
-      "surface": "זה",
-      "gloss": "this"
+      "surface": "זֶה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "הבל",
+      "surface": "הֶבֶל",
       "gloss": "vapor",
       "readings": [
         "vapor",
         "vanity"
       ],
-      "held_by": {
-        "vapor": [
-          "v1",
-          "en4"
-        ],
-        "vanity": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ורעות",
-      "gloss": "and a shepherding of",
-      "readings": [
-        "and a shepherding of",
-        "and a striving after"
-      ],
-      "held_by": {
-        "and a shepherding of": [
-          "en4"
-        ],
-        "and a striving after": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וּרְעוּת",
+      "gloss": "and a striving",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
-      "gloss": "wind",
-      "readings": [
-        "wind",
-        "spirit",
-        "breath"
-      ],
-      "held_by": {
-        "wind": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "spirit": [
-          "v1",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "רוּחַ",
+      "gloss": "after wind",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:08:24.590459262Z",
+  "model": "glm-5.3"
 }

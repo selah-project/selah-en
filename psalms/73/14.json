@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And I was stricken all the day, and my reproof was every morning.",
-  "tokens": [
+  "ref": "psalms 73:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "ואהי",
-      "gloss": "and I was"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew participle with no copula; English requires one"
     },
     {
-      "surface": "נגוע",
-      "gloss": "stricken",
-      "readings": [
-        "stricken",
-        "touched"
-      ],
-      "held_by": {
-        "stricken": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "touched": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "ותוכחתי",
-      "gloss": "and my reproof"
-    },
-    {
-      "surface": "לבקרים",
-      "gloss": "every morning"
+      "kind": "alternative",
+      "subject": "every morning",
+      "rationale": "לַבְּקָרִים plural with article rendered distributively 'every morning'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I was struck every day, and my chastisement ⟨was⟩ every morning.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d0861de5f3ecfdeb23224d89537103424fc72d7004b572dbdfa5161bb2e3a3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/13-16.1791192989411.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֱהִי",
+      "gloss": "and I was",
+      "sense": null
+    },
+    {
+      "surface": "נָגוּעַ",
+      "gloss": "struck",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "every",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "day",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתוֹכַחְתִּי",
+      "gloss": "and my chastisement",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבְּקָרִים",
+      "gloss": "every morning",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:29.412425240Z",
+  "model": "glm-5.3"
 }

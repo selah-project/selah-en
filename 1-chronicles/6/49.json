@@ -1,55 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 49,
+  "ref": "1-chronicles 6:49",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "pasturelands",
+      "rationale": "מגרש is open grazing land around a city, traditionally 'suburbs'"
+    }
+  ],
   "translation": "And the sons of Israel gave to the Levites ⟨את⟩ the cities and ⟨את⟩ their pasturelands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a3b70c00bd77db4feb5e6472c769a188f59eacfd5e06183ba8453dbba0be12f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/6\/49-52.1791196107975.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויתנו",
-      "gloss": "And gave"
+      "gloss": "and gave",
+      "sense": null
     },
     {
       "surface": "בני",
-      "gloss": "the sons of"
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "ללוים",
-      "gloss": "to the Levites"
+      "gloss": "to the Levites",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the cities",
+      "sense": null
     },
     {
       "surface": "הערים",
-      "gloss": "the cities"
+      "gloss": "the cities",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "their pasturelands",
+      "sense": null
     },
     {
       "surface": "מגרשיהם",
       "gloss": "their pasturelands",
-      "readings": [
-        "their pasturelands",
-        "their open lands"
-      ],
-      "held_by": {
-        "their pasturelands": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their open lands": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:28:27.976825977Z",
+  "model": "glm-5.3"
 }

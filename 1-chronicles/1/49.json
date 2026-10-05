@@ -1,40 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 49,
-  "translation": "And Shaul died, and Baal-hanan son of Akbor reigned in his stead.",
-  "tokens": [
+  "ref": "1-chronicles 1:49",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "וימת",
-      "gloss": "and died"
-    },
-    {
-      "surface": "שאול",
-      "gloss": "Shaul"
-    },
-    {
-      "surface": "וימלך",
-      "gloss": "and reigned"
-    },
-    {
-      "surface": "תחתיו",
-      "gloss": "in his stead"
-    },
-    {
-      "surface": "בעל",
-      "gloss": "Baal-"
-    },
-    {
-      "surface": "חנן",
-      "gloss": "Hanan"
-    },
-    {
-      "surface": "בן",
-      "gloss": "son"
-    },
-    {
-      "surface": "עכבור",
-      "gloss": "Akbor"
+      "kind": "elision",
+      "subject": "בַּעַל חָנָן",
+      "rationale": "One name split across two tokens; gloss repeated on each so the alignment row count matches."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Saul died, and Baal-Hanan the son of Achbor reigned in his place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "38825e1d943dd361fd2fd3231e4a1ed2202763e1a07a654b43ae09b663d9ae7c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/1\/49-52.1791196015721.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיָּמָת",
+      "gloss": "and died",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁאוּל",
+      "gloss": "Saul",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּמְלֹךְ",
+      "gloss": "reigned",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּחְתָּיו",
+      "gloss": "in his place",
+      "sense": null
+    },
+    {
+      "surface": "בַּעַל",
+      "gloss": "Baal-Hanan",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָנָן",
+      "gloss": "Baal-Hanan",
+      "sense": null
+    },
+    {
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַכְבּוֹר",
+      "gloss": "Achbor",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:26:55.722405346Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And you shall eat old, long kept, and the old from before the new you shall bring out.",
-  "tokens": [
+  "ref": "leviticus 26:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "ואכלתם",
-      "gloss": "and you shall eat"
-    },
-    {
-      "surface": "ישן",
-      "gloss": "old"
-    },
-    {
-      "surface": "נושן",
-      "gloss": "long kept",
-      "readings": [
-        "long kept",
-        "worn-out"
-      ],
-      "held_by": {
-        "long kept": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "worn-out": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וישן",
-      "gloss": "and old"
-    },
-    {
-      "surface": "מפני",
-      "gloss": "from before"
-    },
-    {
-      "surface": "חדש",
-      "gloss": "new"
-    },
-    {
-      "surface": "תוציאו",
-      "gloss": "you shall bring out"
+      "kind": "wordplay",
+      "subject": "ישן \/ נושן \/ וישן",
+      "rationale": "The root ישן is doubled and then repeated a third time — old harvest eaten, aged stores, old cleared for new — a parade of oldness lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you will eat old, long-stored, and old you will clear out from before new.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "01168fe9206e16b93f7708e9ecf9af3bae028ea323f6f081845da0395b71a2df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/26\/9-12.1791182694839.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲכַלְתֶּ֥ם",
+      "gloss": "and you will eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשָׁ֖ן",
+      "gloss": "old",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹשָׁ֑ן",
+      "gloss": "long-stored",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָשָׁ֕ן",
+      "gloss": "and old",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵ֥י",
+      "gloss": "from before",
+      "sense": null
+    },
+    {
+      "surface": "חָדָ֖שׁ",
+      "gloss": "new",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּוֹצִֽיאוּ",
+      "gloss": "you will clear out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:44:54.840005342Z",
+  "model": "glm-5.3"
 }

@@ -1,67 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Instead of the thornbush shall come up the cypress, and instead of the brier shall come up the myrtle; and it shall be to YHWH for a name, for an everlasting sign that shall not be cut off.",
+  "ref": "isaiah 55:13",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "הסרפד",
+      "rationale": "סרפד, nettle, occurs only here in the Tanakh."
+    },
+    {
+      "kind": "crux",
+      "subject": "תחת",
+      "rationale": "Literally 'under\/beneath'; here read as 'instead of, in place of', the well-known substitution sense."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יכרת",
+      "rationale": "The verse of planted trees ends with 'cut off' — the cutting verb applied to what will NOT be cut."
+    },
+    {
+      "kind": "substitution",
+      "subject": "forever",
+      "rationale": "עולם is literally 'a concealed vanishing-point of time', rendered as the English duration word."
+    }
+  ],
+  "translation": "Instead of the brier shall go up the cypress; instead of the nettle shall go up the myrtle; and it shall be to YHWH for a name, for a sign of forever that shall not be cut off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f950722019fbe8733c66acaa2103b36f6a71996472368c6d3d9a7b9431e72e9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/55\/13-13.1791188826897.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "תחת",
+      "surface": "תַּחַת",
       "gloss": "Instead of"
     },
     {
-      "surface": "הנעצוץ",
-      "gloss": "the thornbush",
-      "readings": [
-        "the thornbush",
-        "the nettles"
-      ],
-      "held_by": {
-        "the thornbush": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the nettles": [
-          "en4"
-        ]
-      }
+      "surface": "הַנַּעֲצוּץ",
+      "gloss": "the brier",
+      "sense": "S1"
     },
     {
-      "surface": "יעלה",
-      "gloss": "shall come up"
+      "surface": "יַעֲלֶה",
+      "gloss": "shall go up",
+      "sense": "S1"
     },
     {
-      "surface": "ברוש",
+      "surface": "בְרוֹשׁ",
       "gloss": "the cypress",
-      "readings": [
-        "the cypress",
-        "the juniper"
-      ],
-      "held_by": {
-        "the cypress": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the juniper": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "תחת",
       "gloss": "instead of"
     },
     {
-      "surface": "הסרפד",
-      "gloss": "the brier"
+      "surface": "הַסִּרְפַּד",
+      "gloss": "the nettle",
+      "sense": "S1"
     },
     {
-      "surface": "יעלה",
-      "gloss": "shall come up"
+      "surface": "יַעֲלֶה",
+      "gloss": "shall go up",
+      "sense": "S1"
     },
     {
-      "surface": "הדס",
-      "gloss": "the myrtle"
+      "surface": "הֲדַס",
+      "gloss": "the myrtle",
+      "sense": "S1"
     },
     {
       "surface": "והיה",
@@ -69,43 +83,35 @@
     },
     {
       "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
       "surface": "לשם",
       "gloss": "for a name",
-      "readings": [
-        "for a name",
-        "for a memorial"
-      ],
-      "held_by": {
-        "for a name": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for a memorial": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לאות",
-      "gloss": "for a sign"
+      "gloss": "for a sign of",
+      "sense": "S1"
     },
     {
       "surface": "עולם",
-      "gloss": "everlasting"
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יכרת",
-      "gloss": "shall be cut off"
+      "gloss": "shall be cut off",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:27:06.898171008Z",
+  "model": "glm-5.3"
 }

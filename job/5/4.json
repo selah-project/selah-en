@@ -1,58 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "His sons are far from safety, and they are crushed in the gate, and there is no deliverer.",
-  "tokens": [
+  "ref": "job 5:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ירחקו",
-      "gloss": "are far",
-      "readings": [
-        "are far",
-        "are driven far"
-      ]
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew ואין מציל is verbless 'and no deliverer'; English requires the existential clause."
     },
     {
-      "surface": "בניו",
-      "gloss": "His sons"
-    },
-    {
-      "surface": "מישע",
-      "gloss": "from safety",
-      "readings": [
-        "from safety",
-        "from rescue",
-        "from salvation"
-      ],
-      "held_by": {
-        "from safety": [
-          "v2",
-          "v3"
-        ],
-        "from rescue": [
-          "en4"
-        ],
-        "from salvation": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וידכאו",
-      "gloss": "and they are crushed"
-    },
-    {
-      "surface": "בשער",
-      "gloss": "in the gate"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is no"
-    },
-    {
-      "surface": "מציל",
-      "gloss": "deliverer"
+      "kind": "crux",
+      "subject": "in the gate",
+      "rationale": "The gate as place of justice: sons crushed 'in the gate' — denied legal redress, echoing 'no deliverer'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His sons are far from safety, and they are crushed in the gate, and there is no deliverer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "733201cf9ff88c48c65384182d083fa98fe103b8bd5c24d70005bd8e7d5d50dd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/1-4.1791194166347.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִרְחֲק֣וּ",
+      "gloss": "are far",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָנָ֣יו",
+      "gloss": "His sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִיֶּ֑שַׁע",
+      "gloss": "from safety",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִדַּכְּא֥וּ",
+      "gloss": "and they are crushed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּ֝שַּׁ֗עַר",
+      "gloss": "in the gate",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֣ין",
+      "gloss": "and there is no",
+      "sense": null
+    },
+    {
+      "surface": "מַצִּֽיל",
+      "gloss": "deliverer",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:06.348220215Z",
+  "model": "glm-5.3"
 }

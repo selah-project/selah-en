@@ -1,28 +1,57 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For with you ⟨is⟩ the forgiveness, so that you may be feared.",
+  "ref": "psalms 130:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 130,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before הסליחה."
+    },
+    {
+      "kind": "crux",
+      "subject": "so that you may be feared",
+      "rationale": "למען תורא: purpose ('so that') vs result ('therefore'); the niphal 'be feared' also read as reflexive 'you show yourself fearsome'."
+    }
+  ],
+  "translation": "For with you is forgiveness, so that you may be feared.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b39ccdfba1a3d561474368729d011f9b522508fa627a832e2110deb2698007ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/130\/1-4.1791193534814.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "עמך",
+      "surface": "עִמְּךָ",
       "gloss": "with you"
     },
     {
-      "surface": "הסליחה",
-      "gloss": "the forgiveness"
+      "surface": "הַסְּלִיחָה",
+      "gloss": "is forgiveness",
+      "sense": "S1"
     },
     {
-      "surface": "למען",
+      "surface": "לְמַעַן",
       "gloss": "so that"
     },
     {
-      "surface": "תורא",
-      "gloss": "you may be feared"
+      "surface": "תִּוָּרֵא",
+      "gloss": "you may be feared",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:34.815320735Z",
+  "model": "glm-5.3"
 }

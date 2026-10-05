@@ -1,91 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "They do not despise the thief when he steals to fill his nefesh, when he is hungry.",
-  "tokens": [
+  "ref": "proverbs 6:30",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש here is the appetite seated in the throat; 'soul' or 'stomach' would mislead."
     },
     {
-      "surface": "יבוזו",
-      "gloss": "they despise"
-    },
-    {
-      "surface": "לגנב",
-      "gloss": "the thief"
-    },
-    {
-      "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "for"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יגנוב",
-      "gloss": "he steals"
-    },
-    {
-      "surface": "למלא",
-      "gloss": "to fill"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his nefesh",
-      "readings": [
-        "his nefesh",
-        "his appetite",
-        "his life"
-      ],
-      "held_by": {
-        "his nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the soul": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "for"
-      ],
-      "held_by": {
-        "when": [
-          "v2",
-          "v3"
-        ],
-        "for": [
-          "en4"
-        ],
-        "because": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ירעב",
-      "gloss": "he is hungry"
+      "kind": "wordplay",
+      "subject": "גנב\/יגנוב",
+      "rationale": "Root repetition: the thief (גנב) steals (יגנוב) — noun and verb from one root, carried by cognates in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They do not despise a thief when he steals to fill his throat, because he is hungry.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0f54afb6afccfeb0a784cc22249caf82616556bc8001bb49970c45f11443e3f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/6\/29-32.1791193752559.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָבוּזוּ",
+      "gloss": "they despise",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַגַּנָּב",
+      "gloss": "a thief",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "יִגְנֹב",
+      "gloss": "he steals",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַלֵּא",
+      "gloss": "to fill",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his throat",
+      "sense": "S1",
+      "readings": [
+        "his throat",
+        "his appetite",
+        "his life"
+      ]
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "because",
+      "sense": null
+    },
+    {
+      "surface": "יִרְעָב",
+      "gloss": "he is hungry",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:12.559987579Z",
+  "model": "glm-5.3"
 }

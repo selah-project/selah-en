@@ -1,82 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "YHWH has sworn and will not relent: “You ⟨are⟩ a priest forever, after the order of Malki-Tsedek.”",
-  "tokens": [
+  "ref": "psalms 110:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 110,
+  "notes": [
     {
-      "surface": "נשבע",
-      "gloss": "has sworn"
+      "kind": "crux",
+      "subject": "on the pattern of",
+      "rationale": "על דברתי is unclear: 'on account of my word', 'after the order of', or 'because of'; Melchizedek is a name whose parts mean 'my king of righteousness'."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "you",
+      "subject": "You are a priest forever",
+      "rationale": "YHWH's oath addresses the lord of verse 1 directly."
     },
     {
-      "surface": "ולא",
-      "gloss": "and will not"
-    },
-    {
-      "surface": "ינחם",
-      "gloss": "relent",
-      "readings": [
-        "relent",
-        "change his mind"
-      ],
-      "held_by": {
-        "relent": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "change his mind": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "כהן",
-      "gloss": "a priest"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "על",
-      "gloss": "after"
-    },
-    {
-      "surface": "דברתי",
-      "gloss": "the order of",
-      "readings": [
-        "the order of",
-        "my word"
-      ],
-      "held_by": {
-        "the order of": [
-          "v1",
-          "v2",
-          "en4"
-        ],
-        "my word": [
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מלכי",
-      "gloss": "Malki-"
-    },
-    {
-      "surface": "צדק",
-      "gloss": "Tsedek"
+      "kind": "alternative",
+      "subject": "relent",
+      "rationale": "ינחם is 'have second thoughts \/ repent'; the swearing-and-not-repenting is an oath formula fixed as strong as death."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH has sworn and will not relent: You are a priest forever, on the pattern of Melchizedek.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84a81e4c7523e788cd5866185e2626d85bad744110e267eac06d39b90cb9b488",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/110\/1-4.1791193387598.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נִשְׁבַּ֤ע",
+      "gloss": "has sworn",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֨ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֥א",
+      "gloss": "and will not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִנָּחֵ֗ם",
+      "gloss": "relent",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּֽה",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "כֹהֵ֥ן",
+      "gloss": "a priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָ֑ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "דִּבְרָתִ֗י",
+      "gloss": "the pattern of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכִּ֥י",
+      "gloss": "Melchi",
+      "sense": "S1"
+    },
+    {
+      "surface": "צֶֽדֶק",
+      "gloss": "zedek",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:07.599418140Z",
+  "model": "glm-5.3"
 }

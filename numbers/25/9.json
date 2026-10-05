@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And the dead in the plague were four and twenty thousand.",
-  "tokens": [
+  "ref": "numbers 25:9",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "ויהיו",
-      "gloss": "And they were"
+      "kind": "measurement",
+      "subject": "twenty-four thousand",
+      "rationale": "The verse counts the plague's dead."
     },
     {
-      "surface": "המתים",
-      "gloss": "the dead",
-      "readings": [
-        "the dead",
-        "the dying"
-      ],
-      "held_by": {
-        "the dead": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the dying": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "במגפה",
-      "gloss": "in the plague"
-    },
-    {
-      "surface": "ארבעה",
-      "gloss": "four"
-    },
-    {
-      "surface": "ועשרים",
-      "gloss": "and twenty"
-    },
-    {
-      "surface": "אלף",
-      "gloss": "thousand"
+      "kind": "substitution",
+      "subject": "plague",
+      "rationale": "מַגֵּפָה is literally a heavy blow, rendered by its effect 'plague'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the dead in the plague were twenty-four thousand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "554fbebb7bd77a11d8e303ab1431d834f8d16dc97eca885b02e79c5a38267cfb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/25\/9-12.1791183290488.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּהְיוּ",
+      "gloss": "And were",
+      "sense": null
+    },
+    {
+      "surface": "הַמֵּתִים",
+      "gloss": "the dead",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמַּגֵּפָה",
+      "gloss": "in the plague",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַרְבָּעָה",
+      "gloss": "four",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֶשְׂרִים",
+      "gloss": "and twenty",
+      "sense": null
+    },
+    {
+      "surface": "אָלֶף",
+      "gloss": "thousand",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:50.495515815Z",
+  "model": "glm-5.3"
 }

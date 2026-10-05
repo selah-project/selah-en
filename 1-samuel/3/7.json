@@ -1,63 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Now Samuel did not yet know ⟨את⟩ YHWH, and the word of YHWH was not yet revealed to him.",
-  "tokens": [
+  "ref": "1-samuel 3:7",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "ושמואל",
-      "gloss": "Now Samuel"
+      "kind": "addition",
+      "subject": "did",
+      "rationale": "English needs the auxiliary “did” for the negated perfect; Hebrew has none"
     },
     {
-      "surface": "טרם",
-      "gloss": "not yet"
+      "kind": "substitution",
+      "subject": "uncovered",
+      "rationale": "נִגְלָה is literally “be uncovered\/exposed” — the standard idiom for divine revelation, kept literal here"
     },
     {
-      "surface": "ידע",
-      "gloss": "know"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "וטרם",
-      "gloss": "and not yet"
-    },
-    {
-      "surface": "יגלה",
-      "gloss": "was revealed",
-      "readings": [
-        "was revealed",
-        "was uncovered"
-      ],
-      "held_by": {
-        "was revealed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "was uncovered": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אליו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "the word"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "kind": "mystery",
+      "subject": "divine call",
+      "rationale": "the voice is heard but its source hidden from Samuel — the narrative withholds what the reader is told only in v.7"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Now Samuel did not yet know YHWH, ⟨את⟩ YHWH, and the word of YHWH had not yet been uncovered to him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5c6537cd5413fc5461192b940aaa83c31154fb7b69cd7602f0793974e79ee3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/3\/5-8.1791185363130.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּשְׁמוּאֵ֕ל",
+      "gloss": "Now Samuel",
+      "sense": "S1"
+    },
+    {
+      "surface": "טֶ֖רֶם",
+      "gloss": "not yet",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֣ע",
+      "gloss": "he knew",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְטֶ֛רֶם",
+      "gloss": "and not yet",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִגָּלֶ֥ה",
+      "gloss": "had been uncovered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָ֖יו",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "דְּבַר",
+      "gloss": "the word of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:29:23.132735373Z",
+  "model": "glm-5.3"
 }

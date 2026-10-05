@@ -1,18 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Incline, my Elohim, your ear and hear; open your eyes and see our desolations, and the city upon which your name is called; for not on our righteousnesses are we causing our supplications to fall before your face, but on your many compassions.",
+  "ref": "daniel 9:18",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "causing to fall",
+      "rationale": "הפיל תחנון literally 'cause supplication to fall', an idiom for entreating; the literal is kept"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "על צדקתינו \/ על רחמיך",
+      "rationale": "parallel 'on our righteousnesses … on your compassions' contrast structures the verse"
+    }
+  ],
+  "translation": "Incline, my Elohim, your ear and hear; open your eyes and see our desolations and the city over which your name is called, for not on our righteousnesses ⟨are⟩ we causing our supplications to fall before you, for on your abundant compassions.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ad7909b776b584ec4743e72926412cbcac9ac81b8b4f7b42d8b39bc2e4ebca3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/9\/17-20.1791195392659.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
       "surface": "הטה",
-      "gloss": "Incline"
+      "gloss": "Incline",
+      "sense": "S1"
     },
     {
       "surface": "אלהי",
-      "gloss": "my Elohim"
+      "gloss": "my Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אזנך",
-      "gloss": "your ear"
+      "gloss": "your ear",
+      "sense": "S1"
     },
     {
       "surface": "ושמע",
@@ -20,39 +50,50 @@
     },
     {
       "surface": "פקחה",
-      "gloss": "open"
+      "gloss": "open",
+      "sense": "S1",
+      "readings": [
+        "open",
+        "open ⟨now⟩"
+      ]
     },
     {
       "surface": "עיניך",
-      "gloss": "your eyes"
+      "gloss": "your two eyes",
+      "sense": "S1"
     },
     {
       "surface": "וראה",
-      "gloss": "and see"
+      "gloss": "and see",
+      "sense": "S1"
     },
     {
       "surface": "שממתינו",
-      "gloss": "our desolations"
+      "gloss": "our desolations",
+      "sense": "S1"
     },
     {
       "surface": "והעיר",
-      "gloss": "and the city"
+      "gloss": "and the city",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "over which"
     },
     {
       "surface": "נקרא",
-      "gloss": "is called"
+      "gloss": "is called",
+      "sense": "S1"
     },
     {
       "surface": "שמך",
-      "gloss": "your name"
+      "gloss": "your name",
+      "sense": "S1"
     },
     {
       "surface": "עליה",
-      "gloss": "upon it"
+      "gloss": "over it"
     },
     {
       "surface": "כי",
@@ -60,7 +101,8 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -69,21 +111,7 @@
     {
       "surface": "צדקתינו",
       "gloss": "our righteousnesses",
-      "readings": [
-        "our righteousnesses",
-        "our righteous acts"
-      ],
-      "held_by": {
-        "our righteousnesses": [
-          "v2",
-          "en4"
-        ],
-        "our righteous acts": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אנחנו",
@@ -91,19 +119,21 @@
     },
     {
       "surface": "מפילים",
-      "gloss": "are causing to fall"
+      "gloss": "causing to fall",
+      "sense": "S1"
     },
     {
       "surface": "תחנונינו",
-      "gloss": "our supplications"
+      "gloss": "our supplications",
+      "sense": "S1"
     },
     {
       "surface": "לפניך",
-      "gloss": "before your face"
+      "gloss": "before you"
     },
     {
       "surface": "כי",
-      "gloss": "but"
+      "gloss": "for"
     },
     {
       "surface": "על",
@@ -111,13 +141,15 @@
     },
     {
       "surface": "רחמיך",
-      "gloss": "your compassions"
+      "gloss": "your compassions",
+      "sense": "S1"
     },
     {
       "surface": "הרבים",
-      "gloss": "the many"
+      "gloss": "the abundant",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:16:32.660400718Z",
+  "model": "glm-5.3"
 }

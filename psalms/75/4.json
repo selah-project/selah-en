@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The earth and all its inhabitants are melting — I, I have established its pillars. Selah.",
-  "tokens": [
+  "ref": "psalms 75:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 75,
+  "notes": [
     {
-      "surface": "נמגים",
-      "gloss": "are melting"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew participle-fronted clause has no copula; supplied in English"
     },
     {
-      "surface": "ארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "ישביה",
-      "gloss": "its inhabitants"
-    },
-    {
-      "surface": "אנכי",
-      "gloss": "I"
-    },
-    {
-      "surface": "תכנתי",
-      "gloss": "I have established"
-    },
-    {
-      "surface": "עמודיה",
-      "gloss": "its pillars"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "substitution",
+      "subject": "Selah",
+      "rationale": "musical pause marker kept as a transliterated term, not translated"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Melting are earth and all its dwellers; I have steadied its pillars. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4e42811a481404690acc102927a028210aeb83997cc0964fab08cc226b08a32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/75\/1-4.1791193009752.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נְֽמֹגִ֗ים",
+      "gloss": "Melting",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֥רֶץ",
+      "gloss": "are earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "יֹשְׁבֶ֑יהָ",
+      "gloss": "its dwellers",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹכִ֨י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "תִּכַּ֖נְתִּי",
+      "gloss": "have steadied",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמּוּדֶ֣יהָ",
+      "gloss": "its pillars",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶּֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:49.753418193Z",
+  "model": "glm-5.3"
 }

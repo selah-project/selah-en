@@ -1,58 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Keep my soul, and deliver me; let me not be ashamed, for I have taken refuge in you.",
+  "ref": "psalms 25:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש is literally throat\/breathing-self; 'life' is the contextual sense, 'soul' would import later freight."
+    },
+    {
+      "kind": "alternative",
+      "subject": "אבוש",
+      "rationale": "Cohortative under אל read as 'let me not be ashamed'; some render 'may I not be put to shame'."
+    },
+    {
+      "kind": "you",
+      "subject": "petition",
+      "rationale": "Imperatives and negative cohortative addressed to YHWH."
+    }
+  ],
+  "translation": "Guard my life and deliver me; let me not be ashamed, for in you I have taken refuge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe3081e0d0d81847b69b6b6e571f70012085372e95ce15e9c591381f5f9e68c0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/17-20.1791192530569.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שמרה",
-      "gloss": "Keep"
+      "surface": "שָׁמְרָה",
+      "gloss": "Guard",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
+      "surface": "נַפְשִׁי",
+      "gloss": "my life",
+      "sense": "S1",
       "readings": [
-        "my soul",
+        "my life",
         "my nefesh",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+        "my throat"
+      ]
     },
     {
-      "surface": "והצילני",
-      "gloss": "and deliver me"
+      "surface": "וְהַצִּילֵנִי",
+      "gloss": "and deliver me",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "let me not"
+      "surface": "אַל",
+      "gloss": "not"
     },
     {
-      "surface": "אבוש",
-      "gloss": "be ashamed"
+      "surface": "אֵבוֹשׁ",
+      "gloss": "let me be ashamed",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "חסיתי",
-      "gloss": "I have taken refuge"
+      "surface": "חָסִיתִי",
+      "gloss": "I have taken refuge",
+      "sense": "S1"
     },
     {
-      "surface": "בך",
+      "surface": "בָּךְ",
       "gloss": "in you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:50.570109376Z",
+  "model": "glm-5.3"
 }

@@ -1,73 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Will you really break my judgment? Will you condemn me, so that you may be right?",
+  "ref": "job 40:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "משפטי",
+      "rationale": "'my justice\/my verdict\/my lawsuit' — construct of the divine claim; translators split between justice and verdict"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רשע\/צדק",
+      "rationale": "condemn\/be-in-the-right antithesis, the lawsuit's core terms, kept as two stems"
+    }
+  ],
+  "translation": "Would you even break my justice? Would you condemn me, so that you may be in-the-right?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56b48d3d52f0193ce776d01136da40d8251cb69b65bd1e97ab6006e5d50bc5be",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/5-8.1791194627356.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "האף",
-      "gloss": "will you really",
-      "readings": [
-        "will you really",
-        "indeed"
-      ],
-      "held_by": {
-        "will you really": [
-          "v1",
-          "v3"
-        ],
-        "indeed": [
-          "en4"
-        ]
-      }
+      "surface": "הַ֭אַף",
+      "gloss": "Would you even",
+      "sense": "S2"
     },
     {
-      "surface": "תפר",
+      "surface": "תָּפֵ֣ר",
       "gloss": "break",
-      "readings": [
-        "break",
-        "frustrate"
-      ],
-      "held_by": {
-        "break": [
-          "v2",
-          "en4"
-        ],
-        "frustrate": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "משפטי",
-      "gloss": "my judgment",
-      "readings": [
-        "my judgment",
-        "my verdict"
-      ],
-      "held_by": {
-        "my judgment": [
-          "v2",
-          "v3"
-        ],
-        "my verdict": [
-          "en4"
-        ]
-      }
+      "surface": "מִשְׁפָּטִ֑י",
+      "gloss": "my justice",
+      "sense": "S1"
     },
     {
-      "surface": "תרשיעני",
-      "gloss": "condemn me"
+      "surface": "תַּרְשִׁיעֵ֗נִי",
+      "gloss": "would you condemn me",
+      "sense": "S1"
     },
     {
-      "surface": "למען",
+      "surface": "לְמַ֣עַן",
       "gloss": "so that"
     },
     {
-      "surface": "תצדק",
-      "gloss": "you may be right"
+      "surface": "תִּצְדָּֽק",
+      "gloss": "you may be in-the-right",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:47.357596572Z",
+  "model": "glm-5.3"
 }

@@ -1,49 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Behold, in iniquity I was brought forth, and in sin my mother conceived me.",
-  "tokens": [
+  "ref": "psalms 51:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "crux",
+      "subject": "in sin my mother conceived me",
+      "rationale": "read as confession of inborn sinfulness vs. hyperbole for lifelong guilt"
     },
     {
-      "surface": "בעוון",
-      "gloss": "in iniquity"
-    },
-    {
-      "surface": "חוללתי",
-      "gloss": "I was brought forth",
-      "readings": [
-        "I was brought forth",
-        "I was shaped",
-        "I was writhed"
-      ],
-      "held_by": {
-        "I was brought forth": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I was shaped": [
-          "v1"
-        ],
-        "I was writhed": []
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ובחטא",
-      "gloss": "and in sin"
-    },
-    {
-      "surface": "יחמתני",
-      "gloss": "conceived me"
-    },
-    {
-      "surface": "אמי",
-      "gloss": "my mother"
+      "kind": "substitution",
+      "subject": "I was brought forth",
+      "rationale": "חוללתי from חול 'twist\/whirl', the writhing of birth"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, in iniquity I was brought forth, and in sin my mother conceived me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d541f56aae21e732dc8ef9e630ab8ce30cc3287d2b5ff14d6702c4d5860bd5fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/5-8.1791192776395.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵן",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "בְּעָו֥וֹן",
+      "gloss": "in iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוֹלָ֑לְתִּי",
+      "gloss": "I was brought forth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝בְחֵ֗טְא",
+      "gloss": "and in sin",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶֽחֱמַ֥תְנִי",
+      "gloss": "my mother conceived me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמִּֽי",
+      "gloss": "⟨my mother⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:56.396763315Z",
+  "model": "glm-5.3"
 }

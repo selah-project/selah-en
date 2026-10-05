@@ -1,67 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And you shall speak ⟨את⟩ my words to them, whether they hear or whether they forbear, for rebellious they ⟨are⟩.",
+  "ref": "ezekiel 2:7",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "they are",
+      "rationale": "Hebrew lacks a copula; מרי המה is 'rebellion they are'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מרי",
+      "rationale": "the root 'bitterness\/rebellion' repeats through 2:5–8, binding the verses"
+    }
+  ],
+  "translation": "And you shall speak ⟨את⟩ my words to them, whether they hear or whether they refrain, for rebellion they are.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0605f2b9bf078e659ae498536acbfce44902560b3b36c144fa5dcc6aca120036",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/2\/5-8.1791190229615.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
       "surface": "ודברת",
-      "gloss": "And you shall speak"
+      "gloss": "And you shall speak",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my words",
+      "sense": null
     },
     {
       "surface": "דברי",
-      "gloss": "my words"
+      "gloss": "my words",
+      "sense": "S1"
     },
     {
       "surface": "אליהם",
-      "gloss": "to them"
+      "gloss": "to them",
+      "sense": null
     },
     {
       "surface": "אם",
-      "gloss": "whether"
+      "gloss": "whether",
+      "sense": null
     },
     {
       "surface": "ישמעו",
-      "gloss": "they hear"
+      "gloss": "they hear",
+      "sense": null
     },
     {
       "surface": "ואם",
-      "gloss": "or whether"
+      "gloss": "or whether",
+      "sense": null
     },
     {
       "surface": "יחדלו",
-      "gloss": "they forbear"
+      "gloss": "they refrain",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "מרי",
-      "gloss": "rebellious",
-      "readings": [
-        "rebellious",
-        "rebellion"
-      ],
-      "held_by": {
-        "rebellious": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "rebellion": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "rebellion",
+      "sense": "S1"
     },
     {
       "surface": "המה",
-      "gloss": "they ⟨are⟩"
+      "gloss": "they are",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:50:29.617115070Z",
+  "model": "glm-5.3"
 }

@@ -1,44 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "A man of want loves joy; a lover of wine and oil will not grow rich.",
-  "tokens": [
+  "ref": "proverbs 21:17",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "איש",
-      "gloss": "a man"
+      "kind": "wordplay",
+      "subject": "אֹהֵב … אֹהֵב",
+      "rationale": "״loves״ repeated at the two half-verses' heads, a parallelism English flattens."
     },
     {
-      "surface": "מחסור",
-      "gloss": "of want"
-    },
-    {
-      "surface": "אהב",
-      "gloss": "loves"
-    },
-    {
-      "surface": "שמחה",
-      "gloss": "joy"
-    },
-    {
-      "surface": "אהב",
-      "gloss": "loves"
-    },
-    {
-      "surface": "יין",
-      "gloss": "wine"
-    },
-    {
-      "surface": "ושמן",
-      "gloss": "and oil"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יעשיר",
-      "gloss": "will grow rich"
+      "kind": "alternative",
+      "subject": "שִׂמְחָה",
+      "rationale": "Reading 2: 'joy' (the state) beside 'feasting' (the festival sense, as Prov 15:15)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A man of lack loves feasting; a lover of wine and oil will not grow rich.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cbbbe52556c98141522695d3d2666271a80e967584a6f0b19913498d8760557d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/17-20.1791193949610.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִישׁ",
+      "gloss": "A man of",
+      "sense": null
+    },
+    {
+      "surface": "מַחְסוֹר",
+      "gloss": "lack",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֵב",
+      "gloss": "loves",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׂמְחָה",
+      "gloss": "feasting",
+      "readings": [
+        "feasting",
+        "joy"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֵב",
+      "gloss": "a lover of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַיִן",
+      "gloss": "wine",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָשֶׁמֶן",
+      "gloss": "and oil",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲשִׁיר",
+      "gloss": "will grow rich",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:29.611114934Z",
+  "model": "glm-5.3"
 }

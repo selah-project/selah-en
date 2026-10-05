@@ -1,68 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A psalm of Asaph. Truly Elohim is good to Israel, to the pure of heart.",
-  "tokens": [
+  "ref": "psalms 73:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "מזמור",
-      "gloss": "A psalm"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the verbless clause reads 'surely good to Israel Elohim'"
     },
     {
-      "surface": "לאסף",
-      "gloss": "of Asaph"
-    },
-    {
-      "surface": "אך",
-      "gloss": "Truly",
-      "readings": [
-        "Truly",
-        "only"
-      ],
-      "held_by": {
-        "Truly": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "only": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "לישראל",
-      "gloss": "to Israel"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "לברי",
-      "gloss": "to the pure",
-      "readings": [
-        "to the pure",
-        "to the clean"
-      ],
-      "held_by": {
-        "to the pure": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to the clean": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבב",
-      "gloss": "of heart"
+      "kind": "wordplay",
+      "subject": "ברי לבבב",
+      "rationale": "'pure of heart' — בר (pure\/bar, son) plays against the psalm's Asaph line; the idiom 'clean of heart' is kept literally"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A psalm of Asaph: surely good to Israel is Elohim, to the pure of heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b60757655ba9c0afde9cd3228b922d9cc923a16ef29d12088bb6744655a20db7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/1-4.1791192990033.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִזְמוֹר",
+      "gloss": "A psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאָ֫סָ֣ף",
+      "gloss": "of Asaph",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַ֤ךְ",
+      "gloss": "surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "ט֭וֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיִשְׂרָאֵ֥ל",
+      "gloss": "to Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִ֗ים",
+      "gloss": "is Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבָרֵ֥י",
+      "gloss": "to the pure of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵבָֽב",
+      "gloss": "heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:30.033844967Z",
+  "model": "glm-5.3"
 }

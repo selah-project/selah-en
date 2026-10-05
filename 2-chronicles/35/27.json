@@ -1,79 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "And his deeds, the first and the last — behold, they are written in the book of the kings of Israel and Judah.",
-  "tokens": [
+  "ref": "2-chronicles 35:27",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "ודבריו",
-      "gloss": "And his deeds",
-      "readings": [
-        "And his deeds",
-        "and his words"
-      ],
-      "held_by": {
-        "And his deeds": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and his words": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "they are",
+      "rationale": "הנם plus participle lacks an English copula; supplied"
     },
     {
-      "surface": "הראשנים",
-      "gloss": "the first"
-    },
-    {
-      "surface": "והאחרנים",
-      "gloss": "and the last"
-    },
-    {
-      "surface": "הנם",
-      "gloss": "behold, they"
-    },
-    {
-      "surface": "כתובים",
-      "gloss": "they are written"
-    },
-    {
-      "surface": "על",
-      "gloss": "in",
-      "readings": [
-        "in",
-        "on",
-        "over"
-      ],
-      "held_by": {
-        "in": [
-          "v1",
-          "v3"
-        ],
-        "on": [
-          "v2"
-        ],
-        "over": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ספר",
-      "gloss": "the book of"
-    },
-    {
-      "surface": "מלכי",
-      "gloss": "of the kings"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "of Israel"
-    },
-    {
-      "surface": "ויהודה",
-      "gloss": "and Judah"
+      "kind": "substitution",
+      "subject": "on the book",
+      "rationale": "Hebrew על 'on' where English idiom prefers 'in'; kept the literal preposition"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and his words, the first and the last — they are written on the book of the kings of Israel and Judah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26b30d33859eb9f7242297a3f601568263edb17e6ca8c880a3fffa7f7d735079",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/35\/25-27.1791197060736.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּדְבָרָ֕יו",
+      "gloss": "and his words",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִאשֹׁנִ֖ים",
+      "gloss": "the first",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָאַחֲרֹנִ֑ים",
+      "gloss": "and the last",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִנָּ֣ם",
+      "gloss": "they are",
+      "sense": null
+    },
+    {
+      "surface": "כְּתוּבִ֔ים",
+      "gloss": "written",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "סֵ֥פֶר",
+      "gloss": "the book of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכֵֽי",
+      "gloss": "the kings of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵ֖ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִיהוּדָֽה",
+      "gloss": "and Judah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:44:20.737475046Z",
+  "model": "glm-5.3"
 }

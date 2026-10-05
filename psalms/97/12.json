@@ -1,32 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Rejoice in YHWH, you righteous, and give thanks at the remembrance of his holiness.",
-  "tokens": [
+  "ref": "psalms 97:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 97,
+  "notes": [
     {
-      "surface": "שמחו",
-      "gloss": "Rejoice"
+      "kind": "invitation",
+      "subject": "to the righteous",
+      "rationale": "Imperatives summon the righteous to rejoice and give thanks."
     },
     {
-      "surface": "צדיקים",
-      "gloss": "you righteous"
-    },
-    {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
-    },
-    {
-      "surface": "והודו",
-      "gloss": "and give thanks"
-    },
-    {
-      "surface": "לזכר",
-      "gloss": "at the remembrance of"
-    },
-    {
-      "surface": "קדשו",
-      "gloss": "of his holiness"
+      "kind": "crux",
+      "subject": "memory of his holiness",
+      "rationale": "לזכר קדשו rendered literally; many read 'his holy name', since זכר ≈ name\/appellation."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Rejoice in YHWH, you righteous ones, and give thanks to the memory of his holiness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4a72e2b8002589329ec959a37382ebf92dcfe608011862e0bf94c08728a1312a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/97\/9-12.1791193232677.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׂמְחוּ",
+      "gloss": "Rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּיקִים",
+      "gloss": "you righteous ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיהוָה",
+      "gloss": "in YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהוֹדוּ",
+      "gloss": "and give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְזֵכֶר",
+      "gloss": "to the memory",
+      "sense": "S1",
+      "readings": [
+        "to the memory",
+        "to the name"
+      ]
+    },
+    {
+      "surface": "קָדְשׁוֹ",
+      "gloss": "of his holiness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:32.678868225Z",
+  "model": "glm-5.3"
 }

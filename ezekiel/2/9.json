@@ -1,59 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And I looked, and behold, a hand sent out to me, and behold, in it ⟨was⟩ ⟨a⟩ roll of ⟨a⟩ book.",
+  "ref": "ezekiel 2:9",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "mystery",
+      "subject": "scroll of a book",
+      "rationale": "A sealed-seeming scroll handed from a stretched-out hand, its contents withheld until spread."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨to⟩",
+      "rationale": "The preposition אל rendered with supplied article-less English 'to' is present in Hebrew; bracket only marks the supplied smoothness of the participle phrase."
+    }
+  ],
+  "translation": "And I saw, and behold, a hand sent out ⟨to⟩ me, and behold, in it a scroll of a book.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "959683a44af93db24b95c3ef902ada72e6cd10e035a60db6163d26852ae7a8fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/2\/9-10.1791190220472.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
-      "surface": "ואראה",
-      "gloss": "And I looked"
+      "surface": "וָאֶרְאֶ֕ה",
+      "gloss": "And I saw",
+      "sense": "S1"
     },
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּה",
       "gloss": "and behold"
     },
     {
-      "surface": "יד",
-      "gloss": "a hand"
+      "surface": "יָד",
+      "gloss": "a hand",
+      "sense": "S1"
     },
     {
-      "surface": "שלוחה",
+      "surface": "שְׁלוּחָה",
       "gloss": "sent out",
-      "readings": [
-        "sent out",
-        "stretched out"
-      ],
-      "held_by": {
-        "sent out": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "stretched out": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אלי",
-      "gloss": "to me"
+      "surface": "אֵלַי",
+      "gloss": "⟨to⟩ me"
     },
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּה",
       "gloss": "and behold"
     },
     {
-      "surface": "בו",
+      "surface": "בּוֹ",
       "gloss": "in it"
     },
     {
-      "surface": "מגלת",
-      "gloss": "⟨a⟩ roll of"
+      "surface": "מְגִלַּת",
+      "gloss": "a scroll of",
+      "sense": "S1"
     },
     {
-      "surface": "ספר",
-      "gloss": "of ⟨a⟩ book"
+      "surface": "סֵפֶר",
+      "gloss": "a book",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:50:20.472956800Z",
+  "model": "glm-5.3"
 }

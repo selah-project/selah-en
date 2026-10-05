@@ -1,47 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Who knows the strength of Your nose? And Your wrath according to the fear of You.",
-  "tokens": [
+  "ref": "psalms 90:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "substitution",
+      "subject": "your anger",
+      "rationale": "אף is literally 'nose\/nostril', the seat of anger; the body picture is lost."
     },
     {
-      "surface": "יודע",
+      "kind": "crux",
+      "subject": "וּכְיִרְאָתְךָ",
+      "rationale": "read as 'according to your fear' (your wrath is as great as the fear due you) vs. a second object of 'knows'."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨demands⟩",
+      "rationale": "supplied to carry the comparative כ; the Hebrew leaves the ellipsis bare."
+    }
+  ],
+  "translation": "Who knows the strength of your anger — and, as your fear ⟨demands⟩, your wrath?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f89832db3cda81c4932780300dd305dc874f73dd0af90dc85d2170a6c77eaa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/9-12.1791193182579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹדֵעַ",
       "gloss": "knows"
     },
     {
-      "surface": "עז",
-      "gloss": "the strength"
+      "surface": "עֹז",
+      "gloss": "the strength of",
+      "sense": "S1"
     },
     {
-      "surface": "אפך",
-      "gloss": "of Your nose",
+      "surface": "אַפֶּךָ",
+      "gloss": "your anger",
+      "sense": "S1",
       "readings": [
-        "of Your nose",
-        "of Your anger"
-      ],
-      "held_by": {
-        "of Your nose": [
-          "v1",
-          "v3"
-        ],
-        "of Your anger": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "your anger",
+        "your nostril"
+      ]
     },
     {
-      "surface": "וכיראתך",
-      "gloss": "and according to the fear of You"
+      "surface": "וּכְיִרְאָתְךָ",
+      "gloss": "and, as your fear",
+      "sense": "S1"
     },
     {
-      "surface": "עברתך",
-      "gloss": "Your wrath"
+      "surface": "עֶבְרָתֶךָ",
+      "gloss": "your wrath",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:42.580315573Z",
+  "model": "glm-5.3"
 }

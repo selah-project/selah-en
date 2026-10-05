@@ -1,36 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And to those who were in Hormah, and to those who were in Bor-ashan, and to those who were in Athach.",
-  "tokens": [
+  "ref": "1-samuel 30:30",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "ולאשר",
-      "gloss": "and to those who"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "verbless ellipsis continued from v. 26"
     },
     {
-      "surface": "בחרמה",
-      "gloss": "in Hormah"
+      "kind": "hapax",
+      "subject": "Athak",
+      "rationale": "עתך occurs only here in the Tanakh"
     },
     {
-      "surface": "ולאשר",
-      "gloss": "and to those who"
-    },
-    {
-      "surface": "בבור",
-      "gloss": "in Bor"
-    },
-    {
-      "surface": "עשן",
-      "gloss": "Ashan"
-    },
-    {
-      "surface": "ולאשר",
-      "gloss": "and to those who"
-    },
-    {
-      "surface": "בעתך",
-      "gloss": "in Athach"
+      "kind": "alternative",
+      "subject": "Bor-Ashan",
+      "rationale": "some witnesses read כור עשן (Cor-Ashan, cf. Josh 19:7) for בור עשן"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and to ⟨those⟩ in Hormah, and to ⟨those⟩ in Bor-Ashan, and to ⟨those⟩ in Athak.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "958043539bc29fe3b7aab763e4401f42a2e74a2560783ce866a04f4a8f2545a9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/30\/29-31.1791186042778.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְלַאֲשֶׁ֧ר",
+      "gloss": "and to ⟨those⟩ who ⟨were⟩"
+    },
+    {
+      "surface": "בְּחָרְמָ֛ה",
+      "gloss": "in Hormah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַאֲשֶׁ֥ר",
+      "gloss": "and to ⟨those⟩ who ⟨were⟩"
+    },
+    {
+      "surface": "בְּב֑וֹר",
+      "gloss": "in Bor-",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָׁ֖ן",
+      "gloss": "-Ashan",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַאֲשֶׁ֥ר",
+      "gloss": "and to ⟨those⟩ who ⟨were⟩"
+    },
+    {
+      "surface": "בַּעֲתָֽךְ",
+      "gloss": "in Athak",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:40:42.778859108Z",
+  "model": "glm-5.3"
 }

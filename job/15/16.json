@@ -1,40 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "How much more, then, one loathsome and corrupt — a man drinking wrongdoing like water!",
-  "tokens": [
+  "ref": "job 15:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "אף",
-      "gloss": "How much more"
+      "kind": "elision",
+      "subject": "כִּי",
+      "rationale": "The particle after אַף folds into the English 'how much more' idiom."
     },
     {
-      "surface": "כי",
-      "gloss": "then"
+      "kind": "idiom",
+      "subject": "How much more",
+      "rationale": "אַף כִּי is the Hebrew a-fortiori marker, literally 'also that \/ yea that'."
     },
     {
-      "surface": "נתעב",
-      "gloss": "loathsome"
-    },
-    {
-      "surface": "ונאלח",
-      "gloss": "and corrupt"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "שתה",
-      "gloss": "drinking"
-    },
-    {
-      "surface": "כמים",
-      "gloss": "like water"
-    },
-    {
-      "surface": "עולה",
-      "gloss": "wrongdoing"
+      "kind": "invitation",
+      "subject": "Eliphaz's argument",
+      "rationale": "The a-fortiori summons the hearer to draw the conclusion from verses 14–15."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How much more, detestable and corrupt, a man who drinks wrong like water!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8056e1022e6595279ec711b25dbad01b3e58def95076d0c44b623ecbe58247e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/13-16.1791194295004.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַ֭ף",
+      "gloss": "How much more",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "",
+      "sense": null
+    },
+    {
+      "surface": "נִתְעָ֥ב",
+      "gloss": "detestable",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽנֶאֱלָ֑ח",
+      "gloss": "and corrupt",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "שֹׁתֶ֖ה",
+      "gloss": "who drinks",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַמַּ֣יִם",
+      "gloss": "like water",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַוְלָֽה",
+      "gloss": "wrong",
+      "readings": [
+        "wrong",
+        "injustice"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:15.005119250Z",
+  "model": "glm-5.3"
 }

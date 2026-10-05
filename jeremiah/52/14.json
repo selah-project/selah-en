@@ -1,75 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And ⟨את⟩ all the walls of Jerusalem round about — all the host of the Chaldeans who were ⟨את⟩ with the chief of the executioners tore down.",
+  "ref": "jeremiah 52:14",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 52,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "טבחים",
+      "rationale": "רב טבחים is literally 'chief of butchers' — the executioners' guard; the butchery picture is kept visible."
+    },
+    {
+      "kind": "crux",
+      "subject": "אשר את רב טבחים",
+      "rationale": "The 2 Kings parallel lacks את; here את is the preposition 'with', so the force that was 'with' the chief — some read it as the relative's object marker, changing the syntax."
+    }
+  ],
+  "translation": "And ⟨את⟩ all the walls of Jerusalem round about tore down the whole force of the Chaldeans who ⟨את⟩ the chief of the executioners.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "259b8707799c21f391ebc4a19fea1cf734030b1100178c06a616aa8c7bcd55ba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/52\/13-14.1791199498367.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "all the walls of Jerusalem"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "חמות",
-      "gloss": "the walls of"
+      "surface": "חֹמֹות",
+      "gloss": "the walls of",
+      "sense": "S1"
     },
     {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "surface": "יְרוּשָׁלִַֽם",
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "סביב",
-      "gloss": "round about"
+      "surface": "סָבִיב",
+      "gloss": "round about",
+      "sense": "S1"
     },
     {
-      "surface": "נתצו",
-      "gloss": "tore down"
+      "surface": "נָתְצוּ",
+      "gloss": "tore down",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "the whole"
     },
     {
-      "surface": "חיל",
-      "gloss": "the host of"
+      "surface": "חֵיל",
+      "gloss": "force of",
+      "sense": "S1"
     },
     {
-      "surface": "כשדים",
-      "gloss": "the Chaldeans"
+      "surface": "כַּשְׂדִּים",
+      "gloss": "the Chaldeans",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "who"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩ with"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩ with",
+      "marks": "the chief of the executioners"
     },
     {
-      "surface": "רב",
-      "gloss": "chief of"
+      "surface": "רַב",
+      "gloss": "the chief of",
+      "sense": "S1"
     },
     {
-      "surface": "טבחים",
+      "surface": "טַבָּחִים",
       "gloss": "the executioners",
-      "readings": [
-        "the executioners",
-        "the guards"
-      ],
-      "held_by": {
-        "the executioners": [
-          "v1",
-          "en4"
-        ],
-        "the guards": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:24:58.368538251Z",
+  "model": "glm-5.3"
 }

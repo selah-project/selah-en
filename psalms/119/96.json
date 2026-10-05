@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 96,
-  "translation": "To every perfection I have seen ⟨an⟩ end; your commandment ⟨is⟩ exceedingly broad.",
-  "tokens": [
+  "ref": "psalms 119:96",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "לכל",
-      "gloss": "to every"
+      "kind": "hapax",
+      "subject": "תכלה",
+      "rationale": "Occurs only here in the Tanakh; literally 'completeness, perfection'."
     },
     {
-      "surface": "תכלה",
-      "gloss": "perfection"
+      "kind": "crux",
+      "subject": "לכל תכלה ראיתי קץ",
+      "rationale": "Rendered 'to every perfection I have seen a limit'; some read תכלה as 'end\/consummation' — 'I have seen an end to all perfection'."
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I have seen"
-    },
-    {
-      "surface": "קץ",
-      "gloss": "⟨an⟩ end"
-    },
-    {
-      "surface": "רחבה",
-      "gloss": "⟨is⟩ broad"
-    },
-    {
-      "surface": "מצותך",
-      "gloss": "your commandment"
-    },
-    {
-      "surface": "מאד",
-      "gloss": "exceedingly"
+      "kind": "addition",
+      "subject": "⟨your⟩",
+      "rationale": "מצותך is a construct with the 2ms suffix already; English word order separates the adjective, so the possessive is bracketed on the head noun."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To every perfection I have seen a limit; ⟨your⟩ commandment is exceedingly broad.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8455ddcebfa28005349b755357b1a4ca9c644015d32fb012d408bc4a83ff77d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/93-96.1791193466384.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְֽכָל",
+      "gloss": "To every",
+      "sense": null
+    },
+    {
+      "surface": "תִּכְלָ֗ה",
+      "gloss": "perfection",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָאִ֣יתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֵ֑ץ",
+      "gloss": "a limit",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְחָבָ֖ה",
+      "gloss": "is broad",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְוָתְךָ֣",
+      "gloss": "⟨your⟩ commandment",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹֽד",
+      "gloss": "exceedingly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:26.385720170Z",
+  "model": "glm-5.3"
 }

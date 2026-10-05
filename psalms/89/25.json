@@ -1,59 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And my faithfulness and my chesed are with him, and in my name his horn shall be exalted.",
+  "ref": "psalms 89:25",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula before עמו"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "קרן",
+      "rationale": "raised horn = strength and confidence; the animal picture is kept"
+    }
+  ],
+  "translation": "And my faithfulness and my chesed are with him, and in my name his horn shall be lifted high.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15979a964ba0d004b0db5614d9097dab73004d67d17dc36f061b1e3faebe796d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/25-28.1791193143958.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "ואמונתי",
-      "gloss": "And my faithfulness"
+      "gloss": "and my faithfulness",
+      "sense": "S1"
     },
     {
       "surface": "וחסדי",
       "gloss": "and my chesed",
       "readings": [
         "and my chesed",
-        "and my loyalty"
+        "and my steadfast love"
       ],
-      "held_by": {
-        "and my chesed": [
-          "en4"
-        ],
-        "and my loyalty": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "עמו",
-      "gloss": "with him"
+      "gloss": "are with him"
     },
     {
       "surface": "ובשמי",
-      "gloss": "and in my name"
+      "gloss": "and in my name",
+      "sense": "S1"
     },
     {
       "surface": "תרום",
-      "gloss": "shall be exalted",
-      "readings": [
-        "shall be exalted",
-        "shall be high"
-      ],
-      "held_by": {
-        "shall be exalted": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "shall be high": [
-          "en4"
-        ]
-      }
+      "gloss": "shall be lifted high",
+      "sense": "S1"
     },
     {
       "surface": "קרנו",
-      "gloss": "his horn"
+      "gloss": "his horn",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:03.958692118Z",
+  "model": "glm-5.3"
 }

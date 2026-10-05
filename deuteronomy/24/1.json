@@ -1,131 +1,160 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "When a man takes a woman and becomes her husband, and it happens that she finds no favor in his eyes, because he has found in her the nakedness of a matter, then he shall write for her a document of cutting-off and give it in her hand and send her out of his house.",
-  "tokens": [
+  "ref": "deuteronomy 24:1",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "When"
+      "kind": "crux",
+      "subject": "the nakedness of a matter",
+      "rationale": "עֶרְוַת דָּבָר: 'some indecency' (vague) vs 'nakedness of a thing' vs 'anything shameful'; the construct pair is left literally intact."
     },
     {
-      "surface": "יקח",
-      "gloss": "takes"
+      "kind": "substitution",
+      "subject": "cutting-off",
+      "rationale": "כְּרִיתוּת is literally 'a cutting' (of the marriage bond); conventional 'divorce' supplied as reading in 'scroll of cutting-off'."
     },
     {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "אשה",
-      "gloss": "a woman",
-      "readings": [
-        "a woman",
-        "a wife"
-      ],
-      "held_by": {
-        "a woman": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a wife": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ובעלה",
-      "gloss": "and becomes her husband",
-      "readings": [
-        "and becomes her husband",
-        "and possesses her"
-      ],
-      "held_by": {
-        "and becomes her husband": [
-          "v1",
-          "v3"
-        ],
-        "and possesses her": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "והיה",
-      "gloss": "and it happens"
-    },
-    {
-      "surface": "אם",
-      "gloss": "if"
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "תמצא",
-      "gloss": "she finds"
-    },
-    {
-      "surface": "חן",
-      "gloss": "favor"
-    },
-    {
-      "surface": "בעיניו",
-      "gloss": "in his eyes"
-    },
-    {
-      "surface": "כי",
-      "gloss": "because"
-    },
-    {
-      "surface": "מצא",
-      "gloss": "he has found"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in her"
-    },
-    {
-      "surface": "ערות",
-      "gloss": "the nakedness of"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "a matter"
-    },
-    {
-      "surface": "וכתב",
-      "gloss": "and he shall write"
-    },
-    {
-      "surface": "לה",
-      "gloss": "for her"
-    },
-    {
-      "surface": "ספר",
-      "gloss": "a document"
-    },
-    {
-      "surface": "כריתת",
-      "gloss": "of cutting-off"
-    },
-    {
-      "surface": "ונתן",
-      "gloss": "and give"
-    },
-    {
-      "surface": "בידה",
-      "gloss": "in her hand"
-    },
-    {
-      "surface": "ושלחה",
-      "gloss": "and send her"
-    },
-    {
-      "surface": "מביתו",
-      "gloss": "out of his house"
+      "kind": "wordplay",
+      "subject": "כְּרִיתוּת",
+      "rationale": "The divorce document is named from כרת, 'to cut (off)' — the marriage bond is 'cut', lost in the English 'divorce'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When a man takes a woman and marries her, and it happens that she finds no favor in his eyes because he has found in her the nakedness of a matter, and he writes for her a scroll of cutting-off and gives it into her hand, and sends her away from his house —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eb52cb83c57029f52ea42550149ba26cf64ab4030cd0e5dd736f258d5d689a53",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/24\/1-4.1791184040717.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "When",
+      "sense": null
+    },
+    {
+      "surface": "יִקַּ֥ח",
+      "gloss": "takes",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֛ישׁ",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִשָּׁ֖ה",
+      "gloss": "a woman",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְעָלָ֑הּ",
+      "gloss": "and marries her",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָיָ֞ה",
+      "gloss": "and it happens",
+      "sense": null
+    },
+    {
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֧א",
+      "gloss": "no",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִמְצָא",
+      "gloss": "she finds",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵ֣ן",
+      "gloss": "favor",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינָ֗יו",
+      "gloss": "in his eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "because",
+      "sense": null
+    },
+    {
+      "surface": "מָ֤צָא",
+      "gloss": "he has found",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָהּ֙",
+      "gloss": "in her",
+      "sense": null
+    },
+    {
+      "surface": "עֶרְוַ֣ת",
+      "gloss": "the nakedness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּבָ֔ר",
+      "gloss": "a matter",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָ֨תַב",
+      "gloss": "and he writes",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֜הּ",
+      "gloss": "for her",
+      "sense": null
+    },
+    {
+      "surface": "סֵ֤פֶר",
+      "gloss": "a scroll of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּרִיתֻת֙",
+      "gloss": "cutting-off",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָתַ֣ן",
+      "gloss": "and gives",
+      "sense": null
+    },
+    {
+      "surface": "בְּיָדָ֔הּ",
+      "gloss": "into her hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׁלְּחָ֖הּ",
+      "gloss": "and sends her away",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּיתֽוֹ",
+      "gloss": "from his house",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:07:20.718618892Z",
+  "model": "glm-5.3"
 }

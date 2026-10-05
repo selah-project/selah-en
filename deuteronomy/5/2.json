@@ -1,46 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "YHWH our Elohim cut a covenant with us in Horeb.",
+  "ref": "deuteronomy 5:2",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "כרת ברית",
+      "rationale": "Hebrew 'cut a covenant' (from passing between cut pieces) is kept literal; English 'made a covenant' loses the picture."
+    }
+  ],
+  "translation": "YHWH our Elohim cut a covenant with us at Horeb.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7735706854cbf12705315f52f6ab08c64c7158557afd33698938d80e5a23b162",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/5\/1-4.1791183688042.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהינו",
-      "gloss": "our Elohim"
+      "surface": "אֱלֹהֵ֗ינוּ",
+      "gloss": "our Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "כרת",
-      "gloss": "cut"
+      "surface": "כָּרַ֥ת",
+      "gloss": "cut",
+      "sense": "S1"
     },
     {
-      "surface": "עמנו",
+      "surface": "עִמָּ֛נוּ",
       "gloss": "with us"
     },
     {
-      "surface": "ברית",
-      "gloss": "a covenant"
+      "surface": "בְּרִ֖ית",
+      "gloss": "a covenant",
+      "sense": "S1"
     },
     {
-      "surface": "בחרב",
-      "gloss": "in Horeb",
-      "readings": [
-        "in Horeb",
-        "at Horeb"
-      ],
-      "held_by": {
-        "in Horeb": [
-          "v1",
-          "en4"
-        ],
-        "at Horeb": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "בְּחֹרֵֽב",
+      "gloss": "at Horeb",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:01:28.043460829Z",
+  "model": "glm-5.3"
 }

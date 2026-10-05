@@ -1,44 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And Israel dwelt in Shittim, and the people began to whore to the daughters of Moab.",
-  "tokens": [
+  "ref": "numbers 25:1",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "וישב",
-      "gloss": "and dwelt"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "בשטים",
-      "gloss": "in Shittim"
-    },
-    {
-      "surface": "ויחל",
-      "gloss": "and began"
-    },
-    {
-      "surface": "העם",
-      "gloss": "the people"
-    },
-    {
-      "surface": "לזנות",
-      "gloss": "to whore"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "בנות",
-      "gloss": "the daughters of"
-    },
-    {
-      "surface": "מואב",
-      "gloss": "Moab"
+      "kind": "substitution",
+      "subject": "whore",
+      "rationale": "זנה is sexual immorality that also serves as the standard metaphor for unfaithfulness to YHWH; both senses color this verse."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Israel stayed in Shittim, and the people began to whore ⟨את⟩ to the daughters of Moab.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d076b4b8ca017cf77057d12fbc35761c652442ce5dfc58aad75bacaf1fcbf4cf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/25\/1-4.1791183293839.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֵּ֥שֶׁב",
+      "gloss": "and stayed",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵ֖ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשִּׁטִּ֑ים",
+      "gloss": "in Shittim",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּ֣חֶל",
+      "gloss": "and began",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעָ֔ם",
+      "gloss": "the people",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִזְנ֖וֹת",
+      "gloss": "to whore",
+      "readings": [
+        "to whore",
+        "to commit immorality"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "⟨את⟩ to",
+      "sense": null
+    },
+    {
+      "surface": "בְּנ֥וֹת",
+      "gloss": "the daughters of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹאָֽב",
+      "gloss": "Moab",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:53.845728475Z",
+  "model": "glm-5.3"
 }

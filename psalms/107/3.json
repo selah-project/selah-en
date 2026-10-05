@@ -1,47 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And from the lands he gathered them, from the east and from the west, from the north and from the sea.",
-  "tokens": [
+  "ref": "psalms 107:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ומארצות",
-      "gloss": "and from the lands"
-    },
-    {
-      "surface": "קבצם",
-      "gloss": "he gathered them"
-    },
-    {
-      "surface": "ממזרח",
-      "gloss": "from the east"
-    },
-    {
-      "surface": "וממערב",
-      "gloss": "and from the west"
-    },
-    {
-      "surface": "מצפון",
-      "gloss": "from the north"
-    },
-    {
-      "surface": "ומים",
-      "gloss": "and from the sea",
-      "readings": [
-        "and from the sea",
-        "and from the south"
-      ],
-      "held_by": {
-        "and from the sea": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and from the south": [
-          "en4"
-        ]
-      }
+      "kind": "measurement",
+      "subject": "four directions",
+      "rationale": "the verse maps the diaspora by the four compass points, named by sun's rising, setting, and the sea behind one facing east"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and gathered them from the lands, from sunrise and from sunset, from north and from sea.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f681a9f61e488972684fa272a77084ae67de686b560c2131fff182948f8037e1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/1-4.1791193329028.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּֽמֵאֲרָצ֗וֹת",
+      "gloss": "and from the lands",
+      "sense": "S1"
+    },
+    {
+      "surface": "קִ֫בְּצָ֥ם",
+      "gloss": "he gathered them",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמִּזְרָ֥ח",
+      "gloss": "from sunrise",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִמַּעֲרָ֑ב",
+      "gloss": "and from sunset",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצָּפ֥וֹן",
+      "gloss": "from north",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִיָּֽם",
+      "gloss": "and from sea",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:09.028893431Z",
+  "model": "glm-5.3"
 }

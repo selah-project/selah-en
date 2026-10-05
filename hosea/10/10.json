@@ -1,100 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "In my desire I will chastise them, and peoples shall be gathered upon them, when they are bound for their two iniquities.",
+  "ref": "hosea 10:10",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "עינתם",
+      "rationale": "ketiv is their two eyes; qere reads עונתם their two iniquities — the qere is rendered, the ketiv kept as a reading."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עין\/עון",
+      "rationale": "the ketiv\/qere pair plays on eye and iniquity, near-homographs that the consonantal text leaves standing together."
+    },
+    {
+      "kind": "addition",
+      "subject": "I",
+      "rationale": "the subject of באסרם is supplied from the speaker YHWH; Hebrew leaves it implicit."
+    }
+  ],
+  "translation": "In my desire I will chastise them, and peoples will be gathered against them when I bind them for their two ⟨iniquities⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c8776227a123b47c3e49bbec846411510fab5d57e2431ce900c4c0bded9a8614",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/10\/9-12.1791191356351.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "באותי",
+      "surface": "בְּאַוָּתִי",
       "gloss": "In my desire",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶסֳּרֵם",
+      "gloss": "I will chastise them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֻסְּפוּ",
+      "gloss": "and will be gathered",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵיהֶם",
+      "gloss": "against them",
+      "sense": null
+    },
+    {
+      "surface": "עַמִּים",
+      "gloss": "peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאָסְרָם",
+      "gloss": "when I bind them",
+      "sense": "S5",
       "readings": [
-        "In my desire",
-        "In my coming"
-      ],
-      "held_by": {
-        "In my desire": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "In my coming": [
-          "en4"
-        ]
-      }
+        "when I bind them",
+        "when they are bound"
+      ]
     },
     {
-      "surface": "ואסרם",
-      "gloss": "and I will chastise them",
-      "readings": [
-        "and I will chastise them",
-        "and I will bind them"
-      ],
-      "held_by": {
-        "and I will chastise them": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and I will bind them": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "surface": "לִשְׁתֵּי",
+      "gloss": "for their two",
+      "sense": "S1"
     },
     {
-      "surface": "ואספו",
-      "gloss": "and ⟨they⟩ shall be gathered"
-    },
-    {
-      "surface": "עליהם",
-      "gloss": "upon them"
-    },
-    {
-      "surface": "עמים",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "באסרם",
-      "gloss": "when they are bound",
-      "readings": [
-        "when they are bound",
-        "in ⟨the⟩ binding of them"
-      ],
-      "held_by": {
-        "when they are bound": [
-          "v2",
-          "en4"
-        ],
-        "in ⟨the⟩ binding of them": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לשתי",
-      "gloss": "for their two"
-    },
-    {
-      "surface": "עינתם",
+      "surface": "עֵינֹתָם",
       "gloss": "iniquities",
       "readings": [
         "iniquities",
         "eyes"
       ],
-      "held_by": {
-        "iniquities": [
-          "v1",
-          "en4"
-        ],
-        "eyes": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:16.352495966Z",
+  "model": "glm-5.3"
 }

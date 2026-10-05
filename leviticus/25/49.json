@@ -1,98 +1,115 @@
 {
+  "tier": "glm-5.2",
   "verse": 49,
-  "translation": "Or his uncle, or the son of his uncle, shall redeem him; or one of the remainder of his flesh, of his family, shall redeem him; or if his hand reaches, then he shall be redeemed.",
-  "tokens": [
+  "ref": "leviticus 25:49",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "או",
-      "gloss": "Or"
+      "kind": "idiom",
+      "subject": "his hand has reached",
+      "rationale": "הִשִּׂיגָה יָדוֹ, literally 'his hand has overtaken', an idiom for acquiring sufficient means; the literal hand is kept."
     },
     {
-      "surface": "דדו",
-      "gloss": "his uncle",
-      "readings": [
-        "his uncle",
-        "his beloved"
-      ],
-      "held_by": {
-        "his uncle": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his beloved": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "flesh-kin of his flesh",
+      "rationale": "שְׁאֵר בְּשָׂרוֹ is a bound pair, 'the flesh-kin of his flesh', for any blood relative."
     },
     {
-      "surface": "או",
-      "gloss": "or"
-    },
-    {
-      "surface": "בן",
-      "gloss": "son"
-    },
-    {
-      "surface": "דדו",
-      "gloss": "of his uncle",
-      "readings": [
-        "of his uncle",
-        "of his beloved"
-      ],
-      "held_by": {
-        "of his uncle": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of his beloved": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יגאלנו",
-      "gloss": "he shall redeem him"
-    },
-    {
-      "surface": "או",
-      "gloss": "or"
-    },
-    {
-      "surface": "משאר",
-      "gloss": "one of the remainder"
-    },
-    {
-      "surface": "בשרו",
-      "gloss": "of his flesh"
-    },
-    {
-      "surface": "ממשפחתו",
-      "gloss": "of his family"
-    },
-    {
-      "surface": "יגאלנו",
-      "gloss": "he shall redeem him"
-    },
-    {
-      "surface": "או",
-      "gloss": "or"
-    },
-    {
-      "surface": "השיגה",
-      "gloss": "reaches"
-    },
-    {
-      "surface": "ידו",
-      "gloss": "his hand"
-    },
-    {
-      "surface": "ונגאל",
-      "gloss": "then he shall be redeemed"
+      "kind": "wordplay",
+      "subject": "גאל repetition",
+      "rationale": "the root גאל sounds four times in the verse, hammering the redeemer-kin theme; English keeps only 'redeem'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Or his uncle, or the son of his uncle, shall redeem him; or a blood-relation of his flesh, from his family, shall redeem him; or if his hand has reached ⟨sufficient means⟩, he shall be redeemed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98139d97046734cd15be9750e054b6293ff29baafa258269610dc4d0c33e8f67",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/25\/49-52.1791182689530.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אוֹ",
+      "gloss": "or",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹדוֹ",
+      "gloss": "his uncle",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹ",
+      "gloss": "or",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶן",
+      "gloss": "the son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּדוֹ",
+      "gloss": "his uncle",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִגְאָלֶנּוּ",
+      "gloss": "shall redeem him",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹ",
+      "gloss": "or",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְּׁאֵר",
+      "gloss": "from the flesh-kin of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשָׂרוֹ",
+      "gloss": "his flesh",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמִּשְׁפַּחְתּוֹ",
+      "gloss": "from his family",
+      "sense": null
+    },
+    {
+      "surface": "יִגְאָלֶנּוּ",
+      "gloss": "shall redeem him",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹ",
+      "gloss": "or",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִשִּׂיגָה",
+      "gloss": "has reached",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדוֹ",
+      "gloss": "his hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִגְאָל",
+      "gloss": "and he shall be redeemed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:44:49.530981241Z",
+  "model": "glm-5.3"
 }

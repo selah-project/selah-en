@@ -1,59 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 47,
-  "translation": "Panic and pitfall have become ours — the devastation and the shattering.",
+  "ref": "lamentations 3:47",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "פחד \/ ופחת",
+      "rationale": "Near-identical sounds — 'dread' and 'pit' — a paronomasia linking fear to the snare."
+    },
+    {
+      "kind": "hapax",
+      "subject": "שאת",
+      "rationale": "'Devastation' occurs only here in the Tanakh."
+    }
+  ],
+  "translation": "Dread and the pit have become our lot — the devastation and the breaking.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84a9a839e937da44e0c2d68aaac8f3d6232929fa7bcd5f3bb1d84ec4fc1b94c3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/45-48.1791194745920.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "פחד",
-      "gloss": "panic"
+      "surface": "פַּחַד",
+      "gloss": "Dread",
+      "sense": "S1"
     },
     {
-      "surface": "ופחת",
-      "gloss": "and pitfall",
-      "readings": [
-        "and pitfall",
-        "and a pit"
-      ],
-      "held_by": {
-        "and pitfall": [
-          "en4"
-        ],
-        "and a pit": [
-          "v1",
-          "v3"
-        ]
-      }
+      "surface": "וָפַחַת",
+      "gloss": "and the pit",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
+      "surface": "הָיָה",
       "gloss": "have become"
     },
     {
-      "surface": "לנו",
-      "gloss": "ours",
-      "readings": [
-        "ours",
-        "to us"
-      ],
-      "held_by": {
-        "ours": [
-          "v1"
-        ],
-        "to us": [
-          "en4",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "לָנוּ",
+      "gloss": "our lot"
     },
     {
-      "surface": "השאת",
-      "gloss": "the devastation"
+      "surface": "הַשֵּׁאת",
+      "gloss": "the devastation",
+      "sense": "S1"
     },
     {
-      "surface": "והשבר",
-      "gloss": "and the shattering"
+      "surface": "וְהַשָּׁבֶר",
+      "gloss": "and the breaking",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:05:45.921159745Z",
+  "model": "glm-5.3"
 }

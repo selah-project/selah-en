@@ -1,14 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And the people came to Moses and said, “We have sinned, for we have spoken against YHWH and against you; pray to YHWH, that he remove from upon us ⟨את⟩ the serpent.” And Moses prayed for the people.",
+  "ref": "numbers 21:7",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "against",
+      "rationale": "The preposition ב here means 'against', matching verse 5's complaint against Elohim and Moses."
+    },
+    {
+      "kind": "you",
+      "subject": "to Moses",
+      "rationale": "The people's confession and petition are spoken directly to Moses."
+    }
+  ],
+  "translation": "And the people came to Moses and said, “We have sinned, for we have spoken against YHWH and against you; pray to YHWH, that he remove ⟨את⟩ the snake from upon us.” And Moses prayed for the people.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2b73ef114ca9822be68351abc551d8a9db7e0b21f5dc68ea880b9721e8fcaa3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/21\/5-8.1791183211829.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
       "surface": "ויבא",
-      "gloss": "and came"
+      "gloss": "And came"
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,15 +44,18 @@
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "ויאמרו",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "חטאנו",
-      "gloss": "we have sinned"
+      "gloss": "We have sinned",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -32,11 +63,13 @@
     },
     {
       "surface": "דברנו",
-      "gloss": "we have spoken"
+      "gloss": "we have spoken",
+      "sense": "S1"
     },
     {
       "surface": "ביהוה",
-      "gloss": "against YHWH"
+      "gloss": "against YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ובך",
@@ -44,7 +77,8 @@
     },
     {
       "surface": "התפלל",
-      "gloss": "pray"
+      "gloss": "pray",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -52,26 +86,13 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ויסר",
       "gloss": "that he remove",
-      "readings": [
-        "that he remove",
-        "that he turn aside"
-      ],
-      "held_by": {
-        "that he remove": [
-          "v2",
-          "v3"
-        ],
-        "that he turn aside": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "מעלינו",
@@ -79,29 +100,35 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the snake"
     },
     {
       "surface": "הנחש",
-      "gloss": "the serpent"
+      "gloss": "the snake",
+      "sense": "S1"
     },
     {
       "surface": "ויתפלל",
-      "gloss": "and prayed"
+      "gloss": "And prayed",
+      "sense": "S1"
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "בעד",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": "S1"
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:53:31.840577343Z",
+  "model": "glm-5.3"
 }

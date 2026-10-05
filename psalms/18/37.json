@@ -1,32 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 37,
-  "translation": "You broaden my step beneath me, and my ankles have not slipped.",
+  "ref": "psalms 18:37",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "קַרְסֹל",
+      "rationale": "קרסולים (ankles, a dual) occurs only here and in 2 Samuel 22:37 in the Tanakh."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "צעד\/מעד",
+      "rationale": "stride (צעד) versus slip (מעד), near-sounding pair kept distinct in English."
+    }
+  ],
+  "translation": "You broaden my stride beneath me, and my ankles did not slip.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15d3fe7ebe099871eb7ecc2719825cb6e0d6b500e00686fd7f5eb6bbde800431",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/37-40.1791192467577.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תרחיב",
-      "gloss": "You broaden"
+      "surface": "תַּרְחִיב",
+      "gloss": "You broaden",
+      "sense": "S1"
     },
     {
-      "surface": "צעדי",
-      "gloss": "my step"
+      "surface": "צַעֲדִי",
+      "gloss": "my stride",
+      "sense": "S1"
     },
     {
-      "surface": "תחתי",
+      "surface": "תַּחְתַּי",
       "gloss": "beneath me"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "מעדו",
-      "gloss": "have slipped"
+      "surface": "מָעֲדוּ",
+      "gloss": "did slip",
+      "sense": "S1"
     },
     {
-      "surface": "קרסלי",
-      "gloss": "my ankles"
+      "surface": "קַרְסֻלַּי",
+      "gloss": "my ankles",
+      "readings": [
+        "my ankles",
+        "my two ankles"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:27:47.578119292Z",
+  "model": "glm-5.3"
 }

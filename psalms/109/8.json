@@ -1,51 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Let his days be few; and let another take his office.",
+  "ref": "psalms 109:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "office",
+      "rationale": "פקדה literally 'placement, charge' — an assigned responsibility, not an ecclesiastical office."
+    }
+  ],
+  "translation": "Let his days be few, let another take his office.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10a1bfa66eb52a108037fbe4bbb3da8652c1725a619757892f282cf44a3e9945",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/5-8.1791193360020.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "יהיו",
-      "gloss": "let…be"
+      "gloss": "Let be",
+      "sense": null
     },
     {
       "surface": "ימיו",
-      "gloss": "his days"
+      "gloss": "his days",
+      "sense": "S1"
     },
     {
       "surface": "מעטים",
-      "gloss": "few"
+      "gloss": "few",
+      "sense": "S1"
     },
     {
       "surface": "פקדתו",
       "gloss": "his office",
       "readings": [
         "his office",
-        "his oversight",
-        "his charge"
+        "his oversight"
       ],
-      "held_by": {
-        "his office": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his oversight": [
-          "en4"
-        ],
-        "his charge": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "יקח",
-      "gloss": "let…take"
+      "gloss": "let take",
+      "sense": "S1"
     },
     {
       "surface": "אחר",
-      "gloss": "another"
+      "gloss": "another",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:40.021672390Z",
+  "model": "glm-5.3"
 }

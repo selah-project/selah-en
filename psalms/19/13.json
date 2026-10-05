@@ -1,84 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Errors — who can understand ⟨them⟩? From hidden ⟨faults⟩ cleanse me.",
+  "ref": "psalms 19:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "שגיאות",
+      "rationale": "Occurs only here in the Tanakh; wrongs done without intention."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨them⟩",
+      "rationale": "Object supplied for the English infinitive; Hebrew leaves it implicit."
+    },
+    {
+      "kind": "mystery",
+      "subject": "who can discern",
+      "rationale": "Rhetorical question asserting the unknowability of one's own hidden faults."
+    },
+    {
+      "kind": "secret",
+      "subject": "hidden things",
+      "rationale": "נסתרות — faults concealed even from the one who commits them."
+    }
+  ],
+  "translation": "Errors — who can discern ⟨them⟩? From hidden things acquit me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7c7674d88e2dea8dda71aac2738d7a09143e8a0419ca60183bda54aa34a1ca9f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/19\/13-15.1791192491410.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שגיאות",
+      "surface": "שְׁגִיא֥וֹת",
       "gloss": "errors",
       "readings": [
         "errors",
-        "errors of ignorance"
+        "unintentional wrongs"
       ],
-      "held_by": {
-        "errors": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "errors of ignorance": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מי",
-      "gloss": "who"
+      "surface": "מִֽי",
+      "gloss": "who",
+      "sense": "S1"
     },
     {
-      "surface": "יבין",
-      "gloss": "can understand",
-      "held_by": {
-        "can understand": [
-          "v2"
-        ],
-        "will understand": [
-          "v1",
-          "v3"
-        ],
-        "discerns": [
-          "en4"
-        ]
-      }
+      "surface": "יָבִ֑ין",
+      "gloss": "can discern",
+      "sense": "S1"
     },
     {
-      "surface": "מנסתרות",
-      "gloss": "from hidden ⟨faults⟩",
-      "readings": [
-        "from hidden ⟨faults⟩",
-        "from hidden ones"
-      ],
-      "held_by": {
-        "from hidden ⟨faults⟩": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from hidden ones": [
-          "en4"
-        ]
-      }
+      "surface": "מִֽנִּסְתָּר֥וֹת",
+      "gloss": "from hidden things",
+      "sense": "S1"
     },
     {
-      "surface": "נקני",
-      "gloss": "cleanse me",
-      "readings": [
-        "cleanse me",
-        "acquit me"
-      ],
-      "held_by": {
-        "cleanse me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "acquit me": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "נַקֵּֽנִי",
+      "gloss": "acquit me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:11.411072444Z",
+  "model": "glm-5.3"
 }

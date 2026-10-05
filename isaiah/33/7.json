@@ -1,40 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Behold, their valiant ones cry aloud outside; the messengers of peace weep bitterly.",
-  "tokens": [
+  "ref": "isaiah 33:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "hapax",
+      "subject": "אֶרְאֵל",
+      "rationale": "valiant one — occurs only here in the Tanakh; possibly from ארי lion"
     },
     {
-      "surface": "אראלם",
-      "gloss": "their valiant ones"
-    },
-    {
-      "surface": "צעקו",
-      "gloss": "cry aloud"
-    },
-    {
-      "surface": "חצה",
-      "gloss": "outside"
-    },
-    {
-      "surface": "מלאכי",
-      "gloss": "the messengers of"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "מר",
-      "gloss": "bitterly"
-    },
-    {
-      "surface": "יבכיון",
-      "gloss": "weep"
+      "kind": "addition",
+      "subject": "in",
+      "rationale": "English needs a preposition before the locative חוצה with directional he"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, their valiant ones cry out in the street; the messengers of peace weep bitterly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "88261e71176abdb07f567a6b860a3e5c84b716b26ca22f37e2cef0d249e8893a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/5-8.1791188485775.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵן",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "אֶרְאֵלָם",
+      "gloss": "their valiant ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָעֲקוּ",
+      "gloss": "cry out",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוּצָה",
+      "gloss": "in the street",
+      "readings": [
+        "in the street",
+        "outside"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְאֲכֵי",
+      "gloss": "the messengers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁלוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַר",
+      "gloss": "bitterly",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִבְכְּיוּן",
+      "gloss": "weep",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:21:25.784729772Z",
+  "model": "glm-5.3"
 }

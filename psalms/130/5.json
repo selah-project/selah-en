@@ -1,64 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "I have waited for YHWH; my soul waits, and for his word I have hoped.",
-  "tokens": [
+  "ref": "psalms 130:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 130,
+  "notes": [
     {
-      "surface": "קויתי",
-      "gloss": "I have waited",
-      "readings": [
-        "I have waited",
-        "I wait"
-      ],
-      "held_by": {
-        "I have waited": [
-          "en4"
-        ],
-        "I wait": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש kept as transliteration for the life-principle\/self; readings carry 'soul' and 'my very self'."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "קותה",
-      "gloss": "waits"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my being",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my being": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ולדברו",
-      "gloss": "and for his word"
-    },
-    {
-      "surface": "הוחלתי",
-      "gloss": "I have hoped"
+      "kind": "wordplay",
+      "subject": "קויתי\/קותה",
+      "rationale": "Root קוה repeated: 'I wait… waits', the doubling kept in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I wait for YHWH, my nefesh waits, and for His word I hope.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "da06d70f7cf2eba8f90dc853cf39010134ce32afbfe20ba8f668300549bfa361",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/130\/5-8.1791193542501.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קִוִּיתִי",
+      "gloss": "I wait for",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "קִוְּתָה",
+      "gloss": "waits",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my soul",
+        "my very self"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלִדְבָרוֹ",
+      "gloss": "and for His word",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹחָלְתִּי",
+      "gloss": "I hope",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:42.501946322Z",
+  "model": "glm-5.3"
 }

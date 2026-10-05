@@ -1,32 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "He will bless those who fear YHWH, the small with the great.",
-  "tokens": [
+  "ref": "psalms 115:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
     {
-      "surface": "יברך",
-      "gloss": "He will bless"
+      "kind": "addition",
+      "subject": "those who",
+      "rationale": "יראי is a construct adjective plural; English needs a noun head for 'fearers of'"
     },
     {
-      "surface": "יראי",
-      "gloss": "⟨those who⟩ fear"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "הקטנים",
-      "gloss": "the small"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "הגדלים",
-      "gloss": "the great"
+      "kind": "elision",
+      "subject": "יראי",
+      "rationale": "the construct adjective is rendered as a relative phrase, its construct shape absorbed into English word order"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He blesses ⟨את⟩ those who fear YHWH — the small together with the great.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b6a7e1cc778abc192727aa7257a2746ab47a532fc1e689691c9b344cf9fd4ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/13-16.1791193399799.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְ֭בָרֵךְ",
+      "gloss": "He blesses",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְאֵ֣י",
+      "gloss": "⟨את⟩ those who fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֝קְּטַנִּ֗ים",
+      "gloss": "the small",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "together with"
+    },
+    {
+      "surface": "הַגְּדֹלִֽים",
+      "gloss": "the great",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:19.799884761Z",
+  "model": "glm-5.3"
 }

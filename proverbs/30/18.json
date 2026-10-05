@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Three, are these, too wonderful for me — and four I have not known:",
+  "ref": "proverbs 30:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "things",
+      "rationale": "Hebrew counts bare numerals; English needs the counted noun supplied."
+    },
+    {
+      "kind": "measurement",
+      "subject": "three…four",
+      "rationale": "The numbered-saying formula: three, then four."
+    },
+    {
+      "kind": "mystery",
+      "subject": "four I do not know",
+      "rationale": "The sage names what exceeds his knowledge."
+    }
+  ],
+  "translation": "Three ⟨things⟩ are too extraordinary for me, and four I do not know:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02597e9284cb0c1d3d7e2a3d61799f9c43f655ec1d17948795769b900cdc3a3e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/17-20.1791194073471.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "שלשה",
-      "gloss": "Three"
+      "surface": "שְׁלֹשָׁה",
+      "gloss": "Three",
+      "sense": "S1"
     },
     {
-      "surface": "המה",
-      "gloss": "are these"
+      "surface": "הֵמָּה",
+      "gloss": "they",
+      "sense": null
     },
     {
-      "surface": "נפלאו",
-      "gloss": "too wonderful",
+      "surface": "נִפְלְאוּ",
+      "gloss": "are extraordinary",
       "readings": [
-        "too wonderful",
-        "are hidden"
+        "are extraordinary",
+        "are too wonderful"
       ],
-      "held_by": {
-        "too wonderful": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are hidden": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "for me"
+      "surface": "מִמֶּנִּי",
+      "gloss": "for me",
+      "sense": null
     },
     {
       "surface": "וארבע",
-      "gloss": "and four"
+      "gloss": "and four",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעתים",
-      "gloss": "I have known"
+      "surface": "יְדַעְתִּים",
+      "gloss": "I know them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:33.472605727Z",
+  "model": "glm-5.3"
 }

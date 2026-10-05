@@ -1,89 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "All these ⟨were⟩ cities fortified, ⟨with⟩ a high wall, gates and a bar — besides the cities of the unwalled ⟨towns⟩, very many.",
-  "tokens": [
+  "ref": "deuteronomy 3:5",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "addition",
+      "subject": "⟨with⟩",
+      "rationale": "English needs a preposition before the fortification list; Hebrew apposes the nouns directly"
     },
     {
-      "surface": "אלה",
-      "gloss": "these"
-    },
-    {
-      "surface": "ערים",
-      "gloss": "cities"
-    },
-    {
-      "surface": "בצרות",
-      "gloss": "fortified",
-      "readings": [
-        "fortified",
-        "inaccessible"
-      ],
-      "held_by": {
-        "fortified": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "inaccessible": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חומה",
-      "gloss": "wall"
-    },
-    {
-      "surface": "גבהה",
-      "gloss": "high"
-    },
-    {
-      "surface": "דלתים",
-      "gloss": "gates"
-    },
-    {
-      "surface": "ובריח",
-      "gloss": "and a bar"
-    },
-    {
-      "surface": "לבד",
-      "gloss": "besides"
-    },
-    {
-      "surface": "מערי",
-      "gloss": "from the cities of"
-    },
-    {
-      "surface": "הפרזי",
-      "gloss": "the unwalled ⟨towns⟩",
-      "readings": [
-        "the unwalled ⟨towns⟩",
-        "the villages"
-      ],
-      "held_by": {
-        "the unwalled ⟨towns⟩": [
-          "v2",
-          "v3"
-        ],
-        "the villages": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "הרבה",
-      "gloss": "many"
-    },
-    {
-      "surface": "מאד",
-      "gloss": "very"
+      "kind": "hapax",
+      "subject": "הַפְּרָזִי",
+      "rationale": "collective 'unwalled population' occurs only here (cf. 1 Sam 6:18, Esther 9:19)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All these were cities fortified ⟨with⟩ a high wall, double gates and a bar — besides the unwalled towns, very many.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c0918e27ccabb20e41919b2b220633235e31f0023cc9b3480116090401c6fd1c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/3\/5-8.1791183623732.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "אֵלֶּה",
+      "gloss": "these",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָרִים",
+      "gloss": "were cities",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצֻרֹת",
+      "gloss": "fortified",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוֹמָה",
+      "gloss": "⟨with⟩ a wall",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּבֹהָה",
+      "gloss": "high",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּלָתַיִם",
+      "gloss": "double gates",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְרִיחַ",
+      "gloss": "and a bar",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבַד",
+      "gloss": "besides",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעָרֵי",
+      "gloss": "the towns of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַפְּרָזִי",
+      "gloss": "the unwalled",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַרְבֵּה",
+      "gloss": "very many",
+      "sense": null
+    },
+    {
+      "surface": "מְאֹד",
+      "gloss": "exceedingly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:00:23.736090550Z",
+  "model": "glm-5.3"
 }

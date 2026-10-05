@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Flash lightning and scatter them; send your arrows and rout them.",
-  "tokens": [
+  "ref": "psalms 144:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 144,
+  "notes": [
     {
-      "surface": "ברוק",
-      "gloss": "flash"
+      "kind": "hapax",
+      "subject": "ברוק",
+      "rationale": "The verb בָּרַק 'flash lightning' occurs only here in the Tanakh."
     },
     {
-      "surface": "ברק",
-      "gloss": "lightning"
-    },
-    {
-      "surface": "ותפיצם",
-      "gloss": "and scatter them"
-    },
-    {
-      "surface": "שלח",
-      "gloss": "send"
-    },
-    {
-      "surface": "חציך",
-      "gloss": "your arrows"
-    },
-    {
-      "surface": "ותהמם",
-      "gloss": "and rout them",
-      "readings": [
-        "and rout them",
-        "and confuse them"
-      ],
-      "held_by": {
-        "and rout them": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and confuse them": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "ברוק ברק",
+      "rationale": "Verb and noun from the same root stand side by side, 'lightning-lightning'; the pairing is kept but the identical root echo is faint in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Flash-forth lightning and scatter them; send your arrows and confuse them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05d64fc5cd409169554606d34a16e5c890746dcd39a62cb854303130a1a95aa6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/144\/5-8.1791193630350.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּר֣וֹק",
+      "gloss": "flash-forth",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֭רָק",
+      "gloss": "lightning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְפִיצֵ֑ם",
+      "gloss": "and scatter them",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלַ֥ח",
+      "gloss": "send",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִ֝צֶּ֗יךָ",
+      "gloss": "your arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְהֻמֵּֽם",
+      "gloss": "and throw-them-into-confusion",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:10.351499277Z",
+  "model": "glm-5.3"
 }

@@ -1,67 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 35,
-  "translation": "They struck me, ⟨but⟩ I was not sick; they beat me, ⟨but⟩ I did not know ⟨it⟩. When shall I awake? I will again seek it yet again.",
+  "ref": "proverbs 23:35",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "English needs an object for 'I did not know'; Hebrew's verb stands alone."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אוֹסִיף … עוֹד",
+      "rationale": "Doubling of continuation ('I will add … yet again') piles insistence into the drunkard's closing voice."
+    },
+    {
+      "kind": "you",
+      "subject": "the drunkard",
+      "rationale": "Verse 35 shifts into the drunkard's own quoted speech, closing the wine-warning speech."
+    }
+  ],
+  "translation": "“They struck me — I was not sick; they beat me — I did not know ⟨it⟩. When will I awake? I will seek it again.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "adea31c397a4d0ea806d125bdc57d3b0126d64f4067119406f56d8a41eb16e5b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/23\/33-35.1791193977585.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "הכוני",
-      "gloss": "they struck me"
+      "surface": "הִכּוּנִי",
+      "gloss": "They struck me"
     },
     {
-      "surface": "בל",
-      "gloss": "not"
+      "surface": "בַל",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "חליתי",
+      "surface": "חָלִיתִי",
       "gloss": "I was sick",
-      "readings": [
-        "I was sick",
-        "I was hurt"
-      ],
-      "held_by": {
-        "I was sick": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I was hurt": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "הלמוני",
-      "gloss": "they beat me"
+      "surface": "הֲלָמוּנִי",
+      "gloss": "they beat me",
+      "sense": "S1"
     },
     {
-      "surface": "בל",
-      "gloss": "not"
+      "surface": "בַל",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעתי",
+      "surface": "יָדַעְתִּי",
       "gloss": "I knew"
     },
     {
-      "surface": "מתי",
-      "gloss": "when"
+      "surface": "מָתַי",
+      "gloss": "When",
+      "sense": "S1"
     },
     {
-      "surface": "אקיץ",
-      "gloss": "shall I awake"
+      "surface": "אָקִיץ",
+      "gloss": "will I awake",
+      "sense": "S1"
     },
     {
-      "surface": "אוסיף",
+      "surface": "אוֹסִיף",
       "gloss": "I will again"
     },
     {
-      "surface": "אבקשנו",
-      "gloss": "seek it"
+      "surface": "אֲבַקְּשֶׁנּוּ",
+      "gloss": "seek it",
+      "sense": "S1"
     },
     {
-      "surface": "עוד",
+      "surface": "עוֹד",
       "gloss": "yet again"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:57.586211491Z",
+  "model": "glm-5.3"
 }

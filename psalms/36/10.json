@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For with you ⟨is⟩ the fountain of life; in your light we see light.",
-  "tokens": [
+  "ref": "psalms 36:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula"
     },
     {
-      "surface": "עמך",
-      "gloss": "with you"
-    },
-    {
-      "surface": "מקור",
-      "gloss": "the fountain"
-    },
-    {
-      "surface": "חיים",
-      "gloss": "of life"
-    },
-    {
-      "surface": "באורך",
-      "gloss": "in your light"
-    },
-    {
-      "surface": "נראה",
-      "gloss": "we see"
-    },
-    {
-      "surface": "אור",
-      "gloss": "light"
+      "kind": "alternative",
+      "subject": "we see light",
+      "rationale": "נראה אור can read as 'light is seen' (impersonal), but the 1st plural 'we' is the plain form"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For with you is the spring of life; in your light we see light.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4511456d58c6c5ada6c69df4e566a33c3afafcdc2703328f21c56d80cb591ea6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/36\/9-12.1791192624431.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עִמְּךָ",
+      "gloss": "with you",
+      "sense": null
+    },
+    {
+      "surface": "מְקוֹר",
+      "gloss": "the spring",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיִּ֑ים",
+      "gloss": "of life",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאוֹרְךָ",
+      "gloss": "in your light",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִרְאֶה",
+      "gloss": "we see",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֽוֹר",
+      "gloss": "light",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:24.432555791Z",
+  "model": "glm-5.3"
 }

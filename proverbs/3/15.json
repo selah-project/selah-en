@@ -1,60 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "She ⟨is⟩ more precious than corals, and all your desires do not compare with her.",
-  "tokens": [
+  "ref": "proverbs 3:15",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "יקרה",
-      "gloss": "Precious"
+      "kind": "crux",
+      "subject": "corals",
+      "rationale": "פְּנִינִים: 'pearls' (SDBH) vs 'corals' (older readings); ketiv מפניים vs qere מפנינים"
     },
     {
-      "surface": "היא",
-      "gloss": "She"
+      "kind": "substitution",
+      "subject": "desires",
+      "rationale": "חֵפֶץ spans pleasure, desire, and a precious thing; 'desires' narrows the range"
+    }
+  ],
+  "translation": "She is more precious than pearls, and all your desires cannot equal her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "48f865bc3ead9705398332458a311f92791dd4c8dce5c255f610ef23e2ad3e68",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/3\/13-16.1791193699416.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְקָ֣רָה",
+      "gloss": "is more precious",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִ֭יא",
+      "gloss": "She",
+      "sense": null
     },
     {
       "surface": "מפניים",
-      "gloss": "than corals",
-      "readings": [
-        "than corals",
-        "than rubies",
-        "than pearls"
-      ],
-      "held_by": {
-        "than corals": [
-          "v2",
-          "en4"
-        ],
-        "than rubies": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "than pearls": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "than pearls",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
-      "gloss": "and all"
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
     },
     {
-      "surface": "חפציך",
-      "gloss": "your desires"
+      "surface": "חֲ֝פָצֶ֗יךָ",
+      "gloss": "your desires",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ישוו",
-      "gloss": "equal"
+      "surface": "יִֽשְׁווּ",
+      "gloss": "can equal",
+      "sense": "S1"
     },
     {
-      "surface": "בה",
-      "gloss": "with her"
+      "surface": "בָֽהּ",
+      "gloss": "her",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:48:19.416796028Z",
+  "model": "glm-5.3"
 }

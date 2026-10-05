@@ -1,32 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 151,
-  "translation": "Near ⟨are⟩ you, YHWH, and all your commandments ⟨are⟩ truth.",
+  "ref": "psalms 119:151",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between קרוב and אתה; English supplies 'are'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "קרוב",
+      "rationale": "Answers v.150's קרבו with the same root: the pursuers drew near, but YHWH is near."
+    }
+  ],
+  "translation": "Near are you, YHWH, and all your commandments are truth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ac39628d60175829ceb5ccb2af046f23bd055977bb0fe72a268d8d86c3e226c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/149-152.1791193487616.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "קרוב",
-      "gloss": "Near"
+      "surface": "קָרוֹב",
+      "gloss": "Near",
+      "sense": null
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "surface": "אַתָּה",
+      "gloss": "are you",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and all"
     },
     {
-      "surface": "מצותיך",
-      "gloss": "your commandments"
+      "surface": "מִצְוֺתֶיךָ",
+      "gloss": "your commandments",
+      "sense": "S1"
     },
     {
-      "surface": "אמת",
-      "gloss": "truth"
+      "surface": "אֱמֶת",
+      "gloss": "truth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:47.617337001Z",
+  "model": "glm-5.3"
 }

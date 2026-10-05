@@ -1,64 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "He allowed no human to oppress them, and rebuked kings for their sake—",
-  "tokens": [
+  "ref": "psalms 105:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "addition",
+      "subject": "any",
+      "rationale": "English word order requires an determiner for the indefinite singular אדם"
     },
     {
-      "surface": "הניח",
-      "gloss": "He allowed"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "human",
-      "readings": [
-        "human",
-        "man"
-      ],
-      "held_by": {
-        "human": [
-          "v1",
-          "v3"
-        ],
-        "man": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לעשקם",
-      "gloss": "to oppress them"
-    },
-    {
-      "surface": "ויוכח",
-      "gloss": "and rebuked",
-      "readings": [
-        "and rebuked",
-        "and reproved"
-      ],
-      "held_by": {
-        "and rebuked": [
-          "v1",
-          "v3"
-        ],
-        "and reproved": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עליהם",
-      "gloss": "for their sake"
-    },
-    {
-      "surface": "מלכים",
-      "gloss": "kings"
+      "kind": "crux",
+      "subject": "He",
+      "rationale": "YHWH is the unnamed subject throughout vv. 12–15; the parallel 1 Chr 16:21 reads 'he did not let a man'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He did not let any human oppress them, and rebuked kings on their account:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "08f1a5115111517743f833dd21a3cc229b29aba411b977dc52be50b7e31d019d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/13-16.1791193290804.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִנִּ֣יחַ",
+      "gloss": "He let",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָ֣ם",
+      "gloss": "human",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעָשְׁקָ֑ם",
+      "gloss": "oppress them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיּ֖וֹכַח",
+      "gloss": "and rebuked",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵיהֶ֣ם",
+      "gloss": "on their account",
+      "sense": null
+    },
+    {
+      "surface": "מְלָכִֽים",
+      "gloss": "kings",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:30.805386962Z",
+  "model": "glm-5.3"
 }

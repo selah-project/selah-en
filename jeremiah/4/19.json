@@ -1,138 +1,140 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "My bowels, my bowels! I writhe in pain; the walls of my heart roar for me, my heart — I cannot keep silent, for the sound of the shofar I have heard, O my soul — the alarm of war!",
-  "tokens": [
+  "ref": "jeremiah 4:19",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "מעי",
-      "gloss": "my bowels",
-      "readings": [
-        "my bowels",
-        "my inward parts"
-      ],
-      "held_by": {
-        "my bowels": [
-          "v1",
-          "en4"
-        ],
-        "my inward parts": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "שמעתי",
+      "rationale": "the verb 'my soul has heard' is supplied in the flow after נפשי; the Hebrew word order puts the object first."
     },
     {
-      "surface": "מעי",
+      "kind": "crux",
+      "subject": "אחולה",
+      "rationale": "ketiv אחולה vs qere אוחילה: 'I writhe\/twist' (חול) vs 'I wait anxiously' (יחל)."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my bowels",
+      "rationale": "מעים is the seat of feeling in Hebrew; English 'bowels' keeps the body but not the idiom."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מֵעַי מֵעַי",
+      "rationale": "doubled cry of anguish; the doubling is kept."
+    }
+  ],
+  "translation": "My bowels, my bowels — I writhe! O walls of my heart! My heart is boisterous within me; I will not be silent, for the sound of the shofar my soul ⟨has heard⟩, the battle-cry of war.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa6d8d8f31ee6228ddfc487da8c0265ad5ac86542aa4357cb1cb5189df692882",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/4\/17-20.1791189112483.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֵעַי",
       "gloss": "my bowels",
-      "readings": [
-        "my bowels",
-        "my inward parts"
-      ],
-      "held_by": {
-        "my bowels": [
-          "v1",
-          "en4"
-        ],
-        "my inward parts": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": null
+    },
+    {
+      "surface": "מֵעַי",
+      "gloss": "my bowels",
+      "sense": null
     },
     {
       "surface": "אחולה",
-      "gloss": "I writhe in pain"
-    },
-    {
-      "surface": "קירות",
-      "gloss": "the walls of"
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "המה",
-      "gloss": "roar"
-    },
-    {
-      "surface": "לי",
-      "gloss": "for me"
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אחריש",
-      "gloss": "I keep silent"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "קול",
-      "gloss": "the sound of"
-    },
-    {
-      "surface": "שופר",
-      "gloss": "shofar",
+      "gloss": "I writhe",
       "readings": [
-        "shofar",
-        "horn"
+        "I writhe",
+        "I wait in anguish"
       ],
-      "held_by": {
-        "shofar": [
-          "v2",
-          "v3"
-        ],
-        "horn": [
-          "en4",
-          "v1"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "קִירוֹת",
+      "gloss": "walls of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבִּי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֹמֶה",
+      "gloss": "is boisterous",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִּי",
+      "gloss": "within me",
+      "sense": null
+    },
+    {
+      "surface": "לִבִּי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרִישׁ",
+      "gloss": "I will be silent",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "קוֹל",
+      "gloss": "the sound of",
+      "sense": null
+    },
+    {
+      "surface": "שׁוֹפָר",
+      "gloss": "shofar",
+      "sense": "S1"
     },
     {
       "surface": "שמעתי",
-      "gloss": "I have heard"
+      "gloss": "⟨my soul has heard⟩",
+      "marks": "shofar",
+      "sense": null
     },
     {
-      "surface": "נפשי",
-      "gloss": "O my soul",
+      "surface": "נַפְשִׁי",
+      "gloss": "my soul",
       "readings": [
-        "O my soul",
+        "my soul",
         "my throat",
-        "my life"
+        "my very self"
       ],
-      "held_by": {
-        "O my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my throat": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תרועת",
-      "gloss": "the alarm of"
+      "surface": "תְּרוּעַת",
+      "gloss": "the battle-cry of",
+      "sense": "S1"
     },
     {
-      "surface": "מלחמה",
-      "gloss": "war"
+      "surface": "מִלְחָמָה",
+      "gloss": "war",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:31:52.484765689Z",
+  "model": "glm-5.3"
 }

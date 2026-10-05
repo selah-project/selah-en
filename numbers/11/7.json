@@ -1,64 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And the manna was like the seed of coriander, and its appearance like the appearance of bdellium.",
-  "tokens": [
+  "ref": "numbers 11:7",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "והמן",
-      "gloss": "And the manna"
+      "kind": "alternative",
+      "subject": "גד",
+      "rationale": "Gad = coriander (Exodus 16:31); kept transliterated as a plant name with uncertain identification."
     },
     {
-      "surface": "כזרע",
-      "gloss": "like the seed of"
+      "kind": "crux",
+      "subject": "bdellium",
+      "rationale": "בדלח: fragrant gum resin vs a gleaming stone; exact substance unknown, also Genesis 2:12."
     },
     {
-      "surface": "גד",
-      "gloss": "coriander"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it"
-    },
-    {
-      "surface": "ועינו",
-      "gloss": "and its appearance",
-      "readings": [
-        "and its appearance",
-        "and its eye"
-      ],
-      "held_by": {
-        "and its appearance": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and its eye": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כעין",
-      "gloss": "like the appearance of",
-      "readings": [
-        "like the appearance of",
-        "like the eye of"
-      ],
-      "held_by": {
-        "like the appearance of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "like the eye of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הבדלח",
-      "gloss": "of bdellium"
+      "kind": "substitution",
+      "subject": "appearance",
+      "rationale": "עין literally 'eye', here the visible look of the manna."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the manna was like seed of gad — and its appearance like the appearance of bdellium.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c39beaedd65e4dbc5235afbab06edf208217a9780307fed1ace21ca0e248632",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/11\/5-8.1791183006346.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהַמָּ֕ן",
+      "gloss": "And the manna",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּזְרַע",
+      "gloss": "like seed of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּ֖ד",
+      "gloss": "gad",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֑וּא",
+      "gloss": "it",
+      "sense": null
+    },
+    {
+      "surface": "וְעֵינ֖וֹ",
+      "gloss": "and its appearance",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּעֵ֥ין",
+      "gloss": "like the appearance of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַבְּדֹֽלַח",
+      "gloss": "bdellium",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:50:06.356255732Z",
+  "model": "glm-5.3"
 }

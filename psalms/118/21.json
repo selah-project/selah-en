@@ -1,62 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "I will give thanks to you, for you have answered me, and you have become for me for salvation.",
-  "tokens": [
+  "ref": "psalms 118:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "אודך",
-      "gloss": "I will give thanks to you"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "עניתני",
-      "gloss": "you have answered me",
-      "readings": [
-        "you have answered me",
-        "you afflicted me"
-      ],
-      "held_by": {
-        "you have answered me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you afflicted me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותהי",
-      "gloss": "and you have become"
-    },
-    {
-      "surface": "לי",
-      "gloss": "for me"
-    },
-    {
-      "surface": "לישועה",
-      "gloss": "for salvation",
-      "readings": [
-        "for salvation",
-        "a salvation"
-      ],
-      "held_by": {
-        "for salvation": [
-          "en4"
-        ],
-        "a salvation": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "מאת\/לישועה לְ",
+      "rationale": "preposition לְ rendered 'to'; the prepositional idiom לִי לִישׁוּעָה reads literally 'became to me for salvation'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will praise you, for you answered me, and you became to me ⟨את⟩ salvation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "27feab70c5164057a7c449a73eb3ab5929b8121fe9f2de6454b26d0c9f6a196d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/21-24.1791193429418.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "א֭וֹדְךָ",
+      "gloss": "I will praise you",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עֲנִיתָ֑נִי",
+      "gloss": "you answered me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתְּהִי",
+      "gloss": "and you became",
+      "sense": null
+    },
+    {
+      "surface": "לִ֝֗י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "לִֽישׁוּעָֽה",
+      "gloss": "to salvation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:49.419359142Z",
+  "model": "glm-5.3"
 }

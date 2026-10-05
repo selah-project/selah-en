@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Lest you eat and be satisfied, and build good houses, and dwell ⟨in them⟩,",
-  "tokens": [
+  "ref": "deuteronomy 8:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "פן",
-      "gloss": "lest"
+      "kind": "addition",
+      "subject": "⟨in them⟩",
+      "rationale": "English needs the object 'in them' with 'dwell'; Hebrew's verb carries it alone."
     },
     {
-      "surface": "תאכל",
-      "gloss": "you eat"
-    },
-    {
-      "surface": "ושבעת",
-      "gloss": "and be satisfied"
-    },
-    {
-      "surface": "ובתים",
-      "gloss": "and houses"
-    },
-    {
-      "surface": "טובים",
-      "gloss": "good"
-    },
-    {
-      "surface": "תבנה",
-      "gloss": "you build"
-    },
-    {
-      "surface": "וישבת",
-      "gloss": "and dwell",
-      "readings": [
-        "and dwell",
-        "and sit"
-      ],
-      "held_by": {
-        "and dwell": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and sit": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "echo of v. 10",
+      "rationale": "תאכל ושבעת repeats v. 10's eating-and-satiety pair inside the warning clause."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Lest you eat and be sated, and good houses you build and dwell ⟨in them⟩ —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d9306ee57d6de885e0cd92336a66bdf565fba782b954b9cccd696a8c96bdb5b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/8\/9-12.1791183747218.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פֶּן",
+      "gloss": "Lest",
+      "sense": null
+    },
+    {
+      "surface": "תֹאכַל",
+      "gloss": "you eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׂבַעְתָּ",
+      "gloss": "and be sated",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבָתִּים",
+      "gloss": "and houses",
+      "sense": "S1"
+    },
+    {
+      "surface": "טוֹבִים",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּבְנֶה",
+      "gloss": "you build",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָשַׁבְתָּ",
+      "gloss": "and dwell ⟨in them⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:02:27.219662578Z",
+  "model": "glm-5.3"
 }

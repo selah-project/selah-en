@@ -1,66 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "At that time the servants of Nebuchadnezzar king of Babylon came up against Jerusalem, and the city came into siege.",
+  "ref": "2-kings 24:10",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "went up",
+      "rationale": "ketiv עלה (singular, 'he went up') vs qere עלו (plural, matching the servants); the ketiv is the ground"
+    },
+    {
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "English needs a directional preposition before Jerusalem; Hebrew has none"
+    }
+  ],
+  "translation": "At that time the servants of Nebuchadnezzar king of Babylon went up to Jerusalem, and the city came into siege.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9db8725288952b37aef504f6af6ccd9c2d685cf3f5571bf735a379ba2e497f3a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/24\/9-12.1791187923575.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "בעת",
-      "gloss": "At the time"
+      "surface": "בָּעֵ֣ת",
+      "gloss": "At",
+      "sense": "S1"
     },
     {
-      "surface": "ההיא",
-      "gloss": "that"
+      "surface": "הַהִ֔יא",
+      "gloss": "that time"
     },
     {
-      "surface": "עלה",
+      "surface": "עָלָה֙",
       "gloss": "went up",
-      "readings": [
-        "went up",
-        "ascended"
-      ],
-      "held_by": {
-        "went up": [
-          "v2",
-          "en4"
-        ],
-        "ascended": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עבדי",
-      "gloss": "the servants of"
+      "surface": "עַבְדֵ֛י",
+      "gloss": "the servants of",
+      "sense": "S1"
     },
     {
-      "surface": "נבכדנאצר",
-      "gloss": "Nebuchadnezzar"
+      "surface": "נְבֻכַדְנֶאצַּ֥ר",
+      "gloss": "Nebuchadnezzar",
+      "sense": null
     },
     {
-      "surface": "מלך",
-      "gloss": "king of"
+      "surface": "מֶֽלֶךְ",
+      "gloss": "king of",
+      "sense": "S1"
     },
     {
-      "surface": "בבל",
-      "gloss": "Babylon"
+      "surface": "בָּבֶ֖ל",
+      "gloss": "Babylon",
+      "sense": "S1"
     },
     {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "surface": "יְרוּשָׁלִַ֑ם",
+      "gloss": "to Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "ותבא",
+      "surface": "וַתָּבֹ֥א",
       "gloss": "and came"
     },
     {
-      "surface": "העיר",
-      "gloss": "the city"
+      "surface": "הָעִ֖יר",
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
-      "surface": "במצור",
-      "gloss": "into siege"
+      "surface": "בַּמָּצֽוֹר",
+      "gloss": "into siege",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:12:03.576793350Z",
+  "model": "glm-5.3"
 }

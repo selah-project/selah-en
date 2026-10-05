@@ -1,55 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Their judges are flung down by the sides of the rock, and they hear my words, for they are pleasant.",
+  "ref": "psalms 141:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 141,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "סלע",
+      "rationale": "'The rock' as the place of execution, or the Rock as a name of God delivering their judges to destruction."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Copula supplied for the passive apposition 'their judges'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נָעֵֽמוּ \/ אֲמָרַ֗י",
+      "rationale": "Numerical pun: אמרי 'my words' (verbal root) sounds against נעמו 'they were pleasant' (root נעם, as in Naomi); the echo is faint in English."
+    }
+  ],
+  "translation": "Flung down by the hands of the rock ⟨are⟩ their judges, and they heard my words, for they were pleasant.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ab4f16e8d59b314258fe6b120b560a7e73a6878d6014e1ff063b7c30a981696c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/141\/5-8.1791193615233.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "נשמטו",
-      "gloss": "are flung down"
+      "surface": "נִשְׁמְט֣וּ",
+      "gloss": "flung down",
+      "sense": "S1"
     },
     {
-      "surface": "בידי",
-      "gloss": "by the sides of",
-      "readings": [
-        "by the sides of",
-        "by the hands of"
-      ],
-      "held_by": {
-        "by the sides of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "by the hands of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בִּֽידֵי",
+      "gloss": "by the hands of",
+      "sense": "S1"
     },
     {
-      "surface": "סלע",
-      "gloss": "the rock"
+      "surface": "סֶ֭לַע",
+      "gloss": "the rock",
+      "sense": "S1"
     },
     {
-      "surface": "שפטיהם",
-      "gloss": "their judges"
+      "surface": "שֹׁפְטֵיהֶ֑ם",
+      "gloss": "their judges",
+      "sense": "S1"
     },
     {
-      "surface": "ושמעו",
-      "gloss": "and they hear"
+      "surface": "וְשָׁמְע֥וּ",
+      "gloss": "and they heard"
     },
     {
-      "surface": "אמרי",
-      "gloss": "my words"
+      "surface": "אֲ֝מָרַ֗י",
+      "gloss": "my words",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "for"
     },
     {
-      "surface": "נעמו",
-      "gloss": "they are pleasant"
+      "surface": "נָעֵֽמוּ",
+      "gloss": "they were pleasant",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:55.234779165Z",
+  "model": "glm-5.3"
 }

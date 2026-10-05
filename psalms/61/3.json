@@ -1,105 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "From the end of the earth I call to you, when my heart faints; onto the rock that is higher than I you will lead me.",
-  "tokens": [
+  "ref": "psalms 61:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 61,
+  "notes": [
     {
-      "surface": "מקצה",
-      "gloss": "From the end of"
+      "kind": "crux",
+      "subject": "בעטף לבי",
+      "rationale": "infinitive with preposition: 'when my heart faints\/is shrouded' versus causal 'because my heart is overwhelmed'"
     },
     {
-      "surface": "הארץ",
+      "kind": "alternative",
+      "subject": "rock",
+      "rationale": "צור may be the divine title 'Rock' rather than a literal high rock the singer is led to"
+    }
+  ],
+  "translation": "From the end of the earth to you I call, when my heart is faint; to a rock higher than I, you will guide me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "39165190f14528a325c758be785e60649cbda34db3106936350723445840d094",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/61\/1-4.1791192851533.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִקְצֵ֤ה",
+      "gloss": "From the end",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָ֨רֶץ",
       "gloss": "of the earth",
+      "sense": "S1",
       "readings": [
         "of the earth",
         "of the land"
-      ],
-      "held_by": {
-        "of the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the land": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "אליך",
-      "gloss": "to you"
+      "surface": "אֵלֶ֣יךָ",
+      "gloss": "to you",
+      "sense": null
     },
     {
-      "surface": "אקרא",
-      "gloss": "I call"
+      "surface": "אֶקְרָ֫א",
+      "gloss": "I call",
+      "sense": "S1"
     },
     {
-      "surface": "בעטף",
-      "gloss": "when faints",
+      "surface": "בַּעֲטֹ֣ף",
+      "gloss": "when it is faint",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבִּ֑י",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצ֥וּר",
+      "gloss": "to a rock",
+      "sense": "S1",
       "readings": [
-        "when faints",
-        "in the swooning of"
-      ],
-      "held_by": {
-        "when faints": [
-          "v2",
-          "v3"
-        ],
-        "in the swooning of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "to a rock",
+        "to the Rock"
+      ]
     },
     {
-      "surface": "לבי",
-      "gloss": "my heart"
+      "surface": "יָר֖וּם",
+      "gloss": "higher",
+      "sense": "S1"
     },
     {
-      "surface": "בצור",
-      "gloss": "onto the rock"
-    },
-    {
-      "surface": "ירום",
-      "gloss": "that is higher"
-    },
-    {
-      "surface": "ממני",
+      "surface": "מִמֶּ֣נִּי",
       "gloss": "than I",
-      "readings": [
-        "than I",
-        "than me"
-      ],
-      "held_by": {
-        "than I": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "than me": [
-          "v1"
-        ]
-      }
+      "sense": null
     },
     {
-      "surface": "תנחני",
-      "gloss": "you will lead me",
-      "readings": [
-        "you will lead me",
-        "lead me"
-      ],
-      "held_by": {
-        "you will lead me": [
-          "en4"
-        ],
-        "lead me": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "תַנְחֵֽנִי",
+      "gloss": "you will guide me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:11.534454648Z",
+  "model": "glm-5.3"
 }

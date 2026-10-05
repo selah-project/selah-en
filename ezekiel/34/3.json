@@ -1,67 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "⟨את⟩ the fat you eat, and ⟨את⟩ the wool you clothe ⟨yourselves⟩ with, the well-fed you slaughter, ⟨but⟩ the flock you do not shepherd.",
-  "tokens": [
+  "ref": "ezekiel 34:3",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "substitution",
+      "subject": "the fat",
+      "rationale": "חלב is the choice fat of the flock, the richest part — the shepherd eats what belongs to the flock"
     },
     {
-      "surface": "החלב",
-      "gloss": "the fat"
-    },
-    {
-      "surface": "תאכלו",
-      "gloss": "you eat"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "הצמר",
-      "gloss": "the wool"
-    },
-    {
-      "surface": "תלבשו",
-      "gloss": "you clothe ⟨yourselves⟩ with"
-    },
-    {
-      "surface": "הבריאה",
-      "gloss": "the well-fed"
-    },
-    {
-      "surface": "תזבחו",
-      "gloss": "you slaughter"
-    },
-    {
-      "surface": "הצאן",
-      "gloss": "the flock"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תרעו",
-      "gloss": "shepherd",
-      "readings": [
-        "shepherd",
-        "feed"
-      ],
-      "held_by": {
-        "shepherd": [
-          "en4"
-        ],
-        "feed": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "תזבחו … לא תרעו",
+      "rationale": "fronted objects sharpen the indictment: the taking verbs get their objects up front, the caring verb gets only a negative"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ the fat you eat, and ⟨את⟩ the wool you wear; the well-fed you slaughter — the flock you do not feed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ff0fb5bfdf2692c802fffd5d974d52eb02f9f952581c28f4a48f85f092a4ceed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/34\/1-4.1791190895401.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the fat",
+      "sense": null
+    },
+    {
+      "surface": "הַחֵ֤לֶב",
+      "gloss": "the fat",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֹּאכֵלוּ֙",
+      "gloss": "you eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the wool",
+      "sense": null
+    },
+    {
+      "surface": "הַצֶּ֣מֶר",
+      "gloss": "the wool",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּלְבָּ֔שׁוּ",
+      "gloss": "you wear",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַבְּרִיאָ֖ה",
+      "gloss": "the well-fed one",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּזְבָּ֑חוּ",
+      "gloss": "you slaughter",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַצֹּ֖אן",
+      "gloss": "the flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּרְעֽוּ",
+      "gloss": "you feed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:01:35.403139992Z",
+  "model": "glm-5.3"
 }

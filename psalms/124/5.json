@@ -1,63 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "then over our soul would have passed the waters, the proud ones.",
-  "tokens": [
+  "ref": "psalms 124:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 124,
+  "notes": [
     {
-      "surface": "אזי",
-      "gloss": "then"
+      "kind": "hapax",
+      "subject": "הזידונים",
+      "rationale": "Occurs only here in the Tanakh; literally 'boiling,' describing turbulent waters."
     },
     {
-      "surface": "עבר",
-      "gloss": "would have passed"
+      "kind": "substitution",
+      "subject": "our throat",
+      "rationale": "נפש here rendered by its literal sense 'throat,' fitting the waters passing over; 'soul' would mislead."
     },
     {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "נפשנו",
-      "gloss": "our soul",
-      "readings": [
-        "our soul",
-        "our life"
-      ],
-      "held_by": {
-        "our soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "our life": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "המים",
-      "gloss": "the waters"
-    },
-    {
-      "surface": "הזידונים",
-      "gloss": "the proud",
-      "readings": [
-        "the proud",
-        "the boiling ones"
-      ],
-      "held_by": {
-        "the proud": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the boiling ones": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אזי ... אזי",
+      "rationale": "Third repetition of 'then it would have...' across vv. 3–5, a crescendo anaphora."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Then it would have passed over our throat — the waters, the boiling ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "caa376e48ab4ff40f71f7c9222f4611a00f1f240926db97c927620fb0858cc8c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/124\/5-8.1791193517882.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲזַי",
+      "gloss": "then",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָבַר",
+      "gloss": "it would have passed over",
+      "sense": null
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "נַפְשֵׁנוּ",
+      "gloss": "our throat",
+      "readings": [
+        "our throat",
+        "our life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמַּיִם",
+      "gloss": "the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזֵּידוֹנִים",
+      "gloss": "the boiling ones",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:17.882992715Z",
+  "model": "glm-5.3"
 }

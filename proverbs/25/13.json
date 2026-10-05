@@ -1,85 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Like the cold of snow in the day of harvest, so is a faithful messenger to those who send him; and the soul of his masters he restores.",
+  "ref": "proverbs 25:13",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "ציר",
+      "rationale": "צִיר messenger plays on צִיר hinge\/throe — the same consonants, a rare double form lost in English."
+    },
+    {
+      "kind": "substitution",
+      "subject": "cold of snow",
+      "rationale": "כְּצִנַּת שֶׁלֶג literally 'like the cold of snow' — refreshing at harvest time, not snow at harvest as a marvel."
+    }
+  ],
+  "translation": "Like the cold of snow in the day of harvest, so is a messenger faithful to those who send him: and the soul of his master he brings back.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dd203949c11a44cd75e3fd33cfc1679de76826434e53a9f1a3e1f88b90c046fa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/25\/13-16.1791194008961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "כצנת",
-      "gloss": "like the cold of"
+      "surface": "כְּצִנַּת",
+      "gloss": "like the cold of",
+      "sense": "S1"
     },
     {
-      "surface": "שלג",
-      "gloss": "snow"
+      "surface": "שֶּׁלֶג",
+      "gloss": "snow",
+      "sense": "S1"
     },
     {
-      "surface": "ביום",
-      "gloss": "in the day of"
+      "surface": "בְּיוֹם",
+      "gloss": "in the day of",
+      "sense": "S1"
     },
     {
-      "surface": "קציר",
+      "surface": "קָצִיר",
       "gloss": "harvest",
-      "readings": [
-        "harvest",
-        "the harvest-time"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "ציר",
-      "gloss": "a messenger"
+      "surface": "צִיר",
+      "gloss": "a messenger",
+      "sense": "S1"
     },
     {
-      "surface": "נאמן",
-      "gloss": "faithful"
+      "surface": "נֶאֱמָן",
+      "gloss": "faithful",
+      "sense": "S1"
     },
     {
-      "surface": "לשלחיו",
+      "surface": "לְשֹׁלְחָיו",
       "gloss": "to those who send him",
-      "readings": [
-        "to those who send him",
-        "to his senders"
-      ],
-      "held_by": {
-        "to those who send him": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to his senders": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ונפש",
+      "surface": "וְנֶפֶשׁ",
       "gloss": "and the soul of",
       "readings": [
         "and the soul of",
-        "and the life of",
-        "and the breath of"
-      ]
-    },
-    {
-      "surface": "אדניו",
-      "gloss": "of his masters"
-    },
-    {
-      "surface": "ישיב",
-      "gloss": "he restores",
-      "readings": [
-        "he restores",
-        "he refreshes"
+        "and the throat of",
+        "and the life of"
       ],
-      "held_by": {
-        "he restores": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he refreshes": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנָיו",
+      "gloss": "his master",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשִׁיב",
+      "gloss": "he brings back",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:28.962548837Z",
+  "model": "glm-5.3"
 }

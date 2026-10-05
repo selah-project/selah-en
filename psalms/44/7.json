@@ -1,51 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For not in my bow do I trust, and my sword — it does not save me.",
+  "ref": "psalms 44:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "will ⟨it⟩ save",
+      "rationale": "the sword is feminine in Hebrew, so the verb is 3rd feminine singular; English has no gender and supplies ⟨it⟩"
+    }
+  ],
+  "translation": "For not in my bow do I trust, and my sword will not save me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4bfb34bb976b9ab595bbb69bfcf9aebc6d925c90a2b4e82d7a81cecfb12efd2b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/5-8.1791192701857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "בקשתי",
-      "gloss": "in my bow"
+      "surface": "בְּקַשְׁתִּי",
+      "gloss": "in my bow",
+      "sense": "S1"
     },
     {
-      "surface": "אבטח",
+      "surface": "אֶבְטָח",
       "gloss": "do I trust",
-      "readings": [
-        "do I trust",
-        "do I take refuge"
-      ],
-      "held_by": {
-        "do I trust": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "do I take refuge": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וחרבי",
-      "gloss": "and my sword"
+      "surface": "וְחַרְבִּי",
+      "gloss": "and my sword",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תושיעני",
-      "gloss": "it saves me"
+      "surface": "תוֹשִׁיעֵנִי",
+      "gloss": "will ⟨it⟩ save me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:41.858616375Z",
+  "model": "glm-5.3"
 }

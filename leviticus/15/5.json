@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And the man who touches his bed shall wash his clothes and bathe in the water, and be unclean until the evening.",
-  "tokens": [
+  "ref": "leviticus 15:5",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "ואיש",
-      "gloss": "And the man"
+      "kind": "substitution",
+      "subject": "bed",
+      "rationale": "משכב is the construct of שכב (to lie); the furniture word carries lying-down in its shape"
     },
     {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "יגע",
-      "gloss": "touches"
-    },
-    {
-      "surface": "במשכבו",
-      "gloss": "his bed"
-    },
-    {
-      "surface": "יכבס",
-      "gloss": "shall wash"
-    },
-    {
-      "surface": "בגדיו",
-      "gloss": "his clothes"
-    },
-    {
-      "surface": "ורחץ",
-      "gloss": "and bathe",
-      "readings": [
-        "and bathe",
-        "and wash"
-      ],
-      "held_by": {
-        "and bathe": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and wash": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "במים",
-      "gloss": "in the water"
-    },
-    {
-      "surface": "וטמא",
-      "gloss": "and be unclean"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "הערב",
-      "gloss": "the evening"
+      "kind": "wordplay",
+      "subject": "his bed",
+      "rationale": "במשכבו points back to the זב's bed of v. 4; the suffix's referent is the unclean man, not the toucher"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And a man who touches his bed shall wash his clothes and bathe in water, and be unclean until the evening.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f37a901f2a7626e6a108fcea1335e6c1e23d2afb9b5a99864af50c7c47c02bcc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/15\/5-8.1791182448928.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִ֕ישׁ",
+      "gloss": "And a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "יִגַּ֖ע",
+      "gloss": "touches",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמִשְׁכָּב֑וֹ",
+      "gloss": "his bed",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְכַבֵּ֧ס",
+      "gloss": "shall wash",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּגָדָ֛יו",
+      "gloss": "his clothes",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרָחַ֥ץ",
+      "gloss": "and bathe",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמַּ֖יִם",
+      "gloss": "in the water",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְטָמֵ֥א",
+      "gloss": "and be unclean",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֚ד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעָֽרֶב",
+      "gloss": "the evening",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:40:48.929859655Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Those who sit at the gate talk about me, and ⟨I am⟩ the songs of drinkers of strong drink.",
-  "tokens": [
+  "ref": "psalms 69:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
     {
-      "surface": "ישיחו",
-      "gloss": "talk about",
-      "readings": [
-        "talk about",
-        "muse over"
-      ],
-      "held_by": {
-        "talk about": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "muse over": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "of me",
+      "rationale": "Hebrew בי is 'in\/about me'; English requires 'of'"
     },
     {
-      "surface": "בי",
-      "gloss": "about me",
-      "readings": [
-        "about me",
-        "against me"
-      ],
-      "held_by": {
-        "about me": [
-          "v1",
-          "en4"
-        ],
-        "against me": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew has no verb; the verbless line is 'and I songs'"
     },
     {
-      "surface": "ישבי",
-      "gloss": "Those who sit"
-    },
-    {
-      "surface": "שער",
-      "gloss": "the gate"
-    },
-    {
-      "surface": "ונגינות",
-      "gloss": "and the songs of"
-    },
-    {
-      "surface": "שותי",
-      "gloss": "drinkers of"
-    },
-    {
-      "surface": "שכר",
-      "gloss": "strong drink"
+      "kind": "wordplay",
+      "subject": "gate-songs",
+      "rationale": "parallel mocking: elders in the gate and drinking-songs, both public shame"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Those who sit in the gate speak of me, and I am the song of the drinkers of strong drink.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "07ec47278755e6c90c2f2d21ed48b66aba47ccc736fb6dfea8936c9573c1de43",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/13-16.1791192947836.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָשִׂ֣יחוּ",
+      "gloss": "speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּ֭י",
+      "gloss": "of me"
+    },
+    {
+      "surface": "יֹ֣שְׁבֵי",
+      "gloss": "those who sit",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֑עַר",
+      "gloss": "in the gate",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝נְגִינ֗וֹת",
+      "gloss": "and songs",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹתֵ֥י",
+      "gloss": "of the drinkers",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׁכָֽר",
+      "gloss": "of strong drink",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:35:47.837096625Z",
+  "model": "glm-5.3"
 }

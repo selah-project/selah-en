@@ -1,61 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For there are no fetters at their death, and sound ⟨is⟩ their body.",
-  "tokens": [
+  "ref": "psalms 73:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'and plump their belly'"
     },
     {
-      "surface": "אין",
-      "gloss": "there are no"
+      "kind": "crux",
+      "subject": "אולם",
+      "rationale": "rare word (also 2 Kgs 24:15 in plural); read as 'body\/belly'; some emend or render 'their strength'"
     },
     {
-      "surface": "חרצבות",
-      "gloss": "fetters"
-    },
-    {
-      "surface": "למותם",
-      "gloss": "at their death"
-    },
-    {
-      "surface": "ובריא",
-      "gloss": "and sound",
-      "readings": [
-        "and sound",
-        "and fat"
-      ],
-      "held_by": {
-        "and sound": [
-          "v1",
-          "en4"
-        ],
-        "and fat": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אולם",
-      "gloss": "their body",
-      "readings": [
-        "their body",
-        "their strength"
-      ],
-      "held_by": {
-        "their body": [
-          "v2",
-          "v3"
-        ],
-        "their strength": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "no fetters at their death",
+      "rationale": "some read למותם as 'to their death' — 'no pangs for them; whole and fat is their body'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For there are no fetters at their death, and their body is plump.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b60757655ba9c0afde9cd3228b922d9cc923a16ef29d12088bb6744655a20db7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/1-4.1791192990033.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֤י",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֖ין",
+      "gloss": "there are no",
+      "sense": null
+    },
+    {
+      "surface": "חַרְצֻבּ֥וֹת",
+      "gloss": "fetters",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמוֹתָ֗ם",
+      "gloss": "at their death",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבָרִ֥יא",
+      "gloss": "and plump",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוּלָֽם",
+      "gloss": "is their body",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:30.034392916Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Through you we butt our adversaries; in your name we trample those who rise up against us.",
-  "tokens": [
+  "ref": "psalms 44:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "בך",
-      "gloss": "Through you"
-    },
-    {
-      "surface": "צרינו",
-      "gloss": "our adversaries"
-    },
-    {
-      "surface": "ננגח",
-      "gloss": "we butt",
-      "readings": [
-        "we butt",
-        "we push down"
-      ],
-      "held_by": {
-        "we butt": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "we push down": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשמך",
-      "gloss": "in your name"
-    },
-    {
-      "surface": "נבוס",
-      "gloss": "we trample"
-    },
-    {
-      "surface": "קמינו",
-      "gloss": "those who rise up against us"
+      "kind": "wordplay",
+      "subject": "ננגח \/ נבוס",
+      "rationale": "parallel goring and trampling verbs, both Impact-sense; the animal picture of נגח (gore with horns) is kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In you we gore our foes; in your name we trample our risers-up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4bfb34bb976b9ab595bbb69bfcf9aebc6d925c90a2b4e82d7a81cecfb12efd2b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/5-8.1791192701857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּךָ",
+      "gloss": "In you"
+    },
+    {
+      "surface": "צָרֵינוּ",
+      "gloss": "our foes",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְנַגֵּחַ",
+      "gloss": "we gore",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשִׁמְךָ",
+      "gloss": "in your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָבוּס",
+      "gloss": "we trample",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָמֵינוּ",
+      "gloss": "our risers-up"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:41.858477449Z",
+  "model": "glm-5.3"
 }

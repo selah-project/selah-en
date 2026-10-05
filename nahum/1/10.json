@@ -1,91 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For like thorns entangled, and like their drink drunk down, they are consumed like dry stubble, dry, full.",
+  "ref": "nahum 1:10",
+  "book": "nahum",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "כִּי עַד סִירִים",
+      "rationale": "obscure line: 'for while entangled like thorns' or 'even to thorns entwined'; rendered with עד as comparison"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "סְבֻכִים \/ סֹבֶא \/ סְבוּאִים",
+      "rationale": "three s-b roots interlocked: entwined, drink, soaked — the entangling and the drunkenness sound alike in Hebrew"
+    },
+    {
+      "kind": "substitution",
+      "subject": "soaked-through",
+      "rationale": "סְבוּאִים passive participle of 'drink to satiety', rendered to keep the passives parallel"
+    }
+  ],
+  "translation": "For like thorns entwined, and like their drink soaked-through, they are eaten like dry stubble, completely.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e6f372a34b4d065e29a33f428a9acd3dd070d67f62f331c887b6c52727146082",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nahum\/1\/9-12.1791191812703.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nahum.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "עד",
+      "surface": "עַד",
       "gloss": "like",
-      "readings": [
-        "like",
-        "while"
-      ],
-      "held_by": {
-        "like": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "while": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "סירים",
+      "surface": "סִירִים",
       "gloss": "thorns",
-      "readings": [
-        "thorns",
-        "pots"
-      ],
-      "held_by": {
-        "thorns": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pots": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "סבכים",
-      "gloss": "entangled"
+      "surface": "סְבֻכִים",
+      "gloss": "entwined",
+      "sense": "S1"
     },
     {
-      "surface": "וכסבאם",
-      "gloss": "and like their drink"
+      "surface": "וּכְסָבְאָם",
+      "gloss": "and like their drink",
+      "sense": "S1"
     },
     {
-      "surface": "סבואים",
-      "gloss": "drunk",
-      "readings": [
-        "drunk",
-        "soaked"
-      ],
-      "held_by": {
-        "drunk": [
-          "v2",
-          "en4"
-        ],
-        "soaked": [
-          "v1",
-          "v3"
-        ]
-      }
+      "surface": "סְבוּאִים",
+      "gloss": "soaked-through",
+      "sense": "S1"
     },
     {
-      "surface": "אכלו",
-      "gloss": "they are consumed"
+      "surface": "אֻכְּלוּ",
+      "gloss": "they are eaten",
+      "sense": "S1"
     },
     {
-      "surface": "כקש",
-      "gloss": "like stubble"
+      "surface": "כְּקַשׁ",
+      "gloss": "like stubble",
+      "sense": "S1"
     },
     {
-      "surface": "יבש",
-      "gloss": "dry"
+      "surface": "יָבֵשׁ",
+      "gloss": "dry",
+      "sense": "S1"
     },
     {
-      "surface": "מלא",
-      "gloss": "full"
+      "surface": "מָלֵא",
+      "gloss": "completely",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:52.704569631Z",
+  "model": "glm-5.3"
 }

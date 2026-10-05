@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Not so with my servant Moses; in all my house he is faithful.",
-  "tokens": [
+  "ref": "numbers 12:7",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "Not"
+      "kind": "addition",
+      "subject": "⟨is⟩",
+      "rationale": "Hebrew lacks a copula in 'not so my servant Moses'"
     },
     {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "עבדי",
-      "gloss": "my servant"
-    },
-    {
-      "surface": "משה",
-      "gloss": "Moses"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "in all"
-    },
-    {
-      "surface": "ביתי",
-      "gloss": "my house"
-    },
-    {
-      "surface": "נאמן",
-      "gloss": "he is faithful"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
+      "kind": "alternative",
+      "subject": "he is trusted",
+      "rationale": "נאמן niphal can read 'is entrusted' or 'is faithful'; 'faithful' kept as the plainer sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Not so ⟨is⟩ my servant Moses; in all my house he is the faithful one.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a9a6c08aa93b3c1da481d131414cd9cf9e83aa7bbcca7275ee56ae4cf8b234f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/12\/5-8.1791183026059.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "Not",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵ֖ן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "עַבְדִּ֣י",
+      "gloss": "my servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹשֶׁ֑ה",
+      "gloss": "Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "in all",
+      "sense": null
+    },
+    {
+      "surface": "בֵּיתִ֖י",
+      "gloss": "my house",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶאֱמָ֥ן",
+      "gloss": "he is the faithful one",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֽוּא",
+      "gloss": "he",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:50:26.060717640Z",
+  "model": "glm-5.3"
 }

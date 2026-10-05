@@ -1,70 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Ask of me, and I will give the nations as your inheritance, and as your possession the ends of the earth.",
+  "ref": "psalms 2:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "the text carries no את marker in this verse; the marker convention flags no direct object here — the inheritance is a predicate, not a marked object"
+    },
+    {
+      "kind": "crux",
+      "subject": "give the nations your inheritance",
+      "rationale": "literally 'give nations your inheritance': either 'the nations as your inheritance' or 'the nations as an inheritance with your possession'; the double accusative is compressed"
+    }
+  ],
+  "translation": "Ask of Me, and I will give the nations ⟨את⟩ your inheritance, and the ends of the earth your possession.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "12039ead6d3ad1cf8a3b82df5a73e7d4627bb432902ab12b8db5f696de4aee74",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/2\/5-8.1791192349551.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שאל",
-      "gloss": "Ask"
+      "surface": "שְׁאַ֤ל",
+      "gloss": "Ask",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "of me"
+      "surface": "מִמֶּ֗נִּי",
+      "gloss": "of Me"
     },
     {
-      "surface": "ואתנה",
+      "surface": "וְאֶתְּנָ֣ה",
       "gloss": "and I will give"
     },
     {
-      "surface": "גוים",
+      "surface": "גּוֹיִם",
       "gloss": "the nations",
-      "readings": [
-        "the nations",
-        "the peoples"
-      ],
-      "held_by": {
-        "the nations": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the peoples": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "נחלתך",
-      "gloss": "your inheritance"
+      "surface": "נַחֲלָתֶ֑ךָ",
+      "gloss": "⟨את⟩ your inheritance",
+      "sense": "S1"
     },
     {
-      "surface": "ואחזתך",
-      "gloss": "and your possession"
+      "surface": "וַאֲחֻזָּתְךָ֗",
+      "gloss": "and your possession",
+      "sense": "S1"
     },
     {
-      "surface": "אפסי",
-      "gloss": "the ends of"
+      "surface": "אַפְסֵי",
+      "gloss": "the ends of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:25:49.553035361Z",
+  "model": "glm-5.3"
 }

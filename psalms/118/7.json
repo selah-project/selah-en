@@ -1,61 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "YHWH is for me among my helpers, and I — I will look upon those who hate me.",
-  "tokens": [
+  "ref": "psalms 118:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'YHWH לי'."
     },
     {
-      "surface": "לי",
-      "gloss": "for me"
-    },
-    {
-      "surface": "בעזרי",
-      "gloss": "among my helpers"
-    },
-    {
-      "surface": "ואני",
-      "gloss": "and I"
-    },
-    {
-      "surface": "אראה",
-      "gloss": "I will look upon",
-      "readings": [
-        "I will look upon",
-        "I shall see"
-      ],
-      "held_by": {
-        "I will look upon": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I shall see": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשנאי",
-      "gloss": "those who hate me",
-      "readings": [
-        "those who hate me",
-        "among my haters"
-      ],
-      "held_by": {
-        "those who hate me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "among my haters": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "בְּעֹזְרַי",
+      "rationale": "Beth with participle: 'is among my helpers' vs 'is for my help'; the parallel with v.6 favors 'for me' plus beth-association."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH is for me among my helpers, and I, I shall look on those who hate me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9a323b1254f9b7586b8daa817e47c9b39d1fa16494b6e4b0c12e2569acaec6c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/5-8.1791193411668.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "is for me",
+      "sense": null
+    },
+    {
+      "surface": "בְּעֹזְרַי",
+      "gloss": "among my helpers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲנִי",
+      "gloss": "and I",
+      "sense": null
+    },
+    {
+      "surface": "אֶרְאֶה",
+      "gloss": "I shall look on",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשֹׂנְאָי",
+      "gloss": "those who hate me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:31.669325144Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Who speak of You for mischief — your enemies lift ⟨it⟩ up for vanity.",
-  "tokens": [
+  "ref": "psalms 139:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "kind": "crux",
+      "subject": "יאמרך",
+      "rationale": "'speak of you' vs 'speak against you' or 'utter your name' — object suffix ambiguous."
     },
     {
-      "surface": "יאמרך",
-      "gloss": "speak of You"
+      "kind": "crux",
+      "subject": "נשא לשוא",
+      "rationale": "'lift up [your name] for falsehood' vs 'take in vain' (Decalogue echo, Ex 20:7) vs 'swear deceitfully'."
     },
     {
-      "surface": "למזמה",
-      "gloss": "for mischief"
+      "kind": "addition",
+      "subject": "⟨you⟩",
+      "rationale": "Object of נשא (your name) is implied in Hebrew; supplied for English."
     },
     {
-      "surface": "נשא",
-      "gloss": "lift up"
-    },
-    {
-      "surface": "לשוא",
-      "gloss": "for vanity"
-    },
-    {
-      "surface": "עריך",
-      "gloss": "your enemies"
+      "kind": "wordplay",
+      "subject": "לשוא",
+      "rationale": "Echo of the third commandment's לשוא — taking up the Name for falsehood."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who speak of you with evil intent; your enemies lift ⟨you⟩ up to falsehood ⟨in vain⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0c4d8e281a2648059d69bd29556f83976854ac5470334cb7208b9ad4022a918e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/17-20.1791193595433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "Who"
+    },
+    {
+      "surface": "יֹאמְרֻ֫ךָ",
+      "gloss": "speak of you",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִמְזִמָּ֑ה",
+      "gloss": "with evil intent",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָשֻׂ֖א",
+      "gloss": "lift up",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַשָּׁ֣וְא",
+      "gloss": "to falsehood",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָרֶֽיךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:35.434797621Z",
+  "model": "glm-5.3"
 }

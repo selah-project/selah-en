@@ -1,68 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "Would that there were between us an arbiter, ⟨that⟩ he might lay his hand upon us both.",
+  "ref": "job 9:33",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "מוֹכִיחַ",
+      "rationale": "'arbiter\/umpire' vs 'one who reproves'; the hiphil participle of יכח taken as a third party settling the dispute."
+    },
+    {
+      "kind": "addition",
+      "subject": "who might",
+      "rationale": "relative clause supplied; Hebrew uses the jussive without a relative particle."
+    },
+    {
+      "kind": "substitution",
+      "subject": "us both",
+      "rationale": "שׁנינו is a dual, 'the two of us'; rendered as 'us both' since English lacks a dual."
+    }
+  ],
+  "translation": "There is no arbiter between us, who might lay his hand on us both.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "943646dc06a22c67176f03510148f381e50e52fb7966b992a83610bf680ded0f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/9\/33-35.1791194223338.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "would that"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "יש",
-      "gloss": "there were"
+      "surface": "יֵשׁ",
+      "gloss": "there is",
+      "sense": null
     },
     {
-      "surface": "בינינו",
-      "gloss": "between us"
+      "surface": "בֵּינֵ֣ינוּ",
+      "gloss": "between us",
+      "sense": null
     },
     {
-      "surface": "מוכיח",
+      "surface": "מוֹכִ֑יחַ",
       "gloss": "an arbiter",
       "readings": [
         "an arbiter",
         "a reprover"
       ],
-      "held_by": {
-        "an arbiter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a reprover": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ישת",
-      "gloss": "he might lay",
-      "readings": [
-        "he might lay",
-        "he sets"
-      ],
-      "held_by": {
-        "he might lay": [
-          "v2",
-          "v3"
-        ],
-        "he sets": [
-          "en4"
-        ]
-      }
+      "surface": "יָשֵׁ֖ת",
+      "gloss": "who might lay",
+      "sense": "S1"
     },
     {
-      "surface": "ידו",
-      "gloss": "his hand"
+      "surface": "יָד֣וֹ",
+      "gloss": "his hand",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "שנינו",
-      "gloss": "us both"
+      "surface": "שְׁנֵֽינוּ",
+      "gloss": "us both",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:03.339426115Z",
+  "model": "glm-5.3"
 }

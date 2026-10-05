@@ -1,63 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "A falsehood is the horse for deliverance, and by the abundance of its strength it does not deliver.",
-  "tokens": [
+  "ref": "psalms 33:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "שקר",
-      "gloss": "a falsehood",
-      "readings": [
-        "a falsehood",
-        "a lie"
-      ],
-      "held_by": {
-        "a falsehood": [
-          "v1",
-          "v3"
-        ],
-        "a lie": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "a sham",
+      "rationale": "שֶׁקֶר is a noun used adverbially: 'a lie\/deception is the horse for deliverance'."
     },
     {
-      "surface": "הסוס",
-      "gloss": "the horse"
+      "kind": "crux",
+      "subject": "he shall deliver",
+      "rationale": "piel of מלט read as causative 'deliver' (S2) or reflexive 'escape' (S3); horse as subject."
     },
     {
-      "surface": "לתשועה",
-      "gloss": "for deliverance"
-    },
-    {
-      "surface": "וברב",
-      "gloss": "and by the abundance of"
-    },
-    {
-      "surface": "חילו",
-      "gloss": "its strength",
-      "readings": [
-        "its strength",
-        "its army"
-      ],
-      "held_by": {
-        "its strength": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "its army": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ימלט",
-      "gloss": "it delivers"
+      "kind": "wordplay",
+      "subject": "תְּשׁוּעָה\/יְמַלֵּט",
+      "rationale": "rescue vocabulary brackets the verse against v.16's נוֹשָׁע and v.18's divine help."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A sham — the horse, for rescue; and by the abundance of his might he shall not deliver.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3f66931df95b020b54fd9873e8ee35890345cc9b05d265b0a606febdd31ac63a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/17-20.1791192598652.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֶׁ֣קֶר",
+      "gloss": "a sham",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֭סּוּס",
+      "gloss": "the horse",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִתְשׁוּעָ֑ה",
+      "gloss": "for rescue",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְרֹ֥ב",
+      "gloss": "and by the abundance",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵ֝יל֗וֹ",
+      "gloss": "of his might",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמַלֵּֽט",
+      "gloss": "he shall deliver",
+      "sense": "S2"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:58.653249130Z",
+  "model": "glm-5.3"
 }

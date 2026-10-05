@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And if it be a female, then shall be your valuation thirty shekels.",
-  "tokens": [
+  "ref": "leviticus 27:4",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "ואם",
-      "gloss": "and if"
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "הִוא is a pronoun, not a verb; the copula is supplied in English."
     },
     {
-      "surface": "נקבה",
-      "gloss": "a female"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it"
-    },
-    {
-      "surface": "והיה",
-      "gloss": "then shall be"
-    },
-    {
-      "surface": "ערכך",
-      "gloss": "your valuation"
-    },
-    {
-      "surface": "שלשים",
-      "gloss": "thirty"
-    },
-    {
-      "surface": "שקל",
-      "gloss": "shekels"
+      "kind": "measurement",
+      "subject": "valuation",
+      "rationale": "thirty shekels, the fixed valuation of a female, versus fifty for a male."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And if it is a female, then your estimated-value shall be thirty shekels.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "38031219c6fdb80aff9557ca03ae1bc1547f25196aa92e4e80bfe3dc8ef80369",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/27\/1-4.1791182712348.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִם",
+      "gloss": "And if",
+      "sense": null
+    },
+    {
+      "surface": "נְקֵבָה",
+      "gloss": "a female",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִוא",
+      "gloss": "it is",
+      "sense": null
+    },
+    {
+      "surface": "וְהָיָה",
+      "gloss": "then shall be",
+      "sense": null
+    },
+    {
+      "surface": "עֶרְכְּךָ",
+      "gloss": "your estimated-value",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלֹשִׁים",
+      "gloss": "thirty",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁקֶל",
+      "gloss": "shekels",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:45:12.361681059Z",
+  "model": "glm-5.3"
 }

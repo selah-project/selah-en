@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "And if the woman has not been defiled, and she is clean, then she shall be cleared, and she shall be sown with seed.",
-  "tokens": [
+  "ref": "numbers 5:28",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ואם",
-      "gloss": "And if"
+      "kind": "substitution",
+      "subject": "she shall be sown with seed",
+      "rationale": "נזרעה זרע literally 'be sown seed', the woman as field — the metaphor kept rather than rendered 'conceive'"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "נטמאה",
-      "gloss": "she has been defiled"
-    },
-    {
-      "surface": "האשה",
-      "gloss": "the woman"
-    },
-    {
-      "surface": "וטהרה",
-      "gloss": "and clean"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "she is"
-    },
-    {
-      "surface": "ונקתה",
-      "gloss": "and she shall be cleared"
-    },
-    {
-      "surface": "ונזרעה",
-      "gloss": "and she shall be sown with",
-      "readings": [
-        "and she shall be sown with",
-        "and shall conceive seed"
-      ],
-      "held_by": {
-        "and she shall be sown with": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and shall conceive seed": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "זרע",
-      "gloss": "seed"
+      "kind": "addition",
+      "subject": "then",
+      "rationale": "English apodosis marker supplied for the conditional clause"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But if the woman was not defiled and she is pure, then she shall be held innocent, and she shall be sown with seed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0426a560af8836aa106b3a786c468cd879a77cd3544eaafe61524738da7b6baa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/5\/25-28.1791182871733.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִם",
+      "gloss": "But if",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִטְמְאָה",
+      "gloss": "she was defiled",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאִשָּׁה",
+      "gloss": "the woman",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְטְהֹרָה",
+      "gloss": "and she is pure",
+      "sense": null
+    },
+    {
+      "surface": "הִיא",
+      "gloss": "she",
+      "sense": null
+    },
+    {
+      "surface": "וְנִקְּתָה",
+      "gloss": "and she shall be held innocent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִזְרְעָה",
+      "gloss": "and she shall be sown",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָרַע",
+      "gloss": "with seed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:47:51.735593045Z",
+  "model": "glm-5.3"
 }

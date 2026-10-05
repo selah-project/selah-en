@@ -1,92 +1,114 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "And you shall drink it and drain ⟨את⟩ it, and ⟨את⟩ its shards you shall gnaw, and your breasts you shall tear off; for I have spoken, oracle of Adonai YHWH.",
+  "ref": "ezekiel 23:34",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between דברתי and נאם; supplied in English"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שׁתית\/מצית",
+      "rationale": "verb pair on the drinking of the cup, both 2fs sequential perfects — the sound pairing is faint in English"
+    },
+    {
+      "kind": "hapax",
+      "subject": "חרשיה",
+      "rationale": "rare feminine form of the common potsherd word; 'shards' keeps the broken-clay picture"
+    }
+  ],
+  "translation": "You will drink it and drain it, and ⟨את⟩ its shards you will gnaw, and your two breasts you will tear off — for I have spoken, is the oracle of Adonai YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4bbc5a9207d1bd4e1204b9ab4cb0eda63b25141f7304b91067a0116441d9d164",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/23\/34-35.1791199630821.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
-      "surface": "ושתית",
-      "gloss": "And you shall drink"
+      "surface": "וְשָׁתִ֨ית",
+      "gloss": "You will drink",
+      "sense": "S1"
     },
     {
-      "surface": "אותה",
-      "gloss": "⟨את⟩ it"
+      "surface": "אוֹתָ֜הּ",
+      "gloss": "⟨את⟩ it",
+      "marks": "the cup",
+      "sense": null
     },
     {
-      "surface": "ומצית",
-      "gloss": "and drain"
+      "surface": "וּמָצִ֗ית",
+      "gloss": "and drain",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "its shards",
+      "sense": null
     },
     {
-      "surface": "חרשיה",
+      "surface": "חֲרָשֶׂ֛יהָ",
       "gloss": "its shards",
       "readings": [
         "its shards",
-        "its sherds"
+        "its potshards"
       ],
-      "held_by": {
-        "its shards": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "its sherds": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     },
     {
-      "surface": "תגרמי",
-      "gloss": "you shall gnaw"
+      "surface": "תְּגָרֵ֖מִי",
+      "gloss": "you will gnaw",
+      "sense": "S1"
     },
     {
-      "surface": "ושדיך",
-      "gloss": "and your breasts"
+      "surface": "וְשָׁדַ֣יִךְ",
+      "gloss": "and your two breasts",
+      "sense": "S1"
     },
     {
-      "surface": "תנתקי",
-      "gloss": "you shall tear off"
+      "surface": "תְּנַתֵּ֑קִי",
+      "gloss": "you will tear off",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֚י",
       "gloss": "for"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִ֣י",
       "gloss": "I"
     },
     {
-      "surface": "דברתי",
-      "gloss": "have spoken"
+      "surface": "דִּבַּ֔רְתִּי",
+      "gloss": "have spoken",
+      "sense": "S1"
     },
     {
-      "surface": "נאם",
-      "gloss": "oracle of",
-      "readings": [
-        "oracle of",
-        "utterance of"
-      ],
-      "held_by": {
-        "oracle of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "utterance of": [
-          "v2"
-        ]
-      }
+      "surface": "נְאֻ֖ם",
+      "gloss": "the oracle of",
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָ֥י",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוִֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:27:10.822484932Z",
+  "model": "glm-5.3"
 }

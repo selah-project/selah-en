@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And Moses and Aaron came to the face of the tent of meeting.",
-  "tokens": [
+  "ref": "numbers 17:8",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "ויבא",
-      "gloss": "And came"
-    },
-    {
-      "surface": "משה",
-      "gloss": "Moses"
-    },
-    {
-      "surface": "ואהרן",
-      "gloss": "and Aaron"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "פני",
-      "gloss": "the face of",
-      "readings": [
-        "the face of",
-        "the front of"
-      ],
-      "held_by": {
-        "the face of": [
-          "v1",
-          "en4"
-        ],
-        "the front of": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אהל",
-      "gloss": "the tent of"
-    },
-    {
-      "surface": "מועד",
-      "gloss": "meeting"
+      "kind": "substitution",
+      "subject": "front",
+      "rationale": "פני is literally 'face of' — the face of the tent of meeting rendered as its visible front"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Moses and Aaron came to the front of the tent of meeting.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "227ad4e7321220de2f4459f391a3b6f16ca86d360920c61e0c61d863137600db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/17\/5-8.1791183131718.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיָּבֹא",
+      "gloss": "And came",
+      "sense": null
+    },
+    {
+      "surface": "מֹשֶׁה",
+      "gloss": "Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַהֲרֹן",
+      "gloss": "and Aaron",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "פְּנֵי",
+      "gloss": "the front of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֶל",
+      "gloss": "the tent of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹעֵד",
+      "gloss": "meeting",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:52:11.736697588Z",
+  "model": "glm-5.3"
 }

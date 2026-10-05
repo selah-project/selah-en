@@ -1,32 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "I ⟨am for⟩ peace, but when I speak, they are for war.",
+  "ref": "psalms 120:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 120,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew lacks a copula: 'I — peace.'"
+    },
+    {
+      "kind": "crux",
+      "subject": "וכי אדבר",
+      "rationale": "Read as 'but when I speak' (temporal) or 'though I speak' (concessive); the form permits both."
+    }
+  ],
+  "translation": "I am peace; but when I speak, they are for war.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c5b9273cb129e16ba311517833c0c6558a42ad9f96d2d678a5670bfbb1527ec7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/120\/5-7.1791193502725.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
+      "surface": "אֲֽנִי",
       "gloss": "I"
     },
     {
-      "surface": "שלום",
-      "gloss": "peace"
+      "surface": "שָׁל֣וֹם",
+      "gloss": "peace",
+      "sense": "S1"
     },
     {
-      "surface": "וכי",
+      "surface": "וְכִי",
       "gloss": "but when"
     },
     {
-      "surface": "אדבר",
-      "gloss": "I speak"
+      "surface": "אֲדַבֵּ֑ר",
+      "gloss": "I speak",
+      "sense": "S1"
     },
     {
-      "surface": "המה",
+      "surface": "הֵ֝מָּה",
       "gloss": "they"
     },
     {
-      "surface": "למלחמה",
-      "gloss": "for war"
+      "surface": "לַמִּלְחָמָֽה",
+      "gloss": "for war",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:02.726828385Z",
+  "model": "glm-5.3"
 }

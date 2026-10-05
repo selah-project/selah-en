@@ -1,45 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "His bones are tubes of copper; his limbs are like cast iron.",
-  "tokens": [
+  "ref": "job 40:18",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "עצמיו",
-      "gloss": "his bones"
+      "kind": "hapax",
+      "subject": "מטיל",
+      "rationale": "An iron bar (as forged) occurs only here."
     },
     {
-      "surface": "אפיקי",
-      "gloss": "tubes of"
+      "kind": "crux",
+      "subject": "אפיקי",
+      "rationale": "אפיק usually a stream-bed or channel; here 'tubes' of bronze vs 'channels' — parallelism with 'bar of iron' supports a long slender object."
     },
     {
-      "surface": "נחושה",
-      "gloss": "copper"
-    },
-    {
-      "surface": "גרמיו",
-      "gloss": "his limbs",
-      "readings": [
-        "his limbs",
-        "his bones"
-      ],
-      "held_by": {
-        "his limbs": [
-          "en4"
-        ],
-        "his bones": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "כמטיל",
-      "gloss": "like cast"
-    },
-    {
-      "surface": "ברזל",
-      "gloss": "iron"
+      "kind": "measurement",
+      "subject": "bones and limbs",
+      "rationale": "The verse weighs Behemoth's skeleton against metals."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His bones are tubes of bronze; his limbs are like a bar of iron.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0cec39c498ef84d95911eae4bb06221a5a61a13352f17e6caa65398b4c490560",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/17-20.1791194634029.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲ֭צָמָיו",
+      "gloss": "His bones",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲפִיקֵ֣י",
+      "gloss": "tubes of",
+      "readings": [
+        "tubes of",
+        "channels of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "נְחוּשָׁ֑ה",
+      "gloss": "bronze",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּרָמָ֗יו",
+      "gloss": "his limbs",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּמְטִ֥יל",
+      "gloss": "like a bar of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּרְזֶֽל",
+      "gloss": "iron",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:54.030615512Z",
+  "model": "glm-5.3"
 }

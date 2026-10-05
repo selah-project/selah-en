@@ -1,43 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "With my lips I have recounted all the judgments of your mouth.",
+  "ref": "psalms 119:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "judgments",
+      "rationale": "מִשְׁפָּט here means ordinances\/laws handed down, not courtroom verdicts"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שְׂפָתַי \/ סִפַּרְתִּי",
+      "rationale": "s\/s alliteration of lips and recount, carried only faintly in English"
+    }
+  ],
+  "translation": "With my lips I recount all the judgments of Your mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7a812c00a77d15dab45dca18e8ea8c96512fea5af7528edb35329ddbbcd61c8d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/13-16.1791193438563.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בשפתי",
-      "gloss": "with my lips"
+      "surface": "בִּשְׂפָתַי",
+      "gloss": "With my lips",
+      "sense": "S1"
     },
     {
-      "surface": "ספרתי",
-      "gloss": "I have recounted",
-      "readings": [
-        "I have recounted",
-        "I have declared"
-      ],
-      "held_by": {
-        "I have recounted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I have declared": [
-          "en4"
-        ]
-      }
+      "surface": "סִפַּרְתִּי",
+      "gloss": "I recount",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כֹּל",
       "gloss": "all"
     },
     {
-      "surface": "משפטי",
-      "gloss": "judgments"
+      "surface": "מִשְׁפְּטֵי",
+      "gloss": "the judgments of",
+      "sense": "S1"
     },
     {
-      "surface": "פיך",
-      "gloss": "of your mouth"
+      "surface": "פִיךָ",
+      "gloss": "Your mouth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:58.564429967Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Truly, you are the people, and with you wisdom will die.",
-  "tokens": [
+  "ref": "job 12:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "אמנם",
-      "gloss": "truly"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between אתם עם and its predicate"
     },
     {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "אתם",
-      "gloss": "you"
-    },
-    {
-      "surface": "עם",
-      "gloss": "the people"
-    },
-    {
-      "surface": "ועמכם",
-      "gloss": "and with you"
-    },
-    {
-      "surface": "תמות",
-      "gloss": "will die"
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Job addresses Eliphaz and Bildad directly in irony"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Truly, then, you are the people, and with you wisdom will die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef85264ae070d157f27191274ef4a60944ee3bdb441a7990aa0eb16e49ebdddf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/12\/1-4.1791194250095.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָ֭מְנָם",
+      "gloss": "truly",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "then",
+      "sense": null
+    },
+    {
+      "surface": "אַתֶּּם",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "עָ֑ם",
+      "gloss": "the people",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעִמָּכֶ֗ם",
+      "gloss": "and with you",
+      "sense": null
+    },
+    {
+      "surface": "תָּמ֥וּת",
+      "gloss": "will die",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָֽה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:30.096377577Z",
+  "model": "glm-5.3"
 }

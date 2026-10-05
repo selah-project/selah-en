@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "In Elohim we shall do might, and he will tread down our foes.",
-  "tokens": [
+  "ref": "psalms 108:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "באלהים",
-      "gloss": "In Elohim"
+      "kind": "substitution",
+      "subject": "valiantly",
+      "rationale": "חיל is a noun, 'might\/valor' — 'do might' rendered adverbially since English lacks the idiom."
     },
     {
-      "surface": "נעשה",
-      "gloss": "we shall do"
-    },
-    {
-      "surface": "חיל",
-      "gloss": "might",
-      "readings": [
-        "might",
-        "valiantly"
-      ],
-      "held_by": {
-        "might": [
-          "en4"
-        ],
-        "valiantly": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והוא",
-      "gloss": "and he"
-    },
-    {
-      "surface": "יבוס",
-      "gloss": "will tread down"
-    },
-    {
-      "surface": "צרינו",
-      "gloss": "our foes"
+      "kind": "wordplay",
+      "subject": "צָר",
+      "rationale": "צר from v. 13 returns here; the narrow place\/foe word binds the couplet."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In Elohim we shall do valiantly, and he will trample our foes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c3035fdd3b6fb97fbe3c2f5d0975e7642577463af1f759b95333704dd97c74c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/13-14.1791193351287.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֵּֽאלֹהִ֥ים",
+      "gloss": "In Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַעֲשֶׂה",
+      "gloss": "we shall do",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָ֑יִל",
+      "gloss": "valiantly",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝ה֗וּא",
+      "gloss": "and he",
+      "sense": null
+    },
+    {
+      "surface": "יָב֥וּס",
+      "gloss": "will trample",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרֵֽינוּ",
+      "gloss": "our foes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:31.287678526Z",
+  "model": "glm-5.3"
 }

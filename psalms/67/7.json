@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "The earth has given its yield; may Elohim, our Elohim, bless us.",
-  "tokens": [
+  "ref": "psalms 67:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 67,
+  "notes": [
     {
-      "surface": "ארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "נתנה",
+      "rationale": "Perfect 'has given' read as confidence of harvest already granted vs jussive-optative 'may the earth give'."
     },
     {
-      "surface": "נתנה",
+      "kind": "alternative",
+      "subject": "אלהים אלהינו",
+      "rationale": "Apposition 'Elohim, our Elohim' vs construct 'Elohim of our Elohim' is ungrammatical here; apposition is the plain sense."
+    }
+  ],
+  "translation": "The earth has given its yield; may Elohim, our Elohim, bless us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2183f57c64282a4be654376b3fdfed4bee9ef14a0b944424665c646776b0b99d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/67\/5-8.1791192898539.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶ֭רֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתְנָ֣ה",
       "gloss": "has given"
     },
     {
-      "surface": "יבולה",
-      "gloss": "its yield"
+      "surface": "יְבוּלָ֑הּ",
+      "gloss": "its yield",
+      "sense": "S1"
     },
     {
-      "surface": "יברכנו",
-      "gloss": "bless us"
+      "surface": "יְ֝בָרְכֵ֗נוּ",
+      "gloss": "may he bless us",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֥ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אלהינו",
-      "gloss": "our Elohim"
+      "surface": "אֱלֹהֵֽינוּ",
+      "gloss": "our Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:58.540304225Z",
+  "model": "glm-5.3"
 }

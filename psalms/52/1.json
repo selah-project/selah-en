@@ -1,34 +1,49 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To ⟨the⟩ conductor. ⟨A⟩ maskil ⟨for⟩ David.",
-  "tokens": [
+  "ref": "psalms 52:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 52,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "To ⟨the⟩ conductor",
-      "readings": [
-        "To ⟨the⟩ conductor",
-        "For the one who excels"
-      ],
-      "held_by": {
-        "To ⟨the⟩ conductor": [
-          "v1",
-          "v3"
-        ],
-        "For the one who excels": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "a maskil"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "for David"
+      "kind": "elision",
+      "subject": "maskil",
+      "rationale": "משכיל is a superscription term of uncertain meaning, transliterated rather than resolved."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, a maskil of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a2f619272c2f4dfb0f1ae9535c08650e31256e623d85c51de8dae2a66d74a7a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/52\/1-4.1791192780792.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּחַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׂכִּיל",
+      "gloss": "a maskil",
+      "sense": "S1",
+      "readings": [
+        "a maskil",
+        "an instructive poem"
+      ]
+    },
+    {
+      "surface": "לְדָוִֽד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:00.793465828Z",
+  "model": "glm-5.3"
 }

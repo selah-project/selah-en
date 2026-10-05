@@ -1,61 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "To set ⟨the⟩ lowly on high, and mourners are raised up to safety.",
-  "tokens": [
+  "ref": "job 5:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "לשום",
-      "gloss": "to set"
+      "kind": "crux",
+      "subject": "שגבו",
+      "rationale": "Qal perfect 3rd plural of שגב, 'to be high\/safe': 'they are raised' (intransitive) or, read with ישע as subject, 'safety exalts them'."
     },
     {
-      "surface": "שפלים",
-      "gloss": "the low"
+      "kind": "alternative",
+      "subject": "and the dark-mourners are raised to safety",
+      "rationale": "Reading שגבו as intransitive, 'they are brought safe\/exalted', with ישע as their resulting state."
     },
     {
-      "surface": "למרום",
-      "gloss": "on high"
-    },
-    {
-      "surface": "וקדרים",
-      "gloss": "and mourners",
-      "readings": [
-        "and mourners",
-        "and the darkened"
-      ],
-      "held_by": {
-        "and mourners": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the darkened": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שגבו",
-      "gloss": "are exalted",
-      "readings": [
-        "are exalted",
-        "are made inaccessible"
-      ],
-      "held_by": {
-        "are exalted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are made inaccessible": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישע",
-      "gloss": "to safety"
+      "kind": "substitution",
+      "subject": "dark-mourners",
+      "rationale": "קדרים literally 'ash-dark ones', wearing dark garments in grief; the color-picture is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "to set the low on high, and the dark-mourners — safety lifts them high.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "edbfd1f321f7658ee5afd964dc35a7376179cebda57445e03a52a5cdfef1b420",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/9-12.1791194184694.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לָשׂוּם",
+      "gloss": "to set",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁפָלִים",
+      "gloss": "the low",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמָרוֹם",
+      "gloss": "on high",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקֹדְרִים",
+      "gloss": "and the dark-mourners",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂגְבוּ",
+      "gloss": "lifts them high",
+      "sense": "S1",
+      "readings": [
+        "lifts them high",
+        "they are safe"
+      ]
+    },
+    {
+      "surface": "יֶשַׁע",
+      "gloss": "safety",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:24.695709279Z",
+  "model": "glm-5.3"
 }

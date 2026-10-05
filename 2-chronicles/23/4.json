@@ -1,14 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "This ⟨is⟩ ⟨the⟩ word that you shall do: the third of you entering on ⟨the⟩ sabbath, for the priests and for the Levites, for gatekeepers of the thresholds.",
+  "ref": "2-chronicles 23:4",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨shall be⟩",
+      "rationale": "Hebrew is verbless here: 'a third of you, coming on the sabbath, of the priests and the Levites' — the lamed of assignment rendered with a supplied copula."
+    },
+    {
+      "kind": "crux",
+      "subject": "לכהנים וללוים",
+      "rationale": "Taken by many as 'belonging to the priests and Levites' (the sabbath shift), though some read the lamed as 'for the service of'; the parallel 2 Kings 11:5 has no priests or Levites."
+    },
+    {
+      "kind": "measurement",
+      "subject": "the divisions",
+      "rationale": "The verse divides the guards into thirds by sabbath rotation, a counting of duty-watch."
+    },
+    {
+      "kind": "invitation",
+      "subject": "This is the matter that you shall do",
+      "rationale": "Jehoiada's instruction opens with a direct command-form formula addressed to the assembly."
+    }
+  ],
+  "translation": "This is the matter that you shall do: a third of you, those coming on the sabbath, ⟨shall be⟩ for the priests and for the Levites, at the thresholds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d98842e0a9bdd142d4d037212e8cdf3857a257b1bfc1156ca9de936f400c119c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/23\/1-4.1791196839648.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "זה",
-      "gloss": "This"
+      "gloss": "This",
+      "sense": "S1"
     },
     {
       "surface": "הדבר",
-      "gloss": "⟨the⟩ word"
+      "gloss": "is the matter",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -16,11 +55,12 @@
     },
     {
       "surface": "תעשו",
-      "gloss": "you shall do"
+      "gloss": "you shall do",
+      "sense": "S1"
     },
     {
       "surface": "השלשית",
-      "gloss": "the third"
+      "gloss": "a third"
     },
     {
       "surface": "מכם",
@@ -28,29 +68,34 @@
     },
     {
       "surface": "באי",
-      "gloss": "entering"
+      "gloss": "those coming"
     },
     {
       "surface": "השבת",
-      "gloss": "on ⟨the⟩ sabbath"
+      "gloss": "on the sabbath",
+      "sense": "S1"
     },
     {
       "surface": "לכהנים",
-      "gloss": "for the priests"
+      "gloss": "for the priests",
+      "sense": "S1"
     },
     {
       "surface": "וללוים",
-      "gloss": "and for the Levites"
+      "gloss": "and for the Levites",
+      "sense": "S1"
     },
     {
       "surface": "לשערי",
-      "gloss": "for gatekeepers of"
+      "gloss": "as gatekeepers",
+      "sense": "S1"
     },
     {
       "surface": "הספים",
-      "gloss": "the thresholds"
+      "gloss": "of the thresholds",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:40:39.649850976Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Whose mouth speaks vanity, and their right hand ⟨is⟩ a right hand of falsehood.",
-  "tokens": [
+  "ref": "psalms 144:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 144,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "whose"
+      "kind": "wordplay",
+      "subject": "וימינם ימין שקר",
+      "rationale": "יָמִין 'right hand' is repeated as cognate construct: 'their right hand — a right hand of deceit'; the doubled form is kept."
     },
     {
-      "surface": "פיהם",
-      "gloss": "their mouth"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "speaks"
-    },
-    {
-      "surface": "שוא",
-      "gloss": "vanity",
-      "readings": [
-        "vanity",
-        "emptiness",
-        "ruin"
-      ],
-      "held_by": {
-        "vanity": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "emptiness": [
-          "en4"
-        ],
-        "ruin": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וימינם",
-      "gloss": "and their right hand"
-    },
-    {
-      "surface": "ימין",
-      "gloss": "⟨a⟩ right hand"
-    },
-    {
-      "surface": "שקר",
-      "gloss": "of falsehood"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no copula between 'their right hand' and 'a right hand of lying'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Whose mouth has spoken falsehood, and whose right hand is a right hand of lying.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05d64fc5cd409169554606d34a16e5c890746dcd39a62cb854303130a1a95aa6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/144\/5-8.1791193630350.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "whose",
+      "sense": null
+    },
+    {
+      "surface": "פִּ֭יהֶם",
+      "gloss": "mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּבֶּ֣ר",
+      "gloss": "has spoken",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֑וְא",
+      "gloss": "falsehood",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִֽימִינָ֗ם",
+      "gloss": "and their right hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִ֣ין",
+      "gloss": "a right hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָֽׁקֶר",
+      "gloss": "of lying",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:10.351793612Z",
+  "model": "glm-5.3"
 }

@@ -1,64 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Through much slothfulness the roof sinks in, and through idleness of the hands the house drips.",
-  "tokens": [
+  "ref": "ecclesiastes 10:18",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "בעצלתים",
-      "gloss": "Through much slothfulness",
-      "readings": [
-        "Through much slothfulness",
-        "Through slothfulness"
-      ],
-      "held_by": {
-        "Through much slothfulness": [
-          "v1"
-        ],
-        "Through slothfulness": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "הַמְּקָרֶה",
+      "rationale": "מְקָרֶה, the beam-framework of a roof, occurs only here."
     },
     {
-      "surface": "ימך",
-      "gloss": "sinks in"
+      "kind": "hapax",
+      "subject": "שִׁפְלוּת",
+      "rationale": "שִׁפְלוּת, lowness (of hands), occurs only here; the idiom 'low hands' = slack, idle hands."
     },
     {
-      "surface": "המקרה",
-      "gloss": "the roof",
-      "readings": [
-        "the roof",
-        "the rafter"
-      ],
-      "held_by": {
-        "the roof": [
-          "v2",
-          "v3"
-        ],
-        "the rafter": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ובשפלות",
-      "gloss": "and through idleness"
-    },
-    {
-      "surface": "ידים",
-      "gloss": "of the hands"
-    },
-    {
-      "surface": "ידלף",
-      "gloss": "drips"
-    },
-    {
-      "surface": "הבית",
-      "gloss": "the house"
+      "kind": "wordplay",
+      "subject": "dual forms",
+      "rationale": "Both עַצְלַתַּיִם and יָדַיִם are duals; the paired structure of the verse is carried by the parallelism, but the dual shape itself is not visible in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Through indolence the roof-beams sink down, and through lowness of hands the house drips.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8263de7e3a08cbdf5a1624a1fc4c647607d14cc3a4f59b3c3a7230ad8f7c65bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/10\/17-20.1791194990595.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּעֲצַלְתַּ֖יִם",
+      "gloss": "Through indolence",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִמַּ֣ךְ",
+      "gloss": "sinks down",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמְּקָרֶ֑ה",
+      "gloss": "the roof-beams",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְשִׁפְל֥וּת",
+      "gloss": "and through lowness",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֖יִם",
+      "gloss": "of hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִדְלֹ֥ף",
+      "gloss": "drips",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַבָּֽיִת",
+      "gloss": "the house",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:09:50.596297741Z",
+  "model": "glm-5.3"
 }

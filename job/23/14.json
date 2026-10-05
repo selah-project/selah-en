@@ -1,47 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "For he will complete my appointed portion, and many like these ⟨are⟩ with him.",
+  "ref": "job 23:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "חקי",
+      "rationale": "'my statute\/decree' — Job's appointed lot from God, or 'my portion'; context favors what is decreed upon me."
+    },
+    {
+      "kind": "addition",
+      "subject": "things",
+      "rationale": "English needs a noun for the feminine plural adjective רַבּוֹת; none stands in the Hebrew."
+    }
+  ],
+  "translation": "For he will complete what is decreed for me, and many ⟨things⟩ like these are with him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89f77e4f1e186038d8982f5df935401b5cccfe437ae7fd64ba2839df978f433f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/23\/13-16.1791194401997.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֭י",
       "gloss": "For"
     },
     {
-      "surface": "ישלים",
-      "gloss": "he will complete"
+      "surface": "יַשְׁלִ֣ים",
+      "gloss": "he will complete",
+      "sense": "S1"
     },
     {
-      "surface": "חקי",
-      "gloss": "my appointed portion",
+      "surface": "חֻקִּ֑י",
+      "gloss": "what is decreed for me",
       "readings": [
-        "my appointed portion",
-        "my decree"
+        "what is decreed for me",
+        "my portion"
       ],
-      "held_by": {
-        "my appointed portion": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my decree": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "וכהנה",
+      "surface": "וְכָהֵ֖נָּה",
       "gloss": "and like these"
     },
     {
-      "surface": "רבות",
-      "gloss": "many"
+      "surface": "רַבּ֣וֹת",
+      "gloss": "many",
+      "sense": "S1"
     },
     {
-      "surface": "עמו",
-      "gloss": "with him"
+      "surface": "עִמּֽוֹ",
+      "gloss": "are with him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:00:01.997907889Z",
+  "model": "glm-5.3"
 }

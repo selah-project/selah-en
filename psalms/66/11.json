@@ -1,48 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "You brought us into the net; you placed constraint upon our loins.",
-  "tokens": [
+  "ref": "psalms 66:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "הבאתנו",
-      "gloss": "You brought us"
+      "kind": "hapax",
+      "subject": "מועקה",
+      "rationale": "occurs only here in the Tanakh; exact meaning unknown, possibly a heavy burden"
     },
     {
-      "surface": "במצודה",
-      "gloss": "into the net",
-      "readings": [
-        "into the net",
-        "into the fortress",
-        "into the hunting-trap"
-      ],
-      "held_by": {
-        "into the net": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "into the fortress": [
-          "en4"
-        ],
-        "into the hunting-trap": [
-          "en4"
-        ]
-      },
-      "disputed": false
-    },
-    {
-      "surface": "שמת",
-      "gloss": "you placed"
-    },
-    {
-      "surface": "מועקה",
-      "gloss": "constraint"
-    },
-    {
-      "surface": "במתנינו",
-      "gloss": "upon our loins"
+      "kind": "crux",
+      "subject": "מצודה",
+      "rationale": "'net' (from capture) vs 'fastness\/stronghold' — same consonants as מצד; net fits the hunt imagery"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You brought us into the net; you laid pressure on our loins.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa8650f60301c711b84e288c816dac44da2dc0468739dd00e323b4c0f8e13423",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/9-12.1791192884494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲבֵאתָ֥נוּ",
+      "gloss": "you brought us",
+      "sense": null
+    },
+    {
+      "surface": "בַּמְּצוּדָ֑ה",
+      "gloss": "into the net",
+      "sense": null
+    },
+    {
+      "surface": "שַׂ֖מְתָּ",
+      "gloss": "you laid",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוּעָקָ֣ה",
+      "gloss": "pressure",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמָתְנֵֽינוּ",
+      "gloss": "on our loins",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:44.494811910Z",
+  "model": "glm-5.3"
 }

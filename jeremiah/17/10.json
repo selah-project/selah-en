@@ -1,75 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "I am YHWH, searching the heart, examining the kidneys, to give to ⟨a⟩ man according to his way, according to the fruit of his doings.",
+  "ref": "jeremiah 17:10",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "kidneys",
+      "rationale": "כליות is literally 'kidneys', the seat of feeling; many versions render 'mind' or 'heart'."
+    },
+    {
+      "kind": "crux",
+      "subject": "כדרכו",
+      "rationale": "Ketiv כדרכו vs qere כדרכיו, a plural-suffix spelling difference only."
+    },
+    {
+      "kind": "addition",
+      "subject": "the heart",
+      "rationale": "English object word supplied where Hebrew juxtaposes participle and noun without an article."
+    }
+  ],
+  "translation": "I, YHWH, search the heart, test the kidneys, to give to a man according to his ways, according to the fruit of his deeds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "11e8ebbfd60d9cfea6329e2aa342480f36cd7b3eaa1349b82b09da98d26a7f45",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/17\/9-12.1791189365178.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
+      "surface": "אֲנִ֧י",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֛ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "חקר",
-      "gloss": "searching",
+      "surface": "חֹקֵ֥ר",
+      "gloss": "search",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵ֖ב",
+      "gloss": "the heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּחֵ֣ן",
+      "gloss": "test",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּלָיֹ֑ת",
+      "gloss": "the kidneys",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלָתֵ֤ת",
+      "gloss": "and to give",
+      "sense": null
+    },
+    {
+      "surface": "לְאִישׁ֙",
+      "gloss": "to a man"
+    },
+    {
+      "surface": "כְּדַרְכּ֖וֹ",
+      "gloss": "according to his ways",
       "readings": [
-        "searching",
-        "examine"
-      ]
-    },
-    {
-      "surface": "לב",
-      "gloss": "⟨the⟩ heart"
-    },
-    {
-      "surface": "בחן",
-      "gloss": "examining",
-      "readings": [
-        "examining",
-        "test"
-      ]
-    },
-    {
-      "surface": "כליות",
-      "gloss": "⟨the⟩ kidneys",
-      "readings": [
-        "⟨the⟩ kidneys",
-        "the inner self"
+        "according to his ways",
+        "according to his conduct"
       ],
-      "held_by": {
-        "⟨the⟩ kidneys": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the inner self": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ולתת",
-      "gloss": "and to give"
+      "surface": "כְּפְרִ֖י",
+      "gloss": "according to the fruit",
+      "sense": "S1"
     },
     {
-      "surface": "לאיש",
-      "gloss": "to ⟨a⟩ man"
-    },
-    {
-      "surface": "כדרכו",
-      "gloss": "according to his way"
-    },
-    {
-      "surface": "כפרי",
-      "gloss": "according to the fruit of"
-    },
-    {
-      "surface": "מעלליו",
-      "gloss": "his doings"
+      "surface": "מַעֲלָלָֽיו",
+      "gloss": "of his deeds",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:36:05.182834782Z",
+  "model": "glm-5.3"
 }

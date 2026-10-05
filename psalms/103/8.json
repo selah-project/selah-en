@@ -1,81 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Compassionate and gracious is YHWH, long of nostrils and great in chesed.",
+  "ref": "psalms 103:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "slow of nostrils",
+      "rationale": "ארך אפים, literally 'long of nostrils' (anger flares through the nose), rendered 'slow to anger' — the literal picture kept with the dual shown."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "Ps 145:8",
+      "rationale": "near-verbatim parallel with the adjective pair reversed (חנון ורחום) and גדל for רב."
+    }
+  ],
+  "translation": "Compassionate and gracious is YHWH, slow of nostrils — two — and great in chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ac723ed1c3d8b1f8b82e5a199eeb7e67fd2bcf75ffd4201a3a761edf322350ad",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/5-8.1791193273885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "רחום",
-      "gloss": "Compassionate"
+      "surface": "רַח֣וּם",
+      "gloss": "compassionate",
+      "sense": "S1"
     },
     {
-      "surface": "וחנון",
-      "gloss": "and gracious"
+      "surface": "וְחַנּ֣וּן",
+      "gloss": "and gracious",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ארך",
-      "gloss": "long of",
-      "readings": [
-        "long of",
-        "slow"
-      ],
-      "held_by": {
-        "long of": [
-          "v1",
-          "en4"
-        ],
-        "slow": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אֶ֖רֶךְ",
+      "gloss": "slow of",
+      "sense": "S1"
     },
     {
-      "surface": "אפים",
-      "gloss": "nostrils",
-      "readings": [
-        "nostrils",
-        "anger"
-      ],
-      "held_by": {
-        "nostrils": [
-          "v1",
-          "en4"
-        ],
-        "anger": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אַפַּ֣יִם",
+      "gloss": "nostrils — two",
+      "sense": "S1"
     },
     {
-      "surface": "ורב",
-      "gloss": "and great"
+      "surface": "וְרַ֥ב",
+      "gloss": "and great in",
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
+      "surface": "חָֽסֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
         "steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "steadfast love": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:13.886718678Z",
+  "model": "glm-5.3"
 }

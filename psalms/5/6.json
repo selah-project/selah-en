@@ -1,78 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "The boasters shall not stand before your eyes; you hate all workers of iniquity.",
+  "ref": "psalms 5:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "boasters",
+      "rationale": "הוֹלְלִים read as 'boasters' from הלל; some render 'fools\/raving ones'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "iniquity",
+      "rationale": "אָוֶן literally 'nothingness\/trouble'; the moral sense chosen"
+    }
+  ],
+  "translation": "The boasters will not stand firm before your eyes; you hate all doers of iniquity.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "51c92ba92d52b2dc76c6ab0190754460e658167d8142664f2df5613ab2168c75",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/5\/5-8.1791192367154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "יתיצבו",
-      "gloss": "shall stand"
+      "surface": "יִתְיַצְּבוּ",
+      "gloss": "will stand firm",
+      "sense": "S1"
     },
     {
-      "surface": "הוללים",
-      "gloss": "the boasters",
-      "readings": [
-        "the boasters",
-        "the fools"
-      ],
-      "held_by": {
-        "the boasters": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the fools": [
-          "en4"
-        ]
-      }
+      "surface": "הוֹלְלִים",
+      "gloss": "The boasters",
+      "sense": "S1"
     },
     {
-      "surface": "לנגד",
-      "gloss": "before"
+      "surface": "לְנֶגֶד",
+      "gloss": "before",
+      "sense": "S1"
     },
     {
-      "surface": "עיניך",
-      "gloss": "your eyes"
+      "surface": "עֵינֶיךָ",
+      "gloss": "your eyes",
+      "sense": "S1"
     },
     {
-      "surface": "שנאת",
-      "gloss": "you hate"
+      "surface": "שָׂנֵאתָ",
+      "gloss": "you hate",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "פעלי",
-      "gloss": "workers of"
+      "surface": "פֹּעֲלֵי",
+      "gloss": "doers of",
+      "sense": "S1"
     },
     {
-      "surface": "און",
+      "surface": "אָוֶן",
       "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "trouble",
-        "nothingness"
-      ],
-      "held_by": {
-        "iniquity": [
-          "v2",
-          "v3"
-        ],
-        "trouble": [
-          "v1",
-          "en4"
-        ],
-        "nothingness": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:07.155119074Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 47,
-  "translation": "He killed their vines with hail, and their sycamore-figs with frost.",
-  "tokens": [
+  "ref": "psalms 78:47",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "יהרג",
-      "gloss": "He killed"
+      "kind": "hapax",
+      "subject": "חֲנָמַל",
+      "rationale": "occurs only here; meaning uncertain — heavy rain, extreme cold, or melting hail."
     },
     {
-      "surface": "בברד",
-      "gloss": "with hail"
-    },
-    {
-      "surface": "גפנם",
-      "gloss": "their vines"
-    },
-    {
-      "surface": "ושקמותם",
-      "gloss": "and their sycamore-figs"
-    },
-    {
-      "surface": "בחנמל",
-      "gloss": "with frost",
-      "readings": [
-        "with frost",
-        "with hail"
-      ],
-      "held_by": {
-        "with frost": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with hail": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "חֲנָמַל",
+      "rationale": "renderings range from 'frost\/ice' (RSV) to 'flooding rain' (REB) to 'fiery hail' (after 'aphis\/plantlouse' reading); kept literal as fire-hail."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He killed with hail their vines, and their sycamore-figs with fire-hail.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ee3a436c9ee64e797e4434bf8c93eb6a7c98c544479de471d79e1a4d05ea3a92",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/45-48.1791193053799.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַהֲרֹ֣ג",
+      "gloss": "He killed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּבָּרָ֣ד",
+      "gloss": "with hail",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּפְנָ֑ם",
+      "gloss": "their vines",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝שִׁקְמוֹתָ֗ם",
+      "gloss": "and their sycamore-figs",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּֽחֲנָמַֽל",
+      "gloss": "with fire-hail",
+      "sense": "S1",
+      "readings": [
+        "with fire-hail",
+        "with flooding rain",
+        "with icy blast"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:33.800824625Z",
+  "model": "glm-5.3"
 }

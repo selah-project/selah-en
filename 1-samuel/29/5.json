@@ -1,18 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Is this not David, of whom they answer him in the dances, saying, “Saul has struck among his thousands, and David among his ten thousands”?",
+  "ref": "1-samuel 29:5",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ברבבתו",
+      "rationale": "Ketiv ברבבתו lacks the yod of the qere ברבבתיו; ketiv is the ground, qere a lens."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "thousands \/ ten-thousands",
+      "rationale": "The women's answering song escalates Saul's thousands against David's ten-thousands — the escalation driving the Philistine officers' fear."
+    },
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "The Philistine officers address Akish about David in his hearing."
+    }
+  ],
+  "translation": "Is this not David, of whom they answered in the dances, saying, “Saul has struck in his thousands, and David in his ten-thousands”?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dcfc290713cfeb6c2948eda42229e1b5e73e31c06f45556994817843f8688b16",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/29\/5-8.1791186027327.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "הלוא",
-      "gloss": "Is not"
+      "gloss": "Is … not",
+      "sense": "S2"
     },
     {
       "surface": "זה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -20,22 +55,8 @@
     },
     {
       "surface": "יענו",
-      "gloss": "they answer",
-      "readings": [
-        "they answer",
-        "they sing in response"
-      ],
-      "held_by": {
-        "they answer": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they sing in response": [
-          "en4"
-        ]
-      }
+      "gloss": "they answered",
+      "sense": "S1"
     },
     {
       "surface": "לו",
@@ -43,11 +64,13 @@
     },
     {
       "surface": "במחלות",
-      "gloss": "in the dances"
+      "gloss": "in the dances",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "הכה",
@@ -55,21 +78,25 @@
     },
     {
       "surface": "שאול",
-      "gloss": "Saul"
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
       "surface": "באלפיו",
-      "gloss": "among his thousands"
+      "gloss": "in his thousands",
+      "sense": "S1"
     },
     {
       "surface": "ודוד",
-      "gloss": "and David"
+      "gloss": "and David",
+      "sense": "S1"
     },
     {
       "surface": "ברבבתו",
-      "gloss": "among his ten thousands"
+      "gloss": "in his ten-thousands",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:40:27.328219321Z",
+  "model": "glm-5.3"
 }

@@ -1,56 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "You are fearsome — even you; and who can stand before you, from the time of your anger?",
-  "tokens": [
+  "ref": "psalms 76:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 76,
+  "notes": [
     {
-      "surface": "אתה",
-      "gloss": "You"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew has no copula; the doubled אתה נורא אתה is 'You, fearsome One, You'"
     },
     {
-      "surface": "נורא",
-      "gloss": "fearsome"
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אף literally 'nose\/nostril', anger by the flaring of nostrils"
     },
     {
-      "surface": "אתה",
-      "gloss": "even you"
-    },
-    {
-      "surface": "ומי",
-      "gloss": "and who"
-    },
-    {
-      "surface": "יעמד",
-      "gloss": "can stand"
-    },
-    {
-      "surface": "לפניך",
-      "gloss": "before your face"
-    },
-    {
-      "surface": "מאז",
-      "gloss": "from then"
-    },
-    {
-      "surface": "אפך",
-      "gloss": "your anger",
-      "readings": [
-        "your anger",
-        "your nostril"
-      ],
-      "held_by": {
-        "your anger": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your nostril": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "מאז",
+      "rationale": "'from then\/at that time' — taken as 'once Your anger is kindled' or 'from before Your anger'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You are fearsome — and who can stand before You from the moment of Your anger?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c27149a970adb73efe7ad4e1b01e5a0b4509462c54899dac2529bf1c6bc8fcff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/76\/8-8.1791231225074.json",
+    "code": "d2ea2f22-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַתָּה",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "נוֹרָא",
+      "gloss": "are fearsome",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "⟨are You⟩",
+      "sense": null
+    },
+    {
+      "surface": "וּמִי",
+      "gloss": "and who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲמֹד",
+      "gloss": "can stand",
+      "sense": null
+    },
+    {
+      "surface": "לְפָנֶיךָ",
+      "gloss": "before You",
+      "sense": null
+    },
+    {
+      "surface": "מֵאָז",
+      "gloss": "from the moment of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפֶּךָ",
+      "gloss": "Your anger",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T20:13:45.074831055Z",
+  "model": "glm-5.3"
 }

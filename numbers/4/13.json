@@ -1,50 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And they shall remove the ashes from ⟨את⟩ the altar, and spread over it a garment of purple.",
+  "ref": "numbers 4:13",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "clear the fat-ashes from",
+      "rationale": "דשן is literally 'fatten\/degrease' — to remove the fatty ashes from the altar; rendered as the action, not the root picture"
+    },
+    {
+      "kind": "elision",
+      "subject": "מִן",
+      "rationale": "the verb דשן here implies removal from the altar; the preposition is carried inside the verb's rendering"
+    }
+  ],
+  "translation": "And they shall clear the fat-ashes from ⟨את⟩ the altar, and they shall spread over it a cloth of purple stuff.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "943b4ca87ec78d4eee21beb369394f9da3b3108f69a89af7af9fbec3f53cd669",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/4\/13-16.1791182845748.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ודשנו",
-      "gloss": "and they shall remove the ashes of"
+      "surface": "וְדִשְּׁנ֖וּ",
+      "gloss": "And they shall clear the fat-ashes from",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the altar",
+      "sense": null
     },
     {
-      "surface": "המזבח",
-      "gloss": "the altar"
+      "surface": "הַמִּזְבֵּ֑חַ",
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "ופרשו",
-      "gloss": "and spread"
+      "gloss": "and they shall spread",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
-      "gloss": "over it"
+      "surface": "עָלָ֔יו",
+      "gloss": "over it",
+      "sense": null
     },
     {
-      "surface": "בגד",
-      "gloss": "a garment",
-      "readings": [
-        "a garment",
-        "a cloth"
-      ],
-      "held_by": {
-        "a garment": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a cloth": [
-          "v2"
-        ]
-      }
+      "surface": "בֶּ֖גֶד",
+      "gloss": "a cloth of",
+      "sense": "S1"
     },
     {
-      "surface": "ארגמן",
-      "gloss": "of purple"
+      "surface": "אַרְגָּמָֽן",
+      "gloss": "purple stuff",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:47:25.750105862Z",
+  "model": "glm-5.3"
 }

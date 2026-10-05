@@ -1,44 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "I said, I would blow them away, I would cause their remembrance to cease from mankind.",
-  "tokens": [
+  "ref": "deuteronomy 32:26",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "אמרתי",
-      "gloss": "I said"
+      "kind": "hapax",
+      "subject": "אפאיהם",
+      "rationale": "פאה occurs only here; root picture is 'to puff\/blow away', exact sense unsure"
     },
     {
-      "surface": "אפאיהם",
-      "gloss": "I would blow them away",
-      "readings": [
-        "I would blow them away",
-        "I would scatter them"
-      ],
-      "held_by": {
-        "I would blow them away": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I would scatter them": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אשביתה",
-      "gloss": "I would cause to cease"
-    },
-    {
-      "surface": "מאנוש",
-      "gloss": "from mankind"
-    },
-    {
-      "surface": "זכרם",
-      "gloss": "their remembrance"
+      "kind": "alternative",
+      "subject": "I would puff them away",
+      "rationale": "SDBH reads it as 'kill violently'; the literal picture of blowing away is kept instead"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I said: I would puff them away, I would put an end from man to their remembrance —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4db6e86d16ca9b483bbfe78ce607f8f81d2fd0da01cd9309a927a546c88b2e1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/25-28.1791184217731.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָמַרְתִּי",
+      "gloss": "I said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפְאֵיהֶם",
+      "gloss": "I would puff them away",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁבִּיתָה",
+      "gloss": "I would cause to cease",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֱנוֹשׁ",
+      "gloss": "from man",
+      "sense": "S1"
+    },
+    {
+      "surface": "זִכְרָם",
+      "gloss": "their remembrance",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:17.732106674Z",
+  "model": "glm-5.3"
 }

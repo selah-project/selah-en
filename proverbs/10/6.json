@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Blessings ⟨are⟩ on the head of the righteous, but the mouth of the wicked covers violence.",
-  "tokens": [
+  "ref": "proverbs 10:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "ברכות",
-      "gloss": "blessings"
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Hebrew is verbless; the copula is supplied for English."
     },
     {
-      "surface": "לראש",
-      "gloss": "on the head of"
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ופי",
-      "gloss": "but the mouth of"
-    },
-    {
-      "surface": "רשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "יכסה",
-      "gloss": "covers"
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
+      "kind": "crux",
+      "subject": "covers violence",
+      "rationale": "Either the wicked mouth conceals violence (SDBH: hiding information) or hides it, i.e. the mouth's violence hides under fair speech."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Blessings ⟨are⟩ on the head of the righteous, and the mouth of the wicked covers up violence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc7f7987a0fa900381f83b5ee3dec5f0d6395163645515f4367265e5bb396cbc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/5-8.1791193793112.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּ֭רָכוֹת",
+      "gloss": "Blessings",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרֹ֣אשׁ",
+      "gloss": "on the head of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּ֑יק",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפִ֥י",
+      "gloss": "and the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְשָׁעִ֝֗ים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְכַסֶּ֥ה",
+      "gloss": "covers up",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָמָֽס",
+      "gloss": "violence",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:53.113663400Z",
+  "model": "glm-5.3"
 }

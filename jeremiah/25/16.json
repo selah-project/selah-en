@@ -1,41 +1,57 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And they shall drink and be disquieted and rave from before the sword that I am sending among them.",
+  "ref": "jeremiah 25:16",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "threefold verb chain",
+      "rationale": "Drink–reel–rave: three chained hithpolel-like verbs mimic drunken staggering in sound and rhythm."
+    },
+    {
+      "kind": "substitution",
+      "subject": "act like madmen",
+      "rationale": "והתהללו from הלל 'rave\/act insanely', same root as 'praise' — the mad rave of drunkenness."
+    }
+  ],
+  "translation": "And they shall drink, and reel to and fro, and act like madmen, from before the sword that I am sending among them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "947a2e2524a67c7734d3f856254b9e15f7fb47f05a4ccf34f22dabe6f067ff7e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/25\/13-16.1791199340262.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "ושתו",
-      "gloss": "And they shall drink"
+      "gloss": "and they shall drink",
+      "sense": "S1"
     },
     {
       "surface": "והתגעשו",
-      "gloss": "and be disquieted"
+      "gloss": "and reel to and fro",
+      "sense": "S1"
     },
     {
       "surface": "והתהללו",
-      "gloss": "and rave"
+      "gloss": "and act like madmen",
+      "sense": "S1"
     },
     {
       "surface": "מפני",
-      "gloss": "from before",
-      "readings": [
-        "from before",
-        "because of"
-      ],
-      "held_by": {
-        "from before": [
-          "v1",
-          "v3"
-        ],
-        "because of": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "from before"
     },
     {
       "surface": "החרב",
-      "gloss": "the sword"
+      "gloss": "the sword",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -47,13 +63,14 @@
     },
     {
       "surface": "שלח",
-      "gloss": "am sending"
+      "gloss": "am sending",
+      "sense": "S1"
     },
     {
       "surface": "בינתם",
       "gloss": "among them"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:22:20.263867682Z",
+  "model": "glm-5.3"
 }

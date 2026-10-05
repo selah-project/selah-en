@@ -1,53 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 101,
-  "translation": "From every path of evil I have restrained my feet, so that I might observe your word.",
-  "tokens": [
+  "ref": "psalms 119:101",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "מכל",
-      "gloss": "from every"
-    },
-    {
-      "surface": "ארח",
-      "gloss": "path",
-      "readings": [
-        "path",
-        "caravan"
-      ],
-      "held_by": {
-        "path": [
-          "v1",
-          "v3"
-        ],
-        "caravan": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "רע",
-      "gloss": "of evil"
-    },
-    {
-      "surface": "כלאתי",
-      "gloss": "I have restrained"
-    },
-    {
-      "surface": "רגלי",
-      "gloss": "my feet"
-    },
-    {
-      "surface": "למען",
-      "gloss": "so that"
-    },
-    {
-      "surface": "אשמר",
-      "gloss": "I might observe"
-    },
-    {
-      "surface": "דברך",
-      "gloss": "your word"
+      "kind": "substitution",
+      "subject": "my feet",
+      "rationale": "רגלי is literally 'my feet', used metonymically for the whole person's conduct"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From every evil way I have held back my feet, so that I may keep Your word.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8885e7676c04ff2d9ec29c6ba4c99e85112e33ad962074a6591113bc71ad968d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/101-104.1791193475964.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִכָּל",
+      "gloss": "from every",
+      "sense": null
+    },
+    {
+      "surface": "אֹרַח",
+      "gloss": "way",
+      "readings": [
+        "way",
+        "path"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "רָע",
+      "gloss": "evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּלֵּאתִי",
+      "gloss": "I have held back",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַגְלַי",
+      "gloss": "my feet",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַעַן",
+      "gloss": "so that",
+      "sense": null
+    },
+    {
+      "surface": "אֶשְׁמֹר",
+      "gloss": "I may keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבָרֶךָ",
+      "gloss": "Your word",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:35.965082065Z",
+  "model": "glm-5.3"
 }

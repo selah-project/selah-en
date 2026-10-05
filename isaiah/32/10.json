@@ -1,67 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Days upon a year you will tremble, confident ones, for the vintage is finished — the ingathering will not come.",
-  "tokens": [
+  "ref": "isaiah 32:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "ימים",
-      "gloss": "Days"
+      "kind": "measurement",
+      "subject": "days upon a year",
+      "rationale": "The oracle is dated — a span of days beyond a year."
     },
     {
-      "surface": "על",
+      "kind": "crux",
+      "subject": "בלי יבוא",
+      "rationale": "'Without it coming' (the gathering fails to arrive) vs 'it will not come'; בלי is literally 'failure\/nothing'."
+    }
+  ],
+  "translation": "Days upon a year you shall tremble, confident ones, for the vintage is finished, the gathering — without it coming.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bb39c88234a7b391bffa3723f82be26ff7429d69ced02439f70fd8d64e969982",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/32\/9-12.1791188479739.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָמִים",
+      "gloss": "Days",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "שנה",
-      "gloss": "a year"
+      "surface": "שָׁנָה",
+      "gloss": "a year",
+      "sense": "S1"
     },
     {
-      "surface": "תרגזנה",
-      "gloss": "you will tremble"
+      "surface": "תִּרְגַּזְנָה",
+      "gloss": "you shall tremble",
+      "sense": "S1"
     },
     {
-      "surface": "בטחות",
-      "gloss": "confident ones"
+      "surface": "בֹּֽטְחוֹת",
+      "gloss": "confident ones",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "כלה",
-      "gloss": "is finished"
+      "surface": "כָּלָה",
+      "gloss": "is finished",
+      "sense": "S1"
     },
     {
-      "surface": "בציר",
-      "gloss": "the vintage"
+      "surface": "בָּצִיר",
+      "gloss": "the vintage",
+      "sense": "S1"
     },
     {
-      "surface": "אסף",
-      "gloss": "ingathering"
+      "surface": "אֹסֶף",
+      "gloss": "the gathering",
+      "sense": "S1"
     },
     {
-      "surface": "בלי",
-      "gloss": "not",
-      "readings": [
-        "not",
-        "without"
-      ],
-      "held_by": {
-        "not": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "without": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּלִי",
+      "gloss": "without",
+      "sense": "S1"
     },
     {
-      "surface": "יבוא",
-      "gloss": "will come"
+      "surface": "יָבֹא",
+      "gloss": "it coming",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:19.746594694Z",
+  "model": "glm-5.3"
 }

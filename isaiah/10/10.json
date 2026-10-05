@@ -1,82 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "As my hand has found to the kingdoms of the idols, and their carved images, more than Jerusalem and than Samaria,",
+  "ref": "isaiah 10:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "מירושלם ומשמרון",
+      "rationale": "Hebrew 'from Jerusalem and from Samaria' is read as comparative 'more than' or locative 'which are in'; rendered comparatively, with the elided 'those of' bracketed."
+    },
+    {
+      "kind": "substitution",
+      "subject": "אליל",
+      "rationale": "Singular 'the idol' with plural kingdoms; the word itself carries 'worthless thing,' so the singular is collective."
+    }
+  ],
+  "translation": "as my hand found the kingdoms of the idol, and their carved images, more than ⟨those of⟩ Jerusalem and more than ⟨those of⟩ Samaria —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b757003119aa3a4f3fac36c77178fad4299211130a355b8023df8f5129d79ce5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/10\/9-12.1791188182267.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כאשר",
+      "surface": "כַּאֲשֶׁר֙",
       "gloss": "as"
     },
     {
-      "surface": "מצאה",
-      "gloss": "has found"
+      "surface": "מָצְאָ֣ה",
+      "gloss": "found",
+      "sense": "S1"
     },
     {
-      "surface": "ידי",
-      "gloss": "my hand"
+      "surface": "יָדִ֔י",
+      "gloss": "my hand",
+      "sense": "S1"
     },
     {
-      "surface": "לממלכת",
-      "gloss": "to the kingdoms of"
+      "surface": "לְמַמְלְכֹ֖ת",
+      "gloss": "the kingdoms of",
+      "sense": "S1"
     },
     {
-      "surface": "האליל",
-      "gloss": "the idols",
-      "readings": [
-        "the idols",
-        "the worthless things"
-      ],
-      "held_by": {
-        "the idols": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the worthless things": [
-          "en4"
-        ]
-      }
+      "surface": "הָאֱלִ֑יל",
+      "gloss": "the idol",
+      "sense": "S1"
     },
     {
-      "surface": "ופסיליהם",
-      "gloss": "and their carved images"
+      "surface": "וּפְסִ֣ילֵיהֶ֔ם",
+      "gloss": "and their carved images",
+      "sense": "S1"
     },
     {
-      "surface": "מירושלם",
-      "gloss": "than Jerusalem",
-      "readings": [
-        "than Jerusalem",
-        "from Jerusalem"
-      ],
-      "held_by": {
-        "than Jerusalem": [
-          "v3"
-        ],
-        "from Jerusalem": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "מִירֽוּשָׁלִַ֖ם",
+      "gloss": "more than Jerusalem"
     },
     {
-      "surface": "ומשמרון",
-      "gloss": "and than Samaria",
-      "readings": [
-        "and than Samaria",
-        "and from Samaria"
-      ],
-      "held_by": {
-        "and than Samaria": [
-          "v3"
-        ],
-        "and from Samaria": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וּמִשֹּׁמְרֽוֹן",
+      "gloss": "and more than Samaria",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:16:22.268461051Z",
+  "model": "glm-5.3"
 }

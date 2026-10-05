@@ -1,81 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "But at my halting they rejoiced, and gathered themselves together; they gathered themselves against me — smiters — and I did not know; they tore, and did not cease.",
+  "ref": "psalms 35:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "נכים",
+      "rationale": "Occurs only here; literally 'struck in the feet,' elsewhere the root suggests slanderers."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ונאספו נאספו",
+      "rationale": "Doubled verb — the gathering itself is doubled, kept in English."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨at me⟩",
+      "rationale": "קרעו has no stated object; English supplies one."
+    },
+    {
+      "kind": "crux",
+      "subject": "and did not cease",
+      "rationale": "דמו read as 'were silent' (like the dumb) or 'ceased' — both attested."
+    }
+  ],
+  "translation": "But at my limping they rejoiced, and gathered — gathered themselves against me — stricken ones I did not know; they tore ⟨at me⟩ and did not cease.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b6d4ffb56d4f41bb8fd2dc7d82ae78d5495580131647e2c5f0ac73214d6dab54",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/13-16.1791192623839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ובצלעי",
-      "gloss": "at my halting"
+      "surface": "וּבְצַלְעִי",
+      "gloss": "But at my limping",
+      "sense": "S1"
     },
     {
-      "surface": "שמחו",
-      "gloss": "they rejoiced"
+      "surface": "שָׂמְחוּ",
+      "gloss": "they rejoiced",
+      "sense": "S1"
     },
     {
-      "surface": "ונאספו",
-      "gloss": "and gathered themselves together"
+      "surface": "וְנֶאֱסָפוּ",
+      "gloss": "and gathered",
+      "sense": "S1"
     },
     {
-      "surface": "נאספו",
-      "gloss": "they gathered themselves together"
+      "surface": "נֶאֶסְפוּ",
+      "gloss": "gathered themselves",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַי",
       "gloss": "against me"
     },
     {
-      "surface": "נכים",
-      "gloss": "smiters",
+      "surface": "נֵכִים",
+      "gloss": "stricken ones",
       "readings": [
-        "smiters",
+        "stricken ones",
         "slanderers"
       ],
-      "held_by": {
-        "smiters": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "slanderers": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעתי",
-      "gloss": "I did not know"
+      "surface": "יָדַעְתִּי",
+      "gloss": "I knew"
     },
     {
-      "surface": "קרעו",
-      "gloss": "they tore"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "דמו",
-      "gloss": "did not cease",
+      "surface": "קָרְעוּ",
+      "gloss": "they tore",
       "readings": [
-        "did not cease",
-        "stilled themselves"
+        "they tore",
+        "they tore at me"
       ],
-      "held_by": {
-        "did not cease": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "stilled themselves": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּמּוּ",
+      "gloss": "did they cease",
+      "readings": [
+        "did they cease",
+        "were they silent"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:23.840739393Z",
+  "model": "glm-5.3"
 }

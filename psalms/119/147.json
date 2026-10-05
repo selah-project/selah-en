@@ -1,73 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 147,
-  "translation": "I anticipated the dusk and cried ⟨out⟩; in your words I hoped.",
+  "ref": "psalms 119:147",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "twilight",
+      "rationale": "נשף can be dusk or pre-dawn darkness; with קדמתי the sense is before dawn, though the word itself is 'twilight'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "qere לדברך",
+      "rationale": "Ketiv plural 'your words' against qere singular 'your word'; rendering follows the ketiv."
+    }
+  ],
+  "translation": "I rose before the dawn and cried out; for your word I waited.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9ddb88e36a39a7aeeedf8f368a91f93e270ad64aa85ff06cfd6b92c6de2cd4af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/145-148.1791193484000.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "קדמתי",
-      "gloss": "I anticipated",
-      "readings": [
-        "I anticipated",
-        "I preceded"
-      ],
-      "held_by": {
-        "I anticipated": [
-          "v1",
-          "v3"
-        ],
-        "I preceded": [
-          "en4"
-        ]
-      }
+      "surface": "קִדַּ֣מְתִּי",
+      "gloss": "I came before",
+      "sense": "S1"
     },
     {
-      "surface": "בנשף",
-      "gloss": "the dusk",
-      "readings": [
-        "the dusk",
-        "the twilight",
-        "the night-watches"
-      ],
-      "held_by": {
-        "the dusk": [
-          "en4"
-        ],
-        "the twilight": [
-          "en4"
-        ],
-        "the night-watches": [
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "בַּ֭נֶּשֶׁף",
+      "gloss": "the twilight",
+      "sense": "S1"
     },
     {
-      "surface": "ואשועה",
-      "gloss": "and cried ⟨out⟩"
+      "surface": "וָאֲשַׁוֵּ֑עָה",
+      "gloss": "and I cried out",
+      "sense": "S1"
     },
     {
       "surface": "לדבריך",
-      "gloss": "in your words"
+      "gloss": "for your words",
+      "sense": "S1"
     },
     {
-      "surface": "יחלתי",
-      "gloss": "I hoped",
-      "readings": [
-        "I hoped",
-        "I waited"
-      ],
-      "held_by": {
-        "I hoped": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I waited": [
-          "en4"
-        ]
-      }
+      "surface": "יִחָֽלְתִּי",
+      "gloss": "I waited",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:44.001683358Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "The words of a wise man's mouth are grace, and the lips of a fool swallow him.",
-  "tokens": [
+  "ref": "ecclesiastes 10:12",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "דברי",
-      "gloss": "Words of"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between 'the words of a wise man's mouth' and 'grace'."
     },
     {
-      "surface": "פי",
-      "gloss": "of ⟨the⟩ mouth"
-    },
-    {
-      "surface": "חכם",
-      "gloss": "of ⟨a⟩ wise man"
-    },
-    {
-      "surface": "חן",
-      "gloss": "grace"
-    },
-    {
-      "surface": "ושפתות",
-      "gloss": "and ⟨the⟩ lips of"
-    },
-    {
-      "surface": "כסיל",
-      "gloss": "of ⟨a⟩ fool"
-    },
-    {
-      "surface": "תבלענו",
-      "gloss": "will swallow him"
+      "kind": "crux",
+      "subject": "swallow him",
+      "rationale": "The feminine verb's subject is the fool's own lips — his speech destroys its speaker; some read the suffix as impersonal, 'swallow up'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The words of a wise man's mouth are grace, but the lips of a fool swallow him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1484e015863820e913956579c28a4ed09f4fb62d5c4cc6f43ade379efc522f89",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/10\/9-12.1791194982857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דִּבְרֵי",
+      "gloss": "the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּי",
+      "gloss": "the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכָם",
+      "gloss": "a wise man",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵן",
+      "gloss": "grace",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׂפְתוֹת",
+      "gloss": "but the lips of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִיל",
+      "gloss": "a fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּבַלְעֶנּוּ",
+      "gloss": "swallow him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:09:42.858261756Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 126,
-  "translation": "Time to act for YHWH — they have broken your Torah.",
+  "ref": "psalms 119:126",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "time to act for YHWH",
+      "rationale": "Read either 'it is time for YHWH to act' or 'it is time to act for YHWH'; the preposition ל permits both."
+    },
+    {
+      "kind": "substitution",
+      "subject": "Torah",
+      "rationale": "תורה kept as Torah, the collection of YHWH's instruction; 'law' narrows it."
+    }
+  ],
+  "translation": "It is time to act for YHWH — they have broken your Torah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c194c0943a0b28fe9bb7a8e3fc9022385dbec4ae9fea424d1c636bdf1b07f175",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/125-128.1791193492191.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עת",
-      "gloss": "time"
+      "surface": "עֵת",
+      "gloss": "It is time",
+      "sense": "S1"
     },
     {
-      "surface": "לעשות",
-      "gloss": "to act"
+      "surface": "לַעֲשׂוֹת",
+      "gloss": "to act",
+      "sense": "S1"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "for YHWH"
+      "surface": "לַיהוָה",
+      "gloss": "for YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "הפרו",
-      "gloss": "they have broken"
+      "surface": "הֵפֵרוּ",
+      "gloss": "they have broken",
+      "sense": "S1"
     },
     {
-      "surface": "תורתך",
+      "surface": "תּוֹרָתֶךָ",
       "gloss": "your Torah",
       "readings": [
         "your Torah",
-        "your law"
+        "your instruction"
       ],
-      "held_by": {
-        "your Torah": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your law": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:52.192583412Z",
+  "model": "glm-5.3"
 }

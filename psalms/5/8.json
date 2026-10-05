@@ -1,52 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And I, in the abundance of your chesed, I will come into your house; I will bow down toward the temple of your holiness in your fear.",
+  "ref": "psalms 5:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חֶסֶד transliterated per discipline; reading 2 'steadfast love' carries the sense"
+    },
+    {
+      "kind": "alternative",
+      "subject": "your holy palace",
+      "rationale": "הֵיכַל קָדְשְׁךָ literally 'palace of your holiness' — a bound construct kept as one phrase"
+    }
+  ],
+  "translation": "But I, in the abundance of your chesed, will come into your house; I will bow down toward your holy palace in your fear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "51c92ba92d52b2dc76c6ab0190754460e658167d8142664f2df5613ab2168c75",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/5\/5-8.1791192367154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואני",
-      "gloss": "And I"
+      "surface": "וַאֲנִי",
+      "gloss": "But I"
     },
     {
-      "surface": "ברב",
-      "gloss": "in the abundance of"
+      "surface": "בְּרֹב",
+      "gloss": "in the abundance of",
+      "sense": "S1"
     },
     {
-      "surface": "חסדך",
+      "surface": "חַסְדְּךָ",
       "gloss": "your chesed",
       "readings": [
         "your chesed",
         "your steadfast love"
-      ]
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "אבוא",
-      "gloss": "I will come"
+      "surface": "אָבוֹא",
+      "gloss": "will I come"
     },
     {
-      "surface": "ביתך",
-      "gloss": "into your house"
+      "surface": "בֵּיתֶךָ",
+      "gloss": "into your house",
+      "sense": "S1"
     },
     {
-      "surface": "אשתחוה",
-      "gloss": "I will bow down"
+      "surface": "אֶשְׁתַּחֲוֶה",
+      "gloss": "I will bow down",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "toward"
     },
     {
-      "surface": "היכל",
-      "gloss": "the temple of"
+      "surface": "הֵיכַל",
+      "gloss": "the palace of",
+      "sense": "S1"
     },
     {
-      "surface": "קדשך",
-      "gloss": "your holiness"
+      "surface": "קָדְשְׁךָ",
+      "gloss": "your holiness",
+      "sense": "S1"
     },
     {
-      "surface": "ביראתך",
-      "gloss": "in your fear"
+      "surface": "בְּיִרְאָתֶךָ",
+      "gloss": "in your fear",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:07.155428845Z",
+  "model": "glm-5.3"
 }

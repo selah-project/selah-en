@@ -1,32 +1,54 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And they forgot his deeds, and his wonders which he had shown them.",
-  "tokens": [
+  "ref": "psalms 78:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "וישכחו",
-      "gloss": "and they forgot"
-    },
-    {
-      "surface": "עלילותיו",
-      "gloss": "his deeds",
-      "readings": [
-        "his deeds",
-        "his exploits"
-      ]
-    },
-    {
-      "surface": "ונפלאותיו",
-      "gloss": "and his wonders"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "הראם",
-      "gloss": "he had shown them"
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "the suffix -ם on הראם is fused into the verb; English needs a separate pronoun"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they forgot his deeds and his wonders that he had shown them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "190aabf528d0609b09163bdeaf16eeb2f112bc3b8e81c7ee488ff150a64eb727",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/9-12.1791193045053.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּשְׁכְּח֥וּ",
+      "gloss": "And they forgot",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלִילֹתָ֑יו",
+      "gloss": "his deeds",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝נִפְלְאֹתָ֗יו",
+      "gloss": "and his wonders",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "that"
+    },
+    {
+      "surface": "הֶרְאָֽם",
+      "gloss": "he had shown them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:25.053931549Z",
+  "model": "glm-5.3"
 }

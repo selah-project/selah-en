@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Behold, ⟨one⟩ strong and mighty ⟨is⟩ to Adonai, like a storm-driving of hail, a storm of destruction, like a storm-driving of mighty waters overflowing; ⟨he⟩ casts down to the earth with the hand.",
+  "ref": "isaiah 28:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English needs an article before the predicate adjective 'strong and mighty one'."
+    },
+    {
+      "kind": "crux",
+      "subject": "he lays low",
+      "rationale": "הניח hiphil literally 'causes to rest\/sets down'; here cast down, as a storm flattening."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כזרם…כזרם",
+      "rationale": "The doubled 'like a downpour' frames the two storm images as parallel halves."
+    }
+  ],
+  "translation": "Behold, ⟨the⟩ strong and mighty one is for Adonai; like a downpour of hail, a storm of destruction; like a downpour of mighty, overflowing waters, he lays low to the earth with the hand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a60520ff14f135302adb79e88f442ee3a47529736af95e0a92a6be7465227fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/28\/1-4.1791188403067.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הנה",
@@ -8,95 +40,84 @@
     },
     {
       "surface": "חזק",
-      "gloss": "strong"
+      "gloss": "strong",
+      "sense": "S1"
     },
     {
       "surface": "ואמץ",
-      "gloss": "and mighty"
+      "gloss": "and mighty",
+      "sense": "S1"
     },
     {
       "surface": "לאדני",
-      "gloss": "to Adonai"
+      "gloss": "for Adonai",
+      "sense": "S1"
     },
     {
       "surface": "כזרם",
-      "gloss": "like a storm-driving"
+      "gloss": "like a downpour of",
+      "sense": "S1"
     },
     {
       "surface": "ברד",
-      "gloss": "of hail"
+      "gloss": "hail",
+      "sense": "S1"
     },
     {
       "surface": "שער",
-      "gloss": "a storm",
+      "gloss": "a storm of",
+      "sense": "S1",
       "readings": [
-        "a storm",
-        "a terror"
-      ],
-      "held_by": {
-        "a storm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a terror": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "a storm of",
+        "a tempest of",
+        "a terror of"
+      ]
     },
     {
       "surface": "קטב",
-      "gloss": "of destruction"
+      "gloss": "destruction",
+      "sense": "S1"
     },
     {
       "surface": "כזרם",
-      "gloss": "like a storm-driving"
+      "gloss": "like a downpour of",
+      "sense": "S1"
     },
     {
       "surface": "מים",
-      "gloss": "of waters"
+      "gloss": "waters",
+      "sense": "S1"
     },
     {
       "surface": "כבירים",
-      "gloss": "mighty"
+      "gloss": "mighty",
+      "sense": "S1"
     },
     {
       "surface": "שטפים",
-      "gloss": "overflowing"
+      "gloss": "overflowing",
+      "sense": "S1"
     },
     {
       "surface": "הניח",
-      "gloss": "casts down",
+      "gloss": "he lays low",
+      "sense": "S1",
       "readings": [
-        "casts down",
-        "lays down"
-      ],
-      "held_by": {
-        "casts down": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "lays down": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "he lays low",
+        "he causes to rest"
+      ]
     },
     {
       "surface": "לארץ",
-      "gloss": "to the earth"
+      "gloss": "to the earth",
+      "sense": "S1"
     },
     {
       "surface": "ביד",
-      "gloss": "with the hand"
+      "gloss": "with the hand",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:03.068673570Z",
+  "model": "glm-5.3"
 }

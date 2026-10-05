@@ -1,48 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "Behold, I know your thoughts, and the devices against me you do wrongfully.",
+  "ref": "job 21:27",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "deal violently",
+      "rationale": "חמס is relational aggression — 'wrong' or 'mistreat' loses the violence in the root"
+    },
+    {
+      "kind": "secret",
+      "subject": "your thoughts",
+      "rationale": "Job claims access to the friends' hidden intentions, the inward counsel"
+    }
+  ],
+  "translation": "Behold, I know your thoughts, and the schemes you plot against me with violence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "407929f986d2e154b68d5c9d718e29c64be80b120b0a3c993d58d387d5d29406",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/25-28.1791194370818.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "surface": "הֵ֣ן",
+      "gloss": "behold"
     },
     {
-      "surface": "ידעתי",
-      "gloss": "I know"
+      "surface": "יָ֭דַעְתִּי",
+      "gloss": "I know",
+      "sense": null
     },
     {
-      "surface": "מחשבותיכם",
-      "gloss": "your thoughts"
+      "surface": "מַחְשְׁבֹתֵיכֶ֑ם",
+      "gloss": "your thoughts",
+      "sense": "S1"
     },
     {
-      "surface": "ומזמות",
-      "gloss": "and the devices"
+      "surface": "וּ֝מְזִמּ֗וֹת",
+      "gloss": "and the schemes",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַ֥י",
       "gloss": "against me"
     },
     {
-      "surface": "תחמסו",
-      "gloss": "you do wrongfully",
-      "readings": [
-        "you do wrongfully",
-        "you violently plot"
-      ],
-      "held_by": {
-        "you do wrongfully": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "you violently plot": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "תַּחְמֹֽסוּ",
+      "gloss": "you deal violently",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:30.819597474Z",
+  "model": "glm-5.3"
 }

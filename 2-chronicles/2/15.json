@@ -1,91 +1,130 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And we will cut timber from Lebanon according to all your need, and we will bring them to you as rafts on the sea ⟨to⟩ Joppa, and you shall bring ⟨את⟩ them up to Jerusalem.",
-  "tokens": [
+  "ref": "2-chronicles 2:15",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ואנחנו",
-      "gloss": "And we"
+      "kind": "hapax",
+      "subject": "רַפְסֹדוֹת",
+      "rationale": "'rafts' occurs only here in the Tanakh — flat floating timber structures."
     },
     {
-      "surface": "נכרת",
-      "gloss": "will cut"
+      "kind": "hapax",
+      "subject": "צָרְכֶּךָ",
+      "rationale": "צֹרֶךְ 'need' occurs only here in the Tanakh."
     },
     {
-      "surface": "עצים",
-      "gloss": "timber",
-      "readings": [
-        "timber",
-        "trees"
-      ],
-      "held_by": {
-        "timber": [
-          "v2",
-          "v3"
-        ],
-        "trees": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "to Jerusalem",
+      "rationale": "ירושלם has no preposition; 'to' is supplied by context — left unbracketed as English requires the goal."
     },
     {
-      "surface": "מן",
-      "gloss": "from"
-    },
-    {
-      "surface": "הלבנון",
-      "gloss": "Lebanon"
-    },
-    {
-      "surface": "ככל",
-      "gloss": "according to all"
-    },
-    {
-      "surface": "צרכך",
-      "gloss": "your need"
-    },
-    {
-      "surface": "ונביאם",
-      "gloss": "and we will bring them"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "רפסדות",
-      "gloss": "as rafts"
-    },
-    {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "ים",
-      "gloss": "the sea"
-    },
-    {
-      "surface": "יפו",
-      "gloss": "Joppa"
-    },
-    {
-      "surface": "ואתה",
-      "gloss": "and you"
-    },
-    {
-      "surface": "תעלה",
-      "gloss": "shall bring up"
-    },
-    {
-      "surface": "אתם",
-      "gloss": "⟨את⟩ them"
-    },
-    {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "kind": "addition",
+      "subject": "as rafts",
+      "rationale": "רַפְסֹדוֹת is an adverbial accusative of manner, 'as rafts', with no English equivalent marker."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And we will cut trees from Lebanon, as many as you need, and we will bring them to you as rafts by sea to Joppo, and you will bring them up ⟨את⟩ them to Jerusalem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "471a43db8a30cb31cf1d7a9596cb387f7d086e5ad34a6f80b1692c35a8a974b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/2\/15-15.1791200575234.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַ֠אֲנַחְנוּ",
+      "gloss": "and we",
+      "sense": null
+    },
+    {
+      "surface": "נִכְרֹ֨ת",
+      "gloss": "will cut",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵצִ֤ים",
+      "gloss": "trees",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "הַלְּבָנוֹן֙",
+      "gloss": "the Lebanon",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּכָל",
+      "gloss": "as many as",
+      "sense": null
+    },
+    {
+      "surface": "צָרְכֶּ֔ךָ",
+      "gloss": "you need",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּנְבִיאֵ֥ם",
+      "gloss": "and we will bring them",
+      "sense": null
+    },
+    {
+      "surface": "לְךָ֛",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "רַפְסֹד֖וֹת",
+      "gloss": "as rafts",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "יָ֣ם",
+      "gloss": "sea",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָפ֑וֹ",
+      "gloss": "Joppo",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַתָּ֛ה",
+      "gloss": "and you",
+      "sense": null
+    },
+    {
+      "surface": "תַּעֲלֶ֥ה",
+      "gloss": "will bring up",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹתָ֖ם",
+      "gloss": "⟨את⟩ them",
+      "marks": "them (the trees)"
+    },
+    {
+      "surface": "יְרוּשָׁלִָֽם",
+      "gloss": "to Jerusalem",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:42:55.235382160Z",
+  "model": "glm-5.3"
 }

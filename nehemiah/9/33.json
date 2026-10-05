@@ -1,66 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "And You ⟨are⟩ righteous concerning all that has come upon us, for truth You have done, and we have acted wickedly.",
+  "ref": "nehemiah 9:33",
+  "book": "nehemiah",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between צדיק and the pronoun"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עשית \/ הרשענו",
+      "rationale": "the two verbs share the שׂ root-sound; you did, we did wickedly — antithesis lost in English"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "confession addressed directly to God"
+    }
+  ],
+  "translation": "And you are just concerning all that has come upon us, for you have acted faithfully, and we have acted wickedly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6aebe4ca231a34d44fcb4b5226ff5463255baba7f23e1910fb60affd53206652",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nehemiah\/9\/33-36.1791195843620.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nehemiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתה",
-      "gloss": "And You"
+      "surface": "וְאַתָּ֣ה",
+      "gloss": "And you"
     },
     {
-      "surface": "צדיק",
-      "gloss": "righteous"
+      "surface": "צַדִּ֔יק",
+      "gloss": "just",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַ֖ל",
       "gloss": "concerning"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "הבא",
+      "surface": "הַבָּ֣א",
       "gloss": "that has come"
     },
     {
-      "surface": "עלינו",
+      "surface": "עָלֵ֑ינוּ",
       "gloss": "upon us"
     },
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "for"
     },
     {
-      "surface": "אמת",
-      "gloss": "truth",
-      "readings": [
-        "truth",
-        "faithfulness"
-      ],
-      "held_by": {
-        "truth": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "faithfulness": [
-          "en4"
-        ]
-      }
+      "surface": "אֱמֶ֥ת",
+      "gloss": "faithfully",
+      "sense": "S1"
     },
     {
-      "surface": "עשית",
-      "gloss": "You have done"
+      "surface": "עָשִׂ֖יתָ",
+      "gloss": "you have acted",
+      "sense": "S1"
     },
     {
-      "surface": "ואנחנו",
+      "surface": "וַאֲנַ֥חְנוּ",
       "gloss": "and we"
     },
     {
-      "surface": "הרשענו",
-      "gloss": "have acted wickedly"
+      "surface": "הִרְשַֽׁעְנוּ",
+      "gloss": "have acted wickedly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:24:03.621636013Z",
+  "model": "glm-5.3"
 }

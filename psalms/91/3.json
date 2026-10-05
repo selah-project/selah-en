@@ -1,64 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For he will deliver you from the snare of the fowler, and from the pestilence of destruction.",
-  "tokens": [
+  "ref": "psalms 91:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "alternative",
+      "subject": "destructures",
+      "rationale": "הַוּוֹת plural of הַוָּה 'ruin, destruction' — many render it singular ('deadly pestilence'); the plural is kept"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "יצילך",
-      "gloss": "will deliver you"
-    },
-    {
-      "surface": "מפח",
-      "gloss": "from the snare"
-    },
-    {
-      "surface": "יקוש",
-      "gloss": "of the fowler",
-      "readings": [
-        "of the fowler",
-        "of the trapper"
-      ],
-      "held_by": {
-        "of the fowler": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the trapper": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מדבר",
-      "gloss": "and from the pestilence"
-    },
-    {
-      "surface": "הוות",
-      "gloss": "of destruction",
-      "readings": [
-        "of destruction",
-        "of ruin"
-      ],
-      "held_by": {
-        "of destruction": [
-          "v1",
-          "v3"
-        ],
-        "of ruin": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "trap of the fowler",
+      "rationale": "hunting metaphor — the bird under the wing (v. 4) against the bird-catcher's net"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For he will snatch you from the trap of the fowler, from the pestilence of destructions.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "844253d6e49b8f90ed6475f33c2004a6434f64c37c475141d97cb9cdafaf46f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/1-4.1791193189109.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "יַצִּילְךָ",
+      "gloss": "will snatch you",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפַּח",
+      "gloss": "from the trap of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָקוּשׁ",
+      "gloss": "the fowler",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדֶּבֶר",
+      "gloss": "from the pestilence of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַוּוֹת",
+      "gloss": "destructions",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:49.110371556Z",
+  "model": "glm-5.3"
 }

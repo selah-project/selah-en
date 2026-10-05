@@ -1,51 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Discipline is evil to him who forsakes the path; he who hates reproof will die.",
+  "ref": "proverbs 15:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "מוסר רע",
+      "rationale": "Could read 'severe discipline' (noun as adjective) or 'the discipline of the evil one'; rendered as predicate"
+    }
+  ],
+  "translation": "Discipline is bad for the one leaving the path; the one hating rebuke will die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1acf0b2f6004842b195da6809eff4f2268c3e8f418493f5c98f2f4d1c0a35552",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/15\/9-12.1791193864997.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מוסר",
-      "gloss": "discipline"
+      "surface": "מוּסָר",
+      "gloss": "discipline",
+      "sense": "S1"
     },
     {
-      "surface": "רע",
-      "gloss": "is evil"
+      "surface": "רַע",
+      "gloss": "is bad",
+      "readings": [
+        "is bad",
+        "is painful"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "לעזב",
-      "gloss": "to him who forsakes"
+      "surface": "לְעֹזֵב",
+      "gloss": "for the one leaving",
+      "sense": "S1"
     },
     {
-      "surface": "ארח",
+      "surface": "אֹרַח",
       "gloss": "the path",
       "readings": [
         "the path",
-        "a caravan"
+        "the way"
       ],
-      "held_by": {
-        "the path": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a caravan": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שונא",
-      "gloss": "he who hates"
+      "surface": "שׂוֹנֵא",
+      "gloss": "the one hating",
+      "sense": "S1"
     },
     {
-      "surface": "תוכחת",
-      "gloss": "reproof"
+      "surface": "תּוֹכַחַת",
+      "gloss": "rebuke",
+      "sense": "S1"
     },
     {
-      "surface": "ימות",
-      "gloss": "will die"
+      "surface": "יָמוּת",
+      "gloss": "will die",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:04.998756690Z",
+  "model": "glm-5.3"
 }

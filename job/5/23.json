@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "For with the stones of the field is your covenant, and the beast of the field shall be at peace with you.",
-  "tokens": [
+  "ref": "job 5:23",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the bracketed verb is supplied for the fronted predicate 'your covenant'."
     },
     {
-      "surface": "עם",
-      "gloss": "with"
+      "kind": "crux",
+      "subject": "with you",
+      "rationale": "לָּךְ is pointed 2nd feminine singular though addressed to a man; read as 2nd masculine by context."
     },
     {
-      "surface": "אבני",
-      "gloss": "the stones of"
-    },
-    {
-      "surface": "השדה",
-      "gloss": "the field"
-    },
-    {
-      "surface": "בריתך",
-      "gloss": "your covenant"
-    },
-    {
-      "surface": "וחית",
-      "gloss": "and the beast of"
-    },
-    {
-      "surface": "השדה",
-      "gloss": "the field"
-    },
-    {
-      "surface": "השלמה",
-      "gloss": "shall be at peace",
-      "readings": [
-        "shall be at peace",
-        "are at peace"
-      ],
-      "held_by": {
-        "shall be at peace": [
-          "v2",
-          "v3"
-        ],
-        "are at peace": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לך",
-      "gloss": "with you"
+      "kind": "mystery",
+      "subject": "covenant with stones",
+      "rationale": "A covenant with field-stones and beasts is deliberately strange — cosmic peace imagery, no explanation given."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For with the stones of the field is your covenant, and the beast of the field is made at peace with you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f3f37333c143be9bff5a82a62f083fbde18b776d583fc8c660bd4fc50d82a08",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/21-24.1791194164951.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "אַבְנֵי",
+      "gloss": "the stones",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׂדֶה",
+      "gloss": "of the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרִיתֶךָ",
+      "gloss": "is your covenant",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחַיַּת",
+      "gloss": "and the beast",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׂדֶה",
+      "gloss": "of the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֻשְׁלְמָה",
+      "gloss": "is made at peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָּךְ",
+      "gloss": "with you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:04.952718945Z",
+  "model": "glm-5.3"
 }

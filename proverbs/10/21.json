@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "The lips of the righteous feed many, but fools for lack of heart die.",
-  "tokens": [
+  "ref": "proverbs 10:21",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "שפתי",
-      "gloss": "the lips of"
+      "kind": "wordplay",
+      "subject": "ירעו",
+      "rationale": "רעה 'shepherd\/feed' — the just lips feed many, the pastoral picture carried in 'shepherd'."
     },
     {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ירעו",
-      "gloss": "feed",
-      "readings": [
-        "feed",
-        "shepherd"
-      ],
-      "held_by": {
-        "feed": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "shepherd": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "רבים",
-      "gloss": "many"
-    },
-    {
-      "surface": "ואוילים",
-      "gloss": "but fools"
-    },
-    {
-      "surface": "בחסר",
-      "gloss": "for lack of"
-    },
-    {
-      "surface": "לב",
-      "gloss": "heart"
-    },
-    {
-      "surface": "ימותו",
-      "gloss": "die"
+      "kind": "substitution",
+      "subject": "lack of heart",
+      "rationale": "חסר לב literally 'lacking heart', idiom for lacking sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The lips of the just shepherd many, and fools in lack of heart die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3deebb86c0e2fc27dcc658d68b25eb4d05ab85060e0116588abf8f6d3a7e5727",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/21-24.1791193797500.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׂפְתֵ֣י",
+      "gloss": "The lips of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַ֭דִּיק",
+      "gloss": "the just",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְע֣וּ",
+      "gloss": "shepherd",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַבִּ֑ים",
+      "gloss": "many",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶֽ֝אֱוִילִ֗ים",
+      "gloss": "and fools",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּחֲסַר",
+      "gloss": "in lack of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵ֥ב",
+      "gloss": "heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמֽוּתוּ",
+      "gloss": "die",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:57.501245893Z",
+  "model": "glm-5.3"
 }

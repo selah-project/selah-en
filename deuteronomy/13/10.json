@@ -1,70 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For killing you shall kill him; your hand shall be first upon him to put him to death, and the hand of all the people in the end.",
+  "ref": "deuteronomy 13:10",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "הרג תהרגנו",
+      "rationale": "infinitive absolute doubled with the finite verb — killing you shall kill — kept doubled, not collapsed"
+    },
+    {
+      "kind": "substitution",
+      "subject": "hand",
+      "rationale": "יד is literally hand, the metonymy for the agent kept rather than rendered 'you shall strike first'"
+    }
+  ],
+  "translation": "For killing you shall kill him — your hand shall be upon him in the first place to put him to death, and the hand of all the people in the last.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "569c2fd940b63c49133877c9dddd6f1c30711b7f44196b0885d50173fdf19d88",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/13\/9-12.1791183838243.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "הרג",
-      "gloss": "killing"
+      "surface": "הָרֹג",
+      "gloss": "killing",
+      "sense": "S1"
     },
     {
-      "surface": "תהרגנו",
-      "gloss": "you shall kill him"
+      "surface": "תַּֽהַרְגֶּ֔נּוּ",
+      "gloss": "you shall kill him",
+      "sense": "S1"
     },
     {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "surface": "יָדְךָ",
+      "gloss": "your hand",
+      "sense": "S1"
     },
     {
-      "surface": "תהיה",
+      "surface": "תִּֽהְיֶה",
       "gloss": "shall be"
     },
     {
-      "surface": "בו",
-      "gloss": "upon him"
+      "surface": "בּוֹ",
+      "gloss": "upon him",
+      "sense": null
     },
     {
-      "surface": "בראשונה",
-      "gloss": "first"
+      "surface": "בָּרִֽאשׁוֹנָ֖ה",
+      "gloss": "in the first place",
+      "sense": "S1"
     },
     {
-      "surface": "להמיתו",
-      "gloss": "to put him to death"
+      "surface": "לַהֲמִית֑וֹ",
+      "gloss": "to put him to death",
+      "sense": "S1"
     },
     {
-      "surface": "ויד",
-      "gloss": "and the hand"
+      "surface": "וְיַ֥ד",
+      "gloss": "and the hand of",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "of all"
+      "surface": "כָּל",
+      "gloss": "all"
     },
     {
-      "surface": "העם",
-      "gloss": "the people"
+      "surface": "הָעָ֖ם",
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
-      "surface": "באחרנה",
-      "gloss": "in the end",
-      "readings": [
-        "in the end",
-        "last"
-      ],
-      "held_by": {
-        "in the end": [
-          "v1",
-          "v3"
-        ],
-        "last": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "בָּאַחֲרֹנָֽה",
+      "gloss": "in the last",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:03:58.244869802Z",
+  "model": "glm-5.3"
 }

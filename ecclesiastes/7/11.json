@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Wisdom ⟨is⟩ good with an inheritance, and ⟨there is⟩ profit to those who see the sun.",
-  "tokens": [
+  "ref": "ecclesiastes 7:11",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "טובה",
-      "gloss": "good"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronted adjective with no copula."
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "kind": "idiom",
+      "subject": "those who see the sun",
+      "rationale": "השמש 'see the sun' = the living; the picture is kept literal."
     },
     {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "נחלה",
-      "gloss": "an inheritance"
-    },
-    {
-      "surface": "ויתר",
-      "gloss": "and profit",
-      "readings": [
-        "and profit",
-        "and an advantage"
-      ]
-    },
-    {
-      "surface": "לראי",
-      "gloss": "to those who see"
-    },
-    {
-      "surface": "השמש",
-      "gloss": "the sun"
+      "kind": "crux",
+      "subject": "עִם נַחֲלָה",
+      "rationale": "'with an inheritance' vs 'like an inheritance' — wisdom's company or comparison."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Good is wisdom with an inheritance, and a benefit to those who see the sun.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "49779d0505c8e32fd1c21b4f2237f078400647cea78ae17d6c4b56fd5a2ba911",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/9-12.1791194878885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טוֹבָה",
+      "gloss": "Good",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "is wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "נַחֲלָה",
+      "gloss": "an inheritance",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֹתֵר",
+      "gloss": "and a benefit",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרֹאֵי",
+      "gloss": "to those who see",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׁמֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:07:58.886479027Z",
+  "model": "glm-5.3"
 }

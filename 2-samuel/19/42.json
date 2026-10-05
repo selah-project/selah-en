@@ -1,6 +1,33 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "And behold, all the men of Israel came to the king, and they said to the king, “Why have our brothers, the men of Judah, stolen you away, and brought across ⟨את⟩ the king and ⟨את⟩ his household ⟨את⟩ the Jordan — and all the men of David with him?”",
+  "ref": "2-samuel 19:42",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "stolen you",
+      "rationale": "גנבוך 'stole you' kept literally; a heated metaphor for carrying the king off without the rest."
+    },
+    {
+      "kind": "you",
+      "subject": "to the king",
+      "rationale": "the men of Israel address David directly in the quoted speech, 'you'."
+    }
+  ],
+  "translation": "And behold, all the men of Israel came to the king and said to the king, “Why have our brothers, the men of Judah, stolen you, and brought ⟨את⟩ the king and ⟨את⟩ his house across ⟨את⟩ the Jordan, and all the men of David with him?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c94be00df3017b77e84d83e43d6c5557575ff163254a022c60962c9d90c00a1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/19\/41-44.1791198698935.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "והנה",
@@ -16,7 +43,8 @@
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "באים",
@@ -28,11 +56,13 @@
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "ויאמרו",
-      "gloss": "and they said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -40,19 +70,23 @@
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "מדוע",
-      "gloss": "why"
+      "gloss": "why",
+      "sense": "S1"
     },
     {
       "surface": "גנבוך",
-      "gloss": "have stolen you away"
+      "gloss": "have stolen you",
+      "sense": "S1"
     },
     {
       "surface": "אחינו",
-      "gloss": "our brothers"
+      "gloss": "our brothers",
+      "sense": "S1"
     },
     {
       "surface": "איש",
@@ -60,35 +94,43 @@
     },
     {
       "surface": "יהודה",
-      "gloss": "Judah"
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "ויעברו",
-      "gloss": "and brought across"
+      "gloss": "and brought across",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the king"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "his house"
     },
     {
       "surface": "ביתו",
-      "gloss": "his household"
+      "gloss": "his house",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the Jordan"
     },
     {
       "surface": "הירדן",
-      "gloss": "the Jordan"
+      "gloss": "the Jordan",
+      "sense": "S1"
     },
     {
       "surface": "וכל",
@@ -100,13 +142,15 @@
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "עמו",
-      "gloss": "with him"
+      "gloss": "with him",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:11:38.936593299Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Between their walls they press out oil; winepresses they tread, and they thirst.",
-  "tokens": [
+  "ref": "job 24:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "בין",
-      "gloss": "Between"
+      "kind": "hapax",
+      "subject": "יַצְהִירוּ",
+      "rationale": "Hiphil of צָהַר 'press out oil' occurs only here in the Tanakh; some emend to 'they sing' — the literal pressing is kept."
     },
     {
-      "surface": "שורתם",
-      "gloss": "their walls",
-      "readings": [
-        "their walls",
-        "their rows"
-      ],
-      "held_by": {
-        "their walls": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their rows": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יצהירו",
-      "gloss": "they press out oil"
-    },
-    {
-      "surface": "יקבים",
-      "gloss": "winepresses"
-    },
-    {
-      "surface": "דרכו",
-      "gloss": "they tread"
-    },
-    {
-      "surface": "ויצמאו",
-      "gloss": "and they thirst"
+      "kind": "crux",
+      "subject": "they press out oil",
+      "rationale": "Some read the verb as 'grow bright\/shine'; the oil-pressing sense fits the harvest scene of vv. 10–11."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Between their rows they press out oil; winepresses they tread, and thirst.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d64aa1870469a60187ca7dbca9d4b8efefacc8c295cf5d5b66de331939b0cbe0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/24\/9-12.1791194429527.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֵּ֥ין",
+      "gloss": "between",
+      "sense": null
+    },
+    {
+      "surface": "שׁוּרֹתָ֑ם",
+      "gloss": "their rows",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַצְהִ֖ירוּ",
+      "gloss": "they press out oil",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְקָבִ֥ים",
+      "gloss": "winepresses",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּ֝רְח֗וּ",
+      "gloss": "they tread",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּצְמָֽאוּ",
+      "gloss": "and thirst",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:29.528795599Z",
+  "model": "glm-5.3"
 }

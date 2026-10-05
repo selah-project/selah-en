@@ -1,40 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Look, in his holy ones he puts no trust, and the heavens are not clean in his eyes.",
+  "ref": "job 15:15",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "בקדשו",
+      "rationale": "Ketiv 'in his holy one' (singular) vs qere בקדשיו 'in his holy ones' (plural, the angels); the plural is read here."
+    },
+    {
+      "kind": "substitution",
+      "subject": "heavens",
+      "rationale": "SDBH reads שָׁמַיִם here as the supernatural beings of heaven, not the sky."
+    }
+  ],
+  "translation": "Look, in his holy ones he does not trust, and the heavens are not clean in his eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8056e1022e6595279ec711b25dbad01b3e58def95076d0c44b623ecbe58247e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/13-16.1791194295004.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הן",
-      "gloss": "Look"
+      "surface": "הֵ֣ן",
+      "gloss": "Look",
+      "sense": null
     },
     {
       "surface": "בקדשו",
-      "gloss": "in his holy ones"
+      "gloss": "in his holy ones",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "no"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "יאמין",
-      "gloss": "he puts ⟨trust⟩"
+      "surface": "יַאֲמִ֑ין",
+      "gloss": "he does not trust",
+      "sense": "S1"
     },
     {
-      "surface": "ושמים",
-      "gloss": "and the heavens"
+      "surface": "וְ֝שָׁמַ֗יִם",
+      "gloss": "and the heavens",
+      "readings": [
+        "and the heavens",
+        "and the heaven-beings"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "זכו",
-      "gloss": "are clean"
+      "surface": "זַכּ֥וּ",
+      "gloss": "are clean",
+      "sense": "S1"
     },
     {
-      "surface": "בעיניו",
-      "gloss": "in his eyes"
+      "surface": "בְּעֵינָֽיו",
+      "gloss": "in his eyes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:15.004968589Z",
+  "model": "glm-5.3"
 }

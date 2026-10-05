@@ -1,88 +1,112 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "For now I could have stretched out ⟨את⟩ my hand and struck you ⟨את⟩ and ⟨את⟩ your people with pestilence, and you would have been cut off from the earth.",
-  "tokens": [
+  "ref": "exodus 9:15",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "counterfactual",
+      "rationale": "The perfects carry a withheld-force sense: 'I could have stretched out my hand… and you would have been destroyed' — the plagues happened instead of annihilation."
     },
     {
-      "surface": "עתה",
-      "gloss": "now"
+      "kind": "you",
+      "subject": "to Pharaoh",
+      "rationale": "YHWH's speech continues addressing Pharaoh directly (from 9:13)."
     },
     {
-      "surface": "שלחתי",
-      "gloss": "I could have stretched out",
-      "readings": [
-        "I could have stretched out",
-        "I would have sent out"
-      ],
-      "held_by": {
-        "I could have stretched out": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I would have sent out": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ידי",
-      "gloss": "my hand"
-    },
-    {
-      "surface": "ואך",
-      "gloss": "and struck"
-    },
-    {
-      "surface": "אותך",
-      "gloss": "⟨את⟩ you"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "your people"
-    },
-    {
-      "surface": "בדבר",
-      "gloss": "with pestilence"
-    },
-    {
-      "surface": "ותכחד",
-      "gloss": "and you would have been cut off",
-      "readings": [
-        "and you would have been cut off",
-        "and you would have been blotted out"
-      ],
-      "held_by": {
-        "and you would have been cut off": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you would have been blotted out": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מן",
-      "gloss": "from"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth"
+      "kind": "elision",
+      "subject": "שלחתי ידי",
+      "rationale": "Literally 'I have sent my hand' — rendered 'stretched out my hand' per the idiom; the Hebrew keeps the picture of sending the hand out."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For now ⟨את⟩ my hand I have stretched out, and I struck ⟨את⟩ you and ⟨את⟩ your people with the pestilence, and you would have been destroyed from the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d3524f33c913aeb85bec6ed97b65891e842bb32701b12db9f3246325e336229",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/9\/15-15.1791197443356.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֤י",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "עַתָּה֙",
+      "gloss": "now",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁלַ֣חְתִּי",
+      "gloss": "I have stretched out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my hand",
+      "sense": null
+    },
+    {
+      "surface": "יָדִ֔י",
+      "gloss": "my hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאַ֥ךְ",
+      "gloss": "and struck",
+      "sense": null
+    },
+    {
+      "surface": "אוֹתְךָ֛",
+      "gloss": "⟨את⟩ you",
+      "marks": "you",
+      "sense": null
+    },
+    {
+      "surface": "וְאֶֽת",
+      "gloss": "and ⟨את⟩",
+      "marks": "your people",
+      "sense": null
+    },
+    {
+      "surface": "עַמְּךָ֖",
+      "gloss": "your people",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּדָּ֑בֶר",
+      "gloss": "with the pestilence",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתִּכָּחֵ֖ד",
+      "gloss": "and you would have been destroyed",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "הָאָֽרֶץ",
+      "gloss": "the earth",
+      "readings": [
+        "the earth",
+        "the land"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:50:43.357159703Z",
+  "model": "glm-5.3"
 }

@@ -1,70 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Why is light given to the sufferer, and life to the bitter of nefesh?",
-  "tokens": [
+  "ref": "job 3:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "למה",
-      "gloss": "Why"
+      "kind": "invitation",
+      "subject": "למה",
+      "rationale": "Rhetorical question addressed to God, drawing the hearer into Job's complaint."
     },
     {
-      "surface": "יתן",
-      "gloss": "is given"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש is literally 'throat\/breathing-being'; rendered 'throat' to keep the concrete picture beside 'bitter of'."
     },
     {
-      "surface": "לעמל",
-      "gloss": "to the sufferer",
-      "readings": [
-        "to the sufferer",
-        "to the weary"
-      ],
-      "held_by": {
-        "to the sufferer": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to the weary": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אור",
-      "gloss": "light"
-    },
-    {
-      "surface": "וחיים",
-      "gloss": "and life"
-    },
-    {
-      "surface": "למרי",
-      "gloss": "to the bitter of"
-    },
-    {
-      "surface": "נפש",
-      "gloss": "nefesh",
-      "readings": [
-        "nefesh",
-        "soul",
-        "life"
-      ],
-      "held_by": {
-        "nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "soul": [
-          "v1",
-          "en4"
-        ],
-        "life": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "מרי נפש",
+      "rationale": "'Bitter of soul' — versions split between 'bitter in soul\/life' and the concrete 'bitter of throat (appetite)'; the construct picture is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Why does he give light to the one who toils, and life to the bitter of throat?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ebfb6b6f316273a8d075a8387b4a58e427dfad60849c830ea7053a1754922a9d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/3\/17-20.1791194111086.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לָ֤מָּה",
+      "gloss": "Why",
+      "sense": null
+    },
+    {
+      "surface": "יִתֵּ֣ן",
+      "gloss": "does he give",
+      "sense": null
+    },
+    {
+      "surface": "לְעָמֵ֣ל",
+      "gloss": "to the one who toils",
+      "sense": "S1"
+    },
+    {
+      "surface": "א֑וֹר",
+      "gloss": "light",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝חַיִּ֗ים",
+      "gloss": "and life",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמָ֣רֵי",
+      "gloss": "to the bitter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָֽפֶשׁ",
+      "gloss": "throat",
+      "readings": [
+        "throat",
+        "life-being"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:11.087349118Z",
+  "model": "glm-5.3"
 }

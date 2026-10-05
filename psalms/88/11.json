@@ -1,56 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "For the dead, will you work a wonder? If the shades rise, will they praise you? Selah.",
+  "ref": "psalms 88:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "הלמתים",
+      "rationale": "interrogative 'for the dead?' vs conditional 'for the dead do not…'; the question reading is the plainer form."
+    },
+    {
+      "kind": "secret",
+      "subject": "רפאים",
+      "rationale": "the shades of the dead, whose realm is hidden from the living."
+    }
+  ],
+  "translation": "For the dead, will you do a wonder? Do the Rephaim rise, that they may praise you? Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ea356483a82a710f3512810c0d9b14873c701a3ff2831f1aacde7691cec2ba3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/9-12.1791193136824.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הלמתים",
-      "gloss": "For the dead"
+      "surface": "הֲלַמֵּתִ֥ים",
+      "gloss": "for the dead",
+      "sense": "S2"
     },
     {
-      "surface": "תעשה",
-      "gloss": "will you do"
+      "surface": "תַּעֲשֶֶׂ֑ה",
+      "gloss": "will you do",
+      "sense": "S1"
     },
     {
-      "surface": "פלא",
-      "gloss": "a wonder"
+      "surface": "פֶּ֫לֶא",
+      "gloss": "a wonder",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִ֡ם",
       "gloss": "if"
     },
     {
-      "surface": "רפאים",
-      "gloss": "the shades",
-      "readings": [
-        "the shades",
-        "the Rephaim"
-      ],
-      "held_by": {
-        "the shades": [
-          "v1",
-          "en4"
-        ],
-        "the Rephaim": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "רְ֝פָאִ֗ים",
+      "gloss": "the Rephaim",
+      "sense": "S1"
     },
     {
-      "surface": "יקומו",
-      "gloss": "rise"
+      "surface": "יָק֤וּמוּ",
+      "gloss": "rise",
+      "sense": null
     },
     {
-      "surface": "יודוך",
-      "gloss": "will they praise you"
+      "surface": "יוֹד֬וּךָ",
+      "gloss": "they praise you",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
+      "surface": "סֶּֽלָה",
       "gloss": "Selah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:56.825477394Z",
+  "model": "glm-5.3"
 }

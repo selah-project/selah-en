@@ -1,48 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Praise Yah! Happy the man who fears ⟨את⟩ YHWH, who delights greatly in His commandments.",
+  "ref": "psalms 112:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 112,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew אַשְׁרֵי lacks a copula"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "Psalm 112 \/ Psalm 111",
+      "rationale": "This psalm is an acrostic paralleling 111, both opening הַלְלוּ יָהּ"
+    },
+    {
+      "kind": "invitation",
+      "subject": "Praise Yah",
+      "rationale": "Opening imperative summons the congregation to praise"
+    }
+  ],
+  "translation": "Praise Yah! Happy ⟨is⟩ the man who fears YHWH, ⟨את⟩ — in His commands he delights greatly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3920b737e1aa00b39e90e40e8c29bf35a65af54192023eac3837068b49daa224",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/112\/1-4.1791193386967.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הללו",
-      "gloss": "Praise"
+      "surface": "הַלְלוּ",
+      "gloss": "Praise",
+      "sense": "S1"
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
+      "surface": "יָהּ",
+      "gloss": "Yah",
+      "sense": "S1"
     },
     {
-      "surface": "אשרי",
+      "surface": "אַשְׁרֵי",
       "gloss": "Happy"
     },
     {
-      "surface": "איש",
+      "surface": "אִישׁ",
       "gloss": "the man"
     },
     {
-      "surface": "ירא",
-      "gloss": "who fears"
+      "surface": "יָרֵא",
+      "gloss": "who fears",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "במצותיו",
-      "gloss": "in His commandments"
+      "surface": "בְּמִצְוֺתָיו",
+      "gloss": "in His commands",
+      "sense": "S1"
     },
     {
-      "surface": "חפץ",
-      "gloss": "who delights"
+      "surface": "חָפֵץ",
+      "gloss": "he delights",
+      "sense": "S1"
     },
     {
-      "surface": "מאד",
-      "gloss": "greatly"
+      "surface": "מְאֹד",
+      "gloss": "greatly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:06.968147729Z",
+  "model": "glm-5.3"
 }

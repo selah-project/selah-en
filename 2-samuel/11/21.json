@@ -1,127 +1,170 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "Who struck ⟨את⟩ Abimelech son of Jerubbesheth? Did not a woman throw down on him a piece of a millstone from the wall, and he died in Thebez? Why did you draw near to the wall? Then you shall say, 'Also your servant Uriah the Hittite is dead.'",
-  "tokens": [
+  "ref": "2-samuel 11:21",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "hapax",
+      "subject": "Jerubbesheth",
+      "rationale": "ירבשת occurs only here; it is Jerubbaal (Gideon) with 'Baal' swapped for 'bosheth' (shame) — see Judges 9:50–53."
     },
     {
-      "surface": "הכה",
+      "kind": "crux",
+      "subject": "פלח רכב",
+      "rationale": "'a slice of millstone' (lit. 'a slice of the grinding-thing'); Judges 9:53 has 'an upper millstone'; רכב normally means chariot, but here means the upper millstone."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "גם ... מת",
+      "rationale": "Joab's embedded instruction lands Uriah's death as an afterthought: 'also ... your servant Uriah the Hittite is dead', tacked onto the Abimelek story."
+    },
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "The verse is Joab's scripted reply, delivered through the messenger, anticipating David's anger at the loss near the wall."
+    }
+  ],
+  "translation": "Who struck ⟨את⟩ Abimelek son of Jerubbesheth? Did not a woman throw down upon him a slice of millstone from the wall, and he died at Thebez? Why did you draw near to the wall? — then you shall say: also your servant Uriah the Hittite is dead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f7d78624e1e2ce38bde9f85e03fde1217f700ee12a3ff920efc791779951150",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/11\/21-24.1791186308672.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִכָּ֞ה",
       "gloss": "struck"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Abimelek"
     },
     {
-      "surface": "אבימלך",
-      "gloss": "Abimelech"
+      "surface": "אֲבִימֶ֣לֶךְ",
+      "gloss": "Abimelek",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "ירבשת",
-      "gloss": "Jerubbesheth"
+      "surface": "יְרֻבֶּ֗שֶׁת",
+      "gloss": "Jerubbesheth",
+      "sense": "S1"
     },
     {
-      "surface": "הלוא",
-      "gloss": "did not"
+      "surface": "הֲלֹֽוא",
+      "gloss": "Did not",
+      "sense": "S1"
     },
     {
-      "surface": "אשה",
-      "gloss": "a woman"
+      "surface": "אִשָּׁ֡ה",
+      "gloss": "a woman",
+      "sense": "S1"
     },
     {
-      "surface": "השליכה",
-      "gloss": "throw down"
+      "surface": "הִשְׁלִ֣יכָה",
+      "gloss": "throw down",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
-      "gloss": "on him"
+      "surface": "עָלָיו֩",
+      "gloss": "upon him"
     },
     {
-      "surface": "פלח",
-      "gloss": "a piece of"
+      "surface": "פֶּ֨לַח",
+      "gloss": "a slice of",
+      "sense": "S1"
     },
     {
-      "surface": "רכב",
-      "gloss": "a millstone",
-      "readings": [
-        "a millstone",
-        "a rider"
-      ],
-      "held_by": {
-        "a millstone": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a rider": [
-          "en4"
-        ]
-      }
+      "surface": "רֶ֜כֶב",
+      "gloss": "millstone",
+      "sense": "S1"
     },
     {
-      "surface": "מעל",
-      "gloss": "from upon"
+      "surface": "מֵעַ֤ל",
+      "gloss": "from"
     },
     {
-      "surface": "החומה",
-      "gloss": "the wall"
+      "surface": "הַֽחֹומָה֙",
+      "gloss": "the wall",
+      "sense": "S1"
     },
     {
-      "surface": "וימת",
-      "gloss": "and he died"
+      "surface": "וַיָּ֣מָת",
+      "gloss": "and he died",
+      "sense": "S1"
     },
     {
-      "surface": "בתבץ",
-      "gloss": "in Thebez"
+      "surface": "בְּתֵבֵ֔ץ",
+      "gloss": "at Thebez",
+      "sense": "S1"
     },
     {
-      "surface": "למה",
+      "surface": "לָ֥מָּה",
       "gloss": "Why"
     },
     {
-      "surface": "נגשתם",
-      "gloss": "did you draw near"
+      "surface": "נִגַּשְׁתֶּ֖ם",
+      "gloss": "did you draw near",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "החומה",
-      "gloss": "the wall"
+      "surface": "הַֽחֹומָ֑ה",
+      "gloss": "the wall",
+      "sense": "S1"
     },
     {
-      "surface": "ואמרת",
-      "gloss": "and you shall say"
+      "surface": "וְאָמַרְתָּ֔",
+      "gloss": "then you shall say",
+      "sense": "S1"
     },
     {
-      "surface": "גם",
-      "gloss": "Also"
+      "surface": "גַּ֗ם",
+      "gloss": "also",
+      "sense": "S1"
     },
     {
-      "surface": "עבדך",
-      "gloss": "your servant"
+      "surface": "עַבְדְּךָ֛",
+      "gloss": "your servant",
+      "sense": "S1"
     },
     {
-      "surface": "אוריה",
-      "gloss": "Uriah"
+      "surface": "אוּרִיָּ֥ה",
+      "gloss": "Uriah",
+      "sense": "S1"
     },
     {
-      "surface": "החתי",
-      "gloss": "the Hittite"
+      "surface": "הַחִתִּ֖י",
+      "gloss": "the Hittite",
+      "sense": "S1"
     },
     {
-      "surface": "מת",
-      "gloss": "is dead"
+      "surface": "מֵֽת",
+      "gloss": "is dead",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:45:08.673470389Z",
+  "model": "glm-5.3"
 }

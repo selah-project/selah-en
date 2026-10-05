@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Deliver me from workers of iniquity, and from men of bloods save me.",
-  "tokens": [
+  "ref": "psalms 59:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
     {
-      "surface": "הצילני",
-      "gloss": "Deliver me"
+      "kind": "wordplay",
+      "subject": "הַצִּילֵנִי \/ הוֹשִׁיעֵנִי",
+      "rationale": "Parallel imperatives bracket the verse, chiastic A–B–B′–A′ shape"
     },
     {
-      "surface": "מפעלי",
-      "gloss": "from workers of"
-    },
-    {
-      "surface": "און",
-      "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "trouble",
-        "nothingness"
-      ],
-      "held_by": {
-        "iniquity": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "trouble": [
-          "en4"
-        ],
-        "nothingness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ומאנשי",
-      "gloss": "and from men of"
-    },
-    {
-      "surface": "דמים",
-      "gloss": "of bloods"
-    },
-    {
-      "surface": "הושיעני",
-      "gloss": "save me"
+      "kind": "alternative",
+      "subject": "bloods",
+      "rationale": "Hebrew plural kept; 'murder' or 'violence' is the idiomatic smoothing"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Deliver me from workers of iniquity, and from men of bloods save me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b873c57648c9a31c7d471275119f8833aebded84da6a826e99eb8db4005abe1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/1-4.1791192833957.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַצִּילֵנִי",
+      "gloss": "Deliver me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפֹּעֲלֵי",
+      "gloss": "from workers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָוֶן",
+      "gloss": "iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמֵאַנְשֵׁי",
+      "gloss": "and from men of",
+      "sense": null
+    },
+    {
+      "surface": "דָּמִים",
+      "gloss": "bloods",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹשִׁיעֵנִי",
+      "gloss": "save me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:53.958386763Z",
+  "model": "glm-5.3"
 }

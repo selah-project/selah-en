@@ -1,32 +1,56 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Which we have heard and know, and our fathers have recounted to us.",
+  "ref": "psalms 78:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "English needs the object pronoun that the Hebrew suffix on ונדעם carries once for both verbs"
+    }
+  ],
+  "translation": "That which we have heard and known, and our fathers have told us,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7100e89f3fc605916792ec1f3bbcd340b859470e46ce3a71c7b7e1013bf0af58",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/1-4.1791193036516.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
-      "gloss": "Which"
+      "surface": "אֲשֶׁר",
+      "gloss": "That which"
     },
     {
-      "surface": "שמענו",
+      "surface": "שָׁמַעְנוּ",
       "gloss": "we have heard"
     },
     {
-      "surface": "ונדעם",
-      "gloss": "and know"
+      "surface": "וַנֵּדָעֵם",
+      "gloss": "and have known them"
     },
     {
-      "surface": "ואבותינו",
-      "gloss": "and our fathers"
+      "surface": "וַאֲבוֹתֵינוּ",
+      "gloss": "and our fathers",
+      "sense": "S1"
     },
     {
-      "surface": "ספרו",
-      "gloss": "have recounted"
+      "surface": "סִפְּרוּ",
+      "gloss": "have told",
+      "sense": "S1"
     },
     {
-      "surface": "לנו",
-      "gloss": "to us"
+      "surface": "לָנוּ",
+      "gloss": "us"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:16.518006582Z",
+  "model": "glm-5.3"
 }

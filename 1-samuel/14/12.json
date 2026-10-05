@@ -1,10 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And the men of the garrison answered ⟨את⟩ Jonathan and ⟨את⟩ the bearer of his armor, and said, 'Come up to us, and we will inform ⟨את⟩ you a matter.' And Jonathan said to the bearer of his armor, 'Come up after me, for YHWH has given them into the hand of Israel.'",
+  "ref": "1-samuel 14:12",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "Philistine garrison to Jonathan",
+      "rationale": "The garrison men address Jonathan and his arms-bearer directly: 'Come up to us and we will let you know a thing.'"
+    },
+    {
+      "kind": "you",
+      "subject": "Jonathan to his arms-bearer",
+      "rationale": "Jonathan answers with an imperative addressed to his arms-bearer: 'Come up after me.'"
+    },
+    {
+      "kind": "idiom",
+      "subject": "let you know a thing",
+      "rationale": "ונודיעה אתכם דבר, literally 'let us cause-you-to-know a thing', a taunt meaning 'we will teach you a lesson'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "כי",
+      "rationale": "Read either causally ('for YHWH has given them') or asseverative ('indeed, YHWH has given them')."
+    }
+  ],
+  "translation": "And the men of the garrison answered Jonathan and ⟨את⟩ his arms-bearer, and said, “Come up to us and we will let you know ⟨את⟩ a thing.” And Jonathan said to his arms-bearer, “Come up after me, for YHWH has given them into the hand of Israel.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b8bbf300813a4e38d4a646e29774fc015279e8dc73791e6dfc8a191ee9e12f78",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/14\/12-12.1791198468311.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויענו",
-      "gloss": "and answered"
+      "gloss": "and answered",
+      "sense": "S1"
     },
     {
       "surface": "אנשי",
@@ -12,11 +50,13 @@
     },
     {
       "surface": "המצבה",
-      "gloss": "the garrison"
+      "gloss": "the garrison",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Jonathan"
     },
     {
       "surface": "יונתן",
@@ -24,23 +64,28 @@
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "his arms-bearer"
     },
     {
       "surface": "נשא",
-      "gloss": "the bearer of"
+      "gloss": "the bearer of",
+      "sense": "S1"
     },
     {
       "surface": "כליו",
-      "gloss": "his armor"
+      "gloss": "his weapons",
+      "sense": "S1"
     },
     {
       "surface": "ויאמרו",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "עלו",
-      "gloss": "Come up"
+      "gloss": "Come up",
+      "sense": "S1"
     },
     {
       "surface": "אלינו",
@@ -48,33 +93,22 @@
     },
     {
       "surface": "ונודיעה",
-      "gloss": "and we will inform"
+      "gloss": "and let us make known"
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
+      "gloss": "⟨את⟩ you",
+      "marks": "a thing"
     },
     {
       "surface": "דבר",
-      "gloss": "a matter",
-      "readings": [
-        "a matter",
-        "a word"
-      ],
-      "held_by": {
-        "a matter": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a word": [
-          "en4"
-        ]
-      }
+      "gloss": "a thing",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "יונתן",
@@ -86,19 +120,23 @@
     },
     {
       "surface": "נשא",
-      "gloss": "the bearer of"
+      "gloss": "the bearer of",
+      "sense": "S1"
     },
     {
       "surface": "כליו",
-      "gloss": "his armor"
+      "gloss": "his weapons",
+      "sense": "S1"
     },
     {
       "surface": "עלה",
-      "gloss": "Come up"
+      "gloss": "Come up",
+      "sense": "S1"
     },
     {
       "surface": "אחרי",
-      "gloss": "after me"
+      "gloss": "after me",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -110,17 +148,20 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ביד",
-      "gloss": "into the hand of"
+      "gloss": "into the hand of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:07:48.311744239Z",
+  "model": "glm-5.3"
 }

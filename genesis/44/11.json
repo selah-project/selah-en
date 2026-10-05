@@ -1,44 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And they hurried, and each man lowered ⟨את⟩ his bag to the ground, and each man opened his bag.",
-  "tokens": [
+  "ref": "genesis 44:11",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "וימהרו",
-      "gloss": "And they hurried"
-    },
-    {
-      "surface": "ויורדו",
-      "gloss": "and lowered"
-    },
-    {
-      "surface": "איש",
-      "gloss": "each man"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אמתחתו",
-      "gloss": "his bag"
-    },
-    {
-      "surface": "ארצה",
-      "gloss": "to the ground"
-    },
-    {
-      "surface": "ויפתחו",
-      "gloss": "and opened"
-    },
-    {
-      "surface": "איש",
-      "gloss": "each man"
-    },
-    {
-      "surface": "אמתחתו",
-      "gloss": "his bag"
+      "kind": "wordplay",
+      "subject": "איש … איש",
+      "rationale": "Distributive 'each man … each man' frames the scene's symmetry; the second clause omits the object marker."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they hurried, and each man brought down ⟨את⟩ his bag to the ground, and each man opened his bag.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c01936be21d7ca11d48cbfda793dc38ab2420b39dd3d335007d4732aaa12413",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/44\/9-11.1791197372455.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְמַהֲר֗וּ",
+      "gloss": "And they hurried",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיּוֹרִ֛דוּ",
+      "gloss": "and brought down",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "each man",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his bag"
+    },
+    {
+      "surface": "אַמְתַּחְתּ֖וֹ",
+      "gloss": "his bag",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֑רְצָה",
+      "gloss": "to the ground",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּפְתְּח֖וּ",
+      "gloss": "and opened",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "each man",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַמְתַּחְתּֽוֹ",
+      "gloss": "his bag",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:49:32.456463164Z",
+  "model": "glm-5.3"
 }

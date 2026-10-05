@@ -1,79 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And if I remember, then I ⟨am⟩ terrified, and trembling seizes my flesh — horror!",
-  "tokens": [
+  "ref": "job 21:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "ואם",
-      "gloss": "And if"
-    },
-    {
-      "surface": "זכרתי",
-      "gloss": "I remember"
-    },
-    {
-      "surface": "ונבהלתי",
-      "gloss": "then I ⟨am⟩ terrified",
-      "readings": [
-        "then I ⟨am⟩ terrified",
-        "then I ⟨am⟩ dismayed"
-      ],
-      "held_by": {
-        "then I ⟨am⟩ terrified": [
-          "v1",
-          "v3"
-        ],
-        "then I ⟨am⟩ dismayed": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ואחז",
-      "gloss": "and seizes",
-      "readings": [
-        "and seizes",
-        "and takes hold of"
-      ],
-      "held_by": {
-        "and seizes": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and takes hold of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשרי",
-      "gloss": "my flesh"
-    },
-    {
-      "surface": "פלצות",
-      "gloss": "horror",
-      "readings": [
-        "horror",
-        "terror",
-        "shuddering"
-      ],
-      "held_by": {
-        "horror": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "terror": [
-          "en4"
-        ],
-        "shuddering": [
-          "v2"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "trembling",
+      "rationale": "פלצות is horror\/creeping dread; 'trembling' keeps the bodily shaking, the SDBH literal picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And when I remember, I am dismayed, and trembling seizes my flesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ca6c0bc87f05a0d625f59c638f09d359ac09c9c7ff200a43850f0f2bf7eba17",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/5-8.1791194357436.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִם",
+      "gloss": "And when",
+      "sense": null
+    },
+    {
+      "surface": "זָכַרְתִּי",
+      "gloss": "I remember",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִבְהַלְתִּי",
+      "gloss": "I am dismayed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָחַז",
+      "gloss": "and seizes",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשָׂרִי",
+      "gloss": "my flesh",
+      "sense": "S1"
+    },
+    {
+      "surface": "פַּלָּצוּת",
+      "gloss": "trembling",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:17.437166662Z",
+  "model": "glm-5.3"
 }

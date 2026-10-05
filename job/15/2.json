@@ -1,69 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Should a wise man answer with knowledge of wind, and fill his belly with the east wind?",
-  "tokens": [
+  "ref": "job 15:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "החכם",
-      "gloss": "a wise man"
+      "kind": "crux",
+      "subject": "knowledge of wind",
+      "rationale": "דעת רוח taken as construct 'wind-knowledge' (empty speech) or as 'with wind-like knowledge'; rendered literal-construct."
     },
     {
-      "surface": "יענה",
-      "gloss": "answer"
-    },
-    {
-      "surface": "דעת",
-      "gloss": "with knowledge of"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "wind",
-      "readings": [
-        "wind",
-        "breath",
-        "spirit"
-      ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וימלא",
-      "gloss": "and fill"
-    },
-    {
-      "surface": "קדים",
-      "gloss": "the east wind",
-      "readings": [
-        "the east wind",
-        "east wind"
-      ],
-      "held_by": {
-        "the east wind": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "east wind": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בטנו",
-      "gloss": "his belly"
+      "kind": "wordplay",
+      "subject": "רוח \/ קדים",
+      "rationale": "Empty wind and east wind pair as images of worthless speech; kept both literally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Should the wise answer with wind-knowledge, and fill his belly with the east wind?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4acff06b5bd2e2533e6fb7f690705c154321acbc664653ab81e4443672c84bc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/1-4.1791194279080.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֶֽחָכָ֗ם",
+      "gloss": "the wise",
+      "sense": "S2",
+      "readings": [
+        "the wise"
+      ]
+    },
+    {
+      "surface": "יַעֲנֶ֥ה",
+      "gloss": "answer",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּֽעַת",
+      "gloss": "knowledge of",
+      "sense": "S1"
+    },
+    {
+      "surface": "ר֑וּחַ",
+      "gloss": "wind",
+      "sense": "S1",
+      "readings": [
+        "wind",
+        "breath"
+      ]
+    },
+    {
+      "surface": "וִֽימַלֵּ֖א",
+      "gloss": "and fill",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדִ֣ים",
+      "gloss": "the east wind",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּטְנֽוֹ",
+      "gloss": "his belly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:59.081488896Z",
+  "model": "glm-5.3"
 }

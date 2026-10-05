@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Woe to Ashshur, the rod of my anger, and the staff — he, in their hand, ⟨is⟩ my wrath.",
+  "ref": "isaiah 10:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "it is in their hand",
+      "rationale": "the pronoun הוא interrupts: 'the staff which is in their hand' — Assyria is only the instrument, the hand is theirs but the fury is YHWH's"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שבט\/מטה",
+      "rationale": "rod and staff paired in parallel, both instruments of punishment"
+    }
+  ],
+  "translation": "Woe to Assyria, the rod of my anger, and the staff — it is in their hand — of my fury.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eb5ece6f5171369fda85f84514f64be039ad6510a398bbb7f8604633bbfc396e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/10\/5-8.1791188163181.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe"
+      "gloss": "Woe",
+      "sense": "S1"
     },
     {
       "surface": "אשור",
-      "gloss": "Ashshur"
+      "gloss": "Assyria",
+      "sense": "S1"
     },
     {
       "surface": "שבט",
-      "gloss": "rod",
+      "gloss": "the rod",
+      "sense": "S1",
       "readings": [
-        "rod",
-        "scepter",
-        "club"
-      ],
-      "held_by": {
-        "rod": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "scepter": [
-          "en4"
-        ],
-        "club": [
-          "en4"
-        ]
-      }
+        "the rod",
+        "the tribe"
+      ]
     },
     {
       "surface": "אפי",
-      "gloss": "of my anger"
+      "gloss": "of my anger",
+      "sense": "S1"
     },
     {
       "surface": "ומטה",
-      "gloss": "and the staff"
+      "gloss": "and the staff",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "he"
+      "gloss": "it is",
+      "sense": null
     },
     {
       "surface": "בידם",
-      "gloss": "in their hand"
+      "gloss": "in their hand",
+      "sense": "S1"
     },
     {
       "surface": "זעמי",
-      "gloss": "my wrath"
+      "gloss": "of my fury",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:16:03.181806759Z",
+  "model": "glm-5.3"
 }

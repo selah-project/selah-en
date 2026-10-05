@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And one shall rule from Jacob, and shall destroy a survivor from the city.",
-  "tokens": [
+  "ref": "numbers 24:19",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "וירד",
-      "gloss": "And one shall rule",
-      "readings": [
-        "And one shall rule",
-        "And one shall come down"
-      ],
-      "held_by": {
-        "And one shall rule": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "And one shall come down": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "וְיֵרְדְּ",
+      "rationale": "root רדה 'rule, subjugate' (so here), not ירד 'go down'."
     },
     {
-      "surface": "מיעקב",
-      "gloss": "from Jacob"
-    },
-    {
-      "surface": "והאביד",
-      "gloss": "and shall destroy"
-    },
-    {
-      "surface": "שריד",
-      "gloss": "a survivor"
-    },
-    {
-      "surface": "מעיר",
-      "gloss": "from the city"
+      "kind": "crux",
+      "subject": "מֵעִיר",
+      "rationale": "'from the city' (which city?) vs. emendation 'from Ir\/Ar' the Moabite city."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And out of Jacob shall one rule, and destroy the survivor from the city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5bef89a029f6dfaf238c9ae7b8f7083b95869f0e95923d2d71cd6422c4497dd5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/24\/17-20.1791183291889.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְיֵרְדְּ֖",
+      "gloss": "And shall rule",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִֽיַּעֲקֹ֑ב",
+      "gloss": "out of Jacob",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהֶאֱבִ֥יד",
+      "gloss": "and destroy",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂרִ֖יד",
+      "gloss": "the survivor",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעִֽיר",
+      "gloss": "from the city",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:51.904270232Z",
+  "model": "glm-5.3"
 }

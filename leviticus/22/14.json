@@ -1,71 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And a man, when he eats a holy thing in error, then he shall add its fifth upon it, and shall give to the priest ⟨את⟩ the holy thing.",
+  "ref": "leviticus 22:14",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "קדש \/ הקדש",
+      "rationale": "the verse opens with indefinite holy-thing and closes with ⟨את⟩ the holy-thing, the object returned to the priest."
+    },
+    {
+      "kind": "measurement",
+      "subject": "a fifth",
+      "rationale": "the restitution tariff: principal plus a fifth-part."
+    }
+  ],
+  "translation": "And a man, if he eats holy-thing in error, and he shall add a fifth of it upon it, and give ⟨את⟩ the holy-thing to the priest.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f0177924b4316e0b0c14468f0eb029a7f0b883ec1c25acc123bc2454995e9ef2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/22\/13-16.1791182592151.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואיש",
-      "gloss": "And a man"
+      "gloss": "And a man",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "if"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "en4"
-        ],
-        "if": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "if",
+      "sense": null
     },
     {
       "surface": "יאכל",
-      "gloss": "he eats"
+      "gloss": "he eats",
+      "sense": "S1"
     },
     {
       "surface": "קדש",
-      "gloss": "a holy thing"
+      "gloss": "holy-thing",
+      "sense": "S1"
     },
     {
       "surface": "בשגגה",
-      "gloss": "in error"
+      "gloss": "in error",
+      "sense": "S1"
     },
     {
       "surface": "ויסף",
-      "gloss": "then he shall add"
+      "gloss": "and he shall add",
+      "sense": null
     },
     {
       "surface": "חמשיתו",
-      "gloss": "its fifth"
+      "gloss": "a fifth of it",
+      "sense": null
     },
     {
       "surface": "עליו",
-      "gloss": "upon it"
+      "gloss": "upon it",
+      "sense": null
     },
     {
       "surface": "ונתן",
-      "gloss": "and shall give"
+      "gloss": "and give",
+      "sense": null
     },
     {
       "surface": "לכהן",
-      "gloss": "to the priest"
+      "gloss": "to the priest",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the holy-thing",
+      "sense": null
     },
     {
       "surface": "הקדש",
-      "gloss": "the holy thing"
+      "gloss": "the holy-thing",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:43:12.153798343Z",
+  "model": "glm-5.3"
 }

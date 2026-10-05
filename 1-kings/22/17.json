@@ -1,111 +1,158 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And he said, “I saw ⟨את⟩ all Israel scattered upon the mountains, like sheep that have no shepherd. And YHWH said, ‘These have no masters; let them return, each man to his house in peace.’”",
-  "tokens": [
+  "ref": "1-kings 22:17",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And he said"
+      "kind": "substitution",
+      "subject": "masters",
+      "rationale": "אֲדֹנִים is a plural of אָדוֹן, “lords\/masters”; the shepherdless sheep have no master to lead them"
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I saw"
+      "kind": "alternative",
+      "subject": "on the mountains",
+      "rationale": "2 Chron 18:16 has עַל (upon) for 1 Kings אֶל (to); both read as scattered across the mountains"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "נפצים",
-      "gloss": "scattered"
-    },
-    {
-      "surface": "אל",
-      "gloss": "upon"
-    },
-    {
-      "surface": "ההרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "כצאן",
-      "gloss": "like sheep"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is not"
-    },
-    {
-      "surface": "להם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "רעה",
-      "gloss": "a shepherd"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "And said"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "אדנים",
-      "gloss": "masters",
-      "readings": [
-        "masters",
-        "master"
-      ],
-      "held_by": {
-        "masters": [
-          "en4"
-        ],
-        "master": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לאלה",
-      "gloss": "to these"
-    },
-    {
-      "surface": "ישובו",
-      "gloss": "let them return"
-    },
-    {
-      "surface": "איש",
-      "gloss": "each man"
-    },
-    {
-      "surface": "לביתו",
-      "gloss": "to his house"
-    },
-    {
-      "surface": "בשלום",
-      "gloss": "in peace"
+      "kind": "wordplay",
+      "subject": "רֹעֶה \/ אֲדֹנִים",
+      "rationale": "the vision shifts from no shepherd to no masters, king-as-shepherd imagery sustained across the verse"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he said, “I have seen ⟨את⟩ all Israel scattered on the mountains, like sheep that have no shepherd for them.” And YHWH said, “These have no masters; let them return each man to his house in peace.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "662236d9a2c3fe57c39314d9ed621a1a38e9219a26db6421fe8b73b674532870",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/22\/17-20.1791187323829.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "And he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָאִיתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "all Israel"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְפֹצִים",
+      "gloss": "scattered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "הֶהָרִים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּצֹּאן",
+      "gloss": "like the flock",
+      "sense": "S1",
+      "readings": [
+        "like the flock",
+        "like sheep"
+      ]
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "אֵין",
+      "gloss": "there is not",
+      "sense": null
+    },
+    {
+      "surface": "לָהֶם",
+      "gloss": "for them",
+      "sense": null
+    },
+    {
+      "surface": "רֹעֶה",
+      "gloss": "a shepherd",
+      "sense": "S1",
+      "readings": [
+        "a shepherd",
+        "one who tends"
+      ]
+    },
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנִים",
+      "gloss": "masters",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאֵלֶּה",
+      "gloss": "for these",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשׁוּבוּ",
+      "gloss": "let them return",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "each man",
+      "sense": null
+    },
+    {
+      "surface": "לְבֵיתוֹ",
+      "gloss": "to his house",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשָׁלוֹם",
+      "gloss": "in peace",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:02:03.830548177Z",
+  "model": "glm-5.3"
 }

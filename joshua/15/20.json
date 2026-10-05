@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "This ⟨is⟩ the inheritance of the tribe of the sons of Judah for their families.",
-  "tokens": [
+  "ref": "joshua 15:20",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "זאת",
-      "gloss": "this"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זֹאת and נַחֲלַת."
     },
     {
-      "surface": "נחלת",
-      "gloss": "the inheritance of"
-    },
-    {
-      "surface": "מטה",
-      "gloss": "the tribe of"
-    },
-    {
-      "surface": "בני",
-      "gloss": "the sons of"
-    },
-    {
-      "surface": "יהודה",
-      "gloss": "Judah"
-    },
-    {
-      "surface": "למשפחתם",
-      "gloss": "for their families",
-      "readings": [
-        "for their families",
-        "according to their families"
-      ],
-      "held_by": {
-        "for their families": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "according to their families": [
-          "v2"
-        ]
-      }
+      "kind": "measurement",
+      "subject": "inheritance list",
+      "rationale": "The verse opens the measured allotment of Judah's territory, a land-census heading."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "This is the inheritance of the tribe of the sons of Judah for their clans.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b5a8fe2fc6fb602ead89d57997cd99f54ce9a7574f8a64ba4891c9ab66f1eee6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/15\/17-20.1791184580943.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹּ֗את",
+      "gloss": "This",
+      "sense": null
+    },
+    {
+      "surface": "נַחֲלַ֛ת",
+      "gloss": "is the inheritance of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַטֵּ֥ה",
+      "gloss": "the tribe of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵֽׁי",
+      "gloss": "the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוּדָ֖ה",
+      "gloss": "Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמִשְׁפְּחֹתָֽׁם",
+      "gloss": "for their clans",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:16:20.944398564Z",
+  "model": "glm-5.3"
 }

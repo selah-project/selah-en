@@ -1,62 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Hungry, and also thirsty — their soul in them fainted.",
-  "tokens": [
+  "ref": "psalms 107:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "רעבים",
-      "gloss": "Hungry"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש here is literally the throat, the seat of hunger and thirst; 'soul' would mislead"
     },
     {
-      "surface": "גם",
-      "gloss": "and also"
-    },
-    {
-      "surface": "צמאים",
-      "gloss": "thirsty"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their soul",
-      "readings": [
-        "their soul",
-        "their life"
-      ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בהם",
-      "gloss": "in them"
-    },
-    {
-      "surface": "תתעטף",
-      "gloss": "fainted",
-      "readings": [
-        "fainted",
-        "wrapped itself"
-      ],
-      "held_by": {
-        "fainted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wrapped itself": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "fainted",
+      "rationale": "תתעטף hithpael of עטף, literally 'wrapped itself up, shrouded itself' — idiom for fainting from weakness"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Hungry and also thirsty, their throat fainted in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8b84cc7ff692534681d3563eac3249bc901cfdb1f16e65908f719f8fc8c1ed3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/5-8.1791193331702.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רְעֵבִ֥ים",
+      "gloss": "hungry",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "and also",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְמֵאִ֑ים",
+      "gloss": "thirsty",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁ֗ם",
+      "gloss": "their throat",
+      "readings": [
+        "their throat",
+        "their life",
+        "their soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֥ם",
+      "gloss": "in them",
+      "sense": null
+    },
+    {
+      "surface": "תִּתְעַטָּֽף",
+      "gloss": "fainted",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:11.703282747Z",
+  "model": "glm-5.3"
 }

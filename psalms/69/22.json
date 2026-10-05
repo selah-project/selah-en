@@ -1,48 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And they gave for my food gall, and for my thirst they gave me vinegar to drink.",
-  "tokens": [
+  "ref": "psalms 69:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
     {
-      "surface": "ויתנו",
-      "gloss": "and they gave"
+      "kind": "hapax",
+      "subject": "ברות",
+      "rationale": "The noun בָּרוּת, 'food (of mourners or the sick)', occurs only here."
     },
     {
-      "surface": "בברותי",
-      "gloss": "for my food"
-    },
-    {
-      "surface": "ראש",
-      "gloss": "gall",
-      "readings": [
-        "gall",
-        "poison"
-      ],
-      "held_by": {
-        "gall": [
-          "v1",
-          "en4"
-        ],
-        "poison": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ולצמאי",
-      "gloss": "and for my thirst"
-    },
-    {
-      "surface": "ישקוני",
-      "gloss": "they gave me to drink"
-    },
-    {
-      "surface": "חמץ",
-      "gloss": "vinegar"
+      "kind": "wordplay",
+      "subject": "ראשׁ",
+      "rationale": "The poison-plant 'head' (רֹאשׁ) echoes the head shaken in v. 21; the echo is faint in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they gave for my food poison, and for my thirst they gave me vinegar to drink.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a560e6d143fc317686902dafbeae0edb2ed1b614295ff8d450cd016d797f7f1e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/21-24.1791192929416.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּתְּנוּ",
+      "gloss": "And they gave",
+      "sense": null
+    },
+    {
+      "surface": "בְּבָרוּתִי",
+      "gloss": "for my food",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹאשׁ",
+      "gloss": "poison",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלִצְמָאִי",
+      "gloss": "and for my thirst",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׁק֥וּנִי",
+      "gloss": "they gave me to drink",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹמֶץ",
+      "gloss": "vinegar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:35:29.416828764Z",
+  "model": "glm-5.3"
 }

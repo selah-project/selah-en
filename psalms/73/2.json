@@ -1,64 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "But as for me — my feet were almost bent aside, my steps were poured out like nothing.",
-  "tokens": [
+  "ref": "psalms 73:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "ואני",
-      "gloss": "But as for me",
-      "readings": [
-        "But as for me",
-        "And as for me"
-      ],
-      "held_by": {
-        "But as for me": [
-          "v2",
-          "en4"
-        ],
-        "And as for me": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "crux",
+      "subject": "נטוי",
+      "rationale": "ketiv נטוי \/ qere נטיו, participle 'made to slip' — rendered 'turned aside'; some read 'tottering'"
     },
     {
-      "surface": "כמעט",
-      "gloss": "almost"
+      "kind": "crux",
+      "subject": "שפכה",
+      "rationale": "ketiv singular feminine \/ qere שפכו plural; 'poured out' (of steps) is a strange picture kept literally"
+    },
+    {
+      "kind": "substitution",
+      "subject": "feet \/ steps",
+      "rationale": "רגלי and אשרי are metonymies for the psalmist's whole course of life, kept as the literal body parts"
+    }
+  ],
+  "translation": "But as for me, my feet had almost turned aside; like nothing were my steps poured out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b60757655ba9c0afde9cd3228b922d9cc923a16ef29d12088bb6744655a20db7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/1-4.1791192990033.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲנִ֗י",
+      "gloss": "But as for me",
+      "sense": null
+    },
+    {
+      "surface": "כִּ֭מְעַט",
+      "gloss": "almost",
+      "sense": "S1"
     },
     {
       "surface": "נטוי",
-      "gloss": "were bent aside",
+      "gloss": "turned aside",
+      "sense": "S1",
       "readings": [
-        "were bent aside",
-        "were stretched out"
-      ],
-      "held_by": {
-        "were bent aside": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "were stretched out": [
-          "en4"
-        ]
-      }
+        "turned aside",
+        "slipped"
+      ]
     },
     {
-      "surface": "רגלי",
-      "gloss": "my feet"
+      "surface": "רַגְלָ֑י",
+      "gloss": "my feet",
+      "sense": "S1"
     },
     {
-      "surface": "כאין",
-      "gloss": "like nothing"
+      "surface": "כְּאַ֗יִן",
+      "gloss": "like nothing",
+      "sense": null
     },
     {
       "surface": "שפכה",
-      "gloss": "were poured out"
+      "gloss": "were poured out",
+      "sense": "S1"
     },
     {
-      "surface": "אשרי",
-      "gloss": "my steps"
+      "surface": "אֲשֻׁרָֽי",
+      "gloss": "my steps",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:36:30.034064496Z",
+  "model": "glm-5.3"
 }

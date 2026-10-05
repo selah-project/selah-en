@@ -1,57 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Terror comes; and they will seek peace, and there will be none.",
-  "tokens": [
+  "ref": "ezekiel 7:25",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "קפדה",
-      "gloss": "Terror",
-      "readings": [
-        "Terror",
-        "shrinkage"
-      ],
-      "held_by": {
-        "Terror": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "shrinkage": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "קפדה",
+      "rationale": "Occurs only here in the Tanakh; literally a shrinking\/contracting, i.e. terror."
     },
     {
-      "surface": "בא",
-      "gloss": "comes"
-    },
-    {
-      "surface": "ובקשו",
-      "gloss": "and they will seek"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is none",
-      "readings": [
-        "and there is none",
-        "but it will not be"
-      ],
-      "held_by": {
-        "and there is none": [
-          "v2",
-          "en4"
-        ],
-        "but it will not be": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "שלום ואין",
+      "rationale": "Seeking wholeness and finding non-being — the absolute לוֹא\/אַיִן negation closes the verse starkly."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Dread has come, and they will seek shalom — and there is none.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3ae8c2cfc361e712703a6cfbb4efc2257f7114714062509cc3668128e428018",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/7\/25-27.1791190273681.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קְפָ֖דָה",
+      "gloss": "Dread",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָ֑א",
+      "gloss": "has come",
+      "sense": null
+    },
+    {
+      "surface": "וּבִקְשׁ֥וּ",
+      "gloss": "and they will seek",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁל֖וֹם",
+      "gloss": "shalom",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאָֽיִן",
+      "gloss": "and there is none",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:51:13.682383497Z",
+  "model": "glm-5.3"
 }

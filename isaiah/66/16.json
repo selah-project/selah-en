@@ -1,67 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "For by fire YHWH judges, and with his sword ⟨את⟩ all flesh; and the slain of YHWH shall be many.",
+  "ref": "isaiah 66:16",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "נִשְׁפָּט",
+      "rationale": "The niphal participle may be read reflexively, “YHWH enters into judgment,” or passively, “judgment is executed by YHWH”."
+    },
+    {
+      "kind": "substitution",
+      "subject": "flesh",
+      "rationale": "כל בשר is “all flesh” — every living creature, not merely human bodies."
+    }
+  ],
+  "translation": "For in fire YHWH executes judgment, and with his sword ⟨את⟩ all flesh; and many are the slain of YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aec84d95d646fb7f041550c3e22a6a30720c034d740952bab184cae00ec193be",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/66\/13-16.1791188983893.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּ֤י",
+      "gloss": "for"
     },
     {
-      "surface": "באש",
-      "gloss": "by fire"
+      "surface": "בָּאֵשׁ֙",
+      "gloss": "in fire",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה֣",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נשפט",
-      "gloss": "judges"
+      "surface": "נִשְׁפָּ֔ט",
+      "gloss": "executes judgment",
+      "sense": "S1"
     },
     {
-      "surface": "ובחרבו",
-      "gloss": "and with his sword"
+      "surface": "וּבְחַרְבּ֖וֹ",
+      "gloss": "and with his sword",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "all flesh"
     },
     {
-      "surface": "כל",
+      "surface": "כָּ֣ל",
       "gloss": "all"
     },
     {
-      "surface": "בשר",
-      "gloss": "flesh"
+      "surface": "בָּשָׂ֑ר",
+      "gloss": "flesh",
+      "sense": "S1"
     },
     {
-      "surface": "ורבו",
-      "gloss": "and they shall be many"
+      "surface": "וְרַבּ֖וּ",
+      "gloss": "and many are",
+      "sense": "S1"
     },
     {
-      "surface": "חללי",
+      "surface": "חַֽלְלֵ֥י",
       "gloss": "the slain of",
-      "readings": [
-        "the slain of",
-        "the pierced of"
-      ],
-      "held_by": {
-        "the slain of": [
-          "v2",
-          "v3"
-        ],
-        "the pierced of": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:29:43.905610321Z",
+  "model": "glm-5.3"
 }

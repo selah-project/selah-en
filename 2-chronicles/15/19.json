@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And there was no war until the thirty and fifth year of the kingdom of Asa.",
+  "ref": "2-chronicles 15:19",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there",
+      "rationale": "English existential 'there was' supplies what Hebrew's verb alone carries."
+    },
+    {
+      "kind": "measurement",
+      "subject": "year 35",
+      "rationale": "Dated regnal notice; conflicts with 2 Chr 16:1 (Baasha's attack in year 36), a known chronological crux."
+    }
+  ],
+  "translation": "And there was no war until the year of thirty and five of the reign of Asa.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ca46170ea4b265b4ebd9a9fe0ccefbf96611da4625e3b6be83054c1fe42c24d9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/15\/17-19.1791196725145.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ומלחמה",
-      "gloss": "and war"
+      "gloss": "and war",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "היתה",
-      "gloss": "there was"
+      "gloss": "was"
     },
     {
       "surface": "עד",
-      "gloss": "until"
+      "gloss": "until",
+      "sense": "S1"
     },
     {
       "surface": "שנת",
-      "gloss": "the year of"
+      "gloss": "the year of",
+      "sense": "S1"
     },
     {
       "surface": "שלשים",
-      "gloss": "thirty"
+      "gloss": "thirty",
+      "sense": "S1"
     },
     {
       "surface": "וחמש",
-      "gloss": "and five"
+      "gloss": "and five",
+      "sense": "S1"
     },
     {
       "surface": "למלכות",
       "gloss": "of the reign",
-      "readings": [
-        "of the reign",
-        "of the kingdom of"
-      ],
-      "held_by": {
-        "of the reign": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the kingdom of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אסא",
-      "gloss": "of Asa"
+      "gloss": "Asa",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:38:45.146607380Z",
+  "model": "glm-5.3"
 }

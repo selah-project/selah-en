@@ -1,83 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "The voice of YHWH calls to ⟨the⟩ city, and it is wisdom to fear Your name; hear the rod, and who appointed it!",
+  "ref": "micah 6:9",
+  "book": "micah",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks an expressed copula between תושיה and the infinitive of fear"
+    },
+    {
+      "kind": "crux",
+      "subject": "to fear Your name",
+      "rationale": "ketiv יראה can read 'sees\/it is seen' — some take 'sound wisdom will see Your name'; qere ייראה gives 'fear Your name'"
+    },
+    {
+      "kind": "crux",
+      "subject": "O staff",
+      "rationale": "מטה as tribe (the assembled people addressed) vs rod\/staff (symbol of judgment); יעדה 'appointed her' is feminine, matching city or tribe"
+    },
+    {
+      "kind": "invitation",
+      "subject": "hear, O staff",
+      "rationale": "imperative summons to the addressee after YHWH's voice cries out"
+    },
+    {
+      "kind": "you",
+      "subject": "to the city \/ Your name",
+      "rationale": "YHWH addresses the city and its ruler directly"
+    }
+  ],
+  "translation": "A voice of YHWH calls to the city, and sound wisdom ⟨is⟩ to fear Your name; hear, O staff, and who appointed her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c34dc11017337b49a23c1ad9eddae392d6068fe1a61787c6ace7d35e9b6f624",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/micah\/6\/9-12.1791191772093.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/micah.edn"
+  },
   "tokens": [
     {
-      "surface": "קול",
-      "gloss": "The voice"
+      "surface": "קוֹל",
+      "gloss": "A voice of"
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לעיר",
-      "gloss": "to ⟨the⟩ city"
+      "surface": "לָעִיר",
+      "gloss": "to the city",
+      "sense": "S1"
     },
     {
-      "surface": "יקרא",
-      "gloss": "calls"
+      "surface": "יִקְרָא",
+      "gloss": "calls",
+      "sense": "S1"
     },
     {
-      "surface": "ותושיה",
-      "gloss": "and it is wisdom"
+      "surface": "וְתוּשִׁיָּה",
+      "gloss": "and sound wisdom",
+      "sense": "S1"
     },
     {
-      "surface": "יראה",
+      "surface": "יִרְאֶה",
       "gloss": "to fear",
       "readings": [
         "to fear",
         "to see"
-      ],
-      "held_by": {
-        "to fear": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to see": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      ]
     },
     {
-      "surface": "שמך",
-      "gloss": "your name"
+      "surface": "שְׁמֶךָ",
+      "gloss": "Your name",
+      "sense": "S1"
     },
     {
-      "surface": "שמעו",
+      "surface": "שִׁמְעוּ",
       "gloss": "hear"
     },
     {
-      "surface": "מטה",
-      "gloss": "the rod",
+      "surface": "מַטֶּה",
+      "gloss": "O staff",
       "readings": [
-        "the rod",
-        "the tribe"
+        "O staff",
+        "O tribe"
       ],
-      "held_by": {
-        "the rod": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the tribe": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S2"
     },
     {
-      "surface": "ומי",
-      "gloss": "and who"
+      "surface": "וּמִי",
+      "gloss": "and who",
+      "sense": "S1"
     },
     {
-      "surface": "יעדה",
-      "gloss": "appointed it"
+      "surface": "יְעָדָהּ",
+      "gloss": "appointed her",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:12.093786320Z",
+  "model": "glm-5.3"
 }

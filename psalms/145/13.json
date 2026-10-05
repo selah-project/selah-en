@@ -1,55 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Your kingdom ⟨is⟩ a kingdom of all ages, and your dominion in every generation and generation.",
+  "ref": "psalms 145:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 145,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks an expressed copula between the two noun phrases"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מלכותך \/ מלכות",
+      "rationale": "the root מלך is doubled at the verse's opening — kingship of a kingship — carried by repetition in English"
+    }
+  ],
+  "translation": "Your kingship is a kingship of all eternities, and your dominion ⟨is⟩ in every generation and generation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be23d9196cf4750ff765a7eab90329cd1441c8b3ea54d002f6c4accd988156a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/145\/13-16.1791193637724.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "מלכותך",
-      "gloss": "Your kingdom"
+      "surface": "מַֽלְכוּתְךָ֗",
+      "gloss": "Your kingship",
+      "sense": "S1"
     },
     {
-      "surface": "מלכות",
-      "gloss": "a kingdom"
+      "surface": "מַלְכ֥וּת",
+      "gloss": "a kingship",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "עלמים",
-      "gloss": "ages",
-      "readings": [
-        "ages",
-        "the concealed"
-      ],
-      "held_by": {
-        "ages": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the concealed": [
-          "en4"
-        ]
-      }
+      "surface": "עֹֽלָמִ֑ים",
+      "gloss": "eternities",
+      "sense": "S1"
     },
     {
-      "surface": "וממשלתך",
+      "surface": "וּ֝מֶֽמְשֶׁלְתְּךָ֗",
       "gloss": "and your dominion"
     },
     {
-      "surface": "בכל",
+      "surface": "בְּכָל",
       "gloss": "in every"
     },
     {
-      "surface": "דור",
-      "gloss": "generation"
+      "surface": "דּ֥וֹר",
+      "gloss": "generation",
+      "sense": "S1"
     },
     {
-      "surface": "ודור",
-      "gloss": "and generation"
+      "surface": "וָדֽוֹר",
+      "gloss": "and generation",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:17.724750973Z",
+  "model": "glm-5.3"
 }

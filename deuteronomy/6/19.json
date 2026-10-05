@@ -1,54 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "To drive out ⟨את⟩ all your enemies from before your face, as YHWH has spoken.",
+  "ref": "deuteronomy 6:19",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "from before you",
+      "rationale": "Hebrew מפניך, literally 'from your face', rendered 'from before you'."
+    }
+  ],
+  "translation": "to drive out ⟨את⟩ all your enemies from before you, as YHWH spoke.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6bacf82e2f66b4ea8de41506b16cae924bed9c137c875a9ff0417d853e1ef838",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/6\/17-20.1791183706312.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "להדף",
+      "surface": "לַהֲדֹ֥ף",
       "gloss": "to drive out",
-      "readings": [
-        "to drive out",
-        "to thrust out"
-      ],
-      "held_by": {
-        "to drive out": [
-          "v1",
-          "v3"
-        ],
-        "to thrust out": [
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "all your enemies"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "איביך",
-      "gloss": "your enemies"
+      "surface": "אֹיְבֶ֖יךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
     },
     {
-      "surface": "מפניך",
-      "gloss": "from before your face"
+      "surface": "מִפָּנֶ֑יךָ",
+      "gloss": "from before you"
     },
     {
-      "surface": "כאשר",
+      "surface": "כַּאֲשֶׁ֖ר",
       "gloss": "as"
     },
     {
-      "surface": "דבר",
-      "gloss": "has spoken"
+      "surface": "דִּבֶּ֥ר",
+      "gloss": "spoke",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:01:46.314625914Z",
+  "model": "glm-5.3"
 }

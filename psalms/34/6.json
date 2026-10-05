@@ -1,51 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "They looked to him and were radiant, and their faces shall not be ashamed.",
+  "ref": "psalms 34:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "were radiant",
+      "rationale": "נהרו: from נהר 'to sparkle\/flow' — LXX 'were illumined', some read 'flowed (with light)'; kept the literal picture of beaming."
+    }
+  ],
+  "translation": "They looked to him and were radiant, and their faces were not ashamed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b0e6c43d1d8b72c16ce88eae79b364753cbb93e108f1d381f16c524004671d98",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/5-8.1791192598039.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הביטו",
-      "gloss": "they looked intently"
+      "surface": "הִבִּיטוּ",
+      "gloss": "They looked",
+      "sense": "S1"
     },
     {
-      "surface": "אליו",
+      "surface": "אֵלָיו",
       "gloss": "to him"
     },
     {
-      "surface": "ונהרו",
+      "surface": "וְנָהָרוּ",
       "gloss": "and were radiant",
       "readings": [
         "and were radiant",
-        "and flowed",
-        "and burned"
+        "and beamed"
       ],
-      "held_by": {
-        "and were radiant": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and flowed": [
-          "en4"
-        ],
-        "and burned": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ופניהם",
-      "gloss": "and their faces"
+      "surface": "וּפְנֵיהֶם",
+      "gloss": "and their faces",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "not"
     },
     {
-      "surface": "יחפרו",
-      "gloss": "shall be ashamed"
+      "surface": "יֶחְפָּרוּ",
+      "gloss": "were ashamed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:58.040608744Z",
+  "model": "glm-5.3"
 }

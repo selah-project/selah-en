@@ -1,73 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And you shall not answer against your neighbor ⟨as⟩ a false witness.",
-  "tokens": [
+  "ref": "deuteronomy 5:20",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "kind": "addition",
+      "subject": "⟨a⟩",
+      "rationale": "English requires an article the Hebrew construct chain lacks."
     },
     {
-      "surface": "תענה",
-      "gloss": "you shall answer",
-      "readings": [
-        "you shall answer",
-        "you shall bear witness"
-      ],
-      "held_by": {
-        "you shall answer": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you shall bear witness": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "answer",
+      "rationale": "ענה here is to testify in court; “testify falsely” is the common rendering."
     },
     {
-      "surface": "ברעך",
-      "gloss": "against your neighbor",
-      "readings": [
-        "against your neighbor",
-        "in your neighbor"
-      ],
-      "held_by": {
-        "against your neighbor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in your neighbor": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "עד",
-      "gloss": "witness"
-    },
-    {
-      "surface": "שוא",
-      "gloss": "false",
-      "readings": [
-        "false",
-        "emptiness"
-      ],
-      "held_by": {
-        "false": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "emptiness": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "שוא",
+      "rationale": "Deuteronomy reads שוא (falsehood) where the Exodus 20:16 parallel has שקר (lie)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you shall not answer against your neighbor ⟨a⟩ witness of falsehood.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ab6c5e6919da6769e9c87217f892207e0344de9ec4d750347e1fb079acd25f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/5\/17-20.1791183666753.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַעֲנֶה",
+      "gloss": "answer",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְרֵעֲךָ",
+      "gloss": "against your neighbor",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵד",
+      "gloss": "witness of"
+    },
+    {
+      "surface": "שָׁוְא",
+      "gloss": "falsehood",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:01:06.754786009Z",
+  "model": "glm-5.3"
 }

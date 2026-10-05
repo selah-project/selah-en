@@ -1,48 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "⟨את⟩ the foreigner you may press, but what shall be to you ⟨את⟩ your brother, your hand shall release.",
-  "tokens": [
+  "ref": "deuteronomy 15:3",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "idiom",
+      "subject": "with your brother",
+      "rationale": "the second אֵת is the preposition 'with', not the object marker; the same letters, a different word."
     },
     {
-      "surface": "הנכרי",
-      "gloss": "the foreigner"
-    },
-    {
-      "surface": "תגש",
-      "gloss": "you may press"
-    },
-    {
-      "surface": "ואשר",
-      "gloss": "but what"
-    },
-    {
-      "surface": "יהיה",
-      "gloss": "shall be"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אחיך",
-      "gloss": "your brother"
-    },
-    {
-      "surface": "תשמט",
-      "gloss": "shall release"
-    },
-    {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "kind": "substitution",
+      "subject": "your hand",
+      "rationale": "יָד metonymic for you as creditor; the Hebrew verb's subject is the hand, kept literal."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ the foreigner you may press, but what is yours with ⟨את⟩ your brother, your hand shall remit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc5ce70524a5ab9920020ef19f19200fa1189bbd7ce4b83fc2b432f93b7f6aa8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/15\/1-4.1791183882470.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "the foreigner"
+    },
+    {
+      "surface": "הַנָּכְרִי",
+      "gloss": "the foreigner",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּגֹּשׂ",
+      "gloss": "you may press",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲשֶׁר",
+      "gloss": "but what",
+      "sense": null
+    },
+    {
+      "surface": "יִהְיֶה",
+      "gloss": "is",
+      "sense": null
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "yours",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "sense": null,
+      "marks": "your brother"
+    },
+    {
+      "surface": "אָחִיךָ",
+      "gloss": "your brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּשְׁמֵט",
+      "gloss": "your hand shall remit",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדֶךָ",
+      "gloss": "⟨your hand⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:04:42.471641403Z",
+  "model": "glm-5.3"
 }

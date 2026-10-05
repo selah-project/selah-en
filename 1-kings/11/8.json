@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And so he did for all his foreign wives, burning incense and sacrificing to their gods.",
-  "tokens": [
+  "ref": "1-kings 11:8",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "וכן",
-      "gloss": "And so"
+      "kind": "alternative",
+      "subject": "burning incense",
+      "rationale": "מַקְטִירוֹת is literally 'making smoke go up'; the literal picture of rising smoke is lost in 'burning incense'"
     },
     {
-      "surface": "עשה",
-      "gloss": "he did"
-    },
-    {
-      "surface": "לכל",
-      "gloss": "for all"
-    },
-    {
-      "surface": "נשיו",
-      "gloss": "his wives"
-    },
-    {
-      "surface": "הנכריות",
-      "gloss": "the foreign"
-    },
-    {
-      "surface": "מקטירות",
-      "gloss": "burning incense"
-    },
-    {
-      "surface": "ומזבחות",
-      "gloss": "and sacrificing",
-      "readings": [
-        "and sacrificing",
-        "and slaughtering"
-      ],
-      "held_by": {
-        "and sacrificing": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and slaughtering": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לאלהיהן",
-      "gloss": "to their gods"
+      "kind": "elision",
+      "subject": "he",
+      "rationale": "the perfect עָשָׂה has no expressed subject; 'he' (Solomon) is supplied by the verb's context"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And so he did for all his foreign wives, burning incense and sacrificing to their gods.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4a73ccbf90d10299048100223cabc6da10d0e87c3db0145d3a4898064b571432",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/11\/5-8.1791187000805.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכֵ֣ן",
+      "gloss": "and so",
+      "sense": null
+    },
+    {
+      "surface": "עָשָׂ֔ה",
+      "gloss": "he did",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "for all",
+      "sense": null
+    },
+    {
+      "surface": "נָשָׁ֖יו",
+      "gloss": "his wives",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנָּכְרִיּ֑וֹת",
+      "gloss": "foreign",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַקְטִיר֥וֹת",
+      "gloss": "burning incense",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽמְזַבְּחֹת֖",
+      "gloss": "and sacrificing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאלֹהֵיהֶֽן",
+      "gloss": "to their gods",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:56:40.807636515Z",
+  "model": "glm-5.3"
 }

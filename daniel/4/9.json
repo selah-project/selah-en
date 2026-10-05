@@ -1,114 +1,135 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Its foliage ⟨was⟩ beautiful and its fruit ⟨was⟩ abundant, and food for all ⟨was⟩ in it; beneath it the beast of the field took shelter, and in its branches the birds of the heavens dwell, and from it all flesh was fed.",
+  "ref": "daniel 4:9",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew verbless clauses require an English copula here"
+    },
+    {
+      "kind": "crux",
+      "subject": "dwelt",
+      "rationale": "ketiv ידרון vs qere ידורן, both 'dwell' from דור; the nun-ending Aramaic plural"
+    },
+    {
+      "kind": "hapax",
+      "subject": "shaded itself",
+      "rationale": "טלל occurs only here in the Tanakh"
+    },
+    {
+      "kind": "hapax",
+      "subject": "was fed",
+      "rationale": "יתזין (hothpaal of זון) occurs only here in the Tanakh"
+    }
+  ],
+  "translation": "Its foliage was beautiful and its fruit abundant, and food for all was in it; beneath it the beast of the field shaded itself, and in its branches dwelt the birds of the heavens, and from it all flesh was fed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "218d9a1c224835066b1fccf54cd2b588bfae9f0810883f5c8be0c6e29c554f51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/4\/9-12.1791195255914.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
-      "surface": "עפיה",
-      "gloss": "its foliage"
+      "surface": "עָפְיֵהּ",
+      "gloss": "its foliage",
+      "sense": "S1"
     },
     {
-      "surface": "שפיר",
-      "gloss": "beautiful"
+      "surface": "שַׁפִּיר",
+      "gloss": "beautiful",
+      "sense": "S1"
     },
     {
-      "surface": "ואנבה",
-      "gloss": "and its fruit"
+      "surface": "וְאִנְבֵּהּ",
+      "gloss": "and its fruit",
+      "sense": "S1"
     },
     {
-      "surface": "שגיא",
+      "surface": "שַׂגִּיא",
       "gloss": "abundant",
-      "readings": [
-        "abundant",
-        "great"
-      ],
-      "held_by": {
-        "abundant": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "great": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ומזון",
-      "gloss": "and food"
+      "surface": "וּמָזוֹן",
+      "gloss": "and food",
+      "sense": "S1"
     },
     {
-      "surface": "לכלא",
+      "surface": "לְכֹלָּא",
       "gloss": "for all"
     },
     {
-      "surface": "בה",
+      "surface": "בֵּהּ",
       "gloss": "in it"
     },
     {
-      "surface": "תחתוהי",
-      "gloss": "beneath it"
+      "surface": "תְּחֹתוֹהִי",
+      "gloss": "beneath it",
+      "sense": "S1"
     },
     {
-      "surface": "תטלל",
-      "gloss": "took shelter"
+      "surface": "תַּטְלֵל",
+      "gloss": "shaded itself",
+      "sense": "S1"
     },
     {
-      "surface": "חיות",
-      "gloss": "the beast"
+      "surface": "חֵיוַת",
+      "gloss": "the beast of",
+      "sense": "S1"
     },
     {
-      "surface": "ברא",
-      "gloss": "of the field"
+      "surface": "בָּרָא",
+      "gloss": "the field",
+      "sense": "S1"
     },
     {
-      "surface": "ובענפוהי",
-      "gloss": "and in its branches"
+      "surface": "וּבְעַנְפוֹהִי",
+      "gloss": "and in its branches",
+      "sense": "S1"
     },
     {
-      "surface": "ידרון",
-      "gloss": "dwell"
+      "surface": "יִדְרוֹן",
+      "gloss": "dwelt",
+      "sense": "S1"
     },
     {
-      "surface": "צפרי",
-      "gloss": "the birds"
+      "surface": "צִפֲּרֵי",
+      "gloss": "the birds of",
+      "sense": "S1"
     },
     {
-      "surface": "שמיא",
-      "gloss": "of the heavens"
+      "surface": "שְׁמַיָּא",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "ומנה",
+      "surface": "וּמִנֵּהּ",
       "gloss": "and from it"
     },
     {
-      "surface": "יתזין",
+      "surface": "יִתְּזִין",
       "gloss": "was fed",
-      "readings": [
-        "was fed",
-        "feeds"
-      ],
-      "held_by": {
-        "was fed": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "feeds": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "בשרא",
+      "surface": "בִּשְׂרָא",
       "gloss": "flesh"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:14:15.915295408Z",
+  "model": "glm-5.3"
 }

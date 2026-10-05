@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And call on Me in the day of trouble; I will deliver you, and you shall honor Me.",
-  "tokens": [
+  "ref": "psalms 50:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
     {
-      "surface": "וקראני",
-      "gloss": "And call on Me"
+      "kind": "invitation",
+      "subject": "to Israel",
+      "rationale": "Promise attached to the imperative: call, and I will deliver."
     },
     {
-      "surface": "ביום",
-      "gloss": "in the day of"
-    },
-    {
-      "surface": "צרה",
-      "gloss": "of trouble"
-    },
-    {
-      "surface": "אחלצך",
-      "gloss": "I will deliver you",
-      "readings": [
-        "I will deliver you",
-        "I will draw you out"
-      ],
-      "held_by": {
-        "I will deliver you": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will draw you out": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותכבדני",
-      "gloss": "and you shall honor Me",
-      "readings": [
-        "and you shall honor Me",
-        "and you will make Me heavy"
-      ],
-      "held_by": {
-        "and you shall honor Me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and you will make Me heavy": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "trouble",
+      "rationale": "צרה literally 'tightness, narrowness' — distress pictured as a cramped space."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and call me in the day of trouble — I will deliver you, and you will honor me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d966d3d2a36eaf6bc546e9c8f9215710176f285a2eafda3e799a7712d3b51141",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/50\/13-16.1791192770012.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּ֭קְרָאֵנִי",
+      "gloss": "and call me",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּי֣וֹם",
+      "gloss": "in the day of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרָ֑ה",
+      "gloss": "trouble",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֝חַלֶּצְךָ֗",
+      "gloss": "I will deliver you",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽתְכַבְּדֵֽנִי",
+      "gloss": "and you will honor me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:50.013682952Z",
+  "model": "glm-5.3"
 }

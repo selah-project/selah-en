@@ -1,78 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Their inward thought is that their houses are forever, their dwelling-places from generation to generation; they called by their names over lands.",
+  "ref": "psalms 49:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "קרבם",
+      "rationale": "ketiv קִרְבָּם 'their inward part' vs qere קִבְרָם 'their grave' — most read 'their grave is their house forever'; ketiv kept as ground."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בתימו \/ לדר ודר",
+      "rationale": "irony: plural 'their houses' alongside 'their grave' — the eternal house is the tomb; doubled 'generation and generation' heightens it."
+    }
+  ],
+  "translation": "Their inward part is their house forever, their dwellings for generation and generation; they called their names over the lands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8eabd1dad5f26fbb15ae93587b3252495b57bab485a71ff3dcb6a7409618b59a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/9-12.1791192760374.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "קרבם",
-      "gloss": "their inward thought",
+      "surface": "קִרְבָּ֤ם",
+      "gloss": "their inward part",
       "readings": [
-        "their inward thought",
-        "their inward part"
+        "their inward part",
+        "their grave"
       ],
-      "held_by": {
-        "their inward thought": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "their inward part": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "בתימו",
-      "gloss": "their houses"
+      "surface": "בָּתֵּ֨ימוֹ",
+      "gloss": "their house",
+      "sense": "S1"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָ֗ם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "משכנתם",
-      "gloss": "their dwelling-places"
+      "surface": "מִשְׁכְּנֹתָם",
+      "gloss": "their dwellings",
+      "sense": "S1"
     },
     {
-      "surface": "לדר",
-      "gloss": "from generation"
+      "surface": "לְדֹ֣ר",
+      "gloss": "for generation",
+      "sense": "S1"
     },
     {
-      "surface": "ודר",
-      "gloss": "to generation"
+      "surface": "וָדֹ֑ר",
+      "gloss": "and generation",
+      "sense": "S1"
     },
     {
-      "surface": "קראו",
-      "gloss": "they called"
+      "surface": "קָֽרְא֥וּ",
+      "gloss": "they called",
+      "sense": "S1"
     },
     {
-      "surface": "בשמותם",
-      "gloss": "by their names",
-      "readings": [
-        "by their names",
-        "their names"
-      ],
-      "held_by": {
-        "by their names": [
-          "en4"
-        ],
-        "their names": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "בִּשְׁמוֹתָ֗ם",
+      "gloss": "their names",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עֲלֵ֣י",
       "gloss": "over"
     },
     {
-      "surface": "אדמות",
-      "gloss": "lands"
+      "surface": "אֲדָמֽוֹת",
+      "gloss": "the lands",
+      "readings": [
+        "the lands",
+        "the grounds"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:40.375814729Z",
+  "model": "glm-5.3"
 }

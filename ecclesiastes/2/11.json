@@ -1,155 +1,139 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Then I turned, I, to all my works that my hands had done, and to the toil that I had toiled to do, and behold — the whole is vapor and a striving after wind, and there is no gain under the sun.",
+  "ref": "ecclesiastes 2:11",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "hevel",
+      "rationale": "הבל literally breath\/vapor; transliterated to keep Qohelet's refrain unflattened — not 'vanity'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עמל\/עמלתי",
+      "rationale": "Noun and verb of the same root in sequence — 'the toil that I had toiled'."
+    },
+    {
+      "kind": "crux",
+      "subject": "ורעות רוח",
+      "rationale": "'Striving after wind' vs 'grasping for wind' (רעות from רעה, feeding\/pasturing) — the literal picture is herding wind."
+    }
+  ],
+  "translation": "And I turned, I, to all my works that my hands had done, and to the toil that I had toiled to do, and behold the whole — hevel and a striving after wind, and there is no gain under the sun.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "55958f464f50a0db62086af0b6d44750baeb989011f0b018378e69cca67d17a5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/2\/9-12.1791194852440.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "ופניתי",
+      "surface": "וּפָנִ֣יתִֽי",
       "gloss": "And I turned",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנִ֗י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "to all",
+      "sense": null
+    },
+    {
+      "surface": "מַעֲשַׂי֙",
+      "gloss": "my works",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶֽׁעָשׂ֣וּ",
+      "gloss": "that",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֔י",
+      "gloss": "my hands had done",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֶֽעָמָ֖ל",
+      "gloss": "and to the toil",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁעָמַ֣לְתִּי",
+      "gloss": "that I had toiled",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַעֲשֹׂ֑ת",
+      "gloss": "to do",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּ֨ה",
+      "gloss": "and behold"
+    },
+    {
+      "surface": "הַכֹּ֥ל",
+      "gloss": "the whole",
+      "sense": null
+    },
+    {
+      "surface": "הֶ֨בֶל֙",
+      "gloss": "hevel",
+      "sense": "S1",
       "readings": [
-        "And I turned",
-        "And I faced"
-      ],
-      "held_by": {
-        "And I turned": [
-          "v1",
-          "v3"
-        ],
-        "And I faced": [
-          "en4"
-        ]
-      }
+        "hevel",
+        "a breeze",
+        "vapor"
+      ]
     },
     {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "to all"
-    },
-    {
-      "surface": "מעשי",
-      "gloss": "my works"
-    },
-    {
-      "surface": "שעשו",
-      "gloss": "that had done"
-    },
-    {
-      "surface": "ידי",
-      "gloss": "my hands"
-    },
-    {
-      "surface": "ובעמל",
-      "gloss": "and to the toil"
-    },
-    {
-      "surface": "שעמלתי",
-      "gloss": "that I had toiled"
-    },
-    {
-      "surface": "לעשות",
-      "gloss": "to do"
-    },
-    {
-      "surface": "והנה",
-      "gloss": "and behold",
-      "readings": [
-        "and behold",
-        "and look"
-      ],
-      "held_by": {
-        "and behold": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and look": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הכל",
-      "gloss": "the whole"
-    },
-    {
-      "surface": "הבל",
-      "gloss": "vapor"
-    },
-    {
-      "surface": "ורעות",
+      "surface": "וּרְע֣וּת",
       "gloss": "and a striving after",
-      "readings": [
-        "and a striving after",
-        "and a shepherding of"
-      ],
-      "held_by": {
-        "and a striving after": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and a shepherding of": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "ר֔וּחַ",
       "gloss": "wind",
+      "sense": "S1",
       "readings": [
         "wind",
         "breath",
         "spirit"
-      ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is no"
+      "surface": "וְאֵ֥ין",
+      "gloss": "and there is no",
+      "sense": null
     },
     {
-      "surface": "יתרון",
+      "surface": "יִתְר֖וֹן",
       "gloss": "gain",
-      "readings": [
-        "gain",
-        "profit"
-      ],
-      "held_by": {
-        "gain": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "profit": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תחת",
-      "gloss": "under"
+      "surface": "תַּ֥חַת",
+      "gloss": "under",
+      "sense": "S1"
     },
     {
-      "surface": "השמש",
-      "gloss": "the sun"
+      "surface": "הַשָּֽׁמֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:32.441556004Z",
+  "model": "glm-5.3"
 }

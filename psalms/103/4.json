@@ -1,64 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The one redeeming your life from the pit, the one crowning you with chesed and compassions.",
-  "tokens": [
+  "ref": "psalms 103:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "הגואל",
-      "gloss": "The one redeeming"
+      "kind": "addition",
+      "subject": "with",
+      "rationale": "Hebrew has the crown verb with two bare nouns; English needs the preposition to carry the image."
     },
     {
-      "surface": "משחת",
+      "kind": "wordplay",
+      "subject": "הגואל … המעטרכי",
+      "rationale": "Continued participle parallelism from v.3: redeeming\/crowning, both kingly-kinsman deeds."
+    }
+  ],
+  "translation": "The One redeeming your life from the pit, the One crowning you with chesed and compassions.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1eb16ef1705cb6d560836e6fac44f129457ed565dc510d07457237368ed8fa51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/1-4.1791193263668.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַגּוֹאֵל",
+      "gloss": "The One redeeming",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשַּׁחַת",
       "gloss": "from the pit",
       "readings": [
         "from the pit",
         "from destruction"
       ],
-      "held_by": {
-        "from the pit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from destruction": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חייכי",
-      "gloss": "your life"
+      "surface": "חַיָּיְכִי",
+      "gloss": "your life",
+      "sense": "S1"
     },
     {
-      "surface": "המעטרכי",
-      "gloss": "the one crowning you"
+      "surface": "הַמְעַטְּרֵכִי",
+      "gloss": "the One crowning you",
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
+      "surface": "חֶסֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
-        "loving devotion",
         "steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "en4"
-        ],
-        "loving devotion": [
-          "v1",
-          "v3"
-        ],
-        "steadfast love": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ורחמים",
-      "gloss": "and compassions"
+      "surface": "וְרַחֲמִים",
+      "gloss": "and compassions",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:03.669633027Z",
+  "model": "glm-5.3"
 }

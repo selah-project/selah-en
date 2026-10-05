@@ -1,81 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "My eyes are upon the faithful of the land, to dwell with me; he who walks in a blameless way, he shall serve me.",
+  "ref": "psalms 101:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 101,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a verb between 'my eyes' and 'the faithful'; copula supplied."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הוא",
+      "rationale": "Emphatic independent pronoun heightens the verdict: 'that one — he shall serve me.'"
+    }
+  ],
+  "translation": "My eyes ⟨are⟩ on the faithful of the land, to dwell with me; the one walking in the way of integrity — he, he will serve me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "79634dd01f7c3afcabf4d58eecb66fded6b647ed881dca4368d257212c12e8c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/101\/5-8.1791193252435.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "עיני",
-      "gloss": "My eyes"
+      "gloss": "My eyes",
+      "sense": "S1"
     },
     {
       "surface": "בנאמני",
-      "gloss": "upon the faithful of"
+      "gloss": "on the faithful of",
+      "sense": "S1"
     },
     {
       "surface": "ארץ",
       "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לשבת",
-      "gloss": "to dwell"
+      "gloss": "to dwell",
+      "sense": "S1"
     },
     {
       "surface": "עמדי",
-      "gloss": "with me"
+      "gloss": "with me",
+      "sense": null
     },
     {
       "surface": "הלך",
-      "gloss": "he who walks"
+      "gloss": "the one walking",
+      "sense": "S1"
     },
     {
       "surface": "בדרך",
-      "gloss": "in a way"
+      "gloss": "in the way of",
+      "sense": "S1"
     },
     {
       "surface": "תמים",
-      "gloss": "blameless",
-      "readings": [
-        "blameless",
-        "wholeness",
-        "perfect"
-      ],
-      "held_by": {
-        "blameless": [
-          "v2",
-          "v3"
-        ],
-        "wholeness": [
-          "en4"
-        ],
-        "perfect": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "integrity",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "he"
+      "gloss": "he",
+      "sense": null
     },
     {
       "surface": "ישרתני",
-      "gloss": "shall serve me"
+      "gloss": "he will serve me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:52.436791811Z",
+  "model": "glm-5.3"
 }

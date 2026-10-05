@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And they returned from scouting the land at ⟨the⟩ end of forty days.",
+  "ref": "numbers 13:25",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "forty days",
+      "rationale": "The spies' reconnaissance is fixed at a count of forty days."
+    }
+  ],
+  "translation": "And they returned from spying out the land at the end of forty days.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "de022faa0a7b1014d90ca8f2536eb4ebdcaf93a8b2fef78a247be7861897fa32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/13\/25-28.1791183053398.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "וישבו",
-      "gloss": "And they returned"
+      "surface": "וַיָּשֻׁבוּ",
+      "gloss": "and they returned",
+      "sense": "S1"
     },
     {
-      "surface": "מתור",
-      "gloss": "from scouting"
+      "surface": "מִתּוּר",
+      "gloss": "from spying out",
+      "sense": "S2"
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָרֶץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "מקץ",
-      "gloss": "at the end of"
+      "surface": "מִקֵּץ",
+      "gloss": "at the end of",
+      "sense": "S1"
     },
     {
-      "surface": "ארבעים",
-      "gloss": "forty"
+      "surface": "אַרְבָּעִים",
+      "gloss": "forty",
+      "sense": "S1"
     },
     {
-      "surface": "יום",
-      "gloss": "days"
+      "surface": "יוֹם",
+      "gloss": "days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:50:53.399303856Z",
+  "model": "glm-5.3"
 }

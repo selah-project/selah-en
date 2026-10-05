@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "I will say to YHWH, “My refuge and my fortress, my Elohim, in him I trust.”",
-  "tokens": [
+  "ref": "psalms 91:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "אמר",
-      "gloss": "I will say"
+      "kind": "crux",
+      "subject": "מצודה",
+      "rationale": "same lemma means both 'net (for catching)' and 'fastness\/fortress' — here the refuge picture, but the net sense haunts the fowler image of verse 3"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH",
-      "readings": [
-        "to YHWH",
-        "of YHWH"
-      ],
-      "held_by": {
-        "to YHWH": [
-          "v2",
-          "v3"
-        ],
-        "of YHWH": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מחסי",
-      "gloss": "my refuge"
-    },
-    {
-      "surface": "ומצודתי",
-      "gloss": "and my fortress"
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
-    },
-    {
-      "surface": "אבטח",
-      "gloss": "I trust"
-    },
-    {
-      "surface": "בו",
-      "gloss": "in him"
+      "kind": "addition",
+      "subject": "“…",
+      "rationale": "Hebrew marks no quotation; the psalmist's words open after ליהוה"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I say of YHWH, “My refuge and my fortress, my Elohim, in whom I trust.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "844253d6e49b8f90ed6475f33c2004a6434f64c37c475141d97cb9cdafaf46f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/1-4.1791193189109.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֹמַר",
+      "gloss": "I say",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָה",
+      "gloss": "of YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחְסִי",
+      "gloss": "my refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְצוּדָתִי",
+      "gloss": "and my fortress",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהַי",
+      "gloss": "my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶבְטַח",
+      "gloss": "in whom I trust",
+      "sense": "S1"
+    },
+    {
+      "surface": "בוֹ",
+      "gloss": "in him",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:49.110205111Z",
+  "model": "glm-5.3"
 }

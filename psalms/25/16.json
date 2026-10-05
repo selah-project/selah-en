@@ -1,65 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Turn toward me and be gracious to me, for lonely and afflicted am I.",
+  "ref": "psalms 25:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew is verbless: 'for lonely and afflicted I' — the copula is supplied"
+    },
+    {
+      "kind": "invitation",
+      "subject": "Turn to me",
+      "rationale": "imperatives addressed to YHWH summon the divine attention"
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalmist's petition is direct address to YHWH"
+    }
+  ],
+  "translation": "Turn to me and be gracious to me, for lonely and afflicted ⟨am⟩ I.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "127986823e4d78163c0232e1601ea81ccfcee136d5d48d14547b421483ed98e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/13-16.1791192532574.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פנה",
-      "gloss": "Turn"
+      "surface": "פְּנֵ֣ה",
+      "gloss": "Turn",
+      "sense": "S1"
     },
     {
-      "surface": "אלי",
-      "gloss": "toward me"
+      "surface": "אֵלַ֥י",
+      "gloss": "to me"
     },
     {
-      "surface": "וחנני",
+      "surface": "וְחָנֵּ֑נִי",
       "gloss": "and be gracious to me",
-      "readings": [
-        "and be gracious to me",
-        "and show me favor"
-      ],
-      "held_by": {
-        "and be gracious to me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and show me favor": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "for"
     },
     {
-      "surface": "יחיד",
+      "surface": "יָחִ֖יד",
       "gloss": "lonely",
       "readings": [
         "lonely",
         "solitary"
       ],
-      "held_by": {
-        "lonely": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "solitary": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ועני",
-      "gloss": "and afflicted"
+      "surface": "וְעָנִ֣י",
+      "gloss": "and afflicted",
+      "sense": "S1"
     },
     {
-      "surface": "אני",
+      "surface": "אָֽנִ֗י",
       "gloss": "I"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:52.575424224Z",
+  "model": "glm-5.3"
 }

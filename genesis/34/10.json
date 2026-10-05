@@ -1,59 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And with ⟨את⟩ us you shall dwell, and the land shall be before you: dwell, and trade in it, and take hold in it.",
+  "ref": "genesis 34:10",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "אֵת",
+      "rationale": "the nearness preposition את, marked ⟨את⟩, carries the sense 'with' here"
+    },
+    {
+      "kind": "idiom",
+      "subject": "land before you",
+      "rationale": "לפניכם 'before your face' = at your disposal, open to you"
+    }
+  ],
+  "translation": "And with us you shall dwell, and the land shall be before you — dwell, and trade in it, and take possession of it.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "90682a72cc2d01e79fabc676c7443cc4b94ea310c1c4c9106d2c5be569c51bba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/34\/10-12.1791197296021.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתנו",
-      "gloss": "and ⟨את⟩ us"
+      "surface": "וְאִתָּנוּ",
+      "gloss": "and with ⟨את⟩ us"
     },
     {
-      "surface": "תשבו",
-      "gloss": "you shall dwell"
+      "surface": "תֵּשֵׁבוּ",
+      "gloss": "you shall dwell",
+      "sense": "S1"
     },
     {
-      "surface": "והארץ",
-      "gloss": "and the land"
+      "surface": "וְהָאָרֶץ",
+      "gloss": "and the land",
+      "sense": "S1"
     },
     {
-      "surface": "תהיה",
+      "surface": "תִּהְיֶה",
       "gloss": "shall be"
     },
     {
-      "surface": "לפניכם",
+      "surface": "לִפְנֵיכֶם",
       "gloss": "before you"
     },
     {
-      "surface": "שבו",
-      "gloss": "dwell"
+      "surface": "שְׁבוּ",
+      "gloss": "dwell",
+      "sense": "S1"
     },
     {
-      "surface": "וסחרוה",
-      "gloss": "and trade in it"
+      "surface": "וּסְחָרוּהָ",
+      "gloss": "and trade in it",
+      "sense": "S1"
     },
     {
-      "surface": "והאחזו",
-      "gloss": "and take hold in it",
-      "readings": [
-        "and take hold in it",
-        "and acquire possessions in it"
-      ],
-      "held_by": {
-        "and take hold in it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and acquire possessions in it": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וְהֵאָחֲזוּ",
+      "gloss": "and take possession",
+      "sense": "S1"
     },
     {
-      "surface": "בה",
-      "gloss": "in it"
+      "surface": "בָּהּ",
+      "gloss": "of it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:48:16.022603936Z",
+  "model": "glm-5.3"
 }

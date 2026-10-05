@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "You shall not steal, and you shall not deal falsely, and you shall not lie — a man with his fellow.",
-  "tokens": [
+  "ref": "leviticus 19:11",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "crux",
+      "subject": "תשקרו",
+      "rationale": "'deal falsely\/be untrue' (SDBH: unfaithful to obligations) vs 'swear falsely' vs 'lie' — kept distinct from כחש 'lie'."
     },
     {
-      "surface": "תגנבו",
-      "gloss": "you shall steal"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "תכחשו",
-      "gloss": "you shall deal falsely",
-      "readings": [
-        "you shall deal falsely",
-        "you shall deny"
-      ],
-      "held_by": {
-        "you shall deal falsely": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you shall deny": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "תשקרו",
-      "gloss": "you shall lie"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "בעמיתו",
-      "gloss": "with his fellow",
-      "readings": [
-        "with his fellow",
-        "against his fellow"
-      ],
-      "held_by": {
-        "with his fellow": [
-          "v1",
-          "v3"
-        ],
-        "against his fellow": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "tripled ולא",
+      "rationale": "three negated verbs in ascending rhythm, a tricolon carried by the English repetition."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You shall not steal, and you shall not lie, and you shall not deal falsely, a man with his fellow.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "85957cc62f7f0782db7dc37a2607653f066efc698318a23bc8602d86084d8f58",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/9-12.1791182534645.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹ֖א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּגְנֹ֑בוּ",
+      "gloss": "you shall steal",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְכַחֲשׁ֥וּ",
+      "gloss": "you shall lie",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹֽא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְשַׁקְּר֖וּ",
+      "gloss": "you shall deal falsely",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּעֲמִיתֽוֹ",
+      "gloss": "with his fellow",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:42:14.646754306Z",
+  "model": "glm-5.3"
 }

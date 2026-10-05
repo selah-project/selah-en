@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "They repay me evil for good — bereavement to my soul.",
+  "ref": "psalms 35:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "bereavement for my nefesh",
+      "rationale": "שכול לנפשי may be 'bereaving my life', i.e. seeking my death, beside the paired 'evil for good'."
+    }
+  ],
+  "translation": "They repay me evil for good, bereavement for my nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "af3f76091ad8d7df7e475bf6ad9b1811af1068352ffd551a302f46d06260bf3e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/9-12.1791192615885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ישלמוני",
-      "gloss": "They repay me"
+      "surface": "יְשַׁלְּמ֣וּנִי",
+      "gloss": "They repay me",
+      "sense": "S1"
     },
     {
-      "surface": "רעה",
-      "gloss": "evil"
+      "surface": "רָעָה",
+      "gloss": "evil",
+      "sense": "S1"
     },
     {
-      "surface": "תחת",
+      "surface": "תַּחַת",
       "gloss": "for"
     },
     {
-      "surface": "טובה",
-      "gloss": "good"
+      "surface": "טוֹבָה",
+      "gloss": "good",
+      "sense": "S1"
     },
     {
-      "surface": "שכול",
-      "gloss": "bereavement"
+      "surface": "שְׁכֹול",
+      "gloss": "bereavement",
+      "sense": "S1"
     },
     {
-      "surface": "לנפשי",
-      "gloss": "to my soul",
+      "surface": "לְנַפְשִׁי",
+      "gloss": "for my nefesh",
+      "sense": "S1",
       "readings": [
-        "to my soul",
-        "to my life"
-      ],
-      "held_by": {
-        "to my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to my life": [
-          "en4"
-        ]
-      }
+        "for my nefesh",
+        "for my soul",
+        "for my life"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:15.886493012Z",
+  "model": "glm-5.3"
 }

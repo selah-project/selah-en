@@ -1,50 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "His breath kindles embers, and a flame goes out of his mouth.",
-  "tokens": [
+  "ref": "job 41:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "נפשו",
-      "gloss": "his breath",
-      "readings": [
-        "his breath",
-        "his nefesh",
-        "his soul"
-      ],
-      "held_by": {
-        "his breath": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his nefesh": [
-          "en4"
-        ],
-        "his soul": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש here is literally the throat as the passage of breath, not 'soul'"
     },
     {
-      "surface": "גחלים",
+      "kind": "you",
+      "subject": "Leviathan described",
+      "rationale": "YHWH's speech describes Leviathan to Job"
+    }
+  ],
+  "translation": "His throat kindles embers, and flame goes out from his mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8535fdb1d3708089f9b707db5001d30665b75b4e600de51bc8eec75337583116",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/13-16.1791194649445.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נַ֭פְשׁוֹ",
+      "gloss": "His throat",
+      "sense": "S1",
+      "readings": [
+        "His throat",
+        "his life-breath"
+      ]
+    },
+    {
+      "surface": "גֶּחָלִ֣ים",
       "gloss": "embers"
     },
     {
-      "surface": "תלהט",
+      "surface": "תְּלַהֵ֑ט",
       "gloss": "kindles"
     },
     {
-      "surface": "ולהב",
-      "gloss": "and a flame"
+      "surface": "וְ֝לַ֗הַב",
+      "gloss": "and flame"
     },
     {
-      "surface": "מפיו",
-      "gloss": "out of his mouth"
+      "surface": "מִפִּ֥יו",
+      "gloss": "from his mouth"
     },
     {
-      "surface": "יצא",
+      "surface": "יֵצֵֽא",
       "gloss": "goes out"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:09.445792995Z",
+  "model": "glm-5.3"
 }

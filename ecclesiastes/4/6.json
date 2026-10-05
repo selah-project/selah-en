@@ -1,76 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Better a handful of quietness than both fists full of toil and vexation of spirit.",
-  "tokens": [
+  "ref": "ecclesiastes 4:6",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "טוב",
-      "gloss": "Better"
+      "kind": "wordplay",
+      "subject": "מלא…ממלא",
+      "rationale": "The verse's balance turns on repeating 'a fill of' — one palm against two fists."
     },
     {
-      "surface": "מלא",
-      "gloss": "fullness"
-    },
-    {
-      "surface": "כף",
-      "gloss": "a palm"
-    },
-    {
-      "surface": "נחת",
-      "gloss": "quietness"
-    },
-    {
-      "surface": "ממלא",
-      "gloss": "than fullness"
-    },
-    {
-      "surface": "חפנים",
-      "gloss": "both fists"
-    },
-    {
-      "surface": "עמל",
-      "gloss": "toil"
-    },
-    {
-      "surface": "ורעות",
-      "gloss": "and vexation",
-      "readings": [
-        "and vexation",
-        "and striving after"
-      ],
-      "held_by": {
-        "and vexation": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and striving after": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "רוח",
-      "gloss": "of spirit",
-      "readings": [
-        "of spirit",
-        "of wind",
-        "of breath"
-      ],
-      "held_by": {
-        "of spirit": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of wind": [
-          "en4"
-        ],
-        "of breath": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "of quiet \/ of toil",
+      "rationale": "English needs the 'of' to bind the constructs; Hebrew's constructs carry it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Better a palm-full of quiet than two fists full of toil and striving after wind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2ce2e5a270a0930f29438c00b14deb2771a6693ba4aae5e1c5945ef1cfb35476",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/4\/5-8.1791200296897.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טוֹב",
+      "gloss": "Better",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלֹא",
+      "gloss": "a fill of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַף",
+      "gloss": "palm",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַחַת",
+      "gloss": "quiet",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמְלֹא",
+      "gloss": "than a fill of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָפְנַיִם",
+      "gloss": "two fists",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָמָל",
+      "gloss": "toil",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּרְעוּת",
+      "gloss": "and striving after",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחַ",
+      "gloss": "wind",
+      "sense": "S1",
+      "readings": [
+        "wind",
+        "breath",
+        "spirit"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T11:38:16.898891585Z",
+  "model": "glm-5.3"
 }

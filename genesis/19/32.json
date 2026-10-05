@@ -1,48 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "Come, let us make ⟨את⟩ our father drink wine, and let us lie down with him, and let us preserve alive seed from our father.",
-  "tokens": [
+  "ref": "genesis 19:32",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "לכה",
-      "gloss": "come"
+      "kind": "invitation",
+      "subject": "Come",
+      "rationale": "The elder daughter summons her sister with the imperative לכה."
     },
     {
-      "surface": "נשקה",
-      "gloss": "let us make drink"
+      "kind": "wordplay",
+      "subject": "נשקה\/ונשכבה",
+      "rationale": "The verbs שקה and שכב sit side by side with near-identical consonant skeletons, an assonance lost in English."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אבינו",
-      "gloss": "our father"
-    },
-    {
-      "surface": "יין",
-      "gloss": "wine"
-    },
-    {
-      "surface": "ונשכבה",
-      "gloss": "and let us lie down"
-    },
-    {
-      "surface": "עמו",
-      "gloss": "with him"
-    },
-    {
-      "surface": "ונחיה",
-      "gloss": "and let us preserve alive"
-    },
-    {
-      "surface": "מאבינו",
-      "gloss": "from our father"
-    },
-    {
-      "surface": "זרע",
-      "gloss": "seed"
+      "kind": "alternative",
+      "subject": "seed",
+      "rationale": "זרע here is descendants (S1 'child or children'); 'offspring' carries the same sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Come, let us make our father drink wine, and let us lie with him, and let us keep alive ⟨את⟩ seed from our father.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f381ece81c2f3a0f2bbe091939829133327f6dcd0873cb61c2dd22589f64e261",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/19\/32-32.1791197203502.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְכָה",
+      "gloss": "Come",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַשְׁקֶה",
+      "gloss": "let us make drink",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "our father",
+      "sense": null
+    },
+    {
+      "surface": "אָבִינוּ",
+      "gloss": "our father",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַיִן",
+      "gloss": "wine",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִשְׁכְּבָה",
+      "gloss": "and let us lie with",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמּוֹ",
+      "gloss": "him",
+      "sense": null
+    },
+    {
+      "surface": "וּנְחַיֶּה",
+      "gloss": "and let us keep alive",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאָבִינוּ",
+      "gloss": "from our father",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָרַע",
+      "gloss": "seed",
+      "readings": [
+        "seed",
+        "offspring"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:46:43.503049112Z",
+  "model": "glm-5.3"
 }

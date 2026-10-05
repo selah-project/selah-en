@@ -1,81 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "and my spirit faints over me; within me my heart is appalled.",
-  "tokens": [
+  "ref": "psalms 143:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 143,
+  "notes": [
     {
-      "surface": "ותתעטף",
-      "gloss": "faints",
-      "readings": [
-        "faints",
-        "wrapped itself"
-      ],
-      "held_by": {
-        "faints": [
-          "v2",
-          "v3"
-        ],
-        "wrapped itself": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "faints",
+      "rationale": "עטף literally 'to wrap\/shroud' — the spirit wraps itself over the psalmist like a garment; the idiom of fainting is supplied."
     },
     {
-      "surface": "עלי",
-      "gloss": "over me"
-    },
-    {
-      "surface": "רוחי",
-      "gloss": "my spirit",
-      "readings": [
-        "my spirit",
-        "my wind",
-        "my breath"
-      ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my wind": [
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בתוכי",
-      "gloss": "within me"
-    },
-    {
-      "surface": "ישתומם",
-      "gloss": "is appalled",
-      "readings": [
-        "is appalled",
-        "is desolate"
-      ],
-      "held_by": {
-        "is appalled": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is desolate": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
+      "kind": "crux",
+      "subject": "יִשְׁתּוֹמֵם",
+      "gloss": "Hithpolel of שׁמם: 'be appalled\/be made desolate' — shock and desolation in one verb."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And my spirit faints, wrapped over me; within me my heart is appalled, desolate.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc298fd4a98f7e0174ff5088d383d4af977be12b4ca583ad30092fd744c6e058",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/143\/1-4.1791193621536.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתִּתְעַטֵּ֣ף",
+      "gloss": "And faints",
+      "sense": "S1",
+      "readings": [
+        "And faints",
+        "and wraps itself"
+      ]
+    },
+    {
+      "surface": "עָלַ֣י",
+      "gloss": "over me",
+      "sense": null
+    },
+    {
+      "surface": "רוּחִ֑י",
+      "gloss": "my spirit",
+      "sense": "S1",
+      "readings": [
+        "my spirit",
+        "my breath"
+      ]
+    },
+    {
+      "surface": "בְּתוֹחִ֗י",
+      "gloss": "within me",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁתּוֹמֵ֥ם",
+      "gloss": "is appalled",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבִּֽי",
+      "gloss": "my heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:01.537204413Z",
+  "model": "glm-5.3"
 }

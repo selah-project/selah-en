@@ -1,100 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Let ⟨him⟩ cause coals to fall upon them in fire; may he cast them into watery pits — let them not rise up.",
+  "ref": "psalms 140:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 140,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨himself⟩",
+      "rationale": "the jussive's subject (God) is unspecified in the Hebrew and supplied in English."
+    },
+    {
+      "kind": "hapax",
+      "subject": "בְּמַהֲמֹרוֹת",
+      "rationale": "מַהֲמֹרָה occurs only here; sense uncertain — 'waterless pits' or 'quagmires', rendered 'pit-falls'."
+    },
+    {
+      "kind": "crux",
+      "subject": "ימיטו",
+      "rationale": "ketiv ימיטו vs qere ימוטו, hiphil jussive 'let them\/he cause to slip-fall'; some take it as God's act, some as imprecation on unnamed agents."
+    }
+  ],
+  "translation": "May ⟨himself⟩ cause embers to rain down upon them; into fire may he cast them; in the pit-falls, let them not rise up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e8529e8fb2935ca40091aa7f24b662d1cc654d0520b7560622706d562901773e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/140\/9-12.1791193618207.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "ימיטו",
-      "gloss": "let ⟨him⟩ cause to fall",
-      "readings": [
-        "let ⟨him⟩ cause to fall",
-        "they make fall"
-      ],
-      "held_by": {
-        "let ⟨him⟩ cause to fall": [
-          "v2",
-          "v3"
-        ],
-        "they make fall": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "may ⟨himself⟩ cause to fall",
+      "sense": "S1"
     },
     {
-      "surface": "עליהם",
-      "gloss": "upon them"
+      "surface": "עֲלֵיהֶם",
+      "gloss": "upon them",
+      "sense": null
     },
     {
-      "surface": "גחלים",
-      "gloss": "coals",
-      "readings": [
-        "coals",
-        "embers"
-      ],
-      "held_by": {
-        "coals": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "embers": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "גֶּחָלִים",
+      "gloss": "embers",
+      "sense": "S1"
     },
     {
-      "surface": "באש",
-      "gloss": "in fire"
+      "surface": "בָּאֵשׁ",
+      "gloss": "into fire",
+      "sense": "S1"
     },
     {
-      "surface": "יפלם",
-      "gloss": "may he cast them"
+      "surface": "יַפִּילֵם",
+      "gloss": "may he cast them",
+      "sense": "S1"
     },
     {
-      "surface": "במהמרות",
-      "gloss": "into watery pits",
-      "readings": [
-        "into watery pits",
-        "into deep pits",
-        "into miry pits"
-      ],
-      "held_by": {
-        "into watery pits": [
-          "v2",
-          "v3"
-        ],
-        "into deep pits": [
-          "en4"
-        ],
-        "into miry pits": [
-          "en4"
-        ]
-      }
+      "surface": "בְּמַהֲמֹרוֹת",
+      "gloss": "in the pit-falls",
+      "sense": null
     },
     {
-      "surface": "בל",
-      "gloss": "let them not",
-      "readings": [
-        "let them not",
-        "not at all"
-      ],
-      "held_by": {
-        "let them not": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "not at all": [
-          "en4"
-        ]
-      }
+      "surface": "בַּל",
+      "gloss": "let them not"
     },
     {
-      "surface": "יקומו",
-      "gloss": "rise up"
+      "surface": "יָקוּמוּ",
+      "gloss": "rise up",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:58.208298359Z",
+  "model": "glm-5.3"
 }

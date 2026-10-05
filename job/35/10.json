@@ -1,55 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "But no one says, “Where is Eloah my Maker, who gives songs in the night,",
-  "tokens": [
+  "ref": "job 35:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "ולא",
-      "gloss": "But no one"
+      "kind": "addition",
+      "subject": "no one",
+      "rationale": "Hebrew has 'and not he said'; an English subject ⟨no one⟩ must be supplied."
     },
     {
-      "surface": "אמר",
-      "gloss": "says"
+      "kind": "crux",
+      "subject": "זְמִרֹות",
+      "rationale": "'songs' (from זמר, sing) vs. the ancient reading דְּמָמֹות 'silences in the night'; the ketiv kept."
     },
     {
-      "surface": "איה",
-      "gloss": "Where"
-    },
-    {
-      "surface": "אלוה",
-      "gloss": "Eloah"
-    },
-    {
-      "surface": "עשי",
-      "gloss": "my Maker",
-      "readings": [
-        "my Maker",
-        "my makers"
-      ],
-      "held_by": {
-        "my Maker": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my makers": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נתן",
-      "gloss": "who gives"
-    },
-    {
-      "surface": "זמרות",
-      "gloss": "songs"
-    },
-    {
-      "surface": "בלילה",
-      "gloss": "in the night"
+      "kind": "elision",
+      "subject": "נֹתֵן",
+      "gloss-was": "The participle 'giver of' is folded into 'who gives songs in the night' rather than a separate clause."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And no one says, “Where is Eloah my maker,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "650c27a1fa8768021f4cacb1b09f2f64462c52b55e23422be5e0a1fbb7a27555",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/35\/9-12.1791194559364.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמַר",
+      "gloss": "says",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַיֵּה",
+      "gloss": "where is",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלוֹהַּ",
+      "gloss": "Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹשָׂי",
+      "gloss": "my maker",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֹתֵן",
+      "gloss": "giver of",
+      "sense": null
+    },
+    {
+      "surface": "זְמִרֹות",
+      "gloss": "songs",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּלָּיְלָה",
+      "gloss": "in the night",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:39.365720787Z",
+  "model": "glm-5.3"
 }

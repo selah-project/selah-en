@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Waters go away from ⟨the⟩ sea, and ⟨the⟩ river becomes parched and dries up.",
-  "tokens": [
+  "ref": "job 14:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "אזלו",
-      "gloss": "go away"
-    },
-    {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "מני",
-      "gloss": "from"
-    },
-    {
-      "surface": "ים",
-      "gloss": "sea"
-    },
-    {
-      "surface": "ונהר",
-      "gloss": "and ⟨the⟩ river"
-    },
-    {
-      "surface": "יחרב",
-      "gloss": "becomes parched",
-      "readings": [
-        "becomes parched",
-        "wastes"
-      ],
-      "held_by": {
-        "becomes parched": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "wastes": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ויבש",
-      "gloss": "and dries up"
+      "kind": "wordplay",
+      "subject": "יחרב\/יבש",
+      "rationale": "Near-synonymous pair for drying up; the doubled verb intensifies the picture of irreversible loss."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Waters disappear from the sea, and a river parches and dries up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f437bdeb5a0233003b69668de99009b9c9d2c2c57931b0d4cb1b848564432ae1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/14\/9-12.1791194281763.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָֽזְלוּ",
+      "gloss": "disappear",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֭יִם",
+      "gloss": "waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנִּ֣י",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "יָ֑ם",
+      "gloss": "the sea",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝נָהָ֗ר",
+      "gloss": "and a river",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחֱרַ֥ב",
+      "gloss": "parches",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָבֵֽשׁ",
+      "gloss": "and dries up",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:01.764246215Z",
+  "model": "glm-5.3"
 }

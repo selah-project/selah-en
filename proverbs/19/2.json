@@ -1,78 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Also, without knowledge the soul is not good, and he who hurries with his feet sins.",
-  "tokens": [
+  "ref": "proverbs 19:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "גם",
-      "gloss": "Also"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש literally the throat\/life-force; versions render 'a person' or 'the soul'"
     },
     {
-      "surface": "בלא",
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew adjective clause lacks a copula"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דעת\/נפש",
+      "rationale": "proverb pair: knowledge vs the desiring throat; haste with feet misses, chiasm of contrasts"
+    }
+  ],
+  "translation": "Also without knowledge a throat is not good, and hasty with two feet misses the mark.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9bc7435e46677a6ba350873111463a29f6402e726d3f9e7c1657b1bfd61d0ed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/1-4.1791193916663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גַּ֤ם",
+      "gloss": "Also",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּלֹא",
       "gloss": "without"
     },
     {
-      "surface": "דעת",
-      "gloss": "knowledge"
+      "surface": "דַ֣עַת",
+      "gloss": "knowledge",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "soul",
+      "surface": "נֶ֣פֶשׁ",
+      "gloss": "a throat",
       "readings": [
-        "soul",
-        "nefesh",
-        "life"
+        "a throat",
+        "a life",
+        "a self"
       ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "en4"
-        ],
-        "nefesh": [
-          "v2",
-          "v3"
-        ],
-        "life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "טוב",
-      "gloss": "good"
+      "surface": "ט֑וֹב",
+      "gloss": "is good",
+      "sense": "S1"
     },
     {
-      "surface": "ואץ",
-      "gloss": "and he who hurries"
+      "surface": "וְאָ֖ץ",
+      "gloss": "and hasty",
+      "sense": "S1"
     },
     {
-      "surface": "ברגלים",
-      "gloss": "with his feet"
-    },
-    {
-      "surface": "חוטא",
-      "gloss": "sins",
+      "surface": "בְּרַגְלַ֣יִם",
+      "gloss": "with two feet",
       "readings": [
-        "sins",
-        "misses the mark"
+        "with two feet",
+        "with his steps"
       ],
-      "held_by": {
-        "sins": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "misses the mark": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "חוֹטֵֽא",
+      "gloss": "misses the mark",
+      "readings": [
+        "misses the mark",
+        "sins"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:56.664697736Z",
+  "model": "glm-5.3"
 }

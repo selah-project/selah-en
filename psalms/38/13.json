@@ -1,116 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And those who seek my life set snares, and those who seek my harm speak ruin, and all the day long they mutter deceits.",
+  "ref": "psalms 38:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "mutter",
+      "rationale": "הגה is a low utterance, a murmur or pondering; the conspiratorial picture is kept"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מבקשי\/דורשי",
+      "rationale": "parallel participles 'seekers of my nefesh \/ pursuers of my harm', pair preserved"
+    }
+  ],
+  "translation": "And those who seek my nefesh have set a trap, and those who work my harm have spoken ruin, and deceptions all the day they mutter.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "99cb2a66aa6a99fd152ea5ab0919664b9a9bf146dad08a7159dc6647f5f4ad53",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/13-16.1791192655579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "וינקשו",
-      "gloss": "and they set snares"
+      "surface": "וַיְנַקְשׁ֤וּ",
+      "gloss": "and have set a trap",
+      "sense": "S1"
     },
     {
-      "surface": "מבקשי",
-      "gloss": "those who seek"
+      "surface": "מְבַקְשֵׁ֬י",
+      "gloss": "those who seek",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my life",
+      "surface": "נַפְשִׁ֗י",
+      "gloss": "my nefesh",
       "readings": [
-        "my life",
         "my nefesh",
-        "my soul"
+        "my life",
+        "my throat"
       ],
-      "held_by": {
-        "my life": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ודרשי",
-      "gloss": "and those who seek"
+      "surface": "וְדֹרְשֵׁ֣י",
+      "gloss": "and those who work",
+      "sense": "S1"
     },
     {
-      "surface": "רעתי",
+      "surface": "רָעָתִ֭י",
       "gloss": "my harm",
-      "readings": [
-        "my harm",
-        "my evil"
-      ],
-      "held_by": {
-        "my harm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my evil": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "דברו",
-      "gloss": "they speak"
+      "surface": "דִּבְּר֣וּ",
+      "gloss": "have spoken",
+      "sense": "S1"
     },
     {
-      "surface": "הוות",
+      "surface": "הַוּ֑וֹת",
       "gloss": "ruin",
-      "readings": [
-        "ruin",
-        "destruction"
-      ],
-      "held_by": {
-        "ruin": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "destruction": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ומרמות",
-      "gloss": "and deceits"
+      "surface": "וּ֝מִרְמ֗וֹת",
+      "gloss": "and deceptions",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּ֥וֹם",
+      "gloss": "the day",
+      "sense": "S1"
     },
     {
-      "surface": "יהגו",
+      "surface": "יֶהְגּֽוּ",
       "gloss": "they mutter",
-      "readings": [
-        "they mutter",
-        "they ponder"
-      ],
-      "held_by": {
-        "they mutter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they ponder": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:55.580580431Z",
+  "model": "glm-5.3"
 }

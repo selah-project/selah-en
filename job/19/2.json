@@ -1,79 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "How long will you torment my soul, and crush me with words?",
+  "ref": "job 19:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Job's three friends",
+      "rationale": "Job directly addresses his friends who have been reproaching him."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat, the animating life-principle, not an immaterial soul."
+    }
+  ],
+  "translation": "Until when will you torment my soul, and crush me with words?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3c14c65d92a6013d75b3e0bd923b18c7abf0d102b5607ede4e2e2fc9d83232b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/1-4.1791194336853.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "עד",
-      "gloss": "till",
-      "readings": [
-        "till",
-        "How long"
-      ]
+      "surface": "עַד",
+      "gloss": "Until",
+      "sense": "S1"
     },
     {
-      "surface": "אנה",
-      "gloss": "how long",
-      "readings": [
-        "how long",
-        "where"
-      ],
-      "held_by": {
-        "how long": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "where": [
-          "v2"
-        ]
-      }
+      "surface": "אָ֭נָה",
+      "gloss": "when",
+      "sense": "S1"
     },
     {
-      "surface": "תוגיון",
-      "gloss": "you torment",
-      "readings": [
-        "you torment",
-        "you grieve"
-      ],
-      "held_by": {
-        "you torment": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you grieve": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "תּוֹגְי֣וּן",
+      "gloss": "will you torment",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֑י",
       "gloss": "my soul",
       "readings": [
         "my soul",
+        "my throat",
         "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותדכאונני",
-      "gloss": "and crush me"
+      "surface": "וּֽתְדַכְּאוּנַ֥נִי",
+      "gloss": "and crush me",
+      "sense": "S1"
     },
     {
-      "surface": "במלים",
-      "gloss": "with words"
+      "surface": "בְּמִלִּֽים",
+      "gloss": "with words",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:56.854267197Z",
+  "model": "glm-5.3"
 }

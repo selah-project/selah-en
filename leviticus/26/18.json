@@ -1,99 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And if even to these you do not listen to Me, then I will add to discipline ⟨את⟩ you seven times upon your sins.",
+  "ref": "leviticus 26:18",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "times",
+      "rationale": "שבע is adverbial 'seven times'; English needs the noun"
+    },
+    {
+      "kind": "crux",
+      "subject": "seven",
+      "rationale": "whether שבע adverbially modifies the disciplining ('seven times more') or stands alone; the escalation pattern of the chapter favors 'seven times'"
+    }
+  ],
+  "translation": "And if even for these you do not listen to me, then I will add to discipline ⟨את⟩ you seven ⟨times⟩ upon your sins.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cbb360d9232e142c6b41e75840176ebb2305cc9a120809173ae9130c9c6f693c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/26\/18-18.1791197774159.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "ואם",
-      "gloss": "and if"
+      "surface": "וְאִ֨ם",
+      "gloss": "And if"
     },
     {
-      "surface": "עד",
-      "gloss": "even to",
-      "readings": [
-        "even to",
-        "after"
-      ],
-      "held_by": {
-        "even to": [
-          "v1",
-          "en4"
-        ],
-        "after": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "עַד",
+      "gloss": "even for",
+      "sense": "S1"
     },
     {
-      "surface": "אלה",
-      "gloss": "these"
+      "surface": "אֵלֶּה",
+      "gloss": "these",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תשמעו",
-      "gloss": "you will listen",
-      "readings": [
-        "you will listen",
-        "you will hear"
-      ],
-      "held_by": {
-        "you will listen": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you will hear": [
-          "en4"
-        ]
-      }
+      "surface": "תִשְׁמְעוּ",
+      "gloss": "you listen"
     },
     {
-      "surface": "לי",
-      "gloss": "to Me"
+      "surface": "לִי",
+      "gloss": "to me"
     },
     {
-      "surface": "ויספתי",
+      "surface": "וְיָסַפְתִּי",
       "gloss": "then I will add"
     },
     {
-      "surface": "ליסרה",
-      "gloss": "to discipline"
+      "surface": "לְיַסְּרָה",
+      "gloss": "to discipline",
+      "sense": "S1"
     },
     {
-      "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
+      "surface": "אֶתְכֶם",
+      "gloss": "⟨את⟩ you",
+      "marks": "you"
     },
     {
-      "surface": "שבע",
+      "surface": "שֶׁבַע",
       "gloss": "seven",
-      "readings": [
-        "seven",
-        "sevenfold"
-      ],
-      "held_by": {
-        "seven": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sevenfold": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "חטאתיכם",
-      "gloss": "your sins"
+      "surface": "חַטֹּאתֵיכֶם",
+      "gloss": "your sins",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:56:14.159605449Z",
+  "model": "glm-5.3"
 }

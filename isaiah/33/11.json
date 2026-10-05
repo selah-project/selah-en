@@ -1,70 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "You conceive chaff, you give birth to stubble; your breath — fire — will devour you.",
+  "ref": "isaiah 33:11",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "that",
+      "rationale": "relative word supplied to link the fire to its devouring"
+    },
+    {
+      "kind": "crux",
+      "subject": "רוּחֲכֶם",
+      "rationale": "your breath \/ your spirit \/ your panting — the appetite itself becomes the fire that consumes"
+    },
+    {
+      "kind": "hapax",
+      "subject": "חֲשַׁשׁ",
+      "rationale": "rare word, dried grass or winnowed husks, also Isaiah 5:24"
+    }
+  ],
+  "translation": "You conceive חֲשַׁשׁ, you give birth to stubble; your breath — ⟨it is⟩ a fire that will devour you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "311044002debf941bcbb59f9c2c049436bf4f6bb48da62f252bf472e6ac5895a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/9-12.1791188495141.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "תהרו",
-      "gloss": "You conceive"
+      "surface": "תַּהֲרוּ",
+      "gloss": "You conceive",
+      "sense": "S1"
     },
     {
-      "surface": "חשש",
-      "gloss": "chaff",
-      "readings": [
-        "chaff",
-        "dry grass"
-      ],
-      "held_by": {
-        "chaff": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "dry grass": [
-          "en4"
-        ]
-      }
+      "surface": "חֲשַׁשׁ",
+      "gloss": "dry grass",
+      "sense": "S1"
     },
     {
-      "surface": "תלדו",
-      "gloss": "you give birth to"
+      "surface": "תֵּלְדוּ",
+      "gloss": "you give birth to",
+      "sense": "S1"
     },
     {
-      "surface": "קש",
-      "gloss": "stubble"
+      "surface": "קַשׁ",
+      "gloss": "stubble",
+      "sense": "S1"
     },
     {
-      "surface": "רוחכם",
+      "surface": "רוּחֲכֶם",
       "gloss": "your breath",
+      "sense": "S1",
       "readings": [
         "your breath",
         "your wind",
         "your spirit"
-      ],
-      "held_by": {
-        "your breath": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your wind": [
-          "en4"
-        ],
-        "your spirit": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "אש",
-      "gloss": "fire"
+      "surface": "אֵשׁ",
+      "gloss": "a fire",
+      "sense": "S1"
     },
     {
-      "surface": "תאכלכם",
-      "gloss": "will devour you"
+      "surface": "תֹּאכַלְכֶם",
+      "gloss": "that will devour you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:35.151328200Z",
+  "model": "glm-5.3"
 }

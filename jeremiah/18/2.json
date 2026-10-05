@@ -1,55 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Rise and go down to the house of the potter, and there I will cause you to hear ⟨את⟩ my words.",
-  "tokens": [
+  "ref": "jeremiah 18:2",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "קום",
-      "gloss": "Rise"
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "English needs 'to' before 'the house'; Hebrew construct בֵּית carries it directly"
     },
     {
-      "surface": "וירדת",
-      "gloss": "and go down"
-    },
-    {
-      "surface": "בית",
-      "gloss": "the house of"
-    },
-    {
-      "surface": "היוצר",
-      "gloss": "the potter",
-      "readings": [
-        "the potter",
-        "the one who shapes"
-      ],
-      "held_by": {
-        "the potter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the one who shapes": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ושמה",
-      "gloss": "and there"
-    },
-    {
-      "surface": "אשמיעך",
-      "gloss": "I will cause you to hear"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "דברי",
-      "gloss": "my words"
+      "kind": "invitation",
+      "subject": "Rise, and go down",
+      "rationale": "imperatives of YHWH summoning Jeremiah to the potter's house"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Rise, and go down to the house of the potter, and there I will make you hear ⟨את⟩ my words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8f4b2d39aba2276131faf84c8ef6174bfa4fcd6841f51aff6217cb87a4e04d4e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/18\/1-4.1791189387007.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קוּם",
+      "gloss": "Rise",
+      "sense": null
+    },
+    {
+      "surface": "וְיָרַדְתָּ",
+      "gloss": "and go down",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּית",
+      "gloss": "to the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיּוֹצֵר",
+      "gloss": "the potter",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁמָּה",
+      "gloss": "and there",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁמִיעֲךָ",
+      "gloss": "I will make you hear",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my words",
+      "sense": null
+    },
+    {
+      "surface": "דְּבָרָי",
+      "gloss": "my words",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:36:27.008669260Z",
+  "model": "glm-5.3"
 }

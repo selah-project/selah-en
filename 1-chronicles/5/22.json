@@ -1,82 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "For many slain fell, for the war was from Elohim; and they dwelt in their place until the exile.",
-  "tokens": [
+  "ref": "1-chronicles 5:22",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a copula in the clause 'from the Elohim the battle'"
     },
     {
-      "surface": "חללים",
-      "gloss": "slain",
-      "readings": [
-        "slain",
-        "pierced"
-      ],
-      "held_by": {
-        "slain": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pierced": [
-          "v1"
-        ]
-      }
+      "kind": "crux",
+      "subject": "מֵהָאֱלֹהִים הַמִּלְחָמָה",
+      "rationale": "'the battle was of the Elohim' (fought by God) vs 'from the Elohim' — the war belonged to God"
     },
     {
-      "surface": "רבים",
-      "gloss": "many"
-    },
-    {
-      "surface": "נפלו",
-      "gloss": "fell"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "מהאלהים",
-      "gloss": "from Elohim"
-    },
-    {
-      "surface": "המלחמה",
-      "gloss": "the war"
-    },
-    {
-      "surface": "וישבו",
-      "gloss": "and they dwelt"
-    },
-    {
-      "surface": "תחתיהם",
-      "gloss": "in their place",
-      "readings": [
-        "in their place",
-        "under them"
-      ],
-      "held_by": {
-        "in their place": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "under them": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "הגלה",
-      "gloss": "the exile"
+      "kind": "wordplay",
+      "subject": "חללים…נפלו",
+      "rationale": "pierced-ones \/ fell, near-rhyme in Hebrew"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For many pierced ones fell, for from the Elohim ⟨was⟩ the battle; and they dwelt in their place until the exile.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8a991cb36dfe0909f39de883e92f1ef61794f1b86ccdfdd6d3be1984efd1bce3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/5\/22-24.1791200501795.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "חֲלָלִים",
+      "gloss": "pierced ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַבִּים",
+      "gloss": "many",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָפָלוּ",
+      "gloss": "fell",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "מֵהָאֱלֹהִים",
+      "gloss": "from the Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּלְחָמָה",
+      "gloss": "the battle",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֵּשְׁב֥וּ",
+      "gloss": "and they dwelt",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּחְתֵּיהֶם",
+      "gloss": "in their place",
+      "sense": null
+    },
+    {
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַגֹּלָה",
+      "gloss": "the exile",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:41:41.795839712Z",
+  "model": "glm-5.3"
 }

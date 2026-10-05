@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "O Elohim, hear my prayer; give ear to the words of my mouth.",
-  "tokens": [
+  "ref": "psalms 54:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "kind": "idiom",
+      "subject": "give ear",
+      "rationale": "האזינה literally 'broaden the ear', rendered by the matching English idiom"
     },
     {
-      "surface": "שמע",
-      "gloss": "hear"
-    },
-    {
-      "surface": "תפלתי",
-      "gloss": "my prayer"
-    },
-    {
-      "surface": "האזינה",
-      "gloss": "give ear"
-    },
-    {
-      "surface": "לאמרי",
-      "gloss": "to the words of"
-    },
-    {
-      "surface": "פי",
-      "gloss": "of my mouth"
+      "kind": "wordplay",
+      "subject": "hear \/ give ear",
+      "rationale": "parallel imperatives, the verse's two halves mirror each other"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim, hear my prayer; give ear to the words of my mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3b8eca522b82453f4bca7d409c78baaa4d1dc7820f1a17b9bb0672f938d35e83",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/54\/1-4.1791192789701.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱ֭לֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמַ֣ע",
+      "gloss": "hear",
+      "sense": null
+    },
+    {
+      "surface": "תְּפִלָּתִ֑י",
+      "gloss": "my prayer",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֝אֲזִ֗ינָה",
+      "gloss": "give ear",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאִמְרֵי",
+      "gloss": "to the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִֽי",
+      "gloss": "my mouth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:09.702034844Z",
+  "model": "glm-5.3"
 }

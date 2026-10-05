@@ -1,75 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "They stink; my bruises melt away — from before my folly.",
-  "tokens": [
+  "ref": "psalms 38:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "הבאישו",
-      "gloss": "They stink"
+      "kind": "substitution",
+      "subject": "my folly",
+      "rationale": "אִוֶּלֶת is folly as lack of the fear of God, not mere silliness."
     },
     {
-      "surface": "נמקו",
-      "gloss": "melt away",
-      "readings": [
-        "melt away",
-        "fester"
-      ],
-      "held_by": {
-        "melt away": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "fester": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חבורתי",
-      "gloss": "my bruises",
-      "readings": [
-        "my bruises",
-        "my wounds"
-      ],
-      "held_by": {
-        "my bruises": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "my wounds": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מפני",
-      "gloss": "from before",
-      "readings": [
-        "from before",
-        "because of"
-      ],
-      "held_by": {
-        "from before": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "because of": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אולתי",
-      "gloss": "my folly"
+      "kind": "elision",
+      "subject": "מִפְּנֵי",
+      "rationale": "Literally “from the face of”, an idiom of cause rendered “because of”."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They have grown foul; they have festered, my bruises, because of my folly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b37c3bc55e3ac1b5a10733457f6c5b49f7c685fdb2933b7aa4cece569b00cbe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/5-8.1791192656637.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִבְאִ֣ישׁוּ",
+      "gloss": "They have grown foul",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֭מַקּוּ",
+      "gloss": "they have festered",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַבּוּרֹתָ֑י",
+      "gloss": "my bruises",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵ֗י",
+      "gloss": "because of",
+      "sense": null
+    },
+    {
+      "surface": "אִוַּלְתִּֽי",
+      "gloss": "my folly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:56.638633429Z",
+  "model": "glm-5.3"
 }

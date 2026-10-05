@@ -1,95 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "You are beautiful, beautiful beyond the sons of men; grace is poured upon your lips; therefore Elohim has blessed you forever.",
+  "ref": "psalms 45:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "You are",
+      "rationale": "Hebrew has the verb only ('you are beautiful'), comparative supplied by מן."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יפיפית",
+      "rationale": "the pealal stem reduplicates the root יפה, an intensified 'beautifulbeautiful you are'; the doubling is lost in English."
+    },
+    {
+      "kind": "alternative",
+      "subject": "sons of Adam",
+      "rationale": "בני אדם as 'mankind' generally rather than the name Adam."
+    }
+  ],
+  "translation": "You are fairer than the sons of Adam; grace is poured out on your lips; therefore Elohim has blessed you forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "44e9bcaacc69309d5484772e6f113aad7357264ed83b7f7eb72cf7ae4c6682e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/1-4.1791192732212.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יפיפית",
-      "gloss": "you are beautiful, beautiful"
+      "surface": "יָפְיָפִ֡יתָ",
+      "gloss": "You are fairer",
+      "sense": "S1"
     },
     {
-      "surface": "מבני",
-      "gloss": "beyond the sons of"
+      "surface": "מִבְּנֵ֬י",
+      "gloss": "than the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "אדם",
-      "gloss": "men",
+      "surface": "אָדָ֗ם",
+      "gloss": "Adam",
+      "sense": "S1",
       "readings": [
-        "men",
-        "Adam"
-      ],
-      "held_by": {
-        "men": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Adam": [
-          "v1"
-        ]
-      }
+        "Adam",
+        "mankind"
+      ]
     },
     {
-      "surface": "הוצק",
-      "gloss": "is poured"
+      "surface": "ה֣וּצַק",
+      "gloss": "is poured out",
+      "sense": "S1"
     },
     {
-      "surface": "חן",
+      "surface": "חֵ֭ן",
       "gloss": "grace",
-      "readings": [
-        "grace",
-        "favor"
-      ],
-      "held_by": {
-        "grace": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "favor": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בשפתותיך",
-      "gloss": "upon your lips"
+      "surface": "בְּשִׂפְתֹתֶ֑יךָ",
+      "gloss": "on your lips",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "on account",
-      "readings": [
-        "on account",
-        "upon"
-      ],
-      "held_by": {
-        "on account": [
-          "v2",
-          "v3"
-        ],
-        "upon": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "עַל",
+      "gloss": "therefore",
+      "sense": null
     },
     {
-      "surface": "כן",
+      "surface": "כֵּ֤ן",
       "gloss": "therefore"
     },
     {
-      "surface": "ברכך",
-      "gloss": "has blessed you"
+      "surface": "בֵּֽרַכְךָ֖",
+      "gloss": "has blessed you",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֣ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָֽם",
+      "gloss": "forever",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:12.213982548Z",
+  "model": "glm-5.3"
 }

@@ -1,64 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "Into ⟨the⟩ bosom ⟨is⟩ cast ⟨את⟩ the lot, but from YHWH ⟨is⟩ all its judgment.",
-  "tokens": [
+  "ref": "proverbs 16:33",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "בחיק",
-      "gloss": "Into ⟨the⟩ bosom",
-      "readings": [
-        "Into ⟨the⟩ bosom",
-        "into ⟨the⟩ lap"
-      ],
-      "held_by": {
-        "Into ⟨the⟩ bosom": [
-          "v1",
-          "v3"
-        ],
-        "into ⟨the⟩ lap": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula for both clauses; the stative 'is' is supplied twice"
     },
     {
-      "surface": "יוטל",
-      "gloss": "⟨is⟩ cast"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הגורל",
-      "gloss": "the lot"
-    },
-    {
-      "surface": "ומיהוה",
-      "gloss": "but from YHWH"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "משפטו",
-      "gloss": "its judgment",
-      "readings": [
-        "its judgment",
-        "its verdict"
-      ],
-      "held_by": {
-        "its judgment": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "its verdict": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "its judgment",
+      "rationale": "משפטו may read 'its every decision' — the lot's outcome rests wholly with YHWH"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Into the bosom is cast ⟨את⟩ the lot, and from YHWH is all its judgment.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf50ac2354c855ab4ff2598565df4b0e7d80e5407077d67148eee24739b83114",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/16\/33-33.1791193871502.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּ֭חֵיק",
+      "gloss": "Into the bosom",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוּטַ֣ל",
+      "gloss": "is cast",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the lot",
+      "sense": null
+    },
+    {
+      "surface": "הַגּּוֹרָ֑ל",
+      "gloss": "the lot",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝מֵיְהוָ֗ה",
+      "gloss": "and from YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁפָּטֽוֹ",
+      "gloss": "its judgment",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:11.503404380Z",
+  "model": "glm-5.3"
 }

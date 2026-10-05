@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "They afflicted his feet with fetters; into iron his soul came.",
-  "tokens": [
+  "ref": "psalms 105:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "ענו",
-      "gloss": "They afflicted"
+      "kind": "crux",
+      "subject": "his two feet",
+      "rationale": "Ketiv רגליו is dual; qere reads רגלו singular — the dual keeps the Hebrew's shape."
     },
     {
-      "surface": "בכבל",
-      "gloss": "with fetters"
+      "kind": "substitution",
+      "subject": "his nefesh",
+      "rationale": "נפש is throat\/breath\/life-force, rendered by the Hebrew term rather than 'soul'."
+    }
+  ],
+  "translation": "They humbled his feet with a fetter; his nefesh came into iron.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8dc4075f14d9a5daa7e32525aaab27c5583a56e987919196c4071d4e2049000d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/17-20.1791193300737.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עִנּוּ",
+      "gloss": "They humbled",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַכֶּבֶל",
+      "gloss": "with a fetter",
+      "sense": "S1"
     },
     {
       "surface": "רגליו",
-      "gloss": "his feet"
+      "gloss": "his two feet",
+      "sense": "S1"
     },
     {
-      "surface": "ברזל",
-      "gloss": "into iron"
+      "surface": "בַּרְזֶל",
+      "gloss": "iron",
+      "sense": "S1"
     },
     {
-      "surface": "באה",
-      "gloss": "came into"
+      "surface": "בָּאָה",
+      "gloss": "came",
+      "sense": null
     },
     {
-      "surface": "נפשו",
-      "gloss": "his soul",
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his nefesh",
+      "sense": "S1",
       "readings": [
-        "his soul",
         "his nefesh",
-        "his life"
-      ],
-      "held_by": {
-        "his soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his nefesh": [
-          "en4"
-        ],
-        "his life": [
-          "en4"
-        ]
-      }
+        "his life",
+        "his throat"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:40.737854130Z",
+  "model": "glm-5.3"
 }

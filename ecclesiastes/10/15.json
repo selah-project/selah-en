@@ -1,63 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "The toil of the fools wearies him, that he does not know ⟨how⟩ to go to the city.",
+  "ref": "ecclesiastes 10:15",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "תְּיַגְעֶנּוּ",
+      "rationale": "Feminine verb 'toil' with 3ms suffix against plural 'fools' — 'wearies him' kept literal; the referent shifts between the fool and the toil's owner."
+    },
+    {
+      "kind": "crux",
+      "subject": "לָלֶכֶת אֶל עִיר",
+      "rationale": "'Not knowing how to go to a city' — literal inability to find the way, or idiom for lacking the simplest competence."
+    }
+  ],
+  "translation": "The toil of the fools wearies him — he who knows not how to go to a city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "858f110322d9594165bc3c315aa93e017fa0a0a17ad735f519cc369c3431523b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/10\/13-16.1791194970601.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "עמל",
-      "gloss": "the toil of"
+      "surface": "עֲמַל",
+      "gloss": "the toil of",
+      "sense": "S1"
     },
     {
-      "surface": "הכסילים",
-      "gloss": "the fools"
+      "surface": "הַכְּסִילִים",
+      "gloss": "the fools",
+      "sense": "S1"
     },
     {
-      "surface": "תיגענו",
-      "gloss": "wearies him"
+      "surface": "תְּיַגְעֶנּוּ",
+      "gloss": "wearies him",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "that",
-      "readings": [
-        "that",
-        "who",
-        "because"
-      ],
-      "held_by": {
-        "that": [
-          "en4"
-        ],
-        "who": [
-          "v2",
-          "v3"
-        ],
-        "because": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אֲשֶׁר",
+      "gloss": "who"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידע",
-      "gloss": "he knows"
+      "surface": "יָדַע",
+      "gloss": "knows",
+      "sense": null
     },
     {
-      "surface": "ללכת",
-      "gloss": "to go"
+      "surface": "לָלֶכֶת",
+      "gloss": "how to go",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "עיר",
-      "gloss": "the city"
+      "surface": "עִיר",
+      "gloss": "a city",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:09:30.602215585Z",
+  "model": "glm-5.3"
 }

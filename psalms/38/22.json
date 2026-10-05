@@ -1,36 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Do not forsake me, YHWH my Elohim; do not be far from me.",
+  "ref": "psalms 38:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct petition addressed to YHWH, the psalm's climactic plea."
+    },
+    {
+      "kind": "addition",
+      "subject": "do",
+      "rationale": "English needs the auxiliary 'do' for the deprecative אל negation; Hebrew has only the negative particle."
+    }
+  ],
+  "translation": "Do not abandon me, YHWH; my Elohim, do not be far from me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f5d15149e5941b0ed202ebf678cd3cc9bdfb57a513b2989ef75b54bfeff1c4a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/21-23.1791192656775.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "do not"
     },
     {
-      "surface": "תעזבני",
-      "gloss": "forsake me"
+      "surface": "תַּֽעַזְבֵ֥נִי",
+      "gloss": "abandon me",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
+      "surface": "אֱ֝לֹהַ֗י",
+      "gloss": "my Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "do not"
     },
     {
-      "surface": "תרחק",
-      "gloss": "be far"
+      "surface": "תִּרְחַ֥ק",
+      "gloss": "be far",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
+      "surface": "מִמֶּֽנִּי",
       "gloss": "from me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:56.776563562Z",
+  "model": "glm-5.3"
 }

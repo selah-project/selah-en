@@ -1,66 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "The one saying to the sun, and it does not shine, and upon the stars he seals up.",
-  "tokens": [
+  "ref": "job 9:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "האמר",
-      "gloss": "the one saying",
-      "readings": [
-        "the one saying",
-        "the one commanding"
-      ],
-      "held_by": {
-        "the one saying": [
-          "v2",
-          "en4"
-        ],
-        "the one commanding": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "the sun",
+      "rationale": "חרס is a rare word for the sun (also Deut 28:27, Judg 8:13); the usual שמש is elsewhere."
     },
     {
-      "surface": "לחרס",
-      "gloss": "to the sun"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "יזרח",
-      "gloss": "it shines",
-      "readings": [
-        "it shines",
-        "it rises"
-      ],
-      "held_by": {
-        "it shines": [
-          "v2",
-          "en4"
-        ],
-        "it rises": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ובעד",
-      "gloss": "and upon"
-    },
-    {
-      "surface": "כוכבים",
-      "gloss": "the stars"
-    },
-    {
-      "surface": "יחתם",
-      "gloss": "he seals up"
+      "kind": "mystery",
+      "subject": "seals up the stars",
+      "rationale": "חתם — sealing language, keeping the stars from shining."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "the-one-who-says to the sun, and it does not rise, and seals up the stars;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9a258bb43ff3ee7153b02012ab371b201869188ebb0a677254588e725320ad78",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/9\/5-8.1791194208440.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָאֹמֵ֣ר",
+      "gloss": "the-one-who-says",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַ֭חֶרֶס",
+      "gloss": "to the sun",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִזְרָ֑ח",
+      "gloss": "it rises",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְעַ֖ד",
+      "gloss": "and over",
+      "sense": "S1"
+    },
+    {
+      "surface": "כּוֹכָבִ֣ים",
+      "gloss": "the stars",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַחְתֹּֽם",
+      "gloss": "He seals",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:48.441165829Z",
+  "model": "glm-5.3"
 }

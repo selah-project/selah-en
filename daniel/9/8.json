@@ -1,48 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "O YHWH — to us is the shame of faces, to our kings, to our princes, and to our fathers, because we have sinned against you.",
-  "tokens": [
+  "ref": "daniel 9:8",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "⟨is⟩",
+      "rationale": "Verbless clause; English requires the copula."
     },
     {
-      "surface": "לנו",
+      "kind": "crux",
+      "subject": "לָךְ",
+      "rationale": "The suffix on לָךְ is pointed 2nd feminine singular though it addresses YHWH; laid bare, not normalized."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct address to YHWH, confessing sin 'against you'."
+    }
+  ],
+  "translation": "YHWH, to us ⟨is⟩ the shame of face — to our kings, to our officials, and to our fathers — because we have sinned against you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e1ff62c6938b81b251b3a0271a2ea9960d33675f584923629fc11cfbdf5a5fa1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/9\/5-8.1791195401166.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֚נוּ",
       "gloss": "to us"
     },
     {
-      "surface": "בשת",
-      "gloss": "shame"
+      "surface": "בֹּ֣שֶׁת",
+      "gloss": "⟨is⟩ the shame of",
+      "sense": "S1"
     },
     {
-      "surface": "הפנים",
-      "gloss": "of faces"
+      "surface": "הַפָּנִ֔ים",
+      "gloss": "face",
+      "sense": "S1"
     },
     {
-      "surface": "למלכינו",
-      "gloss": "to our kings"
+      "surface": "לִמְלָכֵ֥ינוּ",
+      "gloss": "to our kings",
+      "sense": "S1"
     },
     {
-      "surface": "לשרינו",
-      "gloss": "to our princes"
+      "surface": "לְשָׂרֵ֖ינוּ",
+      "gloss": "to our officials",
+      "sense": "S1"
     },
     {
-      "surface": "ולאבתינו",
-      "gloss": "and to our fathers"
+      "surface": "וְלַאֲבֹתֵ֑ינוּ",
+      "gloss": "and to our fathers",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֥ר",
       "gloss": "because"
     },
     {
-      "surface": "חטאנו",
-      "gloss": "we have sinned"
+      "surface": "חָטָ֖אנוּ",
+      "gloss": "we have sinned",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
+      "surface": "לָֽךְ",
       "gloss": "against you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:16:41.167594685Z",
+  "model": "glm-5.3"
 }

@@ -1,45 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And I will lay waste her vine and her fig tree, of which she said, “They are my hire, which my lovers gave to me”; and I will make them a forest, and the beast of the field shall eat them.",
+  "ref": "hosea 2:14",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "אתנה",
+      "rationale": "אֶתְנָה, a harlot's hire, occurs only here in the Tanakh."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew uses pronoun המה plus preposition לי; English requires a copula."
+    },
+    {
+      "kind": "substitution",
+      "subject": "vine and fig tree",
+      "rationale": "Symbols of peace and prosperity (each under his vine and fig tree) turned to wilderness."
+    }
+  ],
+  "translation": "And I will make desolate her vine and her fig tree, which she said, “They are my hire, which my lovers gave me”; and I will make them a forest, and the beast of the field will eat them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "28406cc64c1e128df661850ec87c7c863bbe517f2fcd76ae2a99ed60daa113de",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/2\/13-16.1791191232018.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
       "surface": "והשמתי",
-      "gloss": "And I will lay waste"
+      "gloss": "And I will make desolate",
+      "sense": "S1"
     },
     {
       "surface": "גפנה",
-      "gloss": "her vine"
+      "gloss": "her vine",
+      "sense": "S1"
     },
     {
       "surface": "ותאנתה",
-      "gloss": "and her fig tree"
+      "gloss": "and her fig tree",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "of which"
+      "gloss": "which"
     },
     {
       "surface": "אמרה",
-      "gloss": "she said"
+      "gloss": "she said",
+      "sense": "S1"
     },
     {
       "surface": "אתנה",
       "gloss": "my hire",
-      "readings": [
-        "my hire",
-        "a harlot’s wage"
-      ],
-      "held_by": {
-        "my hire": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a harlot’s wage": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "המה",
@@ -47,7 +69,7 @@
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "⟨are⟩ mine"
     },
     {
       "surface": "אשר",
@@ -63,29 +85,35 @@
     },
     {
       "surface": "מאהבי",
-      "gloss": "my lovers"
+      "gloss": "my lovers",
+      "sense": "S1"
     },
     {
       "surface": "ושמתים",
-      "gloss": "and I will make them"
+      "gloss": "and I will make them",
+      "sense": "S1"
     },
     {
       "surface": "ליער",
-      "gloss": "a forest"
+      "gloss": "a forest",
+      "sense": "S1"
     },
     {
       "surface": "ואכלתם",
-      "gloss": "and shall eat them"
+      "gloss": "and will eat them",
+      "sense": "S1"
     },
     {
       "surface": "חית",
-      "gloss": "the beast of"
+      "gloss": "the beast of",
+      "sense": "S1"
     },
     {
       "surface": "השדה",
-      "gloss": "the field"
+      "gloss": "the field",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:07:12.019283916Z",
+  "model": "glm-5.3"
 }

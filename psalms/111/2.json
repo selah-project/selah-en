@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Great are the works of YHWH, sought out by all who delight in them.",
-  "tokens": [
+  "ref": "psalms 111:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 111,
+  "notes": [
     {
-      "surface": "גדלים",
-      "gloss": "Great"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew fronted adjective clause lacks copula"
     },
     {
-      "surface": "מעשי",
-      "gloss": "the works of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "דרושים",
-      "gloss": "sought out"
-    },
-    {
-      "surface": "לכל",
-      "gloss": "by all"
-    },
-    {
-      "surface": "חפציהם",
-      "gloss": "who delight in them",
-      "readings": [
-        "who delight in them",
-        "in their delight"
-      ],
-      "held_by": {
-        "who delight in them": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in their delight": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "לכל חפציהם",
+      "rationale": "literally 'for all their delights'; taken as 'for all who delight in them' (participial sense of חפץ), vs 'according to all his pleasures'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Great are the works of YHWH, sought out by all who delight in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19b5383d19e8701905215489ed1cf6c4b448cf0a8c5671a91b521fee4ee3c3ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/111\/1-4.1791193385274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גְּדֹלִים",
+      "gloss": "Great",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַעֲשֵׂי",
+      "gloss": "are the works of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּרוּשִׁים",
+      "gloss": "sought out",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "by all",
+      "sense": null
+    },
+    {
+      "surface": "חֶפְצֵיהֶם",
+      "gloss": "who delight in them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:05.275734646Z",
+  "model": "glm-5.3"
 }

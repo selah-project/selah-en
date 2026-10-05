@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Elohim is known in Judah; in Israel His name is great.",
-  "tokens": [
+  "ref": "psalms 76:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 76,
+  "notes": [
     {
-      "surface": "נודע",
-      "gloss": "is known"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew participial clauses lack a copula"
     },
     {
-      "surface": "ביהודה",
-      "gloss": "in Judah"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "בישראל",
-      "gloss": "in Israel"
-    },
-    {
-      "surface": "גדול",
-      "gloss": "great"
-    },
-    {
-      "surface": "שמו",
-      "gloss": "His name"
+      "kind": "substitution",
+      "subject": "His",
+      "rationale": "Hebrew has no possessive pronoun; the suffix on שמו carries it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Known in Judah is Elohim; in Israel His name is great.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "77672d7e5abd5d9b0fdbf7cb9883e5c35988d682b20785a9d3f9df08b0e04eb0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/76\/1-4.1791193017005.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נוֹדָע",
+      "gloss": "Known",
+      "sense": null
+    },
+    {
+      "surface": "בִּיהוּדָה",
+      "gloss": "in Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "is Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיִשְׂרָאֵל",
+      "gloss": "in Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּדוֹל",
+      "gloss": "is great",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמוֹ",
+      "gloss": "His name",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:57.005722628Z",
+  "model": "glm-5.3"
 }

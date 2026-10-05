@@ -1,81 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And all Israel shall hear, and fear, and shall not add to do like this evil word in your midst.",
+  "ref": "deuteronomy 13:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "ולא יוסיפו לעשות",
+      "rationale": "literally 'and they shall not add to do' — the idiom 'do no more' kept half-literal with 'again' supplied in the flow"
+    },
+    {
+      "kind": "addition",
+      "subject": "again",
+      "rationale": "the adverb is not a separate Hebrew word; it is the force of לא יוסיפו, 'not continue'"
+    }
+  ],
+  "translation": "And all Israel shall hear, and fear, and shall not add to do again such evil thing in your midst.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "569c2fd940b63c49133877c9dddd6f1c30711b7f44196b0885d50173fdf19d88",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/13\/9-12.1791183838243.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "And all"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵ֔ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "ישמעו",
+      "surface": "יִשְׁמְע֖וּ",
       "gloss": "shall hear"
     },
     {
-      "surface": "ויראון",
-      "gloss": "and fear"
+      "surface": "וְיִֽרָא֑וּן",
+      "gloss": "and fear",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "יוספו",
-      "gloss": "shall add",
-      "readings": [
-        "shall add",
-        "shall continue"
-      ],
-      "held_by": {
-        "shall add": [
-          "v2",
-          "en4"
-        ],
-        "shall continue": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יוֹסִ֣יפוּ",
+      "gloss": "shall they add"
     },
     {
-      "surface": "לעשות",
-      "gloss": "to do"
+      "surface": "לַעֲשׂ֗וֹת",
+      "gloss": "to do",
+      "sense": "S1"
     },
     {
-      "surface": "כדבר",
-      "gloss": "like the word",
-      "readings": [
-        "like the word",
-        "like the matter"
-      ],
-      "held_by": {
-        "like the word": [
-          "en4"
-        ],
-        "like the matter": [
-          "v1",
-          "v3"
-        ]
-      }
+      "surface": "כַּדָּבָ֥ר",
+      "gloss": "like the thing",
+      "sense": "S1"
     },
     {
-      "surface": "הרע",
-      "gloss": "the evil"
+      "surface": "הָרָ֛ע",
+      "gloss": "the evil",
+      "sense": "S1"
     },
     {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּ֖ה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "בקרבך",
-      "gloss": "in your midst"
+      "surface": "בְּקִרְבֶּֽךָ",
+      "gloss": "in your midst",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:03:58.245214357Z",
+  "model": "glm-5.3"
 }

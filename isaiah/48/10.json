@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Behold, I have refined you, but not with silver; I have chosen you in the furnace of affliction.",
-  "tokens": [
+  "ref": "isaiah 48:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Behold"
+      "kind": "crux",
+      "subject": "בחרתיך",
+      "rationale": "'I have tried\/chosen you in the furnace of affliction' — some read בחר as 'choose', others as 'test\/try'; the parallelism with צרף favors 'try'."
     },
     {
-      "surface": "צרפתיך",
-      "gloss": "I have refined you"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "but not"
-    },
-    {
-      "surface": "בכסף",
-      "gloss": "with silver",
-      "readings": [
-        "with silver",
-        "as silver"
-      ],
-      "held_by": {
-        "with silver": [
-          "v1",
-          "en4"
-        ],
-        "as silver": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בחרתיך",
-      "gloss": "I have chosen you"
-    },
-    {
-      "surface": "בכור",
-      "gloss": "in the furnace"
-    },
-    {
-      "surface": "עני",
-      "gloss": "of affliction"
+      "kind": "alternative",
+      "subject": "not as silver",
+      "rationale": "Possibly 'not with silver', i.e. refined not in a silver-smelting process but in the furnace of affliction."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Look, I have refined you, but not as silver; I have tried you in the furnace of affliction.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d043d7b7b686836ed154340866cf7f8d645808606a38842e58474e459b57e07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/48\/9-12.1791188735962.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִנֵּ֥ה",
+      "gloss": "Look",
+      "sense": null
+    },
+    {
+      "surface": "צְרַפְתִּ֖יךָ",
+      "gloss": "I have refined you",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָ֑סֶף",
+      "gloss": "as silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחַרְתִּ֖יךָ",
+      "gloss": "I have tried you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכ֥וּר",
+      "gloss": "in the furnace of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹֽנִי",
+      "gloss": "affliction",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:25:35.962837513Z",
+  "model": "glm-5.3"
 }

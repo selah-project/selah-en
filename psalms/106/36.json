@@ -1,47 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And they served ⟨את⟩ their idols, and they became to them for a snare.",
-  "tokens": [
+  "ref": "psalms 106:36",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויעבדו",
-      "gloss": "and they served"
+      "kind": "substitution",
+      "subject": "idols",
+      "rationale": "עצבים literally 'images' but the root עצב also means pain\/sorrow — 'their sorrows' is a heard resonance lost in 'idols'."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "עצביהם",
-      "gloss": "their idols",
-      "readings": [
-        "their idols",
-        "their grief-bringers"
-      ],
-      "held_by": {
-        "their idols": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their grief-bringers": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויהיו",
-      "gloss": "and they became"
-    },
-    {
-      "surface": "להם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "למוקש",
-      "gloss": "for a snare"
+      "kind": "wordplay",
+      "subject": "להם למוקש",
+      "rationale": "the doubled ל...ל... ('for a... for a snare') is a Hebrew idiom of result, collapsed into 'became a snare to them'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they served ⟨את⟩ their idols, and these became a snare to them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0c97c1c1b21bfdf4a16173ece385d20f3edbfd41a6f5461e1075e1324e8887d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/33-36.1791193323940.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּעַבְד֥וּ",
+      "gloss": "And they served",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "their idols",
+      "sense": null
+    },
+    {
+      "surface": "עֲצַבֵּיהֶ֑ם",
+      "gloss": "their idols",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּהְי֖וּ",
+      "gloss": "and they became",
+      "sense": null
+    },
+    {
+      "surface": "לָהֶ֣ם",
+      "gloss": "to them",
+      "sense": null
+    },
+    {
+      "surface": "לְמוֹקֵֽשׁ",
+      "gloss": "a snare",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:03.941643926Z",
+  "model": "glm-5.3"
 }

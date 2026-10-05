@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "A king there is not to the locust, yet it goes out — all of it in ranks.",
-  "tokens": [
+  "ref": "proverbs 30:27",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "מלך",
-      "gloss": "a king"
+      "kind": "idiom",
+      "subject": "no king has it",
+      "rationale": "Hebrew is 'a king there is not for the locust'; fronted object smoothed into English word order"
     },
     {
-      "surface": "אין",
-      "gloss": "there is not"
-    },
-    {
-      "surface": "לארבה",
-      "gloss": "to the locust",
-      "readings": [
-        "to the locust",
-        "for the locust"
-      ],
-      "held_by": {
-        "to the locust": [
-          "v2",
-          "en4"
-        ],
-        "for the locust": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ויצא",
-      "gloss": "yet it goes out"
-    },
-    {
-      "surface": "חצץ",
-      "gloss": "in ranks",
-      "readings": [
-        "in ranks",
-        "deployed in formation",
-        "divided"
-      ],
-      "held_by": {
-        "in ranks": [
-          "v2"
-        ],
-        "deployed in formation": [
-          "v1",
-          "v3"
-        ],
-        "divided": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כלו",
-      "gloss": "all of it"
+      "kind": "crux",
+      "subject": "dividing",
+      "rationale": "חֹצֵץ (only 3 occurrences) rendered 'dividing into groups' (marching in ranks) vs 'cutting off \/ numerous'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The locust — no king has it, and it goes out dividing, all of it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b3b1ea885210777bc08b9f390a4bf37ffb992da731174e4626436340ff14014",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/25-28.1791194081532.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "no king",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵין",
+      "gloss": "there is not",
+      "sense": null
+    },
+    {
+      "surface": "לָאַרְבֶּה",
+      "gloss": "for the locust",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֵּצֵא",
+      "gloss": "and it goes out",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹצֵץ",
+      "gloss": "dividing",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֻּלּוֹ",
+      "gloss": "all of it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:41.533768573Z",
+  "model": "glm-5.3"
 }

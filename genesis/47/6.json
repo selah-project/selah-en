@@ -1,128 +1,166 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "The land of Egypt is before your face — it is yours. In the best of the land, settle ⟨את⟩ your father and ⟨את⟩ your brothers. Let them dwell in the land of Goshen. And if you know, and there are among them men of ability, then set them as chiefs of livestock over what is mine.”",
+  "ref": "genesis 47:6",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 47,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "all",
+      "rationale": "על אשר לי is literally 'over that which is mine'; 'all' is idiomatic smoothing"
+    },
+    {
+      "kind": "crux",
+      "subject": "men of valor",
+      "rationale": "אנשי חיל: capable men vs men of wealth vs men of strength — the choice colors what Jacob's sons were"
+    },
+    {
+      "kind": "you",
+      "subject": "to Joseph",
+      "rationale": "Pharaoh's direct instructions to Joseph concerning his family"
+    }
+  ],
+  "translation": "The land of Egypt is before you — in the best of the land settle ⟨את⟩ your father and ⟨את⟩ your brothers; let them dwell in the land of Goshen. And if you know, and there are among them men of valor, then set them as chiefs of cattle over all that is mine.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d04870eb0a97d88a5b69b789ba176bb36de4cf366ca0d2666728802f378ed054",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/47\/6-7.1791197389192.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
   "tokens": [
     {
-      "surface": "ארץ",
-      "gloss": "The land"
+      "surface": "אֶרֶץ",
+      "gloss": "The land",
+      "sense": "S1"
     },
     {
-      "surface": "מצרים",
-      "gloss": "of Egypt"
+      "surface": "מִצְרַיִם",
+      "gloss": "of Egypt",
+      "sense": "S1"
     },
     {
-      "surface": "לפניך",
-      "gloss": "before your face"
+      "surface": "לְפָנֶיךָ",
+      "gloss": "is before you"
     },
     {
-      "surface": "הוא",
+      "surface": "הִוא",
       "gloss": "it"
     },
     {
-      "surface": "במיטב",
-      "gloss": "in the best of"
+      "surface": "בְּמֵיטַב",
+      "gloss": "in the best of",
+      "sense": "S1"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the land"
+      "surface": "הָאָרֶץ",
+      "gloss": "the land",
+      "sense": "S1"
     },
     {
-      "surface": "הושב",
-      "gloss": "settle"
+      "surface": "הוֹשֵׁב",
+      "gloss": "settle",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your father"
     },
     {
-      "surface": "אביך",
-      "gloss": "your father"
+      "surface": "אָבִיךָ",
+      "gloss": "your father",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "your brothers"
     },
     {
-      "surface": "אחיך",
-      "gloss": "your brothers"
+      "surface": "אַחֶיךָ",
+      "gloss": "your brothers",
+      "sense": "S1"
     },
     {
-      "surface": "ישבו",
-      "gloss": "let them dwell"
+      "surface": "יֵשְׁבוּ",
+      "gloss": "let them dwell",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
-      "gloss": "in the land of"
+      "surface": "בְּאֶרֶץ",
+      "gloss": "in the land",
+      "sense": "S1"
     },
     {
-      "surface": "גשן",
-      "gloss": "Goshen"
+      "surface": "גֹּשֶׁן",
+      "gloss": "of Goshen",
+      "sense": "S1"
     },
     {
-      "surface": "ואם",
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "ידעת",
+      "surface": "יָדַעְתָּ",
       "gloss": "you know"
     },
     {
-      "surface": "ויש",
+      "surface": "וְיֵשׁ",
       "gloss": "and there are"
     },
     {
-      "surface": "בם",
+      "surface": "בָּם",
       "gloss": "among them"
     },
     {
-      "surface": "אנשי",
-      "gloss": "men of"
+      "surface": "אַנְשֵׁי",
+      "gloss": "men",
+      "sense": "S1"
     },
     {
-      "surface": "חיל",
-      "gloss": "ability",
+      "surface": "חַיִל",
+      "gloss": "of valor",
+      "sense": "S1",
       "readings": [
-        "ability",
-        "substance",
-        "valor"
-      ],
-      "held_by": {
-        "ability": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "substance": [
-          "v1"
-        ]
-      },
-      "disputed": true
+        "of valor",
+        "of strength",
+        "of wealth"
+      ]
     },
     {
-      "surface": "ושמתם",
-      "gloss": "then set them"
+      "surface": "וְשַׂמְתָּם",
+      "gloss": "then set them",
+      "sense": "S1"
     },
     {
-      "surface": "שרי",
-      "gloss": "chiefs of"
+      "surface": "שָׂרֵי",
+      "gloss": "as chiefs",
+      "sense": "S1"
     },
     {
-      "surface": "מקנה",
-      "gloss": "livestock"
+      "surface": "מִקְנֶה",
+      "gloss": "of cattle",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "over"
     },
     {
-      "surface": "אשר",
-      "gloss": "what"
+      "surface": "אֲשֶׁר",
+      "gloss": "all that"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "is mine"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:49:49.193330442Z",
+  "model": "glm-5.3"
 }

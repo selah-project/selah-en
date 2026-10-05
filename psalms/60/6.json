@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "You have given a banner to those who fear You, to lift it up because of truth. Selah.",
-  "tokens": [
+  "ref": "psalms 60:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 60,
+  "notes": [
     {
-      "surface": "נתתה",
-      "gloss": "You have given"
+      "kind": "crux",
+      "subject": "קֹשֶׁט",
+      "rationale": "rendered 'truth\/equity' (as Proverbs 22:21); some read קֶשֶׁת 'bow' — a banner raised for flight before the bow, i.e. from before the enemy's archers."
     },
     {
-      "surface": "ליראיך",
-      "gloss": "to those who fear You"
-    },
-    {
-      "surface": "נס",
-      "gloss": "a banner"
-    },
-    {
-      "surface": "להתנוסס",
-      "gloss": "to lift it up",
-      "readings": [
-        "to lift it up",
-        "to be displayed"
-      ],
-      "held_by": {
-        "to lift it up": [
-          "v1",
-          "v3"
-        ],
-        "to be displayed": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מפני",
-      "gloss": "because of"
-    },
-    {
-      "surface": "קשט",
-      "gloss": "truth"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "alternative",
+      "subject": "to gather to it",
+      "rationale": "הִתְנוֹסֵס can also mean 'to be lifted high' — the banner raised for all to see, against 'fleeing because of the bow'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You have given those who fear you a banner, to gather to it, because of the truth. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9c797d3d4b331926d70b8029c54f11bc7075e56a8857d7fd6ca99068383be030",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/60\/5-8.1791192853068.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נָתַתָּה",
+      "gloss": "You have given",
+      "sense": null
+    },
+    {
+      "surface": "לִּירֵאֶיךָ",
+      "gloss": "to those who fear you",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵּס",
+      "gloss": "a banner",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהִתְנוֹסֵס",
+      "gloss": "to gather to it",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵי",
+      "gloss": "because of",
+      "sense": null
+    },
+    {
+      "surface": "קֹשֶׁט",
+      "gloss": "the truth",
+      "readings": [
+        "the truth",
+        "the bow"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:13.069112680Z",
+  "model": "glm-5.3"
 }

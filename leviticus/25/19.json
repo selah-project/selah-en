@@ -1,10 +1,33 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And the land shall give her fruit, and you shall eat to satiety, and you shall dwell upon it in safety.",
+  "ref": "leviticus 25:19",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "וישבתם לבטח",
+      "rationale": "echoes verse 18 exactly, land-dwelling in safety as the promised result of keeping the statutes"
+    }
+  ],
+  "translation": "And the land shall give its fruit, and you shall eat to satisfaction, and you shall dwell on it in safety.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1fa365605e05cbd07cc8dbe77c0caef80312ea3b493890719b376832880583a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/25\/17-20.1791182645888.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ונתנה",
-      "gloss": "and shall give"
+      "gloss": "and shall give",
+      "sense": null
     },
     {
       "surface": "הארץ",
@@ -13,43 +36,39 @@
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "פריה",
-      "gloss": "her fruit"
+      "gloss": "its fruit",
+      "sense": "S1"
     },
     {
       "surface": "ואכלתם",
-      "gloss": "and you shall eat"
+      "gloss": "and you shall eat",
+      "sense": "S1"
     },
     {
       "surface": "לשבע",
-      "gloss": "to satiety"
+      "gloss": "to satisfaction",
+      "sense": "S1"
     },
     {
       "surface": "וישבתם",
-      "gloss": "and you shall dwell"
+      "gloss": "and you shall dwell",
+      "sense": "S1"
     },
     {
       "surface": "לבטח",
-      "gloss": "in safety"
+      "gloss": "in safety",
+      "sense": "S1"
     },
     {
       "surface": "עליה",
-      "gloss": "upon it"
+      "gloss": "on it",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:44:05.890243786Z",
+  "model": "glm-5.3"
 }

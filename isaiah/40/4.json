@@ -1,86 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Every valley shall be lifted up, and every mountain and hill made low; and the crooked shall become level ground, and the rough places a plain.",
+  "ref": "isaiah 40:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "וְהָרְכָסִים",
+      "rationale": "רֶכֶס occurs only here in the Tanakh; meaning 'ridged, rough ground' inferred from parallel עָקֹב."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "chiasm of high and low",
+      "rationale": "Valley raised \/ mountain lowered \/ rough made smooth \/ ridges made valley — an inversion structure English keeps only in image order."
+    },
+    {
+      "kind": "alternative",
+      "subject": "the uneven ground",
+      "rationale": "הֶעָקֹב from עָקֵב 'heel', the crooked\/tricky surface — same rare word as Jeremiah 17:9's 'deceitful heart'."
+    }
+  ],
+  "translation": "Every valley shall be lifted up, and every mountain and hill made low; and the uneven ground shall become a plain, and the ridges a valley.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0ead7d0109838696ff14e8a714934dedfabb40e5d6a898862a8079a276c79681",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/1-4.1791188595179.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "Every"
     },
     {
-      "surface": "גיא",
-      "gloss": "valley"
+      "surface": "גֶּיא֙",
+      "gloss": "valley",
+      "sense": "S1"
     },
     {
-      "surface": "ינשא",
-      "gloss": "shall be lifted up"
+      "surface": "יִנָּשֵׂ֔א",
+      "gloss": "shall be lifted up",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and every"
     },
     {
-      "surface": "הר",
-      "gloss": "mountain"
+      "surface": "הַ֥ר",
+      "gloss": "mountain",
+      "sense": "S1"
     },
     {
-      "surface": "וגבעה",
-      "gloss": "and hill"
+      "surface": "וְגִבְעָ֖ה",
+      "gloss": "and hill",
+      "sense": "S1"
     },
     {
-      "surface": "ישפלו",
-      "gloss": "shall be made low"
+      "surface": "יִשְׁפָּ֑לוּ",
+      "gloss": "shall be made low",
+      "sense": "S1"
     },
     {
-      "surface": "והיה",
-      "gloss": "shall become"
+      "surface": "וְהָיָ֤ה",
+      "gloss": "and it shall be"
     },
     {
-      "surface": "העקב",
-      "gloss": "the crooked"
+      "surface": "הֶֽעָקֹב֙",
+      "gloss": "the uneven ground",
+      "sense": "S1"
     },
     {
-      "surface": "למישור",
-      "gloss": "level ground"
-    },
-    {
-      "surface": "והרכסים",
-      "gloss": "and the rough places",
-      "readings": [
-        "and the rough places",
-        "and the ridges"
-      ],
-      "held_by": {
-        "and the rough places": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the ridges": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבקעה",
+      "surface": "לְמִישֹׁ֔ר",
       "gloss": "a plain",
-      "readings": [
-        "a plain",
-        "a valley"
-      ],
-      "held_by": {
-        "a plain": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a valley": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָרְכָסִ֖ים",
+      "gloss": "and the ridges",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבִקְעָֽה",
+      "gloss": "a valley",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:15.180811424Z",
+  "model": "glm-5.3"
 }

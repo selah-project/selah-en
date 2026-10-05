@@ -1,65 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Give us help from trouble, and vain is the rescue of man.",
-  "tokens": [
+  "ref": "psalms 60:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 60,
+  "notes": [
     {
-      "surface": "הבה",
-      "gloss": "Give"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before 'vain'"
     },
     {
-      "surface": "לנו",
-      "gloss": "us"
+      "kind": "crux",
+      "subject": "מִצָּר",
+      "rationale": "literally 'from distress\/a tight place'; SDBH and context favor 'from the foe', matching צרינו in v. 14"
     },
     {
-      "surface": "עזרת",
-      "gloss": "help"
-    },
-    {
-      "surface": "מצר",
-      "gloss": "from trouble",
-      "readings": [
-        "from trouble",
-        "from the adversary"
-      ],
-      "held_by": {
-        "from trouble": [
-          "v2",
-          "v3"
-        ],
-        "from the adversary": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ושוא",
-      "gloss": "and vain"
-    },
-    {
-      "surface": "תשועת",
-      "gloss": "rescue",
-      "readings": [
-        "rescue",
-        "help"
-      ],
-      "held_by": {
-        "rescue": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "help": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "אדם",
-      "gloss": "of man"
+      "kind": "wordplay",
+      "subject": "עזרת\/תשועת",
+      "rationale": "parallel construct pair 'help of… rescue of…' repeats the bound structure"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Give us help against the foe, and vain ⟨is⟩ the rescue of man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "326f5c81fe82b9ff6775131f03b5460aa1eb76e5b235f872a7aeb8df8fb59c0b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/60\/13-14.1791192844402.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָֽבָה",
+      "gloss": "Give",
+      "sense": null
+    },
+    {
+      "surface": "לָּ֣נוּ",
+      "gloss": "us",
+      "sense": null
+    },
+    {
+      "surface": "עֶזְרָ֣ת",
+      "gloss": "help of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצָּ֑ר",
+      "gloss": "against the foe",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝שָׁ֗וְא",
+      "gloss": "and vain",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשׁוּעַ֥ת",
+      "gloss": "the rescue of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "man",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:04.403126628Z",
+  "model": "glm-5.3"
 }

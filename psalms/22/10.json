@@ -1,40 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For ⟨it is⟩ you ⟨who⟩ drew me forth from the womb; you made me trust upon the breasts of my mother.",
-  "tokens": [
+  "ref": "psalms 22:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "wordplay",
+      "subject": "בָּטֶן \/ מַבְטִיחִי",
+      "rationale": "Belly and trust share the root בטח\/בטן sound: from the womb (מבטן) God made him trust (מבטיחי); the echo is lost in English."
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "substitution",
+      "subject": "שְׁדֵי",
+      "rationale": "The dual is preserved as 'two breasts'; 'my mother's breasts' as a unit loses the dual form."
     },
     {
-      "surface": "גחי",
-      "gloss": "drew me forth"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between 'You' and the participles."
     },
     {
-      "surface": "מבטן",
-      "gloss": "from the womb"
-    },
-    {
-      "surface": "מבטיחי",
-      "gloss": "you made me trust"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "שדי",
-      "gloss": "the breasts"
-    },
-    {
-      "surface": "אמי",
-      "gloss": "of my mother"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "Direct second-person address to God begins here."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For You are the-one-who-brought-me-out from the womb, making me trust upon the two breasts of my mother.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "30d065e0dadff99041877d20cb87cb0f2d99af93c8494cd645e183d2ee0f7b2d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/9-12.1791192500834.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "גֹחִי",
+      "gloss": "the-one-who-brought-me-out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבָּטֶן",
+      "gloss": "from the belly",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַבְטִיחִי",
+      "gloss": "making me trust",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "שְׁדֵי",
+      "gloss": "the two breasts of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמִּי",
+      "gloss": "my mother",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:20.834690264Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "The spirit of YHWH spoke in me, and his word upon my tongue.",
+  "ref": "2-samuel 23:2",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "in me",
+      "rationale": "דבר בי with ב could also be rendered 'by me' (instrument), as many versions do; 'in me' keeps the preposition's plain sense."
+    }
+  ],
+  "translation": "The spirit of YHWH spoke in me, and his word was on my tongue.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f5828953366487543ef18c326174411b1ab9b61924a0c43a2c085f1f20c11d99",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/23\/1-4.1791186630810.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "רוח",
-      "gloss": "the spirit of",
+      "gloss": "The spirit of",
+      "sense": "S1",
       "readings": [
-        "the spirit of",
-        "the wind of",
-        "the breath of"
-      ],
-      "held_by": {
-        "the spirit of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wind of": [
-          "en4"
-        ],
-        "the breath of": [
-          "en4"
-        ]
-      }
+        "The spirit of",
+        "The wind of",
+        "The breath of"
+      ]
     },
     {
       "surface": "יהוה",
-      "gloss": "of YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "דבר",
-      "gloss": "spoke"
+      "gloss": "spoke",
+      "sense": "S1"
     },
     {
       "surface": "בי",
-      "gloss": "in me"
+      "gloss": "in me",
+      "sense": null
     },
     {
       "surface": "ומלתו",
-      "gloss": "and his word"
+      "gloss": "and his word",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on",
+      "sense": null
     },
     {
       "surface": "לשוני",
-      "gloss": "my tongue"
+      "gloss": "my tongue",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:30.812386171Z",
+  "model": "glm-5.3"
 }

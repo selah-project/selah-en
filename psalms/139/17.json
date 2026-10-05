@@ -1,83 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And to me — how precious are your thoughts, ⟨O⟩ El! How vast is their sum!",
+  "ref": "psalms 139:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "רֵעֶ֣יךָ",
+      "rationale": "'Your thoughts' vs 'your friends\/loved ones' — רע as association of ideas vs companion."
+    },
+    {
+      "kind": "crux",
+      "subject": "עצמו",
+      "rationale": "'have multiplied' vs 'are mighty\/powerful' — both senses of עצם attested."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew exclamations with מה take no copula; English requires one."
+    },
+    {
+      "kind": "you",
+      "subject": "to El",
+      "rationale": "The psalmist addresses El directly."
+    }
+  ],
+  "translation": "And to me, how precious are your thoughts, El; how many are the sum of them!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0c4d8e281a2648059d69bd29556f83976854ac5470334cb7208b9ad4022a918e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/17-20.1791193595433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ולי",
+      "surface": "וְלִ֗י",
       "gloss": "And to me"
     },
     {
-      "surface": "מה",
-      "gloss": "how"
+      "surface": "מַה",
+      "gloss": "how",
+      "sense": "S1"
     },
     {
-      "surface": "יקרו",
-      "gloss": "are precious"
-    },
-    {
-      "surface": "רעיך",
-      "gloss": "your thoughts",
+      "surface": "יָּקְר֣וּ",
+      "gloss": "precious",
       "readings": [
-        "your thoughts",
-        "your friends"
+        "precious",
+        "heavy"
       ],
-      "held_by": {
-        "your thoughts": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your friends": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "רֵעֶ֣יךָ",
+      "gloss": "are your thoughts",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֑ל",
       "gloss": "El"
     },
     {
-      "surface": "מה",
-      "gloss": "how"
+      "surface": "מֶ֥ה",
+      "gloss": "how many",
+      "sense": "S1"
     },
     {
-      "surface": "עצמו",
-      "gloss": "vast is",
+      "surface": "עָ֝צְמוּ",
+      "gloss": "have multiplied",
       "readings": [
-        "vast is",
-        "mighty are"
+        "have multiplied",
+        "are mighty"
       ],
-      "held_by": {
-        "vast is": [
-          "v1",
-          "v3"
-        ],
-        "mighty are": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ראשיהם",
-      "gloss": "their sum",
-      "readings": [
-        "their sum",
-        "their heads"
-      ],
-      "held_by": {
-        "their sum": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their heads": [
-          "en4"
-        ]
-      }
+      "surface": "רָאשֵׁיהֶֽם",
+      "gloss": "the sum of them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:35.434345572Z",
+  "model": "glm-5.3"
 }

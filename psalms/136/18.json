@@ -1,46 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And slew mighty kings, for His chesed ⟨endures⟩ forever.",
-  "tokens": [
+  "ref": "psalms 136:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
     {
-      "surface": "ויהרג",
-      "gloss": "and slew"
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חסד carried in Hebrew; 'steadfast love' is the lawful second reading."
     },
     {
-      "surface": "מלכים",
-      "gloss": "kings"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Copula supplied for the refrain in English."
     },
     {
-      "surface": "אדירים",
-      "gloss": "mighty"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "His chesed",
-      "readings": [
-        "His chesed",
-        "His kindness"
-      ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His kindness": [
-          "v1",
-          "v2"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "גדלים \/ אדירים",
+      "rationale": "Parallel synonyms for the kings' greatness across vv. 17–18; English keeps two distinct adjectives to preserve the pairing."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and slew mighty kings, for His chesed ⟨is⟩ forever —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c481b3699414ebad5b7a7939433b907c5d01574f137a7c4dd00b21c653989b0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/17-20.1791193572469.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּהֲרֹג",
+      "gloss": "and slew",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלָכִ֣ים",
+      "gloss": "kings",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַדִּירִ֑ים",
+      "gloss": "mighty",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֖י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּֽוֹ",
+      "gloss": "His chesed",
+      "sense": "S1",
+      "readings": [
+        "His chesed",
+        "His steadfast love"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:12.470259346Z",
+  "model": "glm-5.3"
 }

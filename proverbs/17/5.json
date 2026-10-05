@@ -1,40 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Mocking ⟨the⟩ poor reproaches his Maker; rejoicing at calamity will not go unpunished.",
-  "tokens": [
+  "ref": "proverbs 17:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "לעג",
-      "gloss": "mocking"
+      "kind": "alternative",
+      "subject": "עֹשֵׂהוּ",
+      "rationale": "'his Maker' vs literal 'the one who made him' — the participle construct with suffix refers to YHWH as maker of the poor."
     },
     {
-      "surface": "לרש",
-      "gloss": "the poor"
-    },
-    {
-      "surface": "חרף",
-      "gloss": "reproaches"
-    },
-    {
-      "surface": "עשהו",
-      "gloss": "his Maker"
-    },
-    {
-      "surface": "שמח",
-      "gloss": "rejoicing"
-    },
-    {
-      "surface": "לאיד",
-      "gloss": "at calamity"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ינקה",
-      "gloss": "go unpunished"
+      "kind": "wordplay",
+      "subject": "parallel halves",
+      "rationale": "Both participial lines (derider \/ rejoicer) end in judgment; the chiasm of contempt-then-joy and its consequence is carried by the structure."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He-who-reviles the poor reproaches his Maker; he-who-rejoices at calamity will not go unpunished.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19bc2be68a538759a1eb51ce16ce6a575e8b062b5f86604ba6e9f7c522eba8fa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/17\/5-8.1791193903865.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹעֵג",
+      "gloss": "he-who-reviles",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָרָשׁ",
+      "gloss": "the poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵרֵף",
+      "gloss": "reproaches",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹשֵׂהוּ",
+      "gloss": "his Maker",
+      "sense": "S1",
+      "readings": [
+        "his Maker",
+        "the-one-who-made-him"
+      ]
+    },
+    {
+      "surface": "שָׂמֵחַ",
+      "gloss": "he-who-rejoices",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאֵיד",
+      "gloss": "at calamity",
+      "sense": "S1",
+      "readings": [
+        "at calamity",
+        "at misfortune"
+      ]
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִנָּקֶה",
+      "gloss": "will go unpunished",
+      "sense": "S1",
+      "readings": [
+        "will go unpunished",
+        "will be held innocent"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:43.866001314Z",
+  "model": "glm-5.3"
 }

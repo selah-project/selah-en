@@ -1,142 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Say among the nations: YHWH reigns! Indeed, the world is established — it shall not be moved. He will judge the peoples with uprightness.",
-  "tokens": [
+  "ref": "psalms 96:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 96,
+  "notes": [
     {
-      "surface": "אמרו",
-      "gloss": "Say"
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "English needs a subject pronoun for the second verb; Hebrew carries it in the feminine form תמוט."
     },
     {
-      "surface": "בגוים",
-      "gloss": "among the nations"
+      "kind": "substitution",
+      "subject": "uprightness",
+      "rationale": "מישרים literally 'smoothness\/straightness', rendered as moral evenness."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "reigns",
-      "readings": [
-        "reigns",
-        "has become king"
-      ],
-      "held_by": {
-        "reigns": [
-          "v2",
-          "en4"
-        ],
-        "has become king": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אף",
-      "gloss": "indeed",
-      "readings": [
-        "indeed",
-        "also"
-      ],
-      "held_by": {
-        "indeed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "also": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תכון",
-      "gloss": "is established"
-    },
-    {
-      "surface": "תבל",
-      "gloss": "the world",
-      "readings": [
-        "the world",
-        "the habitable earth"
-      ],
-      "held_by": {
-        "the world": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the habitable earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בל",
-      "gloss": "not"
-    },
-    {
-      "surface": "תמוט",
-      "gloss": "it shall be moved",
-      "readings": [
-        "it shall be moved",
-        "it shall slip"
-      ],
-      "held_by": {
-        "it shall be moved": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "it shall slip": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ידין",
-      "gloss": "he will judge",
-      "readings": [
-        "he will judge",
-        "he judges"
-      ],
-      "held_by": {
-        "he will judge": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he judges": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עמים",
-      "gloss": "the peoples"
-    },
-    {
-      "surface": "במישרים",
-      "gloss": "with uprightness",
-      "readings": [
-        "with uprightness",
-        "with equity"
-      ],
-      "held_by": {
-        "with uprightness": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "with equity": [
-          "v2"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "תכון \/ תמוט",
+      "rationale": "parallel verbs of steadiness and shaking frame the world's firmness; kept as antithesis."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Say among the nations, “YHWH reigns; the world is firmly established, it will not be shaken; He judges the peoples with uprightness.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "97097f99ed8d34435f4741369fd9b04f385e1c355fd6221f9bd49b0bd1ac743c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/96\/9-12.1791193231581.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִמְרוּ",
+      "gloss": "Say",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּגּוֹיִם",
+      "gloss": "among the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָלָךְ",
+      "gloss": "reigns",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַף",
+      "gloss": "⟨also⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּכּוֹן",
+      "gloss": "is firmly established",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵּבֵל",
+      "gloss": "the world",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּמּוֹט",
+      "gloss": "will it be shaken",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדִין",
+      "gloss": "He judges",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּים",
+      "gloss": "the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמֵישָׁרִים",
+      "gloss": "with uprightness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:31.582459067Z",
+  "model": "glm-5.3"
 }

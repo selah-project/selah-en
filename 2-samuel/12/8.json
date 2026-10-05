@@ -1,106 +1,136 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And I gave to you ⟨את⟩ the house of your lord, and ⟨את⟩ the wives of your lord into your bosom, and I gave to you ⟨את⟩ the house of Israel and of Judah; and if ⟨it was⟩ too little, I would have added to you like these and like these.",
+  "ref": "2-samuel 12:8",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "like this and like this",
+      "rationale": "כָּהֵנָּה וְכָהֵנָּה — 'thus and thus', an open-ended measure; the Hebrew keeps the repetition, English could only flatten it"
+    },
+    {
+      "kind": "addition",
+      "subject": "that were",
+      "rationale": "the protasis 'and if too little' carries no verb; English supplies the subjunctive"
+    },
+    {
+      "kind": "crux",
+      "subject": "the wives of your master into your bosom",
+      "rationale": "read as YHWH giving Saul's royal household (and wives) to David; some read the bosom phrase as imagery of full possession rather than literal marriage"
+    }
+  ],
+  "translation": "and I gave to you ⟨את⟩ the house of your master and ⟨את⟩ the wives of your master into your bosom; and I gave to you ⟨את⟩ the house of Israel and Judah — and if ⟨that were⟩ too little, I would add to you like this and like this.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1630a8e0509709fc6ea58683bc41b1adb4b3b9583c53ba400075c84de78cac3a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/12\/5-8.1791186309854.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתנה",
-      "gloss": "And I gave"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "בית",
-      "gloss": "the house"
-    },
-    {
-      "surface": "אדניך",
-      "gloss": "of your lord"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "נשי",
-      "gloss": "the wives"
-    },
-    {
-      "surface": "אדניך",
-      "gloss": "of your lord"
-    },
-    {
-      "surface": "בחיקך",
-      "gloss": "into your bosom"
-    },
-    {
-      "surface": "ואתנה",
+      "surface": "וָאֶתְּנָה",
       "gloss": "and I gave"
     },
     {
-      "surface": "לך",
+      "surface": "לְךָ",
       "gloss": "to you"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the house of your master"
     },
     {
-      "surface": "בית",
-      "gloss": "the house"
+      "surface": "בֵּית",
+      "gloss": "the house of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "אֲדֹנֶיךָ",
+      "gloss": "your master",
+      "sense": "S1"
     },
     {
-      "surface": "ויהודה",
-      "gloss": "and of Judah"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the wives of your master"
     },
     {
-      "surface": "ואם",
+      "surface": "נְשֵׁי",
+      "gloss": "the wives of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנֶיךָ",
+      "gloss": "your master",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחֵיקֶךָ",
+      "gloss": "into your bosom",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאֶתְּנָה",
+      "gloss": "and I gave"
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "to you"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the house of Israel and Judah"
+    },
+    {
+      "surface": "בֵּית",
+      "gloss": "the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִיהוּדָה",
+      "gloss": "and Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "מעט",
-      "gloss": "too little"
+      "surface": "מְעָט",
+      "gloss": "too little",
+      "sense": "S1"
     },
     {
-      "surface": "ואספה",
-      "gloss": "I would have added",
-      "readings": [
-        "I would have added",
-        "I would add"
-      ],
-      "held_by": {
-        "I would have added": [
-          "v1",
-          "en4"
-        ],
-        "I would add": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "וְאֹסִיפָה",
+      "gloss": "I would add"
     },
     {
-      "surface": "לך",
+      "surface": "לְךָ",
       "gloss": "to you"
     },
     {
-      "surface": "כהנה",
-      "gloss": "like these"
+      "surface": "כָּהֵנָּה",
+      "gloss": "like this"
     },
     {
-      "surface": "וכהנה",
-      "gloss": "and like these"
+      "surface": "וְכָהֵנָּה",
+      "gloss": "and like this"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:45:09.855956772Z",
+  "model": "glm-5.3"
 }

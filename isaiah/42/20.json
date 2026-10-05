@@ -1,40 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "You have seen many things, but you do not keep ⟨them⟩; the opening of ears, but he does not hear.",
+  "ref": "isaiah 42:20",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ראית \/ ראות",
+      "rationale": "Ketiv 'you saw' (perfect) vs qere 'seeing' (infinitive); ketiv kept as ground, qere carried as reading 2."
+    },
+    {
+      "kind": "you",
+      "subject": "to the servant",
+      "rationale": "Second-person address to the servant of v. 19, shifting to third person at the verse's end."
+    },
+    {
+      "kind": "alternative",
+      "subject": "did not keep them",
+      "rationale": "שמר is 'observe, pay heed', not merely retain; 'but did not heed' is reading 2."
+    }
+  ],
+  "translation": "You saw many things, but did not keep them; ears opening, and he does not hear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e95633e071bbb309fbb412de2ae07c94a77689e34a1277973816eff384e3fff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/42\/17-20.1791188648080.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "ראית",
-      "gloss": "you have seen"
+      "gloss": "You saw",
+      "readings": [
+        "You saw",
+        "Seeing"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "רבות",
-      "gloss": "many things"
+      "surface": "רַבּ֖וֹת",
+      "gloss": "many things",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "but not"
+      "surface": "וְלֹ֣א",
+      "gloss": "but not",
+      "sense": "S1"
     },
     {
-      "surface": "תשמר",
-      "gloss": "you keep"
+      "surface": "תִּשְׁמֹ֑ר",
+      "gloss": "you keep ⟨them⟩",
+      "sense": "S1"
     },
     {
-      "surface": "פקוח",
-      "gloss": "the opening of"
+      "surface": "פָּק֥וֹחַ",
+      "gloss": "opening",
+      "sense": "S1"
     },
     {
-      "surface": "אזנים",
-      "gloss": "ears"
+      "surface": "אָזְנַ֖יִם",
+      "gloss": "ears",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "but not"
+      "surface": "וְלֹ֥א",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ישמע",
-      "gloss": "he hears"
+      "surface": "יִשְׁמָֽע",
+      "gloss": "he does not hear"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:08.081850232Z",
+  "model": "glm-5.3"
 }

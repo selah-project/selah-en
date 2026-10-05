@@ -1,73 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 44,
-  "translation": "And the man of Israel answered against ⟨את⟩ the man of Judah and said, “Ten shares to me in the king, and also in David I am more than you; and why have you made me light, and my word was not first for me, to bring back ⟨את⟩ my king?” And the word of the man of Judah was harder than the word of the man of Israel.",
+  "ref": "2-samuel 19:44",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "ten parts",
+      "rationale": "Israel counts its share of the king as ten hands against Judah's implied one."
+    },
+    {
+      "kind": "substitution",
+      "subject": "parts",
+      "rationale": "ידות is literally 'hands'; the idiom of equal portions kept as 'parts'."
+    },
+    {
+      "kind": "crux",
+      "subject": "made light of me",
+      "rationale": "הקלתני hiphil of קלל, literally 'made me light'; despised vs slighted."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דבר...דבר",
+      "rationale": "'word' three times closes the quarrel: my word first, their word harder."
+    }
+  ],
+  "translation": "And the men of Israel answered ⟨את⟩ the men of Judah and said, “Ten parts are mine in the king, and also in David I am more than you; and why have you made light of me, and was my word not the first for me, to bring back ⟨את⟩ my king?” And the word of the men of Judah grew harder than the word of the men of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c94be00df3017b77e84d83e43d6c5557575ff163254a022c60962c9d90c00a1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/19\/41-44.1791198698935.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויען",
-      "gloss": "and answered"
+      "gloss": "And answered",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "the man of"
+      "gloss": "the men of"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the men of Judah"
     },
     {
       "surface": "איש",
-      "gloss": "the man of"
+      "gloss": "the men of"
     },
     {
       "surface": "יהודה",
-      "gloss": "Judah"
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "עשר",
-      "gloss": "Ten"
+      "gloss": "Ten",
+      "sense": "S1"
     },
     {
       "surface": "ידות",
-      "gloss": "shares",
-      "readings": [
-        "shares",
-        "hands"
-      ],
-      "held_by": {
-        "shares": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "hands": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "parts",
+      "sense": "S1"
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "are mine"
     },
     {
       "surface": "במלך",
-      "gloss": "in the king"
+      "gloss": "in the king",
+      "sense": "S1"
     },
     {
       "surface": "וגם",
-      "gloss": "and also"
+      "gloss": "and also",
+      "sense": "S1"
     },
     {
       "surface": "בדוד",
-      "gloss": "in David"
+      "gloss": "in David",
+      "sense": "S1"
     },
     {
       "surface": "אני",
@@ -75,34 +107,22 @@
     },
     {
       "surface": "ממך",
-      "gloss": "more than you",
-      "readings": [
-        "more than you",
-        "from you"
-      ],
-      "held_by": {
-        "more than you": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from you": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "more than you"
     },
     {
       "surface": "ומדוע",
-      "gloss": "and why"
+      "gloss": "and why",
+      "sense": "S1"
     },
     {
       "surface": "הקלתני",
-      "gloss": "have you made me light"
+      "gloss": "have you made light of me",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "היה",
@@ -110,11 +130,13 @@
     },
     {
       "surface": "דברי",
-      "gloss": "my word"
+      "gloss": "my word",
+      "sense": "S1"
     },
     {
       "surface": "ראשון",
-      "gloss": "first"
+      "gloss": "the first",
+      "sense": "S1"
     },
     {
       "surface": "לי",
@@ -122,45 +144,53 @@
     },
     {
       "surface": "להשיב",
-      "gloss": "to bring back"
+      "gloss": "to bring back",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my king"
     },
     {
       "surface": "מלכי",
-      "gloss": "my king"
+      "gloss": "my king",
+      "sense": "S1"
     },
     {
       "surface": "ויקש",
-      "gloss": "and was harder"
+      "gloss": "And grew harder",
+      "sense": "S1"
     },
     {
       "surface": "דבר",
-      "gloss": "the word of"
+      "gloss": "the word of",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "the man of"
+      "gloss": "the men of"
     },
     {
       "surface": "יהודה",
-      "gloss": "Judah"
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "מדבר",
-      "gloss": "than the word of"
+      "gloss": "than the word of",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "the man of"
+      "gloss": "the men of"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:11:38.936802491Z",
+  "model": "glm-5.3"
 }

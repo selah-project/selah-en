@@ -1,148 +1,117 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "The showing of their faces has answered against them, and their sin, like Sodom, they declared; they did not hide ⟨it⟩. Woe to their soul, for they have repaid to themselves evil!",
+  "ref": "isaiah 3:9",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "הַכָּרַת",
+      "rationale": "favoritism — literally the knowing of someone's face — occurs only here in the Tanakh."
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש here is the life\/self, nearer throat and living-being than 'soul'."
+    },
+    {
+      "kind": "crux",
+      "subject": "they have repaid evil to themselves",
+      "rationale": "גמלו להם רעה reads either 'they repaid evil to themselves' or 'it is repaid to them as evil' — the reflexive keeps the form's plain sense."
+    }
+  ],
+  "translation": "The favoring of their faces testified against them, and their sin, like Sodom, they declared — they did not hide it. Woe to their nefesh, for they have repaid evil to themselves!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40bb91314926dd13d9d51beb616ea774407cb0e77b43dcdbdc399bb837eaf6fc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/3\/9-12.1791188045948.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "הכרת",
-      "gloss": "the showing",
+      "surface": "הַכָּרַת",
+      "gloss": "The favoring of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּנֵיהֶם",
+      "gloss": "their faces",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָנְתָה",
+      "gloss": "testified",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּם",
+      "gloss": "against them"
+    },
+    {
+      "surface": "וְחַטָּאתָם",
+      "gloss": "and their sin",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּסְדֹם",
+      "gloss": "like Sodom",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִגִּידוּ",
+      "gloss": "they declared",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִחֵדוּ",
+      "gloss": "they hid ⟨it⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹי",
+      "gloss": "Woe",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְנַפְשָׁם",
+      "gloss": "to their nefesh",
+      "sense": "S1",
       "readings": [
-        "the showing",
-        "the partiality",
-        "the recognition"
-      ],
-      "held_by": {
-        "the showing": [
-          "en4"
-        ],
-        "the partiality": [
-          "v2",
-          "v3"
-        ],
-        "the recognition": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "to their nefesh",
+        "to their life",
+        "to their throat"
+      ]
     },
     {
-      "surface": "פניהם",
-      "gloss": "of their faces"
-    },
-    {
-      "surface": "ענתה",
-      "gloss": "has answered",
-      "readings": [
-        "has answered",
-        "witnesses",
-        "has testified"
-      ],
-      "held_by": {
-        "has answered": [
-          "en4"
-        ],
-        "witnesses": [
-          "v2",
-          "v3"
-        ],
-        "has testified": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בם",
-      "gloss": "against them",
-      "readings": [
-        "against them",
-        "in them"
-      ],
-      "held_by": {
-        "against them": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in them": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וחטאתם",
-      "gloss": "and their sin"
-    },
-    {
-      "surface": "כסדם",
-      "gloss": "like Sodom"
-    },
-    {
-      "surface": "הגידו",
-      "gloss": "they declared"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "כחדו",
-      "gloss": "they hid"
-    },
-    {
-      "surface": "אוי",
-      "gloss": "Woe"
-    },
-    {
-      "surface": "לנפשם",
-      "gloss": "to their soul",
-      "readings": [
-        "to their soul",
-        "to their life"
-      ],
-      "held_by": {
-        "to their soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to their life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "גמלו",
+      "surface": "גָמְלוּ",
       "gloss": "they have repaid",
-      "readings": [
-        "they have repaid",
-        "they have dealt"
-      ],
-      "held_by": {
-        "they have repaid": [
-          "v2",
-          "v3"
-        ],
-        "they have dealt": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "להם",
+      "surface": "לָהֶם",
       "gloss": "to themselves"
     },
     {
-      "surface": "רעה",
-      "gloss": "evil"
+      "surface": "רָעָה",
+      "gloss": "evil",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:05.949045205Z",
+  "model": "glm-5.3"
 }

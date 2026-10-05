@@ -1,47 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And his anger has burned against me, and he has reckoned me to himself as ⟨one of⟩ his adversaries.",
-  "tokens": [
+  "ref": "job 19:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ויחר",
-      "gloss": "and has burned"
+      "kind": "substitution",
+      "subject": "his anger has blazed",
+      "rationale": "ויחר אפו is literally 'his nose grew hot'; the idiom of anger as burning nostrils."
     },
     {
-      "surface": "עלי",
+      "kind": "crux",
+      "subject": "to him as his adversaries",
+      "rationale": "לו reads 'to himself' (as one of his own adversaries) or 'against him' with Job as God's enemy."
+    }
+  ],
+  "translation": "And his anger has blazed against me, and he has counted me to him as his adversaries.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35c2819a29882166c3c2659e7ab4e841a64335fae4d9f81516f4ecd1b6b3ad77",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/9-12.1791194339630.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּחַר",
+      "gloss": "And his anger has blazed",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַי",
       "gloss": "against me"
     },
     {
-      "surface": "אפו",
-      "gloss": "his anger",
+      "surface": "אַפּוֹ",
+      "gloss": "his nose",
+      "sense": "S1",
       "readings": [
-        "his anger",
-        "his nose"
-      ],
-      "held_by": {
-        "his anger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his nose": [
-          "en4"
-        ]
-      }
+        "his nose",
+        "his anger"
+      ]
     },
     {
-      "surface": "ויחשבני",
-      "gloss": "and he has reckoned me"
+      "surface": "וַיַּחְשְׁבֵנִי",
+      "gloss": "and he has counted me",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
-      "gloss": "to himself"
+      "surface": "לוֹ",
+      "gloss": "to him",
+      "sense": null
     },
     {
-      "surface": "כצריו",
-      "gloss": "as ⟨one of⟩ his adversaries"
+      "surface": "כְצָרָיו",
+      "gloss": "as his adversaries",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:59.631057760Z",
+  "model": "glm-5.3"
 }

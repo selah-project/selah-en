@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Come, let us worship and bow down, let us kneel before YHWH our Maker.",
-  "tokens": [
+  "ref": "psalms 95:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 95,
+  "notes": [
     {
-      "surface": "באו",
-      "gloss": "Come"
+      "kind": "invitation",
+      "subject": "Come, let us bow down",
+      "rationale": "cohortatives summon the congregation to worship"
     },
     {
-      "surface": "נשתחוה",
-      "gloss": "let us worship"
+      "kind": "you",
+      "subject": "Come",
+      "rationale": "direct address to the worshiping congregation"
     },
     {
-      "surface": "ונכרעה",
-      "gloss": "and bow down"
-    },
-    {
-      "surface": "נברכה",
-      "gloss": "let us kneel"
-    },
-    {
-      "surface": "לפני",
-      "gloss": "before"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "עשנו",
-      "gloss": "our Maker"
+      "kind": "alternative",
+      "subject": "let us kneel",
+      "rationale": "נברכה is literally 'let us kneel'; 'let us bless' is the root's other sense, common in liturgy"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Come, let us bow down and bend the knee, let us kneel before YHWH our maker.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9c2b986863be45ddf2766a5afd312f3202f3ea67cb6456b6f99d49668e56dee2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/95\/5-8.1791193225366.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֹּאוּ",
+      "gloss": "Come",
+      "sense": null
+    },
+    {
+      "surface": "נִשְׁתַּחֲוֶה",
+      "gloss": "let us bow down",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִכְרָעָה",
+      "gloss": "and bend the knee",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִבְרְכָה",
+      "gloss": "let us kneel",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִפְנֵי",
+      "gloss": "before",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹשֵׂנוּ",
+      "gloss": "our maker",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:25.367105735Z",
+  "model": "glm-5.3"
 }

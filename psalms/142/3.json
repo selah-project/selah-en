@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "I pour out before Him my complaint; my trouble before Him I declare.",
-  "tokens": [
+  "ref": "psalms 142:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 142,
+  "notes": [
     {
-      "surface": "אשפך",
-      "gloss": "I pour out"
+      "kind": "wordplay",
+      "subject": "לפניו ... לפניו",
+      "rationale": "Chiastic 'before Him … before Him' brackets the two nouns; kept in place."
     },
     {
-      "surface": "לפניו",
-      "gloss": "before Him"
-    },
-    {
-      "surface": "שיחי",
-      "gloss": "my complaint",
-      "readings": [
-        "my complaint",
-        "my meditation"
-      ],
-      "held_by": {
-        "my complaint": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my meditation": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "צרתי",
-      "gloss": "my trouble"
-    },
-    {
-      "surface": "לפניו",
-      "gloss": "before Him"
-    },
-    {
-      "surface": "אגיד",
-      "gloss": "I declare"
+      "kind": "alternative",
+      "subject": "my complaint",
+      "rationale": "שיח elsewhere can mean 'musing'; here context is poured-out complaint."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I pour out before Him my complaint; my trouble before Him I tell.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "94d366b05e74be73108cc2318a349e774a746b2ea11101fb997c3ce97825dda3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/142\/1-4.1791193619180.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶשְׁפֹּ֣ךְ",
+      "gloss": "I pour out",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפָנָ֣יו",
+      "gloss": "before Him",
+      "sense": null
+    },
+    {
+      "surface": "שִׂיחִ֑י",
+      "gloss": "my complaint",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָ֝רָתִ֗י",
+      "gloss": "my trouble",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפָנָ֥יו",
+      "gloss": "before Him",
+      "sense": null
+    },
+    {
+      "surface": "אַגִּֽיד",
+      "gloss": "I tell",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:59.181077433Z",
+  "model": "glm-5.3"
 }

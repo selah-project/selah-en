@@ -1,36 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "The sword that reaches him does not rise; the spear, the missile, and the mail-coat.",
-  "tokens": [
+  "ref": "job 41:18",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "משיגהו",
-      "gloss": "that reaches him"
+      "kind": "crux",
+      "subject": "מסע",
+      "rationale": "Rare word: thrown missile (cf. 1 Kgs 6:7) vs 'quarry'; rendered javelin."
     },
     {
-      "surface": "חרב",
-      "gloss": "The sword"
+      "kind": "crux",
+      "subject": "שריה",
+      "rationale": "Meaning unsure: dart\/throwing-spear vs mail-corslet; weapon-list context favors dart."
     },
     {
-      "surface": "בלי",
-      "gloss": "does not"
-    },
-    {
-      "surface": "תקום",
-      "gloss": "rise"
-    },
-    {
-      "surface": "חנית",
-      "gloss": "the spear"
-    },
-    {
-      "surface": "מסע",
-      "gloss": "the missile"
-    },
-    {
-      "surface": "ושריה",
-      "gloss": "and the mail-coat"
+      "kind": "measurement",
+      "subject": "weapon list",
+      "rationale": "Verse catalogs weapons by name, sizing Leviathan against human arms."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The sword that reaches it does not stand — ⟨the⟩ spear, ⟨the⟩ javelin, and ⟨the⟩ dart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ddaf6ff3239528bfad834e1652c26d814de1354741cdd2e12cdda7171160529",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/17-20.1791194658578.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַשִּׂיגֵ֣הוּ",
+      "gloss": "that reaches it",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶ֭רֶב",
+      "gloss": "sword"
+    },
+    {
+      "surface": "בְּלִ֣י",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָק֑וּם",
+      "gloss": "does stand",
+      "sense": null
+    },
+    {
+      "surface": "חֲנִ֖ית",
+      "gloss": "spear",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַסָּ֣ע",
+      "gloss": "javelin",
+      "readings": [
+        "javelin",
+        "thrown spear"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׁרְיָֽה",
+      "gloss": "and dart",
+      "readings": [
+        "and dart",
+        "and corslet"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:18.578803319Z",
+  "model": "glm-5.3"
 }

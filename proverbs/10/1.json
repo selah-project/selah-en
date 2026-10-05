@@ -1,77 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Proverbs of Solomon. A wise son gladdens a father, and a foolish son is the grief of his mother.",
-  "tokens": [
+  "ref": "proverbs 10:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "משלי",
-      "gloss": "Proverbs"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in the second colon"
     },
     {
-      "surface": "שלמה",
-      "gloss": "of Solomon"
-    },
-    {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "חכם",
-      "gloss": "wise"
-    },
-    {
-      "surface": "ישמח",
-      "gloss": "gladdens",
-      "readings": [
-        "gladdens",
-        "makes rejoice"
-      ],
-      "held_by": {
-        "gladdens": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "makes rejoice": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אב",
-      "gloss": "a father"
-    },
-    {
-      "surface": "ובן",
-      "gloss": "and a son"
-    },
-    {
-      "surface": "כסיל",
-      "gloss": "foolish"
-    },
-    {
-      "surface": "תוגת",
-      "gloss": "the grief of",
-      "readings": [
-        "the grief of",
-        "the heaviness of"
-      ],
-      "held_by": {
-        "the grief of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the heaviness of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אמו",
-      "gloss": "of his mother"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "wise son \/ foolish son, father \/ mother — antithetic parallelism frames the whole chapter"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Proverbs of Solomon: a wise son makes a father glad, and a foolish son is the grief of his mother.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f19ba610587f9386be6eb8afdadc6c7ee86798ecb4a76cd5fa0c271b7f726e8c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/1-4.1791193789857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִשְׁלֵי",
+      "gloss": "Proverbs of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלֹמֹה",
+      "gloss": "Solomon",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּן",
+      "gloss": "a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכָם",
+      "gloss": "wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשַׂמַּח",
+      "gloss": "makes glad",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָב",
+      "gloss": "a father",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵן",
+      "gloss": "and a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִיל",
+      "gloss": "foolish",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּוּגַת",
+      "gloss": "the grief of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמּוֹ",
+      "gloss": "his mother",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:49.857699177Z",
+  "model": "glm-5.3"
 }

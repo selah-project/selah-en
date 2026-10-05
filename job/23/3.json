@@ -1,68 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Who would give that I knew ⟨how⟩ to find ⟨him⟩? I would come as far as his seat.",
-  "tokens": [
+  "ref": "job 23:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "who"
+      "kind": "idiom",
+      "subject": "מי יתן",
+      "rationale": "Hebrew wish-formula 'who will give (that)' = 'oh that \/ who would grant'; kept literal."
     },
     {
-      "surface": "יתן",
-      "gloss": "would give"
+      "kind": "hapax",
+      "subject": "תכונה",
+      "rationale": "תכונתו occurs only here in the Tanakh."
     },
     {
-      "surface": "ידעתי",
-      "gloss": "I knew"
+      "kind": "addition",
+      "subject": "where I might find him",
+      "rationale": "Hebrew 'I know and find him' supplies no content for knowing; English needs the object clause."
     },
     {
-      "surface": "ואמצאהו",
-      "gloss": "and I would find him"
-    },
-    {
-      "surface": "אבוא",
-      "gloss": "I would come"
-    },
-    {
-      "surface": "עד",
-      "gloss": "as far as",
-      "readings": [
-        "as far as",
-        "even to"
-      ],
-      "held_by": {
-        "as far as": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "even to": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "תכונתו",
-      "gloss": "his seat",
-      "readings": [
-        "his seat",
-        "his fixed place",
-        "his station"
-      ],
-      "held_by": {
-        "his seat": [
-          "v2",
-          "v3"
-        ],
-        "his fixed place": [
-          "v1"
-        ],
-        "his station": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "mystery",
+      "subject": "finding Elohim",
+      "rationale": "Job wishes to find El but confesses he does not know where He is."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who would grant that I might know ⟨where I might find him⟩, that I might come even to his dwelling-place?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7bc74ffd18bb87a2e1ecf4fdaa953325f252884c3a275b2bbe9e3d867e4e8651",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/23\/1-4.1791194399581.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּ֣ן",
+      "gloss": "would grant",
+      "sense": null
+    },
+    {
+      "surface": "יָדַעְתִּּ֭י",
+      "gloss": "I might know",
+      "sense": null
+    },
+    {
+      "surface": "וְאֶמְצָאֵ֑הוּ",
+      "gloss": "and find him",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָב֗וֹא",
+      "gloss": "I would come",
+      "sense": null
+    },
+    {
+      "surface": "עַד",
+      "gloss": "even to",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּכוּנָתֽוֹ",
+      "gloss": "his dwelling-place",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:59.581865875Z",
+  "model": "glm-5.3"
 }

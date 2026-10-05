@@ -1,102 +1,143 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And Eli was very old, and he heard ⟨את⟩ all that his sons were doing to all Israel, and ⟨את⟩ that they were lying with ⟨את⟩ the women who served at the entrance of the tent of meeting.",
-  "tokens": [
+  "ref": "1-samuel 2:22",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ועלי",
-      "gloss": "And Eli"
+      "kind": "substitution",
+      "subject": "lay",
+      "rationale": "ישכבון is the plain verb 'lie down' with sexual force from context, not a euphemism supplied by the translator."
     },
     {
-      "surface": "זקן",
-      "gloss": "was old"
+      "kind": "crux",
+      "subject": "who served",
+      "rationale": "הצבאות from צבא, 'the ones serving (in bands)'; some read 'women who assembled (in troops)' at the sanctuary entrance."
     },
     {
-      "surface": "מאד",
-      "gloss": "very"
-    },
-    {
-      "surface": "ושמע",
-      "gloss": "and he heard"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "יעשון",
-      "gloss": "they were doing"
-    },
-    {
-      "surface": "בניו",
-      "gloss": "his sons"
-    },
-    {
-      "surface": "לכל",
-      "gloss": "to all"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "ישכבון",
-      "gloss": "they were lying"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הנשים",
-      "gloss": "the women"
-    },
-    {
-      "surface": "הצבאות",
-      "gloss": "who served",
-      "readings": [
-        "who served",
-        "who assembled"
-      ],
-      "held_by": {
-        "who served": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "who assembled": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פתח",
-      "gloss": "at the entrance"
-    },
-    {
-      "surface": "אהל",
-      "gloss": "of the tent"
-    },
-    {
-      "surface": "מועד",
-      "gloss": "of meeting"
+      "kind": "wordplay",
+      "subject": "צבאות",
+      "rationale": "the women's serving (הצבאות) shares its root with YHWH-of-hosts (צבאות), a somber echo at the sanctuary's door."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Eli was very old, and he heard ⟨את⟩ all that his sons did to all Israel, and ⟨את⟩ that they lay with ⟨את⟩ the women who served at the entrance of the tent of meeting.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4a2d7624075dd373a87a9565230fd2594527058e45af5570a8a069c89effe574",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/21-24.1791185392196.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעֵלִי",
+      "gloss": "And Eli",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָקֵן",
+      "gloss": "was old",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹד",
+      "gloss": "very",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁמַע",
+      "gloss": "and he heard",
+      "sense": null
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "all that his sons did"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲשׂוּן",
+      "gloss": "they do",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנָיו",
+      "gloss": "his sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "to all",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "sense": null,
+      "marks": "that they lay with the women"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׁכְּבוּן",
+      "gloss": "they lie",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "sense": null,
+      "marks": "the women who served"
+    },
+    {
+      "surface": "הַנָּשִׁים",
+      "gloss": "the women",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַצֹּבְאוֹת",
+      "gloss": "who served",
+      "sense": "S1"
+    },
+    {
+      "surface": "פֶּתַח",
+      "gloss": "at the entrance of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֶל",
+      "gloss": "the tent of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹעֵד",
+      "gloss": "meeting",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:29:52.198217749Z",
+  "model": "glm-5.3"
 }

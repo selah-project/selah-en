@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "I will come into Your house with burnt offerings; I will pay to You my vows.",
-  "tokens": [
+  "ref": "psalms 66:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "אבוא",
-      "gloss": "I will come",
-      "readings": [
-        "I will come",
-        "I will enter"
-      ],
-      "held_by": {
-        "I will come": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will enter": [
-          "v1"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "pay",
+      "rationale": "שׁלם is literally 'make whole\/complete' — completing the vow's terms"
     },
     {
-      "surface": "ביתך",
-      "gloss": "Your house"
-    },
-    {
-      "surface": "בעולות",
-      "gloss": "with burnt offerings"
-    },
-    {
-      "surface": "אשלם",
-      "gloss": "I will pay"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to You"
-    },
-    {
-      "surface": "נדרי",
-      "gloss": "my vows"
+      "kind": "alternative",
+      "subject": "with burnt-offerings",
+      "rationale": "בעולות could read 'with burnt-offerings' or as price 'for burnt-offerings'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will come into your house with burnt-offerings; I will pay to you my vows,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa981b9e991da459ea60f4c13a15f9dfd81185e9c13684e440a28c3d7c816c37",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/13-16.1791192886983.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָב֣וֹא",
+      "gloss": "I will come",
+      "sense": null
+    },
+    {
+      "surface": "בֵיתְךָ֣",
+      "gloss": "into your house",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְעוֹל֑וֹת",
+      "gloss": "with burnt-offerings",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשַׁלֵּ֖ם",
+      "gloss": "I will pay",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ֣",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "נְדָרָֽי",
+      "gloss": "my vows",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:46.983683663Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "They lift up timbrel and harp, and rejoice at the sound of the flute.",
+  "ref": "job 21:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "song",
+      "rationale": "ישאו 'lift up' lacks a stated object; the SDBH sense supplies 'lift up words\/song'"
+    },
+    {
+      "kind": "hapax",
+      "subject": "עוגב",
+      "rationale": "the reed-pipe occurs only four times in the Tanakh (Gen 4:21, Ps 150:4, Job 30:31, here)"
+    }
+  ],
+  "translation": "They lift up ⟨song⟩ with the tambourine and the harp, and rejoice at the sound of the pipe.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8b9bba63c5abcc98e0b373e2e8741dd80efc87444a98aaca2f09875d3c1976ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/9-12.1791194364704.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ישאו",
-      "gloss": "They lift up"
+      "surface": "יִשְׂאוּ",
+      "gloss": "they lift up",
+      "sense": "S1",
+      "readings": [
+        "they lift up",
+        "they raise"
+      ]
     },
     {
-      "surface": "כתף",
-      "gloss": "timbrel"
+      "surface": "כְּתֹף",
+      "gloss": "with the tambourine",
+      "sense": "S1"
     },
     {
-      "surface": "וכנור",
-      "gloss": "and harp"
+      "surface": "וְכִנּוֹר",
+      "gloss": "and the harp",
+      "sense": "S1"
     },
     {
-      "surface": "וישמחו",
-      "gloss": "and rejoice"
+      "surface": "וְיִשְׂמְחוּ",
+      "gloss": "and rejoice",
+      "sense": "S1"
     },
     {
-      "surface": "לקול",
+      "surface": "לְקוֹל",
       "gloss": "at the sound of"
     },
     {
-      "surface": "עוגב",
-      "gloss": "the flute"
+      "surface": "עוּגָב",
+      "gloss": "the pipe",
+      "sense": "S1",
+      "readings": [
+        "the pipe",
+        "the flute"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:24.705621033Z",
+  "model": "glm-5.3"
 }

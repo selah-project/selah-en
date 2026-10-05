@@ -1,72 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "From before Adonai — writhe, O earth — from before the Eloah of Jacob.",
-  "tokens": [
+  "ref": "psalms 114:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 114,
+  "notes": [
     {
-      "surface": "מלפני",
-      "gloss": "from before"
+      "kind": "substitution",
+      "subject": "writhe",
+      "rationale": "חולי literally 'twist\/whirl', as a woman in labor — rendered by its physical picture, not 'tremble'"
     },
     {
-      "surface": "אדון",
-      "gloss": "Adonai"
+      "kind": "crux",
+      "subject": "Adonai vs YHWH",
+      "rationale": "many versions read the Name here by emendation (מלפני יהוח); the text as written has אדון"
     },
     {
-      "surface": "חולי",
-      "gloss": "writhe",
-      "readings": [
-        "writhe",
-        "whirl",
-        "tremble"
-      ],
-      "held_by": {
-        "writhe": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "whirl": [
-          "v1",
-          "en4"
-        ],
-        "tremble": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "earth",
-      "readings": [
-        "earth",
-        "land"
-      ],
-      "held_by": {
-        "earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "land": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מלפני",
-      "gloss": "from before"
-    },
-    {
-      "surface": "אלוה",
-      "gloss": "Eloah"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "of Jacob"
+      "kind": "you",
+      "subject": "to the earth",
+      "rationale": "imperative addressed to the earth as a hearer"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Before Adonai, writhe, O earth — before Eloah of Jacob —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "93a23141c5aa7a47ae86563c7f7f9d524d1f8dcd3ec548a0539f52f0d2349604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/114\/5-8.1791193397216.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִלִּפְנֵי",
+      "gloss": "Before"
+    },
+    {
+      "surface": "אָדוֹן",
+      "gloss": "Adonai",
+      "sense": "S1",
+      "readings": [
+        "Adonai",
+        "the Lord"
+      ]
+    },
+    {
+      "surface": "חוּלִי",
+      "gloss": "writhe",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "O earth",
+      "sense": "S1",
+      "readings": [
+        "O earth",
+        "O land"
+      ]
+    },
+    {
+      "surface": "מִלִּפְנֵי",
+      "gloss": "before"
+    },
+    {
+      "surface": "אֱלוֹהַּ",
+      "gloss": "Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "of Jacob",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:17.217671358Z",
+  "model": "glm-5.3"
 }

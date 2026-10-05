@@ -1,84 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And they set against me evil for good, and hatred for my love.",
+  "ref": "psalms 109:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "רעה\/טובה · שנאה\/אהבתי",
+      "rationale": "Two antithetical pairs in parallel — evil-for-good, hatred-for-my-love — echo v.4's אהבתי\/ישטנוני."
+    }
+  ],
+  "translation": "And they set against me evil in place of good, and hatred in place of my love.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10a1bfa66eb52a108037fbe4bbb3da8652c1725a619757892f282cf44a3e9945",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/5-8.1791193360020.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "וישימו",
-      "gloss": "And they set"
+      "gloss": "and they set",
+      "sense": "S1"
     },
     {
       "surface": "עלי",
       "gloss": "against me",
-      "readings": [
-        "against me",
-        "upon me"
-      ],
-      "held_by": {
-        "against me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon me": [
-          "en4"
-        ]
-      }
+      "sense": null
     },
     {
       "surface": "רעה",
-      "gloss": "evil"
+      "gloss": "evil",
+      "sense": "S1"
     },
     {
       "surface": "תחת",
-      "gloss": "for",
-      "readings": [
-        "for",
-        "instead of"
-      ],
-      "held_by": {
-        "for": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "instead of": [
-          "en4"
-        ]
-      }
+      "gloss": "in place of",
+      "sense": null
     },
     {
       "surface": "טובה",
-      "gloss": "good"
+      "gloss": "good",
+      "sense": "S1"
     },
     {
       "surface": "ושנאה",
-      "gloss": "and hatred"
+      "gloss": "and hatred",
+      "sense": "S1"
     },
     {
       "surface": "תחת",
-      "gloss": "for",
-      "readings": [
-        "for",
-        "instead of"
-      ],
-      "held_by": {
-        "for": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "instead of": [
-          "en4"
-        ]
-      }
+      "gloss": "in place of",
+      "sense": null
     },
     {
       "surface": "אהבתי",
-      "gloss": "my love"
+      "gloss": "of my love",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:40.021214054Z",
+  "model": "glm-5.3"
 }

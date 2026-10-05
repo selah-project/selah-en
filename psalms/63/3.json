@@ -1,61 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "So in ⟨the⟩ sanctuary I have beheld you, to see your strength and your glory.",
-  "tokens": [
+  "ref": "psalms 63:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 63,
+  "notes": [
     {
-      "surface": "כן",
-      "gloss": "So"
-    },
-    {
-      "surface": "בקדש",
-      "gloss": "in ⟨the⟩ sanctuary",
-      "readings": [
-        "in ⟨the⟩ sanctuary",
-        "in ⟨the⟩ holiness"
-      ],
-      "held_by": {
-        "in ⟨the⟩ sanctuary": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in ⟨the⟩ holiness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חזיתיך",
-      "gloss": "I have beheld you"
-    },
-    {
-      "surface": "לראות",
-      "gloss": "to see"
-    },
-    {
-      "surface": "עזך",
-      "gloss": "your strength",
-      "readings": [
-        "your strength",
-        "your might"
-      ],
-      "held_by": {
-        "your strength": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "your might": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "וכבודך",
-      "gloss": "and your glory"
+      "kind": "crux",
+      "subject": "in the holy place",
+      "rationale": "בקדש taken as 'in the sanctuary'; some read 'in holiness' (as in Ps 29:2), an attribute rather than a place"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "So in the holy place I have beheld you, to see your might and your glory.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3d32ecc7d97023b49717e634ae0f9f19fa1211c9ac4ce6bcadb4a0ce97860627",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/63\/1-4.1791192868819.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֵּן",
+      "gloss": "So",
+      "sense": null
+    },
+    {
+      "surface": "בַּקֹּדֶשׁ",
+      "gloss": "in the holy place",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲזִיתִיךָ",
+      "gloss": "I have beheld you",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִרְאוֹת",
+      "gloss": "to see",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֻזְּךָ",
+      "gloss": "your might",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְבוֹדֶךָ",
+      "gloss": "and your glory",
+      "readings": [
+        "and your glory",
+        "and your weight"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:28.820303016Z",
+  "model": "glm-5.3"
 }

@@ -1,40 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Good ⟨it is⟩ to hear the rebuke of a wise man, more than a man's hearing the song of fools.",
-  "tokens": [
+  "ref": "ecclesiastes 7:5",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "טוב",
-      "gloss": "Good"
+      "kind": "addition",
+      "subject": "⟨it is⟩",
+      "rationale": "Hebrew has no copula; the adjectival predicate stands alone"
     },
     {
-      "surface": "לשמע",
+      "kind": "substitution",
+      "subject": "more than",
+      "rationale": "מֵאִישׁ is literally 'from a man', comparative min rendered 'more than'"
+    }
+  ],
+  "translation": "Good ⟨it is⟩ to hear the rebuke of the wise, more than a man hearing the song of fools.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "60aff87f4c0ddb1c86ce7e2e4a0bac5c3c4a26382e510d0d7f6a7ff360f2dac7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/5-8.1791194876440.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טוֹב",
+      "gloss": "Good",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמֹעַ",
       "gloss": "to hear"
     },
     {
-      "surface": "גערת",
-      "gloss": "the rebuke of"
+      "surface": "גַּעֲרַת",
+      "gloss": "the rebuke of",
+      "sense": "S1"
     },
     {
-      "surface": "חכם",
-      "gloss": "of a wise man"
+      "surface": "חָכָם",
+      "gloss": "the wise",
+      "sense": "S1"
     },
     {
-      "surface": "מאיש",
-      "gloss": "more than a man's"
+      "surface": "מֵאִישׁ",
+      "gloss": "more than a man"
     },
     {
-      "surface": "שמע",
+      "surface": "שֹׁמֵעַ",
       "gloss": "hearing"
     },
     {
-      "surface": "שיר",
-      "gloss": "the song of"
+      "surface": "שִׁיר",
+      "gloss": "the song of",
+      "sense": "S1"
     },
     {
-      "surface": "כסילים",
-      "gloss": "of fools"
+      "surface": "כְּסִילִים",
+      "gloss": "fools",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:56.441331157Z",
+  "model": "glm-5.3"
 }

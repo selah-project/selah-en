@@ -1,63 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "In ⟨the⟩ abundance of power would he contend with me? No — surely he would set ⟨it⟩ in me.",
-  "tokens": [
+  "ref": "job 23:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "הברב",
-      "gloss": "in ⟨the⟩ abundance"
+      "kind": "crux",
+      "subject": "לֹא אַךְ הוּא יָשִׂים בִּי",
+      "rationale": "'No, he would only put it upon me' (affliction) vs many 'he would put strength in me' — the object of ישם is unexpressed; the supply ⟨it⟩ is a fill."
     },
     {
-      "surface": "כח",
-      "gloss": "of power"
-    },
-    {
-      "surface": "יריב",
-      "gloss": "would he contend"
-    },
-    {
-      "surface": "עמדי",
-      "gloss": "with me"
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "אך",
-      "gloss": "surely"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "ישם",
-      "gloss": "would set ⟨it⟩"
-    },
-    {
-      "surface": "בי",
-      "gloss": "in me",
-      "readings": [
-        "in me",
-        "on me",
-        "toward me"
-      ],
-      "held_by": {
-        "in me": [
-          "v1",
-          "v3"
-        ],
-        "on me": [
-          "v2",
-          "v3"
-        ],
-        "toward me": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "Hebrew leaves the object of 'set' unexpressed; English needs one."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With great power would he contend with me? No — only he would set ⟨it⟩ upon me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "292bf8806baa4612a747a480bcc8b04eada1733773d6241cdc37f5b8bfb6114e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/23\/5-8.1791194394422.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַבְּרָב",
+      "gloss": "with great",
+      "sense": "S2"
+    },
+    {
+      "surface": "כֹּחַ",
+      "gloss": "power",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרִיב",
+      "gloss": "would he contend",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּדִי",
+      "gloss": "with me",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַךְ",
+      "gloss": "only",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "יָשִׂים",
+      "gloss": "would set",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּי",
+      "gloss": "upon me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:54.423725591Z",
+  "model": "glm-5.3"
 }

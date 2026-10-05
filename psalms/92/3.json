@@ -1,42 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "To declare your chesed in the morning, and your faithfulness in the nights,",
-  "tokens": [
+  "ref": "psalms 92:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
     {
-      "surface": "להגיד",
-      "gloss": "to declare"
+      "kind": "wordplay",
+      "subject": "morning \/ nights",
+      "rationale": "singular בֹּקֶר set against plural לֵילוֹת — one dawn against many nights, flattened in English"
     },
     {
-      "surface": "בבקר",
-      "gloss": "in the morning"
-    },
-    {
-      "surface": "חסדך",
-      "gloss": "your chesed",
-      "readings": [
-        "your chesed",
-        "your steadfast love"
-      ],
-      "held_by": {
-        "your chesed": [
-          "v3",
-          "en4"
-        ],
-        "your steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ואמונתך",
-      "gloss": "and your faithfulness"
-    },
-    {
-      "surface": "בלילות",
-      "gloss": "in the nights"
+      "kind": "crux",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; reading 2 'steadfast love' or 'covenant loyalty' is the standard gloss"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "to tell in the morning Your chesed, and Your faithfulness in the nights,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d7d9ce018429c10230aeadaa291514af5cfb4064f31273570730fca1794bfcb7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/1-4.1791193192612.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְהַגִּ֣יד",
+      "gloss": "to tell",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּבֹּ֣קֶר",
+      "gloss": "in the morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְֽדֶּ֑ךָ",
+      "gloss": "Your chesed",
+      "readings": [
+        "Your chesed",
+        "Your steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶֽאֱמֽוּנָתְךָ֗",
+      "gloss": "and Your faithfulness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּלֵּילֽוֹת",
+      "gloss": "in the nights",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:52.613383593Z",
+  "model": "glm-5.3"
 }

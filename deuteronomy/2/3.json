@@ -1,58 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Enough for you ⟨is⟩ circling ⟨את⟩ this mountain; turn yourselves northward.",
-  "tokens": [
+  "ref": "deuteronomy 2:3",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "רב",
-      "gloss": "Enough",
-      "readings": [
-        "Enough",
-        "much"
-      ],
-      "held_by": {
-        "Enough": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "much": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "it has been",
+      "rationale": "Hebrew רַב לָכֶם is verbless — 'much for you'; English requires a copula-clause."
     },
     {
-      "surface": "לכם",
+      "kind": "idiom",
+      "subject": "for you (לכם)",
+      "rationale": "the second לָכֶם is an ethical dative, 'turn for your own sakes', rendered reflexively."
+    },
+    {
+      "kind": "invitation",
+      "subject": "to Israel",
+      "rationale": "YHWH's imperatives summon the people to move — direct address."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH addresses Israel through the second-person imperatives."
+    }
+  ],
+  "translation": "Long enough ⟨it has been⟩ for you circling this ⟨את⟩ mountain; turn yourselves northward.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bd07f3be33202061b7ec337c77be433e5ebcb94f9233abdf880111baa42f6172",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/2\/1-3.1791197999436.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רַב",
+      "gloss": "Long enough",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָכֶם",
       "gloss": "for you"
     },
     {
-      "surface": "סב",
+      "surface": "סֹב",
       "gloss": "circling"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "this mountain"
     },
     {
-      "surface": "ההר",
-      "gloss": "the mountain"
+      "surface": "הָהָר",
+      "gloss": "mountain",
+      "sense": "S1"
     },
     {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "פנו",
-      "gloss": "turn"
+      "surface": "פְּנוּ",
+      "gloss": "turn",
+      "sense": "S1"
     },
     {
-      "surface": "לכם",
+      "surface": "לָכֶם",
       "gloss": "yourselves"
     },
     {
-      "surface": "צפנה",
-      "gloss": "northward"
+      "surface": "צָפֹנָה",
+      "gloss": "northward",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:59:59.436989117Z",
+  "model": "glm-5.3"
 }

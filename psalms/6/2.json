@@ -1,65 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "YHWH, do not rebuke me in your anger, and do not discipline me in your wrath.",
-  "tokens": [
+  "ref": "psalms 6:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אף is literally 'nose\/nostril', the flaring nostril of rage."
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
-    },
-    {
-      "surface": "באפך",
-      "gloss": "in your anger",
-      "readings": [
-        "in your anger",
-        "in your nostrils"
-      ],
-      "held_by": {
-        "in your anger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in your nostrils": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תוכיחני",
-      "gloss": "rebuke me",
-      "readings": [
-        "rebuke me",
-        "discipline me"
-      ],
-      "held_by": {
-        "rebuke me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "discipline me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and do not"
-    },
-    {
-      "surface": "בחמתך",
-      "gloss": "in your wrath"
-    },
-    {
-      "surface": "תיסרני",
-      "gloss": "chastise me"
+      "kind": "wordplay",
+      "subject": "parallel cola",
+      "rationale": "Anger\/wrath paired with rebuke\/discipline in strict parallelism; English keeps the balance."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH, do not in your anger rebuke me, and do not in your wrath discipline me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ccde00490eb77ea7aee5fdb48508d9d7105481fc912fd525536e4b2ac8d393b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/6\/1-4.1791192360137.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְֽהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "בְּאַפְּךָ֥",
+      "gloss": "in your anger",
+      "sense": "S1"
+    },
+    {
+      "surface": "תוֹכִיחֵ֑נִי",
+      "gloss": "rebuke me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽאַל",
+      "gloss": "and do not",
+      "sense": null
+    },
+    {
+      "surface": "בַּחֲמָתְךָ֥",
+      "gloss": "in your wrath",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְיַסְּרֵֽנִי",
+      "gloss": "discipline me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:00.138116267Z",
+  "model": "glm-5.3"
 }

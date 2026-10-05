@@ -1,94 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "We have conceived, we have writhed; as it were we gave birth to wind — deliverances we have not brought about on the earth, and the inhabitants of the world do not fall.",
-  "tokens": [
+  "ref": "isaiah 26:18",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "הרינו",
-      "gloss": "we were pregnant"
+      "kind": "wordplay",
+      "subject": "הָרִינוּ חַלְנוּ יָלַדְנוּ",
+      "rationale": "verse 17's birth simile collapses into literal verbs: the people themselves were the pregnant woman"
     },
     {
-      "surface": "חלנו",
-      "gloss": "we have writhed"
+      "kind": "crux",
+      "subject": "וּבַל יִפְּלוּ",
+      "rationale": "'the world's inhabitants are not brought forth' (fallen = born, as sense S1 of נפל) vs 'do not fall' in battle — the birth metaphor favors 'brought forth'"
     },
     {
-      "surface": "כמו",
-      "gloss": "as it were"
-    },
-    {
-      "surface": "ילדנו",
-      "gloss": "we gave birth"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "wind",
-      "readings": [
-        "wind",
-        "breath",
-        "spirit"
-      ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישועת",
-      "gloss": "deliverances"
-    },
-    {
-      "surface": "בל",
-      "gloss": "not"
-    },
-    {
-      "surface": "נעשה",
-      "gloss": "we have brought about"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ובל",
-      "gloss": "and not"
-    },
-    {
-      "surface": "יפלו",
-      "gloss": "do fall"
-    },
-    {
-      "surface": "ישבי",
-      "gloss": "the inhabitants of"
-    },
-    {
-      "surface": "תבל",
-      "gloss": "the world"
+      "kind": "substitution",
+      "subject": "רוּחַ",
+      "rationale": "wind carries the sense 'without substance'; 'spirit' would import a reading the picture of birth does not need"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "We were pregnant, we writhed — as it were we gave birth to wind; deliverances we did not work for the earth, and the inhabitants of the world do not fall ⟨forth⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0fc27cda852ff483c9f8e6ea42acf94792a4aa6e2d5e241b51db2a422dc7fa0d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/17-20.1791188387496.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָרִינוּ",
+      "gloss": "we were pregnant",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַלְנוּ",
+      "gloss": "we writhed",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּמוֹ",
+      "gloss": "as it were",
+      "sense": null
+    },
+    {
+      "surface": "יָלַדְנוּ",
+      "gloss": "we gave birth",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחַ",
+      "gloss": "to wind",
+      "readings": [
+        "to wind",
+        "to breath",
+        "to spirit"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעֹת",
+      "gloss": "deliverances",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַעֲשֶׂה",
+      "gloss": "we did work",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "for the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבַל",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִפְּלוּ",
+      "gloss": "do they fall ⟨forth⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹשְׁבֵי",
+      "gloss": "the inhabitants of",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵּבֵל",
+      "gloss": "the world",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:47.497822953Z",
+  "model": "glm-5.3"
 }

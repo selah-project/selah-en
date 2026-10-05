@@ -1,63 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Declare His glory among the nations, His wonders among all the peoples.",
+  "ref": "psalms 96:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 96,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "nations\/peoples",
+      "rationale": "Parallel pair גּוֹיִם \/ עַמִּים frames the verse's chiastic telling of glory and wonders."
+    },
+    {
+      "kind": "alternative",
+      "subject": "glory",
+      "rationale": "כָּבוֹד literally 'weight\/heaviness'; 'splendor' is the extended sense."
+    }
+  ],
+  "translation": "Tell among the nations His glory, among all the peoples His wonders.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "00aad12dee3334a9a4f6318549c5318fcb577d3f94d279af84655987419b132c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/96\/1-4.1791193227742.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ספרו",
-      "gloss": "Declare",
-      "readings": [
-        "Declare",
-        "recount"
-      ],
-      "held_by": {
-        "Declare": [
-          "v2",
-          "v3"
-        ],
-        "Tell": [
-          "v1"
-        ],
-        "recount": [
-          "en4"
-        ]
-      }
+      "surface": "סַפְּר֣וּ",
+      "gloss": "Tell",
+      "sense": "S1"
     },
     {
-      "surface": "בגוים",
-      "gloss": "among the nations"
+      "surface": "בַּגּוֹיִ֣ם",
+      "gloss": "among the nations",
+      "sense": "S1"
     },
     {
-      "surface": "כבודו",
+      "surface": "כְבוֹד֑וֹ",
       "gloss": "His glory",
+      "sense": "S1",
       "readings": [
         "His glory",
         "His weight"
-      ],
-      "held_by": {
-        "His glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "His weight": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "בכל",
-      "gloss": "among all"
+      "surface": "בְּכָל",
+      "gloss": "among all",
+      "sense": null
     },
     {
-      "surface": "העמים",
-      "gloss": "the peoples"
+      "surface": "הָֽ֝עַמִּ֗ים",
+      "gloss": "the peoples",
+      "sense": "S1"
     },
     {
-      "surface": "נפלאותיו",
-      "gloss": "His wonders"
+      "surface": "נִפְלְאֹתָֽיו",
+      "gloss": "His wonders",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:27.743406848Z",
+  "model": "glm-5.3"
 }

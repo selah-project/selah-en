@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And ⟨I⟩ have eaten my morsel alone, and the fatherless has not eaten from it;",
-  "tokens": [
+  "ref": "job 31:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "ואכל",
-      "gloss": "And ⟨I⟩ have eaten"
-    },
-    {
-      "surface": "פתי",
-      "gloss": "my morsel"
-    },
-    {
-      "surface": "לבדי",
-      "gloss": "alone"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "אכל",
-      "gloss": "has eaten"
-    },
-    {
-      "surface": "יתום",
-      "gloss": "the fatherless"
-    },
-    {
-      "surface": "ממנה",
-      "gloss": "from it"
+      "kind": "substitution",
+      "subject": "orphan",
+      "rationale": "יתום is literally a fatherless child, not a general orphan"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and I ate my bit of bread alone, and an orphan did not eat from it —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3a04165cf2d30c80e624b6fb30e486414a30e636f59105ce2b7e83b393dfa1a3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/17-20.1791194495605.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֹכַ֣ל",
+      "gloss": "and I ate",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּתִּ֣י",
+      "gloss": "my bit of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבַדִּ֑י",
+      "gloss": "alone",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָכַ֖ל",
+      "gloss": "did eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָת֣וֹם",
+      "gloss": "an orphan",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּֽנָּה",
+      "gloss": "from it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:35.605854514Z",
+  "model": "glm-5.3"
 }

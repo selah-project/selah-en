@@ -1,55 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Draw near to my soul ⟨and⟩ redeem it; ransom me because of my enemies.",
-  "tokens": [
+  "ref": "psalms 69:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
     {
-      "surface": "קרבה",
-      "gloss": "Draw near"
+      "kind": "alternative",
+      "subject": "למען אויבי",
+      "rationale": "'for the sake of my enemies' — i.e. to spite them; some read 'because of my enemies', i.e. on account of their oppression"
     },
     {
-      "surface": "אל",
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "imperatives addressed directly to YHWH"
+    }
+  ],
+  "translation": "Draw near to my soul, redeem her; for the sake of my enemies, ransom me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8955f76a4f17578adf5402bd35edcc14ed5653511c03528eb024e5a9d6705325",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/17-20.1791192939555.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קָרְבָ֣ה",
+      "gloss": "Draw near",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֣י",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my nefesh",
+        "my throat",
         "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "גאלה",
-      "gloss": "redeem it"
+      "surface": "גְּאָלָ֑הּ",
+      "gloss": "redeem her",
+      "sense": "S1"
     },
     {
-      "surface": "למען",
-      "gloss": "because of"
+      "surface": "לְמַ֖עַן",
+      "gloss": "for the sake of"
     },
     {
-      "surface": "איבי",
-      "gloss": "my enemies"
+      "surface": "אֹיְבַ֣י",
+      "gloss": "my enemies",
+      "sense": "S1"
     },
     {
-      "surface": "פדני",
-      "gloss": "ransom me"
+      "surface": "פְּדֵֽנִי",
+      "gloss": "ransom me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:35:39.556324681Z",
+  "model": "glm-5.3"
 }

@@ -1,40 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "My son, do not walk in the way with ⟨את⟩ them; withhold your foot from their path.",
-  "tokens": [
+  "ref": "proverbs 1:15",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "my son"
+      "kind": "elision",
+      "subject": "אִתָּם",
+      "rationale": "אֵת 'with' + suffix rendered as plain 'with them'; no object to mark, so no ⟨את⟩ glyph in the flow."
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
+      "kind": "wordplay",
+      "subject": "דרך \/ נתיבה",
+      "rationale": "Paired near-synonyms 'way' and 'path' in parallel cola, both extended to course of life."
     },
     {
-      "surface": "תלך",
-      "gloss": "walk"
+      "kind": "invitation",
+      "subject": "father to son",
+      "rationale": "Direct imperative address: do not go with them; withhold your foot."
     },
     {
-      "surface": "בדרך",
-      "gloss": "in the way"
-    },
-    {
-      "surface": "אתם",
-      "gloss": "with ⟨את⟩ them"
-    },
-    {
-      "surface": "מנע",
-      "gloss": "withhold"
-    },
-    {
-      "surface": "רגלך",
-      "gloss": "your foot"
-    },
-    {
-      "surface": "מנתיבתם",
-      "gloss": "from their path"
+      "kind": "you",
+      "subject": "the son",
+      "rationale": "Father addresses 'my son' with negated commands."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My son, do not walk in the way ⟨את⟩ with them; withhold your foot from their path,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "868d1cc78952c7553386e3259900524e529e1333fe78799d4fe66cc68adc7d43",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/1\/13-16.1791193697212.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנִי",
+      "gloss": "My son",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "תֵּלֵךְ",
+      "gloss": "walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדֶרֶךְ",
+      "gloss": "in the way",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתָּם",
+      "gloss": "⟨את⟩ with them",
+      "readings": [
+        "with them",
+        "⟨את⟩ them"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "מְנַע",
+      "gloss": "withhold",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַגְלְךָ",
+      "gloss": "your foot",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנְּתִיבָתָם",
+      "gloss": "from their path",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:17.213000646Z",
+  "model": "glm-5.3"
 }

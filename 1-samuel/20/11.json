@@ -1,14 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And Jonathan said to David, “Come, and let us go out into the field.” And the two of them went out into the field.",
+  "ref": "1-samuel 20:11",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "לכה ונצא",
+      "rationale": "Jonathan's imperative plus cohortative summons David out to the field."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ונצא … ויצאו",
+      "rationale": "The cohortative “let us go out” is echoed by the narrative “and they went out” — fulfilled speech."
+    }
+  ],
+  "translation": "And Jonathan said to David, “Come, and let us go out to the field.” And the two of them went out to the field.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2efc55a4959753406063376178fd88b625e3663c82c3071db2bc47eae5a07ba7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/20\/9-12.1791185819697.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And he said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "יהונתן",
-      "gloss": "Jonathan"
+      "gloss": "Jonathan",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,47 +45,40 @@
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "לכה",
-      "gloss": "Come"
+      "gloss": "Come",
+      "sense": "S1"
     },
     {
       "surface": "ונצא",
-      "gloss": "and let us go out"
+      "gloss": "and let us go out",
+      "sense": "S1"
     },
     {
       "surface": "השדה",
-      "gloss": "into the field"
+      "gloss": "the field",
+      "sense": "S1"
     },
     {
       "surface": "ויצאו",
-      "gloss": "And they went out"
+      "gloss": "and went out",
+      "sense": "S1"
     },
     {
       "surface": "שניהם",
       "gloss": "the two of them",
-      "readings": [
-        "the two of them",
-        "both"
-      ],
-      "held_by": {
-        "the two of them": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "both": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "השדה",
-      "gloss": "into the field"
+      "gloss": "the field",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:36:59.699032232Z",
+  "model": "glm-5.3"
 }

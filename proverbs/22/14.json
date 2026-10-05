@@ -1,56 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "A deep chasm ⟨is⟩ the mouth ⟨of⟩ strange women; the one abhorred ⟨by⟩ YHWH will fall there.",
+  "ref": "proverbs 22:14",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'pit' and 'mouth of strange women'"
+    },
+    {
+      "kind": "crux",
+      "subject": "זעום יהוה יפול שם",
+      "rationale": "either 'he who is the indignation of YHWH will fall there' (the preyed man), or 'the rage of YHWH will fall there'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "זרות",
+      "rationale": "the outsider women — wives of other men, or adulterous women; 'strange' keeps the root's alien-ness"
+    }
+  ],
+  "translation": "A deep pit is the mouth of strange women; the one despised by YHWH falls there.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bafcd03b80a73839564e586e7a5c7a4fa12751a1bf7ab8937a645dea97aab4ae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/22\/13-16.1791193963624.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "שוחה",
-      "gloss": "a chasm"
+      "surface": "שׁוּחָ֣ה",
+      "gloss": "A pit",
+      "sense": "S1"
     },
     {
-      "surface": "עמקה",
-      "gloss": "deep"
+      "surface": "עֲ֭מֻקָּה",
+      "gloss": "deep",
+      "sense": "S1"
     },
     {
-      "surface": "פי",
-      "gloss": "the mouth"
+      "surface": "פִּ֣י",
+      "gloss": "the mouth of",
+      "sense": "S1"
     },
     {
-      "surface": "זרות",
-      "gloss": "strange women"
+      "surface": "זָר֑וֹת",
+      "gloss": "strange women",
+      "sense": "S1"
     },
     {
-      "surface": "זעום",
-      "gloss": "abhorred",
-      "readings": [
-        "abhorred",
-        "one enraged"
-      ],
-      "held_by": {
-        "abhorred": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "one enraged": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "זְע֥וּם",
+      "gloss": "the one despised by",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "יפול",
-      "gloss": "will fall"
+      "gloss": "falls",
+      "sense": "S1"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "surface": "שָֽׁם",
+      "gloss": "there",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:43.624809019Z",
+  "model": "glm-5.3"
 }

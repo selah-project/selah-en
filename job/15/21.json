@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "A sound of terrors is in his ears; in prosperity a destroyer comes upon him.",
-  "tokens": [
+  "ref": "job 15:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "קול",
-      "gloss": "a sound"
+      "kind": "substitution",
+      "subject": "terrors",
+      "rationale": "פחד is literally trembling, the object feared; 'terrors' keeps the plural but loses the body-trembling picture."
     },
     {
-      "surface": "פחדים",
-      "gloss": "of terrors"
-    },
-    {
-      "surface": "באזניו",
-      "gloss": "in his ears"
-    },
-    {
-      "surface": "בשלום",
-      "gloss": "in prosperity",
-      "readings": [
-        "in prosperity",
-        "in peace"
-      ],
-      "held_by": {
-        "in prosperity": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in peace": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שודד",
-      "gloss": "a destroyer"
-    },
-    {
-      "surface": "יבואנו",
-      "gloss": "comes upon him"
+      "kind": "wordplay",
+      "subject": "שלום\/שודד",
+      "rationale": "In peace (shalom) the spoiler (shoded) comes — the sibilant collision is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A sound of terrors is in his ears; in peace a destroyer comes upon him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "80c9f16f82757143892bdb7ff26bc42bdf73fed69fc9e54d36936fd1b87b798f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/21-24.1791194295680.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קוֹל",
+      "gloss": "a sound of"
+    },
+    {
+      "surface": "פְּחָדִים",
+      "gloss": "terrors",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאָזְנָיו",
+      "gloss": "in his ears",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׁלוֹם",
+      "gloss": "in peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹדֵד",
+      "gloss": "a destroyer",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְבוֹאֶנּוּ",
+      "gloss": "comes upon him",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:15.681440102Z",
+  "model": "glm-5.3"
 }

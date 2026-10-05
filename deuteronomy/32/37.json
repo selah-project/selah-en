@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 37,
-  "translation": "And ⟨he⟩ will say, 'Where are their gods? Where is the rock they sought refuge in?'",
-  "tokens": [
+  "ref": "deuteronomy 32:37",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "ואמר",
-      "gloss": "and ⟨he⟩ will say"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew interrogative אי lacks an English copula"
     },
     {
-      "surface": "אי",
-      "gloss": "Where"
-    },
-    {
-      "surface": "אלהימו",
-      "gloss": "their gods"
-    },
-    {
-      "surface": "צור",
-      "gloss": "the rock"
-    },
-    {
-      "surface": "חסיו",
-      "gloss": "they sought refuge"
-    },
-    {
-      "surface": "בו",
-      "gloss": "in him"
+      "kind": "substitution",
+      "subject": "the rock",
+      "rationale": "צור is YHWH's own title used mockingly of the gods that failed"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he will say: Where are their gods, the rock in whom they took refuge,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b921ccadd51fef94c9b8dce287d1db98b78fd1dbaf2c4ff4b52722c7010e418a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/37-40.1791184238971.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָמַ֖ר",
+      "gloss": "and he will say",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֣י",
+      "gloss": "where ⟨are⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֵ֑ימוֹ",
+      "gloss": "their gods",
+      "sense": "S1"
+    },
+    {
+      "surface": "צ֖וּר",
+      "gloss": "the rock",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָסָ֥יוּ",
+      "gloss": "they took refuge in",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֽוֹ",
+      "gloss": "him",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:38.972230707Z",
+  "model": "glm-5.3"
 }

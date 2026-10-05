@@ -1,77 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "I am YHWH — that is my name; and my glory I will not give to another, and my praise to carved images.",
+  "ref": "isaiah 42:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "nor",
+      "rationale": "the vav joins a second negated clause; English needs a negative conjunction"
+    }
+  ],
+  "translation": "I, YHWH — that is my name — and my glory to another I will not give, nor my praise to carved images.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ceefd760b74356e5f4db8e06d8dc3aa9dd8b39390e1ec7cb7504d95ce2307fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/42\/5-8.1791188648864.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
+      "surface": "אֲנִ֥י",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "that is"
+      "surface": "ה֣וּא",
+      "gloss": "is"
     },
     {
-      "surface": "שמי",
-      "gloss": "my name"
+      "surface": "שְׁמִ֑י",
+      "gloss": "my name",
+      "sense": "S1"
     },
     {
-      "surface": "וכבודי",
+      "surface": "וּכְבוֹדִי֙",
       "gloss": "and my glory",
       "readings": [
         "and my glory",
         "and my weight"
       ],
-      "held_by": {
-        "and my glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and my weight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לאחר",
-      "gloss": "to another"
+      "surface": "לְאַחֵ֣ר",
+      "gloss": "to another",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "אתן",
+      "surface": "אֶתֵּ֔ן",
       "gloss": "I will give"
     },
     {
-      "surface": "ותהלתי",
-      "gloss": "and my praise"
+      "surface": "וּתְהִלָּתִ֖י",
+      "gloss": "nor my praise",
+      "sense": "S1"
     },
     {
-      "surface": "לפסילים",
+      "surface": "לַפְּסִילִֽים",
       "gloss": "to carved images",
-      "readings": [
-        "to carved images",
-        "to graven images"
-      ],
-      "held_by": {
-        "to carved images": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to graven images": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:08.866221451Z",
+  "model": "glm-5.3"
 }

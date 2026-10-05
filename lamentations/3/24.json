@@ -1,98 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "My portion is YHWH, my soul has said; therefore I will hope for Him.",
+  "ref": "lamentations 3:24",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the noun clause is 'my portion — YHWH'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my throat",
+      "rationale": "נפש rendered by its literal picture; 'soul' would import later baggage."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The speaker addresses YHWH in the second person ('Your faithfulness') through v. 24's context."
+    }
+  ],
+  "translation": "“My portion is YHWH,” my throat says; therefore I hope for Him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a313ec1d47e1bb053f40331310287135af654673a0e2db740d41cde039f07e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/21-24.1791194696902.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "חלקי",
+      "surface": "חֶלְקִי",
       "gloss": "My portion",
-      "readings": [
-        "My portion",
-        "My allotment"
-      ],
-      "held_by": {
-        "My portion": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "My allotment": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "is YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אמרה",
-      "gloss": "has said",
-      "readings": [
-        "has said",
-        "says"
-      ],
-      "held_by": {
-        "has said": [
-          "v1",
-          "v3"
-        ],
-        "says": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "אָמְרָה",
+      "gloss": "says",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
+      "surface": "נַפְשִׁי",
+      "gloss": "my throat",
       "readings": [
-        "my soul",
+        "my throat",
+        "my self",
         "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "therefore"
     },
     {
-      "surface": "כן",
-      "gloss": "thus"
+      "surface": "כֵּן",
+      "gloss": "therefore"
     },
     {
-      "surface": "אוחיל",
-      "gloss": "I will hope",
-      "readings": [
-        "I will hope",
-        "I wait"
-      ],
-      "held_by": {
-        "I will hope": [
-          "v1",
-          "v3",
-          "v2"
-        ],
-        "I wait": [
-          "en4"
-        ]
-      }
+      "surface": "אוֹחִיל",
+      "gloss": "I hope",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
+      "surface": "לוֹ",
       "gloss": "for Him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:56.903830911Z",
+  "model": "glm-5.3"
 }

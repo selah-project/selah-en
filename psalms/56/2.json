@@ -1,63 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Be gracious to me, O Elohim, for a mortal would swallow me up; all the day, fighting, he presses me.",
-  "tokens": [
+  "ref": "psalms 56:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 56,
+  "notes": [
     {
-      "surface": "חנני",
-      "gloss": "Be gracious to me"
+      "kind": "crux",
+      "subject": "has trampled me",
+      "rationale": "שאף literally 'to inhale\/pant after'; renderings range from 'trample' to 'swallow up' to 'pursue eagerly'."
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "שאפני",
-      "gloss": "he would swallow me up",
-      "readings": [
-        "he would swallow me up",
-        "he would pant after me",
-        "he would trample me"
-      ],
-      "held_by": {
-        "he would swallow me up": [
-          "v2",
-          "en4"
-        ],
-        "he would pant after me": [
-          "v1",
-          "v3"
-        ],
-        "he would trample me": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אנוש",
-      "gloss": "a mortal"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "fighting"
-    },
-    {
-      "surface": "ילחצני",
-      "gloss": "he presses me"
+      "kind": "wordplay",
+      "subject": "לחם \/ ילחצני",
+      "rationale": "Sound pair לחם ('fight') and לחץ ('press') drives the line; partially carried by 'fighting… presses'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Show me favor, Elohim, for a mortal has trampled me; all day long, fighting, he presses me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e2a9612b1e48de184f9a839693ff2db4c7cc8eda1f646728241f56190630c195",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/56\/1-4.1791192817546.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָנֵּנִי",
+      "gloss": "Show me favor",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "שְׁאָפַנִי",
+      "gloss": "has trampled me",
+      "readings": [
+        "has trampled me",
+        "has panting-snatched me"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱנוֹשׁ",
+      "gloss": "a mortal",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "day long",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹחֵם",
+      "gloss": "fighting",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלְחָצֵנִי",
+      "gloss": "he presses me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:37.546968895Z",
+  "model": "glm-5.3"
 }

@@ -1,44 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "They are exalted a little, and they are not; and they are brought low — like all they are shut up, and like the head of an ear of grain they are cut off.",
+  "ref": "job 24:24",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨grain⟩",
+      "rationale": "ככל, 'like all', needs its class named in English — the harvest context supplies it."
+    },
+    {
+      "kind": "crux",
+      "subject": "they close up",
+      "rationale": "יקפצון is a rare form: 'are gathered\/shut up' (grain cut and sheaved) or, per SDBH, 'dry up'; the image is the same harvest end."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "harvest imagery",
+      "rationale": "The wicked's fall is carried by stacked grain pictures — cut with the whole crop, the ear's head clipped — a parallel to Job 14:2."
+    }
+  ],
+  "translation": "They are high a little, and are no more; they are brought low — like all ⟨grain⟩ they close up, and like the head of an ear of grain they wither.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f5204b4fc8520c39bfa5ce3066d2339cc4e70aa1a91fb21c1fd4590ecefb75f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/24\/21-24.1791194418829.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
       "surface": "רומו",
-      "gloss": "they are exalted"
+      "gloss": "they are high",
+      "sense": "S1"
     },
     {
       "surface": "מעט",
-      "gloss": "a little"
+      "gloss": "a little",
+      "sense": "S1"
     },
     {
       "surface": "ואיננו",
-      "gloss": "and they are not"
+      "gloss": "and are no more",
+      "sense": null
     },
     {
       "surface": "והמכו",
-      "gloss": "and they are brought low"
+      "gloss": "they are brought low",
+      "sense": "S1"
     },
     {
       "surface": "ככל",
-      "gloss": "like all"
+      "gloss": "like all",
+      "sense": null
     },
     {
       "surface": "יקפצון",
-      "gloss": "they are shut up"
+      "gloss": "they close up",
+      "sense": "S1",
+      "readings": [
+        "they close up",
+        "they dry up"
+      ]
     },
     {
       "surface": "וכראש",
-      "gloss": "and like the head of"
+      "gloss": "and like the head of",
+      "sense": "S1"
     },
     {
       "surface": "שבלת",
-      "gloss": "an ear of grain"
+      "gloss": "an ear of grain",
+      "sense": "S1"
     },
     {
       "surface": "ימלו",
-      "gloss": "they are cut off"
+      "gloss": "they wither",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:00:18.830735434Z",
+  "model": "glm-5.3"
 }

@@ -1,58 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "But man in honour does not abide; he is likened to the beasts, they perish. סelah",
-  "tokens": [
+  "ref": "psalms 49:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "ואדם",
-      "gloss": "But man"
+      "kind": "crux",
+      "subject": "they are silenced",
+      "rationale": "נדמו: 'are silenced\/dumb' vs 'perish, are destroyed' — both from the root of silence; kept the sound-sense as reading 1."
     },
     {
-      "surface": "ביקר",
-      "gloss": "in honour",
-      "readings": [
-        "in honour",
-        "in his honour"
-      ]
+      "kind": "wordplay",
+      "subject": "נמשל\/נדמו",
+      "rationale": "Both niphal passives of similar shape close the colon; the parallel 'is likened \/ is silenced' carries the sound pattern."
     },
     {
-      "surface": "בל",
-      "gloss": "does not",
-      "readings": [
-        "does not",
-        "not at all"
-      ]
-    },
-    {
-      "surface": "ילין",
-      "gloss": "abide",
-      "readings": [
-        "abide",
-        "lodge"
-      ]
-    },
-    {
-      "surface": "נמשל",
-      "gloss": "he is likened",
-      "readings": [
-        "he is likened",
-        "he is compared"
-      ]
-    },
-    {
-      "surface": "כבהמות",
-      "gloss": "to the beasts"
-    },
-    {
-      "surface": "נדמו",
-      "gloss": "they perish",
-      "readings": [
-        "they perish",
-        "they are cut off",
-        "they are silenced"
-      ],
-      "disputed": true
+      "kind": "elision",
+      "subject": "כבהמות",
+      "rationale": "Preposition-article כ is rendered 'to' in 'likened to'; the definite article folds into 'the beasts'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And man, in honor, does not stay the night; he is likened to the beasts — they are silenced.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "64f414bcd7eb753dfbc7d93fc251fabae637900aef809a5d5b405a372544bc5f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/13-16.1791192773043.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָדָ֣ם",
+      "gloss": "And man",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּ֭יקָר",
+      "gloss": "in honor",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָלִ֑ין",
+      "gloss": "stays the night",
+      "readings": [
+        "stays the night",
+        "remains overnight",
+        "lodges"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "נִמְשַׁ֖ל",
+      "gloss": "he is likened",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּבְּהֵמ֣וֹת",
+      "gloss": "to the beasts",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִדְמֽוּ",
+      "gloss": "they are silenced",
+      "readings": [
+        "they are silenced",
+        "they perish"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:53.044452042Z",
+  "model": "glm-5.3"
 }

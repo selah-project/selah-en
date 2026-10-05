@@ -1,57 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "He digs through houses in the darkness; by day they seal ⟨themselves⟩ up for themselves — they do not know the light.",
-  "tokens": [
+  "ref": "job 24:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "חתר",
-      "gloss": "he digs through"
+      "kind": "addition",
+      "subject": "⟨themselves⟩",
+      "rationale": "חִתְּמוּ 'they sealed' has no explicit object; the reflexive is supplied."
     },
     {
-      "surface": "בחשך",
-      "gloss": "in the darkness"
+      "kind": "crux",
+      "subject": "חִתְּמוּ לָמוֹ",
+      "rationale": "some read the verb as a byform of חָתַר ('they dig') for themselves — a hole through walls — matching the singular חָתַר."
     },
     {
-      "surface": "בתים",
-      "gloss": "houses"
-    },
-    {
-      "surface": "יומם",
-      "gloss": "by day"
-    },
-    {
-      "surface": "חתמו",
-      "gloss": "they seal up",
-      "readings": [
-        "they seal up",
-        "they seal themselves up"
-      ],
-      "held_by": {
-        "they seal up": [
-          "v2",
-          "v3"
-        ],
-        "they seal themselves up": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למו",
-      "gloss": "for themselves"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ידעו",
-      "gloss": "they know"
-    },
-    {
-      "surface": "אור",
-      "gloss": "the light"
+      "kind": "wordplay",
+      "subject": "חָתַר \/ חִתְּמוּ",
+      "rationale": "tunnels (חתר) and seals (חתם) — the housebreaker breaks open while sealing himself from sight; the sound-pair is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He tunnels in the darkness, through houses; by day they seal ⟨themselves⟩ up for themselves — they do not know light.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8bc47699cd4f07e258ae1debf8b52a35c7d689fe25d69e930854a3f0b4a88989",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/24\/13-16.1791194433266.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָתַר",
+      "gloss": "He tunnels",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּחֹשֶׁךְ",
+      "gloss": "in the darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּתִּים",
+      "gloss": "through houses",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹמָם",
+      "gloss": "by day",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִתְּמוּ",
+      "gloss": "they seal ⟨themselves⟩ up",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמוֹ",
+      "gloss": "for themselves",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדְעוּ",
+      "gloss": "they know",
+      "sense": null
+    },
+    {
+      "surface": "אוֹר",
+      "gloss": "light",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:33.267653718Z",
+  "model": "glm-5.3"
 }

@@ -1,81 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And the number of the days that David dwelt in the field of the Philistines was days and four months.",
+  "ref": "1-samuel 27:7",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "days",
+      "rationale": "ימים here is the idiom for an indefinite 'a year' (a year and four months); rendered by the idiom, literal 'days' kept as a reading."
+    },
+    {
+      "kind": "measurement",
+      "subject": "a year and four months",
+      "rationale": "The verse counts the length of David's stay."
+    }
+  ],
+  "translation": "And the number of the days that David dwelt in the territory of the Philistines was a year and four months.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc6c7c738721805d107b76de51b1e4c1101b2a0d29c8a8a6eb8b3f9447d3046b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/27\/5-8.1791186004800.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויהי",
-      "gloss": "And it was"
+      "gloss": "and it was",
+      "sense": null
     },
     {
       "surface": "מספר",
-      "gloss": "the number of"
+      "gloss": "the number of",
+      "sense": "S1"
     },
     {
       "surface": "הימים",
-      "gloss": "the days"
+      "gloss": "the days",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "that"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "ישב",
       "gloss": "dwelt",
-      "readings": [
-        "dwelt",
-        "sat"
-      ],
-      "held_by": {
-        "dwelt": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sat": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "בשדה",
-      "gloss": "in the field of",
-      "readings": [
-        "in the field of",
-        "in the country of"
-      ],
-      "held_by": {
-        "in the field of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the country of": [
-          "v1"
-        ]
-      }
+      "gloss": "in the territory of",
+      "sense": "S1"
     },
     {
       "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "gloss": "the Philistines",
+      "sense": "S1"
     },
     {
       "surface": "ימים",
-      "gloss": "days"
+      "gloss": "a year",
+      "readings": [
+        "a year",
+        "days"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "וארבעה",
-      "gloss": "and four"
+      "gloss": "and four",
+      "sense": "S1"
     },
     {
       "surface": "חדשים",
-      "gloss": "months"
+      "gloss": "months",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:40:04.802124960Z",
+  "model": "glm-5.3"
 }

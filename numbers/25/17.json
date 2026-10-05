@@ -1,42 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Harass ⟨את⟩ the Midianites, and strike ⟨את⟩ them;",
-  "tokens": [
+  "ref": "numbers 25:17",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "צרור",
-      "gloss": "Harass",
-      "readings": [
-        "Harass",
-        "Distress"
-      ],
-      "held_by": {
-        "Harass": [
-          "v2",
-          "v3"
-        ],
-        "Distress": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "the Midianites",
+      "rationale": "the verb's object is repeated to carry the ⟨את⟩ marker's placement in the doubled command"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "המדינים",
-      "gloss": "the Midianites"
-    },
-    {
-      "surface": "והכיתם",
-      "gloss": "and strike"
-    },
-    {
-      "surface": "אותם",
-      "gloss": "⟨את⟩ them"
+      "kind": "crux",
+      "subject": "צָרוֹר",
+      "rationale": "infinitive absolute of צרר, 'treat as enemies\/harass' vs literal 'cramp, confine'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Cramp the Midianites; ⟨את⟩ the Midianites you shall strike, ⟨את⟩ them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4eb8141d61a0dc0868ee280a43a008f5f76557c470748ed7fde0c0ca247ccf37",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/25\/17-19.1791183298221.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צָרוֹר",
+      "gloss": "Cramp",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the Midianites",
+      "sense": null
+    },
+    {
+      "surface": "הַמִּדְיָנִים",
+      "gloss": "the Midianites",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִכִּיתֶם",
+      "gloss": "you shall strike",
+      "sense": null
+    },
+    {
+      "surface": "אוֹתָם",
+      "gloss": "⟨את⟩ them",
+      "marks": "them",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:58.241504009Z",
+  "model": "glm-5.3"
 }

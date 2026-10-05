@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 44,
-  "translation": "And He turned their rivers to blood, and their streams they could not at all drink.",
-  "tokens": [
+  "ref": "psalms 78:44",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ויהפך",
-      "gloss": "and He turned"
+      "kind": "wordplay",
+      "subject": "בַּל יִשְׁתָּיוּן",
+      "rationale": "Emphatic negation בל plus paragogic-nun verb gives a strong close; rendered 'not at all could they drink' to keep the emphasis."
     },
     {
-      "surface": "לדם",
-      "gloss": "to blood"
-    },
-    {
-      "surface": "יאריהם",
-      "gloss": "their rivers",
-      "readings": [
-        "their rivers",
-        "their Nile"
-      ],
-      "held_by": {
-        "their rivers": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their Nile": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ונזליהם",
-      "gloss": "and their streams"
-    },
-    {
-      "surface": "בל",
-      "gloss": "not at all"
-    },
-    {
-      "surface": "ישתיון",
-      "gloss": "could they drink"
+      "kind": "alternative",
+      "subject": "their flowing streams",
+      "rationale": "נזליהם is a participle 'their tricklers', streams of the Nile delta; 'flowing streams' keeps the verbal form."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he turned their rivers to blood, and their flowing streams — not at all could they drink.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0e1edc873adbf5ad7ced1ceaca37a8a0b9b64b819e1aff65f1b536647a6b884",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/41-44.1791193055924.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּהֲפֹ֣ךְ",
+      "gloss": "And he turned",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָ֝ם",
+      "gloss": "to blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְאֹרֵיהֶ֑ם",
+      "gloss": "their rivers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֹֽזְלֵיהֶם",
+      "gloss": "and their flowing streams",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not at all",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁתָּיֽוּן",
+      "gloss": "could they drink",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:35.925815053Z",
+  "model": "glm-5.3"
 }

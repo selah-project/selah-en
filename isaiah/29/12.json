@@ -1,110 +1,115 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And the book is given to one who does not know a book, saying, “Read this, please,” and he says, “I do not know a book.”",
-  "tokens": [
+  "ref": "isaiah 29:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "ונתן",
-      "gloss": "and is given"
+      "kind": "addition",
+      "subject": "⟨the⟩ scroll",
+      "rationale": "Hebrew uses the bare noun ספר as the object of ידע; English needs the article to carry ‘know how to read writing’."
     },
     {
-      "surface": "הספר",
-      "gloss": "the book",
-      "readings": [
-        "the book",
-        "the scroll"
-      ],
-      "held_by": {
-        "the book": [
-          "v2",
-          "en4"
-        ],
-        "the scroll": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "ספר ×4 · סופר",
+      "rationale": "The unpointed ספר oscillates between ‘scroll’ and ‘writing (the art)’, so the refusal puns on not knowing the book and not knowing letters."
     },
     {
-      "surface": "על",
-      "gloss": "to"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ידע",
-      "gloss": "knows"
-    },
-    {
-      "surface": "ספר",
-      "gloss": "a book",
-      "readings": [
-        "a book",
-        "a scroll"
-      ],
-      "held_by": {
-        "a book": [
-          "v2",
-          "en4"
-        ],
-        "a scroll": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "לאמר",
-      "gloss": "saying"
-    },
-    {
-      "surface": "קרא",
-      "gloss": "Read"
-    },
-    {
-      "surface": "נא",
-      "gloss": "please"
-    },
-    {
-      "surface": "זה",
-      "gloss": "this"
-    },
-    {
-      "surface": "ואמר",
-      "gloss": "and he says"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ידעתי",
-      "gloss": "I know"
-    },
-    {
-      "surface": "ספר",
-      "gloss": "a book",
-      "readings": [
-        "a book",
-        "a scroll"
-      ],
-      "held_by": {
-        "a book": [
-          "v2",
-          "en4"
-        ],
-        "a scroll": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "mystery",
+      "subject": "the scroll",
+      "rationale": "Paired with verse 11: neither the lettered nor the unlettered can open it — the revelation is shut to all."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the scroll is given to one who does not know ⟨the⟩ scroll, saying, “Read this, please”; and he says, “I do not know ⟨the⟩ scroll.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cb2cfb11dc93d29911d3a431c596a7c78132685a9c81611a92f36c98b083c0bb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/29\/9-12.1791188438298.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְנִתַּ֣ן",
+      "gloss": "And is given",
+      "sense": null
+    },
+    {
+      "surface": "הַסֵּ֗פֶר",
+      "gloss": "the scroll",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל֩",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁ֨ר",
+      "gloss": "the one who",
+      "sense": null
+    },
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֥ע",
+      "gloss": "knows",
+      "sense": null
+    },
+    {
+      "surface": "סֵ֛פֶר",
+      "gloss": "⟨the⟩ scroll",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאמֹ֖ר",
+      "gloss": "saying",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְרָ֣א",
+      "gloss": "Read",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֑א",
+      "gloss": "please",
+      "sense": null
+    },
+    {
+      "surface": "זֶ֥ה",
+      "gloss": "this",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָמַ֕ר",
+      "gloss": "and he says",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַעְתִּ֖י",
+      "gloss": "I know",
+      "sense": null
+    },
+    {
+      "surface": "סֵֽפֶר",
+      "gloss": "⟨the⟩ scroll",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:20:38.312586271Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "I ⟨am⟩ YHWH, your Holy One, the Creator of Israel, your King.",
-  "tokens": [
+  "ref": "isaiah 43:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "אני",
-      "gloss": "I"
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew has pronoun plus name, no copula; English supplies one"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "קדושכם",
-      "gloss": "your Holy One"
-    },
-    {
-      "surface": "בורא",
-      "gloss": "the Creator"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "of Israel"
-    },
-    {
-      "surface": "מלככם",
-      "gloss": "your King"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second-person suffixes address Israel directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I am YHWH, your Holy One, the creator of Israel, your king.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc9e0fbc4fce19f036cfd1d97490b1a52d49fca89caac7b5d16a25d95d874445",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/43\/13-16.1791188659507.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲנִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "am YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְדֹשְׁכֶם",
+      "gloss": "your Holy One",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹרֵא",
+      "gloss": "the creator of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכְּכֶם",
+      "gloss": "your king",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:24:19.509054375Z",
+  "model": "glm-5.3"
 }

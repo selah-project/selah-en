@@ -1,44 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And ⟨את⟩ the eyes of Zedekiah he blinded, and bound him in bronze ⟨fetters⟩, to bring ⟨את⟩ him to Babylon.",
-  "tokens": [
+  "ref": "jeremiah 39:7",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "ואת",
-      "gloss": "And ⟨את⟩"
+      "kind": "addition",
+      "subject": "two",
+      "rationale": "עֵינֵי and נְחֻשְׁתַּיִם are dual forms; 'two' is exposed to carry the dual"
     },
     {
-      "surface": "עיני",
-      "gloss": "the eyes of"
+      "kind": "substitution",
+      "subject": "bronze-shackles",
+      "rationale": "נחשתים is literally 'the two bronzes', the dual used for shackles made of bronze"
     },
     {
-      "surface": "צדקיהו",
-      "gloss": "Zedekiah"
-    },
-    {
-      "surface": "עור",
-      "gloss": "he blinded"
-    },
-    {
-      "surface": "ויאסרהו",
-      "gloss": "and bound him"
-    },
-    {
-      "surface": "בנחשתים",
-      "gloss": "in bronze"
-    },
-    {
-      "surface": "לביא",
-      "gloss": "to bring"
-    },
-    {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
-    },
-    {
-      "surface": "בבלה",
-      "gloss": "to Babylon"
+      "kind": "wordplay",
+      "subject": "בָּבֶלָה",
+      "rationale": "directional he kept as 'Babylonward', the Hebrew's motion-toward form"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And ⟨את⟩ the two eyes of Zedekiah he blinded, and he bound him in the two bronze-shackles, to bring ⟨את⟩ him Babylonward.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e61e4b8ab893909194b0b65ce44c8dd81628a0f3a75a8d1bf0c5757fd90ea26",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/39\/5-8.1791189851507.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the two eyes of Zedekiah",
+      "sense": null
+    },
+    {
+      "surface": "עֵינֵ֥י",
+      "gloss": "the two eyes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִדְקִיָּ֖הוּ",
+      "gloss": "Zedekiah",
+      "sense": null
+    },
+    {
+      "surface": "עִוֵּ֑ר",
+      "gloss": "he blinded",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּאַסְרֵ֨הוּ֙",
+      "gloss": "and he bound him",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּֽנְּחֻשְׁתַּ֔יִם",
+      "gloss": "in the two bronze-shackles",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָבִ֥יא",
+      "gloss": "to bring",
+      "sense": null
+    },
+    {
+      "surface": "אֹת֖וֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "him (Zedekiah)",
+      "sense": null
+    },
+    {
+      "surface": "בָּבֶֽלָה",
+      "gloss": "Babylonward",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:44:11.508643598Z",
+  "model": "glm-5.3"
 }

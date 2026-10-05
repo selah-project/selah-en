@@ -1,36 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Therefore snares ⟨are⟩ all around you, and sudden terror terrifies you.",
-  "tokens": [
+  "ref": "job 22:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "upon"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula before פחים."
     },
     {
-      "surface": "כן",
+      "kind": "wordplay",
+      "subject": "פחים\/פחד",
+      "rationale": "snare (פח) and terror (פחד) share a root-sound; the trap-fear echo is lost in English."
+    },
+    {
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Direct second-person address continues."
+    }
+  ],
+  "translation": "Therefore ⟨are⟩ snares around you, and sudden terror bewilders you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "51f78850c6f2bd048acf2e03096a864a4eee13b96cb7cf84653c065b8e3de0da",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/22\/9-12.1791194382156.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
       "gloss": "therefore"
     },
     {
-      "surface": "סביבותיך",
-      "gloss": "all around you"
+      "surface": "כֵ֭ן",
+      "gloss": "therefore"
     },
     {
-      "surface": "פחים",
-      "gloss": "snares"
+      "surface": "סְבִיבֹ֣תֶיךָ",
+      "gloss": "around you",
+      "sense": "S1"
     },
     {
-      "surface": "ויבהלך",
-      "gloss": "and terrifies you"
+      "surface": "פַּחִ֑ים",
+      "gloss": "snares",
+      "sense": "S1"
     },
     {
-      "surface": "פחד",
-      "gloss": "terror"
+      "surface": "וִֽֽיבַהֶלְךָ֙",
+      "gloss": "and bewilders you",
+      "sense": "S1"
     },
     {
-      "surface": "פתאם",
-      "gloss": "sudden"
+      "surface": "פַּ֣חַד",
+      "gloss": "terror",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּתְאֹֽם",
+      "gloss": "sudden",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:42.157158155Z",
+  "model": "glm-5.3"
 }

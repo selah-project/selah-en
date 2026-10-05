@@ -1,68 +1,120 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Behold, all the souls are to me; as the soul of the father, so also the soul of the son, they are to me; the soul that sins, it shall die.",
-  "tokens": [
+  "ref": "ezekiel 18:4",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נֶפֶשׁ is a breathing, animated person — the whole living being, not an immaterial soul; kept as 'soul' with the living-being reading noted."
     },
     {
-      "surface": "כל",
+      "kind": "addition",
+      "subject": "they belong",
+      "rationale": "Hebrew has no verb: לִי הֵנָּה is 'to me they'; a copula is supplied and marked in the flow by sense, not bracket, since הֵנָּה supplies the emphasis."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "The decree overturning the fathers-and-sons proverb is addressed to the whole house of Israel."
+    }
+  ],
+  "translation": "Look, all the souls — to me they belong; as the soul of the father and as the soul of the son — to me they belong; the soul that sins, it is the one that shall die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec66fe0fe3087bc1daa55fe5b63d31bc7c32013fb872f1640f6d06f5d30cc8f2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/18\/1-4.1791190505335.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵן",
+      "gloss": "Look"
+    },
+    {
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "הנפשות",
-      "gloss": "the souls"
+      "surface": "הַנֶּפְשׁוֹת",
+      "gloss": "the souls",
+      "readings": [
+        "the souls",
+        "the living-beings"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "הנה",
-      "gloss": "they are"
+      "surface": "הֵנָּה",
+      "gloss": "they belong"
     },
     {
-      "surface": "כנפש",
-      "gloss": "as the soul"
+      "surface": "כְּנֶפֶשׁ",
+      "gloss": "as the soul of",
+      "readings": [
+        "as the soul of",
+        "as the living-being of"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "האב",
-      "gloss": "of the father"
+      "surface": "הָאָב",
+      "gloss": "the father",
+      "sense": "S1"
     },
     {
-      "surface": "וכנפש",
-      "gloss": "and as the soul"
+      "surface": "וּכְנֶפֶשׁ",
+      "gloss": "and as the soul of",
+      "sense": "S1"
     },
     {
-      "surface": "הבן",
-      "gloss": "of the son"
+      "surface": "הַבֵּן",
+      "gloss": "the son",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "הנה",
-      "gloss": "they are"
+      "surface": "הֵנָּה",
+      "gloss": "they belong"
     },
     {
-      "surface": "הנפש",
-      "gloss": "the soul"
+      "surface": "הַנֶּפֶשׁ",
+      "gloss": "the soul",
+      "readings": [
+        "the soul",
+        "the living-being"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "החטאת",
-      "gloss": "that sins"
+      "surface": "הַחֹטֵאת",
+      "gloss": "that sins",
+      "sense": "S1"
     },
     {
-      "surface": "היא",
+      "surface": "הִיא",
       "gloss": "it"
     },
     {
-      "surface": "תמות",
-      "gloss": "shall die"
+      "surface": "תָּמוּת",
+      "gloss": "shall die",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:55:05.337079398Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "For high is YHWH, and the lowly he sees, and the haughty from afar he knows.",
-  "tokens": [
+  "ref": "psalms 138:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 138,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "alternative",
+      "subject": "sees",
+      "rationale": "יִרְאֶה may be read as Niphal 'is seen' — 'the lowly is seen' — but the active 'he sees' is the plain sense."
     },
     {
-      "surface": "רם",
-      "gloss": "high"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ושפל",
-      "gloss": "and the lowly"
-    },
-    {
-      "surface": "יראה",
-      "gloss": "he sees"
-    },
-    {
-      "surface": "וגבה",
-      "gloss": "and the haughty",
-      "readings": [
-        "and the haughty",
-        "and the lofty"
-      ],
-      "held_by": {
-        "and the haughty": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the lofty": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממרחק",
-      "gloss": "from afar"
-    },
-    {
-      "surface": "יידע",
-      "gloss": "he knows"
+      "kind": "wordplay",
+      "subject": "רם \/ שפל \/ גבה",
+      "rationale": "Three height-words in one verse — high, low, haughty — the vertical antithesis carries the theology of the line."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For high is YHWH, and the lowly he sees, and the haughty he knows from afar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f808ab253e4de9e0c4c51e8b42484525bdbbbe80773a584dc944ab8491561d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/138\/5-8.1791193584788.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "רָ֣ם",
+      "gloss": "high",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁפָ֣ל",
+      "gloss": "and the lowly",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְאֶ֑ה",
+      "gloss": "he sees",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝גָבֹ֗הַּ",
+      "gloss": "and the haughty",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּרְחָ֥ק",
+      "gloss": "from afar",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵיֵדָֽע",
+      "gloss": "he knows",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:24.789716985Z",
+  "model": "glm-5.3"
 }

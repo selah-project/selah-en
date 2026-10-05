@@ -1,36 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "For they have consulted together with one heart against you; they have cut a covenant against you.",
+  "ref": "psalms 83:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 83,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "cut a covenant",
+      "rationale": "Hebrew כרת ברית is literally 'cut a covenant' (from passing between cut pieces); English idiom is 'make a covenant', but the literal picture is kept"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨with⟩",
+      "rationale": "English needs 'with' before 'one heart'; Hebrew places לב יחדו adverbially"
+    }
+  ],
+  "translation": "For they have counseled ⟨with⟩ one heart against you; a covenant they will cut",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "72bb8ec33c801bc4a472ed8a62bd1283ff21e84ec83d1c184235461e40cfb038",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/83\/5-8.1791193096836.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֤י",
       "gloss": "For"
     },
     {
-      "surface": "נועצו",
-      "gloss": "they have consulted"
+      "surface": "נוֹעֲצ֣וּ",
+      "gloss": "they have counseled",
+      "sense": "S1"
     },
     {
-      "surface": "לב",
-      "gloss": "heart"
+      "surface": "לֵ֣ב",
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
-      "surface": "יחדו",
-      "gloss": "together"
+      "surface": "יַחְדָּ֑ו",
+      "gloss": "as one",
+      "sense": "S1"
     },
     {
-      "surface": "עליך",
+      "surface": "עָלֶ֗יךָ",
       "gloss": "against you"
     },
     {
-      "surface": "ברית",
-      "gloss": "a covenant"
+      "surface": "בְּרִ֣ית",
+      "gloss": "a covenant",
+      "sense": "S1"
     },
     {
-      "surface": "יכרתו",
-      "gloss": "they have cut"
+      "surface": "יִכְרֹֽתוּ",
+      "gloss": "they will cut",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:16.836823630Z",
+  "model": "glm-5.3"
 }

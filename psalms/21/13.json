@@ -1,85 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For you will set them as a shoulder; with your bowstrings you will take aim against their faces.",
-  "tokens": [
+  "ref": "psalms 21:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "turn their shoulder",
+      "rationale": "תשיתמו שכם taken as 'make them turn the shoulder (in flight)' vs plain 'set them as a shoulder\/back' — many versions render 'you make them turn their back'."
     },
     {
-      "surface": "תשיתמו",
-      "gloss": "you will set them"
+      "kind": "alternative",
+      "subject": "bowstrings",
+      "rationale": "מיתר is both tent-cord and bowstring; the battle context favors bowstring."
     },
     {
-      "surface": "שכם",
-      "gloss": "a shoulder",
-      "readings": [
-        "a shoulder",
-        "Shechem"
-      ],
-      "held_by": {
-        "a shoulder": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Shechem": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "Hebrew leaves the aimed thing implicit; English needs the object ⟨it⟩."
     },
     {
-      "surface": "במיתריך",
-      "gloss": "with your bowstrings"
-    },
-    {
-      "surface": "תכונן",
-      "gloss": "you will take aim",
-      "readings": [
-        "you will take aim",
-        "you will make ready"
-      ],
-      "held_by": {
-        "you will take aim": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you will make ready": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "על",
-      "gloss": "against",
-      "readings": [
-        "against",
-        "at",
-        "upon"
-      ],
-      "held_by": {
-        "against": [
-          "v2",
-          "en4"
-        ],
-        "at": [
-          "v1",
-          "v3"
-        ],
-        "upon": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פניהם",
-      "gloss": "their faces"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The verse addresses YHWH as the warrior acting against His enemies."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you make them turn their shoulder; with your bowstrings you set ⟨it⟩ ready against their faces.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dd5892a95681723040d5d3bd01adcbc58b6cb2c7f21d338b5e0c923188826a3a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/21\/13-14.1791192492088.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "תְּשִׁיתֵמוֹ",
+      "gloss": "you make them",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁכֶם",
+      "gloss": "turn their shoulder",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמֵיתָרֶיךָ",
+      "gloss": "with your bowstrings",
+      "sense": "S1",
+      "readings": [
+        "with your bowstrings",
+        "with your tent-cords"
+      ]
+    },
+    {
+      "surface": "תְּכוֹנֵן",
+      "gloss": "you set ready",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "against",
+      "sense": null
+    },
+    {
+      "surface": "פְּנֵיהֶם",
+      "gloss": "their faces",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:12.088421076Z",
+  "model": "glm-5.3"
 }

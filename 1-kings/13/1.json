@@ -1,72 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And behold, a man of Elohim came from Judah by the word of YHWH to Bethel, and Jeroboam was standing upon the altar to burn incense.",
+  "ref": "1-kings 13:1",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "Hebrew writes the place-name בית אל as two tokens; the preposition אל is the second half of the name Bethel"
+    },
+    {
+      "kind": "substitution",
+      "subject": "man of Elohim",
+      "rationale": "אישׁ אלהים here uses SDBH S2: a person in special relationship with God with prophetic gifts"
+    }
+  ],
+  "translation": "And behold, a man of Elohim came from Judah by the word of YHWH to Bethel, and Jeroboam was standing on the altar to make smoke rise.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc2a2b7bd9f9b2b95948ea81c5ea088be172645f16c0467ce446587b62c7b35c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/13\/1-4.1791187075462.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּ֣ה",
       "gloss": "And behold"
     },
     {
-      "surface": "איש",
-      "gloss": "a man"
+      "surface": "אִ֣ישׁ",
+      "gloss": "a man of",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "of Elohim"
+      "surface": "אֱלֹהִ֗ים",
+      "gloss": "Elohim",
+      "sense": "S2"
     },
     {
-      "surface": "בא",
+      "surface": "בָּ֧א",
       "gloss": "came"
     },
     {
-      "surface": "מיהודה",
-      "gloss": "from Judah"
+      "surface": "מִיהוּדָ֛ה",
+      "gloss": "from Judah",
+      "sense": "S1"
     },
     {
-      "surface": "בדבר",
-      "gloss": "by the word"
+      "surface": "בִּדְבַ֥ר",
+      "gloss": "by the word of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "surface": "אֶל",
+      "gloss": "⟨to⟩"
     },
     {
-      "surface": "בית",
+      "surface": "בֵּֽית",
       "gloss": "Beth"
     },
     {
-      "surface": "אל",
-      "gloss": "El"
+      "surface": "אֵ֑ל",
+      "gloss": "el",
+      "sense": null
     },
     {
-      "surface": "וירבעם",
-      "gloss": "and Jeroboam"
+      "surface": "וְיָרָבְעָ֛ם",
+      "gloss": "and Jeroboam",
+      "sense": "S1"
     },
     {
-      "surface": "עמד",
+      "surface": "עֹמֵ֥ד",
       "gloss": "was standing"
     },
     {
-      "surface": "על",
-      "gloss": "upon",
-      "readings": [
-        "upon",
-        "on"
-      ]
+      "surface": "עַל",
+      "gloss": "on"
     },
     {
-      "surface": "המזבח",
-      "gloss": "the altar"
+      "surface": "הַמִּזְבֵּ֖חַ",
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
-      "surface": "להקטיר",
-      "gloss": "to burn incense"
+      "surface": "לְהַקְטִֽיר",
+      "gloss": "to make smoke rise",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:57:55.463387355Z",
+  "model": "glm-5.3"
 }

@@ -1,49 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "For a wind passes over him and he is no more, and his place does not recognize him again.",
-  "tokens": [
+  "ref": "psalms 103:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "addition",
+      "subject": "longer",
+      "rationale": "עוד with the negation means 'no more'; English needs 'longer' to carry the idiom"
     },
     {
-      "surface": "רוח",
+      "kind": "idiom",
+      "subject": "and he is not",
+      "rationale": "Hebrew ואיננו — literal nonexistence-phrase kept rather than smoothed to 'he is gone'"
+    }
+  ],
+  "translation": "for a wind passes over him and he is not, and his place recognizes him no more.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4165d72fcedbc11bd6b81586511682440c86a748aeabad76e89fa11da7d7ec38",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/13-16.1791193266369.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "רוּחַ",
       "gloss": "a wind",
       "readings": [
         "a wind",
-        "a breath",
-        "a spirit"
-      ]
+        "a breath"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "עברה",
-      "gloss": "passes over"
+      "surface": "עָבְרָה",
+      "gloss": "passes over",
+      "sense": "S1"
     },
     {
-      "surface": "בו",
-      "gloss": "over him"
+      "surface": "בּוֹ",
+      "gloss": "him",
+      "sense": null
     },
     {
-      "surface": "ואיננו",
-      "gloss": "and he is no more"
+      "surface": "וְאֵינֶנּוּ",
+      "gloss": "and he is not",
+      "sense": null
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and no",
+      "sense": "S1"
     },
     {
-      "surface": "יכירנו",
-      "gloss": "does not recognize him"
+      "surface": "יַכִּירֶנּוּ",
+      "gloss": "…recognizes him",
+      "sense": "S1"
     },
     {
-      "surface": "עוד",
-      "gloss": "again"
+      "surface": "עוֹד",
+      "gloss": "longer",
+      "sense": null
     },
     {
-      "surface": "מקומו",
-      "gloss": "his place"
+      "surface": "מְקוֹמוֹ",
+      "gloss": "his place",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:06.369997149Z",
+  "model": "glm-5.3"
 }

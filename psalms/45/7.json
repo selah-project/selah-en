@@ -1,93 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Your throne, O Elohim, is forever and ever; a scepter of uprightness is the scepter of your kingdom.",
-  "tokens": [
+  "ref": "psalms 45:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
     {
-      "surface": "כסאך",
-      "gloss": "your throne"
+      "kind": "crux",
+      "subject": "אלהים",
+      "rationale": "address ('your throne, O Elohim') vs subject ('Elohim is your throne'); the vocative is the plain reading, the other is ancient"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "two verbless clauses require an English copula"
     },
     {
-      "surface": "עולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "ועד",
-      "gloss": "and ever"
-    },
-    {
-      "surface": "שבט",
-      "gloss": "a scepter",
-      "readings": [
-        "a scepter",
-        "a staff",
-        "a rod"
-      ],
-      "held_by": {
-        "a scepter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a staff": [
-          "en4"
-        ],
-        "a rod": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מישר",
-      "gloss": "of uprightness",
-      "readings": [
-        "of uprightness",
-        "of equity"
-      ],
-      "held_by": {
-        "of uprightness": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of equity": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שבט",
-      "gloss": "the scepter",
-      "readings": [
-        "the scepter",
-        "the staff",
-        "the rod"
-      ],
-      "held_by": {
-        "the scepter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the staff": [
-          "en4"
-        ],
-        "the rod": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מלכותך",
-      "gloss": "of your kingdom"
+      "kind": "wordplay",
+      "subject": "שבט … שבט",
+      "rationale": "the doubled scepter frames the verse's second half; the repetition is kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your throne, O Elohim, ⟨is⟩ forever and ever; a scepter of uprightness ⟨is⟩ the scepter of your kingdom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "abd1bb24bf454b8a275d88fb269c428555eec0228169468573a9629adda8c6df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/5-8.1791192733489.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּסְאֲךָ֣",
+      "gloss": "your throne",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱ֭לֹהִים",
+      "gloss": "O Elohim",
+      "readings": [
+        "O Elohim",
+        "Elohim is"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָעֶ֑ד",
+      "gloss": "and ever",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׁ֥בֶט",
+      "gloss": "a scepter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֝ישֹׁ֗ר",
+      "gloss": "uprightness",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׁ֣בֶט",
+      "gloss": "⟨is⟩ the scepter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכוּתֶֽךָ",
+      "gloss": "your kingdom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:13.490713775Z",
+  "model": "glm-5.3"
 }

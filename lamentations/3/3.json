@@ -1,52 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Surely against me He turns back; He overturns His hand all the day.",
-  "tokens": [
+  "ref": "lamentations 3:3",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "אך",
-      "gloss": "Surely",
-      "readings": [
-        "Surely",
-        "only"
-      ],
-      "held_by": {
-        "Surely": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "only": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "idiom",
+      "subject": "turn his hand",
+      "rationale": "Hebrew idiom for punishing; kept literally with its sense of violence"
     },
     {
-      "surface": "בי",
-      "gloss": "against me"
-    },
-    {
-      "surface": "ישב",
-      "gloss": "He turns back"
-    },
-    {
-      "surface": "יהפך",
-      "gloss": "He overturns"
-    },
-    {
-      "surface": "ידו",
-      "gloss": "His hand"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "היום",
-      "gloss": "the day"
+      "kind": "wordplay",
+      "subject": "ישב \/ יהפך",
+      "rationale": "two near-synonymous 'turn' verbs in parallel, the repetition intensified"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Only against me he turns his hand again, all the day.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf644b5cbbb5ef78c78b3bd09af495ab3329b48a5317f9813bf06d95f983d308",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/1-4.1791194694892.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַךְ",
+      "gloss": "only",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּי",
+      "gloss": "against me",
+      "sense": null
+    },
+    {
+      "surface": "יָשׁוּב",
+      "gloss": "he turns again",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַהֲפֹךְ",
+      "gloss": "he overturns",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדוֹ",
+      "gloss": "his hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:54.893197213Z",
+  "model": "glm-5.3"
 }

@@ -1,110 +1,135 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And the king said to me, “Why ⟨is⟩ your face bad, and you are not sick? This is nothing except sadness of heart.” And I feared very greatly.",
+  "ref": "nehemiah 2:2",
+  "book": "nehemiah",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "אין זה כי אם",
+      "rationale": "lit. 'not this but rather'; rendered as the English idiom 'this is nothing but'"
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause פניך רעים requires an English copula"
+    },
+    {
+      "kind": "you",
+      "subject": "to Nehemiah",
+      "rationale": "the king directly questions Nehemiah's face and heart"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רעים \/ רע לב",
+      "rationale": "sad (face) and sadness (of heart) repeat the root רע, binding face to heart"
+    }
+  ],
+  "translation": "And the king said to me, “Why is your face sad, though you are not sick? This is nothing but sadness of heart.” And I feared very much indeed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "154f14033d99b0ffb81d0ce020e2100d61c32e210d4088774e060f7d34434a28",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nehemiah\/2\/1-4.1791195751085.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nehemiah.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and he said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "מדוע",
-      "gloss": "why"
+      "gloss": "Why",
+      "sense": "S1"
     },
     {
       "surface": "פניך",
-      "gloss": "your face"
+      "gloss": "is your face",
+      "sense": "S1"
     },
     {
       "surface": "רעים",
-      "gloss": "bad",
-      "readings": [
-        "bad",
-        "sad"
-      ],
-      "held_by": {
-        "bad": [
-          "v2",
-          "en4"
-        ],
-        "sad": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "sad",
+      "sense": "S1"
     },
     {
       "surface": "ואתה",
-      "gloss": "and you"
+      "gloss": "though you",
+      "sense": null
     },
     {
       "surface": "אינך",
-      "gloss": "are not"
+      "gloss": "are not",
+      "sense": null
     },
     {
       "surface": "חולה",
-      "gloss": "sick"
+      "gloss": "sick",
+      "sense": "S1"
     },
     {
       "surface": "אין",
-      "gloss": "there is not"
+      "gloss": "This is nothing",
+      "sense": null
     },
     {
       "surface": "זה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "except"
+      "gloss": "but",
+      "sense": null
     },
     {
       "surface": "אם",
-      "gloss": "if not"
+      "gloss": "⟨but⟩",
+      "sense": null
     },
     {
       "surface": "רע",
       "gloss": "sadness",
-      "readings": [
-        "sadness",
-        "badness"
-      ],
-      "held_by": {
-        "sadness": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "badness": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "לב",
-      "gloss": "of heart"
+      "gloss": "of heart",
+      "sense": "S1"
     },
     {
       "surface": "ואירא",
-      "gloss": "and I feared"
+      "gloss": "and I feared",
+      "sense": "S1"
     },
     {
       "surface": "הרבה",
-      "gloss": "very"
+      "gloss": "very much",
+      "sense": null
     },
     {
       "surface": "מאד",
-      "gloss": "greatly"
+      "gloss": "indeed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:22:31.086265798Z",
+  "model": "glm-5.3"
 }

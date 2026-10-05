@@ -1,67 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Do not add to his words, lest he rebuke you and you be found a liar.",
+  "ref": "proverbs 30:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "you be proved a liar",
+      "rationale": " niphal of כזב: 'be proved a liar' vs 'be found false' vs 'be dealt with as a liar'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כזב",
+      "rationale": "the same root as verse 8's 'word of lie' — the one who adds to the words becomes the falsehood he added"
+    }
+  ],
+  "translation": "Do not add to his words, lest he rebuke you and you be proved a liar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "33ec5f8f137a02d82d8148ea93c6a4ce100425f945b87dd3189fc2b2f17cf095",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/5-8.1791194071273.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "Do not"
     },
     {
-      "surface": "תוסף",
+      "surface": "תּוֹסֵףּ",
       "gloss": "add"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "to"
     },
     {
-      "surface": "דבריו",
-      "gloss": "his words"
+      "surface": "דְּבָרָיו",
+      "gloss": "his words",
+      "sense": "S1"
     },
     {
-      "surface": "פן",
+      "surface": "פֶּן",
       "gloss": "lest"
     },
     {
-      "surface": "יוכיח",
+      "surface": "יוֹכִיחַ",
       "gloss": "he rebuke",
-      "readings": [
-        "he rebuke",
-        "he argue"
-      ],
-      "held_by": {
-        "he rebuke": [
-          "v2",
-          "v3"
-        ],
-        "he argue": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בך",
-      "gloss": "with you",
-      "readings": [
-        "with you",
-        "in you"
-      ],
-      "held_by": {
-        "with you": [
-          "v1",
-          "v3"
-        ],
-        "in you": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּךָ",
+      "gloss": "you"
     },
     {
-      "surface": "ונכזבת",
-      "gloss": "and you be found a liar"
+      "surface": "וְנִכְזַבְתָּ",
+      "gloss": "and you be proved a liar",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:31.274550089Z",
+  "model": "glm-5.3"
 }

@@ -1,10 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "But if the bright spot stays in its place, has not spread in the skin, and it is dim — it is the swelling of the burn; and the priest shall pronounce him clean, for it is the scar of the burn.",
+  "ref": "leviticus 13:28",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "צרבת",
+      "rationale": "The related noun occurs only in Lev 13:23, here, and Prov 16:27; the burn-scar sense is rare and kept literal."
+    },
+    {
+      "kind": "crux",
+      "subject": "שאת",
+      "rationale": "'swelling\/elevation' of the burn — some read it as the raised scar tissue; rendered by the literal picture rather than a diagnostic label."
+    },
+    {
+      "kind": "addition",
+      "subject": "in its place",
+      "rationale": "תחתיה literally 'under it', idiom for standing where it is; the locative sense is carried by the phrase."
+    }
+  ],
+  "translation": "And if the bright spot stands in its place, has not spread in the skin, and it is faded — it is the swelling of the burn — then the priest shall pronounce him clean, for it is the scar of the burn.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b8abf4b77d727af2e4ee239b437f363388d14d89e64733c34b205fa924366ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/25-28.1791182415966.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואם",
-      "gloss": "But if"
+      "gloss": "and if"
     },
     {
       "surface": "תחתיה",
@@ -12,66 +44,60 @@
     },
     {
       "surface": "תעמד",
-      "gloss": "stays"
+      "gloss": "stands"
     },
     {
       "surface": "הבהרת",
-      "gloss": "the bright spot"
+      "gloss": "the bright spot",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "פשתה",
-      "gloss": "has spread"
+      "gloss": "it has spread",
+      "sense": "S1"
     },
     {
       "surface": "בעור",
-      "gloss": "in the skin"
+      "gloss": "in the skin",
+      "sense": "S1"
     },
     {
       "surface": "והוא",
-      "gloss": "and it ⟨is⟩"
+      "gloss": "and it"
     },
     {
       "surface": "כהה",
-      "gloss": "is dim"
+      "gloss": "is faded",
+      "sense": "S1"
     },
     {
       "surface": "שאת",
-      "gloss": "the swelling",
-      "readings": [
-        "the swelling",
-        "a rising"
-      ],
-      "held_by": {
-        "the swelling": [
-          "v2",
-          "v3"
-        ],
-        "a rising": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "the swelling of",
+      "sense": "S1"
     },
     {
       "surface": "המכוה",
-      "gloss": "of the burn"
+      "gloss": "the burn",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "it ⟨is⟩"
+      "gloss": "it is"
     },
     {
       "surface": "וטהרו",
-      "gloss": "and shall pronounce him clean"
+      "gloss": "then shall pronounce him clean",
+      "sense": "S1"
     },
     {
       "surface": "הכהן",
-      "gloss": "the priest"
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -79,35 +105,19 @@
     },
     {
       "surface": "צרבת",
-      "gloss": "the scar",
-      "readings": [
-        "the scar",
-        "the scab",
-        "an inflammation"
-      ],
-      "held_by": {
-        "the scar": [
-          "v2",
-          "v3"
-        ],
-        "the scab": [
-          "en4"
-        ],
-        "an inflammation": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "the scar of",
+      "sense": "S1"
     },
     {
       "surface": "המכוה",
-      "gloss": "of the burn"
+      "gloss": "the burn",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "it ⟨is⟩"
+      "gloss": "it is"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:15.969559172Z",
+  "model": "glm-5.3"
 }

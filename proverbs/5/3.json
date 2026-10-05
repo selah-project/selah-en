@@ -1,54 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For honey from the comb drips the lips of a strange woman, and smoother than oil her palate,",
+  "ref": "proverbs 5:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "זָרָה",
+      "rationale": "'Strange\/outsider woman' vs the traditional 'adulteress'; the Hebrew says outsider, another man's wife."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נֹפֶת\/תִּטֹּפְנָה",
+      "rationale": "Root נטף in both noun and verb: 'a dripping drips' — the drip-picture doubled, lost in English."
+    }
+  ],
+  "translation": "For the lips of a strange woman drip honey, and her palate is smoother than oil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a9fc2d3726bec4a35dd2e30951c3f30f141cab9ce7a9f02409f8e0f7bfa3072c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/5\/1-4.1791193717149.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "נפת",
-      "gloss": "honey from the comb"
+      "surface": "נֹפֶת",
+      "gloss": "virgin honey",
+      "sense": "S1"
     },
     {
-      "surface": "תטפנה",
-      "gloss": "drips"
+      "surface": "תִּטֹּפְנָה",
+      "gloss": "drip",
+      "sense": "S1"
     },
     {
-      "surface": "שפתי",
-      "gloss": "the lips of"
+      "surface": "שִׂפְתֵי",
+      "gloss": "the lips of",
+      "sense": "S1"
     },
     {
-      "surface": "זרה",
+      "surface": "זָרָה",
       "gloss": "a strange woman",
       "readings": [
         "a strange woman",
-        "a foreign woman"
+        "an outsider woman"
       ],
-      "held_by": {
-        "a strange woman": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a foreign woman": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וחלק",
-      "gloss": "and smoother"
+      "surface": "וְחָלָק",
+      "gloss": "and smooth",
+      "sense": "S1"
     },
     {
-      "surface": "משמן",
-      "gloss": "than oil"
+      "surface": "מִשֶּׁמֶן",
+      "gloss": "than oil",
+      "sense": "S1"
     },
     {
-      "surface": "חכה",
-      "gloss": "her palate"
+      "surface": "חִכָּהּ",
+      "gloss": "her palate",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:48:37.150374516Z",
+  "model": "glm-5.3"
 }

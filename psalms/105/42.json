@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "For he remembered ⟨את⟩ his holy word, ⟨את⟩ Abraham his servant.",
-  "tokens": [
+  "ref": "psalms 105:42",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "He",
+      "rationale": "Subject YHWH supplied; Hebrew verb carries no pronoun"
     },
     {
-      "surface": "זכר",
-      "gloss": "he remembered"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "word"
-    },
-    {
-      "surface": "קדשו",
-      "gloss": "his holy"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אברהם",
-      "gloss": "Abraham"
-    },
-    {
-      "surface": "עבדו",
-      "gloss": "his servant"
+      "kind": "wordplay",
+      "subject": "davar qodsho",
+      "rationale": "Bound construct 'word of His holiness' flattened to 'His holy word'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For He remembered ⟨את⟩ His holy word, ⟨את⟩ Abraham His servant.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2d7b97ed26939908b9adaa6f7350450f35e284c8f0bddfdf669ee75c2761773",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/41-44.1791193311645.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "זָכַ֭ר",
+      "gloss": "He remembered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "His holy word"
+    },
+    {
+      "surface": "דְּבַ֣ר",
+      "gloss": "word",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדְשֽׁוֹ",
+      "gloss": "His holy",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶֽת",
+      "gloss": "⟨את⟩",
+      "marks": "Abraham His servant"
+    },
+    {
+      "surface": "אַבְרָהָ֥ם",
+      "gloss": "Abraham",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַבְדּֽוֹ",
+      "gloss": "His servant",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:51.645823851Z",
+  "model": "glm-5.3"
 }

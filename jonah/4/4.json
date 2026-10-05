@@ -1,58 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And YHWH said, “Is it good that it burns to you?”",
-  "tokens": [
+  "ref": "jonah 4:4",
+  "book": "jonah",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "kind": "crux",
+      "subject": "ההיטיב חרה לך",
+      "rationale": "rhetorical question 'is it right that it burns to you?' vs a statement 'you do well to be angry'; the question carried."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "חרה",
+      "rationale": "the fire-of-anger verb echoes verse 1's ויחר לו, now questioned by YHWH."
     },
     {
-      "surface": "ההיטב",
-      "gloss": "Is it good",
-      "readings": [
-        "Is it good",
-        "Do you do well"
-      ],
-      "held_by": {
-        "Is it good": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Do you do well": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חרה",
-      "gloss": "that it burns",
-      "readings": [
-        "that it burns",
-        "that it burned"
-      ],
-      "held_by": {
-        "that it burns": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "that it burned": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
+      "kind": "you",
+      "subject": "to Jonah",
+      "rationale": "YHWH's direct question to Jonah."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And YHWH said, “Is it right, this burning to you?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9c3f703dda501474df5ea4ad750e76386d4a7769c54218275b5f48ad83f292eb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jonah\/4\/1-4.1791191643715.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jonah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֣אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֔ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַהֵיטֵ֑ב",
+      "gloss": "Is it right",
+      "sense": "S2"
+    },
+    {
+      "surface": "חָרָ֥ה",
+      "gloss": "this burning",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָֽךְ",
+      "gloss": "to you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:14:03.717145837Z",
+  "model": "glm-5.3"
 }

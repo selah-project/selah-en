@@ -1,102 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "At his day ⟨the⟩ later ⟨ones⟩ are appalled, and ⟨the⟩ earlier ⟨ones⟩ seized ⟨with⟩ horror.",
-  "tokens": [
+  "ref": "job 18:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "At",
-      "readings": [
-        "At",
-        "Over"
-      ],
-      "held_by": {
-        "At": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "Over": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "אחרנים \/ קדמנים",
+      "rationale": "Either later vs earlier generations (temporal), or west vs east dwellers (spatial); temporal reading chosen as plain sense."
     },
     {
-      "surface": "יומו",
-      "gloss": "his day"
+      "kind": "hapax",
+      "subject": "שער",
+      "rationale": "שַׂעַר 'horror, shuddering terror' occurs only 4 times in Tanakh; not to be confused with שֵׂעָר 'hair'."
     },
     {
-      "surface": "נשמו",
-      "gloss": "are appalled"
-    },
-    {
-      "surface": "אחרנים",
-      "gloss": "the later ones",
-      "readings": [
-        "the later ones",
-        "those of the west",
-        "those who come after"
-      ],
-      "held_by": {
-        "the later ones": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "those of the west": [
-          "en4"
-        ],
-        "those who come after": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וקדמנים",
-      "gloss": "and the earlier ones",
-      "readings": [
-        "and the earlier ones",
-        "and those of the east",
-        "and those who went before"
-      ],
-      "held_by": {
-        "and the earlier ones": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and those of the east": [
-          "en4"
-        ],
-        "and those who went before": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אחזו",
-      "gloss": "seized",
-      "readings": [
-        "seized",
-        "seize"
-      ],
-      "held_by": {
-        "seized": [
-          "v1",
-          "v3"
-        ],
-        "seize": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שער",
-      "gloss": "horror"
+      "kind": "addition",
+      "subject": "with",
+      "rationale": "English needs 'with' for אחז שער, literally 'seize horror'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "At his day the later ones are appalled, and the earlier ones are seized with horror.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2d7599a738de50dcc5315e5ab0fa703dadb44abaca78992a0192a4dd200c7e87",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/18\/17-20.1791194333955.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "At"
+    },
+    {
+      "surface": "יֹ֭מוֹ",
+      "gloss": "his day",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָשַׁ֣מּוּ",
+      "gloss": "are appalled",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרֹנִ֑ים",
+      "gloss": "the later ones",
+      "sense": "S3"
+    },
+    {
+      "surface": "וְ֝קַדְמֹנִ֗ים",
+      "gloss": "and the earlier ones",
+      "sense": "S3"
+    },
+    {
+      "surface": "אָ֣חֲזוּ",
+      "gloss": "are seized",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָֽׂעַר",
+      "gloss": "with horror",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:53.956340894Z",
+  "model": "glm-5.3"
 }

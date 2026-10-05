@@ -1,47 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Before him the desert-dwellers shall bow, and his enemies shall lick the dust.",
-  "tokens": [
+  "ref": "psalms 72:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
     {
-      "surface": "לפניו",
-      "gloss": "Before him"
+      "kind": "crux",
+      "subject": "ציים",
+      "rationale": "'desert tribes' vs 'wild beasts (of the desert)'; both senses attested, here people bowing seems intended."
     },
     {
-      "surface": "יכרעו",
-      "gloss": "shall bow"
-    },
-    {
-      "surface": "ציים",
-      "gloss": "the desert-dwellers",
-      "readings": [
-        "the desert-dwellers",
-        "the wild beasts"
-      ],
-      "held_by": {
-        "the desert-dwellers": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wild beasts": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואיביו",
-      "gloss": "and his enemies"
-    },
-    {
-      "surface": "עפר",
-      "gloss": "the dust"
-    },
-    {
-      "surface": "ילחכו",
-      "gloss": "shall lick"
+      "kind": "wordplay",
+      "subject": "יכרעו \/ ילחכו",
+      "rationale": "paired verbs of prostration and licking dust frame the verse as a chiasm of humiliation."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Before his face shall desert-dwellers kneel, and his enemies shall lick the dust.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3c1ec8a2eee4c7be059340b69022583c03f43a3eb9e8236a8621373a67975e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/9-12.1791192979568.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְ֭פָנָיו",
+      "gloss": "Before his face"
+    },
+    {
+      "surface": "יִכְרְע֣וּ",
+      "gloss": "shall kneel",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִיִּ֑ים",
+      "gloss": "desert-dwellers",
+      "readings": [
+        "desert-dwellers",
+        "desert-beasts"
+      ],
+      "sense": "S2"
+    },
+    {
+      "surface": "וְ֝אֹיְבָ֗יו",
+      "gloss": "and his enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָפָ֥ר",
+      "gloss": "dust",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְלַחֵֽכוּ",
+      "gloss": "shall lick",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:19.568752569Z",
+  "model": "glm-5.3"
 }

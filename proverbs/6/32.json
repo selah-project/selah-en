@@ -1,56 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "He who commits adultery ⟨with⟩ a woman lacks heart; destroying his own nefesh — he does it.",
-  "tokens": [
+  "ref": "proverbs 6:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "נאף",
-      "gloss": "commits adultery"
+      "kind": "substitution",
+      "subject": "lacks heart",
+      "rationale": "חסר לב is 'lacking heart', the seat of sense — not 'devoid of understanding' as idiom smooths it."
     },
     {
-      "surface": "אשה",
-      "gloss": "a woman"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפשו here borders 'life' and 'appetite'; 'soul' in the church register is rejected."
     },
     {
-      "surface": "חסר",
-      "gloss": "lacks"
-    },
-    {
-      "surface": "לב",
-      "gloss": "heart"
-    },
-    {
-      "surface": "משחית",
-      "gloss": "destroying"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his nefesh",
-      "readings": [
-        "his nefesh",
-        "his life",
-        "his soul"
-      ],
-      "held_by": {
-        "his nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his life": [],
-        "his soul": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "יעשנה",
-      "gloss": "does it"
+      "kind": "alternative",
+      "subject": "he does it",
+      "rationale": "יַעֲשֶׂנָּה with feminine suffix may read 'he does this' — the emphatic הוא יעשנה stresses the adulterer destroys himself."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "One who commits adultery with a woman lacks heart; he who destroys his own throat — he does it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0f54afb6afccfeb0a784cc22249caf82616556bc8001bb49970c45f11443e3f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/6\/29-32.1791193752559.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֹאֵף",
+      "gloss": "One who commits adultery with",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִשָּׁה",
+      "gloss": "a woman",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲסַר",
+      "gloss": "lacks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵב",
+      "gloss": "heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׁחִית",
+      "gloss": "he who destroys",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his own throat",
+      "sense": "S1",
+      "readings": [
+        "his own throat",
+        "his own life",
+        "his own soul"
+      ]
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲשֶׂנָּה",
+      "gloss": "does it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:12.560324800Z",
+  "model": "glm-5.3"
 }

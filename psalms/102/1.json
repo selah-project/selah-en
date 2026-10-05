@@ -1,70 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A prayer of the afflicted one, when he faints, and before YHWH he pours out his complaint.",
+  "ref": "psalms 102:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "his complaint",
+      "rationale": "שִׂיחַ can be 'his meditation' or 'his grief-talk'; the pouring idiom favors complaint"
+    },
+    {
+      "kind": "substitution",
+      "subject": "when he is faint",
+      "rationale": "יעטף literally 'when he shrouds himself \/ is wrapped over', a picture of being covered by weakness"
+    }
+  ],
+  "translation": "A prayer of the afflicted one, when he is faint and pours out his complaint before YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "632fb421cb4652830aa815851cc44ab06b365be1eb7a895e049f889b8f133b8e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/1-4.1791193248707.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תפלה",
-      "gloss": "A prayer"
+      "surface": "תְּפִלָּה",
+      "gloss": "A prayer",
+      "sense": "S1"
     },
     {
-      "surface": "לעני",
-      "gloss": "of the afflicted one"
+      "surface": "לְעָנִי",
+      "gloss": "of the afflicted one",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "when"
     },
     {
-      "surface": "יעטף",
-      "gloss": "he faints",
-      "readings": [
-        "he faints",
-        "he is enveloped"
-      ],
-      "held_by": {
-        "he faints": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he is enveloped": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יַעֲטֹף",
+      "gloss": "he is faint",
+      "sense": "S1"
     },
     {
-      "surface": "ולפני",
+      "surface": "וְלִפְנֵי",
       "gloss": "and before"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ישפך",
-      "gloss": "he pours out"
+      "surface": "יִשְׁפֹּךְ",
+      "gloss": "he pours out",
+      "sense": "S1"
     },
     {
-      "surface": "שיחו",
+      "surface": "שִׂיחוֹ",
       "gloss": "his complaint",
-      "readings": [
-        "his complaint",
-        "his meditation"
-      ],
-      "held_by": {
-        "his complaint": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his meditation": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:48.708370780Z",
+  "model": "glm-5.3"
 }

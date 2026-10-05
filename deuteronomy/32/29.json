@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "If they were wise, they would understand this; they would discern their latter end.",
-  "tokens": [
+  "ref": "deuteronomy 32:29",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "לו",
-      "gloss": "If only"
+      "kind": "crux",
+      "subject": "If they were wise",
+      "rationale": "לוּ read as unfulfilled wish or contrary-to-fact conditional: 'If they were wise' vs 'Would that they were wise'."
     },
     {
-      "surface": "חכמו",
-      "gloss": "wise"
-    },
-    {
-      "surface": "ישכילו",
-      "gloss": "they would understand",
-      "readings": [
-        "they would understand",
-        "they would act wisely"
-      ],
-      "held_by": {
-        "they would understand": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they would act wisely": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "זאת",
-      "gloss": "this"
-    },
-    {
-      "surface": "יבינו",
-      "gloss": "they would discern"
-    },
-    {
-      "surface": "לאחריתם",
-      "gloss": "their latter end"
+      "kind": "alternative",
+      "subject": "their end",
+      "rationale": "אַחֲרִית can mean 'latter end\/future' or 'posterity'; 'what would come after them'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If they were wise, they would act with insight — this they would discern, their end.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d8eb79293ebf4cc6c7f52ad9ab6c21c61e45a8c402ea0f97078be5a516fbc75",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/29-32.1791184219085.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ל֥וּ",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "חָכְמ֖וּ",
+      "gloss": "they were wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׂכִּ֣ילוּ",
+      "gloss": "they would act with insight",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֹ֑את",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "יָבִ֖ינוּ",
+      "gloss": "they would discern",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאַחֲרִיתָֽם",
+      "gloss": "their end",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:19.086654486Z",
+  "model": "glm-5.3"
 }

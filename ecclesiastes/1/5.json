@@ -1,92 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And dawns the sun, and the sun goes in, and to its place it pants — rising there, it is there.",
+  "ref": "ecclesiastes 1:5",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "panting",
+      "rationale": "שואף here is usually rendered 'hastens' (from a supposed root אוף, to desire); the dictionary's literal picture is gasping\/panting, kept for the sun straining back to its place."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "וְזָרַח…זוֹרֵחַ",
+      "rationale": "The verb 'rise' opens and closes the verse, framing the sun's circuit."
+    }
+  ],
+  "translation": "And rises the sun, and comes the sun, and to its place it pants — rising, it is there.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "46b91b834adeb8524320056cca67dc7ee4e4ebcdd30daa7745f7a764df84e11e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/1\/5-8.1791194850134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "וזרח",
-      "gloss": "and dawns",
-      "readings": [
-        "and dawns",
-        "and rises"
-      ],
-      "held_by": {
-        "and dawns": [
-          "en4"
-        ],
-        "and rises": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "וְזָרַ֥ח",
+      "gloss": "and rises",
+      "sense": "S1"
     },
     {
-      "surface": "השמש",
-      "gloss": "the sun"
+      "surface": "הַשֶּׁ֖מֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
     },
     {
-      "surface": "ובא",
-      "gloss": "and goes in",
-      "readings": [
-        "and goes in",
-        "and sets"
-      ],
-      "held_by": {
-        "and goes in": [
-          "en4"
-        ],
-        "and sets": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "וּבָ֣א",
+      "gloss": "and comes"
     },
     {
-      "surface": "השמש",
-      "gloss": "the sun"
+      "surface": "הַשָּׁ֑מֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
+      "surface": "וְאֶ֨ל",
       "gloss": "and to"
     },
     {
-      "surface": "מקומו",
-      "gloss": "its place"
+      "surface": "מְקוֹמ֔וֹ",
+      "gloss": "its place",
+      "sense": "S1"
     },
     {
-      "surface": "שואף",
+      "surface": "שׁוֹאֵ֛ף",
       "gloss": "panting",
+      "sense": "S1",
       "readings": [
         "panting",
-        "longing"
-      ],
-      "held_by": {
-        "panting": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "longing": [
-          "en4"
-        ]
-      }
+        "gasping"
+      ]
     },
     {
-      "surface": "זורח",
-      "gloss": "rising"
+      "surface": "זוֹרֵ֥חַֽ",
+      "gloss": "rising",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "ה֖וּא",
       "gloss": "it"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "surface": "שָֽׁם",
+      "gloss": "there",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:30.135093588Z",
+  "model": "glm-5.3"
 }

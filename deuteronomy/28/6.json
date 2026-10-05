@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Blessed ⟨are⟩ you in your coming in, and blessed ⟨are⟩ you in your going out.",
-  "tokens": [
+  "ref": "deuteronomy 28:6",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew participle lacks a copula; supplied and bracketed"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second-person address throughout the blessing list"
     },
     {
-      "surface": "בבאך",
-      "gloss": "in your coming in"
-    },
-    {
-      "surface": "וברוך",
-      "gloss": "and blessed"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "בצאתך",
-      "gloss": "in your going out"
+      "kind": "wordplay",
+      "subject": "בבאך\/בצאתך",
+      "rationale": "merism of coming-in and going-out bounding all daily activity"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Blessed ⟨are⟩ you in your coming in, and blessed ⟨are⟩ you in your going out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "90f76d1c7c21ccb5cd39b911605c741ae6fe68f837db84e4ca9d28a50d99bbbb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/28\/5-8.1791184093009.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּרוּךְ",
+      "gloss": "Blessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "בְּבֹאֶךָ",
+      "gloss": "in your coming in",
+      "sense": null
+    },
+    {
+      "surface": "וּבָרוּךְ",
+      "gloss": "and blessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "בְּצֵאתֶךָ",
+      "gloss": "in your going out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:08:13.010617455Z",
+  "model": "glm-5.3"
 }

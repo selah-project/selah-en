@@ -1,72 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 39,
-  "translation": "And it shall be in the latter part of the days I will turn ⟨את⟩ the captivity of Elam, oracle of YHWH.",
+  "ref": "jeremiah 49:39",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אשוב \/ אשיב",
+      "rationale": "ketiv 'I will turn back' (qal) vs qere 'I will restore' (hiphil); the qere is the plain sense rendered."
+    },
+    {
+      "kind": "crux",
+      "subject": "שבית",
+      "rationale": "שְׁבוּת rendered both 'captivity\/exiles' and 'former fortunes' in the tradition; 'the fortunes of' is a lawful second reading."
+    },
+    {
+      "kind": "mystery",
+      "subject": "the end of days",
+      "rationale": "אַחֲרִית הַיָּמִים points to an unsealed future time whose content is withheld."
+    }
+  ],
+  "translation": "And it will be in the end of days: I will restore ⟨את⟩ the captivity of Elam, oracle of YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e47949a7cd436da09a075a38b4f1f44cc079a4e01070414684d34183906deef4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/49\/37-39.1791190034148.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "And it shall be"
+      "gloss": "And it will be",
+      "sense": null
     },
     {
       "surface": "באחרית",
-      "gloss": "in the latter part of"
+      "gloss": "in the end of",
+      "sense": "S1"
     },
     {
       "surface": "הימים",
-      "gloss": "the days"
+      "gloss": "days",
+      "sense": "S1"
     },
     {
       "surface": "אשוב",
-      "gloss": "I will turn",
+      "gloss": "I will restore",
       "readings": [
-        "I will turn",
-        "I will restore"
+        "I will restore",
+        "I will turn back"
       ],
-      "held_by": {
-        "I will turn": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I will restore": [
-          "v2"
-        ]
-      }
+      "sense": "S2"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the captivity of Elam",
+      "sense": null
     },
     {
       "surface": "שבית",
-      "gloss": "the captivity",
+      "gloss": "the captivity of",
       "readings": [
-        "the captivity",
-        "the fortunes"
+        "the captivity of",
+        "the fortunes of"
       ],
-      "held_by": {
-        "the captivity": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the fortunes": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "עילם",
-      "gloss": "Elam"
+      "gloss": "Elam",
+      "sense": "S1"
     },
     {
       "surface": "נאם",
-      "gloss": "oracle of"
+      "gloss": "oracle of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:47:14.149348534Z",
+  "model": "glm-5.3"
 }

@@ -1,71 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And Saul swore to her by YHWH, saying, \"YHWH lives — if iniquity meets you in this matter.\"",
-  "tokens": [
+  "ref": "1-samuel 28:10",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "וישבע",
-      "gloss": "And swore"
+      "kind": "idiom",
+      "subject": "חי יהוה",
+      "rationale": "oath formula 'as YHWH lives'; the prefixed 'As…' supplies the English oath structure"
     },
     {
-      "surface": "לה",
+      "kind": "crux",
+      "subject": "אם יקרך עון",
+      "rationale": "literal 'if punishment happens to you in this matter'; oath-negating אם, so 'no punishment shall come upon you' — some render 'surely… will not'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "punishment",
+      "rationale": "עון is the deed of wrongdoing together with its resulting guilt and punishment; the oath covers all three"
+    }
+  ],
+  "translation": "And Saul swore to her by YHWH, saying, “As YHWH lives, no punishment shall come upon you for this matter.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ece12d00c6c9456bcfaf87f1bb9cfa49ee030f9c69e79869acda667c25006e59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/28\/9-12.1791185996279.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּשָּׁ֤בַֽע",
+      "gloss": "And swore",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָהּ֙",
       "gloss": "to her"
     },
     {
-      "surface": "שאול",
-      "gloss": "Saul"
+      "surface": "שָׁא֔וּל",
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
-      "surface": "ביהוה",
-      "gloss": "by YHWH"
+      "surface": "בַּֽיהוָ֖ה",
+      "gloss": "by YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לאמר",
-      "gloss": "saying"
+      "surface": "לֵאמֹ֑ר",
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
-      "surface": "חי",
-      "gloss": "lives"
+      "surface": "חַי",
+      "gloss": "As… lives",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֕ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִֽם",
       "gloss": "if"
     },
     {
-      "surface": "יקרך",
-      "gloss": "meets you",
+      "surface": "יִקְּרֵ֥ךְ",
+      "gloss": "shall come upon you",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָוֺ֖ן",
+      "gloss": "punishment",
+      "sense": "S1",
       "readings": [
-        "meets you",
-        "overtakes you"
-      ],
-      "held_by": {
-        "meets you": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "overtakes you": [
-          "v1"
-        ]
-      }
+        "punishment",
+        "guilt"
+      ]
     },
     {
-      "surface": "עון",
-      "gloss": "iniquity"
+      "surface": "בַּדָּבָ֥ר",
+      "gloss": "for this matter",
+      "sense": "S1"
     },
     {
-      "surface": "בדבר",
-      "gloss": "in the matter"
-    },
-    {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּֽה",
+      "gloss": "this",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:39:56.281394335Z",
+  "model": "glm-5.3"
 }

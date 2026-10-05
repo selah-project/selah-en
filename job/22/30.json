@@ -1,45 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "He delivers the not-innocent, and he is delivered by the cleanness of your hands.",
-  "tokens": [
+  "ref": "job 22:30",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ימלט",
-      "gloss": "He delivers"
+      "kind": "hapax",
+      "subject": "אי",
+      "rationale": "the negative אִי occurs only here in the Tanakh; KJV took it as אִי 'island' (“the island of the innocent”)"
     },
     {
-      "surface": "אי",
-      "gloss": "not"
+      "kind": "crux",
+      "subject": "the not-innocent",
+      "rationale": "read as “one who is not innocent” (God rescues even the guilty through your purity) vs “the innocent” with an emphatic or defective negative"
     },
     {
-      "surface": "נקי",
-      "gloss": "innocent"
-    },
-    {
-      "surface": "ונמלט",
-      "gloss": "and he is delivered",
-      "readings": [
-        "and he is delivered",
-        "and he escapes"
-      ],
-      "held_by": {
-        "and he is delivered": [
-          "v2",
-          "v3"
-        ],
-        "and he escapes": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בבר",
-      "gloss": "by the cleanness of"
-    },
-    {
-      "surface": "כפיך",
-      "gloss": "your hands"
+      "kind": "substitution",
+      "subject": "hands",
+      "rationale": "כַּפַּיִךָ is dual “your two palms”; the number is lost in English, and the idiom means your deeds"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He delivers the not-innocent, and he escapes by the purity of your hands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1d3a8182eafa64dbca5e8d835a40ac47efc292f63291420347142d85d67b6ae2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/22\/29-30.1791194400746.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְמַלֵּ֥ט",
+      "gloss": "He delivers",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִֽי",
+      "gloss": "the not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָקִ֑י",
+      "gloss": "innocent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִמְלַ֗ט",
+      "gloss": "and he escapes",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּבֹ֣ר",
+      "gloss": "by the purity",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּפֶּֽיךָ",
+      "gloss": "of your hands",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:00.746787250Z",
+  "model": "glm-5.3"
 }

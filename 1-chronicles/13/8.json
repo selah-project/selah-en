@@ -1,10 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And David and all Israel were playing before Elohim with all their might, and with songs, and with harps, and with lyres, and with tambourines, and with cymbals, and with trumpets.",
+  "ref": "1-chronicles 13:8",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "בכל עז \/ עזא",
+      "rationale": "Israel celebrates 'with all עֹז' in the same breath as Uzza (עֻזָּא) drives the cart; the root echo is untranslatable."
+    },
+    {
+      "kind": "substitution",
+      "subject": "double-cymbals",
+      "rationale": "מצלתים is a dual form, literally a paired instrument; 'cymbals' collapses the dual."
+    },
+    {
+      "kind": "alternative",
+      "subject": "were making merry",
+      "rationale": "משחקים covers laughing, playing, dancing, celebrating; 2 Sam 6:5 parallels it with musical instruments only."
+    }
+  ],
+  "translation": "And David and all Israel were making merry before Elohim with all strength, and with songs and with harps and with lyres and with tambourines and with double-cymbals and with trumpets.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c18a21a54ab302b7dc42bd0567e3419d1d5c961eb2ada6370c73b45b0a87b8f6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/13\/5-8.1791196263298.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ודויד",
-      "gloss": "And David"
+      "gloss": "and David",
+      "sense": "S1"
     },
     {
       "surface": "וכל",
@@ -12,11 +45,13 @@
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "משחקים",
-      "gloss": "playing"
+      "gloss": "were making merry",
+      "sense": "S1"
     },
     {
       "surface": "לפני",
@@ -24,7 +59,8 @@
     },
     {
       "surface": "האלהים",
-      "gloss": "Elohim"
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
       "surface": "בכל",
@@ -32,33 +68,40 @@
     },
     {
       "surface": "עז",
-      "gloss": "might"
+      "gloss": "strength",
+      "sense": "S1"
     },
     {
       "surface": "ובשירים",
-      "gloss": "and with songs"
+      "gloss": "and with songs",
+      "sense": "S1"
     },
     {
       "surface": "ובכנרות",
-      "gloss": "and with harps"
+      "gloss": "and with harps",
+      "sense": "S1"
     },
     {
       "surface": "ובנבלים",
-      "gloss": "and with lyres"
+      "gloss": "and with lyres",
+      "sense": "S1"
     },
     {
       "surface": "ובתפים",
-      "gloss": "and with tambourines"
+      "gloss": "and with tambourines",
+      "sense": "S1"
     },
     {
       "surface": "ובמצלתים",
-      "gloss": "and with cymbals"
+      "gloss": "and with double-cymbals",
+      "sense": "S1"
     },
     {
       "surface": "ובחצצרות",
-      "gloss": "and with trumpets"
+      "gloss": "and with trumpets",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:31:03.299462282Z",
+  "model": "glm-5.3"
 }

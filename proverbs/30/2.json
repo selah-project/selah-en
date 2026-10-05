@@ -1,53 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "For I ⟨am⟩ brutish, more than a man, and the understanding of a human I have not ⟨in⟩ me.",
-  "tokens": [
+  "ref": "proverbs 30:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "do I have",
+      "rationale": "Hebrew has no verb; the nominal clause 'and not the understanding of a human to me' needs an English verb."
     },
     {
-      "surface": "בער",
-      "gloss": "brutish"
+      "kind": "substitution",
+      "subject": "brutish",
+      "rationale": "בער pictures cattle-like lack of intelligence; 'brutish' carries the animal picture."
     },
     {
-      "surface": "אנכי",
-      "gloss": "I"
-    },
-    {
-      "surface": "מאיש",
-      "gloss": "than a man"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "בינת",
-      "gloss": "the understanding"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "a human"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me",
-      "readings": [
-        "to me",
-        "in me"
-      ],
-      "held_by": {
-        "to me": [
-          "v1"
-        ],
-        "in me": [
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "secret",
+      "subject": "the verse",
+      "rationale": "The speaker's professed lack of understanding frames the hidden knowledge asked for in verse 4."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For I am more brutish than a man, and I have not the understanding of a human being.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "68e19fae4474453572172ca026a97e11da3b82ff25e0a68cd3d28b71ba1fa661",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/1-4.1791194074229.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "בַּעַר",
+      "gloss": "brutish",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "מֵאִישׁ",
+      "gloss": "than a man",
+      "sense": null
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּינַת",
+      "gloss": "the understanding of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "a human being",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "⟨do I have⟩",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:34.230456085Z",
+  "model": "glm-5.3"
 }

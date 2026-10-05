@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Let Elohim arise, ⟨let⟩ his enemies be scattered, and let those who hate him flee from before his face.",
-  "tokens": [
+  "ref": "psalms 68:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 68,
+  "notes": [
     {
-      "surface": "יקום",
-      "gloss": "arise"
+      "kind": "wordplay",
+      "subject": "Num 10:35",
+      "rationale": "The verse quotes the ark-setting-out formula of Numbers 10:35 almost verbatim"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "יפוצו",
-      "gloss": "be scattered"
-    },
-    {
-      "surface": "אויביו",
-      "gloss": "his enemies"
-    },
-    {
-      "surface": "וינוסו",
-      "gloss": "and let … flee"
-    },
-    {
-      "surface": "משנאיו",
-      "gloss": "those who hate him"
-    },
-    {
-      "surface": "מפניו",
-      "gloss": "from before his face"
+      "kind": "idiom",
+      "subject": "מפניו",
+      "rationale": "lit. 'from His face', rendered 'from before His face'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let Elohim arise; His enemies shall be scattered, and those who hate Him shall flee from before His face.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f6018e0c5f4523e8d8f5bfe16e993283b03b53755ff8d82e556d8eab066ef990",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/68\/1-4.1791192898783.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָק֣וּם",
+      "gloss": "let … arise",
+      "sense": null
+    },
+    {
+      "surface": "אֱ֭לֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָפ֣וּצוּ",
+      "gloss": "shall be scattered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיְבָ֑יו",
+      "gloss": "His enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָנ֥וּסוּ",
+      "gloss": "and let them flee",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְשַׂנְאָ֗יו",
+      "gloss": "those who hate Him",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפָּנָֽיו",
+      "gloss": "from before His face",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:58.784694560Z",
+  "model": "glm-5.3"
 }

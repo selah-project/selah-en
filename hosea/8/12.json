@@ -1,83 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "I write for him myriads of my Torah — like a stranger they were reckoned.",
+  "ref": "hosea 8:12",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "instruction",
+      "rationale": "תורה rendered 'instruction' (teaching), not the later 'law' register"
+    }
+  ],
+  "translation": "I would write for him the myriads of my instruction — like a stranger's they are reckoned.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "223b2e7a6a6ee1fa605e3a92e4f0a7a3fce1b135f7af2e239c502316eb6e9448",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/8\/9-12.1791191295744.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "אכתוב",
-      "gloss": "I write",
-      "readings": [
-        "I write",
-        "I would write",
-        "I wrote"
-      ],
-      "held_by": {
-        "I write": [
-          "en4"
-        ],
-        "I would write": [
-          "v2",
-          "v3"
-        ],
-        "I wrote": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "אֶכְתֹּב",
+      "gloss": "I would write",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
+      "surface": "ל֔וֹ",
       "gloss": "for him"
     },
     {
-      "surface": "רבו",
-      "gloss": "myriads of"
+      "surface": "רֻבּ֗וֹ",
+      "gloss": "the myriads of",
+      "sense": "S1",
+      "readings": [
+        "the myriads of",
+        "the abundance of"
+      ]
     },
     {
-      "surface": "תורתי",
-      "gloss": "my Torah"
+      "surface": "תּוֹרָתִ֑י",
+      "gloss": "my instruction",
+      "sense": "S1"
     },
     {
-      "surface": "כמו",
+      "surface": "כְּמ֣וֹ",
       "gloss": "like"
     },
     {
-      "surface": "זר",
-      "gloss": "a stranger",
-      "readings": [
-        "a stranger",
-        "something foreign"
-      ],
-      "held_by": {
-        "a stranger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "something foreign": [
-          "en4"
-        ]
-      }
+      "surface": "זָ֖ר",
+      "gloss": "a stranger's",
+      "sense": "S1"
     },
     {
-      "surface": "נחשבו",
-      "gloss": "were reckoned",
-      "readings": [
-        "were reckoned",
-        "are counted"
-      ],
-      "held_by": {
-        "were reckoned": [
-          "v1",
-          "v3"
-        ],
-        "are counted": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "נֶחְשְׁבָֽוּ",
+      "gloss": "they are reckoned",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:15.745692840Z",
+  "model": "glm-5.3"
 }

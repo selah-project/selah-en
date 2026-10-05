@@ -1,36 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And after him judged ⟨את⟩ Israel Ibzan of Beth-lehem.",
-  "tokens": [
+  "ref": "judges 12:8",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "וישפט",
-      "gloss": "And judged"
-    },
-    {
-      "surface": "אחריו",
-      "gloss": "after him"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "אבצן",
-      "gloss": "Ibzan"
-    },
-    {
-      "surface": "מבית",
-      "gloss": "of Beth-"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "lehem"
+      "kind": "wordplay",
+      "subject": "מבית לחם",
+      "rationale": "the name is split across two tokens: 'of Beth-lehem'; SDBH locates this Bethlehem in Zebulun, not Judah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And after him Ibzan of Bethlehem judged ⟨את⟩ Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dcb7223a64550a8d889dad7a7ed298185822b756c179aae38bd370ddb068a7f2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/12\/5-8.1791185102020.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּשְׁפֹּ֤ט",
+      "gloss": "And judged",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַֽחֲרָיו֙",
+      "gloss": "after him",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֥ת",
+      "gloss": "⟨את⟩",
+      "marks": "Israel",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵ֔ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִבְצָ֖ן",
+      "gloss": "Ibzan",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּ֥ית",
+      "gloss": "of Beth-",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶֽחֶם",
+      "gloss": "lehem",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:25:02.022083709Z",
+  "model": "glm-5.3"
 }

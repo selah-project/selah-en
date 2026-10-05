@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "This ⟨is⟩ the generation of those seeking Him, those seeking your face, Jacob. Selah.",
-  "tokens": [
+  "ref": "psalms 24:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "זה",
-      "gloss": "This"
+      "kind": "crux",
+      "subject": "those who seek him",
+      "rationale": "ketiv דרשו (‘they sought’) against qere דרשיו (‘those who seek him’); qere followed."
     },
     {
-      "surface": "דור",
-      "gloss": "the generation"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זה and דור."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דרשו \/ מבקשי",
+      "rationale": "near-synonymous participles ‘seek him \/ seekers of’ pile up in parallel, an intensity lost in English."
+    }
+  ],
+  "translation": "This is the generation of those who seek him, who seek your face — Jacob. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3b8b5edb7bf71032f72a36706db402f95cd08d0457b9b1e84959eb3034497142",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/24\/5-8.1791192535197.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֶ֭ה",
+      "gloss": "this",
+      "sense": "S1"
+    },
+    {
+      "surface": "דּ֣וֹר",
+      "gloss": "is the generation of",
+      "sense": "S1"
     },
     {
       "surface": "דרשו",
-      "gloss": "of those seeking Him"
+      "gloss": "those who seek him",
+      "sense": "S1"
     },
     {
-      "surface": "מבקשי",
-      "gloss": "those seeking"
+      "surface": "מְבַקְשֵׁ֨י",
+      "gloss": "the seekers of",
+      "sense": "S1"
     },
     {
-      "surface": "פניך",
-      "gloss": "your face"
+      "surface": "פָנֶיךָ",
+      "gloss": "your face",
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:55.198329711Z",
+  "model": "glm-5.3"
 }

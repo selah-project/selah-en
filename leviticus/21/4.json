@@ -1,48 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "He shall not defile himself, a husband, among his people, to profane himself.",
-  "tokens": [
+  "ref": "leviticus 21:4",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "crux",
+      "subject": "בעל בעמיו",
+      "rationale": "'a husband among his people': read as in-status-as-husband (defile not for his wife's kin) or 'a leader among his people'; the Hebrew syntax permits both"
     },
     {
-      "surface": "יטמא",
-      "gloss": "shall defile himself"
-    },
-    {
-      "surface": "בעל",
-      "gloss": "a husband",
-      "readings": [
-        "a husband",
-        "a master",
-        "a chief"
-      ],
-      "held_by": {
-        "a husband": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a master": [
-          "en4"
-        ],
-        "a chief": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בעמיו",
-      "gloss": "among his people"
-    },
-    {
-      "surface": "להחלו",
-      "gloss": "to profane himself"
+      "kind": "substitution",
+      "subject": "profane",
+      "rationale": "חלל is to bore\/pierce, hence to make common, disqualify from priestly service"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "As a husband among his people he shall not defile himself, to profane himself.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "39d54e2436837d08b1eea3ce0f6b892c48d18b0fc46b3391e1222e7efab1433b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/21\/1-4.1791182564345.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִטַּמָּ֖א",
+      "gloss": "shall he defile himself",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּ֣עַל",
+      "gloss": "a husband",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעַמָּ֑יו",
+      "gloss": "among his people",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהֵחַלּֽוֹ",
+      "gloss": "to profane himself",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:42:44.346808015Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
+  "ref": "proverbs 31:23",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "English fronting of 'known' requires a copula the Hebrew lacks."
+    },
+    {
+      "kind": "substitution",
+      "subject": "sits",
+      "rationale": "ישב here carries sitting as holding office — sitting in the gate with the elders who judge; English needs 'when he sits' plus context."
+    }
+  ],
   "translation": "Known in the gates is her husband, when he sits with the elders of the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e1059f576c873aae41843054d5a17f738257a8d93b1595ddad6d63abb55d13af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/31\/21-24.1791194088388.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "נודע",
-      "gloss": "known"
+      "surface": "נוֹדָע",
+      "gloss": "known",
+      "sense": null
     },
     {
-      "surface": "בשערים",
-      "gloss": "in the gates"
+      "surface": "בַּשְּׁעָרִים",
+      "gloss": "in the gates",
+      "sense": "S1"
     },
     {
-      "surface": "בעלה",
-      "gloss": "her husband"
+      "surface": "בַּעְלָהּ",
+      "gloss": "her husband",
+      "sense": "S1"
     },
     {
-      "surface": "בשבתו",
-      "gloss": "in his sitting",
-      "readings": [
-        "in his sitting",
-        "when he sits"
-      ],
-      "held_by": {
-        "in his sitting": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "when he sits": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "בְּשִׁבְתּוֹ",
+      "gloss": "when he sits",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
-      "gloss": "with"
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
     },
     {
-      "surface": "זקני",
-      "gloss": "elders of"
+      "surface": "זִקְנֵי",
+      "gloss": "the elders of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָרֶץ",
       "gloss": "the land",
       "readings": [
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:48.389640190Z",
+  "model": "glm-5.3"
 }

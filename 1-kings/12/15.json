@@ -1,18 +1,47 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And the king did not listen to the people, for the turn of events was from with YHWH, in order to establish ⟨את⟩ his word which YHWH had spoken by the hand of Ahijah the Shilonite to Jeroboam son of Nebat.",
+  "ref": "1-kings 12:15",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "סבה",
+      "rationale": "this word for a providential turn of affairs occurs only here in the Tanakh (2 Chr 10:15 has נסבה)"
+    },
+    {
+      "kind": "addition",
+      "subject": "the turn",
+      "rationale": "Hebrew סבה is indefinite; English needs the article"
+    }
+  ],
+  "translation": "And the king did not listen to the people, for the turn was from YHWH, in order to establish ⟨את⟩ his word that YHWH spoke by the hand of Ahijah the Shilonite to Jeroboam son of Nebat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a9c71ff0c748d0636b4616a9d7693219fd9df2c368a87b5fae3a3b22eb7a0e51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/12\/13-16.1791187033348.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "And not",
+      "sense": "S1"
     },
     {
       "surface": "שמע",
-      "gloss": "listen to"
+      "gloss": "he listened"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -20,7 +49,8 @@
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -32,28 +62,17 @@
     },
     {
       "surface": "סבה",
-      "gloss": "the turn of events",
-      "readings": [
-        "the turn of events",
-        "the turn of affairs"
-      ],
-      "held_by": {
-        "the turn of events": [
-          "v1",
-          "v3"
-        ],
-        "the turn of affairs": [
-          "v2"
-        ]
-      }
+      "gloss": "the turn",
+      "sense": "S1"
     },
     {
       "surface": "מעם",
-      "gloss": "from with"
+      "gloss": "from"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "למען",
@@ -65,35 +84,42 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "his word"
     },
     {
       "surface": "דברו",
-      "gloss": "his word"
+      "gloss": "his word",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "דבר",
-      "gloss": "had spoken"
+      "gloss": "spoke",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ביד",
-      "gloss": "by the hand of"
+      "gloss": "by the hand of",
+      "sense": "S1"
     },
     {
       "surface": "אחיה",
-      "gloss": "Ahijah"
+      "gloss": "Ahijah",
+      "sense": "S1"
     },
     {
       "surface": "השילני",
-      "gloss": "the Shilonite"
+      "gloss": "the Shilonite",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -101,17 +127,20 @@
     },
     {
       "surface": "ירבעם",
-      "gloss": "Jeroboam"
+      "gloss": "Jeroboam",
+      "sense": "S1"
     },
     {
       "surface": "בן",
-      "gloss": "son of"
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
       "surface": "נבט",
-      "gloss": "Nebat"
+      "gloss": "Nebat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:57:13.350396410Z",
+  "model": "glm-5.3"
 }

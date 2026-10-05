@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "All the day my enemies have taunted me; those who rage against me have sworn by me.",
-  "tokens": [
+  "ref": "psalms 102:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "crux",
+      "subject": "swear by me",
+      "rationale": "נשבעו בי: 'swear by me' (using my name) vs 'swear against me' (curse using my name); SDBH reads reviling."
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "חרפוני",
-      "gloss": "have taunted me"
-    },
-    {
-      "surface": "אויבי",
-      "gloss": "my enemies"
-    },
-    {
-      "surface": "מהוללי",
-      "gloss": "those who rage against me"
-    },
-    {
-      "surface": "בי",
-      "gloss": "by me",
-      "readings": [
-        "by me",
-        "against me"
-      ],
-      "held_by": {
-        "by me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "against me": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נשבעו",
-      "gloss": "have sworn"
+      "kind": "alternative",
+      "subject": "those who make me a fool",
+      "rationale": "מהוללי could read 'those who praise me' (homograph הלל), but the passive 'made a fool' fits the taunting context."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All the day my enemies taunt me; those who make me a fool swear by me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3e6a39537c1d17a750b3e9d66ea6d98f8cded691021221af2e35492ff83d486",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/9-12.1791193249029.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵרְפֻנִי",
+      "gloss": "taunt me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיְבָי",
+      "gloss": "my enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְהוֹלָלַי",
+      "gloss": "those who make me a fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּי",
+      "gloss": "by me",
+      "sense": null
+    },
+    {
+      "surface": "נִשְׁבָּעוּ",
+      "gloss": "swear",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:49.030411663Z",
+  "model": "glm-5.3"
 }

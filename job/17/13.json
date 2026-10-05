@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "If I hope, ⟨it is⟩ my house; in the darkness I have spread my couch.",
+  "ref": "job 17:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "אִם",
+      "rationale": "Conditional particle rendered as the aside's opening 'If', anticipating the 'where then' of v.15."
+    },
+    {
+      "kind": "crux",
+      "subject": "רִפַּדְתִּי",
+      "rationale": "Piel of רפד occurs only here, Job 41:22 and Song 2:5; 'spread (a bed)' is the literal picture, death the sense the dictionary gives."
+    },
+    {
+      "kind": "mystery",
+      "subject": "the verse",
+      "rationale": "Job speaks of Sheol as his only expected house — the hope he questions in v.15."
+    }
+  ],
+  "translation": "If I wait for Sheol ⟨as⟩ my house, in the darkness I have spread my couch;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c062e06a45f4b624570ff97c8372f964da6c0aa652225e95c6dd0064403f837d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/17\/13-16.1791194323712.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "אקוה",
-      "gloss": "I hope"
+      "surface": "אֲקַוֶּה",
+      "gloss": "I wait for",
+      "sense": "S1"
     },
     {
-      "surface": "שאול",
-      "gloss": "Sheol"
+      "surface": "שְׁאֹול",
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "ביתי",
-      "gloss": "my house"
+      "surface": "בֵּיתִי",
+      "gloss": "⟨as⟩ my house",
+      "sense": "S1"
     },
     {
-      "surface": "בחשך",
-      "gloss": "in the darkness"
+      "surface": "בַּחֹשֶׁךְ",
+      "gloss": "in the darkness",
+      "sense": "S1"
     },
     {
-      "surface": "רפדתי",
-      "gloss": "I have spread"
+      "surface": "רִפַּדְתִּי",
+      "gloss": "I have spread",
+      "sense": "S1"
     },
     {
-      "surface": "יצועי",
-      "gloss": "my couch"
+      "surface": "יְצוּעָי",
+      "gloss": "my couch",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:43.713024494Z",
+  "model": "glm-5.3"
 }

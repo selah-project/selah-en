@@ -1,88 +1,118 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "A lover of silver will not be sated with silver, and who loves abundance ⟨has⟩ no income; this too ⟨is⟩ vanity.",
-  "tokens": [
+  "ref": "ecclesiastes 5:9",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "אהב",
-      "gloss": "loves"
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "The לא negates a noun clause that has no verb; English needs 'there is' to carry the negation."
     },
     {
-      "surface": "כסף",
-      "gloss": "silver"
+      "kind": "alternative",
+      "subject": "whoever",
+      "rationale": "וּמִי with the participle reads as indefinite 'whoever', though the form is the plain interrogative 'and who?'."
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ישבע",
-      "gloss": "will be sated"
-    },
-    {
-      "surface": "כסף",
-      "gloss": "silver"
-    },
-    {
-      "surface": "ומי",
-      "gloss": "and who"
-    },
-    {
-      "surface": "אהב",
-      "gloss": "loves"
-    },
-    {
-      "surface": "בהמון",
-      "gloss": "abundance"
-    },
-    {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "תבואה",
-      "gloss": "income",
-      "readings": [
-        "income",
-        "increase"
-      ],
-      "held_by": {
-        "income": [
-          "v2",
-          "v3"
-        ],
-        "increase": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "גם",
-      "gloss": "too"
-    },
-    {
-      "surface": "זה",
-      "gloss": "this"
-    },
-    {
-      "surface": "הבל",
-      "gloss": "vanity",
-      "readings": [
-        "vanity",
-        "vapor"
-      ],
-      "held_by": {
-        "vanity": [
-          "v1",
-          "v3"
-        ],
-        "vapor": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "כסף…כסף",
+      "rationale": "The repetition silver-silver frames the line; the doubled object of love is the very thing that cannot satisfy."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A lover of silver will not be sated with silver, and whoever loves abundance has no income; this too is vapor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc3047f34eaafaeed36eb1a537f6738005eee8b4851bc58603ceb5cdd36f1b6d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/5\/9-12.1791194878531.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֹהֵ֥ב",
+      "gloss": "a lover of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּ֨סֶף֙",
+      "gloss": "silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂבַּ֣ע",
+      "gloss": "will be sated",
+      "sense": "S1",
+      "readings": [
+        "will be sated",
+        "will be filled"
+      ]
+    },
+    {
+      "surface": "כֶּ֔סֶף",
+      "gloss": "silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִֽי",
+      "gloss": "and whoever",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֵ֥ב",
+      "gloss": "loves",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּהָמ֖וֹן",
+      "gloss": "abundance",
+      "sense": "S1",
+      "readings": [
+        "abundance",
+        "the tumult"
+      ]
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "⟨there is⟩ no",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּבוּאָ֑ה",
+      "gloss": "income",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶ֖ה",
+      "gloss": "this",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָֽבֶל",
+      "gloss": "vapor",
+      "sense": "S1",
+      "readings": [
+        "vapor",
+        "breath",
+        "futility"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T10:07:58.532084588Z",
+  "model": "glm-5.3"
 }

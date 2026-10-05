@@ -1,98 +1,115 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And the land of Egypt shall be a desolation and a waste, and they shall know that I ⟨am⟩ YHWH — because he said, “The river is mine, and I made ⟨it⟩.”",
-  "tokens": [
+  "ref": "ezekiel 29:9",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "והיתה",
-      "gloss": "and it shall be"
+      "kind": "substitution",
+      "subject": "the Nile is mine",
+      "rationale": "Hebrew is a prepositional phrase, “to me”, with no verb; the copula is supplied in English"
     },
     {
-      "surface": "ארץ",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "because he said, “The Nile is mine”",
+      "rationale": "יְאֹר can read as the thing claimed (“the Nile is mine”, Pharaoh speaking) or as the speaker (“because the Nile said, ‘Mine…’), matching Pharaoh’s boast in 29:3"
     },
     {
-      "surface": "מצרים",
-      "gloss": "Egypt",
-      "disputed": true,
-      "readings": [
-        "Egypt",
-        "Mitsrayim"
-      ],
-      "held_by": {
-        "Egypt": [
-          "v1",
-          "en4"
-        ],
-        "Mitsrayim": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "לשממה",
-      "gloss": "a desolation"
-    },
-    {
-      "surface": "וחרבה",
-      "gloss": "and a waste"
-    },
-    {
-      "surface": "וידעו",
-      "gloss": "and they shall know"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "יען",
-      "gloss": "because"
-    },
-    {
-      "surface": "אמר",
-      "gloss": "he said"
-    },
-    {
-      "surface": "יאר",
-      "gloss": "the river"
-    },
-    {
-      "surface": "לי",
-      "gloss": "mine"
-    },
-    {
-      "surface": "ואני",
-      "gloss": "and I"
-    },
-    {
-      "surface": "עשיתי",
-      "gloss": "made ⟨it⟩"
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "object pronoun supplied for עָשִׂיתִי, whose object is implied"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the land of Egypt shall become a desolation and a wasteland, and they shall know that I am YHWH, because he said, “The Nile is mine, and I made it.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a55deb6f22c35017910fa3f2f21cfb7e7e4a32f7dc783689372c07364112958a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/29\/9-12.1791190803259.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָיְתָ֤ה",
+      "gloss": "And shall become",
+      "sense": null
+    },
+    {
+      "surface": "אֶֽרֶץ",
+      "gloss": "the land of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְרַ֨יִם֙",
+      "gloss": "Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמָמָ֣ה",
+      "gloss": "a desolation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחָרְבָּ֔ה",
+      "gloss": "and a wasteland",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָדְע֖וּ",
+      "gloss": "and they shall know",
+      "sense": null
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "אֲנִ֣י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַ֧עַן",
+      "gloss": "because",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמַ֛ר",
+      "gloss": "he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְאֹ֥ר",
+      "gloss": "the Nile",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֖י",
+      "gloss": "is mine",
+      "sense": null
+    },
+    {
+      "surface": "וַאֲנִ֥י",
+      "gloss": "and I",
+      "sense": null
+    },
+    {
+      "surface": "עָשִֽׂיתִי",
+      "gloss": "made it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:00:03.260351590Z",
+  "model": "glm-5.3"
 }

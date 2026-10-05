@@ -1,83 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Who appointed over him ⟨את⟩ the earth, and who set the world, all of it?",
-  "tokens": [
+  "ref": "job 34:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "ארצה has no article; English requires one"
     },
     {
-      "surface": "פקד",
-      "gloss": "appointed",
-      "readings": [
-        "appointed",
-        "gave a charge"
-      ],
-      "held_by": {
-        "appointed": [
-          "v2",
-          "en4"
-        ],
-        "gave a charge": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "parallel pair",
+      "rationale": "ארצה \/ תבל כלה — earth and inhabited world as a doubled half-line, each with its own verb of appointing"
     },
     {
-      "surface": "עליו",
-      "gloss": "over him",
-      "readings": [
-        "over him",
-        "upon it"
-      ],
-      "held_by": {
-        "over him": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon it": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ארצה",
-      "gloss": "the earth"
-    },
-    {
-      "surface": "ומי",
-      "gloss": "and who"
-    },
-    {
-      "surface": "שם",
-      "gloss": "set"
-    },
-    {
-      "surface": "תבל",
-      "gloss": "the world",
-      "readings": [
-        "the world",
-        "the inhabited world"
-      ],
-      "held_by": {
-        "the world": [
-          "v1",
-          "v3"
-        ],
-        "the inhabited world": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כלה",
-      "gloss": "all of it"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Elihu's rhetorical questions press Job directly, though phrased about God"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who entrusted to him ⟨the⟩ earth, and who set the whole inhabited world?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e5696199ff4b3874dfae517d81c6690a0ff7ea9b475d3dc37cbb0e04407d80e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/34\/13-16.1791194544302.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָקַ֣ד",
+      "gloss": "entrusted",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלָ֣יו",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "אָ֑רְצָה",
+      "gloss": "the earth",
+      "sense": "S1",
+      "readings": [
+        "the earth",
+        "the land"
+      ]
+    },
+    {
+      "surface": "וּמִ֥י",
+      "gloss": "and who",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂ֝֗ם",
+      "gloss": "set",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵּבֵ֥ל",
+      "gloss": "the inhabited world",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֻּלָּֽהּ",
+      "gloss": "all of it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:24.302910659Z",
+  "model": "glm-5.3"
 }

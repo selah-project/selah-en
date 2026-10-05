@@ -1,74 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Every swarming thing of the bird that goes upon four — it ⟨is⟩ an abomination to you.",
-  "tokens": [
+  "ref": "leviticus 11:20",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "every"
+      "kind": "substitution",
+      "subject": "on four",
+      "rationale": "Hebrew says 'on four' with no noun — 'on all fours' or 'on four feet' would supply what the text leaves bare."
     },
     {
-      "surface": "שרץ",
-      "gloss": "swarming thing",
-      "readings": [
-        "swarming thing",
-        "creeping thing"
-      ],
-      "held_by": {
-        "swarming thing": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "creeping thing": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "to you",
+      "rationale": "Addressed to Israel (the בני of 11:2) in the dietary laws."
     },
     {
-      "surface": "העוף",
-      "gloss": "the bird",
-      "readings": [
-        "the bird",
-        "the winged one"
-      ],
-      "held_by": {
-        "the bird": [
-          "v2",
-          "v3"
-        ],
-        "the winged one": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ההלך",
-      "gloss": "that goes"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "ארבע",
-      "gloss": "four"
-    },
-    {
-      "surface": "שקץ",
-      "gloss": "an abomination"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it"
-    },
-    {
-      "surface": "לכם",
-      "gloss": "to you"
+      "kind": "measurement",
+      "subject": "four",
+      "rationale": "Counting of legs is the criterion that separates clean from unclean swarming winged-creatures."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Every swarming-thing of winged-creatures that goes on four — it is a detestable-thing to you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "69de82f451e172a90132b6882f45035a8e9d468346ef9bc3a63349549ae57b88",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/11\/17-20.1791182342037.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּ֚ל",
+      "gloss": "Every",
+      "sense": null
+    },
+    {
+      "surface": "שֶׁ֣רֶץ",
+      "gloss": "swarming-thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָע֔וֹף",
+      "gloss": "of winged-creatures",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַהֹלֵ֖ךְ",
+      "gloss": "that goes",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "אַרְבַּ֑ע",
+      "gloss": "four",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁ֥קֶץ",
+      "gloss": "a detestable-thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֖וּא",
+      "gloss": "it",
+      "sense": null
+    },
+    {
+      "surface": "לָכֶֽם",
+      "gloss": "to you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:39:02.039459720Z",
+  "model": "glm-5.3"
 }

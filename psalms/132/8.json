@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Arise, O YHWH, to Your resting place — You, and the ark of Your strength.",
-  "tokens": [
+  "ref": "psalms 132:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
     {
-      "surface": "קומה",
-      "gloss": "Arise"
+      "kind": "invitation",
+      "subject": "Arise, YHWH",
+      "rationale": "Imperative addressed to YHWH; the verse is a summons."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "מנוחה",
+      "rationale": "The 'resting place' answers David's refusal of rest in vv. 3–4."
     },
     {
-      "surface": "למנוחתך",
-      "gloss": "to Your resting place"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "You"
-    },
-    {
-      "surface": "וארון",
-      "gloss": "and the ark"
-    },
-    {
-      "surface": "עזך",
-      "gloss": "of Your strength"
+      "kind": "crux",
+      "subject": "אתה",
+      "rationale": "אַתָּה is the pronoun 'you', not the אֵת marker — the pointing distinguishes them."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Arise, YHWH, to your resting place — you, and the ark of your strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8fe7622affa90076b4a41abcc0142732612cd8170fc7b215792fa5ca1556bd99",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/5-8.1791193555234.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קוּמָה",
+      "gloss": "Arise",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִמְנוּחָתֶךָ",
+      "gloss": "to your resting place",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "וַאֲרוֹן",
+      "gloss": "and the ark of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֻזֶּךָ",
+      "gloss": "your strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:55.235554419Z",
+  "model": "glm-5.3"
 }

@@ -1,86 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "The Torah of YHWH is perfect, turning back the nefesh; the testimony of YHWH is trustworthy, making wise the simple.",
+  "ref": "psalms 19:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the participles are adjectival predicates."
+    },
+    {
+      "kind": "substitution",
+      "subject": "the simple",
+      "rationale": "פתי is one easily led, open to either wisdom or folly — not 'foolish' outright."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "verse structure",
+      "rationale": "six feminine singular predicates in parallel pairs — the sun's ordered course (vv.5–7) mirrors the ordered torah (vv.8–10)."
+    }
+  ],
+  "translation": "The torah of YHWH is complete, restoring the nefesh; the testimony of YHWH is trustworthy, making wise the simple.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7118cd411b9d0b21cbe4b35fa0677dc2ddccbd1936a186ae1b473ddf33c1e219",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/19\/5-8.1791192478145.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תורת",
-      "gloss": "the Torah of"
+      "surface": "תּוֹרַת",
+      "gloss": "the torah of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "תמימה",
-      "gloss": "perfect",
-      "readings": [
-        "perfect",
-        "whole",
-        "blameless"
-      ],
-      "held_by": {
-        "perfect": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "whole": [
-          "en4"
-        ],
-        "blameless": [
-          "en4"
-        ]
-      }
+      "surface": "תְּמִימָה",
+      "gloss": "is complete",
+      "sense": "S1"
     },
     {
-      "surface": "משיבת",
-      "gloss": "turning back"
+      "surface": "מְשִׁיבַת",
+      "gloss": "restoring",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
+      "surface": "נָפֶשׁ",
       "gloss": "the nefesh",
       "readings": [
         "the nefesh",
-        "the soul",
-        "the life"
+        "the life",
+        "the soul"
       ],
-      "held_by": {
-        "the nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the soul": [
-          "v1",
-          "en4"
-        ],
-        "the life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עדות",
-      "gloss": "the testimony of"
+      "surface": "עֵדוּת",
+      "gloss": "the testimony of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נאמנה",
-      "gloss": "trustworthy"
+      "surface": "נֶאֱמָנָה",
+      "gloss": "is trustworthy",
+      "sense": "S1"
     },
     {
-      "surface": "מחכימת",
-      "gloss": "making wise"
+      "surface": "מַחְכִּימַת",
+      "gloss": "making wise",
+      "sense": "S1"
     },
     {
-      "surface": "פתי",
-      "gloss": "the simple"
+      "surface": "פֶּתִי",
+      "gloss": "the simple",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:27:58.146428938Z",
+  "model": "glm-5.3"
 }

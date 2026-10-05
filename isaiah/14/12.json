@@ -1,66 +1,103 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "How you have fallen from the heavens, O Helel, son of the dawn! You are cut down to the earth, weakener of the nations!",
-  "tokens": [
+  "ref": "isaiah 14:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "איך",
-      "gloss": "How"
+      "kind": "hapax",
+      "subject": "הילל",
+      "rationale": "הֵילֵל, the morning-star \/ shining-one, occurs only here in the Tanakh"
     },
     {
-      "surface": "נפלת",
-      "gloss": "you have fallen"
+      "kind": "crux",
+      "subject": "Helel ben Shachar",
+      "rationale": "the bright morning star (Venus); no foreknowledge of later identifications — in its seat it mocks the Babylonian king's fall"
     },
     {
-      "surface": "משמים",
-      "gloss": "from the heavens"
-    },
-    {
-      "surface": "הילל",
-      "gloss": "Helel"
-    },
-    {
-      "surface": "בן",
-      "gloss": "son"
-    },
-    {
-      "surface": "שחר",
-      "gloss": "of the dawn"
-    },
-    {
-      "surface": "נגדעת",
-      "gloss": "you are cut down"
-    },
-    {
-      "surface": "לארץ",
-      "gloss": "to the earth"
-    },
-    {
-      "surface": "חולש",
-      "gloss": "weakener",
-      "readings": [
-        "weakener",
-        "weakening"
-      ],
-      "held_by": {
-        "weakener": [
-          "v2",
-          "v3"
-        ],
-        "weakening": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "על",
-      "gloss": "of"
-    },
-    {
-      "surface": "גוים",
-      "gloss": "the nations"
+      "kind": "you",
+      "subject": "Helel, the king of Babylon",
+      "rationale": "direct second-masculine address continues through the taunt"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How you have fallen from the heavens, O shining-one, son of the dawn! You are cut down to the earth, weakening the nations!”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b470e8e96fe24049b1f9f860cb4c25dc49971cd9f7498a0202760a86d63a97c4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/14\/9-12.1791188234595.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֛יךְ",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָפַ֥לְתָּ",
+      "gloss": "you have fallen",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשָּׁמַ֖יִם",
+      "gloss": "from the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵילֵ֣ל",
+      "gloss": "O shining-one",
+      "sense": "S1",
+      "readings": [
+        "O shining-one",
+        "O morning-star"
+      ]
+    },
+    {
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֑חַר",
+      "gloss": "the dawn",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִגְדַּ֣עְתָּ",
+      "gloss": "you are cut down",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאָ֔רֶץ",
+      "gloss": "to the earth",
+      "sense": "S1",
+      "readings": [
+        "to the earth",
+        "to the land"
+      ]
+    },
+    {
+      "surface": "חוֹלֵ֖שׁ",
+      "gloss": "weakening",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "⟨upon⟩",
+      "sense": null
+    },
+    {
+      "surface": "גּוֹיִֽם",
+      "gloss": "the nations",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:17:14.596576153Z",
+  "model": "glm-5.3"
 }

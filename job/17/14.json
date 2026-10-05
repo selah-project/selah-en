@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "To the pit I have called, ‘You are my father’; to the worm, ‘My mother and my sister.’",
-  "tokens": [
+  "ref": "job 17:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "לשחת",
-      "gloss": "to the pit"
+      "kind": "addition",
+      "subject": "⟨you are⟩",
+      "rationale": "Hebrew omits the copula before אָבִי."
     },
     {
-      "surface": "קראתי",
-      "gloss": "I have called"
+      "kind": "crux",
+      "subject": "אַתָּה",
+      "rationale": "The pronoun's placement is odd; some read it as a vocative ('you are my father') and others repoint to 'there'."
     },
     {
-      "surface": "אבי",
-      "gloss": "my father"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "אמי",
-      "gloss": "my mother"
-    },
-    {
-      "surface": "ואחתי",
-      "gloss": "and my sister"
-    },
-    {
-      "surface": "לרמה",
-      "gloss": "to the worm"
+      "kind": "wordplay",
+      "subject": "the verse",
+      "rationale": "Kinship terms applied to corruption — father pit, mother maggot — a bitter family-image inverted; carried literally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To the pit I have called, “⟨You are⟩ my father,” ⟨to⟩ the maggot, “my mother and my sister.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c062e06a45f4b624570ff97c8372f964da6c0aa652225e95c6dd0064403f837d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/17\/13-16.1791194323712.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַשַּׁחַת",
+      "gloss": "To the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָרָאתִי",
+      "gloss": "I have called",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָבִי",
+      "gloss": "my father",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "⟨you are⟩"
+    },
+    {
+      "surface": "אִמִּי",
+      "gloss": "my mother",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲחֹתִי",
+      "gloss": "and my sister",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָרִמָּה",
+      "gloss": "⟨to⟩ the maggot",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:43.713204840Z",
+  "model": "glm-5.3"
 }

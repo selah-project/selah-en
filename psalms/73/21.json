@@ -1,28 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "Because my heart was soured, and my kidneys were pierced.",
-  "tokens": [
+  "ref": "psalms 73:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "Because"
+      "kind": "substitution",
+      "subject": "kidneys",
+      "rationale": "כליות are the literal kidneys, regarded as the seat of emotion and devotion; many versions render 'inmost being'"
     },
     {
-      "surface": "יתחמץ",
-      "gloss": "was soured"
-    },
-    {
-      "surface": "לבבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "וכליותי",
-      "gloss": "and my kidneys"
-    },
-    {
-      "surface": "אשתונן",
-      "gloss": "were pierced"
+      "kind": "alternative",
+      "subject": "I pierced-through",
+      "rationale": "אשתונן hithpolel of שנן, literally 'I was sharpened\/pierced'; rendered actively to keep the literal picture"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For my heart grew sour, and my kidneys I pierced-through.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c3b02933475bc40d468f133d9d3e6306998f61a01562931f2684433a459ed5cc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/21-24.1791192996807.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "יִתְחַמֵּץ",
+      "gloss": "grew sour",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבָבִי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִלְיוֹתַי",
+      "gloss": "and my kidneys",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשְׁתּוֹנָן",
+      "gloss": "I pierced-through",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:36.807940930Z",
+  "model": "glm-5.3"
 }

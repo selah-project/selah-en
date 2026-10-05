@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Her provision I will bless, blessing; her needy I will satisfy with bread.",
-  "tokens": [
+  "ref": "psalms 132:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
     {
-      "surface": "צידה",
-      "gloss": "Her provision"
+      "kind": "wordplay",
+      "subject": "ברך אברך",
+      "rationale": "infinitive absolute doubling: 'blessing I will bless', kept doubled in English."
     },
     {
-      "surface": "ברך",
-      "gloss": "I will bless"
-    },
-    {
-      "surface": "אברך",
-      "gloss": "blessing"
-    },
-    {
-      "surface": "אביוניה",
-      "gloss": "her needy",
-      "readings": [
-        "her needy",
-        "her poor"
-      ],
-      "held_by": {
-        "her needy": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "her poor": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אשביע",
-      "gloss": "I will satisfy"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "with bread"
+      "kind": "substitution",
+      "subject": "provision",
+      "rationale": "ציד literally 'game\/hunted food'; context widens it to provisions generally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Its provision blessing I will bless; its poor I will satisfy with bread.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "458a969761a7145c62e072ea48732fe676c09b27a9aea847e2b151394259d10e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/13-16.1791193549522.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צֵידָהּ",
+      "gloss": "Its provision",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּרֵךְ",
+      "gloss": "blessing",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבָרֶךְ",
+      "gloss": "I will bless",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶבְיוֹנֶיהָ",
+      "gloss": "its needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׂבִּיעַ",
+      "gloss": "I will satisfy",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶחֶם",
+      "gloss": "with bread",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:49.523657029Z",
+  "model": "glm-5.3"
 }

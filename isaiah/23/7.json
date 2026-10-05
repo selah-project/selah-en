@@ -1,63 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Is this to you the exultant ⟨city⟩, whose antiquity is from days of old? Her own feet carry her afar off, to sojourn.",
-  "tokens": [
+  "ref": "isaiah 23:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "הזאת",
-      "gloss": "Is this"
+      "kind": "addition",
+      "subject": "whose … is",
+      "rationale": "English needs a relative and copula to bind the appositional phrases קַדְמָתָהּ מִימֵי קֶדֶם."
     },
     {
-      "surface": "לכם",
-      "gloss": "to you"
+      "kind": "substitution",
+      "subject": "inhabitants",
+      "rationale": "רַגְלֶיהָ is literally 'her feet', metonymy for the whole city; kept literal here."
     },
     {
-      "surface": "עליזה",
-      "gloss": "exultant"
-    },
-    {
-      "surface": "מימי",
-      "gloss": "from days of"
-    },
-    {
-      "surface": "קדם",
-      "gloss": "of old",
-      "readings": [
-        "of old",
-        "the east"
-      ],
-      "held_by": {
-        "of old": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the east": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "קדמתה",
-      "gloss": "her antiquity"
-    },
-    {
-      "surface": "יבלוה",
-      "gloss": "carry her"
-    },
-    {
-      "surface": "רגליה",
-      "gloss": "her own feet"
-    },
-    {
-      "surface": "מרחוק",
-      "gloss": "afar off"
-    },
-    {
-      "surface": "לגור",
-      "gloss": "to sojourn"
+      "kind": "crux",
+      "subject": "מִימֵי קֶדֶם קַדְמָתָהּ",
+      "rationale": "a stacked repetition: 'from days-of-old her antiquity' — some smooth it to 'from her earliest days'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Is this ⟨your⟩ exultant one, whose antiquity is from days of old? Her feet carried her to dwell far away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2a83fd390fb2da925ee9c03437d9c3df907e06bf352a3b532e555d0ab82de0dd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/23\/5-8.1791188336795.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲזֹאת",
+      "gloss": "Is this",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָכֶם",
+      "gloss": "⟨your⟩",
+      "sense": null
+    },
+    {
+      "surface": "עַלִּיזָה",
+      "gloss": "exultant one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִימֵי",
+      "gloss": "from days",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֶדֶם",
+      "gloss": "of old",
+      "sense": "S1"
+    },
+    {
+      "surface": "קַדְמָתָהּ",
+      "gloss": "whose antiquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹבִלוּהָ",
+      "gloss": "carried",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַגְלֶיהָ",
+      "gloss": "her feet",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרָחוֹק",
+      "gloss": "far away",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָגוּר",
+      "gloss": "to dwell",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:56.796605796Z",
+  "model": "glm-5.3"
 }

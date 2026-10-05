@@ -1,14 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And David said to Jonathan, “Who will tell me? or what if your father answers you harshly?”",
+  "ref": "1-samuel 20:10",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "harshly",
+      "rationale": "קשה is an adjective “hard\/severe”; rendered adverbially, as English requires."
+    },
+    {
+      "kind": "you",
+      "subject": "to Jonathan",
+      "rationale": "David's double question presses Jonathan directly."
+    }
+  ],
+  "translation": "And David said to Jonathan, “Who will tell me? Or what will your father answer you harshly?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2efc55a4959753406063376178fd88b625e3663c82c3071db2bc47eae5a07ba7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/20\/9-12.1791185819697.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And he said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,15 +45,18 @@
     },
     {
       "surface": "יהונתן",
-      "gloss": "Jonathan"
+      "gloss": "Jonathan",
+      "sense": "S1"
     },
     {
       "surface": "מי",
-      "gloss": "Who"
+      "gloss": "Who",
+      "sense": "S1"
     },
     {
       "surface": "יגיד",
-      "gloss": "will tell"
+      "gloss": "will tell",
+      "sense": "S1"
     },
     {
       "surface": "לי",
@@ -32,39 +64,30 @@
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "מה",
-      "gloss": "what"
+      "gloss": "what",
+      "sense": "S1"
     },
     {
       "surface": "יענך",
-      "gloss": "answers you",
-      "readings": [
-        "answers you",
-        "will answer you"
-      ],
-      "held_by": {
-        "answers you": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will answer you": [
-          "v1"
-        ]
-      }
+      "gloss": "will answer you",
+      "sense": "S1"
     },
     {
       "surface": "אביך",
-      "gloss": "your father"
+      "gloss": "your father",
+      "sense": "S1"
     },
     {
       "surface": "קשה",
-      "gloss": "harshly"
+      "gloss": "harshly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:36:59.698886811Z",
+  "model": "glm-5.3"
 }

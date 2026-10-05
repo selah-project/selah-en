@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 50,
-  "translation": "He leveled a path for His anger; He did not spare their nefesh from death, but delivered their life to the plague.",
-  "tokens": [
+  "ref": "psalms 78:50",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "יפלס",
-      "gloss": "He leveled"
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נֶפֶשׁ is literally the throat, the breathing life-principle; חַיָּּה parallels it as the living self."
     },
     {
-      "surface": "נתיב",
-      "gloss": "a path"
-    },
-    {
-      "surface": "לאפו",
-      "gloss": "for His anger"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "did He spare"
-    },
-    {
-      "surface": "ממות",
-      "gloss": "from death"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their nefesh",
-      "readings": [
-        "their nefesh",
-        "their soul",
-        "their life"
-      ],
-      "held_by": {
-        "their nefesh": [
-          "v2",
-          "v3"
-        ],
-        "their soul": [
-          "en4"
-        ],
-        "their life": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וחיתם",
-      "gloss": "and their life"
-    },
-    {
-      "surface": "לדבר",
-      "gloss": "to the plague"
-    },
-    {
-      "surface": "הסגיר",
-      "gloss": "He delivered up"
+      "kind": "wordplay",
+      "subject": "made-level a path",
+      "rationale": "יְפַלֵּס נָתִיב — literally 'he weighed out a track', the anger given a cleared road; picture kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He made-level a path for His anger; He did not spare from death their life, and their living-being He handed over to the pestilence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0358a35d88108cd10e479343338f82afb9f133dfb52de60b612eb55c91737c4c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/49-52.1791193064612.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְפַלֵּס",
+      "gloss": "He made-level",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתִיב",
+      "gloss": "a path",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאַפּוֹ",
+      "gloss": "for His anger",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָשַׂךְ",
+      "gloss": "He spared",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמָּוֶת",
+      "gloss": "from death",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁם",
+      "gloss": "their life",
+      "sense": "S1",
+      "readings": [
+        "their life",
+        "their nefesh",
+        "their throat"
+      ]
+    },
+    {
+      "surface": "וְחַיָּתָם",
+      "gloss": "and their living-being",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַדֶּבֶר",
+      "gloss": "to the pestilence",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִסְגִּיר",
+      "gloss": "He handed over",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:44.613086082Z",
+  "model": "glm-5.3"
 }

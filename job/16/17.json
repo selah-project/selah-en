@@ -1,46 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Not for violence in my palms, and my prayer is pure.",
-  "tokens": [
+  "ref": "job 16:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "not for"
+      "kind": "crux",
+      "subject": "עַל לֹא",
+      "rationale": "Hebrew 'al-lo' can read 'though not' or 'for no' — Job protesting innocence or explaining his suffering"
     },
     {
-      "surface": "לא",
-      "gloss": "no"
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
-    },
-    {
-      "surface": "בכפי",
-      "gloss": "in my palms",
-      "readings": [
-        "in my palms",
-        "in my hands"
-      ],
-      "held_by": {
-        "in my palms": [
-          "en4"
-        ],
-        "in my hands": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ותפלתי",
-      "gloss": "and my prayer"
-    },
-    {
-      "surface": "זכה",
-      "gloss": "is pure"
+      "kind": "substitution",
+      "subject": "palms",
+      "rationale": "כפי dual, literally the two palms; English idiom prefers 'hands'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Though there is no violence in my palms, and my prayer is pure.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "42d0c1bb20ee37b1afd9d59fc2bb846c9e5e91a12851b9da0f45c31f6e900b27",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/17-20.1791194308587.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַ֭ל",
+      "gloss": "though",
+      "readings": [
+        "though",
+        "for",
+        "although"
+      ]
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָמָ֣ס",
+      "gloss": "violence",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכַפָּ֑י",
+      "gloss": "in my palms",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽתְפִלָּתִ֥י",
+      "gloss": "and my prayer",
+      "sense": "S1"
+    },
+    {
+      "surface": "זַכָּֽה",
+      "gloss": "is pure",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:28.587704300Z",
+  "model": "glm-5.3"
 }

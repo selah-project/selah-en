@@ -1,81 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "For an abomination of YHWH ⟨is⟩ the perverse, but with ⟨את⟩ the upright ⟨is⟩ his secret counsel.",
-  "tokens": [
+  "ref": "proverbs 3:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses require an English copula in both halves."
     },
     {
-      "surface": "תועבת",
-      "gloss": "an abomination of"
+      "kind": "secret",
+      "subject": "סודו",
+      "rationale": "סוד is the intimate council\/secret of YHWH shared with the upright."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "נלוז",
-      "gloss": "the perverse",
-      "readings": [
-        "the perverse",
-        "the turned-aside"
-      ],
-      "held_by": {
-        "the perverse": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the turned-aside": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואת",
-      "gloss": "but ⟨את⟩ with"
-    },
-    {
-      "surface": "ישרים",
-      "gloss": "the upright",
-      "readings": [
-        "the upright",
-        "the straight"
-      ],
-      "held_by": {
-        "the upright": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the straight": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "סודו",
-      "gloss": "his secret counsel",
-      "readings": [
-        "his secret counsel",
-        "his intimate circle"
-      ],
-      "held_by": {
-        "his secret counsel": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his intimate circle": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "his intimacy",
+      "rationale": "סוד literally a closed council session; rendered as intimacy rather than 'secret' alone."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the abomination of YHWH is the one who turns aside, and ⟨את⟩ with the upright is his intimacy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a613325ea079d0a04d88eb1a516b897b33d94d8c996e831f391f3b70da3015b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/3\/29-32.1791193713947.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "תוֹעֲבַת",
+      "gloss": "the abomination of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָלוֹז",
+      "gloss": "the one who turns aside",
+      "sense": "S1",
+      "readings": [
+        "the one who turns aside",
+        "the perverse one"
+      ]
+    },
+    {
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "sense": null
+    },
+    {
+      "surface": "יְשָׁרִים",
+      "gloss": "the upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "סוֹדוֹ",
+      "gloss": "is his intimacy",
+      "sense": "S1",
+      "readings": [
+        "is his intimacy",
+        "is his council"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:33.948453676Z",
+  "model": "glm-5.3"
 }

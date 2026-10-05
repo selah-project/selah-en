@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "They gush forth, they speak arrogance; all workers of iniquity boast themselves.",
+  "ref": "psalms 94:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "insolence",
+      "rationale": "עתק occurs only four times in the Tanakh; 'arrogant words' (1 Sam 2:3) also fits here."
+    },
+    {
+      "kind": "substitution",
+      "subject": "pour out",
+      "rationale": "נבע is literally to bubble up or gush — the picture of speech welling forth is kept."
+    }
+  ],
+  "translation": "They pour out, they speak insolence; all the workers of trouble boast of themselves —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9921832727a9604d8aba8a56f917a5033a22bd39a706f697b96276935aca9aec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/1-4.1791193211753.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יביעו",
-      "gloss": "they gush forth"
+      "surface": "יַבִּיעוּ",
+      "gloss": "They pour out",
+      "sense": "S1"
     },
     {
-      "surface": "ידברו",
-      "gloss": "they speak"
+      "surface": "יְדַבְּרוּ",
+      "gloss": "they speak",
+      "sense": "S1"
     },
     {
-      "surface": "עתק",
-      "gloss": "arrogance"
+      "surface": "עָתָק",
+      "gloss": "insolence",
+      "sense": "S1"
     },
     {
-      "surface": "יתאמרו",
-      "gloss": "they boast themselves"
+      "surface": "יִתְאַמְּרוּ",
+      "gloss": "they boast of themselves",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "פעלי",
-      "gloss": "workers of"
+      "surface": "פֹּעֲלֵי",
+      "gloss": "the workers of",
+      "sense": "S1"
     },
     {
-      "surface": "און",
-      "gloss": "iniquity",
+      "surface": "אָוֶן",
+      "gloss": "trouble",
+      "sense": "S1",
       "readings": [
-        "iniquity",
-        "trouble"
-      ],
-      "held_by": {
-        "iniquity": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "trouble": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "trouble",
+        "wickedness",
+        "nothingness"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:11.754145637Z",
+  "model": "glm-5.3"
 }

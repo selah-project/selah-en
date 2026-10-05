@@ -1,123 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "And an ox or a lamb that is overlong or stunted — as a freewill offering you may make ⟨את⟩ it, but for a vow it shall not be accepted.",
+  "ref": "leviticus 22:23",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "קלוט",
+      "rationale": "וְקָלוּט occurs only here in the Tanakh; 'stunted' (unduly short) follows the sense line."
+    },
+    {
+      "kind": "crux",
+      "subject": "stretched-out-long or stunted",
+      "rationale": "שרוע and קלוט denote a limb overlong or too short; some render 'mauled' for קלוט."
+    },
+    {
+      "kind": "alternative",
+      "subject": "you may make",
+      "rationale": "The imperfect here permits rather than commands: 'you may make it' vs. obligatory 'you shall make.'"
+    }
+  ],
+  "translation": "And an ox or a lamb stretched-out-long or stunted — as a freewill offering you may make ⟨את⟩ it, but for a vow it shall not be accepted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "08512365f98c2908127bb3b493e21885157d5996e3853ae37c67143f85bb369d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/22\/21-24.1791182615369.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ושור",
-      "gloss": "And an ox"
+      "gloss": "And an ox",
+      "sense": "S1"
     },
     {
-      "surface": "ושה",
+      "surface": "וָשֶׂ֖ה",
       "gloss": "or a lamb",
-      "readings": [
-        "or a lamb",
-        "or a sheep"
-      ],
-      "held_by": {
-        "or a lamb": [
-          "v2",
-          "v3"
-        ],
-        "or a sheep": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "שרוע",
-      "gloss": "overlong",
-      "readings": [
-        "overlong",
-        "overgrown",
-        "deformed"
-      ],
-      "held_by": {
-        "overlong": [
-          "v2",
-          "v3"
-        ],
-        "overgrown": [
-          "en4"
-        ],
-        "deformed": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "שָׂר֣וּעַ",
+      "gloss": "stretched-out-long",
+      "sense": "S1"
     },
     {
-      "surface": "וקלוט",
+      "surface": "וְקָל֑וּט",
       "gloss": "or stunted",
-      "readings": [
-        "or stunted",
-        "or dwarfed"
-      ],
-      "held_by": {
-        "or stunted": [
-          "v2",
-          "v3"
-        ],
-        "or dwarfed": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "נדבה",
-      "gloss": "a freewill offering"
+      "surface": "נְדָבָה֙",
+      "gloss": "a freewill offering",
+      "sense": "S1"
     },
     {
-      "surface": "תעשה",
+      "surface": "תַּעֲשֶׂ֣ה",
       "gloss": "you may make",
-      "readings": [
-        "you may make",
-        "you shall make"
-      ],
-      "held_by": {
-        "you may make": [
-          "v2",
-          "v3"
-        ],
-        "you shall make": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "surface": "אֹת֔וֹ",
+      "gloss": "⟨את⟩ it",
+      "marks": "an ox or a lamb",
+      "sense": null
     },
     {
-      "surface": "ולנדר",
-      "gloss": "and for a vow"
+      "surface": "וּלְנֵ֖דֶר",
+      "gloss": "but for a vow",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ירצה",
-      "gloss": "shall it be accepted",
-      "readings": [
-        "shall it be accepted",
-        "shall it please"
-      ],
-      "held_by": {
-        "shall it be accepted": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "shall it please": [
-          "v1"
-        ]
-      }
+      "surface": "יֵרָצֶֽה",
+      "gloss": "it shall be accepted",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:43:35.371451570Z",
+  "model": "glm-5.3"
 }

@@ -1,80 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And you shall love ⟨את⟩ YHWH your Elohim with all your heart and with all your nefesh and with all your might.",
-  "tokens": [
+  "ref": "deuteronomy 6:5",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "ואהבת",
-      "gloss": "And you shall love"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-person address continuing the Shema's summons to Israel."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "crux",
+      "subject": "נפשך",
+      "rationale": "Rendered 'your self' (throat-derived life-principle); traditional alternatives 'soul' or 'life'."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "with all"
-    },
-    {
-      "surface": "לבבך",
-      "gloss": "your heart"
-    },
-    {
-      "surface": "ובכל",
-      "gloss": "and with all"
-    },
-    {
-      "surface": "נפשך",
-      "gloss": "your nefesh",
-      "readings": [
-        "your nefesh",
-        "your being",
-        "your soul"
-      ],
-      "held_by": {
-        "your nefesh": [
-          "v2",
-          "v3"
-        ],
-        "your being": [
-          "v1"
-        ],
-        "your soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ובכל",
-      "gloss": "and with all"
-    },
-    {
-      "surface": "מאדך",
-      "gloss": "your might",
-      "readings": [
-        "your might",
-        "your very much"
-      ],
-      "held_by": {
-        "your might": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "your very much": [
-          "v2"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "מאדך",
+      "rationale": "Literally 'vehemence\/abundance'; 'strength' is the contextual narrowing."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you shall love ⟨את⟩ YHWH your Elohim with all your heart, and with all your self, and with all your strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "93fb65f0e8e3454a37c86be43bedd51f9c28be89e9bd6054e20df8268d8ed9ee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/6\/5-8.1791183711677.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָ֣הַבְתָּ֔",
+      "gloss": "And you shall love",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֖ת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH your Elohim",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֶ֑יךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "with all",
+      "sense": null
+    },
+    {
+      "surface": "לְבָבְךָ֥",
+      "gloss": "your heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְכָל",
+      "gloss": "and with all",
+      "sense": null
+    },
+    {
+      "surface": "נַפְשְׁךָ֖",
+      "gloss": "your self",
+      "readings": [
+        "your self",
+        "your life",
+        "your soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְכָל",
+      "gloss": "and with all",
+      "sense": null
+    },
+    {
+      "surface": "מְאֹדֶֽךָ",
+      "gloss": "your strength",
+      "readings": [
+        "your strength",
+        "your vehemence",
+        "your abundance"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:01:51.679753398Z",
+  "model": "glm-5.3"
 }

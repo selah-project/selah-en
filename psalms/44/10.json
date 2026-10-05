@@ -1,61 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Even you have rejected us and shamed us, and you do not go out with our armies.",
-  "tokens": [
+  "ref": "psalms 44:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "אף",
-      "gloss": "Even",
-      "readings": [
-        "Even",
-        "But now"
-      ],
-      "held_by": {
-        "Even": [
-          "v1",
-          "en4"
-        ],
-        "But now": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "The community addresses YHWH directly, protesting His absence in battle."
     },
     {
-      "surface": "זנחת",
-      "gloss": "you have rejected"
-    },
-    {
-      "surface": "ותכלימנו",
-      "gloss": "and shamed us",
-      "readings": [
-        "and shamed us",
-        "and made us blush"
-      ],
-      "held_by": {
-        "and shamed us": [
-          "v2",
-          "v3"
-        ],
-        "and made us blush": [
-          "en4",
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and do not"
-    },
-    {
-      "surface": "תצא",
-      "gloss": "go out"
-    },
-    {
-      "surface": "בצבאותינו",
-      "gloss": "with our armies"
+      "kind": "alternative",
+      "subject": "you have rejected us",
+      "rationale": "זנחת includes the direct object 'us' by implication though the verse has no את marker; supplied in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Yet you have rejected us and put us to shame, and you do not go out with our armies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f339eaf2d82ae9e6bf05cc9c83db861ea3bc053e0473e16d3d6a4ef04b36499a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/9-12.1791192702276.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַף",
+      "gloss": "Yet",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָנַחְתָּ",
+      "gloss": "you have rejected us",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתַּכְלִימֵנוּ",
+      "gloss": "and put us to shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵצֵא",
+      "gloss": "you go out",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִבְאוֹתֵינוּ",
+      "gloss": "with our armies",
+      "sense": "S1",
+      "readings": [
+        "with our armies",
+        "with our hosts"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:42.276763858Z",
+  "model": "glm-5.3"
 }

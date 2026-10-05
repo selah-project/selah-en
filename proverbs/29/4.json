@@ -1,52 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "A king by judgment establishes the land, but a man of tribute-offerings tears it down.",
-  "tokens": [
+  "ref": "proverbs 29:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "מלך",
-      "gloss": "A king"
+      "kind": "crux",
+      "subject": "איש תרומות",
+      "rationale": "'man of terumot' — a king taking offerings\/tribute (extortionary) vs one giving them; the contrast with justice favors the taking\/extortion sense."
     },
     {
-      "surface": "במשפט",
-      "gloss": "by judgment"
-    },
-    {
-      "surface": "יעמיד",
-      "gloss": "establishes"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "ואיש",
-      "gloss": "but a man"
-    },
-    {
-      "surface": "תרומות",
-      "gloss": "tribute-offerings",
-      "readings": [
-        "tribute-offerings",
-        "gifts"
-      ],
-      "held_by": {
-        "tribute-offerings": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "gifts": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יהרסנה",
-      "gloss": "tears it down"
+      "kind": "alternative",
+      "subject": "contributions",
+      "rationale": "Could read 'a man of gifts' as one bribed by them; both crux alternatives hinge on whether the man gives or receives."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A king by justice makes the land stand, but a man of contributions tears it down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "83fea89999aa7630cafaa8ca9aea30120ace7a4464f061ef374b077af3021923",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/29\/1-4.1791194055280.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "A king",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמִשְׁפָּט",
+      "gloss": "by justice",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲמִיד",
+      "gloss": "makes stand",
+      "sense": null
+    },
+    {
+      "surface": "אָרֶץ",
+      "gloss": "the land",
+      "readings": [
+        "the land",
+        "the earth"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִישׁ",
+      "gloss": "but a man of",
+      "sense": null
+    },
+    {
+      "surface": "תְּרוּמוֹת",
+      "gloss": "contributions",
+      "readings": [
+        "contributions",
+        "tributes"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶהֶרְסֶנָּה",
+      "gloss": "tears it down",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:15.281995713Z",
+  "model": "glm-5.3"
 }

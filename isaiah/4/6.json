@@ -1,73 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And a booth shall be for a shade by day from the heat, and for a refuge and for a hiding place from storm and from rain.",
-  "tokens": [
+  "ref": "isaiah 4:6",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "וסכה",
-      "gloss": "and a booth"
+      "kind": "hapax",
+      "subject": "מסתור",
+      "rationale": "hiding-place — occurs only here in the Tanakh"
     },
     {
-      "surface": "תהיה",
+      "kind": "wordplay",
+      "subject": "צל\/חרב — סכה\/מחסה\/מסתור",
+      "rationale": "the verse stacks four near-synonymous shelter words against four dangers, a parallelism English flattens"
+    }
+  ],
+  "translation": "And a booth shall be for shade by day from the heat, and for a refuge and for a hiding-place from storm and from rain.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "33b68716a0478ab3a77e43d8e7982b29975af66c63930ade2abc95c399a753d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/4\/5-6.1791188072051.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְסֻכָּ֛ה",
+      "gloss": "And a booth",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּהְיֶ֥ה",
       "gloss": "shall be"
     },
     {
-      "surface": "לצל",
-      "gloss": "for a shade"
+      "surface": "לְצֵ֥ל",
+      "gloss": "for shade",
+      "sense": "S1"
     },
     {
-      "surface": "יומם",
-      "gloss": "by day"
+      "surface": "יוֹמָ֝ם",
+      "gloss": "by day",
+      "sense": "S1"
     },
     {
-      "surface": "מחרב",
+      "surface": "מֵחֹ֑רֶב",
       "gloss": "from the heat",
-      "readings": [
-        "from the heat",
-        "from the drought"
-      ],
-      "held_by": {
-        "from the heat": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from the drought": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ולמחסה",
-      "gloss": "and for a refuge"
+      "surface": "וּלְמַחְסֶה֙",
+      "gloss": "and for a refuge",
+      "sense": "S1"
     },
     {
-      "surface": "ולמסתור",
-      "gloss": "and for a hiding place"
+      "surface": "וּלְמִסְתֹּ֔ור",
+      "gloss": "and for a hiding-place",
+      "sense": "S1"
     },
     {
-      "surface": "מזרם",
+      "surface": "מִזֶּ֖רֶם",
       "gloss": "from storm",
-      "readings": [
-        "from storm",
-        "from the downpour"
-      ],
-      "held_by": {
-        "from storm": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from the downpour": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וממטר",
-      "gloss": "and from rain"
+      "surface": "וּמִמָּטָֽר",
+      "gloss": "and from rain",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:32.052745733Z",
+  "model": "glm-5.3"
 }

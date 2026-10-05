@@ -1,78 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "A man of chesed deals kindly with his nefesh, and the cruel one troubles his flesh.",
-  "tokens": [
+  "ref": "proverbs 11:17",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "גמל",
-      "gloss": "Deals kindly with",
-      "readings": [
-        "Deals kindly with",
-        "Recompenses"
-      ],
-      "held_by": {
-        "Deals kindly with": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Recompenses": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew juxtaposes participle and adjective with no copula: 'the-one-who-troubles his flesh — cruel'"
     },
     {
-      "surface": "נפשו",
-      "gloss": "his nefesh",
-      "readings": [
-        "his nefesh",
-        "his soul",
-        "his life"
-      ],
-      "held_by": {
-        "his nefesh": [
-          "en4"
-        ],
-        "his soul": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "crux",
+      "subject": "his life",
+      "rationale": "גֹּמֵל נַפְשׁוֹ read as 'benefits his own life' vs 'deals kindly with others' — the suffix points to the chesed-man himself"
     },
     {
-      "surface": "איש",
-      "gloss": "A man"
-    },
-    {
-      "surface": "חסד",
-      "gloss": "of chesed",
-      "readings": [
-        "of chesed",
-        "of kindness"
-      ],
-      "held_by": {
-        "of chesed": [
-          "v3",
-          "en4"
-        ],
-        "of kindness": [
-          "v1",
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ועכר",
-      "gloss": "and troubles"
-    },
-    {
-      "surface": "שארו",
-      "gloss": "his flesh"
-    },
-    {
-      "surface": "אכזרי",
-      "gloss": "cruel"
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חסד kept as a marked term: covenant faithfulness shown in action, not mere kindness"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A man of chesed deals well with his life, and the-one-who-troubles his flesh ⟨is⟩ cruel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "69277ae7d061235aad5da443ecb580292e5a8a5a0c4b1ad606fd51b2c33ad4d0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/11\/17-20.1791193822858.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גֹּמֵל",
+      "gloss": "deals well with",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his life",
+      "sense": "S1",
+      "readings": [
+        "his life",
+        "his nefesh",
+        "his throat"
+      ]
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "a man of",
+      "sense": null
+    },
+    {
+      "surface": "חֶסֶד",
+      "gloss": "chesed",
+      "sense": "S1",
+      "readings": [
+        "chesed",
+        "steadfast love"
+      ]
+    },
+    {
+      "surface": "וְעֹכֵר",
+      "gloss": "and the-one-who-troubles",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁאֵרוֹ",
+      "gloss": "his flesh",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַכְזָרִי",
+      "gloss": "cruel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:22.859392200Z",
+  "model": "glm-5.3"
 }

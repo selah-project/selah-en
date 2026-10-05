@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Honor to a man ⟨is⟩ ceasing from strife, but every fool breaks out in quarreling.",
-  "tokens": [
+  "ref": "proverbs 20:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "כבוד",
-      "gloss": "Honor",
-      "readings": [
-        "Honor",
-        "glory"
-      ],
-      "held_by": {
-        "Honor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "glory": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew nominal clause lacks a copula"
     },
     {
-      "surface": "לאיש",
-      "gloss": "to a man"
+      "kind": "substitution",
+      "subject": "breaks out in quarreling",
+      "rationale": "יתגלע is an uncertain word, possibly 'to burst out in anger'; the quarreling is supplied from context"
     },
     {
-      "surface": "שבת",
-      "gloss": "ceasing",
-      "readings": [
-        "ceasing",
-        "sitting"
-      ],
-      "held_by": {
-        "ceasing": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sitting": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מריב",
-      "gloss": "from strife"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "but every"
-    },
-    {
-      "surface": "אויל",
-      "gloss": "fool"
-    },
-    {
-      "surface": "יתגלע",
-      "gloss": "breaks out in quarreling"
+      "kind": "hapax",
+      "subject": "יתגלע",
+      "rationale": "A rare verb, only here and twice elsewhere in Proverbs, with unsure meaning"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Honor for a man is sitting away from strife, and every fool breaks out in quarreling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f64cc3dd4e2e86ed45976a9221ca0ada3481341f54ae2bc5914ac99175c3022",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/1-4.1791193933368.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּב֣וֹד",
+      "gloss": "Honor",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאִ֣ישׁ",
+      "gloss": "for a man",
+      "sense": null
+    },
+    {
+      "surface": "שֵׁ֥בֶת",
+      "gloss": "sitting away from",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרִ֑יב",
+      "gloss": "strife",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל־",
+      "gloss": "and every",
+      "sense": null
+    },
+    {
+      "surface": "אֱוִ֥יל",
+      "gloss": "fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְגַּלָּֽע",
+      "gloss": "breaks out in quarreling",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:13.369570795Z",
+  "model": "glm-5.3"
 }

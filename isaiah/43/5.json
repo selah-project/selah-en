@@ -1,63 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Do not fear, for ⟨I⟩ ⟨am⟩ with ⟨את⟩ you; from the east I will bring your seed, and from the west I will gather you.",
+  "ref": "isaiah 43:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "to Israel",
+      "rationale": "opening imperative 'do not fear' addresses Israel directly"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ממזרח\/וממערב",
+      "rationale": "east literally 'the rising' and west 'the sunset' — the sun picture is lost in plain 'east\/west'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "seed",
+      "rationale": "זרע keeps its literal seed\/offspring image; reading 2 'offspring' gives the sense"
+    }
+  ],
+  "translation": "Do not fear, for ⟨את⟩-with you am I; from the rising I will bring your seed, and from the sunset I will gather you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "910ca7280131ed28632345e69be78c86bc577df672d3feeee1c746ba5ba58ba1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/43\/5-8.1791188658341.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אל",
-      "gloss": "Do not"
+      "surface": "אַל",
+      "gloss": "not",
+      "sense": null
     },
     {
-      "surface": "תירא",
-      "gloss": "fear"
+      "surface": "תִּירָא",
+      "gloss": "do fear",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "אתך",
-      "gloss": "with ⟨את⟩ you"
+      "surface": "אִתְּךָ",
+      "gloss": "⟨את⟩ with you",
+      "marks": "you (Israel)",
+      "sense": null
     },
     {
-      "surface": "אני",
-      "gloss": "I"
+      "surface": "אָנִי",
+      "gloss": "am I",
+      "sense": null
     },
     {
-      "surface": "ממזרח",
-      "gloss": "from the east"
+      "surface": "מִמִּזְרָח",
+      "gloss": "from the rising",
+      "sense": "S1"
     },
     {
-      "surface": "אביא",
-      "gloss": "I will bring"
+      "surface": "אָבִיא",
+      "gloss": "I will bring",
+      "sense": null
     },
     {
-      "surface": "זרעך",
+      "surface": "זַרְעֶךָ",
       "gloss": "your seed",
       "readings": [
         "your seed",
         "your offspring"
       ],
-      "held_by": {
-        "your seed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your offspring": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וממערב",
-      "gloss": "and from the west"
+      "surface": "וּמִמַּעֲרָב",
+      "gloss": "and from the sunset",
+      "sense": "S1"
     },
     {
-      "surface": "אקבצך",
-      "gloss": "I will gather you"
+      "surface": "אֲקַבְּצֶךָּ",
+      "gloss": "I will gather you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:18.342143939Z",
+  "model": "glm-5.3"
 }

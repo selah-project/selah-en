@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "But as for me, I have installed my king upon Zion, the mountain of my holiness.",
+  "ref": "psalms 2:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "poured out",
+      "rationale": "נסך literally 'pour out (a libation \/ cast metal)'; idiomatic for installing a king — 'I have installed' vs the literal picture of pouring"
+    },
+    {
+      "kind": "alternative",
+      "subject": "My holy mountain",
+      "rationale": "הַר קָדְשִׁי is a bound construct: 'mountain of my holiness'; 'holy mountain' smooths the construct"
+    }
+  ],
+  "translation": "But I have poured out My King, upon Zion, My holy mountain.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "12039ead6d3ad1cf8a3b82df5a73e7d4627bb432902ab12b8db5f696de4aee74",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/2\/5-8.1791192349551.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואני",
-      "gloss": "But as for me"
+      "surface": "וַ֭אֲנִי",
+      "gloss": "But I"
     },
     {
-      "surface": "נסכתי",
-      "gloss": "I have installed",
-      "readings": [
-        "I have installed",
-        "I have poured out"
-      ],
-      "held_by": {
-        "I have installed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have poured out": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "נָסַ֣כְתִּי",
+      "gloss": "I have poured out",
+      "sense": "S1"
     },
     {
-      "surface": "מלכי",
-      "gloss": "my king"
+      "surface": "מַלְכִּ֑י",
+      "gloss": "My King",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "ציון",
-      "gloss": "Zion"
+      "surface": "צִיּ֗וֹן",
+      "gloss": "Zion",
+      "sense": "S1"
     },
     {
-      "surface": "הר",
-      "gloss": "mountain"
+      "surface": "הַר",
+      "gloss": "mountain of",
+      "sense": "S1"
     },
     {
-      "surface": "קדשי",
-      "gloss": "of my holiness"
+      "surface": "קָדְשִֽׁי",
+      "gloss": "My holiness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:25:49.552739210Z",
+  "model": "glm-5.3"
 }

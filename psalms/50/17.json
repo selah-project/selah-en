@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And you — you hated discipline, and cast my words behind you.",
+  "ref": "psalms 50:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אחריך",
+      "rationale": "Casting words behind the back is the Hebrew idiom for discarding a deity's instruction; the SDBH sense itself is 'cast behind one's back'."
+    },
+    {
+      "kind": "you",
+      "subject": "to the wicked",
+      "rationale": "Elohim addresses the wicked man directly (v. 16) in second person."
+    }
+  ],
+  "translation": "And you hate discipline, and you cast my words behind you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "41bd1a6e7c88b0e371d82e2cd237b96b3b477310bacea31a027c6308b4bd3f35",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/50\/17-20.1791192769682.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתה",
+      "surface": "וְ֭אַתָּה",
       "gloss": "And you"
     },
     {
-      "surface": "שנאת",
-      "gloss": "you hated"
+      "surface": "שָׂנֵ֣אתָ",
+      "gloss": "you hate",
+      "sense": "S1"
     },
     {
-      "surface": "מוסר",
+      "surface": "מוּסָ֑ר",
       "gloss": "discipline",
-      "readings": [
-        "discipline",
-        "reproof"
-      ],
-      "held_by": {
-        "discipline": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "reproof": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותשלך",
-      "gloss": "and you cast"
+      "surface": "וַתַּשְׁלֵ֖ךְ",
+      "gloss": "and you cast",
+      "sense": "S1"
     },
     {
-      "surface": "דברי",
-      "gloss": "my words"
+      "surface": "דְּבָרַ֣י",
+      "gloss": "my words",
+      "sense": "S1"
     },
     {
-      "surface": "אחריך",
-      "gloss": "behind you"
+      "surface": "אַחֲרֶֽיךָ",
+      "gloss": "behind you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:49.683371782Z",
+  "model": "glm-5.3"
 }

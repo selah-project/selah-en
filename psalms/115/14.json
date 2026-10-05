@@ -1,32 +1,61 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "May YHWH add upon you, upon you and upon your sons.",
+  "ref": "psalms 115:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "more",
+      "rationale": "יסף 'add' has no stated object; English requires one to carry the idiom 'add more blessing'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עליכם … עליכם",
+      "rationale": "the prepositional phrase is doubled for emphasis — repetition kept literally"
+    }
+  ],
+  "translation": "May YHWH add ⟨more⟩ upon you — upon you and upon your sons.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b6a7e1cc778abc192727aa7257a2746ab47a532fc1e689691c9b344cf9fd4ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/13-16.1791193399799.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יסף",
-      "gloss": "may he add"
+      "surface": "יֹסֵ֣ף",
+      "gloss": "May ⟨more⟩ add"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "עליכם",
+      "surface": "עֲלֵיכֶ֑ם",
       "gloss": "upon you"
     },
     {
-      "surface": "עליכם",
+      "surface": "עֲ֝לֵיכֶ֗ם",
       "gloss": "upon you"
     },
     {
-      "surface": "ועל",
+      "surface": "וְעַל",
       "gloss": "and upon"
     },
     {
-      "surface": "בניכם",
-      "gloss": "your sons"
+      "surface": "בְּנֵיכֶֽם",
+      "gloss": "your sons",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:19.800047853Z",
+  "model": "glm-5.3"
 }

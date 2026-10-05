@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "And ⟨no⟩ inhabitant shall say, “I am sick”; the people who dwell in it — ⟨their⟩ iniquity is forgiven.",
-  "tokens": [
+  "ref": "isaiah 33:24",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "ובל",
-      "gloss": "and ⟨no⟩"
+      "kind": "substitution",
+      "subject": "נשא",
+      "rationale": "passive participle 'borne' rendered 'forgiven' — literally 'iniquity borne', i.e. carried away"
     },
     {
-      "surface": "יאמר",
-      "gloss": "shall say"
-    },
-    {
-      "surface": "שכן",
-      "gloss": "inhabitant"
-    },
-    {
-      "surface": "חליתי",
-      "gloss": "I am sick"
-    },
-    {
-      "surface": "העם",
-      "gloss": "the people"
-    },
-    {
-      "surface": "הישב",
-      "gloss": "who dwell"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in it"
-    },
-    {
-      "surface": "נשא",
-      "gloss": "is forgiven",
-      "readings": [
-        "is forgiven",
-        "is lifted"
-      ],
-      "held_by": {
-        "is forgiven": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "is lifted": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עון",
-      "gloss": "iniquity"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronts the participle נשוא without a verb; copula supplied"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And no inhabitant will say, “I am sick”; the people dwelling in her — forgiven is iniquity.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "818d281bd73955b865fbfecffdce7ab1182eb335694e0f4ae86204e80252c3a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/21-24.1791188507503.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבַל",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאמַר",
+      "gloss": "will say",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכֵן",
+      "gloss": "an inhabitant",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָלִיתִי",
+      "gloss": "I am sick",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעָם",
+      "gloss": "the people",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיֹּשֵׁב",
+      "gloss": "dwelling",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּהּ",
+      "gloss": "in her",
+      "sense": null
+    },
+    {
+      "surface": "נְשֻׂא",
+      "gloss": "forgiven",
+      "sense": "S1",
+      "readings": [
+        "forgiven",
+        "borne"
+      ]
+    },
+    {
+      "surface": "עָוֺן",
+      "gloss": "iniquity",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:21:47.518419832Z",
+  "model": "glm-5.3"
 }

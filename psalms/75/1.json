@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the Chief Musician. “Do not destroy.” A psalm of Asaph, a song.",
-  "tokens": [
+  "ref": "psalms 75:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 75,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "For the Chief Musician"
+      "kind": "elision",
+      "subject": "Al Tashchet",
+      "rationale": "Hebrew אל תשחת is both a negative command and the title of a tune; rendered as a quoted title"
     },
     {
-      "surface": "אל",
-      "gloss": "Do not"
-    },
-    {
-      "surface": "תשחת",
-      "gloss": "destroy"
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm"
-    },
-    {
-      "surface": "לאסף",
-      "gloss": "of Asaph"
-    },
-    {
-      "surface": "שיר",
-      "gloss": "a song"
+      "kind": "substitution",
+      "subject": "mizmor",
+      "rationale": "מזמור is a marked genre term for an instrument-accompanied song"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, “Al Tashchet” — a mizmor of Asaph, a song.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4e42811a481404690acc102927a028210aeb83997cc0964fab08cc226b08a32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/75\/1-4.1791193009752.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֥חַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "תַּשְׁחֵ֑ת",
+      "gloss": "destroy",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְמ֖וֹר",
+      "gloss": "a mizmor",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאָסָ֣ף",
+      "gloss": "of Asaph",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִֽׁיר",
+      "gloss": "a song",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:49.752931849Z",
+  "model": "glm-5.3"
 }

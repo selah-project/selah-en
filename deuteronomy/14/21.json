@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "You shall not eat any carcass; to the sojourner who is within your gates you may give it, and he may eat it, or sell it to a foreigner; for you are a holy people to YHWH your Elohim. You shall not boil a kid in its mother's milk.",
-  "tokens": [
+  "ref": "deuteronomy 14:21",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "you",
+      "subject": "Israel",
+      "rationale": "Second-masculine-plural\/singular address throughout, addressee is Israel."
     },
     {
-      "surface": "תאכלו",
-      "gloss": "you shall eat"
+      "kind": "crux",
+      "subject": "boil a young goat in its mother's milk",
+      "rationale": "Rendered literally; basis of later kosher-law extrapolation, and the command also appears at Exodus 23:19 and 34:26."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "גר \/ נכרי",
+      "rationale": "Two classes of outsider distinguished: the resident sojourner (given the carcass) versus the foreigner (to whom it may be sold)."
+    }
+  ],
+  "translation": "You shall not eat any carcass; to the sojourner who is in your gates you may give it, and he may eat it, or sell it to a foreigner, for a holy people are you to YHWH your Elohim. You shall not boil a young goat in the milk of its mother.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5850b55e1ced9e4e53df13d3d72eeab57e23e8d54da32e67080aaae59405b397",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/14\/21-24.1791183875291.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֹאכלו",
+      "gloss": "you shall eat",
+      "sense": "S1"
     },
     {
       "surface": "כל",
@@ -16,29 +50,13 @@
     },
     {
       "surface": "נבלה",
-      "gloss": "carcass"
+      "gloss": "carcass",
+      "sense": "S1"
     },
     {
       "surface": "לגר",
       "gloss": "to the sojourner",
-      "readings": [
-        "to the sojourner",
-        "to the stranger",
-        "to the foreigner"
-      ],
-      "held_by": {
-        "to the sojourner": [
-          "en4"
-        ],
-        "to the stranger": [
-          "v2",
-          "v3"
-        ],
-        "to the foreigner": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -46,7 +64,8 @@
     },
     {
       "surface": "בשעריך",
-      "gloss": "within your gates"
+      "gloss": "in your gates",
+      "sense": "S1"
     },
     {
       "surface": "תתננה",
@@ -54,19 +73,23 @@
     },
     {
       "surface": "ואכלה",
-      "gloss": "and he may eat it"
+      "gloss": "and he may eat it",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "מכר",
-      "gloss": "sell"
+      "gloss": "sell it",
+      "sense": "S1"
     },
     {
       "surface": "לנכרי",
-      "gloss": "to a foreigner"
+      "gloss": "to a foreigner",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -74,59 +97,54 @@
     },
     {
       "surface": "עם",
-      "gloss": "a people"
+      "gloss": "a people",
+      "sense": "S1"
     },
     {
       "surface": "קדוש",
-      "gloss": "holy"
+      "gloss": "holy",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "you ⟨are⟩"
+      "gloss": "are you"
     },
     {
       "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "תבשל",
-      "gloss": "you shall boil"
+      "gloss": "you shall boil",
+      "sense": "S1"
     },
     {
       "surface": "גדי",
-      "gloss": "a kid",
-      "readings": [
-        "a kid",
-        "a young goat"
-      ],
-      "held_by": {
-        "a kid": [
-          "en4"
-        ],
-        "a young goat": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "a young goat",
+      "sense": "S1"
     },
     {
       "surface": "בחלב",
-      "gloss": "in the milk"
+      "gloss": "in the milk of",
+      "sense": "S1"
     },
     {
       "surface": "אמו",
-      "gloss": "of its mother"
+      "gloss": "its mother",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:04:35.292168132Z",
+  "model": "glm-5.3"
 }

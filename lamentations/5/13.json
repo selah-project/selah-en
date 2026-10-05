@@ -1,62 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Young men carried a millstone, and boys stumbled under the wood.",
-  "tokens": [
+  "ref": "lamentations 5:13",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "בחורים",
-      "gloss": "young men",
-      "readings": [
-        "young men",
-        "chosen men"
-      ],
-      "held_by": {
-        "young men": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "chosen men": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "טְחֹן",
+      "rationale": "The word for hand-mill\/millstone occurs only here in the Tanakh."
     },
     {
-      "surface": "טחון",
-      "gloss": "millstone",
-      "readings": [
-        "millstone",
-        "grinding"
-      ],
-      "held_by": {
-        "millstone": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "grinding": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "בָּעֵץ",
+      "rationale": "Preposition בְּ rendered 'under' (staggering under loads of wood) versus plain 'in\/with the wood'."
     },
     {
-      "surface": "נשאו",
-      "gloss": "carried"
-    },
-    {
-      "surface": "ונערים",
-      "gloss": "and boys"
-    },
-    {
-      "surface": "בעץ",
-      "gloss": "under the wood"
-    },
-    {
-      "surface": "כשלו",
-      "gloss": "stumbled"
+      "kind": "addition",
+      "subject": "⟨את⟩",
+      "rationale": "Object marker supplied before the definite direct object millstone."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Young men carried ⟨את⟩ the millstone, and boys stumbled under the wood.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f5a6bbd42708a00219109e695666687db35e25f3aa48de108a033bb5f3b90457",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/13-16.1791194776535.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּחוּרִים",
+      "gloss": "Young men",
+      "sense": "S1"
+    },
+    {
+      "surface": "טְחֹן",
+      "gloss": "⟨את⟩ the millstone",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָשָׂאוּ",
+      "gloss": "carried",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּנְעָרִים",
+      "gloss": "and boys",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעֵץ",
+      "gloss": "under the wood",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּשָׁלוּ",
+      "gloss": "stumbled",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:16.536521362Z",
+  "model": "glm-5.3"
 }

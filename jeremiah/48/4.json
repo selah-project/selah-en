@@ -1,56 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Moab is shattered; her little ones have made their cry heard.",
+  "ref": "jeremiah 48:4",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "צעוריה",
+      "rationale": "ketiv צעוריה vs qere צעיריה 'her young ones'; some read 'its little ones' (cries of Moab's children), others take it as the subject of השמיעו"
+    },
+    {
+      "kind": "alternative",
+      "subject": "הִשְׁמִיעוּ",
+      "rationale": "plural perfect with Moab's outcry — 'its crackling is heard' (as in 48:36) requires re-pointing; kept 'they have made heard'"
+    }
+  ],
+  "translation": "Shattered is Moab; they have made her outcry heard — her young ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "14ea3b175d427377262b0311c59cb9f9cc99a2b3d50ecaf154274a371eed805c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/48\/1-4.1791189990417.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "נשברה",
-      "gloss": "is shattered",
-      "readings": [
-        "is shattered",
-        "is broken"
-      ],
-      "held_by": {
-        "is shattered": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "is broken": [
-          "en4"
-        ]
-      }
+      "surface": "נִשְׁבְּרָ֖ה",
+      "gloss": "Shattered",
+      "sense": "S1"
     },
     {
-      "surface": "מואב",
-      "gloss": "Moab"
+      "surface": "מ֣וֹאָב",
+      "gloss": "Moab",
+      "sense": "S1"
     },
     {
-      "surface": "השמיעו",
-      "gloss": "have made heard",
-      "readings": [
-        "have made heard",
-        "have caused to be heard"
-      ],
-      "held_by": {
-        "have made heard": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "have caused to be heard": [
-          "en4"
-        ]
-      }
+      "surface": "הִשְׁמִ֥יעוּ",
+      "gloss": "they have made heard",
+      "sense": null
     },
     {
-      "surface": "זעקה",
-      "gloss": "cry"
+      "surface": "זְּעָקָ֖ה",
+      "gloss": "her outcry",
+      "sense": "S1"
     },
     {
       "surface": "צעוריה",
-      "gloss": "her little ones"
+      "gloss": "her young ones",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:46:30.418275146Z",
+  "model": "glm-5.3"
 }

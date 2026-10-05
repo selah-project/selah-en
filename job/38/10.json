@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And I broke over it my statute, and set a bar and doors,",
-  "tokens": [
+  "ref": "job 38:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "ואשבר",
-      "gloss": "and I broke"
+      "kind": "crux",
+      "subject": "I broke my bound",
+      "rationale": "שבר is literally 'break'; some render 'I prescribed' from an assumed sense, but the form says break — as one breaks a boundary-marker into place; kept literal."
     },
     {
-      "surface": "עליו",
+      "kind": "addition",
+      "subject": "two",
+      "rationale": "דלתים is a dual; English plural 'doors' would lose the two-ness."
+    }
+  ],
+  "translation": "and I broke ⟨את⟩ my bound over it, and set bar and two doors,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "217a7d6fc98188e0212c3bf286df94fc51abc119b88043a0d262f87c8e231c37",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/38\/9-12.1791194590356.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֶשְׁבֹּ֣ר",
+      "gloss": "and I broke",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלָ֣יו",
       "gloss": "over it"
     },
     {
-      "surface": "חקי",
-      "gloss": "my statute"
+      "surface": "חֻקִּ֑י",
+      "gloss": "⟨את⟩ my bound",
+      "sense": "S1",
+      "marks": "my bound"
     },
     {
-      "surface": "ואשים",
-      "gloss": "and set"
+      "surface": "וָֽ֝אָשִׂ֗ים",
+      "gloss": "and set",
+      "sense": "S1"
     },
     {
-      "surface": "בריח",
-      "gloss": "a bar"
+      "surface": "בְּרִ֣יחַ",
+      "gloss": "bar",
+      "sense": "S1"
     },
     {
-      "surface": "ודלתים",
-      "gloss": "and doors"
+      "surface": "וּדְלָתָֽיִם",
+      "gloss": "and two doors",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:10.357940346Z",
+  "model": "glm-5.3"
 }

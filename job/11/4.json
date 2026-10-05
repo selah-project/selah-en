@@ -1,36 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For you have said, 'Pure is my teaching, and clean I have been in your eyes.'",
+  "ref": "job 11:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "זך לקחי",
+      "rationale": "Read as adjective + noun ('my teaching is pure') or as a verb-like predicate 'my doctrine is pure'; some parse לקחי as 'my reasoning'."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause; English requires a copula."
+    }
+  ],
+  "translation": "For you said, “My teaching is pure, and I have been clean in Your eyes.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a91dc323785ce51e9c20a7ec07ba952870caad1fdb7ae35372dbabf1f9bdc7b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/11\/1-4.1791194237753.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ותאמר",
-      "gloss": "For you have said"
+      "surface": "וַתֹּּאמֶ֭ר",
+      "gloss": "For you said",
+      "sense": "S1"
     },
     {
-      "surface": "זך",
-      "gloss": "Pure"
+      "surface": "זַ֣ךְ",
+      "gloss": "pure",
+      "sense": "S1"
     },
     {
-      "surface": "לקחי",
-      "gloss": "my teaching",
-      "readings": [
-        "my teaching",
-        "my doctrine"
-      ]
+      "surface": "לִקְחִ֑י",
+      "gloss": "is my teaching",
+      "sense": "S1"
     },
     {
-      "surface": "ובר",
-      "gloss": "and clean"
+      "surface": "וּבַ֗ר",
+      "gloss": "and clean",
+      "sense": "S1"
     },
     {
-      "surface": "הייתי",
+      "surface": "הָיִ֥יתִי",
       "gloss": "I have been"
     },
     {
-      "surface": "בעיניך",
-      "gloss": "in your eyes"
+      "surface": "בְּעֵינֶֽיךָ",
+      "gloss": "in Your eyes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:17.754745458Z",
+  "model": "glm-5.3"
 }

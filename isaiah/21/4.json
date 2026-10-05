@@ -1,120 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "My heart wanders; horror terrifies me; ⟨את⟩ the twilight of my delight He has set for me for trembling.",
-  "tokens": [
+  "ref": "isaiah 21:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "תעה",
-      "gloss": "wanders",
-      "readings": [
-        "wanders",
-        "reels"
-      ],
-      "held_by": {
-        "wanders": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "reels": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "⟨he⟩",
+      "rationale": "Hebrew verb שׂם carries no expressed subject; English requires one."
     },
     {
-      "surface": "לבבי",
-      "gloss": "my heart"
+      "kind": "crux",
+      "subject": "the twilight of my delight",
+      "rationale": "נשף read as the evening of the prophet's pleasure turned to dread, versus the twilight (or night-breeze) of the attack itself."
     },
     {
-      "surface": "פלצות",
-      "gloss": "horror",
-      "readings": [
-        "horror",
-        "trembling"
-      ],
-      "held_by": {
-        "horror": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "trembling": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בעתתני",
-      "gloss": "terrifies me"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "נשף",
-      "gloss": "the twilight",
-      "readings": [
-        "the twilight",
-        "the dusk"
-      ],
-      "held_by": {
-        "the twilight": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the dusk": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חשקי",
-      "gloss": "of my delight",
-      "readings": [
-        "of my delight",
-        "of my desire"
-      ],
-      "held_by": {
-        "of my delight": [
-          "en4"
-        ],
-        "of my desire": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "שם",
-      "gloss": "He has set",
-      "readings": [
-        "He has set",
-        "He has turned"
-      ],
-      "held_by": {
-        "He has set": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "He has turned": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לי",
-      "gloss": "for me"
-    },
-    {
-      "surface": "לחרדה",
-      "gloss": "for trembling"
+      "kind": "wordplay",
+      "subject": "פלצות \/ לחרדה",
+      "rationale": "dread named twice with two words, frame of terror closing the verse."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My heart wanders; trembling has terrified me; ⟨את⟩ the twilight of my delight, ⟨he⟩ has turned it to me for trembling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec5c4211f4fa1a82d4484b654bf6c06511cd9da6720222e73d8ba6c69943a69e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/21\/1-4.1791188313066.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תָעָ֣ה",
+      "gloss": "wanders",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבָבִ֔י",
+      "gloss": "My heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "פַּלָּצ֖וּת",
+      "gloss": "trembling",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּֽעֲתָ֑תְנִי",
+      "gloss": "has terrified me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֥ת",
+      "gloss": "⟨את⟩",
+      "marks": "the twilight of my delight",
+      "sense": null
+    },
+    {
+      "surface": "נֶ֣שֶׁף",
+      "gloss": "the twilight of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִשְׁקִ֔י",
+      "gloss": "my delight",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂ֥ם",
+      "gloss": "⟨he⟩ has turned",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֖י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "לַחֲרָדָֽה",
+      "gloss": "for trembling",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:33.068386401Z",
+  "model": "glm-5.3"
 }

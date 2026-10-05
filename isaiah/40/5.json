@@ -1,82 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And the glory of YHWH shall be revealed, and all flesh shall see ⟨it⟩ together; for the mouth of YHWH has spoken.",
+  "ref": "isaiah 40:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "English needs an object pronoun for 'shall see'; Hebrew has none"
+    },
+    {
+      "kind": "substitution",
+      "subject": "glory",
+      "rationale": "כבוד is properly weight; 'glory' is the conventional rendering of its figurative sense"
+    }
+  ],
+  "translation": "And the glory of YHWH shall be uncovered, and all flesh shall see it together, for the mouth of YHWH has spoken.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4109c2a2a8cbdf7db7009984cd1cb1868150bac338320f1e56343e8f9f3da0e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/5-8.1791188593122.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ונגלה",
-      "gloss": "shall be revealed"
+      "surface": "וְנִגְלָה",
+      "gloss": "and shall be uncovered",
+      "sense": "S1"
     },
     {
-      "surface": "כבוד",
-      "gloss": "the glory",
+      "surface": "כְּבוֹד",
+      "gloss": "the glory of",
       "readings": [
-        "the glory",
-        "the weight"
+        "the glory of",
+        "the weight of"
       ],
-      "held_by": {
-        "the glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the weight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "וראו",
-      "gloss": "and shall see"
+      "surface": "וְרָאוּ",
+      "gloss": "and shall see",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָל",
       "gloss": "all"
     },
     {
-      "surface": "בשר",
+      "surface": "בָּשָׂר",
       "gloss": "flesh",
-      "readings": [
-        "flesh",
-        "humanity"
-      ],
-      "held_by": {
-        "flesh": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "humanity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יחדו",
-      "gloss": "together"
+      "surface": "יַחְדָּו",
+      "gloss": "together",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "פי",
-      "gloss": "the mouth"
+      "surface": "פִּי",
+      "gloss": "the mouth of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "דבר",
-      "gloss": "has spoken"
+      "surface": "דִּבֵּר",
+      "gloss": "has spoken",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:13.123627384Z",
+  "model": "glm-5.3"
 }

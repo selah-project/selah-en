@@ -1,42 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 50,
-  "translation": "until YHWH looks down and sees from the heavens.",
-  "tokens": [
+  "ref": "lamentations 3:50",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "ישקיף",
-      "gloss": "looks down",
-      "readings": [
-        "looks down",
-        "leans down"
-      ],
-      "held_by": {
-        "looks down": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "leans down": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "וירא",
-      "gloss": "and sees"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "משמים",
-      "gloss": "from the heavens"
+      "kind": "crux",
+      "subject": "leans out",
+      "rationale": "שקף is literally to lean out of a window; most versions render 'look down', losing the bodily picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Until YHWH leans out and sees from the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02162513b658678205bfe0bcf4d759493df3fb37b3238a1db4b969906ba75b81",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/49-52.1791194748807.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַד",
+      "gloss": "Until",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׁקִיף",
+      "gloss": "leans out",
+      "readings": [
+        "leans out",
+        "looks down"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֵרֶא",
+      "gloss": "and sees",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשָּׁמָיִם",
+      "gloss": "from the heavens",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:05:48.808410336Z",
+  "model": "glm-5.3"
 }

@@ -1,46 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "A generation pure in its own eyes, and from its filth not washed.",
+  "ref": "proverbs 30:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "filth",
+      "rationale": "צאה is literally excrement; the physical picture carries the moral one"
+    }
+  ],
+  "translation": "A generation pure in its own eyes, yet from its filth it is not washed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "994fcfe4a12b0ace1343188d0563283ddeddbdecd9bff06781868ba02e5fbb51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/9-12.1791194070274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "דור",
-      "gloss": "a generation"
+      "surface": "דּ֭וֹר",
+      "gloss": "A generation",
+      "sense": "S1"
     },
     {
-      "surface": "טהור",
+      "surface": "טָה֣וֹר",
       "gloss": "pure"
     },
     {
-      "surface": "בעיניו",
-      "gloss": "in its own eyes"
+      "surface": "בְּעֵינָ֑יו",
+      "gloss": "in its own eyes",
+      "sense": "S1"
     },
     {
-      "surface": "ומצאתו",
-      "gloss": "and from its filth",
-      "readings": [
-        "and from its filth",
-        "and from its excrement"
-      ],
-      "held_by": {
-        "and from its filth": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and from its excrement": [
-          "en4"
-        ]
-      }
+      "surface": "וּ֝מִצֹּאָת֗וֹ",
+      "gloss": "yet from its filth",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "רחץ",
-      "gloss": "washed"
+      "surface": "רֻחָֽץ",
+      "gloss": "it is washed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:30.275457829Z",
+  "model": "glm-5.3"
 }

@@ -1,53 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For ⟨the⟩ leader. For ⟨the⟩ sons of Korah. A maskil.",
-  "tokens": [
+  "ref": "psalms 44:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "For ⟨the⟩ leader",
-      "readings": [
-        "For ⟨the⟩ leader",
-        "to the choirmaster"
-      ],
-      "held_by": {
-        "For ⟨the⟩ leader": [
-          "v1",
-          "v3"
-        ],
-        "to the choirmaster": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "maskil",
+      "rationale": "משכיל: a didactic\/contemplative poem — glossed as a genre term rather than translated ('instructive poem')"
     },
     {
-      "surface": "לבני",
-      "gloss": "For ⟨the⟩ sons"
-    },
-    {
-      "surface": "קרח",
-      "gloss": "Korah"
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "a maskil",
-      "readings": [
-        "a maskil",
-        "an instruction"
-      ],
-      "held_by": {
-        "a maskil": [
-          "v2",
-          "en4"
-        ],
-        "an instruction": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "superscription",
+      "rationale": "Psalm header addressed to the worship director, not to the reader"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the director, of the sons of Korah, a maskil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "de035e97adaf23b1fab0526afc7494add0bccf72be13daac4c7758545af5279a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/1-4.1791192704743.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּחַ",
+      "gloss": "for the director",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְנֵי",
+      "gloss": "of the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹרַח",
+      "gloss": "Korah",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׂכִּיל",
+      "gloss": "a maskil",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:44.744354354Z",
+  "model": "glm-5.3"
 }

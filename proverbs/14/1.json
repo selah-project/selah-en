@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Wisdom of women builds her house, but folly with her hands tears it down.",
-  "tokens": [
+  "ref": "proverbs 14:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "חכמות",
-      "gloss": "Wisdom"
+      "kind": "crux",
+      "subject": "wise of women",
+      "rationale": "חכמות נשים is a plural construct with a singular verb — 'the wise among women' or 'wise women'; personified Wisdom (fem.) is a further reading."
     },
     {
-      "surface": "נשים",
-      "gloss": "of women"
+      "kind": "wordplay",
+      "subject": "builds \/ tears down",
+      "rationale": "בנתה \/ תהרסנו antithesis across the verse divider, the proverb's parallelism."
     },
     {
-      "surface": "בנתה",
-      "gloss": "builds"
-    },
-    {
-      "surface": "ביתה",
-      "gloss": "her house"
-    },
-    {
-      "surface": "ואולת",
-      "gloss": "but folly"
-    },
-    {
-      "surface": "בידיה",
-      "gloss": "with her hands",
-      "readings": [
-        "with her hands",
-        "in her hands"
-      ],
-      "held_by": {
-        "with her hands": [
-          "v2",
-          "v3"
-        ],
-        "in her hands": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תהרסנו",
-      "gloss": "tears it down"
+      "kind": "elision",
+      "subject": "she",
+      "rationale": "English needs the pronoun; Hebrew carries the subject in the 3fs verb forms."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The wise of women — she has built her house, but folly with her own two hands tears it down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3fc0a5cd48925c2bb49d94e7fe1137dc4346a0fdea9a6a482c24554d538dc48",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/1-4.1791193849555.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חַכְמ֣וֹת",
+      "gloss": "the wise of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֭שִׁים",
+      "gloss": "women",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנְתָ֣ה",
+      "gloss": "she has built",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵיתָ֑הּ",
+      "gloss": "her house",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝אִוֶּ֗לֶת",
+      "gloss": "but folly",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיָדֶ֥יהָ",
+      "gloss": "with her two hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶהֶרְסֶֽנּוּ",
+      "gloss": "tears it down",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:49.556352871Z",
+  "model": "glm-5.3"
 }

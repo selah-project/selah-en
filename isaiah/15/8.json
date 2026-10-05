@@ -1,56 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For the outcry has gone round ⟨את⟩ the border of Moab; unto Eglaim its howling, and unto Beer-Elim its howling.",
+  "ref": "isaiah 15:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "Eglaim",
+      "rationale": "אֶגְלַיִם occurs only here in the Tanakh."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יִלְלָתָהּ ... יִלְלָתָהּ",
+      "rationale": "the identical howling-phrase repeated at the verse's two geographic ends, framing Moab north to south in wailing."
+    }
+  ],
+  "translation": "For the outcry has gone around ⟨את⟩ the border of Moab; as far as Eglaim its howling, and to Beer-Elim its howling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b41b624855433b26c971868d4b277d116eff567aa43b62b8679e37132d00bb5b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/15\/5-8.1791188251533.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "For"
     },
     {
-      "surface": "הקיפה",
-      "gloss": "has gone round"
+      "surface": "הִקִּיפָה",
+      "gloss": "has gone around",
+      "sense": "S1"
     },
     {
-      "surface": "הזעקה",
-      "gloss": "the outcry"
+      "surface": "הַזְּעָקָה",
+      "gloss": "the outcry",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the border of Moab"
     },
     {
-      "surface": "גבול",
-      "gloss": "border of"
+      "surface": "גְּבוּל",
+      "gloss": "the border of",
+      "sense": "S1"
     },
     {
-      "surface": "מואב",
-      "gloss": "Moab"
+      "surface": "מוֹאָב",
+      "gloss": "Moab",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "unto"
+      "surface": "עַד",
+      "gloss": "as far as",
+      "sense": "S1"
     },
     {
-      "surface": "אגלים",
-      "gloss": "Eglaim"
+      "surface": "אֶגְלַיִם",
+      "gloss": "Eglaim",
+      "sense": "S1"
     },
     {
-      "surface": "יללתה",
-      "gloss": "its howling"
+      "surface": "יִלְלָתָהּ",
+      "gloss": "its howling",
+      "sense": "S1"
     },
     {
-      "surface": "ובאר",
-      "gloss": "and unto Beer-"
+      "surface": "וּבְאֵר",
+      "gloss": "and to Beer-",
+      "sense": "S1"
     },
     {
-      "surface": "אילים",
+      "surface": "אֵילִים",
       "gloss": "Elim"
     },
     {
-      "surface": "יללתה",
-      "gloss": "its howling"
+      "surface": "יִלְלָתָהּ",
+      "gloss": "its howling",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:17:31.535427838Z",
+  "model": "glm-5.3"
 }

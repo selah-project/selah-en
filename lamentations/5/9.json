@@ -1,47 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "With our soul we bring in our bread, because of the sword of the wilderness.",
-  "tokens": [
+  "ref": "lamentations 5:9",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "בנפשנו",
-      "gloss": "with our soul",
-      "readings": [
-        "with our soul",
-        "with our life"
-      ],
-      "held_by": {
-        "with our soul": [
-          "en4"
-        ],
-        "with our life": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "the sword of the wilderness",
+      "rationale": "Read as sword-wielding nomads of the desert, or as the drought the desert embodies; the Hebrew keeps both pictures in חרב."
     },
     {
-      "surface": "נביא",
-      "gloss": "we bring in"
-    },
-    {
-      "surface": "לחמנו",
-      "gloss": "our bread"
-    },
-    {
-      "surface": "מפני",
-      "gloss": "because of"
-    },
-    {
-      "surface": "חרב",
-      "gloss": "the sword"
-    },
-    {
-      "surface": "המדבר",
-      "gloss": "of the wilderness"
+      "kind": "alternative",
+      "subject": "with our own throat",
+      "rationale": "נפש literally the throat — 'at the risk of our life' is the looser sense of the same word."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With our own throat we fetch our bread, before the sword of the wilderness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1799bc80be8e74509df3159584584ff5b49c67efb3ec72927b48ab2b05062b07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/9-12.1791194776163.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנַפְשֵׁנוּ",
+      "gloss": "with our own throat",
+      "readings": [
+        "with our own throat",
+        "with our own life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "נָבִיא",
+      "gloss": "we fetch",
+      "sense": null
+    },
+    {
+      "surface": "לַחְמֵנוּ",
+      "gloss": "our bread",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵי",
+      "gloss": "before the face of"
+    },
+    {
+      "surface": "חֶרֶב",
+      "gloss": "the sword of",
+      "readings": [
+        "the sword of",
+        "the drought of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּדְבָּר",
+      "gloss": "the wilderness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:16.164484539Z",
+  "model": "glm-5.3"
 }

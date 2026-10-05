@@ -1,115 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And ⟨the⟩ earth is profaned under its inhabitants, for they have transgressed ⟨the⟩ teachings, changed ⟨the⟩ statute, broken the everlasting covenant.",
-  "tokens": [
+  "ref": "isaiah 24:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "והארץ",
-      "gloss": "And the earth",
-      "readings": [
-        "And the earth",
-        "And the land"
-      ],
-      "held_by": {
-        "And the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "And the land": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in the opening clause"
     },
     {
-      "surface": "חנפה",
-      "gloss": "is profaned",
-      "readings": [
-        "is profaned",
-        "is defiled"
-      ],
-      "held_by": {
-        "is profaned": [
-          "v2",
-          "v3"
-        ],
-        "is defiled": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "חָנְפָה",
+      "rationale": "'polluted\/defiled' vs 'profaned'; moral soiling of the land itself, hard to carry in one English word"
     },
     {
-      "surface": "תחת",
-      "gloss": "under"
-    },
-    {
-      "surface": "ישביה",
-      "gloss": "its inhabitants"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "עברו",
-      "gloss": "they have transgressed"
-    },
-    {
-      "surface": "תורת",
-      "gloss": "the teachings",
-      "readings": [
-        "the teachings",
-        "the Torah"
-      ],
-      "held_by": {
-        "the teachings": [
-          "v1",
-          "v3"
-        ],
-        "the Torah": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חלפו",
-      "gloss": "changed",
-      "readings": [
-        "changed",
-        "passed away"
-      ],
-      "held_by": {
-        "changed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "passed away": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חק",
-      "gloss": "the statute"
-    },
-    {
-      "surface": "הפרו",
-      "gloss": "broken"
-    },
-    {
-      "surface": "ברית",
-      "gloss": "covenant"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "everlasting"
+      "kind": "alternative",
+      "subject": "עוֹלָם",
+      "rationale": "'of eternity' (bound construct) vs 'forever'; the covenant's duration, not a name"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the earth is unclean under its dwellers, for they transgressed teachings, altered the statute, broke the covenant of forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1cfa10167e41dcc15fa5410c17510cd24ca0cdcc2d4eee817a843e31876b7da9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/24\/5-8.1791188348656.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָאָ֥רֶץ",
+      "gloss": "and the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָנְפָ֖ה",
+      "gloss": "is unclean",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּ֣חַת",
+      "gloss": "under",
+      "sense": null
+    },
+    {
+      "surface": "יֹשְׁבֶ֑יהָ",
+      "gloss": "its dwellers",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עָבְר֤וּ",
+      "gloss": "they transgressed",
+      "sense": null
+    },
+    {
+      "surface": "תוֹרֹת֙",
+      "gloss": "teachings",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָלְפ֤וּ",
+      "gloss": "altered",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹ֔ק",
+      "gloss": "the statute",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵפֵ֖רוּ",
+      "gloss": "broke",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרִ֥ית",
+      "gloss": "the covenant of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָֽם",
+      "gloss": "forever",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:08.657289316Z",
+  "model": "glm-5.3"
 }

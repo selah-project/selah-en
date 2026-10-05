@@ -1,59 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "YHWH, lead me in your righteousness on account of those who lie in wait for me; make your way straight before my face.",
+  "ref": "psalms 5:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "הושר",
+      "rationale": "Ketiv הושר (a noun, 'straightness'?) vs qere הישר, hiphil imperative 'make straight'; the imperative is rendered."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Second-person plea addressed to YHWH begins the verse."
+    }
+  ],
+  "translation": "YHWH, lead me in your righteousness for the sake of my foes; make straight before me your way.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0988cb1fe0858e4cbff3e46adbe4ee46549d49e128678fd1694a0ca35630d984",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/5\/9-12.1791192351019.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֤ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נחני",
-      "gloss": "lead me"
+      "surface": "נְחֵ֬נִי",
+      "gloss": "lead me",
+      "sense": "S1"
     },
     {
-      "surface": "בצדקתך",
-      "gloss": "in your righteousness"
+      "surface": "בְצִדְקָתֶ֗ךָ",
+      "gloss": "in your righteousness",
+      "sense": "S1"
     },
     {
-      "surface": "למען",
-      "gloss": "on account of"
+      "surface": "לְמַ֥עַן",
+      "gloss": "for the sake of",
+      "sense": null
     },
     {
-      "surface": "שוררי",
-      "gloss": "those who lie in wait for me",
-      "readings": [
-        "those who lie in wait for me",
-        "my watchers",
-        "my enemies"
-      ],
-      "held_by": {
-        "those who lie in wait for me": [
-          "en4"
-        ],
-        "my watchers": [
-          "en4"
-        ],
-        "my enemies": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "שׁוֹרְרָ֑י",
+      "gloss": "my foes",
+      "sense": "S1"
     },
     {
       "surface": "הושר",
-      "gloss": "make straight"
+      "gloss": "make straight",
+      "sense": "S1"
     },
     {
-      "surface": "לפני",
-      "gloss": "before my face"
+      "surface": "לְפָנַ֣י",
+      "gloss": "before me",
+      "sense": null
     },
     {
-      "surface": "דרכך",
-      "gloss": "your way"
+      "surface": "דַּרְכֶּֽךָ",
+      "gloss": "your way",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:25:51.019609694Z",
+  "model": "glm-5.3"
 }

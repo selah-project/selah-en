@@ -1,58 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "A man who loves wisdom makes his father rejoice, but he who companions with prostitutes destroys the wealth.",
-  "tokens": [
+  "ref": "proverbs 29:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "איש",
-      "gloss": "a man"
+      "kind": "crux",
+      "subject": "ורעה",
+      "rationale": "Qal participle of רעה: 'companion\/associate' (from רע) vs 'shepherd\/pasturer' — both readings fit the form; companion is the contextual sense."
     },
     {
-      "surface": "אהב",
-      "gloss": "who loves"
+      "kind": "elision",
+      "subject": "הון",
+      "rationale": "Object marker absent before הון; the ⟨את⟩ marks the object 'the wealth' by convention, though the Hebrew has none here."
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
-    },
-    {
-      "surface": "ישמח",
-      "gloss": "makes rejoice"
-    },
-    {
-      "surface": "אביו",
-      "gloss": "his father"
-    },
-    {
-      "surface": "ורעה",
-      "gloss": "but he who companions with",
-      "readings": [
-        "but he who companions with",
-        "but a herdsman of"
-      ],
-      "held_by": {
-        "but he who companions with": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "but a herdsman of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "זונות",
-      "gloss": "prostitutes"
-    },
-    {
-      "surface": "יאבד",
-      "gloss": "destroys"
-    },
-    {
-      "surface": "הון",
-      "gloss": "the wealth"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "Father gladdened \/ wealth destroyed — antithesis of the two sons' outcomes."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A man who loves wisdom makes his father glad, but a companion of prostitutes destroys ⟨את⟩ the wealth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "83fea89999aa7630cafaa8ca9aea30120ace7a4464f061ef374b077af3021923",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/29\/1-4.1791194055280.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִישׁ",
+      "gloss": "A man",
+      "sense": null
+    },
+    {
+      "surface": "אֹהֵב",
+      "gloss": "who loves",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשַׂמַּח",
+      "gloss": "makes glad",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָבִיו",
+      "gloss": "his father",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרֹעֶה",
+      "gloss": "but a companion of",
+      "readings": [
+        "but a companion of",
+        "but a shepherd of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "זוֹנוֹת",
+      "gloss": "prostitutes",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְאַבֵּד",
+      "gloss": "destroys",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹן",
+      "gloss": "⟨את⟩ the wealth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:15.281849873Z",
+  "model": "glm-5.3"
 }

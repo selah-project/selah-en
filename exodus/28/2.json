@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And you shall make garments of holiness for Aaron your brother, for glory and for splendor.",
-  "tokens": [
+  "ref": "exodus 28:2",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "ועשית",
-      "gloss": "And you shall make"
+      "kind": "substitution",
+      "subject": "garments of holiness",
+      "rationale": "בגדי קדש is a bound construct, 'clothes of holiness'; some render 'holy garments' or 'sacred vestments'."
     },
     {
-      "surface": "בגדי",
-      "gloss": "garments of"
-    },
-    {
-      "surface": "קדש",
-      "gloss": "holiness"
-    },
-    {
-      "surface": "לאהרן",
-      "gloss": "for Aaron"
-    },
-    {
-      "surface": "אחיך",
-      "gloss": "your brother"
-    },
-    {
-      "surface": "לכבוד",
-      "gloss": "for glory"
-    },
-    {
-      "surface": "ולתפארת",
-      "gloss": "and for splendor",
-      "readings": [
-        "and for splendor",
-        "and for beauty"
-      ],
-      "held_by": {
-        "and for splendor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and for beauty": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "כבוד\/תפארת",
+      "rationale": "a paired merism of honor — 'weight-glory' and 'splendor' — describing the vestments' purpose; the literal 'weight' of כבוד is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you shall make garments of holiness for Aaron your brother, for glory and for splendor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c27ff94aba461c12a425b327473c60dbbc1ce2d7ba9689c2d16006281a60b0b1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/28\/1-4.1791197554491.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעָשִׂ֥יתָ",
+      "gloss": "And you shall make",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִגְדֵי",
+      "gloss": "garments of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹ֖דֶשׁ",
+      "gloss": "holiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאַהֲרֹ֣ן",
+      "gloss": "for Aaron",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָחִ֑יךָ",
+      "gloss": "your brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָב֖וֹד",
+      "gloss": "for glory",
+      "sense": "S1",
+      "readings": [
+        "for glory",
+        "for weight"
+      ]
+    },
+    {
+      "surface": "וּלְתִפְאָֽרֶת",
+      "gloss": "and for splendor",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:52:34.492584784Z",
+  "model": "glm-5.3"
 }

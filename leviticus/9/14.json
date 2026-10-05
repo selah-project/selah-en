@@ -1,59 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And he washed ⟨את⟩ the inner parts and ⟨את⟩ the legs, and made them smoke upon the burnt offering on the altar.",
-  "tokens": [
+  "ref": "leviticus 9:14",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "וירחץ",
-      "gloss": "and he washed"
+      "kind": "wordplay",
+      "subject": "הכרעים",
+      "rationale": "dual kept as “two lower legs” — the shape is the meaning"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הקרב",
-      "gloss": "the inner parts"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "הכרעים",
-      "gloss": "the legs"
-    },
-    {
-      "surface": "ויקטר",
-      "gloss": "and made them smoke"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "העלה",
-      "gloss": "the burnt offering"
-    },
-    {
-      "surface": "המזבחה",
-      "gloss": "the altar",
-      "readings": [
-        "the altar",
-        "toward the altar"
-      ],
-      "held_by": {
-        "the altar": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "toward the altar": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "object pronoun supplied; Hebrew verb carries no suffix here"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he washed ⟨את⟩ the inner parts and ⟨את⟩ the two lower legs, and made them smoke on the burnt-offering, toward the altar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f2362d262052f561549c83b4734ea7c0615d11858b3c74d74145074cdb903a9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/9\/13-16.1791182320962.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּרְחַ֥ץ",
+      "gloss": "and he washed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the inner parts",
+      "sense": null
+    },
+    {
+      "surface": "הַקֶּ֖רֶב",
+      "gloss": "the inner parts",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the two lower legs",
+      "sense": null
+    },
+    {
+      "surface": "הַכְּרָעָ֑יִם",
+      "gloss": "the two lower legs",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּקְטֵ֥ר",
+      "gloss": "and made them smoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "הָעֹלָ֖ה",
+      "gloss": "the burnt-offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּזְבֵּֽחָה",
+      "gloss": "toward the altar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:38:40.963590355Z",
+  "model": "glm-5.3"
 }

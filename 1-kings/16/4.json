@@ -1,67 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The one of Baasha who dies in the city the dogs shall eat, and the one of his who dies in the field the birds of the heavens shall eat.",
-  "tokens": [
+  "ref": "1-kings 16:4",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "המת",
-      "gloss": "the one dying",
-      "readings": [
-        "the one dying",
-        "the one dead"
-      ],
-      "held_by": {
-        "the one dying": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the one dead": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "belonging to Baasha",
+      "rationale": "לְ here is a lamed of belonging; rendered 'belonging to' to keep the Hebrew's possessive shape rather than supplying 'of the house of'."
     },
     {
-      "surface": "לבעשא",
-      "gloss": "of Baasha"
-    },
-    {
-      "surface": "בעיר",
-      "gloss": "in the city"
-    },
-    {
-      "surface": "יאכלו",
-      "gloss": "shall eat"
-    },
-    {
-      "surface": "הכלבים",
-      "gloss": "the dogs"
-    },
-    {
-      "surface": "והמת",
-      "gloss": "and the one dying"
-    },
-    {
-      "surface": "לו",
-      "gloss": "of him"
-    },
-    {
-      "surface": "בשדה",
-      "gloss": "in the field"
-    },
-    {
-      "surface": "יאכלו",
-      "gloss": "shall eat"
-    },
-    {
-      "surface": "עוף",
-      "gloss": "fowl"
-    },
-    {
-      "surface": "השמים",
-      "gloss": "of the heavens"
+      "kind": "wordplay",
+      "subject": "dogs … birds",
+      "rationale": "The parallelism — city\/dogs vs field\/birds — is the same curse formula spoken over Jeroboam's house (1 Kgs 14:11), sealing the 'like the house of Jeroboam' judgment."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The one belonging to Baasha who dies in the city, the dogs will eat; and the one belonging to him who dies in the field, the birds of the heavens will eat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc44d190041d314f504ffb70ce7c15d37c48b34ff3d25ac16ab57cfc9c36237f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/16\/1-4.1791187135736.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַמֵּת",
+      "gloss": "the one who dies",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבַעְשָׁא",
+      "gloss": "belonging to Baasha",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעִיר",
+      "gloss": "in the city",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכְלוּ",
+      "gloss": "will eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַכְּלָבִים",
+      "gloss": "the dogs",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַמֵּת",
+      "gloss": "and the one who dies",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "belonging to him",
+      "sense": null
+    },
+    {
+      "surface": "בַּשָּׂדֶה",
+      "gloss": "in the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכְלוּ",
+      "gloss": "will eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹף",
+      "gloss": "the birds of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:58:55.738045171Z",
+  "model": "glm-5.3"
 }

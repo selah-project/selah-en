@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 57,
-  "translation": "YHWH ⟨is⟩ my portion; I have said to keep your words.",
-  "tokens": [
+  "ref": "psalms 119:57",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "חלקי",
-      "gloss": "my portion"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between my portion and YHWH"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אמרתי",
-      "gloss": "I have said",
-      "readings": [
-        "I have said",
-        "I have resolved"
-      ],
-      "held_by": {
-        "I have said": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I have resolved": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לשמר",
-      "gloss": "to keep"
-    },
-    {
-      "surface": "דבריך",
-      "gloss": "your words"
+      "kind": "substitution",
+      "subject": "portion",
+      "rationale": "חֵלֶק S1 is an allotment held in a close, exclusive relationship, not merely a share"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "“My portion is YHWH,” I have said, “to keep Your words.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0720a47f61b086039eeb35481308ddc127f4e7dd1b38731319b8a551a5cd6119",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/57-60.1791193454208.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חֶלְקִי",
+      "gloss": "my portion",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמַרְתִּי",
+      "gloss": "I have said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמֹר",
+      "gloss": "to keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבָרֶיךָ",
+      "gloss": "Your words",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:14.209052592Z",
+  "model": "glm-5.3"
 }

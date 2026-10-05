@@ -1,83 +1,129 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Elohim, my El, you ⟨are⟩ — I will seek you early; my nefesh thirsts for you, my flesh pines for you, in a land of dryness and weariness, without water.",
+  "ref": "psalms 63:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 63,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, the desiring self; kept as nefesh with readings soul and life"
+    },
+    {
+      "kind": "hapax",
+      "subject": "כמה",
+      "rationale": "כמה 'pines, languishes' occurs only here in the Tanakh"
+    },
+    {
+      "kind": "crux",
+      "subject": "I seek at dawn",
+      "rationale": "אשחרך piel of שחר: literally 'I dawn you' — seek earnestly at daybreak; the root's dawn picture kept"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "Direct address to Elohim throughout the verse"
+    }
+  ],
+  "translation": "Elohim, my El, you are he whom I seek at dawn; my nefesh thirsts for you, my flesh pines for you, in a land dry and weary, without water.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3d32ecc7d97023b49717e634ae0f9f19fa1211c9ac4ce6bcadb4a0ce97860627",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/63\/1-4.1791192868819.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אלי",
-      "gloss": "my El"
+      "surface": "אֵלִי",
+      "gloss": "my El",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
     },
     {
-      "surface": "אשחרך",
-      "gloss": "I will seek you early"
+      "surface": "אֲשַׁחֲרֶךָּ",
+      "gloss": "I seek at dawn",
+      "readings": [
+        "I seek at dawn",
+        "I rise early to seek you"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "צמאה",
-      "gloss": "thirsts"
+      "surface": "צָמְאָה",
+      "gloss": "thirsts",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "for you"
+      "surface": "לְךָ",
+      "gloss": "for you",
+      "sense": null
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
         "my soul",
         "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my soul": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כמה",
-      "gloss": "pines"
+      "surface": "כָּמַהּ",
+      "gloss": "pines",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "for you"
+      "surface": "לְךָ",
+      "gloss": "for you",
+      "sense": null
     },
     {
-      "surface": "בשרי",
-      "gloss": "my flesh"
+      "surface": "בְּשָׂרִי",
+      "gloss": "my flesh",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
-      "gloss": "in a land of"
+      "surface": "בְּאֶרֶץ",
+      "gloss": "in a land",
+      "sense": "S1"
     },
     {
-      "surface": "ציה",
-      "gloss": "dryness"
+      "surface": "צִיָּה",
+      "gloss": "dry",
+      "sense": "S1"
     },
     {
-      "surface": "ועיף",
-      "gloss": "and weariness"
+      "surface": "וְעָיֵף",
+      "gloss": "and weary",
+      "sense": "S1"
     },
     {
-      "surface": "בלי",
-      "gloss": "without"
+      "surface": "בְּלִי",
+      "gloss": "without",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "water"
+      "surface": "מָיִם",
+      "gloss": "water",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:28.820085024Z",
+  "model": "glm-5.3"
 }

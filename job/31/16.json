@@ -1,91 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "If I withheld from the poor their desire, or caused the eyes of the widow to fail,",
+  "ref": "job 31:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "caused the eyes to fail",
+      "rationale": "כלה piel, literally 'finish the eyes' — eyes worn out by weeping; English idiom supplied"
+    },
+    {
+      "kind": "crux",
+      "subject": "their desire",
+      "rationale": "מחפץ דלים read as 'what the poor desire' vs 'what pleases the poor'; both construe the bound construct"
+    }
+  ],
+  "translation": "If I have withheld from the poor their desire, and caused the eyes of the widow to fail,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "049fdbc527a3bdda05838374e7d8ff8e042e4abbf0da456113907269822b9ed3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/13-16.1791194501259.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "אמנע",
-      "gloss": "I withheld",
-      "readings": [
-        "I withheld",
-        "I debarred"
-      ]
+      "surface": "אֶמְנַע",
+      "gloss": "I have withheld",
+      "sense": "S1"
     },
     {
-      "surface": "מחפץ",
-      "gloss": "their desire",
-      "readings": [
-        "their desire",
-        "the desire of",
-        "the delight of"
-      ],
-      "held_by": {
-        "their desire": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the desire of": [
-          "en4"
-        ],
-        "the delight of": [
-          "en4"
-        ]
-      }
+      "surface": "מֵחֵפֶץ",
+      "gloss": "from the desire of",
+      "sense": "S1"
     },
     {
-      "surface": "דלים",
+      "surface": "דַּלִּים",
       "gloss": "the poor",
-      "readings": [
-        "the poor",
-        "the weak"
-      ],
-      "held_by": {
-        "the poor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the weak": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ועיני",
-      "gloss": "or the eyes of"
+      "surface": "וְעֵינֵי",
+      "gloss": "and the eyes of",
+      "sense": "S1"
     },
     {
-      "surface": "אלמנה",
-      "gloss": "the widow"
+      "surface": "אַלְמָנָה",
+      "gloss": "the widow",
+      "sense": "S1"
     },
     {
-      "surface": "אכלה",
+      "surface": "אֲכַלֶּה",
       "gloss": "caused to fail",
-      "readings": [
-        "caused to fail",
-        "caused to perish",
-        "I let fail"
-      ],
-      "held_by": {
-        "caused to fail": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "caused to perish": [
-          "v1"
-        ],
-        "I let fail": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:41.261584218Z",
+  "model": "glm-5.3"
 }

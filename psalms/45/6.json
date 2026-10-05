@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Your arrows are sharp — peoples fall under you — in the heart of the king’s enemies.",
-  "tokens": [
+  "ref": "psalms 45:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
     {
-      "surface": "חציך",
-      "gloss": "your arrows"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew verbless clause; participle sharpened needs an English copula"
     },
     {
-      "surface": "שנונים",
-      "gloss": "sharp",
-      "readings": [
-        "sharp",
-        "sharpened"
-      ],
-      "held_by": {
-        "sharp": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sharpened": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עמים",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "תחתיך",
-      "gloss": "under you"
-    },
-    {
-      "surface": "יפלו",
-      "gloss": "they fall"
-    },
-    {
-      "surface": "בלב",
-      "gloss": "in the heart of"
-    },
-    {
-      "surface": "אויבי",
-      "gloss": "the enemies of"
-    },
-    {
-      "surface": "המלך",
-      "gloss": "the king"
+      "kind": "alternative",
+      "subject": "in the heart of the enemies of the king",
+      "rationale": "בלב may go with the arrows piercing the enemies' heart, or locate where the peoples fall; the accents tie it to אויבי המלך"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your arrows are sharpened — peoples beneath you fall — in the heart of the enemies of the king.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "abd1bb24bf454b8a275d88fb269c428555eec0228169468573a9629adda8c6df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/5-8.1791192733489.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חִצֶּ֗יךָ",
+      "gloss": "your arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁנ֫וּנִ֥ים",
+      "gloss": "are sharpened",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֭מִּים",
+      "gloss": "peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּחְתֶּ֣יךָ",
+      "gloss": "beneath you",
+      "sense": null
+    },
+    {
+      "surface": "יִפְּל֑וּ",
+      "gloss": "fall",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּ֝לֵ֗ב",
+      "gloss": "in the heart of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיְבֵ֥י",
+      "gloss": "the enemies of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמֶּֽלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:13.490570938Z",
+  "model": "glm-5.3"
 }

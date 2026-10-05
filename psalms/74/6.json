@@ -1,73 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And now its carved work together, with hatchet and hammers they smash down.",
-  "tokens": [
+  "ref": "psalms 74:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
     {
-      "surface": "ועת",
-      "gloss": "And now"
+      "kind": "hapax",
+      "subject": "כְּכַשִּׁיל",
+      "rationale": "כַּשִּׁיל 'axe' occurs only here in the Tanakh; the lexicon itself marks its meaning as unsure."
     },
     {
-      "surface": "פתוחיה",
-      "gloss": "its carved work"
+      "kind": "hapax",
+      "subject": "וְכֵילַפֹּת",
+      "rationale": "כֵּילַפָה 'club\/hammer' occurs only here."
     },
     {
-      "surface": "יחד",
-      "gloss": "together"
-    },
-    {
-      "surface": "בכשיל",
-      "gloss": "with hatchet",
-      "readings": [
-        "with hatchet",
-        "with axes"
-      ],
-      "held_by": {
-        "with hatchet": [
-          "v2",
-          "v3"
-        ],
-        "with axes": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "וכילפת",
-      "gloss": "and hammers",
-      "readings": [
-        "and hammers",
-        "and with hatchets"
-      ],
-      "held_by": {
-        "and hammers": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and with hatchets": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יהלמון",
-      "gloss": "they smash down",
-      "readings": [
-        "they smash down",
-        "they hammer"
-      ],
-      "held_by": {
-        "they smash down": [
-          "v2",
-          "v3"
-        ],
-        "they hammer": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "וְעַת",
+      "rationale": "Ketiv ועת read as ועתה 'and now' (qere); some repoint as 'like a horror (עת)' to fit the destruction scene."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And now its carvings all together with axe and hammers they smash.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b759a642e30391bd094a65d615f6f9bddad2732f02ca9c5d36895da4b3e014a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/5-8.1791193006728.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַת",
+      "gloss": "and now"
+    },
+    {
+      "surface": "פִּתּוּחֶ֣יהָ",
+      "gloss": "its carvings",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֑חַד",
+      "gloss": "all together",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכַשִּׁ֥יל",
+      "gloss": "with axe",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝כֵֽילַפֹּ֗ת",
+      "gloss": "and hammers"
+    },
+    {
+      "surface": "יַהֲלֹמֽוֹן",
+      "gloss": "they smash",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:46.728909823Z",
+  "model": "glm-5.3"
 }

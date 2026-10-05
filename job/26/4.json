@@ -1,54 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "With ⟨את⟩ whom have you declared words, and whose breath has gone out from you?",
-  "tokens": [
+  "ref": "job 26:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "with ⟨את⟩"
+      "kind": "crux",
+      "subject": "את מי",
+      "rationale": "אֵת here may be the preposition 'with' (with whom) rather than the object marker; Selah's tag treats it as the marker"
     },
     {
-      "surface": "מי",
-      "gloss": "whom"
-    },
-    {
-      "surface": "הגדת",
-      "gloss": "have you declared",
-      "readings": [
-        "have you declared",
-        "have you told"
-      ],
-      "held_by": {
-        "have you declared": [
-          "v1",
-          "en4"
-        ],
-        "have you told": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מלין",
-      "gloss": "words"
-    },
-    {
-      "surface": "ונשמת",
-      "gloss": "and the breath of"
-    },
-    {
-      "surface": "מי",
-      "gloss": "whose"
-    },
-    {
-      "surface": "יצאה",
-      "gloss": "has gone out"
-    },
-    {
-      "surface": "ממך",
-      "gloss": "from you"
+      "kind": "wordplay",
+      "subject": "מלין \/ נשמת",
+      "rationale": "words from the mouth paired with breath — whose words, whose spirit animates Bildad's speech, implying it is not his own"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ who have you told ⟨את⟩ words, and whose breath has gone out from you?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a2ecd75e64266fc5056d97d598f04586ad4f67de03907aa95a12abe57835d333",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/26\/1-4.1791194424424.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "who"
+    },
+    {
+      "surface": "מִ֭י",
+      "gloss": "who",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִגַּ֣דְתָּ",
+      "gloss": "have you told",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלִּ֑ין",
+      "gloss": "words",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִשְׁמַ֥ת",
+      "gloss": "and the breath of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֝י",
+      "gloss": "whom",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָצְאָ֥ה",
+      "gloss": "has gone out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּֽךָּ",
+      "gloss": "from you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:24.425918919Z",
+  "model": "glm-5.3"
 }

@@ -1,89 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "They snatch the orphan from the breast, and against the poor they take a pledge.",
-  "tokens": [
+  "ref": "job 24:9",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "יגזלו",
-      "gloss": "they snatch"
+      "kind": "substitution",
+      "subject": "from the breast",
+      "rationale": "מִשֹּׁד = מִן + שֹׁד, literally 'from the (bulging) breast', the infant torn from nursing."
     },
     {
-      "surface": "משד",
-      "gloss": "the breast",
-      "readings": [
-        "the breast",
-        "plunder"
-      ],
-      "held_by": {
-        "the breast": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "plunder": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יתום",
-      "gloss": "the orphan",
-      "readings": [
-        "the orphan",
-        "the fatherless"
-      ],
-      "held_by": {
-        "the orphan": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the fatherless": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and against"
-    },
-    {
-      "surface": "עני",
-      "gloss": "the poor",
-      "readings": [
-        "the poor",
-        "the needy"
-      ],
-      "held_by": {
-        "the poor": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the needy": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "יחבלו",
-      "gloss": "they take a pledge",
-      "readings": [
-        "they take a pledge",
-        "they seize a pledge"
-      ],
-      "held_by": {
-        "they take a pledge": [
-          "v2",
-          "v3"
-        ],
-        "they seize a pledge": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "they take a pledge",
+      "rationale": "חָבַל literally 'to wind tightly, bind' — here seizing a garment or person as security for a loan."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They pluck the orphan from the breast, and over the poor they take a pledge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d64aa1870469a60187ca7dbca9d4b8efefacc8c295cf5d5b66de331939b0cbe0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/24\/9-12.1791194429527.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִ֭גְזְלוּ",
+      "gloss": "they pluck off",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשֹּ֣ד",
+      "gloss": "from the breast",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָת֑וֹם",
+      "gloss": "the orphan",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽעַל",
+      "gloss": "and over",
+      "sense": null
+    },
+    {
+      "surface": "עָנִ֥י",
+      "gloss": "the poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַחְבֹּֽלוּ",
+      "gloss": "they take a pledge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:29.528471996Z",
+  "model": "glm-5.3"
 }

@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Until I find a place for YHWH, dwellings for the Mighty One of Jacob.",
-  "tokens": [
+  "ref": "psalms 132:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
     {
-      "surface": "עד",
-      "gloss": "Until"
+      "kind": "crux",
+      "subject": "Abir",
+      "rationale": "אֲבִיר is a divine Name stressing might; rendered as the Name Abir rather than the title 'the Mighty One'."
     },
     {
-      "surface": "אמצא",
-      "gloss": "I find"
-    },
-    {
-      "surface": "מקום",
-      "gloss": "a place"
-    },
-    {
-      "surface": "ליהוה",
-      "gloss": "for YHWH"
-    },
-    {
-      "surface": "משכנות",
-      "gloss": "dwellings",
-      "readings": [
-        "dwellings",
-        "tabernacles"
-      ],
-      "held_by": {
-        "dwellings": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "tabernacles": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לאביר",
-      "gloss": "for the Mighty One"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "of Jacob"
+      "kind": "alternative",
+      "subject": "dwellings",
+      "rationale": "משכנות plural rendered plural to keep the Hebrew's shape."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Until I find a place for YHWH, dwellings for the Abir of Jacob.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8fe7622affa90076b4a41abcc0142732612cd8170fc7b215792fa5ca1556bd99",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/5-8.1791193555234.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַד",
+      "gloss": "Until",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶמְצָא",
+      "gloss": "I find",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָקוֹם",
+      "gloss": "a place",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָה",
+      "gloss": "for YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁכָּנוֹת",
+      "gloss": "dwellings",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַאֲבִיר",
+      "gloss": "for the Abir of",
+      "readings": [
+        "for the Abir of",
+        "for the Mighty One of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:55.235096293Z",
+  "model": "glm-5.3"
 }

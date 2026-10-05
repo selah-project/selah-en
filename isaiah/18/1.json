@@ -1,58 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Woe to the land of the whirring of wings, which is beyond the rivers of Cush.",
-  "tokens": [
+  "ref": "isaiah 18:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "הוי",
-      "gloss": "Woe"
+      "kind": "crux",
+      "subject": "צִלְצַל",
+      "rationale": "Whirring of wings vs the dictionary's locust\/insect sense; the construct before 'wings' points to the onomatopoeic clatter\/whir."
     },
     {
-      "surface": "ארץ",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ]
+      "kind": "hapax",
+      "subject": "צִלְצַל",
+      "rationale": "Rare onomatopoeic word; the sound itself is the picture, and English can only approximate it."
     },
     {
-      "surface": "צלצל",
-      "gloss": "of the whirring",
-      "readings": [
-        "of the whirring",
-        "of the clatter"
-      ],
-      "held_by": {
-        "of the whirring": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the clatter": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כנפים",
-      "gloss": "of wings"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "מעבר",
-      "gloss": "is beyond"
-    },
-    {
-      "surface": "לנהרי",
-      "gloss": "the rivers of"
-    },
-    {
-      "surface": "כוש",
-      "gloss": "Cush"
+      "kind": "wordplay",
+      "subject": "צִלְצַל",
+      "rationale": "Doubling of consonants imitates the whirring sound, lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Woe, land of whirring of wings, which is beyond the rivers of Cush.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d797a6a2412d2cd429bef1f45a1f92452440725de8a1a93aa04bd9ea079b3ff7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/18\/1-4.1791188280641.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוֹי",
+      "gloss": "Woe",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "land",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִלְצַל",
+      "gloss": "whirring of",
+      "sense": null
+    },
+    {
+      "surface": "כְּנָפַיִם",
+      "gloss": "two wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "מֵעֵבֶר",
+      "gloss": "beyond",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְנַהֲרֵי",
+      "gloss": "the rivers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כוּשׁ",
+      "gloss": "Cush",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:00.642241490Z",
+  "model": "glm-5.3"
 }

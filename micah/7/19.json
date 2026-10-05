@@ -1,60 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "He will turn again, he will have compassion on us; he will tread our iniquities underfoot, and you will cast all their sins into ⟨the⟩ depths of ⟨the⟩ sea.",
+  "ref": "micah 7:19",
+  "book": "micah",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "their sins",
+      "rationale": "The suffix is 3rd person ('their') though the preceding line speaks of 'our' iniquities; the shift is kept, not smoothed to 'our'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "tread underfoot",
+      "rationale": "כָּבַשׁ keeps the literal picture of trampling sins beneath the feet rather than an abstract 'pardon'."
+    }
+  ],
+  "translation": "He will turn again, he will show us compassion; he will tread underfoot our iniquities, and you will throw all their sins into the depths of the sea.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c1d29c8fba1efe2103d5544b1782e4a901a4796f5608df1f67aa1d6bf93ed35e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/micah\/7\/17-20.1791191775815.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/micah.edn"
+  },
   "tokens": [
     {
-      "surface": "ישוב",
-      "gloss": "he will turn again"
+      "surface": "יָשׁוּב",
+      "gloss": "he will turn again",
+      "sense": "S1"
     },
     {
-      "surface": "ירחמנו",
-      "gloss": "he will have compassion on us"
+      "surface": "יְרַחֲמֵנוּ",
+      "gloss": "he will show us compassion",
+      "sense": "S1"
     },
     {
-      "surface": "יכבש",
-      "gloss": "tread underfoot",
-      "readings": [
-        "tread underfoot",
-        "subdue"
-      ],
-      "held_by": {
-        "tread underfoot": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "subdue": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יִכְבֹּשׁ",
+      "gloss": "he will tread underfoot",
+      "sense": "S1"
     },
     {
-      "surface": "עונתינו",
-      "gloss": "our iniquities"
+      "surface": "עֲוֺנֹתֵינוּ",
+      "gloss": "our iniquities",
+      "sense": "S1"
     },
     {
-      "surface": "ותשליך",
-      "gloss": "and you will cast"
+      "surface": "וְתַשְׁלִיךְ",
+      "gloss": "and you will throw",
+      "sense": "S1"
     },
     {
-      "surface": "במצלות",
-      "gloss": "into ⟨the⟩ depths of"
+      "surface": "בִּמְצֻלוֹת",
+      "gloss": "into the depths of",
+      "sense": "S1"
     },
     {
-      "surface": "ים",
-      "gloss": "⟨the⟩ sea"
+      "surface": "יָם",
+      "gloss": "the sea",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "חטאותם",
-      "gloss": "their sins"
+      "surface": "חַטֹּאותָם",
+      "gloss": "their sins",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:15.816720235Z",
+  "model": "glm-5.3"
 }

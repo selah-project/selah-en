@@ -1,51 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The roaring of a lion and the sound of a fierce lion and the teeth of young lions are torn out.",
-  "tokens": [
+  "ref": "job 4:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "שאגת",
-      "gloss": "the roaring of"
+      "kind": "hapax",
+      "subject": "נִתָּעוּ",
+      "rationale": "נתע occurs only here in the Tanakh; rendered 'torn out' from its root sense"
     },
     {
-      "surface": "אריה",
-      "gloss": "a lion"
-    },
-    {
-      "surface": "וקול",
-      "gloss": "and the sound of"
-    },
-    {
-      "surface": "שחל",
-      "gloss": "a fierce lion"
-    },
-    {
-      "surface": "ושני",
-      "gloss": "and the teeth of"
-    },
-    {
-      "surface": "כפירים",
-      "gloss": "young lions"
-    },
-    {
-      "surface": "נתעו",
-      "gloss": "are torn out",
-      "readings": [
-        "are torn out",
-        "are broken"
-      ],
-      "held_by": {
-        "are torn out": [
-          "v2",
-          "en4"
-        ],
-        "are broken": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "shachal",
+      "rationale": "שַׁחַל is an uncertain lion word; transliterated rather than guessed as 'fierce lion'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The roaring of the lion and the voice of the shachal, and the teeth of young lions are torn out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9497f59c0ee83b3b4b8243c5ced59e76f6577c76ea5722ecb6c378c34c04b606",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/4\/9-12.1791194149444.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שַׁאֲגַת",
+      "gloss": "the roaring of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַרְיֵה",
+      "gloss": "the lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקוֹל",
+      "gloss": "and the voice of"
+    },
+    {
+      "surface": "שָׁחַל",
+      "gloss": "the shachal",
+      "readings": [
+        "the shachal",
+        "the prowling lion"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׁנֵּי",
+      "gloss": "and the teeth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְפִירִים",
+      "gloss": "young lions",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִתָּעוּ",
+      "gloss": "are torn out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:49.445048507Z",
+  "model": "glm-5.3"
 }

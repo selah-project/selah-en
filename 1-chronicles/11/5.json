@@ -1,30 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And the inhabitants of Jebus said to David, “You shall not come here.” And David captured ⟨את⟩ the stronghold of Zion — she is the city of David.",
+  "ref": "1-chronicles 11:5",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew pronoun היא stands without a copula; supplied bracketed in translation"
+    },
+    {
+      "kind": "crux",
+      "subject": "stronghold",
+      "rationale": "מצדת ציון rendered 'stronghold of Zion'; some read the meteg-marked form as 'this stronghold of Zion'"
+    },
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "Jebusites' refusal addresses David directly: 'You shall not come here'"
+    }
+  ],
+  "translation": "And the dwellers of Jebus said to David, “You shall not come here.” And David captured ⟨את⟩ the stronghold of Zion — it ⟨is⟩ the city of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ad38981e89f844e3d742b4721412310208340aa4e6898d6c877258b2525a97b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/5-8.1791196196454.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמרו",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "ישבי",
-      "gloss": "the inhabitants of"
+      "gloss": "the dwellers of",
+      "sense": "S1"
     },
     {
       "surface": "יבוס",
-      "gloss": "of Jebus"
+      "gloss": "Jebus",
+      "sense": "S1"
     },
     {
       "surface": "לדויד",
-      "gloss": "to David"
+      "gloss": "to David",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "תבוא",
-      "gloss": "you shall come"
+      "gloss": "you shall come",
+      "sense": null
     },
     {
       "surface": "הנה",
@@ -32,37 +70,44 @@
     },
     {
       "surface": "וילכד",
-      "gloss": "and captured"
+      "gloss": "and captured",
+      "sense": "S1"
     },
     {
       "surface": "דויד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the stronghold of Zion"
     },
     {
       "surface": "מצדת",
-      "gloss": "the stronghold of"
+      "gloss": "the stronghold of",
+      "sense": null
     },
     {
       "surface": "ציון",
-      "gloss": "Zion"
+      "gloss": "Zion",
+      "sense": "S1"
     },
     {
       "surface": "היא",
-      "gloss": "she is"
+      "gloss": "it"
     },
     {
       "surface": "עיר",
-      "gloss": "city of"
+      "gloss": "the city of",
+      "sense": "S1"
     },
     {
       "surface": "דויד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:29:56.455635570Z",
+  "model": "glm-5.3"
 }

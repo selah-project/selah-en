@@ -1,71 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And a man who lies with ⟨את⟩ his daughter-in-law — dying shall they be put to death, the two of them; confusion they have made; their blood is upon them.",
+  "ref": "leviticus 20:12",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "מוֹת יוּמְתוּ",
+      "rationale": "infinitive absolute doubled with the verb — dying they shall be put to death"
+    },
+    {
+      "kind": "crux",
+      "subject": "תֶּבֶל",
+      "rationale": "rare word from 'mix' — rendered confusion \/ perversion; only Lev 18:23 and here"
+    }
+  ],
+  "translation": "And a man who lies with ⟨את⟩ his daughter-in-law — dying they shall be put to death, the two of them; confusion they have made; their bloodguilt is upon them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "09d4312931fd218df5985618904fd19fa328751326bc108376d0d68d7f7ce381",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/20\/9-12.1791182556661.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "ואיש",
-      "gloss": "And a man"
+      "surface": "וְאִישׁ",
+      "gloss": "And a man",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
     },
     {
-      "surface": "ישכב",
-      "gloss": "lies with"
+      "surface": "יִשְׁכַּב",
+      "gloss": "lies with",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his daughter-in-law",
+      "sense": null
     },
     {
-      "surface": "כלתו",
-      "gloss": "his daughter-in-law"
+      "surface": "כַּלָּתוֹ",
+      "gloss": "his daughter-in-law",
+      "sense": "S1"
     },
     {
-      "surface": "מות",
-      "gloss": "dying"
+      "surface": "מוֹת",
+      "gloss": "dying",
+      "sense": "S1"
     },
     {
-      "surface": "יומתו",
-      "gloss": "they shall be put to death"
+      "surface": "יוּמְתוּ",
+      "gloss": "they shall be put to death",
+      "sense": "S1"
     },
     {
-      "surface": "שניהם",
-      "gloss": "the two of them"
+      "surface": "שְׁנֵיהֶם",
+      "gloss": "the two of them",
+      "sense": "S1"
     },
     {
-      "surface": "תבל",
+      "surface": "תֶּבֶל",
       "gloss": "confusion",
       "readings": [
         "confusion",
         "perversion"
       ],
-      "held_by": {
-        "confusion": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "perversion": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "עשו",
-      "gloss": "they have made"
+      "surface": "עָשׂוּ",
+      "gloss": "they have made",
+      "sense": "S1"
     },
     {
-      "surface": "דמיהם",
-      "gloss": "their blood"
+      "surface": "דְּמֵיהֶם",
+      "gloss": "their bloodguilt",
+      "sense": "S1"
     },
     {
-      "surface": "בם",
-      "gloss": "upon them"
+      "surface": "בָּם",
+      "gloss": "is upon them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:42:36.663827854Z",
+  "model": "glm-5.3"
 }

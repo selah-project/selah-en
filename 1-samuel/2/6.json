@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "YHWH puts to death and gives life, brings down ⟨to⟩ Sheol and brings up.",
-  "tokens": [
+  "ref": "1-samuel 2:6",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "merism",
+      "rationale": "Paired opposites — kill\/revive, bring down\/bring up — the hymn's reversal structure in four strokes."
     },
     {
-      "surface": "ממית",
-      "gloss": "puts to death"
-    },
-    {
-      "surface": "ומחיה",
-      "gloss": "and gives life"
-    },
-    {
-      "surface": "מוריד",
-      "gloss": "brings down"
-    },
-    {
-      "surface": "שאול",
-      "gloss": "Sheol"
-    },
-    {
-      "surface": "ויעל",
-      "gloss": "and brings up"
+      "kind": "substitution",
+      "subject": "Sheol",
+      "rationale": "שאול kept as the name of the abode of the dead, never 'hell' or 'the grave'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH puts to death and brings to life, brings down to Sheol and brings up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b9d86cc4a8d9dc6c7d030ef70cebed5206b1e63053486a390655b8ac7cc5d76",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/5-8.1791185361176.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵמִ֣ית",
+      "gloss": "puts to death",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְחַיֶּ֑ה",
+      "gloss": "and brings to life",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹרִ֥יד",
+      "gloss": "brings down to",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁא֖וֹל",
+      "gloss": "Sheol",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּֽעַל",
+      "gloss": "and brings up",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:29:21.177891660Z",
+  "model": "glm-5.3"
 }

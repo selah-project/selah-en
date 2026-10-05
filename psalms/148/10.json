@@ -1,88 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The beast and all cattle, creeping thing and bird of wing —",
-  "tokens": [
+  "ref": "psalms 148:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 148,
+  "notes": [
     {
-      "surface": "החיה",
-      "gloss": "the beast",
-      "readings": [
-        "the beast",
-        "wild beasts"
-      ],
-      "held_by": {
-        "the beast": [
-          "en4"
-        ],
-        "wild beasts": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "Wild animals",
+      "rationale": "החיה can be generic 'animals' or wild beasts; parallelism with בהמה (domestic) favors the wild sense"
     },
     {
-      "surface": "וכל",
+      "kind": "wordplay",
+      "subject": "צפור כנף",
+      "rationale": "'bird of wing' — bound pair; English 'winged birds' keeps the figure but pluralizes"
+    }
+  ],
+  "translation": "Wild animals and all cattle, creeping things and winged birds,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "087678201a3951c3730f4b1b58f20e97ebfc140fd9324cd76387de6bda37b6c5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/148\/9-12.1791193661519.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַחַיָּה",
+      "gloss": "Wild animals",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
       "gloss": "and all"
     },
     {
-      "surface": "בהמה",
-      "gloss": "cattle"
+      "surface": "בְּהֵמָה",
+      "gloss": "cattle",
+      "sense": "S1"
     },
     {
-      "surface": "רמש",
-      "gloss": "creeping thing",
-      "readings": [
-        "creeping thing",
-        "creeping things"
-      ],
-      "held_by": {
-        "creeping thing": [
-          "v1",
-          "en4"
-        ],
-        "creeping things": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "רֶמֶשׂ",
+      "gloss": "creeping things",
+      "sense": "S1"
     },
     {
-      "surface": "וצפור",
-      "gloss": "and bird",
-      "readings": [
-        "and bird",
-        "and birds"
-      ],
-      "held_by": {
-        "and bird": [
-          "v1",
-          "en4"
-        ],
-        "and birds": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "וְצִפּוֹר",
+      "gloss": "and birds",
+      "sense": "S1"
     },
     {
-      "surface": "כנף",
-      "gloss": "of wing",
-      "readings": [
-        "of wing",
-        "winged"
-      ],
-      "held_by": {
-        "of wing": [
-          "en4"
-        ],
-        "winged": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "כָּנָף",
+      "gloss": "winged",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:41.520161985Z",
+  "model": "glm-5.3"
 }

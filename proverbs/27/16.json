@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Hiding her is like hiding the wind, and the oil of his right hand calls out ⟨against him⟩.",
-  "tokens": [
+  "ref": "proverbs 27:16",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "צפניה",
-      "gloss": "hiding her"
+      "kind": "crux",
+      "subject": "whole verse",
+      "rationale": "Famously opaque: hiding her is like restraining wind, and the oil slips from the hand — many render 'proclaims' or 'exposes'; the Hebrew יִקְרָא literally 'calls out'."
     },
     {
-      "surface": "צפן",
-      "gloss": "hiding"
+      "kind": "wordplay",
+      "subject": "צֹפְנֶיהָ \/ צָפַן",
+      "rationale": "The root צפן is doubled — 'her hider hides' — a verbal echo English keeps only by repetition."
     },
     {
-      "surface": "רוח",
-      "gloss": "the wind",
-      "readings": [
-        "the wind",
-        "the breath"
-      ],
-      "held_by": {
-        "the wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the breath": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ושמן",
-      "gloss": "and the oil"
-    },
-    {
-      "surface": "ימינו",
-      "gloss": "of his right hand"
-    },
-    {
-      "surface": "יקרא",
-      "gloss": "calls out",
-      "readings": [
-        "calls out",
-        "proclaims",
-        "meets"
-      ],
-      "held_by": {
-        "calls out": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "proclaims": [
-          "en4"
-        ],
-        "meets": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "calls out",
+      "rationale": "קרא as 'cries out, announces' is kept literal; the idiom's point (elusive oil announcing itself as it escapes) is inferential."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Her hider hides ⟨את⟩ wind, and the oil of his right hand calls out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6b756613b003c836660c0ca6e3c816b6316801a18de408962566c2cb3636639a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/27\/13-16.1791194037666.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צֹפְנֶיהָ",
+      "gloss": "Her hider",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָפַן",
+      "gloss": "hides",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחַ",
+      "gloss": "wind",
+      "sense": "S1",
+      "readings": [
+        "wind",
+        "breath",
+        "spirit"
+      ]
+    },
+    {
+      "surface": "וְשֶׁמֶן",
+      "gloss": "and the oil of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִינוֹ",
+      "gloss": "his right hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִקְרָא",
+      "gloss": "calls out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:57.667533505Z",
+  "model": "glm-5.3"
 }

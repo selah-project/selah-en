@@ -1,47 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "Make me understand the way of your precepts, and I will meditate on your wondrous works.",
-  "tokens": [
+  "ref": "psalms 119:27",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "דרך",
-      "gloss": "the way"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Imperative addressed to YHWH, the unnamed teacher."
     },
     {
-      "surface": "פקודיך",
-      "gloss": "of your precepts"
-    },
-    {
-      "surface": "הבינני",
-      "gloss": "Make me understand"
-    },
-    {
-      "surface": "ואשיחה",
-      "gloss": "and I will meditate",
-      "readings": [
-        "and I will meditate",
-        "and I will complain to",
-        "and I will speak with"
-      ],
-      "held_by": {
-        "and I will meditate": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and I will complain to": [
-          "en4"
-        ],
-        "and I will speak with": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בנפלאותיך",
-      "gloss": "on your wondrous works"
+      "kind": "alternative",
+      "subject": "meditate",
+      "rationale": "שיח is speak softly to oneself, thinking aloud; 'speak of' is a lawful second sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The way of Your precepts — make me understand it, and I will meditate on Your wonders.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f883abcb80b7f18da170ec7837f23b38d7ab25fb277597ea40a61b32f758e7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/25-28.1791193437663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דֶּֽרֶךְ",
+      "gloss": "The way",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּקּוּדֶ֥יךָ",
+      "gloss": "of Your precepts",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֲבִינֵ֑נִי",
+      "gloss": "make me understand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝אָשִׂ֗יחָה",
+      "gloss": "and I will meditate",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנִפְלְאוֹתֶֽיךָ",
+      "gloss": "on Your wonders",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:57.664089246Z",
+  "model": "glm-5.3"
 }

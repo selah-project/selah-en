@@ -1,6 +1,28 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Behold, while you are yet speaking there with the king, I will come in after you, and fill up ⟨את⟩ your words.",
+  "ref": "1-kings 1:14",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "ומלאתי את דבריך",
+      "rationale": "Hebrew 'fill up your words' — confirm your words; the literal picture kept"
+    }
+  ],
+  "translation": "Behold, while you are still speaking there with the king, I will come in after you and fill up ⟨את⟩ your words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe9e7f7cf5615bc4b00200577b39090a27d8a805d020230a4a5dd96f56ccf1dd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/1\/13-16.1791186690094.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "הנה",
@@ -8,15 +30,17 @@
     },
     {
       "surface": "עודך",
-      "gloss": "while you are yet"
+      "gloss": "while you are still"
     },
     {
       "surface": "מדברת",
-      "gloss": "speaking"
+      "gloss": "speaking",
+      "sense": "S1"
     },
     {
       "surface": "שם",
-      "gloss": "there"
+      "gloss": "there",
+      "sense": "S1"
     },
     {
       "surface": "עם",
@@ -24,7 +48,8 @@
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "ואני",
@@ -32,39 +57,30 @@
     },
     {
       "surface": "אבוא",
-      "gloss": "will come in"
+      "gloss": "I will come in",
+      "sense": null
     },
     {
       "surface": "אחריך",
-      "gloss": "after you"
+      "gloss": "after you",
+      "sense": "S1"
     },
     {
       "surface": "ומלאתי",
       "gloss": "and I will fill up",
-      "readings": [
-        "and I will fill up",
-        "and fill up"
-      ],
-      "held_by": {
-        "and I will fill up": [
-          "v1"
-        ],
-        "and fill up": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "your words"
     },
     {
       "surface": "דבריך",
-      "gloss": "your words"
+      "gloss": "your words",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:51:30.095891454Z",
+  "model": "glm-5.3"
 }

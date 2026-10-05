@@ -1,88 +1,117 @@
 {
+  "tier": "glm-5.2",
   "verse": 44,
-  "translation": "Then the priest shall come and look, and behold, the plague has spread in the house; it is a malignant leprosy in the house; it is unclean.",
-  "tokens": [
+  "ref": "leviticus 14:44",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ובא",
-      "gloss": "and shall come"
+      "kind": "substitution",
+      "subject": "tsara'at",
+      "rationale": "צרעת covers skin disease, mold, and mildew on cloth and walls; 'leprosy' is too narrow, so the Hebrew term is transliterated"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "kind": "crux",
+      "subject": "ממארת",
+      "rationale": "From מאר 'to be bitter': rendered 'persistent'\/'eating deep'; some render 'malignant' or 'active' — a rare word (also Lev 13:51-52)"
     },
     {
-      "surface": "וראה",
-      "gloss": "and look"
-    },
-    {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "פשה",
-      "gloss": "has spread"
-    },
-    {
-      "surface": "הנגע",
-      "gloss": "the plague"
-    },
-    {
-      "surface": "בבית",
-      "gloss": "in the house"
-    },
-    {
-      "surface": "צרעת",
-      "gloss": "leprosy",
-      "readings": [
-        "leprosy",
-        "an eruption of"
-      ],
-      "held_by": {
-        "leprosy": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "an eruption of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממארת",
-      "gloss": "malignant",
-      "readings": [
-        "malignant",
-        "bitter"
-      ],
-      "held_by": {
-        "malignant": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "bitter": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it is"
-    },
-    {
-      "surface": "בבית",
-      "gloss": "in the house"
-    },
-    {
-      "surface": "טמא",
-      "gloss": "unclean"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it is"
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Hebrew pronouns הוא stand without a verb; English supplies the copula, unbracketed in the flow for readability but the doubled pronoun frame (היא...הוא) is emphatic"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the priest comes and looks, and behold, the mark has spread in the house — it is persistent tsara'at in the house; it is unclean.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3dde80226a163604b28bb0eda2c26b43a30841e465439c42c9bd8375cb92452",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/43-44.1791231195329.json",
+    "code": "d2ea2f22-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבָא",
+      "gloss": "And comes",
+      "sense": null
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרָאָה",
+      "gloss": "and looks",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּה",
+      "gloss": "and behold",
+      "sense": null
+    },
+    {
+      "surface": "פָּשָׂה",
+      "gloss": "has spread",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנֶּגַע",
+      "gloss": "the mark",
+      "sense": "S1",
+      "readings": [
+        "the mark",
+        "the sore"
+      ]
+    },
+    {
+      "surface": "בַּבַּיִת",
+      "gloss": "in the house",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרַעַת",
+      "gloss": "tsara'at",
+      "sense": "S1",
+      "readings": [
+        "tsara'at",
+        "a scaly eruption"
+      ]
+    },
+    {
+      "surface": "מַמְאֶרֶת",
+      "gloss": "persistent",
+      "sense": "S1",
+      "readings": [
+        "persistent",
+        "invading"
+      ]
+    },
+    {
+      "surface": "הִוא",
+      "gloss": "it is",
+      "sense": null
+    },
+    {
+      "surface": "בַּבַּיִת",
+      "gloss": "in the house",
+      "sense": "S1"
+    },
+    {
+      "surface": "טָמֵא",
+      "gloss": "unclean",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "it is",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T20:13:15.330655600Z",
+  "model": "glm-5.3"
 }

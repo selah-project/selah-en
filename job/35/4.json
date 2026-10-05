@@ -1,46 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "I will answer you ⟨with⟩ words, and ⟨את⟩ your companions with you.",
-  "tokens": [
+  "ref": "job 35:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "אשיבך",
-      "gloss": "will answer you",
-      "readings": [
-        "will answer you",
-        "will return you"
-      ],
-      "held_by": {
-        "will answer you": [
-          "v2",
-          "v3"
-        ],
-        "will return you": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מלין",
-      "gloss": "⟨with⟩ words"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "רעיך",
-      "gloss": "your companions"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "with you"
+      "kind": "alternative",
+      "subject": "ואת רעיך עמך",
+      "rationale": "'and your companions with you' — some read עמך as 'against you'; 'with you' is the plain sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will answer you with words, and ⟨את⟩ your companions with you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "65081322c41174b99e25c68592621014e2763b3bfa3d9fe3192e3ba518d7f6b1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/35\/1-4.1791194550044.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲ֭נִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "אֲשִֽׁיבְךָ֣",
+      "gloss": "will answer you",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלִּ֑ין",
+      "gloss": "with words",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽאֶת",
+      "gloss": "and ⟨את⟩",
+      "sense": null
+    },
+    {
+      "surface": "רֵעֶ֥יךָ",
+      "gloss": "your companions",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּֽךְ",
+      "gloss": "with you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:30.045115485Z",
+  "model": "glm-5.3"
 }

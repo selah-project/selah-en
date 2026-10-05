@@ -1,32 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And these ⟨are⟩ their names: Ben-Hur in ⟨the⟩ hill country of Ephraim.",
+  "ref": "1-kings 4:8",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "country",
+      "rationale": "הר here means the hill country region, not a single mountain; supplied word bracketed"
+    },
+    {
+      "kind": "measurement",
+      "subject": "their names",
+      "rationale": "opening of a list of the twelve officials and their districts"
+    }
+  ],
+  "translation": "And these are their names: Ben-Khur, in the hill ⟨country⟩ of Ephraim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa1c908f9bbded49f6d3bbfdebf79d215fcfac7b574e97992d34ece6fc10c453",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/4\/5-8.1791186785205.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "ואלה",
-      "gloss": "And these"
+      "surface": "וְאֵ֣לֶּה",
+      "gloss": "and these",
+      "sense": "S1"
     },
     {
-      "surface": "שמותם",
-      "gloss": "their names"
+      "surface": "שְׁמוֹתָ֔ם",
+      "gloss": "are their names",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
+      "surface": "בֶּן",
       "gloss": "Ben-"
     },
     {
-      "surface": "חור",
-      "gloss": "Hur"
+      "surface": "ח֖וּר",
+      "gloss": "Khur"
     },
     {
-      "surface": "בהר",
-      "gloss": "in ⟨the⟩ hill country"
+      "surface": "בְּהַ֥ר",
+      "gloss": "in the hill ⟨country⟩ of",
+      "sense": "S1"
     },
     {
-      "surface": "אפרים",
-      "gloss": "of Ephraim"
+      "surface": "אֶפְרָֽיִם",
+      "gloss": "Ephraim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:53:05.208006190Z",
+  "model": "glm-5.3"
 }

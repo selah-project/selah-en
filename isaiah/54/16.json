@@ -1,92 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Behold, I have created the smith who blows on the fire of coals, and brings forth a tool for his work; and I have created the destroyer to destroy.",
+  "ref": "isaiah 54:16",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חרש \/ משחית",
+      "rationale": "the maker and the destroyer bracket the verse: YHWH creates both craftsman and destroyer"
+    },
+    {
+      "kind": "elision",
+      "subject": "qere הנה",
+      "rationale": "ketiv הן read as הנה, both rendered 'Behold'"
+    }
+  ],
+  "translation": "Behold, I have created the smith, blowing on the fire of charcoal, and bringing out a tool for his work; and I have created the destroyer to wreak destruction.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "639a941b3342364a6936487d5bf0f170d5f9392bc1bd4566d7f863d7ef40ee34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/54\/13-16.1791188833792.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הן",
-      "gloss": "Behold"
+      "gloss": "Behold",
+      "sense": null
     },
     {
       "surface": "אנכי",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "בראתי",
-      "gloss": "have created"
+      "gloss": "have created",
+      "sense": "S1"
     },
     {
       "surface": "חרש",
       "gloss": "the smith",
-      "readings": [
-        "the smith",
-        "the craftsman"
-      ],
-      "held_by": {
-        "the smith": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the craftsman": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "נפח",
-      "gloss": "blowing on"
+      "gloss": "blowing",
+      "sense": "S1"
     },
     {
       "surface": "באש",
-      "gloss": "on the fire"
+      "gloss": "on the fire of",
+      "sense": "S1"
     },
     {
       "surface": "פחם",
-      "gloss": "of coals"
+      "gloss": "charcoal",
+      "sense": "S1"
     },
     {
       "surface": "ומוציא",
-      "gloss": "and bringing forth"
+      "gloss": "and bringing out",
+      "sense": "S1"
     },
     {
       "surface": "כלי",
       "gloss": "a tool",
-      "readings": [
-        "a tool",
-        "a vessel"
-      ],
-      "held_by": {
-        "a tool": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a vessel": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "למעשהו",
-      "gloss": "for his work"
+      "gloss": "for his work",
+      "sense": "S1"
     },
     {
       "surface": "ואנכי",
-      "gloss": "and I"
+      "gloss": "and I",
+      "sense": null
     },
     {
       "surface": "בראתי",
-      "gloss": "have created"
+      "gloss": "have created",
+      "sense": "S1"
     },
     {
       "surface": "משחית",
-      "gloss": "the destroyer"
+      "gloss": "the destroyer",
+      "sense": "S1"
     },
     {
       "surface": "לחבל",
-      "gloss": "to destroy"
+      "gloss": "to wreak destruction",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:27:13.794266783Z",
+  "model": "glm-5.3"
 }

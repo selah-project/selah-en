@@ -1,70 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "Better ⟨is he who is⟩ slow to anger than the mighty, and ⟨he who⟩ rules his spirit than ⟨he who⟩ captures a city.",
-  "tokens": [
+  "ref": "proverbs 16:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "טוב",
-      "gloss": "Better"
+      "kind": "substitution",
+      "subject": "long of nostrils",
+      "rationale": "ארך אפים is the literal idiom for patience, 'long of nostrils\/breath'; the picture is kept rather than 'patient'"
     },
     {
-      "surface": "ארך",
-      "gloss": "slow"
-    },
-    {
-      "surface": "אפים",
-      "gloss": "to anger",
-      "readings": [
-        "to anger",
-        "of nostrils"
-      ],
-      "held_by": {
-        "to anger": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of nostrils": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מגבור",
-      "gloss": "than the mighty"
-    },
-    {
-      "surface": "ומשל",
-      "gloss": "and ⟨he who⟩ rules"
-    },
-    {
-      "surface": "ברוחו",
-      "gloss": "his spirit"
-    },
-    {
-      "surface": "מלכד",
-      "gloss": "than ⟨he who⟩ captures",
-      "readings": [
-        "than ⟨he who⟩ captures",
-        "than one capturing"
-      ],
-      "held_by": {
-        "than ⟨he who⟩ captures": [
-          "v2",
-          "v3"
-        ],
-        "than one capturing": [
-          "en4"
-        ],
-        "takes": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "עיר",
-      "gloss": "a city"
+      "kind": "wordplay",
+      "subject": "טוב ... מן",
+      "rationale": "The 'better than' formula structures the verse's two parallel comparisons"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Better is long of nostrils than a warrior, and one who rules his spirit than one who captures a city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e36bc16dd8d0ade00393ded96dd3c1253e0e754b4f4a9e27c9502c523a85781",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/16\/29-32.1791193881398.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טוֹב",
+      "gloss": "Better",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶךְ",
+      "gloss": "long",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפַּיִם",
+      "gloss": "of nostrils",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִגִּבּוֹר",
+      "gloss": "than a warrior",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמֹשֵׁל",
+      "gloss": "and one who rules",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרוּחוֹ",
+      "gloss": "his spirit",
+      "readings": [
+        "his spirit",
+        "his temper"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלֹּכֵד",
+      "gloss": "than one who captures",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִיר",
+      "gloss": "a city",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:21.399218802Z",
+  "model": "glm-5.3"
 }

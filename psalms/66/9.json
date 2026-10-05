@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Who sets our nefesh in life, and did not give our foot to slipping.",
-  "tokens": [
+  "ref": "psalms 66:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "השם",
-      "gloss": "who sets",
-      "readings": [
-        "who sets",
-        "who keeps"
-      ]
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force; rendered by transliteration with 'life' as second reading"
     },
     {
-      "surface": "נפשנו",
+      "kind": "addition",
+      "subject": "who has",
+      "rationale": "Hebrew participle השם lacks an expressed subject; supplied relative 'who has' pointing back to Elohim of v. 8"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בחיים \/ למוט",
+      "rationale": "life vs slipping: set among the living, feet not given to tottering"
+    }
+  ],
+  "translation": "Who has set our nefesh among the living, and has not let our foot be moved.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa8650f60301c711b84e288c816dac44da2dc0468739dd00e323b4c0f8e13423",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/9-12.1791192884494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַשָּׂ֣ם",
+      "gloss": "who has set",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֵׁ֭נוּ",
       "gloss": "our nefesh",
       "readings": [
         "our nefesh",
-        "our soul",
         "our life"
       ],
-      "held_by": {
-        "our nefesh": [
-          "v2",
-          "v3"
-        ],
-        "our soul": [
-          "v1",
-          "en4"
-        ],
-        "our life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "בחיים",
-      "gloss": "in life"
+      "surface": "בַּֽחַיִּ֑ים",
+      "gloss": "among the living",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and did not"
+      "surface": "וְלֹֽא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "נתן",
-      "gloss": "give"
+      "surface": "נָתַ֖ן",
+      "gloss": "he has let",
+      "sense": null
     },
     {
-      "surface": "למוט",
-      "gloss": "to slipping"
+      "surface": "לַמּ֣וֹט",
+      "gloss": "to slip",
+      "sense": null
     },
     {
-      "surface": "רגלנו",
-      "gloss": "our foot"
+      "surface": "רַגְלֵֽנוּ",
+      "gloss": "our foot",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:44.494514362Z",
+  "model": "glm-5.3"
 }

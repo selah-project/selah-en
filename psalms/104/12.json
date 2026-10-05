@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Upon them the birds of the heavens dwell; from between the boughs they give voice.",
-  "tokens": [
+  "ref": "psalms 104:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "עליהם",
-      "gloss": "upon them"
+      "kind": "hapax",
+      "subject": "עפאים",
+      "rationale": "עפא, boughs, occurs only here in the Tanakh; 'branches' or 'foliage' are the usual guesses."
     },
     {
-      "surface": "עוף",
-      "gloss": "the birds",
-      "readings": [
-        "the birds",
-        "flying creatures"
-      ],
-      "held_by": {
-        "the birds": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "flying creatures": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "השמים",
-      "gloss": "of the heavens"
-    },
-    {
-      "surface": "ישכון",
-      "gloss": "dwell"
-    },
-    {
-      "surface": "מבין",
-      "gloss": "from between"
-    },
-    {
-      "surface": "עפאים",
-      "gloss": "the boughs",
-      "readings": [
-        "the boughs",
-        "the foliage"
-      ],
-      "held_by": {
-        "the boughs": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the foliage": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יתנו",
-      "gloss": "they give"
-    },
-    {
-      "surface": "קול",
-      "gloss": "voice"
+      "kind": "alternative",
+      "subject": "give voice",
+      "rationale": "יתנו קול literally 'give sound\/voice'; 'sing out' or 'utter a sound' are rival renderings."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Upon them the birds of the heavens dwell; from between the boughs they give voice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7290c7d036b5dbc11586cc305b6d0c12e40b2bb15c3ed28bfa9b5251ed43eb9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/9-12.1791193278863.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲ֭לֵיהֶם",
+      "gloss": "Upon them",
+      "sense": null
+    },
+    {
+      "surface": "עוֹף",
+      "gloss": "the birds of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׁמַ֣יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁכֹּ֑ון",
+      "gloss": "dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּ֥ין",
+      "gloss": "from between",
+      "sense": null
+    },
+    {
+      "surface": "עֳ֝פָאיִ֗ם",
+      "gloss": "the boughs",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְּנ֖וּ",
+      "gloss": "they give",
+      "sense": null
+    },
+    {
+      "surface": "קֽוֹל",
+      "gloss": "voice",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:18.864668794Z",
+  "model": "glm-5.3"
 }

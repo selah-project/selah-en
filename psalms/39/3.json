@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "I ⟨was⟩ silenced ⟨in⟩ stillness; I hushed ⟨myself⟩ from good, and my pain was roiled.",
-  "tokens": [
+  "ref": "psalms 39:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "נאלמתי",
-      "gloss": "I was silenced"
+      "kind": "wordplay",
+      "subject": "נֶאֱלַמְתִּי דּוּמִיָּה הֶחֱשֵׁיתִי",
+      "rationale": "Three near-synonyms of silence heaped in one clause; the piling is kept, the alliteration lost"
     },
     {
-      "surface": "דומיה",
-      "gloss": "stillness"
-    },
-    {
-      "surface": "החשיתי",
-      "gloss": "I hushed ⟨myself⟩"
-    },
-    {
-      "surface": "מטוב",
-      "gloss": "from good"
-    },
-    {
-      "surface": "וכאבי",
-      "gloss": "and my pain"
-    },
-    {
-      "surface": "נעכר",
-      "gloss": "was roiled",
-      "readings": [
-        "was roiled",
-        "was stirred"
-      ],
-      "held_by": {
-        "was roiled": [
-          "v1",
-          "v3"
-        ],
-        "was stirred": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "נֶעְכָּר",
+      "rationale": "Root 'to roil water': 'was stirred up \/ grew worse'; the water picture is carried as 'stirred up'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I was silenced in silence; I kept still ⟨from⟩ good, and my pain was stirred up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ab7f07bd949fb0bc72db7b201fd15eec49f00dccefb49bca303ff8f7b676853c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/39\/1-4.1791192668118.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֶאֱלַמְתִּי",
+      "gloss": "I was silenced",
+      "sense": "S1"
+    },
+    {
+      "surface": "דּוּמִיָּה",
+      "gloss": "in silence",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶחֱשֵׁיתִי",
+      "gloss": "I kept still",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִטּוֹב",
+      "gloss": "from good",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְאֵבִי",
+      "gloss": "and my pain",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶעְכָּר",
+      "gloss": "was stirred up",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:08.119008730Z",
+  "model": "glm-5.3"
 }

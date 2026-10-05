@@ -1,43 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "In your precepts I will meditate, and I will gaze at your paths.",
-  "tokens": [
+  "ref": "psalms 119:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "בפקדיך",
-      "gloss": "in your precepts"
-    },
-    {
-      "surface": "אשיחה",
-      "gloss": "I will meditate",
-      "readings": [
-        "I will meditate",
-        "I will muse",
-        "I will converse"
-      ],
-      "held_by": {
-        "I will meditate": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will muse": [
-          "en4"
-        ],
-        "I will converse": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואביטה",
-      "gloss": "and I will gaze at"
-    },
-    {
-      "surface": "ארחתיך",
-      "gloss": "your paths"
+      "kind": "alternative",
+      "subject": "I will muse",
+      "rationale": "שׂיח is thinking aloud — 'I will meditate' or 'I will speak' are both within the form"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In Your precepts I will muse, and I will look intently at Your paths.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7a812c00a77d15dab45dca18e8ea8c96512fea5af7528edb35329ddbbcd61c8d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/13-16.1791193438563.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּפִקֻּדֶיךָ",
+      "gloss": "In Your precepts",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָשִׂיחָה",
+      "gloss": "I will muse",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַבִּיטָה",
+      "gloss": "and I will look intently at",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹרְחֹתֶיךָ",
+      "gloss": "Your paths",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:58.564791216Z",
+  "model": "glm-5.3"
 }

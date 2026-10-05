@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 109,
-  "translation": "My soul ⟨is⟩ in my palm continually, and your Torah I have not forgotten.",
-  "tokens": [
+  "ref": "psalms 119:109",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "נפשי",
-      "gloss": "My soul",
-      "readings": [
-        "My soul",
-        "my life"
-      ],
-      "held_by": {
-        "My soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש here is the life-principle held at risk, not 'soul'"
     },
     {
-      "surface": "בכפי",
-      "gloss": "in my palm"
-    },
-    {
-      "surface": "תמיד",
-      "gloss": "continually"
-    },
-    {
-      "surface": "ותורתך",
-      "gloss": "and your Torah"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "שכחתי",
-      "gloss": "I have forgotten"
+      "kind": "idiom",
+      "subject": "in my palm",
+      "rationale": "Hebrew idiom 'life in the palm' = knowingly risking one's life; the picture kept literally"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My life is in my palm continually, and your Torah I have not forgotten.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "092fb95a05d16d7b9c55b7f7b0cf8fbee6cf3314de29207a910741c7662d3dd1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/109-112.1791193468911.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נַפְשִֽׁי",
+      "gloss": "My life",
+      "sense": "S1",
+      "readings": [
+        "My life",
+        "My soul"
+      ]
+    },
+    {
+      "surface": "בְּכַפִּ֣י",
+      "gloss": "in my palm",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָמִ֑יד",
+      "gloss": "continually",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתֽוֹרָתְךָ֗",
+      "gloss": "and your Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכַֽחְתִּֽי",
+      "gloss": "I have forgotten",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:28.912076812Z",
+  "model": "glm-5.3"
 }

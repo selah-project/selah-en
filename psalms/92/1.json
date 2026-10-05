@@ -1,38 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A psalm, a song, for the day of the Sabbath.",
-  "tokens": [
+  "ref": "psalms 92:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
     {
-      "surface": "מזמור",
-      "gloss": "a psalm",
-      "readings": [
-        "a psalm",
-        "a mizmor"
-      ],
-      "held_by": {
-        "a psalm": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a mizmor": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "שיר",
-      "gloss": "a song"
-    },
-    {
-      "surface": "ליום",
-      "gloss": "for the day"
-    },
-    {
-      "surface": "השבת",
-      "gloss": "of the Sabbath"
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English article supplied for the prefixed construct לְיוֹם"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A psalm, a song, for the day of the sabbath.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d7d9ce018429c10230aeadaa291514af5cfb4064f31273570730fca1794bfcb7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/1-4.1791193192612.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִזְמ֥וֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁ֗יר",
+      "gloss": "a song",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְי֣וֹם",
+      "gloss": "for the day of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשַּׁבָּֽת",
+      "gloss": "the sabbath",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:52.612988259Z",
+  "model": "glm-5.3"
 }

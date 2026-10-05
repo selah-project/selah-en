@@ -1,65 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "For a little while your holy people possessed ⟨it⟩; our adversaries have trampled your sanctuary.",
-  "tokens": [
+  "ref": "isaiah 63:18",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 63,
+  "notes": [
     {
-      "surface": "למצער",
-      "gloss": "For a little while"
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "the object of ירשו is unstated — the land\/sanctuary — and English needs it."
     },
     {
-      "surface": "ירשו",
-      "gloss": "possessed",
-      "readings": [
-        "possessed",
-        "dispossessed"
-      ],
-      "held_by": {
-        "possessed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "dispossessed": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "עם קדשך",
+      "rationale": "construct 'people of your holiness': 'your holy people' vs 'people of your holy one'; construct kept bound."
     },
     {
-      "surface": "עם",
-      "gloss": "people"
-    },
-    {
-      "surface": "קדשך",
-      "gloss": "your holy"
-    },
-    {
-      "surface": "צרינו",
-      "gloss": "our adversaries"
-    },
-    {
-      "surface": "בוססו",
-      "gloss": "have trampled",
-      "readings": [
-        "have trampled",
-        "have trodden down"
-      ],
-      "held_by": {
-        "have trampled": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "have trodden down": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "מקדשך",
-      "gloss": "your sanctuary"
+      "kind": "wordplay",
+      "subject": "קדשך \/ מקדשך",
+      "rationale": "your holiness and your sanctuary share the root קדש, framing the verse's loss."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For a short time your holy people possessed ⟨it⟩; our adversaries trampled your sanctuary.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9f13cca40a829c084a6f9c929c52eba6667c5ed1b513f269160873d851809326",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/63\/17-19.1791188944811.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמִּצְעָ֕ר",
+      "gloss": "For a short time",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרְשׁ֖וּ",
+      "gloss": "possessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַם",
+      "gloss": "⟨the⟩ people of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדְשֶׁ֑ךָ",
+      "gloss": "your holiness",
+      "sense": "S1",
+      "readings": [
+        "your holiness",
+        "your holy one"
+      ]
+    },
+    {
+      "surface": "צָרֵ֕ינוּ",
+      "gloss": "our adversaries",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹסְס֖וּ",
+      "gloss": "trampled",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִקְדָּשֶֽׁךָ",
+      "gloss": "your sanctuary",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:29:04.820513671Z",
+  "model": "glm-5.3"
 }

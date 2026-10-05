@@ -1,65 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Remember your compassions, YHWH, and your chesed, for they ⟨are⟩ from eternity.",
+  "ref": "psalms 25:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew omits the copula; המה 'they' carries the predication"
+    }
+  ],
+  "translation": "Remember your compassions, YHWH, and your chesed, for they are from eternity.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9025691ffbdb4eab27e12b5a52d11d9afd06c068a8851a52e310f916ce4f692d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/5-8.1791192527524.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "זכר",
-      "gloss": "Remember"
+      "surface": "זְכֹר",
+      "gloss": "Remember",
+      "sense": "S1"
     },
     {
-      "surface": "רחמיך",
-      "gloss": "your compassions"
+      "surface": "רַחֲמֶיךָ",
+      "gloss": "your compassions",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "וחסדיך",
+      "surface": "וְחֲסָדֶיךָ",
       "gloss": "and your chesed",
       "readings": [
         "and your chesed",
-        "and your steadfast loves"
+        "and your steadfast love"
       ],
-      "held_by": {
-        "and your chesed": [
-          "v3"
-        ],
-        "and your steadfast loves": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "מעולם",
+      "surface": "מֵעוֹלָם",
       "gloss": "from eternity",
-      "readings": [
-        "from eternity",
-        "from antiquity"
-      ],
-      "held_by": {
-        "from eternity": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from antiquity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "המה",
-      "gloss": "they"
+      "surface": "הֵמָּה",
+      "gloss": "they are",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:47.525389341Z",
+  "model": "glm-5.3"
 }

@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "one spoon of gold, of ten ⟨shekels⟩, full of incense;",
-  "tokens": [
+  "ref": "numbers 7:14",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כף",
-      "gloss": "spoon",
-      "readings": [
-        "spoon",
-        "dish",
-        "palm-basin"
-      ],
-      "held_by": {
-        "spoon": [
-          "v2",
-          "v3"
-        ],
-        "dish": [
-          "v1"
-        ],
-        "palm-basin": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "measurement",
+      "subject": "weighing",
+      "rationale": "The dish is specified by weight: ten, with the unit shekel carried from v. 13."
     },
     {
-      "surface": "אחת",
-      "gloss": "one"
+      "kind": "elision",
+      "subject": "shekel",
+      "rationale": "עשרה stands without its noun; the unit 'shekels' is supplied from the preceding verse."
     },
     {
-      "surface": "עשרה",
-      "gloss": "ten"
-    },
-    {
-      "surface": "זהב",
-      "gloss": "gold"
-    },
-    {
-      "surface": "מלאה",
-      "gloss": "full"
-    },
-    {
-      "surface": "קטרת",
-      "gloss": "of incense"
+      "kind": "wordplay",
+      "subject": "כף",
+      "rationale": "The same word means palm of the hand and a shallow dish — the vessel is named for the hand's hollow."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "One palm-dish of gold, ten ⟨shekels⟩, full of incense.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7ad29109e309e842d5edaa693671d5dabe50e381405d1d73363b15b745a2bac6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/7\/14-16.1791197833421.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּף",
+      "gloss": "palm-dish",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחַת",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲשָׂרָה",
+      "gloss": "ten",
+      "sense": null
+    },
+    {
+      "surface": "זָהָב",
+      "gloss": "of gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלֵאָה",
+      "gloss": "full",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְטֹרֶת",
+      "gloss": "of incense",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:57:13.421871288Z",
+  "model": "glm-5.3"
 }

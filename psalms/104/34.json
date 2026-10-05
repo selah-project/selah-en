@@ -1,46 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "May my meditation be sweet to Him; as for me, I will rejoice in YHWH.",
+  "ref": "psalms 104:34",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "שיח",
+      "rationale": "'musing aloud' vs 'meditation' vs 'complaint' — poetic term of speaking softly to oneself"
+    },
+    {
+      "kind": "alternative",
+      "subject": "to Him",
+      "rationale": "עליו may point to YHWH (v. 33) or forward to 'in YHWH'"
+    }
+  ],
+  "translation": "May my musing be sweet to Him; as for me, I will rejoice in YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "492c0084a79703f620bca018e31984f329d3e2aa42ba29d0aaa9619743f4067b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/33-35.1791193292148.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יערב",
-      "gloss": "may it be sweet"
+      "surface": "יֶעֱרַ֣ב",
+      "gloss": "may … be sweet",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
-      "gloss": "to Him"
+      "surface": "עָלָ֣יו",
+      "gloss": "to Him",
+      "sense": null
     },
     {
-      "surface": "שיחי",
-      "gloss": "my meditation",
+      "surface": "שִׂיחִ֑י",
+      "gloss": "my musing",
+      "sense": "S1",
       "readings": [
-        "my meditation",
-        "my complaint"
-      ],
-      "held_by": {
-        "my meditation": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "my complaint": [
-          "en4"
-        ]
-      }
+        "my musing",
+        "my musing-softly"
+      ]
     },
     {
-      "surface": "אנכי",
+      "surface": "אָ֝נֹכִ֗י",
       "gloss": "as for me"
     },
     {
-      "surface": "אשמח",
-      "gloss": "I will rejoice"
+      "surface": "אֶשְׂמַ֥ח",
+      "gloss": "I will rejoice",
+      "sense": "S1"
     },
     {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
+      "surface": "בַּיהוָֽה",
+      "gloss": "in YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:32.149403023Z",
+  "model": "glm-5.3"
 }

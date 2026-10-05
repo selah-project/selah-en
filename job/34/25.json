@@ -1,47 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Therefore He scrutinizes their deeds, and He overturns ⟨them⟩ in the night, and they are crushed.",
+  "ref": "job 34:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "מַעְבָּדֵיהֶם",
+      "rationale": "מַעְבָד 'deed' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "crux",
+      "subject": "he overturns night",
+      "rationale": "Read as God turning night against the mighty so they are crushed; some read 'he overturns them in the night'."
+    }
+  ],
+  "translation": "Therefore he recognizes their deeds, and he overturns night, and they are crushed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e256d543b6b5c9a43093e68eeb2d5c1981ca3f59441e5704cbf19175c4b39f1f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/34\/25-28.1791194545646.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "לכן",
+      "surface": "לָכֵן",
       "gloss": "Therefore"
     },
     {
-      "surface": "יכיר",
-      "gloss": "He scrutinizes",
-      "readings": [
-        "He scrutinizes",
-        "He recognizes"
-      ],
-      "held_by": {
-        "He scrutinizes": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "He recognizes": [
-          "en4"
-        ]
-      }
+      "surface": "יַכִּיר",
+      "gloss": "he recognizes",
+      "sense": "S1"
     },
     {
-      "surface": "מעבדיהם",
-      "gloss": "their deeds"
+      "surface": "מַעְבָּדֵיהֶם",
+      "gloss": "their deeds",
+      "sense": "S1"
     },
     {
-      "surface": "והפך",
-      "gloss": "and He overturns"
+      "surface": "וְהָפַךְ",
+      "gloss": "and he overturns",
+      "sense": "S2"
     },
     {
-      "surface": "לילה",
-      "gloss": "in the night"
+      "surface": "לַיְלָה",
+      "gloss": "night",
+      "sense": "S1"
     },
     {
-      "surface": "וידכאו",
+      "surface": "וְיִדַּכָּאוּ",
       "gloss": "and they are crushed"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:02:25.646897292Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Surely in slippery ⟨places⟩ you set them; you cast them down to ruins.",
-  "tokens": [
+  "ref": "psalms 73:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "אך",
-      "gloss": "Surely"
+      "kind": "wordplay",
+      "subject": "בחלקות",
+      "rationale": "חלק is both 'smooth' and 'flattering' — the wicked's smooth tongues (v. 5) meet smooth ground; lost in English"
     },
     {
-      "surface": "בחלקות",
-      "gloss": "in slippery ⟨places⟩",
-      "readings": [
-        "in slippery ⟨places⟩",
-        "in slipperinesses"
-      ],
-      "held_by": {
-        "in slippery ⟨places⟩": [
-          "v2",
-          "v3"
-        ],
-        "in slipperinesses": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "למשואות",
+      "rationale": "occurs only here and Ps 74:3; rendered 'ruins' after the parallel"
     },
     {
-      "surface": "תשית",
-      "gloss": "you set"
-    },
-    {
-      "surface": "למו",
-      "gloss": "them"
-    },
-    {
-      "surface": "הפלתם",
-      "gloss": "you cast them down",
-      "readings": [
-        "you cast them down",
-        "you made them fall"
-      ],
-      "held_by": {
-        "you cast them down": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you made them fall": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למשואות",
-      "gloss": "to ruins"
+      "kind": "addition",
+      "subject": "ground",
+      "rationale": "בחלקות is a feminine plural adjective used substantively; the noun is supplied"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Surely on smooth ⟨ground⟩ you set them; you cast them down to ruins.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "516a82818c6bf695355981ca8314d3341aeb873af4d87cbcc67e311b77d31afb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/17-20.1791192995829.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַךְ",
+      "gloss": "surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּחֲלָקוֹת",
+      "gloss": "on smooth ⟨ground⟩",
+      "readings": [
+        "on smooth ⟨ground⟩",
+        "on slippery places"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּשִׁית",
+      "gloss": "you set",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמוֹ",
+      "gloss": "them",
+      "sense": null
+    },
+    {
+      "surface": "הִפַּלְתָּם",
+      "gloss": "you cast them down",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַשּׁוּאוֹת",
+      "gloss": "to ruins",
+      "readings": [
+        "to ruins",
+        "to horrors"
+      ],
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:35.829908652Z",
+  "model": "glm-5.3"
 }

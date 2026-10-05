@@ -1,70 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "High ⟨is⟩ YHWH above all nations, His glory ⟨is⟩ above ⟨the⟩ heavens.",
-  "tokens": [
+  "ref": "psalms 113:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 113,
+  "notes": [
     {
-      "surface": "רם",
-      "gloss": "High"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Verbless clauses; the copula is supplied for English."
     },
     {
-      "surface": "על",
+      "kind": "alternative",
+      "subject": "glory",
+      "rationale": "כבוד literally 'weight, heaviness'; 'splendor' is the extended sense."
+    }
+  ],
+  "translation": "High above all nations is YHWH; above the heavens ⟨is⟩ His glory.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "33ed63334d466327eccd31d7c5e99c220dff03dead01f5af07c11bd01209f29d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/113\/1-4.1791193386234.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָ֖ם",
+      "gloss": "High",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
       "gloss": "above"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "גוים",
+      "surface": "גּוֹיִ֥ם",
       "gloss": "nations",
-      "readings": [
-        "nations",
-        "peoples"
-      ],
-      "held_by": {
-        "nations": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "peoples": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "is YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַ֖ל",
       "gloss": "above"
     },
     {
-      "surface": "השמים",
-      "gloss": "the heavens"
+      "surface": "הַשָּׁמַ֣יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "כבודו",
-      "gloss": "His glory",
+      "surface": "כְּבוֹדֽוֹ",
+      "gloss": "⟨is⟩ His glory",
       "readings": [
         "His glory",
         "His weight"
       ],
-      "held_by": {
-        "His glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "His weight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:06.235860371Z",
+  "model": "glm-5.3"
 }

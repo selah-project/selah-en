@@ -1,59 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And I spoke to the exile ⟨את⟩ all the words of YHWH that he had shown me.",
-  "tokens": [
+  "ref": "ezekiel 11:25",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ואדבר",
-      "gloss": "And I spoke"
+      "kind": "addition",
+      "subject": "had",
+      "rationale": "English pluperfect supplied; Hebrew perfect alone carries prior action"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "הגולה",
-      "gloss": "the exile",
-      "readings": [
-        "the exile",
-        "the captivity"
-      ],
-      "held_by": {
-        "the exile": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the captivity": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "דברי",
-      "gloss": "the words of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "הראני",
-      "gloss": "he had shown me"
+      "kind": "substitution",
+      "subject": "exile-community",
+      "rationale": "הגולה is a collective noun for the deported group, not the abstract 'exile'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I spoke to the exile-community ⟨את⟩ all the words of YHWH, which He had shown me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4309b3509431c988728aee0834ff8d03fd70f2aec459b55c9b281d6d3b28caeb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/11\/25-25.1791190342362.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֲדַבֵּר",
+      "gloss": "And I spoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "הַגּוֹלָה",
+      "gloss": "the exile-community",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "all the words of YHWH",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "דִּבְרֵי",
+      "gloss": "the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "הֶרְאָנִי",
+      "gloss": "He had shown me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:52:22.363205741Z",
+  "model": "glm-5.3"
 }

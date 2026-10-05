@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Slothfulness makes deep sleep fall, and a soul of deceit shall hunger.",
-  "tokens": [
+  "ref": "proverbs 19:15",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "עצלה",
-      "gloss": "slothfulness"
-    },
-    {
-      "surface": "תפיל",
-      "gloss": "makes fall"
-    },
-    {
-      "surface": "תרדמה",
-      "gloss": "deep sleep"
-    },
-    {
-      "surface": "ונפש",
-      "gloss": "and a soul of"
-    },
-    {
-      "surface": "רמיה",
-      "gloss": "deceit",
-      "readings": [
-        "deceit",
-        "negligence"
-      ],
-      "held_by": {
-        "deceit": [
-          "v1"
-        ],
-        "negligence": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תרעב",
-      "gloss": "shall hunger"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש here is the appetite\/life-principle, not an immaterial soul"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Laziness causes deep sleep to fall, and a slack soul hungers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e55186f2b5726f3e4f78b51e34c721b1b4fe9ee39773646f15f31a7cc1dcb0d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/13-16.1791193918060.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַ֭צְלָה",
+      "gloss": "laziness",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּפִּ֣יל",
+      "gloss": "causes to fall",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּרְדֵּמָ֑ה",
+      "gloss": "deep sleep",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֶ֖פֶשׁ",
+      "gloss": "and a soul",
+      "sense": "S1",
+      "readings": [
+        "and a soul",
+        "and an appetite",
+        "and a person"
+      ]
+    },
+    {
+      "surface": "רְמִיָּ֣ה",
+      "gloss": "slack",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּרְעָֽב",
+      "gloss": "hungers",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:58.061743001Z",
+  "model": "glm-5.3"
 }

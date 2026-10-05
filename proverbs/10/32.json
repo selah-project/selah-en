@@ -1,68 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "The lips of the righteous know favor, and the mouth of the wicked is perversity.",
-  "tokens": [
+  "ref": "proverbs 10:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "שפתי",
-      "gloss": "the lips of"
+      "kind": "substitution",
+      "subject": "favor",
+      "rationale": "רצון is 'favorable disposition, good pleasure'; 'favor' carries the sense elliptically — what is pleasing\/acceptable."
     },
     {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ידעון",
-      "gloss": "know"
-    },
-    {
-      "surface": "רצון",
-      "gloss": "favor",
-      "readings": [
-        "favor",
-        "what is acceptable",
-        "what is delighting"
-      ],
-      "held_by": {
-        "favor": [
-          "v2",
-          "v3"
-        ],
-        "what is acceptable": [
-          "v1"
-        ],
-        "what is delighting": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ופי",
-      "gloss": "and the mouth of"
-    },
-    {
-      "surface": "רשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "תהפכות",
-      "gloss": "perversity",
-      "readings": [
-        "perversity",
-        "perversities"
-      ],
-      "held_by": {
-        "perversity": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "perversities": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "verb of second colon",
+      "rationale": "Hebrew supplies no verb for 'the mouth of the wicked — perversities'; the ellipsis is kept, with a dash."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The lips of the righteous know favor, and the mouth of the wicked — perversities.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35230c1dd312dc5ad2dedb9d545da70799cc6f215ae93e3c1176ebcd51fd0604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/30-32.1791200145540.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׂפְתֵ֣י",
+      "gloss": "The lips of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּ֭יק",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵדְע֣וּן",
+      "gloss": "know",
+      "sense": null
+    },
+    {
+      "surface": "רָצ֑וֹן",
+      "gloss": "favor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפִ֥י",
+      "gloss": "and the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְ֝שָׁעִ֗ים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּהְפֻּכֽוֹת",
+      "gloss": "perversities",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T11:35:45.541393590Z",
+  "model": "glm-5.3"
 }

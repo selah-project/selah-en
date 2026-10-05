@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For because of you I have borne reproach; shame has covered my face.",
-  "tokens": [
+  "ref": "psalms 69:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
-    },
-    {
-      "surface": "עליך",
-      "gloss": "because of you",
-      "readings": [
-        "because of you",
-        "upon you"
-      ],
-      "held_by": {
-        "because of you": [
-          "v1",
-          "v3"
-        ],
-        "upon you": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נשאתי",
-      "gloss": "I have borne"
-    },
-    {
-      "surface": "חרפה",
-      "gloss": "reproach"
-    },
-    {
-      "surface": "כסתה",
-      "gloss": "has covered"
-    },
-    {
-      "surface": "כלמה",
-      "gloss": "shame"
-    },
-    {
-      "surface": "פני",
-      "gloss": "my face"
+      "kind": "alternative",
+      "subject": "עליך",
+      "rationale": "'upon you' read as 'for your sake'; literally 'on account of you'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For your sake I have borne reproach; shame has covered my face.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35e314fa4229944c410b0e4f18fc0d8519ac06b1ab6bfbf6ca63f2192dd31ac9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/5-8.1791192927748.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "עָלֶיךָ",
+      "gloss": "for your sake",
+      "sense": null
+    },
+    {
+      "surface": "נָשָׂאתִי",
+      "gloss": "I have borne",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶרְפָּה",
+      "gloss": "reproach",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּסְּתָה",
+      "gloss": "has covered",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּלִמָּה",
+      "gloss": "shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָנַי",
+      "gloss": "my face",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:35:27.749742531Z",
+  "model": "glm-5.3"
 }

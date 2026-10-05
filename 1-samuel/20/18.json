@@ -1,89 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And Jonathan said to him, Tomorrow is the new moon, and you will be missed, for your seat will be missed.",
-  "tokens": [
+  "ref": "1-samuel 20:18",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause 'tomorrow (the) new moon'; copula supplied."
     },
     {
-      "surface": "לו",
+      "kind": "alternative",
+      "subject": "and you will be missed",
+      "rationale": "נפקדת niphal can read 'you will be searched for \/ mustered'; 'missed' carries the S1 sense of a missing one being noticed."
+    }
+  ],
+  "translation": "And Jonathan said to him, “Tomorrow is the new moon, and you will be missed, for your seat will be empty.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "800971b483991d3c68d849df05556884998a15cbaf118f63a1b729557840810d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/20\/17-20.1791185822166.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
       "gloss": "to him"
     },
     {
-      "surface": "יהונתן",
-      "gloss": "Jonathan"
+      "surface": "יְהוֹנָתָן",
+      "gloss": "Jonathan",
+      "sense": "S1"
     },
     {
-      "surface": "מחר",
-      "gloss": "tomorrow"
+      "surface": "מָחָר",
+      "gloss": "tomorrow",
+      "sense": "S1"
     },
     {
-      "surface": "חדש",
-      "gloss": "new moon",
-      "readings": [
-        "new moon",
-        "month"
-      ],
-      "held_by": {
-        "new moon": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "month": [
-          "en4"
-        ]
-      }
+      "surface": "חֹדֶשׁ",
+      "gloss": "the new moon",
+      "sense": "S1"
     },
     {
-      "surface": "ונפקדת",
+      "surface": "וְנִפְקַדְתָּ",
       "gloss": "and you will be missed",
-      "readings": [
-        "and you will be missed",
-        "and you will be visited"
-      ],
-      "held_by": {
-        "and you will be missed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you will be visited": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "יפקד",
+      "surface": "יִפָּקֵד",
       "gloss": "will be missed",
-      "readings": [
-        "will be missed",
-        "will be visited"
-      ],
-      "held_by": {
-        "will be missed": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "will be visited": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "מושבך",
-      "gloss": "your seat"
+      "surface": "מוֹשָׁבֶךָ",
+      "gloss": "your seat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:37:02.167842997Z",
+  "model": "glm-5.3"
 }

@@ -1,57 +1,61 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And the glede, and ⟨את⟩ the kite, and the falcon after its kind —",
-  "tokens": [
+  "ref": "deuteronomy 14:13",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "והראה",
-      "gloss": "and the glede",
-      "readings": [
-        "and the glede",
-        "and the seer"
-      ],
-      "held_by": {
-        "and the glede": [
-          "v1",
-          "en4"
-        ],
-        "and the glider": [
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "הָרָאָה",
+      "rationale": "This bird name occurs only here in the Tanakh; identity uncertain, probably the black kite."
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "האיה",
-      "gloss": "the kite"
-    },
-    {
-      "surface": "והדיה",
-      "gloss": "and the falcon",
-      "readings": [
-        "and the falcon",
-        "and the vulture"
-      ],
-      "held_by": {
-        "and the falcon": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and the vulture": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למינה",
-      "gloss": "after its kind"
+      "kind": "crux",
+      "subject": "bird identifications",
+      "rationale": "The unclean-bird names in vv. 12–18 are notoriously hard to identify; translations differ widely (kite\/vulture, falcon\/kite)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and the kite, and ⟨את⟩ the hawk, and the falcon after her kind,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "516e7037cac17bf3db1f91ca880bb5b175ccb2d1d93b2da094188c3debeed956",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/14\/13-16.1791183858166.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָרָאָה",
+      "gloss": "and the kite",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the hawk",
+      "sense": null
+    },
+    {
+      "surface": "הָאַיָּה",
+      "gloss": "the hawk",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַדַּיָּה",
+      "gloss": "and the falcon",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמִינָהּ",
+      "gloss": "after her kind",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:04:18.166623574Z",
+  "model": "glm-5.3"
 }

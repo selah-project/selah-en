@@ -1,74 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "I looked, and behold, there ⟨was⟩ no man, and all the birds of the heavens had fled.",
-  "tokens": [
+  "ref": "jeremiah 4:25",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "ראיתי",
-      "gloss": "I looked"
+      "kind": "substitution",
+      "subject": "fled",
+      "rationale": "נדד is 'waved away, roved' — moved away in haste; 'fled' narrows the picture of waving to and fro."
     },
     {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "אין",
-      "gloss": "no",
-      "readings": [
-        "no",
-        "there is not"
-      ]
-    },
-    {
-      "surface": "האדם",
-      "gloss": "man",
-      "readings": [
-        "man",
-        "the human"
-      ],
-      "held_by": {
-        "man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the human": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "עוף",
-      "gloss": "bird of"
-    },
-    {
-      "surface": "השמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "נדדו",
-      "gloss": "had fled",
-      "readings": [
-        "had fled",
-        "had wandered"
-      ],
-      "held_by": {
-        "had fled": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "had wandered": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "no human",
+      "rationale": "אֵין הָאָדָם could read 'the human was gone', the negative as verbless clause."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I saw, and behold, no human, and all the bird of the heavens had fled.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d25bc9edd233c2b302ec4b8ec0cf47c9c2d333661258594492ab9cbd418bc399",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/4\/25-28.1791189117512.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָאִ֕יתִי",
+      "gloss": "I saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּ֖ה",
+      "gloss": "and behold",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֣ין",
+      "gloss": "no",
+      "sense": null
+    },
+    {
+      "surface": "הָאָדָ֑ם",
+      "gloss": "human",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "ע֥וֹף",
+      "gloss": "the bird of",
+      "readings": [
+        "the bird of",
+        "the fowl of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׁמַ֖יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָדָֽדוּ",
+      "gloss": "had fled",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:31:57.513155875Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "And the house of Joseph sent to spy out Bethel — and the name of the city formerly ⟨was⟩ Luz.",
+  "ref": "judges 1:23",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "sent men to spy out",
+      "rationale": "התירו hiphil means 'caused to reconnoiter'; the sent men are implied, not stated."
+    },
+    {
+      "kind": "elision",
+      "subject": "אֵל",
+      "rationale": "Bethel spans two tokens; gloss repeated for alignment."
+    }
+  ],
+  "translation": "And the house of Joseph sent men to spy out Bethel — now the name of the city formerly was Luz.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "061a98d43b00a81d8f103fd4a93be3479e8006e43eeab24dfc47ad167670e03b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/1\/21-24.1791184820455.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
-      "surface": "ויתירו",
-      "gloss": "And they sent to spy out",
-      "readings": [
-        "And they sent to spy out",
-        "And they spied out"
-      ],
-      "held_by": {
-        "And they sent to spy out": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "And they spied out": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וַיָּתִירוּ",
+      "gloss": "and sent to spy out",
+      "sense": "S1"
     },
     {
-      "surface": "בית",
-      "gloss": "the house"
+      "surface": "בֵית",
+      "gloss": "the house of",
+      "sense": "S1"
     },
     {
-      "surface": "יוסף",
-      "gloss": "of Joseph"
+      "surface": "יוֹסֵף",
+      "gloss": "Joseph",
+      "sense": "S1"
     },
     {
-      "surface": "בבית",
-      "gloss": "Beth-"
+      "surface": "בְּבֵית",
+      "gloss": "Bethel",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "el"
+      "surface": "אֵל",
+      "gloss": "Bethel",
+      "sense": null
     },
     {
-      "surface": "ושם",
-      "gloss": "and the name"
+      "surface": "וְשֵׁם",
+      "gloss": "and the name of",
+      "sense": "S1"
     },
     {
-      "surface": "העיר",
-      "gloss": "of the city"
+      "surface": "הָעִיר",
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
-      "surface": "לפנים",
+      "surface": "לְפָנִים",
       "gloss": "formerly"
     },
     {
-      "surface": "לוז",
-      "gloss": "Luz"
+      "surface": "לוּז",
+      "gloss": "Luz",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:20:20.456962984Z",
+  "model": "glm-5.3"
 }

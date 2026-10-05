@@ -1,71 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "and YHWH removes far ⟨את⟩ the man, and great is the forsaken land in the midst of the land.",
+  "ref": "isaiah 6:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "העזובה",
+      "rationale": "the nominalized participle 'the forsakenness' occurs only here in the Tanakh"
+    },
+    {
+      "kind": "addition",
+      "subject": "will be",
+      "rationale": "the verb רבה is 'become many\/great'; the copula phrasing carries the predicate-noun structure"
+    }
+  ],
+  "translation": "And YHWH will remove ⟨את⟩ the human, and great will be the forsakenness in the midst of the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa2eeb18940952a1b018f2654870354fcb1b2744caed737be51630be395b4416",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/6\/9-12.1791188086954.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ורחק",
-      "gloss": "and removes far"
+      "surface": "וְרִחַק",
+      "gloss": "and will remove",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the human"
     },
     {
-      "surface": "האדם",
-      "gloss": "the man"
+      "surface": "הָאָדָם",
+      "gloss": "the human",
+      "sense": "S1"
     },
     {
-      "surface": "ורבה",
-      "gloss": "and great is"
+      "surface": "וְרַבָּה",
+      "gloss": "and great will be",
+      "sense": "S1"
     },
     {
-      "surface": "העזובה",
-      "gloss": "the forsaken",
-      "readings": [
-        "the forsaken",
-        "the forsaken land",
-        "the forsaken one"
-      ],
-      "held_by": {
-        "the forsaken land": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the forsaken one": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "הָעֲזוּבָה",
+      "gloss": "the forsakenness",
+      "sense": "S1"
     },
     {
-      "surface": "בקרב",
+      "surface": "בְּקֶרֶב",
       "gloss": "in the midst of"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the land",
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1",
       "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "en4"
-        ],
-        "the earth": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "the earth",
+        "the land"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:46.956481957Z",
+  "model": "glm-5.3"
 }

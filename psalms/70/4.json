@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Let them turn back on account of their shame, those who say, “Aha, aha!”",
-  "tokens": [
+  "ref": "psalms 70:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 70,
+  "notes": [
     {
-      "surface": "ישובו",
-      "gloss": "let them turn back"
+      "kind": "crux",
+      "subject": "on account of",
+      "rationale": "על עקב literally 'upon the heel of'; idiom for 'as a consequence of' — rendered idiomatically, picture of heel retained in token"
     },
     {
-      "surface": "על",
-      "gloss": "on account of"
-    },
-    {
-      "surface": "עקב",
-      "gloss": "on account of",
-      "readings": [
-        "on account of",
-        "the heel of"
-      ],
-      "held_by": {
-        "on account of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the heel of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשתם",
-      "gloss": "their shame"
-    },
-    {
-      "surface": "האמרים",
-      "gloss": "those who say"
-    },
-    {
-      "surface": "האח",
-      "gloss": "Aha"
-    },
-    {
-      "surface": "האח",
-      "gloss": "aha"
+      "kind": "wordplay",
+      "subject": "האח האח",
+      "rationale": "doubled gloating interjection, Hebrew onomatopoeia of malicious delight"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let them turn back on account of their shame, those who say, “Aha! Aha!”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dd4ceb452e6b6f23f250500f19509ac61a50b0a1d0c0d1527afac2b6dd1b3fa2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/70\/1-4.1791192963355.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָ֭שׁוּבוּ",
+      "gloss": "Let them turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on account of",
+      "sense": null
+    },
+    {
+      "surface": "עֵ֣קֶב",
+      "gloss": "the heel of",
+      "readings": [
+        "the heel of",
+        "the reward of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּשְׁתָּ֑ם",
+      "gloss": "their shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֹמְרִ֗ים",
+      "gloss": "those who say",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶ֘אָ֥ח",
+      "gloss": "“Aha!",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶָֽאָֽח",
+      "gloss": "Aha!”",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:03.356618269Z",
+  "model": "glm-5.3"
 }

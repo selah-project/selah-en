@@ -1,48 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The splendor of the glory of your majesty, and ⟨the⟩ words of your wonders I will meditate on.",
-  "tokens": [
+  "ref": "psalms 145:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 145,
+  "notes": [
     {
-      "surface": "הדר",
-      "gloss": "the splendor",
-      "readings": [
-        "the splendor",
-        "the ornament"
-      ]
+      "kind": "addition",
+      "subject": "of",
+      "rationale": "English needs repeated 'of' for the chained constructs"
     },
     {
-      "surface": "כבוד",
-      "gloss": "of the glory",
-      "readings": [
-        "of the glory",
-        "the weight of"
-      ]
-    },
-    {
-      "surface": "הודך",
-      "gloss": "of your majesty"
-    },
-    {
-      "surface": "ודברי",
-      "gloss": "and ⟨the⟩ words of",
-      "readings": [
-        "and ⟨the⟩ words of",
-        "and ⟨the⟩ matters of"
-      ]
-    },
-    {
-      "surface": "נפלאותיך",
-      "gloss": "your wonders"
-    },
-    {
-      "surface": "אשיחה",
-      "gloss": "I will meditate on",
-      "readings": [
-        "I will meditate on",
-        "I will speak of"
-      ]
+      "kind": "wordplay",
+      "subject": "הדר כבוד הודך",
+      "rationale": "three near-synonymous splendor-words piled in construct chain, a density English flattens"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The splendor of the glory of your majesty will I speak of, and of your wondrous deeds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3dc2907fd5be3ee37f19c706314d587080162fadd47f945d937475d44cd0cdaa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/145\/5-8.1791193635378.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲדַר",
+      "gloss": "The splendor of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּבוֹד",
+      "gloss": "the glory of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹדֶךָ",
+      "gloss": "your majesty",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדִבְרֵי",
+      "gloss": "and the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִפְלְאוֹתֶיךָ",
+      "gloss": "your wondrous deeds",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָשִׂיחָה",
+      "gloss": "will I speak of",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:15.379177302Z",
+  "model": "glm-5.3"
 }

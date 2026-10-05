@@ -1,63 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Will He keep ⟨anger⟩ forever, or will He guard ⟨it⟩ to the end? Behold, you have spoken and you have done the evil things, and you were able.",
+  "ref": "jeremiah 3:5",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "דברתי",
+      "rationale": "ketiv 'I have spoken' vs qere דברת 'you have spoken'; rendered by the qere, which fits the address to Israel"
+    },
+    {
+      "kind": "addition",
+      "subject": "anger",
+      "rationale": "נטר's object is unstated in Hebrew; supplied ⟨anger⟩ from the idiom 'to keep anger'"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "the verse addresses apostate Israel directly ('you have spoken, and you have done')"
+    }
+  ],
+  "translation": "Will He keep ⟨anger⟩ forever, or will He keep it to the end? Behold, you have spoken, and you have done the evils, and you were able.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "96327c530a0dc8c17caaf1caff6af0bf62df6e0bc1817fb495bd480085a9d0ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/3\/5-8.1791189048461.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "הינטר",
-      "gloss": "keep ⟨anger⟩"
+      "surface": "הֲיִנְטֹ֣ר",
+      "gloss": "Will He keep",
+      "sense": "S2"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָ֔ם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "or"
     },
     {
-      "surface": "ישמר",
-      "gloss": "guard ⟨it⟩"
+      "surface": "יִשְׁמֹ֖ר",
+      "gloss": "will He keep",
+      "sense": "S1"
     },
     {
-      "surface": "לנצח",
-      "gloss": "to the end"
+      "surface": "לָנֶ֑צַח",
+      "gloss": "to the end",
+      "sense": "S1"
     },
     {
-      "surface": "הנה",
+      "surface": "הִנֵּ֥ה",
       "gloss": "Behold"
     },
     {
       "surface": "דברתי",
-      "gloss": "you have spoken"
+      "gloss": "you have spoken",
+      "sense": "S1"
     },
     {
-      "surface": "ותעשי",
-      "gloss": "and you have done"
+      "surface": "וַתַּעֲשִׂ֥י",
+      "gloss": "and you have done",
+      "sense": "S1"
     },
     {
-      "surface": "הרעות",
-      "gloss": "the evil things"
+      "surface": "הָרָע֖וֹת",
+      "gloss": "the evils",
+      "sense": "S1"
     },
     {
-      "surface": "ותוכל",
+      "surface": "וַתּוּכָֽל",
       "gloss": "and you were able",
-      "readings": [
-        "and you were able",
-        "and you have prevailed"
-      ],
-      "held_by": {
-        "and you were able": [
-          "v2",
-          "en4"
-        ],
-        "and you have prevailed": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:30:48.462575247Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Established is your throne from of old; from eternity you ⟨are⟩.",
-  "tokens": [
+  "ref": "psalms 93:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 93,
+  "notes": [
     {
-      "surface": "נכון",
-      "gloss": "Established"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew pronoun אתה lacks a verb; copula supplied in English."
     },
     {
-      "surface": "כסאך",
-      "gloss": "your throne"
-    },
-    {
-      "surface": "מאז",
-      "gloss": "from of old",
-      "readings": [
-        "from of old",
-        "from that time"
-      ],
-      "held_by": {
-        "from of old": [
-          "v2",
-          "v3"
-        ],
-        "from that time": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מעולם",
-      "gloss": "from eternity",
-      "readings": [
-        "from eternity",
-        "from everlasting"
-      ],
-      "held_by": {
-        "from eternity": [
-          "v1",
-          "en4"
-        ],
-        "from everlasting": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct second-person address to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Firm stands Your throne from then, from eternity You are.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f4a9a1bf2895b09705ebc1f47650a8f35a58d3f810df327f43c5e1e70ca85d0b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/93\/1-4.1791193206810.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נָכ֣וֹן",
+      "gloss": "Firm stands",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּסְאֲךָ֣",
+      "gloss": "Your throne",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאָ֑ז",
+      "gloss": "from then",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽעוֹלָ֣ם",
+      "gloss": "from eternity",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָֽתָּה",
+      "gloss": "You are",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:06.810949820Z",
+  "model": "glm-5.3"
 }

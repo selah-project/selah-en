@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For my transgressions I myself know, and my sin is before me continually.",
-  "tokens": [
+  "ref": "psalms 51:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between חטאתי and נגדי"
     },
     {
-      "surface": "פשעי",
-      "gloss": "my transgressions"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I myself"
-    },
-    {
-      "surface": "אדע",
-      "gloss": "I know"
-    },
-    {
-      "surface": "וחטאתי",
-      "gloss": "and my sin"
-    },
-    {
-      "surface": "נגדי",
-      "gloss": "before me"
-    },
-    {
-      "surface": "תמיד",
-      "gloss": "continually"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "David confesses directly to God, who is addressed throughout"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For my revolts I know, and my sin is before me continually.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d541f56aae21e732dc8ef9e630ab8ce30cc3287d2b5ff14d6702c4d5860bd5fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/5-8.1791192776395.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "פְ֭שָׁעַי",
+      "gloss": "my revolts",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנִ֣י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "אֵדָ֑ע",
+      "gloss": "know",
+      "sense": null
+    },
+    {
+      "surface": "וְחַטָּאתִ֖י",
+      "gloss": "and my sin",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶגְדִּ֣י",
+      "gloss": "is before me",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָמִֽיד",
+      "gloss": "continually",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:56.396335991Z",
+  "model": "glm-5.3"
 }

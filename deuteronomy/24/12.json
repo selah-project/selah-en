@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And if he is a poor man, you shall not sleep in his pledge.",
-  "tokens": [
+  "ref": "deuteronomy 24:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "ואם",
-      "gloss": "And if"
+      "kind": "addition",
+      "subject": "he is",
+      "rationale": "Hebrew pronoun הוא with no verb; English requires a copula, left unbracketed here as emphasis"
     },
     {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "עני",
-      "gloss": "poor"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he is"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תשכב",
-      "gloss": "you shall sleep"
-    },
-    {
-      "surface": "בעבטו",
-      "gloss": "in his pledge",
-      "readings": [
-        "in his pledge",
-        "with his pledge"
-      ],
-      "held_by": {
-        "in his pledge": [
-          "v1",
-          "en4"
-        ],
-        "with his pledge": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "lie down in his pledge",
+      "rationale": "תשכב בעבטו: literally 'sleep in his pledge', i.e. keep a garment pledge overnight (see v.13); many versions render 'keep' and lose the sleeping picture"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And if the man is poor, you shall not sleep in his pledge —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f0b6a1c90bba3bb0943ea6e796ba6d29120388668acd4b61f169c9b11e5dbf0d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/24\/9-12.1791184025753.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִ֥ישׁ",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָנִ֖י",
+      "gloss": "poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֑וּא",
+      "gloss": "he is",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁכַּ֖ב",
+      "gloss": "you shall lie down",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּעֲבֹטֽוֹ",
+      "gloss": "in his pledge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:07:05.755352312Z",
+  "model": "glm-5.3"
 }

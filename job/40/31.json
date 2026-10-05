@@ -1,60 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 31,
-  "translation": "Will you fill his skin with barbed points, and his head with fish-spears?",
-  "tokens": [
+  "ref": "job 40:31",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "התמלא",
-      "gloss": "Will you fill"
+      "kind": "hapax",
+      "subject": "שכות",
+      "rationale": "This word for barbed fishing-darts occurs only here in the Tanakh."
     },
     {
-      "surface": "בשכות",
-      "gloss": "with barbed points",
-      "readings": [
-        "with barbed points",
-        "with harpoons"
-      ],
-      "held_by": {
-        "with barbed points": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "with harpoons": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "עורו",
-      "gloss": "his skin"
-    },
-    {
-      "surface": "ובצלצל",
-      "gloss": "and with fish-spears",
-      "readings": [
-        "and with fish-spears",
-        "and with the basket of"
-      ],
-      "held_by": {
-        "and with fish-spears": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and with the basket of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דגים",
-      "gloss": "of fish"
-    },
-    {
-      "surface": "ראשו",
-      "gloss": "his head"
+      "kind": "crux",
+      "subject": "צלצל",
+      "rationale": "Lexicon gives 'clatter\/whirring\/cricket', but the fishing-weapon sense (a dart) fits the context; rendered 'spears of fish'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Can you fill his skin with harpoons, and his head with fish-spears?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "da5f53d69e6146ca5f8f0258a0542a82b60ae6e276afc8524613f04c0675819f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/29-32.1791194638537.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַֽתְמַלֵּ֣א",
+      "gloss": "can you fill",
+      "sense": "S2"
+    },
+    {
+      "surface": "בְשֻׂכּ֣וֹת",
+      "gloss": "with harpoons",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹר֑וֹ",
+      "gloss": "his skin",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְצִלְצַ֖ל",
+      "gloss": "and with spears",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּגִ֣ים",
+      "gloss": "of fish",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹאשֽׁוֹ",
+      "gloss": "his head",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:58.538066540Z",
+  "model": "glm-5.3"
 }

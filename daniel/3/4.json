@@ -1,70 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And the herald cried with strength: “To you it is commanded, O peoples, nations, and languages:",
-  "tokens": [
+  "ref": "daniel 3:4",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "וכרוזא",
-      "gloss": "And the herald"
+      "kind": "hapax",
+      "subject": "כָּרוֹז (herald)",
+      "rationale": "The word 'herald' occurs only here in the Tanakh."
     },
     {
-      "surface": "קרא",
-      "gloss": "cried"
+      "kind": "idiom",
+      "subject": "בְחָיִל",
+      "rationale": "Literally 'with strength'; rendered 'aloud', the idiom for a loud public proclamation."
     },
     {
-      "surface": "בחיל",
-      "gloss": "with strength",
-      "readings": [
-        "with strength",
-        "aloud"
-      ],
-      "held_by": {
-        "with strength": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "aloud": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "invitation",
+      "subject": "herald's proclamation",
+      "rationale": "The herald's public cry summons all hearers — the verse opens the empire-wide decree."
     },
     {
-      "surface": "לכון",
-      "gloss": "To you"
-    },
-    {
-      "surface": "אמרין",
-      "gloss": "it is commanded",
-      "readings": [
-        "it is commanded",
-        "it is said"
-      ],
-      "held_by": {
-        "it is commanded": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "it is said": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עממיא",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "אמיא",
-      "gloss": "nations"
-    },
-    {
-      "surface": "ולשניא",
-      "gloss": "and languages"
+      "kind": "you",
+      "subject": "to peoples, nations, and languages",
+      "rationale": "Direct address to every people, nation, and language of the empire."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the herald cried aloud, “To you it is said, peoples, nations, and languages:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "59ed54459da42788d863bdebbd29ca086b0327a814389f9283bb60f7644c7a6a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/3\/1-4.1791195227726.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכָרוֹזָ֖א",
+      "gloss": "And the herald",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָרֵ֣א",
+      "gloss": "cried",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְחָ֑יִל",
+      "gloss": "aloud",
+      "sense": null
+    },
+    {
+      "surface": "לְכ֤וֹן",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "אָֽמְרִין֙",
+      "gloss": "it is said",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמְמַיָּ֔א",
+      "gloss": "peoples",
+      "sense": null
+    },
+    {
+      "surface": "אֻמַּיָּ֖א",
+      "gloss": "nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלִשָּׁנַיָּֽא",
+      "gloss": "and languages",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:13:47.728479537Z",
+  "model": "glm-5.3"
 }

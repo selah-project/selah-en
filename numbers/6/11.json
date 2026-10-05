@@ -1,125 +1,130 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And the priest shall make one for a sin offering and one for a burnt offering, and make atonement for him, because he sinned on account of the soul; and he shall consecrate ⟨את⟩ his head on that day.",
+  "ref": "numbers 6:11",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "ascension-offering",
+      "rationale": "עֹלָה is 'that which goes up'; 'burnt offering' names the mode, not the picture"
+    },
+    {
+      "kind": "crux",
+      "subject": "the soul",
+      "rationale": "הַנָּפֶשׁ here is the dead body that defiled the nazirite (context of 6:9), not 'a person' or 'the soul' in a later sense"
+    },
+    {
+      "kind": "alternative",
+      "subject": "atones",
+      "rationale": "כִּפֶּר literally 'covers'; atone\/cover both carry the sense"
+    }
+  ],
+  "translation": "And the priest makes the one a sin-offering and the one an ascension-offering, and he atones for him because of what he sinned against the soul, and he consecrates ⟨את⟩ his head on that day.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "17d1d5bcbe602dda6437018e674acee8ae9efb9bc8dd9430db65c15d6970e0cd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/6\/9-12.1791182900185.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ועשה",
-      "gloss": "and he shall make",
-      "readings": [
-        "and he shall make",
-        "and he shall prepare"
-      ],
-      "held_by": {
-        "and he shall make": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and he shall prepare": [
-          "en4"
-        ]
-      }
+      "surface": "וְעָשָׂ֣ה",
+      "gloss": "And makes",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֗ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "אחד",
-      "gloss": "one"
+      "surface": "אֶחָ֤ד",
+      "gloss": "the one",
+      "sense": "S1"
     },
     {
-      "surface": "לחטאת",
-      "gloss": "for a sin offering"
+      "surface": "לְחַטָּאת֙",
+      "gloss": "a sin-offering",
+      "sense": "S1"
     },
     {
-      "surface": "ואחד",
-      "gloss": "and one"
+      "surface": "וְאֶחָ֣ד",
+      "gloss": "and the one",
+      "sense": "S1"
     },
     {
-      "surface": "לעלה",
-      "gloss": "for a burnt offering"
+      "surface": "לְעֹלָ֔ה",
+      "gloss": "an ascension-offering",
+      "sense": "S1"
     },
     {
-      "surface": "וכפר",
-      "gloss": "and make atonement"
+      "surface": "וְכִפֶּ֣ר",
+      "gloss": "and he atones",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
-      "gloss": "for him"
+      "surface": "עָלָ֔יו",
+      "gloss": "for him",
+      "sense": null
     },
     {
-      "surface": "מאשר",
-      "gloss": "because"
+      "surface": "מֵאֲשֶׁ֥ר",
+      "gloss": "because of what",
+      "sense": null
     },
     {
-      "surface": "חטא",
-      "gloss": "he sinned"
+      "surface": "חָטָ֖א",
+      "gloss": "he sinned",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "on account of",
-      "readings": [
-        "on account of",
-        "against",
-        "over"
-      ],
-      "held_by": {
-        "on account of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "against": [
-          "v1",
-          "v3"
-        ],
-        "over": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "עַל",
+      "gloss": "against",
+      "sense": null
     },
     {
-      "surface": "הנפש",
+      "surface": "הַנָּ֤֑פֶשׁ",
       "gloss": "the soul",
       "readings": [
         "the soul",
-        "the nefesh"
+        "the dead body"
       ],
-      "held_by": {
-        "the soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "וקדש",
-      "gloss": "and he shall consecrate"
+      "surface": "וְקִדַּ֥שׁ",
+      "gloss": "and he consecrates",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "his head",
+      "sense": null
     },
     {
-      "surface": "ראשו",
-      "gloss": "his head"
+      "surface": "רֹאשׁ֖וֹ",
+      "gloss": "his head",
+      "sense": "S1"
     },
     {
-      "surface": "ביום",
-      "gloss": "on the day"
+      "surface": "בַּיּ֥וֹם",
+      "gloss": "on the day",
+      "sense": "S1"
     },
     {
-      "surface": "ההוא",
-      "gloss": "that"
+      "surface": "הַהֽוּא",
+      "gloss": "that",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:48:20.186827276Z",
+  "model": "glm-5.3"
 }

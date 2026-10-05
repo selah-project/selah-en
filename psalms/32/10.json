@@ -1,78 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Many ⟨are⟩ the pains of the wicked, but he who trusts in YHWH — chesed surrounds him.",
+  "ref": "psalms 32:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "as for",
+      "rationale": "English needs a topic frame for the fronted participle clause; supplied and bracketed."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רַבִּים \/ סוֹבֵב",
+      "rationale": "The many pains of the wicked are set against what wholly encircles the trusting one — numerical vastness against encompassing completeness."
+    }
+  ],
+  "translation": "Many are the pains of the wicked, but ⟨as for⟩ the one trusting in YHWH — chesed surrounds him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2777e8e531bd7cffccda1ccc6065bd43c2b9a6ad72549f5014159285b3090143",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/32\/9-11.1791192589134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "רבים",
-      "gloss": "many"
+      "surface": "רַבִּ֥ים",
+      "gloss": "Many",
+      "sense": "S1"
     },
     {
-      "surface": "מכאובים",
-      "gloss": "pains",
-      "readings": [
-        "pains",
-        "sorrows"
-      ],
-      "held_by": {
-        "pains": [
-          "en4"
-        ],
-        "sorrows": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "מַכְאוֹבִ֗ים",
+      "gloss": "are the pains",
+      "sense": "S1"
     },
     {
-      "surface": "לרשע",
+      "surface": "לָרָ֫שָׁ֥ע",
       "gloss": "of the wicked",
-      "readings": [
-        "of the wicked",
-        "for the wicked"
-      ],
-      "held_by": {
-        "of the wicked": [
-          "v2",
-          "v3"
-        ],
-        "for the wicked": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "והבוטח",
-      "gloss": "but he who trusts"
+      "surface": "וְהַבּוֹטֵ֥חַ",
+      "gloss": "but ⟨as for⟩ the one trusting",
+      "sense": "S1"
     },
     {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
+      "surface": "בַּיהוָ֑ה",
+      "gloss": "in YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
+      "surface": "חֶ֝֗סֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
         "steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "steadfast love": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יסובבנו",
-      "gloss": "surrounds him"
+      "surface": "יְסוֹבְבֶֽנּוּ",
+      "gloss": "surrounds him",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:49.135509006Z",
+  "model": "glm-5.3"
 }

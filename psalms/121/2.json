@@ -1,32 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "My help is from with YHWH, maker of the heavens and the earth.",
+  "ref": "psalms 121:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 121,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the nominal clause supplies 'is' in English."
+    }
+  ],
+  "translation": "My help is from YHWH, maker of the heavens and the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ce48a604c2613a0be0413c87f37a80586599eb48bf5afa8feed4344e333251d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/121\/1-4.1791193507248.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עזרי",
-      "gloss": "My help"
+      "surface": "עֶ֭זְרִי",
+      "gloss": "My help",
+      "sense": "S1"
     },
     {
-      "surface": "מעם",
-      "gloss": "from with"
+      "surface": "מֵעִ֣ם",
+      "gloss": "from",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "עשה",
-      "gloss": "maker ⟨of⟩"
+      "gloss": "maker of",
+      "sense": "S1"
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "surface": "שָׁמַ֥יִם",
+      "gloss": "the heavens",
+      "sense": "S2"
     },
     {
-      "surface": "וארץ",
-      "gloss": "and the earth"
+      "surface": "וָאָֽרֶץ",
+      "gloss": "and the earth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:07.249558908Z",
+  "model": "glm-5.3"
 }

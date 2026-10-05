@@ -1,48 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "The bellows burn; from their fire the lead is consumed; in vain the refiner refines, and the wicked are not torn away.",
-  "tokens": [
+  "ref": "jeremiah 6:29",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "נחר",
-      "gloss": "burn"
+      "kind": "hapax",
+      "subject": "מַפֻּחַ",
+      "rationale": "The word 'bellows' occurs only here in the Tanakh."
     },
     {
-      "surface": "מפח",
-      "gloss": "the bellows"
+      "kind": "hapax",
+      "subject": "מאשתם",
+      "rationale": "Ketiv form read as 'from their fire'; a unique spelling of אש with 3mp suffix."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "צָרַף צָרוֹף",
+      "rationale": "Perfect plus infinitive absolute — 'refined, refined' — the doubling is kept, not collapsed."
+    },
+    {
+      "kind": "addition",
+      "subject": "the refiner",
+      "rationale": "צרף is read as a noun, 'smelter', by many; the doubled verbal form is kept instead."
+    }
+  ],
+  "translation": "Glowed the bellows, from-their-fire ⟨את⟩ the lead — in vain the refiner refined, refined, and the evil ones were not torn away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ff3a6e12f9095b0d2495e0f8dc7688ba7d6c6910eb3712c1a0ca6fded299b334",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/6\/29-30.1791189147566.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נָחַ֣ר",
+      "gloss": "glowed",
+      "sense": null
+    },
+    {
+      "surface": "מַפֻּ֔חַ",
+      "gloss": "the bellows",
+      "sense": null
     },
     {
       "surface": "מאשתם",
-      "gloss": "from their fire"
+      "gloss": "from-their-fire",
+      "sense": null
     },
     {
-      "surface": "עפרת",
-      "gloss": "the lead"
+      "surface": "עֹפָ֑רֶת",
+      "gloss": "⟨את⟩ the lead",
+      "sense": "S1"
     },
     {
-      "surface": "לשוא",
-      "gloss": "in vain"
+      "surface": "לַשָּׁוְא֙",
+      "gloss": "in vain",
+      "sense": "S1"
     },
     {
-      "surface": "צרף",
-      "gloss": "the refiner"
+      "surface": "צָרַ֣ף",
+      "gloss": "the refiner refined",
+      "sense": "S1"
     },
     {
-      "surface": "צרוף",
-      "gloss": "refines"
+      "surface": "צָר֔וֹף",
+      "gloss": "refined",
+      "sense": "S1"
     },
     {
-      "surface": "ורעים",
-      "gloss": "and the wicked"
+      "surface": "וְרָעִ֖ים",
+      "gloss": "and the evil ones",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נתקו",
-      "gloss": "are torn away"
+      "surface": "נִתָּֽקוּ",
+      "gloss": "were torn away",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:32:27.567211593Z",
+  "model": "glm-5.3"
 }

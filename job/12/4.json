@@ -1,63 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "A laughingstock to his friend I have become — the one calling to Eloah, and He answers him! A laughingstock is the righteous, the blameless one.",
-  "tokens": [
+  "ref": "job 12:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "שחק",
-      "gloss": "a laughingstock"
+      "kind": "wordplay",
+      "subject": "שחק...שחוק",
+      "rationale": "the verse brackets itself with the same noun 'laughter\/laughingstock', an envelope structure lost in smooth English"
     },
     {
-      "surface": "לרעהו",
-      "gloss": "to his friend"
+      "kind": "crux",
+      "subject": "ויענהו",
+      "rationale": "read as YHWH's own answer (He answers him) or as the friend's mocking response; the suffix's referent is ambiguous"
     },
     {
-      "surface": "אהיה",
-      "gloss": "I have become",
-      "readings": [
-        "I have become",
-        "I am"
-      ]
-    },
-    {
-      "surface": "קרא",
-      "gloss": "the one calling"
-    },
-    {
-      "surface": "לאלוה",
-      "gloss": "to Eloah"
-    },
-    {
-      "surface": "ויענהו",
-      "gloss": "and He answers him"
-    },
-    {
-      "surface": "שחוק",
-      "gloss": "a laughingstock"
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "תמים",
-      "gloss": "the blameless one",
-      "readings": [
-        "the blameless one",
-        "the whole one"
-      ],
-      "held_by": {
-        "the blameless one": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the whole one": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "laughingstock",
+      "rationale": "שחק is literally '(object of) laughter'; the English noun compresses the picture"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A laughingstock to his friend I am — one calling to Eloah, and He answers him — a laughingstock, blameless and upright.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef85264ae070d157f27191274ef4a60944ee3bdb441a7990aa0eb16e49ebdddf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/12\/1-4.1791194250095.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׂחֹ֤ק",
+      "gloss": "a laughingstock",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרֵעֵ֨הוּ",
+      "gloss": "to his friend",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶֽהְיֶ֗ה",
+      "gloss": "I am",
+      "sense": null
+    },
+    {
+      "surface": "קֹרֵ֣א",
+      "gloss": "one calling",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶאֱלֹֽהַּ",
+      "gloss": "to Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּעֲנֵֽהוּ",
+      "gloss": "and He answers him",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂחִ֥יחַ",
+      "gloss": "a laughingstock",
+      "sense": null
+    },
+    {
+      "surface": "צַדִּ֥יק",
+      "gloss": "blameless",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּמִֽים",
+      "gloss": "upright",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:30.096721436Z",
+  "model": "glm-5.3"
 }

@@ -1,86 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Trust in YHWH and do good; dwell in the land, and feed on faithfulness.",
-  "tokens": [
+  "ref": "psalms 37:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "בטח",
-      "gloss": "Trust"
+      "kind": "addition",
+      "subject": "⟨in the⟩",
+      "rationale": "English requires the preposition and article with 'land'; Hebrew uses bare ארץ after שכן."
     },
     {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
+      "kind": "crux",
+      "subject": "feed on faithfulness",
+      "rationale": "ורעה אמונה read as 'graze on faithfulness' (verbal, with אמונה as object) vs tradition 'follow faithfulness'; the shepherd verb's picture is kept."
     },
     {
-      "surface": "ועשה",
-      "gloss": "and do"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "שכן",
-      "gloss": "dwell"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ורעה",
-      "gloss": "and feed on",
-      "readings": [
-        "and feed on",
-        "and shepherd"
-      ],
-      "held_by": {
-        "and feed on": [
-          "v2",
-          "en4"
-        ],
-        "and shepherd": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אמונה",
-      "gloss": "faithfulness",
-      "readings": [
-        "faithfulness",
-        "firmness"
-      ],
-      "held_by": {
-        "faithfulness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "firmness": [
-          "en4"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "to the worshipper",
+      "rationale": "Chain of four imperatives summoning the hearer to trust, do, dwell, feed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Trust in YHWH and do good; dwell ⟨in the⟩ land and feed on faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "af51fcbc97c206de6b62139f656941de91c89bd89baf5281d29f876655491be4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/1-4.1791192621820.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּטַח",
+      "gloss": "Trust",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיהוָה",
+      "gloss": "in YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַעֲשֵׂה",
+      "gloss": "and do",
+      "sense": "S1"
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁכָן",
+      "gloss": "dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "⟨in the⟩ land",
+      "sense": "S1",
+      "readings": [
+        "⟨in the⟩ land",
+        "⟨in the⟩ earth"
+      ]
+    },
+    {
+      "surface": "וּרְעֵה",
+      "gloss": "and feed on",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמוּנָה",
+      "gloss": "faithfulness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:21.821519932Z",
+  "model": "glm-5.3"
 }

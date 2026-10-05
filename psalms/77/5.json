@@ -1,61 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "You have seized the watchings of my eyes; I am agitated, and I cannot speak.",
-  "tokens": [
+  "ref": "psalms 77:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
     {
-      "surface": "אחזת",
-      "gloss": "You have seized"
+      "kind": "hapax",
+      "subject": "שְׁמֻרוֹת",
+      "rationale": "Occurs only here in the Tanakh; from the root 'to guard', the guarded folds of the eyelids, here held by God so sleep cannot come."
     },
     {
-      "surface": "שמרות",
-      "gloss": "the watchings",
-      "readings": [
-        "the watchings",
-        "the eyelids"
-      ],
-      "held_by": {
-        "the watchings": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the eyelids": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עיני",
-      "gloss": "of my eyes"
-    },
-    {
-      "surface": "נפעמתי",
-      "gloss": "I am agitated",
-      "readings": [
-        "I am agitated",
-        "I am struck"
-      ],
-      "held_by": {
-        "I am agitated": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I am struck": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and I cannot"
-    },
-    {
-      "surface": "אדבר",
-      "gloss": "speak"
+      "kind": "crux",
+      "subject": "נִפְעַמְתִּי",
+      "rationale": "Niphal of פעם: 'be shaken\/terrified' (as Pharaoh, Daniel) vs 'beat\/ throbbing'; the verse holds either inner turmoil or a pounding heart."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You have seized the watchings of my eyes; I was shaken and do not speak.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "42e4dfba1a2f878de1cf5903f192345b6eaadea6212feae582fdc6e0dbbb8f3f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/5-8.1791193028850.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָ֭חַזְתָּ",
+      "gloss": "You have seized",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמֻר֣וֹת",
+      "gloss": "the watchings of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינָ֑י",
+      "gloss": "my eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִ֝פְעַ֗מְתִּי",
+      "gloss": "I was shaken",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדַבֵּֽר",
+      "gloss": "do I speak",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:08.850764949Z",
+  "model": "glm-5.3"
 }

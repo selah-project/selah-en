@@ -1,44 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Your new moons and your appointed feasts my soul hated; they have become upon me ⟨a⟩ burden; I am weary of bearing ⟨them⟩.",
+  "ref": "isaiah 1:14",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "Object of נשא supplied; Hebrew leaves it implied."
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפשי kept as 'my nefesh' — YHWH's life\/self, not 'soul' in a later sense."
+    }
+  ],
+  "translation": "Your new moons and your appointed festivals my nefesh hates; they have become a burden to me — I am weary of bearing ⟨them⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9975ec2e08046f0b1f55490a9c285cf0fb8acd93a88d4625c745c8927d0c4828",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/1\/13-16.1791188050481.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "חדשיכם",
-      "gloss": "your new moons"
+      "surface": "חָדְשֵׁיכֶ֤ם",
+      "gloss": "your new moons",
+      "sense": "S1"
     },
     {
-      "surface": "ומועדיכם",
-      "gloss": "and your appointed feasts"
+      "surface": "וּמוֹעֲדֵיכֶם֙",
+      "gloss": "and your appointed festivals",
+      "sense": "S1"
     },
     {
-      "surface": "שנאה",
-      "gloss": "hated"
+      "surface": "שָׂנְאָ֣ה",
+      "gloss": "hates",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul"
+      "surface": "נַפְשִׁ֔י",
+      "gloss": "my nefesh",
+      "sense": "S1",
+      "readings": [
+        "my nefesh",
+        "my throat",
+        "my life"
+      ]
     },
     {
-      "surface": "היו",
-      "gloss": "have become"
+      "surface": "הָי֥וּ",
+      "gloss": "they have become"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַ֖י",
       "gloss": "upon me"
     },
     {
-      "surface": "לטרח",
-      "gloss": "a burden"
+      "surface": "לָטֹ֑רַח",
+      "gloss": "a burden",
+      "sense": "S1"
     },
     {
-      "surface": "נלאיתי",
-      "gloss": "I am weary"
+      "surface": "נִלְאֵ֖יתִי",
+      "gloss": "I am weary",
+      "sense": "S1"
     },
     {
-      "surface": "נשא",
-      "gloss": "bear"
+      "surface": "נְשֹֽׂא",
+      "gloss": "of bearing",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:10.482519552Z",
+  "model": "glm-5.3"
 }

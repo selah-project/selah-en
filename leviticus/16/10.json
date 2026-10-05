@@ -1,25 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And the goat on which the lot came up for Azazel shall stand alive before YHWH, to make atonement upon it, to send ⟨את⟩ it for Azazel into the wilderness.",
+  "ref": "leviticus 16:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "Azazel",
+      "rationale": "עזאזל: proper name of a desert figure vs 'goat that departs' (scapegoat); kept as the name Azazel."
+    },
+    {
+      "kind": "substitution",
+      "subject": "atone",
+      "rationale": "כפר literally 'cover'; the priestly-ritual sense rendered 'atone'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עלה עליו",
+      "rationale": "'came up upon it' — the lot drawn from a container; Hebrew keeps the up-motion, English 'came up' only partly carries it."
+    }
+  ],
+  "translation": "And the he-goat on which the lot for Azazel came up shall be made to stand alive before YHWH, to atone upon it, to send ⟨את⟩ it to Azazel, to the wilderness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "79c2c3b7b3c37e9f50d428c18717e0c4f6c24bcac1399a5f91711883ef9176c3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/16\/10-11.1791197738935.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "והשעיר",
-      "gloss": "And the goat",
-      "readings": [
-        "And the goat",
-        "And the hairy one"
-      ],
-      "held_by": {
-        "And the goat": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "And the hairy one": [
-          "en4"
-        ]
-      }
+      "gloss": "and the he-goat",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -27,42 +45,31 @@
     },
     {
       "surface": "עלה",
-      "gloss": "came up"
+      "gloss": "came up",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
-      "gloss": "upon it"
+      "gloss": "upon"
     },
     {
       "surface": "הגורל",
-      "gloss": "the lot"
+      "gloss": "the lot",
+      "sense": "S1"
     },
     {
       "surface": "לעזאזל",
-      "gloss": "for Azazel"
+      "gloss": "for Azazel",
+      "sense": "S1"
     },
     {
       "surface": "יעמד",
-      "gloss": "shall stand",
-      "readings": [
-        "shall stand",
-        "shall be made to stand"
-      ],
-      "held_by": {
-        "shall stand": [
-          "v1",
-          "en4"
-        ],
-        "shall be made to stand": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "shall be made to stand"
     },
     {
       "surface": "חי",
-      "gloss": "alive"
+      "gloss": "alive",
+      "sense": "S1"
     },
     {
       "surface": "לפני",
@@ -70,11 +77,13 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "לכפר",
-      "gloss": "to make atonement"
+      "gloss": "to atone",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
@@ -82,21 +91,25 @@
     },
     {
       "surface": "לשלח",
-      "gloss": "to send"
+      "gloss": "to send",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ it"
+      "gloss": "⟨את⟩ him",
+      "marks": "him, the he-goat"
     },
     {
       "surface": "לעזאזל",
-      "gloss": "for Azazel"
+      "gloss": "to Azazel",
+      "sense": "S1"
     },
     {
       "surface": "המדברה",
-      "gloss": "into the wilderness"
+      "gloss": "to the wilderness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:55:38.936311896Z",
+  "model": "glm-5.3"
 }

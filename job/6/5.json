@@ -1,44 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Does the wild ass bray over grass, or does the ox low over its fodder?",
+  "ref": "job 6:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "אִם",
+      "rationale": "in a double rhetorical question אִם reads as 'or', not the conditional 'if'"
+    },
+    {
+      "kind": "invitation",
+      "subject": "rhetorical questions",
+      "rationale": "two questions expect the answer 'no' — animals cry out only when hungry, defending Job's complaint"
+    }
+  ],
+  "translation": "Does the onager bray over grass, or does an ox bellow over its fodder?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89d41b0ddd776c4aab97317e405c41f03339ca79618820bb6cf5216c1f0daa65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/6\/5-8.1791194184959.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הינהק",
-      "gloss": "Does … bray"
+      "surface": "הֲיִֽנְהַק",
+      "gloss": "Does … bray",
+      "sense": "S2"
     },
     {
-      "surface": "פרא",
-      "gloss": "a wild ass"
+      "surface": "פֶּרֶא",
+      "gloss": "the onager",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עֲלֵי",
       "gloss": "over"
     },
     {
-      "surface": "דשא",
-      "gloss": "grass"
+      "surface": "דֶּשֶׁא",
+      "gloss": "grass",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "or"
     },
     {
-      "surface": "יגעה",
-      "gloss": "does … low"
+      "surface": "יִגְעֶה",
+      "gloss": "does … bellow",
+      "sense": "S1"
     },
     {
-      "surface": "שור",
-      "gloss": "the ox"
+      "surface": "שׁוֹר",
+      "gloss": "an ox",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "over"
     },
     {
-      "surface": "בלילו",
-      "gloss": "its fodder"
+      "surface": "בְּלִילוֹ",
+      "gloss": "its fodder",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:24.959734292Z",
+  "model": "glm-5.3"
 }

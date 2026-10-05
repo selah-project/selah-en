@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "When he caused his lamp to shine upon my head, by his light I walked through darkness;",
-  "tokens": [
+  "ref": "job 29:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "בהלו",
-      "gloss": "when he caused to shine",
-      "readings": [
-        "when he caused to shine",
-        "when he shone"
-      ],
-      "held_by": {
-        "when he caused to shine": [
-          "v2",
-          "v3"
-        ],
-        "when he shone": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "when",
+      "rationale": "The Hebrew infinitive construct is bound to verse 2's 'days'; English needs a conjunction to carry the time sense."
     },
     {
-      "surface": "נרו",
-      "gloss": "his lamp"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "upon"
-    },
-    {
-      "surface": "ראשי",
-      "gloss": "my head"
-    },
-    {
-      "surface": "לאורו",
-      "gloss": "by his light"
-    },
-    {
-      "surface": "אלך",
-      "gloss": "I walked"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "darkness"
+      "kind": "substitution",
+      "subject": "walked",
+      "rationale": "הלך here is the journey of life, not literal walking."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "when his lamp shone over my head, by his light I walked through darkness;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d0b85c7604620bcf4b98acf9ce84da7ddd1ed8629ba470a5dc805c3f3185211c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/29\/1-4.1791194456649.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּהִלּ֣וֹ",
+      "gloss": "when … shone",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵ֭רוֹ",
+      "gloss": "his lamp",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵ֣י",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "רֹאשִׁ֑י",
+      "gloss": "my head",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֝אוֹר֗וֹ",
+      "gloss": "by his light",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֣לֶךְ",
+      "gloss": "I walked",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹֽשֶׁךְ",
+      "gloss": "through darkness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:56.650732193Z",
+  "model": "glm-5.3"
 }

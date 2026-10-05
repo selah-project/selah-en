@@ -1,74 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Who has measured ⟨את⟩ the Spirit of YHWH, and ⟨as⟩ a man of his counsel, who makes it known to him?",
+  "ref": "isaiah 40:13",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "measured",
+      "rationale": "תכן piel 'measured\/balanced' echoes v.12's weighing of waters and mountains; some render 'directed' or 'comprehended'."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "the suffix -נּוּ on יודיענו is 'him'; the taught thing is supplied for sense"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "rhetorical questions addressing Israel in exile concerning YHWH's incomparability"
+    }
+  ],
+  "translation": "Who measured ⟨את⟩ the spirit of YHWH, and ⟨את⟩ a man of His counsel caused Him to know ⟨it⟩?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa2e53f92f389fba16de0484ea0cab3eb96e4ea4351b604766d7297d25247c1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/13-16.1791188610996.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
     },
     {
-      "surface": "תכן",
-      "gloss": "has measured",
+      "surface": "תִכֵּ֥ן",
+      "gloss": "measured",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the spirit of YHWH"
+    },
+    {
+      "surface": "ר֖וּחַ",
+      "gloss": "the spirit of",
       "readings": [
-        "has measured",
-        "set in order"
-      ],
-      "held_by": {
-        "has measured": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "set in order": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "the Spirit of",
-      "readings": [
-        "the Spirit of",
+        "the spirit of",
         "the wind of",
         "the breath of"
       ],
-      "held_by": {
-        "the Spirit of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wind of": [
-          "en4"
-        ],
-        "the breath of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ואיש",
-      "gloss": "and ⟨as⟩ a man"
+      "surface": "וְאִ֥ישׁ",
+      "gloss": "and ⟨את⟩ a man of"
     },
     {
-      "surface": "עצתו",
-      "gloss": "of his counsel"
+      "surface": "עֲצָת֖וֹ",
+      "gloss": "His counsel",
+      "sense": "S1"
     },
     {
-      "surface": "יודיענו",
-      "gloss": "makes it known to him"
+      "surface": "יוֹדִיעֶֽנּוּ",
+      "gloss": "caused Him to know ⟨it⟩"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:30.997043404Z",
+  "model": "glm-5.3"
 }

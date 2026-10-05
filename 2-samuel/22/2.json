@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And he said: YHWH ⟨is⟩ my rock, and my fortress, and my deliverer to me.",
-  "tokens": [
+  "ref": "2-samuel 22:2",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "and he said"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between YHWH and the titles"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "hapax",
+      "subject": "fastness",
+      "rationale": "מְצֻדָה here has the sense of a mountain stronghold; Psalm 18:3 instead continues with a chain of further titles"
     },
     {
-      "surface": "סלעי",
-      "gloss": "my rock"
-    },
-    {
-      "surface": "ומצדתי",
-      "gloss": "and my fortress"
-    },
-    {
-      "surface": "ומפלטי",
-      "gloss": "and my deliverer"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
+      "kind": "crux",
+      "subject": "לי",
+      "rationale": "the dangling 'to me' is smoothed by many as emphatic 'mine'; kept literal here"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he said: YHWH is my rock and my fastness, and my deliverer to me;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4f74ef51e07c4fe2ca28d8211a10a3c72fa7b756a50c97a0ae858a610068e1d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/1-4.1791186579393.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּאמַר",
+      "gloss": "and he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "סַלְעִי",
+      "gloss": "my rock",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְצֻדָתִי",
+      "gloss": "and my fastness",
+      "sense": null
+    },
+    {
+      "surface": "וּמְפַלְטִי",
+      "gloss": "and my deliverer",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "to me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:49:39.394284877Z",
+  "model": "glm-5.3"
 }

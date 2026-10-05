@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And he shut in the sea with doors, in its bursting out — from the womb it went out.",
-  "tokens": [
+  "ref": "job 38:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "ויסך",
-      "gloss": "and he shut in"
+      "kind": "addition",
+      "subject": "⟨he⟩",
+      "rationale": "Hebrew verb carries the subject YHWH (Job 38:1) with no pronoun; English needs one."
     },
     {
-      "surface": "בדלתים",
-      "gloss": "with doors"
+      "kind": "substitution",
+      "subject": "two doors",
+      "rationale": "דָּלָתַיִם is a dual — literally 'a pair of doors'; the two-ness is kept."
     },
     {
-      "surface": "ים",
-      "gloss": "the sea"
-    },
-    {
-      "surface": "בגיחו",
-      "gloss": "in its bursting out"
-    },
-    {
-      "surface": "מרחם",
-      "gloss": "from the womb"
-    },
-    {
-      "surface": "יצא",
-      "gloss": "it went out"
+      "kind": "wordplay",
+      "subject": "בגיחו \/ יצא",
+      "rationale": "The sea 'gushing forth' from 'the womb' and 'going out' (ילד\/birth language) personifies the sea as born."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And ⟨he⟩ shut the sea with two doors, at its bursting out — going out from the womb?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8f5ff0aa4621465513b0ee6eba4b29494042656fba370b42f61647769e12148d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/38\/5-8.1791194595629.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיָּ֣סֶךְ",
+      "gloss": "And ⟨he⟩ shut",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּדְלָתַ֣יִם",
+      "gloss": "with two doors",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֑ם",
+      "gloss": "the sea",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּ֝גִיח֗וֹ",
+      "gloss": "at its bursting out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרֶ֥חֶם",
+      "gloss": "from the womb",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵצֵֽא",
+      "gloss": "going out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:15.630434288Z",
+  "model": "glm-5.3"
 }

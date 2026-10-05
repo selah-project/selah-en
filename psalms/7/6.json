@@ -1,81 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "let the enemy pursue my nefesh and overtake ⟨it⟩, and trample my life to the earth, and make my glory dwell in the dust. Selah.",
+  "ref": "psalms 7:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "my life",
+      "rationale": "נפש is literally the throat, the breathing life-principle; 'soul' imports later freight"
+    },
+    {
+      "kind": "addition",
+      "subject": "may ⟨the⟩",
+      "rationale": "Hebrew has no article on אויב; English needs one for the jussive clause"
+    },
+    {
+      "kind": "crux",
+      "subject": "and trample to the earth my life",
+      "rationale": "verb order ahead of its object keeps Hebrew sequence; the enemy is subject throughout"
+    }
+  ],
+  "translation": "may the enemy pursue my life and overtake, and trample to the earth my life, and make my glory dwell in the dust. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f11cc81e7082f978e87e9bd57c16b4485e233aaf1b914fce57954531ccbc074",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/7\/5-8.1791192406726.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ירדף",
-      "gloss": "let him pursue"
+      "surface": "יִֽרַדֹּ֥ף",
+      "gloss": "may ⟨the⟩ enemy pursue",
+      "sense": "S1"
     },
     {
-      "surface": "אויב",
-      "gloss": "the enemy"
+      "surface": "אוֹיֵ֨ב",
+      "gloss": "enemy",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
+      "surface": "נַפְשִׁ֡י",
+      "gloss": "my life",
       "readings": [
-        "my nefesh",
-        "my throat"
+        "my life",
+        "my throat",
+        "my soul"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my throat": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וישג",
-      "gloss": "and overtake"
+      "surface": "וְיַשֵּׂ֗ג",
+      "gloss": "and overtake",
+      "sense": "S1"
     },
     {
-      "surface": "וירמס",
-      "gloss": "and trample"
+      "surface": "וְיִרְמֹ֣ס",
+      "gloss": "and trample",
+      "sense": "S1"
     },
     {
-      "surface": "לארץ",
-      "gloss": "to the earth"
+      "surface": "לָאָ֣רֶץ",
+      "gloss": "to the earth",
+      "sense": "S1"
     },
     {
-      "surface": "חיי",
-      "gloss": "my life"
+      "surface": "חַיָּ֑י",
+      "gloss": "my life",
+      "sense": "S1"
     },
     {
-      "surface": "וכבודי",
+      "surface": "וּכְבוֹדִ֓י",
       "gloss": "and my glory",
       "readings": [
         "and my glory",
-        "and my weight"
+        "and my weight-splendor"
       ],
-      "held_by": {
-        "and my glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and my weight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לעפר",
-      "gloss": "in the dust"
+      "surface": "לֶעָפָ֖ר",
+      "gloss": "in the dust",
+      "sense": "S1"
     },
     {
-      "surface": "ישכן",
-      "gloss": "make dwell"
+      "surface": "יַשְׁכֵּ֣ן",
+      "gloss": "make dwell",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:46.727942580Z",
+  "model": "glm-5.3"
 }

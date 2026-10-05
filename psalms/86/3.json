@@ -1,49 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
+  "ref": "psalms 86:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 86,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "Direct second-person address to Adonai."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חנני \/ אני",
+      "rationale": "Sound echo of -נני \/ אני in the plea; faintly felt in English as 'gracious to me… I call'."
+    }
+  ],
   "translation": "Be gracious to me, Adonai, for to you I call all the day.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5defd5a6e086f17a726964c3b443d0c3cf0db80b93bb729b5afc4662c147f937",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/86\/1-4.1791193118130.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "חנני",
+      "surface": "חָנֵּנִי",
       "gloss": "Be gracious to me",
-      "readings": [
-        "Be gracious to me",
-        "Favor me"
-      ],
-      "held_by": {
-        "Be gracious to me": [
-          "v2",
-          "v3"
-        ],
-        "Favor me": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "אליך",
+      "surface": "אֵלֶיךָ",
       "gloss": "to you"
     },
     {
-      "surface": "אקרא",
-      "gloss": "I call"
+      "surface": "אֶקְרָא",
+      "gloss": "I call",
+      "sense": "S1",
+      "readings": [
+        "I call",
+        "I cry out"
+      ]
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:38.131169918Z",
+  "model": "glm-5.3"
 }

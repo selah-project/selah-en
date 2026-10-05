@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Elohim, you have cast us off, you have broken us down, you have been angry — turn back to us ⟨again⟩!",
-  "tokens": [
+  "ref": "psalms 60:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 60,
+  "notes": [
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "the psalm opens with direct second-person address to Elohim."
     },
     {
-      "surface": "זנחתנו",
-      "gloss": "you have cast us off"
-    },
-    {
-      "surface": "פרצתנו",
-      "gloss": "you have broken us down"
-    },
-    {
-      "surface": "אנפת",
-      "gloss": "you have been angry"
-    },
-    {
-      "surface": "תשובב",
-      "gloss": "turn back",
-      "readings": [
-        "turn back",
-        "restore ⟨us⟩"
-      ],
-      "held_by": {
-        "turn back": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "restore ⟨us⟩": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "לנו",
-      "gloss": "to us"
+      "kind": "crux",
+      "subject": "restore us now",
+      "rationale": "תשובב lacks an explicit 'now'; some read the polel as 'turn back to us', others supply an imperative of urgency."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim, You have rejected us, You have burst out against us; You have been angry — restore us now.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d369eeff662e83c065f0d8a046443c2a517f57143c6458c12f4b10051cb7a069",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/60\/1-4.1791192842433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְנַחְתָּנוּ",
+      "gloss": "You have rejected us",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּרַצְתָּנוּ",
+      "gloss": "You have burst out against us",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנַפְתָּ",
+      "gloss": "You have been angry",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשׁוֹבֵב",
+      "gloss": "restore",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָּנוּ",
+      "gloss": "us",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:02.434837862Z",
+  "model": "glm-5.3"
 }

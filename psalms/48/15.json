@@ -1,48 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "For this ⟨is⟩ Elohim, our Elohim, forever and ever; he will lead us over death.",
+  "ref": "psalms 48:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between this and Elohim"
+    },
+    {
+      "kind": "crux",
+      "subject": "עַל מוּת",
+      "rationale": "'beyond death' (or 'unto death') vs the traditional emendation עֲלָמוּת 'forever' (as in Ps 9:1)"
+    }
+  ],
+  "translation": "For this is Elohim, our Elohim, forever and ever; he will guide us beyond death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "28e0fc0991c1a98e50168f6a7618ee447281c85b00bff1d96dbe1aa22c0dd666",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/48\/13-15.1791192739999.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּ֤י",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "זה",
-      "gloss": "this"
+      "surface": "זֶ֨ה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱֹלֽהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אלהינו",
-      "gloss": "our Elohim"
+      "surface": "אֱֹלֹהֵ֨ינוּ",
+      "gloss": "our Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "עולם",
-      "gloss": "forever"
+      "surface": "עֹולָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "ועד",
-      "gloss": "and ever"
+      "surface": "וָעֶ֑ד",
+      "gloss": "and ever",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "ה֣וּא",
       "gloss": "he"
     },
     {
-      "surface": "ינהגנו",
-      "gloss": "will lead us"
+      "surface": "יְנַהֲגֵ֖נֽוּ",
+      "gloss": "he will guide us",
+      "sense": null
     },
     {
-      "surface": "על",
-      "gloss": "over"
+      "surface": "עַל",
+      "gloss": "beyond"
     },
     {
-      "surface": "מות",
-      "gloss": "death"
+      "surface": "מֽוּת",
+      "gloss": "death",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:20.000483327Z",
+  "model": "glm-5.3"
 }

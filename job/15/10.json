@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Both the gray-headed and the very aged are among us, greater than your father in days.",
-  "tokens": [
+  "ref": "job 15:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "גם",
-      "gloss": "Both"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew verbless clause; copula supplied"
     },
     {
-      "surface": "שב",
-      "gloss": "the gray-headed"
-    },
-    {
-      "surface": "גם",
-      "gloss": "and"
-    },
-    {
-      "surface": "ישיש",
-      "gloss": "the very aged"
-    },
-    {
-      "surface": "בנו",
-      "gloss": "are among us"
-    },
-    {
-      "surface": "כביר",
-      "gloss": "greater",
-      "readings": [
-        "greater",
-        "abundant"
-      ],
-      "held_by": {
-        "greater": [
-          "v1",
-          "en4"
-        ],
-        "abundant": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מאביך",
-      "gloss": "than your father"
-    },
-    {
-      "surface": "ימים",
-      "gloss": "in days"
+      "kind": "crux",
+      "subject": "כביר",
+      "rationale": "'vast\/mighty' — here of time, 'more aged'; some render 'abundant with us'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Both the gray-haired and the aged are among us, more aged than your father — days.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98da1f272eaad25a8341b78866e584773ef0d40daed5f29c7ed386d24d2fbfdf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/9-12.1791194288256.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גַּם",
+      "gloss": "Both",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂב",
+      "gloss": "the gray-haired",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "and",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשִׁישׁ",
+      "gloss": "the aged",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנוּ",
+      "gloss": "are among us",
+      "sense": null
+    },
+    {
+      "surface": "כַּבִּיר",
+      "gloss": "more aged",
+      "sense": null
+    },
+    {
+      "surface": "מֵאָבִיךָ",
+      "gloss": "than your father",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמִים",
+      "gloss": "days",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:08.257488224Z",
+  "model": "glm-5.3"
 }

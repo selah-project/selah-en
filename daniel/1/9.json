@@ -1,58 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And Elohim gave ⟨את⟩ Daniel for chesed and for mercies before the chief of the eunuchs.",
-  "tokens": [
+  "ref": "daniel 1:9",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "ויתן",
-      "gloss": "And gave"
+      "kind": "elision",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; 'steadfast love' is a lawful second reading"
     },
     {
-      "surface": "האלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "דניאל",
-      "gloss": "Daniel"
-    },
-    {
-      "surface": "לחסד",
-      "gloss": "for chesed",
-      "readings": [
-        "for chesed",
-        "for kindness"
-      ],
-      "held_by": {
-        "for chesed": [
-          "v3",
-          "en4"
-        ],
-        "for kindness": [
-          "v1",
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ולרחמים",
-      "gloss": "and for mercies"
-    },
-    {
-      "surface": "לפני",
-      "gloss": "before"
-    },
-    {
-      "surface": "שר",
-      "gloss": "the chief of"
-    },
-    {
-      "surface": "הסריסים",
-      "gloss": "the eunuchs"
+      "kind": "substitution",
+      "subject": "court-officers",
+      "rationale": "סריסים literally 'eunuchs', here high royal officials"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the Elohim gave ⟨את⟩ Daniel to chesed and to compassions before the officer of the court-officers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d25bc85feed4d4c740108b8d960405f37be51bd142869ac6a357c9b1729dff13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/1\/9-12.1791195164091.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּתֵּן",
+      "gloss": "And gave",
+      "sense": null
+    },
+    {
+      "surface": "הָאֱלֹהִים",
+      "gloss": "the Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Daniel",
+      "sense": null
+    },
+    {
+      "surface": "דָּנִיֵּאל",
+      "gloss": "Daniel",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְחֶסֶד",
+      "gloss": "to chesed",
+      "readings": [
+        "to chesed",
+        "to steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְרַחֲמִים",
+      "gloss": "and to compassions",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִפְנֵי",
+      "gloss": "before",
+      "sense": null
+    },
+    {
+      "surface": "שַׂר",
+      "gloss": "the officer of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַסָּרִיסִים",
+      "gloss": "the court-officers",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:12:44.091658873Z",
+  "model": "glm-5.3"
 }

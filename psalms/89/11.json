@@ -1,40 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "You crushed Rahab like ⟨the⟩ slain; with the arm of Your strength You scattered Your enemies.",
+  "ref": "psalms 89:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
+    {
+      "kind": "secret",
+      "subject": "Rahab",
+      "rationale": "Rahab is the mythic sea monster destroyed by God, echoing the cosmic-combat background."
+    },
+    {
+      "kind": "substitution",
+      "subject": "arm of strength",
+      "rationale": "זרוע עז is literally 'arm of your might', a merism for divine power."
+    }
+  ],
+  "translation": "You crushed Rahab like the fatally wounded; with your arm of strength you scattered your enemies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "90eaba2870b365024216bbf1bb93f3d342fcbaabab6074bcdb8b6144f115cdae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/9-12.1791193148948.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אתה",
+      "surface": "אַתָּ֤ה",
       "gloss": "You"
     },
     {
-      "surface": "דכאת",
-      "gloss": "crushed"
+      "surface": "דִכִּ֣אתָ",
+      "gloss": "crushed",
+      "sense": "S1"
     },
     {
-      "surface": "כחלל",
-      "gloss": "like ⟨the⟩ slain"
+      "surface": "כֶחָלָ֣ל",
+      "gloss": "like the fatally wounded",
+      "sense": "S1"
     },
     {
-      "surface": "רהב",
-      "gloss": "Rahab"
+      "surface": "רָ֑הַב",
+      "gloss": "Rahab",
+      "sense": "S1"
     },
     {
-      "surface": "בזרוע",
-      "gloss": "with the arm of"
+      "surface": "בִּזְר֥וֹעַ",
+      "gloss": "with the arm of",
+      "sense": "S1"
     },
     {
-      "surface": "עזך",
-      "gloss": "of Your strength"
+      "surface": "עֻ֝זְּךָ֗",
+      "gloss": "your strength",
+      "sense": "S1"
     },
     {
-      "surface": "פזרת",
-      "gloss": "scattered"
+      "surface": "פִּזַּ֥רְתָּ",
+      "gloss": "you scattered",
+      "sense": "S1"
     },
     {
-      "surface": "אויביך",
-      "gloss": "Your enemies"
+      "surface": "אוֹיְבֶֽיךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:08.949834871Z",
+  "model": "glm-5.3"
 }

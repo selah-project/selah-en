@@ -1,59 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Let them give thanks to YHWH for his chesed, and his wonders to the children of men.",
-  "tokens": [
+  "ref": "psalms 107:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "יודו",
-      "gloss": "let them give thanks"
+      "kind": "invitation",
+      "subject": "יודו ליהוה",
+      "rationale": "jussive refrain summoning praise, repeated at vv. 8, 21, 31"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "his chesed",
-      "readings": [
-        "his chesed",
-        "his steadfast love"
-      ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ונפלאותיו",
-      "gloss": "and his wonders"
-    },
-    {
-      "surface": "לבני",
-      "gloss": "to the children of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "men",
-      "readings": [
-        "men",
-        "Adam"
-      ],
-      "held_by": {
-        "men": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "Adam": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "for",
+      "rationale": "English requires a preposition before 'His chesed'; Hebrew has none"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let them praise YHWH for His chesed and His wonders to the children of Adam:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "304c1a27a7bcd98515154f32684c8fd2d2cdc310af6020b2d11641780b038a77",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/13-16.1791193333488.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יוֹדוּ",
+      "gloss": "Let them praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּוֹ",
+      "gloss": "for His chesed",
+      "readings": [
+        "for His chesed",
+        "for His steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִפְלְאוֹתָיו",
+      "gloss": "and His wonders",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְנֵי",
+      "gloss": "to the children of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "Adam",
+      "readings": [
+        "Adam",
+        "humankind"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:13.489123021Z",
+  "model": "glm-5.3"
 }

@@ -1,94 +1,133 @@
 {
+  "tier": "glm-5.2",
   "verse": 48,
-  "translation": "And Solomon made ⟨את⟩ all the vessels that are in the house of YHWH: ⟨את⟩ the altar of gold, and ⟨את⟩ the table upon which is the bread of the face — gold.",
-  "tokens": [
+  "ref": "1-kings 7:48",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "ויעש",
-      "gloss": "and he made"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew relative אשר carries no verb; ‘that were’ supplied for the relative clauses."
     },
     {
-      "surface": "שלמה",
-      "gloss": "Solomon"
+      "kind": "crux",
+      "subject": "bread of the Presence",
+      "rationale": "לֶחֶם הַפָּנִים literally ‘bread of the faces’; rendered by the fixed phrase, literally ‘bread of the Face’."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הכלים",
-      "gloss": "the vessels"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "בית",
-      "gloss": "the house of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "מזבח",
-      "gloss": "the altar of"
-    },
-    {
-      "surface": "הזהב",
-      "gloss": "gold"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "השלחן",
-      "gloss": "the table"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "עליו",
-      "gloss": "upon it"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "bread of"
-    },
-    {
-      "surface": "הפנים",
-      "gloss": "the face",
-      "readings": [
-        "the face",
-        "the Presence"
-      ],
-      "held_by": {
-        "the face": [
-          "en4"
-        ],
-        "the Presence": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "זהב",
-      "gloss": "gold"
+      "kind": "substitution",
+      "subject": "gold",
+      "rationale": "the trailing זהב resumes the material of the table (bread of the Presence — of gold), Hebrew’s delayed apposition left ambiguous."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Solomon made ⟨את⟩ all the vessels that were in the house of YHWH: ⟨את⟩ the altar of gold, and ⟨את⟩ the table that was upon it the bread of the Presence — gold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "145e730917870265ff6da2cab491d8ccbc8b83250d78379a5fa3a96a558abf5c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/7\/45-48.1791186886811.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֣עַשׂ",
+      "gloss": "And made",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלֹמֹ֔ה",
+      "gloss": "Solomon",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֚ת",
+      "gloss": "⟨את⟩",
+      "marks": "all the vessels",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַכֵּלִ֔ים",
+      "gloss": "the vessels",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֖ר",
+      "gloss": "that were",
+      "sense": null
+    },
+    {
+      "surface": "בֵּ֣ית",
+      "gloss": "in the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֚ת",
+      "gloss": "⟨את⟩",
+      "marks": "the altar of gold",
+      "sense": null
+    },
+    {
+      "surface": "מִזְבַּ֣ח",
+      "gloss": "the altar of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזָּהָ֔ב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the table",
+      "sense": null
+    },
+    {
+      "surface": "הַשֻּׁלְחָ֗ן",
+      "gloss": "the table",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that was",
+      "sense": null
+    },
+    {
+      "surface": "עָלָ֛יו",
+      "gloss": "upon it",
+      "sense": null
+    },
+    {
+      "surface": "לֶ֥חֶם",
+      "gloss": "the bread of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַפָּנִ֖ים",
+      "gloss": "the Presence",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָֽב",
+      "gloss": "gold",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:54:46.816008982Z",
+  "model": "glm-5.3"
 }

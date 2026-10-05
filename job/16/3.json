@@ -1,75 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Is there an end to words of wind? Or what provokes you, that you answer?",
+  "ref": "job 16:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "rhetorical questions",
+      "rationale": "Two biting questions put to the friends, drawing the hearer into Job's argument."
+    },
+    {
+      "kind": "alternative",
+      "subject": "wind",
+      "rationale": "דברי רוח rendered “words of wind”; “empty\/breathless words” is the idiomatic sense — the picture of breath is kept."
+    }
+  ],
+  "translation": "Is there an end to words of wind? Or what is it that provokes you, that you answer?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ebf6e8205624500fd7905f212896988985b2566409c88d55aa98ddd9b453026",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/1-4.1791194308535.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הקץ",
-      "gloss": "Is there an end"
+      "surface": "הֲקֵ֥ץ",
+      "gloss": "Is there an end",
+      "sense": "S2"
     },
     {
-      "surface": "לדברי",
-      "gloss": "to words of"
+      "surface": "לִדְבְרֵי",
+      "gloss": "to words of",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "ר֑וּחַ",
       "gloss": "wind",
       "readings": [
         "wind",
-        "breath",
-        "spirit"
+        "breath"
       ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "או",
-      "gloss": "or"
+      "surface": "א֥וֹ",
+      "gloss": "or",
+      "sense": "S1"
     },
     {
-      "surface": "מה",
-      "gloss": "what"
+      "surface": "מַה",
+      "gloss": "what",
+      "sense": "S1"
     },
     {
-      "surface": "ימריצך",
+      "surface": "יַמְרִֽיצְךָ֗",
       "gloss": "provokes you",
-      "readings": [
-        "provokes you",
-        "emboldens you"
-      ],
-      "held_by": {
-        "provokes you": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "emboldens you": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "that"
+      "surface": "כִּ֣י",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "תענה",
-      "gloss": "you answer"
+      "surface": "תַּעֲנֶֽה",
+      "gloss": "you answer",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:28.536745168Z",
+  "model": "glm-5.3"
 }

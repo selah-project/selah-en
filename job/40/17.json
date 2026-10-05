@@ -1,45 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "He bends his tail like a cedar; the sinews of his testicles are intertwined.",
+  "ref": "job 40:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "פחדו",
+      "rationale": "Occurs only here; lexicon gives 'testicle' (a cause of shame akin to fear), though many render 'thighs'."
+    },
+    {
+      "kind": "crux",
+      "subject": "פחדו",
+      "rationale": "Ketiv פחדו (singular) vs qere פחדיו (plural 'his testicles\/thighs'); alternatives: 'thighs', 'loins', 'testicles'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "tail like a cedar",
+      "rationale": "The verse sizes Behemoth's body by comparison to a great tree."
+    }
+  ],
+  "translation": "He stiffens his tail like a cedar; the sinews of his testicles are intertwined.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0cec39c498ef84d95911eae4bb06221a5a61a13352f17e6caa65398b4c490560",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/17-20.1791194634029.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "יחפץ",
-      "gloss": "he bends",
-      "readings": [
-        "he bends",
-        "he moves",
-        "he sways"
-      ],
-      "held_by": {
-        "he bends": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he moves": [
-          "v1"
-        ],
-        "he sways": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יַחְפֹּ֣ץ",
+      "gloss": "he stiffens",
+      "sense": "S1"
     },
     {
-      "surface": "זנבו",
-      "gloss": "his tail"
+      "surface": "זְנָב֣וֹ",
+      "gloss": "his tail",
+      "sense": "S1"
     },
     {
-      "surface": "כמו",
+      "surface": "כְמוֹ",
       "gloss": "like"
     },
     {
-      "surface": "ארז",
-      "gloss": "a cedar"
+      "surface": "אָ֑רֶז",
+      "gloss": "a cedar",
+      "sense": "S1"
     },
     {
-      "surface": "גידי",
-      "gloss": "the sinews of"
+      "surface": "גִּידֵ֖י",
+      "gloss": "the sinews of",
+      "sense": "S1"
     },
     {
       "surface": "פחדו",
@@ -48,24 +65,14 @@
         "his testicles",
         "his thighs"
       ],
-      "held_by": {
-        "his testicles": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "his thighs": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ישרגו",
-      "gloss": "are intertwined"
+      "surface": "יְשֹׂרָֽגוּ",
+      "gloss": "are intertwined",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:54.030440055Z",
+  "model": "glm-5.3"
 }

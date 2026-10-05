@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "Is it by your understanding that the hawk soars, ⟨that⟩ he spreads his wing toward the south?",
-  "tokens": [
+  "ref": "job 39:26",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "המבינתך",
-      "gloss": "Is it by your understanding"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Rhetorical question addressed to Job."
     },
     {
-      "surface": "יאבר",
-      "gloss": "soars"
+      "kind": "hapax",
+      "subject": "יֹאבֶר",
+      "rationale": "The verb אבר 'to soar' occurs only here in the Tanakh."
     },
     {
-      "surface": "נץ",
-      "gloss": "the hawk",
-      "readings": [
-        "the hawk",
-        "the flower"
-      ],
-      "held_by": {
-        "the hawk": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the flower": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יפרש",
-      "gloss": "spreads"
-    },
-    {
-      "surface": "כנפו",
-      "gloss": "his wing"
-    },
-    {
-      "surface": "לתימן",
-      "gloss": "toward the south"
+      "kind": "alternative",
+      "subject": "לְתֵימָן",
+      "rationale": "Literally 'to the right-hand side'; 'south' is the conventional geographic sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Is it by your understanding that the hawk soars, that it spreads its wings toward the south?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cbc935752357fa4ab5fa1d90c7a280d936d937da7cd472364d85a0f723643d15",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/39\/25-28.1791194623664.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲמִבִּינָתְךָ",
+      "gloss": "is it by your understanding",
+      "sense": "S2"
+    },
+    {
+      "surface": "יֹאבֶר",
+      "gloss": "the hawk soars",
+      "sense": null
+    },
+    {
+      "surface": "נֵץ",
+      "gloss": "the hawk",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִפְרֹשׂ",
+      "gloss": "that it spreads",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּנָפוֹ",
+      "gloss": "its wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְתֵימָן",
+      "gloss": "toward the south",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:43.664877463Z",
+  "model": "glm-5.3"
 }

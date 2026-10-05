@@ -1,71 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "As many were appalled at you — so marred, beyond that of a man, was his appearance, and his form beyond the sons of men.",
+  "ref": "isaiah 52:14",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 52,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew fronts the construct noun משחת מראהו with no verb; the copula is supplied."
+    },
+    {
+      "kind": "hapax",
+      "subject": "משחת",
+      "rationale": "disfigurement occurs elsewhere only at Leviticus 22:25."
+    },
+    {
+      "kind": "crux",
+      "subject": "beyond a man",
+      "rationale": "מאיש מראהו taken comparatively ('more than any man') vs the literal 'from a man his appearance'; a third reading repoints to 'more than any man his disfigurement'."
+    },
+    {
+      "kind": "secret",
+      "subject": "the servant",
+      "rationale": "the verse unveils a figure whose ruined appearance hides his true status — a withheld identity."
+    }
+  ],
+  "translation": "Just as many were appalled at you — so disfigured ⟨was⟩ his appearance beyond a man, and his form beyond the sons of mankind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3b7522ec051c8840561cf9172cac36b8312c5dce8b44938785a254d68533bd6f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/52\/13-15.1791188810465.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כאשר",
-      "gloss": "As"
+      "surface": "כַּאֲשֶׁר",
+      "gloss": "Just as"
     },
     {
-      "surface": "שממו",
+      "surface": "שָׁמְמוּ",
       "gloss": "were appalled",
-      "readings": [
-        "were appalled",
-        "were devastated",
-        "were stunned"
-      ],
-      "held_by": {
-        "were appalled": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "were devastated": [
-          "en4"
-        ],
-        "were stunned": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "עליך",
+      "surface": "עָלֶיךָ",
       "gloss": "at you"
     },
     {
-      "surface": "רבים",
-      "gloss": "many"
+      "surface": "רַבִּים",
+      "gloss": "many",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
+      "surface": "כֵּן",
       "gloss": "so"
     },
     {
-      "surface": "משחת",
-      "gloss": "marred"
+      "surface": "מִשְׁחַת",
+      "gloss": "disfigured",
+      "sense": "S1"
     },
     {
-      "surface": "מאיש",
-      "gloss": "beyond that of a man"
+      "surface": "מֵאִישׁ",
+      "gloss": "beyond a man"
     },
     {
-      "surface": "מראהו",
-      "gloss": "his appearance"
+      "surface": "מַרְאֵהוּ",
+      "gloss": "his appearance",
+      "sense": "S1"
     },
     {
-      "surface": "ותארו",
-      "gloss": "and his form"
+      "surface": "וְתֹאֲרוֹ",
+      "gloss": "and his form",
+      "sense": "S1"
     },
     {
-      "surface": "מבני",
-      "gloss": "beyond the sons of"
+      "surface": "מִבְּנֵי",
+      "gloss": "beyond the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "אדם",
-      "gloss": "men"
+      "surface": "אָדָם",
+      "gloss": "mankind",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:26:50.466582464Z",
+  "model": "glm-5.3"
 }

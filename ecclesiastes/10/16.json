@@ -1,54 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Woe to you, O land, whose king ⟨is⟩ a youth, and whose princes eat in the morning!",
-  "tokens": [
+  "ref": "ecclesiastes 10:16",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "אי",
-      "gloss": "Woe",
-      "readings": [
-        "Woe",
-        "alas"
-      ],
-      "held_by": {
-        "Woe": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "alas": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula in 'whose-king a youth'."
     },
     {
-      "surface": "לך",
-      "gloss": "to you"
+      "kind": "crux",
+      "subject": "אִי",
+      "rationale": "Interjection read as 'alas!' (parallel to אוֹי) — some repoint to אֵי 'where?', yielding 'where is your king?'."
     },
     {
-      "surface": "ארץ",
-      "gloss": "O land"
+      "kind": "substitution",
+      "subject": "eat",
+      "rationale": "Feasting at daybreak implies indulgence before work; v.17's 'not in the morning' contrasts — 'eat' stands bare in Hebrew."
     },
     {
-      "surface": "שמלכך",
-      "gloss": "whose king"
-    },
-    {
-      "surface": "נער",
-      "gloss": "youth"
-    },
-    {
-      "surface": "ושריך",
-      "gloss": "and your princes"
-    },
-    {
-      "surface": "בבקר",
-      "gloss": "in the morning"
-    },
-    {
-      "surface": "יאכלו",
-      "gloss": "eat"
+      "kind": "you",
+      "subject": "to land",
+      "rationale": "The land is apostrophized directly, feminine suffixes throughout."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Alas for you, O land, whose king is a youth, and your princes in the morning eat!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "858f110322d9594165bc3c315aa93e017fa0a0a17ad735f519cc369c3431523b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/10\/13-16.1791194970601.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִי",
+      "gloss": "Alas",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָךְ",
+      "gloss": "for you",
+      "sense": null
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "O land",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁמַּלְכֵּךְ",
+      "gloss": "whose king",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַעַר",
+      "gloss": "is a youth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׂרַיִךְ",
+      "gloss": "and your princes",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּבֹּקֶר",
+      "gloss": "in the morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכֵלוּ",
+      "gloss": "eat",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:09:30.602356397Z",
+  "model": "glm-5.3"
 }

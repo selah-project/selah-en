@@ -1,110 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "But You, Adonai, ⟨are⟩ El, compassionate and gracious, long of nostrils and great of chesed and truth.",
+  "ref": "psalms 86:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 86,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula in the verbless clause"
+    },
+    {
+      "kind": "idiom",
+      "subject": "long of nostrils",
+      "rationale": "ארך אפים, literally 'long of nostrils' (the dual kept), is the idiom for slow to anger; the picture is kept rather than the idiom resolved"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "creed",
+      "rationale": "the verse quotes the covenant formula of Exodus 34:6 almost verbatim"
+    }
+  ],
+  "translation": "But you, Adonai, are El, compassionate and gracious, long of nostrils, and great in chesed and faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e710f70ef36bd26f69202f1d2f1c3719b99db438b18e35aaabbf97442ce7641f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/86\/13-16.1791193135177.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתה",
-      "gloss": "But You"
+      "surface": "וְאַתָּה",
+      "gloss": "But you",
+      "sense": null
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "El"
+      "surface": "אֵל",
+      "gloss": "El",
+      "sense": "S1"
     },
     {
-      "surface": "רחום",
-      "gloss": "compassionate"
+      "surface": "רַחוּם",
+      "gloss": "compassionate",
+      "sense": "S1"
     },
     {
-      "surface": "וחנון",
-      "gloss": "and gracious"
+      "surface": "וְחַנּוּן",
+      "gloss": "and gracious",
+      "sense": "S1"
     },
     {
-      "surface": "ארך",
+      "surface": "אֶרֶךְ",
       "gloss": "long",
-      "readings": [
-        "long",
-        "long-suffering",
-        "slow"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "אפים",
+      "surface": "אַפַּיִם",
       "gloss": "of nostrils",
       "readings": [
         "of nostrils",
         "of anger"
       ],
-      "held_by": {
-        "of nostrils": [
-          "en4"
-        ],
-        "of anger": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ורב",
+      "surface": "וְרַב",
       "gloss": "and great",
-      "readings": [
-        "and great",
-        "abundant in"
-      ],
-      "held_by": {
-        "and great": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "abundant in": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
-      "gloss": "chesed",
+      "surface": "חֶסֶד",
+      "gloss": "in chesed",
       "readings": [
-        "chesed",
-        "kindness"
+        "in chesed",
+        "in steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "kindness": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואמת",
-      "gloss": "and truth",
-      "readings": [
-        "and truth",
-        "and faithfulness"
-      ],
-      "held_by": {
-        "and truth": [
-          "v1",
-          "en4"
-        ],
-        "and faithfulness": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "וֶאֱמֶת",
+      "gloss": "and faithfulness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:55.178392506Z",
+  "model": "glm-5.3"
 }

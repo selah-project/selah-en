@@ -1,32 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "You shall not wear shaatnez, wool and linen together.",
-  "tokens": [
+  "ref": "deuteronomy 22:11",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "You shall not"
+      "kind": "hapax",
+      "subject": "shaatnez",
+      "rationale": "Egyptian loanword of uncertain meaning, here and Leviticus 19:19 only; transliterated rather than guessed."
     },
     {
-      "surface": "תלבש",
-      "gloss": "you shall wear"
-    },
-    {
-      "surface": "שעטנז",
-      "gloss": "shaatnez"
-    },
-    {
-      "surface": "צמר",
-      "gloss": "wool"
-    },
-    {
-      "surface": "ופשתים",
-      "gloss": "and linen"
-    },
-    {
-      "surface": "יחדו",
-      "gloss": "together"
+      "kind": "wordplay",
+      "subject": "יחדו",
+      "rationale": "'together' closes both v10 and v11, binding the plowing and clothing laws in one refrain."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You shall not wear shaatnez, wool and linen together.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a58afeec1732187bf229e933cdb0f5b1aff38d023c87811f2625a94ef3bfab6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/22\/9-12.1791183987142.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִלְבַּשׁ",
+      "gloss": "you shall wear",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁעַטְנֵז",
+      "gloss": "shaatnez",
+      "sense": "S1",
+      "readings": [
+        "shaatnez",
+        "mixed cloth"
+      ]
+    },
+    {
+      "surface": "צֶמֶר",
+      "gloss": "wool",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפִשְׁתִּים",
+      "gloss": "and linen",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַחְדָּו",
+      "gloss": "together",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:06:27.143118712Z",
+  "model": "glm-5.3"
 }

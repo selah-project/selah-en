@@ -1,68 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Let them be appalled on account of the reward of their shame, those who say to me, “Aha, aha!”",
-  "tokens": [
+  "ref": "psalms 40:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "ישמו",
-      "gloss": "let them be appalled",
-      "readings": [
-        "let them be appalled",
-        "be desolate"
-      ],
-      "held_by": {
-        "let them be appalled": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "עַל עֵקֶב בָּשְׁתָּם",
+      "rationale": "Literally 'upon the heel of their shame', an idiom of consequence; rendered 'because of', with the heel-picture kept as a reading."
     },
     {
-      "surface": "על",
-      "gloss": "on account of"
-    },
-    {
-      "surface": "עקב",
-      "gloss": "the reward of",
-      "readings": [
-        "the reward of",
-        "in consequence of",
-        "heel"
-      ],
-      "held_by": {
-        "the reward of": [
-          "v2",
-          "v3"
-        ],
-        "in consequence of": [
-          "en4"
-        ],
-        "heel": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשתם",
-      "gloss": "their shame"
-    },
-    {
-      "surface": "האמרים",
-      "gloss": "those who say"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "האח",
-      "gloss": "Aha"
-    },
-    {
-      "surface": "האח",
-      "gloss": "aha"
+      "kind": "wordplay",
+      "subject": "הֶאָח הֶאָח",
+      "rationale": "Doubled gloating interjection; the repetition mocks and is kept doubled."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let them be appalled because of their shame, those who say to me, “Aha! Aha!”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1d4030148696b81cc067be047031fa8cc6d391b738c9338a27fc77e3f9fec85a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/40\/13-16.1791192691519.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָשֹׁמּוּ",
+      "gloss": "Let them be appalled",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "because of",
+      "sense": null
+    },
+    {
+      "surface": "עֵקֶב",
+      "gloss": "the consequence of",
+      "sense": "S1",
+      "readings": [
+        "the consequence of",
+        "the heel of"
+      ]
+    },
+    {
+      "surface": "בָּשְׁתָּם",
+      "gloss": "their shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֹמְרִים",
+      "gloss": "those who say",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "הֶאָח",
+      "gloss": "“Aha!",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶאָח",
+      "gloss": "Aha!”",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:31.520961333Z",
+  "model": "glm-5.3"
 }

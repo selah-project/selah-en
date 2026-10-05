@@ -1,105 +1,134 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And it covered ⟨את⟩ the eye of all the land, and the land was darkened; and they ate ⟨את⟩ every herb of the land and ⟨את⟩ every fruit of the tree which the hail had left, and there did not remain any green thing in the tree and in the herb of the field, in all the land of Egypt.",
+  "ref": "exodus 10:15",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "עין כל הארץ",
+      "rationale": "'the eye of all the land' is a literal idiom for the land's visible surface; kept literally."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הותיר \/ נותר",
+      "rationale": "Root יתר repeated: what the hail 'left', the locusts left nothing 'remaining' — antanaclasis kept with 'left\/remained'."
+    }
+  ],
+  "translation": "And it covered ⟨את⟩ the eye of all the land, and the land grew dark; and it ate ⟨את⟩ all the plant of the land and ⟨את⟩ all the fruit of the tree that the hail had left — and no green thing remained in the tree and in the plant of the field in all the land of Egypt.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c8b134b4665cfb34c1bc7a40c9bcaa34de88674a721a6f7effe0ed76176c184c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/10\/15-15.1791197444157.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
   "tokens": [
     {
       "surface": "ויכס",
-      "gloss": "and covered"
+      "gloss": "And it covered",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the eye of all the land"
     },
     {
       "surface": "עין",
-      "gloss": "the eye",
-      "readings": [
-        "the eye",
-        "the spring of"
-      ],
-      "held_by": {
-        "the eye": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the spring of": [
-          "en4"
-        ]
-      }
+      "gloss": "eye",
+      "sense": "S1"
+    },
+    {
+      "surface": "כל",
+      "gloss": "of all"
+    },
+    {
+      "surface": "הארץ",
+      "gloss": "the land",
+      "sense": "S1"
+    },
+    {
+      "surface": "ותחשך",
+      "gloss": "and grew dark",
+      "sense": "S1"
+    },
+    {
+      "surface": "הארץ",
+      "gloss": "the land",
+      "sense": "S1"
+    },
+    {
+      "surface": "ויאכל",
+      "gloss": "and it ate",
+      "sense": "S1"
+    },
+    {
+      "surface": "את",
+      "gloss": "⟨את⟩",
+      "marks": "all the plant of the land"
     },
     {
       "surface": "כל",
       "gloss": "all"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "ותחשך",
-      "gloss": "and was darkened"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "ויאכל",
-      "gloss": "and they ate"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
       "surface": "עשב",
-      "gloss": "herb of"
+      "gloss": "plant",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
-      "gloss": "the land"
+      "gloss": "of the land",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "all the fruit of the tree"
     },
     {
       "surface": "כל",
-      "gloss": "every"
+      "gloss": "all"
     },
     {
       "surface": "פרי",
-      "gloss": "fruit of"
+      "gloss": "fruit",
+      "sense": "S1"
     },
     {
       "surface": "העץ",
-      "gloss": "the tree"
+      "gloss": "of the tree",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "הותיר",
-      "gloss": "had left"
+      "gloss": "had left",
+      "sense": "S1"
     },
     {
       "surface": "הברד",
-      "gloss": "the hail"
+      "gloss": "the hail",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "נותר",
-      "gloss": "remain"
+      "gloss": "remained",
+      "sense": "S1"
     },
     {
       "surface": "כל",
@@ -108,33 +137,21 @@
     {
       "surface": "ירק",
       "gloss": "green thing",
-      "readings": [
-        "green thing",
-        "greenness"
-      ],
-      "held_by": {
-        "green thing": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "greenness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "בעץ",
-      "gloss": "in the tree"
+      "gloss": "in the tree",
+      "sense": "S1"
     },
     {
       "surface": "ובעשב",
-      "gloss": "and in the herb"
+      "gloss": "and in the plant"
     },
     {
       "surface": "השדה",
-      "gloss": "of the field"
+      "gloss": "of the field",
+      "sense": "S1"
     },
     {
       "surface": "בכל",
@@ -142,13 +159,15 @@
     },
     {
       "surface": "ארץ",
-      "gloss": "the land of"
+      "gloss": "the land",
+      "sense": "S1"
     },
     {
       "surface": "מצרים",
-      "gloss": "Egypt"
+      "gloss": "of Egypt",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:50:44.157789678Z",
+  "model": "glm-5.3"
 }

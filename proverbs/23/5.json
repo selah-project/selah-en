@@ -1,85 +1,108 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Will your eyes fly upon it, and it is not? For making it makes for itself wings; like an eagle it flies toward the heavens.",
+  "ref": "proverbs 23:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "התעוף \/ ועיף",
+      "rationale": "עוף 'fly' vs 'grow faint'; qere reads ועיף as יעוף 'he will fly' — the rich wealth itself flies off."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "התעוף … ועיף",
+      "rationale": "The verse opens and closes with the same verb root, framing wealth's flight."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כנפים",
+      "rationale": "Infinitive absolute doubling 'making he will make' kept doubled."
+    }
+  ],
+  "translation": "Will your eyes fly upon it, and it is not? For making he will make for himself two-wings, like a nesher — it flies ⟨toward⟩ the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c361837ffc50eb592b9cdbf6ee98443dc999afe4107598b2fb7194bd5659d2e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/23\/5-8.1791193973819.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
       "surface": "התעוף",
-      "gloss": "Will your eyes fly",
+      "gloss": "will your eyes fly",
       "readings": [
-        "Will your eyes fly",
-        "Will you set"
+        "will your eyes fly",
+        "will your eyes grow dim"
       ],
-      "held_by": {
-        "Will your eyes fly": [
-          "v2",
-          "en4"
-        ],
-        "Will you set": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S2"
     },
     {
       "surface": "עיניך",
-      "gloss": "your eyes"
+      "gloss": "your two-eyes",
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "upon it"
+      "gloss": "upon it",
+      "sense": null
     },
     {
       "surface": "ואיננו",
-      "gloss": "and it is not"
+      "gloss": "and it is not",
+      "sense": null
     },
     {
       "surface": "כי",
-      "gloss": "For"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "עשה",
-      "gloss": "making"
+      "gloss": "making",
+      "sense": "S1"
     },
     {
       "surface": "יעשה",
-      "gloss": "it makes",
-      "readings": [
-        "it makes",
-        "will certainly make"
-      ],
-      "held_by": {
-        "it makes": [
-          "v2",
-          "en4"
-        ],
-        "will certainly make": [
-          "v1",
-          "v3"
-        ]
-      }
+      "gloss": "he will make",
+      "sense": "S1"
     },
     {
       "surface": "לו",
-      "gloss": "for itself"
+      "gloss": "for himself",
+      "sense": null
     },
     {
       "surface": "כנפים",
-      "gloss": "wings"
+      "gloss": "two-wings",
+      "sense": "S1"
     },
     {
       "surface": "כנשר",
-      "gloss": "like an eagle"
+      "gloss": "like a nesher",
+      "sense": "S1"
     },
     {
       "surface": "ועיף",
-      "gloss": "and it flies"
+      "gloss": "it flies",
+      "readings": [
+        "it flies",
+        "it grows dim"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "השמים",
-      "gloss": "toward the heavens"
+      "gloss": "the heavens",
+      "sense": "S2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:53.820476108Z",
+  "model": "glm-5.3"
 }

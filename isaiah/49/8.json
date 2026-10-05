@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Thus says YHWH: in a time of favor I answered you, and in a day of salvation I helped you; and I will keep you, and I will give you for a covenant of a people, to raise up the land, to cause to inherit desolate heritages.",
+  "ref": "isaiah 49:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "the hiphil להנחיל implies recipients; supplied for English syntax."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "להנחיל נחלות",
+      "rationale": "verb and noun share the root נחל — 'to make-inherit inheritances' — the echo is dimmed in English."
+    },
+    {
+      "kind": "you",
+      "subject": "the servant",
+      "rationale": "continued direct address of the servant by YHWH."
+    }
+  ],
+  "translation": "Thus says YHWH: In a time of favor I answered you, and in a day of salvation I helped you; and I will keep you, and I will give you as a covenant for a people, to raise up the land, to make them inherit desolate heritages.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c4364044aa842bb621a17958b3b1631a87afd2ae271837d8dc8e9d0f4d87b604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/49\/5-8.1791188762971.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "כה",
@@ -8,54 +40,48 @@
     },
     {
       "surface": "אמר",
-      "gloss": "says"
+      "gloss": "says",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "בעת",
-      "gloss": "in a time of"
+      "gloss": "In a time of",
+      "sense": "S1"
     },
     {
       "surface": "רצון",
-      "gloss": "of favor",
-      "readings": [
-        "of favor",
-        "of delight"
-      ],
-      "held_by": {
-        "of favor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of delight": [
-          "en4"
-        ]
-      }
+      "gloss": "favor",
+      "sense": "S1"
     },
     {
       "surface": "עניתיך",
-      "gloss": "I answered you"
+      "gloss": "I answered you",
+      "sense": "S1"
     },
     {
       "surface": "וביום",
-      "gloss": "and in a day of"
+      "gloss": "and in a day of",
+      "sense": "S1"
     },
     {
       "surface": "ישועה",
-      "gloss": "of salvation"
+      "gloss": "salvation",
+      "sense": "S1"
     },
     {
       "surface": "עזרתיך",
-      "gloss": "I helped you"
+      "gloss": "I helped you",
+      "sense": "S1"
     },
     {
       "surface": "ואצרך",
-      "gloss": "and I will keep you"
+      "gloss": "and I will keep you",
+      "sense": "S1"
     },
     {
       "surface": "ואתנך",
@@ -63,65 +89,39 @@
     },
     {
       "surface": "לברית",
-      "gloss": "for a covenant of"
+      "gloss": "as a covenant",
+      "sense": "S1"
     },
     {
       "surface": "עם",
-      "gloss": "a people"
+      "gloss": "for a people",
+      "sense": "S1"
     },
     {
       "surface": "להקים",
-      "gloss": "to raise up",
-      "readings": [
-        "to raise up",
-        "to establish"
-      ],
-      "held_by": {
-        "to raise up": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to establish": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "to raise up"
     },
     {
       "surface": "ארץ",
       "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "להנחיל",
-      "gloss": "to cause to inherit"
+      "gloss": "to make them inherit",
+      "sense": "S1"
     },
     {
       "surface": "נחלות",
-      "gloss": "heritages"
+      "gloss": "heritages",
+      "sense": "S1"
     },
     {
       "surface": "שממות",
-      "gloss": "desolate"
+      "gloss": "desolate",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:26:02.973347743Z",
+  "model": "glm-5.3"
 }

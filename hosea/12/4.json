@@ -1,56 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "In the womb he grasped ⟨את⟩ his brother by the heel, and in his strength he strove with ⟨את⟩ Elohim.",
-  "tokens": [
+  "ref": "hosea 12:4",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "בבטן",
-      "gloss": "in the womb"
+      "kind": "wordplay",
+      "subject": "עקב \/ יעקב",
+      "rationale": "the verb 'he grasped the heel' puns on the name Jacob, lost in English."
     },
     {
-      "surface": "עקב",
-      "gloss": "he grasped by the heel",
-      "readings": [
-        "he grasped by the heel",
-        "he supplanted"
-      ],
-      "held_by": {
-        "he grasped by the heel": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he supplanted": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "עקב",
+      "rationale": "'seized by the heel' vs figurative 'circumvented\/deceived'; the literal picture is kept."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אחיו",
-      "gloss": "his brother"
-    },
-    {
-      "surface": "ובאונו",
-      "gloss": "and in his strength"
-    },
-    {
-      "surface": "שרה",
-      "gloss": "he strove"
-    },
-    {
-      "surface": "את",
-      "gloss": "with ⟨את⟩"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "substitution",
+      "subject": "און",
+      "rationale": "often 'strength\/wealth', here rendered 'manhood' per the grown-to-full-strength sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the womb he grasped the heel of ⟨את⟩ his brother, and in his manhood he contended with ⟨את⟩ Elohim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0fc2e794ca7fce568836e8d5fb89c4b9e9645e0681eeab622e33957e0738fce0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/12\/4-4.1791199770431.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּבֶּטֶן",
+      "gloss": "In the womb",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָקַב",
+      "gloss": "he grasped the heel of",
+      "readings": [
+        "he grasped the heel of",
+        "he tripped up"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his brother"
+    },
+    {
+      "surface": "אָחִיו",
+      "gloss": "his brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְאוֹנוֹ",
+      "gloss": "and in his manhood",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂרָה",
+      "gloss": "he contended with",
+      "readings": [
+        "he contended with",
+        "he prevailed over"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "marks": "Elohim"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:29:30.431560427Z",
+  "model": "glm-5.3"
 }

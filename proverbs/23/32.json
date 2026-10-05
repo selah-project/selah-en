@@ -1,57 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "Its latter end, like a serpent it bites, and like a viper it spreads forth.",
-  "tokens": [
+  "ref": "proverbs 23:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "אחריתו",
-      "gloss": "its latter end"
+      "kind": "addition",
+      "subject": "venom",
+      "rationale": "The object of יפרש is implied; Hebrew says only 'it spreads forth', the viper's venom understood."
     },
     {
-      "surface": "כנחש",
-      "gloss": "like a serpent"
-    },
-    {
-      "surface": "ישך",
-      "gloss": "it bites"
-    },
-    {
-      "surface": "וכצפעני",
-      "gloss": "and like a viper",
-      "readings": [
-        "and like a viper",
-        "and like a basilisk"
-      ],
-      "held_by": {
-        "and like a viper": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and like a basilisk": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יפרש",
-      "gloss": "it spreads forth",
-      "readings": [
-        "it spreads forth",
-        "it stings"
-      ],
-      "held_by": {
-        "it spreads forth": [
-          "en4"
-        ],
-        "it stings": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "יפרש",
+      "rationale": "'Spreads forth' — hiphil of פרש; most take the viper spreading its venom, but some render it darting out the tongue."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Its end bites like a serpent, and like a viper it spreads ⟨venom⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cc5504c78a248734c2c73889e43de5fdf246e6daee840c8e8d521ff8a8a8302b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/23\/29-32.1791193982775.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַ֭חֲרִיתוֹ",
+      "gloss": "Its end",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּנָחָ֣שׁ",
+      "gloss": "like a serpent",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשָּׁ֑ךְ",
+      "gloss": "bites",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽכְצִפְעֹנִ֥י",
+      "gloss": "and like a viper"
+    },
+    {
+      "surface": "יַפְרִֽשׁ",
+      "gloss": "it spreads ⟨venom⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:02.776677541Z",
+  "model": "glm-5.3"
 }

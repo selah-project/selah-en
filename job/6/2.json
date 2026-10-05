@@ -1,52 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Oh that a weighing were weighed — my vexation, and I were in the balances, they would lift it together!",
+  "ref": "job 6:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "והיתי",
+      "rationale": "ketiv והיתי from היה vs qere והותי from הווה 'ruin'; the consonantal text can read 'and I was'"
+    },
+    {
+      "kind": "hapax",
+      "subject": "הווה",
+      "rationale": "this noun form occurs only here in the Tanakh"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שקול ישקל",
+      "rationale": "infinitive absolute doubled with the verb — 'weighing let it be weighed' — kept doubled"
+    },
+    {
+      "kind": "measurement",
+      "subject": "weighing my vexation",
+      "rationale": "Job imagines his grief measured on scales"
+    }
+  ],
+  "translation": "Oh that weighing it were weighed, my vexation, and my ruin together were lifted up in balances!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1036f041aeb302e04b4997f6832b9427c8649c09e4637226aad44039f1e7d217",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/6\/1-4.1791194182195.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "לו",
-      "gloss": "Oh that"
+      "surface": "ל֗וּ",
+      "gloss": "oh that",
+      "sense": null
     },
     {
-      "surface": "שקול",
-      "gloss": "a weighing"
+      "surface": "שָׁק֣וֹל",
+      "gloss": "weighing",
+      "sense": "S1"
     },
     {
-      "surface": "ישקל",
+      "surface": "יִשָּׁקֵ֣ל",
       "gloss": "it were weighed",
-      "readings": [
-        "it were weighed",
-        "were weighed"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "כעשי",
-      "gloss": "my vexation"
+      "surface": "כַּעְשִׂ֑י",
+      "gloss": "my vexation",
+      "sense": "S1"
     },
     {
       "surface": "והיתי",
-      "gloss": "and I were"
-    },
-    {
-      "surface": "במאזנים",
-      "gloss": "in the balances",
+      "gloss": "and my ruin",
+      "sense": "S1",
       "readings": [
-        "in the balances",
-        "in the scales"
+        "and my ruin",
+        "and my calamity"
       ]
     },
     {
-      "surface": "ישאו",
-      "gloss": "they would lift",
-      "readings": [
-        "they would lift",
-        "lifted up"
-      ]
+      "surface": "בְּֽמֹאזְנַ֥יִם",
+      "gloss": "in balances",
+      "sense": "S1"
     },
     {
-      "surface": "יחד",
-      "gloss": "together"
+      "surface": "יִשְׂא֥וּ",
+      "gloss": "they were lifted up",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָֽחַד",
+      "gloss": "together",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:22.196338626Z",
+  "model": "glm-5.3"
 }

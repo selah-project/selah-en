@@ -1,55 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "According to your knowledge I also know; I am not fallen below you.",
-  "tokens": [
+  "ref": "job 13:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "כדעתכם",
-      "gloss": "According to your knowledge"
-    },
-    {
-      "surface": "ידעתי",
-      "gloss": "I know"
-    },
-    {
-      "surface": "גם",
-      "gloss": "also"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "נפל",
-      "gloss": "fallen",
-      "readings": [
-        "fallen",
-        "inferior"
-      ],
-      "held_by": {
-        "fallen": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "inferior": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אנכי",
-      "gloss": "I"
-    },
-    {
-      "surface": "מכם",
-      "gloss": "below you"
+      "kind": "idiom",
+      "subject": "לֹא נֹפֵל … מִכֶּם",
+      "rationale": "Literally 'not falling from you'; the falling metaphor means 'not inferior to', rendered with the English idiom 'falling short'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "As your ⟨knowledge⟩, I too know; I am not falling short of you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e40fddb18660fe798374b4873711c7972d6f743eb9865985a2b115326744f808",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/13\/1-4.1791194264337.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּדַעְתְּכֶם",
+      "gloss": "As your knowledge",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַעְתִּי",
+      "gloss": "I know",
+      "sense": null
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "too",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֹפֵל",
+      "gloss": "falling short",
+      "readings": [
+        "falling short",
+        "falling"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "מִכֶּם",
+      "gloss": "of you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:44.338352637Z",
+  "model": "glm-5.3"
 }

@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Winking with his eyes, speaking with his feet, pointing with his fingers.",
-  "tokens": [
+  "ref": "proverbs 6:13",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "קרץ",
-      "gloss": "winking",
-      "readings": [
-        "winking",
-        "biting the lips"
-      ],
-      "held_by": {
-        "winking": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "biting the lips": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "winking",
+      "rationale": "קרץ is to pinch, i.e. blink one eye quickly as a gesture of malice — 'winking' loses the malicious squint."
     },
     {
-      "surface": "בעינו",
-      "gloss": "with his eyes"
+      "kind": "alternative",
+      "subject": "pointing",
+      "rationale": "מרה is the hiphil of ירה, 'instructs\/teaches with his fingers' — pointing is the contextual gesture of that teaching."
     },
     {
-      "surface": "מלל",
-      "gloss": "speaking"
-    },
-    {
-      "surface": "ברגלו",
-      "gloss": "with his feet"
-    },
-    {
-      "surface": "מרה",
-      "gloss": "pointing",
-      "readings": [
-        "pointing",
-        "teaching"
-      ],
-      "held_by": {
-        "pointing": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "teaching": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "באצבעתיו",
-      "gloss": "with his fingers"
+      "kind": "wordplay",
+      "subject": "participle chain",
+      "rationale": "three sound-paired participles (qorets, molel, moreh) with three different body parts, a rhythmic triplet lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Winking with his eyes, signaling with his feet, pointing with his fingers —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec8f885f52bb0354ee0389d387e021be94550dc844bac865a10d4bd21a3c9440",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/6\/13-16.1791193745481.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קֹרֵ֣ץ",
+      "gloss": "winking",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינָו",
+      "gloss": "with his eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹלֵל",
+      "gloss": "signaling",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרַגְלָ֑ו",
+      "gloss": "with his feet",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹרֶה",
+      "gloss": "pointing",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאֶצְבְּעֹתָֽיו",
+      "gloss": "with his fingers",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:05.481909699Z",
+  "model": "glm-5.3"
 }

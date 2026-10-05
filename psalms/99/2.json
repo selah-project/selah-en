@@ -1,55 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "YHWH ⟨is⟩ great in Zion, and exalted ⟨is⟩ He over all the peoples.",
+  "ref": "psalms 99:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 99,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew is nominal clauses — YHWH in Zion great; copula supplied."
+    }
+  ],
+  "translation": "YHWH in Zion is great, and high is He above all the peoples.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b0be9d803fbe204d7f667ee3c0a19ba61dbe4a04fb9354ff0231d3fe3fc8f595",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/99\/1-4.1791193241136.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "בציון",
-      "gloss": "in Zion"
+      "surface": "בְּצִיּ֣וֹן",
+      "gloss": "in Zion",
+      "sense": "S1"
     },
     {
-      "surface": "גדול",
-      "gloss": "great"
+      "surface": "גָּד֑וֹל",
+      "gloss": "is great",
+      "sense": "S1"
     },
     {
-      "surface": "ורם",
-      "gloss": "and exalted",
-      "readings": [
-        "and exalted",
-        "and high"
-      ],
-      "held_by": {
-        "and exalted": [
-          "v1",
-          "v3"
-        ],
-        "and high": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וְרָ֥ם",
+      "gloss": "and high",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "He"
+      "surface": "ה֝֗וּא",
+      "gloss": "is He"
     },
     {
-      "surface": "על",
-      "gloss": "over"
+      "surface": "עַ֥ל",
+      "gloss": "above"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "העמים",
-      "gloss": "the peoples"
+      "surface": "הָֽעַמִּֽים",
+      "gloss": "the peoples",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:41.137004797Z",
+  "model": "glm-5.3"
 }

@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 39,
-  "translation": "But you — you have spurned and rejected; you have shown yourself crossed over with your Mashiach.",
-  "tokens": [
+  "ref": "psalms 89:39",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "But you"
+      "kind": "crux",
+      "subject": "you have been enraged",
+      "rationale": "התעברת hithpael of עבר here 'be wrathful' rather than literal 'pass through'."
     },
     {
-      "surface": "זנחת",
-      "gloss": "you have spurned"
-    },
-    {
-      "surface": "ותמאס",
-      "gloss": "and rejected"
-    },
-    {
-      "surface": "התעברת",
-      "gloss": "you have shown yourself crossed over",
-      "readings": [
-        "you have shown yourself crossed over",
-        "you have become enraged"
-      ],
-      "held_by": {
-        "you have shown yourself crossed over": [
-          "en4"
-        ],
-        "you have become enraged": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "משיחך",
-      "gloss": "your Mashiach",
-      "readings": [
-        "your Mashiach",
-        "your anointed"
-      ],
-      "held_by": {
-        "your Mashiach": [
-          "v3"
-        ],
-        "your anointed": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "זנחת\/ו...מאס",
+      "rationale": "near-synonymous pair of rejection verbs heaped for intensity."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But you — you have rejected and spurned; you have been enraged with your Mashiach.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "46640ea941f38ff0b218822bab97d39163eba3585741e0c8d829247e9a00dfa8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/37-40.1791193161010.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּ֣ה",
+      "gloss": "But you",
+      "sense": null
+    },
+    {
+      "surface": "זָ֭נַחְתָּ",
+      "gloss": "you have rejected",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתִּמְאָ֑ס",
+      "gloss": "and spurned",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִתְעַבַּ֗רְתָּ",
+      "gloss": "you have been enraged",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "מְשִׁיחֶֽךָ",
+      "gloss": "your Mashiach",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:21.011348767Z",
+  "model": "glm-5.3"
 }

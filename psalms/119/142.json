@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 142,
-  "translation": "Your righteousness is righteousness forever, and Your Torah is truth.",
-  "tokens": [
+  "ref": "psalms 119:142",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "צדקתך",
-      "gloss": "Your righteousness"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; copula supplied twice"
     },
     {
-      "surface": "צדק",
-      "gloss": "righteousness"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "ותורתך",
-      "gloss": "and Your Torah"
-    },
-    {
-      "surface": "אמת",
-      "gloss": "truth",
-      "readings": [
-        "truth",
-        "faithfulness"
-      ],
-      "held_by": {
-        "truth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "faithfulness": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "צדקתך\/צדק",
+      "rationale": "noun and cognate predicate repeated, the doubling kept in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your righteousness ⟨is⟩ righteousness forever, and your Torah ⟨is⟩ truth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "df48d3177f5051f8eb598b42f553cd96a47664aa9e8ba9740c7d06dd1bd77776",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/141-144.1791193490313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צִדְקָתְךָ",
+      "gloss": "Your righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "צֶדֶק",
+      "gloss": "righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתוֹרָתְךָ",
+      "gloss": "and your Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמֶת",
+      "gloss": "truth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:50.313831667Z",
+  "model": "glm-5.3"
 }

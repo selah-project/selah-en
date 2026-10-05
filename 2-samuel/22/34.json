@@ -1,60 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "He levels my feet like the hinds, and on my high places he makes me stand.",
+  "ref": "2-samuel 22:34",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "רגליו",
+      "rationale": "ketiv 'his feet' (3rd person) vs qere רגלי 'my feet'; Ps 18:34 reads 'my feet' — context is David speaking, so 'my feet' rendered"
+    },
+    {
+      "kind": "substitution",
+      "subject": "does",
+      "rationale": "אַיָּלוֹת is the female deer specifically; 'hinds\/deer' loses the gendered picture"
+    }
+  ],
+  "translation": "making my feet level like the does, and on my high places he makes me stand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "984bd62c69e62e5a7c8ca604d51192176b4b51b77088c3eda07893879e3bd718",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/33-36.1791186605029.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "משוה",
-      "gloss": "he levels",
-      "readings": [
-        "he levels",
-        "making like"
-      ],
-      "held_by": {
-        "he levels": [
-          "v2",
-          "v3"
-        ],
-        "making like": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "מְשַׁוֶּה",
+      "gloss": "making level",
+      "sense": "S1"
     },
     {
       "surface": "רגליו",
       "gloss": "my feet",
-      "readings": [
-        "my feet",
-        "His feet"
-      ],
-      "held_by": {
-        "my feet": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "His feet": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כאילות",
-      "gloss": "like the hinds"
+      "surface": "כָּאַיָּלוֹת",
+      "gloss": "like the does",
+      "sense": "S1"
     },
     {
-      "surface": "ועל",
+      "surface": "וְעַל",
       "gloss": "and on"
     },
     {
-      "surface": "במותי",
-      "gloss": "my high places"
+      "surface": "בָּמוֹתַי",
+      "gloss": "my high places",
+      "sense": "S1"
     },
     {
-      "surface": "יעמדני",
-      "gloss": "makes me stand"
+      "surface": "יַעֲמִדֵנִי",
+      "gloss": "he makes me stand"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:05.030150770Z",
+  "model": "glm-5.3"
 }

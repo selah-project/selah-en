@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Naked they go about without clothing, and hungry they carry the sheaf.",
-  "tokens": [
+  "ref": "job 24:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "ערום",
-      "gloss": "Naked"
+      "kind": "addition",
+      "subject": "⟨ones⟩",
+      "rationale": "Hebrew uses the adjective 'hungry' substantively; English needs a supplied head noun."
     },
     {
-      "surface": "הלכו",
-      "gloss": "they go about"
-    },
-    {
-      "surface": "בלי",
-      "gloss": "without"
-    },
-    {
-      "surface": "לבוש",
-      "gloss": "clothing"
-    },
-    {
-      "surface": "ורעבים",
-      "gloss": "and hungry"
-    },
-    {
-      "surface": "נשאו",
-      "gloss": "they carry"
-    },
-    {
-      "surface": "עמר",
-      "gloss": "the sheaf",
-      "readings": [
-        "the sheaf",
-        "an omer-measure"
-      ],
-      "held_by": {
-        "the sheaf": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "an omer-measure": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "carry the sheaf",
+      "rationale": "The poor harvest and carry sheaves they cannot eat — or carry them as pledge-labor for the wicked."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Naked they wander without clothing, and hungry ⟨ones⟩ carry the sheaf.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d64aa1870469a60187ca7dbca9d4b8efefacc8c295cf5d5b66de331939b0cbe0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/24\/9-12.1791194429527.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָר֣וֹם",
+      "gloss": "naked",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִ֭לְּכוּ",
+      "gloss": "they wander",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּלִ֣י",
+      "gloss": "without",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְב֑וּשׁ",
+      "gloss": "clothing",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝רְעֵבִ֗ים",
+      "gloss": "and hungry ⟨ones⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֣שְׂאוּ",
+      "gloss": "carry",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹֽמֶר",
+      "gloss": "the sheaf",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:29.528654717Z",
+  "model": "glm-5.3"
 }

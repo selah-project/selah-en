@@ -1,41 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And they inquired yet again of YHWH, “Has ⟨the⟩ man come here yet?” And YHWH said, “Behold, he is hidden among the baggage.”",
+  "ref": "1-samuel 10:22",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the baggage",
+      "rationale": "הכלים is literally 'the vessels\/equipment'; 'the baggage' is the contextual narrowing."
+    },
+    {
+      "kind": "mystery",
+      "subject": "Saul's hiding",
+      "rationale": "The chosen king is concealed and must be revealed by divine inquiry — the text withholds him."
+    }
+  ],
+  "translation": "And they asked again in YHWH, “Has a man come here still?” And YHWH said, “See, he is hidden among the baggage.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2975c2423b6fa0b4cb32b2425d3ea127591e0f9eb44ffa3213cad36e692c6dac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/10\/21-24.1791185548829.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "וישאלו",
-      "gloss": "And they inquired"
+      "gloss": "and they asked",
+      "sense": "S1"
     },
     {
       "surface": "עוד",
-      "gloss": "yet again",
-      "readings": [
-        "yet again",
-        "again"
-      ],
-      "held_by": {
-        "yet again": [
-          "v1",
-          "v3"
-        ],
-        "again": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "again"
     },
     {
       "surface": "ביהוה",
-      "gloss": "of YHWH"
+      "gloss": "in YHWH",
+      "sense": "S1"
     },
     {
       "surface": "הבא",
-      "gloss": "Has ⟨he⟩ come"
+      "gloss": "Has he come"
     },
     {
       "surface": "עוד",
-      "gloss": "yet"
+      "gloss": "still"
     },
     {
       "surface": "הלם",
@@ -43,33 +57,21 @@
     },
     {
       "surface": "איש",
-      "gloss": "⟨the⟩ man"
+      "gloss": "a man"
     },
     {
       "surface": "ויאמר",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "הנה",
-      "gloss": "Behold",
-      "readings": [
-        "Behold",
-        "look"
-      ],
-      "held_by": {
-        "Behold": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "look": [
-          "en4"
-        ]
-      }
+      "gloss": "See"
     },
     {
       "surface": "הוא",
@@ -78,20 +80,7 @@
     {
       "surface": "נחבא",
       "gloss": "is hidden",
-      "readings": [
-        "is hidden",
-        "has hidden himself"
-      ],
-      "held_by": {
-        "is hidden": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "has hidden himself": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -100,23 +89,9 @@
     {
       "surface": "הכלים",
       "gloss": "the baggage",
-      "readings": [
-        "the baggage",
-        "the vessels"
-      ],
-      "held_by": {
-        "the baggage": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the vessels": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:32:28.830316999Z",
+  "model": "glm-5.3"
 }

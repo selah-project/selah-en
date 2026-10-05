@@ -1,87 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And wandering, let his sons wander, and let them beg, and let them seek out of their ruins.",
+  "ref": "psalms 109:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨food⟩",
+      "rationale": "Hebrew leaves the object of 'seek' implicit; supplied to keep the line readable"
+    },
+    {
+      "kind": "crux",
+      "subject": "their ruins",
+      "rationale": "חרבותיהם: 'their ruined places' (the ruins of his houses) vs 'those who ruin them' — most read 'from their (i.e. his family's) ruins'"
+    }
+  ],
+  "translation": "And wandering may his sons wander, and beg, and seek ⟨food⟩ from their ruins.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d44661fbe23f7e47253e267404d88fc480d8f2532c95629ea7f709f552622a1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/9-12.1791193363769.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ונוע",
+      "surface": "וְנ֤וֹעַ",
       "gloss": "and wandering"
     },
     {
-      "surface": "ינועו",
-      "gloss": "let them wander",
-      "readings": [
-        "let them wander",
-        "let them waver"
-      ],
-      "held_by": {
-        "let them wander": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "let them waver": [
-          "en4"
-        ]
-      }
+      "surface": "יָנ֣וּעוּ",
+      "gloss": "may they wander",
+      "sense": "S1"
     },
     {
-      "surface": "בניו",
+      "surface": "בָנָ֣יו",
       "gloss": "his sons",
-      "readings": [
-        "his sons",
-        "his children"
-      ],
-      "held_by": {
-        "his sons": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his children": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ושאלו",
-      "gloss": "and let them beg",
-      "readings": [
-        "and let them beg",
-        "and let them ask"
-      ],
-      "held_by": {
-        "and let them beg": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and let them ask": [
-          "en4"
-        ]
-      }
+      "surface": "וְשִׁאֵ֑לוּ",
+      "gloss": "and beg",
+      "sense": "S1"
     },
     {
-      "surface": "ודרשו",
-      "gloss": "and let them seek"
+      "surface": "וְ֝דָרְשׁ֗וּ",
+      "gloss": "and seek",
+      "sense": "S2"
     },
     {
-      "surface": "מחרבותיהם",
-      "gloss": "out of their ruins",
-      "readings": [
-        "out of their ruins",
-        "from their desolate places"
-      ],
-      "held_by": {
-        "out of their ruins": [
-          "v2",
-          "v3"
-        ],
-        "from their desolate places": [
-          "en4"
-        ]
-      }
+      "surface": "מֵחָרְבוֹתֵיהֶֽם",
+      "gloss": "from their ruins",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:43.769892040Z",
+  "model": "glm-5.3"
 }

@@ -1,60 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Does a lion roar in the forest and there is no prey for him? Does a young lion give his voice from his den, unless he has caught ⟨something⟩?",
-  "tokens": [
+  "ref": "amos 3:4",
+  "book": "amos",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "הישאג",
-      "gloss": "Does he roar"
+      "kind": "invitation",
+      "subject": "rhetorical questions",
+      "rationale": "continues the question chain begun in verse 3, pressing the hearer toward agreement."
     },
     {
-      "surface": "אריה",
-      "gloss": "a lion"
+      "kind": "elision",
+      "subject": "בלתי אם",
+      "rationale": "double particle 'except if' rendered as one English 'except'."
     },
     {
-      "surface": "ביער",
-      "gloss": "in the forest"
-    },
-    {
-      "surface": "וטרף",
-      "gloss": "and prey"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is no"
-    },
-    {
-      "surface": "לו",
-      "gloss": "for him"
-    },
-    {
-      "surface": "היתן",
-      "gloss": "Does he give"
-    },
-    {
-      "surface": "כפיר",
-      "gloss": "a young lion"
-    },
-    {
-      "surface": "קולו",
-      "gloss": "his voice"
-    },
-    {
-      "surface": "ממענתו",
-      "gloss": "from his den"
-    },
-    {
-      "surface": "בלתי",
-      "gloss": "unless"
-    },
-    {
-      "surface": "אם",
-      "gloss": "if"
-    },
-    {
-      "surface": "לכד",
-      "gloss": "he has caught"
+      "kind": "addition",
+      "subject": "⟨something⟩",
+      "rationale": "לכד 'he has caught' lacks an object in Hebrew; English needs one supplied."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Does a lion roar in the forest, and prey is not to him? Does a young lion give his voice from his den, except he has caught ⟨something⟩?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "79333999e9e89270354b5e3162cb1e4578d8895156dbe0ce6f342859c2160dea",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/amos\/3\/1-4.1791191485481.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/amos.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲיִשְׁאַג",
+      "gloss": "Does … roar",
+      "sense": "S2"
+    },
+    {
+      "surface": "אַרְיֵה",
+      "gloss": "a lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיַּעַר",
+      "gloss": "in the forest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְטֶרֶף",
+      "gloss": "and prey",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵין",
+      "gloss": "is not",
+      "sense": null
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "הֲיִתֵּן",
+      "gloss": "Does … give",
+      "sense": null
+    },
+    {
+      "surface": "כְּפִיר",
+      "gloss": "a young lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹלוֹ",
+      "gloss": "his voice",
+      "sense": null
+    },
+    {
+      "surface": "מִמְּעֹנָתוֹ",
+      "gloss": "from his den",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּלְתִּי",
+      "gloss": "except",
+      "sense": null
+    },
+    {
+      "surface": "אִם",
+      "gloss": "except",
+      "sense": null
+    },
+    {
+      "surface": "לָכָד",
+      "gloss": "he has caught",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:11:25.482683015Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "He has built against me, and hedged ⟨me⟩ about with poison and toil.",
-  "tokens": [
+  "ref": "lamentations 3:5",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "בנה",
-      "gloss": "He has built"
+      "kind": "substitution",
+      "subject": "poison",
+      "rationale": "רֹאשׁ is a poisonous plant or venom, not the head (רֹאשׁ homograph) — here suffering as poison"
     },
     {
-      "surface": "עלי",
-      "gloss": "against me"
-    },
-    {
-      "surface": "ויקף",
-      "gloss": "and hedged about"
-    },
-    {
-      "surface": "ראש",
-      "gloss": "poison",
-      "readings": [
-        "poison",
-        "bitterness"
-      ],
-      "held_by": {
-        "poison": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "bitterness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותלאה",
-      "gloss": "and toil"
+      "kind": "alternative",
+      "subject": "has hedged me about",
+      "rationale": "ויקף from נקף, 'surround' — image of being encircled with no escape"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He has built against me, and has hemmed me in — poison and weariness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4caf35ec4ca5acdaf3873223faf2e77339d04e3f650aa732e05511fc71839a47",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/5-8.1791194696390.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּנָה",
+      "gloss": "He has built",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַי",
+      "gloss": "against me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּקַּף",
+      "gloss": "and has hemmed me in",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹאשׁ",
+      "gloss": "poison",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְלָאָה",
+      "gloss": "and weariness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:56.391060401Z",
+  "model": "glm-5.3"
 }

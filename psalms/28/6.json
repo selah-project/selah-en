@@ -1,32 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Blessed is YHWH, for he has heard the voice of my supplications.",
-  "tokens": [
+  "ref": "psalms 28:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "שמע",
-      "gloss": "he has heard"
-    },
-    {
-      "surface": "קול",
-      "gloss": "the voice"
-    },
-    {
-      "surface": "תחנוני",
-      "gloss": "of my supplications"
+      "kind": "addition",
+      "subject": "be",
+      "rationale": "the Hebrew participle ברוך is a blessing formula; English needs the copula 'be'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Blessed be YHWH, for he has heard the voice of my supplications.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "188bcdbab23b251b560998d2cc057556f17bcf8ea5ad27e74ed31c44988b367a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/28\/5-8.1791192550649.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּרוּךְ",
+      "gloss": "Blessed be",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "שָׁמַע",
+      "gloss": "he has heard",
+      "sense": null
+    },
+    {
+      "surface": "קוֹל",
+      "gloss": "the voice of",
+      "sense": null
+    },
+    {
+      "surface": "תַּחֲנוּנָי",
+      "gloss": "my supplications",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:10.650802687Z",
+  "model": "glm-5.3"
 }

@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "The Rock who begot you, you forgot, and you forgot El who brought you forth.",
-  "tokens": [
+  "ref": "deuteronomy 32:18",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "צור",
-      "gloss": "the Rock"
+      "kind": "hapax",
+      "subject": "תְּשִׁי",
+      "rationale": "שׁוּי\/שׁיה occurs only here; the lexicon picture is ‘to keep in memory’, so the line says ‘you let go of remembering’."
     },
     {
-      "surface": "ילדך",
-      "gloss": "who begot you"
+      "kind": "crux",
+      "subject": "תְּשִׁי",
+      "rationale": "some read the hapax as ‘you grew unmindful’ or even from שׁוּת ‘you were laid low’."
     },
     {
-      "surface": "תשי",
-      "gloss": "you forgot"
-    },
-    {
-      "surface": "ותשכח",
-      "gloss": "and you forgot"
-    },
-    {
-      "surface": "אל",
-      "gloss": "El"
-    },
-    {
-      "surface": "מחללך",
-      "gloss": "who brought you forth",
-      "readings": [
-        "who brought you forth",
-        "who formed you"
-      ],
-      "held_by": {
-        "who brought you forth": [
-          "v2",
-          "v3"
-        ],
-        "who formed you": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "מְחֹלְלֶךָ",
+      "rationale": "the polel of חול is the twisting of labor — El imaged as the one in birth-pangs over you, not the flat ‘formed you’."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The Rock who birthed you, you forgot ⟨to remember⟩; and you forgot El, the-one-who-writhes-in-birth ⟨with⟩ you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a1dfaf42a9a9db375ceb78605512571ad9a24c71fc982fa447b8d2fc9936a775",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/17-20.1791184214088.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צוּר",
+      "gloss": "Rock",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְלָדְךָ",
+      "gloss": "who birthed you",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשִׁי",
+      "gloss": "you forgot ⟨to remember⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתִּשְׁכַּח",
+      "gloss": "and you forgot",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "El",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְחֹלְלֶךָ",
+      "gloss": "the-one-who-writhes-in-birth ⟨with⟩ you",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:14.089253683Z",
+  "model": "glm-5.3"
 }

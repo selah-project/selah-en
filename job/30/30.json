@@ -1,69 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "My skin has grown black upon me, and my bones are burned from drought.",
-  "tokens": [
+  "ref": "job 30:30",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "עורי",
-      "gloss": "My skin"
+      "kind": "hapax",
+      "subject": "שָׁחַר",
+      "rationale": "Verb 'to grow black\/dark' occurs only here in the Tanakh."
     },
     {
-      "surface": "שחר",
-      "gloss": "has grown black"
-    },
-    {
-      "surface": "מעלי",
-      "gloss": "upon me"
-    },
-    {
-      "surface": "ועצמי",
-      "gloss": "and my bones",
-      "readings": [
-        "and my bones",
-        "and my bone"
-      ],
-      "held_by": {
-        "and my bones": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and my bone": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חרה",
-      "gloss": "are burned"
-    },
-    {
-      "surface": "מני",
-      "gloss": "from"
-    },
-    {
-      "surface": "חרב",
-      "gloss": "drought",
-      "readings": [
-        "drought",
-        "heat",
-        "desolation"
-      ],
-      "held_by": {
-        "drought": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "heat": [
-          "en4"
-        ],
-        "desolation": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "fever",
+      "rationale": "חֹרֶב usually 'drought\/heat'; here the sense-dictionary gives bodily heat from sickness, rendered 'fever'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My skin has gone black upon me, and my bones burn from fever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4e9fc4d0c2a54a1b65e41efefd707a034e934ae4d8e0de357577534a7b5b8749",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/29-31.1791194486762.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ע֭וֹרִי",
+      "gloss": "My skin",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁחַ֣ר",
+      "gloss": "has gone black",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעָלָ֑י",
+      "gloss": "upon me",
+      "sense": null
+    },
+    {
+      "surface": "וְעַצְמִי",
+      "gloss": "and my bones",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָ֝֗רָה",
+      "gloss": "burn",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנִּי",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "חֹֽרֶב",
+      "gloss": "fever",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:26.762667134Z",
+  "model": "glm-5.3"
 }

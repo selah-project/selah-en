@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Vexation to his father, a foolish son, and bitterness to her who bore him.",
-  "tokens": [
+  "ref": "proverbs 17:25",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "כעס",
-      "gloss": "vexation",
-      "readings": [
-        "vexation",
-        "grief"
-      ]
+      "kind": "hapax",
+      "subject": "מֶמֶר",
+      "rationale": "Literally 'bitterness'; occurs only here in the Tanakh."
     },
     {
-      "surface": "לאביו",
-      "gloss": "to his father"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the nominal clauses supply one."
     },
     {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "כסיל",
-      "gloss": "foolish"
-    },
-    {
-      "surface": "וממר",
-      "gloss": "and bitterness"
-    },
-    {
-      "surface": "ליולדתו",
-      "gloss": "to her who bore him"
+      "kind": "crux",
+      "subject": "כַּעַס",
+      "rationale": "S1 'vexation (a state)' vs S2 'one who causes vexation'; the parallel with ממר favors a noun of effect here."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Vexation to his father is a foolish son, and bitterness to her who bore him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7c195babe172778eae9fbf242306dce371656a3e6e133bfc6866fdb9544616d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/17\/25-28.1791193897178.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּ֣עַס",
+      "gloss": "Vexation",
+      "sense": "S2"
+    },
+    {
+      "surface": "לְ֭אָבִיו",
+      "gloss": "to his father",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֣ן",
+      "gloss": "a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִ֑יל",
+      "gloss": "foolish",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝מֶ֗מֶר",
+      "gloss": "and bitterness",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיוֹלַדְתּֽוֹ",
+      "gloss": "to her who bore him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:37.178624741Z",
+  "model": "glm-5.3"
 }

@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And if it is evil in your eyes to serve ⟨את⟩ YHWH, choose for yourselves this day ⟨את⟩ whom you will serve — whether ⟨את⟩ the gods which your fathers served which are beyond the River, or ⟨את⟩ the gods of the Amorite in whose land you dwell — but as for me and my house, we will serve ⟨את⟩ YHWH.",
+  "ref": "joshua 24:15",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "choose for yourselves today",
+      "rationale": "Joshua's summons to decision, the verse's rhetorical hinge"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Direct second-person address by Joshua"
+    },
+    {
+      "kind": "crux",
+      "subject": "כתiv\/קרי at בעבר",
+      "rationale": "Ketiv בעבר 'in the region beyond', qere מעבר 'from beyond'; rendered from the ketiv's sense"
+    }
+  ],
+  "translation": "And if it is bad in your eyes to serve ⟨את⟩ YHWH, choose for yourselves today ⟨את⟩ whom you will serve — whether ⟨את⟩ the gods whom your fathers served who are beyond the River, or ⟨את⟩ the gods of the Amorite in whose land you are dwelling; but as for me and my house, we will serve ⟨את⟩ YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "feec451f46b97d04065f91fe6ea64bbbc81965e5a16f10f2f96f53a6c0ed3a8d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/24\/13-16.1791184768865.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
       "surface": "ואם",
@@ -8,27 +40,33 @@
     },
     {
       "surface": "רע",
-      "gloss": "evil"
+      "gloss": "it is bad",
+      "sense": "S1"
     },
     {
       "surface": "בעיניכם",
-      "gloss": "in your eyes"
+      "gloss": "in your eyes",
+      "sense": "S1"
     },
     {
       "surface": "לעבד",
-      "gloss": "to serve"
+      "gloss": "to serve",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "בחרו",
-      "gloss": "choose"
+      "gloss": "choose",
+      "sense": "S1"
     },
     {
       "surface": "לכם",
@@ -36,33 +74,23 @@
     },
     {
       "surface": "היום",
-      "gloss": "this day",
-      "readings": [
-        "this day",
-        "today"
-      ],
-      "held_by": {
-        "this day": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "today": [
-          "en4"
-        ]
-      }
+      "gloss": "today",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "whom"
     },
     {
       "surface": "מי",
-      "gloss": "whom"
+      "gloss": "whom",
+      "sense": "S1"
     },
     {
       "surface": "תעבדון",
-      "gloss": "you will serve"
+      "gloss": "you will serve",
+      "sense": "S1"
     },
     {
       "surface": "אם",
@@ -70,50 +98,41 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the gods beyond the River"
     },
     {
       "surface": "אלהים",
       "gloss": "the gods",
-      "readings": [
-        "the gods",
-        "the Elohim"
-      ],
-      "held_by": {
-        "the gods": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the Elohim": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "whom"
     },
     {
       "surface": "עבדו",
-      "gloss": "served"
+      "gloss": "served",
+      "sense": "S1"
     },
     {
       "surface": "אבותיכם",
-      "gloss": "your fathers"
+      "gloss": "your fathers",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which are"
+      "gloss": "who"
     },
     {
       "surface": "בעבר",
-      "gloss": "beyond"
+      "gloss": "are beyond",
+      "sense": "S1"
     },
     {
       "surface": "הנהר",
-      "gloss": "the River"
+      "gloss": "the River",
+      "sense": "S1"
     },
     {
       "surface": "ואם",
@@ -121,30 +140,18 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the gods of the Amorite"
     },
     {
       "surface": "אלהי",
       "gloss": "the gods of",
-      "readings": [
-        "the gods of",
-        "the Elohim of"
-      ],
-      "held_by": {
-        "the gods of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the Elohim of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "האמרי",
-      "gloss": "the Amorite"
+      "gloss": "the Amorite",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -156,11 +163,13 @@
     },
     {
       "surface": "ישבים",
-      "gloss": "dwell"
+      "gloss": "are dwelling",
+      "sense": "S1"
     },
     {
       "surface": "בארצם",
-      "gloss": "in their land"
+      "gloss": "in their land",
+      "sense": "S1"
     },
     {
       "surface": "ואנכי",
@@ -168,21 +177,25 @@
     },
     {
       "surface": "וביתי",
-      "gloss": "and my house"
+      "gloss": "and my house",
+      "sense": "S1"
     },
     {
       "surface": "נעבד",
-      "gloss": "we will serve"
+      "gloss": "we will serve",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:19:28.867263338Z",
+  "model": "glm-5.3"
 }

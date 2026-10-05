@@ -1,51 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "In the toil of mortal man they are not, and with mankind they are not plagued.",
+  "ref": "psalms 73:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "enosh",
+      "rationale": "אֱנוֹשׁ kept as a word for mortal humanity, paired with אָדָם mankind; English collapses the pair"
+    },
+    {
+      "kind": "crux",
+      "subject": "they are not",
+      "rationale": "אֵינֵמוֹ with suffix: 'they are absent from' mortal toil — some read 'they have no pangs'"
+    }
+  ],
+  "translation": "In the toil of enosh they are not, and with mankind they are not struck.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "82b1c256d84c1e0d462e5021f60fa9a85c323d0b647f6b33f85810b4d89865ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/5-8.1791192982748.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בעמל",
-      "gloss": "in the toil of"
+      "surface": "בַּעֲמַ֣ל",
+      "gloss": "in the toil of",
+      "sense": "S1"
     },
     {
-      "surface": "אנוש",
-      "gloss": "mortal man"
+      "surface": "אֱנ֣וֹשׁ",
+      "gloss": "enosh",
+      "readings": [
+        "enosh",
+        "a mortal"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "אינמו",
+      "surface": "אֵינֵ֑מוֹ",
       "gloss": "they are not"
     },
     {
-      "surface": "ועם",
+      "surface": "וְעִם",
       "gloss": "and with"
     },
     {
-      "surface": "אדם",
-      "gloss": "mankind"
+      "surface": "אָ֝דָ֗ם",
+      "gloss": "mankind",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ינגעו",
-      "gloss": "they are plagued",
+      "surface": "יְנֻגָּֽעוּ",
+      "gloss": "they are struck",
       "readings": [
-        "they are plagued",
+        "they are struck",
         "they are touched"
       ],
-      "held_by": {
-        "they are plagued": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they are touched": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:36:22.749038417Z",
+  "model": "glm-5.3"
 }

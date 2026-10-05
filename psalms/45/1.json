@@ -1,69 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the Chief Musician, upon lilies, to ⟨the⟩ sons of Korah, a contemplative song, a song of loves.",
-  "tokens": [
+  "ref": "psalms 45:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "For the Chief Musician"
+      "kind": "crux",
+      "subject": "Lilies",
+      "rationale": "על ששנים: either a musical tune name 'upon Lilies' or a reference to lily-shaped instruments."
     },
     {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "ששנים",
-      "gloss": "lilies",
-      "readings": [
-        "lilies",
-        "Shoshannim"
-      ],
-      "held_by": {
-        "lilies": [
-          "v1",
-          "v3"
-        ],
-        "Shoshannim": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבני",
-      "gloss": "to ⟨the⟩ sons of"
-    },
-    {
-      "surface": "קרח",
-      "gloss": "Korah"
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "a contemplative",
-      "readings": [
-        "a contemplative",
-        "a maskil"
-      ],
-      "held_by": {
-        "a contemplative": [
-          "v1",
-          "v3"
-        ],
-        "a maskil": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שיר",
-      "gloss": "song"
-    },
-    {
-      "surface": "ידידת",
-      "gloss": "of loves"
+      "kind": "crux",
+      "subject": "loves",
+      "rationale": "שיר ידידות read as 'song of loves' (plural of endearment) or 'beloved song'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, upon Lilies, for the sons of Korah, a Maskil, a song of loves.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "44e9bcaacc69309d5484772e6f113aad7357264ed83b7f7eb72cf7ae4c6682e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/1-4.1791192732212.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֣חַ",
+      "gloss": "For the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "שֹׁשַׁנִּ֭ים",
+      "gloss": "Lilies",
+      "sense": "S1",
+      "readings": [
+        "Lilies",
+        "lilies"
+      ]
+    },
+    {
+      "surface": "לִבְנֵי",
+      "gloss": "for the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹ֑רַח",
+      "gloss": "Korah",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֝שְׂכִּ֗יל",
+      "gloss": "a Maskil",
+      "sense": "S1",
+      "readings": [
+        "a Maskil",
+        "a song that gives understanding"
+      ]
+    },
+    {
+      "surface": "שִׁ֣יר",
+      "gloss": "a song of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְדִידֹֽת",
+      "gloss": "loves",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:12.213581836Z",
+  "model": "glm-5.3"
 }

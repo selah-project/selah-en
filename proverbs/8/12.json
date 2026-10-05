@@ -1,63 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "I, wisdom, dwell with prudence, and knowledge of discretion I find.",
-  "tokens": [
+  "ref": "proverbs 8:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "אני",
-      "gloss": "I"
+      "kind": "crux",
+      "subject": "דעת מזמות",
+      "rationale": "construct pair read as 'knowledge of discretion' or as a second object 'and knowledge, discretion I find'; the accents group ודעת with מזמות"
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
-    },
-    {
-      "surface": "שכנתי",
-      "gloss": "dwell with"
-    },
-    {
-      "surface": "ערמה",
-      "gloss": "prudence",
-      "readings": [
-        "prudence",
-        "craftiness"
-      ],
-      "held_by": {
-        "prudence": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "craftiness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ודעת",
-      "gloss": "and knowledge"
-    },
-    {
-      "surface": "מזמות",
-      "gloss": "of discretion",
-      "readings": [
-        "of discretion",
-        "of devices"
-      ],
-      "held_by": {
-        "of discretion": [
-          "v2",
-          "v3"
-        ],
-        "of devices": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אמצא",
-      "gloss": "I find"
+      "kind": "wordplay",
+      "subject": "I, Wisdom",
+      "rationale": " Wisdom speaks in the first person, personified, giving voice throughout chapter 8"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I, Wisdom, dwell with prudence, and I find knowledge of discretion.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4abe2c354c3dd4a3099cce5c9904acebc2c47a39b96ec841a9e9e97da9b621c0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/8\/9-12.1791193765415.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲנִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "Wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכַנְתִּי",
+      "gloss": "dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָרְמָה",
+      "gloss": "with prudence",
+      "readings": [
+        "with prudence",
+        "with shrewdness"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַַעַת",
+      "gloss": "and knowledge of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְזִמּוֹת",
+      "gloss": "discretion",
+      "readings": [
+        "discretion",
+        "plans"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶמְצָא",
+      "gloss": "I find",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:25.416401901Z",
+  "model": "glm-5.3"
 }

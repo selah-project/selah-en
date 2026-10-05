@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Who struck the firstborn of Egypt, from man unto beast.",
-  "tokens": [
+  "ref": "psalms 135:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 135,
+  "notes": [
     {
-      "surface": "שהכה",
-      "gloss": "Who struck"
+      "kind": "addition",
+      "subject": "Who",
+      "rationale": "The relative ש on the verb continues the description of YHWH from v. 6; English needs a relative pronoun."
     },
     {
-      "surface": "בכורי",
-      "gloss": "firstborn"
-    },
-    {
-      "surface": "מצרים",
-      "gloss": "of Egypt",
-      "readings": [
-        "of Egypt",
-        "of Mitsrayim"
-      ],
-      "held_by": {
-        "of Egypt": [
-          "v1",
-          "en4"
-        ],
-        "of Mitsrayim": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מאדם",
-      "gloss": "from man"
-    },
-    {
-      "surface": "עד",
-      "gloss": "unto"
-    },
-    {
-      "surface": "בהמה",
-      "gloss": "beast"
+      "kind": "wordplay",
+      "subject": "מאדם עד בהמה",
+      "rationale": "The merism 'from man to beast' echoes Exodus 11:5 and 12:29, spanning all animate life."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who struck the firstborn of Egypt, from man to beast.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cee761bf7cea511efbb2ee57ea337b489281fc832e65cec46fdace93982e66f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/135\/5-8.1791193559186.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֶֽׁהִכָּ֭ה",
+      "gloss": "Who struck",
+      "sense": null
+    },
+    {
+      "surface": "בְּכוֹרֵ֣י",
+      "gloss": "the firstborn of",
+      "sense": null
+    },
+    {
+      "surface": "מִצְרַ֖יִם",
+      "gloss": "Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵ֝אָדָ֗ם",
+      "gloss": "from man",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "to",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּהֵמָֽה",
+      "gloss": "beast",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:59.187763627Z",
+  "model": "glm-5.3"
 }

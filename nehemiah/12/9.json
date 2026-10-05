@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And Bakbukiah and Unni, their brothers, ⟨were⟩ over-against them for ⟨the⟩ watches.",
+  "ref": "nehemiah 12:9",
+  "book": "nehemiah",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew has no verb; the positional statement needs an English copula"
+    },
+    {
+      "kind": "alternative",
+      "subject": "Unni",
+      "rationale": "ketiv וענו read as ועני (qere), an Unni of the post-exilic lists (S2) rather than David's musician (S1)"
+    }
+  ],
+  "translation": "and Bakbukiah and Unni, their brothers, ⟨were⟩ opposite them for the watches.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cb22ba6fa0d178a6644636e31a0f3a5d981de72e99ea72c455452d5a6535430b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nehemiah\/12\/9-12.1791195926770.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nehemiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ובקבקיה",
-      "gloss": "And Bakbukiah"
+      "surface": "וּבַקְבֻּֽקְיָ֨ה",
+      "gloss": "and Bakbukiah",
+      "sense": "S1"
     },
     {
       "surface": "וענו",
-      "gloss": "and Unni"
+      "gloss": "and Unni",
+      "sense": "S2"
     },
     {
-      "surface": "אחיהם",
-      "gloss": "their brothers"
+      "surface": "אֲחֵיהֶ֛ם",
+      "gloss": "their brothers",
+      "sense": "S1"
     },
     {
-      "surface": "לנגדם",
-      "gloss": "over-against them"
+      "surface": "לְנֶגְדָּ֖ם",
+      "gloss": "opposite them",
+      "sense": "S1"
     },
     {
-      "surface": "למשמרות",
-      "gloss": "for ⟨the⟩ watches",
-      "readings": [
-        "for ⟨the⟩ watches",
-        "in ⟨the⟩ watches"
-      ],
-      "held_by": {
-        "for ⟨the⟩ watches": [
-          "v1",
-          "v3"
-        ],
-        "in ⟨the⟩ watches": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "לְמִשְׁמָרֽוֹת",
+      "gloss": "for the watches",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:25:26.770644124Z",
+  "model": "glm-5.3"
 }

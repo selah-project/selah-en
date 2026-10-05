@@ -1,82 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And the man who touches them must fill ⟨his hand⟩ with iron and the wood of a spear, and with fire — burning they are burned — in the place where they sit.",
-  "tokens": [
+  "ref": "2-samuel 23:7",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "ואיש",
-      "gloss": "and the man"
+      "kind": "addition",
+      "subject": "⟨his hand⟩",
+      "rationale": "ימלא lacks an explicit object; the hand is supplied from idiom 'fill the hand'."
     },
     {
-      "surface": "יגע",
-      "gloss": "touches"
+      "kind": "wordplay",
+      "subject": "שָׂרוֹף יִשָּׂרְפוּ",
+      "rationale": "Infinitive absolute doubling — 'burning they shall be burned' — kept doubled, not collapsed."
     },
     {
-      "surface": "בהם",
-      "gloss": "them"
-    },
-    {
-      "surface": "ימלא",
-      "gloss": "must fill"
-    },
-    {
-      "surface": "ברזל",
-      "gloss": "with iron"
-    },
-    {
-      "surface": "ועץ",
-      "gloss": "and the wood"
-    },
-    {
-      "surface": "חנית",
-      "gloss": "of a spear"
-    },
-    {
-      "surface": "ובאש",
-      "gloss": "and with fire"
-    },
-    {
-      "surface": "שרוף",
-      "gloss": "burning",
-      "readings": [
-        "burning",
-        "burned"
-      ],
-      "held_by": {
-        "burning": [
-          "en4"
-        ],
-        "burned": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ישרפו",
-      "gloss": "they must be burned"
-    },
-    {
-      "surface": "בשבת",
-      "gloss": "in the place where they sit",
-      "readings": [
-        "in the place where they sit",
-        "in their place"
-      ],
-      "held_by": {
-        "in the place where they sit": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "in their place": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "בַשָּׁבֶת",
+      "rationale": "שֶׁבֶת 'sitting\/abode' as 'the place where it sits' is rare; rendered 'in their place'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the man who touches them fills ⟨his hand⟩ with iron and the wood of a spear, and with fire, burning they shall be burned in ⟨their⟩ place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c374d70cf2b86d9e8e0e97782fc69de0ba215c9d83c50d73d9a70e261b0f57cc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/23\/5-8.1791186642484.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִישׁ֙",
+      "gloss": "And the man",
+      "sense": null
+    },
+    {
+      "surface": "יִגַּ֣ע",
+      "gloss": "who touches",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָהֶ֔ם",
+      "gloss": "them",
+      "sense": null
+    },
+    {
+      "surface": "יִמָּלֵ֥א",
+      "gloss": "fills",
+      "sense": null
+    },
+    {
+      "surface": "בַרְזֶ֖ל",
+      "gloss": "with iron",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵ֣ץ",
+      "gloss": "and the wood of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲנִ֑ית",
+      "gloss": "a spear",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבָאֵ֕שׁ",
+      "gloss": "and with fire",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂר֥וֹף",
+      "gloss": "burning",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשָּׂרְפ֖וּ",
+      "gloss": "they shall be burned",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַשָּֽׁבֶת",
+      "gloss": "in ⟨their⟩ place",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:50:42.486379435Z",
+  "model": "glm-5.3"
 }

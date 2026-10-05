@@ -1,59 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Remember, YHWH, what has come to be for us; look intently and see ⟨את⟩ our reproach.",
+  "ref": "lamentations 5:1",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "upon",
+      "rationale": "לנו is literally 'to us'; 'upon us' supplies the sense of what has happened to us"
+    },
+    {
+      "kind": "crux",
+      "subject": "has come to be",
+      "rationale": "מה היה לנו: literally 'what has been to us' — rendered 'what has come upon us'"
+    },
+    {
+      "kind": "invitation",
+      "subject": "to YHWH",
+      "rationale": "double imperative 'remember… look and see' addresses YHWH directly"
+    }
+  ],
+  "translation": "Remember, YHWH, what has come upon us; look and see ⟨את⟩ our disgrace.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c9f8467961ce3bb250e139bfa2b29a3b386654f2b95a4448c84e1d003ee3373",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/1-4.1791194768824.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "זכר",
-      "gloss": "Remember"
+      "surface": "זְכֹר",
+      "gloss": "Remember",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "מה",
-      "gloss": "what"
+      "surface": "מֶה",
+      "gloss": "what",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
+      "surface": "הָיָה",
       "gloss": "has come to be"
     },
     {
-      "surface": "לנו",
-      "gloss": "for us",
-      "readings": [
-        "for us",
-        "upon us"
-      ],
-      "held_by": {
-        "for us": [
-          "en4"
-        ],
-        "upon us": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "לָנוּ",
+      "gloss": "upon us"
     },
     {
       "surface": "הביט",
-      "gloss": "look intently"
+      "gloss": "look",
+      "sense": "S1"
     },
     {
-      "surface": "וראה",
-      "gloss": "and see"
+      "surface": "וּרְאֵה",
+      "gloss": "and see",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "our disgrace"
     },
     {
-      "surface": "חרפתנו",
-      "gloss": "our reproach"
+      "surface": "חֶרְפָּתֵנוּ",
+      "gloss": "our disgrace",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:06:08.824849719Z",
+  "model": "glm-5.3"
 }

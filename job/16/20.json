@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "My scorners ⟨are⟩ my friends; my eye drips ⟨tears⟩ to Eloah.",
+  "ref": "job 16:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "מְלִיצַי",
+      "rationale": "from לוץ, root of 'interpreter\/mockers': 'my mockers' (the friends) vs 'my intercessors' vs 'my spokesmen' — the parallel with רֵעָי decides"
+    },
+    {
+      "kind": "crux",
+      "subject": "אֶל אֱלוֹהַ",
+      "rationale": "taken with what follows ('to Eloah my eye drips') or with what precedes ('my friends scoff before Eloah')"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דָלְפָה",
+      "rationale": "'drips' — the same verb of a leaking roof, used of weeping eyes; the literal picture is kept"
+    }
+  ],
+  "translation": "My-intercessors are my friends; to Eloah my eye drips.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "42d0c1bb20ee37b1afd9d59fc2bb846c9e5e91a12851b9da0f45c31f6e900b27",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/17-20.1791194308587.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "מליצי",
-      "gloss": "my scorners",
-      "readings": [
-        "my scorners",
-        "my interpreters"
-      ],
-      "held_by": {
-        "my scorners": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my interpreters": [
-          "en4"
-        ]
-      }
+      "surface": "מְלִיצַ֥י",
+      "gloss": "my-intercessors",
+      "sense": "S1"
     },
     {
-      "surface": "רעי",
-      "gloss": "my friends"
+      "surface": "רֵעָ֑י",
+      "gloss": "my friends",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶ֥ל",
       "gloss": "to"
     },
     {
-      "surface": "אלוה",
-      "gloss": "Eloah"
+      "surface": "אֱ֝ל֗וֹהַ",
+      "gloss": "Eloah",
+      "sense": "S1"
     },
     {
-      "surface": "דלפה",
+      "surface": "דָּלְפָ֥ה",
       "gloss": "drips",
-      "readings": [
-        "drips",
-        "pours out"
-      ],
-      "held_by": {
-        "drips": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pours out": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עיני",
-      "gloss": "my eye"
+      "surface": "עֵינִֽי",
+      "gloss": "my eye",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:28.588258051Z",
+  "model": "glm-5.3"
 }

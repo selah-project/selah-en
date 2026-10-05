@@ -1,72 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "With his pinion He will screen you, and under His wings you will seek refuge; a shield and a buckler ⟨is⟩ His truth.",
-  "tokens": [
+  "ref": "psalms 91:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "באברתו",
-      "gloss": "with his pinion"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the shield pair and 'his faithfulness'"
     },
     {
-      "surface": "יסך",
-      "gloss": "He will screen"
+      "kind": "crux",
+      "subject": "לָךְ",
+      "rationale": "the pronoun is second FEMININE singular while the surrounding verbs (יַצִּילְךָ, תֶּחְסֶה) are masculine — the addressed one shifts gender, perhaps a feminine community or a copyist's pointing"
     },
     {
-      "surface": "לך",
-      "gloss": "you"
+      "kind": "hapax",
+      "subject": "סֹחֵרָה",
+      "rationale": "occurs only here in the Tanakh; exact meaning unknown, probably a small surrounding shield — 'buckler' is a guess at the shape"
     },
     {
-      "surface": "ותחת",
-      "gloss": "and under"
-    },
-    {
-      "surface": "כנפיו",
-      "gloss": "His wings"
-    },
-    {
-      "surface": "תחסה",
-      "gloss": "you will seek refuge",
-      "readings": [
-        "you will seek refuge",
-        "you will trust"
-      ],
-      "held_by": {
-        "you will seek refuge": [
-          "v1",
-          "v3"
-        ],
-        "you will trust": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "צנה",
-      "gloss": "a shield"
-    },
-    {
-      "surface": "וסחרה",
-      "gloss": "and a buckler",
-      "readings": [
-        "and a buckler",
-        "and enclosing"
-      ],
-      "held_by": {
-        "and a buckler": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and enclosing": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אמתו",
-      "gloss": "His truth"
+      "kind": "wordplay",
+      "subject": "pinion \/ wings",
+      "rationale": "the bird-of-prey picture — cf. Deuteronomy 32:11, the eagle spreading its wings over the nest — meeting the fowler's trap of verse 3"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With his pinion he will cover you, and under his wings you take refuge; large shield and buckler is his faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "844253d6e49b8f90ed6475f33c2004a6434f64c37c475141d97cb9cdafaf46f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/1-4.1791193189109.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּאֶבְרָתוֹ",
+      "gloss": "With his pinion",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָסֶךְ",
+      "gloss": "he will cover",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָךְ",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "וְתַחַת",
+      "gloss": "and under",
+      "sense": null
+    },
+    {
+      "surface": "כְּנָפָיו",
+      "gloss": "his wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶּחְסֶה",
+      "gloss": "you take refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִנָּה",
+      "gloss": "large shield",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְסֹחֵרָה",
+      "gloss": "and buckler",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲמִתּוֹ",
+      "gloss": "his faithfulness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:49.110519422Z",
+  "model": "glm-5.3"
 }

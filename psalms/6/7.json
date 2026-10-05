@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "I am weary with my groaning; I swim my bed all night; with my tears I dissolve my couch.",
-  "tokens": [
+  "ref": "psalms 6:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "יגעתי",
-      "gloss": "I am weary"
+      "kind": "wordplay",
+      "subject": "אשחה \/ אמסה",
+      "rationale": "Paired water-verbs: the bed 'swims' and the couch 'melts' — a flood of tears, kept literal."
     },
     {
-      "surface": "באנחתי",
-      "gloss": "with my groaning"
-    },
-    {
-      "surface": "אשחה",
-      "gloss": "I swim",
-      "readings": [
-        "I swim",
-        "I make swim"
-      ],
-      "held_by": {
-        "I swim": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I make swim": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בכל",
-      "gloss": "all"
-    },
-    {
-      "surface": "לילה",
-      "gloss": "night"
-    },
-    {
-      "surface": "מטתי",
-      "gloss": "my bed"
-    },
-    {
-      "surface": "בדמעתי",
-      "gloss": "with my tears"
-    },
-    {
-      "surface": "ערשי",
-      "gloss": "my couch"
-    },
-    {
-      "surface": "אמסה",
-      "gloss": "I dissolve"
+      "kind": "crux",
+      "subject": "I make my bed swim",
+      "rationale": "Many versions smooth to 'I flood my bed'; the Hebrew keeps the swimming picture (שׂחה, elsewhere only Isa 25:11)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I am weary with my sighing; I make my bed swim every night, I melt my couch with my tears.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e003991b77a939beea42a6bf4cacb3561ecefe834a2f0b61774a1dc5b67d2fe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/6\/5-8.1791192362633.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָגַ֤עְתִּי",
+      "gloss": "I am weary",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּֽאַנְחָתִ֗י",
+      "gloss": "with my sighing",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׂחֶ֣ה",
+      "gloss": "I make … swim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "every",
+      "sense": null
+    },
+    {
+      "surface": "לָ֭יְלָה",
+      "gloss": "night",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִטָּתִ֑י",
+      "gloss": "my bed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדִמְעָתִ֗י",
+      "gloss": "with my tears",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַרְשִׂ֥י",
+      "gloss": "my couch",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַמְסֶֽה",
+      "gloss": "I melt",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:02.634439384Z",
+  "model": "glm-5.3"
 }

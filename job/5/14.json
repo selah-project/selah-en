@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "By day they meet darkness, and as in the night they grope at noon.",
-  "tokens": [
+  "ref": "job 5:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "יומם",
-      "gloss": "By day"
+      "kind": "addition",
+      "subject": "as in",
+      "rationale": "כַלַּיְלָה is 'like\/as the night'; the preposition is carried, order shifted for English."
     },
     {
-      "surface": "יפגשו",
-      "gloss": "they meet"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "darkness"
-    },
-    {
-      "surface": "וכלילה",
-      "gloss": "as in the night"
-    },
-    {
-      "surface": "ימששו",
-      "gloss": "they grope"
-    },
-    {
-      "surface": "בצהרים",
-      "gloss": "at noon"
+      "kind": "alternative",
+      "subject": "they meet darkness",
+      "rationale": "יְפַגְּשׁוּ could read 'they encounter darkness' — same sense, 'meet' keeps the personification."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "By day they meet darkness, and at noon they grope as in the night.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9a1427279b5da619202fc68bb7741359add96349ac726d00c6efc6e26febf13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/13-16.1791194159490.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יוֹמָ֥ם",
+      "gloss": "By day",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְפַגְּשׁ֥וּ",
+      "gloss": "they meet",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹ֑שֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝כַלַּ֗יְלָה",
+      "gloss": "as in the night",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְֽמַשְׁשׁ֥וּ",
+      "gloss": "they grope",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּֽצָּהֳרָֽיִם",
+      "gloss": "at noon",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:59.491664391Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For they have devoured ⟨את⟩ Jacob, and ⟨את⟩ his dwelling place they have laid waste.",
+  "ref": "psalms 79:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 79,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "Jacob",
+      "rationale": "יעקב here stands for the whole people of Israel, a poetic metonym."
+    }
+  ],
+  "translation": "For they have eaten ⟨את⟩ Jacob, and ⟨את⟩ his dwelling-place they have laid desolate.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "401a7f08c8f4ef2ccd92cd9a26c5a3464631bdf87d236a54273492854533ad9c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/79\/5-8.1791193069897.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "אכל",
-      "gloss": "they have devoured"
+      "surface": "אָכַל",
+      "gloss": "they have eaten",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "Jacob"
     },
     {
-      "surface": "יעקב",
-      "gloss": "Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "his dwelling-place"
     },
     {
-      "surface": "נוהו",
-      "gloss": "his dwelling place",
-      "readings": [
-        "his dwelling place",
-        "his pasture"
-      ],
-      "held_by": {
-        "his dwelling place": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his pasture": [
-          "en4"
-        ]
-      }
+      "surface": "נָוֵהוּ",
+      "gloss": "his dwelling-place",
+      "sense": "S1"
     },
     {
-      "surface": "השמו",
-      "gloss": "they have laid waste"
+      "surface": "הֵשַׁמּוּ",
+      "gloss": "they have laid desolate",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:49.898119513Z",
+  "model": "glm-5.3"
 }

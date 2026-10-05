@@ -1,59 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "They search out injustices: “A search is completed, a searched-out thing”; and the inward part of a man, and the heart, ⟨is⟩ deep.",
-  "tokens": [
+  "ref": "psalms 64:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 64,
+  "notes": [
     {
-      "surface": "יחפשו",
-      "gloss": "they search out"
+      "kind": "hapax",
+      "subject": "חֵפֶשׂ",
+      "rationale": "occurs only here in the Tanakh; root חפשׂ 'to search', so a scheme searched-out — the participle מחופש echoes the same root."
     },
     {
-      "surface": "עולת",
-      "gloss": "injustices"
+      "kind": "wordplay",
+      "subject": "חֵפֶשׂ מְחֻפָּשׂ",
+      "rationale": "noun and passive participle of the same root piled together; English 'searched-out scheme, searched-out' carries the doubling."
     },
     {
-      "surface": "תמנו",
-      "gloss": "they are completed",
-      "readings": [
-        "they are completed",
-        "we have completed"
-      ],
-      "held_by": {
-        "they are completed": [
-          "en4"
-        ],
-        "we have completed": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'heart' and 'deep'."
     },
     {
-      "surface": "חפש",
-      "gloss": "a search"
-    },
-    {
-      "surface": "מחפש",
-      "gloss": "a searched-out thing"
-    },
-    {
-      "surface": "וקרב",
-      "gloss": "and the inward part of"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "ולב",
-      "gloss": "and the heart"
-    },
-    {
-      "surface": "עמק",
-      "gloss": "deep"
+      "kind": "crux",
+      "subject": "וקרב איש ולב עמק",
+      "rationale": "either the plotters' boast that man's inward mind is unfathomable, or the narrator's aside that the human heart is deep."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They search out injustices; “We have completed a searched-out scheme, and the inward part of a man and a heart ⟨is⟩ deep.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a593b90c077d18780b7cf7a0e86d7a8ca6d4f8a39977bfba5123e70f328200ee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/64\/5-8.1791192884891.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַחְפְּשׂוּ",
+      "gloss": "they search out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹולֹת",
+      "gloss": "injustices",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּמְנוּ",
+      "gloss": "we have completed",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵפֶשׂ",
+      "gloss": "a searched-out scheme",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְחֻפָּשׂ",
+      "gloss": "searched-out",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקֶרֶב",
+      "gloss": "and the inward part of",
+      "sense": null
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "וְלֵב",
+      "gloss": "and a heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָמֹק",
+      "gloss": "deep",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:44.892775133Z",
+  "model": "glm-5.3"
 }

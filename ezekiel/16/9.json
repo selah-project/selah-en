@@ -1,50 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And I washed you in water, and I rinsed your bloods from off you, and I anointed you with oil.",
-  "tokens": [
+  "ref": "ezekiel 16:9",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "וארחצך",
-      "gloss": "and I washed you"
+      "kind": "elision",
+      "subject": "plural דמיך",
+      "rationale": "Hebrew plural 'bloods' rendered as English mass noun 'blood'; the plural stays in the gloss"
     },
     {
-      "surface": "במים",
-      "gloss": "in water"
-    },
-    {
-      "surface": "ואשטף",
-      "gloss": "and I rinsed"
-    },
-    {
-      "surface": "דמיך",
-      "gloss": "your bloods",
-      "readings": [
-        "your bloods",
-        "your blood"
-      ],
-      "held_by": {
-        "your bloods": [
-          "en4"
-        ],
-        "your blood": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מעליך",
-      "gloss": "from off you"
-    },
-    {
-      "surface": "ואסכך",
-      "gloss": "and I anointed you"
-    },
-    {
-      "surface": "בשמן",
-      "gloss": "with oil"
+      "kind": "addition",
+      "subject": "⟨from⟩",
+      "rationale": "English needs the preposition that מעליך carries compounding"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I washed you in the waters, and I rinsed your bloods off ⟨from⟩ you, and I anointed you with the oil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0ef3a497dec6e7cc3686d74c3e19ba681d0407f33d1d52251599d6bebb2eead1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/16\/9-12.1791190440575.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֶרְחָצֵ֣ךְ",
+      "gloss": "and I washed you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמַּ֔יִם",
+      "gloss": "in the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאֶשְׁטֹ֥ף",
+      "gloss": "and I rinsed",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּמַ֖יִךְ",
+      "gloss": "your bloods",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽעָלָ֑יִךְ",
+      "gloss": "off you"
+    },
+    {
+      "surface": "וָאֲסֻכֵ֖ךְ",
+      "gloss": "and I anointed you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּֽׁמֶן",
+      "gloss": "with the oil",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:54:00.576471882Z",
+  "model": "glm-5.3"
 }

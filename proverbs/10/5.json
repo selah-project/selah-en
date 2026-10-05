@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "He who gathers in summer is a wise son, but he who sleeps in harvest is a son who causes shame.",
-  "tokens": [
+  "ref": "proverbs 10:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "אגר",
-      "gloss": "he who gathers"
+      "kind": "wordplay",
+      "subject": "בֵּן … בֵּן",
+      "rationale": "The word 'son' is repeated in both halves, binding the parallel pair: son of insight vs son who shames."
     },
     {
-      "surface": "בקיץ",
-      "gloss": "in summer"
-    },
-    {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "wise",
-      "readings": [
-        "wise",
-        "of insight"
-      ],
-      "held_by": {
-        "wise": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of insight": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נרדם",
-      "gloss": "who sleeps"
-    },
-    {
-      "surface": "בקציר",
-      "gloss": "in harvest"
-    },
-    {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "מביש",
-      "gloss": "who causes shame"
+      "kind": "addition",
+      "subject": "he who",
+      "rationale": "English requires an explicit subject for the participles; Hebrew leaves it implicit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He who gathers in the summer is a son of insight; he who sleeps deeply in the harvest is a son who brings shame.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc7f7987a0fa900381f83b5ee3dec5f0d6395163645515f4367265e5bb396cbc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/5-8.1791193793112.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֹגֵ֣ר",
+      "gloss": "he who gathers in",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּ֭קַּיִץ",
+      "gloss": "the summer",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֣ן",
+      "gloss": "is a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׂכִּ֑יל",
+      "gloss": "of insight",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִרְדָּ֥ם",
+      "gloss": "he who sleeps deeply",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּ֝קָּצִ֗יר",
+      "gloss": "in the harvest",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֣ן",
+      "gloss": "is a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵבִֽישׁ",
+      "gloss": "who brings shame",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:53.113491158Z",
+  "model": "glm-5.3"
 }

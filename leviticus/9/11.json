@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And ⟨את⟩ the flesh and ⟨את⟩ the hide he burned with fire outside the camp.",
+  "ref": "leviticus 9:11",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "burned with fire",
+      "rationale": "Hebrew שרף באש doubles the idea; English 'burned' alone would lose the literal 'in the fire'"
+    }
+  ],
+  "translation": "And ⟨את⟩ the flesh and ⟨את⟩ the skin he burned with fire outside the camp.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7ea2058e9f96e59e6cd82f51c0ad05a9753ff96c3199b4800b2dd85cdbd4d97",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/9\/9-12.1791182318800.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the flesh"
     },
     {
       "surface": "הבשר",
-      "gloss": "the flesh"
+      "gloss": "the flesh",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the skin"
     },
     {
       "surface": "העור",
-      "gloss": "the hide",
-      "readings": [
-        "the hide",
-        "the skin"
-      ],
-      "held_by": {
-        "the hide": [
-          "v2",
-          "en4"
-        ],
-        "the skin": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "the skin",
+      "sense": "S1"
     },
     {
       "surface": "שרף",
-      "gloss": "he burned"
+      "gloss": "he burned",
+      "sense": "S1"
     },
     {
       "surface": "באש",
-      "gloss": "with fire"
+      "gloss": "with fire",
+      "sense": "S1"
     },
     {
       "surface": "מחוץ",
-      "gloss": "outside"
+      "gloss": "outside",
+      "sense": "S1"
     },
     {
       "surface": "למחנה",
-      "gloss": "the camp"
+      "gloss": "the camp",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:38:38.807513152Z",
+  "model": "glm-5.3"
 }

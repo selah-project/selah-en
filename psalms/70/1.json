@@ -1,35 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the choirmaster, of David, to bring to remembrance.",
-  "tokens": [
+  "ref": "psalms 70:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 70,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "for the choirmaster",
-      "readings": [
-        "for the choirmaster",
-        "for the one who overcomes"
-      ],
-      "held_by": {
-        "for the choirmaster": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for the one who overcomes": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "For the overseer",
+      "rationale": "l\/5329 names the one who directs worship; traditional 'chief musician' is a role-guess"
     },
     {
-      "surface": "לדוד",
-      "gloss": "of David"
-    },
-    {
-      "surface": "להזכיר",
-      "gloss": "to bring to remembrance"
+      "kind": "substitution",
+      "subject": "to bring-to-remember",
+      "rationale": "hiphil of זכר here asks God to remember the suppliant, S3 causative sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the overseer, of David, to bring-to-remember.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dd4ceb452e6b6f23f250500f19509ac61a50b0a1d0c0d1527afac2b6dd1b3fa2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/70\/1-4.1791192963355.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַ֝מְנַצֵּ֗חַ",
+      "gloss": "For the overseer",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִ֥ד",
+      "gloss": "of David",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהַזְכִּֽיר",
+      "gloss": "to bring-to-remember",
+      "sense": "S3"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:03.356136395Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Yours ⟨is⟩ the day, and yours ⟨is⟩ the night; you established luminary and sun.",
-  "tokens": [
+  "ref": "psalms 74:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
     {
-      "surface": "לך",
-      "gloss": "Yours"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'Yours the day'; supplied in English."
     },
     {
-      "surface": "יום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "אף",
-      "gloss": "also"
-    },
-    {
-      "surface": "לך",
-      "gloss": "yours"
-    },
-    {
-      "surface": "לילה",
-      "gloss": "the night"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "הכינות",
-      "gloss": "established"
-    },
-    {
-      "surface": "מאור",
-      "gloss": "luminary",
-      "readings": [
-        "luminary",
-        "light"
-      ],
-      "held_by": {
-        "luminary": [
-          "en4"
-        ],
-        "light": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ושמש",
-      "gloss": "and sun"
+      "kind": "measurement",
+      "subject": "day and night",
+      "rationale": "Assigning the great time-divisions — day, night, luminary, sun — to their maker."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Yours is the day, yours also the night; you set in place the luminary and the sun.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aed45dfa53452495a1bfe2ea7adb3bcedab92a9278ba1b1a6ca6a5e76d6ef8d8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/13-16.1791193007187.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְךָ",
+      "gloss": "Yours",
+      "sense": null
+    },
+    {
+      "surface": "יוֹם",
+      "gloss": "is the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַף",
+      "gloss": "also",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "yours",
+      "sense": null
+    },
+    {
+      "surface": "לַיְלָה",
+      "gloss": "the night",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "הֲכִינוֹתָ",
+      "gloss": "set in place",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָאוֹר",
+      "gloss": "the luminary",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָשָׁמֶשׁ",
+      "gloss": "and the sun",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:47.188165544Z",
+  "model": "glm-5.3"
 }

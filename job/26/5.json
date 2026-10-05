@@ -1,57 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The Rephaim tremble from under the waters, and their inhabitants.",
-  "tokens": [
+  "ref": "job 26:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "הרפאים",
-      "gloss": "the Rephaim"
+      "kind": "crux",
+      "subject": "Rephaim",
+      "rationale": "הרפאים: the shades of the dead vs a literal people-name; context of Sheol favors 'dead spirits'."
     },
     {
-      "surface": "יחוללו",
-      "gloss": "tremble",
-      "readings": [
-        "tremble",
-        "writhe"
-      ],
-      "held_by": {
-        "tremble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "writhe": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "writhe",
+      "rationale": "חוללו is the root of labor-pangs — trembling like a woman in birth, not mere squirming."
     },
     {
-      "surface": "מתחת",
-      "gloss": "from under",
-      "readings": [
-        "from under",
-        "beneath"
-      ],
-      "held_by": {
-        "from under": [
-          "v1",
-          "v3"
-        ],
-        "beneath": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "ושכניהם",
-      "gloss": "and their inhabitants"
+      "kind": "elision",
+      "subject": "מים",
+      "rationale": "no sense tag fits the marker reading; waters rendered with supplied 'the'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The Rephaim writhe from beneath ⟨את⟩ the waters, and those who dwell in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a99bba67af07841b7e8ff2a0f00bc678fe56a42c87c95253bd1db48faab667f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/26\/5-8.1791194423578.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָרְפָאִ֥ים",
+      "gloss": "the Rephaim",
+      "readings": [
+        "the Rephaim",
+        "the dead spirits"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יְחוֹלָ֑לוּ",
+      "gloss": "writhe",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתַּ֥חַת",
+      "gloss": "from beneath"
+    },
+    {
+      "surface": "מַ֝֗יִם",
+      "gloss": "⟨את⟩ the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשֹׁכְנֵיהֶֽם",
+      "gloss": "and those who dwell in them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:23.579041049Z",
+  "model": "glm-5.3"
 }

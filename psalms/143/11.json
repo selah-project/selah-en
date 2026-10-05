@@ -1,71 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "For the sake of your name, O YHWH, give me life; in your righteousness bring my soul out of trouble.",
+  "ref": "psalms 143:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 143,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-principle, not the Greek 'soul'; transliterated to keep the Hebrew concept."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מצרה",
+      "rationale": "צרה (trouble) shares the root צור 'be narrow' with צרר 'foe' in v.12 — narrowness imagery lost in English."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct petition addressed to YHWH."
+    }
+  ],
+  "translation": "For the sake of your name, YHWH, give me life; in your righteousness bring my nefesh out of trouble.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3c7cd7e75845915271f03347c1627d64d6a617c2b0eb7e0e689c723d39b5e941",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/143\/10-12.1791200085969.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "למען",
+      "surface": "לְמַֽעַן",
       "gloss": "For the sake of"
     },
     {
-      "surface": "שמך",
-      "gloss": "your name"
+      "surface": "שִׁמְךָ֣",
+      "gloss": "your name",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהֹוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "תחיני",
+      "surface": "תְּחַיֵּ֑נִי",
       "gloss": "give me life",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִדְקָתְךָ֓",
+      "gloss": "in your righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּוֹצִ֖יא",
+      "gloss": "bring out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצָּרָ֣ה",
+      "gloss": "from trouble",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִֽׁי",
+      "gloss": "my nefesh",
       "readings": [
-        "give me life",
-        "keep me alive"
+        "my nefesh",
+        "my life",
+        "my throat"
       ],
-      "held_by": {
-        "give me life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "keep me alive": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בצדקתך",
-      "gloss": "in your righteousness"
-    },
-    {
-      "surface": "תוציא",
-      "gloss": "bring out"
-    },
-    {
-      "surface": "מצרה",
-      "gloss": "from trouble"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my nefesh"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:34:45.970679641Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "He who sits in the heavens laughs; Adonai mocks at them.",
-  "tokens": [
+  "ref": "psalms 2:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "יושב",
-      "gloss": "He who sits",
-      "readings": [
-        "He who sits",
-        "He who is enthroned"
-      ],
-      "held_by": {
-        "He who sits": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "He who is enthroned": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "enthroned",
+      "rationale": "Hebrew is simply 'sitting'; the throne is implied by the SDBH leadership-stance sense."
     },
     {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
-    },
-    {
-      "surface": "ישחק",
-      "gloss": "laughs"
-    },
-    {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "ילעג",
-      "gloss": "mocks"
-    },
-    {
-      "surface": "למו",
-      "gloss": "at them"
+      "kind": "wordplay",
+      "subject": "ישחק \/ ילעג",
+      "rationale": "Paired verbs of scornful laughter in parallel cola, mirroring the rebels' parallel plotting."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The One enthroned in the heavens laughs; Adonai mocks at them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cdb263921aa741da6b3115b88d3cfcd2110a54ac4dcecd719012af4789a7f2af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/2\/1-4.1791192350242.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֽוֹשֵׁ֣ב",
+      "gloss": "The One enthroned",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׁמַ֣יִם",
+      "gloss": "in the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂחָ֑ק",
+      "gloss": "laughs",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֝דֹנָ֗י",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלְעַ֥ג",
+      "gloss": "mocks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָֽמוֹ",
+      "gloss": "at them",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:50.243326962Z",
+  "model": "glm-5.3"
 }

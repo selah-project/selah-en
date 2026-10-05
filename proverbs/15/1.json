@@ -1,90 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A soft answer turns back wrath, and a word of pain raises up anger.",
+  "ref": "proverbs 15:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חמה\/אף",
+      "rationale": "both wrath-words carry heat pictures — חמה 'heat', אף literally 'nose\/nostrils' — the body of anger lost in English."
+    },
+    {
+      "kind": "alternative",
+      "subject": "עצב",
+      "rationale": "עצב can also mean 'an earthen vessel' or 'toil'; here context favors the SDBH sense of a painful word."
+    }
+  ],
+  "translation": "A soft answer turns back wrath, and a word of pain raises anger.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed213e88ead4b42faf5caa2864b6d5687fbe93e94939a9d539622548e7d5c10d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/15\/1-4.1791193863102.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מענה",
-      "gloss": "an answer"
+      "surface": "מַֽעֲנֶה",
+      "gloss": "an answer",
+      "sense": "S1"
     },
     {
-      "surface": "רך",
-      "gloss": "soft"
+      "surface": "רַּ֭ךְ",
+      "gloss": "soft",
+      "sense": "S1"
     },
     {
-      "surface": "ישיב",
-      "gloss": "turns back"
+      "surface": "יָשִׁ֣יב",
+      "gloss": "turns back",
+      "sense": "S1"
     },
     {
-      "surface": "חמה",
+      "surface": "חֵמָ֑ה",
       "gloss": "wrath",
-      "readings": [
-        "wrath",
-        "heat"
-      ],
-      "held_by": {
-        "wrath": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "heat": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ודבר",
-      "gloss": "and a word"
+      "surface": "וּדְבַר",
+      "gloss": "and a word of",
+      "sense": "S1"
     },
     {
-      "surface": "עצב",
+      "surface": "עֶ֝֗צֶב",
       "gloss": "pain",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲלֶ֣ה",
+      "gloss": "raises",
+      "sense": "S1",
       "readings": [
-        "pain",
-        "toil"
-      ],
-      "held_by": {
-        "pain": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "toil": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "raises",
+        "brings up"
+      ]
     },
     {
-      "surface": "יעלה",
-      "gloss": "raises up"
-    },
-    {
-      "surface": "אף",
+      "surface": "אָֽף",
       "gloss": "anger",
+      "sense": "S1",
       "readings": [
         "anger",
         "nose"
-      ],
-      "held_by": {
-        "anger": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "nose": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:03.103448586Z",
+  "model": "glm-5.3"
 }

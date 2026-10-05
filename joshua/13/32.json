@@ -1,63 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "These are what Moses apportioned as inheritance in the plains of Moab, beyond the Jordan, at Jericho, eastward.",
-  "tokens": [
+  "ref": "joshua 13:32",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "אלה",
-      "gloss": "These"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "נחל",
-      "gloss": "apportioned as inheritance"
-    },
-    {
-      "surface": "משה",
-      "gloss": "Moses"
-    },
-    {
-      "surface": "בערבות",
-      "gloss": "in the plains of",
-      "readings": [
-        "in the plains of",
-        "in the steppes of"
-      ],
-      "held_by": {
-        "in the plains of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the steppes of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מואב",
-      "gloss": "of Moab"
-    },
-    {
-      "surface": "מעבר",
-      "gloss": "beyond"
-    },
-    {
-      "surface": "לירדן",
-      "gloss": "the Jordan"
-    },
-    {
-      "surface": "יריחו",
-      "gloss": "Jericho"
-    },
-    {
-      "surface": "מזרחה",
-      "gloss": "eastward"
+      "kind": "elision",
+      "subject": "Jericho",
+      "rationale": "יריחו here is adverbial, fixing the Jordan-crossing point at Jericho rather than naming a recipient city"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "These are what Moses gave as an inheritance in the plains of Moab, beyond the Jordan at Jericho, eastward.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2d04c72de39db1fc2c03c90b1152abd9df38724d9080bd50acc0ef057f0295bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/13\/29-32.1791184555803.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֕לֶּה",
+      "gloss": "These",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "נִחַ֥ל",
+      "gloss": "gave as an inheritance",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹשֶׁ֖ה",
+      "gloss": "Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעַֽרְב֣וֹת",
+      "gloss": "in the plains of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹאָ֑ב",
+      "gloss": "Moab",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעֵ֛בֶר",
+      "gloss": "beyond",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיַרְדֵּ֥ן",
+      "gloss": "the Jordan",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרִיח֖וֹ",
+      "gloss": "at Jericho",
+      "sense": null
+    },
+    {
+      "surface": "מִזְרָֽחָה",
+      "gloss": "eastward",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:15:55.804540385Z",
+  "model": "glm-5.3"
 }

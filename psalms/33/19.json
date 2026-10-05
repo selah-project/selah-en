@@ -1,46 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "To deliver their life from death, and to keep them alive in famine.",
-  "tokens": [
+  "ref": "psalms 33:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "להציל",
-      "gloss": "to deliver"
-    },
-    {
-      "surface": "ממות",
-      "gloss": "from death"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their life",
-      "readings": [
-        "their life",
-        "their soul",
-        "their nefesh"
-      ],
-      "held_by": {
-        "their life": [
-          "v2",
-          "v3"
-        ],
-        "their soul": [
-          "v1"
-        ],
-        "their nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ולחיותם",
-      "gloss": "and to keep them alive"
-    },
-    {
-      "surface": "ברעב",
-      "gloss": "in famine"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נֶפֶשׁ is throat\/life-force; kept transliterated with readings, per discipline."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "to deliver their nefesh from death, and to keep them alive in famine.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3f66931df95b020b54fd9873e8ee35890345cc9b05d265b0a606febdd31ac63a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/17-20.1791192598652.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְהַצִּ֣יל",
+      "gloss": "to deliver",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמָּ֣וֶת",
+      "gloss": "from death",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁ֑ם",
+      "gloss": "their nefesh",
+      "sense": "S1",
+      "readings": [
+        "their nefesh",
+        "their life",
+        "their soul"
+      ]
+    },
+    {
+      "surface": "וּ֝לְחַיּוֹתָ֗ם",
+      "gloss": "and to keep them alive",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּרָעָֽב",
+      "gloss": "in famine",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:58.653554710Z",
+  "model": "glm-5.3"
 }

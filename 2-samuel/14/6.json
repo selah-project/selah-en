@@ -1,83 +1,117 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And to your maidservant ⟨there were⟩ two sons, and the two of them strove in the field, and there was no one delivering between them, and the one struck ⟨את⟩ the other and put ⟨את⟩ him to death.",
-  "tokens": [
+  "ref": "2-samuel 14:6",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ולשפחתך",
-      "gloss": "and to your maidservant"
+      "kind": "addition",
+      "subject": "there was",
+      "rationale": "וְאֵין מַצִּיל is a verbless clause, “and no deliverer between them”"
     },
     {
-      "surface": "שני",
-      "gloss": "two"
+      "kind": "substitution",
+      "subject": "killed",
+      "rationale": "וַיָּמֶת אֹתוֹ is hiphil “caused him to die”; the qal “he died” does not fit the suffix on אֹתוֹ"
     },
     {
-      "surface": "בנים",
-      "gloss": "sons"
-    },
-    {
-      "surface": "וינצו",
-      "gloss": "and they strove"
-    },
-    {
-      "surface": "שניהם",
-      "gloss": "the two of them"
-    },
-    {
-      "surface": "בשדה",
-      "gloss": "in the field"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there was none"
-    },
-    {
-      "surface": "מציל",
-      "gloss": "delivering"
-    },
-    {
-      "surface": "ביניהם",
-      "gloss": "between them"
-    },
-    {
-      "surface": "ויכו",
-      "gloss": "and struck"
-    },
-    {
-      "surface": "האחד",
-      "gloss": "the one"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "האחד",
-      "gloss": "the other"
-    },
-    {
-      "surface": "וימת",
-      "gloss": "and put to death",
-      "readings": [
-        "and put to death",
-        "and he died"
-      ],
-      "held_by": {
-        "and put to death": [
-          "v1",
-          "en4"
-        ],
-        "and he died": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "kind": "wordplay",
+      "subject": "הָאֶחָד אֶת הָאֶחָד",
+      "rationale": "the repeated “the one … the one” frames the fratricide starkly; English keeps the repetition"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And to your maidservant two sons, and the two of them fought in the field, and there was no deliverer between them, and the one struck ⟨את⟩ the one, and he killed ⟨את⟩ him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0bc5eab13e96ed434cb9e38dba6cb1b3e9f81b4d155a555c2735a8d6d652f8ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/14\/5-8.1791186375829.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּלְשִׁפְחָֽתְךָ֙",
+      "gloss": "and to your maidservant",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁנֵ֣י",
+      "gloss": "two",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָנִ֔ים",
+      "gloss": "sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּנָּ֥צוּ",
+      "gloss": "and they fought",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁנֵיהֶם֙",
+      "gloss": "the two of them",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׂדֶ֔ה",
+      "gloss": "in the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֥ין",
+      "gloss": "and there was no",
+      "sense": null
+    },
+    {
+      "surface": "מַצִּ֖יל",
+      "gloss": "deliverer",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּֽינֵיהֶ֑ם",
+      "gloss": "between them",
+      "sense": null
+    },
+    {
+      "surface": "וַיַּּקּ֧וֹ",
+      "gloss": "and struck",
+      "sense": null
+    },
+    {
+      "surface": "הָאֶחָ֛ד",
+      "gloss": "the one",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the one",
+      "sense": null
+    },
+    {
+      "surface": "הָאֶחָ֖ד",
+      "gloss": "the one",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּ֥מֶת",
+      "gloss": "and killed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹתֽוֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "him",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:46:15.830872176Z",
+  "model": "glm-5.3"
 }

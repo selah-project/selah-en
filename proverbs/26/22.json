@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "The words of a slanderer are like dainty morsels, and they go down into the chambers of the belly.",
+  "ref": "proverbs 26:22",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "כמתלהמים",
+      "rationale": "להם occurs only here and its parallel Prov 18:8; meaning unsure — 'greedy eating', 'rankling', or 'swallowed morsels'."
+    },
+    {
+      "kind": "crux",
+      "subject": "כמתלהמים",
+      "rationale": "Rendered variously as 'dainty morsels', 'wounds' (KJV, from a different root), 'burning lips' — the picture of words swallowed into the innermost parts is the plain sense."
+    },
+    {
+      "kind": "substitution",
+      "subject": "נִרְגָּן",
+      "rationale": "Niphal participle of רגן 'to complain in secret' — a whispering grumbler rather than an open slanderer."
+    }
+  ],
+  "translation": "The words of a grumbler are like things greedily swallowed, and they go down ⟨into⟩ the chambers of the belly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "753225e94d2cbc79cf3357915587500ed3e3a4afe9b5c584fb472061170ef7ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/21-24.1791194031433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "דברי",
-      "gloss": "words"
+      "surface": "דִּבְרֵי",
+      "gloss": "the words of",
+      "sense": "S1"
     },
     {
-      "surface": "נרגן",
-      "gloss": "of a slanderer"
+      "surface": "נִרְגָּן",
+      "gloss": "a grumbler",
+      "sense": "S1"
     },
     {
-      "surface": "כמתלהמים",
-      "gloss": "like dainty morsels",
-      "readings": [
-        "like dainty morsels",
-        "like wounds"
-      ],
-      "held_by": {
-        "like dainty morsels": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "like wounds": [
-          "en4"
-        ]
-      }
+      "surface": "כְּמִתְלַהֲמִים",
+      "gloss": "like things greedily swallowed",
+      "sense": "S1"
     },
     {
-      "surface": "והם",
+      "surface": "וְהֵם",
       "gloss": "and they"
     },
     {
-      "surface": "ירדו",
-      "gloss": "go down"
+      "surface": "יָרְדוּ",
+      "gloss": "go down",
+      "sense": "S1"
     },
     {
-      "surface": "חדרי",
-      "gloss": "into the chambers"
+      "surface": "חַדְרֵי",
+      "gloss": "the chambers of",
+      "sense": "S1"
     },
     {
-      "surface": "בטן",
-      "gloss": "of the belly"
+      "surface": "בָטֶן",
+      "gloss": "the belly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:51.434543401Z",
+  "model": "glm-5.3"
 }

@@ -1,57 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Let the evil return upon my foes; in Your faithfulness, exterminate them.",
-  "tokens": [
+  "ref": "psalms 54:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
     {
-      "surface": "ישוב",
-      "gloss": "Let it return"
+      "kind": "crux",
+      "subject": "יָשׁוּב",
+      "rationale": "ketiv is qal ‘he will return’; qere ישיב is hiphil ‘may he bring back’ — the causative reading fits the imprecation"
     },
     {
-      "surface": "הרע",
-      "gloss": "the evil"
-    },
-    {
-      "surface": "לשררי",
-      "gloss": "upon my foes",
-      "readings": [
-        "upon my foes",
-        "upon my watchers"
-      ],
-      "held_by": {
-        "upon my foes": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon my watchers": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "באמתך",
-      "gloss": "in Your faithfulness",
-      "readings": [
-        "in Your faithfulness",
-        "in Your truth"
-      ],
-      "held_by": {
-        "in Your faithfulness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in Your truth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הצמיתם",
-      "gloss": "exterminate them"
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "the imperative הַצְמִיתֵם addresses God directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May he return the evil upon my foes; in your faithfulness, put them to death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8f771c7228cf2ac7265cea962c66e9a97d5fdec631cef072d9d62f92ad63865",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/54\/5-8.1791192803274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָשׁוּב",
+      "gloss": "May he return",
+      "readings": [
+        "May he return",
+        "He will return"
+      ],
+      "sense": "S2"
+    },
+    {
+      "surface": "הָרַע",
+      "gloss": "the evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְשֹׁרְרָי",
+      "gloss": "upon my foes",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּאֱמִתֶּךָ",
+      "gloss": "in your faithfulness",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַצְמִיתֵם",
+      "gloss": "put them to death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:23.275757104Z",
+  "model": "glm-5.3"
 }

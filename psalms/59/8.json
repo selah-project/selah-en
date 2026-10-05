@@ -1,40 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Behold, they gush forth with their mouth — swords in their lips — for who hears?",
+  "ref": "psalms 59:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "swords",
+      "rationale": "חֲרָבוֹת plural of חֶרֶב sword; the parallel line has no verb, so swords is read as the object of gush and supplied again before within their lips."
+    },
+    {
+      "kind": "crux",
+      "subject": "who is hearing",
+      "rationale": "כִּי מִי שֹׁמֵעַ read as rhetorical 'for who is listening?' (no one), or as the enemy's boast 'who will hear us?'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "lips",
+      "rationale": "שָׂפָה is a metonym for speech; the literal body-part picture is kept."
+    }
+  ],
+  "translation": "Behold, they gush swords with their mouth, swords within their lips; for who is hearing?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d17f399278a8e3325c6742949d14dd6c368bf3f0a56f89c5bbd7a5a19ded510",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/5-8.1791192847541.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הנה",
+      "surface": "הִנֵּ֤ה",
       "gloss": "Behold"
     },
     {
-      "surface": "יביעון",
-      "gloss": "they gush forth"
+      "surface": "יַבִּ֘יע֤וּן",
+      "gloss": "they gush",
+      "sense": "S1"
     },
     {
-      "surface": "בפיהם",
-      "gloss": "with their mouth"
+      "surface": "בְּפִיהֶ֗ם",
+      "gloss": "with their mouth",
+      "sense": "S1"
     },
     {
-      "surface": "חרבות",
-      "gloss": "swords"
+      "surface": "חֲרָבוֹת",
+      "gloss": "swords",
+      "sense": "S1"
     },
     {
-      "surface": "בשפתותיהם",
-      "gloss": "in their lips"
+      "surface": "בְּשִׂפְתוֹתֵיהֶ֑ם",
+      "gloss": "within their lips",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֥י",
       "gloss": "for"
     },
     {
-      "surface": "מי",
-      "gloss": "who"
+      "surface": "מִ֥י",
+      "gloss": "who",
+      "sense": "S1"
     },
     {
-      "surface": "שמע",
-      "gloss": "hears"
+      "surface": "שֹׁמֵֽעַ",
+      "gloss": "is hearing"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:07.542029916Z",
+  "model": "glm-5.3"
 }

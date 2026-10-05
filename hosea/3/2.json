@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "So I bought her for myself for fifteen ⟨pieces of⟩ silver, and a homer of barley and a lethech of barley.",
-  "tokens": [
+  "ref": "hosea 3:2",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "ואכרה",
-      "gloss": "So I bought her"
+      "kind": "hapax",
+      "subject": "לתך",
+      "rationale": "letekh, a dry measure of about 110 litres, occurs only here in the Tanakh"
     },
     {
-      "surface": "לי",
-      "gloss": "for myself"
-    },
-    {
-      "surface": "בחמשה",
-      "gloss": "for fifteen"
-    },
-    {
-      "surface": "עשר",
-      "gloss": "teen"
-    },
-    {
-      "surface": "כסף",
-      "gloss": "silver",
-      "readings": [
-        "silver",
-        "money"
-      ],
-      "held_by": {
-        "silver": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "money": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וחמר",
-      "gloss": "and a homer of"
-    },
-    {
-      "surface": "שערים",
-      "gloss": "barley"
-    },
-    {
-      "surface": "ולתך",
-      "gloss": "and a lethech of"
-    },
-    {
-      "surface": "שערים",
-      "gloss": "barley"
+      "kind": "measurement",
+      "subject": "purchase price",
+      "rationale": "the verse itemizes the price: fifteen silver plus a homer and a letekh of barley"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I bought her for myself for fifteen pieces of silver, and a homer of barley and a letekh of barley.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b2a54c40ce99c6d13b9e1cb090488b367fd30ba618b76f72c29115607279e125",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/3\/1-4.1791191249363.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֶכְרֶ֣הָ",
+      "gloss": "and I bought her",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֔י",
+      "gloss": "for myself",
+      "sense": null
+    },
+    {
+      "surface": "בַּחֲמִשָּׁ֥ה",
+      "gloss": "for fifteen",
+      "sense": null
+    },
+    {
+      "surface": "עָשָׂ֖ר",
+      "gloss": "⟨silver⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּ֑סֶף",
+      "gloss": "pieces of silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחֹ֥מֶר",
+      "gloss": "and a homer",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂעֹרִ֖ים",
+      "gloss": "of barley",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֵ֥תֶךְ",
+      "gloss": "and a letekh",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂעֹרִֽים",
+      "gloss": "of barley",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:07:29.364255453Z",
+  "model": "glm-5.3"
 }

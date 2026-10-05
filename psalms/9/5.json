@@ -1,70 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For you have done my judgment and my cause; You have sat on the throne, judging righteousness.",
+  "ref": "psalms 9:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨a⟩",
+      "rationale": "Hebrew lacks the indefinite article before throne"
+    },
+    {
+      "kind": "crux",
+      "subject": "judging rightness",
+      "rationale": "שׁוֹפֵט צֶדֶק taken as 'judge of righteousness' (construct noun) vs participle + noun 'judging rightness'"
+    }
+  ],
+  "translation": "For you have done my judgment and my cause; you sat on ⟨a⟩ throne, judging rightness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc5be81d7b6682b2b570c37268923628e3df9a696d57267aee15b7a4187d87d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/9\/5-8.1791192395027.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "עשית",
-      "gloss": "you have done"
+      "surface": "עָ֭שִׂיתָ",
+      "gloss": "you have done",
+      "sense": "S1"
     },
     {
-      "surface": "משפטי",
+      "surface": "מִשְׁפָּטִ֣י",
       "gloss": "my judgment",
-      "readings": [
-        "my judgment",
-        "my right"
-      ],
-      "held_by": {
-        "my judgment": [
-          "v1",
-          "en4"
-        ],
-        "my right": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ודיני",
-      "gloss": "and my judgment",
-      "readings": [
-        "and my judgment",
-        "and my cause"
-      ],
-      "held_by": {
-        "and my judgment": [
-          "v1",
-          "en4"
-        ],
-        "and my cause": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וְדִינִ֑י",
+      "gloss": "and my cause",
+      "sense": "S1"
     },
     {
-      "surface": "ישבת",
-      "gloss": "You have sat"
+      "surface": "יָשַׁ֥בְתָּ",
+      "gloss": "you sat",
+      "sense": "S1"
     },
     {
-      "surface": "לכסא",
-      "gloss": "on ⟨the⟩ throne"
+      "surface": "לְ֝כִסֵּ֗א",
+      "gloss": "on ⟨a⟩ throne",
+      "sense": "S1"
     },
     {
-      "surface": "שופט",
-      "gloss": "judging"
+      "surface": "שׁוֹפֵ֥ט",
+      "gloss": "judging",
+      "sense": "S1"
     },
     {
-      "surface": "צדק",
-      "gloss": "righteousness"
+      "surface": "צֶֽדֶק",
+      "gloss": "rightness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:35.027645295Z",
+  "model": "glm-5.3"
 }

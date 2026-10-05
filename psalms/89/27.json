@@ -1,6 +1,33 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "He will call me: “My father you are, my El, and the rock of my salvation.”",
+  "ref": "psalms 89:27",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew omits the copula; אתה is the pronoun 'you', rendered as verb for English"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אבי\/אלי\/צור",
+      "rationale": "stacked divine titles of the king's cry — father, El, rock of salvation"
+    }
+  ],
+  "translation": "He will call me, “My Father are you, my El, and the rock of my salvation.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15979a964ba0d004b0db5614d9097dab73004d67d17dc36f061b1e3faebe796d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/25-28.1791193143958.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "הוא",
@@ -9,42 +36,33 @@
     {
       "surface": "יקראני",
       "gloss": "will call me",
-      "readings": [
-        "will call me",
-        "will call to me"
-      ],
-      "held_by": {
-        "will call me": [
-          "v1",
-          "v3"
-        ],
-        "will call to me": [
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אבי",
-      "gloss": "My father"
+      "gloss": "My Father",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "you are"
+      "gloss": "are you"
     },
     {
       "surface": "אלי",
-      "gloss": "my El"
+      "gloss": "my El",
+      "sense": "S1"
     },
     {
       "surface": "וצור",
-      "gloss": "and the rock of"
+      "gloss": "and the rock",
+      "sense": "S1"
     },
     {
       "surface": "ישועתי",
-      "gloss": "my salvation"
+      "gloss": "of my salvation",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:03.959024031Z",
+  "model": "glm-5.3"
 }

@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "I give you a king in my anger, and I take ⟨him⟩ away in my wrath.",
-  "tokens": [
+  "ref": "hosea 13:11",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "אתן",
-      "gloss": "I give",
-      "readings": [
-        "I give",
-        "I gave"
-      ],
-      "held_by": {
-        "I give": [
-          "v1",
-          "v3"
-        ],
-        "I gave": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "him",
+      "rationale": "The object of אקח (the king) is supplied for English syntax"
     },
     {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "a king"
-    },
-    {
-      "surface": "באפי",
-      "gloss": "in my anger"
-    },
-    {
-      "surface": "ואקח",
-      "gloss": "and I take ⟨him⟩ away",
-      "readings": [
-        "and I take ⟨him⟩ away",
-        "and I took ⟨him⟩ away"
-      ],
-      "held_by": {
-        "and I take ⟨him⟩ away": [
-          "v1",
-          "v3"
-        ],
-        "and I took ⟨him⟩ away": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בעברתי",
-      "gloss": "in my wrath"
+      "kind": "wordplay",
+      "subject": "אפי\/עברתי",
+      "rationale": "Paired anger-terms, nose\/anger and outburst, a parallel intensification"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I gave you a king in my anger, and I took ⟨him⟩ away in my wrath.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "23dbaa82e2bfc042818cb1b3a45bd98a7bc9441a4c2be31772c943eb3b3cf3e7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/13\/9-12.1791191364668.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶֽתֶּן",
+      "gloss": "I gave",
+      "sense": null
+    },
+    {
+      "surface": "לְךָ֥",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "מֶ֨לֶךְ֙",
+      "gloss": "a king",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאַפִּ֔י",
+      "gloss": "in my anger",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶקַּ֖ח",
+      "gloss": "and I took away",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֶבְרָתִֽי",
+      "gloss": "in my wrath",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:09:24.669589027Z",
+  "model": "glm-5.3"
 }

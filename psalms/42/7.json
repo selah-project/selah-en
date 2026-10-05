@@ -1,87 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "My Elohim, upon me my soul is bowed down; therefore I remember you from the land of the Jordan, and the Hermons, from the hill of Mizar.",
-  "tokens": [
+  "ref": "psalms 42:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
     {
-      "surface": "אלהי",
-      "gloss": "My Elohim"
+      "kind": "hapax",
+      "subject": "חֶרְמוֹנִים",
+      "rationale": "plural 'Hermons' (its peaks) occurs only here."
     },
     {
-      "surface": "עלי",
-      "gloss": "upon me"
+      "kind": "hapax",
+      "subject": "מִצְעָר",
+      "rationale": "Mitzar, a peak near Hermon, occurs only here; the name puns on 'smallness' (מצער, 'a little thing')."
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תשתוחח",
-      "gloss": "is bowed down"
-    },
-    {
-      "surface": "על",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "כן",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "אזכרך",
-      "gloss": "I remember you"
-    },
-    {
-      "surface": "מארץ",
-      "gloss": "from the land of"
-    },
-    {
-      "surface": "ירדן",
-      "gloss": "the Jordan"
-    },
-    {
-      "surface": "וחרמונים",
-      "gloss": "and the Hermons"
-    },
-    {
-      "surface": "מהר",
-      "gloss": "from the hill of"
-    },
-    {
-      "surface": "מצער",
-      "gloss": "Mizar",
-      "readings": [
-        "Mizar",
-        "Mitsar"
-      ],
-      "held_by": {
-        "Mizar": [
-          "v1"
-        ],
-        "Mitsar": [
-          "v2",
-          "v3"
-        ],
-        "Mitzar": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "therefore",
+      "rationale": "עַל כֵּן is the Hebrew idiom 'upon so' = therefore, rendered as English idiom."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My Elohim — upon me my throat is bowed down; therefore I remember You from the land of the Jordan and the Hermons, from the mountain of Mitzar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "60cd3dd03d44db9091a0f2768289ee9d976066e60145c274923158893f6d06cb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/42\/5-8.1791192701687.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱֽלֹהַ֗י",
+      "gloss": "My Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַ֨י",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "נַפְשִׁ֪י",
+      "gloss": "my throat",
+      "readings": [
+        "my throat",
+        "my life",
+        "my soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁתּ֫וֹחָ֥ח",
+      "gloss": "is bowed down",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "therefore",
+      "sense": null
+    },
+    {
+      "surface": "כֵּ֗ן",
+      "gloss": "therefore",
+      "sense": null
+    },
+    {
+      "surface": "אֶזְכָּרְךָ֥",
+      "gloss": "I remember You",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֶ֣רֶץ",
+      "gloss": "from the land of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַרְדֵּ֑ן",
+      "gloss": "the Jordan",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחֶרְמוֹנִ֗ים",
+      "gloss": "and the Hermons",
+      "sense": null
+    },
+    {
+      "surface": "מֵהַ֥ר",
+      "gloss": "from the mountain of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְעָֽר",
+      "gloss": "Mitzar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:41.688396137Z",
+  "model": "glm-5.3"
 }

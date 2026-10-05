@@ -1,48 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 46,
-  "translation": "And the one coming into the house all the days of its shutting up ⟨את⟩ it shall be unclean until the evening.",
-  "tokens": [
+  "ref": "leviticus 14:46",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "והבא",
-      "gloss": "and the one coming"
+      "kind": "addition",
+      "subject": "shall be",
+      "rationale": "Hebrew uses verb יטמא ('becomes unclean') without copula; English gloss smooths to 'shall be unclean'."
     },
     {
-      "surface": "אל",
+      "kind": "measurement",
+      "subject": "כל ימי",
+      "rationale": "The verse measures the contamination by days — 'all the days of its shutting-up' — and by the sunset boundary."
+    }
+  ],
+  "translation": "And the one who enters the house during all the days of its shutting-up shall be unclean until the evening.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f1ef61ff4bf2c15b254ccc67be94491123a0ef5b8b0335db2373751a57e24987",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/45-46.1791197729332.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהַבָּא֙",
+      "gloss": "and the one who enters"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "into"
     },
     {
-      "surface": "הבית",
-      "gloss": "the house"
+      "surface": "הַבַּ֔יִת",
+      "gloss": "the house",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "ימי",
-      "gloss": "the days of"
+      "surface": "יְמֵ֖י",
+      "gloss": "the days of",
+      "sense": "S1"
     },
     {
-      "surface": "הסגיר",
-      "gloss": "its shutting up"
+      "surface": "הִסְגִּ֣יר",
+      "gloss": "its shutting-up",
+      "sense": "S1"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ it"
+      "surface": "אֹת֑וֹ",
+      "gloss": "⟨את⟩ it",
+      "marks": "the house"
     },
     {
-      "surface": "יטמא",
-      "gloss": "shall be unclean"
+      "surface": "יִטְמָ֖א",
+      "gloss": "shall be unclean",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "until"
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
     },
     {
-      "surface": "הערב",
-      "gloss": "the evening"
+      "surface": "הָעָֽרֶב",
+      "gloss": "the evening",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:55:29.333516419Z",
+  "model": "glm-5.3"
 }

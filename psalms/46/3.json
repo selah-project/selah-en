@@ -1,63 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Therefore we will not fear, though the earth change, and though the mountains slip into the heart of the seas —",
+  "ref": "psalms 46:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "changes",
+      "rationale": "בהמיר: meaning unsure — the earth 'is changed\/transformed' (S1 shape-change) or, reading a rare verb, 'gives way'; rendered literally as change."
+    },
+    {
+      "kind": "idiom",
+      "subject": "heart of the seas",
+      "rationale": "לב here is a spatial referent, 'the very middle of the seas', not the organ or feelings."
+    }
+  ],
+  "translation": "Therefore we will not fear when the earth changes, and when mountains slip in the heart of the seas.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aefefbc36a31bfef7048bd9e23609dd3f7ea12b3c67564a3170817d9f3d84fe8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/46\/1-4.1791192727607.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
-      "gloss": "Therefore"
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
     },
     {
-      "surface": "כן",
-      "gloss": "therefore"
+      "surface": "כֵּ֣ן",
+      "gloss": "so",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נירא",
-      "gloss": "we will fear"
+      "surface": "נִירָ֭א",
+      "gloss": "we will fear",
+      "sense": "S1"
     },
     {
-      "surface": "בהמיר",
-      "gloss": "change"
+      "surface": "בְּהָמִ֣יר",
+      "gloss": "when… changes",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָ֑רֶץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ובמוט",
-      "gloss": "and though"
+      "surface": "וּבְמ֥וֹט",
+      "gloss": "and when… slip",
+      "sense": "S1"
     },
     {
-      "surface": "הרים",
-      "gloss": "the mountains"
+      "surface": "הָרִ֗ים",
+      "gloss": "mountains",
+      "sense": "S1"
     },
     {
-      "surface": "בלב",
-      "gloss": "into the heart"
+      "surface": "בְּלֵ֣ב",
+      "gloss": "in the heart of",
+      "sense": "S1"
     },
     {
-      "surface": "ימים",
-      "gloss": "of the seas"
+      "surface": "יַמִּֽים",
+      "gloss": "seas",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:07.608124017Z",
+  "model": "glm-5.3"
 }

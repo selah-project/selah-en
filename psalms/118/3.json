@@ -1,80 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Let the house of Aaron now say: “for His chesed ⟨endures⟩ forever.”",
-  "tokens": [
+  "ref": "psalms 118:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "יאמרו",
-      "gloss": "Let ⟨them⟩ say"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Verbless clause: לעולם חסדו"
     },
     {
-      "surface": "נא",
-      "gloss": "now",
-      "readings": [
-        "now",
-        "please"
-      ],
-      "held_by": {
-        "now": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "please": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בית",
-      "gloss": "house of"
-    },
-    {
-      "surface": "אהרן",
-      "gloss": "Aaron"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "to eternity"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to eternity": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "His chesed",
-      "readings": [
-        "His chesed",
-        "His steadfast love"
-      ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His steadfast love": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "to the house of Aaron",
+      "rationale": "Jussive summons the priesthood as the next speaker of the refrain"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let the house of Aaron say, ⟨I pray⟩, “For forever is his chesed.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "db6b6c5d87beab7906d493acc2d441b0e3d097226d1a36962eda217e7cc36b24",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/1-4.1791193421166.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹֽאמְרוּ",
+      "gloss": "Let … say",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֥א",
+      "gloss": "⟨I pray⟩",
+      "sense": null
+    },
+    {
+      "surface": "בֵֽית",
+      "gloss": "the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַהֲרֹ֑ן",
+      "gloss": "Aaron",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּֽוֹ",
+      "gloss": "is his chesed",
+      "readings": [
+        "is his chesed",
+        "is his steadfast love"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:41.167056048Z",
+  "model": "glm-5.3"
 }

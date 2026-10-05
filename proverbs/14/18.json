@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "The naive inherit folly, but the prudent are crowned ⟨with⟩ knowledge.",
-  "tokens": [
+  "ref": "proverbs 14:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "נחלו",
-      "gloss": "inherit"
+      "kind": "crux",
+      "subject": "יכתרו",
+      "rationale": "Rare verb כתר, literally 'to surround\/crown': rendered 'wear as a crown', but 'wait for' (S1) or 'are crowned with' are argued alternatives."
     },
     {
-      "surface": "פתאים",
-      "gloss": "the naive"
-    },
-    {
-      "surface": "אולת",
-      "gloss": "folly"
-    },
-    {
-      "surface": "וערומים",
-      "gloss": "but the prudent"
-    },
-    {
-      "surface": "יכתרו",
-      "gloss": "are crowned",
-      "readings": [
-        "are crowned",
-        "crown"
-      ],
-      "held_by": {
-        "are crowned": [
-          "v2",
-          "en4"
-        ],
-        "crown": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "דעת",
-      "gloss": "knowledge"
+      "kind": "hapax",
+      "subject": "יכתרו",
+      "rationale": "The hiphil of כתר occurs only here in a clearly debated sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The naive inherit foolishness, and the shrewd wear knowledge as a crown.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "624e10d7597be127c898a7175f621e7025f3e3a85969c5accc942a85dff10131",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/17-20.1791193847046.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נָחֲל֣וּ",
+      "gloss": "inherit",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּתָאיִ֣ם",
+      "gloss": "the naive",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִוֶּ֑לֶת",
+      "gloss": "foolishness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽ֝עֲרוּמִ֗ים",
+      "gloss": "and the shrewd",
+      "sense": "S1",
+      "readings": [
+        "the shrewd",
+        "the cunning"
+      ]
+    },
+    {
+      "surface": "יַכְתִּ֥ירוּ",
+      "gloss": "wear as a crown",
+      "sense": null
+    },
+    {
+      "surface": "דָּֽעַת",
+      "gloss": "knowledge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:47.047611658Z",
+  "model": "glm-5.3"
 }

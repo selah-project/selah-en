@@ -1,40 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 87,
-  "translation": "Almost they consumed me on the earth, but I did not forsake your precepts.",
+  "ref": "psalms 119:87",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "they",
+      "rationale": "subject of כלוני supplied; the arrogant of verse 85."
+    },
+    {
+      "kind": "crux",
+      "subject": "כמעט כלוני",
+      "rationale": "'almost they finished me' — some take כמעט adverbially with what precedes; the doubled near-miss idiom kept literal."
+    }
+  ],
+  "translation": "For a little ⟨they⟩ almost finished me on the earth, and I — I have not forsaken your precepts.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "369d9112e55823539aab0b7b1b3823a6e96f22fbd78fc1aa2444b431aefdd14e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/85-88.1791193472009.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כמעט",
-      "gloss": "almost"
+      "surface": "כִּמְעַט",
+      "gloss": "For a little",
+      "sense": "S1"
     },
     {
-      "surface": "כלוני",
-      "gloss": "they consumed me"
+      "surface": "כִּלּוּנִי",
+      "gloss": "⟨they⟩ almost finished me",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
+      "surface": "בָּאָרֶץ",
       "gloss": "on the earth",
+      "sense": "S1",
       "readings": [
         "on the earth",
         "in the land"
       ]
     },
     {
-      "surface": "ואני",
-      "gloss": "but I"
+      "surface": "וַאֲנִי",
+      "gloss": "and I"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "עזבתי",
-      "gloss": "I did forsake"
+      "surface": "עָזַבְתִּי",
+      "gloss": "I have forsaken",
+      "sense": "S1"
     },
     {
-      "surface": "פקודיך",
-      "gloss": "your precepts"
+      "surface": "פִּקֻּודֶיךָ",
+      "gloss": "your precepts",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:32.010668042Z",
+  "model": "glm-5.3"
 }

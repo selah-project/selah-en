@@ -1,95 +1,130 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "The king will mourn, and the prince will clothe himself with desolation, and the hands of the people of the land will tremble. According to their way I will do to ⟨את⟩ them, and by their judgments I will judge them; and they will know that I am YHWH.",
-  "tokens": [
+  "ref": "ezekiel 7:27",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "המלך",
-      "gloss": "The king"
+      "kind": "substitution",
+      "subject": "I will deal",
+      "rationale": "אֶעֱשֶׂה is bare 'I will do'; 'deal with' supplies the object relation English needs."
     },
     {
-      "surface": "יתאבל",
-      "gloss": "will mourn"
-    },
-    {
-      "surface": "ונשיא",
-      "gloss": "and the prince"
-    },
-    {
-      "surface": "ילבש",
-      "gloss": "will clothe himself with"
-    },
-    {
-      "surface": "שממה",
-      "gloss": "desolation",
-      "readings": [
-        "desolation",
-        "astonishment"
-      ],
-      "held_by": {
-        "desolation": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "astonishment": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וידי",
-      "gloss": "and the hands of"
-    },
-    {
-      "surface": "עם",
-      "gloss": "the people of"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "תבהלנה",
-      "gloss": "will tremble"
-    },
-    {
-      "surface": "מדרכם",
-      "gloss": "According to their way"
-    },
-    {
-      "surface": "אעשה",
-      "gloss": "I will do"
-    },
-    {
-      "surface": "אותם",
-      "gloss": "⟨את⟩ them"
-    },
-    {
-      "surface": "ובמשפטיהם",
-      "gloss": "and by their judgments"
-    },
-    {
-      "surface": "אשפטם",
-      "gloss": "I will judge them"
-    },
-    {
-      "surface": "וידעו",
-      "gloss": "and they will know"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "מדרכם...אעשה \/ משפטיהם...אשפטם",
+      "rationale": "Measure-for-measure parallelism: ways\/judgments returned in kind."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The king will mourn, and the prince will put on desolation, and the hands of the people of the land will tremble; according to their ways I will deal with ⟨את⟩ them, and by their judgments I will judge them, and they will know that I am YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3ae8c2cfc361e712703a6cfbb4efc2257f7114714062509cc3668128e428018",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/7\/25-27.1791190273681.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַמֶּ֣לֶךְ",
+      "gloss": "The king",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְאַבָּ֗ל",
+      "gloss": "will mourn",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָשִׂיא֙",
+      "gloss": "and the prince",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלְבַּ֣שׁ",
+      "gloss": "will put on",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמָמָ֔ה",
+      "gloss": "desolation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִידֵ֥י",
+      "gloss": "and the hands of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַם",
+      "gloss": "the people of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָ֖רֶץ",
+      "gloss": "the land",
+      "sense": "S1",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
+    },
+    {
+      "surface": "תִּבָּהַ֑לְנָה",
+      "gloss": "will tremble",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדַּרְכָּ֞ם",
+      "gloss": "according to their ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶעֱשֶׂ֤ה",
+      "gloss": "I will deal",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹתָם֙",
+      "gloss": "⟨את⟩ them",
+      "sense": null,
+      "marks": "them"
+    },
+    {
+      "surface": "וּבְמִשְׁפְּטֵיהֶ֣ם",
+      "gloss": "and by their judgments",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשְׁפְּטֵ֔ם",
+      "gloss": "I will judge them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָדְע֖וּ",
+      "gloss": "and they will know",
+      "sense": null
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "אֲנִ֥י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:51:13.683149303Z",
+  "model": "glm-5.3"
 }

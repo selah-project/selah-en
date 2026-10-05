@@ -1,36 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For he is sent into a net by his feet, and upon a snare he walks.",
+  "ref": "job 18:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "ברגליו",
+      "rationale": "Literally 'in\/at his feet' — the net lies where his feet go, or his own feet lead him into it."
+    },
+    {
+      "kind": "alternative",
+      "subject": "שבכה",
+      "rationale": "Same word elsewhere means a lattice or network of architecture; here a hunting mesh covering a pit."
+    }
+  ],
+  "translation": "For he is sent into a net by his feet, and upon a mesh he walks.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "63f46d81e5fbe2456f07ce42dd0f9c046fd643bb05519bc9756c305f74b364d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/18\/5-8.1791194321953.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "שלח",
-      "gloss": "he is sent"
+      "surface": "שֻׁלַּ֣ח",
+      "gloss": "he is sent",
+      "sense": "S1"
     },
     {
-      "surface": "ברשת",
-      "gloss": "into a net"
+      "surface": "בְּרֶ֣שֶׁת",
+      "gloss": "into a net",
+      "sense": "S1"
     },
     {
-      "surface": "ברגליו",
-      "gloss": "by his feet"
+      "surface": "בְּרַגְלָ֑יו",
+      "gloss": "by his feet",
+      "sense": "S1",
+      "readings": [
+        "by his feet",
+        "by his own two feet"
+      ]
     },
     {
-      "surface": "ועל",
+      "surface": "וְעַל",
       "gloss": "and upon"
     },
     {
-      "surface": "שבכה",
-      "gloss": "a snare"
+      "surface": "שְׂ֝בָכָ֗ה",
+      "gloss": "a mesh",
+      "sense": "S1"
     },
     {
-      "surface": "יתהלך",
-      "gloss": "he walks"
+      "surface": "יִתְהַלָּֽךְ",
+      "gloss": "he walks",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:41.954549046Z",
+  "model": "glm-5.3"
 }

@@ -1,42 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "To whom will you liken me, and make equal, and compare me, that we may be alike?",
-  "tokens": [
+  "ref": "isaiah 46:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "למי",
-      "gloss": "To whom"
+      "kind": "wordplay",
+      "subject": "דמה · שוה · משל",
+      "rationale": "three near-synonymous compare-verbs piled in one verse, a rhetorical climax flattened in English"
     },
     {
-      "surface": "תדמיוני",
-      "gloss": "will you liken me"
+      "kind": "you",
+      "subject": "house of Jacob (46:3)",
+      "rationale": "YHWH addresses the rebels directly with four second-person verbs"
     },
     {
-      "surface": "ותשוו",
-      "gloss": "and make equal"
-    },
-    {
-      "surface": "ותמשלוני",
-      "gloss": "and compare me"
-    },
-    {
-      "surface": "ונדמה",
-      "gloss": "that we may be alike",
-      "readings": [
-        "that we may be alike",
-        "and we would be like"
-      ],
-      "held_by": {
-        "that we may be alike": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and we would be like": [
-          "v1"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "rhetorical question",
+      "rationale": "the question demands the answer 'no one', drawing the hearer in"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To whom will you liken Me, and equal Me, and compare Me, that we may be alike?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1c25e0d7359d805ee71b1c81e626d0efab6b3ac0850767712fd99e37c4198a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/46\/5-8.1791188721600.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְמִי",
+      "gloss": "To whom",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְדַמְיוּנִי",
+      "gloss": "will you liken Me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתַשְׁוּוּ",
+      "gloss": "and equal",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתַמְשִׁלוּנִי",
+      "gloss": "and compare Me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִדְמֶה",
+      "gloss": "that we may be alike",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:25:21.601000527Z",
+  "model": "glm-5.3"
 }

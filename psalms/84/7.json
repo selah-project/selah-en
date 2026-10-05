@@ -1,89 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Passing through the valley of Baca, a spring they make it; also blessings will clothe ⟨it with⟩ the early rain.",
+  "ref": "psalms 84:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 84,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "הבכא",
+      "rationale": "Baca occurs only here in the Tanakh; 'valley of weeping' rides on the root בכה, weep"
+    },
+    {
+      "kind": "crux",
+      "subject": "יַעְטֶה מוֹרֶה",
+      "rationale": "'the early rain covers [it with] blessings' vs 'the teacher is clothed with blessings'; the wordplay מורה\/מורה is unresolvable in English"
+    },
+    {
+      "kind": "alternative",
+      "subject": "a spring they make of it",
+      "rationale": "some read מעין as plural 'pools' with revocalization (מַעְיָנוֹת)"
+    }
+  ],
+  "translation": "Passing through the valley of Baca, a spring they make of it; also the early rain wraps it with blessings.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f92b9df6941c0fd9c3105225edbdbba7f9e85ba2c58691521b819b4679eac4c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/84\/5-8.1791193117154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עברי",
-      "gloss": "Passing through"
+      "surface": "עֹבְרֵ֤י",
+      "gloss": "Passing through",
+      "sense": "S1"
     },
     {
-      "surface": "בעמק",
-      "gloss": "the valley of"
+      "surface": "בְּעֵ֣מֶק",
+      "gloss": "the valley of",
+      "sense": "S1"
     },
     {
-      "surface": "הבכא",
+      "surface": "הַ֭בָּכָא",
       "gloss": "Baca",
       "readings": [
         "Baca",
-        "weeping"
+        "weeping-balsam"
       ],
-      "held_by": {
-        "Baca": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "weeping": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     },
     {
-      "surface": "מעין",
-      "gloss": "a spring"
+      "surface": "מַעְיָ֣ן",
+      "gloss": "a spring",
+      "sense": "S1"
     },
     {
-      "surface": "ישיתוהו",
-      "gloss": "they make it"
+      "surface": "יְשִׁית֑וּהוּ",
+      "gloss": "they make it",
+      "sense": "S1"
     },
     {
-      "surface": "גם",
-      "gloss": "also"
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
     },
     {
-      "surface": "ברכות",
+      "surface": "בְּרָכ֗וֹת",
       "gloss": "blessings",
-      "readings": [
-        "blessings",
-        "pools"
-      ],
-      "held_by": {
-        "blessings": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pools": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יעטה",
-      "gloss": "will clothe"
+      "surface": "יַעְטֶ֥ה",
+      "gloss": "wraps",
+      "sense": "S1"
     },
     {
-      "surface": "מורה",
+      "surface": "מוֹרֶֽה",
       "gloss": "the early rain",
-      "readings": [
-        "the early rain",
-        "the teacher"
-      ],
-      "held_by": {
-        "the early rain": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the teacher": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:37.155644905Z",
+  "model": "glm-5.3"
 }

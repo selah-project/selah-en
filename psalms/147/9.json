@@ -1,66 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Giving to the beast its food, and to the young of the ravens that cry out.",
-  "tokens": [
+  "ref": "psalms 147:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 147,
+  "notes": [
     {
-      "surface": "נותן",
-      "gloss": "giving"
+      "kind": "substitution",
+      "subject": "sons of the raven",
+      "rationale": "בני ערב is literal 'sons of' for young ravens; English idiom would say 'young ravens'"
     },
     {
-      "surface": "לבהמה",
-      "gloss": "to the beast",
-      "readings": [
-        "to the beast",
-        "to the cattle"
-      ],
-      "held_by": {
-        "to the beast": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the cattle": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לחמה",
-      "gloss": "its food"
-    },
-    {
-      "surface": "לבני",
-      "gloss": "and to the young of"
-    },
-    {
-      "surface": "ערב",
-      "gloss": "the ravens",
-      "readings": [
-        "the ravens",
-        "the evening"
-      ],
-      "held_by": {
-        "the ravens": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the evening": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "יקראו",
-      "gloss": "cry out"
+      "kind": "alternative",
+      "subject": "call out",
+      "rationale": "יקראו here is the ravens' cry for food, hence 'that cry out'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Giving to the beast her food, to the sons of the raven that call out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bcde5adc8bd34b415e65a37cbd645585ad9049171de287d22390ddea9f32f1e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/147\/9-12.1791193649715.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נוֹתֵן",
+      "gloss": "Giving",
+      "sense": null
+    },
+    {
+      "surface": "לִבְהֵמָה",
+      "gloss": "to the beast",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחְמָהּ",
+      "gloss": "her food",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְנֵי",
+      "gloss": "to the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹרֵב",
+      "gloss": "the raven"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יִקְרָאוּ",
+      "gloss": "call out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:29.715760634Z",
+  "model": "glm-5.3"
 }

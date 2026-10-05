@@ -1,80 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "A satiated soul tramples ⟨a⟩ honeycomb, but to a hungry soul every bitter thing is sweet.",
+  "ref": "proverbs 27:7",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש here is the appetite, the desire-principle in the throat — not the immaterial 'soul'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "sated\/hungry, bitter\/sweet",
+      "rationale": "Two antithetical pairs frame the verse; the chiasm of taste-words is kept."
+    }
+  ],
+  "translation": "A sated soul tramples honeycomb, and to a hungry soul every bitter thing is sweet.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "24cdc130c8592ea0f2a17a022f70a2defba896d696d3be4f6e105be5c7710765",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/27\/5-8.1791194025938.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "נפש",
-      "gloss": "soul",
+      "surface": "נֶפֶשׁ",
+      "gloss": "A soul",
+      "sense": "S1",
       "readings": [
-        "soul",
-        "appetite",
-        "nefesh"
-      ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v3"
-        ],
-        "appetite": [
-          "v2"
-        ],
-        "nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "A soul",
+        "An appetite",
+        "A throat"
+      ]
     },
     {
-      "surface": "שבעה",
-      "gloss": "satiated"
+      "surface": "שְׂבֵעָה",
+      "gloss": "sated",
+      "sense": "S1"
     },
     {
-      "surface": "תבוס",
-      "gloss": "tramples"
+      "surface": "תָּבוּס",
+      "gloss": "tramples",
+      "sense": "S1"
     },
     {
-      "surface": "נפת",
-      "gloss": "honeycomb"
+      "surface": "נֹפֶת",
+      "gloss": "honeycomb",
+      "sense": "S1"
     },
     {
-      "surface": "ונפש",
-      "gloss": "and a soul",
+      "surface": "וְנֶפֶשׁ",
+      "gloss": "and to a soul",
+      "sense": "S1",
       "readings": [
-        "and a soul",
-        "and an appetite",
-        "and a nefesh"
-      ],
-      "held_by": {
-        "and a soul": [
-          "v1",
-          "v3"
-        ],
-        "and an appetite": [
-          "v2"
-        ],
-        "and a nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "and to a soul",
+        "and to an appetite"
+      ]
     },
     {
-      "surface": "רעבה",
-      "gloss": "hungry"
+      "surface": "רְעֵבָה",
+      "gloss": "hungry",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "every"
     },
     {
-      "surface": "מר",
-      "gloss": "bitter"
+      "surface": "מַר",
+      "gloss": "bitter thing",
+      "sense": "S1"
     },
     {
-      "surface": "מתוק",
-      "gloss": "sweet"
+      "surface": "מָתוֹק",
+      "gloss": "is sweet",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:45.940101024Z",
+  "model": "glm-5.3"
 }

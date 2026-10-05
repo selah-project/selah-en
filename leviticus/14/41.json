@@ -1,76 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And ⟨את⟩ the house he shall scrape from within, all around, and they shall pour out ⟨את⟩ the dust which they scraped off, outside the city, to an unclean place.",
+  "ref": "leviticus 14:41",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "plaster-dust",
+      "rationale": "העפר here is the scraped plaster coating, S1 dust; hyphenated to keep one Hebrew word"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יקצע\/הקצו",
+      "rationale": "same scraping root in two stems, qatsa and qatsah, echoing across the verse"
+    }
+  ],
+  "translation": "And ⟨את⟩ the house he shall scrape inside, round about, and they shall pour out ⟨את⟩ the plaster-dust that they scraped, outside the city, to an unclean place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a91f26320a2e27b84642f6f22c36e1835d09e37a98a7c2a8f02b9acfb7ffcae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/41-44.1791182447619.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the house"
     },
     {
       "surface": "הבית",
-      "gloss": "the house"
+      "gloss": "the house",
+      "sense": "S1"
     },
     {
       "surface": "יקצע",
       "gloss": "he shall scrape",
-      "readings": [
-        "he shall scrape",
-        "he shall strip off"
-      ],
-      "held_by": {
-        "he shall scrape": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he shall strip off": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "מבית",
-      "gloss": "from within"
+      "gloss": "inside",
+      "sense": "S1"
     },
     {
       "surface": "סביב",
-      "gloss": "all around"
+      "gloss": "round about",
+      "sense": "S1"
     },
     {
       "surface": "ושפכו",
-      "gloss": "and they shall pour out"
+      "gloss": "and they shall pour out",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the plaster-dust"
     },
     {
       "surface": "העפר",
-      "gloss": "the dust",
-      "readings": [
-        "the dust",
-        "the mortar"
-      ],
-      "held_by": {
-        "the dust": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the mortar": [
-          "en4"
-        ]
-      }
+      "gloss": "the plaster-dust",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "הקצו",
-      "gloss": "they scraped off"
+      "gloss": "they scraped",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -78,11 +84,13 @@
     },
     {
       "surface": "מחוץ",
-      "gloss": "outside"
+      "gloss": "outside",
+      "sense": "S1"
     },
     {
       "surface": "לעיר",
-      "gloss": "the city"
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -90,13 +98,15 @@
     },
     {
       "surface": "מקום",
-      "gloss": "a place"
+      "gloss": "a place",
+      "sense": "S1"
     },
     {
       "surface": "טמא",
-      "gloss": "unclean"
+      "gloss": "unclean",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:47.620265778Z",
+  "model": "glm-5.3"
 }

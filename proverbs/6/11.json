@@ -1,47 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Then your poverty shall come as a traveler, and your want as ⟨an⟩ armed man.",
+  "ref": "proverbs 6:11",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "כְּאִישׁ מָגֵן",
+      "rationale": "Literally 'like a man of a shield', i.e. an armed\/bandit man; rendered literally rather than as 'armed man' or 'robber'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "Proverbs 24:34",
+      "rationale": "The parallel reads מִתְהַלֵּךְ 'like a vagabond' for כִּמְהַלֵּךְ, confirming the roving figure."
+    }
+  ],
+  "translation": "and your poverty comes like a rover, and your want like a man of a shield.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5bab63fd8f21c8ad4a5d03cecf72f9b8ea22e48c792cb4c567bd4ed587814e6f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/6\/9-12.1791193745012.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "ובא",
+      "surface": "וּבָא",
       "gloss": "and comes"
     },
     {
-      "surface": "כמהלך",
-      "gloss": "as a traveler"
+      "surface": "כִּמְהַלֵּךְ",
+      "gloss": "like a rover",
+      "sense": "S1"
     },
     {
-      "surface": "ראשך",
-      "gloss": "your poverty"
+      "surface": "רֵאשֶׁךָ",
+      "gloss": "your poverty",
+      "sense": "S1"
     },
     {
-      "surface": "ומחסרך",
-      "gloss": "and your want"
+      "surface": "וּמַחְסֹרְךָ",
+      "gloss": "and your want",
+      "sense": "S1"
     },
     {
-      "surface": "כאיש",
+      "surface": "כְּאִישׁ",
       "gloss": "like a man"
     },
     {
-      "surface": "מגן",
-      "gloss": "armed man",
-      "readings": [
-        "armed man",
-        "of a shield"
-      ],
-      "held_by": {
-        "armed man": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of a shield": [
-          "en4"
-        ]
-      },
-      "disputed": false
+      "surface": "מָגֵן",
+      "gloss": "of a shield",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:49:05.013516220Z",
+  "model": "glm-5.3"
 }

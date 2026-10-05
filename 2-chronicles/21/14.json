@@ -1,6 +1,33 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Behold, YHWH is striking ⟨with⟩ a great plague among your people, and among your sons, and among your wives, and among all your possessions.",
+  "ref": "2-chronicles 21:14",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "נגף \/ מגפה",
+      "rationale": "The participle and its cognate noun share the root — 'striking a blow'; the root gives English 'plague', kept as reading 2."
+    },
+    {
+      "kind": "you",
+      "subject": "to Jehoram",
+      "rationale": "The judgment oracle continues in direct second-person address to the king."
+    }
+  ],
+  "translation": "Behold, YHWH is striking a great blow upon your people, and upon your sons, and upon your wives, and upon all your possessions.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "540d3379e560ea1904b35a2c5ed2a94658ffe1a9017b22881a59973b5b0994f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/21\/13-16.1791196830791.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "הנה",
@@ -8,101 +35,53 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "נגף",
-      "gloss": "is striking"
+      "gloss": "is striking",
+      "sense": "S1"
     },
     {
       "surface": "מגפה",
-      "gloss": "a great plague"
+      "gloss": "a blow",
+      "sense": "S1",
+      "readings": [
+        "a blow",
+        "a plague"
+      ]
     },
     {
       "surface": "גדולה",
-      "gloss": "great"
+      "gloss": "a great",
+      "sense": "S1"
     },
     {
       "surface": "בעמך",
-      "gloss": "among your people",
-      "readings": [
-        "among your people",
-        "against your people"
-      ],
-      "held_by": {
-        "among your people": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "against your people": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "upon your people",
+      "sense": "S1"
     },
     {
       "surface": "ובבניך",
-      "gloss": "and among your sons",
-      "readings": [
-        "and among your sons",
-        "and against your sons"
-      ],
-      "held_by": {
-        "and among your sons": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and against your sons": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and upon your sons",
+      "sense": "S1"
     },
     {
       "surface": "ובנשיך",
-      "gloss": "and among your wives",
-      "readings": [
-        "and among your wives",
-        "and against your wives"
-      ],
-      "held_by": {
-        "and among your wives": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and against your wives": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and upon your wives",
+      "sense": "S1"
     },
     {
       "surface": "ובכל",
-      "gloss": "and among all",
-      "readings": [
-        "and among all",
-        "and against all"
-      ],
-      "held_by": {
-        "and among all": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and against all": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and upon all"
     },
     {
       "surface": "רכושך",
-      "gloss": "your possessions"
+      "gloss": "your possessions",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:40:30.792028108Z",
+  "model": "glm-5.3"
 }

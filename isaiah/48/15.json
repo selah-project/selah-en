@@ -1,54 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "I, even I, have spoken; yea, I have called him. I have brought him, and he will make his way prosper.",
+  "ref": "isaiah 48:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אני אני",
+      "rationale": "doubled pronoun doubles the affirmation — 'I, even I' — carried by repetition in English."
+    },
+    {
+      "kind": "alternative",
+      "subject": "and his way he has made prosper",
+      "rationale": "the hiphil subject is unexpressed: either Cyrus prospered his own way, or (with many) YHWH is the unspoken subject — 'I made his way prosper'."
+    }
+  ],
+  "translation": "I, I have spoken; also I have called him, I have brought him, and his way he has made prosper.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cbcf107cdeb49d2bdfbe0dcc7dca633167f474073cf19bb9bf057d3a7e83f8b6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/48\/13-16.1791188751048.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
+      "surface": "אֲנִ֥י",
       "gloss": "I"
     },
     {
-      "surface": "אני",
-      "gloss": "even I"
+      "surface": "אֲנִ֛י",
+      "gloss": "I"
     },
     {
-      "surface": "דברתי",
-      "gloss": "have spoken"
+      "surface": "דִּבַּ֖רְתִּי",
+      "gloss": "have spoken",
+      "sense": "S1"
     },
     {
-      "surface": "אף",
-      "gloss": "yea",
-      "readings": [
-        "yea",
-        "also"
-      ],
-      "held_by": {
-        "yea": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "also": [
-          "en4"
-        ]
-      }
+      "surface": "אַף",
+      "gloss": "also",
+      "sense": "S1"
     },
     {
-      "surface": "קראתיו",
-      "gloss": "I have called him"
+      "surface": "קְרָאתִ֑יו",
+      "gloss": "I have called him",
+      "sense": "S1"
     },
     {
-      "surface": "הביאתיו",
+      "surface": "הֲבִיאֹתִ֖יו",
       "gloss": "I have brought him"
     },
     {
-      "surface": "והצליח",
-      "gloss": "and will make prosper"
+      "surface": "וְהִצְלִ֥יחַ",
+      "gloss": "and he made prosper",
+      "sense": "S1"
     },
     {
-      "surface": "דרכו",
-      "gloss": "his way"
+      "surface": "דַּרְכּֽוֹ",
+      "gloss": "his way",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:25:51.050134149Z",
+  "model": "glm-5.3"
 }

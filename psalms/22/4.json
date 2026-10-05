@@ -1,46 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And you ⟨are⟩ holy, sitting enthroned on the praises of Israel.",
-  "tokens": [
+  "ref": "psalms 22:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "And you"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula; the pronoun 'you' carries the predicate 'holy' directly."
     },
     {
-      "surface": "קדוש",
-      "gloss": "holy"
-    },
-    {
-      "surface": "יושב",
-      "gloss": "sitting",
-      "readings": [
-        "sitting",
-        "enthroned",
-        "dwelling"
-      ],
-      "held_by": {
-        "sitting": [
-          "v1",
-          "en4"
-        ],
-        "enthroned": [
-          "v2",
-          "v3"
-        ],
-        "dwelling": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תהלות",
-      "gloss": "the praises of"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "alternative",
+      "subject": "enthroned",
+      "rationale": "yoshev tehillot may read 'who sits (dwells) amid the praises' — the throne picture is the literal sense of 'sitting' as ruling."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you ⟨are⟩ holy, enthroned upon the praises of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dae8f7b5fdc4ac65e3656106e61a8d9fcddee90b8f9cb01902ec02c087f49d7c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/1-4.1791192497792.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּה",
+      "gloss": "And you",
+      "sense": null
+    },
+    {
+      "surface": "קָדוֹשׁ",
+      "gloss": "holy",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹשֵׁב",
+      "gloss": "enthroned",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּהִלּוֹת",
+      "gloss": "the praises of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:17.793524190Z",
+  "model": "glm-5.3"
 }

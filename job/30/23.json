@@ -1,58 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "For I know ⟨that⟩ you will bring me back to death, to the house appointed for all the living.",
-  "tokens": [
+  "ref": "job 30:23",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "that",
+      "rationale": "English requires the conjunction after 'I know'; Hebrew asyndeton."
     },
     {
-      "surface": "ידעתי",
-      "gloss": "I know"
-    },
-    {
-      "surface": "מות",
-      "gloss": "death"
-    },
-    {
-      "surface": "תשיבני",
-      "gloss": "you will bring me back"
-    },
-    {
-      "surface": "ובית",
-      "gloss": "and ⟨to⟩ the house"
-    },
-    {
-      "surface": "מועד",
-      "gloss": "appointed",
-      "readings": [
-        "appointed",
-        "appointed time",
-        "assembly"
-      ],
-      "held_by": {
-        "appointed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "appointed time": [
-          "en4"
-        ],
-        "assembly": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לכל",
-      "gloss": "for all"
-    },
-    {
-      "surface": "חי",
-      "gloss": "living"
+      "kind": "mystery",
+      "subject": "the house appointed",
+      "rationale": "Death as the appointed meeting-house for all the living — a veiled image left unsmoothed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For I know ⟨that⟩ you will return me to death, ⟨to⟩ the house appointed for all living.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e78ded380a4b04c18e3e46a256fbd4ff09294185adafb7ae4e473b8dbac3ce5a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/21-24.1791194495726.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "יָ֭דַעְתִּי",
+      "gloss": "I know",
+      "sense": null
+    },
+    {
+      "surface": "מָ֣וֶת",
+      "gloss": "to death",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשִׁיבֵ֑נִי",
+      "gloss": "you will return me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵ֖ית",
+      "gloss": "and the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹעֵ֣ד",
+      "gloss": "meeting",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "for all",
+      "sense": null
+    },
+    {
+      "surface": "חָֽי",
+      "gloss": "living",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:35.727332786Z",
+  "model": "glm-5.3"
 }

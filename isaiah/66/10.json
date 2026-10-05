@@ -1,60 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Rejoice with ⟨את⟩ Jerusalem, and be glad in her, all who love her; exult ⟨את⟩ with her in joy, all who mourn over her —",
-  "tokens": [
+  "ref": "isaiah 66:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "שמחו",
-      "gloss": "Rejoice"
+      "kind": "wordplay",
+      "subject": "שישו ... משוש",
+      "rationale": "The verb שׂוּשׂ and its cognate noun מָשׂוֹשׂ share one root, a cognate-verb-noun pair the English splits into two words."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "elision",
+      "subject": "את \/ אתה",
+      "rationale": "Both את tokens here are the preposition 'with', not the object marker; they wear ⟨את⟩ and carry the sense 'with'."
+    },
+    {
+      "kind": "invitation",
+      "subject": "to all who love and mourn for Jerusalem",
+      "rationale": "Chain of four imperatives summoning the community to shared joy over Jerusalem."
+    }
+  ],
+  "translation": "Rejoice with ⟨את⟩ Jerusalem, and be glad in her, all who love her; exult ⟨את⟩ with her in exulting, all who mourn for her;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "38c7408bdcb0ea76113ba1cc80a2c851d8a4e05ecebb821cd3800d88f99cb287",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/66\/10-10.1791199185154.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׂמְחוּ",
+      "gloss": "Rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩ with",
+      "marks": "Jerusalem"
     },
     {
       "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "וגילו",
-      "gloss": "and be glad"
+      "surface": "וְגִילוּ",
+      "gloss": "and be glad",
+      "sense": "S1"
     },
     {
-      "surface": "בה",
+      "surface": "בָּהּ",
       "gloss": "in her"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "אהביה",
-      "gloss": "who love her"
+      "surface": "אֹהֲבֶיהָ",
+      "gloss": "who love her",
+      "sense": "S1"
     },
     {
-      "surface": "שישו",
-      "gloss": "exult"
+      "surface": "שִׂישׂוּ",
+      "gloss": "exult",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
-      "gloss": "⟨את⟩ ⟨with⟩ her"
+      "surface": "אִתָּהּ",
+      "gloss": "⟨את⟩ with her",
+      "marks": "her"
     },
     {
-      "surface": "משוש",
-      "gloss": "in joy"
+      "surface": "מָשׂוֹשׂ",
+      "gloss": "in exulting",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "המתאבלים",
-      "gloss": "who mourn"
+      "surface": "הַמִּתְאַבְּלִים",
+      "gloss": "who mourn",
+      "sense": "S1"
     },
     {
-      "surface": "עליה",
-      "gloss": "over her"
+      "surface": "עָלֶיהָ",
+      "gloss": "for her"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:19:45.154875698Z",
+  "model": "glm-5.3"
 }

@@ -1,88 +1,117 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And he slaughtered ⟨it⟩, and Moses took ⟨את⟩ the blood and put ⟨it⟩ upon the horns of the altar all around with his finger, and he purified ⟨את⟩ the altar, and ⟨את⟩ the blood he poured out at the base of the altar, and he consecrated it, to make atonement upon it.",
+  "ref": "leviticus 8:15",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "de-sinned",
+      "rationale": "ויחטא piel of חטא here is ritual purgation of the altar, not moral sinning; 'purify' is the common rendering"
+    },
+    {
+      "kind": "crux",
+      "subject": "to atone upon it",
+      "rationale": "לכפר עליו: 'atone for it' vs literal 'cover upon it'; כפר's base picture is covering"
+    }
+  ],
+  "translation": "And he slaughtered it, and Moses took ⟨את⟩ the blood and put it on the horns of the altar all around with his finger, and de-sinned ⟨את⟩ the altar; and ⟨את⟩ the blood he poured out at the foundation of the altar, and consecrated it, to atone upon it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "50b7c0068d01db8992631ca3090adabb10c022bb918c716c0e36c9e41c8c76db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/8\/15-15.1791197671058.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "וישחט",
-      "gloss": "And he slaughtered"
+      "gloss": "and he slaughtered it",
+      "sense": "S1"
     },
     {
       "surface": "ויקח",
-      "gloss": "and took"
+      "gloss": "and took",
+      "sense": "S1"
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the blood"
     },
     {
       "surface": "הדם",
-      "gloss": "the blood"
+      "gloss": "the blood",
+      "sense": "S1"
     },
     {
       "surface": "ויתן",
-      "gloss": "and put"
+      "gloss": "and put",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on"
     },
     {
       "surface": "קרנות",
-      "gloss": "the horns"
+      "gloss": "the horns of",
+      "sense": "S1"
     },
     {
       "surface": "המזבח",
-      "gloss": "of the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "סביב",
-      "gloss": "all around"
+      "gloss": "all around",
+      "sense": "S1"
     },
     {
       "surface": "באצבעו",
-      "gloss": "with his finger"
+      "gloss": "with his finger",
+      "sense": "S1"
     },
     {
       "surface": "ויחטא",
-      "gloss": "and purified",
-      "readings": [
-        "and purified",
-        "and purged"
-      ],
-      "held_by": {
-        "and purified": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and purged": [
-          "en4"
-        ]
-      }
+      "gloss": "and de-sinned",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the altar"
     },
     {
       "surface": "המזבח",
-      "gloss": "the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the blood"
     },
     {
       "surface": "הדם",
-      "gloss": "the blood"
+      "gloss": "the blood",
+      "sense": "S1"
     },
     {
       "surface": "יצק",
-      "gloss": "he poured out"
+      "gloss": "he poured out",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -90,40 +119,29 @@
     },
     {
       "surface": "יסוד",
-      "gloss": "the base of",
-      "readings": [
-        "the base of",
-        "the foundation of"
-      ],
-      "held_by": {
-        "the base of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the foundation of": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "the foundation of",
+      "sense": "S1"
     },
     {
       "surface": "המזבח",
-      "gloss": "of the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "ויקדשהו",
-      "gloss": "and he consecrated it"
+      "gloss": "and consecrated it",
+      "sense": "S1"
     },
     {
       "surface": "לכפר",
-      "gloss": "to make atonement"
+      "gloss": "to atone",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
       "gloss": "upon it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:54:31.059326973Z",
+  "model": "glm-5.3"
 }

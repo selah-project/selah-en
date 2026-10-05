@@ -1,45 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "If I sinned, and you watched me; and from my iniquity you would not acquit me.",
-  "tokens": [
+  "ref": "job 10:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
-    },
-    {
-      "surface": "חטאתי",
-      "gloss": "I sinned"
-    },
-    {
-      "surface": "ושמרתני",
-      "gloss": "and you watched me",
-      "readings": [
-        "and you watched me",
-        "you would watch me"
-      ],
-      "held_by": {
-        "and you watched me": [
-          "en4"
-        ],
-        "you would watch me": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ומעוני",
-      "gloss": "and from my iniquity"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תנקני",
-      "gloss": "acquit me"
+      "kind": "substitution",
+      "subject": "watched me",
+      "rationale": "שׁמר here is watch for wrongdoing, surveillance to catch — not keeping safe."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If I sinned, then you watched me, and from my iniquity you do not acquit me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7cc79801d4899339d2016df3354c1c1c1faebf267db45c350a6b76b02640182",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/10\/13-16.1791194239924.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "חָטָ֥אתִי",
+      "gloss": "I sinned",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁמַרְתַּ֫נִי",
+      "gloss": "then you watched me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמֵעֲוֺנִ֗י",
+      "gloss": "and from my iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְנַקֵּֽנִי",
+      "gloss": "you acquit me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:19.925495712Z",
+  "model": "glm-5.3"
 }

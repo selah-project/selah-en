@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Your memorials are proverbs of ashes, your defenses defenses of clay.",
-  "tokens": [
+  "ref": "job 13:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "זכרניכם",
-      "gloss": "Your memorials"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between the construct pairs"
     },
     {
-      "surface": "משלי",
-      "gloss": "proverbs of"
-    },
-    {
-      "surface": "אפר",
-      "gloss": "ashes"
-    },
-    {
-      "surface": "לגבי",
-      "gloss": "as defenses",
-      "readings": [
-        "as defenses",
-        "heights of"
-      ],
-      "held_by": {
-        "as defenses": [
-          "v2",
-          "v3"
-        ],
-        "heights of": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חמר",
-      "gloss": "clay"
-    },
-    {
-      "surface": "גביכם",
-      "gloss": "your defenses",
-      "readings": [
-        "your defenses",
-        "your heights"
-      ],
-      "held_by": {
-        "your defenses": [
-          "v2",
-          "v3"
-        ],
-        "your heights": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "גב",
+      "rationale": "rare word, sense unsure; read as a defense or mound (compare 'backs'\/'mounds'), yielding the height-defense picture of clay ramparts"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your maxims are proverbs of ashes, your defenses defenses of clay.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c4cf7cabeaeea0197e222774790278533be7c9674b98d599cb4305057ccb45e9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/13\/9-12.1791194265232.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זִכְרֹנֵיכֶם",
+      "gloss": "Your maxims",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁלֵי",
+      "gloss": "are proverbs of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵפֶר",
+      "gloss": "ashes",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְגַבֵּי",
+      "gloss": "your defenses",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹמֶר",
+      "gloss": "of clay",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּבֶּיכֶם",
+      "gloss": "defenses",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:45.233964025Z",
+  "model": "glm-5.3"
 }

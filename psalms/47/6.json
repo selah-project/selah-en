@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Elohim has ascended with a shout, YHWH with the sound of a shofar.",
-  "tokens": [
+  "ref": "psalms 47:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 47,
+  "notes": [
     {
-      "surface": "עלה",
-      "gloss": "has ascended"
+      "kind": "crux",
+      "subject": "has gone up",
+      "rationale": "עלה read as a past ascent (ark procession) or imperative-like 'goes up'; kept the plain perfect."
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "בתרועה",
-      "gloss": "with a shout",
-      "readings": [
-        "with a shout",
-        "with a trumpet-blast"
-      ],
-      "held_by": {
-        "with a shout": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "with a trumpet-blast": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בקול",
-      "gloss": "with the sound of"
-    },
-    {
-      "surface": "שופר",
-      "gloss": "a shofar"
+      "kind": "substitution",
+      "subject": "shofar",
+      "rationale": "שופר is a ram's-horn trumpet; the Hebrew word is kept for the instrument's own name."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim has gone up with a shout, YHWH with the sound of the shofar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8769a07051f7786157c8db8f2d72e992c467e31ed8a20b99caf18dfc45f90e6d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/47\/5-8.1791192738901.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָלָה",
+      "gloss": "has gone up",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּתְרוּעָה",
+      "gloss": "with a shout",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּקוֹל",
+      "gloss": "with the sound of",
+      "sense": null
+    },
+    {
+      "surface": "שׁוֹפָר",
+      "gloss": "the shofar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.902522088Z",
+  "model": "glm-5.3"
 }

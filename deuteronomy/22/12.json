@@ -1,77 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Tassels you shall make for yourself on four corners ⟨of⟩ your covering with which you cover with it.",
+  "ref": "deuteronomy 22:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "tassels",
+      "rationale": "גדלים occurs only here and 1 Kings 7:17; 'twisted cords\/braids' is the rival reading."
+    },
+    {
+      "kind": "substitution",
+      "subject": "corners",
+      "rationale": "כנפות literally 'wings'; of a garment, its four extremities."
+    }
+  ],
+  "translation": "Tassels you shall make for yourself on the four corners of your covering, with which you cover yourself.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a58afeec1732187bf229e933cdb0f5b1aff38d023c87811f2625a94ef3bfab6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/22\/9-12.1791183987142.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "גדלים",
-      "gloss": "Tassels"
+      "surface": "גְּדִלִים",
+      "gloss": "tassels",
+      "sense": null
     },
     {
-      "surface": "תעשה",
-      "gloss": "you shall make"
+      "surface": "תַּעֲשֶׂה",
+      "gloss": "you shall make",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "for yourself"
+      "surface": "לְּךָ",
+      "gloss": "for yourself",
+      "sense": null
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "on"
     },
     {
-      "surface": "ארבע",
-      "gloss": "four"
+      "surface": "אַרְבַּע",
+      "gloss": "four",
+      "sense": "S1"
     },
     {
-      "surface": "כנפות",
-      "gloss": "corners",
+      "surface": "כַּנְפוֹת",
+      "gloss": "corners of",
+      "sense": "S1",
       "readings": [
-        "corners",
-        "wings"
-      ],
-      "held_by": {
-        "corners": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "wings": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "corners of",
+        "wings of",
+        "edges of"
+      ]
     },
     {
-      "surface": "כסותך",
-      "gloss": "⟨of⟩ your covering"
+      "surface": "כְּסוּתְךָ",
+      "gloss": "your covering",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "with which"
     },
     {
-      "surface": "תכסה",
-      "gloss": "you cover"
+      "surface": "תְּכַסֶּה",
+      "gloss": "you cover yourself",
+      "sense": "S1"
     },
     {
-      "surface": "בה",
-      "gloss": "with it",
-      "readings": [
-        "with it",
-        "in it"
-      ],
-      "held_by": {
-        "with it": [
-          "v1",
-          "v2",
-          "en4"
-        ],
-        "in it": [
-          "v3"
-        ]
-      }
+      "surface": "בָּהּ",
+      "gloss": "in it",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:06:27.143367437Z",
+  "model": "glm-5.3"
 }

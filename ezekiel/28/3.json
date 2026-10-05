@@ -1,83 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Behold, you are wiser than Daniel — no secret thing was hidden from you —",
-  "tokens": [
+  "ref": "ezekiel 28:3",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Behold"
+      "kind": "crux",
+      "subject": "עממוך",
+      "rationale": "rare verb עמם 'to be like\/equal'; literally 'no secret is equal to you', i.e. has not matched or outdone you — rendered 'hidden from you' as the plain sense, literal kept as reading 2."
     },
     {
-      "surface": "חכם",
-      "gloss": "wiser"
+      "kind": "crux",
+      "subject": "Daniel",
+      "rationale": "ketiv מדנאל vs qere מדניאל; the Daniel of Ezekiel 14:14, 20, a byword for wisdom — likely the ancient Upright one, not the book's hero."
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "מדנאל",
-      "gloss": "than Daniel"
-    },
-    {
-      "surface": "כל",
-      "gloss": "no",
-      "readings": [
-        "no",
-        "every"
-      ],
-      "held_by": {
-        "no": [
-          "v2",
-          "v3"
-        ],
-        "every": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "סתום",
-      "gloss": "secret thing",
-      "readings": [
-        "secret thing",
-        "hidden thing"
-      ],
-      "held_by": {
-        "secret thing": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "hidden thing": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "עממוך",
-      "gloss": "was hidden from you",
-      "readings": [
-        "was hidden from you",
-        "did they obscure from you"
-      ],
-      "held_by": {
-        "was hidden from you": [
-          "v2",
-          "v3"
-        ],
-        "did they obscure from you": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "mystery",
+      "subject": "סתום",
+      "rationale": "the verse turns on sealed, shut-up knowledge the prince claims to possess."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, you are wiser than Daniel; no secret thing is hidden from you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0d01c3734d8b4423a52b7f707269365e76851a04dd77f69e8951ee993cc04e3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/28\/1-4.1791190769162.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִנֵּ֥ה",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "חָכָ֛ם",
+      "gloss": "wiser",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּ֖ה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "מִדָּנֵ֖אל",
+      "gloss": "than Daniel",
+      "sense": "S4"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "any",
+      "sense": null
+    },
+    {
+      "surface": "סָת֥וּם",
+      "gloss": "secret thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲמָמֽוּךָ",
+      "gloss": "is hidden from you",
+      "sense": "S1",
+      "readings": [
+        "is hidden from you",
+        "is like you"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T08:59:29.163683350Z",
+  "model": "glm-5.3"
 }

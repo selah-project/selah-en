@@ -1,54 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And shook off Pharaoh and his army in the Sea of Suf, for His chesed endures forever.",
+  "ref": "psalms 136:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "shook off",
+      "rationale": "SDBH pictures the verb literally as shaking something off into the sea — kept the physical picture rather than 'overthrew'."
+    }
+  ],
+  "translation": "and shook off Pharaoh and his army into the Sea of Reeds, for His chesed endures forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1bb8e655158dc5285dc3a54d1eccddab775a7fcf85a4947385b397c882e8e39d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/13-16.1791193567034.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ונער",
-      "gloss": "and shook off"
+      "surface": "וְנִ֘עֵ֤ר",
+      "gloss": "and shook off",
+      "sense": "S1"
     },
     {
-      "surface": "פרעה",
-      "gloss": "Pharaoh"
+      "surface": "פַּרְעֹ֣ה",
+      "gloss": "Pharaoh",
+      "sense": "S1"
     },
     {
-      "surface": "וחילו",
-      "gloss": "and his army"
+      "surface": "וְחֵיל֣וֹ",
+      "gloss": "and his army",
+      "sense": "S1"
     },
     {
-      "surface": "בים",
-      "gloss": "in the sea"
+      "surface": "בְּיַם",
+      "gloss": "into the sea of"
     },
     {
-      "surface": "סוף",
-      "gloss": "of Suf"
+      "surface": "ס֑וּף",
+      "gloss": "reeds",
+      "sense": "S1",
+      "readings": [
+        "reeds",
+        "the Red Sea"
+      ]
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֖י",
       "gloss": "for"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּֽוֹ",
       "gloss": "His chesed",
+      "sense": "S1",
       "readings": [
         "His chesed",
         "His steadfast love"
-      ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:07.035324175Z",
+  "model": "glm-5.3"
 }

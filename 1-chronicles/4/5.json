@@ -1,55 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And to Ashhur, the father of Tekoa, there were two wives: Helah and Naarah.",
+  "ref": "1-chronicles 4:5",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there",
+      "rationale": "English existential construction for Hebrew היו"
+    },
+    {
+      "kind": "crux",
+      "subject": "אֲבִי תְּקוֹעַ",
+      "rationale": "'father of Tekoa' — founder of the town rather than literal parent, per the genealogical idiom"
+    }
+  ],
+  "translation": "And to Ashchur, father of Tekoa, there were two women: Chelah and Naarah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bdb9a1792a7c9466bf4a87a71c55f3b258745a2ad2afbdff8a95d7f47689aebd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/4\/5-8.1791196048670.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ולאשחור",
-      "gloss": "And to Ashhur"
+      "surface": "וּלְאַשְׁחוּר",
+      "gloss": "And to Ashchur",
+      "sense": "S1"
     },
     {
-      "surface": "אבי",
-      "gloss": "the father of"
+      "surface": "אֲבִי",
+      "gloss": "father of",
+      "sense": "S1"
     },
     {
-      "surface": "תקוע",
-      "gloss": "Tekoa"
+      "surface": "תְּקוֹעַ",
+      "gloss": "Tekoa",
+      "sense": "S1"
     },
     {
-      "surface": "היו",
+      "surface": "הָיוּ",
       "gloss": "there were"
     },
     {
-      "surface": "שתי",
-      "gloss": "two"
+      "surface": "שְׁתֵּי",
+      "gloss": "two",
+      "sense": "S1"
     },
     {
-      "surface": "נשים",
-      "gloss": "wives",
-      "readings": [
-        "wives",
-        "women"
-      ],
-      "held_by": {
-        "wives": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "women": [
-          "en4"
-        ]
-      }
+      "surface": "נָשִׁים",
+      "gloss": "women",
+      "sense": "S1"
     },
     {
-      "surface": "חלאה",
-      "gloss": "Helah"
+      "surface": "חֶלְאָה",
+      "gloss": "Chelah",
+      "sense": "S1"
     },
     {
-      "surface": "ונערה",
-      "gloss": "and Naarah"
+      "surface": "וְנַעֲרָה",
+      "gloss": "and Naarah",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:27:28.671457487Z",
+  "model": "glm-5.3"
 }

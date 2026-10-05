@@ -1,51 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Say to wisdom, “You are my sister,” and to understanding call “kinsman”:",
-  "tokens": [
+  "ref": "proverbs 7:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "אמר",
-      "gloss": "Say"
+      "kind": "hapax",
+      "subject": "מֹדָע",
+      "rationale": "'Kinsman, close relative' occurs only here in the Tanakh."
     },
     {
-      "surface": "לחכמה",
-      "gloss": "to wisdom"
+      "kind": "addition",
+      "subject": "⟨her⟩",
+      "rationale": "English needs the object pronoun for 'call kinsman'; Hebrew leaves it implicit."
     },
     {
-      "surface": "אחתי",
-      "gloss": "my sister"
+      "kind": "crux",
+      "subject": "אָתְּ",
+      "rationale": "Though its consonants match the את marker, the pointing marks the feminine pronoun 'you' — 'My sister you are', not the direct-object sign."
     },
     {
-      "surface": "את",
-      "gloss": "you"
-    },
-    {
-      "surface": "ומדע",
-      "gloss": "and kinsman",
-      "readings": [
-        "and kinsman",
-        "and knowledge"
-      ],
-      "held_by": {
-        "and kinsman": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and knowledge": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבינה",
-      "gloss": "to understanding"
-    },
-    {
-      "surface": "תקרא",
-      "gloss": "call"
+      "kind": "invitation",
+      "subject": "personified Wisdom",
+      "rationale": "The verse summons the reader into kinship address with Wisdom and Understanding."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Say to Wisdom, “My sister you are,” and to Understanding call ⟨her⟩ kinsman.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9ea0f032ad37e26553cd873bb8f23e1367ac57ee0f1ce8e13d06b836883fd07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/7\/1-4.1791193760589.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱמֹר",
+      "gloss": "Say",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחָכְמָה",
+      "gloss": "to Wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲחֹתִי",
+      "gloss": "My sister",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָתְּ",
+      "gloss": "you ⟨are⟩",
+      "sense": null
+    },
+    {
+      "surface": "וּמֹדָע",
+      "gloss": "and kinsman",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבִּינָה",
+      "gloss": "to Understanding",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּקְרָא",
+      "gloss": "call",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:20.591037163Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "Blessed ⟨is⟩ YHWH from Zion, dwelling ⟨in⟩ Jerusalem. Praise Yah!",
-  "tokens": [
+  "ref": "psalms 135:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 135,
+  "notes": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks copula; participle stands as predicate"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "⟨in⟩",
+      "rationale": "Hebrew participle שכן takes Jerusalem directly; English needs the preposition"
     },
     {
-      "surface": "מציון",
-      "gloss": "from Zion"
-    },
-    {
-      "surface": "שכן",
-      "gloss": "dwelling"
-    },
-    {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
-    },
-    {
-      "surface": "הללו",
-      "gloss": "Praise"
-    },
-    {
-      "surface": "יה",
-      "gloss": "Yah"
+      "kind": "invitation",
+      "subject": "Praise Yah",
+      "rationale": "closing imperative summons the congregation to praise"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Blessed is YHWH from Zion, who dwells ⟨in⟩ Jerusalem. Praise Yah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "984c39dee290639f895abf0d8713678e6ea57962a1ad238d445e8fc2de095348",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/135\/21-21.1791193553575.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּר֗וּךְ",
+      "gloss": "Blessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֨ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצִּיּ֗וֹן",
+      "gloss": "from Zion",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁ֘כֵ֤ן",
+      "gloss": "who dwells",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְֽרוּשָׁלִָ֗ם",
+      "gloss": "Jerusalem",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַֽלְל֣וּ",
+      "gloss": "Praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָֽהּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:53.576326642Z",
+  "model": "glm-5.3"
 }

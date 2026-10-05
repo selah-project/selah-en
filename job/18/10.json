@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Hidden in the ground is his rope, and his trap upon the path.",
-  "tokens": [
+  "ref": "job 18:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "טמון",
-      "gloss": "hidden"
+      "kind": "hapax",
+      "subject": "מלכדת",
+      "rationale": "This word for snare occurs only here in the Tanakh."
     },
     {
-      "surface": "בארץ",
-      "gloss": "in the ground"
-    },
-    {
-      "surface": "חבלו",
-      "gloss": "his rope",
-      "readings": [
-        "his rope",
-        "his snare",
-        "his destruction"
-      ],
-      "held_by": {
-        "his rope": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his snare": [
-          "v1"
-        ],
-        "his destruction": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ומלכדתו",
-      "gloss": "and his trap"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "upon"
-    },
-    {
-      "surface": "נתיב",
-      "gloss": "the path"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "English requires a copula for the participle; Hebrew has none."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His rope is hidden in the ground, and his snare upon the path.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b6a2a631fe82e1c2bc372d78c2c9e2deb7699fe4406c939a4631ed334cb2004",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/18\/9-12.1791194323535.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טָמ֣וּן",
+      "gloss": "is hidden",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאָ֣רֶץ",
+      "gloss": "in the ground",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַבְל֑וֹ",
+      "gloss": "his rope",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝מַלְכֻּדְתּ֗וֹ",
+      "gloss": "and his snare",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵ֣י",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "נָתִֽיב",
+      "gloss": "the path",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:43.536090458Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And my enemies — You have given me the neck; and those who hate me — I cut them off.",
-  "tokens": [
+  "ref": "psalms 18:41",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "ואיבי",
-      "gloss": "and my enemies"
+      "kind": "idiom",
+      "subject": "neck",
+      "rationale": "עֹרֶף: to give the neck is to make the enemy turn and flee — the literal picture kept"
     },
     {
-      "surface": "נתתה",
-      "gloss": "You have given"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "ערף",
-      "gloss": "the neck"
-    },
-    {
-      "surface": "ומשנאי",
-      "gloss": "and those who hate me"
-    },
-    {
-      "surface": "אצמיתם",
-      "gloss": "I cut them off",
-      "readings": [
-        "I cut them off",
-        "I destroyed them"
-      ],
-      "held_by": {
-        "I cut them off": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I destroyed them": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "אצמיתם",
+      "rationale": "Psalm has imperfect ‘I destroy them’; 2 Sam 22:41 has wayyiqtol ‘and I destroyed them’"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And my enemies you gave me ⟨את⟩ the neck; those who hate me I destroy them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a6aba5e932e856b3d3d2fe88f871ab393b7a01dd181e92040d688b2c1a7575ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/41-44.1791192480932.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְֽאֹיְבַ֗י",
+      "gloss": "And my enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַ֣תָּה",
+      "gloss": "you gave",
+      "sense": null
+    },
+    {
+      "surface": "לִּ֣י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "עֹ֑רֶף",
+      "gloss": "the neck",
+      "readings": [
+        "the neck",
+        "the back for flight"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝מְשַׂנְאַ֗י",
+      "gloss": "and those who hate me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַצְמִיתֵֽם",
+      "gloss": "I destroy them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:00.933415174Z",
+  "model": "glm-5.3"
 }

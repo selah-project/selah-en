@@ -1,72 +1,137 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "For you, my Elohim, have uncovered ⟨את⟩ the ear of your servant, to build for him a house; therefore your servant has found ⟨courage⟩ to pray before you.",
-  "tokens": [
+  "ref": "1-chronicles 17:25",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Hebrew lacks a copula between 'you' and 'my Elohim'"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "idiom",
+      "subject": "uncovered the ear",
+      "rationale": "גלה אזן, literally 'uncover the ear' = to disclose information to someone"
     },
     {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
+      "kind": "crux",
+      "subject": "found",
+      "rationale": "2 Sam 7:27 reads מצא את לבו 'found his heart' (=found courage); Chronicles drops 'heart', so the object is supplied in English"
     },
     {
-      "surface": "גלית",
-      "gloss": "have uncovered"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אזן",
-      "gloss": "the ear"
-    },
-    {
-      "surface": "עבדך",
-      "gloss": "of your servant"
-    },
-    {
-      "surface": "לבנות",
-      "gloss": "to build"
-    },
-    {
-      "surface": "לו",
-      "gloss": "for him"
-    },
-    {
-      "surface": "בית",
-      "gloss": "a house"
-    },
-    {
-      "surface": "על",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "כן",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "מצא",
-      "gloss": "has found"
-    },
-    {
-      "surface": "עבדך",
-      "gloss": "your servant"
-    },
-    {
-      "surface": "להתפלל",
-      "gloss": "to pray"
-    },
-    {
-      "surface": "לפניך",
-      "gloss": "before you"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "David's prayer addresses Elohim directly throughout"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you ⟨are⟩ my Elohim — you uncovered ⟨את⟩ the ear of your servant, to build for him a house; therefore your servant found ⟨courage⟩ to pray before you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "116fb28fc5c644a2dcde893b93d9e92f8e36a84c9db2b63d8bc29ba8646fe32f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/17\/25-27.1791196313876.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהַי",
+      "gloss": "my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּלִיתָ",
+      "gloss": "you uncovered",
+      "readings": [
+        "you uncovered",
+        "you revealed"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the ear of your servant",
+      "sense": null
+    },
+    {
+      "surface": "אֹזֶן",
+      "gloss": "the ear",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַבְדְּךָ",
+      "gloss": "of your servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְנוֹת",
+      "gloss": "to build",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "for him",
+      "sense": null
+    },
+    {
+      "surface": "בָּיִת",
+      "gloss": "a house",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "therefore ⟨upon⟩",
+      "readings": [
+        "therefore ⟨upon⟩",
+        "upon"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "כֵן",
+      "gloss": "therefore",
+      "sense": null
+    },
+    {
+      "surface": "מָצָא",
+      "gloss": "found",
+      "readings": [
+        "found"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עַבְדְּךָ",
+      "gloss": "your servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהִתְפַּלֵּל",
+      "gloss": "to pray",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפָנֶיךָ",
+      "gloss": "before you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:53.877666470Z",
+  "model": "glm-5.3"
 }

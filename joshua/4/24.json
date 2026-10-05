@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "So that all the peoples of the earth may know ⟨את⟩ the hand of YHWH — that it is mighty — and so that you may fear ⟨את⟩ YHWH your Elohim all the days.",
+  "ref": "joshua 4:24",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew nominal clause חזקה היא has no expressed copula beyond the pronoun"
+    },
+    {
+      "kind": "substitution",
+      "subject": "fear",
+      "rationale": "ירא denotes fear that shades into reverence; English splits the senses"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Closing purpose clause addressed to Israel in the second person plural"
+    }
+  ],
+  "translation": "so that all the peoples of the earth may know ⟨את⟩ the hand of YHWH, that it is strong; so that you may fear ⟨את⟩ YHWH your Elohim all the days.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56e8681da5ef88c14cf96e423eb7ace486c4d3f569f7e23def147df67ab0bc6b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/4\/21-24.1791184359689.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
       "surface": "למען",
@@ -16,38 +48,28 @@
     },
     {
       "surface": "עמי",
-      "gloss": "the peoples of"
+      "gloss": "the peoples of",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
       "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the hand of YHWH"
     },
     {
       "surface": "יד",
-      "gloss": "the hand of"
+      "gloss": "the hand of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -55,31 +77,37 @@
     },
     {
       "surface": "חזקה",
-      "gloss": "mighty"
+      "gloss": "strong",
+      "sense": "S1"
     },
     {
       "surface": "היא",
-      "gloss": "it is"
+      "gloss": "it is",
+      "sense": null
     },
     {
       "surface": "למען",
-      "gloss": "and so that"
+      "gloss": "so that"
     },
     {
       "surface": "יראתם",
-      "gloss": "you may fear"
+      "gloss": "you may fear",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "YHWH your Elohim"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהיכם",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "כל",
@@ -87,9 +115,10 @@
     },
     {
       "surface": "הימים",
-      "gloss": "the days"
+      "gloss": "the days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:12:39.690584375Z",
+  "model": "glm-5.3"
 }

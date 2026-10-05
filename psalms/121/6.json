@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "By day the sun shall not strike you, nor the moon in the night.",
-  "tokens": [
+  "ref": "psalms 121:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 121,
+  "notes": [
     {
-      "surface": "יומם",
-      "gloss": "By day"
+      "kind": "alternative",
+      "subject": "strike",
+      "rationale": "נכה hiphil can mean strike or disease-afflict; 'strike' keeps the literal action"
     },
     {
-      "surface": "השמש",
-      "gloss": "the sun"
-    },
-    {
-      "surface": "לא",
-      "gloss": "shall not"
-    },
-    {
-      "surface": "יככה",
-      "gloss": "strike you"
-    },
-    {
-      "surface": "וירח",
-      "gloss": "and the moon",
-      "readings": [
-        "and the moon",
-        "nor the moon"
-      ]
-    },
-    {
-      "surface": "בלילה",
-      "gloss": "in the night"
+      "kind": "mystery",
+      "subject": "the moon by night",
+      "rationale": "ancient belief in moon-stroke (moonstroke) behind the phrase, opaque to a modern reader"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "By day the sun will not strike you, nor the moon by night.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea4360178d6439241b7d6ea33d640f321496cd25c900c2df8bd1004ba4e28836",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/121\/5-8.1791193507395.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יוֹמָ֗ם",
+      "gloss": "By day",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשֶּׁ֥מֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַכֶּ֗ךָ",
+      "gloss": "will strike you",
+      "sense": null
+    },
+    {
+      "surface": "וְיָרֵ֥חַ",
+      "gloss": "and the moon",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּלַּֽיְלָה",
+      "gloss": "by night",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:07.396546972Z",
+  "model": "glm-5.3"
 }

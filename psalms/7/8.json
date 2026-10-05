@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And let the assembly of the peoples surround you; and over it return on high.",
-  "tokens": [
+  "ref": "psalms 7:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "ועדת",
-      "gloss": "and let the assembly"
+      "kind": "crux",
+      "subject": "return",
+      "rationale": "שׁוּבָה written 'return' but read יָשׁוֹב\/שְׁכֹנָה 'dwell, sit (in judgment)' — 'sit on high over it' is the ancient reading; ketiv kept as ground"
     },
     {
-      "surface": "לאמים",
-      "gloss": "of the peoples"
-    },
-    {
-      "surface": "תסובבך",
-      "gloss": "surround you"
-    },
-    {
-      "surface": "ועליה",
-      "gloss": "and over it",
-      "readings": [
-        "and over it",
-        "and over them"
-      ],
-      "held_by": {
-        "and over it": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and over them": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למרום",
-      "gloss": "on high"
-    },
-    {
-      "surface": "שובה",
-      "gloss": "return"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "imperative continues the direct address of verse 7"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and let the assembly of peoples surround you, and over it — to the height — return.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f11cc81e7082f978e87e9bd57c16b4485e233aaf1b914fce57954531ccbc074",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/7\/5-8.1791192406726.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַעֲדַ֣ת",
+      "gloss": "and the assembly",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֭אֻמִּים",
+      "gloss": "of peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּסוֹבְבֶ֑ךָּ",
+      "gloss": "surround you",
+      "sense": null
+    },
+    {
+      "surface": "וְ֝עָלֶ֗יהָ",
+      "gloss": "and over it",
+      "sense": null
+    },
+    {
+      "surface": "לַמָּר֥וֹם",
+      "gloss": "to the height",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֽׁוּבָה",
+      "gloss": "return",
+      "readings": [
+        "return",
+        "dwell"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:46.728392324Z",
+  "model": "glm-5.3"
 }

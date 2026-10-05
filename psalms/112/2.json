@@ -1,52 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Mighty in the land shall his seed be; the generation of the upright shall be blessed.",
+  "ref": "psalms 112:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 112,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "word order",
+      "rationale": "Fronted predicates גִּבּוֹר \/ דּוֹר יְשָׁרִים frame the verse chiastically around זַרְעוֹ"
+    }
+  ],
+  "translation": "Mighty in the land will his seed be; a generation of the upright will be blessed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3920b737e1aa00b39e90e40e8c29bf35a65af54192023eac3837068b49daa224",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/112\/1-4.1791193386967.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "גבור",
-      "gloss": "Mighty"
+      "surface": "גִּבּוֹר",
+      "gloss": "Mighty",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
+      "surface": "בָּאָרֶץ",
       "gloss": "in the land",
+      "sense": "S1",
       "readings": [
         "in the land",
         "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the earth": [
-          "v1",
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "יהיה",
-      "gloss": "shall be"
+      "surface": "יִהְיֶה",
+      "gloss": "will be"
     },
     {
-      "surface": "זרעו",
-      "gloss": "his seed"
+      "surface": "זַרְעוֹ",
+      "gloss": "his seed",
+      "sense": "S1"
     },
     {
-      "surface": "דור",
-      "gloss": "the generation"
+      "surface": "דּוֹר",
+      "gloss": "a generation of",
+      "sense": "S1"
     },
     {
-      "surface": "ישרים",
-      "gloss": "of the upright"
+      "surface": "יְשָׁרִים",
+      "gloss": "the upright",
+      "sense": "S1"
     },
     {
-      "surface": "יברך",
-      "gloss": "shall be blessed"
+      "surface": "יְבֹרָךְ",
+      "gloss": "will be blessed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:06.968433054Z",
+  "model": "glm-5.3"
 }

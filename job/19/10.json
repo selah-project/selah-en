@@ -1,32 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "He tears me down on every side, and I am gone; and he has uprooted my hope like a tree.",
-  "tokens": [
+  "ref": "job 19:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "יתצני",
-      "gloss": "he tears me down"
+      "kind": "alternative",
+      "subject": "and I go",
+      "rationale": "ואלך may read simply 'I go away' or the stronger 'I perish' (going the one-way road of death)."
     },
     {
-      "surface": "סביב",
-      "gloss": "on every side"
-    },
-    {
-      "surface": "ואלך",
-      "gloss": "and I am gone"
-    },
-    {
-      "surface": "ויסע",
-      "gloss": "and he has uprooted"
-    },
-    {
-      "surface": "כעץ",
-      "gloss": "like ⟨a⟩ tree"
-    },
-    {
-      "surface": "תקותי",
-      "gloss": "my hope"
+      "kind": "wordplay",
+      "subject": "pulls up like a tree",
+      "rationale": "תקוה is literally a cord; the uprooted-tree image and the severed cord both carry the picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He tears me down on every side, and I go, and he pulls up my hope like a tree.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35c2819a29882166c3c2659e7ab4e841a64335fae4d9f81516f4ecd1b6b3ad77",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/9-12.1791194339630.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִתְּצֵנִי",
+      "gloss": "He tears me down",
+      "sense": "S1"
+    },
+    {
+      "surface": "סָבִיב",
+      "gloss": "on every side",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאֵלַךְ",
+      "gloss": "and I go",
+      "sense": "S1",
+      "readings": [
+        "and I go",
+        "and I perish"
+      ]
+    },
+    {
+      "surface": "וַיַּסַּע",
+      "gloss": "and he pulls up",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּעֵץ",
+      "gloss": "like a tree",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּקְוָתִי",
+      "gloss": "my hope",
+      "sense": "S1",
+      "readings": [
+        "my hope",
+        "my cord"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:59.630919042Z",
+  "model": "glm-5.3"
 }

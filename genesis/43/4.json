@@ -1,62 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "If ⟨you are⟩ sending ⟨את⟩ our brother with ⟨את⟩ us, we will go down and buy food for you.",
-  "tokens": [
+  "ref": "genesis 43:4",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "kind": "addition",
+      "subject": "you are",
+      "rationale": "Hebrew participle with יש lacks an English copula"
     },
     {
-      "surface": "ישך",
-      "gloss": "you are willing"
-    },
-    {
-      "surface": "משלח",
-      "gloss": "sending"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אחינו",
-      "gloss": "our brother"
-    },
-    {
-      "surface": "אתנו",
-      "gloss": "with ⟨את⟩ us"
-    },
-    {
-      "surface": "נרדה",
-      "gloss": "we will go down"
-    },
-    {
-      "surface": "ונשברה",
-      "gloss": "and buy",
-      "readings": [
-        "and buy",
-        "and buy grain"
-      ],
-      "held_by": {
-        "and buy": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and buy grain": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לך",
-      "gloss": "for you"
-    },
-    {
-      "surface": "אכל",
-      "gloss": "food"
+      "kind": "elision",
+      "subject": "אתנו",
+      "rationale": "preposition 'with' wears the ⟨את⟩ marker per convention though here it is the companion-preposition, not the object marker"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If you are sending ⟨את⟩ our brother with us, we will go down and buy food for you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cd4ef059444411960c9996838fbda8745fab5e0a44d57fd310fd77420b4173c3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/43\/4-4.1791197365175.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "יֶשְׁךָ֛",
+      "gloss": "you are",
+      "sense": null
+    },
+    {
+      "surface": "מְשַׁלֵּ֥חַ",
+      "gloss": "sending",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "our brother",
+      "sense": null
+    },
+    {
+      "surface": "אָחִ֖ינוּ",
+      "gloss": "our brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתָּ֑נוּ",
+      "gloss": "with ⟨את⟩ us",
+      "sense": null
+    },
+    {
+      "surface": "נֵרְדָ֕ה",
+      "gloss": "we will go down",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִשְׁבְּרָ֥ה",
+      "gloss": "and buy",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ֖",
+      "gloss": "for you",
+      "sense": null
+    },
+    {
+      "surface": "אֹֽכֶל",
+      "gloss": "food",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:49:25.175759870Z",
+  "model": "glm-5.3"
 }

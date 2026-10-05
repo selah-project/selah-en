@@ -1,48 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "How can I bear alone your burden, and your load, and your strife?",
-  "tokens": [
+  "ref": "deuteronomy 1:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "איכה",
-      "gloss": "How"
+      "kind": "wordplay",
+      "subject": "אשא\/משאכם",
+      "rationale": "the verb 'bear' and the noun 'load' share the root נשא — carrying a massa"
     },
     {
-      "surface": "אשא",
-      "gloss": "can I bear"
-    },
-    {
-      "surface": "לבדי",
-      "gloss": "alone",
-      "readings": [
-        "alone",
-        "by myself"
-      ],
-      "held_by": {
-        "alone": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "by myself": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "טרחכם",
-      "gloss": "your burden"
-    },
-    {
-      "surface": "ומשאכם",
-      "gloss": "and your load"
-    },
-    {
-      "surface": "וריבכם",
-      "gloss": "and your strife"
+      "kind": "invitation",
+      "subject": "rhetorical question",
+      "rationale": "How can I bear — a question drawing the hearer into Moses' dilemma"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How can I bear by myself alone your burden, and your load, and your strife?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f0eebd04a181cb4df2cb35ccb274ca64a10737ce39c394f6dda5165f053cab25",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/1\/9-12.1791183565373.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵיכָ֥ה",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשָּׂ֖א",
+      "gloss": "can I bear",
+      "readings": [
+        "can I bear",
+        "I bear"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבַדִּ֑י",
+      "gloss": "by myself alone",
+      "sense": "S1"
+    },
+    {
+      "surface": "טָרְחֲכֶ֥ם",
+      "gloss": "your burden",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמַֽשַּׂאֲכֶ֖ם",
+      "gloss": "and your load",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרִיבְכֶֽם",
+      "gloss": "and your strife",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:59:25.385865270Z",
+  "model": "glm-5.3"
 }

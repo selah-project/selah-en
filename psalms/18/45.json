@@ -1,84 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 45,
-  "translation": "At the hearing of the ear they will obey me; sons of the foreigner will feign obedience to me.",
+  "ref": "psalms 18:45",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "will feign-submission",
+      "rationale": "כחשׁ piel here is submitting under duress while disowning one's words; 'lie' alone loses the forced-homage picture"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שׁמע ... ישמעו",
+      "rationale": "noun שׁמע and verb שׁמע in one clause, 'at the hearing they will hear', lost in English"
+    },
+    {
+      "kind": "crux",
+      "subject": "2 Samuel 22:45 order",
+      "rationale": "the parallel reverses the two half-lines; Psalm form foregrounds the hearing"
+    }
+  ],
+  "translation": "At the report of the ear they will hear me; sons of the foreigner will feign-submission to me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "23ef39fa7d51f96623b72f571cd7ff6f9f413b8ee2e16cb5b40e3039093fdf34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/45-48.1791192478614.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לשמע",
-      "gloss": "At the hearing of"
+      "surface": "לְשֵׁ֣מַֽע",
+      "gloss": "at the report of",
+      "sense": "S1"
     },
     {
-      "surface": "אזן",
-      "gloss": "the ear"
+      "surface": "אֹ֭זֶן",
+      "gloss": "the ear",
+      "sense": "S1"
     },
     {
-      "surface": "ישמעו",
-      "gloss": "they will obey",
-      "readings": [
-        "they will obey",
-        "they will hear"
-      ],
-      "held_by": {
-        "they will obey": [
-          "v1",
-          "v3"
-        ],
-        "they will hear": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יִשָּ֣מְעוּ",
+      "gloss": "they will hear",
+      "sense": null
     },
     {
-      "surface": "לי",
+      "surface": "לִ֑י",
       "gloss": "me"
     },
     {
-      "surface": "בני",
-      "gloss": "sons of"
+      "surface": "בְּנֵֽי",
+      "gloss": "sons of",
+      "sense": "S1"
     },
     {
-      "surface": "נכר",
+      "surface": "נֵ֝כָ֗ר",
       "gloss": "the foreigner",
-      "readings": [
-        "the foreigner",
-        "foreignness"
-      ],
-      "held_by": {
-        "the foreigner": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "foreignness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יכחשו",
-      "gloss": "will feign obedience",
-      "readings": [
-        "will feign obedience",
-        "will dwindle"
-      ],
-      "held_by": {
-        "will feign obedience": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will dwindle": [
-          "en4"
-        ]
-      }
+      "surface": "יְכַחֲשׁ֣וּ",
+      "gloss": "will feign-submission",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִֽי",
       "gloss": "to me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:27:58.615367764Z",
+  "model": "glm-5.3"
 }

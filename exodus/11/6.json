@@ -1,18 +1,47 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "and there shall be a great cry in all the land of Egypt, such as has not been, and such as shall not be again.",
+  "ref": "exodus 11:6",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "והיתה \/ נהיתה",
+      "rationale": "two forms of היה frame the verse: 'it will be' … 'it has come to be', a before-and-after mirror."
+    },
+    {
+      "kind": "measurement",
+      "subject": "never been, never again",
+      "rationale": "the verse measures the shout against all of time — unique in the past, unmatched in the future."
+    }
+  ],
+  "translation": "And there will be a great shout in all the land of Egypt, the like of which has never been, and the like of which will not be added again.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dddca60388d9f4ddf1ff2dc5f7baf03fbe96304f9805521dbb5592847093f67c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/11\/6-8.1791197463576.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
   "tokens": [
     {
       "surface": "והיתה",
-      "gloss": "and there shall be"
+      "gloss": "and there will be"
     },
     {
       "surface": "צעקה",
-      "gloss": "a cry"
+      "gloss": "shout",
+      "sense": "S1"
     },
     {
       "surface": "גדלה",
-      "gloss": "great"
+      "gloss": "great",
+      "sense": "S1"
     },
     {
       "surface": "בכל",
@@ -20,15 +49,17 @@
     },
     {
       "surface": "ארץ",
-      "gloss": "the land of"
+      "gloss": "land of",
+      "sense": "S1"
     },
     {
       "surface": "מצרים",
-      "gloss": "Egypt"
+      "gloss": "Egypt",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "such as"
+      "gloss": "which"
     },
     {
       "surface": "כמהו",
@@ -36,11 +67,12 @@
     },
     {
       "surface": "לא",
-      "gloss": "has not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "נהיתה",
-      "gloss": "been"
+      "gloss": "has been done"
     },
     {
       "surface": "וכמהו",
@@ -48,13 +80,14 @@
     },
     {
       "surface": "לא",
-      "gloss": "shall not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "תסף",
-      "gloss": "be again"
+      "gloss": "will be added"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:51:03.577617002Z",
+  "model": "glm-5.3"
 }

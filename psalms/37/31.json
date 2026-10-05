@@ -1,32 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 31,
-  "translation": "The Torah of his Elohim ⟨is⟩ in his heart; his steps shall not waver.",
+  "ref": "psalms 37:31",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the construct phrase and the prepositional phrase."
+    },
+    {
+      "kind": "crux",
+      "subject": "torah",
+      "rationale": "SDBH sense is YHWH's collection of laws; 'teaching' keeps the wider register, 'law' the narrower."
+    }
+  ],
+  "translation": "The teaching of his Elohim is in his heart; his steps will not slip.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1de30fb2e18818238717dd34f0e1d75b54651374066e9377977a9473fc2129f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/29-32.1791192639348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תורת",
-      "gloss": "the Torah of"
+      "surface": "תּוֹרַת",
+      "gloss": "The teaching of",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיו",
-      "gloss": "his Elohim"
+      "surface": "אֱלֹהָיו",
+      "gloss": "his Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "בלבו",
-      "gloss": "in his heart"
+      "surface": "בְּלִבּוֹ",
+      "gloss": "is in his heart",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תמעד",
-      "gloss": "shall waver"
+      "surface": "תִּמְעַד",
+      "gloss": "will slip",
+      "sense": "S1"
     },
     {
-      "surface": "אשריו",
+      "surface": "אֲשֻׁרָיו",
       "gloss": "his steps"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:39.349382956Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "The fruit of the righteous is a tree of life, and one who takes souls is wise.",
+  "ref": "proverbs 11:30",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "souls",
+      "rationale": "נפש is throat\/life-force\/breathing person, not the Greek 'soul'."
+    },
+    {
+      "kind": "crux",
+      "subject": "takes souls",
+      "rationale": "Read as wins souls (draws people to wisdom); some read 'takes lives' (destroys), following the verb's neutral sense."
+    },
+    {
+      "kind": "alternative",
+      "subject": "a tree of life",
+      "rationale": "Some render 'a life-giving tree' as apposition rather than predicate."
+    }
+  ],
+  "translation": "The fruit of the righteous is a tree of life, and the one who takes souls is wise.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "20e0d3d904ab9487418ed88e02586947d67a90cbcf17b87c06af4233dc8cf196",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/11\/29-31.1791193810819.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "פרי",
-      "gloss": "the fruit of"
+      "surface": "פְּֽרִי",
+      "gloss": "the fruit of",
+      "sense": "S1"
     },
     {
-      "surface": "צדיק",
-      "gloss": "the righteous"
+      "surface": "צַ֭דִּיק",
+      "gloss": "the righteous",
+      "sense": "S1"
     },
     {
-      "surface": "עץ",
-      "gloss": "a tree of"
+      "surface": "עֵ֣ץ",
+      "gloss": "a tree of",
+      "sense": "S1"
     },
     {
-      "surface": "חיים",
-      "gloss": "life"
+      "surface": "חַיִּ֑ים",
+      "gloss": "life",
+      "sense": "S1"
     },
     {
-      "surface": "ולקח",
-      "gloss": "and one who takes"
+      "surface": "וְלוֹקֵ֖חַ",
+      "gloss": "and the one who takes",
+      "sense": "S1"
     },
     {
-      "surface": "נפשות",
+      "surface": "נְפָשׂ֣וֹת",
       "gloss": "souls",
       "readings": [
         "souls",
-        "lives"
+        "lives",
+        "persons"
       ],
-      "held_by": {
-        "souls": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "lives": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חכם",
-      "gloss": "is wise"
+      "surface": "חָכָֽם",
+      "gloss": "is wise",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:10.820046350Z",
+  "model": "glm-5.3"
 }

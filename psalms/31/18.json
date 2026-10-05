@@ -1,60 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "YHWH, let me not be ashamed, for I have called on you; let the wicked be ashamed, let them be silent ⟨unto⟩ Sheol.",
+  "ref": "psalms 31:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "let them be silent for Sheol",
+      "rationale": "יִדְּמוּ לִשְׁאוֹל read as 'be silent, go down to Sheol' or 'perish into Sheol'; דמם covers both silence and cessation."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct petition addressed to YHWH."
+    }
+  ],
+  "translation": "YHWH, let me not be ashamed, for I have called on you; let the wicked be ashamed, let them be silent for Sheol.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e10d90b76af27c7ede71e4dcf74043a4de564259e1cb4ea3a2dfbc860951e2ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/31\/17-20.1791192584205.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "let not"
+      "surface": "אַל",
+      "gloss": "not",
+      "sense": null
     },
     {
-      "surface": "אבושה",
-      "gloss": "be ashamed"
+      "surface": "אֵבוֹשָׁה",
+      "gloss": "let me be ashamed",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "קראתיך",
-      "gloss": "I have called on you"
+      "surface": "קְרָאתִיךָ",
+      "gloss": "I have called on you",
+      "sense": "S1"
     },
     {
-      "surface": "יבשו",
-      "gloss": "let them be ashamed"
+      "surface": "יֵבֹשׁוּ",
+      "gloss": "let them be ashamed",
+      "sense": "S1"
     },
     {
-      "surface": "רשעים",
-      "gloss": "the wicked"
+      "surface": "רְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "ידמו",
+      "surface": "יִדְּמוּ",
       "gloss": "let them be silent",
       "readings": [
         "let them be silent",
         "let them perish"
       ],
-      "held_by": {
-        "let them be silent": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "let them perish": [
-          "en4"
-        ]
-      },
-      "disputed": false
+      "sense": "S1"
     },
     {
-      "surface": "לשאול",
-      "gloss": "⟨unto⟩ Sheol"
+      "surface": "לִשְׁאוֹל",
+      "gloss": "for Sheol",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:44.206388188Z",
+  "model": "glm-5.3"
 }

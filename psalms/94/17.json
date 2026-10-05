@@ -1,70 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "If not for YHWH my help to me, almost my soul had dwelt in silence.",
-  "tokens": [
+  "ref": "psalms 94:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
     {
-      "surface": "לולי",
-      "gloss": "if not"
+      "kind": "addition",
+      "subject": "had not been",
+      "rationale": "Hebrew lacks a copula; לולי introduces a counterfactual English must spell out"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "in",
+      "rationale": "דומה is a bare noun used adverbially; English supplies the preposition"
     },
     {
-      "surface": "עזרתה",
-      "gloss": "my help"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "כמעט",
-      "gloss": "almost"
-    },
-    {
-      "surface": "שכנה",
-      "gloss": "had dwelt"
-    },
-    {
-      "surface": "דומה",
-      "gloss": "in silence",
-      "readings": [
-        "in silence",
-        "death"
-      ],
-      "held_by": {
-        "in silence": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "death": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "silence",
+      "rationale": "דומה is also a metaphor for the realm of death — 'in death-silence my soul would have dwelt'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If YHWH ⟨had⟩ not ⟨been⟩ my help, in a little my soul would have dwelt in silence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "73855adb95c180498373e1f5da9497c8e12a0a316f3a343f153b2f2cdb7780bd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/17-20.1791193217205.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לוּלֵ֣י",
+      "gloss": "if not",
+      "sense": null
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶזְרָ֣תָה",
+      "gloss": "help",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִּ֑י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "כִּמְעַ֓ט",
+      "gloss": "in a little",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָֽׁכְנָ֖ה",
+      "gloss": "would have dwelt",
+      "sense": "S1"
+    },
+    {
+      "surface": "דוּמָ֣ה",
+      "gloss": "in silence",
+      "sense": "S1",
+      "readings": [
+        "in silence",
+        "in the silence of death"
+      ]
+    },
+    {
+      "surface": "נַפְשִֽׁי",
+      "gloss": "my soul",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:17.205492721Z",
+  "model": "glm-5.3"
 }

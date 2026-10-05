@@ -1,47 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 37,
-  "translation": "And they sacrificed ⟨את⟩ their sons and ⟨את⟩ their daughters to the demons.",
-  "tokens": [
+  "ref": "psalms 106:37",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויזבחו",
-      "gloss": "And they sacrificed"
+      "kind": "crux",
+      "subject": "demons",
+      "rationale": "שדים rendered 'demons' (so also Deut 32:17); alternatives include 'demigods' or 'false gods'."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "בניהם",
-      "gloss": "their sons"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "בנותיהם",
-      "gloss": "their daughters"
-    },
-    {
-      "surface": "לשדים",
-      "gloss": "to the demons",
-      "readings": [
-        "to the demons",
-        "to the shedim"
-      ],
-      "held_by": {
-        "to the demons": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "to the shedim": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "עצביהם\/לשדים",
+      "rationale": "v.36's idols become v.37's demons — the objects of v.38's sacrifice to 'idols of Canaan' — a threefold naming of the same cult."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they sacrificed ⟨את⟩ their sons and ⟨את⟩ their daughters to the demons,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e325c6696d7ea728752719141c77a2339da250f579da234c25a11afd0a8fca7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/37-40.1791193338123.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּזְבְּח֣וּ",
+      "gloss": "and sacrificed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "their sons",
+      "sense": null
+    },
+    {
+      "surface": "בְּנֵיהֶם",
+      "gloss": "their sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "their daughters",
+      "sense": null
+    },
+    {
+      "surface": "בְּנוֹתֵיהֶם",
+      "gloss": "their daughters",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַשֵּׁדִים",
+      "gloss": "to the demons",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:18.123694005Z",
+  "model": "glm-5.3"
 }

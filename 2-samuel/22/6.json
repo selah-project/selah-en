@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "The cords of Sheol surrounded me, the snares of death confronted me.",
+  "ref": "2-samuel 22:6",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "snares",
+      "rationale": "חבל is literally a rope, here the noose-rope of a sprung trap; 'snares' loses the rope picture."
+    },
+    {
+      "kind": "crux",
+      "subject": "parallel",
+      "rationale": "Psalm 18:6 reads סבבוני (surrounded) where 2 Samuel 22:6 has the rarer סבני, same root and meaning."
+    }
+  ],
+  "translation": "The snares of Sheol surrounded me; the traps of death confronted me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4934ce73d0f6421826d53dab8dfee935ea2ffdd44dda46574aad77fd8f01fe59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/5-8.1791186601936.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "חבלי",
-      "gloss": "the cords of",
-      "readings": [
-        "the cords of",
-        "pangs of"
-      ],
-      "held_by": {
-        "the cords of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pangs of": [
-          "en4"
-        ]
-      }
+      "surface": "חֶבְלֵי",
+      "gloss": "the snares of",
+      "sense": "S1"
     },
     {
-      "surface": "שאול",
-      "gloss": "Sheol"
+      "surface": "שְׁאוֹל",
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "סבני",
-      "gloss": "surrounded me"
+      "surface": "סַבֻּנִי",
+      "gloss": "surrounded me",
+      "sense": null
     },
     {
-      "surface": "קדמני",
+      "surface": "קִדְּמֻנִי",
       "gloss": "confronted me",
       "readings": [
         "confronted me",
-        "came before me"
+        "came to meet me"
       ],
-      "held_by": {
-        "confronted me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "came before me": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מקשי",
-      "gloss": "the snares of"
+      "surface": "מֹקְשֵי",
+      "gloss": "the traps of",
+      "sense": "S1"
     },
     {
-      "surface": "מות",
-      "gloss": "death"
+      "surface": "מָוֶת",
+      "gloss": "death",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:01.937791584Z",
+  "model": "glm-5.3"
 }

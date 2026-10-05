@@ -1,66 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And the messenger came to David, saying, “The heart of the men of Israel has become after Absalom.”",
+  "ref": "2-samuel 15:13",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "the men of Israel",
+      "rationale": "איש ישראל is literally 'the man of Israel', a singular used of the collective; the plural exposes the collective sense"
+    },
+    {
+      "kind": "idiom",
+      "subject": "היה לב אחרי",
+      "rationale": "literally 'the heart of the men of Israel has become behind Absalom', i.e. turned in loyalty to him"
+    },
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "the messenger's report is addressed speech, reported to David"
+    }
+  ],
+  "translation": "And the messenger came to David, to say: “The heart of the men of Israel has turned after Absalom.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f45dad4e1f01e303cfede15706fa9ad3e6bce2e926bffb38220414525c885f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/15\/13-16.1791186394424.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויבא",
-      "gloss": "and came"
+      "gloss": "and came",
+      "sense": null
     },
     {
       "surface": "המגיד",
-      "gloss": "the messenger",
-      "readings": [
-        "the messenger",
-        "the teller of news"
-      ],
-      "held_by": {
-        "the messenger": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the teller of news": [
-          "en4"
-        ]
-      }
+      "gloss": "the one-telling",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "to",
+      "sense": null
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "to say",
+      "sense": "S1"
     },
     {
       "surface": "היה",
-      "gloss": "has become"
+      "gloss": "has become",
+      "sense": null
     },
     {
       "surface": "לב",
-      "gloss": "the heart"
+      "gloss": "the heart of",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "of the men"
+      "gloss": "the men of",
+      "sense": null
     },
     {
       "surface": "ישראל",
-      "gloss": "of Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "אחרי",
-      "gloss": "after"
+      "gloss": "after",
+      "sense": "S1"
     },
     {
       "surface": "אבשלום",
-      "gloss": "Absalom"
+      "gloss": "Absalom",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:46:34.425316174Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 35,
-  "translation": "And it ate every grass in their land, and it ate the fruit of their ground.",
-  "tokens": [
+  "ref": "psalms 105:35",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "ויאכל",
-      "gloss": "and it ate"
-    },
-    {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
-      "surface": "עשב",
-      "gloss": "grass"
-    },
-    {
-      "surface": "בארצם",
-      "gloss": "in their land"
-    },
-    {
-      "surface": "ויאכל",
-      "gloss": "and it ate"
-    },
-    {
-      "surface": "פרי",
-      "gloss": "fruit"
-    },
-    {
-      "surface": "אדמתם",
-      "gloss": "of their ground"
+      "kind": "wordplay",
+      "subject": "ויאכל … ויאכל",
+      "rationale": "Repetition of 'and it ate' frames the two parallel objects, kept verbatim."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and it ate all the grass in their land, and it ate the fruit of their soil;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa4a0c95fd772aaa60ba3d4722da066bada60ad025e5d66e867bed1e0ab2c479",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/33-36.1791193303822.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֣אכַל",
+      "gloss": "and it ate",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "עֵ֣שֶׂב",
+      "gloss": "the grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאַרְצָ֑ם",
+      "gloss": "in their land",
+      "sense": "S1",
+      "readings": [
+        "in their land",
+        "in their earth"
+      ]
+    },
+    {
+      "surface": "וַ֝יֹּ֗אכַל",
+      "gloss": "and it ate",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּרִ֣י",
+      "gloss": "the fruit of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַדְמָתָֽם",
+      "gloss": "their soil",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:43.822988970Z",
+  "model": "glm-5.3"
 }

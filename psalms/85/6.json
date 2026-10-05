@@ -1,52 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Will You be angry with us forever? Will You draw out Your anger to generation and generation?",
-  "tokens": [
+  "ref": "psalms 85:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
     {
-      "surface": "הלעולם",
-      "gloss": "forever"
+      "kind": "substitution",
+      "subject": "nostril-heat",
+      "rationale": "אַף is literally the nose\/nostril, idiom for anger; kept the picture"
     },
     {
-      "surface": "תאנף",
-      "gloss": "Will You be angry"
-    },
-    {
-      "surface": "בנו",
-      "gloss": "with us"
-    },
-    {
-      "surface": "תמשך",
-      "gloss": "Will You draw out"
-    },
-    {
-      "surface": "אפך",
-      "gloss": "Your anger",
-      "readings": [
-        "Your anger",
-        "Your nostril"
-      ],
-      "held_by": {
-        "Your anger": [
-          "v1",
-          "v3"
-        ],
-        "your wrath": [
-          "v2"
-        ],
-        "your nose": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לדר",
-      "gloss": "to generation"
-    },
-    {
-      "surface": "ודר",
-      "gloss": "and generation"
+      "kind": "wordplay",
+      "subject": "דֹר וָדֹר",
+      "rationale": "doubled pair 'generation and generation' rendered as 'generation upon generation'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Will you be angry with us forever? Will you draw out your nostril-heat generation upon generation?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b5282cb3de1a9f01e528855c7f134eeb543faba0d3a671f6d8a8f76785b4db4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/5-8.1791193108084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַלְעוֹלָם",
+      "gloss": "forever?",
+      "sense": "S2"
+    },
+    {
+      "surface": "תֶּאֱנַף",
+      "gloss": "Will you be angry",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנוּ",
+      "gloss": "with us",
+      "sense": null
+    },
+    {
+      "surface": "תִּמְשֹׁךְ",
+      "gloss": "Will you draw out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפְּךָ",
+      "gloss": "your nostril-heat",
+      "readings": [
+        "your nostril-heat",
+        "your anger"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדֹר",
+      "gloss": "generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָדֹר",
+      "gloss": "upon generation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:28.084896043Z",
+  "model": "glm-5.3"
 }

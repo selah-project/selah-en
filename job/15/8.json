@@ -1,65 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "In the secret council of Eloah do you hear, and do you withhold wisdom to yourself?",
-  "tokens": [
+  "ref": "job 15:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "הבסוד",
-      "gloss": "in the secret council of",
-      "readings": [
-        "in the secret council of",
-        "in the council of"
-      ],
-      "held_by": {
-        "in the secret council of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "in the council of": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "secret",
+      "subject": "סוד אלוה",
+      "rationale": "the divine council, the closed assembly of heavenly beings whose deliberations are hidden from humans."
     },
     {
-      "surface": "אלוה",
-      "gloss": "Eloah"
+      "kind": "crux",
+      "subject": "ותגרע אליך חכמה",
+      "rationale": "read either 'is wisdom withheld from you?' or 'is wisdom restricted to you?'; 'withhold from you' kept as the plainer courtroom-sarcasm reading."
     },
     {
-      "surface": "תשמע",
-      "gloss": "do you hear"
-    },
-    {
-      "surface": "ותגרע",
-      "gloss": "and do you withhold",
-      "readings": [
-        "and do you withhold",
-        "and do you draw away",
-        "and do you limit"
-      ],
-      "held_by": {
-        "and do you withhold": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and do you draw away": [
-          "en4"
-        ],
-        "and do you limit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אליך",
-      "gloss": "to yourself"
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "interrogatives directly challenge Job's claim to hidden knowledge."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the council of Eloah do you listen, and does wisdom withhold itself from you?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "493fda36fcc9d1fb5211c3dabe9cc07f7fe031d0ffa546c2e1f3ec380f31a10f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/5-8.1791194287239.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַבְּסוֹד",
+      "gloss": "In the council",
+      "sense": "S2"
+    },
+    {
+      "surface": "אֱלוֹהַּ",
+      "gloss": "of Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁמָע",
+      "gloss": "do you listen",
+      "sense": null
+    },
+    {
+      "surface": "וְתִגְרַע",
+      "gloss": "and does wisdom withhold",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶיךָ",
+      "gloss": "⟨itself⟩ from you",
+      "sense": null
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:07.240203763Z",
+  "model": "glm-5.3"
 }

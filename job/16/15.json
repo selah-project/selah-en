@@ -1,69 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Sackcloth I have sewed upon my skin, and rolled my horn in the dust.",
+  "ref": "job 16:15",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "גלדי",
+      "rationale": "גֶּלֶד 'skin' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "horn",
+      "rationale": "קרן is the animal horn, symbol of strength and dignity; Job lowers it into the dust — the picture of shamed strength."
+    }
+  ],
+  "translation": "I have sewn sackcloth on my skin, and thrust my horn into the dust.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6d4888016db6432b9f36c43b86885957f7dad0d3968aa2a3379bc00cf9ff4542",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/13-16.1791194308671.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "שק",
-      "gloss": "Sackcloth"
+      "surface": "שַׂ֣ק",
+      "gloss": "sackcloth",
+      "sense": "S1"
     },
     {
-      "surface": "תפרתי",
-      "gloss": "I have sewed"
+      "surface": "תָּפַרְתִּּ֭י",
+      "gloss": "I have sewn",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "upon"
+      "surface": "עֲלֵ֣י",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "גלדי",
-      "gloss": "my skin"
+      "surface": "גִלְדִּּ֑י",
+      "gloss": "my skin",
+      "sense": "S1"
     },
     {
-      "surface": "ועללתי",
-      "gloss": "and I have abased",
-      "readings": [
-        "and I have abased",
-        "and I have rolled",
-        "and I have defiled"
-      ],
-      "held_by": {
-        "and I have abased": [
-          "v1",
-          "v3"
-        ],
-        "and I have rolled": [
-          "v2",
-          "en4"
-        ],
-        "and I have defiled": [
-          "en4"
-        ]
-      }
+      "surface": "וְעֹלַלְתִּּ֖י",
+      "gloss": "and thrust down",
+      "sense": "S1"
     },
     {
-      "surface": "בעפר",
-      "gloss": "in the dust"
+      "surface": "בֶּעָפָ֣ר",
+      "gloss": "in the dust",
+      "sense": "S1"
     },
     {
-      "surface": "קרני",
+      "surface": "קַרְנִּֽי",
       "gloss": "my horn",
+      "sense": "S1",
       "readings": [
         "my horn",
         "my strength"
-      ],
-      "held_by": {
-        "my horn": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my strength": [
-          "en4"
-        ]
-      }
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:28.672848129Z",
+  "model": "glm-5.3"
 }

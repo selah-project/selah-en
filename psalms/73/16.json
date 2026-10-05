@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And I considered to know this — it was toil in my eyes.",
-  "tokens": [
+  "ref": "psalms 73:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "ואחשבה",
-      "gloss": "and I considered",
-      "readings": [
-        "and I considered",
-        "and I thought"
-      ],
-      "held_by": {
-        "and I considered": [
-          "v2",
-          "v3"
-        ],
-        "and I thought": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew pronoun היא without verb; English supplies a copula"
     },
     {
-      "surface": "לדעת",
-      "gloss": "to know"
+      "kind": "crux",
+      "subject": "היא",
+      "rationale": "ketiv היא (feminine, agreeing with עמל) vs qere הוא; ketiv kept as ground"
     },
     {
-      "surface": "זאת",
-      "gloss": "this"
-    },
-    {
-      "surface": "עמל",
-      "gloss": "toil",
-      "readings": [
-        "toil",
-        "wearisome",
-        "trouble"
-      ],
-      "held_by": {
-        "toil": [
-          "en4"
-        ],
-        "wearisome": [
-          "v2",
-          "v3"
-        ],
-        "trouble": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "היא",
-      "gloss": "it"
-    },
-    {
-      "surface": "בעיני",
-      "gloss": "in my eyes"
+      "kind": "wordplay",
+      "subject": "זֹאת \/ היא",
+      "rationale": "the feminine demonstrative and pronoun bracket the noun, a framing lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I pondered to know this, but it ⟨was⟩ toil in my eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d0861de5f3ecfdeb23224d89537103424fc72d7004b572dbdfa5161bb2e3a3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/13-16.1791192989411.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֲחַשְׁבָה",
+      "gloss": "and I pondered",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָדַעַת",
+      "gloss": "to know",
+      "sense": null
+    },
+    {
+      "surface": "זֹאת",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "עָמָל",
+      "gloss": "toil",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִיא",
+      "gloss": "it",
+      "sense": null
+    },
+    {
+      "surface": "בְּעֵינַי",
+      "gloss": "in my eyes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:29.412788165Z",
+  "model": "glm-5.3"
 }

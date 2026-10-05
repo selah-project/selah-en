@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 54,
-  "translation": "This is the Torah for every plague of the tsara'at, and for the neteq.",
-  "tokens": [
+  "ref": "leviticus 14:54",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "זאת",
-      "gloss": "This"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זאת and התורה."
     },
     {
-      "surface": "התורה",
-      "gloss": "is the Torah"
+      "kind": "crux",
+      "subject": "tzaarat",
+      "rationale": "צרעת covers skin conditions, mildew on cloth and on walls — not 'leprosy' (Hansen's disease) alone."
     },
     {
-      "surface": "לכל",
-      "gloss": "for every"
-    },
-    {
-      "surface": "נגע",
-      "gloss": "plague"
-    },
-    {
-      "surface": "הצרעת",
-      "gloss": "of the tsara'at"
-    },
-    {
-      "surface": "ולנתק",
-      "gloss": "and for the neteq"
+      "kind": "hapax",
+      "subject": "נתק",
+      "rationale": "neteq, a scaly skin eruption, occurs only in Leviticus 13–14; exact meaning unsure."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "This is the torah for every outbreak of tzaarat, and for the neteq,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f5cb1488e87e34e1b7c1b930c3eabbcd22c0bd61cb91e392df994446f1d58f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/53-56.1791182440031.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹ֖את",
+      "gloss": "This",
+      "sense": null
+    },
+    {
+      "surface": "הַתּוֹרָ֑ה",
+      "gloss": "is the torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "for every",
+      "sense": null
+    },
+    {
+      "surface": "נֶ֥גַע",
+      "gloss": "outbreak",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַצָּרַ֖עַת",
+      "gloss": "of tzaarat",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַנָּֽתֶק",
+      "gloss": "and for the neteq",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:40:40.033317992Z",
+  "model": "glm-5.3"
 }

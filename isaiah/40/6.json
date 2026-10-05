@@ -1,75 +1,106 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "A voice saying, “Cry!” And he said, “What shall I cry? All flesh ⟨is⟩ grass, and all its chesed ⟨is⟩ like the flower of the field.”",
+  "ref": "isaiah 40:6",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'all flesh' and 'grass'"
+    },
+    {
+      "kind": "crux",
+      "subject": "חסדו",
+      "rationale": "whose chesed: 'its' (flesh's, the SDBH referent) or 'his' (YHWH's) — the antecedent is disputed"
+    },
+    {
+      "kind": "invitation",
+      "subject": "the voice's command",
+      "rationale": "an imperative addressed across the verses summons a responder"
+    }
+  ],
+  "translation": "A voice is saying, “Call out!” And he said, “What shall I call?” — “All flesh is grass, and all its chesed is like the flower of the field.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4109c2a2a8cbdf7db7009984cd1cb1868150bac338320f1e56343e8f9f3da0e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/5-8.1791188593122.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "קול",
-      "gloss": "a voice"
+      "surface": "קוֹל",
+      "gloss": "A voice"
     },
     {
-      "surface": "אמר",
-      "gloss": "saying"
+      "surface": "אֹמֵר",
+      "gloss": "is saying",
+      "sense": "S1"
     },
     {
-      "surface": "קרא",
-      "gloss": "Cry"
+      "surface": "קְרָא",
+      "gloss": "Call out!",
+      "sense": "S1"
     },
     {
-      "surface": "ואמר",
-      "gloss": "and said"
+      "surface": "וְאָמַר",
+      "gloss": "and he said",
+      "sense": "S1"
     },
     {
-      "surface": "מה",
-      "gloss": "What"
+      "surface": "מָה",
+      "gloss": "What",
+      "sense": "S1"
     },
     {
-      "surface": "אקרא",
-      "gloss": "shall I cry"
+      "surface": "אֶקְרָא",
+      "gloss": "shall I call?",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "All"
     },
     {
-      "surface": "הבשר",
-      "gloss": "flesh"
+      "surface": "הַבָּשָׂר",
+      "gloss": "flesh",
+      "sense": "S1"
     },
     {
-      "surface": "חציר",
-      "gloss": "grass"
+      "surface": "חָצִיר",
+      "gloss": "is grass",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and all"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּוֹ",
       "gloss": "its chesed",
       "readings": [
         "its chesed",
         "its steadfast love"
       ],
-      "held_by": {
-        "its chesed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "its steadfast love": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כציץ",
-      "gloss": "like the flower"
+      "surface": "כְּצִיץ",
+      "gloss": "is like the flower of",
+      "sense": "S1"
     },
     {
-      "surface": "השדה",
-      "gloss": "of the field"
+      "surface": "הַשָּׂדֶה",
+      "gloss": "the field",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:13.123898530Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And they set ⟨את⟩ the fats upon the breasts, and he burned the fats upon the altar.",
+  "ref": "leviticus 9:20",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "החלבים…החלבים",
+      "rationale": "the fat parts are named twice in the verse — placed on the breasts, then burned — the repetition frames the offering."
+    },
+    {
+      "kind": "substitution",
+      "subject": "on the altar",
+      "rationale": "המזבחה carries a directional he, 'onto\/ward the altar' — motion toward, flattened in English."
+    }
+  ],
+  "translation": "and they set ⟨את⟩ the fat parts upon the breasts, and he turned the fat parts into smoke on the altar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f81e514106dba588c4f644781919ff99f7f2d1e541cc0588532e62e0d8c3b85",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/9\/17-20.1791182325067.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וישימו",
-      "gloss": "and they set"
+      "surface": "וַיָּשִׂימוּ",
+      "gloss": "and they set",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the fat parts"
     },
     {
-      "surface": "החלבים",
-      "gloss": "the fats"
+      "surface": "הַחֲלָבִים",
+      "gloss": "the fat parts",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "החזות",
-      "gloss": "the breasts"
+      "surface": "הֶחָזוֹת",
+      "gloss": "the breasts",
+      "sense": "S1"
     },
     {
-      "surface": "ויקטר",
-      "gloss": "and he burned",
-      "readings": [
-        "and he burned",
-        "and he made smoke"
-      ],
-      "held_by": {
-        "and he burned": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and he made smoke": [
-          "en4"
-        ]
-      }
+      "surface": "וַיַּקְטֵר",
+      "gloss": "and he turned into smoke",
+      "sense": "S1"
     },
     {
-      "surface": "החלבים",
-      "gloss": "the fats"
+      "surface": "הַחֲלָבִים",
+      "gloss": "the fat parts",
+      "sense": "S1"
     },
     {
-      "surface": "המזבחה",
-      "gloss": "upon the altar"
+      "surface": "הַמִּזְבֵּחָה",
+      "gloss": "on the altar",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:38:45.082384561Z",
+  "model": "glm-5.3"
 }

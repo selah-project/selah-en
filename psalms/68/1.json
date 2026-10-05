@@ -1,24 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the Chief Musician; of David; a psalm, a song.",
-  "tokens": [
+  "ref": "psalms 68:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 68,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "For the Chief Musician"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm"
-    },
-    {
-      "surface": "שיר",
-      "gloss": "a song"
+      "kind": "addition",
+      "subject": "article",
+      "rationale": "הַ in לַמְנַצֵּחַ is the Hebrew article on the participle; 'the director' carries it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the director, for David — a psalm, a song.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f6018e0c5f4523e8d8f5bfe16e993283b03b53755ff8d82e556d8eab066ef990",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/68\/1-4.1791192898783.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֥חַ",
+      "gloss": "for the director",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִ֗ד",
+      "gloss": "for David",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְמ֥וֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִֽׁיר",
+      "gloss": "a song",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:58.784506113Z",
+  "model": "glm-5.3"
 }

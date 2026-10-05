@@ -1,62 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Say to the king and to the queen mother: “Humble yourselves, sit down, for the crown of your glory has come down from your heads.”",
-  "tokens": [
+  "ref": "jeremiah 13:18",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "אמר",
-      "gloss": "Say"
+      "kind": "hapax",
+      "subject": "מראשותיכם",
+      "rationale": "plural-of-majesty 'head-dom'; occurs only here in the Tanakh"
     },
     {
-      "surface": "למלך",
-      "gloss": "to the king"
+      "kind": "substitution",
+      "subject": "queen-mother",
+      "rationale": "גבירה is the king's mother, an official title, not 'mistress'"
     },
     {
-      "surface": "ולגבירה",
-      "gloss": "and to the queen mother",
-      "readings": [
-        "and to the queen mother",
-        "and to the mistress"
-      ],
-      "held_by": {
-        "and to the queen mother": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and to the mistress": [
-          "en4"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "Say to the king",
+      "rationale": "imperative of prophetic address, summoning the speaker to deliver the word"
     },
     {
-      "surface": "השפילו",
-      "gloss": "Humble yourselves"
-    },
-    {
-      "surface": "שבו",
-      "gloss": "sit down"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "ירד",
-      "gloss": "has come down"
-    },
-    {
-      "surface": "מראשותיכם",
-      "gloss": "from your heads"
-    },
-    {
-      "surface": "עטרת",
-      "gloss": "the crown of"
-    },
-    {
-      "surface": "תפארתכם",
-      "gloss": "of your glory"
+      "kind": "you",
+      "subject": "to the king and queen-mother",
+      "rationale": "direct address to Judah's rulers, likely Jehoiachin and Nehushta"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Say to the king and to the queen-mother: “Bring-low, sit, for come-down from your heads has the crown of your splendor.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc4baebb83a8aed5c5c571ddd0a7c62afb18e8643828ecd7dab127aa80cf91b5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/13\/17-20.1791189308055.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱמֹ֥ר",
+      "gloss": "Say",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַמֶּ֛לֶךְ",
+      "gloss": "to the king",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַגְּבִירָ֖ה",
+      "gloss": "and to the queen-mother",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשְׁפִּ֣ילוּ",
+      "gloss": "Bring-low",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׁ֑בוּ",
+      "gloss": "sit",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֤י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "יָרַד֙",
+      "gloss": "come-down has",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַרְאֲשׁוֹתֵיכֶ֔ם",
+      "gloss": "from your heads",
+      "sense": null
+    },
+    {
+      "surface": "עֲטֶ֖רֶת",
+      "gloss": "the crown of",
+      "sense": null
+    },
+    {
+      "surface": "תִּֽפְאַרְתְּכֶֽם",
+      "gloss": "your splendor",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:35:08.064054142Z",
+  "model": "glm-5.3"
 }

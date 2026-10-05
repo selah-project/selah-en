@@ -1,49 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "I remember Elohim and I moan; I muse, and my spirit grows faint. Selah.",
+  "ref": "psalms 77:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "within me",
+      "rationale": "Added to complete the clause; Hebrew says only 'my spirit faints'."
+    },
+    {
+      "kind": "elision",
+      "subject": "סלה",
+      "rationale": "Musical pause mark, transliterated by convention."
+    }
+  ],
+  "translation": "I remember Elohim and I moan; I ponder, and my spirit faints within me. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3ec54f9b9881f087a666e6df2c9ee2d666accfd0722dbdc3a67cd837a113e7f8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/1-4.1791193024219.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אזכרה",
-      "gloss": "I remember"
+      "surface": "אֶזְכְּרָה",
+      "gloss": "I remember",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "ואהמיה",
-      "gloss": "and I moan"
+      "surface": "וְאֶהֱמָיָה",
+      "gloss": "and I moan",
+      "sense": "S1"
     },
     {
-      "surface": "אשיחה",
-      "gloss": "I muse"
+      "surface": "אָשִׂיחָה",
+      "gloss": "I ponder",
+      "sense": "S1"
     },
     {
-      "surface": "ותתעטף",
-      "gloss": "and grows faint"
+      "surface": "וְתִתְעַטֵּף",
+      "gloss": "and it faints",
+      "sense": "S1"
     },
     {
-      "surface": "רוחי",
+      "surface": "רוּחִי",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
         "my breath"
       ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my breath": []
-      }
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
+      "surface": "סֶלָה",
       "gloss": "Selah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:04.220156372Z",
+  "model": "glm-5.3"
 }

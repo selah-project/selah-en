@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Your testimonies are confirmed exceedingly; holiness suits your house, YHWH, for the length of days.",
-  "tokens": [
+  "ref": "psalms 93:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 93,
+  "notes": [
     {
-      "surface": "עדתיך",
-      "gloss": "Your testimonies",
-      "readings": [
-        "Your testimonies",
-        "Your assembly"
-      ],
-      "held_by": {
-        "Your testimonies": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Your assembly": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew verbless clause; English requires copula before 'proven sure'"
     },
     {
-      "surface": "נאמנו",
-      "gloss": "are confirmed"
+      "kind": "crux",
+      "subject": "לביתך נאוה קדש",
+      "rationale": "'holiness suits your house' vs 'your house is the dwelling of holiness' — word order permits both"
     },
     {
-      "surface": "מאד",
-      "gloss": "exceedingly"
-    },
-    {
-      "surface": "לביתך",
-      "gloss": "your house"
-    },
-    {
-      "surface": "נאוה",
-      "gloss": "suits"
-    },
-    {
-      "surface": "קדש",
-      "gloss": "holiness"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לארך",
-      "gloss": "for length of"
-    },
-    {
-      "surface": "ימים",
-      "gloss": "days"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalm addresses YHWH in the second person ('Your testimonies')"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your testimonies are proven very ⟨to be⟩ sure; to your house belongs holiness, YHWH, for length of days.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb68a10b0dcec5b5fe7d2132ba0518141166d2ce3a0260a2d5e61ae9392fac8a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/93\/5-5.1791193184544.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵֽדֹתֶ֨יךָ",
+      "gloss": "Your testimonies",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶאֶמְנ֬וּ",
+      "gloss": "are proven sure",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹ֗ד",
+      "gloss": "very",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבֵיתְךָ֥",
+      "gloss": "to your house",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַאֲוָה",
+      "gloss": "belongs ⟨to be⟩ fitting",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹ֑דֶשׁ",
+      "gloss": "holiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאֹ֣רֶךְ",
+      "gloss": "for length",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמִֽים",
+      "gloss": "of days",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:44.544708765Z",
+  "model": "glm-5.3"
 }

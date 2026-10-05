@@ -1,71 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Know that YHWH — he ⟨is⟩ Elohim; he made us, and ⟨we are⟩ not we ourselves — ⟨we are⟩ his people and the flock of his pasture.",
+  "ref": "psalms 100:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 100,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between הוא and אלהים."
+    },
+    {
+      "kind": "crux",
+      "subject": "and not we ourselves",
+      "rationale": "Ketiv ולא ('and not') vs qere ולו ('and His we are'); the ketiv is rendered, the qere reads 'and to Him we belong'."
+    },
+    {
+      "kind": "addition",
+      "subject": "we are",
+      "rationale": "Hebrew has only the noun phrases 'His people and the flock…' with no verb."
+    },
+    {
+      "kind": "invitation",
+      "subject": "Know",
+      "rationale": "Imperative of confession addressed to the worshippers."
+    }
+  ],
+  "translation": "Know that YHWH — He ⟨is⟩ Elohim; He made us, and not we ourselves, ⟨we are⟩ His people and the flock of His pasture.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b8b36429ff3e85fee0b9bc7b9c5ddfabc19d34a31e374c7c225f1408d4a28618",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/100\/1-4.1791193242846.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "דעו",
-      "gloss": "Know"
+      "surface": "דְּע֗וּ",
+      "gloss": "Know",
+      "sense": null
     },
     {
-      "surface": "כי",
-      "gloss": "that"
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה֮",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "surface": "ה֤וּא",
+      "gloss": "He",
+      "sense": null
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹ֫הִ֥ים",
+      "gloss": "⟨is⟩ Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "surface": "הֽוּא",
+      "gloss": "He",
+      "sense": null
     },
     {
-      "surface": "עשנו",
-      "gloss": "made us"
+      "surface": "עָ֭שָׂנוּ",
+      "gloss": "made us",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": null
     },
     {
-      "surface": "אנחנו",
-      "gloss": "we ourselves"
+      "surface": "אֲנַ֑חְנוּ",
+      "gloss": "we ourselves",
+      "sense": null
     },
     {
-      "surface": "עמו",
-      "gloss": "his people"
+      "surface": "עַ֝מּ֗וֹ",
+      "gloss": "His people",
+      "sense": "S1"
     },
     {
-      "surface": "וצאן",
-      "gloss": "and the flock"
+      "surface": "וְצֹ֣אן",
+      "gloss": "and the flock",
+      "sense": "S1"
     },
     {
-      "surface": "מרעיתו",
-      "gloss": "of his pasture",
-      "readings": [
-        "of his pasture",
-        "of his shepherding"
-      ],
-      "held_by": {
-        "of his pasture": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of his shepherding": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "מַרְעִיתֽוֹ",
+      "gloss": "of His pasture",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:42.847461880Z",
+  "model": "glm-5.3"
 }

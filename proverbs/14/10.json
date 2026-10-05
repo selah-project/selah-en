@@ -1,40 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The heart knows the bitterness of its soul, and in its joy a stranger does not intermeddle.",
-  "tokens": [
+  "ref": "proverbs 14:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "לב",
-      "gloss": "The heart"
+      "kind": "hapax",
+      "subject": "מרת",
+      "rationale": "מֹרָה 'bitterness' occurs only here in the Tanakh."
     },
     {
-      "surface": "יודע",
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is nearer 'life-self, appetite, throat' than the English 'soul'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "לב\/נפשו",
+      "rationale": "the heart's own inner bitterness and joy are closed to the outsider — the verse's parallel of inside and outside."
+    }
+  ],
+  "translation": "The heart knows the bitterness of its own soul, and in its joy no stranger mixes in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2142dfe819804dfe076a55150dbf99adf1f7e4ba32d1830a7af6171f1937add",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/9-12.1791193855397.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֵ֗ב",
+      "gloss": "The heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "י֭וֹדֵעַ",
       "gloss": "knows"
     },
     {
-      "surface": "מרת",
-      "gloss": "the bitterness"
+      "surface": "מָרַּ֣ת",
+      "gloss": "the bitterness of",
+      "sense": "S1"
     },
     {
-      "surface": "נפשו",
-      "gloss": "of its soul"
+      "surface": "נַפְשׁ֑וֹ",
+      "gloss": "its own soul",
+      "readings": [
+        "its own soul",
+        "its own life",
+        "its own throat"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ובשמחתו",
-      "gloss": "and in its joy"
+      "surface": "וּ֝בְשִׂמְחָת֗וֹ",
+      "gloss": "and in its joy",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "no",
+      "sense": "S1"
     },
     {
-      "surface": "יתערב",
-      "gloss": "intermeddle"
+      "surface": "יִתְעָ֥רַב",
+      "gloss": "mixes in",
+      "readings": [
+        "mixes in",
+        "intermingles"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "זר",
-      "gloss": "a stranger"
+      "surface": "זָֽר",
+      "gloss": "stranger",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:55.398610214Z",
+  "model": "glm-5.3"
 }

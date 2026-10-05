@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "And you shall eat the flesh of your sons, and the flesh of your daughters you shall eat.",
-  "tokens": [
+  "ref": "leviticus 26:29",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "ואכלתם",
-      "gloss": "and you shall eat"
+      "kind": "wordplay",
+      "subject": "אכלתם \/ תאכלו",
+      "rationale": "the verb 'eat' brackets the verse in an envelope structure, first and last, lost in English"
     },
     {
-      "surface": "בשר",
-      "gloss": "flesh"
-    },
-    {
-      "surface": "בניכם",
-      "gloss": "of your sons"
-    },
-    {
-      "surface": "ובשר",
-      "gloss": "and flesh of"
-    },
-    {
-      "surface": "בנתיכם",
-      "gloss": "of your daughters"
-    },
-    {
-      "surface": "תאכלו",
-      "gloss": "you shall eat"
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English requires an article before 'flesh' where Hebrew has a bare construct"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you will eat the flesh of your sons, and the flesh of your daughters you will eat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9573dc7778b1cd082cdc0e8198497c0a8c34fea34b431f9deb31ed5b29a50eed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/26\/29-32.1791182705630.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲכַלְתֶּם",
+      "gloss": "and you will eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשַׂר",
+      "gloss": "the flesh of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵיכֶם",
+      "gloss": "your sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְשַׂר",
+      "gloss": "and the flesh of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֹתֵיכֶם",
+      "gloss": "your daughters",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֹּאכֵלוּ",
+      "gloss": "you will eat",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:45:05.631036941Z",
+  "model": "glm-5.3"
 }

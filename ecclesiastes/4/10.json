@@ -1,75 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For if they fall, the one will raise up ⟨את⟩ his companion; but woe to the one who falls, and there is no second to raise him up.",
+  "ref": "ecclesiastes 4:10",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ואילו",
+      "rationale": "parsed as waw + אִי 'alas!' + לוֹ 'to him' — 'but alas for him' — versus reading 'and if' as one word"
+    },
+    {
+      "kind": "alternative",
+      "subject": "כי אם",
+      "rationale": "some read 'surely if' or 'only if'; rendered plain causal-conditional 'for if'"
+    }
+  ],
+  "translation": "For if they fall, the one will raise ⟨את⟩ his companion; but alas for the one who falls and there is no second to raise him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3ba73a07849a760ffd4bca79ffacecf0f2f20fe42f76b73e2e42ec974c2a42c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/4\/9-12.1791194871328.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "For"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "if"
     },
     {
-      "surface": "יפלו",
-      "gloss": "they fall"
+      "surface": "יִפֹּ֔לוּ",
+      "gloss": "they fall",
+      "sense": "S1"
     },
     {
-      "surface": "האחד",
-      "gloss": "the one"
+      "surface": "הָאֶחָ֖ד",
+      "gloss": "the one",
+      "sense": "S1"
     },
     {
-      "surface": "יקים",
-      "gloss": "will raise up"
+      "surface": "יָקִ֣ים",
+      "gloss": "will raise"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his companion"
     },
     {
-      "surface": "חברו",
-      "gloss": "his companion"
+      "surface": "חֲבֵר֑וֹ",
+      "gloss": "his companion",
+      "sense": "S1"
     },
     {
-      "surface": "ואילו",
-      "gloss": "but woe to"
+      "surface": "וְאִ֣יל֗וֹ",
+      "gloss": "but alas for",
+      "sense": "S1"
     },
     {
-      "surface": "האחד",
-      "gloss": "the one"
+      "surface": "הָֽאֶחָד֙",
+      "gloss": "the one",
+      "sense": "S2"
     },
     {
-      "surface": "שיפול",
-      "gloss": "who falls"
+      "surface": "שֶׁיִּפּ֔וֹל",
+      "gloss": "who falls",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is not"
+      "surface": "וְאֵ֥ין",
+      "gloss": "and there is no"
     },
     {
-      "surface": "שני",
+      "surface": "שֵׁנִ֖י",
       "gloss": "a second",
-      "readings": [
-        "a second",
-        "another"
-      ],
-      "held_by": {
-        "a second": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "another": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "להקימו",
-      "gloss": "to raise him up"
+      "surface": "לַהֲקִימֽוֹ",
+      "gloss": "to raise him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:51.329718010Z",
+  "model": "glm-5.3"
 }

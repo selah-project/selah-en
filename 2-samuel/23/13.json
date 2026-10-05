@@ -1,105 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And three of the thirty heads went down, and came at harvest ⟨time⟩ to David, to the cave of Adullam; and the troop of the Philistines was encamped in the Valley of Rephaim.",
+  "ref": "2-samuel 23:13",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "שלשים",
+      "rationale": "Ketiv 'thirty' vs qere שלשה 'three'; 1 Chron 11:15 reads 'three', and 'thirty of the thirty' is unlikely."
+    },
+    {
+      "kind": "crux",
+      "subject": "troop",
+      "rationale": "וְחַיַת ('troop of', literally 'living-force of') vs 1 Chron 11:15 מַחֲנֶה 'camp of'; the Samuel form is unique here."
+    },
+    {
+      "kind": "addition",
+      "subject": "men",
+      "rationale": "English needs 'men' with 'chief'; Hebrew רֹאשׁ is 'head' used as leader."
+    }
+  ],
+  "translation": "And three of the thirty chief men went down and came at harvest time to David, to the cave of Adullam, while the troop of the Philistines was encamped in the Valley of Rephaim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c2fad412272e339461ee289ec715e8d3398cb47a64541821973de90f1f4c7629",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/23\/13-16.1791186633834.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "וירדו",
-      "gloss": "and went down"
+      "surface": "וַיֵּרְד֨וּ",
+      "gloss": "and went down",
+      "sense": "S1"
     },
     {
       "surface": "שלשים",
-      "gloss": "three"
+      "gloss": "three",
+      "sense": "S1"
     },
     {
-      "surface": "מהשלשים",
-      "gloss": "of the thirty"
+      "surface": "מֵהַשְּׁלֹשִׁ֣ים",
+      "gloss": "of the thirty",
+      "sense": "S1"
     },
     {
-      "surface": "ראש",
-      "gloss": "heads",
+      "surface": "רֹ֗אשׁ",
+      "gloss": "chief men",
       "readings": [
-        "heads",
-        "chief"
+        "chief men",
+        "head"
       ],
-      "held_by": {
-        "heads": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "chief": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ויבאו",
-      "gloss": "and came"
+      "surface": "וַיָּבֹ֤אוּ",
+      "gloss": "and came",
+      "sense": null
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
+      "gloss": "at"
+    },
+    {
+      "surface": "קָצִיר֙",
+      "gloss": "harvest time",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "קציר",
-      "gloss": "harvest",
-      "readings": [
-        "harvest",
-        "harvest-time"
-      ],
-      "held_by": {
-        "harvest": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "harvest-time": [
-          "v1"
-        ]
-      }
+      "surface": "דָּוִ֔ד",
+      "gloss": "David",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "דוד",
-      "gloss": "David"
+      "surface": "מְעָרַ֖ת",
+      "gloss": "the cave of",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "surface": "עֲדֻלָּ֑ם",
+      "gloss": "Adullam",
+      "sense": "S1"
     },
     {
-      "surface": "מערת",
-      "gloss": "cave of"
-    },
-    {
-      "surface": "עדלם",
-      "gloss": "Adullam"
-    },
-    {
-      "surface": "וחית",
+      "surface": "וְחַיַּ֣ת",
       "gloss": "and the troop of"
     },
     {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "surface": "פְּלִשְׁתִּ֔ים",
+      "gloss": "Philistines",
+      "sense": "S1"
     },
     {
-      "surface": "חנה",
-      "gloss": "was encamped"
+      "surface": "חֹנָ֖ה",
+      "gloss": "was encamped",
+      "sense": "S1"
     },
     {
-      "surface": "בעמק",
-      "gloss": "in the valley of"
+      "surface": "בְּעֵ֥מֶק",
+      "gloss": "in the Valley of",
+      "sense": "S1"
     },
     {
-      "surface": "רפאים",
-      "gloss": "Rephaim"
+      "surface": "רְפָאִֽים",
+      "gloss": "Rephaim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:33.835197522Z",
+  "model": "glm-5.3"
 }

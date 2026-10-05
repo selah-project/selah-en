@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For you have tested us, Elohim; you have refined us as the refining of silver.",
-  "tokens": [
+  "ref": "psalms 66:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is refined",
+      "rationale": "כצרף כסף is literally 'as the refining of silver'; English passive supplied"
     },
     {
-      "surface": "בחנתנו",
-      "gloss": "you have tested us"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "צרפתנו",
-      "gloss": "you have refined us"
-    },
-    {
-      "surface": "כצרף",
-      "gloss": "as the refining of"
-    },
-    {
-      "surface": "כסף",
-      "gloss": "silver",
-      "readings": [
-        "silver",
-        "money"
-      ],
-      "held_by": {
-        "silver": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "money": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "בחנתנו \/ צרפתנו",
+      "rationale": "paired verbs of testing and smelting, the smelter image carried in both"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you tested us, Elohim; you refined us as silver is refined.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa8650f60301c711b84e288c816dac44da2dc0468739dd00e323b4c0f8e13423",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/9-12.1791192884494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "בְחַנְתָּ֥נוּ",
+      "gloss": "you tested us",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְרַפְתָּ֗נוּ",
+      "gloss": "you refined us",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּצְרֹ֣ף",
+      "gloss": "as one refines",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּֽסֶף",
+      "gloss": "silver",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:44.494687024Z",
+  "model": "glm-5.3"
 }

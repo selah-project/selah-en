@@ -1,68 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Many are saying of my nefesh, “There is no deliverance for him in Elohim.” Selah.",
-  "tokens": [
+  "ref": "psalms 3:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "רבים",
-      "gloss": "Many"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat \/ life-force; 'of my soul' = 'about me, to my very self'"
     },
     {
-      "surface": "אמרים",
-      "gloss": "are saying"
-    },
-    {
-      "surface": "לנפשי",
-      "gloss": "of my nefesh",
-      "readings": [
-        "of my nefesh",
-        "to my soul"
-      ],
-      "held_by": {
-        "of my nefesh": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to my soul": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אין",
-      "gloss": "There is no"
-    },
-    {
-      "surface": "ישועתה",
-      "gloss": "deliverance",
-      "readings": [
-        "deliverance",
-        "salvation"
-      ],
-      "held_by": {
-        "deliverance": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "salvation": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "לו",
-      "gloss": "for him"
-    },
-    {
-      "surface": "באלהים",
-      "gloss": "in Elohim"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "elision",
+      "subject": "Selah",
+      "rationale": "Musical pause mark transliterated, not translated"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Many are saying of my soul, “There is no deliverance for him in Elohim.” Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56385cf3027d2dee5ea1cd30966950a8d39b83d294b204e600fa849e98020ec9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/3\/1-4.1791192343412.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רַבִּים֮",
+      "gloss": "Many",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹמְרִ֪ים",
+      "gloss": "are saying",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְנַ֫פְשִׁ֥י",
+      "gloss": "of my soul",
+      "sense": "S1",
+      "readings": [
+        "of my soul",
+        "of my life",
+        "to my throat"
+      ]
+    },
+    {
+      "surface": "אֵ֤ין",
+      "gloss": "There is no",
+      "sense": null
+    },
+    {
+      "surface": "יְֽשׁוּעָ֓תָה",
+      "gloss": "deliverance",
+      "sense": "S1"
+    },
+    {
+      "surface": "לּ֬וֹ",
+      "gloss": "for him",
+      "sense": null
+    },
+    {
+      "surface": "בֵֽאלֹהִ֬ים",
+      "gloss": "in Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:43.413580358Z",
+  "model": "glm-5.3"
 }

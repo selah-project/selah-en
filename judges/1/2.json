@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And YHWH said, “Judah shall go up; behold, I have given ⟨את⟩ the land into his hand.”",
+  "ref": "judges 1:2",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "into his hand",
+      "rationale": "בידו is literally 'in his hand', the hand as control; English 'into his hand' carries the idiom"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH answers Israel's inquiry of v. 1 directly"
+    }
+  ],
+  "translation": "And YHWH said, “Judah shall go up. Behold, I have given ⟨את⟩ the land into his hand.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1c9021cc83ebf0eb7590183cf731c083e7a7a2ce747438f3596755542608ba8b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/1\/1-4.1791184855214.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "surface": "וַיֹּ֣אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
+      "surface": "יְהוּדָ֣ה",
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
-      "surface": "יעלה",
-      "gloss": "shall go up"
+      "surface": "יַעֲלֶ֑ה",
+      "gloss": "shall go up",
+      "sense": "S1"
     },
     {
-      "surface": "הנה",
-      "gloss": "behold"
+      "surface": "הִנֵּ֛ה",
+      "gloss": "Behold",
+      "sense": null
     },
     {
-      "surface": "נתתי",
-      "gloss": "I have given"
+      "surface": "נָתַ֥תִּי",
+      "gloss": "I have given",
+      "sense": null
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the land",
+      "sense": null
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָ֖רֶץ",
       "gloss": "the land",
       "readings": [
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בידו",
-      "gloss": "into his hand"
+      "surface": "בְּיָדֽוֹ",
+      "gloss": "into his hand",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:20:55.215357645Z",
+  "model": "glm-5.3"
 }

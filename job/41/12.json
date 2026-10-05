@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "From his nostrils smoke goes out, like a pot blown upon and rushes.",
-  "tokens": [
+  "ref": "job 41:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "מנחיריו",
-      "gloss": "from his nostrils"
+      "kind": "hapax",
+      "subject": "מִנְּחִירָיו",
+      "rationale": "'nostrils' (dual form) occurs only here in the Tanakh."
     },
     {
-      "surface": "יצא",
-      "gloss": "goes out"
+      "kind": "crux",
+      "subject": "ואגמן",
+      "rationale": "'rush' or 'rush-rope\/basket': many read 'and seething' from a suspected root רתח or take אגמון as a boiling cauldron's steam; kept literal here."
     },
     {
-      "surface": "עשן",
-      "gloss": "smoke"
-    },
-    {
-      "surface": "כדוד",
-      "gloss": "like a pot"
-    },
-    {
-      "surface": "נפוח",
-      "gloss": "blown"
-    },
-    {
-      "surface": "ואגמן",
-      "gloss": "and rushes",
-      "readings": [
-        "and rushes",
-        "and caldron"
-      ],
-      "held_by": {
-        "and rushes": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and caldron": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "blown upon",
+      "rationale": "נפוח may mean 'fanned\/boiling' — a pot under forced fire releasing its steam."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From his nostrils smoke goes out, like a pot blown upon, and boiling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e64f2f76cb3324f5d6b4ca2f4dc680e7ec76501541cb0e5340758305a8623a52",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/9-12.1791194646317.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִנְּחִירָיו",
+      "gloss": "From his nostrils",
+      "sense": null
+    },
+    {
+      "surface": "יֵצֵא",
+      "gloss": "goes out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָׁן",
+      "gloss": "smoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּדוּד",
+      "gloss": "like a pot",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָפוּחַ",
+      "gloss": "blown upon",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַגְמֹן",
+      "gloss": "and a rush-basket",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:06.318965331Z",
+  "model": "glm-5.3"
 }

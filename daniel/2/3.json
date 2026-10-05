@@ -1,67 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And the king said to them, ‘A dream I have dreamed, and troubled was my spirit to know ⟨את⟩ the dream.’",
+  "ref": "daniel 2:3",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חלום חלמתי",
+      "rationale": "Noun and verb of one root stand side by side — 'a dream I have dreamed' — the doubling is kept, not collapsed."
+    },
+    {
+      "kind": "you",
+      "subject": "to them",
+      "rationale": "The king addresses the summoned sages directly; the addressee shifts to the king's own 'I' in the quoted speech."
+    }
+  ],
+  "translation": "And the king said to them, “A dream I have dreamed, and my spirit is troubled to know ⟨את⟩ the dream.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "025135503d2cebdaf40eb9f7cbbc23aa47374480eaf8b0845300893824b1424e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/2\/1-4.1791195162972.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "להם",
-      "gloss": "to them"
+      "gloss": "to them",
+      "sense": null
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "חלום",
-      "gloss": "A dream"
+      "gloss": "a dream",
+      "sense": "S1"
     },
     {
       "surface": "חלמתי",
-      "gloss": "I have dreamed"
+      "gloss": "I have dreamed",
+      "sense": "S1"
     },
     {
       "surface": "ותפעם",
-      "gloss": "and troubled"
+      "gloss": "and is troubled",
+      "sense": "S1"
     },
     {
       "surface": "רוחי",
       "gloss": "my spirit",
+      "sense": "S1",
       "readings": [
         "my spirit",
         "my wind",
         "my breath"
-      ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my wind": [
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
       "surface": "לדעת",
-      "gloss": "to know"
+      "gloss": "to know",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "the dream"
     },
     {
       "surface": "החלום",
-      "gloss": "the dream"
+      "gloss": "the dream",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:12:42.973521986Z",
+  "model": "glm-5.3"
 }

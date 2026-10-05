@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Good ⟨it is⟩ to take refuge in YHWH, ⟨more⟩ than to trust in man.",
-  "tokens": [
+  "ref": "psalms 118:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "טוב",
-      "gloss": "good"
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Hebrew adjective טוב opens the clause without an expressed subject pronoun."
     },
     {
-      "surface": "לחסות",
-      "gloss": "to take refuge"
-    },
-    {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
-    },
-    {
-      "surface": "מבטח",
-      "gloss": "than to trust",
-      "readings": [
-        "than to trust",
-        "than confidence"
-      ],
-      "held_by": {
-        "than to trust": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "than confidence": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "באדם",
-      "gloss": "in man",
-      "readings": [
-        "in man",
-        "in mankind"
-      ],
-      "held_by": {
-        "in man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in mankind": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "take refuge",
+      "rationale": "חסה keeps its literal picture of fleeing to shelter, rendered with the English refuge idiom."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Good it is to take refuge in YHWH, than to trust in humankind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9a323b1254f9b7586b8daa817e47c9b39d1fa16494b6e4b0c12e2569acaec6c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/5-8.1791193411668.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טוֹב",
+      "gloss": "Good",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחֲסוֹת",
+      "gloss": "to take refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיהוָה",
+      "gloss": "in YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבְּטֹחַ",
+      "gloss": "than to trust",
+      "sense": "S2"
+    },
+    {
+      "surface": "בָּאָדָם",
+      "gloss": "in humankind",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:31.669455268Z",
+  "model": "glm-5.3"
 }

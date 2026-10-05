@@ -1,78 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 38,
-  "translation": "A drought upon her waters, and they shall be dried up; for a land of graven images is she, and over the terrors they act madly.",
+  "ref": "jeremiah 50:38",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חֹרֶב",
+      "rationale": "drought here answers חֶרֶב 'sword' in v. 37 — same consonants, the destruction shifts from blade to heat"
+    },
+    {
+      "kind": "crux",
+      "subject": "they act madly",
+      "rationale": "וּבָאֵימִים יִתְהֹלָלוּ: 'they rave over terrors' — terrors = their idols (per lemma) or the panic of judgment; subject is Babylon's people or her mad priests"
+    },
+    {
+      "kind": "alternative",
+      "subject": "and they shall be ashamed",
+      "rationale": "יָבֵשׁוּ shares root confusion with בּוֹשׁ 'be ashamed'; drying is the plain sense here"
+    }
+  ],
+  "translation": "A drought against her waters, and they shall dry up; for it is a land of idols, and they act madly because of terrors.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3bfd9e8b1bfe4ff89d0c15e0bffa554149d9d49c521078a3356a8fcb999e212",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/50\/37-40.1791190085767.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "חרב",
-      "gloss": "a drought"
+      "surface": "חֹ֥רֶב",
+      "gloss": "A drought",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "upon"
+      "surface": "אֶל",
+      "gloss": "against",
+      "sense": null
     },
     {
-      "surface": "מימיה",
-      "gloss": "her waters"
+      "surface": "מֵימֶ֖יהָ",
+      "gloss": "her waters",
+      "sense": "S1"
     },
     {
-      "surface": "ויבשו",
-      "gloss": "and they shall be dried up"
+      "surface": "וְיָבֵ֑שׁוּ",
+      "gloss": "and they shall dry up",
+      "sense": "S1",
+      "readings": [
+        "and they shall dry up",
+        "and they shall be ashamed"
+      ]
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "for"
     },
     {
-      "surface": "ארץ",
-      "gloss": "a land"
+      "surface": "אֶ֤רֶץ",
+      "gloss": "a land",
+      "sense": "S1"
     },
     {
-      "surface": "פסלים",
-      "gloss": "of graven images"
+      "surface": "פְּסִלִים֙",
+      "gloss": "of idols",
+      "sense": "S1"
     },
     {
-      "surface": "היא",
-      "gloss": "she"
+      "surface": "הִ֔יא",
+      "gloss": "it is",
+      "sense": null
     },
     {
-      "surface": "ובאימים",
-      "gloss": "and over the terrors",
-      "readings": [
-        "and over the terrors",
-        "and in idols"
-      ],
-      "held_by": {
-        "and over the terrors": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and in idols": [
-          "en4"
-        ]
-      }
+      "surface": "וּבָאֵימִ֖ים",
+      "gloss": "because of terrors",
+      "sense": "S1"
     },
     {
-      "surface": "יתהללו",
+      "surface": "יִתְהֹלָֽלוּ",
       "gloss": "they act madly",
-      "readings": [
-        "they act madly",
-        "they boast"
-      ],
-      "held_by": {
-        "they act madly": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they boast": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:48:05.768705705Z",
+  "model": "glm-5.3"
 }

@@ -1,49 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Ben-Abinadab — all of Naphath-Dor; Taphath, daughter of Solomon, was to him as a wife.",
+  "ref": "1-kings 4:11",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "טפת",
+      "rationale": "Taphath, Solomon's daughter, occurs only here in the Tanakh."
+    },
+    {
+      "kind": "idiom",
+      "subject": "היתה לו לאשה",
+      "rationale": "Literally 'she was to him for a wife'; the lamed of role rendered 'as'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "slope",
+      "rationale": "נפת elsewhere means sieve; here a place-name read as 'the slope of Dor'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "verse",
+      "rationale": "District list; the officer bound to Solomon by marriage."
+    }
+  ],
+  "translation": "Ben-Abinadab — all the slope of Dor; Taphath the daughter of Solomon was to him ⟨as⟩ wife.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e6c2de88a64ea01aaf6cda5b47f9dadca4e5f298af7234595606aad57cf6eca8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/4\/9-12.1791186796050.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "בן",
-      "gloss": "son of",
-      "readings": [
-        "son of",
-        "Ben-"
-      ],
-      "held_by": {
-        "son of": [
-          "v2",
-          "v3"
-        ],
-        "Ben-": [
-          "en4"
-        ]
-      }
+      "gloss": "the son of",
+      "sense": "S1"
     },
     {
       "surface": "אבינדב",
-      "gloss": "Abinadab"
+      "gloss": "Abinadab",
+      "sense": "S1"
     },
     {
       "surface": "כל",
-      "gloss": "all of"
+      "gloss": "all"
     },
     {
       "surface": "נפת",
-      "gloss": "Naphath",
-      "readings": [
-        "Naphath",
-        "the region of"
-      ],
-      "held_by": {
-        "Naphath": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the region of": [
-          "en4"
-        ]
-      }
+      "gloss": "the slope of",
+      "sense": "S1"
     },
     {
       "surface": "דאר",
@@ -51,15 +64,18 @@
     },
     {
       "surface": "טפת",
-      "gloss": "Taphath"
+      "gloss": "Taphath",
+      "sense": "S1"
     },
     {
       "surface": "בת",
-      "gloss": "daughter of"
+      "gloss": "the daughter of",
+      "sense": "S1"
     },
     {
       "surface": "שלמה",
-      "gloss": "Solomon"
+      "gloss": "Solomon",
+      "sense": "S1"
     },
     {
       "surface": "היתה",
@@ -71,9 +87,10 @@
     },
     {
       "surface": "לאשה",
-      "gloss": "as a wife"
+      "gloss": "⟨as⟩ wife",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:53:16.052698663Z",
+  "model": "glm-5.3"
 }

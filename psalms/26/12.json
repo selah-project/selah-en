@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "My foot stands on level ground; in the congregations I will bless YHWH.",
-  "tokens": [
+  "ref": "psalms 26:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "רגלי",
-      "gloss": "My foot"
-    },
-    {
-      "surface": "עמדה",
-      "gloss": "stands"
-    },
-    {
-      "surface": "במישור",
-      "gloss": "on level ground",
-      "readings": [
-        "on level ground",
-        "in uprightness"
-      ],
-      "held_by": {
-        "on level ground": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in uprightness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "במקהלים",
-      "gloss": "in the congregations"
-    },
-    {
-      "surface": "אברך",
-      "gloss": "I will bless"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "foot",
+      "rationale": "רגל used metonymically for the whole person; readings carry both"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My foot stands on level ground; in the assemblies I will bless YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0614ff20e9a23561353ab743e315e71aa24624782a0559b15e5c15a6680fac6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/26\/9-12.1791192534160.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רַגְלִי",
+      "gloss": "My foot",
+      "readings": [
+        "My foot",
+        "myself"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עָמְדָה",
+      "gloss": "stands",
+      "sense": null
+    },
+    {
+      "surface": "בְּמִישׁוֹר",
+      "gloss": "on level ground",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַקְהֵלִים",
+      "gloss": "in the assemblies",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבָרֵךְ",
+      "gloss": "I will bless",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:54.161275405Z",
+  "model": "glm-5.3"
 }

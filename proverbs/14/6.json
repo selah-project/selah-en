@@ -1,66 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "A scoffer seeks wisdom, and there is none, but knowledge is easy to the discerning.",
+  "ref": "proverbs 14:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English article supplied for לץ"
+    },
+    {
+      "kind": "crux",
+      "subject": "נקל",
+      "rationale": "niphal of קלל: 'is light\/easy' — 'knowledge is easy for the discerning' vs 'is trifled with by fools'"
+    }
+  ],
+  "translation": "The scoffer sought wisdom, and there is none, but knowledge comes easily to the one-who-discerns.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "638e4e2ae541a2ed7ec02f7e86475e80dfe76e89c3645bc5c0ea586199bb3c63",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/5-8.1791193850746.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "בקש",
-      "gloss": "seeks",
-      "readings": [
-        "seeks",
-        "has sought"
-      ],
-      "held_by": {
-        "seeks": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "has sought": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בִּקֶּשׁ",
+      "gloss": "sought",
+      "sense": "S1"
     },
     {
-      "surface": "לץ",
-      "gloss": "a scoffer"
+      "surface": "לֵץ",
+      "gloss": "the scoffer"
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
+      "surface": "וָאַיִן",
       "gloss": "and there is none"
     },
     {
-      "surface": "ודעת",
-      "gloss": "but knowledge"
+      "surface": "וְדַעַת",
+      "gloss": "but knowledge",
+      "sense": "S1"
     },
     {
-      "surface": "לנבון",
-      "gloss": "to the discerning"
+      "surface": "לְנָבוֹן",
+      "gloss": "to the one-who-discerns",
+      "sense": "S1"
     },
     {
-      "surface": "נקל",
-      "gloss": "is easy",
-      "readings": [
-        "is easy",
-        "is light"
-      ],
-      "held_by": {
-        "is easy": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is light": [
-          "en4"
-        ]
-      }
+      "surface": "נָקָל",
+      "gloss": "comes easily",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:50.746812898Z",
+  "model": "glm-5.3"
 }

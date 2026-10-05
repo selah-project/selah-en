@@ -1,72 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "He is crushed, he crouches; and the wretched fall by his mighty ones.",
+  "ref": "psalms 10:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ודכה",
+      "rationale": "Wayyiqtol with no expressed object: either 'and he [the wicked] crushed him' (S3) or 'and he [the afflicted] is crushed' (S2); the lion metaphor of v9 supports the wicked as subject."
+    },
+    {
+      "kind": "hapax",
+      "subject": "חלכאים",
+      "rationale": "Plural of חלכא, 'wretched ones', a rare word clustered in this psalm (10:8, 14)."
+    }
+  ],
+  "translation": "And he crushes ⟨him⟩ — he is bowed down and falls by his strong ones, the wretched.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9be698cf6bc353300f7fa4ca3362ff99d9a58afb33d7efb630790a4870f6181",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/9-12.1791192408246.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "ודכה",
-      "gloss": "he is crushed"
+      "gloss": "and he crushes ⟨him⟩",
+      "sense": "S3"
     },
     {
-      "surface": "ישח",
-      "gloss": "crouches",
-      "readings": [
-        "crouches",
-        "sinks"
-      ],
-      "held_by": {
-        "crouches": [
-          "v2",
-          "v3"
-        ],
-        "sinks": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "יָשֹֹ֑חַ",
+      "gloss": "he is bowed down",
+      "sense": "S1"
     },
     {
-      "surface": "ונפל",
-      "gloss": "and fall"
+      "surface": "וְנָפַ֥ל",
+      "gloss": "and falls",
+      "sense": "S1"
     },
     {
-      "surface": "בעצומיו",
-      "gloss": "by his mighty ones",
-      "readings": [
-        "by his mighty ones",
-        "by his might"
-      ],
-      "held_by": {
-        "by his mighty ones": [
-          "v1",
-          "en4"
-        ],
-        "by his might": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "בַּ֝עֲצוּמָ֗יו",
+      "gloss": "by his strong ones",
+      "sense": "S1"
     },
     {
       "surface": "חלכאים",
-      "gloss": "the wretched",
-      "readings": [
-        "the wretched",
-        "the helpless"
-      ],
-      "held_by": {
-        "the wretched": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the helpless": [
-          "en4"
-        ]
-      }
+      "gloss": "the wretched"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:48.246956052Z",
+  "model": "glm-5.3"
 }

@@ -1,77 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And the armed men left ⟨את⟩ the captives and ⟨את⟩ the spoil before the princes and all the assembly.",
+  "ref": "2-chronicles 28:14",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "the armed men",
+      "rationale": "החלוץ is a singular collective — 'the armed troop' or literally 'the one-who-was-girded' — the plural 'men' is supplied sense."
+    }
+  ],
+  "translation": "And the armed men left ⟨את⟩ the captives and ⟨את⟩ the plunder before the officers and all the assembly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc8c56ff8c42ad59175d922846bbcb0c53fb79cc84c084d28e7737864034413e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/28\/13-16.1791196944997.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויעזב",
-      "gloss": "And left"
+      "gloss": "And left",
+      "sense": "S1"
     },
     {
       "surface": "החלוץ",
       "gloss": "the armed men",
       "readings": [
         "the armed men",
-        "the ones girded"
+        "the one-who-was-girded"
       ],
-      "held_by": {
-        "the armed men": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the ones girded": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the captives",
+      "sense": null
     },
     {
       "surface": "השביה",
       "gloss": "the captives",
-      "readings": [
-        "the captives",
-        "the captivity"
-      ],
-      "held_by": {
-        "the captives": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the captivity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the plunder",
+      "sense": null
     },
     {
       "surface": "הבזה",
-      "gloss": "the spoil"
+      "gloss": "the plunder",
+      "sense": "S1"
     },
     {
       "surface": "לפני",
-      "gloss": "before"
+      "gloss": "before",
+      "sense": null
     },
     {
       "surface": "השרים",
-      "gloss": "the princes"
+      "gloss": "the officers",
+      "sense": "S1"
     },
     {
       "surface": "וכל",
-      "gloss": "and all"
+      "gloss": "and all",
+      "sense": null
     },
     {
       "surface": "הקהל",
-      "gloss": "the assembly"
+      "gloss": "the assembly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:42:24.998198595Z",
+  "model": "glm-5.3"
 }

@@ -1,104 +1,114 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "May there be abundance of grain in the land, on the head of the mountains may its fruit shake like Lebanon; and may they blossom from the city like the grass of the land.",
-  "tokens": [
+  "ref": "psalms 72:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
     {
-      "surface": "יהי",
-      "gloss": "May there be"
+      "kind": "hapax",
+      "subject": "abundance",
+      "rationale": "פסה occurs only here in the Tanakh."
     },
     {
-      "surface": "פסת",
-      "gloss": "abundance"
+      "kind": "crux",
+      "subject": "may it wave",
+      "rationale": "ירעש usually 'quake\/shake'; here of grain moving in wind — a field undulating, not an earthquake."
     },
     {
-      "surface": "בר",
-      "gloss": "grain"
+      "kind": "crux",
+      "subject": "from the city",
+      "rationale": "מעיר: 'from the city' (people flourish from cities) vs pointing עיר for 'from men'; kept literal with readings."
     },
     {
-      "surface": "בארץ",
-      "gloss": "in the land",
-      "readings": [
-        "in the land",
-        "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the earth": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בראש",
-      "gloss": "on the head of"
-    },
-    {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "ירעש",
-      "gloss": "may it shake",
-      "readings": [
-        "may it shake",
-        "may it wave"
-      ],
-      "held_by": {
-        "may it shake": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "may it wave": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כלבנון",
-      "gloss": "like Lebanon"
-    },
-    {
-      "surface": "פריו",
-      "gloss": "its fruit"
-    },
-    {
-      "surface": "ויציצו",
-      "gloss": "and may they blossom"
-    },
-    {
-      "surface": "מעיר",
-      "gloss": "from the city"
-    },
-    {
-      "surface": "כעשב",
-      "gloss": "like the grass"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "of the land",
-      "readings": [
-        "of the land",
-        "of the earth"
-      ],
-      "held_by": {
-        "of the land": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the earth": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "its fruit",
+      "rationale": "Fruit of the earth, compared to Lebanon's (cedars) — or Lebanon's own fruit; the suffix is ambiguous."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May there be an abundance of grain in the earth, on the head of the mountains may it wave; like Lebanon its fruit, and may they blossom from the city like grass of the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a87b23138647964ffc2ffca0acb2019e0f48ca02c072b3fff4f2af4ac06c68c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/13-16.1791192985179.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהִ֤י",
+      "gloss": "May there be",
+      "sense": null
+    },
+    {
+      "surface": "פִּסַּ֣ת",
+      "gloss": "an abundance of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֣ר",
+      "gloss": "grain",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאָרֶץ֮",
+      "gloss": "in the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרֹ֪אשׁ",
+      "gloss": "on the head",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָ֫רִ֥ים",
+      "gloss": "of the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְעַ֣שׁ",
+      "gloss": "may it wave",
+      "sense": "S2"
+    },
+    {
+      "surface": "כַּלְּבָנ֣וֹן",
+      "gloss": "like Lebanon",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּרְי֑וֹ",
+      "gloss": "its fruit",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָצִ֥יצוּ",
+      "gloss": "and may they blossom",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעִ֗יר",
+      "gloss": "from the city",
+      "sense": "S1",
+      "readings": [
+        "from the city",
+        "from men"
+      ]
+    },
+    {
+      "surface": "כְּעֵ֣שֶׂב",
+      "gloss": "like grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָֽרֶץ",
+      "gloss": "of the earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:25.180440433Z",
+  "model": "glm-5.3"
 }

@@ -1,72 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Where ⟨there are⟩ no oxen, the manger ⟨is⟩ clean, but much produce ⟨comes⟩ by the strength of the ox.",
-  "tokens": [
+  "ref": "proverbs 14:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "באין",
-      "gloss": "where there are no",
-      "readings": [
-        "where there are no",
-        "in the absence of"
-      ],
-      "held_by": {
-        "where there are no": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the absence of": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": " manger of grain",
+      "rationale": "אבוס בר — either construct ('manger of grain') or בר as adjective ('the manger is empty\/clean'); both readings are ancient."
     },
     {
-      "surface": "אלפים",
-      "gloss": "oxen"
-    },
-    {
-      "surface": "אבוס",
-      "gloss": "the manger"
-    },
-    {
-      "surface": "בר",
-      "gloss": "clean",
-      "readings": [
-        "clean",
-        "empty"
-      ],
-      "held_by": {
-        "clean": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "empty": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ורב",
-      "gloss": "but much"
-    },
-    {
-      "surface": "תבואות",
-      "gloss": "produce"
-    },
-    {
-      "surface": "בכח",
-      "gloss": "by the strength of"
-    },
-    {
-      "surface": "שור",
-      "gloss": "ox"
+      "kind": "addition",
+      "subject": "empty of \/ comes",
+      "rationale": "Hebrew juxtaposes nouns with no verb; English supplies the connection."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Where there are no oxen the manger is ⟨empty of⟩ grain, and much produce ⟨comes⟩ by the strength of an ox.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3fc0a5cd48925c2bb49d94e7fe1137dc4346a0fdea9a6a482c24554d538dc48",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/1-4.1791193849555.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּאֵ֣ין",
+      "gloss": "where there are no",
+      "sense": null
+    },
+    {
+      "surface": "אֲ֭לָפִים",
+      "gloss": "oxen",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵב֣וּס",
+      "gloss": "the manger",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֑ר",
+      "gloss": "⟨of⟩ grain",
+      "readings": [
+        "grain",
+        "clean"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרָ֖ב",
+      "gloss": "but much",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּבוּאֹ֣ת",
+      "gloss": "produce",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכֹ֣חַ",
+      "gloss": "by the strength of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֽׁוֹר",
+      "gloss": "an ox",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:49.556818471Z",
+  "model": "glm-5.3"
 }

@@ -1,147 +1,116 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "There is none calling out in righteousness, and none pleading in faithfulness; trusting on emptiness and speaking falsehood — conceiving trouble and giving birth to iniquity.",
+  "ref": "isaiah 59:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "תֹּהוּ",
+      "rationale": "The Gen 1:2 word: 'chaos\/formlessness' vs 'worthless thing'; both senses live in the one form here."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "conceive…birth",
+      "rationale": "The birth metaphor (cp. v.5's eggs of the viper) — sin as pregnancy carried to term; kept literal."
+    },
+    {
+      "kind": "alternative",
+      "subject": "קֹרֵא",
+      "rationale": "Could be legal 'pleads a case'; the S1 'cry out, summon' is rendered plain."
+    }
+  ],
+  "translation": "No one calls out in righteousness, and no one is judged in faithfulness; trusting on chaos-and-nothingness and speaking vanity, conceiving trouble and birthing iniquity.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "61676c752049dda45ebcf1f27e2f15d3ed78c44ee93e8e3d279ae84bb743ce67",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/59\/2-4.1791199173531.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אין",
-      "gloss": "There is none"
+      "surface": "אֵין",
+      "gloss": "No one"
     },
     {
-      "surface": "קרא",
-      "gloss": "calling out"
+      "surface": "קֹרֵא",
+      "gloss": "calls out",
+      "sense": "S1"
     },
     {
-      "surface": "בצדק",
-      "gloss": "in righteousness"
+      "surface": "בְּצֶדֶק",
+      "gloss": "in righteousness",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is none"
+      "surface": "וְאֵין",
+      "gloss": "and no one"
     },
     {
-      "surface": "נשפט",
-      "gloss": "pleading",
-      "readings": [
-        "pleading",
-        "judging"
-      ],
-      "held_by": {
-        "pleading": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "judging": [
-          "v1"
-        ]
-      },
-      "disputed": false
+      "surface": "נִשְׁפָּט",
+      "gloss": "is judged",
+      "sense": "S1"
     },
     {
-      "surface": "באמונה",
-      "gloss": "in faithfulness"
+      "surface": "בֶּאֱמוּנָה",
+      "gloss": "in faithfulness",
+      "sense": "S1"
     },
     {
-      "surface": "בטוח",
-      "gloss": "trusting"
+      "surface": "בָּטוֹחַ",
+      "gloss": "trusting",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "on"
     },
     {
-      "surface": "תהו",
-      "gloss": "emptiness",
+      "surface": "תֹּהוּ",
+      "gloss": "chaos-and-nothingness",
+      "sense": "S1",
       "readings": [
-        "emptiness",
-        "waste"
-      ],
-      "held_by": {
-        "emptiness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "waste": [
-          "en4"
-        ]
-      }
+        "chaos-and-nothingness",
+        "worthless thing"
+      ]
     },
     {
-      "surface": "ודבר",
-      "gloss": "and speaking"
+      "surface": "וְדַבֵּר",
+      "gloss": "and speaking",
+      "sense": "S1"
     },
     {
-      "surface": "שוא",
-      "gloss": "falsehood",
-      "readings": [
-        "falsehood",
-        "emptiness"
-      ],
-      "held_by": {
-        "falsehood": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "emptiness": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "שָׁוְא",
+      "gloss": "vanity",
+      "sense": "S1"
     },
     {
-      "surface": "הרו",
-      "gloss": "conceiving"
+      "surface": "הָרֹה",
+      "gloss": "conceiving",
+      "sense": "S1"
     },
     {
-      "surface": "עמל",
+      "surface": "עָמָל",
       "gloss": "trouble",
-      "readings": [
-        "trouble",
-        "toil"
-      ],
-      "held_by": {
-        "trouble": [
-          "v1",
-          "en4"
-        ],
-        "toil": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "והוליד",
-      "gloss": "and giving birth to"
+      "surface": "וְהוֹלִיד",
+      "gloss": "and birthing",
+      "sense": "S1"
     },
     {
-      "surface": "און",
+      "surface": "אָוֶן",
       "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "wickedness",
-        "nothingness"
-      ],
-      "held_by": {
-        "iniquity": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wickedness": [
-          "v1"
-        ],
-        "nothingness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:19:33.532641412Z",
+  "model": "glm-5.3"
 }

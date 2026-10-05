@@ -1,88 +1,106 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And why will you not lift my transgression, and cause ⟨את⟩ my iniquity to pass away? For now I will lie down in the dust, and you will seek me — and I am not.",
+  "ref": "job 7:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "would be",
+      "rationale": "Hebrew אינני is a bare negative + suffix; English needs a supplied verb"
+    },
+    {
+      "kind": "crux",
+      "subject": "ושחרתני",
+      "rationale": "piel of שחר: 'seek me earnestly' vs 'dawn upon me'; most read 'seek'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "I would lie down",
+      "rationale": "job's death is prospective: imperfects rendered conditionally, 'for soon I lie down in the dust'"
+    }
+  ],
+  "translation": "And why do you not lift away my revolt, and pass over ⟨את⟩ my guilt? For now I would lie down in the dust, and you would seek me — and I ⟨would be⟩ not.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "30c479e2bc9b5376a6c28fa9d6ad7c2281e54dc3f14d9b4bb77fe5cc34281dae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/21-21.1791194200255.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ומה",
-      "gloss": "And why"
+      "surface": "וּמֶ֤ה",
+      "gloss": "And why",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תשא",
-      "gloss": "will you lift"
+      "surface": "תִשָּׂ֣א",
+      "gloss": "do you lift away",
+      "readings": [
+        "do you lift away",
+        "will you bear"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "פשעי",
-      "gloss": "my transgression"
+      "surface": "פִשְׁעִי֮",
+      "gloss": "my revolt",
+      "sense": "S1"
     },
     {
-      "surface": "ותעביר",
-      "gloss": "and cause to pass away"
+      "surface": "וְתַעֲבִ֪יר",
+      "gloss": "and pass over"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my guilt"
     },
     {
-      "surface": "עוני",
-      "gloss": "my iniquity"
+      "surface": "עֲוֺ֫נִ֥י",
+      "gloss": "my guilt",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "עתה",
-      "gloss": "now"
+      "surface": "עַ֭תָּה",
+      "gloss": "now",
+      "sense": "S1"
     },
     {
-      "surface": "לעפר",
+      "surface": "לֶעָפָ֣ר",
       "gloss": "in the dust",
-      "readings": [
-        "in the dust",
-        "to the dust"
-      ],
-      "held_by": {
-        "in the dust": [
-          "v2"
-        ],
-        "to the dust": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אשכב",
-      "gloss": "I will lie down"
+      "surface": "אֶשְׁכָּ֑ב",
+      "gloss": "I would lie down",
+      "sense": "S1"
     },
     {
-      "surface": "ושחרתני",
-      "gloss": "and you will seek me",
-      "readings": [
-        "and you will seek me",
-        "and you will seek me early"
-      ],
-      "held_by": {
-        "and you will seek me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you will seek me early": [
-          "en4"
-        ]
-      }
+      "surface": "וְשִׁ֣חֲרְתַּ֣נִי",
+      "gloss": "and you would seek me",
+      "sense": "S1"
     },
     {
-      "surface": "ואינני",
-      "gloss": "and I am not"
+      "surface": "וְאֵינֶֽנִּי",
+      "gloss": "and I ⟨would be⟩ not"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:40.255732246Z",
+  "model": "glm-5.3"
 }

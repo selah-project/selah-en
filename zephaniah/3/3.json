@@ -1,63 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Her princes in her midst are roaring lions; her judges are wolves of evening — they gnawed not a bone till the morning.",
+  "ref": "zephaniah 3:3",
+  "book": "zephaniah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "גרמו",
+      "rationale": "Rare verb (also Num 24:8, Ezek 23:34): literally 'bone' as verb — 'they leave a bone' i.e. gnaw everything to the bone; rendered with the bone-picture kept, object supplied."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ערב \/ בקר",
+      "rationale": "Evening vs morning: wolves of dusk devour so completely that nothing remains for daybreak, a time normally associated with relief (cf. v.5)."
+    }
+  ],
+  "translation": "Her officials within her are roaring lions; her judges are wolves of the evening, who leave no bone till morning.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "689b4db056cb05c03dce8645506e3e729473dfec460fd5d615ad48fd97176c0a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/zephaniah\/3\/1-4.1791191938984.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/zephaniah.edn"
+  },
   "tokens": [
     {
       "surface": "שריה",
-      "gloss": "Her princes"
+      "gloss": "her officials",
+      "sense": "S1"
     },
     {
       "surface": "בקרבה",
-      "gloss": "in her midst"
+      "gloss": "within her"
     },
     {
       "surface": "אריות",
-      "gloss": "lions"
+      "gloss": "lions",
+      "sense": "S1"
     },
     {
       "surface": "שאגים",
-      "gloss": "roaring"
+      "gloss": "roaring",
+      "sense": "S1"
     },
     {
       "surface": "שפטיה",
-      "gloss": "her judges"
+      "gloss": "her judges",
+      "sense": "S1"
     },
     {
       "surface": "זאבי",
-      "gloss": "wolves of"
+      "gloss": "wolves of",
+      "sense": "S1"
     },
     {
       "surface": "ערב",
-      "gloss": "evening"
+      "gloss": "the evening",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "גרמו",
-      "gloss": "they gnawed",
-      "readings": [
-        "they gnawed",
-        "they left not a bone"
-      ],
-      "held_by": {
-        "they gnawed": [
-          "v1",
-          "en4"
-        ],
-        "they left not a bone": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "they leave ⟨a bone⟩",
+      "sense": "S1"
     },
     {
       "surface": "לבקר",
-      "gloss": "till the morning"
+      "gloss": "till the morning",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:18:58.985503705Z",
+  "model": "glm-5.3"
 }

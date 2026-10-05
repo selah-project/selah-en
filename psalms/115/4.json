@@ -1,61 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Their idols are silver and gold, the work of the hands of man.",
-  "tokens": [
+  "ref": "psalms 115:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
     {
-      "surface": "עצביהם",
-      "gloss": "their idols",
-      "readings": [
-        "their idols",
-        "their pains"
-      ],
-      "held_by": {
-        "their idols": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "their pains": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "hands",
+      "rationale": "יָד is literally 'hand'; 'the work of human hands' is metonymy for maker, kept literal here."
     },
     {
-      "surface": "כסף",
-      "gloss": "silver"
-    },
-    {
-      "surface": "וזהב",
-      "gloss": "and gold"
-    },
-    {
-      "surface": "מעשה",
-      "gloss": "the work of"
-    },
-    {
-      "surface": "ידי",
-      "gloss": "the hands of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "man",
-      "readings": [
-        "man",
-        "mankind"
-      ],
-      "held_by": {
-        "man": [
-          "en4",
-          "v2",
-          "v3"
-        ],
-        "mankind": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "יְדֵי אָדָם",
+      "rationale": "'Hands of adam\/humanity' — the generic human, kept as 'human hands' rather than 'men's hands'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Their idols are silver and gold, the work of human hands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9290cb5535ea9d78c3228ee585c6c3f2bcbe599a87e0c6d2367324c55d9a82b2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/1-4.1791193398289.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲצַבֵּיהֶם",
+      "gloss": "Their idols",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּסֶף",
+      "gloss": "silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְזָהָב",
+      "gloss": "and gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַעֲשֵׂה",
+      "gloss": "the work of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְדֵי",
+      "gloss": "hands",
+      "readings": [
+        "hands",
+        "the makers of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "human",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:18.290931019Z",
+  "model": "glm-5.3"
 }

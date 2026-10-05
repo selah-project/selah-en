@@ -1,28 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "With an east wind you shatter the ships of Tarshish.",
-  "tokens": [
+  "ref": "psalms 48:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
     {
-      "surface": "ברוח",
-      "gloss": "With a wind"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "The verb תשבר is 2nd person singular — the verse suddenly addresses Elohim directly."
     },
     {
-      "surface": "קדים",
-      "gloss": "of the east"
-    },
-    {
-      "surface": "תשבר",
-      "gloss": "you shatter"
-    },
-    {
-      "surface": "אניות",
-      "gloss": "the ships"
-    },
-    {
-      "surface": "תרשיש",
-      "gloss": "of Tarshish"
+      "kind": "addition",
+      "subject": "the east",
+      "rationale": "Hebrew קדים is 'east(erly)' without an article; English supplies 'the'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With the east wind ‖ You shatter ‖ the ships of Tarshish.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "37de676db5e9025ab9f2afb81160bf2e054b2b5ae428bba490fc964b916b6d5f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/48\/5-8.1791192738421.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּר֥וּחַ",
+      "gloss": "With the wind",
+      "readings": [
+        "With the wind",
+        "With the breath"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדִ֑ים",
+      "gloss": "the east",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּ֝שַׁבֵּ֗ר",
+      "gloss": "You shatter",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֳנִיּ֥וֹת",
+      "gloss": "the ships",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּרְשִֽׁׁישׁ",
+      "gloss": "of Tarshish",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.422597207Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And you, Israel, ⟨are⟩ my servant, Jacob whom I have chosen, the seed of Abraham my friend.",
-  "tokens": [
+  "ref": "isaiah 41:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "And you"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between 'you, Israel' and 'my servant'"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH addresses Israel directly, in sharp contrast to the nations' panic in vv. 5–7"
     },
     {
-      "surface": "עבדי",
-      "gloss": "my servant"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "Jacob"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "whom"
-    },
-    {
-      "surface": "בחרתיך",
-      "gloss": "I have chosen you"
-    },
-    {
-      "surface": "זרע",
-      "gloss": "seed"
-    },
-    {
-      "surface": "אברהם",
-      "gloss": "of Abraham"
-    },
-    {
-      "surface": "אהבי",
-      "gloss": "my friend",
-      "readings": [
-        "my friend",
-        "my lover"
-      ],
-      "held_by": {
-        "my friend": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my lover": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "my loved one",
+      "rationale": "אֹהֲבִי is a participle construct, 'him whom I love' — 'my loved one' keeps the possessive force"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But you, Israel, are my servant, Jacob whom I have chosen, seed of Abraham my loved one.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03cfd5d4e87d8419e0962d97b0e081205aea8cf72c4a6b3bfaba58d7b0298fa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/41\/5-8.1791188621150.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּה",
+      "gloss": "But you",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַבְדִּי",
+      "gloss": "are my servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "whom",
+      "sense": null
+    },
+    {
+      "surface": "בְּחַרְתִּיךָ",
+      "gloss": "I have chosen",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶרַע",
+      "gloss": "seed of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַבְרָהָם",
+      "gloss": "Abraham",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהֲבִי",
+      "gloss": "my loved one",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:23:41.151802148Z",
+  "model": "glm-5.3"
 }

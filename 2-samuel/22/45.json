@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 45,
-  "translation": "Sons of the foreigner shall feign ⟨obedience⟩ to me; at the hearing of the ear they shall listen to me.",
-  "tokens": [
+  "ref": "2-samuel 22:45",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "sons of"
+      "kind": "idiom",
+      "subject": "at the hearing of the ear they will hear me",
+      "rationale": "Hebrew לִשְׁמֹעַ אֹזֶן יִשָּׁמְעוּ, literally 'to hear the ear they will hear', an idiom of immediate obedience"
     },
     {
-      "surface": "נכר",
-      "gloss": "the foreigner"
+      "kind": "alternative",
+      "subject": "will feign submission",
+      "rationale": "hithpael of כחשׁ can also read 'will lie to me \/ disown me'; the parallel Ps 18:45 has plain יכחשו"
+    }
+  ],
+  "translation": "Sons of the foreigner will feign submission to me; at the hearing of the ear they will hear me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9454d3f77ce92e3441b5652a83372df3ad2e5f4140231b62a9d5fc1aaddea00a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/45-48.1791186610217.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנֵי",
+      "gloss": "sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵכָר",
+      "gloss": "the foreigner",
+      "sense": "S1"
     },
     {
       "surface": "יתכחשו",
-      "gloss": "shall feign ⟨obedience⟩",
-      "disputed": true,
-      "readings": [
-        "shall feign ⟨obedience⟩",
-        "shall disown"
-      ],
-      "held_by": {
-        "shall feign ⟨obedience⟩": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "shall disown": [
-          "en4"
-        ]
-      }
+      "gloss": "will feign submission",
+      "sense": "S1"
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "לשמוע",
-      "gloss": "at the hearing of"
+      "gloss": "at the hearing of",
+      "sense": null
     },
     {
       "surface": "אזן",
-      "gloss": "the ear"
+      "gloss": "the ear",
+      "sense": "S1"
     },
     {
       "surface": "ישמעו",
-      "gloss": "they shall listen"
+      "gloss": "they will hear",
+      "sense": null
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:10.217624875Z",
+  "model": "glm-5.3"
 }

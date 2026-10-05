@@ -1,78 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "He looks upon men and says: I have sinned, and what is straight I have perverted, and it did not profit me.",
-  "tokens": [
+  "ref": "job 33:27",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "ישר",
-      "gloss": "he looks",
-      "readings": [
-        "he looks",
-        "he sings"
-      ],
-      "held_by": {
-        "he looks": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he sings": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "ישר",
+      "rationale": "Hapax-like jussive from שור: 'let him sing' vs 'he looks out over men'; singing before witnesses fits the confession context."
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "kind": "wordplay",
+      "subject": "וישר \/ העויתי",
+      "rationale": "Straight vs perverted — the confession itself turns on the straight\/crooked antithesis."
     },
     {
-      "surface": "אנשים",
-      "gloss": "men"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and says"
-    },
-    {
-      "surface": "חטאתי",
-      "gloss": "I have sinned"
-    },
-    {
-      "surface": "וישר",
-      "gloss": "and what is straight"
-    },
-    {
-      "surface": "העויתי",
-      "gloss": "I have perverted"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "שוה",
-      "gloss": "it profited",
-      "readings": [
-        "it profited",
-        "has been level"
-      ],
-      "held_by": {
-        "it profited": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "has been level": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
+      "kind": "crux",
+      "subject": "ולא שוה לי",
+      "rationale": "'It was not made equal to me' — rendered as 'not requited as I deserved'; some read 'and it did not benefit me'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He opens ⟨his song⟩ before men and says: I have sinned, and what is straight I have perverted, and it was not dealt out to me ⟨as I deserved⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0a7732d00939aa29207d6302c89a9ffbe6ae7bdb3f1f358c7ec0a28aa0c4a3cf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/33\/25-28.1791194535007.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָשֹׁ֤ר",
+      "gloss": "He opens ⟨his song⟩",
+      "readings": [
+        "He opens ⟨his song⟩",
+        "he looks about"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "before",
+      "sense": null
+    },
+    {
+      "surface": "אֲנָשִׁ֗ים",
+      "gloss": "men",
+      "sense": null
+    },
+    {
+      "surface": "וַיֹּ֗אמֶר",
+      "gloss": "and says",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָטָאתִי",
+      "gloss": "I have sinned",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָשָׁ֥ר",
+      "gloss": "and what is straight",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶעֱוֵ֗יתִי",
+      "gloss": "I have perverted",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֥וָה",
+      "gloss": "it was dealt out",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִֽי",
+      "gloss": "to me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:15.008656938Z",
+  "model": "glm-5.3"
 }

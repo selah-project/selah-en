@@ -1,63 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "On the ninth ⟨day⟩ of the month the famine grew severe in the city, and there was no bread for the people of the land.",
+  "ref": "2-kings 25:3",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "day",
+      "rationale": "Hebrew has only 'on the ninth of the month'; ⟨day⟩ supplied for English."
+    },
+    {
+      "kind": "elision",
+      "subject": "וְלֹא הָיָה",
+      "rationale": "Negative and verb rendered as one English clause 'there was not'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "date",
+      "rationale": "Event dated by day and month."
+    }
+  ],
+  "translation": "On the ninth ⟨day⟩ of the month the famine grew strong in the city, and there was no bread for the people of the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "53a1e90e70f08d685386c142e67a7ae2b112f622ae05e3bf90177d91e88446c7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/25\/1-4.1791187955366.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "בתשעה",
-      "gloss": "on the ninth ⟨day⟩"
+      "surface": "בְּתִשְׁעָה",
+      "gloss": "On the ninth",
+      "sense": "S1"
     },
     {
-      "surface": "לחדש",
-      "gloss": "of the month"
+      "surface": "לַחֹדֶשׁ",
+      "gloss": "of the month",
+      "sense": "S1"
     },
     {
-      "surface": "ויחזק",
-      "gloss": "and grew severe"
+      "surface": "וַיֶּחֱזַק",
+      "gloss": "and grew strong",
+      "sense": "S1"
     },
     {
-      "surface": "הרעב",
-      "gloss": "the famine"
+      "surface": "הָרָעָב",
+      "gloss": "the famine",
+      "sense": "S1"
     },
     {
-      "surface": "בעיר",
-      "gloss": "in the city"
+      "surface": "בָּעִיר",
+      "gloss": "in the city",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and there was not"
+      "surface": "וְלֹא",
+      "gloss": "and there was not",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
-      "gloss": "there was"
+      "surface": "הָיָה",
+      "gloss": "and there was not",
+      "sense": null
     },
     {
-      "surface": "לחם",
-      "gloss": "bread"
+      "surface": "לֶחֶם",
+      "gloss": "bread",
+      "sense": "S1"
     },
     {
-      "surface": "לעם",
-      "gloss": "for the people of"
+      "surface": "לְעַם",
+      "gloss": "for the people of",
+      "sense": "S1"
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָרֶץ",
       "gloss": "the land",
       "readings": [
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:12:35.367946745Z",
+  "model": "glm-5.3"
 }

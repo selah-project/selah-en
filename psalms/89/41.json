@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "You have breached all his hedges; you have made his fortifications a ruin.",
-  "tokens": [
+  "ref": "psalms 89:41",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
     {
-      "surface": "פרצת",
-      "gloss": "you have breached"
+      "kind": "addition",
+      "subject": "as",
+      "rationale": "Hebrew sets מחתה directly as predicate; English needs 'as' to carry the double-object verb"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "גדרתיו",
-      "gloss": "his hedges",
-      "readings": [
-        "his hedges",
-        "his walls"
-      ],
-      "held_by": {
-        "his hedges": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his walls": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שמת",
-      "gloss": "you have made"
-    },
-    {
-      "surface": "מבצריו",
-      "gloss": "his fortifications"
-    },
-    {
-      "surface": "מחתה",
-      "gloss": "a ruin"
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "Second-person accusation addressed to YHWH (the Holy One of 89:19)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You have breached all his hedges; you have set his fortifications ⟨as⟩ a ruin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2e4085c0d8777731b280c919fe72584ce576cc66d4f178bd7e9879ee2ca2f2a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/41-44.1791193175875.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פָּרַ֥צְתָּ",
+      "gloss": "You have breached",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "גְּדֵרֹתָ֑יו",
+      "gloss": "his hedges",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׂ֖מְתָּ",
+      "gloss": "you have set",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבְצָרָ֣יו",
+      "gloss": "his fortifications",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְחִתָּה",
+      "gloss": "⟨as⟩ a ruin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:35.875750409Z",
+  "model": "glm-5.3"
 }

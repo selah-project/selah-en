@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "YHWH is strength to them, and the stronghold of deliverances of His Mashiach, He.",
-  "tokens": [
+  "ref": "psalms 28:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; copulas supplied"
     },
     {
-      "surface": "עז",
-      "gloss": "strength"
+      "kind": "crux",
+      "subject": "מְשִׁיחֹו הוּא",
+      "rationale": "either YHWH is the stronghold of his anointed, or the anointed one himself is the stronghold; the emphatic הוא may point back to YHWH as the whole verse's subject"
     },
     {
-      "surface": "למו",
-      "gloss": "to them"
-    },
-    {
-      "surface": "ומעוז",
-      "gloss": "and the stronghold"
-    },
-    {
-      "surface": "ישועות",
-      "gloss": "of deliverances"
-    },
-    {
-      "surface": "משיחו",
-      "gloss": "of His Mashiach",
-      "readings": [
-        "of His Mashiach",
-        "of His anointed"
-      ],
-      "held_by": {
-        "of His Mashiach": [
-          "v3"
-        ],
-        "of His anointed": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "הוא",
-      "gloss": "He"
+      "kind": "wordplay",
+      "subject": "עֹז \/ מָעוֹז",
+      "rationale": "strength and stronghold from the same root, an untranslatable echo"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH is strength to them, and a stronghold of deliverances is his anointed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "188bcdbab23b251b560998d2cc057556f17bcf8ea5ad27e74ed31c44988b367a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/28\/5-8.1791192550649.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹז",
+      "gloss": "is strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמוֹ",
+      "gloss": "to them",
+      "sense": null
+    },
+    {
+      "surface": "וּמָעוֹז",
+      "gloss": "and a stronghold of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעֹות",
+      "gloss": "deliverances",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְשִׁיחֹו",
+      "gloss": "is his anointed",
+      "sense": "S1",
+      "readings": [
+        "is his anointed",
+        "is his Mashiach"
+      ]
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:10.651093250Z",
+  "model": "glm-5.3"
 }

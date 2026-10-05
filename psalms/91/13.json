@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Upon ⟨the⟩ lion and ⟨the⟩ cobra you will tread; ⟨the⟩ young lion and ⟨the⟩ serpent you will trample.",
-  "tokens": [
+  "ref": "psalms 91:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "Upon"
+      "kind": "wordplay",
+      "subject": "two treading verbs",
+      "rationale": "דרך and רמס, near-synonymous verbs of treading, give the verse a doubled stamp of force"
     },
     {
-      "surface": "שחל",
-      "gloss": "⟨the⟩ lion"
-    },
-    {
-      "surface": "ופתן",
-      "gloss": "and ⟨the⟩ cobra"
-    },
-    {
-      "surface": "תדרך",
-      "gloss": "you will tread"
-    },
-    {
-      "surface": "תרמס",
-      "gloss": "you will trample"
-    },
-    {
-      "surface": "כפיר",
-      "gloss": "⟨the⟩ young lion"
-    },
-    {
-      "surface": "ותנין",
-      "gloss": "and ⟨the⟩ serpent",
-      "readings": [
-        "and ⟨the⟩ serpent",
-        "and ⟨the⟩ dragon",
-        "and ⟨the⟩ jackal"
-      ],
-      "held_by": {
-        "and ⟨the⟩ serpent": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and ⟨the⟩ dragon": [
-          "en4"
-        ],
-        "and ⟨the⟩ jackal": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "תנין",
+      "rationale": "'sea monster' or 'jackal' possible; here paired with snakes, so the serpent sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Upon the lion and the cobra you shall tread; you shall trample the young lion and the serpent.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "01d514d53e0e7b6bfd0b4974ed1b17f1609634a3812071455c85ee76eadea7a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/13-16.1791193195555.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "שַׁחַל",
+      "gloss": "the lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָפֶתֶן",
+      "gloss": "and the cobra",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּדְרֹךְ",
+      "gloss": "you shall tread",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּרְמֹס",
+      "gloss": "you shall trample",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּפִיר",
+      "gloss": "the young lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתַנִּין",
+      "gloss": "and the serpent",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:55.556242909Z",
+  "model": "glm-5.3"
 }

@@ -1,62 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "I will give You thanks forever, for You have done ⟨it⟩; and I will wait for Your name, for ⟨it is⟩ good, before Your faithful ones.",
-  "tokens": [
+  "ref": "psalms 52:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 52,
+  "notes": [
     {
-      "surface": "אודך",
-      "gloss": "I will give You thanks"
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "Hebrew עָשִׂיתָ has no stated object; English supplies 'it'."
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Hebrew lacks the copula in כִּי טוֹב."
     },
     {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "עשית",
-      "gloss": "You have done"
-    },
-    {
-      "surface": "ואקוה",
-      "gloss": "and I will wait for"
-    },
-    {
-      "surface": "שמך",
-      "gloss": "Your name"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "⟨it is⟩ good"
-    },
-    {
-      "surface": "נגד",
-      "gloss": "before"
-    },
-    {
-      "surface": "חסידיך",
-      "gloss": "Your faithful ones",
-      "readings": [
-        "Your faithful ones",
-        "Your pious ones"
-      ],
-      "held_by": {
-        "Your faithful ones": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Your pious ones": [
-          "v1"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "חֶסֶד \/ חֲסִידֶיךָ",
+      "rationale": "The psalm closes on the root חסד twice: God's chesed (v. 10) and God's chasidim (v. 11) — those who practice it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will praise you forever, for you have done it; and I will wait on your name, for it is good, before your faithful ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "12b8cee05f715ff58601bc5a297a6bcf7050d4097a0977a37a2163c8323a3a31",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/52\/9-11.1791192788643.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אוֹדְךָ",
+      "gloss": "I will praise you",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עָשִׂיתָ",
+      "gloss": "you have done it",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲקַוֶּה",
+      "gloss": "and I will wait on",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁמְךָ",
+      "gloss": "your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "it is good",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶגֶד",
+      "gloss": "before",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲסִידֶיךָ",
+      "gloss": "your faithful ones",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:08.644847857Z",
+  "model": "glm-5.3"
 }

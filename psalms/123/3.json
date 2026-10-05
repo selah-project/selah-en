@@ -1,65 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Be gracious to us, O YHWH, be gracious to us, for greatly have we been sated with contempt.",
-  "tokens": [
+  "ref": "psalms 123:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 123,
+  "notes": [
     {
-      "surface": "חננו",
-      "gloss": "Be gracious to us",
-      "readings": [
-        "Be gracious to us",
-        "Show us favor"
-      ],
-      "held_by": {
-        "Be gracious to us": [
-          "v2",
-          "en4"
-        ],
-        "Show us favor": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "חננו … חננו",
+      "rationale": "The doubled imperative is kept doubled, an urgent refrain framing the divine Name."
     },
     {
-      "surface": "יהוה",
-      "gloss": "O YHWH"
-    },
-    {
-      "surface": "חננו",
-      "gloss": "be gracious to us"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "רב",
-      "gloss": "greatly"
-    },
-    {
-      "surface": "שבענו",
-      "gloss": "have we been sated",
-      "readings": [
-        "have we been sated",
-        "we are sated"
-      ],
-      "held_by": {
-        "have we been sated": [
-          "en4"
-        ],
-        "we are sated": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "בוז",
-      "gloss": "with contempt"
+      "kind": "substitution",
+      "subject": "sated with contempt",
+      "rationale": "שבע, normally of being filled with food, is turned to contempt — fullness as disgust, a metaphor English keeps only awkwardly."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Favor us, YHWH, favor us, for greatly we are sated with contempt.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a240ea1598845975125eb0d74e5355ab53cc01e68b781ecc047ee772b1c2f2d3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/123\/1-4.1791193532313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָנֵּ֣נוּ",
+      "gloss": "Favor us",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָנֵּ֑נוּ",
+      "gloss": "favor us",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "רַ֝ב",
+      "gloss": "greatly",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂבַ֥עְנוּ",
+      "gloss": "we are sated",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּ֥וֹז",
+      "gloss": "with contempt",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:32.314396015Z",
+  "model": "glm-5.3"
 }

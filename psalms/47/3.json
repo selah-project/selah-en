@@ -1,48 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For YHWH, Elyon, is awesome — a great King over all the earth.",
-  "tokens": [
+  "ref": "psalms 47:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 47,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "עליון",
-      "gloss": "Elyon"
-    },
-    {
-      "surface": "נורא",
-      "gloss": "is awesome",
-      "readings": [
-        "is awesome",
-        "is fearsome"
-      ]
-    },
-    {
-      "surface": "מלך",
-      "gloss": "a King"
-    },
-    {
-      "surface": "גדול",
-      "gloss": "great"
-    },
-    {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before נורא"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For YHWH Most High is awesome, a great king over all the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e7c554337471243c878dc38ae24e733b715398ff6f5e27b8255d6b1596e47cc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/47\/1-4.1791192724371.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶלְיוֹן",
+      "gloss": "Most High",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹרָא",
+      "gloss": "is awesome",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "a king",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּדוֹל",
+      "gloss": "great",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1",
+      "readings": [
+        "the earth",
+        "the land"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:04.372749743Z",
+  "model": "glm-5.3"
 }

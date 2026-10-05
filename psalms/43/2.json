@@ -1,83 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "For you are Elohim of my stronghold — why have you forsaken me? Why do I go about dark under the oppression of the enemy?",
-  "tokens": [
+  "ref": "psalms 43:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "קדר",
+      "rationale": "'darkened' (literally ashy-dark, mourning) vs 'mourn' — the literal picture is kept"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "kind": "addition",
+      "subject": "copula 'are'",
+      "rationale": "Hebrew lacks a copula in 'you the Elohim of my stronghold'"
     },
     {
-      "surface": "אלהי",
-      "gloss": "Elohim of"
-    },
-    {
-      "surface": "מעוזי",
-      "gloss": "my stronghold",
-      "readings": [
-        "my stronghold",
-        "my strength"
-      ],
-      "held_by": {
-        "my stronghold": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my strength": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למה",
-      "gloss": "Why"
-    },
-    {
-      "surface": "זנחתני",
-      "gloss": "have you forsaken me"
-    },
-    {
-      "surface": "למה",
-      "gloss": "why"
-    },
-    {
-      "surface": "קדר",
-      "gloss": "dark",
-      "readings": [
-        "dark",
-        "mourning"
-      ],
-      "held_by": {
-        "dark": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "mourning": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אתהלך",
-      "gloss": "do I go about"
-    },
-    {
-      "surface": "בלחץ",
-      "gloss": "under the oppression"
-    },
-    {
-      "surface": "אויב",
-      "gloss": "of the enemy"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "direct second-person address to Elohim throughout"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you are the Elohim of my stronghold — why have you rejected me, why do I go about darkened, in the oppression of an enemy?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3f9e4a9d37e0b94136890bf72353d4722df7d1bc6f9cb202e31cfd7fd76d4a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/43\/1-4.1791192697689.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּ֤ה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהֵ֣י",
+      "gloss": "the Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָֽעוּזִּי֮",
+      "gloss": "my stronghold",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמָ֪ה",
+      "gloss": "why",
+      "sense": null
+    },
+    {
+      "surface": "זְנַ֫חְתָּ֥נִי",
+      "gloss": "have you rejected me",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָֽמָּה",
+      "gloss": "why",
+      "sense": null
+    },
+    {
+      "surface": "קֹדֵ֥ר",
+      "gloss": "darkened",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶתְהַלֵּ֗ךְ",
+      "gloss": "do I go about",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּלַ֣חַץ",
+      "gloss": "in the oppression of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיֵֽב",
+      "gloss": "an enemy",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:37.690307005Z",
+  "model": "glm-5.3"
 }

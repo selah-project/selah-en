@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Blessed ⟨be⟩ Elohim, who has not turned aside my prayer, nor his chesed ⟨את⟩ from me.",
+  "ref": "psalms 66:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "be",
+      "rationale": "Hebrew passive participle 'Blessed Elohim'; English requires 'Blessed be'"
+    },
+    {
+      "kind": "elision",
+      "subject": "chesed",
+      "rationale": "the marked term is transliterated per the discipline; 'steadfast love' is a lawful second reading"
+    }
+  ],
+  "translation": "Blessed be Elohim, who has not turned away my prayer, ⟨and⟩ His chesed from ⟨את⟩ me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "18fb5495993e39e0a7fbd9b7d050f08ae5bf3cc087cd02a4743c893a752dd208",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/17-20.1791192891829.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed ⟨be⟩"
+      "surface": "בָּר֥וּךְ",
+      "gloss": "Blessed",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "who",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "has not"
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "הסיר",
-      "gloss": "has turned aside",
+      "surface": "הֵסִ֘יר",
+      "gloss": "has turned away",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּפִלָּתִ֥י",
+      "gloss": "my prayer",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחַסְדּ֗וֹ",
+      "gloss": "and His chesed",
+      "sense": "S1",
       "readings": [
-        "has turned aside",
-        "has turned away"
+        "and His chesed",
+        "and His steadfast love"
       ]
     },
     {
-      "surface": "תפלתי",
-      "gloss": "my prayer"
-    },
-    {
-      "surface": "וחסדו",
-      "gloss": "and his chesed",
-      "readings": [
-        "and his chesed",
-        "and his steadfast love"
-      ],
-      "held_by": {
-        "and his chesed": [
-          "v3",
-          "en4"
-        ],
-        "and his steadfast love": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מאתי",
-      "gloss": "⟨את⟩ from me"
+      "surface": "מֵאִתִּֽי",
+      "gloss": "from ⟨את⟩ me",
+      "sense": null,
+      "marks": "me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:51.830428270Z",
+  "model": "glm-5.3"
 }

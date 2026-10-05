@@ -1,47 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And Moab rebelled against Israel after the death of Ahab.",
+  "ref": "2-kings 1:1",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "from",
+      "rationale": "בישראל has only 'in\/at Israel'; פשע ב takes 'from' or 'against' in English"
+    }
+  ],
+  "translation": "And Moab broke away from Israel after the death of Ahab.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40ecaf2c57aceff977b204f8ea1dc4c155ca1471a8140dbfd143686a4e564539",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/1\/1-4.1791187395424.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ויפשע",
-      "gloss": "And rebelled",
-      "readings": [
-        "And rebelled",
-        "and trespassed"
-      ],
-      "held_by": {
-        "And rebelled": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and trespassed": [
-          "en4"
-        ]
-      }
+      "gloss": "and broke away",
+      "sense": "S1"
     },
     {
       "surface": "מואב",
-      "gloss": "Moab"
+      "gloss": "Moab",
+      "sense": "S1"
     },
     {
       "surface": "בישראל",
-      "gloss": "against Israel"
+      "gloss": "from Israel",
+      "sense": "S1"
     },
     {
       "surface": "אחרי",
-      "gloss": "after"
+      "gloss": "after",
+      "sense": "S1"
     },
     {
       "surface": "מות",
-      "gloss": "the death ⟨of⟩"
+      "gloss": "the death of",
+      "sense": "S1"
     },
     {
       "surface": "אחאב",
-      "gloss": "Ahab"
+      "gloss": "Ahab",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:03:15.425539799Z",
+  "model": "glm-5.3"
 }

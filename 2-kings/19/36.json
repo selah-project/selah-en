@@ -1,53 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And Sennacherib king of Assyria set out, and went, and returned, and dwelt in Nineveh.",
-  "tokens": [
+  "ref": "2-kings 19:36",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ויסע",
-      "gloss": "and set out",
-      "readings": [
-        "and set out",
-        "and pulled up"
-      ],
-      "held_by": {
-        "and set out": [
-          "v2",
-          "v3"
-        ],
-        "and pulled up": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "וַיָּשָׁב \/ וַיֵּשֶׁב",
+      "rationale": "Two near-homographs close the verse: שׁוּב 'returned' and יָשַׁב 'settled' — the same consonants, different pointing."
     },
     {
-      "surface": "וילך",
-      "gloss": "and went"
-    },
-    {
-      "surface": "וישב",
-      "gloss": "and returned"
-    },
-    {
-      "surface": "סנחריב",
-      "gloss": "Sennacherib"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "king of"
-    },
-    {
-      "surface": "אשור",
-      "gloss": "Assyria"
-    },
-    {
-      "surface": "וישב",
-      "gloss": "and dwelt"
-    },
-    {
-      "surface": "בנינוה",
-      "gloss": "in Nineveh"
+      "kind": "addition",
+      "subject": "⟨tent⟩",
+      "rationale": "וַיִּסַּע literally 'pulled up (tent pegs)', the departure-of-camp picture kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Sennacherib king of Assyria departed, and went, and returned, and dwelt in Nineveh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2e7ea09a6840d10754b04abe3b90158fb7695354ec36f2073e5dd81471c21336",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/19\/33-36.1791187825303.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּסַּע",
+      "gloss": "and pulled up ⟨tent⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֵּלֶךְ",
+      "gloss": "and went",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּשָׁב",
+      "gloss": "and returned",
+      "sense": "S1"
+    },
+    {
+      "surface": "סַנְחֵרִיב",
+      "gloss": "Sennacherib",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "king of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשּׁוּר",
+      "gloss": "Assyria",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֵּשֶׁב",
+      "gloss": "and dwelt",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנִינְוֵה",
+      "gloss": "in Nineveh",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:10:25.305307951Z",
+  "model": "glm-5.3"
 }

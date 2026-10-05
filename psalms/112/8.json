@@ -1,68 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Sustained is his heart; he will not fear until he looks upon his adversaries.",
-  "tokens": [
+  "ref": "psalms 112:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 112,
+  "notes": [
     {
-      "surface": "סמוך",
-      "gloss": "sustained"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "English copula supplied for the Hebrew participle."
     },
     {
-      "surface": "לבו",
-      "gloss": "his heart"
+      "kind": "wordplay",
+      "subject": "יירא \/ יראה",
+      "rationale": "ירא (fear) and ראה (see) share consonants in adjacent verbs, a sound echo lost in English."
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יירא",
-      "gloss": "he will fear"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "that"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v3"
-        ],
-        "that": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יראה",
-      "gloss": "he looks",
-      "readings": [
-        "he looks",
-        "he looks upon"
-      ],
-      "held_by": {
-        "he looks": [
-          "v1",
-          "v3"
-        ],
-        "he looks upon": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "בצריו",
-      "gloss": "upon his adversaries"
+      "kind": "crux",
+      "subject": "עד אשר יראה",
+      "rationale": "'until he sees his foes' — i.e. their downfall (verse 10); some read a neutral 'looks upon', most a triumphant gaze."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sustained is his heart, he will not fear, until he looks on his foes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "403423756f57d8d74c469792280f5eed5bd57bf6112dc2174e1bd13ad897ef25",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/112\/6-8.1791200020514.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "סָמ֣וּךְ",
+      "gloss": "Sustained",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֭בּוֹ",
+      "gloss": "his heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִירָ֑א",
+      "gloss": "he will fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֖ד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "⟨that⟩"
+    },
+    {
+      "surface": "יִרְאֶ֣ה",
+      "gloss": "he looks",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצָרָֽיו",
+      "gloss": "on his foes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:33:40.515601045Z",
+  "model": "glm-5.3"
 }

@@ -1,64 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 44,
-  "translation": "And he gave to them the lands of nations, and the labor of peoples they took possession of.",
-  "tokens": [
+  "ref": "psalms 105:44",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "ויתן",
-      "gloss": "And he gave"
+      "kind": "substitution",
+      "subject": "the toil of peoples",
+      "rationale": "עמל here is wealth gained by labor, metonymy for the cultivated lands possessed"
     },
     {
-      "surface": "להם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "ארצות",
-      "gloss": "the lands of"
-    },
-    {
-      "surface": "גוים",
-      "gloss": "nations",
-      "readings": [
-        "nations",
-        "the nations"
-      ],
-      "held_by": {
-        "nations": [
-          "v1",
-          "en4"
-        ],
-        "the nations": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ועמל",
-      "gloss": "and the labor of",
-      "readings": [
-        "and the labor of",
-        "and the toil of"
-      ],
-      "held_by": {
-        "and the labor of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the toil of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לאמים",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "יירשו",
-      "gloss": "they took possession of"
+      "kind": "wordplay",
+      "subject": "goyim \/ le'ummim",
+      "rationale": "Parallel pair of near-synonyms for nations, a poetic doubling"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And He gave them lands of nations, and they took-possession of the toil of peoples.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2d7b97ed26939908b9adaa6f7350450f35e284c8f0bddfdf669ee75c2761773",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/41-44.1791193311645.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּתֵּ֣ן",
+      "gloss": "And He gave",
+      "sense": null
+    },
+    {
+      "surface": "לָ֭הֶם",
+      "gloss": "them",
+      "sense": null
+    },
+    {
+      "surface": "אַרְצ֣וֹת",
+      "gloss": "lands",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹיִ֑ם",
+      "gloss": "of nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַעֲמַ֖ל",
+      "gloss": "the toil",
+      "sense": "S1",
+      "readings": [
+        "the toil",
+        "the fruit of labor"
+      ]
+    },
+    {
+      "surface": "לְאֻמִּ֣ים",
+      "gloss": "of peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִירָֽשׁוּ",
+      "gloss": "and they took-possession of",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:51.646101912Z",
+  "model": "glm-5.3"
 }

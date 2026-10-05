@@ -1,72 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 49,
-  "translation": "And if it be the mark greenish or reddish in the garment or in the skin or in the warp or in the woof or in any vessel of skin — a mark of tzara'at it is; and he shall show ⟨את⟩ the priest.",
+  "ref": "leviticus 13:49",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "tzara'at",
+      "rationale": "צרעת covers skin disease and mildew of cloth and walls; no single English word carries it, so transliterated"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ירקרק \/ אדמדם",
+      "rationale": "doubled color forms, reduplication of green and red; kept doubled"
+    },
+    {
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "הוא with no verb, emphatic pronoun; English needs the copula"
+    }
+  ],
+  "translation": "And if the spot is greenish-green or reddish-red in the garment, or in the skin, or in the warp, or in the woof, or in any article of skin — it is a spot of tzara'at, and it shall be shown ⟨את⟩ to the priest.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f92a4f600d081c4fbc858b4d9af513e09a7e90ada9e8f490deea0016a42f8a1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/49-52.1791182415516.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "And if it be"
+      "gloss": "And if it is"
     },
     {
       "surface": "הנגע",
-      "gloss": "the mark",
-      "readings": [
-        "the mark",
-        "the plague"
-      ],
-      "held_by": {
-        "the mark": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the plague": [
-          "v2"
-        ]
-      }
+      "gloss": "the spot",
+      "sense": "S1"
     },
     {
       "surface": "ירקרק",
-      "gloss": "greenish"
+      "gloss": "greenish-green",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "אדמדם",
-      "gloss": "reddish"
+      "gloss": "reddish-red",
+      "sense": "S1"
     },
     {
       "surface": "בבגד",
-      "gloss": "in the garment"
+      "gloss": "in the garment",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "בעור",
-      "gloss": "in the skin"
+      "gloss": "in the skin",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "בשתי",
-      "gloss": "in the warp"
+      "gloss": "in the warp",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "בערב",
-      "gloss": "in the woof"
+      "gloss": "or in the woof",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "בכל",
@@ -74,48 +104,23 @@
     },
     {
       "surface": "כלי",
-      "gloss": "vessel"
+      "gloss": "article of",
+      "sense": "S1"
     },
     {
       "surface": "עור",
-      "gloss": "of skin"
+      "gloss": "skin",
+      "sense": "S1"
     },
     {
       "surface": "נגע",
-      "gloss": "a mark of",
-      "readings": [
-        "a mark of",
-        "a plague of"
-      ],
-      "held_by": {
-        "a mark of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a plague of": [
-          "v2"
-        ]
-      }
+      "gloss": "a spot",
+      "sense": "S1"
     },
     {
       "surface": "צרעת",
-      "gloss": "tzara'at",
-      "readings": [
-        "tzara'at",
-        "leprosy"
-      ],
-      "held_by": {
-        "tzara'at": [
-          "v2",
-          "en4"
-        ],
-        "leprosy": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "of tzara'at",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
@@ -123,17 +128,20 @@
     },
     {
       "surface": "והראה",
-      "gloss": "and he shall show"
+      "gloss": "and it shall be shown",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the priest"
     },
     {
       "surface": "הכהן",
-      "gloss": "the priest"
+      "gloss": "to the priest",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:15.518297599Z",
+  "model": "glm-5.3"
 }

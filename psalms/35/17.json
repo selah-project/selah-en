@@ -1,45 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Adonai, how long will you look on? Restore my nefesh from their destructions, my only one from the young lions.",
+  "ref": "psalms 35:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "מִשֹּׁאֵיהֶם",
+      "rationale": "read as 'their devastations' (from שׁוֹא) or as 'their devastators' (participle), and some revocalize to מִשֹּׁאֲיֵיהֶם 'from those who make me desolate'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "how long will you see",
+      "rationale": "also read 'how long will you look on', an accusation of divine passivity."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my only-one",
+      "rationale": "יְחִידָתִי is a feminine singular standing for the psalmist's unique life, parallel to נַפְשִׁי."
+    }
+  ],
+  "translation": "Adonai, how long will you see? Restore my nefesh from their devastations, from the young lions my only-one.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5cb0fc82c0150cb0a70183b31af96088a7d349d8361919abedee3a789433523",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/17-20.1791192622946.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "כמה",
-      "gloss": "how long"
+      "surface": "כַּמָּה",
+      "gloss": "how long",
+      "sense": "S1"
     },
     {
-      "surface": "תראה",
-      "gloss": "will you look on"
+      "surface": "תִּרְאֶה",
+      "gloss": "will you see",
+      "sense": "S1"
     },
     {
-      "surface": "השיבה",
-      "gloss": "Restore"
+      "surface": "הָשִׁיבָה",
+      "gloss": "restore",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul",
-        "my life"
-      ]
+        "my life",
+        "my throat"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "משאיהם",
-      "gloss": "from their destructions"
+      "surface": "מִשֹּׁאֵיהֶם",
+      "gloss": "from their devastations",
+      "readings": [
+        "from their devastations",
+        "from their devastators"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "מכפירים",
-      "gloss": "from the young lions"
+      "surface": "מִכְּפִירִים",
+      "gloss": "from young lions",
+      "sense": "S1"
     },
     {
-      "surface": "יחידתי",
-      "gloss": "my only one"
+      "surface": "יְחִידָתִי",
+      "gloss": "my only-one",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:22.947342110Z",
+  "model": "glm-5.3"
 }

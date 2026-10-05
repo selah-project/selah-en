@@ -1,89 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And also I, my brothers and my servants, have lent them silver and grain. Let us leave off, please, ⟨את⟩ this burden.",
+  "ref": "nehemiah 5:10",
+  "book": "nehemiah",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "English requires a copula for the participle predicate"
+    },
+    {
+      "kind": "invitation",
+      "subject": "let us leave off",
+      "rationale": "cohortative summons to the lenders to abandon the interest-bearing loans"
+    }
+  ],
+  "translation": "Also I, my brothers and my young men, are lending them silver and grain. Let us leave off, please, ⟨את⟩ this debt.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4acf492061e619570f4ab4fd6ba3aac4091ff3d1d2af772fc8a2a0909e4f98bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nehemiah\/5\/9-12.1791195781232.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nehemiah.edn"
+  },
   "tokens": [
     {
       "surface": "וגם",
-      "gloss": "And also"
+      "gloss": "Also",
+      "sense": "S1"
     },
     {
       "surface": "אני",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "אחי",
-      "gloss": "my brothers"
+      "gloss": "my brothers",
+      "sense": "S1"
     },
     {
       "surface": "ונערי",
-      "gloss": "and my servants"
+      "gloss": "and my young men",
+      "sense": "S1"
     },
     {
       "surface": "נשים",
-      "gloss": "have lent",
-      "readings": [
-        "have lent",
-        "are lending"
-      ],
-      "held_by": {
-        "have lent": [
-          "v2"
-        ],
-        "are lending": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "are lending",
+      "sense": "S1"
     },
     {
       "surface": "בהם",
-      "gloss": "to them"
+      "gloss": "them",
+      "sense": null
     },
     {
       "surface": "כסף",
-      "gloss": "silver"
+      "gloss": "silver",
+      "sense": "S1"
     },
     {
       "surface": "ודגן",
-      "gloss": "and grain"
+      "gloss": "and grain",
+      "sense": "S1"
     },
     {
       "surface": "נעזבה",
-      "gloss": "let us leave off"
+      "gloss": "Let us leave off",
+      "sense": "S1"
     },
     {
       "surface": "נא",
-      "gloss": "please"
+      "gloss": "please",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "this debt"
     },
     {
       "surface": "המשא",
-      "gloss": "the burden",
-      "readings": [
-        "the burden",
-        "the lending"
-      ],
-      "held_by": {
-        "the burden": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the lending": [
-          "en4"
-        ]
-      }
+      "gloss": "the debt",
+      "sense": "S1"
     },
     {
       "surface": "הזה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:23:01.233519961Z",
+  "model": "glm-5.3"
 }

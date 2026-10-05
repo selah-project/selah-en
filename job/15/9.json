@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "What do you know that we do not know? What do you understand that is not with us?",
-  "tokens": [
+  "ref": "job 15:9",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "מה",
-      "gloss": "What"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Eliphaz addresses Job in rhetorical questions."
     },
     {
-      "surface": "ידעת",
-      "gloss": "do you know"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "נדע",
-      "gloss": "we do not know"
-    },
-    {
-      "surface": "תבין",
-      "gloss": "do you understand"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "עמנו",
-      "gloss": "with us"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it"
+      "kind": "addition",
+      "subject": "⟨What do⟩",
+      "rationale": "the interrogative מה governs both halves but stands only once; supplied at the second half"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "What have you known that we have not known? ⟨What do⟩ you understand that is not with us?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98da1f272eaad25a8341b78866e584773ef0d40daed5f29c7ed386d24d2fbfdf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/9-12.1791194288256.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַה",
+      "gloss": "What",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֭דַעְתָּ",
+      "gloss": "have you known",
+      "sense": null
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "that we have not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵדָע",
+      "gloss": "known",
+      "sense": null
+    },
+    {
+      "surface": "תָּבִין",
+      "gloss": "⟨What do⟩ you understand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "that is not",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּנוּ",
+      "gloss": "with us",
+      "sense": null
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:08.257263315Z",
+  "model": "glm-5.3"
 }

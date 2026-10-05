@@ -1,62 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And from the noonday shall rise ⟨your⟩ life; though there is darkness, like the morning you shall be.",
-  "tokens": [
+  "ref": "job 11:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ומצהרים",
-      "gloss": "and from the noonday"
+      "kind": "crux",
+      "subject": "תָּעֻפָה",
+      "rationale": "עוּף: 'fly away' vs 'grow dim\/faint' — the same form carries both darkness fleeing and life ebbing."
     },
     {
-      "surface": "יקום",
-      "gloss": "shall rise"
-    },
-    {
-      "surface": "חלד",
-      "gloss": "life",
-      "readings": [
-        "life",
-        "the world"
-      ],
-      "held_by": {
-        "life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the world": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תעפה",
-      "gloss": "you will fly",
-      "readings": [
-        "you will fly",
-        "there is darkness"
-      ],
-      "held_by": {
-        "you will fly": [
-          "v1"
-        ],
-        "there is darkness": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כבקר",
-      "gloss": "like the morning"
-    },
-    {
-      "surface": "תהיה",
-      "gloss": "you shall be"
+      "kind": "addition",
+      "subject": "your",
+      "rationale": "חָלֶד carries no suffix; 'your' supplied from the address to Job."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And from noonday your lifetime shall rise; it shall fly away, like the morning it shall be.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0054cf542a21e17e57771797f1e4faba8412edc92a56d932bbf8c74f5803537",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/11\/17-20.1791194245024.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּֽמִצָּהֳרַיִם",
+      "gloss": "and from noonday",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָקוּם",
+      "gloss": "shall rise",
+      "sense": null
+    },
+    {
+      "surface": "חָלֶד",
+      "gloss": "your lifetime",
+      "readings": [
+        "your lifetime",
+        "the fleeting world"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּעֻפָה",
+      "gloss": "it shall fly away",
+      "readings": [
+        "it shall fly away",
+        "it shall grow dim"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "כַּבֹּקֶר",
+      "gloss": "like the morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּהְיֶה",
+      "gloss": "it shall be",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:25.024871947Z",
+  "model": "glm-5.3"
 }

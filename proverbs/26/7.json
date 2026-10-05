@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "The legs hang limp from the lame, and ⟨so is⟩ a proverb in the mouth of fools.",
-  "tokens": [
+  "ref": "proverbs 26:7",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "דליו",
-      "gloss": "hang limp",
-      "readings": [
-        "hang limp",
-        "are weak"
-      ],
-      "held_by": {
-        "hang limp": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are weak": [
-          "v1"
-        ]
-      }
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Second clause lacks a verb; copula supplied ('a proverb hangs limp in the mouth of fools')."
     },
     {
-      "surface": "שקים",
-      "gloss": "the legs"
+      "kind": "crux",
+      "subject": "Dangled",
+      "rationale": "דליו parsed as 'hang slack\/droop' (parallel to v9); some repoint to 'are drawn out', but the limp-legs picture is the plain sense."
     },
     {
-      "surface": "מפסח",
-      "gloss": "from the lame"
-    },
-    {
-      "surface": "ומשל",
-      "gloss": "and a proverb"
-    },
-    {
-      "surface": "בפי",
-      "gloss": "in the mouth of"
-    },
-    {
-      "surface": "כסילים",
-      "gloss": "fools"
+      "kind": "wordplay",
+      "subject": "v7\/\/v9",
+      "rationale": "This verse repeats almost verbatim in 26:9 with a thorn instead of dangling legs — a deliberate near-duplicate in the fools-cycle."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Dangled are the legs of the lame, and a proverb in the mouth of fools.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc8df1be034c1b6e625f4f2dbe700237adbd3c09ffa2b07f94163331a43a7793",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/5-8.1791194017163.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דַּלְי֣וּ",
+      "gloss": "Dangled",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁ֭קַיִם",
+      "gloss": "the legs",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפִּסֵּ֑חַ",
+      "gloss": "of the lame",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמָשָׁ֗ל",
+      "gloss": "and a proverb",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּפִ֣י",
+      "gloss": "in the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִילִֽים",
+      "gloss": "fools",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:37.163934881Z",
+  "model": "glm-5.3"
 }

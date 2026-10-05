@@ -1,72 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "“There is no peace,” says my Elohim, “for the wicked.”",
-  "tokens": [
+  "ref": "isaiah 57:21",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 57,
+  "notes": [
     {
-      "surface": "אין",
-      "gloss": "There is no"
+      "kind": "crux",
+      "subject": "my Elohim",
+      "rationale": "אלהי is 1st-person suffix; the speaker is the prophet, not the usual 'says your God' of parallel renderings."
     },
     {
-      "surface": "שלום",
-      "gloss": "peace",
-      "readings": [
-        "peace",
-        "welfare"
-      ],
-      "held_by": {
-        "peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "welfare": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אמר",
-      "gloss": "says",
-      "readings": [
-        "says",
-        "said"
-      ],
-      "held_by": {
-        "says": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "said": [
-          "en4"
-        ]
-      },
-      "disputed": false
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
-    },
-    {
-      "surface": "לרשעים",
-      "gloss": "for the wicked",
-      "readings": [
-        "for the wicked",
-        "to the wicked"
-      ],
-      "held_by": {
-        "for the wicked": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the wicked": [
-          "v1"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "שלום \/ השקט",
+      "rationale": "The wicked sea 'cannot be still' (57:20); the refrain denies them shalom — restlessness answered by no-peace."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "“There is no peace,” said my Elohim, “for the wicked.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84920a48aaef33bcd71ac38300e01e9b7c7c2d95edaac036c9a25ed08c6fa152",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/57\/21-21.1791188849895.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֣ין",
+      "gloss": "There is no",
+      "sense": null
+    },
+    {
+      "surface": "שָׁל֔וֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמַ֥ר",
+      "gloss": "said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהַ֖י",
+      "gloss": "my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָרְשָׁעִֽים",
+      "gloss": "for the wicked",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:27:29.895571567Z",
+  "model": "glm-5.3"
 }

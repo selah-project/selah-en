@@ -1,14 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And I will encamp against you like a circle, and I will lay siege against you with ⟨a⟩ stationed post, and I will raise against you siegeworks.",
+  "ref": "isaiah 29:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "מצב",
+      "rationale": "occurs only here; meaning unsure, possibly a raised siege-platform or watch-post"
+    },
+    {
+      "kind": "you",
+      "subject": "to Ariel\/Jerusalem",
+      "rationale": "YHWH speaks against the city in the second feminine singular"
+    }
+  ],
+  "translation": "And I will camp against you like a circle, and I will lay siege against you with a tower, and I will raise siegeworks against you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6219c31bb081b0588a2b7a9c3c0efd1ee5e661563be8067e6f297126d2223428",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/29\/1-4.1791188419331.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "וחניתי",
-      "gloss": "and I will encamp"
+      "gloss": "and I will camp",
+      "sense": "S1"
     },
     {
       "surface": "כדור",
-      "gloss": "like a circle"
+      "gloss": "like a circle",
+      "sense": "S1"
     },
     {
       "surface": "עליך",
@@ -16,7 +45,8 @@
     },
     {
       "surface": "וצרתי",
-      "gloss": "and I will lay siege"
+      "gloss": "and I will besiege",
+      "sense": "S1"
     },
     {
       "surface": "עליך",
@@ -24,11 +54,11 @@
     },
     {
       "surface": "מצב",
-      "gloss": "a stationed post"
+      "gloss": "a tower"
     },
     {
       "surface": "והקימתי",
-      "gloss": "and I will raise"
+      "gloss": "and I will raise up"
     },
     {
       "surface": "עליך",
@@ -36,9 +66,10 @@
     },
     {
       "surface": "מצרת",
-      "gloss": "siegeworks"
+      "gloss": "siegeworks",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:19.332656999Z",
+  "model": "glm-5.3"
 }

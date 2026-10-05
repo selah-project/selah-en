@@ -1,67 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And ⟨את⟩ the fat, and ⟨את⟩ the kidneys, and ⟨את⟩ the lobe from the liver, from the sin offering, he made smoke on the altar, as YHWH had commanded ⟨את⟩ Moses.",
+  "ref": "leviticus 9:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the lobe of the liver",
+      "rationale": "יתרת: either the finger-shaped lobe projecting from the liver or the fat covering the liver\/pancreas"
+    },
+    {
+      "kind": "substitution",
+      "subject": "he made smoke",
+      "rationale": "הקטיר hiphil literally 'caused to smoke'; often rendered 'burned as incense'"
+    },
+    {
+      "kind": "elision",
+      "subject": "המזבחה",
+      "rationale": "directional he ('toward the altar') has no English equivalent beyond 'on'"
+    }
+  ],
+  "translation": "And ⟨את⟩ the fat and ⟨את⟩ the kidneys and ⟨את⟩ the lobe of the liver from the sin-offering he made smoke on the altar, as YHWH had commanded ⟨את⟩ Moses.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7ea2058e9f96e59e6cd82f51c0ad05a9753ff96c3199b4800b2dd85cdbd4d97",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/9\/9-12.1791182318800.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the fat"
     },
     {
       "surface": "החלב",
-      "gloss": "the fat"
+      "gloss": "the fat",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the kidneys"
     },
     {
       "surface": "הכלית",
-      "gloss": "the kidneys"
+      "gloss": "the kidneys",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the lobe"
     },
     {
       "surface": "היתרת",
-      "gloss": "the lobe",
-      "readings": [
-        "the lobe",
-        "the redundancy"
-      ],
-      "held_by": {
-        "the lobe": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the redundancy": [
-          "en4"
-        ]
-      }
+      "gloss": "the lobe of the liver",
+      "sense": "S1"
     },
     {
       "surface": "מן",
-      "gloss": "from",
-      "readings": [
-        "from",
-        "above"
-      ],
-      "held_by": {
-        "from": [
-          "v1",
-          "en4"
-        ],
-        "above": [
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "from"
     },
     {
       "surface": "הכבד",
-      "gloss": "the liver"
+      "gloss": "the liver",
+      "sense": "S1"
     },
     {
       "surface": "מן",
@@ -69,29 +79,18 @@
     },
     {
       "surface": "החטאת",
-      "gloss": "the sin offering"
+      "gloss": "the sin-offering",
+      "sense": "S1"
     },
     {
       "surface": "הקטיר",
-      "gloss": "he made smoke"
+      "gloss": "he made smoke",
+      "sense": "S1"
     },
     {
       "surface": "המזבחה",
       "gloss": "on the altar",
-      "readings": [
-        "on the altar",
-        "upon the altar"
-      ],
-      "held_by": {
-        "on the altar": [
-          "v2",
-          "v3"
-        ],
-        "upon the altar": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "כאשר",
@@ -99,21 +98,25 @@
     },
     {
       "surface": "צוה",
-      "gloss": "had commanded"
+      "gloss": "had commanded",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Moses"
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:38:38.806264289Z",
+  "model": "glm-5.3"
 }

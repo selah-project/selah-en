@@ -1,91 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Though my father and my mother have forsaken me, and YHWH will gather me in.",
-  "tokens": [
+  "ref": "psalms 27:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "Though",
-      "readings": [
-        "Though",
-        "For",
-        "Surely"
-      ],
-      "held_by": {
-        "Though": [
-          "v1",
-          "v3"
-        ],
-        "For": [
-          "v2",
-          "en4"
-        ],
-        "Surely": []
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אבי",
-      "gloss": "my father"
-    },
-    {
-      "surface": "ואמי",
-      "gloss": "and my mother"
-    },
-    {
-      "surface": "עזבוני",
-      "gloss": "have forsaken me",
-      "readings": [
-        "have forsaken me",
-        "have abandoned me"
-      ],
-      "held_by": {
-        "have forsaken me": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "have abandoned me": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ויהוה",
-      "gloss": "and YHWH",
-      "readings": [
-        "and YHWH",
-        "but YHWH"
-      ],
-      "held_by": {
-        "and YHWH": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "but YHWH": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "יאספני",
-      "gloss": "will gather me in",
-      "readings": [
-        "will gather me in",
-        "will gather me"
-      ],
-      "held_by": {
-        "will gather me in": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "will gather me": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "עזבוני \/ אל תעזבני",
+      "rationale": "Verse 9's plea 'do not forsake me' is answered by the admission that father and mother did forsake — same root, chiastic reversal."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For my father and my mother have forsaken me, and YHWH will gather me in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19628965b063a67c6eaa877309b6f0953f69281d8883fa8c0fd08fbbb5782b4b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/27\/9-12.1791192548763.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אָבִ֣י",
+      "gloss": "my father",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִמִּ֣י",
+      "gloss": "and my mother",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲזָב֑וּנִי",
+      "gloss": "have forsaken me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיהוָ֣ה",
+      "gloss": "and YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַֽאַסְפֵֽנִי",
+      "gloss": "will gather me in",
+      "sense": "S1",
+      "readings": [
+        "will gather me in",
+        "will take me in"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:08.764115805Z",
+  "model": "glm-5.3"
 }

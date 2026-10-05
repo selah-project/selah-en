@@ -1,54 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For evildoers shall be cut off, and those waiting for YHWH — they shall inherit the land.",
+  "ref": "psalms 37:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "doers-of-wrong",
+      "rationale": "מרעים is hiphil participle of רעע, literally 'those who do evil'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יירשו ארץ",
+      "rationale": "verbs of cutting off vs inheriting frame the verse's antithesis"
+    }
+  ],
+  "translation": "For the doers-of-wrong will be cut off, and those who wait for YHWH — they will possess the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3a28529cdb383569b531f4f5829a05db2d2505d8efcbf7dde57de1db5df8be68",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/9-12.1791192637326.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "מרעים",
-      "gloss": "evildoers"
+      "surface": "מְרֵעִים",
+      "gloss": "the doers-of-wrong",
+      "sense": "S1"
     },
     {
-      "surface": "יכרתון",
-      "gloss": "shall be cut off"
+      "surface": "יִכָּרֵת֑וּן",
+      "gloss": "will be cut off",
+      "sense": "S1"
     },
     {
-      "surface": "וקוי",
-      "gloss": "and those waiting for"
+      "surface": "וְקֹוֵ֥י",
+      "gloss": "and those who wait for",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "המה",
-      "gloss": "they"
+      "surface": "הֵ֣מָּה",
+      "gloss": "they",
+      "sense": null
     },
     {
-      "surface": "יירשו",
-      "gloss": "shall inherit"
+      "surface": "יִֽירְשׁוּ",
+      "gloss": "will possess",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "the land",
       "readings": [
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:37.326609274Z",
+  "model": "glm-5.3"
 }

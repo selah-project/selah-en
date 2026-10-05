@@ -1,65 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "To number our days so, make known, and bring ⟨a⟩ heart ⟨of⟩ wisdom.",
+  "ref": "psalms 90:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨us⟩",
+      "rationale": "hiphil 'cause to know' needs an object the Hebrew leaves implicit."
+    },
+    {
+      "kind": "invitation",
+      "subject": "to YHWH",
+      "rationale": "an imperative prayer — 'make known' addressed to God."
+    },
+    {
+      "kind": "measurement",
+      "subject": "to number our days",
+      "rationale": "the petition turns on counting the days of one's life."
+    }
+  ],
+  "translation": "To number our days — so make ⟨us⟩ know, and we will bring a heart of wisdom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f89832db3cda81c4932780300dd305dc874f73dd0af90dc85d2170a6c77eaa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/9-12.1791193182579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "למנות",
-      "gloss": "to number"
+      "surface": "לִמְנוֹת",
+      "gloss": "To number",
+      "sense": "S1"
     },
     {
-      "surface": "ימינו",
-      "gloss": "our days"
+      "surface": "יָמֵינוּ",
+      "gloss": "our days",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
+      "surface": "כֵּן",
       "gloss": "so"
     },
     {
-      "surface": "הודע",
-      "gloss": "make known",
-      "readings": [
-        "make known",
-        "teach"
-      ],
-      "held_by": {
-        "make known": [
-          "v1",
-          "en4"
-        ],
-        "teach": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "הוֹדַע",
+      "gloss": "make ⟨us⟩ know"
     },
     {
-      "surface": "ונבא",
-      "gloss": "and bring"
+      "surface": "וְנָבִיא",
+      "gloss": "and we will bring"
     },
     {
-      "surface": "לבב",
-      "gloss": "⟨a⟩ heart"
+      "surface": "לְבַב",
+      "gloss": "a heart of",
+      "sense": "S1"
     },
     {
-      "surface": "חכמה",
-      "gloss": "⟨of⟩ wisdom",
-      "readings": [
-        "⟨of⟩ wisdom",
-        "to wisdom"
-      ],
-      "held_by": {
-        "⟨of⟩ wisdom": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "to wisdom": [
-          "v2"
-        ]
-      }
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:42.580453102Z",
+  "model": "glm-5.3"
 }

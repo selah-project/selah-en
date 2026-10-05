@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And he said to me, “Who are you?” And he said to him, “An Amalekite I am.”",
-  "tokens": [
+  "ref": "2-samuel 1:8",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And he said"
+      "kind": "you",
+      "subject": "Who are you",
+      "rationale": "Saul's question directly addresses the young man."
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "מי",
-      "gloss": "who"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "are you"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and he said"
-    },
-    {
-      "surface": "אליו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "עמלקי",
-      "gloss": "an Amalekite"
-    },
-    {
-      "surface": "אנכי",
-      "gloss": "I am"
+      "kind": "wordplay",
+      "subject": "מִי אָתָּה … אָנֹכִי",
+      "rationale": "Question 'who are you' answered by fronted gentilic plus pronoun 'An Amalekite I am', word order kept from the Hebrew."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he said to me, “Who are you?” And I said to him, “An Amalekite I am.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e9c81ec149a99944c72ee63374d254373cb089bb8a542e75ba0278394dd4471b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/1\/5-8.1791186125864.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֥אמֶר",
+      "gloss": "and he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֖י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֑תָּה",
+      "gloss": "are you",
+      "sense": null
+    },
+    {
+      "surface": "ויאמר",
+      "gloss": "and I said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָ֔יו",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "עֲמָלֵקִ֖י",
+      "gloss": "An Amalekite",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹֽכִי",
+      "gloss": "I am",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:42:05.866394412Z",
+  "model": "glm-5.3"
 }

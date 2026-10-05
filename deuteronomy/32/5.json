@@ -1,40 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "It has corrupted to him — not his sons — their blemish: a generation crooked and twisted.",
-  "tokens": [
+  "ref": "deuteronomy 32:5",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "שחת",
-      "gloss": "has corrupted"
+      "kind": "crux",
+      "subject": "שִׁחֵת לוֹ לֹא בָּנָיו מוּמָם",
+      "rationale": "read as 'their blemish is not His but their own' vs. 'they have acted corruptly toward Him, not His children — the blemish is theirs'"
     },
     {
-      "surface": "לו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "בניו",
-      "gloss": "his sons"
-    },
-    {
-      "surface": "מומם",
-      "gloss": "their blemish"
-    },
-    {
-      "surface": "דור",
-      "gloss": "a generation"
-    },
-    {
-      "surface": "עקש",
-      "gloss": "crooked"
-    },
-    {
-      "surface": "ופתלתל",
-      "gloss": "and twisted"
+      "kind": "hapax",
+      "subject": "פְּתַלְתֹּל",
+      "rationale": "twisted — occurs only here in the Tanakh"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Corruption is not His — His children's blemish ⟨is theirs⟩; a generation crooked and twisted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2f049f7f886434b9e077540c877a208bc541969ed3006f74007a19aed35b0781",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/5-8.1791184215335.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׁחֵ֥ת",
+      "gloss": "corruption",
+      "sense": "S1",
+      "readings": [
+        "corruption",
+        "ruin"
+      ]
+    },
+    {
+      "surface": "ל֛וֹ",
+      "gloss": "to Him"
+    },
+    {
+      "surface": "לֹ֖א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנָ֣יו",
+      "gloss": "His children's",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוּמָ֑ם",
+      "gloss": "blemish",
+      "sense": null,
+      "readings": [
+        "blemish",
+        "defect"
+      ]
+    },
+    {
+      "surface": "דּ֥וֹר",
+      "gloss": "a generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִקֵּ֖שׁ",
+      "gloss": "crooked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפְתַלְתֹּֽל",
+      "gloss": "and twisted",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:15.336270142Z",
+  "model": "glm-5.3"
 }

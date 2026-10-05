@@ -1,50 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "For many are the wounded she has caused to fall, and all her slain are mighty ⟨ones⟩.",
-  "tokens": [
+  "ref": "proverbs 7:26",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "רבים",
-      "gloss": "many"
-    },
-    {
-      "surface": "חללים",
-      "gloss": "the wounded",
-      "readings": [
-        "the wounded",
-        "the slain"
-      ],
-      "held_by": {
-        "the wounded": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the slain": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הפילה",
-      "gloss": "she has caused to fall"
-    },
-    {
-      "surface": "ועצמים",
-      "gloss": "and mighty ⟨ones⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הרגיה",
-      "gloss": "her slain"
+      "kind": "alternative",
+      "subject": "and mighty are all her killed",
+      "rationale": "Reads עצמים as predicate; alternatively 'and numerous, all whom she has slain' (numerous rather than mighty)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For many slain she has caused to fall, and mighty are all her killed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "247808d1edb064252a1a8ef291d36de370fd3d615d3e867a2bfc4f2f01c82924",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/7\/25-27.1791193755135.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "רַבִּים",
+      "gloss": "many",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲלָלִים",
+      "gloss": "slain",
+      "readings": [
+        "slain",
+        "wounded"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הִפִּילָה",
+      "gloss": "she has caused to fall",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַעֲצֻמִּים",
+      "gloss": "and mighty",
+      "readings": [
+        "and mighty",
+        "and numerous"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הֲרֻגֶיהָ",
+      "gloss": "her killed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:15.135750063Z",
+  "model": "glm-5.3"
 }

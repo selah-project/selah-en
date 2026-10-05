@@ -1,74 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And my people are suspended over my returning; and to the Most High they call him — together they do not exalt ⟨him⟩.",
+  "ref": "hosea 11:7",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ואל על יקראהו",
+      "rationale": "One of Hosea's hardest lines: 'they call to the Most High' (על as the Most High) vs 'together they call him upward'; who calls and who is called is disputed."
+    },
+    {
+      "kind": "alternative",
+      "subject": "למשובתי",
+      "rationale": "'over my backsliding' — the people are suspended because of their apostasy from YHWH, not from his returning to them."
+    },
+    {
+      "kind": "crux",
+      "subject": "יחד לא ירומם",
+      "rationale": "'together none exalts him' vs 'not one of them exalts it' — the subject and object of the polel are both uncertain."
+    }
+  ],
+  "translation": "and my people are hanging in suspense over my backsliding; and to the Most High they call him — together none lifts him up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e9bce291b1a628374c660739357c1f5bdc430e664515e09c66ab49e3c0702e3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/11\/5-8.1791191359871.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "ועמי",
-      "gloss": "and my people"
+      "surface": "וְעַמִּי",
+      "gloss": "and my people",
+      "sense": "S1"
     },
     {
-      "surface": "תלואים",
-      "gloss": "are suspended",
-      "readings": [
-        "are suspended",
-        "are bent"
-      ],
-      "held_by": {
-        "are suspended": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are bent": [
-          "en4"
-        ]
-      }
+      "surface": "תְּלוּאִים",
+      "gloss": "are hanging in suspense",
+      "sense": "S1"
     },
     {
-      "surface": "למשובתי",
-      "gloss": "over my returning"
+      "surface": "לִמְשׁוּבָתִי",
+      "gloss": "over my backsliding",
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
-      "gloss": "and to"
+      "surface": "וְאֶל",
+      "gloss": "and to",
+      "sense": null
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "the Most High",
       "readings": [
         "the Most High",
-        "the height"
+        "upon"
       ],
-      "held_by": {
-        "the Most High": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the height": [
-          "en4"
-        ]
-      }
+      "sense": null
     },
     {
-      "surface": "יקראהו",
-      "gloss": "they call him"
+      "surface": "יִקְרָאֻהוּ",
+      "gloss": "they call him",
+      "sense": "S1"
     },
     {
-      "surface": "יחד",
-      "gloss": "together"
+      "surface": "יַחַד",
+      "gloss": "together",
+      "readings": [
+        "together",
+        "at once"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ירומם",
-      "gloss": "they exalt ⟨him⟩"
+      "surface": "יְרוֹמֵם",
+      "gloss": "lifts him up",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:19.872788580Z",
+  "model": "glm-5.3"
 }

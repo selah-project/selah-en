@@ -1,61 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And YHWH sent among the people ⟨את⟩ the serpents, the burning ones, and they bit ⟨את⟩ the people, and many people of Israel died.",
+  "ref": "numbers 21:6",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the burning ones",
+      "rationale": "השרפים: from שרף 'to burn' — 'burning (snakes)' vs 'venomous serpents' vs the proper name 'seraphim'; the literal picture of burning is kept."
+    },
+    {
+      "kind": "addition",
+      "subject": "people",
+      "rationale": "עם רב מישראל, literally 'people many from Israel'; the partitive reads naturally as 'many people of Israel'."
+    }
+  ],
+  "translation": "And YHWH sent among the people ⟨את⟩ the snakes, the burning ones, and they bit ⟨את⟩ the people, and many people of Israel died.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2b73ef114ca9822be68351abc551d8a9db7e0b21f5dc68ea880b9721e8fcaa3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/21\/5-8.1791183211829.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
       "surface": "וישלח",
-      "gloss": "And sent"
+      "gloss": "And sent",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "בעם",
-      "gloss": "among the people"
+      "gloss": "among the people",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the snakes, the burning ones"
     },
     {
       "surface": "הנחשים",
-      "gloss": "the serpents"
+      "gloss": "the snakes",
+      "sense": "S1"
     },
     {
       "surface": "השרפים",
       "gloss": "the burning ones",
       "readings": [
         "the burning ones",
-        "the seraphs"
+        "the vipers"
       ],
-      "held_by": {
-        "the burning ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the seraphs": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "וינשכו",
-      "gloss": "and they bit"
+      "gloss": "and they bit",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the people"
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "וימת",
-      "gloss": "and died"
+      "gloss": "and died",
+      "sense": "S1"
     },
     {
       "surface": "עם",
@@ -63,13 +89,15 @@
     },
     {
       "surface": "רב",
-      "gloss": "many"
+      "gloss": "many",
+      "sense": "S1"
     },
     {
       "surface": "מישראל",
-      "gloss": "of Israel"
+      "gloss": "of Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:53:31.838276165Z",
+  "model": "glm-5.3"
 }

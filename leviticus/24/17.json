@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And a man who strikes any life of a human — dying he shall die.",
-  "tokens": [
+  "ref": "leviticus 24:17",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "ואיש",
-      "gloss": "and a man"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש here is the life principle \/ whole person; kept as nefesh with readings rather than collapsing to 'person'"
     },
     {
-      "surface": "כי",
-      "gloss": "who"
-    },
-    {
-      "surface": "יכה",
-      "gloss": "strikes"
-    },
-    {
-      "surface": "כל",
-      "gloss": "any"
-    },
-    {
-      "surface": "נפש",
-      "gloss": "life",
-      "readings": [
-        "life",
-        "nefesh"
-      ],
-      "held_by": {
-        "life": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "nefesh": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אדם",
-      "gloss": "of a human"
-    },
-    {
-      "surface": "מות",
-      "gloss": "dying"
-    },
-    {
-      "surface": "יומת",
-      "gloss": "he shall die"
+      "kind": "wordplay",
+      "subject": "מות יומת",
+      "rationale": "infinitive absolute doubled with the verb — 'put to death he shall be put to death' — kept doubled"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And if a man strikes dead any nefesh of a human, put to death he shall be put to death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "12cb88c555856d5a8a874cb0e5859bfb5710bd6fbf216b440b9b0a637d0fdd3f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/24\/17-20.1791182653662.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִ֕ישׁ",
+      "gloss": "And a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "יַכֶּ֖ה",
+      "gloss": "strikes",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "any",
+      "sense": null
+    },
+    {
+      "surface": "נֶ֣פֶשׁ",
+      "gloss": "nefesh",
+      "readings": [
+        "nefesh",
+        "life",
+        "person"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָ֑ם",
+      "gloss": "of a human",
+      "sense": "S1"
+    },
+    {
+      "surface": "מ֖וֹת",
+      "gloss": "put to death",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוּמָֽת",
+      "gloss": "he shall be put to death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:44:13.663643559Z",
+  "model": "glm-5.3"
 }

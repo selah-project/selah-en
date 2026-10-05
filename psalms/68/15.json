@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "When Shaddai scattered kings in it, it snowed on Zalmon.",
-  "tokens": [
+  "ref": "psalms 68:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 68,
+  "notes": [
     {
-      "surface": "בפרש",
-      "gloss": "when ⟨he⟩ scattered",
-      "readings": [
-        "when ⟨he⟩ scattered",
-        "with chariotry of"
-      ],
-      "held_by": {
-        "when ⟨he⟩ scattered": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with chariotry of": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "תַּשְׁלֵג",
+      "rationale": "This hiphil of שׁלג occurs only here in the Tanakh."
     },
     {
-      "surface": "שדי",
-      "gloss": "Shaddai"
+      "kind": "crux",
+      "subject": "תַּשְׁלֵג בְּצַלְמוֹן",
+      "rationale": "'It snows on Zalmon' (the mountain whitens) vs 'it grows snow-white with slain' — the whitening of the field with corpses' linen."
     },
     {
-      "surface": "מלכים",
-      "gloss": "kings"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in it"
-    },
-    {
-      "surface": "תשלג",
-      "gloss": "it snowed"
-    },
-    {
-      "surface": "בצלמון",
-      "gloss": "on Zalmon"
+      "kind": "addition",
+      "subject": "when",
+      "rationale": "The infinitive construct with ב is temporal; English needs a conjunction."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When Shaddai scatters kings in it, it snows on Zalmon.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eb4c0e7436c43185eb3a6ee24a8f848bcfb76ba5b3366f49acd0157749d76cd6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/68\/13-16.1791192910741.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּפָ֘רֵ֤שׂ",
+      "gloss": "when ⟨he⟩ scatters",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁדַּ֓י",
+      "gloss": "Shaddai",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלָ֘כִ֤ים",
+      "gloss": "kings",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֗הּ",
+      "gloss": "in it",
+      "sense": null
+    },
+    {
+      "surface": "תַּשְׁלֵ֥ג",
+      "gloss": "it snows",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצַלְמֽוֹן",
+      "gloss": "on Zalmon",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:35:10.742219699Z",
+  "model": "glm-5.3"
 }

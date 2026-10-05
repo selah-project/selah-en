@@ -1,55 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And all the elders of Israel came, and the Levites carried ⟨את⟩ the ark.",
+  "ref": "2-chronicles 5:4",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the Levites",
+      "rationale": "Chronicles reads הלוים where the parallel 1 Kgs 8:3 has הכהנים, 'the priests' — a deliberate Chronicler harmonization with torah-of-the-Levites concerns"
+    }
+  ],
+  "translation": "And all the elders of Israel came, and the Levites lifted ⟨את⟩ the ark.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f4d6cbac7a7b885db561e3f9a33bff25446a38aeab144b85cdfda8c2584df99d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/5\/1-4.1791196579252.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ויבאו",
-      "gloss": "and came"
+      "surface": "וַיָּבֹאוּ",
+      "gloss": "And came"
     },
     {
-      "surface": "כל",
+      "surface": "כֹּל",
       "gloss": "all"
     },
     {
-      "surface": "זקני",
-      "gloss": "the elders of"
+      "surface": "זִקְנֵי",
+      "gloss": "the elders of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "וישאו",
-      "gloss": "carried",
-      "readings": [
-        "carried",
-        "lifted up"
-      ],
-      "held_by": {
-        "carried": [
-          "v2",
-          "en4"
-        ],
-        "lifted up": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וַיִּשְׂאוּ",
+      "gloss": "and lifted",
+      "sense": "S1"
     },
     {
-      "surface": "הלוים",
-      "gloss": "the Levites"
+      "surface": "הַלְוִיִּם",
+      "gloss": "the Levites",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the ark"
     },
     {
-      "surface": "הארון",
-      "gloss": "the ark"
+      "surface": "הָאָרֹון",
+      "gloss": "the ark",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:36:19.254536831Z",
+  "model": "glm-5.3"
 }

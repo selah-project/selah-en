@@ -1,70 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "For I am not cut off from before darkness, and from before my face ⟨he⟩ covered thick darkness.",
+  "ref": "job 23:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "כסה",
+      "rationale": "Piel 3ms 'he covered' (El or Shaddai of v.16 as subject) vs. reading the consonants as the noun כַּסְוָה 'his covering,' yielding 'gloom is as my covering' — famously divided."
+    },
+    {
+      "kind": "crux",
+      "subject": "נִצְמַתִּי",
+      "rationale": "Niphal of צמת: 'be cut off\/destroyed' vs. from צמם 'be silenced\/darkened'; both ancient and modern versions divide."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חשך \/ אופל",
+      "rationale": "Two darkness words paired across the verse's two halves; English 'darkness\/gloom' only partly carries the intensification."
+    }
+  ],
+  "translation": "For I have not been cut off from before the darkness, and before my face he covered the gloom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f511c6c07f6d928c9617d60524a8e5eae70a24d0e92e669cee2a6454d6446e62",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/23\/17-17.1791194396171.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נצמתי",
-      "gloss": "I am cut off",
+      "surface": "נִצְמַתִּי",
+      "gloss": "I have been cut off",
       "readings": [
-        "I am cut off",
-        "I am silenced"
+        "I have been cut off",
+        "I was silenced"
       ],
-      "held_by": {
-        "I am cut off": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I am silenced": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מפני",
+      "surface": "מִפְּנֵי",
       "gloss": "from before"
     },
     {
-      "surface": "חשך",
-      "gloss": "darkness"
+      "surface": "חֹשֶׁךְ",
+      "gloss": "the darkness",
+      "sense": "S1"
     },
     {
-      "surface": "ומפני",
-      "gloss": "and from before my face"
+      "surface": "וּמִפָּנַי",
+      "gloss": "and before my face"
     },
     {
-      "surface": "כסה",
-      "gloss": "covered"
-    },
-    {
-      "surface": "אפל",
-      "gloss": "thick darkness",
+      "surface": "כִּסָּה",
+      "gloss": "he covered",
       "readings": [
-        "thick darkness",
-        "gloom"
+        "he covered",
+        "it overwhelmed"
       ],
-      "held_by": {
-        "thick darkness": [
-          "v1",
-          "en4"
-        ],
-        "gloom": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹפֶל",
+      "gloss": "the gloom",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:56.172223902Z",
+  "model": "glm-5.3"
 }

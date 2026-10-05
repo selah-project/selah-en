@@ -1,58 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "YHWH guards ⟨את⟩ all who love him, and ⟨את⟩ all the wicked he will destroy.",
-  "tokens": [
+  "ref": "psalms 145:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 145,
+  "notes": [
     {
-      "surface": "שומר",
-      "gloss": "guards",
-      "readings": [
-        "guards",
-        "keeps"
-      ],
-      "held_by": {
-        "guards": [
-          "v1",
-          "v3"
-        ],
-        "keeps": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "אהביו",
-      "gloss": "who love him"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הרשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "ישמיד",
-      "gloss": "he will destroy"
+      "kind": "wordplay",
+      "subject": "שומר\/ישמיד",
+      "rationale": "keeping (shomer) and destroy (yashmid) share ש-מ-ד\/ש-מ-ר sound-shape — guard versus blot out set in parallel"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Keeping is YHWH ⟨את⟩ all who love him, and ⟨את⟩ all the wicked he will destroy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "347e0317988ae73f50fe2000b6692c3acf7f94d78a6dc67711a4aa5682eb5c58",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/145\/17-20.1791193635128.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שׁוֹמֵר",
+      "gloss": "Keeping",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "all who love him"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "אֹהֲבָיו",
+      "gloss": "who love him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "sense": null,
+      "marks": "all the wicked"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הָרְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׁמִיד",
+      "gloss": "he will destroy",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:15.129605748Z",
+  "model": "glm-5.3"
 }

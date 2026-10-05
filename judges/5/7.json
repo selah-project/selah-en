@@ -1,63 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Leadership ceased in Israel — it ceased — until I arose, Deborah, until I arose a mother in Israel.",
-  "tokens": [
+  "ref": "judges 5:7",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "חדלו",
-      "gloss": "Ceased"
+      "kind": "crux",
+      "subject": "פרזון",
+      "rationale": "'Village-dwellers \/ the unfortified rural class' (SDBH) versus 'rulership, leadership' (from פרז, Gesenius); the rural-class sense rendered."
     },
     {
-      "surface": "פרזון",
-      "gloss": "leadership",
-      "readings": [
-        "leadership",
-        "open villages"
-      ],
-      "held_by": {
-        "leadership": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "open villages": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בישראל",
-      "gloss": "in Israel"
-    },
-    {
-      "surface": "חדלו",
-      "gloss": "it ceased"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "שקמתי",
-      "gloss": "I arose"
-    },
-    {
-      "surface": "דבורה",
-      "gloss": "Deborah"
-    },
-    {
-      "surface": "שקמתי",
-      "gloss": "I arose"
-    },
-    {
-      "surface": "אם",
-      "gloss": "a mother"
-    },
-    {
-      "surface": "בישראל",
-      "gloss": "in Israel"
+      "kind": "wordplay",
+      "subject": "חדלו … חדלו, שקמתי … שקמתי",
+      "rationale": "Both verbs doubled — 'ceased, ceased' and 'arose, arose' — the doubling kept, not collapsed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Village-dwellers ceased in Israel, ceased — until I arose, Deborah, I arose a mother in Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1527b217915d9fc17a70ff9fdd55fbac1d834644e9ab658af113e01f194c499c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/5\/5-8.1791184891011.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָדְל֧וּ",
+      "gloss": "ceased",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּרָז֛וֹן",
+      "gloss": "village-dwellers",
+      "readings": [
+        "village-dwellers",
+        "the unfortified"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיִשְׂרָאֵ֖ל",
+      "gloss": "in Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָדֵ֑לּוּ",
+      "gloss": "ceased",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֤ד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁקַּ֨מְתִּי֙",
+      "gloss": "I arose",
+      "sense": null
+    },
+    {
+      "surface": "דְּבוֹרָ֔ה",
+      "gloss": "Deborah",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁקַּ֥מְתִּי֖",
+      "gloss": "I arose",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֥ם",
+      "gloss": "a mother",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיִשְׂרָאֵֽל",
+      "gloss": "in Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:21:31.013046469Z",
+  "model": "glm-5.3"
 }

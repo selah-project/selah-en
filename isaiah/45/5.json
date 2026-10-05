@@ -1,48 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "I am YHWH, and there is none else; besides me there is no Elohim. I gird you, though you have not known me.",
+  "ref": "isaiah 45:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨am⟩",
+      "rationale": "Hebrew lacks a copula between אני and the Name"
+    },
+    {
+      "kind": "crux",
+      "subject": "זולתי אין אלהים",
+      "rationale": "'besides me there is no Elohim' vs 'apart from me there are no gods'; the form Elohim is plural but predicated as non-existent"
+    }
+  ],
+  "translation": "I ⟨am⟩ YHWH, and there is none besides — no Elohim exists; I girded you, and you did not know Me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7580c6fbd89f8edb6f871ee5fb8cc5a4b7daad2f4604da2f58438737de3420a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/45\/5-8.1791188694794.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "⟨am⟩ YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is none"
+      "surface": "וְאֵין",
+      "gloss": "and there is not"
     },
     {
-      "surface": "עוד",
-      "gloss": "else"
+      "surface": "עוֹד",
+      "gloss": "anymore",
+      "readings": [
+        "anymore",
+        "besides"
+      ],
+      "sense": null
     },
     {
-      "surface": "זולתי",
-      "gloss": "besides me"
+      "surface": "זוּלָתִי",
+      "gloss": "besides Me",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
-      "gloss": "there is no"
+      "surface": "אֵין",
+      "gloss": "there is not"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אאזרך",
-      "gloss": "I gird you"
+      "surface": "אֲאַזֶּרְךָ",
+      "gloss": "I girded you",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "though not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעתני",
-      "gloss": "you knew me"
+      "surface": "יְדַעְתָּנִי",
+      "gloss": "you knew Me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:54.795345381Z",
+  "model": "glm-5.3"
 }

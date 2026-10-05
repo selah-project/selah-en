@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "From before its face peoples writhe in anguish; all faces gather a flush of pallor.",
-  "tokens": [
+  "ref": "joel 2:6",
+  "book": "joel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "מפניו",
-      "gloss": "from before its face"
+      "kind": "hapax",
+      "subject": "flush",
+      "rationale": "פארור occurs only here and in Nahum 2:11; its meaning (glow\/flush of terror) is inferred."
     },
     {
-      "surface": "יחילו",
-      "gloss": "they writhe in anguish"
-    },
-    {
-      "surface": "עמים",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "פנים",
-      "gloss": "faces"
-    },
-    {
-      "surface": "קבצו",
-      "gloss": "gather"
-    },
-    {
-      "surface": "פארור",
-      "gloss": "a flush of pallor",
-      "readings": [
-        "a flush of pallor",
-        "a glow of anguish"
-      ],
-      "held_by": {
-        "a flush of pallor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a glow of anguish": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "gather a flush",
+      "rationale": "קבצו פארור read literally as 'gather a glow' — i.e. the color drains from faces in fear; many render 'grow pale'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Before it peoples writhe; all faces gather a flush.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8d1e38db5d1289422fbe09aad88ee51a3ad9c4be32d723623b45f567c325ab74",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joel\/2\/5-8.1791191445323.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִפָּנָ֖יו",
+      "gloss": "Before it",
+      "sense": null
+    },
+    {
+      "surface": "יָחִ֣ילוּ",
+      "gloss": "writhe",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּ֑ים",
+      "gloss": "peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "פָּנִ֖ים",
+      "gloss": "faces",
+      "sense": "S1"
+    },
+    {
+      "surface": "קִבְּצ֥וּ",
+      "gloss": "gather",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָארֽוּר",
+      "gloss": "a flush",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:10:45.324616156Z",
+  "model": "glm-5.3"
 }

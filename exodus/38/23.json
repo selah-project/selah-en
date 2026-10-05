@@ -1,83 +1,119 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "And with ⟨את⟩ him Oholiab son of Ahisamach, of the tribe of Dan, a craftsman and a designer, and an embroiderer in the blue and in the purple and in the worm of the scarlet and in the linen.",
-  "tokens": [
+  "ref": "exodus 38:23",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "ואתו",
-      "gloss": "and with ⟨את⟩ him"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a copula; the verse is a verbless noun clause"
     },
     {
-      "surface": "אהליאב",
-      "gloss": "Oholiab"
+      "kind": "substitution",
+      "subject": "blue-purple \/ red-purple",
+      "rationale": "תכלת and ארגמן are both murex-dyed purple cloths; English color words split them differently"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
-    },
-    {
-      "surface": "אחיסמך",
-      "gloss": "Ahisamach"
-    },
-    {
-      "surface": "למטה",
-      "gloss": "of the tribe of"
-    },
-    {
-      "surface": "דן",
-      "gloss": "Dan"
-    },
-    {
-      "surface": "חרש",
-      "gloss": "a craftsman",
-      "readings": [
-        "a craftsman",
-        "an engraver",
-        "a carpenter"
-      ],
-      "held_by": {
-        "a craftsman": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "an engraver": [
-          "en4"
-        ],
-        "a carpenter": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וחשב",
-      "gloss": "and a designer"
-    },
-    {
-      "surface": "ורקם",
-      "gloss": "and an embroiderer"
-    },
-    {
-      "surface": "בתכלת",
-      "gloss": "in the blue"
-    },
-    {
-      "surface": "ובארגמן",
-      "gloss": "and in the purple"
-    },
-    {
-      "surface": "ובתולעת",
-      "gloss": "and in the worm of"
-    },
-    {
-      "surface": "השני",
-      "gloss": "the scarlet"
-    },
-    {
-      "surface": "ובשש",
-      "gloss": "and in the linen"
+      "kind": "wordplay",
+      "subject": "תולעת השני",
+      "rationale": "literally 'worm of the crimson', the insect-name kept inside the color; hyphenated to keep the construct bound"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And with him was Oholiab son of Ahisamach, of the tribe of Dan, a craftsman and a designer, and an embroiderer in blue-purple and in red-purple and in crimson-worm and in fine-linen.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "51e8c565fc75b908ee9526b63fe36705d3f1fd519ff19251675aff8f68adb9cd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/38\/23-23.1791197620211.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִתּוֹ",
+      "gloss": "and with ⟨את⟩ him",
+      "marks": "him",
+      "sense": null
+    },
+    {
+      "surface": "אָהֳלִיאָב",
+      "gloss": "Oholiab",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲחִיסָמָךְ",
+      "gloss": "Ahisamach",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַטֵּה",
+      "gloss": "of the tribe of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּן",
+      "gloss": "Dan",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָרָשׁ",
+      "gloss": "a craftsman",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחֹשֵׁב",
+      "gloss": "and a designer",
+      "readings": [
+        "and a designer",
+        "and a weaver"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרֹקֵם",
+      "gloss": "and an embroiderer",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּתְּכֵלֶת",
+      "gloss": "in blue-purple",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבָאַרְגָּמָן",
+      "gloss": "and in red-purple",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְתוֹלַעַת",
+      "gloss": "and in crimson-worm",
+      "readings": [
+        "and in crimson-worm",
+        "and in worm-of"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "הַשָּׁנִי",
+      "gloss": "the crimson",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבַשֵּׁשׁ",
+      "gloss": "and in fine-linen",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:53:40.211791990Z",
+  "model": "glm-5.3"
 }

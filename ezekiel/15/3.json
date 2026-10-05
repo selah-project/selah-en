@@ -1,74 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Is wood taken from it to do ⟨a⟩ work? Or do they take from it a peg to hang any vessel on it?",
-  "tokens": [
+  "ref": "ezekiel 15:3",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "היקח",
-      "gloss": "Is…taken"
+      "kind": "addition",
+      "subject": "on it",
+      "rationale": "English word order repeats the peg referent; the Hebrew suffix stands once on עליו."
     },
     {
-      "surface": "ממנו",
+      "kind": "invitation",
+      "subject": "rhetorical question",
+      "rationale": "Questions expect the answer 'no', setting up the parable."
+    }
+  ],
+  "translation": "Is wood taken from it to do any work? Or do they take from it a peg to hang any vessel on it?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc62a268480700b6ea5bc57b60fa0bed162bbfaefe0c55dcfd294e62f190013d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/15\/1-4.1791190421186.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲיֻקַּ֤ח",
+      "gloss": "is taken",
+      "sense": "S2"
+    },
+    {
+      "surface": "מִמֶּ֨נּוּ֙",
       "gloss": "from it"
     },
     {
-      "surface": "עץ",
-      "gloss": "wood"
+      "surface": "עֵ֔ץ",
+      "gloss": "wood",
+      "sense": "S1"
     },
     {
-      "surface": "לעשות",
+      "surface": "לַעֲשׂ֖וֹת",
       "gloss": "to do",
-      "readings": [
-        "to do",
-        "to make"
-      ],
-      "held_by": {
-        "to do": [
-          "v1",
-          "v3"
-        ],
-        "to make": [
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "למלאכה",
-      "gloss": "⟨a⟩ work"
+      "surface": "לִמְלָאכָ֑ה",
+      "gloss": "work",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "or"
     },
     {
-      "surface": "יקחו",
-      "gloss": "do they take"
+      "surface": "יִקְח֤וּ",
+      "gloss": "do they take",
+      "sense": "S1"
     },
     {
-      "surface": "ממנו",
+      "surface": "מִמֶּ֨נּוּ֙",
       "gloss": "from it"
     },
     {
-      "surface": "יתד",
-      "gloss": "a peg"
+      "surface": "יָתֵ֔ד",
+      "gloss": "a peg",
+      "sense": "S1"
     },
     {
-      "surface": "לתלות",
-      "gloss": "to hang"
+      "surface": "לִתְל֥וֹת",
+      "gloss": "to hang",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
+      "surface": "עָלָ֖יו",
       "gloss": "on it"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "any"
     },
     {
-      "surface": "כלי",
-      "gloss": "vessel"
+      "surface": "כֶּֽלִי",
+      "gloss": "vessel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:53:41.187716389Z",
+  "model": "glm-5.3"
 }

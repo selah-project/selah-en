@@ -1,58 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Also at Horeb you provoked ⟨את⟩ YHWH to wrath, and YHWH was angry with you, to destroy ⟨את⟩ you.",
+  "ref": "deuteronomy 9:8",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "הקצפתם \/ ויתאנף",
+      "rationale": "Two different anger verbs frame the verse: Israel 'provoked to wrath' and YHWH 'snorted in fury' — the root אנף pictures heavy breathing."
+    },
+    {
+      "kind": "substitution",
+      "subject": "against you",
+      "rationale": "Hebrew בָּכֶם is simply 'in\/with you'; English idiom requires 'against'."
+    }
+  ],
+  "translation": "And at Horeb you provoked ⟨את⟩ YHWH to anger, and YHWH burned with anger against you, to destroy ⟨את⟩ you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9a1ea364bba78858ec6bc9c0b3c88297b129a1f68273ff357db8bda9356f5cc6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/9\/5-8.1791183780621.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "ובחרב",
-      "gloss": "Also at Horeb"
+      "surface": "וּבְחֹרֵב",
+      "gloss": "and at Horeb",
+      "sense": "S1"
     },
     {
-      "surface": "הקצפתם",
-      "gloss": "you provoked to wrath"
+      "surface": "הִקְצַפְתֶּם",
+      "gloss": "you provoked to anger",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ויתאנף",
-      "gloss": "and was angry"
+      "surface": "וַיִּתְאַנַּף",
+      "gloss": "and he burned with anger",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "בכם",
-      "gloss": "with you",
-      "readings": [
-        "with you",
-        "against you"
-      ],
-      "held_by": {
-        "with you": [
-          "v1",
-          "en4"
-        ],
-        "against you": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "בָּכֶם",
+      "gloss": "against you"
     },
     {
-      "surface": "להשמיד",
-      "gloss": "to destroy"
+      "surface": "לְהַשְׁמִיד",
+      "gloss": "to destroy",
+      "sense": "S1"
     },
     {
-      "surface": "אתכם",
+      "surface": "אֶתְכֶם",
       "gloss": "⟨את⟩ you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:03:00.623009376Z",
+  "model": "glm-5.3"
 }

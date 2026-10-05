@@ -1,61 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "When he slew them, then they sought him, and they returned, and sought El earnestly.",
-  "tokens": [
+  "ref": "psalms 78:34",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "if"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "if": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "אִם",
+      "rationale": "'when' vs conditional 'if' — the perfect verbs favor the temporal 'when'"
     },
     {
-      "surface": "הרגם",
-      "gloss": "he slew them"
-    },
-    {
-      "surface": "ודרשוהו",
-      "gloss": "and they sought him"
-    },
-    {
-      "surface": "ושבו",
-      "gloss": "and they returned"
-    },
-    {
-      "surface": "ושחרו",
-      "gloss": "and sought early",
-      "readings": [
-        "and sought early",
-        "and sought earnestly"
-      ],
-      "held_by": {
-        "and sought early": [
-          "v1",
-          "v3"
-        ],
-        "and sought earnestly": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אל",
-      "gloss": "El"
+      "kind": "wordplay",
+      "subject": "שִׁחֲרוּ",
+      "rationale": "root means 'to dawn' — they were up at first light seeking Him, the picture lost in 'sought earnestly'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When He killed them, then they sought Him, and they returned and searched early for El.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "55ccef5c5dbfe0b0e6c52cebff907b16e5f3be5c6fb3fe331ea6a004960f3147",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/33-36.1791193045332.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "When"
+    },
+    {
+      "surface": "הֲרָגָ֥ם",
+      "gloss": "He killed them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּדְרָשׁ֑וּהוּ",
+      "gloss": "then they sought Him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝שָׁ֗בוּ",
+      "gloss": "and they returned",
+      "readings": [
+        "and they returned",
+        "and they turned back"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִֽׁחֲרוּ",
+      "gloss": "and searched early for",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵֽל",
+      "gloss": "El",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:25.332863962Z",
+  "model": "glm-5.3"
 }

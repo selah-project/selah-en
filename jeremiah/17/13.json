@@ -1,116 +1,131 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "The hope of Israel is YHWH; all who forsake you shall be ashamed, my departers shall be written in the earth, for they have forsaken the fountain of living waters, ⟨את⟩ YHWH.",
+  "ref": "jeremiah 17:13",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between מקוה ישראל and יהוה"
+    },
+    {
+      "kind": "crux",
+      "subject": "those who turn away",
+      "rationale": "ketiv יסורי (hapax) vs qere וסורי 'and those who turn aside'; rendered as those departing from YHWH"
+    },
+    {
+      "kind": "hapax",
+      "subject": "יסורי",
+      "rationale": "this form occurs only here in the Tanakh"
+    },
+    {
+      "kind": "crux",
+      "subject": "shall be written in the earth",
+      "rationale": "either doomed to death (S1) or consigned to oblivion like words in sand (S2); kept literal"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מקוה\/מקור",
+      "rationale": "hope and water-source share the same water register — YHWH is both Israel's hope and the living spring forsaken"
+    }
+  ],
+  "translation": "The hope of Israel ⟨is⟩ YHWH: all who forsake you shall be put to shame; those who turn away from me shall be written in the earth, for they have forsaken the source of living water, ⟨את⟩ YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "72095e53e88e361a00e72fec7610ce4c24d1d5fe927426f293e61875b6d34fe1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/17\/13-16.1791189385960.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "מקוה",
-      "gloss": "hope",
-      "readings": [
-        "hope",
-        "gathering"
-      ],
-      "held_by": {
-        "hope": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "gathering": [
-          "en4"
-        ]
-      }
+      "surface": "מִקְוֵה",
+      "gloss": "The hope of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all who",
+      "sense": null
     },
     {
-      "surface": "עזביך",
-      "gloss": "who forsake you"
+      "surface": "עֹזְבֶיךָ",
+      "gloss": "forsake you",
+      "sense": "S1"
     },
     {
-      "surface": "יבשו",
-      "gloss": "shall be ashamed"
+      "surface": "יֵבֹשׁוּ",
+      "gloss": "shall be put to shame",
+      "sense": "S1"
     },
     {
       "surface": "יסורי",
-      "gloss": "my departers",
-      "readings": [
-        "my departers",
-        "those who turn away"
-      ],
-      "held_by": {
-        "my departers": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "those who turn away": [
-          "en4",
-          "v1"
-        ]
-      }
+      "gloss": "those who turn away from me",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
+      "surface": "בָּאָרֶץ",
       "gloss": "in the earth",
-      "readings": [
-        "in the earth",
-        "in the land"
-      ],
-      "held_by": {
-        "in the earth": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יכתבו",
-      "gloss": "shall be written"
+      "surface": "יִכָּתֵבוּ",
+      "gloss": "shall be written",
+      "sense": "S2"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "עזבו",
-      "gloss": "they have forsaken"
+      "surface": "עָזְבוּ",
+      "gloss": "they have forsaken",
+      "sense": "S1"
     },
     {
-      "surface": "מקור",
-      "gloss": "the fountain"
+      "surface": "מְקוֹר",
+      "gloss": "the source of",
+      "sense": null
     },
     {
-      "surface": "מים",
-      "gloss": "of waters"
+      "surface": "מַיִם",
+      "gloss": "water",
+      "sense": "S1"
     },
     {
-      "surface": "חיים",
-      "gloss": "living"
+      "surface": "חַיִּים",
+      "gloss": "living",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:36:25.963325003Z",
+  "model": "glm-5.3"
 }

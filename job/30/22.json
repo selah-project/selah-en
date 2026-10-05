@@ -1,65 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "You lift me up ⟨to⟩ the wind; you cause me to ride ⟨on it⟩, and you melt me — you destroy me.",
+  "ref": "job 30:22",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "tushiyyah",
+      "rationale": "Ketiv תשוה (pual of שוה, 'you destroy me') against qere תושיה ('success\/prosperity', hapax adverbial); 'you melt me away with tushiyyah' is opaque either way, and the difficulty is left bare."
+    },
+    {
+      "kind": "hapax",
+      "subject": "תושיה",
+      "rationale": "The qere form occurs only here in this shape in the Tanakh."
+    },
+    {
+      "kind": "addition",
+      "subject": "on it",
+      "rationale": "English needs the object of 'ride'; Hebrew leaves it implied."
+    }
+  ],
+  "translation": "You lift me to the wind; you make me ride ⟨on it⟩; you melt me away — tushiyyah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e78ded380a4b04c18e3e46a256fbd4ff09294185adafb7ae4e473b8dbac3ce5a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/21-24.1791194495726.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "תשאני",
-      "gloss": "You lift me up"
+      "surface": "תִּשָּׂאֵ֣נִי",
+      "gloss": "You lift me",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
     },
     {
-      "surface": "רוח",
+      "surface": "ר֭וּחַ",
       "gloss": "the wind",
-      "readings": [
-        "the wind",
-        "the spirit",
-        "the breath"
-      ],
-      "held_by": {
-        "the wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the spirit": [
-          "en4"
-        ],
-        "the breath": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תרכיבני",
-      "gloss": "you cause me to ride ⟨on it⟩"
+      "surface": "תַּרְכִּיבֵ֑נִי",
+      "gloss": "you make me ride",
+      "sense": "S1"
     },
     {
-      "surface": "ותמגגני",
-      "gloss": "and you melt me"
+      "surface": "וּ֝תְמֹגְגֵ֗נִי",
+      "gloss": "and you melt me away",
+      "sense": "S1"
     },
     {
       "surface": "תשוה",
-      "gloss": "you destroy me",
-      "readings": [
-        "you destroy me",
-        "you level me"
-      ],
-      "held_by": {
-        "you destroy me": [
-          "v1",
-          "v3"
-        ],
-        "you level me": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "tushiyyah",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:35.727075538Z",
+  "model": "glm-5.3"
 }

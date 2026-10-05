@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "In the morning it blossoms and passes; in the evening it is cut down and withers.",
-  "tokens": [
+  "ref": "psalms 90:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "בבקר",
-      "gloss": "in the morning"
+      "kind": "wordplay",
+      "subject": "morning\/evening frame",
+      "rationale": "the day's two poles enclose a whole human lifespan — grass lives one day."
     },
     {
-      "surface": "יציץ",
-      "gloss": "it blossoms"
-    },
-    {
-      "surface": "וחלף",
-      "gloss": "and passes"
-    },
-    {
-      "surface": "לערב",
-      "gloss": "in the evening"
-    },
-    {
-      "surface": "ימולל",
-      "gloss": "it is cut down"
-    },
-    {
-      "surface": "ויבש",
-      "gloss": "and withers"
+      "kind": "substitution",
+      "subject": "יְמוֹלֵל",
+      "rationale": "poel of מלל, literally 'cut down\/withered', rendered 'withers' to pair with 'dries'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the morning it blossoms and passes; by evening it withers and dries.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bdc1e5fca9b8fe0e477c0a139990c283c9d69eb01643cd3b3fa16eb0a2b75f7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/5-8.1791193177659.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּ֭בֹּקֶר",
+      "gloss": "In the morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָצִ֣יץ",
+      "gloss": "it blossoms",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחָלָ֑ף",
+      "gloss": "and passes",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֝עֶ֗רֶב",
+      "gloss": "by evening",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמוֹלֵ֥ל",
+      "gloss": "it withers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָבֵֽשׁ",
+      "gloss": "and dries",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:37.660646542Z",
+  "model": "glm-5.3"
 }

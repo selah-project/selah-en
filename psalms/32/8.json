@@ -1,83 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "I will make you act wisely and teach you in the way you shall walk; I will counsel ⟨you⟩ — my eye is upon you.",
-  "tokens": [
+  "ref": "psalms 32:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "אשכילך",
-      "gloss": "I will make you act wisely",
-      "readings": [
-        "I will make you act wisely",
-        "I will instruct you"
-      ],
-      "held_by": {
-        "I will make you act wisely": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I will instruct you": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "speaker of v8",
+      "rationale": "read as YHWH answering the psalmist, or as the psalmist instructing others; the shift from second-person address to first-person speech has no explicit marker in the Hebrew"
     },
     {
-      "surface": "ואורך",
-      "gloss": "and teach you",
-      "readings": [
-        "and teach you",
-        "and show you"
-      ],
-      "held_by": {
-        "and teach you": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and show you": [
-          "v1"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "“my eye upon you” has no verb; the copula is supplied"
     },
     {
-      "surface": "בדרך",
-      "gloss": "in the way"
-    },
-    {
-      "surface": "זו",
-      "gloss": "this"
-    },
-    {
-      "surface": "תלך",
-      "gloss": "you shall walk",
-      "readings": [
-        "you shall walk",
-        "you should walk"
-      ],
-      "held_by": {
-        "you shall walk": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "you should walk": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "איעצה",
-      "gloss": "I will counsel"
-    },
-    {
-      "surface": "עליך",
-      "gloss": "upon you"
-    },
-    {
-      "surface": "עיני",
-      "gloss": "my eye"
+      "kind": "you",
+      "subject": "to the psalmist",
+      "rationale": "if YHWH is the speaker, the verse is direct divine address to the one who confessed in v5"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will give you insight and teach you in the way you shall walk; I will counsel you — my eye is upon you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9dea2e12f5834c4f7a6f695ab606b2d0676a1b814e597fa1918d70182c33960f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/32\/5-8.1791192606229.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַשְׂכִּילְךָ",
+      "gloss": "I will give you insight",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאוֹרְךָ",
+      "gloss": "and teach you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדֶרֶךְ",
+      "gloss": "in the way",
+      "sense": "S1"
+    },
+    {
+      "surface": "זוּ",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "תֵלֵךְ",
+      "gloss": "you shall walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִיעֲצָה",
+      "gloss": "I will counsel you",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלֶיךָ",
+      "gloss": "upon you",
+      "sense": null
+    },
+    {
+      "surface": "עֵינִי",
+      "gloss": "my eye",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:06.230479762Z",
+  "model": "glm-5.3"
 }

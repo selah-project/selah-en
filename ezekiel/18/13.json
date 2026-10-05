@@ -1,90 +1,135 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "At interest he gave, and increase he took — and shall he live? He shall not live. ⟨את⟩ all these abominations he did — dying he shall die; his blood upon him shall be.",
-  "tokens": [
+  "ref": "ezekiel 18:13",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "בנשך",
-      "gloss": "at interest",
-      "readings": [
-        "at interest",
-        "in usury"
-      ],
-      "held_by": {
-        "at interest": [
-          "v1"
-        ],
-        "in usury": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "and lives he shall not live",
+      "rationale": "ketiv וָחָי read against qere וֶחֱיֶה; rendered as a question-answer figure, 'shall he live? he shall not live'."
     },
     {
-      "surface": "נתן",
-      "gloss": "gave"
+      "kind": "wordplay",
+      "subject": "מוֹת יוּמָת",
+      "rationale": "infinitive absolute doubling, rendered 'dying he shall be put to death'."
     },
     {
-      "surface": "ותרבית",
-      "gloss": "and increase"
+      "kind": "substitution",
+      "subject": "his bloods",
+      "rationale": "דָּמָיו is plural, guilt-of-blood; kept the plural 'bloods'."
     },
     {
-      "surface": "לקח",
-      "gloss": "took"
-    },
-    {
-      "surface": "וחי",
-      "gloss": "and shall ⟨he⟩ live?"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יחיה",
-      "gloss": "shall live"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "התועבות",
-      "gloss": "the abominations"
-    },
-    {
-      "surface": "האלה",
-      "gloss": "these"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "did"
-    },
-    {
-      "surface": "מות",
-      "gloss": "dying"
-    },
-    {
-      "surface": "יומת",
-      "gloss": "he shall die"
-    },
-    {
-      "surface": "דמיו",
-      "gloss": "his blood"
-    },
-    {
-      "surface": "בו",
-      "gloss": "upon him"
-    },
-    {
-      "surface": "יהיה",
-      "gloss": "shall be"
+      "kind": "alternative",
+      "subject": "and lives",
+      "rationale": "reading 2 takes וָחָי as interrogative: 'and shall he live?'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "At interest he gave, and increase he took — and lives he shall not live: ⟨את⟩ all these abominations he did — dying he shall be put to death, his bloods are in him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f98b4cbc205db2f219cc17a7d57421102bd193b8d46017fe6e5ff4e3abf60e86",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/18\/13-16.1791190519683.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּנֶּשֶׁךְ",
+      "gloss": "at interest",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַן",
+      "gloss": "he gave",
+      "sense": null
+    },
+    {
+      "surface": "וְתַרְבִית",
+      "gloss": "and increase",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָקַח",
+      "gloss": "he took",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָחָי",
+      "gloss": "and lives",
+      "sense": "S1",
+      "readings": [
+        "and lives",
+        "and shall he live"
+      ]
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִחְיֶה",
+      "gloss": "he shall live",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "all these abominations"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַתּוֹעֵבוֹת",
+      "gloss": "the abominations",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֵלֶּה",
+      "gloss": "these",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָׂה",
+      "gloss": "he did",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹת",
+      "gloss": "dying",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוּמָת",
+      "gloss": "he shall be put to death",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּמָיו",
+      "gloss": "his bloods",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹ",
+      "gloss": "in him",
+      "sense": null
+    },
+    {
+      "surface": "יִהְיֶה",
+      "gloss": "shall be",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:55:19.684230741Z",
+  "model": "glm-5.3"
 }

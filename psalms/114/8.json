@@ -1,95 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "The One turning the rock into a pool of water, the flint into a spring of water.",
+  "ref": "psalms 114:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 114,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "into",
+      "rationale": "the Hebrew lays nouns side by side (rock pool-of waters); English needs 'into' for the transformation"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מים ... מים",
+      "rationale": "'waters' closes both halves, a repeated cadence binding the parallel pair"
+    }
+  ],
+  "translation": "The-one-who-turns the rock into a pool of waters, the flint into a spring of waters —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "93a23141c5aa7a47ae86563c7f7f9d524d1f8dcd3ec548a0539f52f0d2349604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/114\/5-8.1791193397216.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ההפכי",
-      "gloss": "the One turning",
-      "readings": [
-        "the One turning",
-        "who turned"
-      ],
-      "held_by": {
-        "the One turning": [
-          "en4"
-        ],
-        "who turned": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "הַהֹפְכִי",
+      "gloss": "The-one-who-turns",
+      "sense": "S1"
     },
     {
-      "surface": "הצור",
+      "surface": "הַצּוּר",
       "gloss": "the rock",
-      "readings": [
-        "the rock",
-        "the cliff"
-      ],
-      "held_by": {
-        "the rock": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the cliff": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אגם",
-      "gloss": "a pool",
-      "readings": [
-        "a pool",
-        "a marsh"
-      ],
-      "held_by": {
-        "a pool": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a marsh": [
-          "en4"
-        ]
-      }
+      "surface": "אֲגַם",
+      "gloss": "into a pool of",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "of water"
+      "surface": "מַיִם",
+      "gloss": "waters",
+      "sense": "S1"
     },
     {
-      "surface": "חלמיש",
+      "surface": "חַלָּמִישׁ",
       "gloss": "the flint"
     },
     {
-      "surface": "למעינו",
-      "gloss": "into a spring",
-      "readings": [
-        "into a spring",
-        "into its spring"
-      ],
-      "held_by": {
-        "into a spring": [
-          "v1",
-          "v2",
-          "en4"
-        ],
-        "into its spring": [
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "לְמַעְיְנוֹ",
+      "gloss": "into a spring of",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "of water"
+      "surface": "מַיִם",
+      "gloss": "waters",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:17.217812100Z",
+  "model": "glm-5.3"
 }

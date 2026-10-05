@@ -1,42 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And he has ground my teeth with gravel, he has pressed me down in ashes.",
-  "tokens": [
+  "ref": "lamentations 3:16",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "ויגרס",
-      "gloss": "and he has ground"
+      "kind": "hapax",
+      "subject": "הִכְפִּישַׁנִי",
+      "rationale": "כָּפַשׁ occurs only here in the Tanakh; meaning uncertain — 'made me cower \/ pressed me down' from the senses 'tread down, humiliate'."
     },
     {
-      "surface": "בחצץ",
-      "gloss": "with gravel"
-    },
-    {
-      "surface": "שני",
-      "gloss": "my teeth"
-    },
-    {
-      "surface": "הכפישני",
-      "gloss": "he has pressed me down",
-      "readings": [
-        "he has pressed me down",
-        "he has humiliated me"
-      ],
-      "held_by": {
-        "he has pressed me down": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he has humiliated me": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "באפר",
-      "gloss": "in ashes"
+      "kind": "wordplay",
+      "subject": "dual שִׁנָּי",
+      "rationale": "שֵׁן 'tooth' is a DUAL form with suffix — literally 'my two (rows of) teeth'; English plural flattens it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he ground my teeth with gravel, he made me cower in the ashes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cab3ef9d988b00fada1beeea564242ce22c1161458fbb2bc712c91880a46f5ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/13-16.1791194697964.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּגְרֵס",
+      "gloss": "And he ground",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּחָצָץ",
+      "gloss": "with gravel",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁנָּי",
+      "gloss": "my teeth",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִכְפִּישַׁנִי",
+      "gloss": "he made me cower",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאֵפֶר",
+      "gloss": "in the ashes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:57.965931177Z",
+  "model": "glm-5.3"
 }

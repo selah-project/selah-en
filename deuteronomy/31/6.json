@@ -1,90 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Be strong and be courageous; do not fear and do not be terrified because of them, for YHWH your Elohim — he ⟨is⟩ the one going with you; he will not let you slacken and he will not forsake you.",
-  "tokens": [
+  "ref": "deuteronomy 31:6",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "חזקו",
-      "gloss": "be strong"
+      "kind": "invitation",
+      "subject": "exhortation",
+      "rationale": "Chain of imperatives and negated jussives summons Israel to courage."
     },
     {
-      "surface": "ואמצו",
-      "gloss": "and be courageous"
+      "kind": "substitution",
+      "subject": "loosen",
+      "rationale": "יַרְפְּךָ is literally 'loosen (his hand from) you'; English needs a verb of letting go."
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
-    },
-    {
-      "surface": "תיראו",
-      "gloss": "fear"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and do not"
-    },
-    {
-      "surface": "תערצו",
-      "gloss": "be terrified"
-    },
-    {
-      "surface": "מפניהם",
-      "gloss": "because of them",
-      "readings": [
-        "because of them",
-        "from before them"
-      ],
-      "held_by": {
-        "because of them": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from before them": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "ההלך",
-      "gloss": "the one going"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "with you"
-    },
-    {
-      "surface": "לא",
-      "gloss": "He will not"
-    },
-    {
-      "surface": "ירפך",
-      "gloss": "let you slacken"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and He will not"
-    },
-    {
-      "surface": "יעזבך",
-      "gloss": "forsake you"
+      "kind": "idiom",
+      "subject": "from before them",
+      "rationale": "מִפְּנֵיהֶם literally 'from the face of them', rendered simply 'them'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Be strong and be courageous; do not fear and do not dread them, for YHWH your Elohim — he is the one walking with you; he will not loosen ⟨you⟩ and he will not forsake you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "37acf2a0b8715ee1de9651c336b47e2833144f419362d42f09c7c19c14ab5135",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/31\/5-8.1791184189068.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חִזְקוּ",
+      "gloss": "Be strong",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִמְּצוּ",
+      "gloss": "and be courageous",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "תִּירְאוּ",
+      "gloss": "fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַל",
+      "gloss": "and do not",
+      "sense": null
+    },
+    {
+      "surface": "תַּעַרְצוּ",
+      "gloss": "dread",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵיהֶם",
+      "gloss": "them",
+      "sense": null
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֶיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "הַהֹלֵךְ",
+      "gloss": "the one walking",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּךְ",
+      "gloss": "with you",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַרְפְּךָ",
+      "gloss": "he will loosen you",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעַזְבֶךָּ",
+      "gloss": "he will forsake you",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:09:49.069650786Z",
+  "model": "glm-5.3"
 }

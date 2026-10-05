@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "If you are wise, you are wise for yourself; and if you scorn, you alone will bear ⟨it⟩.",
-  "tokens": [
+  "ref": "proverbs 9:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "kind": "wordplay",
+      "subject": "חכמת חכמת",
+      "rationale": "Doubled verb kept doubled: 'you have grown wise, you have grown wise' — rendered with 'if…you have' to carry both tokens."
     },
     {
-      "surface": "חכמת",
-      "gloss": "you are wise"
+      "kind": "elision",
+      "subject": "אם before ולצת",
+      "rationale": "The second 'if' is implied by the vav; supplied without bracket since English requires it."
     },
     {
-      "surface": "חכמת",
-      "gloss": "you are wise"
-    },
-    {
-      "surface": "לך",
-      "gloss": "for yourself"
-    },
-    {
-      "surface": "ולצת",
-      "gloss": "and ⟨if⟩ you scorn",
-      "readings": [
-        "and ⟨if⟩ you scorn",
-        "and you have scoffed"
-      ],
-      "held_by": {
-        "and ⟨if⟩ you scorn": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you have scoffed": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבדך",
-      "gloss": "you alone"
-    },
-    {
-      "surface": "תשא",
-      "gloss": "will bear ⟨it⟩"
+      "kind": "you",
+      "subject": "to the sons",
+      "rationale": "Direct second-person address: each one bears his own choice."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If you have grown wise, you have grown wise for yourself; and if you scoff, you alone will bear it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a8f00ef4089e53fe54da4d24ba0f2246b2e268e637bf6fbc4fa80bad8599a2a6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/9\/9-12.1791193785609.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "חָכַמְתָּ",
+      "gloss": "you have grown wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכַמְתָּ",
+      "gloss": "you have grown wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְּךָ",
+      "gloss": "for yourself",
+      "sense": null
+    },
+    {
+      "surface": "וְלַצְתָּ",
+      "gloss": "and if you scoff",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבַדְּךָ",
+      "gloss": "you alone",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשָּׂא",
+      "gloss": "will bear it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:45.610171407Z",
+  "model": "glm-5.3"
 }

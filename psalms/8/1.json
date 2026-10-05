@@ -1,45 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To the chief musician, upon the Gittith, a psalm of David.",
-  "tokens": [
+  "ref": "psalms 8:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "To the chief musician",
-      "readings": [
-        "To the chief musician",
-        "For the one presiding",
-        "To the conqueror"
-      ],
-      "held_by": {
-        "To the chief musician": [
-          "v2",
-          "v3"
-        ],
-        "For the one presiding": [
-          "en4"
-        ],
-        "To the conqueror": [
-          "v1"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "הגתית",
+      "rationale": "Musical term of uncertain meaning, only in Psalms 8, 81, 84; possibly a Gath harp or a winepress melody."
     },
     {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "הגתית",
-      "gloss": "the Gittith"
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "kind": "substitution",
+      "subject": "chief musician",
+      "rationale": "המנצח is literally 'the one overseeing' — rendered by office; the piel participle of glitter\/eminent is lost."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, upon the Gittith, a psalm of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1fdc781a498c88a542a081f31d5a00e13f6e65edde3812e9634cc6a379cf2c16",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/8\/1-4.1791192402273.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֥חַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַֽל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "הַגִּתִּ֗ית",
+      "gloss": "the Gittith",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְמ֥וֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִֽד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:42.274281102Z",
+  "model": "glm-5.3"
 }

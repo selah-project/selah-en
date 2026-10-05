@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And Elohim will shoot them ⟨with⟩ an arrow — suddenly are their wounds.",
-  "tokens": [
+  "ref": "psalms 64:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 64,
+  "notes": [
     {
-      "surface": "וירם",
-      "gloss": "and He will shoot them"
+      "kind": "wordplay",
+      "subject": "יֹרֵם … חֵץ",
+      "rationale": "the plotters' arrow (v. 4) returns: Elohim shoots them with their own weapon; suddenness (פתאם\/פתאם) is also mirrored from v. 5."
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "crux",
+      "subject": "הָיוּ מַכּוֹתָם",
+      "rationale": "literally 'they became their wounds' — either 'they became wounds' or 'it (the arrow) became their wounds'; kept the awkward literal 'they become their wounds' as 'they become wounds' with the suffix exposed."
     },
     {
-      "surface": "חץ",
-      "gloss": "an arrow"
-    },
-    {
-      "surface": "פתאום",
-      "gloss": "suddenly"
-    },
-    {
-      "surface": "היו",
-      "gloss": "they are"
-    },
-    {
-      "surface": "מכותם",
-      "gloss": "their wounds",
-      "readings": [
-        "their wounds",
-        "their blows"
-      ],
-      "held_by": {
-        "their wounds": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their blows": [
-          "v1"
-        ]
-      }
+      "kind": "addition",
+      "subject": "with",
+      "rationale": "English needs 'with' before the instrument; Hebrew uses a bare accusative."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Elohim will shoot them ⟨with⟩ an arrow; suddenly they become wounds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a593b90c077d18780b7cf7a0e86d7a8ca6d4f8a39977bfba5123e70f328200ee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/64\/5-8.1791192884891.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּרֵם",
+      "gloss": "and he shoots them",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵץ",
+      "gloss": "an arrow",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּתְאֹם",
+      "gloss": "suddenly",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָיוּ",
+      "gloss": "they become",
+      "sense": null
+    },
+    {
+      "surface": "מַכּוֹתָם",
+      "gloss": "their wounds",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:44.892913499Z",
+  "model": "glm-5.3"
 }

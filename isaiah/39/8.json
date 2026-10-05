@@ -1,102 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And Hezekiah said to Isaiah, “Good ⟨is⟩ the word of YHWH that you have spoken.” And he said, “For there shall be peace and truth in my days.”",
-  "tokens": [
+  "ref": "isaiah 39:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And said"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronts the predicate טוב with no copula; English supplies one."
     },
     {
-      "surface": "חזקיהו",
+      "kind": "alternative",
+      "subject": "faithfulness",
+      "rationale": "אמת rendered 'faithfulness\/trustworthiness' (S1: lasting, trustworthy condition); 'truth' is the narrower traditional choice."
+    },
+    {
+      "kind": "crux",
+      "subject": "For there will be peace",
+      "rationale": "Hezekiah's response reads as grim resignation (or gratitude) that judgment falls after his lifetime; the 2 Kings 20:19 parallel phrases it as a rhetorical question."
+    }
+  ],
+  "translation": "And Hezekiah said to Isaiah, “The word of YHWH that you have spoken is good.” And he said, “For there will be peace and faithfulness in my days.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06319c928f31bab2345ab717bc97f05d5bd2d5c918cd997413ed82e186cc30d8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/39\/5-8.1791188593991.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֤אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִזְקִיָּ֨הוּ֙",
       "gloss": "Hezekiah"
     },
     {
-      "surface": "אל",
+      "surface": "אֶֽל",
       "gloss": "to"
     },
     {
-      "surface": "ישעיהו",
-      "gloss": "Isaiah"
+      "surface": "יְשַׁעְיָ֔הוּ",
+      "gloss": "Isaiah",
+      "sense": "S1"
     },
     {
-      "surface": "טוב",
-      "gloss": "Good"
+      "surface": "ט֥וֹב",
+      "gloss": "good",
+      "sense": "S1"
     },
     {
-      "surface": "דבר",
-      "gloss": "the word"
+      "surface": "דְּבַר",
+      "gloss": "The word of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֣ר",
       "gloss": "that"
     },
     {
-      "surface": "דברת",
-      "gloss": "you have spoken"
+      "surface": "דִּבַּ֑רְתָּ",
+      "gloss": "you have spoken",
+      "sense": "S1"
     },
     {
-      "surface": "ויאמר",
-      "gloss": "And he said"
+      "surface": "וַיֹּ֖אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֥י",
       "gloss": "For"
     },
     {
-      "surface": "יהיה",
-      "gloss": "there shall be"
+      "surface": "יִהְיֶ֥ה",
+      "gloss": "there will be"
     },
     {
-      "surface": "שלום",
+      "surface": "שָׁל֥וֹם",
       "gloss": "peace",
-      "readings": [
-        "peace",
-        "wholeness",
-        "welfare"
-      ],
-      "held_by": {
-        "peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wholeness": [
-          "en4"
-        ],
-        "welfare": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואמת",
-      "gloss": "and truth",
-      "readings": [
-        "and truth",
-        "and faithfulness"
-      ],
-      "held_by": {
-        "and truth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and faithfulness": [
-          "en4"
-        ]
-      }
+      "surface": "וֶאֱמֶ֥ת",
+      "gloss": "and faithfulness",
+      "sense": "S1"
     },
     {
-      "surface": "בימי",
-      "gloss": "in my days"
+      "surface": "בְּיָמָֽי",
+      "gloss": "in my days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:13.992975914Z",
+  "model": "glm-5.3"
 }

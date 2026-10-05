@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For not ⟨are⟩ my thoughts your thoughts, and not ⟨are⟩ your ways my ways, oracle of YHWH.",
-  "tokens": [
+  "ref": "isaiah 55:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew is verbless nominal clauses; English supplies the copula, unbracketed for readability"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "מחשבותי",
-      "gloss": "my thoughts"
-    },
-    {
-      "surface": "מחשבותיכם",
-      "gloss": "your thoughts"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "דרכיכם",
-      "gloss": "your ways"
-    },
-    {
-      "surface": "דרכי",
-      "gloss": "my ways"
-    },
-    {
-      "surface": "נאם",
-      "gloss": "oracle of",
-      "readings": [
-        "oracle of",
-        "says"
-      ],
-      "held_by": {
-        "oracle of": [
-          "v1",
-          "v3"
-        ],
-        "says": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "מַחְשְׁבוֹת\/דְּרָכִים",
+      "rationale": "chiastic double negation: thoughts-thoughts \/ ways-ways inverted between clauses, continued in v.9's heights of heaven"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For My thoughts are not your thoughts, and your ways are not My ways — the oracle of YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed898aa6032928252ddbd4a530b42036a3af033b50b7b7cd89393ba5e0e04a3a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/55\/5-8.1791188834274.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחְשְׁבוֹתַי",
+      "gloss": "My thoughts",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחְשְׁבוֹתֵיכֶם",
+      "gloss": "your thoughts",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּרְכֵיכֶם",
+      "gloss": "your ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּרָכָי",
+      "gloss": "My ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְאֻם",
+      "gloss": "the oracle of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:27:14.275521983Z",
+  "model": "glm-5.3"
 }

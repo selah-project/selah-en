@@ -1,50 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And Samuel summoned ⟨את⟩ the people to YHWH at Mizpah.",
+  "ref": "1-samuel 10:17",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "gathered",
+      "rationale": "ויצעק is literally 'he cried out'; the hiphil here means summoning by proclamation, rendered 'gathered'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "assembly at Mizpah",
+      "rationale": "A national assembly convoked for the choosing of a king by lot."
+    }
+  ],
+  "translation": "And Samuel gathered ⟨את⟩ the people to YHWH at the Mizpah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bfc924902074d220fda922a9b5c1e81385b333ab1f8a9bc67f0a1eb75ed4076b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/10\/17-20.1791185531576.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויצעק",
-      "gloss": "and summoned",
-      "readings": [
-        "and summoned",
-        "and called"
-      ],
-      "held_by": {
-        "and summoned": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and called": [
-          "en4"
-        ]
-      }
+      "gloss": "And gathered",
+      "sense": "S1"
     },
     {
       "surface": "שמואל",
-      "gloss": "Samuel"
+      "gloss": "Samuel",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the people",
+      "sense": null
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "to",
+      "sense": null
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "המצפה",
-      "gloss": "Mizpah"
+      "gloss": "the Mizpah",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:32:11.576805790Z",
+  "model": "glm-5.3"
 }

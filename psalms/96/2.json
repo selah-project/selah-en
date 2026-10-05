@@ -1,69 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Sing to YHWH, bless his name; proclaim his salvation from day to day.",
-  "tokens": [
+  "ref": "psalms 96:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 96,
+  "notes": [
     {
-      "surface": "שירו",
-      "gloss": "Sing"
+      "kind": "invitation",
+      "subject": "Sing…bless…proclaim",
+      "rationale": "Chain of imperatives continues the summons."
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "ברכו",
-      "gloss": "bless"
-    },
-    {
-      "surface": "שמו",
-      "gloss": "his name"
-    },
-    {
-      "surface": "בשרו",
-      "gloss": "proclaim",
-      "readings": [
-        "proclaim",
-        "proclaim good news"
-      ],
-      "held_by": {
-        "proclaim": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "proclaim good news": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מיום",
-      "gloss": "from day"
-    },
-    {
-      "surface": "ליום",
-      "gloss": "to day"
-    },
-    {
-      "surface": "ישועתו",
-      "gloss": "his salvation",
-      "readings": [
-        "his salvation",
-        "his victory"
-      ],
-      "held_by": {
-        "his salvation": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his victory": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "deliverance",
+      "rationale": "יְשׁוּעָה is rescue-victory, aid brought successfully; not abstract 'salvation'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sing to YHWH, bless His name; proclaim from day to day His deliverance.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "00aad12dee3334a9a4f6318549c5318fcb577d3f94d279af84655987419b132c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/96\/1-4.1791193227742.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׁ֣ירוּ",
+      "gloss": "Sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַ֭יהוָה",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּרֲכ֣וּ",
+      "gloss": "bless",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמ֑וֹ",
+      "gloss": "His name",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשְּׂר֥וּ",
+      "gloss": "proclaim",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִיּֽוֹם",
+      "gloss": "from day",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֝י֗וֹם",
+      "gloss": "to day",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעָתֽוֹ",
+      "gloss": "His deliverance",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:27.743248855Z",
+  "model": "glm-5.3"
 }

@@ -1,63 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Also you — in the blood of your covenant — I have sent your prisoners out of the pit where there ⟨is⟩ no water in it.",
-  "tokens": [
+  "ref": "zechariah 9:11",
+  "book": "zechariah",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "גם",
-      "gloss": "also"
+      "kind": "elision",
+      "subject": "אַתְּ",
+      "rationale": "not the ⟨את⟩ marker: the pointed form is the 2nd-feminine pronoun 'you' (Zion), despite the matching consonants"
     },
     {
-      "surface": "את",
-      "gloss": "you"
+      "kind": "you",
+      "subject": "Zion",
+      "rationale": "direct second-feminine address continues from verse 9"
     },
     {
-      "surface": "בדם",
-      "gloss": "in the blood",
-      "readings": [
-        "in the blood",
-        "by the blood"
-      ],
-      "held_by": {
-        "in the blood": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "by the blood": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בריתך",
-      "gloss": "of your covenant"
-    },
-    {
-      "surface": "שלחתי",
-      "gloss": "I have sent"
-    },
-    {
-      "surface": "אסיריך",
-      "gloss": "your prisoners"
-    },
-    {
-      "surface": "מבור",
-      "gloss": "out of the pit"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is no"
-    },
-    {
-      "surface": "מים",
-      "gloss": "water"
-    },
-    {
-      "surface": "בו",
-      "gloss": "in it"
+      "kind": "crux",
+      "subject": "בדם בריתך",
+      "rationale": "'by the blood of your covenant' — instrument or cause; 'your' covenant addressed to Zion"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Also you — by the blood of your covenant I have sent your prisoners out of the pit that has no water in it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3321e2edf39f775e0588086a04f562f59d6e246558b6183db1fa0e6dcacf4a76",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/zechariah\/9\/9-12.1791192170622.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/zechariah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גַּם",
+      "gloss": "Also",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַ֣תְּ",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "בְּדַם",
+      "gloss": "by the blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרִיתֵ֗ךְ",
+      "gloss": "of your covenant",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁלַּ֤חְתִּי",
+      "gloss": "I have sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲסִירַ֨יִךְ֙",
+      "gloss": "your prisoners",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבּ֔וֹר",
+      "gloss": "out of the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֥ין",
+      "gloss": "that has no",
+      "sense": null
+    },
+    {
+      "surface": "מַ֖יִם",
+      "gloss": "water",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּֽוֹ",
+      "gloss": "in it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:22:50.624014052Z",
+  "model": "glm-5.3"
 }

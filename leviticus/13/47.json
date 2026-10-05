@@ -1,83 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 47,
-  "translation": "And the garment — when there is in it a plague of tsaraat, in a garment of wool or in a garment of linen,",
+  "ref": "leviticus 13:47",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "tzara'at",
+      "rationale": "צרעת on cloth is mold or mildew, not a skin disease; the single Hebrew word spans skin, cloth, and walls, so it is kept untranslated to preserve the category."
+    },
+    {
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew יהיה בו is existential 'it is in it'; English smooths to 'there is in it'."
+    }
+  ],
+  "translation": "And the garment, when there is in it a spot of tzara'at, in a garment of wool or in a garment of linen,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "771105284b1cfad3d6c3df7b35ff0afac15906755dd4a167377d3271d267357f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/45-48.1791182406479.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "והבגד",
-      "gloss": "and the garment"
+      "gloss": "And the garment",
+      "sense": "S1"
     },
     {
       "surface": "כי",
       "gloss": "when",
-      "readings": [
-        "when",
-        "if"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "if": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": null
     },
     {
       "surface": "יהיה",
-      "gloss": "there is"
+      "gloss": "there is",
+      "sense": null
     },
     {
       "surface": "בו",
-      "gloss": "in it"
+      "gloss": "in",
+      "sense": null
     },
     {
       "surface": "נגע",
-      "gloss": "a plague"
+      "gloss": "a spot",
+      "sense": "S1"
     },
     {
       "surface": "צרעת",
-      "gloss": "of tsaraat",
-      "readings": [
-        "of tsaraat",
-        "of skin-disease"
-      ],
-      "held_by": {
-        "of tsaraat": [
-          "v1",
-          "en4"
-        ],
-        "of skin-disease": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "of tzara'at",
+      "sense": "S1"
     },
     {
       "surface": "בבגד",
-      "gloss": "in a garment"
+      "gloss": "in a garment",
+      "sense": "S1"
     },
     {
       "surface": "צמר",
-      "gloss": "of wool"
+      "gloss": "of wool",
+      "sense": "S1"
     },
     {
       "surface": "או",
-      "gloss": "or"
+      "gloss": "or",
+      "sense": "S1"
     },
     {
       "surface": "בבגד",
-      "gloss": "in a garment"
+      "gloss": "in a garment",
+      "sense": "S1"
     },
     {
       "surface": "פשתים",
-      "gloss": "of linen"
+      "gloss": "of linen",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:06.481415724Z",
+  "model": "glm-5.3"
 }

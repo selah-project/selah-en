@@ -1,48 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "The cords of Sheol surrounded me; the snares of death confronted me.",
-  "tokens": [
+  "ref": "psalms 18:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "חבלי",
-      "gloss": "The cords of"
-    },
-    {
-      "surface": "שאול",
-      "gloss": "Sheol"
-    },
-    {
-      "surface": "סבבוני",
-      "gloss": "surrounded me"
-    },
-    {
-      "surface": "קדמוני",
-      "gloss": "confronted me",
-      "readings": [
-        "confronted me",
-        "met me"
-      ],
-      "held_by": {
-        "confronted me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "met me": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מוקשי",
-      "gloss": "the snares of"
-    },
-    {
-      "surface": "מות",
-      "gloss": "death"
+      "kind": "alternative",
+      "subject": "confronted me",
+      "rationale": "קדם literally 'came before me' — the snares met him on the way, as an ambush."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Cords of Sheol surrounded me; snares of death confronted me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f14402960161c8b4ee95f12d411d983bb2370530a70fc39f7e1ecab8ed4d0f79",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/5-8.1791192458048.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חֶבְלֵ֣י",
+      "gloss": "cords of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁא֣וֹל",
+      "gloss": "Sheol",
+      "sense": "S1"
+    },
+    {
+      "surface": "סְבָב֑וּנִי",
+      "gloss": "surrounded me",
+      "sense": null
+    },
+    {
+      "surface": "קִ֝דְּמ֗וּנִי",
+      "gloss": "confronted me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מ֣וֹקְשֵׁי",
+      "gloss": "snares of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָֽוֶת",
+      "gloss": "death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:38.049111861Z",
+  "model": "glm-5.3"
 }

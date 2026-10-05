@@ -1,75 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For man is born to toil, and the sons of flame soar high to fly.",
-  "tokens": [
+  "ref": "job 5:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "בְּנֵי רֶשֶׁף",
+      "rationale": "'sons of Resheph' (the fire-god), 'sparks', or 'arrows' — the flying image supports sparks or birds."
     },
     {
-      "surface": "אדם",
-      "gloss": "man"
-    },
-    {
-      "surface": "לעמל",
-      "gloss": "to toil",
-      "readings": [
-        "to toil",
-        "to trouble"
-      ],
-      "held_by": {
-        "to toil": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "to trouble": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יולד",
-      "gloss": "is born"
-    },
-    {
-      "surface": "ובני",
-      "gloss": "and the sons of"
-    },
-    {
-      "surface": "רשף",
-      "gloss": "flame",
-      "readings": [
-        "flame",
-        "spark",
-        "lightning"
-      ],
-      "held_by": {
-        "flame": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "spark": [
-          "en4"
-        ],
-        "lightning": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יגביהו",
-      "gloss": "soar high"
-    },
-    {
-      "surface": "עוף",
-      "gloss": "to fly"
+      "kind": "alternative",
+      "subject": "יַגְבִּיהוּ עוּף",
+      "rationale": "read as 'soar aloft in flight', the sparks as birds rising — man is born to toil below while fire's sons fly above."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For humankind is born to toil, and the sons of the flame fly high.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ff8ccbb40e2d8973dadac2c99195d8bfeda27fbf31543b853ab3371750b37d89",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/5-8.1791194191038.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "humankind",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעָמָל",
+      "gloss": "to toil",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוּלָּד",
+      "gloss": "is born",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְנֵי",
+      "gloss": "and the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֶשֶׁף",
+      "gloss": "the flame",
+      "readings": [
+        "the flame",
+        "Resheph",
+        "the arrow"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יַגְבִּיהוּ",
+      "gloss": "fly high",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוּף",
+      "gloss": "in flight",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:31.039161020Z",
+  "model": "glm-5.3"
 }

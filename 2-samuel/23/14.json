@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And David was then in the stronghold, and the garrison of the Philistines was then in Beth-Lehem.",
-  "tokens": [
+  "ref": "2-samuel 23:14",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "ודוד",
-      "gloss": "And David"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew verbless clauses; the copula is supplied twice."
     },
     {
-      "surface": "אז",
-      "gloss": "then"
-    },
-    {
-      "surface": "במצודה",
-      "gloss": "in the stronghold"
-    },
-    {
-      "surface": "ומצב",
-      "gloss": "and the garrison of",
-      "readings": [
-        "and the garrison of",
-        "and the station of"
-      ],
-      "held_by": {
-        "and the garrison of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the station of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
-    },
-    {
-      "surface": "אז",
-      "gloss": "then"
-    },
-    {
-      "surface": "בית",
-      "gloss": "Beth-"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "-Lehem"
+      "kind": "substitution",
+      "subject": "garrison",
+      "rationale": "מַצָּב is literally 'a placed body', a fixed military post; 1 Chron 11:16 has נְצִיב 'garrison\/official'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And David was then in the stronghold, and the garrison of the Philistines was then at Bethlehem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c2fad412272e339461ee289ec715e8d3398cb47a64541821973de90f1f4c7629",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/23\/13-16.1791186633834.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְדָוִ֖ד",
+      "gloss": "And David",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֣ז",
+      "gloss": "then",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמְּצוּדָ֑ה",
+      "gloss": "in the stronghold",
+      "sense": null
+    },
+    {
+      "surface": "וּמַצַּ֣ב",
+      "gloss": "and the garrison of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּלִשְׁתִּ֔ים",
+      "gloss": "Philistines",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֖ז",
+      "gloss": "then",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֥ית",
+      "gloss": "Bethlehem",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶֽחֶם",
+      "gloss": "Bethlehem",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:50:33.835445689Z",
+  "model": "glm-5.3"
 }

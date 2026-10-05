@@ -1,65 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "You shall come to the grave in full vigor, like the rising of a stack of sheaves in its season.",
+  "ref": "job 5:26",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "גָּדִישׁ",
+      "rationale": "literally a stack of sheaves; the same word means tomb (Job 21:32), so the image doubles: harvested grain piled at the right time."
+    },
+    {
+      "kind": "crux",
+      "subject": "כַּעֲלוֹת",
+      "rationale": "'like the going up \/ raising of' — either grain carried up to the stack or the stack rising complete; rendered 'carrying up' to keep the verb's hand-motion."
+    },
+    {
+      "kind": "alternative",
+      "subject": "בְּכֶלַח",
+      "rationale": "the word means vigorous maturity; 'in ripe old age' is the softer tradition."
+    }
+  ],
+  "translation": "You will come to the grave in full strength, like the carrying up of a grain-stack in its season.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02268bd510f29bd79784d31a9a894668d7a633295a37711e59526bd289332563",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/25-27.1791194168483.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "תבוא",
-      "gloss": "You shall come"
+      "surface": "תָּבוֹא",
+      "gloss": "You will come"
     },
     {
-      "surface": "בכלח",
-      "gloss": "in full vigor",
-      "readings": [
-        "in full vigor",
-        "in a full age"
-      ],
-      "held_by": {
-        "in full vigor": [
-          "v2",
-          "en4"
-        ],
-        "in a full age": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּכֶלַח",
+      "gloss": "in full strength",
+      "sense": "S1"
     },
     {
-      "surface": "אלי",
+      "surface": "אֱלֵי",
       "gloss": "to"
     },
     {
-      "surface": "קבר",
-      "gloss": "the grave"
+      "surface": "קָבֶר",
+      "gloss": "the grave",
+      "sense": "S1"
     },
     {
-      "surface": "כעלות",
-      "gloss": "like the rising of"
+      "surface": "כַּעֲלוֹת",
+      "gloss": "like the carrying up of",
+      "sense": "S1"
     },
     {
-      "surface": "גדיש",
-      "gloss": "a stack of sheaves",
-      "readings": [
-        "a stack of sheaves",
-        "a grain stack"
-      ],
-      "held_by": {
-        "a stack of sheaves": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a grain stack": [
-          "en4"
-        ]
-      }
+      "surface": "גָּדִישׁ",
+      "gloss": "a grain-stack",
+      "sense": "S1"
     },
     {
-      "surface": "בעתו",
-      "gloss": "in its season"
+      "surface": "בְּעִתּוֹ",
+      "gloss": "in its season",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:08.484080421Z",
+  "model": "glm-5.3"
 }

@@ -1,81 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And now, what is there under your hand? Give five ⟨loaves of⟩ bread into my hand, or whatever is found.",
-  "tokens": [
+  "ref": "1-samuel 21:4",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "kind": "idiom",
+      "subject": "תַּחַת יָדְךָ",
+      "rationale": "Literally 'under your hand', i.e. at your disposal; the literal picture is kept."
     },
     {
-      "surface": "מה",
-      "gloss": "what"
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "English requires the existential 'there is' for יֵשׁ in a question."
     },
     {
-      "surface": "יש",
-      "gloss": "is there"
-    },
-    {
-      "surface": "תחת",
-      "gloss": "under"
-    },
-    {
-      "surface": "ידך",
-      "gloss": "your hand"
-    },
-    {
-      "surface": "חמשה",
-      "gloss": "five"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "bread",
-      "readings": [
-        "bread",
-        "food"
-      ],
-      "held_by": {
-        "bread": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "food": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תנה",
-      "gloss": "Give"
-    },
-    {
-      "surface": "בידי",
-      "gloss": "into my hand"
-    },
-    {
-      "surface": "או",
-      "gloss": "or"
-    },
-    {
-      "surface": "הנמצא",
-      "gloss": "whatever is found",
-      "readings": [
-        "whatever is found",
-        "what can be found"
-      ],
-      "held_by": {
-        "whatever is found": [
-          "v2",
-          "en4"
-        ],
-        "what can be found": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "measurement",
+      "subject": "five bread",
+      "rationale": "The count is stated with לֶחֶם as a collective singular, 'five bread', kept as is."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And now, what is there under your hand? Five bread give into my hand, or whatever is found.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8b40f6d987ca28163dac79b78360cdf02b127a75601779fdd60144548c241e2f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/21\/2-4.1791198524292.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּה",
+      "gloss": "And now",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַה",
+      "gloss": "what",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵשׁ",
+      "gloss": "is there",
+      "sense": null
+    },
+    {
+      "surface": "תַּחַת",
+      "gloss": "under",
+      "sense": null
+    },
+    {
+      "surface": "יָדְךָ",
+      "gloss": "your hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲמִשָּׁה",
+      "gloss": "five",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶחֶם",
+      "gloss": "bread",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּנָה",
+      "gloss": "give",
+      "sense": null
+    },
+    {
+      "surface": "בְּיָדִי",
+      "gloss": "into my hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹ",
+      "gloss": "or",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנִּמְצָא",
+      "gloss": "whatever is found",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:08:44.293707299Z",
+  "model": "glm-5.3"
 }

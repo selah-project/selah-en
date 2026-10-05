@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For we are consumed in your anger, and by your wrath we are dismayed.",
-  "tokens": [
+  "ref": "psalms 90:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "second-person address to YHWH, shifting from 'them' (v.5) to 'we'."
     },
     {
-      "surface": "כלינו",
-      "gloss": "we are consumed"
-    },
-    {
-      "surface": "באפך",
-      "gloss": "in your anger",
-      "readings": [
-        "in your anger",
-        "in your nose"
-      ],
-      "held_by": {
-        "in your anger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in your nose": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ובחמתך",
-      "gloss": "and by your wrath"
-    },
-    {
-      "surface": "נבהלנו",
-      "gloss": "we are dismayed",
-      "readings": [
-        "we are dismayed",
-        "we are hurried away"
-      ],
-      "held_by": {
-        "we are dismayed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "we are hurried away": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "wrath",
+      "rationale": "אַף is literally 'nose\/nostrils' — flaring nostrils as the picture of anger."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For we are consumed in your wrath, and by your fury we are terrified.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bdc1e5fca9b8fe0e477c0a139990c283c9d69eb01643cd3b3fa16eb0a2b75f7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/5-8.1791193177659.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "כָלִ֥ינוּ",
+      "gloss": "we are consumed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְאַפֶּ֑ךָ",
+      "gloss": "in your wrath",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽבַחֲמָתְךָ֥",
+      "gloss": "and by your fury",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִבְהָֽלְנוּ",
+      "gloss": "we are terrified",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:37.660776178Z",
+  "model": "glm-5.3"
 }

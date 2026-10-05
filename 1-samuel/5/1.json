@@ -1,44 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And the Philistines took ⟨את⟩ the ark of Elohim and brought it from Eben-ezer to Ashdod.",
-  "tokens": [
+  "ref": "1-samuel 5:1",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ופלשתים",
-      "gloss": "And the Philistines"
+      "kind": "substitution",
+      "subject": "ark",
+      "rationale": "אֲרוֹן is literally a box; 'ark' is the traditional English word for this chest"
     },
     {
-      "surface": "לקחו",
-      "gloss": "took"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ארון",
-      "gloss": "the ark of"
-    },
-    {
-      "surface": "האלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "ויבאהו",
-      "gloss": "and brought it"
-    },
-    {
-      "surface": "מאבן",
-      "gloss": "from Eben"
-    },
-    {
-      "surface": "העזר",
-      "gloss": "ha-Ezer"
-    },
-    {
-      "surface": "אשדודה",
-      "gloss": "⟨to⟩ Ashdod"
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "directional he on אשדודה supplies motion-toward, carried by English 'to'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the Philistines took ⟨את⟩ the ark of the Elohim, and brought it from Eben-ha-Ezer to Ashdod.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "507070ff0da0d3b2b64a1ca9c72e7b33a842cc1710e466cc1206a1575ddf5dcf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/5\/1-4.1791185430730.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּפְלִשְׁתִּים",
+      "gloss": "And the Philistines",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָקְחוּ",
+      "gloss": "took",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the ark",
+      "sense": null
+    },
+    {
+      "surface": "אֲרוֹן",
+      "gloss": "the ark",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֱלֹהִים",
+      "gloss": "of the Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיְבִאֻהוּ",
+      "gloss": "and brought it",
+      "sense": null
+    },
+    {
+      "surface": "מֵאֶבֶן",
+      "gloss": "from Eben-",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעֵזֶר",
+      "gloss": "ha-Ezer",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁדֽוֹדָה",
+      "gloss": "to Ashdod",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:30:30.731355806Z",
+  "model": "glm-5.3"
 }

@@ -1,85 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For the enemy has pursued my soul; he has crushed my life to the ground; he has made me dwell in darknesses, like the dead of old.",
-  "tokens": [
+  "ref": "psalms 143:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 143,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נֶפֶשׁ is throat\/life-principle, the breathing self; parallel here with חַיָּה 'life'."
     },
     {
-      "surface": "רדף",
-      "gloss": "has pursued"
-    },
-    {
-      "surface": "אויב",
-      "gloss": "the enemy"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my nefesh",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דכא",
-      "gloss": "has crushed"
-    },
-    {
-      "surface": "לארץ",
-      "gloss": "to the ground"
-    },
-    {
-      "surface": "חיתי",
-      "gloss": "my life"
-    },
-    {
-      "surface": "הושיבני",
-      "gloss": "has made me dwell",
-      "readings": [
-        "has made me dwell",
-        "has made me sit"
-      ],
-      "held_by": {
-        "has made me dwell": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "has made me sit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "במחשכים",
-      "gloss": "in darknesses"
-    },
-    {
-      "surface": "כמתי",
-      "gloss": "like the dead"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "of old"
+      "kind": "wordplay",
+      "subject": "נפשי \/ חיתי",
+      "rationale": "Parallel pair soul\/life frames the verse's two halves; the English keeps the parallel."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the enemy pursues my soul; he crushes my life to the ground; he makes me dwell in dark places, like those long dead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc298fd4a98f7e0174ff5088d383d4af977be12b4ca583ad30092fd744c6e058",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/143\/1-4.1791193621536.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֥י",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "רָדַ֤ף",
+      "gloss": "pursues",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיֵ֨ב",
+      "gloss": "the enemy",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁ֗י",
+      "gloss": "my soul",
+      "sense": "S1",
+      "readings": [
+        "my soul",
+        "my life",
+        "my very self"
+      ]
+    },
+    {
+      "surface": "דִּכָּ֣א",
+      "gloss": "crushes",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאָ֨רֶץ",
+      "gloss": "to the ground",
+      "sense": "S1",
+      "readings": [
+        "to the ground",
+        "to the earth"
+      ]
+    },
+    {
+      "surface": "חַיָּתִ֑י",
+      "gloss": "my life",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹשִׁיבַ֥נִי",
+      "gloss": "he makes me dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַחֲשַׁכִּ֗ים",
+      "gloss": "in dark places",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּמֵתֵ֥י",
+      "gloss": "like those dead",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָֽם",
+      "gloss": "of long ago",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:01.537051378Z",
+  "model": "glm-5.3"
 }

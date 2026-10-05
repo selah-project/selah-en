@@ -1,42 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "From there they journeyed, and camped in the wadi of Zered.",
-  "tokens": [
+  "ref": "numbers 21:12",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "משם",
-      "gloss": "From there"
-    },
-    {
-      "surface": "נסעו",
-      "gloss": "they journeyed"
-    },
-    {
-      "surface": "ויחנו",
-      "gloss": "and encamped"
-    },
-    {
-      "surface": "בנחל",
-      "gloss": "in the wadi of",
-      "readings": [
-        "in the wadi of",
-        "in the valley of"
-      ],
-      "held_by": {
-        "in the wadi of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the valley of": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "זרד",
-      "gloss": "Zered"
+      "kind": "substitution",
+      "subject": "wadi",
+      "rationale": "נחל is a seasonal torrent-bed valley; 'brook' overstates the water, 'valley' understates it — 'wadi' carries both."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From there they journeyed, and they camped in the wadi of Zered.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4359bd7e1fda33c761d0a934a12f3b9c9e71a89d3c1ce699de9ec1864621b569",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/21\/9-12.1791183205127.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִשָּׁ֖ם",
+      "gloss": "From there",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָסָ֑עוּ",
+      "gloss": "they journeyed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיַּחֲנ֖וּ",
+      "gloss": "and they camped",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנַ֥חַל",
+      "gloss": "in the wadi of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָֽרֶד",
+      "gloss": "Zered",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:53:25.142253369Z",
+  "model": "glm-5.3"
 }

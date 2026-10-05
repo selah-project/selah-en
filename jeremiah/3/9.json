@@ -1,82 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And it came to pass from the voice of her harlotry, and she defiled ⟨את⟩ the land, and committed adultery ⟨את⟩ the stone and ⟨את⟩ the tree.",
-  "tokens": [
+  "ref": "jeremiah 3:9",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "והיה",
-      "gloss": "And it came to pass"
+      "kind": "substitution",
+      "subject": "lightness",
+      "rationale": "מִקֹּל is literally 'from the voice\/sound of', here the idiom 'because of the trifling of' — her unfaithfulness regarded as trivial"
     },
     {
-      "surface": "מקל",
-      "gloss": "from the voice of",
-      "readings": [
-        "from the voice of",
-        "through the lightness of"
-      ],
-      "held_by": {
-        "from the voice of": [
-          "v1",
-          "en4"
-        ],
-        "through the lightness of": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "וַתֶּחֱנַף \/ וַתִּנְאַף",
+      "rationale": "near-rhyming pair 'she defiled \/ she committed adultery', a sound-pair partly lost in English"
     },
     {
-      "surface": "זנותה",
-      "gloss": "of her harlotry"
-    },
-    {
-      "surface": "ותחנף",
-      "gloss": "and she defiled"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "ותנאף",
-      "gloss": "and committed adultery"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "האבן",
-      "gloss": "the stone"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "העץ",
-      "gloss": "the tree",
-      "readings": [
-        "the tree",
-        "the wood"
-      ],
-      "held_by": {
-        "the tree": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the wood": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "אֶת before הָאֶבֶן",
+      "rationale": "the object marker rendered 'with ⟨את⟩' because the adultery idiom takes its object as a partner"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And it came to pass ⟨at⟩ the lightness of her harlotry, and she defiled ⟨את⟩ the land, and she committed adultery with ⟨את⟩ the stone and ⟨את⟩ the tree.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3381d2cbb9310bdcf98ec71e65329b21f7e6ba2834cd4dbbc3b4e4ead6a8b168",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/3\/9-12.1791189089801.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָיָה֙",
+      "gloss": "And it came to pass",
+      "sense": null
+    },
+    {
+      "surface": "מִקֹּ֣ל",
+      "gloss": "⟨at⟩ the lightness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְנוּתָ֔הּ",
+      "gloss": "her harlotry",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתֶּחֱנַ֖ף",
+      "gloss": "and she defiled",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the land",
+      "sense": null
+    },
+    {
+      "surface": "הָאָ֑רֶץ",
+      "gloss": "the land",
+      "sense": "S1",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
+    },
+    {
+      "surface": "וַתִּנְאַ֥ף",
+      "gloss": "and she committed adultery",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "marks": "the stone",
+      "sense": null
+    },
+    {
+      "surface": "הָאֶ֖בֶן",
+      "gloss": "the stone",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and with ⟨את⟩",
+      "marks": "the tree",
+      "sense": null
+    },
+    {
+      "surface": "הָעֵֽץ",
+      "gloss": "the tree",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:31:29.802480136Z",
+  "model": "glm-5.3"
 }

@@ -1,84 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Let the day perish on which I was born, and the night that said, ‘A man is conceived.’",
-  "tokens": [
+  "ref": "job 3:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "יאבד",
-      "gloss": "Let perish"
+      "kind": "crux",
+      "subject": "הרה גבר",
+      "rationale": "pual of הרה with subject גבר: 'a man was conceived' vs 'a man-child was conceived'"
     },
     {
-      "surface": "יום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "אולד",
-      "gloss": "I was born",
-      "readings": [
-        "I was born",
-        "I was begotten"
-      ],
-      "held_by": {
-        "I was born": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I was begotten": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בו",
-      "gloss": "on which"
-    },
-    {
-      "surface": "והלילה",
-      "gloss": "and the night"
-    },
-    {
-      "surface": "אמר",
-      "gloss": "that said"
-    },
-    {
-      "surface": "הרה",
-      "gloss": "is conceived",
-      "readings": [
-        "is conceived",
-        "is pregnant"
-      ],
-      "held_by": {
-        "is conceived": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is pregnant": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "גבר",
-      "gloss": "a man",
-      "readings": [
-        "a man",
-        "a mighty man"
-      ],
-      "held_by": {
-        "a man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a mighty man": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אולד\/הרה",
+      "rationale": "birth and conception verbs paired across day and night, chiastic day\/night frame lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Perish the day I was born in it, and the night that said, “A man was conceived.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e27f0a0436ecf2753352166ca73afe6452415865b4a43185d2c6b95b5a8cceea",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/3\/1-4.1791194108189.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹאבַד",
+      "gloss": "Perish",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִוָּלֶד",
+      "gloss": "I was born",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹ",
+      "gloss": "in it",
+      "sense": null
+    },
+    {
+      "surface": "וְהַלַּיְלָה",
+      "gloss": "and the night",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמַר",
+      "gloss": "that said",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֹרָה",
+      "gloss": "was conceived",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּבֶר",
+      "gloss": "a man",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:08.190649392Z",
+  "model": "glm-5.3"
 }

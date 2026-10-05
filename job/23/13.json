@@ -1,50 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "But he ⟨is⟩ in one ⟨mind⟩, and who can turn him back? And his soul desired ⟨את⟩ it, and he did it.",
-  "tokens": [
+  "ref": "job 23:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "והוא",
-      "gloss": "But he"
+      "kind": "crux",
+      "subject": "in one",
+      "rationale": "בְאֶחָד taken as 'as one, in unity' (God is undivided); some render 'who is like him?' or 'he is unique'."
     },
     {
-      "surface": "באחד",
-      "gloss": "⟨is⟩ in one ⟨mind⟩",
-      "readings": [
-        "⟨is⟩ in one ⟨mind⟩",
-        "⟨is⟩ in one"
-      ],
-      "held_by": {
-        "⟨is⟩ in one ⟨mind⟩": [
-          "v1",
-          "v3"
-        ],
-        "⟨is⟩ in one": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "his nefesh desired",
+      "rationale": "אִוְּתָה is feminine singular agreeing with נֶפֶשׁ; 'and his desire, it wished' — emphatic structure."
     },
     {
-      "surface": "ומי",
-      "gloss": "and who"
-    },
-    {
-      "surface": "ישיבנו",
-      "gloss": "can turn him back"
-    },
-    {
-      "surface": "ונפשו",
-      "gloss": "And his soul"
-    },
-    {
-      "surface": "אותה",
-      "gloss": "⟨את⟩ it"
-    },
-    {
-      "surface": "ויעש",
-      "gloss": "and he did it"
+      "kind": "wordplay",
+      "subject": "אותה",
+      "rationale": "Same consonants as the direct-object marker אֹתָהּ, but here the verb אָוָה 'to desire' — the pointing distinguishes them."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he is in one, and who can turn him back? And his nefesh desired, and he did ⟨it⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89f77e4f1e186038d8982f5df935401b5cccfe437ae7fd64ba2839df978f433f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/23\/13-16.1791194401997.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְה֣וּא",
+      "gloss": "And he"
+    },
+    {
+      "surface": "בְ֭אֶחָד",
+      "gloss": "in one",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִ֣י",
+      "gloss": "and who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשִׁיבֶ֑נּוּ",
+      "gloss": "will turn him back",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנַפְשׁ֖וֹ",
+      "gloss": "and his nefesh",
+      "readings": [
+        "and his nefesh",
+        "and his soul",
+        "and his desire"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אִוְּתָ֣ה",
+      "gloss": "desired",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּֽעַשׂ",
+      "gloss": "and he did",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:01.997707566Z",
+  "model": "glm-5.3"
 }

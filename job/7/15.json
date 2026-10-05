@@ -1,42 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "so my soul chooses strangling — death rather than my bones.",
-  "tokens": [
+  "ref": "job 7:15",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "ותבחר",
-      "gloss": "so chooses"
+      "kind": "hapax",
+      "subject": "מחנק",
+      "rationale": "'strangling\/choking' occurs only here in the Tanakh"
     },
     {
-      "surface": "מחנק",
-      "gloss": "strangling"
+      "kind": "wordplay",
+      "subject": "מחנק \/ נפש",
+      "rationale": "the choking (of the throat) is chosen by the throat itself — נפש literally 'throat' sharpens the irony, lost if rendered 'soul'"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my life": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מות",
-      "gloss": "death"
-    },
-    {
-      "surface": "מעצמותי",
-      "gloss": "than my bones"
+      "kind": "addition",
+      "subject": "rather than",
+      "rationale": "the comparative force of מן before עצמותי supplied explicitly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "so that my throat chooses strangling, death rather than my bones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "840b17008c78aa98f32f0ac83c4b2b343af4b7878d918e9f7e1340a24a7dc719",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/13-16.1791194190554.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתִּבְחַ֣ר",
+      "gloss": "so that ⟨it⟩ chooses",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחֲנָ֣ק",
+      "gloss": "strangling",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁ֑י",
+      "gloss": "my throat",
+      "readings": [
+        "my throat",
+        "my life",
+        "my soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מָ֝֗וֶת",
+      "gloss": "death",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽעֶצְמוֹתָֽי",
+      "gloss": "rather than my bones",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:30.555326648Z",
+  "model": "glm-5.3"
 }

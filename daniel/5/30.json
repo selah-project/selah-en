@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "In that night was slain Belshazzar, the king of the Chaldeans.",
+  "ref": "daniel 5:30",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "of",
+      "rationale": "English requires 'of' between king and the gentilic כשדיא, which Hebrew apposes directly."
+    },
+    {
+      "kind": "crux",
+      "subject": "כשדיא",
+      "rationale": "Ketiv כשדיא vs qere כשדאה; also 'Chaldeans' can mean the priestly caste, here the nation."
+    }
+  ],
+  "translation": "In that night Belshazzar, king of the Chaldeans, was killed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "af803a043a2a1a9c177a41bb729f166a90eb16091a111f41466c5850a02ae647",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/5\/29-30.1791195271456.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
-      "surface": "בה",
-      "gloss": "In that"
+      "surface": "בֵּ֚הּ",
+      "gloss": "In that",
+      "sense": null
     },
     {
-      "surface": "בליליא",
-      "gloss": "night"
+      "surface": "בְּלֵ֣ילְיָ֔א",
+      "gloss": "night",
+      "sense": "S1"
     },
     {
-      "surface": "קטיל",
-      "gloss": "was slain"
+      "surface": "קְטִ֕יל",
+      "gloss": "was killed",
+      "sense": null
     },
     {
-      "surface": "בלאשצר",
-      "gloss": "Belshazzar"
+      "surface": "בֵּלְאשַׁצַּ֖ר",
+      "gloss": "Belshazzar",
+      "sense": "S1"
     },
     {
-      "surface": "מלכא",
-      "gloss": "the king"
+      "surface": "מַלְכָּ֥א",
+      "gloss": "king",
+      "sense": "S1"
     },
     {
       "surface": "כשדיא",
-      "gloss": "of the Chaldeans"
+      "gloss": "of the Chaldeans",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:14:31.457796895Z",
+  "model": "glm-5.3"
 }

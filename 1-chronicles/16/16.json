@@ -1,47 +1,61 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "which he cut ⟨את⟩ ⟨with⟩ Abraham, and his oath to Isaac,",
-  "tokens": [
+  "ref": "1-chronicles 16:16",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "כרת",
-      "gloss": "he cut",
-      "readings": [
-        "he cut",
-        "he made"
-      ],
-      "held_by": {
-        "he cut": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he made": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אברהם",
-      "gloss": "⟨with⟩ Abraham"
-    },
-    {
-      "surface": "ושבועתו",
-      "gloss": "and his oath"
-    },
-    {
-      "surface": "ליצחק",
-      "gloss": "to Isaac"
+      "kind": "idiom",
+      "subject": "cut a covenant",
+      "rationale": "Hebrew כרת ברית literally 'cut a covenant', from cutting sacrifice pieces between parties"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "which he cut with ⟨את⟩ Abraham, and his oath to Isaac.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1572b49e74a06c889769cba3cc916a1f145dd3a4b974a59fb466a1891995c586",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/16\/13-16.1791196281244.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁ֤ר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "כָּרַת֙",
+      "gloss": "he cut",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Abraham",
+      "sense": null
+    },
+    {
+      "surface": "אַבְרָהָ֔ם",
+      "gloss": "Abraham",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁבוּעָת֖וֹ",
+      "gloss": "and his oath",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיִצְחָֽק",
+      "gloss": "to Isaac",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:21.245709446Z",
+  "model": "glm-5.3"
 }

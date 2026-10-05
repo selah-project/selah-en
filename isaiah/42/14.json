@@ -1,60 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "I have kept silent from of old; I keep still, I restrain myself; like a woman in labor I cry out; I gasp and pant together.",
-  "tokens": [
+  "ref": "isaiah 42:14",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
     {
-      "surface": "החשיתי",
-      "gloss": "I have kept silent"
+      "kind": "hapax",
+      "subject": "אֶפְעֶה (פעה)",
+      "rationale": "occurs only here; exact meaning unknown, the sound of a woman in labor"
     },
     {
-      "surface": "מעולם",
-      "gloss": "from of old",
-      "readings": [
-        "from of old",
-        "from eternity"
-      ],
-      "held_by": {
-        "from of old": [
-          "v1",
-          "en4"
-        ],
-        "from eternity": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "אֶשֹּׁם (נשׁם)",
+      "rationale": "occurs only here; gasping, straining for breath"
     },
     {
-      "surface": "אחריש",
-      "gloss": "I keep still"
-    },
-    {
-      "surface": "אתאפק",
-      "gloss": "I restrain myself"
-    },
-    {
-      "surface": "כיולדה",
-      "gloss": "like a woman in labor"
-    },
-    {
-      "surface": "אפעה",
-      "gloss": "I cry out"
-    },
-    {
-      "surface": "אשם",
-      "gloss": "I gasp"
-    },
-    {
-      "surface": "ואשאף",
-      "gloss": "and pant"
-    },
-    {
-      "surface": "יחד",
-      "gloss": "together"
+      "kind": "substitution",
+      "subject": "labor-panting",
+      "rationale": "YHWH's long restraint breaks as birth-pangs, a female image for the divine warrior of v. 13"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I have kept silent from of old, I keep still, I restrain myself; like a woman giving birth I pant, I gasp and I breathe hard together.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a2c15356af06c86cabcdd95276ab775317d2604e23d41564d6f8897aab74d459",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/42\/13-16.1791188648588.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֶחֱשֵׁיתִי",
+      "gloss": "I have kept silent",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעוֹלָם",
+      "gloss": "from of old",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרִישׁ",
+      "gloss": "I keep still",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶתְאַפָּק",
+      "gloss": "I restrain myself",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּיּוֹלֵדָה",
+      "gloss": "like a woman giving birth",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶפְעֶה",
+      "gloss": "I pant",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשֹּׁם",
+      "gloss": "I gasp",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶשְׁאַף",
+      "gloss": "and I breathe hard",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָחַד",
+      "gloss": "together",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:24:08.589958839Z",
+  "model": "glm-5.3"
 }

@@ -1,117 +1,129 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Speak to the heart of Jerusalem, and call to her, that her service is full, that her iniquity is accepted, that she has received from the hand of YHWH double for all her sins.",
-  "tokens": [
+  "ref": "isaiah 40:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "דברו",
-      "gloss": "Speak"
+      "kind": "idiom",
+      "subject": "speak to the heart",
+      "rationale": "עַל לֵב is Hebrew idiom for gentle, inward reassurance; literal 'upon the heart' kept close."
     },
     {
-      "surface": "על",
+      "kind": "crux",
+      "subject": "is accepted",
+      "rationale": "נִרְצָה niphal: 'her iniquity is accepted\/paid' (debt satisfied) vs 'she is accepted' (Israel pardoned) — the passive's subject is ambiguous."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כִּי x3",
+      "rationale": "Threefold כִּי builds a triple ground for comfort; English flattens to 'that…that…that'."
+    }
+  ],
+  "translation": "Speak to the heart of Jerusalem, and call to her, that her hard service is complete, that her iniquity is accepted, that she has received from the hand of YHWH double for all her sins.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0ead7d0109838696ff14e8a714934dedfabb40e5d6a898862a8079a276c79681",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/1-4.1791188595179.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דַּבְּר֞וּ",
+      "gloss": "Speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
       "gloss": "to"
     },
     {
-      "surface": "לב",
-      "gloss": "the heart of"
+      "surface": "לֵ֤ב",
+      "gloss": "the heart",
+      "sense": "S1"
     },
     {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "surface": "יְרֽוּשָׁלִַ֨ם֙",
+      "gloss": "of Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "וקראו",
-      "gloss": "and call"
+      "surface": "וְקִרְא֣וּ",
+      "gloss": "and call",
+      "sense": "S1"
     },
     {
-      "surface": "אליה",
+      "surface": "אֵלֶ֔יהָ",
       "gloss": "to her"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֤י",
       "gloss": "that"
     },
     {
-      "surface": "מלאה",
-      "gloss": "is full"
+      "surface": "מָֽלְאָה֙",
+      "gloss": "is complete",
+      "sense": "S1"
     },
     {
-      "surface": "צבאה",
-      "gloss": "her service",
-      "readings": [
-        "her service",
-        "her warfare",
-        "her appointed time"
-      ],
-      "held_by": {
-        "her service": [
-          "v1",
-          "v3"
-        ],
-        "her warfare": [
-          "v2",
-          "en4"
-        ],
-        "her appointed time": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "צְבָאָ֔הּ",
+      "gloss": "her hard service",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֥י",
       "gloss": "that"
     },
     {
-      "surface": "נרצה",
+      "surface": "נִרְצָ֖ה",
       "gloss": "is accepted",
-      "readings": [
-        "is accepted",
-        "is pardoned"
-      ],
-      "held_by": {
-        "is accepted": [
-          "v1",
-          "v3"
-        ],
-        "is pardoned": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "עונה",
-      "gloss": "her iniquity"
+      "surface": "עֲוֺנָ֑הּ",
+      "gloss": "her iniquity",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֤י",
       "gloss": "that"
     },
     {
-      "surface": "לקחה",
-      "gloss": "she has received"
+      "surface": "לָקְחָה֙",
+      "gloss": "she has received",
+      "sense": "S1"
     },
     {
-      "surface": "מיד",
-      "gloss": "from the hand of"
+      "surface": "מִיַּ֣ד",
+      "gloss": "from the hand",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֔ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כפלים",
-      "gloss": "double"
+      "surface": "כִּפְלַ֖יִם",
+      "gloss": "double",
+      "sense": "S1"
     },
     {
-      "surface": "בכל",
+      "surface": "בְּכָל",
       "gloss": "for all"
     },
     {
-      "surface": "חטאתיה",
-      "gloss": "her sins"
+      "surface": "חַטֹּאתֶֽיהָ",
+      "gloss": "her sins",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:15.180440188Z",
+  "model": "glm-5.3"
 }

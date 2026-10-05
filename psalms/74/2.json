@@ -1,71 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Remember your congregation, ⟨which⟩ you acquired of old; you redeemed the tribe of your inheritance — Mount Zion, this ⟨is it⟩ you dwelt in it.",
-  "tokens": [
+  "ref": "psalms 74:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
     {
-      "surface": "זכר",
-      "gloss": "remember"
+      "kind": "addition",
+      "subject": "is the place",
+      "rationale": "זה שכנת בו lacks a copula; English needs the bracketed noun phrase for 'this you dwelt in' to stand"
     },
     {
-      "surface": "עדתך",
-      "gloss": "your congregation"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "imperatives and second-person verbs continue the direct address to Elohim"
     },
     {
-      "surface": "קנית",
-      "gloss": "you acquired"
-    },
-    {
-      "surface": "קדם",
-      "gloss": "of old"
-    },
-    {
-      "surface": "גאלת",
-      "gloss": "you redeemed"
-    },
-    {
-      "surface": "שבט",
-      "gloss": "the tribe",
-      "readings": [
-        "the tribe",
-        "the scepter"
-      ],
-      "held_by": {
-        "the tribe": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the scepter": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נחלתך",
-      "gloss": "of your inheritance"
-    },
-    {
-      "surface": "הר",
-      "gloss": "Mount"
-    },
-    {
-      "surface": "ציון",
-      "gloss": "Zion"
-    },
-    {
-      "surface": "זה",
-      "gloss": "this"
-    },
-    {
-      "surface": "שכנת",
-      "gloss": "you dwelt"
-    },
-    {
-      "surface": "בו",
-      "gloss": "in it"
+      "kind": "alternative",
+      "subject": "you created",
+      "rationale": "קנית can mean create (as Gen 14:19) or acquire by purchase; both fit God's possession of Israel"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Remember your congregation, which you acquired of old, you redeemed the tribe of your inheritance — Mount Zion, this ⟨is the place⟩ you dwelt in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "13eb9ef1218045eccd6b232f2cc7b6c7812909c017b6539bf89df2f53a63bc65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/1-4.1791193010156.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זְכֹ֤ר",
+      "gloss": "Remember",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲדָתְךָ֨",
+      "gloss": "your congregation",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָ֘נִ֤יתָ",
+      "gloss": "you acquired",
+      "readings": [
+        "you acquired",
+        "you created"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "קֶּ֗דֶם",
+      "gloss": "of old",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּאַ֤לְתָּ",
+      "gloss": "you redeemed",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׁ֣בֶט",
+      "gloss": "the tribe",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַחֲלָתֶ֑ךָ",
+      "gloss": "of your inheritance",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַר",
+      "gloss": "Mount",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִיּ֗וֹן",
+      "gloss": "Zion",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶּ֤ה",
+      "gloss": "this ⟨is the place⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכַ֬נְתָּ",
+      "gloss": "you dwelt",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּֽוֹ",
+      "gloss": "in it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:50.157817585Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Keep my commandments and live, and my Torah as the pupil of your eye.",
-  "tokens": [
+  "ref": "proverbs 7:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "שמר",
-      "gloss": "Keep"
+      "kind": "elision",
+      "subject": "verb with 'my torah'",
+      "rationale": "Hebrew leaves the verb ungoverned ('my torah as the pupil of your eye'), understood as 'keep\/guard' from context."
     },
     {
-      "surface": "מצותי",
-      "gloss": "my commandments"
+      "kind": "idiom",
+      "subject": "little-man of your eye",
+      "rationale": "אִישׁוֹן is literally 'the little man' — the tiny reflection of oneself seen in another's pupil; English usually says 'pupil', losing the picture."
     },
     {
-      "surface": "וחיה",
-      "gloss": "and live"
-    },
-    {
-      "surface": "ותורתי",
-      "gloss": "and my Torah",
-      "readings": [
-        "and my Torah",
-        "and my instruction"
-      ],
-      "held_by": {
-        "and my Torah": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and my instruction": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כאישון",
-      "gloss": "as the pupil of"
-    },
-    {
-      "surface": "עיניך",
-      "gloss": "your eye"
+      "kind": "you",
+      "subject": "to the son",
+      "rationale": "Second-person imperatives continue the direct address."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Keep my commandments and live, and my torah as the little-man of your eye.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9ea0f032ad37e26553cd873bb8f23e1367ac57ee0f1ce8e13d06b836883fd07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/7\/1-4.1791193760589.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׁמֹר",
+      "gloss": "Keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְוֺתַי",
+      "gloss": "my commandments",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶחְיֵה",
+      "gloss": "and live",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתוֹרָתִי",
+      "gloss": "and my torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּאִישׁוֹן",
+      "gloss": "as the little-man of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינֶיךָ",
+      "gloss": "your eye",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:20.590701618Z",
+  "model": "glm-5.3"
 }

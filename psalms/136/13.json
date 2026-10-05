@@ -1,64 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "To him who divided the Sea of Suf into parts, for His chesed endures forever.",
+  "ref": "psalms 136:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "לְגֹזֵר \/ לִגְזָרִים",
+      "rationale": "Same root twice — cut into pieces — the halving verb echoed by its result noun; English carries it only by repeating 'cut\/pieces'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "יַם סוּף",
+      "rationale": "Rendered literally 'Sea of Reeds' rather than the familiar 'Red Sea', which is a Greek tradition."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Liturgical refrain addressing the worshiping congregation."
+    }
+  ],
+  "translation": "To the one who cut the Sea of Reeds into pieces, for His chesed endures forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1bb8e655158dc5285dc3a54d1eccddab775a7fcf85a4947385b397c882e8e39d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/13-16.1791193567034.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לגזר",
-      "gloss": "To him who divided"
+      "surface": "לְגֹזֵ֣ר",
+      "gloss": "to the one who cut",
+      "sense": "S1"
     },
     {
-      "surface": "ים",
-      "gloss": "the Sea"
+      "surface": "יַם",
+      "gloss": "the sea of"
     },
     {
-      "surface": "סוף",
-      "gloss": "of Suf"
-    },
-    {
-      "surface": "לגזרים",
-      "gloss": "into parts",
+      "surface": "סוּף",
+      "gloss": "reeds",
+      "sense": "S1",
       "readings": [
-        "into parts",
-        "into cuts"
-      ],
-      "held_by": {
-        "into parts": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "into cuts": [
-          "en4"
-        ]
-      }
+        "reeds",
+        "the Red Sea"
+      ]
     },
     {
-      "surface": "כי",
+      "surface": "לִגְזָרִ֑ים",
+      "gloss": "into pieces",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֖י",
       "gloss": "for"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּֽוֹ",
       "gloss": "His chesed",
+      "sense": "S1",
       "readings": [
         "His chesed",
         "His steadfast love"
-      ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:07.035009444Z",
+  "model": "glm-5.3"
 }

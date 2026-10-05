@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For now I would have lain down and been quiet, I would have slept—then there would be rest to me.",
-  "tokens": [
+  "ref": "job 3:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "perfect verbs",
+      "rationale": "Hebrew perfects of שכב\/ישן carry Job's wish ('now I would have...') though formally past; rendered as unfulfilled wish."
     },
     {
-      "surface": "עתה",
-      "gloss": "now"
-    },
-    {
-      "surface": "שכבתי",
-      "gloss": "I would have lain down"
-    },
-    {
-      "surface": "ואשקוט",
-      "gloss": "and been quiet"
-    },
-    {
-      "surface": "ישנתי",
-      "gloss": "I would have slept"
-    },
-    {
-      "surface": "אז",
-      "gloss": "then"
-    },
-    {
-      "surface": "ינוח",
-      "gloss": "there would be rest",
-      "readings": [
-        "there would be rest",
-        "it would rest"
-      ],
-      "held_by": {
-        "there would be rest": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "it would rest": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
+      "kind": "alternative",
+      "subject": "it would rest",
+      "rationale": "יָנוּחַ is 3rd masculine singular with לִי: 'then would rest be mine'; kept impersonal rather than 'I would rest'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For now I would have lain down and been quiet; I would have slept; then it would rest for me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "11680bac7087f845d8928c8a10d8e753587ffb9bc2bbfe6c9462975f690fad7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/3\/13-16.1791194116320.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "עַתָּה",
+      "gloss": "now",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכַבְתִּי",
+      "gloss": "I would have lain down",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶשְׁקוֹט",
+      "gloss": "and been quiet",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשַׁנְתִּי",
+      "gloss": "I would have slept",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָז",
+      "gloss": "then",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָנוּחַ",
+      "gloss": "it would rest",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "for me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:16.320779528Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A Song of Ascents. To you I lift ⟨את⟩ my eyes, O you who sit in the heavens.",
-  "tokens": [
+  "ref": "psalms 123:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 123,
+  "notes": [
     {
-      "surface": "שיר",
-      "gloss": "A song"
+      "kind": "you",
+      "subject": "to YHWH enthroned in the heavens",
+      "rationale": "The psalm addresses God directly throughout."
     },
     {
-      "surface": "המעלות",
-      "gloss": "of ascents"
-    },
-    {
-      "surface": "אליך",
-      "gloss": "To you"
-    },
-    {
-      "surface": "נשאתי",
-      "gloss": "I lift",
-      "readings": [
-        "I lift",
-        "I have lifted"
-      ],
-      "held_by": {
-        "I lift": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have lifted": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "עיני",
-      "gloss": "my eyes"
-    },
-    {
-      "surface": "הישבי",
-      "gloss": "O you who sit"
-    },
-    {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
+      "kind": "alternative",
+      "subject": "A song of ascents",
+      "rationale": "Probably a pilgrim song sung on the way up to Jerusalem; the literal picture of going up is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A song of ascents. To You I have lifted ⟨את⟩ my eyes, O the-one-who-sits in the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a240ea1598845975125eb0d74e5355ab53cc01e68b781ecc047ee772b1c2f2d3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/123\/1-4.1791193532313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׁ֗יר",
+      "gloss": "A song of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַֽמַּ֫עֲל֥וֹת",
+      "gloss": "ascents",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֭לֶיךָ",
+      "gloss": "to You",
+      "sense": null
+    },
+    {
+      "surface": "נָשָׂ֣אתִי",
+      "gloss": "I have lifted",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my eyes"
+    },
+    {
+      "surface": "עֵינַ֑י",
+      "gloss": "my eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֝יֹּשְׁבִ֗י",
+      "gloss": "O the-one-who-sits",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׁמָֽיִם",
+      "gloss": "in the heavens",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:32.313932441Z",
+  "model": "glm-5.3"
 }

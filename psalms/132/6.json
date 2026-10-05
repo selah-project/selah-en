@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Look — we heard of it in Ephrathah; we found it in the fields of Jaar.",
-  "tokens": [
+  "ref": "psalms 132:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Look"
+      "kind": "wordplay",
+      "subject": "יער",
+      "rationale": "יער is both the common noun 'forest' and the short name of Kiriath-jearim; 'fields of Jaar' keeps the place-name while the forest sense echoes beneath."
     },
     {
-      "surface": "שמענוה",
-      "gloss": "we heard of it"
-    },
-    {
-      "surface": "באפרתה",
-      "gloss": "in Ephrathah"
-    },
-    {
-      "surface": "מצאנוה",
-      "gloss": "we found it"
-    },
-    {
-      "surface": "בשדי",
-      "gloss": "in the fields of"
-    },
-    {
-      "surface": "יער",
-      "gloss": "Jaar",
-      "readings": [
-        "Jaar",
-        "the forest"
-      ],
-      "held_by": {
-        "Jaar": [
-          "v1",
-          "v3"
-        ],
-        "the forest": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "we heard of it",
+      "rationale": "Suffix -ה is feminine, referring to the ark or the 'place' of v. 5; the object is left implicit as in Hebrew."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, we heard of it in Ephrathah; we found it in the fields of Jaar.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8fe7622affa90076b4a41abcc0142732612cd8170fc7b215792fa5ca1556bd99",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/5-8.1791193555234.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִנֵּה",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "שְׁמַעֲנוּהָ",
+      "gloss": "we heard of it",
+      "sense": null
+    },
+    {
+      "surface": "בְּאֶפְרָתָה",
+      "gloss": "in Ephrathah",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְצָאנוּהָ",
+      "gloss": "we found it",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּשְׂדֵי",
+      "gloss": "in the fields of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָעַר",
+      "gloss": "Jaar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:55.235282505Z",
+  "model": "glm-5.3"
 }

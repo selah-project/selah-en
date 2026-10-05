@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "Far off is that which has been, and deep, deep — who will find it?",
+  "ref": "ecclesiastes 7:24",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "עָמֹק עָמֹק",
+      "rationale": "doubled adjective 'deep, deep' kept doubled per the doubled-form rule"
+    },
+    {
+      "kind": "crux",
+      "subject": "what has been",
+      "rationale": "some render 'what is far off' (reading שהיה with the previous adjective); taken here as a relative clause 'that which has been'"
+    },
+    {
+      "kind": "mystery",
+      "subject": "who can find it",
+      "rationale": "rhetorical question — the deep thing cannot be found by anyone"
+    }
+  ],
+  "translation": "Far off — what has been; and deep, deep — who can find it?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05c64f81b76aa92bfd4d89e6d5753a4b209b3e4f25a16e5d9a01bc3ae44596bc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/21-24.1791194887581.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "רחוק",
-      "gloss": "Far off"
+      "surface": "רָחוֹק",
+      "gloss": "Far",
+      "sense": "S1"
     },
     {
-      "surface": "מה",
-      "gloss": "that which"
+      "surface": "מַה",
+      "gloss": "what",
+      "sense": "S1"
     },
     {
-      "surface": "שהיה",
+      "surface": "שֶׁהָיָה",
       "gloss": "has been"
     },
     {
-      "surface": "ועמק",
-      "gloss": "and deep"
+      "surface": "וְעָמֹק",
+      "gloss": "and deep",
+      "sense": "S1"
     },
     {
-      "surface": "עמק",
-      "gloss": "deep"
+      "surface": "עָמֹק",
+      "gloss": "deep",
+      "sense": "S1"
     },
     {
-      "surface": "מי",
-      "gloss": "who"
+      "surface": "מִי",
+      "gloss": "who",
+      "sense": "S1"
     },
     {
-      "surface": "ימצאנו",
-      "gloss": "will find it",
-      "readings": [
-        "will find it",
-        "will find him"
-      ],
-      "held_by": {
-        "will find it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "will find him": [
-          "en4"
-        ]
-      }
+      "surface": "יִמְצָאֶנּוּ",
+      "gloss": "can find it",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:08:07.582410443Z",
+  "model": "glm-5.3"
 }

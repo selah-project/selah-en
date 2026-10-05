@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "There remains in the city desolation, and with ruins is the gate crushed.",
-  "tokens": [
+  "ref": "isaiah 24:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "נשאר",
-      "gloss": "there remains"
+      "kind": "hapax",
+      "subject": "וּשְׁאִיָּה",
+      "rationale": "שְׁאִיָּה occurs only here in the Tanakh"
     },
     {
-      "surface": "בעיר",
-      "gloss": "in the city"
-    },
-    {
-      "surface": "שמה",
-      "gloss": "desolation",
-      "readings": [
-        "desolation",
-        "consternation"
-      ],
-      "held_by": {
-        "desolation": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "consternation": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ושאיה",
-      "gloss": "and ruins"
-    },
-    {
-      "surface": "יכת",
-      "gloss": "is crushed"
-    },
-    {
-      "surface": "שער",
-      "gloss": "the gate"
+      "kind": "addition",
+      "subject": "there",
+      "rationale": "existential English frame supplied for the verbless opening"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "There remains in the city desolation, and ruin — the gate is crushed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c6838c51fe86bbeac8c9d3c8734b832bc175624e90b4ba017b096297aa0264ee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/24\/9-12.1791188342938.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נִשְׁאַר",
+      "gloss": "there remains",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעִיר",
+      "gloss": "in the city",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׁמָּה",
+      "gloss": "desolation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁאִיָּה",
+      "gloss": "and ruin",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֻכַּת",
+      "gloss": "is crushed",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁעַר",
+      "gloss": "the gate",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:02.940160764Z",
+  "model": "glm-5.3"
 }

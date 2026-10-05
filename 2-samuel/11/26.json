@@ -1,63 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "And the wife of Uriah heard that Uriah her husband was dead, and she lamented over her husband.",
+  "ref": "2-samuel 11:26",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "mourned",
+      "rationale": "ותספד denotes the full mourning ritual — wailing, torn clothes, sackcloth — not only inward grief."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אישה \/ בעלה",
+      "rationale": "the verse names him twice, 'her man' and 'her baal (master-husband)' — two Hebrew words for husband, both lost as one English word."
+    }
+  ],
+  "translation": "And the wife of Uriah heard that Uriah her husband was dead, and she mourned for her husband.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7c0440929b9e4e40b3330a937c1d6f6f15dbdbb7427c6b084837ac43440ea41",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/11\/25-27.1791186288774.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ותשמע",
-      "gloss": "and she heard"
+      "gloss": "and heard",
+      "sense": null
     },
     {
       "surface": "אשת",
-      "gloss": "the wife of"
+      "gloss": "the wife of",
+      "sense": "S1"
     },
     {
       "surface": "אוריה",
-      "gloss": "Uriah"
+      "gloss": "Uriah",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "that"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "מת",
-      "gloss": "was dead"
+      "gloss": "was dead",
+      "sense": "S1"
     },
     {
       "surface": "אוריה",
-      "gloss": "Uriah"
+      "gloss": "Uriah",
+      "sense": "S1"
     },
     {
       "surface": "אישה",
-      "gloss": "her husband"
+      "gloss": "her husband",
+      "sense": null
     },
     {
       "surface": "ותספד",
-      "gloss": "and she lamented"
+      "gloss": "and she mourned",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "over"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "בעלה",
       "gloss": "her husband",
-      "readings": [
-        "her husband",
-        "her lord"
-      ],
-      "held_by": {
-        "her husband": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "her lord": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:44:48.775787891Z",
+  "model": "glm-5.3"
 }

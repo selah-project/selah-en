@@ -1,74 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Did I not weep for the hard of day, and my soul grieve for the needy?",
+  "ref": "job 30:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "עגמה",
+      "rationale": "עגם occurs only here in the Tanakh; meaning 'grieve' is inferred from context."
+    },
+    {
+      "kind": "crux",
+      "subject": "לקשה יום",
+      "rationale": "Construct 'the hard of day' — taken as 'him whose day is hard' or 'the hard day'; the form is kept bound."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is throat \/ life-force, not an immaterial soul."
+    }
+  ],
+  "translation": "Did I not weep for the-one-hard of day? My soul grieved for the poor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "730d960b9549cadb0e6afba1fa05ee381838aab49b2fcb0bbccfff5f17a7c574",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/25-28.1791194489495.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
-      "gloss": "Did"
+      "surface": "אִם",
+      "gloss": "Did",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "בכיתי",
-      "gloss": "I weep"
+      "surface": "בָּכִיתִי",
+      "gloss": "I weep",
+      "sense": "S1"
     },
     {
-      "surface": "לקשה",
-      "gloss": "for the hard of"
+      "surface": "לִקְשֵׁה",
+      "gloss": "for the-one-hard of",
+      "sense": "S1"
     },
     {
-      "surface": "יום",
-      "gloss": "day"
+      "surface": "יוֹם",
+      "gloss": "day",
+      "sense": "S1"
     },
     {
-      "surface": "עגמה",
+      "surface": "עָגְמָה",
       "gloss": "grieved",
-      "readings": [
-        "grieved",
-        "was bitter"
-      ],
-      "held_by": {
-        "grieved": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "was bitter": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my nefesh",
+        "my throat",
         "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לאביון",
-      "gloss": "for the needy"
+      "surface": "לָאֶבְיוֹן",
+      "gloss": "for the poor",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:29.496251610Z",
+  "model": "glm-5.3"
 }

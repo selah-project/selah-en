@@ -1,63 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "I will sing to YHWH in my life; I will sing praise to my Elohim while I ⟨still⟩ am.",
-  "tokens": [
+  "ref": "psalms 104:33",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "אשירה",
-      "gloss": "I will sing"
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "עוֹדִי is an adverb with suffix, 'my continuance'; English needs the verb"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "בחיי",
-      "gloss": "in my life",
-      "readings": [
-        "in my life",
-        "in my days"
-      ],
-      "held_by": {
-        "in my life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in my days": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אזמרה",
-      "gloss": "I will sing praise",
-      "readings": [
-        "I will sing praise",
-        "I will pluck the strings"
-      ],
-      "held_by": {
-        "I will sing praise": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will pluck the strings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לאלהי",
-      "gloss": "to my Elohim"
-    },
-    {
-      "surface": "בעודי",
-      "gloss": "while I ⟨still⟩ am"
+      "kind": "wordplay",
+      "subject": "אשירה\/אזמרה",
+      "rationale": "parallel cohortatives, sing \/ make melody, in matched halves"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will sing to YHWH while I live; I will make melody to my Elohim while yet I ⟨am⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "492c0084a79703f620bca018e31984f329d3e2aa42ba29d0aaa9619743f4067b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/33-35.1791193292148.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָשִׁ֣ירָה",
+      "gloss": "I will sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָ֣ה",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחַיָּ֑י",
+      "gloss": "while I live",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲזַמְּרָ֖ה",
+      "gloss": "I will make melody",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאלֹהַ֣י",
+      "gloss": "to my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעוֹדִֽי",
+      "gloss": "while yet I ⟨am⟩",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:32.149171131Z",
+  "model": "glm-5.3"
 }

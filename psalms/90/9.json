@@ -1,58 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For all our days have turned away in your wrath; we bring our years to an end like a sigh.",
+  "ref": "psalms 90:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "a sigh",
+      "rationale": "הגה is an inarticulate muttering — sigh, murmur, or low sound; the picture kept."
+    },
+    {
+      "kind": "measurement",
+      "subject": "our days \/ our years",
+      "rationale": "the verse measures human life against divine anger."
+    }
+  ],
+  "translation": "For all our days turn away in your wrath; we finish our years like a sigh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f89832db3cda81c4932780300dd305dc874f73dd0af90dc85d2170a6c77eaa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/9-12.1791193182579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "For"
     },
     {
-      "surface": "כל",
+      "surface": "כָל",
       "gloss": "all"
     },
     {
-      "surface": "ימינו",
-      "gloss": "our days"
+      "surface": "יָמֵינוּ",
+      "gloss": "our days",
+      "sense": "S1"
     },
     {
-      "surface": "פנו",
-      "gloss": "have turned away",
+      "surface": "פָּנוּ",
+      "gloss": "turn away",
+      "sense": "S1",
       "readings": [
-        "have turned away",
-        "are spent"
-      ],
-      "held_by": {
-        "have turned away": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are spent": [
-          "en4"
-        ]
-      }
+        "turn away",
+        "decline"
+      ]
     },
     {
-      "surface": "בעברתך",
-      "gloss": "in your wrath"
+      "surface": "בְּעֶבְרָתֶךָ",
+      "gloss": "in your wrath",
+      "sense": "S1"
     },
     {
-      "surface": "כלינו",
-      "gloss": "we bring to an end"
+      "surface": "כִּלִּינוּ",
+      "gloss": "we finish",
+      "sense": "S1"
     },
     {
-      "surface": "שנינו",
-      "gloss": "our years"
+      "surface": "שָׁנֵינוּ",
+      "gloss": "our years",
+      "sense": "S1"
     },
     {
-      "surface": "כמו",
+      "surface": "כְמוֹ",
       "gloss": "like"
     },
     {
-      "surface": "הגה",
-      "gloss": "a sigh"
+      "surface": "הֶגֶה",
+      "gloss": "a sigh",
+      "sense": "S1",
+      "readings": [
+        "a sigh",
+        "a murmur"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:42.579908435Z",
+  "model": "glm-5.3"
 }

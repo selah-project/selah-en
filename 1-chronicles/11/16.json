@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And David was then in the stronghold, and a garrison of the Philistines was then in Beth-Lechem.",
+  "ref": "1-chronicles 11:16",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew verbless clauses; the English copula is supplied."
+    },
+    {
+      "kind": "alternative",
+      "subject": "garrison",
+      "rationale": "2 Sam has מצב 'post'; Chronicles נציב 'garrison' — a standing detachment, not a statue."
+    }
+  ],
+  "translation": "And David was then in the stronghold, and a garrison of the Philistines was then in Bethlehem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "54d05a2834434eeeba1ecf59fbde3fe8069309fdc098f4197c37e4dfc8584ba9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/13-16.1791196195454.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ודויד",
-      "gloss": "and David"
+      "gloss": "And David",
+      "sense": "S1"
     },
     {
       "surface": "אז",
-      "gloss": "then"
+      "gloss": "was then",
+      "sense": "S1"
     },
     {
       "surface": "במצודה",
       "gloss": "in the stronghold",
-      "readings": [
-        "in the stronghold",
-        "in the fortress"
-      ],
-      "held_by": {
-        "in the stronghold": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the fortress": [
-          "en4"
-        ]
-      }
+      "sense": null
     },
     {
       "surface": "ונציב",
-      "gloss": "and a garrison",
-      "readings": [
-        "and a garrison",
-        "and an outpost"
-      ],
-      "held_by": {
-        "and a garrison": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and an outpost": [
-          "en4"
-        ]
-      }
+      "gloss": "and a garrison of",
+      "sense": "S1"
     },
     {
       "surface": "פלשתים",
-      "gloss": "of the Philistines"
+      "gloss": "the Philistines",
+      "sense": "S1"
     },
     {
       "surface": "אז",
-      "gloss": "then"
+      "gloss": "was then",
+      "sense": "S1"
     },
     {
       "surface": "בבית",
-      "gloss": "in Beth-"
+      "gloss": "in Beth-",
+      "sense": "S1"
     },
     {
       "surface": "לחם",
-      "gloss": "-Lechem"
+      "gloss": "lehem",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:29:55.455594951Z",
+  "model": "glm-5.3"
 }

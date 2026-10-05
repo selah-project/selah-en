@@ -1,93 +1,140 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And the uncle of Saul said to him and to his servant, “Where did you go?” And he said, “To seek ⟨את⟩ the female donkeys; and we saw that there were none, and we came to Samuel.”",
+  "ref": "1-samuel 10:14",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "uncle",
+      "rationale": "דוד here is the kinship term 'uncle', not the name David."
+    },
+    {
+      "kind": "substitution",
+      "subject": "servant",
+      "rationale": "נער is 'young man'; rendered 'servant' from the role, 'his young man' is reading 2."
+    },
+    {
+      "kind": "addition",
+      "subject": "they were not to be found",
+      "rationale": "אין is a bare negative; English supplies the copula and verb."
+    },
+    {
+      "kind": "you",
+      "subject": "to Saul and his servant",
+      "rationale": "The uncle's question directly addresses the two."
+    }
+  ],
+  "translation": "And the uncle of Saul said to him and to his servant, “Where did you go?” And he said, “To seek ⟨את⟩ the donkeys, and we saw that ⟨they were⟩ not to be found, and we came to Samuel.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7b099c2c43d3a4931cb4bf8aed246b242a801eba557fe87829ae300879886e46",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/10\/14-16.1791198458367.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "the uncle of"
+      "gloss": "the uncle of",
+      "sense": "S1"
     },
     {
       "surface": "שאול",
-      "gloss": "Saul"
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
       "surface": "אליו",
-      "gloss": "to him"
+      "gloss": "to him",
+      "sense": null
     },
     {
       "surface": "ואל",
-      "gloss": "and to"
+      "gloss": "and to",
+      "sense": null
     },
     {
       "surface": "נערו",
-      "gloss": "his servant"
+      "gloss": "his servant",
+      "readings": [
+        "his servant",
+        "his young man"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "אן",
-      "gloss": "where"
+      "gloss": "where",
+      "sense": "S1"
     },
     {
       "surface": "הלכתם",
-      "gloss": "did you go"
+      "gloss": "did you go",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "and he said"
+      "gloss": "and he said",
+      "sense": "S1"
     },
     {
       "surface": "לבקש",
-      "gloss": "to seek"
+      "gloss": "to seek",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the donkeys",
+      "sense": null
     },
     {
       "surface": "האתנות",
-      "gloss": "the female donkeys"
+      "gloss": "the donkeys",
+      "sense": "S1"
     },
     {
       "surface": "ונראה",
-      "gloss": "and we saw"
+      "gloss": "and we saw",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "that"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "אין",
-      "gloss": "there were none",
-      "readings": [
-        "there were none",
-        "there is not"
-      ],
-      "held_by": {
-        "there were none": [
-          "v1",
-          "v3"
-        ],
-        "there is not": [
-          "en4"
-        ]
-      }
+      "gloss": "⟨they were⟩ not to be found",
+      "sense": null
     },
     {
       "surface": "ונבוא",
-      "gloss": "we came"
+      "gloss": "and we came",
+      "sense": null
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "to",
+      "sense": null
     },
     {
       "surface": "שמואל",
-      "gloss": "Samuel"
+      "gloss": "Samuel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:07:38.368083579Z",
+  "model": "glm-5.3"
 }

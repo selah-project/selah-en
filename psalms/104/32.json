@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "The one who looks at the earth, and it trembles; he touches the mountains, and they smoke.",
-  "tokens": [
+  "ref": "psalms 104:32",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "המביט",
-      "gloss": "the one who looks"
+      "kind": "wordplay",
+      "subject": "nun-ending verbs",
+      "rationale": "ויעשנו carries a paragogic nun like v29–30's -ון forms; Hebrew verbal ending has no English counterpart."
     },
     {
-      "surface": "לארץ",
-      "gloss": "at the earth",
-      "readings": [
-        "at the earth",
-        "at the land"
-      ],
-      "held_by": {
-        "at the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "at the land": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותרעד",
-      "gloss": "and it trembles"
-    },
-    {
-      "surface": "יגע",
-      "gloss": "he touches"
-    },
-    {
-      "surface": "בהרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "ויעשנו",
-      "gloss": "and they smoke"
+      "kind": "crux",
+      "subject": "tenses",
+      "rationale": "וַתִּרְעַד is vav-consecutive (past sequence) beside imperfects יִגַּע וְיֶעֱשָׁנוּ; rendered uniformly as characteristic actions."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The One who looks at the earth and it trembles, who touches the mountains and they smoke.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26ece9100abaa5e65b1242919428e28b138b98125fbcfbfb17192690be4f4a91",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/29-32.1791193291961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַמַּבִּיט",
+      "gloss": "The One who looks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאָרֶץ",
+      "gloss": "at the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתִּרְעַד",
+      "gloss": "and it trembles",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִגַּע",
+      "gloss": "He touches",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּהָרִים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֶעֱשָׁנוּ",
+      "gloss": "and they smoke",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:31.962501972Z",
+  "model": "glm-5.3"
 }

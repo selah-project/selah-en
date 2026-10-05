@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "He opened a rock, and waters gushed out; they went in dry places—a river.",
-  "tokens": [
+  "ref": "psalms 105:41",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "פתח",
-      "gloss": "He opened"
+      "kind": "addition",
+      "subject": "He",
+      "rationale": "Subject YHWH supplied from context; Hebrew leaves it implicit"
     },
     {
-      "surface": "צור",
-      "gloss": "rock"
-    },
-    {
-      "surface": "ויזובו",
-      "gloss": "and gushed out"
-    },
-    {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "הלכו",
-      "gloss": "they went",
-      "readings": [
-        "they went",
-        "they walked"
-      ],
-      "held_by": {
-        "they went": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they walked": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בציות",
-      "gloss": "in dry places"
-    },
-    {
-      "surface": "נהר",
-      "gloss": "a river"
+      "kind": "alternative",
+      "subject": "in the dry-places",
+      "rationale": "בציות plural of ציה; singular 'in the dry land' also possible"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He opened the rock, and waters flowed; they went in the dry-places — a river.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2d7b97ed26939908b9adaa6f7350450f35e284c8f0bddfdf669ee75c2761773",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/41-44.1791193311645.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פָּ֣תַח",
+      "gloss": "He opened",
+      "sense": "S1"
+    },
+    {
+      "surface": "צוּר",
+      "gloss": "the rock",
+      "sense": "S1",
+      "readings": [
+        "the rock",
+        "the cliff"
+      ]
+    },
+    {
+      "surface": "וַיָּז֣וּבוּ",
+      "gloss": "and waters flowed",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָ֑יִם",
+      "gloss": "and waters flowed",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָ֝לְכ֗וּ",
+      "gloss": "they went",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּצִּיּ֥וֹת",
+      "gloss": "in the dry-places",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָהָֽר",
+      "gloss": "a river",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:51.645639735Z",
+  "model": "glm-5.3"
 }

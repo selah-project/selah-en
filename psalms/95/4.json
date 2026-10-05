@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "In whose hand are the depths of the earth, and the heights of the mountains are his.",
-  "tokens": [
+  "ref": "psalms 95:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 95,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "In whose"
+      "kind": "hapax",
+      "subject": "מֶחְקְרֵי",
+      "rationale": "Occurs only here in the Tanakh; literally 'searched-out places,' the deep recesses of the earth."
     },
     {
-      "surface": "בידו",
-      "gloss": "hand"
+      "kind": "crux",
+      "subject": "תּוֹעָפֹת",
+      "rationale": "'Peaks' (compare Num 23:22) vs older reading 'strength\/riches'; rendered 'peaks' to parallel 'depths.'"
     },
     {
-      "surface": "מחקרי",
-      "gloss": "the depths of"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the earth"
-    },
-    {
-      "surface": "ותועפות",
-      "gloss": "and the heights of"
-    },
-    {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "לו",
-      "gloss": "are his"
+      "kind": "addition",
+      "subject": "are \/ are his",
+      "rationale": "Hebrew asyndetic; English requires copulas."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In whose hand are the depths of the earth, and the peaks of the mountains are his.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c2db321db53a6134f2d359db73e4ce79088f91698d2f23c9bf29b68b78d5ed0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/95\/1-4.1791193220446.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "whose",
+      "sense": null
+    },
+    {
+      "surface": "בְּיָדוֹ",
+      "gloss": "in whose hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶחְקְרֵי",
+      "gloss": "the depths",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "of the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתוֹעֲפֹת",
+      "gloss": "and the peaks",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִים",
+      "gloss": "of the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "are his",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:20.447679427Z",
+  "model": "glm-5.3"
 }

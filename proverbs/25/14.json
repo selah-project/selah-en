@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Clouds and wind, and rain there is none — a man boasting in a gift of falsehood.",
-  "tokens": [
+  "ref": "proverbs 25:14",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "נשיאים",
-      "gloss": "clouds"
+      "kind": "crux",
+      "subject": "נשיאים",
+      "rationale": "Same word means 'princes' or 'rising mists\/clouds'; here parallel with wind and rain it is clouds, but some read 'princes' with the boastful man."
     },
     {
-      "surface": "ורוח",
-      "gloss": "and wind",
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew אין is a bare negative; English needs the verb."
+    }
+  ],
+  "translation": "Clouds and wind and rain there is not — a man boasting in a gift of falsehood.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2a46ea0048acb1267fa131242afb0ad2d774a1c2dfed9faedf7e63a5f05e6224",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/25\/14-16.1791200178912.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נְשִׂיאִים",
+      "gloss": "clouds",
+      "sense": "S1",
       "readings": [
-        "and wind",
-        "and spirit"
+        "clouds",
+        "princes"
       ]
     },
     {
-      "surface": "וגשם",
-      "gloss": "and rain"
+      "surface": "וְרוּחַ",
+      "gloss": "and wind",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
-      "gloss": "there is none"
+      "surface": "וְגֶשֶׁם",
+      "gloss": "and rain",
+      "sense": "S1"
     },
     {
-      "surface": "איש",
-      "gloss": "a man"
+      "surface": "אָיִן",
+      "gloss": "there is not",
+      "sense": null
     },
     {
-      "surface": "מתהלל",
-      "gloss": "boasting"
+      "surface": "אִישׁ",
+      "gloss": "a man",
+      "sense": null
     },
     {
-      "surface": "במתת",
-      "gloss": "in a gift of"
+      "surface": "מִתְהַלֵּל",
+      "gloss": "boasting",
+      "sense": "S1"
     },
     {
-      "surface": "שקר",
-      "gloss": "of falsehood",
-      "readings": [
-        "of falsehood",
-        "of deceit"
-      ],
-      "held_by": {
-        "of falsehood": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of deceit": [
-          "en4"
-        ]
-      }
+      "surface": "בְּמַתַּת",
+      "gloss": "in a gift of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁקֶר",
+      "gloss": "falsehood",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:36:18.913294555Z",
+  "model": "glm-5.3"
 }

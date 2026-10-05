@@ -1,28 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 39,
-  "translation": "The sons of Harim, a thousand and seventeen.",
-  "tokens": [
+  "ref": "ezra 2:39",
+  "book": "ezra",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "The sons of"
+      "kind": "measurement",
+      "subject": "priestly census",
+      "rationale": "Head-count of the returned sons of Harim."
     },
     {
-      "surface": "חרם",
-      "gloss": "Harim"
+      "kind": "elision",
+      "subject": "עָשָׂר",
+      "rationale": "The -teen element folds into 'seventeen'; the Hebrew has two tokens, the English one word."
     },
     {
-      "surface": "אלף",
-      "gloss": "a thousand"
-    },
-    {
-      "surface": "ושבעה",
-      "gloss": "and seven"
-    },
-    {
-      "surface": "עשר",
-      "gloss": "ten"
+      "kind": "crux",
+      "subject": "Nehemiah 7:42",
+      "rationale": "The parallel drops Ezra's vav: 'a thousand seventeen' versus 'a thousand and seventeen'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The sons of Harim: a thousand and seventeen.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e906d7ac68d24db235638cbc333aced773f0bbfb310d53ac61237b51123b6ecf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezra\/2\/37-40.1791195520704.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezra.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנֵ֣י",
+      "gloss": "The sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָרִ֔ם",
+      "gloss": "Harim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֖לֶף",
+      "gloss": "a thousand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׁבְעָ֥ה",
+      "gloss": "and seventeen",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָֽׂר",
+      "gloss": "",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:18:40.705533288Z",
+  "model": "glm-5.3"
 }

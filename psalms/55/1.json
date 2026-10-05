@@ -1,57 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To ⟨the⟩ Conqueror, with stringed instruments. A didactic poem of David.",
-  "tokens": [
+  "ref": "psalms 55:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "to ⟨the⟩ Conqueror",
-      "readings": [
-        "to ⟨the⟩ Conqueror",
-        "to the one who leads"
-      ],
-      "held_by": {
-        "to ⟨the⟩ Conqueror": [
-          "v1",
-          "v3"
-        ],
-        "to the one who leads": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "superscription",
+      "rationale": "Musical direction standing outside the psalm's body; rendered as a heading."
     },
     {
-      "surface": "בנגינת",
-      "gloss": "with stringed instruments"
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "a didactic poem",
-      "readings": [
-        "a didactic poem",
-        "a maskil",
-        "an instruction"
-      ],
-      "held_by": {
-        "a didactic poem": [
-          "v1",
-          "v3"
-        ],
-        "a maskil": [
-          "en4"
-        ],
-        "an instruction": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "kind": "crux",
+      "subject": "maskil",
+      "rationale": "משכיל: uncertain — 'a song showing understanding', 'a song giving understanding', or 'a meditation'; transliterated to keep the difficulty."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To the overseer, on stringed instruments. A maskil of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "70d3dad5f8f0dbe95bb7453690c5041ad9cfda5c71f036b3aa0d2bf37124211d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/1-4.1791192799862.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֥חַ",
+      "gloss": "To the overseer",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּנְגִינֹ֗ת",
+      "gloss": "on stringed instruments",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׂכִּ֥יל",
+      "gloss": "a maskil",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִֽד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:19.863117927Z",
+  "model": "glm-5.3"
 }

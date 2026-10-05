@@ -1,67 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And David went, and all Israel, to Jerusalem — she is Jebus — and there were the Jebusites, inhabitants of the land.",
-  "tokens": [
+  "ref": "1-chronicles 11:4",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "וילך",
-      "gloss": "and went"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "היא יבוס is a verbless appositional clause; English supplies the copula"
     },
     {
-      "surface": "דויד",
-      "gloss": "David"
+      "kind": "crux",
+      "subject": "היבוסי singular",
+      "rationale": "the gentilic is singular in form though the people are meant; 2 Sam 5:6 has the plural יבסי with singular participle"
     },
     {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "ירושלם",
-      "gloss": "to Jerusalem"
-    },
-    {
-      "surface": "היא",
-      "gloss": "she is"
-    },
-    {
-      "surface": "יבוס",
-      "gloss": "Jebus"
-    },
-    {
-      "surface": "ושם",
-      "gloss": "and there"
-    },
-    {
-      "surface": "היבוסי",
-      "gloss": "the Jebusites"
-    },
-    {
-      "surface": "ישבי",
-      "gloss": "inhabitants of"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "of the land",
-      "readings": [
-        "of the land",
-        "of the earth"
-      ],
-      "held_by": {
-        "of the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the earth": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "ירושלם",
+      "rationale": "the form lacks the directional he yet reads as goal of motion; 2 Sam 5:6 adds אל 'to'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And David went, and all Israel, to Jerusalem — it is Jebus — and there the Jebusite, dwellers of the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9abec8a99c10251d19ea9a78d66ea981209aa071875601088519ba4c3165f3d3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/1-4.1791196197801.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֵּ֨לֶךְ",
+      "gloss": "And went",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּוִ֧יד",
+      "gloss": "David",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵ֛ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרוּשָׁלִַ֖ם",
+      "gloss": "Jerusalem-ward",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִ֣יא",
+      "gloss": "it",
+      "sense": null
+    },
+    {
+      "surface": "יְב֑וּס",
+      "gloss": "Jebus",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁ֙ם֙",
+      "gloss": "and there",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְבוּסִ֔י",
+      "gloss": "the Jebusite",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹשְׁבֵ֖י",
+      "gloss": "dwellers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָֽרֶץ",
+      "gloss": "the land",
+      "sense": "S1",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T10:29:57.803203300Z",
+  "model": "glm-5.3"
 }

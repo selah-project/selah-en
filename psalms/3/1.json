@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A psalm of David, in his fleeing from the face of Absalom his son.",
-  "tokens": [
+  "ref": "psalms 3:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "מזמור",
-      "gloss": "a psalm",
-      "readings": [
-        "a psalm",
-        "a melody"
-      ],
-      "held_by": {
-        "a psalm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a melody": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "when",
+      "rationale": "English tense word supplied for the Hebrew infinitive construct בברחו"
     },
     {
-      "surface": "לדוד",
-      "gloss": "of David"
-    },
-    {
-      "surface": "בברחו",
-      "gloss": "in his fleeing"
-    },
-    {
-      "surface": "מפני",
-      "gloss": "from the face of"
-    },
-    {
-      "surface": "אבשלום",
-      "gloss": "Absalom"
-    },
-    {
-      "surface": "בנו",
-      "gloss": "his son"
+      "kind": "you",
+      "subject": "superscription",
+      "rationale": "The heading addresses the reader, situating the psalm in David's flight"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A psalm of David, when he fled from before Absalom his son.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56385cf3027d2dee5ea1cd30966950a8d39b83d294b204e600fa849e98020ec9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/3\/1-4.1791192343412.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִזְמ֥וֹר",
+      "gloss": "A psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִ֑ד",
+      "gloss": "of David",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּ֝בָרְח֗וֹ",
+      "gloss": "when he fled",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְּנֵ֤י",
+      "gloss": "from before",
+      "sense": null
+    },
+    {
+      "surface": "אַבְשָׁל֬וֹם",
+      "gloss": "Absalom",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֽוֹ",
+      "gloss": "his son",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:43.413267863Z",
+  "model": "glm-5.3"
 }

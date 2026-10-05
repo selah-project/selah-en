@@ -1,66 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And Saul came as far as a city of Amalek, and laid wait in the wadi.",
+  "ref": "1-samuel 15:5",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "lay in wait",
+      "rationale": "וירב hiphil of ארב, 'set an ambush'; some read from ריב, 'contended'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "wadi",
+      "rationale": "נחל a seasonal torrent-bed; 'valley' also lawful"
+    }
+  ],
+  "translation": "And Saul came as far as the city of Amalek, and lay in wait in the wadi.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6b571294043d0e9005d1a5fee8b8d7b046efd4cfeb36e2bcd03d31676bd77296",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/15\/5-8.1791185670892.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויבא",
-      "gloss": "And came"
+      "gloss": "and came",
+      "sense": "S1"
     },
     {
       "surface": "שאול",
-      "gloss": "Saul"
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
       "surface": "עד",
-      "gloss": "as far as"
+      "gloss": "as far as",
+      "sense": "S1"
     },
     {
       "surface": "עיר",
-      "gloss": "a city of"
+      "gloss": "the city of",
+      "sense": "S1"
     },
     {
       "surface": "עמלק",
-      "gloss": "Amalek"
+      "gloss": "Amalek",
+      "sense": "S1"
     },
     {
       "surface": "וירב",
-      "gloss": "and laid wait",
-      "readings": [
-        "and laid wait",
-        "and contended"
-      ],
-      "held_by": {
-        "and laid wait": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and contended": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and lay in wait",
+      "sense": "S1"
     },
     {
       "surface": "בנחל",
       "gloss": "in the wadi",
-      "readings": [
-        "in the wadi",
-        "in the valley"
-      ],
-      "held_by": {
-        "in the wadi": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the valley": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:34:30.893843473Z",
+  "model": "glm-5.3"
 }

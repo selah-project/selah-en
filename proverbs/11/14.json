@@ -1,36 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Without guidance a people falls, and deliverance is in a multitude of counselors.",
+  "ref": "proverbs 11:14",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew is verbless 'and rescue in the abundance of a counselor'; English needs a copula."
+    },
+    {
+      "kind": "alternative",
+      "subject": "תחבלות",
+      "rationale": "Literally 'rope-management, steerage' — the sailing picture behind 'guidance'."
+    }
+  ],
+  "translation": "Without guidance a people falls, and ⟨there is⟩ rescue in the abundance of a counselor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "95de9db7f0eff1b4642217ce3c98648d9a8d98a13cb2b24300b513dfe40d18aa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/11\/13-16.1791193810236.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "באין",
+      "surface": "בְּאֵ֣ין",
       "gloss": "without"
     },
     {
-      "surface": "תחבלות",
-      "gloss": "guidance"
+      "surface": "תַּחְבֻּל֣וֹת",
+      "gloss": "guidance",
+      "readings": [
+        "guidance",
+        "steerage"
+      ]
     },
     {
-      "surface": "יפל",
-      "gloss": "falls"
+      "surface": "יִפָּ֣ל",
+      "gloss": "falls",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
-      "gloss": "a people"
+      "surface": "עָ֑ם",
+      "gloss": "a people",
+      "sense": "S1"
     },
     {
-      "surface": "ותשועה",
-      "gloss": "and deliverance"
+      "surface": "וּתְשׁוּעָ֗ה",
+      "gloss": "and ⟨there is⟩ rescue",
+      "sense": "S1"
     },
     {
-      "surface": "ברב",
-      "gloss": "in a multitude of"
+      "surface": "בְּרֹ֣ב",
+      "gloss": "in the abundance of",
+      "sense": "S1"
     },
     {
-      "surface": "יועץ",
-      "gloss": "counselors"
+      "surface": "יוֹעֵֽץ",
+      "gloss": "a counselor",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:10.237007222Z",
+  "model": "glm-5.3"
 }

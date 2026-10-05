@@ -1,58 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And behold, there was the glory of the Elohim of Israel, like the appearance that I saw in the plain.",
-  "tokens": [
+  "ref": "ezekiel 8:4",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "והנה",
-      "gloss": "And behold"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a copula: 'and behold, there — the glory of the Elohim of Israel'."
     },
     {
-      "surface": "שם",
-      "gloss": "there"
-    },
-    {
-      "surface": "כבוד",
-      "gloss": "the glory of"
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "the Elohim of"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "כמראה",
-      "gloss": "like the appearance"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "ראיתי",
-      "gloss": "I saw"
-    },
-    {
-      "surface": "בבקעה",
-      "gloss": "in the plain",
-      "readings": [
-        "in the plain",
-        "in the valley"
-      ],
-      "held_by": {
-        "in the plain": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the valley": [
-          "en4"
-        ]
-      }
+      "kind": "secret",
+      "subject": "the glory",
+      "rationale": "The kavod Ezekiel saw on the plain (chapter 1) now stands inside the defiled temple — the vision links back to what was shown and seals it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And behold, there was the glory of the Elohim of Israel, like the vision that I saw on the plain.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9dd422a694f7c7d9884ec1b3eadfcfc94972fbeabf0f01532980c690e5c2831",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/8\/1-4.1791190322438.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהִנֵּה",
+      "gloss": "And behold",
+      "sense": null
+    },
+    {
+      "surface": "שָׁם",
+      "gloss": "there",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּבוֹד",
+      "gloss": "the glory of",
+      "readings": [
+        "the glory of",
+        "the weight of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֵי",
+      "gloss": "the Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּמַּרְאֶה",
+      "gloss": "like the vision",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "רָאִיתִי",
+      "gloss": "I saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּבִּקְעָה",
+      "gloss": "on the plain",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:52:02.440141573Z",
+  "model": "glm-5.3"
 }

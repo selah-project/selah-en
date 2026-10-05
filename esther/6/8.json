@@ -1,18 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "let them bring a garment of royalty that the king has worn in it, and the horse that the king has ridden upon, and who has been set a crown of royalty on his head:",
+  "ref": "esther 6:8",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "on whose head",
+      "rationale": "בְּרֹאשׁוֹ is 3ms; the nearest antecedent is the horse (per-token data), though many translations take the crown for the man — the Hebrew leaves both possible"
+    },
+    {
+      "kind": "substitution",
+      "subject": "royal robe",
+      "rationale": "לְבוּשׁ מַלְכוּת is construct 'robe of kingship'; flattened to 'royal robe' in English"
+    }
+  ],
+  "translation": "let them bring a royal robe that the king has worn, and a horse that the king has ridden, on whose head a royal crown has been set —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "191dbd99b69f2157eb83cb112f00e8e02d1fa4e0a68e66d55f9e8a4e0dc7739b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/6\/5-8.1791195082846.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
   "tokens": [
     {
       "surface": "יביאו",
-      "gloss": "let them bring"
+      "gloss": "let them bring",
+      "sense": null
     },
     {
       "surface": "לבוש",
-      "gloss": "garment"
+      "gloss": "a robe of",
+      "sense": "S1"
     },
     {
       "surface": "מלכות",
-      "gloss": "of royalty"
+      "gloss": "royal",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -20,19 +50,23 @@
     },
     {
       "surface": "לבש",
-      "gloss": "has worn"
+      "gloss": "has worn",
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "in it"
+      "gloss": "… it",
+      "sense": null
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "וסוס",
-      "gloss": "and the horse"
+      "gloss": "and a horse",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -40,51 +74,44 @@
     },
     {
       "surface": "רכב",
-      "gloss": "has ridden"
+      "gloss": "has ridden",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
-      "gloss": "upon it"
+      "gloss": "on it",
+      "sense": null
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "ואשר",
-      "gloss": "and who"
+      "gloss": "and on whose"
     },
     {
       "surface": "נתן",
       "gloss": "has been set",
-      "readings": [
-        "has been set",
-        "was given"
-      ],
-      "held_by": {
-        "has been set": [
-          "v2",
-          "v3"
-        ],
-        "was given": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": null
     },
     {
       "surface": "כתר",
-      "gloss": "a crown"
+      "gloss": "a crown of",
+      "sense": "S1"
     },
     {
       "surface": "מלכות",
-      "gloss": "of royalty"
+      "gloss": "royal",
+      "sense": "S1"
     },
     {
       "surface": "בראשו",
-      "gloss": "on his head"
+      "gloss": "on its head",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:11:22.847685554Z",
+  "model": "glm-5.3"
 }

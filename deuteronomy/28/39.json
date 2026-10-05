@@ -1,67 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 39,
-  "translation": "Vineyards you shall plant and work, but wine you shall not drink nor gather, for the worm shall eat it.",
+  "ref": "deuteronomy 28:39",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "תֹּאכְלֶנּוּ",
+      "rationale": "verb is 3rd feminine singular — the worm is the eater of the vineyards' produce"
+    },
+    {
+      "kind": "alternative",
+      "subject": "וְלֹא תֶּאֱגֹר",
+      "rationale": "אגר 'gather in one's crops' could read 'harvest'; 'store' keeps the storehouse picture"
+    }
+  ],
+  "translation": "Vineyards will you plant and work, but wine you will not drink and will not store, for the worm will eat it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4261b4868cf50f75495c1315f0ce63ae105d980d00ff7c0f783524623999693f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/28\/37-40.1791184109428.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "כרמים",
-      "gloss": "vineyards"
+      "surface": "כְּרָמִ֥ים",
+      "gloss": "vineyards",
+      "sense": "S1"
     },
     {
-      "surface": "תטע",
-      "gloss": "you shall plant"
+      "surface": "תִּטַּ֖ע",
+      "gloss": "will you plant",
+      "sense": "S1"
     },
     {
-      "surface": "ועבדת",
-      "gloss": "and work"
+      "surface": "וְעָבַ֑דְתָּ",
+      "gloss": "and work",
+      "sense": "S1"
     },
     {
-      "surface": "ויין",
-      "gloss": "but wine"
+      "surface": "וְיַ֤יִן",
+      "gloss": "but wine",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תשתה",
-      "gloss": "you shall drink"
+      "surface": "תִּשְׁתֶּה֙",
+      "gloss": "you will drink",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "nor"
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "תאגר",
-      "gloss": "gather"
+      "surface": "תֶּאֱגֹ֔ר",
+      "gloss": "store",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֥י",
       "gloss": "for"
     },
     {
-      "surface": "תאכלנו",
-      "gloss": "shall eat it"
+      "surface": "תֹאכְלֶ֖נּוּ",
+      "gloss": "will eat it",
+      "sense": "S1"
     },
     {
-      "surface": "התלעת",
-      "gloss": "the worm",
-      "readings": [
-        "the worm",
-        "the crimson-grub"
-      ],
-      "held_by": {
-        "the worm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the crimson-grub": [
-          "en4"
-        ]
-      }
+      "surface": "הַתּוֹלָעַֽת",
+      "gloss": "the worm"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:08:29.429442202Z",
+  "model": "glm-5.3"
 }

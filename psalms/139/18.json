@@ -1,32 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "I would count them — they are more than the sand; I awake, and ⟨I am⟩ still with You.",
-  "tokens": [
+  "ref": "psalms 139:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
     {
-      "surface": "אספרם",
-      "gloss": "I would count them"
+      "kind": "addition",
+      "subject": "⟨I am⟩",
+      "rationale": "Hebrew verbless clause ועודי עמך; English needs the copula."
     },
     {
-      "surface": "מחול",
-      "gloss": "than the sand"
+      "kind": "crux",
+      "subject": "הקיצתי ועודי עמך",
+      "rationale": "'I awake and I am still with you' vs 'when I awake I am still with you' — time sense of עוד debated."
     },
     {
-      "surface": "ירבון",
-      "gloss": "they are more"
+      "kind": "measurement",
+      "subject": "counting",
+      "rationale": "Verse turns on counting thoughts against uncountable sand."
     },
     {
-      "surface": "הקיצתי",
-      "gloss": "I awake"
-    },
-    {
-      "surface": "ועודי",
-      "gloss": "I am still"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "with You"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "Direct address continues: 'with you'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Would I count them — they are more than the sand; I awake, and ⟨I am⟩ still with you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0c4d8e281a2648059d69bd29556f83976854ac5470334cb7208b9ad4022a918e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/17-20.1791193595433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶ֭סְפְּרֵם",
+      "gloss": "Would I count them",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵח֣וֹל",
+      "gloss": "than the sand",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְבּ֑וּן",
+      "gloss": "they are more",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֱקִיצֹ֗תִי",
+      "gloss": "I awake",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעוֹדִ֥י",
+      "gloss": "and ⟨I am⟩ still"
+    },
+    {
+      "surface": "עִמָּֽךְ",
+      "gloss": "with you"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:35.434520818Z",
+  "model": "glm-5.3"
 }

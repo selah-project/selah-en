@@ -1,79 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Surely our sicknesses he has borne, and our pains he has carried; yet we esteemed him stricken, struck by Elohim and afflicted.",
+  "ref": "isaiah 53:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 53,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "sicknesses he bore",
+      "rationale": "read vicariously (he bore for us) or as the people's mistaken estimate continued into v.4b; אכן 'surely' marks the confession either way."
+    },
+    {
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "סְבָלָם carries a 3rd-person-plural suffix on the verb; 'them' is separated in English to keep the fronted objects."
+    }
+  ],
+  "translation": "Surely our sicknesses — he bore them, and our pains — he carried them, and we — we regarded him stricken, struck by Elohim and afflicted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bcb486f6e402ad6e20dff8642601c9c857ba0b063c8bbadab730923f8c49d1aa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/53\/1-4.1791188812355.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אכן",
-      "gloss": "surely"
+      "surface": "אָכֵ֤ן",
+      "gloss": "Surely",
+      "sense": "S1"
     },
     {
-      "surface": "חלינו",
+      "surface": "חֳלָיֵ֨נוּ֙",
       "gloss": "our sicknesses",
-      "readings": [
-        "our sicknesses",
-        "our griefs"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "ה֣וּא",
       "gloss": "he"
     },
     {
-      "surface": "נשא",
-      "gloss": "has borne"
+      "surface": "נָשָׂ֔א",
+      "gloss": "bore",
+      "sense": "S1"
     },
     {
-      "surface": "ומכאבינו",
-      "gloss": "and our pains"
+      "surface": "וּמַכְאֹבֵ֖ינוּ",
+      "gloss": "and our pains",
+      "sense": "S1"
     },
     {
-      "surface": "סבלם",
-      "gloss": "he has carried them"
+      "surface": "סְבָלָ֑ם",
+      "gloss": "he carried them",
+      "sense": "S1"
     },
     {
-      "surface": "ואנחנו",
+      "surface": "וַאֲנַ֣חְנוּ",
       "gloss": "and we"
     },
     {
-      "surface": "חשבנהו",
-      "gloss": "esteemed him"
+      "surface": "חֲשַׁבְנֻ֔הוּ",
+      "gloss": "we regarded him",
+      "sense": "S1"
     },
     {
-      "surface": "נגוע",
+      "surface": "נָג֛וּעַ",
       "gloss": "stricken",
-      "readings": [
-        "stricken",
-        "plagued",
-        "touched"
-      ],
-      "held_by": {
-        "stricken": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "plagued": [
-          "v1"
-        ],
-        "touched": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "מכה",
-      "gloss": "struck"
+      "surface": "מֻכֵּ֥ה",
+      "gloss": "struck by"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֖ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "ומענה",
-      "gloss": "and afflicted"
+      "surface": "וּמְעֻנֶּֽה",
+      "gloss": "and afflicted",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:26:52.356889153Z",
+  "model": "glm-5.3"
 }

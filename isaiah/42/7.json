@@ -1,77 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "To open ⟨the⟩ eyes of ⟨the⟩ blind, to bring out ⟨the⟩ prisoner from ⟨the⟩ dungeon, ⟨and⟩ ⟨the⟩ ones sitting in darkness from ⟨the⟩ house of prison.",
-  "tokens": [
+  "ref": "isaiah 42:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
     {
-      "surface": "לפקח",
-      "gloss": "To open"
-    },
-    {
-      "surface": "עינים",
-      "gloss": "⟨the⟩ eyes"
-    },
-    {
-      "surface": "עורות",
-      "gloss": "of ⟨the⟩ blind"
-    },
-    {
-      "surface": "להוציא",
-      "gloss": "to bring out"
-    },
-    {
-      "surface": "ממסגר",
-      "gloss": "from ⟨the⟩ dungeon",
-      "readings": [
-        "from ⟨the⟩ dungeon",
-        "from ⟨the⟩ prison"
-      ],
-      "held_by": {
-        "from ⟨the⟩ dungeon": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from ⟨the⟩ prison": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אסיר",
-      "gloss": "⟨the⟩ prisoner"
-    },
-    {
-      "surface": "מבית",
-      "gloss": "from ⟨the⟩ house"
-    },
-    {
-      "surface": "כלא",
-      "gloss": "of prison",
-      "readings": [
-        "of prison",
-        "of restraint"
-      ],
-      "held_by": {
-        "of prison": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of restraint": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישבי",
-      "gloss": "⟨the⟩ ones sitting"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "in darkness"
+      "kind": "substitution",
+      "subject": "prison",
+      "rationale": "מסגר is literally 'a fastener' — that which shuts a person in"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "to open blind eyes, to bring out from prison the prisoner, from the house of confinement those who sit in darkness —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ceefd760b74356e5f4db8e06d8dc3aa9dd8b39390e1ec7cb7504d95ce2307fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/42\/5-8.1791188648864.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לִפְקֹ֖חַ",
+      "gloss": "to open",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינַ֣יִם",
+      "gloss": "eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִוְרֹ֑ת",
+      "gloss": "blind",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהוֹצִ֤יא",
+      "gloss": "to bring out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמַּסְגֵּר֙",
+      "gloss": "from prison",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַסִּ֔יר",
+      "gloss": "the prisoner",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּ֥ית",
+      "gloss": "from the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּ֖לֶא",
+      "gloss": "confinement",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹשְׁבֵ֥י",
+      "gloss": "those who sit in",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹֽשֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:24:08.865953308Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "and ⟨את⟩ the horned owl, and ⟨את⟩ the pelican, and ⟨את⟩ the vulture.",
-  "tokens": [
+  "ref": "leviticus 11:18",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "kind": "crux",
+      "subject": "הקאת",
+      "rationale": "Traditionally 'pelican' (from vomiting); SDBH describes a small black bird, here rendered jackdaw."
     },
     {
-      "surface": "התנשמת",
-      "gloss": "the horned owl",
-      "readings": [
-        "the horned owl",
-        "the great owl"
-      ],
-      "held_by": {
-        "the horned owl": [
-          "v2",
-          "en4"
-        ],
-        "the great owl": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "התנשמת",
+      "rationale": "Exact meaning unknown; SDBH identifies Tyto alba (barn owl); the same word names an unclean lizard in 11:30."
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "הקאת",
-      "gloss": "the pelican"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "הרחם",
-      "gloss": "the vulture"
+      "kind": "crux",
+      "subject": "הרחם",
+      "rationale": "A kind of vulture, tender toward its young; SDBH identifies Neophron percnopterus (Egyptian vulture)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and ⟨את⟩ the barn owl, and ⟨את⟩ the jackdaw, and ⟨את⟩ the vulture",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "69de82f451e172a90132b6882f45035a8e9d468346ef9bc3a63349549ae57b88",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/11\/17-20.1791182342037.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the barn owl",
+      "sense": null
+    },
+    {
+      "surface": "הַתִּנְשֶׁ֥מֶת",
+      "gloss": "the barn owl",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the jackdaw",
+      "sense": null
+    },
+    {
+      "surface": "הַקָּאָ֖ת",
+      "gloss": "the jackdaw",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the vulture",
+      "sense": null
+    },
+    {
+      "surface": "הָרָחָֽם",
+      "gloss": "the vulture",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:39:02.038823763Z",
+  "model": "glm-5.3"
 }

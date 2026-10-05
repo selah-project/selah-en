@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Are your days as the days of ⟨a⟩ mortal, or your years as the days of ⟨a⟩ man,",
-  "tokens": [
+  "ref": "job 10:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "הכימי",
-      "gloss": "Are as the days of"
+      "kind": "crux",
+      "subject": "הכימי אנוש ימיך",
+      "rationale": "Double reading: 'Are your days the days of a mortal?' or 'Are they like the days of a mortal?'"
     },
     {
-      "surface": "אנוש",
-      "gloss": "⟨a⟩ mortal"
-    },
-    {
-      "surface": "ימיך",
-      "gloss": "your days"
-    },
-    {
-      "surface": "אם",
-      "gloss": "or",
-      "readings": [
-        "or",
-        "if"
-      ],
-      "held_by": {
-        "or": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "if": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "שנותיך",
-      "gloss": "your years"
-    },
-    {
-      "surface": "כימי",
-      "gloss": "as the days of"
-    },
-    {
-      "surface": "גבר",
-      "gloss": "⟨a⟩ man",
-      "readings": [
-        "⟨a⟩ man",
-        "⟨a⟩ mighty man"
-      ],
-      "held_by": {
-        "⟨a⟩ man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "⟨a⟩ mighty man": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "geber",
+      "rationale": "גבר = a strong man; rendered as name-like for the parallel with אנושׁ (mortal)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Are your days like the days of a mortal, or your years like the days of a geber,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be3ac6cdb09c31e51904be55f4df52fd5cc2da3112c503be75f8ac87d6c694ea",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/10\/5-8.1791194230277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲכִימֵ֣י",
+      "gloss": "Are like the days of",
+      "sense": "S2"
+    },
+    {
+      "surface": "אֱנ֣וֹשׁ",
+      "gloss": "a mortal",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמֶ֑יךָ",
+      "gloss": "your days",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִם",
+      "gloss": "or",
+      "sense": null
+    },
+    {
+      "surface": "שְׁנוֹתֶ֗יךָ",
+      "gloss": "your years",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּימֵ֣י",
+      "gloss": "like the days of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָֽבֶר",
+      "gloss": "a geber",
+      "readings": [
+        "a geber",
+        "a man"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:10.277892443Z",
+  "model": "glm-5.3"
 }

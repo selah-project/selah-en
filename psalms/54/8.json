@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "With a freewill offering I will sacrifice to you; I will give thanks to Your Name, YHWH, for ⟨it is⟩ good.",
-  "tokens": [
+  "ref": "psalms 54:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
     {
-      "surface": "בנדבה",
-      "gloss": "with a freewill offering"
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "כִּי טוֹב is a verbless clause ‘for good’; copula supplied"
     },
     {
-      "surface": "אזבחה",
-      "gloss": "I will sacrifice",
-      "readings": [
-        "I will sacrifice",
-        "I will slaughter"
-      ],
-      "held_by": {
-        "I will sacrifice": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I will slaughter": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "לָּךְ",
+      "rationale": "the suffix is pointed 2nd feminine though addressing YHWH, a known text anomaly"
     },
     {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "אודה",
-      "gloss": "I will give thanks"
-    },
-    {
-      "surface": "שמך",
-      "gloss": "your Name"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
+      "kind": "substitution",
+      "subject": "I will give thanks",
+      "rationale": "אוֹדֶה is literally ‘I will confess’ the name — public acknowledgment rendered as thanksgiving"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With a freewill offering I will sacrifice to you; I will give thanks to your name, YHWH, for ⟨it is⟩ good.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8f771c7228cf2ac7265cea962c66e9a97d5fdec631cef072d9d62f92ad63865",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/54\/5-8.1791192803274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בִּנְדָבָה",
+      "gloss": "With a freewill offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶזְבְּחָה",
+      "gloss": "I will sacrifice",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָּךְ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "אוֹדֶה",
+      "gloss": "I will give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִּׁמְךָ",
+      "gloss": "to your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:23.275890442Z",
+  "model": "glm-5.3"
 }

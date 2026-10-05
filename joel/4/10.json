@@ -1,74 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Beat your plowshares into swords, and your pruning hooks into spears; let ⟨him⟩ that is weak say, “I ⟨am⟩ a mighty man.”",
-  "tokens": [
+  "ref": "joel 4:10",
+  "book": "joel",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "כתו",
-      "gloss": "Beat"
+      "kind": "hapax",
+      "subject": "החלש",
+      "rationale": "The adjective חלש occurs only here in the Tanakh."
     },
     {
-      "surface": "אתיכם",
-      "gloss": "your plowshares",
-      "readings": [
-        "your plowshares",
-        "your mattocks"
-      ],
-      "held_by": {
-        "your plowshares": [
-          "v2",
-          "en4"
-        ],
-        "your mattocks": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "חלש\/גיבור",
+      "rationale": "Sharp inversion: the weak declares himself a warrior — the weak\/strong antithesis is the verse's point."
     },
     {
-      "surface": "לחרבות",
-      "gloss": "into swords"
+      "kind": "crux",
+      "subject": "plow-blades",
+      "rationale": "את is a rare tool word, exact shape unknown; gloss follows the 1 Samuel 13:20–21 farming-tool picture."
     },
     {
-      "surface": "ומזמרתיכם",
-      "gloss": "and your pruning hooks"
-    },
-    {
-      "surface": "לרמחים",
-      "gloss": "into spears"
-    },
-    {
-      "surface": "החלש",
-      "gloss": "the weak"
-    },
-    {
-      "surface": "יאמר",
-      "gloss": "let ⟨him⟩ say"
-    },
-    {
-      "surface": "גבור",
-      "gloss": "a mighty man",
-      "readings": [
-        "a mighty man",
-        "a warrior"
-      ],
-      "held_by": {
-        "a mighty man": [
-          "v2",
-          "v3"
-        ],
-        "a warrior": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
+      "kind": "addition",
+      "subject": "⟨one⟩",
+      "rationale": "English needs a noun head after the adjective 'the weak'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Beat your plow-blades into swords, and your pruning-knives into spears; let the weak say, “A warrior am I.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7669e427d1962b5c58777bfca5a5d6bc926f03906edeafbe94be58884c085fe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joel\/4\/9-12.1791191418486.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּתּוּ",
+      "gloss": "Beat",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתֵּיכֶם",
+      "gloss": "your plow-blades",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחֲרָבוֹת",
+      "gloss": "into swords",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמַזְמְרֹתֵיכֶם",
+      "gloss": "and your pruning-knives",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִרְמָחִים",
+      "gloss": "into spears",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַחַלָּשׁ",
+      "gloss": "let the weak ⟨one⟩",
+      "sense": "S1",
+      "readings": [
+        "let the weak ⟨one⟩",
+        "the frail"
+      ]
+    },
+    {
+      "surface": "יֹאמַר",
+      "gloss": "say",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּבּוֹר",
+      "gloss": "A warrior",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנִי",
+      "gloss": "am I",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:10:18.487694500Z",
+  "model": "glm-5.3"
 }

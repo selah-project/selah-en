@@ -1,70 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And your seed would have been like the sand, and the offspring of your bowels like its grains; his name would not be cut off nor destroyed from before me.",
+  "ref": "isaiah 48:19",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "כמעתיו",
+      "rationale": "מעה with suffix as 'its grains\/grains thereof' occurs only here; the rare word mirrors the sand image by reusing the 'bowels\/offspring' root for the sand's particles."
+    },
+    {
+      "kind": "crux",
+      "subject": "like its grains",
+      "rationale": "כמעתיו taken as 'like its (the sand's) particles'; some read 'like his bowels' (the offspring of his body), continuing the body imagery."
+    },
+    {
+      "kind": "substitution",
+      "subject": "your body",
+      "rationale": "מעים literally 'intestines\/inner parts', here the seat of offspring — rendered as source of the body's issue."
+    }
+  ],
+  "translation": "and your seed would have been like the sand, and the offspring of your body like its grains — its name would not be cut off nor destroyed from before me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "892800b8e300050d03dc07e8e8eef574b1a4e716e0d31d365c21bc652b78687b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/48\/18-20.1791199139316.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "ויהי",
-      "gloss": "and would have been"
+      "gloss": "and would have been",
+      "sense": null
     },
     {
       "surface": "כחול",
-      "gloss": "like the sand"
+      "gloss": "like the sand",
+      "sense": "S1"
     },
     {
       "surface": "זרעך",
-      "gloss": "your seed"
+      "gloss": "your seed",
+      "sense": "S1"
     },
     {
       "surface": "וצאצאי",
-      "gloss": "and the offspring of"
+      "gloss": "and the offspring of",
+      "sense": null
     },
     {
       "surface": "מעיך",
-      "gloss": "your bowels",
-      "readings": [
-        "your bowels",
-        "your body"
-      ],
-      "held_by": {
-        "your bowels": [
-          "v1",
-          "en4"
-        ],
-        "your body": [
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "your body",
+      "sense": "S1"
     },
     {
       "surface": "כמעתיו",
-      "gloss": "like its grains"
+      "gloss": "like its grains",
+      "sense": "S2"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יכרת",
-      "gloss": "would be cut off"
+      "gloss": "would be cut off",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "ישמד",
-      "gloss": "be destroyed"
+      "gloss": "destroyed",
+      "sense": "S1"
     },
     {
       "surface": "שמו",
-      "gloss": "his name"
+      "gloss": "its name",
+      "sense": "S1"
     },
     {
       "surface": "מלפני",
-      "gloss": "from before me"
+      "gloss": "from before me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:18:59.317677645Z",
+  "model": "glm-5.3"
 }

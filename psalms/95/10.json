@@ -1,74 +1,111 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Forty years I loathed a generation, and said: A people wandering of heart are they; and they have not known my ways.",
+  "ref": "psalms 95:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 95,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨a⟩",
+      "rationale": "English requires an article before בדור; Hebrew has none with the preposition"
+    },
+    {
+      "kind": "hapax",
+      "subject": "אקוט",
+      "rationale": "קוט in the qal occurs only here in the Tanakh, literally 'to cut off,' hence 'loathe'"
+    },
+    {
+      "kind": "measurement",
+      "subject": "forty years",
+      "rationale": "the verse counts the span of the wilderness generation"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH's speech continues the direct address begun in verse 7"
+    }
+  ],
+  "translation": "Forty years I loathed ⟨a⟩ generation, and I said: a people wandering of heart are they, and they do not know my ways.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02c988e138f7c06db689a434cf77c96ab6fc8e59dc83333d5cf7d8b3d1521d33",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/95\/10-11.1791199992129.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ארבעים",
-      "gloss": "Forty"
+      "surface": "אַרְבָּעִים",
+      "gloss": "Forty",
+      "sense": "S1"
     },
     {
-      "surface": "שנה",
-      "gloss": "years"
+      "surface": "שָׁנָה",
+      "gloss": "years",
+      "sense": "S1"
     },
     {
-      "surface": "אקוט",
+      "surface": "אָקוּט",
       "gloss": "I loathed",
-      "readings": [
-        "I loathed",
-        "I was grieved"
-      ],
-      "held_by": {
-        "I loathed": [
-          "v3",
-          "en4"
-        ],
-        "I was grieved": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בדור",
-      "gloss": "with a generation"
+      "surface": "בְּדוֹר",
+      "gloss": "⟨a⟩ generation",
+      "sense": "S1"
     },
     {
-      "surface": "ואמר",
-      "gloss": "and said"
+      "surface": "וָאֹמַר",
+      "gloss": "and I said",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
-      "gloss": "A people"
+      "surface": "עַם",
+      "gloss": "a people",
+      "sense": "S1"
     },
     {
-      "surface": "תעי",
-      "gloss": "wandering"
+      "surface": "תֹּעֵי",
+      "gloss": "wandering of",
+      "sense": "S1"
     },
     {
-      "surface": "לבב",
-      "gloss": "of heart"
+      "surface": "לֵבָב",
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
-      "surface": "הם",
+      "surface": "הֵם",
       "gloss": "are they"
     },
     {
-      "surface": "והם",
+      "surface": "וְהֵם",
       "gloss": "and they"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעו",
-      "gloss": "have known"
+      "surface": "יָדְעוּ",
+      "gloss": "do know",
+      "readings": [
+        "do know",
+        "did know"
+      ]
     },
     {
-      "surface": "דרכי",
-      "gloss": "my ways"
+      "surface": "דְּרָכָי",
+      "gloss": "my ways",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:33:12.129830641Z",
+  "model": "glm-5.3"
 }

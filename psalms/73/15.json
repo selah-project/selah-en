@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "If I had said, “I will recount thus,” behold, ⟨I should have⟩ betrayed the generation of your children.",
-  "tokens": [
+  "ref": "psalms 73:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "if"
+      "kind": "crux",
+      "subject": "דֹּר בָּנֶיךָ",
+      "rationale": "'generation of your children' (YHWH's faithful) vs 'generation of your sons' vs emendation 'דֹּר בָּנֶיךָ' as 'your sons' generation'"
     },
     {
-      "surface": "אמרתי",
-      "gloss": "I had said"
-    },
-    {
-      "surface": "אספרה",
-      "gloss": "I will recount"
-    },
-    {
-      "surface": "כמו",
-      "gloss": "thus",
-      "readings": [
-        "thus",
-        "as these"
-      ],
-      "held_by": {
-        "thus": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "as these": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "הנה",
-      "gloss": "behold"
-    },
-    {
-      "surface": "דור",
-      "gloss": "generation"
-    },
-    {
-      "surface": "בניך",
-      "gloss": "of your children"
-    },
-    {
-      "surface": "בגדתי",
-      "gloss": "I had betrayed"
+      "kind": "addition",
+      "subject": "I would have betrayed",
+      "rationale": "unreal conditional: English needs the counterfactual auxiliary to carry the sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If I had said, “I will recount thus,” behold, ⟨I would have betrayed⟩ the generation of your children.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d0861de5f3ecfdeb23224d89537103424fc72d7004b572dbdfa5161bb2e3a3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/13-16.1791192989411.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "אָמַרְתִּי",
+      "gloss": "I had said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲסַפְּרָה",
+      "gloss": "I will recount",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּמוֹ",
+      "gloss": "thus",
+      "sense": null
+    },
+    {
+      "surface": "הִנֵּה",
+      "gloss": "behold",
+      "sense": null
+    },
+    {
+      "surface": "דּוֹר",
+      "gloss": "the generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנֶיךָ",
+      "gloss": "of your children",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָגַדְתִּי",
+      "gloss": "I betrayed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:29.412621161Z",
+  "model": "glm-5.3"
 }

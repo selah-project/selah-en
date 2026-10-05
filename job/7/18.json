@@ -1,43 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "and you visit him every morning, and test him every moment?",
-  "tokens": [
+  "ref": "job 7:18",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "ותפקדנו",
-      "gloss": "and you visit him",
-      "readings": [
-        "and you visit him",
-        "and you inspect him",
-        "and you muster him"
-      ],
-      "held_by": {
-        "and you visit him": [
-          "v1"
-        ],
-        "and you inspect him": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and you muster him": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבקרים",
-      "gloss": "every morning"
-    },
-    {
-      "surface": "לרגעים",
-      "gloss": "every moment"
-    },
-    {
-      "surface": "תבחננו",
-      "gloss": "you test him"
+      "kind": "substitution",
+      "subject": "every morning",
+      "rationale": "Hebrew לְ with plural is distributive 'at mornings'; English needs 'every'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and visit him every morning, every moment you test him?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8cfec3d323baa70a8c35ad5c49f0f72908fad87d09536dd89f64d5a6b16685b2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/17-20.1791194200984.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתִּפְקְדֶ֥נּוּ",
+      "gloss": "and visit him",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְקָרִ֑ים",
+      "gloss": "every morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִרְגָעִ֗ים",
+      "gloss": "every moment",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּבְחָנֶֽנּוּ",
+      "gloss": "you test him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:40.985409974Z",
+  "model": "glm-5.3"
 }

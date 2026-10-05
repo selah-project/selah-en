@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And the profit of the land in everything is a king for a tilled field.",
+  "ref": "ecclesiastes 5:8",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "היא (qere הוא)",
+      "rationale": "Ketiv feminine 'she\/it is' against qere masculine הוא; kept the ketiv's 'it is' pointing back to the gain."
+    },
+    {
+      "kind": "crux",
+      "subject": "a king for a field worked",
+      "rationale": "Read as 'a king subject to a cultivated field' (even the king is served by the field), or 'a king for the field that is worked' (land's advantage is a king over tilled soil); the syntax is deliberately compressed."
+    },
+    {
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Pronoun היא rendered as copula, which English requires."
+    }
+  ],
+  "translation": "And the gain of the land in everything — it is a king: a field worked.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "722157f1b67e9d8e09b0a450fde26fcfe6ce21c627c6d3da549f359efb76d07a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/5\/5-8.1791194880887.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "ויתרון",
-      "gloss": "and the profit of"
+      "surface": "וְיִתְרוֹן",
+      "gloss": "and the gain of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
-      "gloss": "of the land"
+      "surface": "אֶרֶץ",
+      "gloss": "the land",
+      "readings": [
+        "the land",
+        "the earth"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "בכל",
-      "gloss": "in all"
+      "surface": "בַּכֹּל",
+      "gloss": "in everything",
+      "sense": null
     },
     {
       "surface": "היא",
-      "gloss": "it is"
+      "gloss": "it is",
+      "sense": null
     },
     {
-      "surface": "מלך",
-      "gloss": "a king"
+      "surface": "מֶלֶךְ",
+      "gloss": "a king",
+      "sense": "S1"
     },
     {
-      "surface": "לשדה",
-      "gloss": "for a field"
+      "surface": "לְשָׂדֶה",
+      "gloss": "for a field",
+      "sense": "S1"
     },
     {
-      "surface": "נעבד",
-      "gloss": "tilled",
-      "readings": [
-        "tilled",
-        "served"
-      ],
-      "held_by": {
-        "tilled": [
-          "v2",
-          "v3"
-        ],
-        "served": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "נֶעֱבָד",
+      "gloss": "worked",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:08:00.889044671Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,61 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And Joshua commanded ⟨את⟩ the officers of the people, saying:",
-  "tokens": [
+  "ref": "joshua 1:10",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "ויצו",
-      "gloss": "And commanded"
-    },
-    {
-      "surface": "יהושע",
-      "gloss": "Joshua"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "שטרי",
-      "gloss": "officers of"
-    },
-    {
-      "surface": "העם",
-      "gloss": "the people"
-    },
-    {
-      "surface": "לאמר",
-      "gloss": "saying"
+      "kind": "substitution",
+      "subject": "officers",
+      "rationale": "שֹׁטֵר is literally a scribe or official superintendent; rendered 'officers' as the contextual function."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Joshua commanded ⟨את⟩ the officers of the people, saying,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5e2629175873bdd8ed1b62e649051e78e03ccae183636f270756105d0c9ef917",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/1\/9-12.1791184299917.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְצַו",
+      "gloss": "and commanded",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוֹשֻׁעַ",
+      "gloss": "Joshua",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the officers of the people",
+      "sense": null
+    },
+    {
+      "surface": "שֹׁטְרֵי",
+      "gloss": "the officers of",
+      "sense": null
+    },
+    {
+      "surface": "הָעָם",
+      "gloss": "the people",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאמֹר",
+      "gloss": "saying",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:11:39.917914616Z",
+  "model": "glm-5.3"
 }

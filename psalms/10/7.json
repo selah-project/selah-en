@@ -1,74 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Cursing fills his mouth, and deceit and fraud; under his tongue are toil and iniquity.",
+  "ref": "psalms 10:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "oppression",
+      "rationale": "תך is a rare word (only Ps 55:12, 72:14), meaning unsure — probably deception for gain."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "mouth\/tongue parallel",
+      "rationale": "Chiastic anatomy: full mouth above, hidden stores under the tongue — lying imagery lost in plain prose."
+    }
+  ],
+  "translation": "Cursing fills his mouth, and deceit and oppression; under his tongue, trouble and wickedness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f51a9b83469107d6ef315e2328d04bc5250cf5fe6c2ccaee60a05d0c34e68e9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/5-8.1791192419653.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "אלה",
-      "gloss": "cursing"
+      "gloss": "Cursing",
+      "sense": "S1"
     },
     {
       "surface": "פיהו",
-      "gloss": "his mouth"
+      "gloss": "his mouth",
+      "sense": "S1"
     },
     {
       "surface": "מלא",
-      "gloss": "is full of"
+      "gloss": "fills",
+      "sense": "S1"
     },
     {
       "surface": "ומרמות",
-      "gloss": "and deceit"
+      "gloss": "and deceit",
+      "sense": "S1"
     },
     {
       "surface": "ותך",
-      "gloss": "and fraud",
-      "readings": [
-        "and fraud",
-        "and oppression"
-      ],
-      "held_by": {
-        "and fraud": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and oppression": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and oppression",
+      "sense": "S1"
     },
     {
       "surface": "תחת",
-      "gloss": "under"
+      "gloss": "under",
+      "sense": null
     },
     {
       "surface": "לשונו",
-      "gloss": "his tongue"
+      "gloss": "his tongue",
+      "sense": "S1"
     },
     {
       "surface": "עמל",
-      "gloss": "toil",
-      "readings": [
-        "toil",
-        "trouble"
-      ],
-      "held_by": {
-        "toil": [
-          "v2",
-          "v3"
-        ],
-        "trouble": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "trouble",
+      "sense": "S1"
     },
     {
       "surface": "ואון",
-      "gloss": "and iniquity"
+      "gloss": "and wickedness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:59.655018370Z",
+  "model": "glm-5.3"
 }

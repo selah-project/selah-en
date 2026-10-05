@@ -1,70 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And the priest shall see him, and behold, the plague has turned to white, and the priest shall pronounce clean ⟨את⟩ the plague — ⟨it is⟩ clean.",
+  "ref": "leviticus 13:17",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "has",
+      "rationale": "English perfect requires auxiliary 'has' before 'turned'"
+    },
+    {
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Copula supplied for the pronoun הוא, emphatic in Hebrew but needing a verb in English"
+    },
+    {
+      "kind": "substitution",
+      "subject": "to white",
+      "rationale": "Hebrew uses adjective לבן with preposition; English wants the adverbial 'white'"
+    }
+  ],
+  "translation": "And the priest shall see it, and behold, the mark has turned white, and the priest shall pronounce clean ⟨את⟩ the mark — it is clean.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "62ceb2e33542a6e1f361b9145a79450d874cdf5ef20aba57a85447e19b2e9e56",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/17-17.1791197704069.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וראהו",
-      "gloss": "and shall see him"
+      "surface": "וְרָאָ֨הוּ֙",
+      "gloss": "and shall see it",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֔ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּ֛ה",
       "gloss": "and behold"
     },
     {
-      "surface": "נהפך",
-      "gloss": "has turned"
+      "surface": "נֶהְפַּ֥ךְ",
+      "gloss": "has turned",
+      "sense": "S1"
     },
     {
-      "surface": "הנגע",
-      "gloss": "the plague"
+      "surface": "הַנֶּ֖גַע",
+      "gloss": "the mark",
+      "sense": "S1"
     },
     {
-      "surface": "ללבן",
-      "gloss": "to white"
+      "surface": "לְלָבָ֑ן",
+      "gloss": "to white",
+      "sense": "S1"
     },
     {
-      "surface": "וטהר",
-      "gloss": "and shall pronounce clean"
+      "surface": "וְטִהַ֧ר",
+      "gloss": "and shall pronounce clean",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֛ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the mark"
     },
     {
-      "surface": "הנגע",
-      "gloss": "the plague"
+      "surface": "הַנֶּ֖גַע",
+      "gloss": "the mark",
+      "sense": "S1"
     },
     {
-      "surface": "טהור",
+      "surface": "טָה֥וֹר",
       "gloss": "clean"
     },
     {
-      "surface": "הוא",
-      "gloss": "it is",
-      "readings": [
-        "it is",
-        "he is"
-      ],
-      "held_by": {
-        "it is": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he is": [
-          "v1"
-        ]
-      }
+      "surface": "הֽוּא",
+      "gloss": "it is"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:55:04.070359146Z",
+  "model": "glm-5.3"
 }

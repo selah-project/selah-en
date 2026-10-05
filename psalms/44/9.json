@@ -1,55 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "In Elohim we have praised all the day, and ⟨to⟩ your name we will give thanks forever. Selah.",
-  "tokens": [
+  "ref": "psalms 44:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "באלהים",
-      "gloss": "In Elohim"
+      "kind": "crux",
+      "subject": "we will confess",
+      "rationale": "נודה (ידה) can be 'confess' or 'give thanks'; the cohortative 'let us confess' is the literal force."
     },
     {
-      "surface": "הללנו",
-      "gloss": "we have praised",
-      "readings": [
-        "we have praised",
-        "we have boasted"
-      ],
-      "held_by": {
-        "we have praised": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "we have boasted": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "ושמך",
-      "gloss": "and your name"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "נודה",
-      "gloss": "we will give thanks"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "elision",
+      "subject": "Selah",
+      "rationale": "Musical pause marker with no English equivalent; kept as Selah."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In Elohim we have praised all the day, and your name we will confess forever. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f339eaf2d82ae9e6bf05cc9c83db861ea3bc053e0473e16d3d6a4ef04b36499a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/9-12.1791192702276.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֵּֽאלֹהִים",
+      "gloss": "In Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִלַּלְנוּ",
+      "gloss": "we have praised",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1",
+      "readings": [
+        "the day",
+        "the whole time"
+      ]
+    },
+    {
+      "surface": "וְשִׁמְךָ",
+      "gloss": "and your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹדֶה",
+      "gloss": "we will confess",
+      "sense": "S1",
+      "readings": [
+        "we will confess",
+        "we will give thanks"
+      ]
+    },
+    {
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:42.276592873Z",
+  "model": "glm-5.3"
 }

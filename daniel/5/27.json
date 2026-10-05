@@ -1,43 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "TEKEL — you are weighed in the balances, and found deficient.",
-  "tokens": [
+  "ref": "daniel 5:27",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "תקל",
-      "gloss": "TEKEL",
-      "readings": [
-        "TEKEL",
-        "weighed"
-      ],
-      "held_by": {
-        "TEKEL": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "weighed": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "תקל \/ תקילתה",
+      "rationale": "The weight tekel (shekel) is reread as the passive verb 'you have been weighed'."
     },
     {
-      "surface": "תקילתה",
-      "gloss": "you are weighed"
+      "kind": "hapax",
+      "subject": "במאזניא",
+      "rationale": "מֹאזְנֵא, balances, occurs only here in the Tanakh."
     },
     {
-      "surface": "במאזניא",
-      "gloss": "in the balances"
-    },
-    {
-      "surface": "והשתכחת",
-      "gloss": "and found"
-    },
-    {
-      "surface": "חסיר",
-      "gloss": "deficient"
+      "kind": "hapax",
+      "subject": "חסיר",
+      "rationale": "חַסִּיר, lacking\/deficient, occurs only here in the Tanakh."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "tekel — you have been weighed on the balances and found lacking.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "baae4719224039a02c7808b7fcf4f8b7c819880f2afc7c51e59e03859673b811",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/5\/25-28.1791195287235.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּקֵ֑ל",
+      "gloss": "tekel",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּקִ֥ילְתָּה",
+      "gloss": "you have been weighed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְמֹֽאזַנְיָ֖א",
+      "gloss": "on the balances",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִשְׁתְּכַ֥חַתְּ",
+      "gloss": "and found",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסִּֽיר",
+      "gloss": "lacking",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:14:47.236600312Z",
+  "model": "glm-5.3"
 }

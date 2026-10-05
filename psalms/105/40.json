@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 40,
-  "translation": "They asked, and He brought quail, and ⟨with⟩ bread of the heavens He satisfied them.",
-  "tokens": [
+  "ref": "psalms 105:40",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "שאל",
-      "gloss": "They asked"
+      "kind": "addition",
+      "subject": "they",
+      "rationale": "שאל is 3ms singular with a collective people as subject; 'they' smooths the number."
     },
     {
-      "surface": "ויבא",
-      "gloss": "and He brought"
-    },
-    {
-      "surface": "שלו",
-      "gloss": "quail"
-    },
-    {
-      "surface": "ולחם",
-      "gloss": "and ⟨with⟩ bread"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "of the heavens",
-      "readings": [
-        "of the heavens",
-        "of heaven"
-      ],
-      "held_by": {
-        "of the heavens": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of heaven": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ישביעם",
-      "gloss": "He satisfied them"
+      "kind": "addition",
+      "subject": "⟨the⟩",
+      "rationale": "לחם שמים is a bound phrase without article; English requires one."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They asked, and he brought quail, and with bread of ⟨the⟩ heavens he satisfied them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "efc3dea42799f1a489bc0ab2e2a6d8762b501fe7738061bb5701f62563b5920c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/37-40.1791193306630.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׁאַ֣ל",
+      "gloss": "they asked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּבֵ֣א",
+      "gloss": "and he brought"
+    },
+    {
+      "surface": "שְׂלָ֑ו",
+      "gloss": "quail",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֶ֥חֶם",
+      "gloss": "and bread",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַ֗יִם",
+      "gloss": "of ⟨the⟩ heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׂבִּיעֵֽם",
+      "gloss": "he satisfied them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:46.631381961Z",
+  "model": "glm-5.3"
 }

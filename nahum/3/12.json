@@ -1,67 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "All your fortresses ⟨are⟩ fig trees with firstripe figs; if they are shaken, they fall into the mouth of the eater.",
+  "ref": "nahum 3:12",
+  "book": "nahum",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks copula between מבצריך and תאנים"
+    },
+    {
+      "kind": "idiom",
+      "subject": "into the mouth of the eater",
+      "rationale": "Hebrew על פי literally 'upon the mouth of'; kept near-literal"
+    },
+    {
+      "kind": "you",
+      "subject": "to Nineveh",
+      "rationale": "suffix -יך addresses Nineveh"
+    }
+  ],
+  "translation": "All your fortresses are fig trees with first-ripe figs; if they are shaken, they fall into the mouth of the eater.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7523e9ea0b6b3a036c5dfcaf48831c59b069095d5fa71f52cf29ca2780b0b0c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nahum\/3\/9-12.1791191831990.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nahum.edn"
+  },
   "tokens": [
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּ֨ל",
+      "gloss": "All"
     },
     {
-      "surface": "מבצריך",
-      "gloss": "your fortresses"
+      "surface": "מִבְצָרַ֙יִךְ֙",
+      "gloss": "your fortresses",
+      "sense": "S1"
     },
     {
-      "surface": "תאנים",
-      "gloss": "fig trees"
+      "surface": "תְּאֵנִ֖ים",
+      "gloss": "are fig trees",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
+      "surface": "עִ֣ם",
       "gloss": "with"
     },
     {
-      "surface": "בכורים",
-      "gloss": "firstripe figs",
-      "readings": [
-        "firstripe figs",
-        "first-fruits"
-      ],
-      "held_by": {
-        "firstripe figs": [
-          "v2",
-          "v3"
-        ],
-        "first-fruits": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בִּכּוּרִ֑ים",
+      "gloss": "first-ripe figs",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִ֣ם",
       "gloss": "if"
     },
     {
-      "surface": "ינועו",
-      "gloss": "they are shaken"
+      "surface": "יִנֹּ֥עוּ",
+      "gloss": "they are shaken",
+      "sense": "S1"
     },
     {
-      "surface": "ונפלו",
-      "gloss": "they fall"
+      "surface": "וְנָ֣פְל֖וּ",
+      "gloss": "they fall",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "into"
     },
     {
-      "surface": "פי",
-      "gloss": "the mouth of"
+      "surface": "פִּ֥י",
+      "gloss": "the mouth of",
+      "sense": "S1"
     },
     {
-      "surface": "אוכל",
-      "gloss": "the eater"
+      "surface": "אוֹכֵֵֽל",
+      "gloss": "the eater",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:17:11.991613958Z",
+  "model": "glm-5.3"
 }

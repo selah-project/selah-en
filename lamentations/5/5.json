@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Upon our necks we are pursued; we are weary, no rest is given to us.",
+  "ref": "lamentations 5:5",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "rest was given",
+      "rationale": "הוּנַח hophal of נוח: 'rest was allowed\/granted to us'; ketiv לא lacks the vav the qere ולא supplies."
+    },
+    {
+      "kind": "addition",
+      "subject": "was given",
+      "rationale": "Hophal passive requires an English auxiliary the Hebrew carries in its stem."
+    }
+  ],
+  "translation": "Upon our necks we were pursued; we toiled, and no rest was given to us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f84257ac7c138814906982a596c0c485d86bb68af435db42f4192ffa08b8890",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/5-8.1791194776142.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "Upon",
+      "sense": null
     },
     {
-      "surface": "צוארנו",
-      "gloss": "our necks"
+      "surface": "צַוָּארֵנוּ",
+      "gloss": "our necks",
+      "sense": "S1"
     },
     {
-      "surface": "נרדפנו",
-      "gloss": "we are pursued"
+      "surface": "נִרְדַּפְנוּ",
+      "gloss": "we were pursued",
+      "sense": "S1"
     },
     {
-      "surface": "יגענו",
-      "gloss": "we are weary",
-      "readings": [
-        "we are weary",
-        "we toil"
-      ],
-      "held_by": {
-        "we are weary": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "we toil": [
-          "en4"
-        ]
-      }
+      "surface": "יָגַעְנוּ",
+      "gloss": "we toiled",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "and no",
+      "readings": [
+        "and no",
+        "no"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "הונח",
-      "gloss": "is given ⟨rest⟩"
+      "surface": "הוּנַח",
+      "gloss": "rest was given",
+      "sense": null
     },
     {
-      "surface": "לנו",
-      "gloss": "to us"
+      "surface": "לָנוּ",
+      "gloss": "to us",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:06:16.143786285Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Splendor and majesty ⟨are⟩ before him; strength and beauty ⟨are⟩ in his sanctuary.",
-  "tokens": [
+  "ref": "psalms 96:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 96,
+  "notes": [
     {
-      "surface": "הוד",
-      "gloss": "Splendor"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew is nominal clauses with no verb"
     },
     {
-      "surface": "והדר",
-      "gloss": "and majesty"
+      "kind": "substitution",
+      "subject": "beauty",
+      "rationale": "תפארת is honor-worthiness, splendor of attributes; 'beauty' narrows it"
     },
     {
-      "surface": "לפניו",
-      "gloss": "before him"
-    },
-    {
-      "surface": "עז",
-      "gloss": "strength"
-    },
-    {
-      "surface": "ותפארת",
-      "gloss": "and beauty"
-    },
-    {
-      "surface": "במקדשו",
-      "gloss": "in his sanctuary"
+      "kind": "alternative",
+      "subject": "1 Chr 16:27",
+      "rationale": "Parallel reads 'strength and joy in His place' — חדוה\/במקמו instead of תפארת\/במקדשו"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Splendor and majesty are before Him, strength and beauty in His sanctuary.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "66d3ea26b64174c335e131842566a76f397d261523004f70003a851b8d48906e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/96\/5-8.1791199997906.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוֹד",
+      "gloss": "Splendor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָדָר",
+      "gloss": "and majesty",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפָנָיו",
+      "gloss": "are before Him",
+      "sense": null
+    },
+    {
+      "surface": "עֹז",
+      "gloss": "strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתִפְאֶרֶת",
+      "gloss": "and beauty",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמִקְדָּשׁוֹ",
+      "gloss": "in His sanctuary",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:33:17.907073902Z",
+  "model": "glm-5.3"
 }

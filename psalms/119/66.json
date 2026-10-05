@@ -1,52 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 66,
-  "translation": "Good discernment and knowledge — teach me, for in Your commandments I have believed.",
+  "ref": "psalms 119:66",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "טוב טעם ודעת",
+      "rationale": "Construct chain read as 'good taste and knowledge' (טוב as adjective) or 'the goodness of taste and knowledge' (noun); the accent on טַ֣עַם favors taking טוב as noun construct."
+    },
+    {
+      "kind": "substitution",
+      "subject": "taste",
+      "rationale": "טעם is literally the palate's taste, figuratively judgment or discernment."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Imperative 'teach me' addressed to YHWH."
+    }
+  ],
+  "translation": "The goodness of taste and knowledge teach me, for in your commandments I have trusted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19c8f58706cc810cb0fb41391db8402c9ab81cdecc84c5df284fa3a4c0b5c6d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/65-68.1791193456257.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Good"
+      "surface": "טוּב",
+      "gloss": "The goodness",
+      "sense": "S1"
     },
     {
-      "surface": "טעם",
-      "gloss": "discernment",
-      "readings": [
-        "discernment",
-        "taste"
-      ],
-      "held_by": {
-        "discernment": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "taste": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "טַעַם",
+      "gloss": "of taste",
+      "sense": "S1"
     },
     {
-      "surface": "ודעת",
-      "gloss": "and knowledge"
+      "surface": "וָדַעַת",
+      "gloss": "and knowledge",
+      "sense": "S1"
     },
     {
-      "surface": "למדני",
-      "gloss": "teach me"
+      "surface": "לַמְּדֵנִי",
+      "gloss": "teach me",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "במצותיך",
-      "gloss": "in Your commandments"
+      "surface": "בְּמִצְוֺתֶיךָ",
+      "gloss": "in your commandments",
+      "sense": "S1"
     },
     {
-      "surface": "האמנתי",
-      "gloss": "I have believed"
+      "surface": "הֶאֱמַנְתִּי",
+      "gloss": "I have trusted",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:16.258641761Z",
+  "model": "glm-5.3"
 }

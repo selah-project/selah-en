@@ -1,47 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Me ⟨את⟩ He drove, and He made to walk in darkness, and not in light.",
-  "tokens": [
+  "ref": "lamentations 3:2",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "אותי",
-      "gloss": "⟨את⟩ me"
+      "kind": "addition",
+      "subject": "into",
+      "rationale": "Hebrew has no preposition before חושך; the goal is unmarked"
     },
     {
-      "surface": "נהג",
-      "gloss": "He drove",
-      "readings": [
-        "He drove",
-        "He led"
-      ],
-      "held_by": {
-        "He drove": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "He led": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וילך",
-      "gloss": "and made to walk"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "darkness"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "אור",
-      "gloss": "light"
+      "kind": "crux",
+      "subject": "driven",
+      "rationale": "נהג is driving an animal or captive, not gentle leading — 'led' softens the picture"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ me he has driven and brought ⟨me⟩ into darkness, and not light.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf644b5cbbb5ef78c78b3bd09af495ab3329b48a5317f9813bf06d95f983d308",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/1-4.1791194694892.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אוֹתִי",
+      "gloss": "⟨את⟩ me",
+      "marks": "me",
+      "sense": null
+    },
+    {
+      "surface": "נָהַג",
+      "gloss": "he has driven",
+      "sense": null
+    },
+    {
+      "surface": "וַיּוֹלַךְ",
+      "gloss": "and brought",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹשֶׁךְ",
+      "gloss": "into darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹר",
+      "gloss": "light",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:54.893033002Z",
+  "model": "glm-5.3"
 }

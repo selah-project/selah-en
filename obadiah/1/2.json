@@ -1,36 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Behold, small I have made you among the nations; despised are you exceedingly.",
+  "ref": "obadiah 1:2",
+  "book": "obadiah",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks the copula before the participle בזוי."
+    },
+    {
+      "kind": "you",
+      "subject": "to Edom",
+      "rationale": "second-person address to Edom continues from verse 1."
+    }
+  ],
+  "translation": "Look, small I have made you among the nations; despised are you utterly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2cb2782f525dec7a38f770c9fe1dc356b8c17042f9a97b9204e337dbec310271",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/obadiah\/1\/1-4.1791191609456.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/obadiah.edn"
+  },
   "tokens": [
     {
-      "surface": "הנה",
-      "gloss": "Behold"
+      "surface": "הִנֵּה",
+      "gloss": "Look"
     },
     {
-      "surface": "קטן",
-      "gloss": "small"
+      "surface": "קָטֹן",
+      "gloss": "small",
+      "sense": "S1"
     },
     {
-      "surface": "נתתיך",
+      "surface": "נְתַתִּיךָ",
       "gloss": "I have made you"
     },
     {
-      "surface": "בגוים",
-      "gloss": "among the nations"
+      "surface": "בַּגּוֹיִם",
+      "gloss": "among the nations",
+      "sense": "S1"
     },
     {
-      "surface": "בזוי",
-      "gloss": "despised"
+      "surface": "בָּז֥וּי",
+      "gloss": "despised",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "surface": "אַתָּה",
+      "gloss": "are you"
     },
     {
-      "surface": "מאד",
-      "gloss": "exceedingly"
+      "surface": "מְאֹד",
+      "gloss": "utterly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:13:29.457356881Z",
+  "model": "glm-5.3"
 }

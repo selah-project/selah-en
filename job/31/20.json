@@ -1,80 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "if his loins have not blessed me, and he was not warmed from the fleece of my lambs —",
-  "tokens": [
+  "ref": "job 31:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "if"
+      "kind": "crux",
+      "subject": "his loins",
+      "rationale": "ketiv חלצו vs qere חלציו; rendered as dual 'loins' with the poor man of v.19 as referent"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ברכוני",
-      "gloss": "blessed me",
-      "readings": [
-        "blessed me",
-        "thanked me"
-      ],
-      "held_by": {
-        "blessed me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "thanked me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חלצו",
-      "gloss": "his loins"
-    },
-    {
-      "surface": "ומגז",
-      "gloss": "and from the fleece"
-    },
-    {
-      "surface": "כבשי",
-      "gloss": "of my lambs",
-      "readings": [
-        "of my lambs",
-        "of my sheep"
-      ],
-      "held_by": {
-        "of my lambs": [
-          "en4"
-        ],
-        "of my sheep": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יתחמם",
-      "gloss": "he was warmed",
-      "readings": [
-        "he was warmed",
-        "he warmed himself"
-      ],
-      "held_by": {
-        "he was warmed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he warmed himself": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "ברכוני",
+      "rationale": "ברך means both 'kneel' and 'bless' — the loins kneeling\/blessing is a bodily double sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "if his loins did not bless me, and if he did not warm himself with the fleece of my sheep —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3a04165cf2d30c80e624b6fb30e486414a30e636f59105ce2b7e83b393dfa1a3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/17-20.1791194495605.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּרֲכ֣וּנִי",
+      "gloss": "did … bless me",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲלָצָיו",
+      "gloss": "his loins",
+      "sense": null
+    },
+    {
+      "surface": "וּמִגֵּ֥ז",
+      "gloss": "with the fleece of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּבָשַׂ֝י",
+      "gloss": "my sheep",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְחַמָּֽם",
+      "gloss": "he warmed himself",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:35.606306077Z",
+  "model": "glm-5.3"
 }

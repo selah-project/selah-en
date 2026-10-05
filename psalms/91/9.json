@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For you, YHWH, ⟨are⟩ my refuge; Elyon you have made your dwelling-place.",
-  "tokens": [
+  "ref": "psalms 91:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks copula between אתה יהוה and מחסי"
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "מחסי",
-      "gloss": "my refuge"
-    },
-    {
-      "surface": "עליון",
-      "gloss": "Elyon"
-    },
-    {
-      "surface": "שמת",
-      "gloss": "you have made"
-    },
-    {
-      "surface": "מעונך",
-      "gloss": "your dwelling-place"
+      "kind": "crux",
+      "subject": "your dwelling",
+      "rationale": "מעונך — 2ms suffix: Elyon made His dwelling (with you implied); some read 'your habitation' (refuge of the one who dwells)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you, YHWH, are my refuge; Elyon you have made your dwelling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "68be4fbf88ed18428cc48f3b9392c840e62f538be1cb58c5588d50adc463cf11",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/9-12.1791193183302.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחְסִי",
+      "gloss": "my refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶלְיוֹן",
+      "gloss": "Elyon",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׂמְתָּ",
+      "gloss": "you have made",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְעוֹנֶךָ",
+      "gloss": "your dwelling",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:43.303164639Z",
+  "model": "glm-5.3"
 }

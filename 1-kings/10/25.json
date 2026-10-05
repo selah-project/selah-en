@@ -1,91 +1,123 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And they were bringing each man his tribute — vessels of silver and vessels of gold, and garments, and weapons, and spices, horses and mules — the matter of a year in a year.",
+  "ref": "1-kings 10:25",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "דְּבַר שָׁנָה בְּשָׁנָה",
+      "rationale": "literally 'a matter of a year in a year', i.e. year by year."
+    },
+    {
+      "kind": "crux",
+      "subject": "נֶשֶׁק",
+      "rationale": "traditionally 'weapons', but lexicon SDBH reads 'spices' here (parallel to בשמים in the list); readings kept in order."
+    },
+    {
+      "kind": "addition",
+      "subject": "its",
+      "rationale": "English possessive supplied; Hebrew has bare בְּשָׁנָה 'in a year'."
+    }
+  ],
+  "translation": "And they were bringing, each man his gift, objects of silver and objects of gold, garments and weapons and spices, horses and mules — the matter of a year in its year.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2db256688806f97a9c45c36890a7adff017fe9d1ac30a18f3434707a93d5a296",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/10\/25-28.1791186995379.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "והמה",
+      "surface": "וְהֵ֣מָּה",
       "gloss": "And they"
     },
     {
-      "surface": "מבאים",
-      "gloss": "were bringing"
+      "surface": "מְבִאִ֣ים",
+      "gloss": "were bringing",
+      "sense": "S1"
     },
     {
-      "surface": "איש",
+      "surface": "אִ֣ישׁ",
       "gloss": "each man",
-      "readings": [
-        "each man",
-        "each one"
-      ]
+      "sense": null
     },
     {
-      "surface": "מנחתו",
-      "gloss": "his tribute",
+      "surface": "מִנְחָת֡וֹ",
+      "gloss": "his gift",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּלֵ֣י",
+      "gloss": "objects of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּסֶף֩",
+      "gloss": "silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְלֵ֨י",
+      "gloss": "and objects of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָ֤ב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׂלָמוֹת֙",
+      "gloss": "garments",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֵ֣שֶׁק",
+      "gloss": "weapons",
       "readings": [
-        "his tribute",
-        "his offering"
+        "weapons",
+        "spices"
       ],
-      "held_by": {
-        "his tribute": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his offering": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כלי",
-      "gloss": "vessels of"
+      "surface": "וּבְשָׂמִ֔ים",
+      "gloss": "and spices",
+      "sense": "S1"
     },
     {
-      "surface": "כסף",
-      "gloss": "silver"
+      "surface": "סוּסִ֖ים",
+      "gloss": "horses",
+      "sense": "S1"
     },
     {
-      "surface": "וכלי",
-      "gloss": "and vessels of"
+      "surface": "וּפְרָדִ֑ים",
+      "gloss": "and mules",
+      "sense": "S1"
     },
     {
-      "surface": "זהב",
-      "gloss": "gold"
+      "surface": "דְּבַר",
+      "gloss": "the matter of",
+      "sense": "S1"
     },
     {
-      "surface": "ושלמות",
-      "gloss": "and garments"
+      "surface": "שָׁנָ֖ה",
+      "gloss": "a year",
+      "sense": "S1"
     },
     {
-      "surface": "ונשק",
-      "gloss": "and weapons"
-    },
-    {
-      "surface": "ובשמים",
-      "gloss": "and spices"
-    },
-    {
-      "surface": "סוסים",
-      "gloss": "horses"
-    },
-    {
-      "surface": "ופרדים",
-      "gloss": "and mules"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "the matter"
-    },
-    {
-      "surface": "שנה",
-      "gloss": "of a year"
-    },
-    {
-      "surface": "בשנה",
-      "gloss": "in a year"
+      "surface": "בְּשָׁנָֽה",
+      "gloss": "in its year",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:56:35.380877087Z",
+  "model": "glm-5.3"
 }

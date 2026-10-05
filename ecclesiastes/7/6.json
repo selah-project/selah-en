@@ -1,70 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "For like the sound of thorns under the pot, so ⟨is⟩ the laughter of the fool — and even this ⟨is⟩ vapor.",
+  "ref": "ecclesiastes 7:6",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "סִירִים",
+      "rationale": "Same consonants mean 'thorns' and 'pots'; a crackling fire of thorns under a pot vs. pots under a pot — most take thorns here, the pun likely deliberate"
+    },
+    {
+      "kind": "substitution",
+      "subject": "vapor",
+      "rationale": "הֶבֶל literally breath\/vapor; rendered 'vanity' or 'meaningless' in many versions"
+    }
+  ],
+  "translation": "For like the crackling of thorns under a pot, so is the laughter of the fool — and this too is vapor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "60aff87f4c0ddb1c86ce7e2e4a0bac5c3c4a26382e510d0d7f6a7ff360f2dac7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/5-8.1791194876440.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "כקול",
+      "surface": "כְּקוֹל",
       "gloss": "like the sound of"
     },
     {
-      "surface": "הסירים",
-      "gloss": "thorns"
+      "surface": "הַסִּירִים",
+      "gloss": "thorns",
+      "sense": "S1"
     },
     {
-      "surface": "תחת",
+      "surface": "תַּחַת",
       "gloss": "under"
     },
     {
-      "surface": "הסיר",
-      "gloss": "the pot"
+      "surface": "הַסִּיר",
+      "gloss": "the pot",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
+      "surface": "כֵּן",
       "gloss": "so"
     },
     {
-      "surface": "שחק",
-      "gloss": "the laughter"
+      "surface": "שְׂחֹק",
+      "gloss": "the laughter of",
+      "sense": "S1"
     },
     {
-      "surface": "הכסיל",
-      "gloss": "of the fool"
+      "surface": "הַכְּסִיל",
+      "gloss": "the fool",
+      "sense": "S1"
     },
     {
-      "surface": "וגם",
-      "gloss": "and even"
+      "surface": "וְגַם",
+      "gloss": "and even",
+      "sense": "S1"
     },
     {
-      "surface": "זה",
-      "gloss": "this"
+      "surface": "זֶה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "הבל",
+      "surface": "הָבֶל",
       "gloss": "vapor",
+      "sense": "S1",
       "readings": [
         "vapor",
-        "hevel",
-        "vanity"
-      ],
-      "held_by": {
-        "vapor": [
-          "v1",
-          "v3"
-        ],
-        "hevel": [
-          "v2"
-        ],
-        "vanity": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "futility"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:56.441544820Z",
+  "model": "glm-5.3"
 }

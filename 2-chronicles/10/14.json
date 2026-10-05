@@ -1,10 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And he spoke to them according to the counsel of the young men, saying, 'My father made ⟨את⟩ your yoke heavy, and I will add to it; my father disciplined ⟨את⟩ you with whips, and I ⟨will discipline you⟩ with scorpions.'",
+  "ref": "2-chronicles 10:14",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "young men",
+      "rationale": "הילדים is literally 'the children\/lads'; context contrasts them with the elders of v. 13."
+    },
+    {
+      "kind": "crux",
+      "subject": "scorpions",
+      "rationale": "עקרבים here likely a knotted scourge ('scorpion-whips'), though the Hebrew keeps only 'scorpions'; the parallel 1 Kgs 12:14 reads 'I will discipline you with scorpions'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "to it",
+      "rationale": "1 Kgs 12:14 spells out 'upon your yoke'; Chronicles has only עליו, 'upon it'."
+    }
+  ],
+  "translation": "And he spoke to them according to the counsel of the young men, saying, “I will make ⟨את⟩ your yoke heavier, and I will add to it: my father disciplined ⟨את⟩ you with whips, and I — with scorpions.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c38c615b26cef8df7ec5745a983d0e722c31a2fe4fb30133d8a02654fef17b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/10\/13-16.1791196663264.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "וידבר",
-      "gloss": "and spoke"
+      "gloss": "and he spoke",
+      "sense": "S1"
     },
     {
       "surface": "אלהם",
@@ -13,67 +46,32 @@
     {
       "surface": "כעצת",
       "gloss": "according to the counsel of",
-      "readings": [
-        "according to the counsel of",
-        "after the counsel of"
-      ],
-      "held_by": {
-        "according to the counsel of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "after the counsel of": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "הילדים",
       "gloss": "the young men",
-      "readings": [
-        "the young men",
-        "the lads"
-      ],
-      "held_by": {
-        "the young men": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "אכביד",
       "gloss": "I will make heavy",
-      "readings": [
-        "I will make heavy",
-        "made heavy"
-      ],
-      "held_by": {
-        "I will make heavy": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "made heavy": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "your yoke"
     },
     {
       "surface": "עלכם",
-      "gloss": "your yoke"
+      "gloss": "your yoke",
+      "sense": "S1"
     },
     {
       "surface": "ואני",
@@ -85,51 +83,27 @@
     },
     {
       "surface": "עליו",
-      "gloss": "to it",
-      "readings": [
-        "to it",
-        "upon it"
-      ],
-      "held_by": {
-        "to it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon it": [
-          "en4"
-        ]
-      }
+      "gloss": "to it"
     },
     {
       "surface": "אבי",
-      "gloss": "my father"
+      "gloss": "my father",
+      "sense": "S1"
     },
     {
       "surface": "יסר",
       "gloss": "disciplined",
-      "readings": [
-        "disciplined",
-        "chastised"
-      ],
-      "held_by": {
-        "disciplined": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "chastised": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
+      "gloss": "⟨את⟩ you",
+      "marks": "you"
     },
     {
       "surface": "בשוטים",
-      "gloss": "with whips"
+      "gloss": "with whips",
+      "sense": "S1"
     },
     {
       "surface": "ואני",
@@ -137,9 +111,10 @@
     },
     {
       "surface": "בעקרבים",
-      "gloss": "with scorpions"
+      "gloss": "with scorpions",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:37:43.265584487Z",
+  "model": "glm-5.3"
 }

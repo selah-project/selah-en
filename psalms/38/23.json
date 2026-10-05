@@ -1,24 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "Hasten to my help, Adonai, my salvation.",
-  "tokens": [
+  "ref": "psalms 38:23",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "חושה",
-      "gloss": "hasten"
+      "kind": "substitution",
+      "subject": "my rescuer",
+      "rationale": "תשועתי is a noun, 'my rescue\/salvation'; rendered as agent ('my rescuer') in apposition to Adonai, one of the verse's two readings."
     },
     {
-      "surface": "לעזרתי",
-      "gloss": "to my help"
+      "kind": "alternative",
+      "subject": "my rescue",
+      "rationale": "Read as an abstract noun in apposition: 'Adonai, my rescue' — my rescue is Adonai himself."
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "תשועתי",
-      "gloss": "my salvation"
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "Imperative direct address to Adonai closing the psalm's plea."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Hurry to my help, Adonai, my rescuer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f5d15149e5941b0ed202ebf678cd3cc9bdfb57a513b2989ef75b54bfeff1c4a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/21-23.1791192656775.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ח֥וּשָׁה",
+      "gloss": "Hurry",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעֶזְרָתִ֑י",
+      "gloss": "to my help",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֝דֹנָ֗י",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשׁוּעָתִֽי",
+      "gloss": "my rescuer",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:56.776686143Z",
+  "model": "glm-5.3"
 }

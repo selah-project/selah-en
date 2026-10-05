@@ -1,56 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And I will strike ⟨את⟩ the inhabitants of this city, and ⟨את⟩ the man and ⟨את⟩ the beast; in ⟨the⟩ great pestilence they shall die.",
+  "ref": "jeremiah 21:6",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "both",
+      "rationale": "English needs a distributor for the three coordinated את objects; Hebrew juxtaposes them flatly."
+    },
+    {
+      "kind": "substitution",
+      "subject": "pestilence",
+      "rationale": "דבר is an epidemic disease regarded as direct divine punishment; 'plague' carries church-register freight."
+    }
+  ],
+  "translation": "And I will strike ⟨את⟩ the dwellers of this city, both ⟨את⟩ the man and ⟨את⟩ the beast — with great pestilence they shall die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "328fc73d3ba8da78d1a95ef93bdffc173c12ba059cbbad1ea52f0da52e64bfb3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/21\/5-8.1791189449686.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "והכיתי",
+      "surface": "וְהִכֵּיתִי",
       "gloss": "And I will strike"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the dwellers of this city"
     },
     {
-      "surface": "יושבי",
-      "gloss": "the inhabitants of"
+      "surface": "יֹשְׁבֵי",
+      "gloss": "the dwellers of",
+      "sense": "S1"
     },
     {
-      "surface": "העיר",
-      "gloss": "the city"
+      "surface": "הָעִיר",
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
-      "surface": "הזאת",
+      "surface": "הַזֹּאת",
       "gloss": "this"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the man"
     },
     {
-      "surface": "האדם",
-      "gloss": "the man"
+      "surface": "הָאָדָם",
+      "gloss": "the man",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the beast"
     },
     {
-      "surface": "הבהמה",
-      "gloss": "the beast"
+      "surface": "הַבְּהֵמָה",
+      "gloss": "the beast",
+      "sense": "S1"
     },
     {
-      "surface": "בדבר",
-      "gloss": "in ⟨the⟩ pestilence"
+      "surface": "בְּדֶבֶר",
+      "gloss": "with pestilence",
+      "sense": "S1"
     },
     {
-      "surface": "גדול",
-      "gloss": "great"
+      "surface": "גָּדוֹל",
+      "gloss": "great",
+      "sense": "S1"
     },
     {
-      "surface": "ימתו",
-      "gloss": "they shall die"
+      "surface": "יָמֻתוּ",
+      "gloss": "they shall die",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:37:29.689242222Z",
+  "model": "glm-5.3"
 }

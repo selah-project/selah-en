@@ -1,66 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And the priest shall value ⟨את⟩ her, between good and between bad; as your valuation, O priest, so it shall be.",
-  "tokens": [
+  "ref": "leviticus 27:12",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "והעריך",
-      "gloss": "and the priest shall value",
-      "readings": [
-        "and the priest shall value",
-        "and the priest shall set in order"
-      ],
-      "held_by": {
-        "and the priest shall value": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the priest shall set in order": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "O priest",
+      "rationale": "הַכֹּהֵן is an appositive second-person address ('the priest, that is, you'); vocative form supplied by English."
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "kind": "you",
+      "subject": "to the priest",
+      "rationale": "The clause 'as your valuation, O priest' addresses the priest directly."
     },
     {
-      "surface": "אתה",
-      "gloss": "⟨את⟩ her"
-    },
-    {
-      "surface": "בין",
-      "gloss": "between"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "ובין",
-      "gloss": "and between"
-    },
-    {
-      "surface": "רע",
-      "gloss": "bad"
-    },
-    {
-      "surface": "כערכך",
-      "gloss": "as your valuation"
-    },
-    {
-      "surface": "הכהן",
-      "gloss": "O priest"
-    },
-    {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "יהיה",
-      "gloss": "it shall be"
+      "kind": "measurement",
+      "subject": "valuation",
+      "rationale": "The verse prescribes assigning monetary value between good and bad — an estimate."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the priest shall set its value ⟨את⟩, between good and between bad; as your valuation, O priest, so it shall be.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe4b52b035db0152ff53642ca024876405b4843afdbed5cece0c361fcf97f566",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/27\/9-12.1791182730223.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהֶעֱרִיךְ",
+      "gloss": "And shall set the value of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹתָהּ",
+      "gloss": "⟨את⟩ it",
+      "marks": "it",
+      "sense": null
+    },
+    {
+      "surface": "בֵּין",
+      "gloss": "between",
+      "sense": null
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵין",
+      "gloss": "and between",
+      "sense": null
+    },
+    {
+      "surface": "רַע",
+      "gloss": "bad",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּעֶרְכְּךָ",
+      "gloss": "as your valuation",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "O priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵּן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "יִהְיֶה",
+      "gloss": "it shall be",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:45:30.224771853Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "I, Nebuchadnezzar, was at ease in my house, and flourishing in my palace.",
-  "tokens": [
+  "ref": "daniel 4:1",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "אנה",
-      "gloss": "I"
+      "kind": "hapax",
+      "subject": "שְׁלֵה",
+      "rationale": "'at rest' occurs only here in the Tanakh."
     },
     {
-      "surface": "נבוכדנצר",
-      "gloss": "Nebuchadnezzar"
+      "kind": "hapax",
+      "subject": "רַעְנַן",
+      "rationale": "Aramaic 'flourishing\/green' occurs only here in this form in the Tanakh."
     },
     {
-      "surface": "שלה",
-      "gloss": "at ease"
-    },
-    {
-      "surface": "הוית",
-      "gloss": "was"
-    },
-    {
-      "surface": "בביתי",
-      "gloss": "in my house"
-    },
-    {
-      "surface": "ורענן",
-      "gloss": "and flourishing"
-    },
-    {
-      "surface": "בהיכלי",
-      "gloss": "in my palace"
+      "kind": "you",
+      "subject": "to the reader",
+      "rationale": "Nebuchadnezzar's first-person proclamation opens the letter."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I, Nebuchadnezzar, was at rest in my house and flourishing in my palace.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "da959703ac5320e662792bfa88eaada8905d5a8cbeee4cac32f3901394f88559",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/4\/1-4.1791195240028.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲנָ֣ה",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "נְבוּכַדְנֶצַּ֗ר",
+      "gloss": "Nebuchadnezzar",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלֵ֤ה",
+      "gloss": "at rest",
+      "readings": [
+        "at rest",
+        "secure"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הֲוֵית֙",
+      "gloss": "was",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּבֵיתִ֔י",
+      "gloss": "in my house",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרַעְנַ֖ן",
+      "gloss": "and flourishing",
+      "readings": [
+        "and flourishing",
+        "and green"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּהֵיכְלִֽי",
+      "gloss": "in my palace",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:14:00.028799139Z",
+  "model": "glm-5.3"
 }

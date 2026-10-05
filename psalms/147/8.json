@@ -1,58 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "⟨He⟩ who covers the heavens with clouds, who prepares rain for the earth, who makes grass sprout on the mountains.",
-  "tokens": [
+  "ref": "psalms 147:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 147,
+  "notes": [
     {
-      "surface": "המכסה",
-      "gloss": "who covers"
+      "kind": "substitution",
+      "subject": "כנור",
+      "rationale": "verse 7's instrument rendered 'lyre', the standard identification of the wood-armed stringed instrument."
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens",
-      "readings": [
-        "the heavens",
-        "the sky"
-      ],
-      "held_by": {
-        "the heavens": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the sky": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בעבים",
-      "gloss": "with clouds"
-    },
-    {
-      "surface": "המכין",
-      "gloss": "who prepares"
-    },
-    {
-      "surface": "לארץ",
-      "gloss": "for the earth"
-    },
-    {
-      "surface": "מטר",
-      "gloss": "rain"
-    },
-    {
-      "surface": "המצמיח",
-      "gloss": "who makes sprout"
-    },
-    {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "חציר",
-      "gloss": "grass"
+      "kind": "wordplay",
+      "subject": "triple participle",
+      "rationale": "three article+participle epithets in parallel, a chain naming Elohim by His works."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "the-One-covering the heavens with clouds, the-One-preparing for the earth rain, the-One-sprouting the mountains grass.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "babd6428f1aa83e3f00b3cb21686c5968dfd775c14b05fb8d046e732f78580b6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/147\/5-8.1791193649287.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַֽמְכַסֶּ֬ה",
+      "gloss": "the-One-covering",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַ֨יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעָבִ֗ים",
+      "gloss": "with clouds",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמֵּכִ֣ין",
+      "gloss": "the-One-preparing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָאָ֣רֶץ",
+      "gloss": "for the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָטָ֑ר",
+      "gloss": "rain",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמַּצְמִ֖יחַ",
+      "gloss": "the-One-sprouting",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִ֣ים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָצִֽיר",
+      "gloss": "grass",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:29.288455976Z",
+  "model": "glm-5.3"
 }

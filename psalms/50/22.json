@@ -1,44 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Understand now this, you forgetters of Eloah, lest I tear you in pieces and there be no deliverer.",
-  "tokens": [
+  "ref": "psalms 50:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
     {
-      "surface": "בינו",
-      "gloss": "Understand"
+      "kind": "substitution",
+      "subject": "tear to pieces",
+      "rationale": "טרף is the predator's rending with claws and teeth; kept literal rather than softened to 'destroy'."
     },
     {
-      "surface": "נא",
+      "kind": "addition",
+      "subject": "⟨you⟩",
+      "rationale": "אטרף carries no object; the torn one is supplied."
+    },
+    {
+      "kind": "invitation",
+      "subject": "you who forget El",
+      "rationale": "Imperative בינו נא summons the forgetters to understanding — the psalm's final warning."
+    }
+  ],
+  "translation": "Understand now this, you who forget El, lest I tear ⟨you⟩ to pieces and there be no deliverer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e973ad816f62adf4f76391b0153c2049862d94a98c0feec3896ef6f4e2a2cb86",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/50\/21-23.1791192761531.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בִּינוּ",
+      "gloss": "Understand",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָא",
       "gloss": "now"
     },
     {
-      "surface": "זאת",
+      "surface": "זֹאת",
       "gloss": "this"
     },
     {
-      "surface": "שכחי",
-      "gloss": "you forgetters of"
+      "surface": "שֹׁכְחֵי",
+      "gloss": "you who forget",
+      "sense": "S1"
     },
     {
-      "surface": "אלוה",
-      "gloss": "Eloah"
+      "surface": "אֱלוֹהַּ",
+      "gloss": "El",
+      "sense": "S1"
     },
     {
-      "surface": "פן",
+      "surface": "פֶּן",
       "gloss": "lest"
     },
     {
-      "surface": "אטרף",
-      "gloss": "I tear in pieces"
+      "surface": "אֶטְרֹף",
+      "gloss": "I tear to pieces",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is no"
+      "surface": "וְאֵין",
+      "gloss": "and there be no"
     },
     {
-      "surface": "מציל",
-      "gloss": "deliverer"
+      "surface": "מַצִּיל",
+      "gloss": "deliverer",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:41.532551220Z",
+  "model": "glm-5.3"
 }

@@ -1,98 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "For he will rescue the needy one crying out, and the poor man, and there is no helper for him.",
+  "ref": "psalms 72:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "משוע",
+      "rationale": "participle 'one crying out' rendered as a temporal clause 'when he cries' to name the circumstance of deliverance."
+    },
+    {
+      "kind": "alternative",
+      "subject": "ועני ואין עוזר לו",
+      "rationale": "may read 'and the poor who has no helper' — the two phrases apposed to one person rather than two classes."
+    }
+  ],
+  "translation": "For he delivers the needy when he cries, and the poor, and him who has no helper.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3c1ec8a2eee4c7be059340b69022583c03f43a3eb9e8236a8621373a67975e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/9-12.1791192979568.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "יציל",
-      "gloss": "he will rescue",
-      "readings": [
-        "he will rescue",
-        "he rescues"
-      ],
-      "held_by": {
-        "he will rescue": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he rescues": [
-          "en4"
-        ]
-      }
+      "surface": "יַצִּ֭יל",
+      "gloss": "he delivers",
+      "sense": "S1"
     },
     {
-      "surface": "אביון",
-      "gloss": "the needy one",
-      "readings": [
-        "the needy one",
-        "the needy"
-      ],
-      "held_by": {
-        "the needy one": [
-          "v1",
-          "v3"
-        ],
-        "the needy": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "אֶבְי֣וֹן",
+      "gloss": "the needy",
+      "sense": "S1"
     },
     {
-      "surface": "משוע",
-      "gloss": "crying out",
-      "readings": [
-        "crying out",
-        "one crying out"
-      ],
-      "held_by": {
-        "crying out": [
-          "v1",
-          "v3"
-        ],
-        "one crying out": [
-          "en4"
-        ],
-        "who cries": [
-          "v2"
-        ]
-      }
+      "surface": "מְשַׁוֵּ֑עַ",
+      "gloss": "when he cries",
+      "sense": "S1"
     },
     {
-      "surface": "ועני",
-      "gloss": "and the poor man",
-      "readings": [
-        "and the poor man",
-        "and the poor"
-      ],
-      "held_by": {
-        "and the poor man": [
-          "v1",
-          "v3"
-        ],
-        "and the poor": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "וְ֝עָנִ֗י",
+      "gloss": "and the poor",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
+      "surface": "וְֽאֵין",
       "gloss": "and there is no"
     },
     {
-      "surface": "עזר",
-      "gloss": "helper"
+      "surface": "עֹזֵ֥ר",
+      "gloss": "helper",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
+      "surface": "לֽוֹ",
       "gloss": "for him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:36:19.569199450Z",
+  "model": "glm-5.3"
 }

@@ -1,81 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The cords of death surrounded me, and the torrents of Belial terrified me.",
-  "tokens": [
+  "ref": "psalms 18:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "אפפוני",
-      "gloss": "surrounded me"
+      "kind": "crux",
+      "subject": "Belial",
+      "rationale": "בליעל as 'worthlessness\/destruction' personified vs the name Belial; the parallel 2 Sam 22:5 reads the same."
     },
     {
-      "surface": "חבלי",
-      "gloss": "the cords of",
-      "readings": [
-        "the cords of",
-        "the pangs of",
-        "the sorrows of"
-      ],
-      "held_by": {
-        "the cords of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the pangs of": [
-          "en4"
-        ],
-        "the sorrows of": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "torrents",
+      "rationale": "2 Sam 22:5 has 'breakers of death' (משברי) where Psalms 18:5 has 'cords' (חבלי), a near-form wordplay across the versions."
     },
     {
-      "surface": "מות",
-      "gloss": "death"
-    },
-    {
-      "surface": "ונחלי",
-      "gloss": "and the torrents of",
-      "readings": [
-        "and the torrents of",
-        "and the wadis of"
-      ],
-      "held_by": {
-        "and the torrents of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and the wadis of": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בליעל",
-      "gloss": "Belial",
-      "readings": [
-        "Belial",
-        "worthlessness"
-      ],
-      "held_by": {
-        "Belial": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "worthlessness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יבעתוני",
-      "gloss": "terrified me"
+      "kind": "wordplay",
+      "subject": "חבלי…יבעתוני",
+      "rationale": "suffixed verbs אפפוני\/יבעתוני and the doubled construct chains build a rocking parallelism of entrapment."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The cords of death have surrounded me, and torrents of Belial have terrified me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f14402960161c8b4ee95f12d411d983bb2370530a70fc39f7e1ecab8ed4d0f79",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/5-8.1791192458048.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲפָפ֥וּנִי",
+      "gloss": "have surrounded me",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶבְלֵי",
+      "gloss": "the cords of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָ֑וֶת",
+      "gloss": "death",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽנַחֲלֵ֖י",
+      "gloss": "and torrents of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְלִיַּ֣עַל",
+      "gloss": "Belial",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְבַֽעֲתֽוּנִי",
+      "gloss": "have terrified me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:38.048935498Z",
+  "model": "glm-5.3"
 }

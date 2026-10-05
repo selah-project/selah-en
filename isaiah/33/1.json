@@ -1,14 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Woe to the destroyer, and you were not destroyed; to the traitor, and they did not deal treacherously with him! When you finish destroying, you will be destroyed; when you finish dealing treacherously, they will deal treacherously against you.",
+  "ref": "isaiah 33:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "שודד\/שדוד\/תושד",
+      "rationale": "Three forms of one root pivoting on one consonant — destroyer\/destroyed\/you-shall-be-destroyed — a symmetry English can only echo by repeating 'destroy'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בגד\/בגדו\/לבגד\/יבגדו",
+      "rationale": "The betrayer-root sounds four times in the verse, mirroring the שׁדד chain."
+    },
+    {
+      "kind": "hapax",
+      "subject": "כנלתך",
+      "rationale": "Verb נלה occurs only here; rendered 'finish' parallel to תמם."
+    },
+    {
+      "kind": "alternative",
+      "subject": "בך",
+      "rationale": "Suffix is grammatically 2nd feminine though addressed to a masculine destroyer; rendered simply 'you'."
+    },
+    {
+      "kind": "crux",
+      "subject": "בגדו בו",
+      "rationale": "Read as 'they have not betrayed him' (the destroyer unbetrayed so far) or 'one has not betrayed' impersonally."
+    }
+  ],
+  "translation": "Ho, destroyer, and you were not destroyed; betrayer, and they have not betrayed ⟨him⟩; ⟨when⟩ you finish destroying, you shall be destroyed; ⟨when⟩ you finish ⟨dealing treacherously⟩, they will deal treacherously with you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc6268de457e4cb00d3abb8c329c573c2e58c8f2c8de8c56e42339153a7ce41b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/1-4.1791188488744.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe"
+      "gloss": "Ho",
+      "sense": "S1"
     },
     {
       "surface": "שודד",
-      "gloss": "the destroyer"
+      "gloss": "destroyer",
+      "sense": "S1"
     },
     {
       "surface": "ואתה",
@@ -16,57 +60,68 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "שדוד",
-      "gloss": "destroyed"
+      "gloss": "destroyed",
+      "sense": "S1"
     },
     {
       "surface": "ובוגד",
-      "gloss": "and the traitor"
+      "gloss": "betrayer",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "בגדו",
-      "gloss": "did they deal treacherously"
+      "gloss": "have betrayed",
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "with him"
+      "gloss": "⟨him⟩"
     },
     {
       "surface": "כהתמך",
-      "gloss": "when you finish"
+      "gloss": "⟨when⟩ you finish",
+      "sense": "S1"
     },
     {
       "surface": "שודד",
-      "gloss": "destroying"
+      "gloss": "destroying",
+      "sense": "S1"
     },
     {
       "surface": "תושד",
-      "gloss": "you will be destroyed"
+      "gloss": "you shall be destroyed",
+      "sense": "S1"
     },
     {
       "surface": "כנלתך",
-      "gloss": "when you finish"
+      "gloss": "⟨when⟩ you finish",
+      "sense": "S1"
     },
     {
       "surface": "לבגד",
-      "gloss": "dealing treacherously"
+      "gloss": "⟨dealing treacherously⟩",
+      "sense": "S1"
     },
     {
       "surface": "יבגדו",
-      "gloss": "they will deal treacherously"
+      "gloss": "they will deal treacherously",
+      "sense": "S1"
     },
     {
       "surface": "בך",
-      "gloss": "against you"
+      "gloss": "with you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:28.748259657Z",
+  "model": "glm-5.3"
 }

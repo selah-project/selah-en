@@ -1,77 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Not so the wicked, but like the chaff that the wind drives away.",
-  "tokens": [
+  "ref": "psalms 1:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "Not"
+      "kind": "wordplay",
+      "subject": "tree vs chaff",
+      "rationale": "The simile inverts v.3: the rooted, watered tree against rootless chaff the wind sweeps — weightlessness versus rootedness."
     },
     {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "הרשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "כי",
-      "gloss": "but",
-      "readings": [
-        "but",
-        "for"
-      ],
-      "held_by": {
-        "but": [
-          "v1",
-          "v3"
-        ],
-        "for": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אם",
-      "gloss": "rather"
-    },
-    {
-      "surface": "כמץ",
-      "gloss": "like the chaff"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "תדפנו",
-      "gloss": "drives it away"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "the wind",
-      "readings": [
-        "the wind",
-        "the breath",
-        "the spirit"
-      ],
-      "held_by": {
-        "the wind": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the breath": [
-          "en4"
-        ],
-        "the spirit": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "רוח",
+      "rationale": "'Wind' plain sense here; the word's range (wind\/breath\/spirit) invites later theological readings the plain picture does not require."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Not so the wicked — rather, like chaff that wind drives away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a907db44dc7bd7aef8fda0160324350c1231340a3c03546587415585ef6457f8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/1\/1-4.1791192368705.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "Not",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵ֥ן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "הָרְשָׁעִ֑ים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "rather",
+      "sense": null
+    },
+    {
+      "surface": "אִם",
+      "gloss": "⟨but⟩",
+      "sense": null
+    },
+    {
+      "surface": "כַּמֹּ֗ץ",
+      "gloss": "like chaff",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲֽשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "תִּדְּפֶ֥נּוּ",
+      "gloss": "drives away",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֽוּחַ",
+      "gloss": "wind",
+      "sense": "S1",
+      "readings": [
+        "wind",
+        "spirit",
+        "breath"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:08.706974774Z",
+  "model": "glm-5.3"
 }

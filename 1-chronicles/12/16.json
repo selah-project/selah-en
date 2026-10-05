@@ -1,53 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "These are they that crossed over ⟨את⟩ the Jordan in the first month, when it was filling over all its banks, and they put to flight ⟨את⟩ all the valleys, eastward and westward.",
-  "tokens": [
+  "ref": "1-chronicles 12:16",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "אלה",
-      "gloss": "These"
+      "kind": "hapax",
+      "subject": "גדיתיו",
+      "rationale": "Ketiv גדיתיו read as qere גדותיו, 'banks', occurs only here in the Tanakh."
     },
     {
-      "surface": "הם",
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Participle ממלא lacks an English copula; supplied to carry the progressive."
+    },
+    {
+      "kind": "alternative",
+      "subject": "they made all the valleys flee",
+      "rationale": "Hiphil of ברח could mean the warriors drove out the valleys' inhabitants; the literal 'made the valleys flee' is kept."
+    }
+  ],
+  "translation": "These are they who crossed ⟨את⟩ the Jordan in the first month, and it was filling over all its banks, and they made all the valleys flee eastward and westward.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "07ac3505f975bef8125812b5826c3953fd311b56acb2d4dad8713b54438ce1d6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/12\/16-16.1791200522822.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֣לֶּה",
+      "gloss": "These",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵ֗ם",
       "gloss": "are they"
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
+      "surface": "אֲשֶׁ֨ר",
+      "gloss": "who"
     },
     {
-      "surface": "עברו",
-      "gloss": "crossed over"
+      "surface": "עָבְר֤וּ",
+      "gloss": "crossed",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the Jordan"
     },
     {
-      "surface": "הירדן",
-      "gloss": "the Jordan"
+      "surface": "הַיַּרְדֵּן֙",
+      "gloss": "the Jordan",
+      "sense": "S1"
     },
     {
-      "surface": "בחדש",
-      "gloss": "in the month"
+      "surface": "בַּחֹ֣דֶשׁ",
+      "gloss": "in the month",
+      "sense": "S1"
     },
     {
-      "surface": "הראשון",
-      "gloss": "the first"
+      "surface": "הָרִאשָׁׁ֔ן",
+      "gloss": "the first",
+      "sense": "S1"
     },
     {
-      "surface": "והוא",
-      "gloss": "when it"
+      "surface": "וְה֥וּא",
+      "gloss": "and it"
     },
     {
-      "surface": "ממלא",
-      "gloss": "was filling"
+      "surface": "מְמַלֵּ֖א",
+      "gloss": "was filling",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "over"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
@@ -55,45 +94,39 @@
       "gloss": "its banks",
       "readings": [
         "its banks",
-        "its ravines"
-      ],
-      "held_by": {
-        "its banks": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "its ravines": [
-          "en4"
-        ]
-      }
+        "its channels"
+      ]
     },
     {
-      "surface": "ויבריחו",
-      "gloss": "and they put to flight"
+      "surface": "וַיַּבְרִ֨יחוּ֙",
+      "gloss": "and they made flee",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "all the valleys"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "העמקים",
-      "gloss": "the valleys"
+      "surface": "הָעֲמָקִ֔ים",
+      "gloss": "the valleys",
+      "sense": "S1"
     },
     {
-      "surface": "למזרח",
-      "gloss": "eastward"
+      "surface": "לַמִּזְרָ֖ח",
+      "gloss": "eastward",
+      "sense": "S1"
     },
     {
-      "surface": "ולמערב",
-      "gloss": "and westward"
+      "surface": "וְלַמַּעֲרָֽב",
+      "gloss": "and westward",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:42:02.822940454Z",
+  "model": "glm-5.3"
 }

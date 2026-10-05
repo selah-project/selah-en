@@ -1,44 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Woe to me, that I have sojourned in Meshek, that I dwell with the tents of Kedar.",
-  "tokens": [
+  "ref": "psalms 120:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 120,
+  "notes": [
     {
-      "surface": "אויה",
-      "gloss": "Woe"
+      "kind": "hapax",
+      "subject": "אויה",
+      "rationale": "This word for 'woe' occurs only here in the Tanakh."
     },
     {
-      "surface": "לי",
+      "kind": "wordplay",
+      "subject": "Meshek \/ Kedar",
+      "rationale": "Two distant peoples (Anatolia and Arabian nomads) paired as hyperbole for exile among the remote and warlike; the pairing is geographic, not literal."
+    }
+  ],
+  "translation": "Woe to me, that I sojourned in Meshek, that I dwelt with the tents of Kedar!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c5b9273cb129e16ba311517833c0c6558a42ad9f96d2d678a5670bfbb1527ec7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/120\/5-7.1791193502725.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֽוֹיָה",
+      "gloss": "Woe",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֭י",
       "gloss": "to me"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "גרתי",
-      "gloss": "I have sojourned"
+      "surface": "גַּרְתִּי",
+      "gloss": "I sojourned",
+      "sense": "S1"
     },
     {
-      "surface": "משך",
-      "gloss": "Meshek"
+      "surface": "מֶשֶׁךְ",
+      "gloss": "in Meshek",
+      "sense": "S1"
     },
     {
-      "surface": "שכנתי",
-      "gloss": "I dwell"
+      "surface": "שָׁכַ֗נְתִּי",
+      "gloss": "I dwelt",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
+      "surface": "עִֽם",
       "gloss": "with"
     },
     {
-      "surface": "אהלי",
-      "gloss": "the tents of"
+      "surface": "אָהֳלֵי",
+      "gloss": "the tents of",
+      "sense": "S1"
     },
     {
-      "surface": "קדר",
-      "gloss": "Kedar"
+      "surface": "קֵדָֽר",
+      "gloss": "Kedar",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:02.726469022Z",
+  "model": "glm-5.3"
 }

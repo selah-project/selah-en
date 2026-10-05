@@ -1,72 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "All who see me mock me; they curl the lip, they shake the head:",
-  "tokens": [
+  "ref": "psalms 22:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "all"
+      "kind": "hapax",
+      "subject": "יפטירו",
+      "rationale": "Rare verb פטר here means 'to part\/curl the lip', a mocking gesture; elsewhere 'to release'."
     },
     {
-      "surface": "ראי",
-      "gloss": "who see me"
-    },
-    {
-      "surface": "ילעגו",
-      "gloss": "they mock"
-    },
-    {
-      "surface": "לי",
-      "gloss": "at me"
-    },
-    {
-      "surface": "יפטירו",
-      "gloss": "they curl",
-      "readings": [
-        "they curl",
-        "they part",
-        "they stick out"
-      ],
-      "held_by": {
-        "they curl": [
-          "v2",
-          "v3"
-        ],
-        "they part": [
-          "en4"
-        ],
-        "they stick out": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בשפה",
-      "gloss": "the lip"
-    },
-    {
-      "surface": "יניעו",
-      "gloss": "they shake",
-      "readings": [
-        "they shake",
-        "they wag"
-      ],
-      "held_by": {
-        "they shake": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they wag": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ראש",
-      "gloss": "the head"
+      "kind": "addition",
+      "subject": "their",
+      "rationale": "English requires the possessive before 'lip' and article before 'head'; Hebrew has neither."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All who see me mock me; they curl ⟨their⟩ lip, they shake ⟨the⟩ head.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e3d32574fc3502f4b6624bbcb3e7c2bca988d5c2d919dfd67b3f412fb65c9f5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/5-8.1791192493232.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "רֹאַי",
+      "gloss": "who see me",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַלְעִגוּ",
+      "gloss": "mock",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "me",
+      "sense": null
+    },
+    {
+      "surface": "יַפְטִירוּ",
+      "gloss": "they curl",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשָׂפָה",
+      "gloss": "⟨their⟩ lip",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָנִיעוּ",
+      "gloss": "they shake",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹאשׁ",
+      "gloss": "⟨the⟩ head",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:13.233803547Z",
+  "model": "glm-5.3"
 }

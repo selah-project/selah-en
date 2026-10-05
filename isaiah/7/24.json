@@ -1,38 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "With arrows and with a bow ⟨one⟩ shall come there; for brier and thorn shall all the land become.",
+  "ref": "isaiah 7:24",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "one",
+      "rationale": "Hebrew uses an impersonal third masculine 'he shall come'; English needs a subject"
+    },
+    {
+      "kind": "alternative",
+      "subject": "יבוא שמה",
+      "rationale": "one comes with bow and arrows to hunt the game now hiding in the overgrown land"
+    }
+  ],
+  "translation": "With arrows and with the bow shall one come there, for briers and thorns shall all the land become.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cdd4beaac3a8dc2653e0c41e9a7e0f584419317c3dbe047c4bdad7b2981ca878",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/7\/21-24.1791188111137.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "בחצים",
-      "gloss": "With arrows"
+      "gloss": "With arrows",
+      "sense": "S1"
     },
     {
       "surface": "ובקשת",
-      "gloss": "and with a bow"
+      "gloss": "and with the bow",
+      "sense": "S1"
     },
     {
       "surface": "יבוא",
-      "gloss": "shall ⟨one⟩ come"
+      "gloss": "shall one come",
+      "sense": null
     },
     {
       "surface": "שמה",
-      "gloss": "there"
+      "gloss": "there",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "שמיר",
-      "gloss": "brier"
+      "gloss": "briers",
+      "sense": "S1"
     },
     {
       "surface": "ושית",
-      "gloss": "and thorn"
+      "gloss": "and thorns",
+      "sense": "S1"
     },
     {
       "surface": "תהיה",
-      "gloss": "shall become"
+      "gloss": "shall become",
+      "sense": null
     },
     {
       "surface": "כל",
@@ -41,23 +76,9 @@
     {
       "surface": "הארץ",
       "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:15:11.138497516Z",
+  "model": "glm-5.3"
 }

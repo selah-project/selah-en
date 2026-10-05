@@ -1,70 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "YHWH of hosts is with us; a high tower for us is the Elohim of Jacob. Selah.",
-  "tokens": [
+  "ref": "psalms 46:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; supplied in the flow."
     },
     {
-      "surface": "צבאות",
+      "kind": "substitution",
+      "subject": "Selah",
+      "rationale": "A musical pause mark with no English equivalent, kept as a transliterated term."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "refrain",
+      "rationale": "Verse repeats 46:8 word for word as the psalm's closing refrain."
+    }
+  ],
+  "translation": "YHWH of hosts is with us, a fortress for us, the Elohim of Jacob. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e3c0d0b6678e2b5fd0fcc2cadc8a9ff9b235d56facb337a8caa3fae79006e84a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/46\/9-12.1791192725797.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְבָא֣וֹת",
       "gloss": "of hosts",
       "readings": [
         "of hosts",
+        "Tsevaot",
         "of armies"
       ],
-      "held_by": {
-        "of hosts": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of armies": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עמנו",
-      "gloss": "with us"
+      "surface": "עִמָּ֑נוּ",
+      "gloss": "is with us",
+      "sense": null
     },
     {
-      "surface": "משגב",
-      "gloss": "a high tower",
-      "readings": [
-        "a high tower",
-        "a stronghold"
-      ],
-      "held_by": {
-        "a high tower": [
-          "v2",
-          "v3"
-        ],
-        "a stronghold": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "מִשְׂגָּֽב",
+      "gloss": "a fortress",
+      "sense": "S1"
     },
     {
-      "surface": "לנו",
-      "gloss": "for us"
+      "surface": "לָ֝נוּ",
+      "gloss": "for us",
+      "sense": null
     },
     {
-      "surface": "אלהי",
-      "gloss": "Elohim of"
+      "surface": "אֱלֹהֵ֖י",
+      "gloss": "the Elohim of",
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "Jacob"
+      "surface": "יַעֲקֹ֣ב",
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:05.798520467Z",
+  "model": "glm-5.3"
 }

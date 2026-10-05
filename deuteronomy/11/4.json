@@ -1,137 +1,146 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "and what he did to the army of Egypt, to its horses and to its chariots, when He made ⟨את⟩ the waters of the Sea of Reeds overflow upon their faces as they pursued after you, and YHWH destroyed them unto this day —",
-  "tokens": [
+  "ref": "deuteronomy 11:4",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ואשר",
-      "gloss": "and what"
+      "kind": "crux",
+      "subject": "Sea of Reeds",
+      "rationale": "ים סוף is literally 'Sea of Reeds'; tradition renders 'Red Sea' — the reed reading keeps the Hebrew."
     },
     {
-      "surface": "עשה",
-      "gloss": "he did"
+      "kind": "idiom",
+      "subject": "their faces",
+      "rationale": "Hebrew על פניהם 'upon their faces' means 'over them'; the literal face-picture is kept."
     },
     {
-      "surface": "לחיל",
-      "gloss": "to the army of",
-      "readings": [
-        "to the army of",
-        "to the force of"
-      ],
-      "held_by": {
-        "to the army of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to the force of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מצרים",
-      "gloss": "Egypt"
-    },
-    {
-      "surface": "לסוסיו",
-      "gloss": "to its horses"
-    },
-    {
-      "surface": "ולרכבו",
-      "gloss": "and to its chariots"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "when"
-    },
-    {
-      "surface": "הציף",
-      "gloss": "He made overflow",
-      "readings": [
-        "He made overflow",
-        "he made flow over",
-        "overflowed"
-      ],
-      "held_by": {
-        "He made overflow": [
-          "v2",
-          "v3"
-        ],
-        "he made flow over": [
-          "en4"
-        ],
-        "overflowed": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "מי",
-      "gloss": "the waters of"
-    },
-    {
-      "surface": "ים",
-      "gloss": "the Sea of"
-    },
-    {
-      "surface": "סוף",
-      "gloss": "Reeds",
-      "readings": [
-        "Reeds",
-        "Suf"
-      ],
-      "held_by": {
-        "Reeds": [
-          "v1",
-          "en4"
-        ],
-        "Suf": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "פניהם",
-      "gloss": "their faces"
-    },
-    {
-      "surface": "ברדפם",
-      "gloss": "as they pursued"
-    },
-    {
-      "surface": "אחריכם",
-      "gloss": "after you"
-    },
-    {
-      "surface": "ויאבדם",
-      "gloss": "and destroyed them"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "עד",
-      "gloss": "unto"
-    },
-    {
-      "surface": "היום",
-      "gloss": "this day"
-    },
-    {
-      "surface": "הזה",
-      "gloss": "this"
+      "kind": "elision",
+      "subject": "את in ויאבדם",
+      "rationale": "The object marker is absorbed into the suffixed verb 'destroyed them,' rendered inside the verb; the row ⟨את⟩ was placed after 'them' to keep the marker count."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and what He did to the army of Egypt, to its horses and to its chariots, when He caused the waters of the Sea of Reeds to flow over their faces as they pursued after you, and YHWH destroyed them ⟨את⟩, until this day.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "04b23d16d960a80ef2955154e8ae3752a931f42ed691ec8d9aa6009c0646c747",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/11\/1-4.1791183800050.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲשֶׁ֣ר",
+      "gloss": "and what",
+      "sense": null
+    },
+    {
+      "surface": "עָשָָׂה֩",
+      "gloss": "He did",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְחֵ֨יל",
+      "gloss": "to the army of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְרַ֜יִם",
+      "gloss": "Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְסוּסָ֣יו",
+      "gloss": "to its horses",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְרִכְבּ֗וֹ",
+      "gloss": "and to its chariots",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֨ר",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "הֵצִ֜יף",
+      "gloss": "He caused … to flow over",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the waters",
+      "sense": null
+    },
+    {
+      "surface": "מֵ֤י",
+      "gloss": "the waters of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַם",
+      "gloss": "Sea",
+      "sense": null
+    },
+    {
+      "surface": "סוּף֙",
+      "gloss": "of Reeds",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "פְּנֵיהֶ֔ם",
+      "gloss": "their faces",
+      "sense": null
+    },
+    {
+      "surface": "בְּרָדְפָ֖ם",
+      "gloss": "as they pursued",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרֵיכֶ֑ם",
+      "gloss": "after you",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיְאַבְּדֵ֣ם",
+      "gloss": "and He destroyed them",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֔ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֖ד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיּ֥וֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזֶּֽה",
+      "gloss": "this",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:03:20.051481993Z",
+  "model": "glm-5.3"
 }

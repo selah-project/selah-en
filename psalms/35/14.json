@@ -1,40 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "As a friend, as a brother to me, I walked about; as one mourning a mother, I bowed myself down in gloom.",
+  "ref": "psalms 35:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨for a⟩",
+      "rationale": "English needs the preposition; Hebrew sets the bare noun אם beside כאבל."
+    },
+    {
+      "kind": "alternative",
+      "subject": "like a mourner of a mother",
+      "rationale": "Either one mourning for his mother — the deepest grief — or a mourning mother."
+    }
+  ],
+  "translation": "Like a friend, like a brother to me, I walked about; like a mourner ⟨for a⟩ mother, darkened, I bowed down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b6d4ffb56d4f41bb8fd2dc7d82ae78d5495580131647e2c5f0ac73214d6dab54",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/13-16.1791192623839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כרע",
-      "gloss": "as a friend"
+      "surface": "כְּרֵעַ",
+      "gloss": "like a friend",
+      "sense": "S1"
     },
     {
-      "surface": "כאח",
-      "gloss": "as a brother"
+      "surface": "כְּאָח",
+      "gloss": "like a brother",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "התהלכתי",
-      "gloss": "I walked about"
+      "surface": "הִתְהַלַּכְתִּי",
+      "gloss": "I walked about",
+      "sense": "S1"
     },
     {
-      "surface": "כאבל",
-      "gloss": "as one mourning"
+      "surface": "כְּאָבֵל",
+      "gloss": "like a mourner",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
-      "gloss": "a mother"
+      "surface": "אֵם",
+      "gloss": "⟨for a⟩ mother",
+      "sense": "S1"
     },
     {
-      "surface": "קדר",
-      "gloss": "in gloom"
+      "surface": "קֹדֵר",
+      "gloss": "darkened",
+      "readings": [
+        "darkened",
+        "clothed in dark mourning"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "שחותי",
-      "gloss": "I bowed myself down"
+      "surface": "שָׁחֹתִי",
+      "gloss": "I bowed down",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:23.840543262Z",
+  "model": "glm-5.3"
 }

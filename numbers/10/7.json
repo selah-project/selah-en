@@ -1,47 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And to gather ⟨את⟩ the assembly, you shall blow, and you shall not sound an alarm.",
-  "tokens": [
+  "ref": "numbers 10:7",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "ובהקהיל",
-      "gloss": "and to gather"
+      "kind": "crux",
+      "subject": "תקע vs ריע",
+      "rationale": "two distinct blasts: תקע the sustained signal-blast, ריע the broken alarm-teruah; verse 7 forbids the alarm for assembly."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הקהל",
-      "gloss": "the assembly",
-      "readings": [
-        "the assembly",
-        "the congregation"
-      ],
-      "held_by": {
-        "the assembly": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the congregation": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תתקעו",
-      "gloss": "you shall blow"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "תריעו",
-      "gloss": "you shall sound an alarm"
+      "kind": "wordplay",
+      "subject": "קהל\/קהל",
+      "rationale": "verb 'gather' and noun 'assembly' share the root, kept visible in English as 'gathering\/assembly' only faintly."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And when ⟨את⟩ the assembly is gathered, you shall blow, but you shall not sound the teruah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "76cb58d2bd2c6a9de7b0ca66e25cf90da64dde904fab5899565026149361d3c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/10\/5-8.1791182963706.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבְהַקְהִיל",
+      "gloss": "and when gathering",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the assembly",
+      "sense": null
+    },
+    {
+      "surface": "הַקָּהָל",
+      "gloss": "the assembly",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּתְקְעוּ",
+      "gloss": "you shall blow",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָרִיעוּ",
+      "gloss": "shall you sound the teruah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:49:23.707874321Z",
+  "model": "glm-5.3"
 }

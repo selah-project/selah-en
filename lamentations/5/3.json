@@ -1,47 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "We have become orphans, without ⟨a⟩ father; our mothers are like widows.",
+  "ref": "lamentations 5:3",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨without⟩",
+      "rationale": "אין is the negative 'not\/there is not'; bracketed word carries the negation"
+    }
+  ],
+  "translation": "We have become orphans, ⟨without a⟩ father; our mothers are like widows.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c9f8467961ce3bb250e139bfa2b29a3b386654f2b95a4448c84e1d003ee3373",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/1-4.1791194768824.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "יתומים",
-      "gloss": "orphans"
+      "surface": "יְתוֹמִים",
+      "gloss": "orphans",
+      "sense": "S1"
     },
     {
-      "surface": "היינו",
+      "surface": "הָיִינוּ",
       "gloss": "we have become"
     },
     {
       "surface": "אין",
-      "gloss": "without",
-      "readings": [
-        "without",
-        "there is no"
-      ],
-      "held_by": {
-        "without": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "there is no": [
-          "en4"
-        ]
-      }
+      "gloss": "⟨without⟩"
     },
     {
-      "surface": "אב",
-      "gloss": "a father"
+      "surface": "אָב",
+      "gloss": "a father",
+      "sense": "S1"
     },
     {
-      "surface": "אמתינו",
-      "gloss": "our mothers"
+      "surface": "אִמֹּתֵינוּ",
+      "gloss": "our mothers",
+      "sense": "S1"
     },
     {
-      "surface": "כאלמנות",
-      "gloss": "like widows"
+      "surface": "כְּאַלְמָנוֹת",
+      "gloss": "like widows",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:06:08.825176674Z",
+  "model": "glm-5.3"
 }

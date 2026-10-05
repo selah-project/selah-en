@@ -1,51 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 48,
-  "translation": "The El who gives vengeance to me, and subdues peoples under me.",
-  "tokens": [
+  "ref": "psalms 18:48",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "האל",
-      "gloss": "The El"
+      "kind": "substitution",
+      "subject": "brings",
+      "rationale": "דבר hiphil here is subjugating peoples by force; 'speak' would mislead, 'subdue' drops the verb's own root"
     },
     {
-      "surface": "הנותן",
+      "kind": "crux",
+      "subject": "וידבר",
+      "rationale": "2 Sam 22:48 reads ומוריד 'and brings down'; Psalm form has the rarer דבר hiphil"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נקמות",
+      "rationale": "plural of intensity, 'vengeances', kept plural; English idiom prefers singular"
+    }
+  ],
+  "translation": "the El who gives vengeances to me, and brings peoples under me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "23ef39fa7d51f96623b72f571cd7ff6f9f413b8ee2e16cb5b40e3039093fdf34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/45-48.1791192478614.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָאֵ֗ל",
+      "gloss": "the El",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנּוֹתֵ֣ן",
       "gloss": "who gives"
     },
     {
-      "surface": "נקמות",
-      "gloss": "vengeance"
+      "surface": "נְקָמֹ֣ת",
+      "gloss": "vengeances",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִ֑י",
       "gloss": "to me"
     },
     {
-      "surface": "וידבר",
-      "gloss": "and subdues",
-      "readings": [
-        "and subdues",
-        "and speaks"
-      ],
-      "held_by": {
-        "and subdues": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and speaks": [
-          "en4"
-        ]
-      }
+      "surface": "וַיַּדְבֵּ֖ר",
+      "gloss": "and brings",
+      "sense": "S1"
     },
     {
-      "surface": "עמים",
-      "gloss": "peoples"
+      "surface": "עַמִּ֣ים",
+      "gloss": "peoples",
+      "sense": "S1"
     },
     {
-      "surface": "תחתי",
+      "surface": "תַּחְתָּֽי",
       "gloss": "under me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:27:58.615812829Z",
+  "model": "glm-5.3"
 }

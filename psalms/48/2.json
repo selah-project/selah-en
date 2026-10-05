@@ -1,82 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Great is YHWH, and greatly praised, in the city of our Elohim, His holy mountain.",
-  "tokens": [
+  "ref": "psalms 48:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
     {
-      "surface": "גדול",
-      "gloss": "Great"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between גדול and יהוה; the adjective is a predicate"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ומהלל",
-      "gloss": "and praised",
-      "readings": [
-        "and praised",
-        "and to be praised"
-      ],
-      "held_by": {
-        "and praised": [
-          "v1",
-          "en4"
-        ],
-        "and to be praised": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מאד",
-      "gloss": "greatly",
-      "readings": [
-        "greatly",
-        "exceedingly"
-      ],
-      "held_by": {
-        "greatly": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "exceedingly": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בעיר",
-      "gloss": "in the city of"
-    },
-    {
-      "surface": "אלהינו",
-      "gloss": "of our Elohim"
-    },
-    {
-      "surface": "הר",
-      "gloss": "mountain"
-    },
-    {
-      "surface": "קדשו",
-      "gloss": "His holy",
-      "readings": [
-        "His holy",
-        "His holiness"
-      ],
-      "held_by": {
-        "His holy": [
-          "v1",
-          "v3"
-        ],
-        "His holiness": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "holy mountain",
+      "rationale": "קדשו is an abstract construct, 'his holiness,' often smoothed to 'his holy mountain'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Great is YHWH and greatly praised in the city of our Elohim, ⟨the⟩ mountain of his holiness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "461e8f28d7dec7109430967fe8060c7895e6f0ec0e95954091cadc17c8ff87a3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/48\/1-4.1791192738506.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גָּ֘ד֤וֹל",
+      "gloss": "Great",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְהֻלָּ֣ל",
+      "gloss": "and praised",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹ֑ד",
+      "gloss": "greatly",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעִ֥יר",
+      "gloss": "in the city of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֵ֗ינוּ",
+      "gloss": "our Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַר",
+      "gloss": "⟨the⟩ mountain of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדְשֽׁוֹ",
+      "gloss": "his holiness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.507675655Z",
+  "model": "glm-5.3"
 }

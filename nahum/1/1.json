@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A burden of Nineveh — the book of the vision of Nahum the Elkoshite.",
-  "tokens": [
+  "ref": "nahum 1:1",
+  "book": "nahum",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "משא",
-      "gloss": "A burden",
-      "readings": [
-        "A burden",
-        "An utterance"
-      ],
-      "held_by": {
-        "A burden": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "An utterance": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "נַחוּם \/ הָאֶלְקֹשִׁי",
+      "rationale": "Both the name Nahum and the gentilic Elkoshite occur only here in the Tanakh."
     },
     {
-      "surface": "נינוה",
-      "gloss": "of Nineveh"
-    },
-    {
-      "surface": "ספר",
-      "gloss": "the book"
-    },
-    {
-      "surface": "חזון",
-      "gloss": "of the vision"
-    },
-    {
-      "surface": "נחום",
-      "gloss": "of Nahum"
-    },
-    {
-      "surface": "האלקשי",
-      "gloss": "the Elkoshite"
+      "kind": "substitution",
+      "subject": "burden",
+      "rationale": "מַשָּׂא in the prophets is an oracle of weight, here kept literal rather than smoothed to 'oracle'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A burden of Nineveh: the book of the vision of Nahum the Elkoshite.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1bccff52a7674b31baa646038628c7c09595f666866e7ad4c78b08fcead6f8a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nahum\/1\/1-4.1791191819118.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nahum.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַשָּׂא",
+      "gloss": "A burden of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִינְוֵה",
+      "gloss": "Nineveh",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֵפֶר",
+      "gloss": "the book of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲזוֹן",
+      "gloss": "the vision of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַחוּם",
+      "gloss": "Nahum",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֶלְקֹשִׁי",
+      "gloss": "the Elkoshite",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:16:59.119508014Z",
+  "model": "glm-5.3"
 }

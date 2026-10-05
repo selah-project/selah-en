@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Everyone who is found shall be thrust through, and everyone who is captured shall fall by the sword.",
-  "tokens": [
+  "ref": "isaiah 13:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "everyone"
-    },
-    {
-      "surface": "הנמצא",
-      "gloss": "who is found"
-    },
-    {
-      "surface": "ידקר",
-      "gloss": "shall be thrust through",
-      "readings": [
-        "shall be thrust through",
-        "shall be pierced"
-      ],
-      "held_by": {
-        "shall be thrust through": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "shall be pierced": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and everyone"
-    },
-    {
-      "surface": "הנספה",
-      "gloss": "who is captured",
-      "readings": [
-        "who is captured",
-        "who is swept away"
-      ],
-      "held_by": {
-        "who is captured": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "who is swept away": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יפול",
-      "gloss": "shall fall"
-    },
-    {
-      "surface": "בחרב",
-      "gloss": "by the sword"
+      "kind": "substitution",
+      "subject": "by the sword",
+      "rationale": "חֶרֶב is the instrument itself, 'in\/by the sword'; English idiom keeps the instrument"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Everyone who is found will be stabbed, and everyone who is caught will fall by the sword.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa64728a8d17a4826343d525762c99b640ea529ffe458378d0e66e0db59c17f2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/13\/13-16.1791188211210.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "Everyone",
+      "sense": null
+    },
+    {
+      "surface": "הַנִּמְצָא",
+      "gloss": "who is found",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִדָּקֵר",
+      "gloss": "will be stabbed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and everyone",
+      "sense": null
+    },
+    {
+      "surface": "הַנִּסְפֶּה",
+      "gloss": "who is caught",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִפּוֹל",
+      "gloss": "will fall",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּחָרֶב",
+      "gloss": "by the sword",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:16:51.211641125Z",
+  "model": "glm-5.3"
 }

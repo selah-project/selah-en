@@ -1,18 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And Achish answered and said to David, “I know that you are good in my eyes, as a messenger of Elohim. Only, the princes of the Philistines have said, ‘He shall not go up with us into the battle.’”",
+  "ref": "1-samuel 29:9",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "messenger of Elohim",
+      "rationale": "מלאך אלהים rendered 'messenger' or 'angel'; a Philistine's comparison of David, rendered as messenger here"
+    },
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "Achish addresses David directly in the quoted speech"
+    }
+  ],
+  "translation": "And Achish answered and said to David, “I know that you are good in my eyes, like a messenger of Elohim; only the princes of the Philistines have said, ‘He shall not go up with us into the battle.’”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "569b21912988bfd6063f3dd2781155b5c8477001334096792d02517a7895f3a8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/29\/9-11.1791186003895.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויען",
-      "gloss": "And answered"
+      "gloss": "and answered",
+      "sense": "S1"
     },
     {
       "surface": "אכיש",
-      "gloss": "Achish"
+      "gloss": "Achish",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -20,11 +50,13 @@
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "ידעתי",
-      "gloss": "I know"
+      "gloss": "I know",
+      "sense": null
     },
     {
       "surface": "כי",
@@ -32,7 +64,8 @@
     },
     {
       "surface": "טוב",
-      "gloss": "good"
+      "gloss": "good",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
@@ -40,53 +73,52 @@
     },
     {
       "surface": "בעיני",
-      "gloss": "in my eyes"
+      "gloss": "in my eyes",
+      "sense": "S1"
     },
     {
       "surface": "כמלאך",
-      "gloss": "as a messenger",
+      "gloss": "like a messenger of",
+      "sense": "S1",
       "readings": [
-        "as a messenger",
-        "as an angel"
-      ],
-      "held_by": {
-        "as a messenger": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "as an angel": [
-          "v1"
-        ]
-      }
+        "like a messenger of",
+        "like an angel of"
+      ]
     },
     {
       "surface": "אלהים",
-      "gloss": "of Elohim"
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אך",
-      "gloss": "only"
+      "gloss": "only",
+      "sense": "S1"
     },
     {
       "surface": "שרי",
-      "gloss": "the princes of"
+      "gloss": "the princes of",
+      "sense": "S1"
     },
     {
       "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "gloss": "the Philistines",
+      "sense": "S1"
     },
     {
       "surface": "אמרו",
-      "gloss": "have said"
+      "gloss": "have said",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יעלה",
-      "gloss": "He shall go up"
+      "gloss": "he shall go up",
+      "sense": "S1"
     },
     {
       "surface": "עמנו",
@@ -94,9 +126,10 @@
     },
     {
       "surface": "במלחמה",
-      "gloss": "into the battle"
+      "gloss": "into the battle",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:40:03.896608684Z",
+  "model": "glm-5.3"
 }

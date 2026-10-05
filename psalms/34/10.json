@@ -1,54 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Fear ⟨את⟩ YHWH, his holy ones, for there is no lack to those who fear him.",
-  "tokens": [
+  "ref": "psalms 34:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "יראו",
-      "gloss": "fear"
+      "kind": "crux",
+      "subject": "his holy ones",
+      "rationale": "קדשיו in construct to YHWH may be accusative 'Fear YHWH, his holy ones' (apposition) or the object chain read as a pair of objects"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "קדשיו",
-      "gloss": "his holy ones"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is no"
-    },
-    {
-      "surface": "מחסור",
-      "gloss": "lack",
-      "readings": [
-        "lack",
-        "want"
-      ],
-      "held_by": {
-        "lack": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "want": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ליראיו",
-      "gloss": "to those who fear him"
+      "kind": "invitation",
+      "subject": "to the hearers",
+      "rationale": "imperative 'Fear YHWH' addresses the congregation"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Fear YHWH, ⟨את⟩ his holy ones, for there is no lack to those who fear him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1127206c9fe631fdb6aa7a7c4a76ea1b68bf00f8e1ef42a7be3caba8a454dd6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/9-12.1791192604489.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְר֣אוּ",
+      "gloss": "Fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his holy ones",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְדֹשָׁ֑יו",
+      "gloss": "his holy ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֥ין",
+      "gloss": "there is no",
+      "sense": null
+    },
+    {
+      "surface": "מַ֝חְס֗וֹר",
+      "gloss": "lack",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִירֵאָֽיו",
+      "gloss": "to those who fear him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:04.489850019Z",
+  "model": "glm-5.3"
 }

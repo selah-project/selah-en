@@ -1,67 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "⟨The⟩ Adonai ⟨is⟩ at your right hand; he shattered kings in the day of his wrath.",
-  "tokens": [
+  "ref": "psalms 110:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 110,
+  "notes": [
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "kind": "addition",
+      "subject": "he",
+      "rationale": "English needs an explicit subject for מחץ; Hebrew is verb-initial"
     },
     {
-      "surface": "על",
-      "gloss": "at"
+      "kind": "crux",
+      "subject": "Adonai at your right hand",
+      "rationale": "either Adonai stands at the king's right hand as support while the king crushes, or Adonai himself is the crusher — Hebrew leaves both open"
     },
     {
-      "surface": "ימינך",
-      "gloss": "your right hand"
-    },
-    {
-      "surface": "מחץ",
-      "gloss": "he shattered",
-      "readings": [
-        "he shattered",
-        "he strikes"
-      ],
-      "held_by": {
-        "he shattered": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "he strikes": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ביום",
-      "gloss": "in the day of"
-    },
-    {
-      "surface": "אפו",
-      "gloss": "his wrath",
-      "readings": [
-        "his wrath",
-        "his nose"
-      ],
-      "held_by": {
-        "his wrath": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his nose": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מלכים",
-      "gloss": "kings"
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אף is literally 'nose\/nostril', the flaring nostril of wrath"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Adonai at your right hand — he crushed kings in the day of his anger.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4431c26ad5ae7c24ee41a09c9dfe3a30085ff207e97fc06d9661f525a6b12be1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/110\/5-7.1791193377814.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲדֹנָ֥י",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "at",
+      "sense": null
+    },
+    {
+      "surface": "יְמִֽינְךָ֑",
+      "gloss": "your right hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָחַ֖ץ",
+      "gloss": "he crushed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיוֹם",
+      "gloss": "in the day of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפּ֣וֹ",
+      "gloss": "his anger",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלָכִֽים",
+      "gloss": "kings",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:57.815479222Z",
+  "model": "glm-5.3"
 }

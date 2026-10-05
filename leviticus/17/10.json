@@ -1,127 +1,151 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And a man, a man, of the house of Israel, or of the sojourner who sojourns in their midst, who eats any blood — I will set My face against the soul that eats ⟨את⟩ the blood, and I will cut ⟨את⟩ her off from the midst of her people.",
+  "ref": "leviticus 17:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש here the person as animated being, agreeing feminine with 'eats'"
+    },
+    {
+      "kind": "idiom",
+      "subject": "set my face against",
+      "rationale": "idiom of hostile attention (פנים + ב), kept literally"
+    }
+  ],
+  "translation": "And a man, a man from the house of Israel and from the sojourner who sojourns among them — whoever eats any blood, I will set my face against the nefesh that eats ⟨את⟩ the blood, and I will cut ⟨את⟩ it off from the midst of its people.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3846c7555fa707c100af202f29e720e38271a8ba97f8f14ccf39f74a2cfb6d9b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/17\/9-12.1791182507624.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ואיש",
-      "gloss": "And a man"
+      "gloss": "and a man",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "a man"
+      "gloss": "a man",
+      "sense": "S1"
     },
     {
       "surface": "מבית",
-      "gloss": "of the house"
+      "gloss": "from the house of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "of Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "ומן",
-      "gloss": "or of"
+      "gloss": "and from",
+      "sense": null
     },
     {
       "surface": "הגר",
-      "gloss": "the sojourner"
+      "gloss": "the sojourner",
+      "sense": "S1"
     },
     {
       "surface": "הגר",
-      "gloss": "who sojourns"
+      "gloss": "who sojourns",
+      "sense": "S1"
     },
     {
       "surface": "בתוכם",
-      "gloss": "in their midst"
+      "gloss": "among them",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "who"
+      "gloss": "whoever",
+      "sense": null
     },
     {
       "surface": "יאכל",
-      "gloss": "eats"
+      "gloss": "eats",
+      "sense": "S1"
     },
     {
       "surface": "כל",
-      "gloss": "any"
+      "gloss": "any",
+      "sense": null
     },
     {
       "surface": "דם",
-      "gloss": "blood"
+      "gloss": "blood",
+      "sense": "S1"
     },
     {
       "surface": "ונתתי",
-      "gloss": "I will set"
+      "gloss": "and I will set",
+      "sense": null
     },
     {
       "surface": "פני",
-      "gloss": "My face"
+      "gloss": "my face",
+      "sense": "S1"
     },
     {
       "surface": "בנפש",
-      "gloss": "against the soul",
+      "gloss": "against the nefesh",
+      "sense": "S1",
       "readings": [
-        "against the soul",
-        "against the life"
-      ],
-      "held_by": {
-        "against the soul": [
-          "v1",
-          "en4"
-        ],
-        "against the life": [
-          "en4"
-        ]
-      }
+        "against the nefesh",
+        "against the person"
+      ]
     },
     {
       "surface": "האכלת",
-      "gloss": "that eats"
+      "gloss": "that eats",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the blood",
+      "sense": null
     },
     {
       "surface": "הדם",
-      "gloss": "the blood"
+      "gloss": "the blood",
+      "sense": "S1"
     },
     {
       "surface": "והכרתי",
-      "gloss": "and I will cut off"
+      "gloss": "and I will cut off",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "⟨את⟩ her"
+      "gloss": "⟨את⟩ it",
+      "marks": "the nefesh that eats the blood",
+      "sense": null
     },
     {
       "surface": "מקרב",
-      "gloss": "from the midst"
+      "gloss": "from the midst of",
+      "sense": null
     },
     {
       "surface": "עמה",
-      "gloss": "of her people",
-      "readings": [
-        "of her people",
-        "of its people",
-        "of his people"
-      ],
-      "held_by": {
-        "of her people": [
-          "en4"
-        ],
-        "of its people": [
-          "v2",
-          "v3"
-        ],
-        "of his people": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "its people",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:41:47.626135963Z",
+  "model": "glm-5.3"
 }

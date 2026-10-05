@@ -1,77 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Upon the rivers of Babylon, there we sat, also we wept, in our remembering ⟨את⟩ Zion.",
-  "tokens": [
+  "ref": "psalms 137:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 137,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "Upon"
+      "kind": "substitution",
+      "subject": "by",
+      "rationale": "על rendered 'by' (location beside); the preposition's plain sense is 'upon\/over'"
     },
     {
-      "surface": "נהרות",
-      "gloss": "the rivers",
-      "readings": [
-        "the rivers",
-        "the streams"
-      ],
-      "held_by": {
-        "the rivers": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the streams": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בבל",
-      "gloss": "of Babylon"
-    },
-    {
-      "surface": "שם",
-      "gloss": "there"
-    },
-    {
-      "surface": "ישבנו",
-      "gloss": "we sat"
-    },
-    {
-      "surface": "גם",
-      "gloss": "also"
-    },
-    {
-      "surface": "בכינו",
-      "gloss": "we wept"
-    },
-    {
-      "surface": "בזכרנו",
-      "gloss": "in our remembering",
-      "readings": [
-        "in our remembering",
-        "when we remembered"
-      ],
-      "held_by": {
-        "in our remembering": [
-          "v1",
-          "en4"
-        ],
-        "when we remembered": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ציון",
-      "gloss": "Zion"
+      "kind": "wordplay",
+      "subject": "גַּם בָּכִינוּ",
+      "rationale": "gam bakhinu — 'also we wept' carries an assonance of grief"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "By the rivers of Babylon, there we sat, also we wept, when we remembered ⟨את⟩ Zion.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b84226fc117a7d542d419fa81861db5b7a5355af8467c945e9407daeea54f4c4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/137\/1-4.1791193578504.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "by",
+      "sense": null
+    },
+    {
+      "surface": "נַהֲרוֹת",
+      "gloss": "the rivers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּבֶל",
+      "gloss": "Babylon",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁם",
+      "gloss": "there",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשַׁבְנוּ",
+      "gloss": "we sat",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּכִינוּ",
+      "gloss": "we wept",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּזָכְרֵנוּ",
+      "gloss": "when we remembered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Zion",
+      "sense": null
+    },
+    {
+      "surface": "צִיּוֹן",
+      "gloss": "Zion",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:18.504847702Z",
+  "model": "glm-5.3"
 }

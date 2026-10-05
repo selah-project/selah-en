@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And latticed windows in three rows, and sight opposite sight, three times.",
+  "ref": "1-kings 7:4",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "three rows, three times",
+      "rationale": "The verse counts the window rows and their repetition."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ומחזה אל מחזה",
+      "rationale": "Repetition 'window against window' — a facing-pair idiom, as verse 5 repeats."
+    }
+  ],
+  "translation": "and framed windows, three rows, and window against window, three times.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0e72f4c393dd9868ce4831daf5108d31deb1ad5ecbe783dd2140805c07c53cd8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/7\/1-4.1791186849782.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ושקפים",
-      "gloss": "And latticed windows",
-      "readings": [
-        "And latticed windows",
-        "framed openings"
-      ],
-      "held_by": {
-        "And latticed windows": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "framed openings": [
-          "en4"
-        ]
-      }
+      "gloss": "and framed windows",
+      "sense": "S1"
     },
     {
       "surface": "שלשה",
-      "gloss": "three"
+      "gloss": "three",
+      "sense": "S1"
     },
     {
       "surface": "טורים",
-      "gloss": "rows"
+      "gloss": "rows",
+      "sense": "S1"
     },
     {
       "surface": "ומחזה",
-      "gloss": "and sight"
+      "gloss": "and window",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "opposite"
+      "gloss": "against",
+      "sense": null
     },
     {
       "surface": "מחזה",
-      "gloss": "sight"
+      "gloss": "window",
+      "sense": "S1"
     },
     {
       "surface": "שלש",
-      "gloss": "three"
+      "gloss": "three",
+      "sense": "S1"
     },
     {
       "surface": "פעמים",
-      "gloss": "times"
+      "gloss": "times",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:54:09.785070320Z",
+  "model": "glm-5.3"
 }

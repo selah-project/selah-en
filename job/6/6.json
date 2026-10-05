@@ -1,75 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Can what is tasteless be eaten without salt? Or is there any taste in the slime of mallows?",
+  "ref": "job 6:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "חַלָּמוּת",
+      "rationale": "occurs only here; a slimy plant — mallow or purslane — not egg-yolk, the word's other possible sense"
+    },
+    {
+      "kind": "alternative",
+      "subject": "the slime of mallow",
+      "rationale": "רִיר can mean saliva or broth; 'the juice of mallow' is a smoother reading"
+    }
+  ],
+  "translation": "Is tasteless food eaten without salt, or is there flavor in the slime of mallow?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89d41b0ddd776c4aab97317e405c41f03339ca79618820bb6cf5216c1f0daa65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/6\/5-8.1791194184959.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "היאכל",
-      "gloss": "be eaten"
+      "surface": "הֲיֵאָכֵל",
+      "gloss": "Is … eaten",
+      "sense": "S2"
     },
     {
-      "surface": "תפל",
-      "gloss": "what is tasteless"
+      "surface": "תָּפֵל",
+      "gloss": "tasteless food",
+      "sense": "S1"
     },
     {
-      "surface": "מבלי",
-      "gloss": "without"
+      "surface": "מִבְּלִי",
+      "gloss": "without",
+      "sense": "S1"
     },
     {
-      "surface": "מלח",
-      "gloss": "salt"
+      "surface": "מֶלַח",
+      "gloss": "salt",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "or"
     },
     {
-      "surface": "יש",
+      "surface": "יֵשׁ",
       "gloss": "is there"
     },
     {
-      "surface": "טעם",
-      "gloss": "taste"
+      "surface": "טַעַם",
+      "gloss": "flavor",
+      "sense": "S1"
     },
     {
-      "surface": "בריר",
-      "gloss": "the slime of",
-      "readings": [
-        "the slime of",
-        "the juice of"
-      ],
-      "held_by": {
-        "the slime of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the juice of": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּרִיר",
+      "gloss": "in the slime of",
+      "sense": "S1"
     },
     {
-      "surface": "חלמות",
-      "gloss": "of mallows",
+      "surface": "חַלָּמוּת",
+      "gloss": "mallow",
+      "sense": "S1",
       "readings": [
-        "of mallows",
-        "of purslane"
-      ],
-      "held_by": {
-        "of mallows": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of purslane": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "mallow",
+        "purslane"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:24.959923647Z",
+  "model": "glm-5.3"
 }

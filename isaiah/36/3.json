@@ -1,64 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Then went out to him Eliakim son of Hilkiah, who was over the house, and Shebna the scribe, and Joah son of Asaph, the recorder.",
-  "tokens": [
+  "ref": "isaiah 36:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "ויצא",
-      "gloss": "Then went out"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a copula in אשר על הבית; bracketed in the translation."
     },
     {
-      "surface": "אליו",
+      "kind": "crux",
+      "subject": "recorder",
+      "rationale": "המזכיר is a court official, literally 'the one who causes-to-remember'; 'recorder' vs 'remembrancer'."
+    }
+  ],
+  "translation": "And Eliakim son of Hilkiah, who ⟨was⟩ over the house, went out to him, and Shebna the scribe, and Joah son of Asaph the recorder.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e0cb915c1a6c69b266b777adc2e6c6fec9c6c9cf6b5d91be99ddfa7cb44895f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/36\/2-4.1791199089057.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֵּצֵ֥א",
+      "gloss": "and went out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָ֛יו",
       "gloss": "to him"
     },
     {
-      "surface": "אליקים",
-      "gloss": "Eliakim"
+      "surface": "אֶלְיָקִ֥ים",
+      "gloss": "Eliakim",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "חלקיהו",
-      "gloss": "Hilkiah"
+      "surface": "חִלְקִיָּ֖הוּ",
+      "gloss": "Hilkiah",
+      "sense": null
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֣ר",
       "gloss": "who"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "over"
     },
     {
-      "surface": "הבית",
-      "gloss": "the house"
+      "surface": "הַבָּ֑יִת",
+      "gloss": "the house",
+      "sense": "S1"
     },
     {
-      "surface": "ושבנא",
-      "gloss": "and Shebna"
+      "surface": "וְשֶׁבְנָא֙",
+      "gloss": "and Shebna",
+      "sense": "S1"
     },
     {
-      "surface": "הספר",
+      "surface": "הַסֹּפֵ֔ר",
       "gloss": "the scribe"
     },
     {
-      "surface": "ויואח",
-      "gloss": "and Joah"
+      "surface": "וְיוֹאָ֥ח",
+      "gloss": "and Joah",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "אסף",
-      "gloss": "Asaph"
+      "surface": "אָסָ֖ף",
+      "gloss": "Asaph",
+      "sense": "S1"
     },
     {
-      "surface": "המזכיר",
-      "gloss": "the recorder"
+      "surface": "הַמַּזְכִּֽיר",
+      "gloss": "the recorder",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:18:09.058403210Z",
+  "model": "glm-5.3"
 }

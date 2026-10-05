@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Blessed be YHWH, who has not given us as prey to their teeth.",
-  "tokens": [
+  "ref": "psalms 124:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 124,
+  "notes": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'Blessed' and 'YHWH'."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "שלא",
-      "gloss": "who has not"
-    },
-    {
-      "surface": "נתננו",
-      "gloss": "given us"
-    },
-    {
-      "surface": "טרף",
-      "gloss": "prey",
-      "readings": [
-        "prey",
-        "that which is torn"
-      ],
-      "held_by": {
-        "prey": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "that which is torn": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לשניהם",
-      "gloss": "to their teeth"
+      "kind": "wordplay",
+      "subject": "dual שניהם",
+      "rationale": "Hebrew uses the dual of 'tooth' — literally 'their two-row set of teeth' — carried plainly as 'their teeth'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Blessed is YHWH, who did not give us as prey to their teeth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "caa376e48ab4ff40f71f7c9222f4611a00f1f240926db97c927620fb0858cc8c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/124\/5-8.1791193517882.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּרוּךְ",
+      "gloss": "Blessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁלֹּא",
+      "gloss": "who did not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְתָנָנוּ",
+      "gloss": "give us",
+      "sense": null
+    },
+    {
+      "surface": "טֶרֶף",
+      "gloss": "as prey",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְשִׁנֵּיהֶם",
+      "gloss": "to their teeth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:17.883213920Z",
+  "model": "glm-5.3"
 }

@@ -1,71 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And now, according to all the longing of your soul, O king, to come down — come down; and ⟨it is⟩ ours to surrender him into the hand of the king.",
+  "ref": "1-samuel 23:20",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "your throat",
+      "rationale": "נפש here joined with 'desire' (אוה) carries its literal sense, the seat of craving; 'soul' or 'yourself' are looser"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨it is⟩",
+      "rationale": "Hebrew has no copula in ולנו הסגירו, 'and ours to deliver him'"
+    },
+    {
+      "kind": "you",
+      "subject": "to Saul",
+      "rationale": "the Ziphites flatter and address the king directly with the imperative רד"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "לרדת רד",
+      "rationale": "infinitive absolute before the imperative, 'coming down — come down,' intensifying the invitation"
+    }
+  ],
+  "translation": "And now, according to all the desire of your throat, O king, to come down — come down; and ⟨it is⟩ ours to hand him over into the hand of the king.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cce61fa0d0d7fd0253d2993a172ca49aade747fa0688e0d8977b156b364ba611",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/23\/17-20.1791185898417.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ועתה",
-      "gloss": "and now"
+      "gloss": "and now",
+      "sense": "S1"
     },
     {
       "surface": "לכל",
-      "gloss": "according to all"
+      "gloss": "according to all",
+      "sense": null
     },
     {
       "surface": "אות",
-      "gloss": "longing"
+      "gloss": "the desire of",
+      "sense": "S1"
     },
     {
       "surface": "נפשך",
-      "gloss": "of your soul",
+      "gloss": "your throat",
+      "sense": "S1",
       "readings": [
-        "of your soul",
-        "of your life"
+        "your throat",
+        "your life",
+        "yourself"
       ]
     },
     {
       "surface": "המלך",
-      "gloss": "O king"
+      "gloss": "O king",
+      "sense": "S1"
     },
     {
       "surface": "לרדת",
-      "gloss": "to come down"
+      "gloss": "to come down",
+      "sense": "S1"
     },
     {
       "surface": "רד",
-      "gloss": "come down"
+      "gloss": "come down",
+      "sense": "S1"
     },
     {
       "surface": "ולנו",
-      "gloss": "and ours"
+      "gloss": "and ⟨it is⟩ ours",
+      "sense": null
     },
     {
       "surface": "הסגירו",
-      "gloss": "to surrender him",
-      "readings": [
-        "to surrender him",
-        "to shut him up"
-      ],
-      "held_by": {
-        "to surrender him": [
-          "v2",
-          "v3"
-        ],
-        "to shut him up": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "to hand him over",
+      "sense": "S1"
     },
     {
       "surface": "ביד",
-      "gloss": "into the hand"
+      "gloss": "into the hand of",
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "of the king"
+      "gloss": "the king",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:38:18.421852620Z",
+  "model": "glm-5.3"
 }

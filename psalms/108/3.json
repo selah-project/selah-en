@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Awake, harp and lyre — I will awaken ⟨the⟩ dawn.",
-  "tokens": [
+  "ref": "psalms 108:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "עורה",
-      "gloss": "Awake"
+      "kind": "substitution",
+      "subject": "nevel",
+      "rationale": "Hebrew instrument name rendered by transliteration rather than the guess 'lyre'."
     },
     {
-      "surface": "הנבל",
-      "gloss": "harp",
-      "readings": [
-        "harp",
-        "psaltery",
-        "the nevel"
-      ],
-      "held_by": {
-        "harp": [
-          "en4"
-        ],
-        "psaltery": [
-          "v1",
-          "v3"
-        ],
-        "the nevel": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "kinor",
+      "rationale": "Hebrew harp name transliterated; 'harp' would lose the instrument's identity."
     },
     {
-      "surface": "וכנור",
-      "gloss": "and lyre",
-      "readings": [
-        "and lyre",
-        "and harp",
-        "and kinnor"
-      ],
-      "held_by": {
-        "and lyre": [
-          "en4"
-        ],
-        "and harp": [
-          "v1",
-          "v3"
-        ],
-        "and kinnor": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אעירה",
-      "gloss": "I will awaken"
-    },
-    {
-      "surface": "שחר",
-      "gloss": "⟨the⟩ dawn"
+      "kind": "wordplay",
+      "subject": "עורה \/ אעירה",
+      "rationale": "root repetition: 'awake … I will awaken', carried in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Awake, nevel and kinor; I will awaken the dawn.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b0d116b09dbe7650a7fededea825f8f2df335eecd2806bae47c288f528d2d08",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/1-4.1791193354874.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עוּרָּֽה",
+      "gloss": "Awake",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנֵּ֥בֶל",
+      "gloss": "⟨the⟩ nevel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִנּ֗וֹר",
+      "gloss": "and kinor",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָעִ֥ירָה",
+      "gloss": "I will awaken",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָּֽׁחַר",
+      "gloss": "the dawn",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:34.875617319Z",
+  "model": "glm-5.3"
 }

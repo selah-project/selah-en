@@ -1,63 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And Joshua sent messengers, and they ran to the tent, and behold, ⟨it was⟩ hidden in his tent, and the silver under it.",
-  "tokens": [
+  "ref": "joshua 7:22",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "וישלח",
-      "gloss": "and Joshua sent"
+      "kind": "addition",
+      "subject": "it was",
+      "rationale": "English requires a copula for the participle טמונה, 'hidden'; Hebrew has none."
     },
     {
-      "surface": "יהושע",
-      "gloss": "Joshua"
-    },
-    {
-      "surface": "מלאכים",
-      "gloss": "messengers",
-      "readings": [
-        "messengers",
-        "angels"
-      ],
-      "held_by": {
-        "messengers": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "angels": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וירצו",
-      "gloss": "and they ran"
-    },
-    {
-      "surface": "האהלה",
-      "gloss": "to the tent"
-    },
-    {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "טמונה",
-      "gloss": "⟨it was⟩ hidden"
-    },
-    {
-      "surface": "באהלו",
-      "gloss": "in his tent"
-    },
-    {
-      "surface": "והכסף",
-      "gloss": "and the silver"
-    },
-    {
-      "surface": "תחתיה",
-      "gloss": "under it"
+      "kind": "alternative",
+      "subject": "messengers",
+      "rationale": "מלאכים here are human runners, not angels — the SDBH sense covers human messengers."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Joshua sent messengers, and they ran to the tent, and see, it was hidden in his tent, and the silver under it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7014fb3260bf89725c1a4a345d142f5e5310b35f205302c2e4a55019ac256a5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/7\/21-24.1791184428671.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּשְׁלַ֤ח",
+      "gloss": "And sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוֹשֻׁ֨עַ֙",
+      "gloss": "Joshua",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְאָכִ֔ים",
+      "gloss": "messengers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּרֻ֖צוּ",
+      "gloss": "and they ran",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֹ֑הֱלָה",
+      "gloss": "to the tent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּ֥ה",
+      "gloss": "and see",
+      "sense": null
+    },
+    {
+      "surface": "טְמוּנָ֛ה",
+      "gloss": "it was hidden",
+      "sense": "S2"
+    },
+    {
+      "surface": "בְּאָהֳל֖וֹ",
+      "gloss": "in his tent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַכֶּ֥סֶף",
+      "gloss": "and the silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּחְתֶּּֽיהָ",
+      "gloss": "under it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:13:48.673058647Z",
+  "model": "glm-5.3"
 }

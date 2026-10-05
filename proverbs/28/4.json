@@ -1,100 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Those who forsake the Torah praise the wicked, but those who keep the Torah contend with them.",
+  "ref": "proverbs 28:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "תורה\/תורה",
+      "rationale": "the verse pivots on the repeated torah, forsakers vs keepers in chiastic antithesis."
+    },
+    {
+      "kind": "crux",
+      "subject": "יתגרו בם",
+      "rationale": "hithpael of גרה: 'burn with anger against them' or 'stir up strife against them'; 'contend' holds the conflict sense."
+    }
+  ],
+  "translation": "Those who forsake the instruction praise the wicked, but those who keep the instruction contend against them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1a54dd8d8cac7666dff1e4c516085d7a439ffd4270ce0c7ef735b8e86710972e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/28\/1-4.1791194050847.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "עזבי",
-      "gloss": "those who forsake"
+      "surface": "עֹזְבֵ֣י",
+      "gloss": "Those who forsake",
+      "sense": "S1"
     },
     {
-      "surface": "תורה",
-      "gloss": "the Torah",
+      "surface": "ת֭וֹרָה",
+      "gloss": "the instruction",
       "readings": [
-        "the Torah",
-        "the instruction"
+        "the instruction",
+        "the Torah"
       ],
-      "held_by": {
-        "the Torah": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the instruction": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהללו",
-      "gloss": "praise"
+      "surface": "יְהַֽלְל֣וּ",
+      "gloss": "praise",
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
+      "surface": "רָשָׁ֑ע",
       "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשֹׁמְרֵ֥י",
+      "gloss": "but those who keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "ת֝וֹרָ֗ה",
+      "gloss": "the instruction",
       "readings": [
-        "the wicked",
-        "the guilty one"
+        "the instruction",
+        "the Torah"
       ],
-      "held_by": {
-        "the wicked": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the guilty one": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ושמרי",
-      "gloss": "but those who keep"
-    },
-    {
-      "surface": "תורה",
-      "gloss": "the Torah",
-      "readings": [
-        "the Torah",
-        "the instruction"
-      ],
-      "held_by": {
-        "the Torah": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the instruction": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יתגרו",
+      "surface": "יִתְגָּ֥רוּ",
       "gloss": "contend",
       "readings": [
         "contend",
-        "stir up strife"
+        "provoke"
       ],
-      "held_by": {
-        "contend": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "stir up strife": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בם",
-      "gloss": "with them"
+      "surface": "בָֽם",
+      "gloss": "against them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:10.848113086Z",
+  "model": "glm-5.3"
 }

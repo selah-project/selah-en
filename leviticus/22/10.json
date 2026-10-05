@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And any stranger shall not eat a holy thing: a sojourner of the priest and a hired worker shall not eat a holy thing.",
-  "tokens": [
+  "ref": "leviticus 22:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "וכל",
-      "gloss": "And any"
+      "kind": "substitution",
+      "subject": "holy-thing",
+      "rationale": "קֹדֶשׁ here is concrete — the sacred food itself, not abstract 'holiness'."
     },
     {
-      "surface": "זר",
-      "gloss": "stranger"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יאכל",
-      "gloss": "shall eat"
-    },
-    {
-      "surface": "קדש",
-      "gloss": "holy thing"
-    },
-    {
-      "surface": "תושב",
-      "gloss": "a sojourner"
-    },
-    {
-      "surface": "כהן",
-      "gloss": "of the priest"
-    },
-    {
-      "surface": "ושכיר",
-      "gloss": "and a hired worker"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יאכל",
-      "gloss": "shall eat"
-    },
-    {
-      "surface": "קדש",
-      "gloss": "holy thing"
+      "kind": "addition",
+      "subject": "of",
+      "rationale": "תּוֹשַׁב is a construct bound to כֹהֵן; English needs the preposition to show the binding."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And any outsider shall not eat holy-thing: the priest's sojourner and the hired-man shall not eat holy-thing.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "21abfb85ac3ca9ec1850ad1027b934edc5506cffbaf58498e33f023e955af0ec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/22\/9-12.1791182595149.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכָל",
+      "gloss": "And any",
+      "sense": null
+    },
+    {
+      "surface": "זָ֖ר",
+      "gloss": "outsider",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹ֣אכַל",
+      "gloss": "shall eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹ֑דֶשׁ",
+      "gloss": "holy-thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּוֹשַׁ֥ב",
+      "gloss": "the sojourner",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹהֵ֛ן",
+      "gloss": "of the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׂכִ֖יר",
+      "gloss": "and the hired-man",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹ֥אכַל",
+      "gloss": "shall eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹֽדֶשׁ",
+      "gloss": "holy-thing",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:43:15.150404070Z",
+  "model": "glm-5.3"
 }

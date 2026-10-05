@@ -1,61 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Bear with me, and I ⟨will⟩ speak; and after my speaking, mock on.",
-  "tokens": [
+  "ref": "job 21:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "שאוני",
-      "gloss": "Bear with me",
-      "readings": [
-        "Bear with me",
-        "lift me"
-      ],
-      "held_by": {
-        "Bear with me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "lift me": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "Bear with me",
+      "rationale": "נשא is literally 'lift\/carry me'; the sense of willing forbearance is the contextual one"
     },
     {
-      "surface": "ואנכי",
-      "gloss": "and I"
-    },
-    {
-      "surface": "אדבר",
-      "gloss": "⟨will⟩ speak"
-    },
-    {
-      "surface": "ואחר",
-      "gloss": "and after"
-    },
-    {
-      "surface": "דברי",
-      "gloss": "my speaking"
-    },
-    {
-      "surface": "תלעיג",
-      "gloss": "mock on",
-      "readings": [
-        "mock on",
-        "you mock"
-      ],
-      "held_by": {
-        "mock on": [
-          "v2",
-          "en4"
-        ],
-        "you mock": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Job addresses his friends directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Bear with me, and I myself will speak, and after my speaking you may mock.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ad176b60be84556b7ca1ce350f45c448f06e2c0e0a5348b107e2016aea39d30",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/1-4.1791194356593.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׂ֭אוּנִי",
+      "gloss": "Bear with me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָנֹכִ֣י",
+      "gloss": "and I myself"
+    },
+    {
+      "surface": "אֲדַבֵּ֑ר",
+      "gloss": "will speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַחַ֖ר",
+      "gloss": "and after",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּבְּרִ֣י",
+      "gloss": "my speaking",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּלְעִֽיג",
+      "gloss": "you may mock",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:16.593948498Z",
+  "model": "glm-5.3"
 }

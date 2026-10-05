@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Go, and come in to the king, David, and say to him, “Is it not you, my lord the king, who swore to your handmaid, saying, ‘For Solomon your son shall reign after me, and he shall sit on my throne’? And why has Adonijah become king?”",
+  "ref": "1-kings 1:13",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "הלא",
+      "rationale": "Hebrew interrogative-negative 'not?' rendered as English 'Did not…?' question frame"
+    },
+    {
+      "kind": "you",
+      "subject": "to Bathsheba",
+      "rationale": "Nathan's instructions address Bathsheba directly with imperatives"
+    },
+    {
+      "kind": "invitation",
+      "subject": "לכי ובאי",
+      "rationale": "Paired imperatives summon Bathsheba to act"
+    }
+  ],
+  "translation": "Go, and come in to King David, and say to him: Did not you, my lord the king, swear to your handmaid, saying: Solomon your son shall reign after me, and he shall sit on my throne? Then why has Adonijah reigned?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe9e7f7cf5615bc4b00200577b39090a27d8a805d020230a4a5dd96f56ccf1dd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/1\/13-16.1791186690094.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "לכי",
-      "gloss": "Go"
+      "gloss": "Go",
+      "sense": "S1"
     },
     {
-      "surface": "ובאי",
-      "gloss": "and come in"
+      "surface": "ובואי",
+      "gloss": "and come in",
+      "sense": null
     },
     {
       "surface": "אל",
@@ -16,15 +50,18 @@
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "ואמרת",
-      "gloss": "and say"
+      "gloss": "and say",
+      "sense": "S1"
     },
     {
       "surface": "אליו",
@@ -32,7 +69,8 @@
     },
     {
       "surface": "הלא",
-      "gloss": "is it not"
+      "gloss": "did not",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
@@ -40,57 +78,52 @@
     },
     {
       "surface": "אדני",
-      "gloss": "my lord"
+      "gloss": "my lord",
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "נשבעת",
-      "gloss": "who swore",
-      "readings": [
-        "who swore",
-        "swore"
-      ],
-      "held_by": {
-        "who swore": [
-          "v1",
-          "en4"
-        ],
-        "swore": [
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "swear",
+      "sense": "S1"
     },
     {
       "surface": "לאמתך",
-      "gloss": "to your handmaid"
+      "gloss": "to your handmaid",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "For"
+      "gloss": "that"
     },
     {
       "surface": "שלמה",
-      "gloss": "Solomon"
+      "gloss": "Solomon",
+      "sense": "S1"
     },
     {
       "surface": "בנך",
-      "gloss": "your son"
+      "gloss": "your son",
+      "sense": "S1"
     },
     {
       "surface": "ימלך",
-      "gloss": "shall reign"
+      "gloss": "shall reign",
+      "sense": "S1"
     },
     {
       "surface": "אחרי",
-      "gloss": "after me"
+      "gloss": "after me",
+      "sense": "S1"
     },
     {
       "surface": "והוא",
@@ -98,7 +131,8 @@
     },
     {
       "surface": "ישב",
-      "gloss": "shall sit"
+      "gloss": "shall sit",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -106,36 +140,25 @@
     },
     {
       "surface": "כסאי",
-      "gloss": "my throne"
+      "gloss": "my throne",
+      "sense": "S1"
     },
     {
       "surface": "ומדוע",
-      "gloss": "And why"
+      "gloss": "why",
+      "sense": "S1"
     },
     {
       "surface": "מלך",
-      "gloss": "has become king",
-      "readings": [
-        "has become king",
-        "has reigned"
-      ],
-      "held_by": {
-        "has become king": [
-          "v2",
-          "v3"
-        ],
-        "has reigned": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "has reigned",
+      "sense": "S1"
     },
     {
       "surface": "אדניהו",
-      "gloss": "Adonijah"
+      "gloss": "Adonijah",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:51:30.095516935Z",
+  "model": "glm-5.3"
 }

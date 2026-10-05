@@ -1,115 +1,103 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And they shall be gathered, a gathering of prisoners upon a pit, and shut up in a prison; and after the multitude of days they shall be visited.",
-  "tokens": [
+  "ref": "isaiah 24:22",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "ואספו",
-      "gloss": "and they shall be gathered"
+      "kind": "hapax",
+      "subject": "אֲסֵפָה",
+      "rationale": "Occurs only here; the doubled ואספו אספה rendered doubled, with the hapax carried in hyphens."
     },
     {
-      "surface": "אספה",
-      "gloss": "a gathering"
+      "kind": "crux",
+      "subject": "אספה אסיר",
+      "rationale": "Read as 'gathered like a prisoner' (adverbial accusative) vs. 'a gathering of prisoners' — doubled form kept bare."
     },
     {
-      "surface": "אסיר",
-      "gloss": "of prisoners"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "בור",
-      "gloss": "a pit",
-      "readings": [
-        "a pit",
-        "a cistern"
-      ],
-      "held_by": {
-        "a pit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a cistern": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וסגרו",
-      "gloss": "and shut up"
-    },
-    {
-      "surface": "על",
-      "gloss": "in",
-      "readings": [
-        "in",
-        "upon"
-      ],
-      "held_by": {
-        "in": [
-          "v1",
-          "en4"
-        ],
-        "upon": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מסגר",
-      "gloss": "a prison",
-      "readings": [
-        "a prison",
-        "a fastening"
-      ],
-      "held_by": {
-        "a prison": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a fastening": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ומרב",
-      "gloss": "and after the multitude"
-    },
-    {
-      "surface": "ימים",
-      "gloss": "of days"
-    },
-    {
-      "surface": "יפקדו",
-      "gloss": "they shall be visited",
-      "readings": [
-        "they shall be visited",
-        "they shall be mustered",
-        "they shall be punished"
-      ],
-      "held_by": {
-        "they shall be visited": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they shall be mustered": [
-          "en4"
-        ],
-        "they shall be punished": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אספו\/אספה and סגרו\/מסגר",
+      "rationale": "Infinitive-absolute-like doubling and root echo (סגר twice) carry the confinement sound-pattern; partially carried in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they shall be gathered, gathered-as-a-prisoner, upon the pit, and shut up upon the prison, and after the multitude of days they shall be chastised.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc15689ce09c45f19390e41c91e0f49c987735219fd2f4233e7b71f243a0553d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/24\/21-23.1791188358250.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֻסְּפ֨וּ",
+      "gloss": "And they shall be gathered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲסֵפָ֤ה",
+      "gloss": "gathered-as-a-prisoner",
+      "readings": [
+        "gathered-as-a-prisoner",
+        "as a gathering"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אַסִּיר֙",
+      "gloss": "a prisoner",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "בּ֔וֹר",
+      "gloss": "the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְסֻגְּר֖וּ",
+      "gloss": "and shut up",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "מַסְגֵּ֑ר",
+      "gloss": "the prison",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמֵרֹ֥ב",
+      "gloss": "and after the multitude of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמִ֖ים",
+      "gloss": "days",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִפָּקֵֽדוּ",
+      "gloss": "they shall be chastised",
+      "readings": [
+        "they shall be chastised",
+        "they shall be visited"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:18.250955094Z",
+  "model": "glm-5.3"
 }

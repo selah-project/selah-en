@@ -1,54 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "There is a way that seems right before a man, but its end ⟨is⟩ the ways of death.",
+  "ref": "proverbs 14:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "seems",
+      "rationale": "the verb 'seems' is supplied; Hebrew says only 'a way straight before a man'."
+    },
+    {
+      "kind": "crux",
+      "subject": "a way straight",
+      "rationale": "'a way that seems right' vs literal 'a straight way (to a man)'; the irony is the way itself looks straight to its walker."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew omits the copula; 'its end — the ways of death'."
+    }
+  ],
+  "translation": "There is a way that seems straight before a man, but its end are the ways of death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2142dfe819804dfe076a55150dbf99adf1f7e4ba32d1830a7af6171f1937add",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/9-12.1791193855397.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "יש",
-      "gloss": "there is"
+      "surface": "יֵ֤שׁ",
+      "gloss": "There is"
     },
     {
-      "surface": "דרך",
-      "gloss": "a way"
+      "surface": "דֶּ֣רֶךְ",
+      "gloss": "a way",
+      "sense": "S1"
     },
     {
-      "surface": "ישר",
-      "gloss": "right",
-      "readings": [
-        "right",
-        "straight"
-      ],
-      "held_by": {
-        "right": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "straight": [
-          "en4"
-        ]
-      }
+      "surface": "יָ֭שָׁר",
+      "gloss": "straight",
+      "sense": "S1"
     },
     {
-      "surface": "לפני",
+      "surface": "לִפְנֵי",
       "gloss": "before"
     },
     {
-      "surface": "איש",
+      "surface": "אִ֑ישׁ",
       "gloss": "a man"
     },
     {
-      "surface": "ואחריתה",
-      "gloss": "but its end"
+      "surface": "וְ֝אַחֲרִיתָ֗הּ",
+      "gloss": "but its end",
+      "sense": "S1"
     },
     {
-      "surface": "דרכי",
-      "gloss": "the ways"
+      "surface": "דַּרְכֵי",
+      "gloss": "the ways of",
+      "sense": "S1"
     },
     {
-      "surface": "מות",
-      "gloss": "of death"
+      "surface": "מָֽוֶת",
+      "gloss": "death",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:55.398985432Z",
+  "model": "glm-5.3"
 }

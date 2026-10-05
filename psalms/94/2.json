@@ -1,53 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Lift yourself up, judge of the earth; render recompense upon the proud.",
+  "ref": "psalms 94:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Both imperatives address YHWH directly as Judge of the earth."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הנשא \/ גאים",
+      "rationale": "The plea that God 'lift himself up' plays against the 'lofty, arrogant' (גאים) he is to judge."
+    }
+  ],
+  "translation": "Lift yourself up, Judge of the earth, return recompense upon the proud!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9921832727a9604d8aba8a56f917a5033a22bd39a706f697b96276935aca9aec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/1-4.1791193211753.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הנשא",
-      "gloss": "Lift yourself up"
+      "surface": "הִנָּשֵׂא",
+      "gloss": "Lift yourself up",
+      "sense": "S1"
     },
     {
-      "surface": "שפט",
-      "gloss": "judge"
+      "surface": "שׁוֹפֵט",
+      "gloss": "Judge",
+      "sense": "S1"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ]
+      "surface": "הָאָרֶץ",
+      "gloss": "of the earth",
+      "sense": "S1"
     },
     {
-      "surface": "השב",
-      "gloss": "render",
-      "readings": [
-        "render",
-        "return"
-      ],
-      "held_by": {
-        "render": [
-          "v2",
-          "v3"
-        ],
-        "return": [
-          "en4"
-        ]
-      }
+      "surface": "הָשֵׁב",
+      "gloss": "return",
+      "sense": "S1"
     },
     {
-      "surface": "גמול",
-      "gloss": "recompense"
+      "surface": "גְּמוּל",
+      "gloss": "recompense",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "גאים",
-      "gloss": "the proud"
+      "surface": "גֵּאִים",
+      "gloss": "the proud",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:11.753814143Z",
+  "model": "glm-5.3"
 }

@@ -1,102 +1,138 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Thus says YHWH: the one sitting in this city shall die by the sword, by the famine and by the pestilence; but the one going out to the Chaldeans shall live, and ⟨it⟩ shall be to him for ⟨a⟩ spoil — his nefesh — and he shall live.",
+  "ref": "jeremiah 38:2",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "his life",
+      "rationale": "נפש here is the life-principle, literally 'throat'; 'soul' would import Greek categories."
+    },
+    {
+      "kind": "idiom",
+      "subject": "his life shall be his for spoil",
+      "rationale": "Hebrew נפשו לשלל, 'his nefesh as booty', i.e. he survives as his own plunder."
+    },
+    {
+      "kind": "crux",
+      "subject": "יחיה",
+      "rationale": "Ketiv lacks the vav, qere reads וחיה 'and he shall live'; the v2 ending וחי may be the fuller form."
+    }
+  ],
+  "translation": "Thus said YHWH: the one who sits in this city shall die by the sword and by the famine and by the pestilence; but the one who goes out to the Chaldeans shall live, and his life shall be his for spoil, and he shall live.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e84d075ea6114dde241196ea188a34bd9698e556599520071893f42ba0727535",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/38\/1-4.1791189826039.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כה",
+      "surface": "כֹּה",
       "gloss": "Thus"
     },
     {
-      "surface": "אמר",
-      "gloss": "says"
+      "surface": "אָמַ֣ר",
+      "gloss": "said",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֒ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "הישב",
-      "gloss": "the one sitting"
+      "surface": "הַיּוֹשֵׁב֙",
+      "gloss": "the one who sits",
+      "sense": "S1"
     },
     {
-      "surface": "בעיר",
-      "gloss": "in this city"
+      "surface": "בָּעִ֣יר",
+      "gloss": "in",
+      "readings": [
+        "in",
+        "in the city of"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "הזאת",
-      "gloss": "this"
+      "surface": "הַזֹּ֔את",
+      "gloss": "this city"
     },
     {
-      "surface": "ימות",
-      "gloss": "shall die"
+      "surface": "יָמ֥וּת",
+      "gloss": "shall die",
+      "sense": "S1"
     },
     {
-      "surface": "בחרב",
-      "gloss": "by the sword"
+      "surface": "בַּחֶ֖רֶב",
+      "gloss": "by the sword",
+      "sense": "S1"
     },
     {
-      "surface": "ברעב",
-      "gloss": "by the famine"
+      "surface": "בָּרָעָ֣ב",
+      "gloss": "by the famine",
+      "sense": "S1"
     },
     {
-      "surface": "ובדבר",
-      "gloss": "and by the pestilence"
+      "surface": "וּבַדָּ֑בֶר",
+      "gloss": "and by the pestilence",
+      "sense": "S1"
     },
     {
-      "surface": "והיצא",
-      "gloss": "and the one going out"
+      "surface": "וְהַיּוֹצֵ֤א",
+      "gloss": "but the one who goes out",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "הכשדים",
-      "gloss": "the Chaldeans"
+      "surface": "הַכַּשְׂדִּים֙",
+      "gloss": "the Chaldeans",
+      "sense": "S1"
     },
     {
-      "surface": "יחיה",
-      "gloss": "shall live"
+      "surface": "יֶחֱיֶה",
+      "gloss": "shall live",
+      "sense": "S1"
     },
     {
-      "surface": "והיתה",
-      "gloss": "and ⟨it⟩ shall be"
+      "surface": "וְהָיְתָ֥ה",
+      "gloss": "and it shall be"
     },
     {
-      "surface": "לו",
+      "surface": "לּ֛וֹ",
       "gloss": "to him"
     },
     {
-      "surface": "נפשו",
+      "surface": "נַפְשׁ֛וֹ",
       "gloss": "his life",
       "readings": [
         "his life",
-        "his nefesh",
-        "his soul"
+        "his throat"
       ],
-      "held_by": {
-        "his life": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his nefesh": [
-          "en4"
-        ],
-        "his soul": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לשלל",
-      "gloss": "for ⟨a⟩ spoil"
+      "surface": "לְשָׁלָ֖ל",
+      "gloss": "for spoil",
+      "sense": "S1"
     },
     {
-      "surface": "וחי",
-      "gloss": "and he shall live"
+      "surface": "וָחָֽי",
+      "gloss": "and he shall live",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:43:46.040465109Z",
+  "model": "glm-5.3"
 }

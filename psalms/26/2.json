@@ -1,46 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Test me, YHWH, and try me; refine my kidneys and my heart.",
+  "ref": "psalms 26:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "kidneys",
+      "rationale": "כליות literally kidneys, the seat of feeling; English idiom would say 'inmost being'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "three verbs of testing",
+      "rationale": "בחן, נסה, צרף pile goldsmith images — examine, assay, smelt — in one breath."
+    }
+  ],
+  "translation": "Test me, YHWH, and try me; smelt my kidneys and my heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56ed335d45aa73f6c436aab6cfcb30d24d8341c81c3d32ce49981a41b4b9478a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/26\/1-4.1791192548305.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בחנני",
-      "gloss": "Test me"
+      "surface": "בְּחָנֵ֣נִי",
+      "gloss": "Test me",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ונסני",
+      "surface": "וְנַסֵּ֑נִי",
       "gloss": "and try me",
-      "readings": [
-        "and try me",
-        "and prove me"
-      ],
-      "held_by": {
-        "and try me": [
-          "v1",
-          "en4"
-        ],
-        "and prove me": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "צרופה",
-      "gloss": "refine"
+      "gloss": "smelt",
+      "sense": "S1"
     },
     {
-      "surface": "כליותי",
-      "gloss": "my kidneys"
+      "surface": "כִּלְיֹתַ֣י",
+      "gloss": "my kidneys",
+      "readings": [
+        "my kidneys",
+        "my inmost self"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ולבי",
-      "gloss": "and my heart"
+      "surface": "וְלִבִּֽי",
+      "gloss": "and my heart",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:08.306540640Z",
+  "model": "glm-5.3"
 }

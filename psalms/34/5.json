@@ -1,36 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "I sought ⟨את⟩ YHWH, and he answered me, and delivered me from all my terrors.",
+  "ref": "psalms 34:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "my terrors",
+      "rationale": "מְגוּרוֹת from מגור can also mean 'dwelling-places' (sofirim read 'my sojournings'), but the parallel with Prov 10:24 and the sense line favor terrors\/fears."
+    }
+  ],
+  "translation": "I sought ⟨את⟩ YHWH, and he answered me, and from all my terrors he delivered me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b0e6c43d1d8b72c16ce88eae79b364753cbb93e108f1d381f16c524004671d98",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/5-8.1791192598039.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "דרשתי",
-      "gloss": "I sought"
+      "surface": "דָּרַשְׁתִּי",
+      "gloss": "I sought",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "וענני",
-      "gloss": "and he answered me"
+      "surface": "וְעָנָנִי",
+      "gloss": "and he answered me",
+      "sense": "S1"
     },
     {
-      "surface": "ומכל",
+      "surface": "וּמִכָּל",
       "gloss": "and from all"
     },
     {
-      "surface": "מגורותי",
-      "gloss": "my terrors"
+      "surface": "מְגוּרֹתַי",
+      "gloss": "my terrors",
+      "readings": [
+        "my terrors",
+        "my fears"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "הצילני",
-      "gloss": "delivered me"
+      "surface": "הִצִּילָנִי",
+      "gloss": "he delivered me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:58.040406188Z",
+  "model": "glm-5.3"
 }

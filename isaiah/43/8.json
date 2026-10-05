@@ -1,53 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Bring forth ⟨a⟩ people ⟨who are⟩ blind, and eyes there are, and deaf ones, and ears ⟨are⟩ to them.",
-  "tokens": [
+  "ref": "isaiah 43:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "הוציא",
-      "gloss": "Bring forth",
-      "readings": [
-        "Bring forth",
-        "Bring out"
-      ],
-      "held_by": {
-        "Bring forth": [
-          "v1",
-          "v3"
-        ],
-        "Bring out": [
-          "v2"
-        ]
-      }
+      "kind": "crux",
+      "subject": "blind and eyes there are",
+      "rationale": "paradoxical description: a people who are blind yet have eyes; some emend, but the strangeness is the point"
     },
     {
-      "surface": "עם",
-      "gloss": "⟨a⟩ people"
+      "kind": "elision",
+      "subject": "למו",
+      "rationale": "poetic emphatic preposition 'to them', archaic; rendered simply 'to them'"
     },
     {
-      "surface": "עור",
-      "gloss": "blind"
-    },
-    {
-      "surface": "ועינים",
-      "gloss": "and eyes"
-    },
-    {
-      "surface": "יש",
-      "gloss": "there are"
-    },
-    {
-      "surface": "וחרשים",
-      "gloss": "and deaf"
-    },
-    {
-      "surface": "ואזנים",
-      "gloss": "and ears"
-    },
-    {
-      "surface": "למו",
-      "gloss": "to them"
+      "kind": "wordplay",
+      "subject": "irony",
+      "rationale": "the verse stacks body-part pairs (eyes\/ears) against disabilities (blind\/deaf) — Israel sees but does not see"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Bring out ⟨את⟩ a people — blind, and eyes there are; and deaf, and ears to them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "910ca7280131ed28632345e69be78c86bc577df672d3feeee1c746ba5ba58ba1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/43\/5-8.1791188658341.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוֹצִיא",
+      "gloss": "Bring out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַם",
+      "gloss": "a people",
+      "marks": "a people — blind…",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִוֵּר",
+      "gloss": "blind",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵינַיִם",
+      "gloss": "and eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵשׁ",
+      "gloss": "there are",
+      "sense": null
+    },
+    {
+      "surface": "וְחֵרְשִׁים",
+      "gloss": "and deaf",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָזְנַיִם",
+      "gloss": "and ears",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמוֹ",
+      "gloss": "to them",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:24:18.342907505Z",
+  "model": "glm-5.3"
 }

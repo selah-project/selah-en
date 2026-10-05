@@ -1,66 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 50,
-  "translation": "Therefore I will give you thanks among the nations, YHWH, and to your name I will sing praise.",
-  "tokens": [
+  "ref": "psalms 18:50",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "on account of"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct second-person address to YHWH in the midst of praise."
     },
     {
-      "surface": "כן",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "אודך",
-      "gloss": "I will give you thanks",
-      "readings": [
-        "I will give you thanks",
-        "I confess you"
-      ],
-      "held_by": {
-        "I will give you thanks": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I confess you": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בגוים",
-      "gloss": "among the nations"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ולשמך",
-      "gloss": "and to your name"
-    },
-    {
-      "surface": "אזמרה",
-      "gloss": "I will sing praise",
-      "readings": [
-        "I will sing praise",
-        "I play music"
-      ],
-      "held_by": {
-        "I will sing praise": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I play music": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English requires the article before 'nations'; Hebrew בַגווים carries it via ב + ה, unbracketed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Therefore I will give thanks to you among the nations, YHWH, and to your name I will sing praise.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1c3c5ed8e8b03035b750c6580e25bcdd1ef548f89e86b43318c8721d3101169d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/49-51.1791192473740.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "Therefore",
+      "sense": null
+    },
+    {
+      "surface": "כֵּ֤ן",
+      "gloss": "Therefore",
+      "sense": null
+    },
+    {
+      "surface": "אוֹדְךָ֖",
+      "gloss": "I will give thanks to you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּגּוֹיִ֥ם",
+      "gloss": "among the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְשִׁמְךָ֥",
+      "gloss": "and to your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲזַמֵּֽרָה",
+      "gloss": "I will sing praise",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:53.741367702Z",
+  "model": "glm-5.3"
 }

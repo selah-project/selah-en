@@ -1,34 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "And in Ziklag and in Meconah and in ⟨the⟩ villages ⟨of it⟩.",
-  "tokens": [
+  "ref": "nehemiah 11:28",
+  "book": "nehemiah",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ובצקלג",
-      "gloss": "And in Ziklag"
+      "kind": "hapax",
+      "subject": "מכנה",
+      "rationale": "Mekonah occurs only here in the Tanakh"
     },
     {
-      "surface": "ובמכנה",
-      "gloss": "and in Meconah"
-    },
-    {
-      "surface": "ובבנתיה",
-      "gloss": "and in ⟨the⟩ villages ⟨of it⟩",
-      "readings": [
-        "and in ⟨the⟩ villages ⟨of it⟩",
-        "and in its daughters"
-      ],
-      "held_by": {
-        "and in ⟨the⟩ villages ⟨of it⟩": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and in its daughters": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "daughters",
+      "rationale": "בנות plural = dependent villages of Mekonah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and in Ziklag, and in Mekonah and its daughters.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "084575eae9e2efd22d2fee66ec12b3c0639d5b48c773bd39c4ff7e6b0a946d0c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nehemiah\/11\/25-28.1791195921561.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nehemiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבְצִקְלַג",
+      "gloss": "and in Ziklag",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבִמְכֹנָה",
+      "gloss": "and in Mekonah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבִבְנֹתֶיהָ",
+      "gloss": "and its daughters",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:25:21.562082071Z",
+  "model": "glm-5.3"
 }

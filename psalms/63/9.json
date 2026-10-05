@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "My soul clings after you; in me your right hand upholds.",
-  "tokens": [
+  "ref": "psalms 63:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 63,
+  "notes": [
     {
-      "surface": "דבקה",
-      "gloss": "clings"
+      "kind": "wordplay",
+      "subject": "דבקה\/תמכה",
+      "rationale": "third-feminine verbs match נפשי (f.) then pivot to ימינך (f.), a balanced clinging\/holding pair around בי at the center"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul"
-    },
-    {
-      "surface": "אחריך",
-      "gloss": "after you"
-    },
-    {
-      "surface": "בי",
-      "gloss": "in me"
-    },
-    {
-      "surface": "תמכה",
-      "gloss": "upholds",
-      "readings": [
-        "upholds",
-        "is upheld"
-      ],
-      "held_by": {
-        "upholds": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "is upheld": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ימינך",
-      "gloss": "your right hand"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "second-masculine suffixes address God directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Cleaves my soul after you; me upholds your right hand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be9e8e597ee1aa088b85735fe5191fff3cf75e3b9f8715e4aa52b0046f203662",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/63\/9-12.1791192874793.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דָּבְקָ֣ה",
+      "gloss": "cleaves",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁ֣י",
+      "gloss": "my soul",
+      "readings": [
+        "my soul",
+        "my nefesh",
+        "my life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרֶ֑יךָ",
+      "gloss": "after you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּ֝֗י",
+      "gloss": "me",
+      "sense": null
+    },
+    {
+      "surface": "תָּמְכָ֥ה",
+      "gloss": "upholds",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִינֶֽךָ",
+      "gloss": "your right hand",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:34.793698035Z",
+  "model": "glm-5.3"
 }

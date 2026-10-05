@@ -1,52 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "I saw the mountains, and behold — quaking; and all the hills were shaken lightly.",
-  "tokens": [
+  "ref": "jeremiah 4:24",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "ראיתי",
-      "gloss": "I saw"
-    },
-    {
-      "surface": "ההרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "רעשים",
-      "gloss": "quaking"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "הגבעות",
-      "gloss": "the hills"
-    },
-    {
-      "surface": "התקלקלו",
-      "gloss": "were shaken lightly",
-      "readings": [
-        "were shaken lightly",
-        "were swaying to and fro"
-      ],
-      "held_by": {
-        "were shaken lightly": [
-          "v1",
-          "en4"
-        ],
-        "were swaying to and fro": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "התקלקלו",
+      "rationale": "Intensive hithpalpel of קלל with doubled root ('reeling to and fro'), matching the shaking of 4:20's doubled שבר על שבר."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I saw the mountains, and behold, they were quaking, and all the hills were reeling to and fro.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d21c5acbe5ad1a91cbab787c01a732c5b542ba17756f70f20d3a1a4f257d7244",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/4\/21-24.1791189104294.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָאִ֨יתִי֙",
+      "gloss": "I saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶֽהָרִ֔ים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּ֖ה",
+      "gloss": "and behold,",
+      "sense": null
+    },
+    {
+      "surface": "רֹעֲשִׁ֑ים",
+      "gloss": "they were quaking",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "הַגְּבָע֖וֹת",
+      "gloss": "the hills",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִתְקַלְקְל֗וּ",
+      "gloss": "were reeling to and fro",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:31:44.295815253Z",
+  "model": "glm-5.3"
 }

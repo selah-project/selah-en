@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "And the woman said to Elijah, “Now this I know: that a man of Elohim you ⟨are⟩, and the word of YHWH in your mouth ⟨is⟩ truth.”",
+  "ref": "1-kings 17:24",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'the word of YHWH in your mouth truth'"
+    },
+    {
+      "kind": "crux",
+      "subject": "a man of Elohim",
+      "rationale": "אישׁ אלהים: a title for a prophet; kept literal rather than 'prophet of God'"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elijah",
+      "rationale": "The widow's confession is addressed directly to Elijah"
+    }
+  ],
+  "translation": "And the woman said to Elijah: Now this I know, that a man of Elohim you are, and ⟨the⟩ word of YHWH in your mouth ⟨is⟩ truth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "802a693f37dfbb518904c3ce5817de3c43ce9d9a373fe7f7bfb4097c617d4177",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/17\/21-24.1791187171284.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ותאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "האשה",
-      "gloss": "the woman"
+      "gloss": "the woman",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,15 +50,18 @@
     },
     {
       "surface": "אליהו",
-      "gloss": "Elijah"
+      "gloss": "Elijah",
+      "sense": "S1"
     },
     {
       "surface": "עתה",
-      "gloss": "Now"
+      "gloss": "now",
+      "sense": "S1"
     },
     {
       "surface": "זה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "ידעתי",
@@ -36,11 +73,13 @@
     },
     {
       "surface": "איש",
-      "gloss": "a man"
+      "gloss": "a man",
+      "sense": "S1"
     },
     {
       "surface": "אלהים",
-      "gloss": "of Elohim"
+      "gloss": "of Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
@@ -48,36 +87,25 @@
     },
     {
       "surface": "ודבר",
-      "gloss": "and the word"
+      "gloss": "and the word of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "of YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "בפיך",
-      "gloss": "in your mouth"
+      "gloss": "in your mouth",
+      "sense": "S1"
     },
     {
       "surface": "אמת",
       "gloss": "truth",
-      "readings": [
-        "truth",
-        "faithfulness"
-      ],
-      "held_by": {
-        "truth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "faithfulness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:59:31.285370692Z",
+  "model": "glm-5.3"
 }

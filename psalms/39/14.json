@@ -1,50 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Look away from me, and I will be brightened, before I go and I am not.",
-  "tokens": [
+  "ref": "psalms 39:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "השע",
-      "gloss": "Look away"
+      "kind": "crux",
+      "subject": "ואבליגה",
+      "rationale": "root בלג 'shine, brighten'; from 'flash of light' read as 'recover cheer, smile' — only four occurrences in the Tanakh."
     },
     {
-      "surface": "ממני",
-      "gloss": "from me"
-    },
-    {
-      "surface": "ואבליגה",
-      "gloss": "and I will be brightened",
-      "readings": [
-        "and I will be brightened",
-        "and I will take comfort",
-        "that I may recover strength"
-      ],
-      "held_by": {
-        "and I will be brightened": [
-          "v2",
-          "v3"
-        ],
-        "and I will take comfort": [
-          "v1"
-        ],
-        "that I may recover strength": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בטרם",
-      "gloss": "before"
-    },
-    {
-      "surface": "אלך",
-      "gloss": "I go"
-    },
-    {
-      "surface": "ואינני",
-      "gloss": "and I am not"
+      "kind": "you",
+      "subject": "address to YHWH",
+      "rationale": "imperative 'look away' continues the direct address of v. 13."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Look away from me, and I will brighten, before I go and am no more.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e327ffbe52e0a9d444aafee8f7dd513c6d73a4712243b845913271ec1344f72",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/39\/13-14.1791192660779.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָשַׁ֣ע",
+      "gloss": "Look away",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּ֣נִּי",
+      "gloss": "from me",
+      "sense": null
+    },
+    {
+      "surface": "וְאַבְלִ֑יגָה",
+      "gloss": "and I will brighten",
+      "sense": "S1",
+      "readings": [
+        "and I will brighten",
+        "and I will smile"
+      ]
+    },
+    {
+      "surface": "בְּטֶ֖רֶם",
+      "gloss": "before",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֵ֣ךְ",
+      "gloss": "I go",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵינֶֽנִּי",
+      "gloss": "and am no more",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:00.780140347Z",
+  "model": "glm-5.3"
 }

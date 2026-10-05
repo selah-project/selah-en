@@ -1,76 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And Satan stood up against Israel, and moved ⟨את⟩ David to number ⟨את⟩ Israel.",
-  "tokens": [
+  "ref": "1-chronicles 21:1",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "ויעמד",
-      "gloss": "and stood up"
+      "kind": "crux",
+      "subject": "Satan",
+      "rationale": "The parallel 2 Samuel 24:1 attributes the incitement to YHWH's anger; here שטן without the article is read by many as the supernatural Accuser, though 'an adversary' remains possible."
     },
     {
-      "surface": "שטן",
+      "kind": "measurement",
+      "subject": "number Israel",
+      "rationale": "The verse opens a census narrative — counting the people."
+    }
+  ],
+  "translation": "And Satan stood against Israel, and urged David ⟨את⟩ to number ⟨את⟩ Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f86c8647b56a7680b62980dfe33e4532e9d7c28a12269300bd7bb96ab99c3c70",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/21\/1-4.1791196363544.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּֽעֲמֹ֥ד",
+      "gloss": "and stood",
+      "sense": null
+    },
+    {
+      "surface": "שָׂטָ֖ן",
       "gloss": "Satan",
+      "sense": "S1",
       "readings": [
         "Satan",
         "an adversary"
-      ],
-      "held_by": {
-        "Satan": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "an adversary": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "על",
-      "gloss": "against"
+      "surface": "עַל",
+      "gloss": "against",
+      "sense": null
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵ֑ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "ויסת",
-      "gloss": "and moved",
-      "readings": [
-        "and moved",
-        "and provoked"
-      ],
-      "held_by": {
-        "and moved": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and provoked": [
-          "v1"
-        ]
-      }
+      "surface": "וַיָּ֨סֶת֙",
+      "gloss": "and urged",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "David",
+      "sense": null
     },
     {
-      "surface": "דויד",
-      "gloss": "David"
+      "surface": "דָּוִ֔יד",
+      "gloss": "David",
+      "sense": "S1"
     },
     {
-      "surface": "למנות",
-      "gloss": "to number"
+      "surface": "לִמְנ֖וֹת",
+      "gloss": "to number",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Israel",
+      "sense": null
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:32:43.545033391Z",
+  "model": "glm-5.3"
 }

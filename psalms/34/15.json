@@ -1,69 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Turn from evil and do good; seek peace and pursue it.",
-  "tokens": [
+  "ref": "psalms 34:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "סור",
-      "gloss": "Turn",
-      "readings": [
-        "Turn",
-        "turn aside"
-      ],
-      "held_by": {
-        "Turn": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "turn aside": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "Turn",
+      "rationale": "סור S1 pictures leaving the road one travels; 'turn from' keeps the picture only partially."
     },
     {
-      "surface": "מרע",
-      "gloss": "from evil"
-    },
-    {
-      "surface": "ועשה",
-      "gloss": "and do"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "בקש",
-      "gloss": "seek"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace",
-      "readings": [
-        "peace",
-        "wholeness",
-        "welfare"
-      ],
-      "held_by": {
-        "peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wholeness": [
-          "en4"
-        ],
-        "welfare": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ורדפהו",
-      "gloss": "and pursue it"
+      "kind": "wordplay",
+      "subject": "רע\/טוב",
+      "rationale": "Sharp antithesis of evil and good framesing the verse, matched by seek\/pursue in the second half."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Turn from evil and do good; seek peace and pursue it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0869d8a4f7223c7ec9f52e4b5db2805e36fc2e9121977e96d9151c598da5b74c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/13-16.1791192602906.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ס֣וּר",
+      "gloss": "Turn",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרָ֭ע",
+      "gloss": "from evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַעֲשֵׂ֥ה",
+      "gloss": "and do",
+      "sense": "S1"
+    },
+    {
+      "surface": "ט֑וֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּקֵּ֖שׁ",
+      "gloss": "seek",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁל֣וֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרָדְפֵֽהוּ",
+      "gloss": "and pursue it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:02.907996281Z",
+  "model": "glm-5.3"
 }

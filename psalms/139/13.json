@@ -1,69 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For You—You possessed my kidneys; You covered me in the belly of my mother.",
-  "tokens": [
+  "ref": "psalms 139:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "kidneys",
+      "rationale": "כליות is literally kidneys, regarded as the seat of the emotions and devotion; English tradition reads it as the inner self"
     },
     {
-      "surface": "אתה",
-      "gloss": "You"
-    },
-    {
-      "surface": "קנית",
-      "gloss": "You possessed",
-      "readings": [
-        "You possessed",
-        "You acquired",
-        "You created"
-      ],
-      "held_by": {
-        "You possessed": [
-          "v1",
-          "v3"
-        ],
-        "You acquired": [
-          "en4"
-        ],
-        "You created": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כליתי",
-      "gloss": "my kidneys"
-    },
-    {
-      "surface": "תסכני",
-      "gloss": "You covered me",
-      "readings": [
-        "You covered me",
-        "You wove me"
-      ],
-      "held_by": {
-        "You covered me": [
-          "v1",
-          "v3"
-        ],
-        "You wove me": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בבטן",
-      "gloss": "in the belly of"
-    },
-    {
-      "surface": "אמי",
-      "gloss": "my mother"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalmist addresses YHWH directly throughout"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you created my kidneys; you wove me in the womb of my mother.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4b302f7a450a6c267c61e76ebbdbe86d7ef144033d8be0c6848825cadec2fae6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/13-16.1791193597422.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "קָנִיתָ",
+      "gloss": "created",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִלְיֹתָי",
+      "gloss": "my kidneys",
+      "sense": "S2"
+    },
+    {
+      "surface": "תְּסֻכֵּנִי",
+      "gloss": "you wove me",
+      "sense": "S1",
+      "readings": [
+        "you wove me",
+        "you screened me"
+      ]
+    },
+    {
+      "surface": "בְּבֶטֶן",
+      "gloss": "in the womb",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמִּי",
+      "gloss": "of my mother",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:37.423532991Z",
+  "model": "glm-5.3"
 }

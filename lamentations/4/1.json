@@ -1,84 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "How the gold grows dim, the fine gold changes! The stones of holiness are poured out at the head of every street.",
-  "tokens": [
+  "ref": "lamentations 4:1",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "איכה",
-      "gloss": "How"
+      "kind": "addition",
+      "subject": "is \/ are",
+      "rationale": "English requires copulas the Hebrew participle-less clauses omit"
     },
     {
-      "surface": "יועם",
-      "gloss": "grows dim"
+      "kind": "crux",
+      "subject": "יִשְׁנֶ֖א",
+      "rationale": "ketiv 'changed' vs qere יִשְׁנֶה 'is changed'; rendered on the ketiv"
     },
     {
-      "surface": "זהב",
-      "gloss": "gold"
-    },
-    {
-      "surface": "ישנא",
-      "gloss": "changes"
-    },
-    {
-      "surface": "הכתם",
-      "gloss": "the fine gold"
-    },
-    {
-      "surface": "הטוב",
-      "gloss": "the good"
-    },
-    {
-      "surface": "תשתפכנה",
-      "gloss": "are poured out"
-    },
-    {
-      "surface": "אבני",
-      "gloss": "stones of"
-    },
-    {
-      "surface": "קדש",
-      "gloss": "holiness",
-      "readings": [
-        "holiness",
-        "sanctuary"
-      ],
-      "held_by": {
-        "holiness": [
-          "en4"
-        ],
-        "sanctuary": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בראש",
-      "gloss": "at the head of"
-    },
-    {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
-      "surface": "חוצות",
-      "gloss": "street",
-      "readings": [
-        "street",
-        "open places"
-      ],
-      "held_by": {
-        "street": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "open places": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אֵיכָה",
+      "rationale": "the book's watchword 'How!' opens the chapter as it opened chapters 1 and 2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How darkened is gold, changed the fine gold of good quality! Poured out are stones of holiness at the head of every street.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "35077ca323124b1affac648e048deb703a3d30da6c4edf70e81b4e9d446d5230",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/4\/1-4.1791194783049.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵיכָה֙",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוּעַ֣ם",
+      "gloss": "is darkened",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָ֔ב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁנֶ֖א",
+      "gloss": "changed",
+      "sense": "S1",
+      "readings": [
+        "changed",
+        "is altered"
+      ]
+    },
+    {
+      "surface": "הַכֶּ֣תֶם",
+      "gloss": "the fine gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַטּ֑וֹב",
+      "gloss": "of good quality",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁתַּפֵּ֨כְנָה֙",
+      "gloss": "are poured out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַבְנֵי",
+      "gloss": "stones of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קֹ֔דֶשׁ",
+      "gloss": "holiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרֹ֖אשׁ",
+      "gloss": "at the head of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "every",
+      "sense": null
+    },
+    {
+      "surface": "חוּצֽוֹת",
+      "gloss": "street",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:23.049911893Z",
+  "model": "glm-5.3"
 }

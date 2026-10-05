@@ -1,104 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "“I have dug and drunk strange waters, and with the sole of my feet I have dried up all the streams of Matsor.”",
+  "ref": "2-kings 19:24",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "Matsor",
+      "rationale": "מצור is a poetic name for Egypt; transliterated with 'Egypt' as a lawful reading"
+    },
+    {
+      "kind": "crux",
+      "subject": "dug wells",
+      "rationale": "קרתי has no stated object; 'wells' is supplied from the verb's sense (to dig a well) — Isaiah 37:25 parallel reads 'waters'"
+    }
+  ],
+  "translation": "I dug wells and drank foreign waters, and with the sole of my foot I dried up all the streams of Matsor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "580e6fd2080091433ebaa1a65bfa8d7807fe9d93634ec910243b527c8a52eb45",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/19\/21-24.1791187840785.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
-      "gloss": "I"
+      "surface": "אֲנִ֣י",
+      "gloss": "I",
+      "sense": null
     },
     {
-      "surface": "קרתי",
-      "gloss": "have dug"
+      "surface": "קַ֔רְתִּי",
+      "gloss": "dug wells",
+      "sense": "S1"
     },
     {
-      "surface": "ושתיתי",
-      "gloss": "and drunk"
+      "surface": "וְשָׁתִ֖יתִי",
+      "gloss": "and drank",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "waters"
+      "surface": "מַ֣יִם",
+      "gloss": "waters",
+      "sense": "S1"
     },
     {
-      "surface": "זרים",
-      "gloss": "strange"
+      "surface": "זָרִ֑ים",
+      "gloss": "foreign",
+      "sense": "S1"
     },
     {
-      "surface": "ואחרב",
-      "gloss": "and I have dried up"
+      "surface": "וְאַחְרִב֙",
+      "gloss": "and I dried up",
+      "sense": "S1"
     },
     {
-      "surface": "בכף",
-      "gloss": "with the sole"
+      "surface": "בְּכַף",
+      "gloss": "with the sole of",
+      "sense": "S1"
     },
     {
-      "surface": "פעמי",
-      "gloss": "of my feet",
-      "readings": [
-        "of my feet",
-        "my steps"
-      ],
-      "held_by": {
-        "of my feet": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my steps": [
-          "en4"
-        ]
-      }
+      "surface": "פַּעְמַ֔י",
+      "gloss": "my foot",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כֹּ֖ל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "יארי",
+      "surface": "יְאֹרֵ֥י",
       "gloss": "the streams of",
-      "readings": [
-        "the streams of",
-        "the canals of",
-        "the Nile of"
-      ],
-      "held_by": {
-        "the streams of": [
-          "v2",
-          "v3"
-        ],
-        "the canals of": [
-          "en4"
-        ],
-        "the Nile of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "מצור",
+      "surface": "מָצֽוֹר",
       "gloss": "Matsor",
       "readings": [
         "Matsor",
-        "the besieged places",
         "Egypt"
       ],
-      "held_by": {
-        "Matsor": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the besieged places": [
-          "v1"
-        ],
-        "Egypt": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:10:40.787138140Z",
+  "model": "glm-5.3"
 }

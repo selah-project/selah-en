@@ -1,50 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Scatter ⟨the⟩ outbursts of ⟨the⟩ passion of your nose, and see every proud one, and bring him low.",
+  "ref": "job 40:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אף is literally 'nose\/nostril', the seat of anger in Hebrew idiom"
+    },
+    {
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "imperatives continue the ironic challenge to act as El would"
+    }
+  ],
+  "translation": "Scatter the outbursts of your anger, and see every arrogant one and bring him low.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3f4a00bfd5167991967ad2440437ee50657462b6f1d46fd0ea815d28e6dcaeb4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/9-12.1791194622816.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הפץ",
+      "surface": "הָפֵץ",
       "gloss": "Scatter",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶבְרֹות",
+      "gloss": "the outbursts of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפֶּךָ",
+      "gloss": "your anger",
+      "sense": "S1",
       "readings": [
-        "Scatter",
-        "pour forth"
-      ],
-      "held_by": {
-        "Scatter": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "pour forth": [
-          "en4"
-        ]
-      }
+        "your anger",
+        "your nostril"
+      ]
     },
     {
-      "surface": "עברות",
-      "gloss": "the outbursts of passion"
+      "surface": "וּרְאֵה",
+      "gloss": "and see",
+      "sense": "S1"
     },
     {
-      "surface": "אפך",
-      "gloss": "of your nose"
-    },
-    {
-      "surface": "וראה",
-      "gloss": "and see"
-    },
-    {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "every"
     },
     {
-      "surface": "גאה",
-      "gloss": "proud one"
+      "surface": "גֵּאֶה",
+      "gloss": "arrogant one",
+      "sense": "S1"
     },
     {
-      "surface": "והשפילהו",
-      "gloss": "and bring him low"
+      "surface": "וְהַשְׁפִּילֵהוּ",
+      "gloss": "and bring him low",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:42.816937646Z",
+  "model": "glm-5.3"
 }

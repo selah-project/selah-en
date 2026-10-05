@@ -1,51 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Her ways ⟨are⟩ ways of pleasantness, and all her paths ⟨are⟩ peace.",
-  "tokens": [
+  "ref": "proverbs 3:17",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "דרכיה",
-      "gloss": "her ways"
+      "kind": "substitution",
+      "subject": "peace",
+      "rationale": "שלום is literally completeness\/wellbeing, rendered with English 'peace'"
     },
     {
-      "surface": "דרכי",
-      "gloss": "ways of"
-    },
-    {
-      "surface": "נעם",
-      "gloss": "pleasantness"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "נתיבותיה",
-      "gloss": "her paths"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace",
-      "readings": [
-        "peace",
-        "wholeness",
-        "welfare"
-      ],
-      "held_by": {
-        "peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wholeness": [
-          "en4"
-        ],
-        "welfare": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "pleasantness",
+      "rationale": "נועם also means grace or delight"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Her ways are ways of pleasantness, and all her paths are peace.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f30cd5223ef2e2a69c90979ea7624f755c03a934b818401899c38cda5fb2e207",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/3\/17-20.1791193706877.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דְּרָכֶ֥יהָ",
+      "gloss": "her ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּרְכֵי",
+      "gloss": "ways of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֹ֑עַם",
+      "gloss": "pleasantness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "נְתִ֖יבוֹתֶ֣יהָ",
+      "gloss": "her paths",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁלֽוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:26.878382208Z",
+  "model": "glm-5.3"
 }

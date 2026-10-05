@@ -1,47 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And the border of the Amorite was from the ascent of Akrabbim, from the rock and upward.",
-  "tokens": [
+  "ref": "judges 1:36",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "וגבול",
-      "gloss": "And the border of"
+      "kind": "substitution",
+      "subject": "the Sela",
+      "rationale": "סֶלֶע is the town in Edom; kept as the place name 'the Sela' rather than the common noun 'rock'"
     },
     {
-      "surface": "האמרי",
-      "gloss": "the Amorite"
-    },
-    {
-      "surface": "ממעלה",
-      "gloss": "from the ascent of"
-    },
-    {
-      "surface": "עקרבים",
-      "gloss": "Akrabbim"
-    },
-    {
-      "surface": "מהסלע",
-      "gloss": "the rock",
-      "readings": [
-        "the rock",
-        "the Sela"
-      ],
-      "held_by": {
-        "the rock": [
-          "v1",
-          "en4"
-        ],
-        "the Sela": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ומעלה",
-      "gloss": "and upward"
+      "kind": "addition",
+      "subject": "ran",
+      "rationale": "Hebrew has no verb; 'ran' supplied to make the border statement read as English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the border of the Amorite ran from the Ascent of Scorpions, from the Sela and upward.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be71b9d5830bed7ae9909281bae130c4605783888a5538a19c77706babad3772",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/1\/33-36.1791184815465.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּגְבוּל",
+      "gloss": "And the border of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֱמֹרִי",
+      "gloss": "the Amorite",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמַּעֲלֵה",
+      "gloss": "from the Ascent of"
+    },
+    {
+      "surface": "עַקְרַבִּים",
+      "gloss": "Scorpions"
+    },
+    {
+      "surface": "מֵהַסֶּלַע",
+      "gloss": "from the Sela",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָמָעְלָה",
+      "gloss": "and upward",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:20:15.468037160Z",
+  "model": "glm-5.3"
 }

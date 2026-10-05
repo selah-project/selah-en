@@ -1,55 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "A stone ⟨is⟩ heavy, and the sand ⟨is⟩ a burden, but the vexation of a fool ⟨is⟩ heavier than them both.",
-  "tokens": [
+  "ref": "proverbs 27:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "כבד",
-      "gloss": "heavy"
+      "kind": "hapax",
+      "subject": "נֵטֶל",
+      "rationale": "'burden' occurs only here in the Tanakh."
     },
     {
-      "surface": "אבן",
-      "gloss": "A stone"
+      "kind": "addition",
+      "subject": "is \/ than",
+      "rationale": "Hebrew is verbless and uses the comparative מִן alone; English supplies copula and 'than'."
     },
     {
-      "surface": "ונטל",
-      "gloss": "and a burden"
-    },
-    {
-      "surface": "החול",
-      "gloss": "the sand"
-    },
-    {
-      "surface": "וכעס",
-      "gloss": "but the vexation of",
-      "readings": [
-        "but the vexation of",
-        "but the wrath of"
-      ],
-      "held_by": {
-        "but the vexation of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "but the wrath of": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אויל",
-      "gloss": "a fool"
-    },
-    {
-      "surface": "כבד",
-      "gloss": "heavier"
-    },
-    {
-      "surface": "משניהם",
-      "gloss": "than them both"
+      "kind": "wordplay",
+      "subject": "כֹּבֶד \/ כָּבֵד",
+      "rationale": "noun 'heaviness' and adjective 'heavy' from one root frame the verse."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A stone is heavy, and the sand a burden, but the vexation of a fool is heavier than both of them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05f558c3cd75cfc493d1639f5ed3d31b1b79be2194255c6c0b2e7d574432c3f8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/27\/1-4.1791194027611.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּֽבֶד",
+      "gloss": "…is heavy",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֭בֶן",
+      "gloss": "a stone",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֵ֣טֶל",
+      "gloss": "and a burden",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַח֑וֹל",
+      "gloss": "the sand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכַ֥עַס",
+      "gloss": "but the vexation of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱ֝וִ֗יל",
+      "gloss": "a fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּבֵ֥ד",
+      "gloss": "is heavy",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְּׁנֵיהֶֽם",
+      "gloss": "than both of them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:47.612468858Z",
+  "model": "glm-5.3"
 }

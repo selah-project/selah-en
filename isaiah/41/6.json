@@ -1,36 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Each man helps ⟨את⟩ his neighbor, and to his brother he says, “Be strong.”",
-  "tokens": [
+  "ref": "isaiah 41:6",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "איש",
-      "gloss": "each man"
+      "kind": "addition",
+      "subject": "each",
+      "rationale": "singular איש with plural verb distributes the action; English needs 'each' to carry it"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "רעהו",
-      "gloss": "his neighbor"
-    },
-    {
-      "surface": "יעזרו",
-      "gloss": "helps"
-    },
-    {
-      "surface": "ולאחיו",
-      "gloss": "and to his brother"
-    },
-    {
-      "surface": "יאמר",
-      "gloss": "he says"
-    },
-    {
-      "surface": "חזק",
-      "gloss": "Be strong"
+      "kind": "crux",
+      "subject": "fear or courage",
+      "rationale": "חזק here is ironic — the nations' mutual encouragement ('be strong') in v.6 flows into the idol-makers' workshop in v.7, against YHWH's own 'be strong' to Israel later (41:10)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Each man helped ⟨את⟩ his fellow, and to his brother he said, “Be strong.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03cfd5d4e87d8419e0962d97b0e081205aea8cf72c4a6b3bfaba58d7b0298fa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/41\/5-8.1791188621150.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִישׁ",
+      "gloss": "each man",
+      "sense": null
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "his fellow",
+      "sense": null
+    },
+    {
+      "surface": "רֵעֵהוּ",
+      "gloss": "his fellow",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעְזֹרוּ",
+      "gloss": "helped",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְאָחִיו",
+      "gloss": "and to his brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאמַר",
+      "gloss": "he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲזָק",
+      "gloss": "Be strong",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:23:41.151426511Z",
+  "model": "glm-5.3"
 }

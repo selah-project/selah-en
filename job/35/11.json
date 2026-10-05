@@ -1,45 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "who teaches us more than ⟨the⟩ beasts of ⟨the⟩ earth, and makes us wiser than the birds of the heavens?”",
+  "ref": "job 35:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨more than⟩ \/ ⟨wiser⟩",
+      "rationale": "The comparative min is built into the preposition 'from'; English needs explicit comparatives."
+    }
+  ],
+  "translation": "Who teaches us more than the beasts of the earth, and makes us wiser than the birds of the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "650c27a1fa8768021f4cacb1b09f2f64462c52b55e23422be5e0a1fbb7a27555",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/35\/9-12.1791194559364.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "מלפנו",
-      "gloss": "teaches us"
+      "surface": "מַלְּפֵנוּ",
+      "gloss": "who teaches us",
+      "sense": "S1"
     },
     {
-      "surface": "מבהמות",
-      "gloss": "more than ⟨the⟩ beasts of"
+      "surface": "מִבְּהֵמוֹת",
+      "gloss": "than the beasts of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
-      "gloss": "⟨the⟩ earth"
-    },
-    {
-      "surface": "ומעוף",
-      "gloss": "and from the birds of",
+      "surface": "אָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1",
       "readings": [
-        "and from the birds of",
-        "and more than the birds of"
-      ],
-      "held_by": {
-        "and from the birds of": [
-          "en4"
-        ],
-        "and more than the birds of": [
-          "v2",
-          "v3"
-        ]
-      }
+        "the earth",
+        "the land"
+      ]
     },
     {
-      "surface": "השמים",
+      "surface": "וּמֵעוֹף",
+      "gloss": "and than the bird of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׁמַיִם",
       "gloss": "the heavens"
     },
     {
-      "surface": "יחכמנו",
-      "gloss": "he makes us wise"
+      "surface": "יְחַכְּמֵנוּ",
+      "gloss": "he makes us wise",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:02:39.365866279Z",
+  "model": "glm-5.3"
 }

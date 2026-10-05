@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "His sons shall appease the poor, and his hands shall give back his wealth.",
-  "tokens": [
+  "ref": "job 20:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "בניו",
-      "gloss": "his sons"
+      "kind": "crux",
+      "subject": "his sons will seek the favor of the poor",
+      "rationale": "ירצו דלים read as 'make supplication to the poor' (his heirs are destitute) or 'satisfy the poor' (repaying what he extorted)."
     },
     {
-      "surface": "ירצו",
-      "gloss": "shall appease",
-      "readings": [
-        "shall appease",
-        "shall seek the favor of"
-      ],
-      "held_by": {
-        "shall appease": [
-          "v1"
-        ],
-        "shall seek the favor of": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "דלים",
-      "gloss": "the poor"
-    },
-    {
-      "surface": "וידיו",
-      "gloss": "and his hands"
-    },
-    {
-      "surface": "תשבנה",
-      "gloss": "shall give back"
-    },
-    {
-      "surface": "אונו",
-      "gloss": "his wealth",
-      "readings": [
-        "his wealth",
-        "his power"
-      ],
-      "held_by": {
-        "his wealth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his power": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "hands",
+      "rationale": "וידיו 'and his hands' is metonymy for the man himself as restorer; rendered literally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His sons will seek the favor of the poor, and his hands will give back his wealth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa6d36ee35f554b8dd973f6d9dd7426a7230e9a994d8a7f8bcfec384ec7956d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/20\/9-12.1791194355868.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּנָיו",
+      "gloss": "His sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרַצּוּ",
+      "gloss": "will seek the favor of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַלִּים",
+      "gloss": "the poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָדָיו",
+      "gloss": "and his hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּשֵׁבְנָה",
+      "gloss": "will give back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹנוֹ",
+      "gloss": "his wealth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:15.869044182Z",
+  "model": "glm-5.3"
 }

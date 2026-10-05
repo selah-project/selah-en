@@ -1,58 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Do not eat ⟨את⟩ the bread of an evil eye, and do not desire his dainties.",
+  "ref": "proverbs 23:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "תלחם \/ לחם",
+      "rationale": "The verb 'eat\/feed' and the noun 'bread' share the root לחם."
+    },
+    {
+      "kind": "alternative",
+      "subject": "bread of an evil eye",
+      "rationale": "'Evil eye' is a Hebrew idiom for stinginess; the host of v.7 is the miser."
+    }
+  ],
+  "translation": "Do not eat ⟨את⟩ the bread of an evil eye, and do not crave his delicacies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c361837ffc50eb592b9cdbf6ee98443dc999afe4107598b2fb7194bd5659d2e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/23\/5-8.1791193973819.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
       "surface": "אל",
-      "gloss": "Do not"
+      "gloss": "do not",
+      "sense": null
     },
     {
       "surface": "תלחם",
-      "gloss": "eat"
+      "gloss": "eat",
+      "readings": [
+        "eat",
+        "feed on"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the bread of an evil eye",
+      "sense": null
     },
     {
       "surface": "לחם",
       "gloss": "the bread",
-      "readings": [
-        "the bread",
-        "food"
-      ],
-      "held_by": {
-        "the bread": [
-          "v2",
-          "en4"
-        ],
-        "food": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "רע",
-      "gloss": "of an evil"
+      "gloss": "of an evil",
+      "sense": "S1"
     },
     {
       "surface": "עין",
-      "gloss": "eye"
+      "gloss": "eye",
+      "sense": "S1"
     },
     {
       "surface": "ואל",
-      "gloss": "and do not"
+      "gloss": "and do not",
+      "sense": null
     },
     {
       "surface": "תתאו",
-      "gloss": "desire"
+      "gloss": "crave",
+      "sense": "S1"
     },
     {
       "surface": "למטעמתיו",
-      "gloss": "his dainties"
+      "gloss": "his delicacies",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:53.820755706Z",
+  "model": "glm-5.3"
 }

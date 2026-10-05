@@ -1,40 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Two ⟨things⟩ I have asked from ⟨את⟩ you; do not withhold from me before I die.",
+  "ref": "proverbs 30:7",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "things",
+      "rationale": "Hebrew has only the feminine dual 'two'; English must supply a head noun"
+    },
+    {
+      "kind": "you",
+      "subject": "to Eloah",
+      "rationale": "Agur's prayer addressed directly to God; the suffix on מֵאִתָּךְ is pointed feminine, usually emended to masculine"
+    },
+    {
+      "kind": "invitation",
+      "subject": "prayer",
+      "rationale": "direct petition that opens the numbered prayer of verses 7–9"
+    }
+  ],
+  "translation": "Two things I have asked from ⟨את⟩ you; do not withhold them from me before I die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "33ec5f8f137a02d82d8148ea93c6a4ce100425f945b87dd3189fc2b2f17cf095",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/5-8.1791194071273.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "שתים",
-      "gloss": "two"
+      "surface": "שְׁתַּיִם",
+      "gloss": "Two",
+      "sense": "S1",
+      "readings": [
+        "Two",
+        "Two things"
+      ]
     },
     {
-      "surface": "שאלתי",
-      "gloss": "I have asked"
+      "surface": "שָׁאַלְתִּי",
+      "gloss": "I have asked",
+      "sense": "S1"
     },
     {
-      "surface": "מאתך",
-      "gloss": "from ⟨את⟩ you"
+      "surface": "מֵאִתָּךְ",
+      "gloss": "from ⟨את⟩ you",
+      "marks": "you (Eloah)"
     },
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "do not"
     },
     {
-      "surface": "תמנע",
-      "gloss": "withhold"
+      "surface": "תִּמְנַע",
+      "gloss": "withhold",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
+      "surface": "מִמֶּנִּי",
       "gloss": "from me"
     },
     {
-      "surface": "בטרם",
-      "gloss": "before"
+      "surface": "בְּטֶרֶם",
+      "gloss": "before",
+      "sense": "S1"
     },
     {
-      "surface": "אמות",
-      "gloss": "I die"
+      "surface": "אָמוּת",
+      "gloss": "I die",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:31.274738606Z",
+  "model": "glm-5.3"
 }

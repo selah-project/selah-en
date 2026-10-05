@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Elohim will bless us, and let them fear ⟨את⟩ him, all the ends of the earth.",
+  "ref": "psalms 67:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 67,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "fear",
+      "rationale": "ירא here reverential awe rather than terror; both readings lawful."
+    }
+  ],
+  "translation": "May Elohim bless us, and let all the ends of the earth fear ⟨את⟩ him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2183f57c64282a4be654376b3fdfed4bee9ef14a0b944424665c646776b0b99d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/67\/5-8.1791192898539.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יברכנו",
-      "gloss": "will bless us"
+      "surface": "יְבָרְכֵ֥נוּ",
+      "gloss": "may he bless us",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "וייראו",
-      "gloss": "and let them fear"
+      "surface": "וְיִֽירְא֥וּ",
+      "gloss": "and let them fear",
+      "sense": "S1",
+      "readings": [
+        "and let them fear",
+        "and let them revere"
+      ]
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "surface": "אֹ֝ת֗וֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "him (Elohim)"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "אפסי",
-      "gloss": "the ends of"
+      "surface": "אַפְסֵי",
+      "gloss": "the ends of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:58.540457329Z",
+  "model": "glm-5.3"
 }

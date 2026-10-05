@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Like a portent I have been to many, but you ⟨are⟩ my refuge of strength.",
-  "tokens": [
+  "ref": "psalms 71:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 71,
+  "notes": [
     {
-      "surface": "כמופת",
-      "gloss": "Like a portent"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks copula"
     },
     {
-      "surface": "הייתי",
-      "gloss": "I have been"
-    },
-    {
-      "surface": "לרבים",
-      "gloss": "to many"
-    },
-    {
-      "surface": "ואתה",
-      "gloss": "but you"
-    },
-    {
-      "surface": "מחסי",
-      "gloss": "my refuge"
-    },
-    {
-      "surface": "עז",
-      "gloss": "of strength"
+      "kind": "alternative",
+      "subject": "my refuge of strength",
+      "rationale": "עז may be adverbial: 'my strong refuge' or appositional 'my refuge, my strength'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like a wonder-sign I have been to many, and you are my refuge of strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ae59ec200f1126e7c26e278a412166ff0315c0363e688ac16cb6415964ac9ee2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/71\/5-8.1791192961981.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּ֭מוֹפֵת",
+      "gloss": "Like a wonder-sign",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָיִ֣יתִי",
+      "gloss": "I have been",
+      "sense": null
+    },
+    {
+      "surface": "לְרַבִּ֑ים",
+      "gloss": "to many",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝אַתָּ֗ה",
+      "gloss": "and you",
+      "sense": null
+    },
+    {
+      "surface": "מַֽחֲסִי",
+      "gloss": "my refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹֽז",
+      "gloss": "of strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:01.982577223Z",
+  "model": "glm-5.3"
 }

@@ -1,74 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "I made the earth, and mankind upon it I created — I, my hands stretched out the heavens, and all their host I commanded.",
+  "ref": "isaiah 45:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אנכי\/אני",
+      "rationale": "doubled first-person pronouns frame the verse's two halves for emphasis"
+    }
+  ],
+  "translation": "I — I made the earth, and humankind upon it I created; I, my hands stretched out the heavens, and all their host I commanded.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f654dece9b6301adf88abdb5e0705bea201acac91aadb4114b525a10ec0ac9f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/45\/9-12.1791188692362.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "אנכי",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "עשיתי",
-      "gloss": "made"
+      "gloss": "made",
+      "sense": "S1"
     },
     {
       "surface": "ארץ",
-      "gloss": "the earth"
+      "gloss": "the earth",
+      "sense": "S1",
+      "readings": [
+        "the earth",
+        "the land"
+      ]
     },
     {
       "surface": "ואדם",
-      "gloss": "and mankind",
-      "readings": [
-        "and mankind",
-        "and man"
-      ],
-      "held_by": {
-        "and mankind": [
-          "v2"
-        ],
-        "and man": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      }
+      "gloss": "and humankind",
+      "sense": "S1"
     },
     {
       "surface": "עליה",
-      "gloss": "upon it"
+      "gloss": "upon it",
+      "sense": null
     },
     {
       "surface": "בראתי",
-      "gloss": "I created"
+      "gloss": "I created",
+      "sense": "S1"
     },
     {
       "surface": "אני",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "ידי",
-      "gloss": "my hands"
+      "gloss": "my hands",
+      "sense": "S1"
     },
     {
       "surface": "נטו",
-      "gloss": "stretched out"
+      "gloss": "stretched out",
+      "sense": "S1"
     },
     {
       "surface": "שמים",
-      "gloss": "the heavens"
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
       "surface": "וכל",
-      "gloss": "and all"
+      "gloss": "and all",
+      "sense": null
     },
     {
       "surface": "צבאם",
-      "gloss": "their host"
+      "gloss": "their host",
+      "sense": "S1"
     },
     {
       "surface": "צויתי",
-      "gloss": "I commanded"
+      "gloss": "I commanded",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:52.364149764Z",
+  "model": "glm-5.3"
 }

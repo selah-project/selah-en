@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And he made ⟨את⟩ the boards for the tabernacle of acacia wood, standing upright.",
-  "tokens": [
+  "ref": "exodus 36:20",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "ויעש",
-      "gloss": "And he made"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הקרשים",
-      "gloss": "the boards"
-    },
-    {
-      "surface": "למשכן",
-      "gloss": "for the tabernacle",
-      "readings": [
-        "for the tabernacle",
-        "for the dwelling"
-      ],
-      "held_by": {
-        "for the tabernacle": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for the dwelling": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עצי",
-      "gloss": "wood"
-    },
-    {
-      "surface": "שטים",
-      "gloss": "acacia"
-    },
-    {
-      "surface": "עמדים",
-      "gloss": "standing upright",
-      "readings": [
-        "standing upright",
-        "standing"
-      ],
-      "held_by": {
-        "standing upright": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "standing": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "frames",
+      "rationale": "קרשים are standing frames or planks, not 'boards' laid flat; rendered to keep the vertical picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he made ⟨את⟩ the frames for the tabernacle, of acacia wood, standing upright.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5030241b454b35735a306830d5bba6a34119b468f39eca7e1ab911b03eed17b7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/36\/18-20.1791197603848.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֥עַשׂ",
+      "gloss": "And he made",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the frames"
+    },
+    {
+      "surface": "הַקְּרָשִׁ֖ים",
+      "gloss": "the frames",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַמִּשְׁכָּ֑ן",
+      "gloss": "for the tabernacle",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲצֵ֥י",
+      "gloss": "wood of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁטִּ֖ים",
+      "gloss": "acacia",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹמְדִֽים",
+      "gloss": "standing upright",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:53:23.849741380Z",
+  "model": "glm-5.3"
 }

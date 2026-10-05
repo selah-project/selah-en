@@ -1,34 +1,45 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To the one who excels. A psalm of David.",
-  "tokens": [
+  "ref": "psalms 13:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "to the one who excels",
-      "readings": [
-        "to the one who excels",
-        "to the choirmaster"
-      ],
-      "held_by": {
-        "to the one who excels": [
-          "en4"
-        ],
-        "to the choirmaster": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "kind": "substitution",
+      "subject": "chief musician",
+      "rationale": "המנצח is the one overseeing the worship music; a functional role, not an instrument"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, a psalm of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1a4063cbdd0ce142e6bbabe5d918735338237d326225dfdb344a332c0710b092",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/13\/1-4.1791192425615.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּחַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְמוֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:05.616538523Z",
+  "model": "glm-5.3"
 }

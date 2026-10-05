@@ -1,77 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Who sends forth springs in the valleys — between the mountains they walk.",
-  "tokens": [
+  "ref": "psalms 104:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "המשלח",
-      "gloss": "who sends forth",
-      "readings": [
-        "who sends forth",
-        "the one sending"
-      ],
-      "held_by": {
-        "who sends forth": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the one sending": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "wadis",
+      "rationale": "נחל is a winter torrent, a stream-bed that runs seasonally; 'wadis' keeps the picture where 'streams' or 'valleys' each lose half of it."
     },
     {
-      "surface": "מעינים",
-      "gloss": "springs"
-    },
-    {
-      "surface": "בנחלים",
-      "gloss": "in the valleys",
-      "readings": [
-        "in the valleys",
-        "in the wadis"
-      ],
-      "held_by": {
-        "in the valleys": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the wadis": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בין",
-      "gloss": "between"
-    },
-    {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "יהלכון",
-      "gloss": "they walk",
-      "readings": [
-        "they walk",
-        "they flow"
-      ],
-      "held_by": {
-        "they walk": [
-          "v2",
-          "en4"
-        ],
-        "they flow": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "they walk",
+      "rationale": "Piel of הלך for water: 'they flow along', the walking picture of moving water kept literal."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The-one-who-sends springs into the wadis; between the mountains they walk.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7290c7d036b5dbc11586cc305b6d0c12e40b2bb15c3ed28bfa9b5251ed43eb9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/9-12.1791193278863.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַֽמְשַׁלֵּ֣חַ",
+      "gloss": "The-one-who-sends",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֭עְיָנִים",
+      "gloss": "springs",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּנְּחָלִ֑ים",
+      "gloss": "into the wadis",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֥ין",
+      "gloss": "between",
+      "sense": null
+    },
+    {
+      "surface": "הָרִ֗ים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהַלֵּכֽוּן",
+      "gloss": "they walk",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:18.864376903Z",
+  "model": "glm-5.3"
 }

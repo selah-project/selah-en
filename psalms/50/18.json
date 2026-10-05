@@ -1,55 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "If you saw ⟨a⟩ thief, and you ran with him, and with adulterers ⟨is⟩ your portion.",
+  "ref": "psalms 50:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וַתִּרֶץ",
+      "rationale": "From רוץ 'run' (you ran with him) vs from רצה 'be pleased' (you consented with him); the pointing favors 'run'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "חלקך",
+      "rationale": "SDBH reads 'your associate'; the usual sense 'your lot\/portion' also fits the parallelism."
+    }
+  ],
+  "translation": "If you see a thief and you run with him, and with adulterers is your lot,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "41bd1a6e7c88b0e371d82e2cd237b96b3b477310bacea31a027c6308b4bd3f35",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/50\/17-20.1791192769682.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "ראית",
-      "gloss": "you saw"
+      "surface": "רָאִ֣יתָ",
+      "gloss": "you see",
+      "sense": "S1"
     },
     {
-      "surface": "גנב",
-      "gloss": "⟨a⟩ thief"
+      "surface": "גַּנָּ֣ב",
+      "gloss": "a thief",
+      "sense": "S1"
     },
     {
-      "surface": "ותרץ",
-      "gloss": "and you ran",
-      "readings": [
-        "and you ran",
-        "and you were pleased"
-      ],
-      "held_by": {
-        "and you ran": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and you were pleased": [
-          "en4"
-        ]
-      }
+      "surface": "וַתִּ֣רֶץ",
+      "gloss": "and you run",
+      "sense": "S1"
     },
     {
-      "surface": "עמו",
+      "surface": "עִמּ֑וֹ",
       "gloss": "with him"
     },
     {
-      "surface": "ועם",
+      "surface": "וְעִ֖ם",
       "gloss": "and with"
     },
     {
-      "surface": "מנאפים",
-      "gloss": "adulterers"
+      "surface": "מְנָאֲפִ֣ים",
+      "gloss": "adulterers",
+      "sense": "S1"
     },
     {
-      "surface": "חלקך",
-      "gloss": "your portion"
+      "surface": "חֶלְקֶֽךָ",
+      "gloss": "your lot",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:49.683576923Z",
+  "model": "glm-5.3"
 }

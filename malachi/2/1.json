@@ -1,28 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And now, to you is this commandment, O priests.",
-  "tokens": [
+  "ref": "malachi 2:1",
+  "book": "malachi",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronted element lacks a copula"
     },
     {
-      "surface": "אליכם",
+      "kind": "you",
+      "subject": "to the priests",
+      "rationale": "Direct address to the priests"
+    }
+  ],
+  "translation": "“And now, to you priests, ⟨is⟩ this command.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef54787be2e10100cc737ee5ca13f9c0317ecfd574cadc3f3303e7b44a19c046",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/malachi\/2\/1-4.1791192280019.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/malachi.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּ֗ה",
+      "gloss": "And now",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲלֵיכֶ֛ם",
       "gloss": "to you"
     },
     {
-      "surface": "המצוה",
-      "gloss": "this commandment"
+      "surface": "הַמִּצְוָ֥ה",
+      "gloss": "the command",
+      "sense": "S1"
     },
     {
-      "surface": "הזאת",
+      "surface": "הַזֹּ֖את",
       "gloss": "this"
     },
     {
-      "surface": "הכהנים",
-      "gloss": "O priests"
+      "surface": "הַכֹּהֲנִֽים",
+      "gloss": "priests",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:24:40.020045015Z",
+  "model": "glm-5.3"
 }

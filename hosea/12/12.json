@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "If Gilead is iniquity, surely vanity they have become; in Gilgal they sacrifice bullocks; also their altars are like heaps upon the furrows of the field.",
+  "ref": "hosea 12:12",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "גלעד \/ גלגל \/ גלים",
+      "rationale": "The gil- sound chains Gilead, Gilgal and stone-heaps (gallim) — the places become their own ruins."
+    },
+    {
+      "kind": "alternative",
+      "subject": "If Gilead is iniquity",
+      "rationale": "Some read אם as an emphatic 'Surely, Gilead is iniquity' rather than conditional 'if'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "און",
+      "rationale": "Same word as v. 9's 'wealth': Ephraim's און becomes און of another sort — iniquity."
+    }
+  ],
+  "translation": "If Gilead is iniquity — surely they have become emptiness; in Gilgal they sacrificed bulls, and their altars are like stone-heaps on the furrows of the field.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dff3ccbb8e9545fe4209d186d0e8ab4010a5da8e2bd6301a2f468051a2780860",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/12\/9-12.1791191368794.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
       "surface": "אם",
@@ -8,39 +40,23 @@
     },
     {
       "surface": "גלעד",
-      "gloss": "Gilead"
+      "gloss": "Gilead",
+      "sense": "S1"
     },
     {
       "surface": "און",
       "gloss": "iniquity",
-      "readings": [
-        "iniquity",
-        "trouble",
-        "an idol"
-      ],
-      "held_by": {
-        "iniquity": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "trouble": [
-          "v2",
-          "en4"
-        ],
-        "an idol": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אך",
-      "gloss": "surely"
+      "gloss": "surely",
+      "sense": "S1"
     },
     {
       "surface": "שוא",
-      "gloss": "vanity"
+      "gloss": "emptiness",
+      "sense": "S1"
     },
     {
       "surface": "היו",
@@ -48,56 +64,48 @@
     },
     {
       "surface": "בגלגל",
-      "gloss": "In Gilgal"
+      "gloss": "in Gilgal",
+      "sense": "S1"
     },
     {
       "surface": "שורים",
-      "gloss": "bullocks"
+      "gloss": "bulls",
+      "sense": "S1"
     },
     {
       "surface": "זבחו",
-      "gloss": "they sacrifice",
-      "readings": [
-        "they sacrifice",
-        "they have slaughtered"
-      ],
-      "held_by": {
-        "they sacrifice": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they have slaughtered": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "they sacrificed",
+      "sense": "S1"
     },
     {
       "surface": "גם",
-      "gloss": "also"
+      "gloss": "also",
+      "sense": "S1"
     },
     {
       "surface": "מזבחותם",
-      "gloss": "their altars"
+      "gloss": "their altars",
+      "sense": "S1"
     },
     {
       "surface": "כגלים",
-      "gloss": "like heaps"
+      "gloss": "like stone-heaps",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on"
     },
     {
       "surface": "תלמי",
-      "gloss": "the furrows of"
+      "gloss": "the furrows",
+      "sense": "S1"
     },
     {
       "surface": "שדי",
-      "gloss": "the field"
+      "gloss": "of the field"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:28.795844231Z",
+  "model": "glm-5.3"
 }

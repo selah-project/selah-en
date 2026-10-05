@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Behold, I have given him ⟨as⟩ a witness to peoples, ⟨as⟩ a prince and commander to peoples.",
+  "ref": "isaiah 55:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "him",
+      "rationale": "The suffix on נתתיו points back to the David of verse 3 (or the Servant of 53:11); the verse does not resolve it."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "לאומים \/ לאמים",
+      "rationale": "The same word 'peoples' frames the verse in a chiasm-like repetition; flat in English."
+    }
+  ],
+  "translation": "See, a witness to the peoples I have given him — a leader and commander to the peoples.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cb9a5d23430de7485f55f70fac2323637c4475f75dbfb864746887e44f380e38",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/55\/1-4.1791188843272.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הן",
-      "gloss": "Behold"
+      "gloss": "See",
+      "sense": null
     },
     {
       "surface": "עד",
-      "gloss": "a witness"
+      "gloss": "a witness to",
+      "sense": "S1"
     },
     {
       "surface": "לאומים",
-      "gloss": "to peoples"
+      "gloss": "the peoples",
+      "sense": "S1"
     },
     {
       "surface": "נתתיו",
-      "gloss": "I have given him"
+      "gloss": "I have given him",
+      "sense": null
     },
     {
       "surface": "נגיד",
-      "gloss": "a prince",
-      "readings": [
-        "a prince",
-        "a leader"
-      ],
-      "held_by": {
-        "a prince": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a leader": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "a leader",
+      "sense": "S1"
     },
     {
       "surface": "ומצוה",
-      "gloss": "and commander"
+      "gloss": "and commander",
+      "sense": "S1"
     },
     {
       "surface": "לאמים",
-      "gloss": "to peoples"
+      "gloss": "to the peoples",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:27:23.274301803Z",
+  "model": "glm-5.3"
 }

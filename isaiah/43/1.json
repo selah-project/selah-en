@@ -1,87 +1,116 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And now, thus says YHWH, your Creator, O Jacob, and your Former, O Israel: Do not fear, for I have redeemed you, I have called you by your name; you ⟨are⟩ Mine.",
-  "tokens": [
+  "ref": "isaiah 43:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH addresses Jacob\/Israel directly throughout the verse."
     },
     {
-      "surface": "כה",
+      "kind": "substitution",
+      "subject": "mine you are",
+      "rationale": "לִי אָתָּה is literally 'to me you (are)'; the possessive compounds the preposition, and English needs the copula."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula at לִי אָתָּה."
+    }
+  ],
+  "translation": "And now, thus said YHWH — your Creator, O Jacob, and your Formed One, O Israel: do not fear, for I redeemed you; I called you by your name — mine you are.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0ff328c04ad6d002937ac12d346ecb5484b63f114ddc183939da6c54b8d606ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/43\/1-4.1791188673553.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּה",
+      "gloss": "And now",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּה",
       "gloss": "thus"
     },
     {
-      "surface": "אמר",
-      "gloss": "says"
+      "surface": "אָמַר",
+      "gloss": "said",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "בראך",
-      "gloss": "your Creator"
+      "surface": "בֹּרָאֲךָ",
+      "gloss": "your Creator",
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "O Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
-      "surface": "ויצרך",
-      "gloss": "and your Former",
-      "readings": [
-        "and your Former",
-        "and formed you"
-      ],
-      "held_by": {
-        "and your Former": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and formed you": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "וְיֹצֶרְךָ",
+      "gloss": "and your Formed One",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "O Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אַל",
       "gloss": "do not"
     },
     {
-      "surface": "תירא",
-      "gloss": "fear"
+      "surface": "תִּירָא",
+      "gloss": "fear",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "גאלתיך",
-      "gloss": "I have redeemed you"
+      "surface": "גְּאַלְתִּיךָ",
+      "gloss": "I redeemed you",
+      "sense": "S1"
     },
     {
-      "surface": "קראתי",
-      "gloss": "I have called"
+      "surface": "קָרָאתִי",
+      "gloss": "I called",
+      "sense": "S1"
     },
     {
-      "surface": "בשמך",
-      "gloss": "by your name"
+      "surface": "בְּשִׁמְךָ",
+      "gloss": "by your name",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
-      "gloss": "Mine"
+      "surface": "לִי",
+      "gloss": "mine",
+      "sense": null
     },
     {
-      "surface": "אתה",
-      "gloss": "you"
+      "surface": "אָתָּה",
+      "gloss": "you are"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:33.554536600Z",
+  "model": "glm-5.3"
 }

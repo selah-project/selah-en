@@ -1,44 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "As a snail melting away as it goes, like the untimely birth of a woman — they have not seen the sun.",
-  "tokens": [
+  "ref": "psalms 58:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 58,
+  "notes": [
     {
-      "surface": "כמו",
-      "gloss": "as"
+      "kind": "hapax",
+      "subject": "שבלול",
+      "rationale": "snail — occurs only here in the Tanakh"
     },
     {
-      "surface": "שבלול",
-      "gloss": "a snail"
+      "kind": "hapax",
+      "subject": "תמס",
+      "rationale": "melting, dissolving — occurs only here"
     },
     {
-      "surface": "תמס",
-      "gloss": "melting away"
-    },
-    {
-      "surface": "יהלך",
-      "gloss": "as it goes"
-    },
-    {
-      "surface": "נפל",
-      "gloss": "an untimely birth"
-    },
-    {
-      "surface": "אשת",
-      "gloss": "of a woman"
-    },
-    {
-      "surface": "בל",
-      "gloss": "not"
-    },
-    {
-      "surface": "חזו",
-      "gloss": "they have seen"
-    },
-    {
-      "surface": "שמש",
-      "gloss": "the sun"
+      "kind": "wordplay",
+      "subject": "חזו שמש",
+      "rationale": "'see the sun' is an idiom for being born alive; the stillborn never sees it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like a snail melting as it goes, a stillborn of a woman who never sees the sun.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f98a5a2f61e946bf8219d5d8c0cd451338b3c423c3adf091da4d1feab653cba7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/58\/9-12.1791192834563.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּמ֣וֹ",
+      "gloss": "Like",
+      "sense": null
+    },
+    {
+      "surface": "שַּׁ֭בְּלוּל",
+      "gloss": "a snail",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶּ֣מֶס",
+      "gloss": "melting",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַהֲלֹ֑ךְ",
+      "gloss": "as it goes",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵ֥פֶל",
+      "gloss": "a stillborn",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֝֗שֶׁת",
+      "gloss": "of a woman",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּ֥ל",
+      "gloss": "who never",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָ֥זוּ",
+      "gloss": "sees",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָֽׁמֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:54.563896645Z",
+  "model": "glm-5.3"
 }

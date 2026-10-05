@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "May YHWH bless you from Zion, Maker of the heavens and the earth.",
-  "tokens": [
+  "ref": "psalms 134:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 134,
+  "notes": [
     {
-      "surface": "יברכך",
-      "gloss": "May ⟨he⟩ bless you"
+      "kind": "addition",
+      "subject": "May he",
+      "rationale": "Hebrew imperfect used as blessing; English supplies the optative frame."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "heavens",
+      "rationale": "Dual שמים rendered 'heavens' as in Gen 1:1; dual number not marked in English."
     },
     {
-      "surface": "מציון",
-      "gloss": "from Zion"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "Maker of"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "וארץ",
-      "gloss": "and the earth"
+      "kind": "you",
+      "subject": "the worshipper",
+      "rationale": "Priestly blessing addressed to the departing pilgrim as 'you' singular."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May YHWH bless you from Zion, the Maker of heavens and earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "59bf7c7c6990fd2a6c5f6ec00fce4a83b3c6e900c34be538191b1380b7aaaa45",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/134\/1-3.1791193548649.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְבָרֶכְךָ֣",
+      "gloss": "May he bless you",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצִּּיּ֑וֹן",
+      "gloss": "from Zion",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹ֝שֵׂ֗ה",
+      "gloss": "the Maker of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַ֥יִם",
+      "gloss": "heavens",
+      "sense": null
+    },
+    {
+      "surface": "וָאָֽרֶץ",
+      "gloss": "and earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:48.650994741Z",
+  "model": "glm-5.3"
 }

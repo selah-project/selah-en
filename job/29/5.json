@@ -1,57 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "While still Shaddai ⟨was⟩ with me, my young ones around me —",
-  "tokens": [
+  "ref": "job 29:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "בעוד",
-      "gloss": "while still"
-    },
-    {
-      "surface": "שדי",
-      "gloss": "Shaddai"
-    },
-    {
-      "surface": "עמדי",
-      "gloss": "with me"
-    },
-    {
-      "surface": "סביבותי",
-      "gloss": "around me",
-      "readings": [
-        "around me",
-        "my environs"
-      ],
-      "held_by": {
-        "around me": [
-          "v2",
-          "v3"
-        ],
-        "my environs": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נערי",
-      "gloss": "my young men",
-      "readings": [
-        "my young men",
-        "my young ones"
-      ],
-      "held_by": {
-        "my young men": [
-          "v2",
-          "v3"
-        ],
-        "my young ones": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a verb; the prepositional phrase עמדי needs an English copula"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "While Shaddai was yet with me, my young men around me,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84be3a5ade69abd4e218166acc0b7fdc5bf6253b31bd4656fdb8f1f80fe2bf8e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/29\/5-8.1791194455132.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּע֣וֹד",
+      "gloss": "while … yet",
+      "sense": null
+    },
+    {
+      "surface": "שַׁ֭דַּי",
+      "gloss": "Shaddai",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּדִ֑י",
+      "gloss": "was with me",
+      "sense": null
+    },
+    {
+      "surface": "סְבִ֖יבוֹתַ֣י",
+      "gloss": "around me",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְעָרָֽי",
+      "gloss": "my young men",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:55.133413785Z",
+  "model": "glm-5.3"
 }

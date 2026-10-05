@@ -1,70 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And I have not given my palate to sin, to ask with a curse his throat.",
-  "tokens": [
+  "ref": "job 31:30",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "kind": "substitution",
+      "subject": "my palate",
+      "rationale": "חֵךְ literally the palate or inside of the mouth; English idiom prefers 'mouth'."
     },
     {
-      "surface": "נתתי",
-      "gloss": "I have given"
+      "kind": "substitution",
+      "subject": "his life",
+      "rationale": "נֶפֶשׁ literally throat \/ life-principle; 'life' chosen, 'soul' and 'throat' kept as readings."
     },
     {
-      "surface": "לחטא",
-      "gloss": "to sin"
-    },
-    {
-      "surface": "חכי",
-      "gloss": "my palate"
-    },
-    {
-      "surface": "לשאל",
-      "gloss": "to ask"
-    },
-    {
-      "surface": "באלה",
-      "gloss": "with a curse",
-      "readings": [
-        "with a curse",
-        "with an oath"
-      ],
-      "held_by": {
-        "with a curse": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with an oath": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his throat",
-      "readings": [
-        "his throat",
-        "his life",
-        "his soul"
-      ],
-      "held_by": {
-        "his throat": [
-          "v1",
-          "v3"
-        ],
-        "his life": [
-          "v2",
-          "en4"
-        ],
-        "his soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "who",
+      "rationale": "The suffix on נפשו points back to the hater of v.29, carried by 'his' without a separate token."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and I did not let my mouth sin by asking for his life with a curse —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9e1b08fe84218e6bd9d4cfd9e8373dc98def8399bf9a46e71ad3a89fcebcd194",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/29-32.1791194505417.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַתִּי",
+      "gloss": "I let",
+      "sense": null
+    },
+    {
+      "surface": "לַחֲטֹא",
+      "gloss": "sin",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִכִּי",
+      "gloss": "my palate",
+      "readings": [
+        "my palate",
+        "my mouth"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁאֹל",
+      "gloss": "by asking",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאָלָה",
+      "gloss": "with a curse",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his life",
+      "readings": [
+        "his life",
+        "his throat",
+        "his soul"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:45.418911479Z",
+  "model": "glm-5.3"
 }

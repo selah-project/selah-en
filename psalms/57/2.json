@@ -1,79 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Be gracious to me, Elohim, be gracious to me, for in you my soul takes refuge; and in the shadow of your wings I will take refuge, until the calamities pass over.",
-  "tokens": [
+  "ref": "psalms 57:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 57,
+  "notes": [
     {
-      "surface": "חנני",
-      "gloss": "be gracious to me"
+      "kind": "wordplay",
+      "subject": "חָסָיָה \/ אֶחְסֶה",
+      "rationale": "the root חסה repeats — takes refuge \/ I will take refuge — binding the two halves."
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, kept transliterated with readings."
     },
     {
-      "surface": "חנני",
-      "gloss": "be gracious to me"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "בך",
-      "gloss": "in you"
-    },
-    {
-      "surface": "חסיה",
-      "gloss": "takes refuge"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my nefesh",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ובצל",
-      "gloss": "and in the shadow of"
-    },
-    {
-      "surface": "כנפיך",
-      "gloss": "your wings"
-    },
-    {
-      "surface": "אחסה",
-      "gloss": "I will take refuge"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "יעבר",
-      "gloss": "pass over"
-    },
-    {
-      "surface": "הוות",
-      "gloss": "the calamities"
+      "kind": "addition",
+      "subject": "two",
+      "rationale": "כנפים is a dual — “two wings” keeps the Hebrew’s number explicit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Be gracious to me, Elohim, be gracious to me, for in you my nefesh takes refuge; in the shadow of your two wings I will take refuge, until destruction passes by.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb697ec98527a806d76fdbbde7cf2123cdfc5f6e307d3954ebce237d3eae5292",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/57\/1-4.1791192821812.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָנֵּנִי",
+      "gloss": "Be gracious to me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָנֵּנִי",
+      "gloss": "be gracious to me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "בְךָ",
+      "gloss": "in you",
+      "sense": null
+    },
+    {
+      "surface": "חָסָיָה",
+      "gloss": "takes refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my throat",
+        "my life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְצֵל",
+      "gloss": "and in the shadow",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּנָפֶיךָ",
+      "gloss": "of your two wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶחְסֶה",
+      "gloss": "I will take refuge",
+      "sense": "S2"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲבֹר",
+      "gloss": "passes by",
+      "sense": null
+    },
+    {
+      "surface": "הַוּוֹת",
+      "gloss": "destruction",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:41.812910443Z",
+  "model": "glm-5.3"
 }

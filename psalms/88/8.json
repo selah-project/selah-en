@@ -1,36 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Upon me Your wrath has leaned, and with all Your breakers You have afflicted ⟨me⟩. Selah.",
+  "ref": "psalms 88:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "fury",
+      "rationale": "חֵמָה literally 'heat'; anger as burning heat."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "משבריך",
+      "rationale": "Sea-breakers as metaphor for waves of suffering (cf. Ps 42:8, Jonah 2:4); the water picture is kept."
+    }
+  ],
+  "translation": "Upon me has rested Your fury, and with all Your breakers You have afflicted me. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed41e52732c2e13ed8a869c2928f3f2d3e489d77116493b5b929e58b51d3a774",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/5-8.1791193134998.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עלי",
+      "surface": "עָ֭לַי",
       "gloss": "Upon me"
     },
     {
-      "surface": "סמכה",
-      "gloss": "has leaned"
+      "surface": "סָמְכָ֣ה",
+      "gloss": "has rested",
+      "sense": "S1"
     },
     {
-      "surface": "חמתך",
-      "gloss": "Your wrath"
+      "surface": "חֲמָתֶ֑ךָ",
+      "gloss": "Your fury",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and with all"
     },
     {
-      "surface": "משבריך",
-      "gloss": "Your breakers"
+      "surface": "מִ֝שְׁבָּרֶ֗יךָ",
+      "gloss": "Your breakers",
+      "sense": "S1"
     },
     {
-      "surface": "ענית",
-      "gloss": "You have afflicted"
+      "surface": "עִנִּ֥יתָ",
+      "gloss": "You have afflicted",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
+      "surface": "סֶּֽלָה",
       "gloss": "Selah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:54.999942885Z",
+  "model": "glm-5.3"
 }

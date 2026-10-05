@@ -1,110 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For day and night your hand is heavy upon me; my sap is turned in the droughts of summer. Selah.",
+  "ref": "psalms 32:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "חרבני",
+      "rationale": "'parching heat' occurs only here in the Tanakh; the picture of drying-up kept hyphenated"
+    },
+    {
+      "kind": "alternative",
+      "subject": "לשדי",
+      "rationale": "also at Num 11:8 where the manna tasted like לשד rendered as rich oil-cake; 'vigor' fits the body-wasting context"
+    },
+    {
+      "kind": "substitution",
+      "subject": "lay heavy",
+      "rationale": "Hebrew tense is imperfect 'lays heavy' ongoing; English past-tense frame shifted it"
+    }
+  ],
+  "translation": "for by day and by night your hand lay heavy upon me; my vigor was turned to summer-drought in the parching-heats of summer. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "672d4d283cdf2edf4c9fe5799feb1005188dcd382a3c6f9b8b4172963adb6c49",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/32\/1-4.1791192588644.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּ֤י",
+      "gloss": "for"
     },
     {
-      "surface": "יומם",
-      "gloss": "day"
+      "surface": "יוֹמָ֣ם",
+      "gloss": "by day",
+      "sense": "S1"
     },
     {
-      "surface": "ולילה",
-      "gloss": "and night"
+      "surface": "וָלַיְלָה֮",
+      "gloss": "and by night",
+      "sense": "S1"
     },
     {
-      "surface": "תכבד",
-      "gloss": "is heavy",
-      "readings": [
-        "is heavy",
-        "was heavy"
-      ],
-      "held_by": {
-        "is heavy": [
-          "en4"
-        ],
-        "was heavy": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "תִּכְבַּ֥ד",
+      "gloss": "lay heavy",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַ֗י",
       "gloss": "upon me"
     },
     {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "surface": "יָדְךָ֥",
+      "gloss": "your hand",
+      "sense": "S1"
     },
     {
-      "surface": "נהפך",
-      "gloss": "is turned",
-      "readings": [
-        "is turned",
-        "was turned"
-      ],
-      "held_by": {
-        "is turned": [
-          "en4"
-        ],
-        "was turned": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "נֶהְפַּ֥ךְ",
+      "gloss": "was turned",
+      "sense": "S1"
     },
     {
-      "surface": "לשדי",
-      "gloss": "my sap",
-      "readings": [
-        "my sap",
-        "my vigor"
-      ],
-      "held_by": {
-        "my sap": [
-          "en4"
-        ],
-        "my vigor": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "לְשֵׂדִ֑י",
+      "gloss": "my vigor",
+      "sense": "S1"
     },
     {
-      "surface": "בחרבני",
-      "gloss": "in the droughts of",
-      "readings": [
-        "in the droughts of",
-        "as in the droughts of"
-      ],
-      "held_by": {
-        "in the droughts of": [
-          "en4"
-        ],
-        "as in the droughts of": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "בְּחַרְבֹנֵ֖י",
+      "gloss": "in the parching-heats of",
+      "sense": "S1"
     },
     {
-      "surface": "קיץ",
-      "gloss": "summer"
+      "surface": "קַ֣יִץ",
+      "gloss": "summer",
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
+      "surface": "סֶֽלָה",
       "gloss": "Selah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:48.645364675Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "YHWH tests the righteous, but the wicked and the lover of violence His nefesh hates.",
-  "tokens": [
+  "ref": "psalms 11:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is life-force\/throat, not 'soul' in the Greek sense; kept as nefesh with self as reading 2"
     },
     {
-      "surface": "צדיק",
-      "gloss": "the righteous"
+      "kind": "crux",
+      "subject": "tests",
+      "rationale": "יבחן: whether YHWH tests the righteous as object, or tests 'as' the righteous one (appositional צדיק) — accents favor apposition"
     },
     {
-      "surface": "יבחן",
-      "gloss": "tests"
-    },
-    {
-      "surface": "ורשע",
-      "gloss": "and the wicked"
-    },
-    {
-      "surface": "ואהב",
-      "gloss": "and the lover of"
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
-    },
-    {
-      "surface": "שנאה",
-      "gloss": "hates"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "His nefesh",
-      "readings": [
-        "His nefesh",
-        "his soul"
-      ],
-      "held_by": {
-        "His nefesh": [
-          "v2",
-          "v3"
-        ],
-        "his soul": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אהב\/שנא",
+      "rationale": "lover-of-violence (v.5) vs loves-righteousness (v.7), an envelope contrast lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH, the Just One, tests — and the wicked one and the lover of violence His nefesh hates.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e18b776d6c1cfc7c87aba14fd714d7ea708aabf30bf1467e0e00e6778cdac381",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/11\/5-7.1791192425141.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה֮",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּ֪יק",
+      "gloss": "the Just One",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִ֫בְחָ֥ן",
+      "gloss": "tests",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֭רָשָׁע",
+      "gloss": "and the wicked one",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֹהֵ֣ב",
+      "gloss": "and the lover of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָמָ֑ס",
+      "gloss": "violence",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָֽׂנְאָ֥ה",
+      "gloss": "hates",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֽׁוֹ",
+      "gloss": "His nefesh",
+      "sense": "S1",
+      "readings": [
+        "His nefesh",
+        "His self"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:05.142265350Z",
+  "model": "glm-5.3"
 }

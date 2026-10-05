@@ -1,90 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Under trouble I saw the tents of Cushan; the curtains of the land of Midian tremble.",
+  "ref": "habakkuk 3:7",
+  "book": "habakkuk",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "כושן",
+      "rationale": "Cushan occurs only here in the Tanakh, paired with Midian; likely the same region."
+    },
+    {
+      "kind": "crux",
+      "subject": "תחת און",
+      "rationale": "'Under Aven' — either the place (Beth-Aven \/ On in Egypt) or 'because of trouble'; both readings carried in the readings field."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "און",
+      "rationale": "און means both 'trouble\/nothingness' and serves as a place name; the double sense is lost if forced one way."
+    }
+  ],
+  "translation": "Under Aven I saw the tents of Cushan; the curtains of the land of Midian tremble.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec6b2f7183c4c2073a5071b88cb7684e0f2fa81d16bfcc4b38578e6c82ab169b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/habakkuk\/3\/6-8.1791199821263.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/habakkuk.edn"
+  },
   "tokens": [
     {
-      "surface": "תחת",
+      "surface": "תַּחַת",
       "gloss": "Under"
     },
     {
-      "surface": "און",
-      "gloss": "trouble",
+      "surface": "אָוֶן",
+      "gloss": "Aven",
+      "sense": "S1",
       "readings": [
-        "trouble",
-        "iniquity"
-      ],
-      "held_by": {
-        "trouble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "iniquity": [
-          "en4"
-        ]
-      }
+        "Aven",
+        "trouble"
+      ]
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I saw"
+      "surface": "רָאִיתִי",
+      "gloss": "I saw",
+      "sense": "S1"
     },
     {
-      "surface": "אהלי",
-      "gloss": "the tents of"
+      "surface": "אָהֳלֵי",
+      "gloss": "the tents of",
+      "sense": "S1"
     },
     {
-      "surface": "כושן",
-      "gloss": "Cushan"
+      "surface": "כּוּשָׁן",
+      "gloss": "Cushan",
+      "sense": "S1"
     },
     {
-      "surface": "ירגזון",
+      "surface": "יִרְגְּזוּן",
       "gloss": "tremble",
-      "held_by_placeholder": null,
-      "readings": [
-        "tremble",
-        "trembled"
-      ],
-      "held_by": {
-        "tremble": [
-          "v1",
-          "v3"
-        ],
-        "trembled": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": false
+      "sense": "S1"
     },
     {
-      "surface": "יריעות",
-      "gloss": "the curtains of"
+      "surface": "יְרִיעֹת",
+      "gloss": "the curtains of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אֶרֶץ",
       "gloss": "the land of",
-      "readings": [
-        "the land of",
-        "the earth of"
-      ],
-      "held_by": {
-        "the land of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מדין",
-      "gloss": "Midian"
+      "surface": "מִדְיָן",
+      "gloss": "Midian",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:30:21.264009670Z",
+  "model": "glm-5.3"
 }

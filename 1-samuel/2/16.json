@@ -1,125 +1,150 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And the man would say to him, “Burning they shall burn the fat as of today, and take for yourself as your nefesh desires.” But he would say to him, “No — now you shall give, and if not, I will take by force.”",
-  "tokens": [
+  "ref": "1-samuel 2:16",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "kind": "crux",
+      "subject": "לוֹ \/ לֹא",
+      "rationale": "ketiv לוֹ 'to him' is the ground; qere reads לֹא 'no' — rendered by the qere, the harder sense 'to him' leaves the clause without its negation"
     },
     {
-      "surface": "אליו",
+      "kind": "wordplay",
+      "subject": "קַטֵּר יַקְטִירוֹן",
+      "rationale": "infinitive absolute doubling the verb — 'burning, let them burn' — kept doubled, not collapsed to an idiom"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "the object of 'you shall give' is supplied; Hebrew leaves it implicit"
+    },
+    {
+      "kind": "you",
+      "subject": "the priest's servant",
+      "rationale": "direct second-person address within the exchange"
+    }
+  ],
+  "translation": "And the man said to him, “Burning, let them burn the fat today, and take for yourself whatever your appetite craves”; but he said, “No — now you shall give ⟨it⟩, and if not, I will take it by force.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "043c17ebb55abb3b8d3e010bbca64cf3591d7aa2ef5eb04d36319fc0581d6ba9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/13-16.1791185426873.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָיו",
       "gloss": "to him"
     },
     {
-      "surface": "האיש",
-      "gloss": "the man"
+      "surface": "הָאִישׁ",
+      "gloss": "the man",
+      "sense": "S1"
     },
     {
-      "surface": "קטר",
-      "gloss": "Burning"
+      "surface": "קַטֵּר",
+      "gloss": "Burning",
+      "sense": "S1"
     },
     {
-      "surface": "יקטירון",
-      "gloss": "they shall burn"
+      "surface": "יַקְטִירוֹן",
+      "gloss": "let them burn",
+      "sense": "S1"
     },
     {
-      "surface": "כיום",
-      "gloss": "as of today",
-      "readings": [
-        "as of today",
-        "as is customary this day"
-      ],
-      "held_by": {
-        "as of today": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "as is customary this day": [
-          "v1"
-        ]
-      }
+      "surface": "כַּיּוֹם",
+      "gloss": "today",
+      "sense": "S1"
     },
     {
-      "surface": "החלב",
-      "gloss": "the fat"
+      "surface": "הַחֵלֶב",
+      "gloss": "the fat",
+      "sense": "S1"
     },
     {
-      "surface": "וקח",
-      "gloss": "and take"
+      "surface": "וְקַח",
+      "gloss": "and take",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
+      "surface": "לְךָ",
       "gloss": "for yourself"
     },
     {
-      "surface": "כאשר",
-      "gloss": "as"
+      "surface": "כַּאֲשֶׁר",
+      "gloss": "whatever"
     },
     {
-      "surface": "תאוה",
-      "gloss": "desires"
+      "surface": "תְּאַוֶּה",
+      "gloss": "craves",
+      "sense": "S1"
     },
     {
-      "surface": "נפשך",
-      "gloss": "your nefesh",
+      "surface": "נַפְשְׁךָ",
+      "gloss": "your appetite",
       "readings": [
+        "your appetite",
         "your nefesh",
-        "your soul",
-        "your appetite"
+        "your soul"
       ],
-      "held_by": {
-        "your nefesh": [
-          "v2",
-          "v3"
-        ],
-        "your soul": [
-          "v1",
-          "en4"
-        ],
-        "your appetite": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואמר",
-      "gloss": "and said"
+      "surface": "וְאָמַר",
+      "gloss": "but he said",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
-      "gloss": "to him"
+      "surface": "לוֹ",
+      "gloss": "No",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "No"
-    },
-    {
-      "surface": "עתה",
+      "surface": "כִּי",
       "gloss": "now"
     },
     {
-      "surface": "תתן",
-      "gloss": "you shall give"
+      "surface": "עַתָּה",
+      "gloss": "now",
+      "sense": "S1"
     },
     {
-      "surface": "ואם",
+      "surface": "תִּתֵּן",
+      "gloss": "you shall give",
+      "sense": null
+    },
+    {
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "לקחתי",
-      "gloss": "I will take"
+      "surface": "לָקַחְתִּי",
+      "gloss": "I will take",
+      "sense": "S1"
     },
     {
-      "surface": "בחזקה",
-      "gloss": "by force"
+      "surface": "בְּחָזְקָה",
+      "gloss": "by force",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:30:26.875060980Z",
+  "model": "glm-5.3"
 }

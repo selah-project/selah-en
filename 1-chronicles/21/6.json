@@ -1,80 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "But Levi and Benjamin he did not count in their midst, for the word of the king was detestable ⟨to⟩ Joab ⟨את⟩.",
+  "ref": "1-chronicles 21:6",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the word of the king",
+      "rationale": "Construct chain needs the article only on the last noun; English repeats it on both."
+    },
+    {
+      "kind": "alternative",
+      "subject": "for the word of the king was detestable",
+      "rationale": "Niphal נתעב may read 'became detestable to Joab'; 'with' (את) kept as the marker family's preposition sense."
+    }
+  ],
+  "translation": "But Levi and Benjamin he did not count among them, for the word of the king was detestable ⟨את⟩ with Joab.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d37e0bbfa96c2e60d9c6c3c499568a53b26ec7413de01f2d1bb810a6ab08f625",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/21\/5-8.1791196363481.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ולוי",
-      "gloss": "and Levi"
+      "surface": "וְלֵוִי",
+      "gloss": "But Levi",
+      "sense": "S1"
     },
     {
-      "surface": "ובנימן",
-      "gloss": "and Benjamin"
+      "surface": "וּבִנְיָמִן",
+      "gloss": "and Benjamin",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "פקד",
-      "gloss": "count"
+      "surface": "פָקַד",
+      "gloss": "he counted",
+      "sense": "S1"
     },
     {
-      "surface": "בתוכם",
-      "gloss": "in their midst",
-      "readings": [
-        "in their midst",
-        "among them"
-      ],
-      "held_by": {
-        "in their midst": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "among them": [
-          "v2"
-        ]
-      }
+      "surface": "בְּתוֹכָם",
+      "gloss": "among them",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "נתעב",
-      "gloss": "was detestable"
+      "surface": "נִתְעַב",
+      "gloss": "was detestable",
+      "sense": "S1"
     },
     {
-      "surface": "דבר",
+      "surface": "דְּבַר",
       "gloss": "the word of",
-      "readings": [
-        "the word of",
-        "the matter of"
-      ],
-      "held_by": {
-        "the word of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the matter of": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩ with",
+      "marks": "Joab",
+      "sense": null
     },
     {
-      "surface": "יואב",
-      "gloss": "Joab"
+      "surface": "יוֹאָב",
+      "gloss": "Joab",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:32:43.482275619Z",
+  "model": "glm-5.3"
 }

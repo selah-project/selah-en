@@ -1,70 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "But I am YHWH your Elohim from the land of Egypt; and an Elohim besides Me you do not know, and a savior — there is none besides Me.",
+  "ref": "hosea 13:4",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨am⟩",
+      "rationale": "Hebrew lacks a copula between 'I' and 'YHWH your Elohim'."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel\/Ephraim",
+      "rationale": "Direct address: YHWH speaks to his people in the second person singular."
+    },
+    {
+      "kind": "crux",
+      "subject": "מֵאֶרֶץ מִצְרַיִם",
+      "rationale": "'From the land of Egypt' — the God who has been theirs since the Exodus, not a god who comes from Egypt."
+    }
+  ],
+  "translation": "But I ⟨am⟩ YHWH your Elohim from the land of Egypt, and an Elohim besides me you shall not know, and a savior there is none besides me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c1113fb54fe9bfc0c91abb494fdf71bdd0049389d226439ab14a30ce0922c047",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/13\/1-4.1791191385365.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "ואנכי",
+      "surface": "וְאָנֹכִי",
       "gloss": "But I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֶיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "מארץ",
-      "gloss": "from the land of"
+      "surface": "מֵאֶרֶץ",
+      "gloss": "from the land of",
+      "sense": "S1"
     },
     {
-      "surface": "מצרים",
-      "gloss": "Egypt"
+      "surface": "מִצְרַיִם",
+      "gloss": "Egypt",
+      "sense": "S1"
     },
     {
-      "surface": "ואלהים",
-      "gloss": "and an Elohim"
+      "surface": "וֵאלֹהִים",
+      "gloss": "and an Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "זולתי",
-      "gloss": "besides Me"
+      "surface": "זוּלָתִי",
+      "gloss": "besides me",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תדע",
-      "gloss": "you know",
-      "readings": [
-        "you know",
-        "you will know"
-      ],
-      "held_by": {
-        "you know": [
-          "en4"
-        ],
-        "you will know": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "תֵדָע",
+      "gloss": "you shall know"
     },
     {
-      "surface": "ומושיע",
-      "gloss": "and a savior"
+      "surface": "וּמוֹשִׁיעַ",
+      "gloss": "and a savior",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
+      "surface": "אַיִן",
       "gloss": "there is none"
     },
     {
-      "surface": "בלתי",
-      "gloss": "besides Me"
+      "surface": "בִּלְתִּי",
+      "gloss": "besides me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:45.366695709Z",
+  "model": "glm-5.3"
 }

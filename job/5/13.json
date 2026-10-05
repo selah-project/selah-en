@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "He catches the wise in their craftiness, and the counsel of the twisted is hastened.",
-  "tokens": [
+  "ref": "job 5:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "לכד",
-      "gloss": "He catches"
+      "kind": "hapax",
+      "subject": "בְּעָרְמָם",
+      "rationale": "This form of ערם occurs only here in the Tanakh."
     },
     {
-      "surface": "חכמים",
-      "gloss": "the wise"
+      "kind": "substitution",
+      "subject": "is hastened to its end",
+      "rationale": "נִמְהָרָה literally 'is made quick\/liquid'; the SDBH sense is 'fails and comes to a quick end', rendered to carry the failing."
     },
     {
-      "surface": "בערמם",
-      "gloss": "in their craftiness"
-    },
-    {
-      "surface": "ועצת",
-      "gloss": "and the counsel of"
-    },
-    {
-      "surface": "נפתלים",
-      "gloss": "the twisted",
-      "readings": [
-        "the twisted",
-        "the wrestling ones"
-      ],
-      "held_by": {
-        "the twisted": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wrestling ones": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נמהרה",
-      "gloss": "is hastened"
+      "kind": "crux",
+      "subject": "the twisted",
+      "rationale": "נִפְתָּלִים from פתל 'to twist': 'the morally tortuous' vs 'the crooked\/devious'; the picture of twining is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He catches the wise in their craftiness, and the counsel of the twisted is hastened to its end.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9a1427279b5da619202fc68bb7741359add96349ac726d00c6efc6e26febf13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/13-16.1791194159490.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹכֵ֣ד",
+      "gloss": "He catches",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲכָמִ֣ים",
+      "gloss": "the wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעָרְמָ֑ם",
+      "gloss": "in their craftiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַעֲצַ֖ת",
+      "gloss": "and the counsel of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִפְתָּלִ֣ים",
+      "gloss": "the twisted",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִמְהָֽרָה",
+      "gloss": "is hastened to its end",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:59.491455339Z",
+  "model": "glm-5.3"
 }

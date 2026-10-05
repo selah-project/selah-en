@@ -1,74 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Is it I — to a man my complaint? And if so, why should my spirit not be short?",
-  "tokens": [
+  "ref": "job 21:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "האנכי",
-      "gloss": "Is it I"
+      "kind": "substitution",
+      "subject": "impatient",
+      "rationale": "קצר רוח is literally 'short of spirit', an idiom for losing patience"
     },
     {
-      "surface": "לאדם",
-      "gloss": "to a man"
-    },
-    {
-      "surface": "שיחי",
-      "gloss": "my complaint"
-    },
-    {
-      "surface": "ואם",
-      "gloss": "and if"
-    },
-    {
-      "surface": "מדוע",
-      "gloss": "why"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תקצר",
-      "gloss": "be short",
-      "readings": [
-        "be short",
-        "be impatient"
-      ],
-      "held_by": {
-        "be short": [
-          "en4"
-        ],
-        "be impatient": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "רוחי",
-      "gloss": "my spirit",
-      "readings": [
-        "my spirit",
-        "my breath",
-        "my wind"
-      ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ],
-        "my wind": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "ואם",
+      "rationale": "rendered 'and if so'; some take it as 'or why' or 'and if not' softening the rhetorical question"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "As for me, is my complaint directed to a human? And if so, why should my spirit not be impatient?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ad176b60be84556b7ca1ce350f45c448f06e2c0e0a5348b107e2016aea39d30",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/1-4.1791194356593.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֶ֭אָנֹכִי",
+      "gloss": "As for me, is it I",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאָדָ֣ם",
+      "gloss": "to a human",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׂיחִ֑י",
+      "gloss": "my complaint",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִ֝ם",
+      "gloss": "and if",
+      "sense": null
+    },
+    {
+      "surface": "מַדּ֗וּעַ",
+      "gloss": "why",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּקְצַ֥ר",
+      "gloss": "be impatient",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחִֽי",
+      "gloss": "my spirit",
+      "sense": "S1",
+      "readings": [
+        "my spirit",
+        "my breath"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:16.594099369Z",
+  "model": "glm-5.3"
 }

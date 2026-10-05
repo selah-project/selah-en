@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Multiply-wash me from my iniquity, and from my sin purify me.",
-  "tokens": [
+  "ref": "psalms 51:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "הרבה",
-      "gloss": "multiply-wash",
-      "readings": [
-        "multiply-wash",
-        "thoroughly"
-      ],
-      "held_by": {
-        "multiply-wash": [
-          "v1",
-          "en4"
-        ],
-        "thoroughly": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "Multiply",
+      "rationale": "hiphil infinitive absolute הרבה intensifies the verb; kept as a doubled\/emphatic absolute rather than folded into an adverb like 'thoroughly'"
     },
     {
-      "surface": "כבסני",
-      "gloss": "wash me"
-    },
-    {
-      "surface": "מעוני",
-      "gloss": "from my iniquity"
-    },
-    {
-      "surface": "ומחטאתי",
-      "gloss": "and from my sin"
-    },
-    {
-      "surface": "טהרני",
-      "gloss": "purify me"
+      "kind": "crux",
+      "subject": "ketiv הרבה \/ qere הרב",
+      "rationale": "written form is hiphil infinitive absolute, read form the noun 'multitude'; ketiv rendered as the ground"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Multiply — wash me abundantly from my iniquity, and from my sin cleanse me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1579f6b71096a48a75aea5e41f78e539b6cbd2bd0291ab40cd9508cb742af3b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/1-4.1791192758084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַרְבֵּה",
+      "gloss": "Multiply",
+      "sense": null
+    },
+    {
+      "surface": "כַּבְּסֵנִי",
+      "gloss": "wash me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעֲוֺנִי",
+      "gloss": "from my iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמֵחַטָּאתִי",
+      "gloss": "and from my sin",
+      "sense": "S1"
+    },
+    {
+      "surface": "טַהֲרֵנִי",
+      "gloss": "cleanse me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:38.085800265Z",
+  "model": "glm-5.3"
 }

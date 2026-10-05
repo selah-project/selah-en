@@ -1,111 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "YHWH has reigned; let the earth exult; let the many coastlands rejoice.",
+  "ref": "psalms 97:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 97,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "תגל \/ ישמחו",
+      "rationale": "paired verbs of joy, the second plural answering the first — the Hebrew parallelism is carried by two distinct joy-verbs in English"
+    }
+  ],
+  "translation": "YHWH reigns — let the earth spin round with joy, let the islands, the many, be glad.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7864e133de7d4c1a8a996cec61125d1cd54e69fedce72c3cfa7d0776a07c3ab",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/97\/1-4.1791193224885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "מלך",
-      "gloss": "has reigned",
-      "readings": [
-        "has reigned",
-        "reigns"
-      ],
-      "held_by": {
-        "has reigned": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "reigns": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "reigns",
+      "sense": "S1"
     },
     {
       "surface": "תגל",
-      "gloss": "let ⟨it⟩ exult",
+      "gloss": "let it spin round with joy",
+      "sense": "S1",
       "readings": [
-        "let ⟨it⟩ exult",
-        "rejoices"
-      ],
-      "held_by": {
-        "let ⟨it⟩ exult": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "rejoices": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "let it spin round with joy",
+        "let it exult"
+      ]
     },
     {
       "surface": "הארץ",
       "gloss": "the earth",
+      "sense": "S1",
       "readings": [
         "the earth",
         "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
       "surface": "ישמחו",
-      "gloss": "let ⟨them⟩ rejoice",
-      "readings": [
-        "let ⟨them⟩ rejoice",
-        "are glad"
-      ],
-      "held_by": {
-        "let ⟨them⟩ rejoice": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "are glad": [
-          "en4"
-        ]
-      }
+      "gloss": "let them be glad",
+      "sense": "S1"
     },
     {
       "surface": "איים",
-      "gloss": "coastlands",
+      "gloss": "the islands",
+      "sense": "S1",
       "readings": [
-        "coastlands",
-        "islands"
-      ],
-      "held_by": {
-        "coastlands": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "islands": [
-          "v1",
-          "en4"
-        ]
-      }
+        "the islands",
+        "the coastlands"
+      ]
     },
     {
       "surface": "רבים",
-      "gloss": "many"
+      "gloss": "the many",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:24.886539980Z",
+  "model": "glm-5.3"
 }

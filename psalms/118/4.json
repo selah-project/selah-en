@@ -1,94 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Let those who fear YHWH now say: for his chesed ⟨is⟩ forever.",
-  "tokens": [
+  "ref": "psalms 118:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "יאמרו",
-      "gloss": "let them say"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Verbless clause: לעולם חסדו"
     },
     {
-      "surface": "נא",
-      "gloss": "now",
-      "readings": [
-        "now",
-        "please"
-      ],
-      "held_by": {
-        "now": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "please": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "those who fear YHWH",
+      "rationale": "יראי is participial 'fearers of'; rendered with relative clause, losing the bound-construct shape"
     },
     {
-      "surface": "יראי",
-      "gloss": "those who fear"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for",
-      "readings": [
-        "for",
-        "that"
-      ],
-      "held_by": {
-        "for": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "that": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "for the age"
-      ],
-      "held_by": {
-        "forever": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for the age": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "his chesed",
-      "readings": [
-        "his chesed",
-        "his steadfast love"
-      ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v2"
-        ]
-      }
+      "kind": "you",
+      "subject": "to those who fear YHWH",
+      "rationale": "Jussive widens the summons beyond Israel and the priests to all who revere YHWH"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let those who fear YHWH say, ⟨I pray⟩, “For forever is his chesed.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "db6b6c5d87beab7906d493acc2d441b0e3d097226d1a36962eda217e7cc36b24",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/1-4.1791193421166.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹֽאמְרוּ",
+      "gloss": "Let … say",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָ֭א",
+      "gloss": "⟨I pray⟩",
+      "sense": null
+    },
+    {
+      "surface": "יִרְאֵ֣י",
+      "gloss": "those who fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּֽוֹ",
+      "gloss": "is his chesed",
+      "readings": [
+        "is his chesed",
+        "is his steadfast love"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:41.167170946Z",
+  "model": "glm-5.3"
 }

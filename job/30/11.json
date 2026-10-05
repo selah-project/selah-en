@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "For he has loosed my cord and afflicted me, and the bridle from before my face they have cast off.",
+  "ref": "job 30:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יתרו",
+      "rationale": "Ketiv יתרו 'his bowstring' with 3ms suffix vs qere יתרי 'my bowstring'; the verse's logic (God disarms Job) supports the qere, kept as the lens."
+    },
+    {
+      "kind": "crux",
+      "subject": "רסן מפני שלחו",
+      "rationale": "'They cast off the bridle from before me' — either the mockers discard restraint in Job's presence, or God has removed Job's own bridle; the Hebrew leaves both open."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "פתח \/ יתר",
+      "rationale": "The bowstring (יתר) loosened (פתח) — the disarmament picture of SDBH, carried literally."
+    }
+  ],
+  "translation": "For He loosened my bowstring and humbled me, and a bridle they have cast off before my face.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0f518efd09e40d8bd62cca1c7192f39e84a3c690b6f37e13527c992c26e0f027",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/9-12.1791194476494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
     },
     {
       "surface": "יתרו",
-      "gloss": "my cord",
+      "gloss": "my bowstring",
+      "sense": "S1",
       "readings": [
-        "my cord",
-        "His cord"
-      ],
-      "held_by": {
-        "my cord": [
-          "v2",
-          "v3"
-        ],
-        "His cord": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "my bowstring",
+        "his excess"
+      ]
     },
     {
-      "surface": "פתח",
-      "gloss": "he has loosed"
+      "surface": "פִּ֭תַּח",
+      "gloss": "He loosened",
+      "sense": "S1"
     },
     {
-      "surface": "ויענני",
-      "gloss": "and afflicted me"
+      "surface": "וַיְעַנֵּ֑נִי",
+      "gloss": "and humbled me",
+      "sense": "S1"
     },
     {
-      "surface": "ורסן",
-      "gloss": "and the bridle"
+      "surface": "וְ֝רֶ֗סֶן",
+      "gloss": "and a bridle",
+      "sense": "S1"
     },
     {
-      "surface": "מפני",
-      "gloss": "from before my face"
+      "surface": "מִפָּנַ֥י",
+      "gloss": "before my face",
+      "sense": null
     },
     {
-      "surface": "שלחו",
-      "gloss": "they have cast off"
+      "surface": "שִׁלֵּֽחוּ",
+      "gloss": "they have cast off",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:16.495721818Z",
+  "model": "glm-5.3"
 }

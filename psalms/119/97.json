@@ -1,64 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 97,
+  "ref": "psalms 119:97",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "מה אהבתי",
+      "rationale": "Exclamative how I love, an exclamative use of the interrogative מה, rendered as English exclamation."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Second-masculine-singular address throughout the verse."
+    }
+  ],
   "translation": "How I love your Torah! All the day it is my meditation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "588d2d868209cd92f6c434422b2b3d78e469169bcd45851c3abb433e8429a711",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/97-100.1791193470435.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "מה",
-      "gloss": "How"
+      "surface": "מָֽה",
+      "gloss": "How",
+      "sense": "S1"
     },
     {
-      "surface": "אהבתי",
+      "surface": "אָהַ֥בְתִּי",
       "gloss": "I love",
-      "readings": [
-        "I love",
-        "I have loved"
-      ],
-      "held_by": {
-        "I love": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have loved": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תורתך",
+      "surface": "תּוֹרָתֶ֑ךָ",
       "gloss": "your Torah",
       "readings": [
         "your Torah",
         "your instruction"
       ],
-      "held_by": {
-        "your Torah": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your instruction": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "All"
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּ֗וֹם",
+      "gloss": "the day",
+      "sense": "S1"
     },
     {
-      "surface": "היא",
-      "gloss": "it is"
+      "surface": "הִ֣יא",
+      "gloss": "it",
+      "sense": null
     },
     {
-      "surface": "שיחתי",
-      "gloss": "my meditation"
+      "surface": "שִׂיחָתִֽי",
+      "gloss": "my meditation",
+      "readings": [
+        "my meditation",
+        "my musing"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:30.435530619Z",
+  "model": "glm-5.3"
 }

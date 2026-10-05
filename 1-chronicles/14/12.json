@@ -1,40 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And they abandoned there ⟨את⟩ their gods, and David said, and they were burned in ⟨the⟩ fire.",
-  "tokens": [
+  "ref": "1-chronicles 14:12",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ויעזבו",
-      "gloss": "And they abandoned"
+      "kind": "crux",
+      "subject": "and David said",
+      "rationale": "Chronicles inserts וַיֹּאמֶר דָּוִיד with no quoted words following; 2 Sam 5:21 parallel instead has David and his men carry off the idols — hence the fire is by David's command."
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "kind": "substitution",
+      "subject": "gods",
+      "rationale": "אֱלֹהֵיהֶם is plural-with-plural here, the Philistines' idols — lowercase 'gods', not the Name."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אלהיהם",
-      "gloss": "their gods"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and said"
-    },
-    {
-      "surface": "דויד",
-      "gloss": "David"
-    },
-    {
-      "surface": "וישרפו",
-      "gloss": "and they were burned"
-    },
-    {
-      "surface": "באש",
-      "gloss": "in ⟨the⟩ fire"
+      "kind": "elision",
+      "subject": "בָּאֵשׁ",
+      "rationale": "niphal 'they were burned' leaves the agent unstated; the missing command is the content of David's unquoted 'said'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they abandoned ⟨את⟩ their gods there, and David said, and they were burned in the fire.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7979a51762e8231fe90434a8e6f1f959e24662838ead51539b31cb629452c7bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/14\/9-12.1791196269739.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּעַזְב֖וּ",
+      "gloss": "And they abandoned",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֖ם",
+      "gloss": "there",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "their gods",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹֽהֵיהֶ֑ם",
+      "gloss": "their gods",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּ֣אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּוִ֔יד",
+      "gloss": "David",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּשָּׂרְפ֖וּ",
+      "gloss": "and they were burned",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאֵֽשׁ",
+      "gloss": "in the fire",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:09.741266085Z",
+  "model": "glm-5.3"
 }

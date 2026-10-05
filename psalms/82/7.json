@@ -1,62 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Surely, like a human you will die, and like one of the princes you will fall.",
-  "tokens": [
+  "ref": "psalms 82:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 82,
+  "notes": [
     {
-      "surface": "אכן",
-      "gloss": "surely",
-      "readings": [
-        "surely",
-        "but"
-      ],
-      "held_by": {
-        "surely": [
-          "en4"
-        ],
-        "but": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "the gods",
+      "rationale": "YHWH addresses the gods of the council (v.1) with a death sentence."
     },
     {
-      "surface": "כאדם",
-      "gloss": "like a human",
-      "readings": [
-        "like a human",
-        "like Adam"
-      ],
-      "held_by": {
-        "like a human": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "like Adam": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "אדם \/ מות",
+      "rationale": "Like adam you shall die — mortality set against their supposed divinity; אדם echoes the mortality note in the SDBH sense."
     },
     {
-      "surface": "תמותון",
-      "gloss": "you will die"
-    },
-    {
-      "surface": "וכאחד",
-      "gloss": "and like one of"
-    },
-    {
-      "surface": "השרים",
-      "gloss": "the princes"
-    },
-    {
-      "surface": "תפלו",
-      "gloss": "you will fall"
+      "kind": "alternative",
+      "subject": "princes",
+      "rationale": "השרים may be human rulers, so the fall is from office, or the gods' princely status; both senses stand in the parallel."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Surely, like a human you shall die, and like one of the princes you shall fall.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06eb889842822361aac8e778fc35776f35f5bad69e78a1aecf231118661b77d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/82\/5-8.1791193100023.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָכֵן",
+      "gloss": "Surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּאָדָם",
+      "gloss": "like a human",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּמוּתוּן",
+      "gloss": "you shall die",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְאַחַד",
+      "gloss": "and like one of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׂרִים",
+      "gloss": "the princes",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּפֹּלוּ",
+      "gloss": "you shall fall",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:20.024657049Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Who formed a god and ⟨a⟩ graven image, poured out, that profits nothing?",
-  "tokens": [
+  "ref": "isaiah 44:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "alternative",
+      "subject": "that profits nothing",
+      "rationale": "לְבִלְתִּי הוֹעִיל may attach forward ('so as not to profit') or read as a relative clause; brackets flag the supplied relative"
     },
     {
-      "surface": "יצר",
-      "gloss": "formed"
-    },
-    {
-      "surface": "אל",
-      "gloss": "a god"
-    },
-    {
-      "surface": "ופסל",
-      "gloss": "and ⟨a⟩ graven image"
-    },
-    {
-      "surface": "נסך",
-      "gloss": "poured out"
-    },
-    {
-      "surface": "לבלתי",
-      "gloss": "so as not to"
-    },
-    {
-      "surface": "הועיל",
-      "gloss": "profit"
+      "kind": "mystery",
+      "subject": "Who has formed a god",
+      "rationale": "rhetorical question asserting no one can be identified — the SDBH sense of מִי"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who has formed a god, or cast a statue, ⟨that profits⟩ nothing?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "119adb2eee51b7acfc15f234d35480fc72a5e24c098a338987db3e6959504e37",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/44\/9-12.1791188686770.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָצַ֥ר",
+      "gloss": "has formed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֖ל",
+      "gloss": "a god",
+      "readings": [
+        "a god",
+        "El"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפֶ֣סֶל",
+      "gloss": "or a carved image",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָסָ֑ךְ",
+      "gloss": "cast",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבִלְתִּ֖י",
+      "gloss": "not"
+    },
+    {
+      "surface": "הוֹעִֽיל",
+      "gloss": "profiting",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:24:46.771207811Z",
+  "model": "glm-5.3"
 }

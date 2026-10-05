@@ -1,78 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Do not drag me away with the wicked, and with the workers of iniquity, who speak peace with their neighbors while evil is in their hearts.",
-  "tokens": [
+  "ref": "psalms 28:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "אל",
-      "gloss": "Do not"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks the copula in 'evil in their heart'; supplied in the flowing line."
     },
     {
-      "surface": "תמשכני",
-      "gloss": "drag me away"
+      "kind": "crux",
+      "subject": "דברי שלום",
+      "rationale": "Participle 'speakers of peace' rendered as a relative clause 'who speak peace'; literally 'speakers of peace with their companions'."
     },
     {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "רשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "ועם",
-      "gloss": "and with"
-    },
-    {
-      "surface": "פעלי",
-      "gloss": "workers"
-    },
-    {
-      "surface": "און",
-      "gloss": "of iniquity",
-      "readings": [
-        "of iniquity",
-        "of trouble",
-        "of nothingness"
-      ],
-      "held_by": {
-        "of iniquity": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of trouble": [
-          "en4"
-        ],
-        "of nothingness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דברי",
-      "gloss": "who speak"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "רעיהם",
-      "gloss": "their neighbors"
-    },
-    {
-      "surface": "ורעה",
-      "gloss": "while evil"
-    },
-    {
-      "surface": "בלבבם",
-      "gloss": "⟨is⟩ in their hearts"
+      "kind": "wordplay",
+      "subject": "רעיהם\/רעה",
+      "rationale": "רֵעַ (neighbor) and רָעָה (evil) sound alike — peace with their rea, ra in their heart — a paronomasia lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Do not drag me away with the wicked, and with the workers of wrong — who speak peace with their neighbors while evil is in their heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a541b062d6ec907b73983a34d5cf8fcc5d2682c079bc4edc0b7f3be5e33d7700",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/28\/1-4.1791192559124.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַל",
+      "gloss": "Do not",
+      "sense": null
+    },
+    {
+      "surface": "תִּמְשְׁכֵ֣נִי",
+      "gloss": "drag me away",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "רְשָׁעִ֣ים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעִם",
+      "gloss": "and with",
+      "sense": null
+    },
+    {
+      "surface": "פֹּ֪עֲלֵ֫י",
+      "gloss": "the workers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֥וֶן",
+      "gloss": "wrong",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּבְרֵ֣י",
+      "gloss": "who speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֭לוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "רֵֽעֵיהֶ֑ם",
+      "gloss": "their neighbors",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝רָעָ֗ה",
+      "gloss": "while evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּלְבָבָֽם",
+      "gloss": "is in their heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:19.125359002Z",
+  "model": "glm-5.3"
 }

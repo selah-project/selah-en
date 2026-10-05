@@ -1,39 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And the young men of the king said to him, “See, Haman is standing in the court.” And the king said, “Let him come in.”",
+  "ref": "esther 6:5",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "young men",
+      "rationale": "נערי denotes young male servants; rendered 'young men of the king' rather than 'servants' or 'lads'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "let him come in",
+      "rationale": "יָבוֹא is a bare jussive 'he shall come'; 'let him come in' carries the king's permissive command"
+    }
+  ],
+  "translation": "And the servants of the king said to him, “See, Haman is standing in the courtyard.” And the king said, “Let him come in.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "191dbd99b69f2157eb83cb112f00e8e02d1fa4e0a68e66d55f9e8a4e0dc7739b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/6\/5-8.1791195082846.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמרו",
-      "gloss": "And said"
+      "gloss": "And said",
+      "sense": "S1"
     },
     {
       "surface": "נערי",
       "gloss": "the young men of",
-      "readings": [
-        "the young men of",
-        "the servants of"
-      ],
-      "held_by": {
-        "the young men of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the servants of": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "of the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אליו",
-      "gloss": "to him"
+      "gloss": "to him",
+      "sense": null
     },
     {
       "surface": "הנה",
@@ -41,29 +55,35 @@
     },
     {
       "surface": "המן",
-      "gloss": "Haman"
+      "gloss": "Haman",
+      "sense": "S1"
     },
     {
       "surface": "עמד",
-      "gloss": "is standing"
+      "gloss": "is standing",
+      "sense": null
     },
     {
       "surface": "בחצר",
-      "gloss": "in the court"
+      "gloss": "in the courtyard",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "יבוא",
-      "gloss": "Let him come in"
+      "gloss": "let him come in",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:11:22.847166100Z",
+  "model": "glm-5.3"
 }

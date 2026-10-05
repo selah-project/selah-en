@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "For wisdom will enter into your heart, and knowledge will be pleasant to your nefesh —",
-  "tokens": [
+  "ref": "proverbs 2:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "heart",
+      "rationale": "לב is the seat of thought and will, not only feeling"
     },
     {
-      "surface": "תבוא",
-      "gloss": "will enter"
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "wisdom"
-    },
-    {
-      "surface": "בלבך",
-      "gloss": "into your heart"
-    },
-    {
-      "surface": "ודעת",
-      "gloss": "and knowledge"
-    },
-    {
-      "surface": "לנפשך",
-      "gloss": "to your nefesh",
-      "readings": [
-        "to your nefesh",
-        "to your soul"
-      ],
-      "held_by": {
-        "to your nefesh": [
-          "v2",
-          "v3"
-        ],
-        "to your soul": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ינעם",
-      "gloss": "will be pleasant"
+      "kind": "wordplay",
+      "subject": "תבוא\/ינעם",
+      "rationale": "wisdom's entering paired with taste-pleasure — knowledge as something savored"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For wisdom will come into your heart, and knowledge will be sweet to your nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d3e5c0e6133145d3094be6cd939920bec01bb04da94416dc9e1a0f5f96d0ab6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/2\/9-12.1791193682887.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "תָּבֹ֣ווא",
+      "gloss": "will come",
+      "sense": null
+    },
+    {
+      "surface": "חָכְמָ֣ה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְלִבֶּ֑ךָ",
+      "gloss": "into your heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝דַ֗עַת",
+      "gloss": "and knowledge",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְֽנַפְשְׁךָ֥",
+      "gloss": "to your nefesh",
+      "sense": "S1",
+      "readings": [
+        "to your nefesh",
+        "to your life",
+        "to your throat"
+      ]
+    },
+    {
+      "surface": "יִנְעָֽם",
+      "gloss": "will be sweet",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:02.888805268Z",
+  "model": "glm-5.3"
 }

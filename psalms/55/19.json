@@ -1,78 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "He has ransomed in peace my soul from the battle against me, for among the multitude they were with me.",
+  "ref": "psalms 55:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ברבים היו עמדי",
+      "rationale": "'For many were with me' (God's defenders) vs 'For they were many against me' — the prepositions allow both."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my soul",
+      "rationale": "נפש is throat\/life-force, not an immaterial soul."
+    }
+  ],
+  "translation": "He has ransomed in peace my soul from the battle ⟨against⟩ me, for with many they were with me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03b152669aab35b90a29c9f2a8bccf29a39853d41d925208539e496a6ab7dc34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/17-20.1791192806399.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פדה",
-      "gloss": "He has ransomed"
+      "surface": "פָּ֘דָ֤ה",
+      "gloss": "He has ransomed",
+      "sense": "S1"
     },
     {
-      "surface": "בשלום",
-      "gloss": "in peace"
+      "surface": "בְּשָׁל֣וֹם",
+      "gloss": "in peace",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַ֭פְשִׁי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my nefesh",
-        "my life"
+        "my life",
+        "my throat"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מקרב",
+      "surface": "מִקְּרָב",
       "gloss": "from the battle",
-      "readings": [
-        "from the battle",
-        "from the one near to me"
-      ],
-      "held_by": {
-        "from the battle": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from the one near to me": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "לי",
-      "gloss": "against me"
+      "surface": "לִ֑י",
+      "gloss": "⟨against⟩ me",
+      "sense": null
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "ברבים",
-      "gloss": "among the multitude"
+      "surface": "בְּרַבִּ֗ים",
+      "gloss": "with many",
+      "sense": "S1"
     },
     {
-      "surface": "היו",
-      "gloss": "they were"
+      "surface": "הָי֥וּ",
+      "gloss": "they were",
+      "sense": null
     },
     {
-      "surface": "עמדי",
-      "gloss": "with me"
+      "surface": "עִמָּדִֽי",
+      "gloss": "with me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:26.400142046Z",
+  "model": "glm-5.3"
 }

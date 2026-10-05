@@ -1,44 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "and Lebaoth, and Shilhim, and Ain, and Rimmon — all the cities ⟨are⟩ twenty and nine, and their villages.",
+  "ref": "joshua 15:32",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "Lebaoth and Shilhim",
+      "rationale": "לְבָאוֹת and שִׁלְחִים occur only here in the Tanakh."
+    },
+    {
+      "kind": "substitution",
+      "subject": "unwalled villages",
+      "rationale": "חֲצֵרִים is 'enclosures\/hamlets' — dependent settlements without a wall; 'unwalled villages' supplies the contrast with עָרִים."
+    },
+    {
+      "kind": "measurement",
+      "subject": "twenty and nine",
+      "rationale": "Summary count closing this town list; the number stays as the Hebrew's 'twenty and nine'."
+    }
+  ],
+  "translation": "and Lebaoth, and Shilhim, and Ain, and Rimmon — all the towns twenty and nine, and their unwalled villages.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8b018d63756e9c8e6ceddccd2282d74e4b43c0ebb8e50e1531c31e19ac386d6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/15\/29-32.1791184583214.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
-      "surface": "ולבאות",
-      "gloss": "and Lebaoth"
+      "surface": "וּלְבָאוֹת",
+      "gloss": "and Lebaoth",
+      "sense": "S1"
     },
     {
-      "surface": "ושלחים",
-      "gloss": "and Shilhim"
+      "surface": "וְשִׁלְחִים",
+      "gloss": "and Shilhim",
+      "sense": "S1"
     },
     {
-      "surface": "ועין",
+      "surface": "וְעַיִן",
       "gloss": "and Ain"
     },
     {
-      "surface": "ורמון",
+      "surface": "וְרִמּוֹן",
       "gloss": "and Rimmon"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "ערים",
-      "gloss": "the cities"
+      "surface": "עָרִים",
+      "gloss": "the towns",
+      "sense": "S1"
     },
     {
-      "surface": "עשרים",
+      "surface": "עֶשְׂרִים",
       "gloss": "twenty"
     },
     {
-      "surface": "ותשע",
-      "gloss": "and nine"
+      "surface": "וָתֵשַׁע",
+      "gloss": "and nine",
+      "sense": "S1"
     },
     {
-      "surface": "וחצריהן",
-      "gloss": "and their villages"
+      "surface": "וְחַצְרֵיהֶן",
+      "gloss": "and their unwalled villages",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:16:23.215950831Z",
+  "model": "glm-5.3"
 }

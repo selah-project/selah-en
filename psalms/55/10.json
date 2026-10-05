@@ -1,74 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Swallow up, O Adonai; divide their tongue, for I have seen violence and strife in the city.",
+  "ref": "psalms 55:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨them⟩ alive",
+      "rationale": "the piel imperative בלע lacks an expressed object; supplied from the enemies of the psalm."
+    },
+    {
+      "kind": "crux",
+      "subject": "split their tongue",
+      "rationale": "allusion to Babel (Gen 11); 'confuse their speech' vs the literal 'divide their tongue'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בלע \/ פלג",
+      "rationale": "two imperatives of destruction-by-swallowing and division, a pointed pair of jussive verbs."
+    }
+  ],
+  "translation": "Swallow ⟨them⟩ alive, Adonai; split their tongue, for I see violence and strife in the city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6771b5092cd10263d68cb20718c67bfbcb661e6b23c5e8cb8c8a64fdc411b02d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/9-12.1791192794812.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בלע",
-      "gloss": "Swallow up",
-      "readings": [
-        "Swallow up",
-        "Destroy"
-      ],
-      "held_by": {
-        "Swallow up": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Destroy": [
-          "en4"
-        ]
-      }
+      "surface": "בַּלַּ֣ע",
+      "gloss": "Swallow",
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲ֭דֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "פלג",
-      "gloss": "divide",
-      "readings": [
-        "divide",
-        "split"
-      ],
-      "held_by": {
-        "divide": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "split": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "פַּלַּ֣ג",
+      "gloss": "split",
+      "sense": "S1"
     },
     {
-      "surface": "לשונם",
-      "gloss": "their tongue"
+      "surface": "לְשׁוֹנָ֑ם",
+      "gloss": "their tongue",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "for"
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I have seen"
+      "surface": "רָאִ֨יתִי",
+      "gloss": "I see",
+      "readings": [
+        "I see",
+        "I have seen"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "חמס",
-      "gloss": "violence"
+      "surface": "חָמָ֖ס",
+      "gloss": "violence",
+      "sense": "S1"
     },
     {
-      "surface": "וריב",
-      "gloss": "and strife"
+      "surface": "וְרִ֣יב",
+      "gloss": "and strife",
+      "sense": "S1"
     },
     {
-      "surface": "בעיר",
-      "gloss": "in the city"
+      "surface": "בָּעִֽיר",
+      "gloss": "in the city",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:14.813221290Z",
+  "model": "glm-5.3"
 }

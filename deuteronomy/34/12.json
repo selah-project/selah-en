@@ -1,90 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And for all the strong hand and for all the great terror which Moses did before the eyes of all Israel.",
-  "tokens": [
+  "ref": "deuteronomy 34:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "ולכל",
-      "gloss": "And for all",
-      "readings": [
-        "And for all",
-        "and in all",
-        "and to all"
-      ],
-      "held_by": {
-        "And for all": [
-          "v1",
-          "v3"
-        ],
-        "and in all": [
-          "v2"
-        ],
-        "and to all": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "the hand",
+      "rationale": "יד is figurative for exerted power; 'hand' kept literal so the figure stays visible"
     },
     {
-      "surface": "היד",
-      "gloss": "the hand"
+      "kind": "crux",
+      "subject": "awe",
+      "rationale": "המורא: 'awe' vs 'fear' vs 'terrors' — the object inspiring fear; 'awe' chosen to keep it a deed, not an emotion"
     },
     {
-      "surface": "החזקה",
-      "gloss": "strong"
-    },
-    {
-      "surface": "ולכל",
-      "gloss": "and for all",
-      "readings": [
-        "and for all",
-        "and in all",
-        "and to all"
-      ],
-      "held_by": {
-        "and for all": [
-          "v1",
-          "v3"
-        ],
-        "and in all": [
-          "v2"
-        ],
-        "and to all": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "המורא",
-      "gloss": "the terror"
-    },
-    {
-      "surface": "הגדול",
-      "gloss": "great"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "did"
-    },
-    {
-      "surface": "משה",
-      "gloss": "Moses"
-    },
-    {
-      "surface": "לעיני",
-      "gloss": "before the eyes of"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "idiom",
+      "subject": "before the eyes of",
+      "rationale": "לעיני literally 'to the eyes of', rendered with English 'before'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and for all the strong hand and all the great awe that Moses did before the eyes of all Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6cb5043047db900183f3d792f499c3aed6f4327abbbb6ac3fca3e800cc251ddb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/34\/9-12.1791184271735.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּלְכֹל֙",
+      "gloss": "and for all",
+      "sense": null
+    },
+    {
+      "surface": "הַיָּ֣ד",
+      "gloss": "the hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַחֲזָקָ֔ה",
+      "gloss": "the strong",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְכֹ֖ל",
+      "gloss": "and for all",
+      "sense": null
+    },
+    {
+      "surface": "הַמּוֹרָ֣א",
+      "gloss": "the awe",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַגָּד֑וֹל",
+      "gloss": "the great",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר֙",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "עָשָׂ֣ה",
+      "gloss": "did",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹשֶׁ֔ה",
+      "gloss": "Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעֵינֵ֖י",
+      "gloss": "before the eyes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:11:11.736631877Z",
+  "model": "glm-5.3"
 }

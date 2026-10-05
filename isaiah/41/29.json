@@ -1,107 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "Behold, all of them ⟨are⟩ nothingness; their works ⟨are⟩ nothing; wind and confusion ⟨are⟩ their molten images.",
+  "ref": "isaiah 41:29",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "נִסְכֵיהֶם",
+      "rationale": "נֶסֶךְ means both 'libation' and 'cast idol'; here likely 'their cast images', but 'their libations' is the alternative."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between כלם and און אפס."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "און אפס \/ רוח ותהו",
+      "rationale": "Paired nouns of non-existence and emptiness; the accumulation is rhetorical, partially lost in English."
+    }
+  ],
+  "translation": "Look, all of them are nothingness, cessation — their deeds are wind and desolation, their cast-images.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "581523a9a9fac58c40012b71a8f2a73e669755a0506c1aa5047cdd0ca904c7e1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/41\/29-29.1791188621527.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "surface": "הֵן",
+      "gloss": "Look",
+      "sense": null
     },
     {
-      "surface": "כלם",
-      "gloss": "all of them"
+      "surface": "כֻּלָּם",
+      "gloss": "all of them",
+      "sense": null
     },
     {
-      "surface": "און",
+      "surface": "אָוֶן",
       "gloss": "nothingness",
-      "readings": [
-        "nothingness",
-        "trouble",
-        "wickedness"
-      ],
-      "held_by": {
-        "nothingness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "trouble": [
-          "en4"
-        ],
-        "wickedness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אפס",
-      "gloss": "nothing"
+      "surface": "אֶפֶס",
+      "gloss": "cessation",
+      "sense": "S1"
     },
     {
-      "surface": "מעשיהם",
-      "gloss": "their works"
+      "surface": "מַעֲשֵׂיהֶם",
+      "gloss": "their deeds",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "רוּחַ",
       "gloss": "wind",
       "readings": [
         "wind",
         "breath",
         "spirit"
       ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותהו",
-      "gloss": "and confusion",
-      "readings": [
-        "and confusion",
-        "and emptiness"
-      ],
-      "held_by": {
-        "and confusion": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and emptiness": [
-          "en4"
-        ]
-      }
+      "surface": "וָתֹהוּ",
+      "gloss": "and desolation",
+      "sense": "S1"
     },
     {
-      "surface": "נסכיהם",
-      "gloss": "their molten images",
-      "readings": [
-        "their molten images",
-        "their libations"
-      ],
-      "held_by": {
-        "their molten images": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their libations": [
-          "en4"
-        ]
-      }
+      "surface": "נִסְכֵיהֶם",
+      "gloss": "their cast-images",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:41.527671505Z",
+  "model": "glm-5.3"
 }

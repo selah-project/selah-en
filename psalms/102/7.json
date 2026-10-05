@@ -1,83 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "I have become like a pelican of the wilderness; I have become like an owl of ruins.",
-  "tokens": [
+  "ref": "psalms 102:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
     {
-      "surface": "דמיתי",
-      "gloss": "I have become like",
-      "readings": [
-        "I have become like",
-        "I resemble"
-      ],
-      "held_by": {
-        "I have become like": [
-          "v2",
-          "en4"
-        ],
-        "I resemble": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "pelican",
+      "rationale": "קָאָת exact species unsure — pelican, eagle-owl, or cormorant; SDBH: 'relatively small black bird', meaning uncertain"
     },
     {
-      "surface": "לקאת",
-      "gloss": "a pelican",
-      "readings": [
-        "a pelican",
-        "the ka'ath",
-        "a desert owl"
-      ],
-      "held_by": {
-        "a pelican": [
-          "v2",
-          "en4"
-        ],
-        "the ka'ath": [
-          "v1",
-          "v3"
-        ],
-        "a desert owl": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "owl",
+      "rationale": "כּוֹס exact meaning unknown; probably a small owl (Athene noctua)"
     },
     {
-      "surface": "מדבר",
-      "gloss": "of the wilderness"
-    },
-    {
-      "surface": "הייתי",
-      "gloss": "I have become"
-    },
-    {
-      "surface": "ככוס",
-      "gloss": "like an owl",
-      "readings": [
-        "like an owl",
-        "like the little owl",
-        "like a cup"
-      ],
-      "held_by": {
-        "like an owl": [
-          "v2",
-          "en4"
-        ],
-        "like the little owl": [
-          "v1",
-          "v3"
-        ],
-        "like a cup": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חרבות",
-      "gloss": "of ruins"
+      "kind": "wordplay",
+      "subject": "דמיתי \/ הייתי",
+      "rationale": "parallel comparing-verbs frame the verse's two bird images"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I have become like a pelican of the wilderness; I have become like an owl of the desolations.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7182acd3da5cf7c2891bf32d590a89ed7d093c4a805ad348505ecaaad0b6848",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/5-8.1791193247744.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דָּמִיתִי",
+      "gloss": "I have become like",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִקְאַת",
+      "gloss": "a pelican",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדְבָּר",
+      "gloss": "of the wilderness",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָיִיתִי",
+      "gloss": "I have become",
+      "sense": null
+    },
+    {
+      "surface": "כְּכוֹס",
+      "gloss": "like an owl",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָרְבֹות",
+      "gloss": "of the desolations",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:47.745500765Z",
+  "model": "glm-5.3"
 }

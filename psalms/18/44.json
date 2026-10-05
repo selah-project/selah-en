@@ -1,48 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 44,
-  "translation": "You deliver me from the strivings of ⟨a⟩ people; You set me ⟨as⟩ head of nations; ⟨a⟩ people I have not known will serve me.",
-  "tokens": [
+  "ref": "psalms 18:44",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "תפלטני",
-      "gloss": "You deliver me"
+      "kind": "crux",
+      "subject": "strivings of a people",
+      "rationale": "2 Sam 22:44 has עַמִּי ‘my people’; Psalm's unbound עָם is ambiguous — ‘of ⟨the⟩ people’ with supplied article"
     },
     {
-      "surface": "מריבי",
-      "gloss": "from the strivings of"
-    },
-    {
-      "surface": "עם",
-      "gloss": "⟨a⟩ people"
-    },
-    {
-      "surface": "תשימני",
-      "gloss": "You set me"
-    },
-    {
-      "surface": "לראש",
-      "gloss": "⟨as⟩ head"
-    },
-    {
-      "surface": "גוים",
-      "gloss": "of nations"
-    },
-    {
-      "surface": "עם",
-      "gloss": "⟨a⟩ people"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ידעתי",
-      "gloss": "I have known"
-    },
-    {
-      "surface": "יעבדוני",
-      "gloss": "will serve me"
+      "kind": "crux",
+      "subject": "you set me",
+      "rationale": "2 Sam 22:44 reads תִּשְׁמְרֵנִי ‘you keep me’ for Psalm's תְּשִׂימֵנִי ‘you set me’"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You deliver me from the strivings of ⟨the⟩ people; you set me as head of nations — a people I did not know serve me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a6aba5e932e856b3d3d2fe88f871ab393b7a01dd181e92040d688b2c1a7575ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/41-44.1791192480932.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּפַלְּטֵנִי֮",
+      "gloss": "you deliver me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרִ֪יבֵ֫י",
+      "gloss": "from the strivings of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָ֥ם",
+      "gloss": "a people",
+      "readings": [
+        "a people",
+        "the people"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשִׂימֵנִי֭",
+      "gloss": "you set me",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרֹ֣אשׁ",
+      "gloss": "as head",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹיִ֑ם",
+      "gloss": "of nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֖ם",
+      "gloss": "a people",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֣עְתִּי",
+      "gloss": "I knew",
+      "sense": null
+    },
+    {
+      "surface": "יַֽעַבְדֽוּנִי",
+      "gloss": "serve me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:00.933881612Z",
+  "model": "glm-5.3"
 }

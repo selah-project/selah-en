@@ -1,20 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "An instruction of Ethan the Ezrahite.",
-  "tokens": [
+  "ref": "psalms 89:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
     {
-      "surface": "משכיל",
-      "gloss": "an instruction"
+      "kind": "crux",
+      "subject": "maskil",
+      "rationale": "מַשְׂכִּיל read as 'an instructive poem' (didactic song); also 'a song that gives understanding' or 'a meditation'."
     },
     {
-      "surface": "לאיתן",
-      "gloss": "of Ethan"
-    },
-    {
-      "surface": "האזרחי",
-      "gloss": "the Ezrahite"
+      "kind": "wordplay",
+      "subject": "Ethan \/ Ezrachite",
+      "rationale": "The gentilic אֶזְרָחִי puns on Zerah, the clan name of Ethan's ancestor (1 Kings 5:11)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "An instructive poem, for Ethan the Ezrachite.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e5eafa3b194d14895671f75e4ef9168c900d6a2654ca65fada9475120c0d9cba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/1-4.1791193151647.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַ֝שְׂכִּ֗יל",
+      "gloss": "An instructive poem",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאֵיתָ֥ן",
+      "gloss": "for Ethan",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָֽאֶזְרָחִֽי",
+      "gloss": "the Ezrachite",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:11.648345269Z",
+  "model": "glm-5.3"
 }

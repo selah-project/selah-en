@@ -1,41 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "You make him rule over the works of Your hands; all You have placed under his feet.",
+  "ref": "psalms 8:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "over",
+      "rationale": "Hebrew preposition בְּ rendered 'over' — Hebrew uses 'in' for dominion over."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "hands \/ feet",
+      "rationale": "Corresponding duals: YHWH's two hands made, man's two feet receive the dominion."
+    }
+  ],
+  "translation": "You make him rule over the works of Your two hands; all You have set under his two feet.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40dd0d3bf53620056c37557620397391c412856818f097ed93c73108d6287a5d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/8\/5-8.1791192390277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תמשילהו",
-      "gloss": "You make him rule"
+      "surface": "תַ֭מְשִׁילֵהוּ",
+      "gloss": "You make him rule",
+      "sense": "S1"
     },
     {
       "surface": "במעשי",
-      "gloss": "over the works of"
+      "gloss": "over the works of",
+      "sense": "S1"
     },
     {
-      "surface": "ידיך",
-      "gloss": "Your hands"
+      "surface": "יָדֶ֑יךָ",
+      "gloss": "Your two hands",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כֹּ֝ל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "שתה",
-      "gloss": "You have placed",
-      "readings": [
-        "You have placed",
-        "You have set",
-        "You have put"
-      ]
+      "surface": "שַׁ֣תָּה",
+      "gloss": "You have set",
+      "sense": "S1"
     },
     {
-      "surface": "תחת",
-      "gloss": "under"
+      "surface": "תַּֽחַת",
+      "gloss": "under",
+      "sense": null
     },
     {
-      "surface": "רגליו",
-      "gloss": "his feet"
+      "surface": "רַגְלָֽיו",
+      "gloss": "his two feet",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:30.278776235Z",
+  "model": "glm-5.3"
 }

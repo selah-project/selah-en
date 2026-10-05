@@ -1,71 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And Ornan turned back and saw ⟨את⟩ the angel, and his four sons with him were hiding themselves, and Ornan was threshing wheat.",
+  "ref": "1-chronicles 21:20",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "participle דש needs an English copula 'was threshing'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "וישב",
+      "rationale": "'turned back' also readable as 'returned' — the direction-change sense is kept as reading 1"
+    }
+  ],
+  "translation": "And Ornan turned back and saw ⟨את⟩ the messenger, and his four sons with him, hiding, and Ornan was threshing wheat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6b3bc5563063ac71ac89cf1a4abb7ca7bb73785333c355ce9ddfd536a874595d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/21\/17-20.1791196365554.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "וישב",
-      "gloss": "and turned back"
+      "gloss": "and turned back",
+      "sense": "S1"
     },
     {
       "surface": "ארנן",
-      "gloss": "Ornan"
+      "gloss": "Ornan",
+      "sense": "S1"
     },
     {
       "surface": "וירא",
-      "gloss": "and saw"
+      "gloss": "and saw",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the messenger",
+      "sense": null
     },
     {
       "surface": "המלאך",
-      "gloss": "the angel",
-      "readings": [
-        "the angel",
-        "the messenger"
-      ],
-      "held_by": {
-        "the angel": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the messenger": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "the messenger",
+      "sense": "S1"
     },
     {
       "surface": "וארבעת",
-      "gloss": "and his four"
+      "gloss": "and the four",
+      "sense": "S1"
     },
     {
       "surface": "בניו",
-      "gloss": "sons"
+      "gloss": "sons of his",
+      "sense": "S1"
     },
     {
       "surface": "עמו",
-      "gloss": "with him"
+      "gloss": "with him",
+      "sense": null
     },
     {
       "surface": "מתחבאים",
-      "gloss": "hiding themselves"
+      "gloss": "hiding",
+      "sense": "S1"
     },
     {
       "surface": "וארנן",
-      "gloss": "and Ornan"
+      "gloss": "and Ornan",
+      "sense": "S1"
     },
     {
       "surface": "דש",
-      "gloss": "was threshing"
+      "gloss": "was threshing",
+      "sense": "S1"
     },
     {
       "surface": "חטים",
-      "gloss": "wheat"
+      "gloss": "wheat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:32:45.555744764Z",
+  "model": "glm-5.3"
 }

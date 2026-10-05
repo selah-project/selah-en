@@ -1,54 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For you are my rock and my fortress; and for the sake of your name you guide me and lead me.",
-  "tokens": [
+  "ref": "psalms 31:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "you are",
+      "rationale": "verbless Hebrew clause needs the copula; word order inverted from Hebrew 'my crag… you'"
     },
     {
-      "surface": "סלעי",
-      "gloss": "my rock",
-      "readings": [
-        "my rock",
-        "my crag"
-      ],
-      "held_by": {
-        "my rock": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my crag": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ומצודתי",
-      "gloss": "and my fortress"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "ולמען",
-      "gloss": "and for the sake of"
-    },
-    {
-      "surface": "שמך",
-      "gloss": "your name"
-    },
-    {
-      "surface": "תנחני",
-      "gloss": "you guide me"
-    },
-    {
-      "surface": "ותנהלני",
-      "gloss": "and lead me"
+      "kind": "wordplay",
+      "subject": "תנחני\/ותנהלני",
+      "rationale": "near-synonymous pair of 'lead\/guide' verbs, parallel sound partly lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you are my crag and my fortress; and for your name's sake you will lead me and guide me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "76db1f64dcbeaefb85b4b84a1cfb119427a30b2563c5dfe9b1447639f6ba950e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/31\/1-4.1791192565616.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "סַלְעִי",
+      "gloss": "you are my crag",
+      "readings": [
+        "my crag",
+        "my Rock"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְצוּדָתִי",
+      "gloss": "and my fortress",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "וּלְמַעַן",
+      "gloss": "and for the sake of",
+      "sense": null
+    },
+    {
+      "surface": "שִׁמְךָ",
+      "gloss": "your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּנְחֵנִי",
+      "gloss": "you will lead me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְנַהֲלֵֽנִי",
+      "gloss": "and guide me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:25.617962235Z",
+  "model": "glm-5.3"
 }

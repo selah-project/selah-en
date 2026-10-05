@@ -1,67 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "The watchman said: Morning is coming, and also night. If you would inquire, inquire; turn back, come.",
-  "tokens": [
+  "ref": "isaiah 21:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "אמר",
-      "gloss": "said"
+      "kind": "crux",
+      "subject": "Morning is coming, and also night",
+      "rationale": "Alternatives: 'morning comes, and then night' (morning first, then darkness) vs 'if you would inquire, inquire; come back again' — the sequence of day and night is disputed."
     },
     {
-      "surface": "שמר",
-      "gloss": "The watchman"
+      "kind": "wordplay",
+      "subject": "תבעיון בעיו",
+      "rationale": "Infinitive-like doubling of the verb בעה — ask, ask — kept doubled."
     },
     {
-      "surface": "אתה",
-      "gloss": "is coming",
-      "readings": [
-        "is coming",
-        "has come"
-      ],
-      "held_by": {
-        "is coming": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "has come": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בקר",
-      "gloss": "Morning"
-    },
-    {
-      "surface": "וגם",
-      "gloss": "and also"
-    },
-    {
-      "surface": "לילה",
-      "gloss": "night"
-    },
-    {
-      "surface": "אם",
-      "gloss": "if"
-    },
-    {
-      "surface": "תבעיון",
-      "gloss": "you would inquire"
-    },
-    {
-      "surface": "בעיו",
-      "gloss": "inquire"
-    },
-    {
-      "surface": "שבו",
-      "gloss": "turn back"
-    },
-    {
-      "surface": "אתיו",
-      "gloss": "come"
+      "kind": "wordplay",
+      "subject": "שבו אתיו",
+      "rationale": "Two verbs of return paired: 'turn back, come' — an idiom of repeated return, rendered literally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The watchman said: Morning is coming, and also night. If you will ask, ask; turn back, come again.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "14253069ebdb1e2b0b868714eab0cf841773238ddfaf5672f3f9096bbcc80c90",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/21\/9-12.1791188304960.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָמַר",
+      "gloss": "said",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמֵר",
+      "gloss": "The watchman",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָתָה",
+      "gloss": "is coming",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּקֶר",
+      "gloss": "Morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְגַם",
+      "gloss": "and also",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָיְלָה",
+      "gloss": "night",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִם",
+      "gloss": "If"
+    },
+    {
+      "surface": "תִּבְעָיוּן",
+      "gloss": "you will ask",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעָיוּ",
+      "gloss": "ask",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוּבוּ",
+      "gloss": "turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵתָיוּ",
+      "gloss": "come again",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:24.961281908Z",
+  "model": "glm-5.3"
 }

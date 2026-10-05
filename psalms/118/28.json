@@ -1,42 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "You are my El, and I will give thanks to you; my Elohim, I will exalt you.",
-  "tokens": [
+  "ref": "psalms 118:28",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "אלי",
-      "gloss": "my El"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula; the pronoun אתה with the predicate noun requires English 'are'."
     },
     {
-      "surface": "אתה",
-      "gloss": "you are"
-    },
-    {
-      "surface": "ואודך",
-      "gloss": "and I will give thanks to you",
-      "readings": [
-        "and I will give thanks to you",
-        "and I will praise you"
-      ],
-      "held_by": {
-        "and I will give thanks to you": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and I will praise you": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
-    },
-    {
-      "surface": "ארוממך",
-      "gloss": "I will exalt you"
+      "kind": "elision",
+      "subject": "and I will exalt you",
+      "rationale": "The vav before ארוממך is carried as 'and', continuing the parallel confession."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You are my El, and I will praise you; my Elohim, and I will exalt you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cfb51bb5b15406fae5f0d2053734326cdc22f328b2d16ed16e6ecebf6267f51a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/25-28.1791193427388.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵלִי",
+      "gloss": "my El",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "וְאוֹדֶךָּ",
+      "gloss": "and I will praise you",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהַי",
+      "gloss": "my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲרוֹמְמֶךָּ",
+      "gloss": "and I will exalt you",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:47.389876144Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Were you the first man born, and before the hills were you brought forth?",
-  "tokens": [
+  "ref": "job 15:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "הראישון",
-      "gloss": "the first"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "sarcasm: rhetorical questions denying Job any priority over creation."
     },
     {
-      "surface": "אדם",
-      "gloss": "man"
+      "kind": "addition",
+      "subject": "Were you",
+      "rationale": "Hebrew interrogative ה implies the verb of being; no copula in the text."
     },
     {
-      "surface": "תולד",
-      "gloss": "born"
-    },
-    {
-      "surface": "ולפני",
-      "gloss": "and before"
-    },
-    {
-      "surface": "גבעות",
-      "gloss": "the hills"
-    },
-    {
-      "surface": "חוללת",
-      "gloss": "were you brought forth",
-      "readings": [
-        "were you brought forth",
-        "were you formed"
-      ],
-      "held_by": {
-        "were you brought forth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "were you formed": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "חוֹלָלְתָּ",
+      "rationale": "polal of חול can read 'were you writhing in labor' — the birth-pang picture behind 'brought forth'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Were you the first man born, and before the hills were you brought forth?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "493fda36fcc9d1fb5211c3dabe9cc07f7fe031d0ffa546c2e1f3ec380f31a10f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/5-8.1791194287239.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲרִאישׁוֹן",
+      "gloss": "Were you the first",
+      "sense": "S2"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "man",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּוָּלֵד",
+      "gloss": "born",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלִפְנֵי",
+      "gloss": "and before",
+      "sense": null
+    },
+    {
+      "surface": "גְּבָעוֹת",
+      "gloss": "the hills",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוֹלָלְתָּ",
+      "gloss": "were you brought forth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:07.240036059Z",
+  "model": "glm-5.3"
 }

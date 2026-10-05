@@ -1,63 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And I acted for the sake of my name, so as not to profane it before the eyes of the nations, among whom I brought them out before their eyes.",
-  "tokens": [
+  "ref": "ezekiel 20:14",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "ואעשה",
-      "gloss": "And I did"
+      "kind": "substitution",
+      "subject": "my name",
+      "rationale": "Hebrew שם here is reputation, what is known of a person, not the sound of the name alone."
     },
     {
-      "surface": "למען",
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "Hebrew infinitive הֵחֵל carries no subject; the pronoun 'it' (my name) is supplied by English grammar."
+    }
+  ],
+  "translation": "And I acted for the sake of my name, so that it would not be profaned in the eyes of the nations in whose sight I brought them out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c68d928593018d476ed263a0e941036b77498ff304f37500e24e6110495798a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/20\/13-16.1791190567476.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֶעֱשֶׂה",
+      "gloss": "And I acted",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַעַן",
       "gloss": "for the sake of"
     },
     {
-      "surface": "שמי",
-      "gloss": "my name"
+      "surface": "שְׁמִי",
+      "gloss": "my name",
+      "sense": "S1"
     },
     {
-      "surface": "לבלתי",
-      "gloss": "so as not to"
+      "surface": "לְבִלְתִּי",
+      "gloss": "so that not"
     },
     {
-      "surface": "החל",
-      "gloss": "profane"
+      "surface": "הֵחֵל",
+      "gloss": "it would be profaned",
+      "sense": "S1"
     },
     {
-      "surface": "לעיני",
-      "gloss": "before the eyes of"
+      "surface": "לְעֵינֵי",
+      "gloss": "in the eyes of",
+      "sense": "S1"
     },
     {
-      "surface": "הגוים",
-      "gloss": "the nations"
+      "surface": "הַגּוֹיִם",
+      "gloss": "the nations",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "among whom",
-      "readings": [
-        "among whom",
-        "whose"
-      ],
-      "held_by": {
-        "among whom": [
-          "v2",
-          "v3"
-        ],
-        "whose": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "אֲשֶׁר",
+      "gloss": "in whose sight"
     },
     {
-      "surface": "הוצאתים",
-      "gloss": "I brought them out"
+      "surface": "הוֹצֵאתִים",
+      "gloss": "I brought them out",
+      "sense": "S1"
     },
     {
-      "surface": "לעיניהם",
-      "gloss": "before their eyes"
+      "surface": "לְעֵינֵיהֶם",
+      "gloss": "before their eyes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:56:07.478407595Z",
+  "model": "glm-5.3"
 }

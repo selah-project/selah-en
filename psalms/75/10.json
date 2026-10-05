@@ -1,48 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "But as for me, I will declare forever; I will sing praises to the Elohim of Jacob.",
-  "tokens": [
+  "ref": "psalms 75:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 75,
+  "notes": [
     {
-      "surface": "ואני",
-      "gloss": "But as for me"
+      "kind": "elision",
+      "subject": "אַגִּיד לְעֹלָם",
+      "rationale": "the object of 'tell' is supplied from v.9's judgment; 'of it' is not in the Hebrew."
     },
     {
-      "surface": "אגיד",
-      "gloss": "I will declare"
-    },
-    {
-      "surface": "לעלם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "אזמרה",
-      "gloss": "I will sing praises",
-      "readings": [
-        "I will sing praises",
-        "I will play music"
-      ],
-      "held_by": {
-        "I will sing praises": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will play music": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לאלהי",
-      "gloss": "to the Elohim of"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "Jacob"
+      "kind": "you",
+      "subject": "Asaph",
+      "rationale": "the psalmist's own 'I' — a first-person vow of praise against the 'I' of v.3."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But I will tell of it forever; I will sing praise to the Elohim of Jacob.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f2a0a828de8aab978ad657da5913f61abf1058d670f1b581ee656faf8884b8a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/75\/9-11.1791193014336.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲנִי",
+      "gloss": "But I",
+      "sense": null
+    },
+    {
+      "surface": "אַגִּיד",
+      "gloss": "I will tell",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲזַמֵּרָה",
+      "gloss": "I will sing praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאלֹהֵי",
+      "gloss": "to the Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:54.337917942Z",
+  "model": "glm-5.3"
 }

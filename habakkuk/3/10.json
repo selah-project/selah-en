@@ -1,60 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The mountains saw you and writhed; a torrent of waters passed by. The deep gave its voice; the height lifted up its hands.",
-  "tokens": [
+  "ref": "habakkuk 3:10",
+  "book": "habakkuk",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "ראוך",
-      "gloss": "saw you"
+      "kind": "hapax",
+      "subject": "רוֹם",
+      "rationale": "This noun 'height\/elevation' occurs only here in the Tanakh."
     },
     {
-      "surface": "יחילו",
-      "gloss": "writhed",
-      "readings": [
-        "writhed",
-        "trembled"
-      ]
+      "kind": "substitution",
+      "subject": "writhed",
+      "rationale": "חול is the labor-pang verb, twisting in fear — the picture of a woman in childbirth, lost in a plain 'trembled'."
     },
     {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "זרם",
-      "gloss": "a torrent"
-    },
-    {
-      "surface": "מים",
-      "gloss": "of waters"
-    },
-    {
-      "surface": "עבר",
-      "gloss": "passed by"
-    },
-    {
-      "surface": "נתן",
-      "gloss": "gave"
-    },
-    {
-      "surface": "תהום",
-      "gloss": "the deep"
-    },
-    {
-      "surface": "קולו",
-      "gloss": "its voice"
-    },
-    {
-      "surface": "רום",
-      "gloss": "the height"
-    },
-    {
-      "surface": "ידיהו",
-      "gloss": "its hands"
-    },
-    {
-      "surface": "נשא",
-      "gloss": "lifted up"
+      "kind": "wordplay",
+      "subject": "subject shift",
+      "rationale": "Hebrew leaves the verbs' subjects implicit; 'the height lifted its hands' may be the deep's waves or the mountains — the ambiguity is the text's."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Saw you and writhed the mountains; a gushing-torrent of waters passed by. The deep gave its voice; the height lifted its hands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b19cf87c30913f50801f036ee7032199d635701b7cf09de78a583413de84fccf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/habakkuk\/3\/9-12.1791191862198.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/habakkuk.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָא֤וּךָ",
+      "gloss": "Saw you",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָחִ֨ילוּ֙",
+      "gloss": "and writhed",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִ֔ים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶ֥רֶם",
+      "gloss": "a gushing-torrent",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֖יִם",
+      "gloss": "of waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָבָ֑ר",
+      "gloss": "passed by",
+      "sense": null
+    },
+    {
+      "surface": "נָתַ֤ן",
+      "gloss": "gave",
+      "sense": null
+    },
+    {
+      "surface": "תְּהוֹם֙",
+      "gloss": "the deep",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹל֔וֹ",
+      "gloss": "its voice",
+      "sense": null
+    },
+    {
+      "surface": "ר֖וֹם",
+      "gloss": "the height",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדֵ֥יהוּ",
+      "gloss": "its hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָשָֽׂא",
+      "gloss": "lifted",
+      "sense": "S2"
+    }
+  ],
+  "timestamp": "2026-10-05T09:17:42.199631783Z",
+  "model": "glm-5.3"
 }

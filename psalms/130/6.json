@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "My soul ⟨waits⟩ for Adonai, more than watchmen for the morning, ⟨yes, more than⟩ watchmen for the morning.",
-  "tokens": [
+  "ref": "psalms 130:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 130,
+  "notes": [
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my being",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my being": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no verb; the lamed of longing supplied with a bracketed copula."
     },
     {
-      "surface": "לאדני",
-      "gloss": "for Adonai"
+      "kind": "crux",
+      "subject": "משמרים",
+      "rationale": "Hebrew has no comparative word; 'more than' is inferred from context, or the line reads 'my nefesh is for Adonai' like watchmen."
     },
     {
-      "surface": "משמרים",
-      "gloss": "watchmen"
-    },
-    {
-      "surface": "לבקר",
-      "gloss": "for the morning"
-    },
-    {
-      "surface": "שמרים",
-      "gloss": "watchmen"
-    },
-    {
-      "surface": "לבקר",
-      "gloss": "for the morning"
+      "kind": "wordplay",
+      "subject": "שמרים לבקר",
+      "rationale": "The phrase 'watchmen for the morning' repeated verbatim; the doubling is the verse's force."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My nefesh ⟨is⟩ for Adonai, more than watchmen for the morning, watchmen for the morning.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "da06d70f7cf2eba8f90dc853cf39010134ce32afbfe20ba8f668300549bfa361",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/130\/5-8.1791193542501.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my soul",
+        "my very self"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לַאדֹנָי",
+      "gloss": "for Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשֹּׁמְרִים",
+      "gloss": "more than watchmen",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבֹּקֶר",
+      "gloss": "for the morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמְרִים",
+      "gloss": "watchmen",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבֹּקֶר",
+      "gloss": "for the morning",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:42.502131836Z",
+  "model": "glm-5.3"
 }

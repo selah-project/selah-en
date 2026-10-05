@@ -1,71 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "A poor man and one oppressing the weak ⟨is like⟩ a sweeping rain, and there is no bread.",
+  "ref": "proverbs 28:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is a rain",
+      "rationale": "Hebrew has no copula; the apposition man=rain is flat in Hebrew."
+    },
+    {
+      "kind": "hapax",
+      "subject": "סחף",
+      "rationale": "sweeping rain that batters crops; occurs only here and in Jeremiah 46:15 in the Tanakh."
+    },
+    {
+      "kind": "crux",
+      "subject": "גבר רש",
+      "rationale": "read as 'a poor man (who yet) oppresses the poor', or repointed as 'a rich man' (ראשׁ) in some versions; the received text says poor."
+    }
+  ],
+  "translation": "A man who is poor and oppresses the poor is a driving rain and there is no bread.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1a54dd8d8cac7666dff1e4c516085d7a439ffd4270ce0c7ef735b8e86710972e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/28\/1-4.1791194050847.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "גבר",
-      "gloss": "a man"
+      "surface": "גֶּ֣בֶר",
+      "gloss": "A man",
+      "sense": "S1"
     },
     {
-      "surface": "רש",
-      "gloss": "poor"
+      "surface": "רָ֭שׁ",
+      "gloss": "who is poor",
+      "sense": "S1"
     },
     {
-      "surface": "ועשק",
-      "gloss": "and oppressing"
+      "surface": "וְעֹשֵׁ֣ק",
+      "gloss": "and oppresses",
+      "sense": "S1"
     },
     {
-      "surface": "דלים",
-      "gloss": "the weak",
-      "readings": [
-        "the weak",
-        "the poor"
-      ],
-      "held_by": {
-        "the weak": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the poor": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "דַלִּ֑ים",
+      "gloss": "the poor",
+      "sense": "S1"
     },
     {
-      "surface": "מטר",
-      "gloss": "a rain"
+      "surface": "מָטָ֥ר",
+      "gloss": "is a rain",
+      "sense": "S1"
     },
     {
-      "surface": "סחף",
-      "gloss": "sweeping"
+      "surface": "סֹחֵ֣ף",
+      "gloss": "driving",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is no"
+      "surface": "וְאֵ֥ין",
+      "gloss": "and there is no",
+      "sense": null
     },
     {
-      "surface": "לחם",
+      "surface": "לָֽחֶם",
       "gloss": "bread",
       "readings": [
         "bread",
         "food"
       ],
-      "held_by": {
-        "bread": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "food": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:10.847977583Z",
+  "model": "glm-5.3"
 }

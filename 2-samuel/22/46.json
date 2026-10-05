@@ -1,56 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 46,
-  "translation": "Sons of the foreigner shall fade away, and they shall gird themselves out of their strongholds.",
-  "tokens": [
+  "ref": "2-samuel 22:46",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "sons of"
+      "kind": "crux",
+      "subject": "gird themselves",
+      "rationale": "2Sam ויחגרו 'gird themselves (with fear)' vs Ps 18:46 ויחרגו 'tremble' — a well-known textual divergence"
     },
     {
-      "surface": "נכר",
-      "gloss": "the foreigner"
+      "kind": "hapax",
+      "subject": "fortifications",
+      "rationale": "מִסְגְּרֹת occurs elsewhere only in the Ps 18 parallel; exact meaning uncertain, probably enclosed strongholds"
+    }
+  ],
+  "translation": "Sons of the foreigner will lose courage, and gird themselves from their fortifications.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9454d3f77ce92e3441b5652a83372df3ad2e5f4140231b62a9d5fc1aaddea00a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/45-48.1791186610217.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנֵי",
+      "gloss": "sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵכָר",
+      "gloss": "the foreigner",
+      "sense": "S1"
     },
     {
       "surface": "יבלו",
-      "gloss": "shall fade away"
+      "gloss": "will lose courage",
+      "sense": "S1"
     },
     {
       "surface": "ויחגרו",
-      "gloss": "and they shall gird themselves",
-      "readings": [
-        "and they shall gird themselves",
-        "and let them be terrified"
-      ],
-      "held_by": {
-        "and they shall gird themselves": [
-          "v2",
-          "v3"
-        ],
-        "and let them be terrified": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "and gird themselves",
+      "sense": "S1"
     },
     {
       "surface": "ממסגרותם",
-      "gloss": "out of their strongholds",
-      "readings": [
-        "out of their strongholds",
-        "out of their close places"
-      ],
-      "held_by": {
-        "out of their strongholds": [
-          "v2",
-          "v3"
-        ],
-        "out of their close places": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "from their fortifications",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:10.217830714Z",
+  "model": "glm-5.3"
 }

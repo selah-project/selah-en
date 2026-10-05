@@ -1,75 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "You hide your face — they panic; you gather their breath — they expire, and to their dust they return.",
+  "ref": "psalms 104:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "their breath",
+      "rationale": "רוח here is the life-breath of creatures (S1 'Blow'), matching v30's רוחך; 'spirit' or 'wind' are lawful second readings."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "hide\/gather\/die\/return",
+      "rationale": "Verse is built on paired merisms of withdrawal and death; the paragogic nun endings (-ון) repeat four times, untranslatable in English."
+    }
+  ],
+  "translation": "You hide Your face — they are dismayed; You gather away their breath — they die, and to their dust they return.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26ece9100abaa5e65b1242919428e28b138b98125fbcfbfb17192690be4f4a91",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/29-32.1791193291961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תסתיר",
-      "gloss": "You hide"
+      "surface": "תַּסְתִּיר",
+      "gloss": "You hide",
+      "sense": "S1"
     },
     {
-      "surface": "פניך",
-      "gloss": "your face"
+      "surface": "פָּנֶיךָ",
+      "gloss": "Your face",
+      "sense": "S1"
     },
     {
-      "surface": "יבהלון",
-      "gloss": "they panic"
+      "surface": "יִבָּהֵלוּן",
+      "gloss": "they are dismayed",
+      "sense": "S1"
     },
     {
-      "surface": "תסף",
-      "gloss": "you gather",
-      "readings": [
-        "you gather",
-        "you take away"
-      ],
-      "held_by": {
-        "you gather": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "you take away": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "surface": "תֹּסֵף",
+      "gloss": "You gather away",
+      "sense": "S1"
     },
     {
-      "surface": "רוחם",
+      "surface": "רוּחָם",
       "gloss": "their breath",
       "readings": [
         "their breath",
-        "their wind",
-        "their spirit"
+        "their spirit",
+        "their wind"
       ],
-      "held_by": {
-        "their breath": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "their spirit": [
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יגועון",
-      "gloss": "they expire"
+      "surface": "יִגְוָעוּן",
+      "gloss": "they expire",
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
+      "surface": "וְאֶל",
       "gloss": "and to"
     },
     {
-      "surface": "עפרם",
-      "gloss": "their dust"
+      "surface": "עֲפָרָם",
+      "gloss": "their dust",
+      "sense": "S1"
     },
     {
-      "surface": "ישובון",
-      "gloss": "they return"
+      "surface": "יְשׁוּבוּן",
+      "gloss": "they return",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:31.962010598Z",
+  "model": "glm-5.3"
 }

@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "All the kings of the nations, all of them, lie down in glory, each man in his own house.",
+  "ref": "isaiah 14:18",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "כל … כלם",
+      "rationale": "the doubled 'all' frames the contrast: all the kings in honor, but you (v.19) cast out of your tomb"
+    }
+  ],
+  "translation": "All the kings of the nations, all of them, lie in glory, each man in his house;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2a1737f264089bc7ff23d1a77c0960c21a2a431cc6cf44805182821c0a0a54a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/14\/17-20.1791188225498.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "surface": "כָּל",
+      "gloss": "all"
     },
     {
-      "surface": "מלכי",
-      "gloss": "the kings of"
+      "surface": "מַלְכֵ֥י",
+      "gloss": "the kings of",
+      "sense": "S1"
     },
     {
-      "surface": "גוים",
-      "gloss": "the nations"
+      "surface": "גוֹיִ֖ם",
+      "gloss": "the nations",
+      "sense": "S1"
     },
     {
-      "surface": "כלם",
+      "surface": "כֻּלָּ֑ם",
       "gloss": "all of them"
     },
     {
-      "surface": "שכבו",
-      "gloss": "lie down"
+      "surface": "שָׁכְב֥וּ",
+      "gloss": "lie",
+      "sense": "S1"
     },
     {
-      "surface": "בכבוד",
-      "gloss": "in glory"
+      "surface": "בְכָב֖וֹד",
+      "gloss": "in glory",
+      "sense": "S1",
+      "readings": [
+        "in glory",
+        "in honor"
+      ]
     },
     {
-      "surface": "איש",
+      "surface": "אִ֥ישׁ",
       "gloss": "each man"
     },
     {
-      "surface": "בביתו",
-      "gloss": "in his own house"
+      "surface": "בְּבֵיתֽוֹ",
+      "gloss": "in his house",
+      "sense": "S1",
+      "readings": [
+        "in his house",
+        "in his tomb"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:17:05.500012658Z",
+  "model": "glm-5.3"
 }

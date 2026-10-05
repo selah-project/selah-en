@@ -1,72 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Waters surrounded me to ⟨the⟩ soul; the deep closed around me; seaweed was wrapped around my head.",
+  "ref": "jonah 2:6",
+  "book": "jonah",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "עַד נֶפֶשׁ is literally 'up to the throat', the idiom usually smoothed to 'to the soul'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "seaweed",
+      "rationale": "סוּף is the reed\/papyrus plant; in the sea context, drifting weeds"
+    }
+  ],
+  "translation": "Waters surrounded me up to the throat; the deep enclosed me; seaweed was wrapped around my head.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "94a2e2099d6fffe6a9e4fc4de297b439ad8250742b189b2898fed72298236a48",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jonah\/2\/5-8.1791191647048.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jonah.edn"
+  },
   "tokens": [
     {
-      "surface": "אפפוני",
-      "gloss": "surrounded me"
+      "surface": "אֲפָפ֤וּנִי",
+      "gloss": "surrounded me",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "Waters"
+      "surface": "מַ֨יִם֙",
+      "gloss": "waters",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "to"
+      "surface": "עַד",
+      "gloss": "up to",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "soul",
+      "surface": "נֶ֔פֶשׁ",
+      "gloss": "the throat",
       "readings": [
-        "soul",
-        "life"
+        "the throat",
+        "the life"
       ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "life": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תהום",
-      "gloss": "the deep"
+      "surface": "תְּה֖וֹם",
+      "gloss": "the deep",
+      "sense": "S1"
     },
     {
-      "surface": "יסבבני",
-      "gloss": "closed around me"
+      "surface": "יְסֹבְבֵ֑נִי",
+      "gloss": "enclosed me",
+      "sense": null
     },
     {
-      "surface": "סוף",
+      "surface": "ס֖וּף",
       "gloss": "seaweed",
       "readings": [
         "seaweed",
-        "reed"
+        "reeds"
       ],
-      "held_by": {
-        "seaweed": [
-          "v2",
-          "v3"
-        ],
-        "reed": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חבוש",
-      "gloss": "was wrapped"
+      "surface": "חָב֥וּשׁ",
+      "gloss": "was wrapped",
+      "sense": "S1"
     },
     {
-      "surface": "לראשי",
-      "gloss": "around my head"
+      "surface": "לְרֹאשִֽׁׁי",
+      "gloss": "around my head",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:14:07.066679966Z",
+  "model": "glm-5.3"
 }

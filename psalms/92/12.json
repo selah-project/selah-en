@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And my eye has looked upon my foes, upon those who rise up against me — evildoers; my ears have heard.",
-  "tokens": [
+  "ref": "psalms 92:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
     {
-      "surface": "ותבט",
-      "gloss": "and has looked"
+      "kind": "hapax",
+      "subject": "בשורי",
+      "rationale": "this word for 'foes, watchers' occurs only here in the Tanakh"
     },
     {
-      "surface": "עיני",
-      "gloss": "my eye"
+      "kind": "addition",
+      "subject": "their doom",
+      "rationale": "the object of 'hear' is unexpressed in Hebrew; supplied from the psalm's context of the enemies' end"
     },
     {
-      "surface": "בשורי",
-      "gloss": "upon my foes",
-      "readings": [
-        "upon my foes",
-        "my watchfulness"
-      ],
-      "held_by": {
-        "upon my foes": [
-          "v2",
-          "v3"
-        ],
-        "my watchfulness": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בקמים",
-      "gloss": "upon those who rise up"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "against me"
-    },
-    {
-      "surface": "מרעים",
-      "gloss": "evildoers"
-    },
-    {
-      "surface": "תשמענה",
-      "gloss": "have heard"
-    },
-    {
-      "surface": "אזני",
-      "gloss": "my ears"
+      "kind": "elision",
+      "subject": "אזני",
+      "rationale": "dual 'my two ears' rendered as English plural 'my ears'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And my eye has looked on my foes, on those who rise against me ⟨to do⟩ evil; my ears shall hear ⟨their doom⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "212eda707141e33ec30e20e8c93b7fcdd287928c5b7f9494b3f098bf28487f55",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/9-12.1791193207359.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתַּבֵּ֥ט",
+      "gloss": "And has looked",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינִ֗י",
+      "gloss": "my eye",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשׁוּרָ֥י",
+      "gloss": "on my foes",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּקָּמִ֖ים",
+      "gloss": "on those who rise",
+      "sense": null
+    },
+    {
+      "surface": "עָלַ֥י",
+      "gloss": "against me",
+      "sense": null
+    },
+    {
+      "surface": "מְרֵעִ֗ים",
+      "gloss": "⟨to do⟩ evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁמַ֥עְנָה",
+      "gloss": "shall hear",
+      "sense": null
+    },
+    {
+      "surface": "אָזְנָֽי",
+      "gloss": "my ears",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:07.360676147Z",
+  "model": "glm-5.3"
 }

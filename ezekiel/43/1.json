@@ -1,40 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And he led me to the gate, the gate that faces the way of the east.",
-  "tokens": [
+  "ref": "ezekiel 43:1",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
     {
-      "surface": "ויולכני",
-      "gloss": "And he led me"
+      "kind": "addition",
+      "subject": "the gate (repeated)",
+      "rationale": "Hebrew repeats the noun appositionally; English carries it as a literal repetition"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "השער",
-      "gloss": "the gate"
-    },
-    {
-      "surface": "שער",
-      "gloss": "gate"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "פנה",
-      "gloss": "faces"
-    },
-    {
-      "surface": "דרך",
-      "gloss": "the way of"
-    },
-    {
-      "surface": "הקדים",
-      "gloss": "the east"
+      "kind": "wordplay",
+      "subject": "הַשָּׁעַר … שַׁעַר",
+      "rationale": "the gate — the gate: doubled noun framing the clause, kept in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he brought me to the gate, the gate that faces toward the east.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "edf92872bc7b2d2f4bea752169d68719418773b3aee344cd21bc437f27e099d5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/43\/1-4.1791191082162.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיּוֹלִכֵ֖נִי",
+      "gloss": "and he brought me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "הַשָּׁ֑עַר",
+      "gloss": "the gate",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁׂ֫עַר",
+      "gloss": "the gate",
+      "readings": [
+        "the gate",
+        "a gate"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "פֹּנֶ֖ה",
+      "gloss": "faces",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֶּ֥רֶךְ",
+      "gloss": "toward",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַקָּדִֽים",
+      "gloss": "the east",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:04:42.162945509Z",
+  "model": "glm-5.3"
 }

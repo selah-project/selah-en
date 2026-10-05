@@ -1,40 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 62,
-  "translation": "and Nibshan, and the City of Salt, and En-gedi; six cities and their villages.",
+  "ref": "joshua 15:62",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "נִבְשָׁן",
+      "rationale": "Nibshan occurs only here in the Tanakh."
+    },
+    {
+      "kind": "substitution",
+      "subject": "unwalled villages",
+      "rationale": "חָצֵר is an unwalled settlement; shape kept with hyphenation 'unwalled villages'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "town list",
+      "rationale": "Counting closes the district: six towns and their villages."
+    }
+  ],
+  "translation": "and Nibshan, and the City of Salt, and En-Gedi — six towns and their unwalled villages.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f15b9d65d3f90105fb4d88e157891b5f3d8b56192c9a73f52a03d36852fbc951",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/15\/61-63.1791184601192.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
-      "surface": "והנבשן",
-      "gloss": "and Nibshan"
+      "surface": "וְהַנִּבְשָׁן",
+      "gloss": "and Nibshan",
+      "sense": "S1"
     },
     {
-      "surface": "ועיר",
-      "gloss": "and the city"
+      "surface": "וְעִיר",
+      "gloss": "and the city of",
+      "sense": "S1"
     },
     {
-      "surface": "המלח",
-      "gloss": "of Salt"
+      "surface": "הַמֶּלַח",
+      "gloss": "Salt",
+      "sense": null
     },
     {
-      "surface": "ועין",
-      "gloss": "and En-"
+      "surface": "וְעֵין",
+      "gloss": "and En-Gedi",
+      "sense": "S1"
     },
     {
-      "surface": "גדי",
-      "gloss": "Gedi"
+      "surface": "גֶּדִי",
+      "gloss": "En-Gedi",
+      "sense": null
     },
     {
-      "surface": "ערים",
-      "gloss": "cities"
+      "surface": "עָרִים",
+      "gloss": "towns",
+      "sense": "S1"
     },
     {
-      "surface": "שש",
+      "surface": "שֵׁשׁ",
       "gloss": "six"
     },
     {
-      "surface": "וחצריהן",
-      "gloss": "and their villages"
+      "surface": "וְחַצְרֵיהֶן",
+      "gloss": "and their unwalled villages",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:16:41.192849743Z",
+  "model": "glm-5.3"
 }

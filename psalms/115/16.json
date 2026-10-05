@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "The heavens — the heavens are YHWH's, and the earth he has given to the sons of Adam.",
-  "tokens": [
+  "ref": "psalms 115:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
     {
-      "surface": "השמים",
-      "gloss": "The heavens"
+      "kind": "addition",
+      "subject": "belong",
+      "rationale": "the ל of possession carries no verb; the copula of belonging is supplied and bracketed-worthy but reads naturally"
     },
     {
-      "surface": "שמים",
-      "gloss": "heavens"
-    },
-    {
-      "surface": "ליהוה",
-      "gloss": "YHWH's"
-    },
-    {
-      "surface": "והארץ",
-      "gloss": "and the earth"
-    },
-    {
-      "surface": "נתן",
-      "gloss": "he has given"
-    },
-    {
-      "surface": "לבני",
-      "gloss": "to the sons of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "Adam",
-      "readings": [
-        "Adam",
-        "men"
-      ],
-      "held_by": {
-        "Adam": [
-          "en4"
-        ],
-        "men": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "השמים שמים",
+      "rationale": "the noun is doubled — 'as for the heavens, the heavens are YHWH's'; the casus pendens is flattened in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The heavens — heavens belong to YHWH, but the earth He has given to the sons of man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b6a7e1cc778abc192727aa7257a2746ab47a532fc1e689691c9b344cf9fd4ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/13-16.1791193399799.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַשָּׁמַ֣יִם",
+      "gloss": "The heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַ֭יִם",
+      "gloss": "heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָ֑ה",
+      "gloss": "belong to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝הָאָ֗רֶץ",
+      "gloss": "but the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַ֥ן",
+      "gloss": "He has given"
+    },
+    {
+      "surface": "לִבְנֵ֣י",
+      "gloss": "to the sons"
+    },
+    {
+      "surface": "אָדָֽם",
+      "gloss": "of man",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:19.800350500Z",
+  "model": "glm-5.3"
 }

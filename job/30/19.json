@@ -1,43 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "He has cast me into the clay, and I have become like dust and ashes.",
-  "tokens": [
+  "ref": "job 30:19",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "הרני",
-      "gloss": "He has cast me"
+      "kind": "addition",
+      "subject": "into",
+      "rationale": "Preposition ל rendered 'into' to carry the throwing; Hebrew lacks the separate word."
     },
     {
-      "surface": "לחמר",
-      "gloss": "into the clay",
-      "readings": [
-        "into the clay",
-        "into the mire"
-      ],
-      "held_by": {
-        "into the clay": [
-          "v2",
-          "v3"
-        ],
-        "into the mire": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "I have become like",
+      "rationale": "הִתְמַשֵּׁל hithpael 'made myself like \/ become comparable' — an unusual form of משל rendered as plain copula-plus-likeness."
     },
     {
-      "surface": "ואתמשל",
-      "gloss": "and I have become"
-    },
-    {
-      "surface": "כעפר",
-      "gloss": "like dust"
-    },
-    {
-      "surface": "ואפר",
-      "gloss": "and ashes"
+      "kind": "wordplay",
+      "subject": "עָפָר וָאֵפֶר",
+      "rationale": "dust-and-ashes near rhyme; the pairing is Job's signature self-description."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He has thrown me into the mire, and I have become like dust and ashes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a714154afd6b475cc77b9f38b7b0accc383ae767c4329f7ff58993430e8c8a1e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/17-20.1791194483265.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֹרַנִי",
+      "gloss": "He has thrown me",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחֹמֶר",
+      "gloss": "into the mire",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאֶתְמַשֵּׁל",
+      "gloss": "and I have become like",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּעָפָר",
+      "gloss": "dust"
+    },
+    {
+      "surface": "וָאֵפֶר",
+      "gloss": "and ashes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:23.266487220Z",
+  "model": "glm-5.3"
 }

@@ -1,62 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And the vow of a widow or of a divorced woman — everything that she has bound upon her soul — shall stand against her.",
+  "ref": "numbers 30:10",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul'"
+    },
+    {
+      "kind": "addition",
+      "subject": "or a divorced woman",
+      "rationale": "the vav is 'and'; 'or' fits the paired alternatives"
+    }
+  ],
+  "translation": "And the vow of a widow or a divorced woman — all that she bound upon her nefesh stands upon her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6208c9d1bfa3b34264ce493e32d8935e0ca1abe47dbcd5fc419a329b921b3eee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/30\/9-12.1791183400337.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ונדר",
-      "gloss": "And the vow"
+      "surface": "וְנֵ֥דֶר",
+      "gloss": "And the vow",
+      "sense": "S1"
     },
     {
-      "surface": "אלמנה",
-      "gloss": "of a widow"
+      "surface": "אַלְמָנָ֖ה",
+      "gloss": "of a widow",
+      "sense": "S1"
     },
     {
-      "surface": "וגרושה",
-      "gloss": "or of a divorced woman"
+      "surface": "וּגְרוּשָׁ֑ה",
+      "gloss": "or a divorced woman",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "everything"
+      "surface": "כֹּ֛ל",
+      "gloss": "all"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֥ר",
       "gloss": "that"
     },
     {
-      "surface": "אסרה",
-      "gloss": "she has bound"
+      "surface": "אָסְרָ֥ה",
+      "gloss": "she bound",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "נפשה",
-      "gloss": "her soul"
+      "surface": "נַפְשָׁ֖הּ",
+      "gloss": "her nefesh",
+      "sense": "S1"
     },
     {
-      "surface": "יקום",
-      "gloss": "shall stand",
-      "readings": [
-        "shall stand",
-        "shall rise"
-      ],
-      "held_by": {
-        "shall stand": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "shall rise": [
-          "en4"
-        ]
-      }
+      "surface": "יָק֥וּם",
+      "gloss": "stands"
     },
     {
-      "surface": "עליה",
-      "gloss": "against her"
+      "surface": "עָלֶֽיהָ",
+      "gloss": "upon her"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:56:40.346573488Z",
+  "model": "glm-5.3"
 }

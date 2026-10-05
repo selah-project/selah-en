@@ -1,61 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Distinguish wonderfully your chesed, O savior of those who take refuge, by your right hand, from those who rise up.",
+  "ref": "psalms 17:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "from those who rise up",
+      "rationale": "ממתקוממים taken with 'savior' (deliver from rebels) or with 'cheseds' (distinguish your kindnesses from...); the Hebrew leaves the syntax open."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חסדיך\/חוסים",
+      "rationale": "חסד and חוסים share root letters — your kindness to those who seek shelter; only faintly carried by 'cheseds\/refuge'."
+    }
+  ],
+  "translation": "Make your cheseds extraordinary, O savior of those who take refuge, from those who rise up, by your right hand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d96aef1dad258a41c49ac8c7c9795a3ee4cd790fb2e86f30cca2f16ab155befd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/17\/5-8.1791192447410.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הפלה",
-      "gloss": "distinguish wonderfully",
+      "surface": "הַפְלֵ֣ה",
+      "gloss": "make extraordinary",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲ֭סָדֶיךָ",
+      "gloss": "your cheseds",
+      "sense": "S1",
       "readings": [
-        "distinguish wonderfully",
-        "set apart"
-      ],
-      "held_by": {
-        "distinguish wonderfully": [
-          "v1",
-          "v3"
-        ],
-        "set apart": [
-          "en4",
-          "v2"
-        ]
-      },
-      "disputed": true
+        "your cheseds",
+        "your steadfast loves"
+      ]
     },
     {
-      "surface": "חסדיך",
-      "gloss": "your chesed",
-      "readings": [
-        "your chesed",
-        "your kindnesses"
-      ],
-      "held_by": {
-        "your chesed": [
-          "v3",
-          "en4"
-        ],
-        "your kindnesses": [
-          "v1",
-          "v2"
-        ]
-      }
+      "surface": "מוֹשִׁ֣יעַ",
+      "gloss": "savior of",
+      "sense": "S1"
     },
     {
-      "surface": "מושיע",
-      "gloss": "savior"
+      "surface": "חוֹסִ֑ים",
+      "gloss": "those who take refuge",
+      "sense": "S1"
     },
     {
-      "surface": "חוסים",
-      "gloss": "those who take refuge"
-    },
-    {
-      "surface": "ממתקוממים",
+      "surface": "מִ֝מִּתְקוֹמְמִ֗ים",
       "gloss": "from those who rise up"
     },
     {
-      "surface": "בימינך",
-      "gloss": "by your right hand"
+      "surface": "בִּֽימִינֶֽךָ",
+      "gloss": "by your right hand",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:27:27.411117810Z",
+  "model": "glm-5.3"
 }

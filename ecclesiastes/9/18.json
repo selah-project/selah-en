@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Wisdom is better than weapons of war, and one sinner destroys much good.",
+  "ref": "ecclesiastes 9:18",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "Better",
+      "rationale": "טובה literally 'good'; comparative idiom with מן"
+    },
+    {
+      "kind": "idiom",
+      "subject": "implements of battle",
+      "rationale": "כלי קרב literally 'vessels of battle', i.e. weapons"
+    },
+    {
+      "kind": "alternative",
+      "subject": "much good",
+      "rationale": "הרבה infinitive absolute intensifier could render 'abundant good'"
+    }
+  ],
+  "translation": "Better is wisdom than weapons of war, and one sinner destroys much good.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3aec2059468ad16190647d932b217120dc93aec882ce9912db22c1fe48a91ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/9\/17-18.1791194956363.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "טובה",
-      "gloss": "is better",
-      "readings": [
-        "is better",
-        "is good"
-      ],
-      "held_by": {
-        "is better": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is good": [
-          "en4"
-        ]
-      }
+      "surface": "טוֹבָ֥ה",
+      "gloss": "Better",
+      "sense": "S1"
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "surface": "חָכְמָ֖ה",
+      "gloss": "is wisdom",
+      "sense": "S1"
     },
     {
-      "surface": "מכלי",
-      "gloss": "than weapons of"
+      "surface": "מִכְּלֵ֣י",
+      "gloss": "than implements of",
+      "sense": "S1"
     },
     {
-      "surface": "קרב",
-      "gloss": "war"
+      "surface": "קְרָ֑ב",
+      "gloss": "battle",
+      "sense": "S1"
     },
     {
-      "surface": "וחוטא",
-      "gloss": "and one sinner"
+      "surface": "וְחוֹטֶ֣א",
+      "gloss": "and a sinner",
+      "sense": "S1"
     },
     {
-      "surface": "אחד",
-      "gloss": "one"
+      "surface": "אֶחָ֔ד",
+      "gloss": "one",
+      "sense": "S1"
     },
     {
-      "surface": "יאבד",
-      "gloss": "destroys"
+      "surface": "יְאַבֵּ֥ד",
+      "gloss": "destroys",
+      "sense": "S1"
     },
     {
-      "surface": "טובה",
-      "gloss": "good"
+      "surface": "טוֹבָ֥ה",
+      "gloss": "good",
+      "sense": "S1"
     },
     {
-      "surface": "הרבה",
+      "surface": "הַרְבֵּֽה",
       "gloss": "much"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:09:16.364158476Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "I remember my song in the night; with my heart I meditate, and my spirit searches diligently.",
+  "ref": "psalms 77:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "נְגִינָתִי",
+      "rationale": "Can read as 'my stringed music' or 'my song'; the musician remembers his own playing in the sleepless night."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אֶזְכְּרָה … אָשִׂיחָה",
+      "rationale": "Echo of 77:4's אֶזְכְּרָה and אָשִׂיחָה, repeated almost verbatim — the daytime words return intensified at night."
+    }
+  ],
+  "translation": "I will remember my music in the night; with my heart I will commune, and my spirit searches.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "42e4dfba1a2f878de1cf5903f192345b6eaadea6212feae582fdc6e0dbbb8f3f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/5-8.1791193028850.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אזכרה",
-      "gloss": "I remember"
+      "surface": "אֶֽזְכְּרָ֥ה",
+      "gloss": "I will remember",
+      "sense": "S1"
     },
     {
-      "surface": "נגינתי",
-      "gloss": "my song"
+      "surface": "נְגִינָתִ֗י",
+      "gloss": "my music",
+      "sense": "S1"
     },
     {
-      "surface": "בלילה",
-      "gloss": "in the night"
+      "surface": "בַּ֫לָּ֥יְלָה",
+      "gloss": "in the night",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
+      "surface": "עִם",
       "gloss": "with"
     },
     {
-      "surface": "לבבי",
-      "gloss": "my heart"
+      "surface": "לְבָבִ֥י",
+      "gloss": "my heart",
+      "sense": "S1"
     },
     {
-      "surface": "אשיחה",
-      "gloss": "I meditate"
+      "surface": "אָשִׂ֑יחָה",
+      "gloss": "I will commune",
+      "sense": "S1"
     },
     {
-      "surface": "ויחפש",
-      "gloss": "and searches diligently"
+      "surface": "וַיְחַפֵּ֥שׂ",
+      "gloss": "and searches",
+      "sense": "S1"
     },
     {
-      "surface": "רוחי",
+      "surface": "רוּחִֽי",
       "gloss": "my spirit",
-      "readings": [
-        "my spirit",
-        "my breath"
-      ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:08.851076117Z",
+  "model": "glm-5.3"
 }

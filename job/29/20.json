@@ -1,52 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "My glory fresh with me, and my bow renewed in my hand.",
+  "ref": "job 29:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Verbless clause; copula supplied."
+    },
+    {
+      "kind": "alternative",
+      "subject": "exchanges itself",
+      "rationale": "תַּחֲלִיף hiphil of חלף — commonly 'renews itself'; the picture is the bow being replaced with a fresh one, kept literal."
+    }
+  ],
+  "translation": "My glory is new with me, and my bow in my hand exchanges itself ⟨for new⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2ffc83b83da4996eb753f47cafb1212764f8e121a864729902c1ee55b49d43ba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/29\/17-20.1791194473487.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "כבודי",
-      "gloss": "My glory",
+      "surface": "כְּ֭בוֹדִי",
+      "gloss": "my glory",
+      "sense": "S1",
       "readings": [
-        "My glory",
-        "My honor",
-        "My weight"
+        "my glory",
+        "my honor"
       ]
     },
     {
-      "surface": "חדש",
-      "gloss": "fresh"
+      "surface": "חָדָ֣שׁ",
+      "gloss": "new",
+      "sense": "S1"
     },
     {
-      "surface": "עמדי",
-      "gloss": "with me"
+      "surface": "עִמָּדִ֑י",
+      "gloss": "with me",
+      "sense": null
     },
     {
-      "surface": "וקשתי",
-      "gloss": "and my bow"
+      "surface": "וְ֝קַשְׁתִּ֗י",
+      "gloss": "and my bow",
+      "sense": "S1"
     },
     {
-      "surface": "בידי",
-      "gloss": "in my hand"
+      "surface": "בְּיָדִ֥י",
+      "gloss": "in my hand",
+      "sense": "S1"
     },
     {
-      "surface": "תחליף",
-      "gloss": "renewed",
-      "readings": [
-        "renewed",
-        "passes away"
-      ],
-      "held_by": {
-        "renewed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "passes away": [
-          "en4"
-        ]
-      }
+      "surface": "תַּחֲלִֽיף",
+      "gloss": "exchanges itself",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:13.488445083Z",
+  "model": "glm-5.3"
 }

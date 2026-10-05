@@ -1,68 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Blessed be YHWH, for he has made his chesed wondrous to me, in a city of siege.",
+  "ref": "psalms 31:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "בְּעִיר מָצוֹר",
+      "rationale": "'in a besieged city' vs 'in my alarm' (revocalizing as בְּחָפְזִי of v.23); the consonants as given read 'city of siege'"
+    }
+  ],
+  "translation": "Blessed be YHWH, for he has made his chesed extraordinary toward me in a besieged city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e7eeb19494735c7574c3178eb5f19fbc70ba885f01516e9c246eae2af931eb3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/31\/21-24.1791192592551.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ברוך",
-      "gloss": "Blessed"
+      "surface": "בָּרוּךְ",
+      "gloss": "Blessed",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "be YHWH"
+      "surface": "יְהוָה",
+      "gloss": "be YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "הפליא",
-      "gloss": "he has made wondrous"
+      "surface": "הִפְלִיא",
+      "gloss": "he has made … extraordinary",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּוֹ",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
         "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
+      "surface": "לִי",
+      "gloss": "toward me"
     },
     {
-      "surface": "בעיר",
-      "gloss": "in a city"
+      "surface": "בְּעִיר",
+      "gloss": "in a city of",
+      "sense": "S1"
     },
     {
-      "surface": "מצור",
-      "gloss": "of siege",
+      "surface": "מָצוֹר",
+      "gloss": "siege",
       "readings": [
-        "of siege",
-        "besieged"
+        "siege",
+        "distress"
       ],
-      "held_by": {
-        "of siege": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "besieged": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:52.552601428Z",
+  "model": "glm-5.3"
 }

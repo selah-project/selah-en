@@ -1,70 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And I said, 'Who will give me ⟨a⟩ wing like a dove? I would fly away and dwell.'",
-  "tokens": [
+  "ref": "psalms 55:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "ואמר",
-      "gloss": "And I said"
+      "kind": "idiom",
+      "subject": "Who will give me",
+      "rationale": "מִי יִתֶּן is a wish formula: 'oh that I had', not a literal question."
     },
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "wordplay",
+      "subject": "יונה",
+      "rationale": "the dove's moan is associated with pain; the fleeing speaker likens himself to it — resonance lost in English."
     },
     {
-      "surface": "יתן",
-      "gloss": "will give"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "אבר",
-      "gloss": "a wing",
-      "readings": [
-        "a wing",
-        "a pinion"
-      ],
-      "held_by": {
-        "a wing": [
-          "v2",
-          "en4"
-        ],
-        "a pinion": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כיונה",
-      "gloss": "like a dove"
-    },
-    {
-      "surface": "אעופה",
-      "gloss": "I would fly away"
-    },
-    {
-      "surface": "ואשכנה",
-      "gloss": "and dwell",
-      "readings": [
-        "and dwell",
-        "and be at rest"
-      ],
-      "held_by": {
-        "and dwell": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and be at rest": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "⟨elsewhere⟩",
+      "rationale": "וְאֶשְׁכֹּנָה 'and I would dwell' has no stated place; the object is implied by the flight wish."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I say, Who will give me a wing like the dove? I would fly off and dwell ⟨elsewhere⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1efba91edac9874a622bd57a88156529aae1f9660205a8d323ca9d8e03e103f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/5-8.1791192794394.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וָאֹמַ֗ר",
+      "gloss": "and I say",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֶּן",
+      "gloss": "will give",
+      "sense": null
+    },
+    {
+      "surface": "לִּ֣י",
+      "gloss": "me",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֭בֶר",
+      "gloss": "a wing",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּיּוֹנָ֗ה",
+      "gloss": "like the dove",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָע֥וּפָה",
+      "gloss": "I would fly off",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶשְׁכֹּֽנָה",
+      "gloss": "and dwell",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:14.395490454Z",
+  "model": "glm-5.3"
 }

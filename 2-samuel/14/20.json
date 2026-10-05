@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "In order to turn around ⟨את⟩ the face of the matter your servant Joab has done ⟨את⟩ this thing; and my lord is wise, like the wisdom of a messenger of Elohim, to know ⟨את⟩ all that is in the land.",
+  "ref": "2-samuel 14:20",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "סבב את פני הדבר",
+      "rationale": "'to turn around the face of the matter' = to change how a matter appears; the literal picture is kept"
+    },
+    {
+      "kind": "crux",
+      "subject": "מלאך האלהים",
+      "rationale": "'messenger' vs 'angel' of the Elohim; מלאך can be either, and the flattery may invoke a divine envoy"
+    },
+    {
+      "kind": "you",
+      "subject": "to the king",
+      "rationale": "the woman continues her address to David"
+    }
+  ],
+  "translation": "In order to turn around ⟨את⟩ the face of the matter your servant Joab did ⟨את⟩ this thing; and my lord is wise, like the wisdom of the messenger of the Elohim, to know ⟨את⟩ all that is on the earth.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dd9a8a25bd5efcdfea9572dec45da9d2d7f46d84e4ba73858b2ef5d1f1495b62",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/14\/19-20.1791198659253.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "לבעבור",
@@ -12,74 +44,77 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the face of the matter"
     },
     {
       "surface": "פני",
-      "gloss": "the face of"
+      "gloss": "the face of",
+      "sense": "S1"
     },
     {
       "surface": "הדבר",
-      "gloss": "the matter"
+      "gloss": "the matter",
+      "sense": "S1"
     },
     {
       "surface": "עשה",
-      "gloss": "has done"
+      "gloss": "did",
+      "sense": "S1"
     },
     {
       "surface": "עבדך",
-      "gloss": "your servant"
+      "gloss": "your servant",
+      "sense": "S1"
     },
     {
       "surface": "יואב",
-      "gloss": "Joab"
+      "gloss": "Joab",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "this thing"
     },
     {
       "surface": "הדבר",
-      "gloss": "the thing"
+      "gloss": "the thing",
+      "sense": "S1"
     },
     {
       "surface": "הזה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "ואדני",
-      "gloss": "and my lord"
+      "gloss": "and my lord",
+      "sense": "S1"
     },
     {
       "surface": "חכם",
-      "gloss": "is wise"
+      "gloss": "is wise",
+      "sense": "S1"
     },
     {
       "surface": "כחכמת",
-      "gloss": "like the wisdom of"
+      "gloss": "like the wisdom of",
+      "sense": "S1"
     },
     {
       "surface": "מלאך",
-      "gloss": "a messenger of",
+      "gloss": "the messenger of",
+      "sense": "S1",
       "readings": [
-        "a messenger of",
-        "an angel of"
-      ],
-      "held_by": {
-        "a messenger of": [
-          "v2",
-          "en4"
-        ],
-        "an angel of": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "the messenger of",
+        "the angel of"
+      ]
     },
     {
       "surface": "האלהים",
-      "gloss": "Elohim"
+      "gloss": "the Elohim",
+      "sense": "S1"
     },
     {
       "surface": "לדעת",
@@ -87,7 +122,8 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all that is on the earth"
     },
     {
       "surface": "כל",
@@ -99,23 +135,10 @@
     },
     {
       "surface": "בארץ",
-      "gloss": "in the land",
-      "readings": [
-        "in the land",
-        "on the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "on the earth": [
-          "v2"
-        ]
-      }
+      "gloss": "on the earth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:10:59.254666786Z",
+  "model": "glm-5.3"
 }

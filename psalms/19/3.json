@@ -1,54 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Day unto day pours forth speech, and night unto night declares knowledge.",
-  "tokens": [
+  "ref": "psalms 19:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "יום",
-      "gloss": "Day"
-    },
-    {
-      "surface": "ליום",
-      "gloss": "unto day"
-    },
-    {
-      "surface": "יביע",
-      "gloss": "pours forth"
-    },
-    {
-      "surface": "אמר",
-      "gloss": "speech"
-    },
-    {
-      "surface": "ולילה",
-      "gloss": "and night"
-    },
-    {
-      "surface": "ללילה",
-      "gloss": "unto night"
-    },
-    {
-      "surface": "יחוה",
-      "gloss": "declares",
-      "readings": [
-        "declares",
-        "makes live"
-      ],
-      "held_by": {
-        "declares": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "makes live": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דעת",
-      "gloss": "knowledge"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "day\/night pairs in mirror structure; speech and knowledge parallel as objects"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Day to day gushes forth speech, and night to night declares knowledge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "36b593d21022cf12baa6d03d1c627fe2e8c3388d9ab0010c47666c2416d9ebce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/19\/1-4.1791192470323.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יוֹם",
+      "gloss": "day",
+      "sense": null
+    },
+    {
+      "surface": "לְיוֹם",
+      "gloss": "to day",
+      "sense": null
+    },
+    {
+      "surface": "יַבִּיעַ",
+      "gloss": "gushes forth",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹמֶר",
+      "gloss": "speech",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַיְלָה",
+      "gloss": "and night",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְלַיְלָה",
+      "gloss": "to night",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְחַוֶּה",
+      "gloss": "declares",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּעַת",
+      "gloss": "knowledge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:50.324611717Z",
+  "model": "glm-5.3"
 }

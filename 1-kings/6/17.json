@@ -1,56 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And forty cubits was the house — it is the hall in front ⟨of it⟩.",
-  "tokens": [
+  "ref": "1-kings 6:17",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "וארבעים",
-      "gloss": "And forty"
+      "kind": "hapax",
+      "subject": "לִפְנָי",
+      "rationale": "This pointed form of לפני occurs only here; its 1st-person-looking suffix is read as pointing forward to the inner room (the devir) from the house's front."
     },
     {
-      "surface": "באמה",
-      "gloss": "cubits"
+      "kind": "measurement",
+      "subject": "forty cubits",
+      "rationale": "The main hall's length given in cubits (forearm-length, roughly 44.5 cm) — about 17.8 meters."
     },
     {
-      "surface": "היה",
-      "gloss": "was"
-    },
-    {
-      "surface": "הבית",
-      "gloss": "the house"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it"
-    },
-    {
-      "surface": "ההיכל",
-      "gloss": "the hall",
-      "readings": [
-        "the hall",
-        "the temple",
-        "the palace"
-      ],
-      "held_by": {
-        "the hall": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the temple": [
-          "v1",
-          "en4"
-        ],
-        "the palace": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לפני",
-      "gloss": "in front"
+      "kind": "substitution",
+      "subject": "hall",
+      "rationale": "הֵיכָל is the main building of the temple distinguished from its inner room and courts; 'hall' approximates its function here."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And forty cubits was the house — that is the hall in front of it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3bd1390b28326a1103ac361a0adbb02beea26dd7220dbe7bcea40cca9641d229",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/6\/17-20.1791186833452.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַרְבָּעִים",
+      "gloss": "And forty",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאַמָּה",
+      "gloss": "cubits",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָיָה",
+      "gloss": "was",
+      "sense": null
+    },
+    {
+      "surface": "הַבַּיִת",
+      "gloss": "the house",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "that is",
+      "sense": null
+    },
+    {
+      "surface": "הַהֵיכָל",
+      "gloss": "the hall",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִפְנָי",
+      "gloss": "in front of it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:53:53.454061707Z",
+  "model": "glm-5.3"
 }

@@ -1,72 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 37,
-  "translation": "This is the Torah of the burnt offering, of the grain offering, and of the sin offering, and of the guilt offering, and of the ordinations, and of the sacrifice of the peace offerings.",
-  "tokens": [
+  "ref": "leviticus 7:37",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "זאת",
-      "gloss": "This"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זאת and התורה"
     },
     {
-      "surface": "התורה",
-      "gloss": "the Torah",
-      "readings": [
-        "the Torah",
-        "the law"
-      ],
-      "held_by": {
-        "the Torah": [
-          "en4"
-        ],
-        "the law": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "instruction",
+      "rationale": "תורה rendered 'instruction' rather than the tradition-bound 'law'"
     },
     {
-      "surface": "לעלה",
-      "gloss": "of the burnt offering"
-    },
-    {
-      "surface": "למנחה",
-      "gloss": "of the grain offering"
-    },
-    {
-      "surface": "ולחטאת",
-      "gloss": "and of the sin offering"
-    },
-    {
-      "surface": "ולאשם",
-      "gloss": "and of the guilt offering"
-    },
-    {
-      "surface": "ולמלואים",
-      "gloss": "and of the ordinations",
-      "readings": [
-        "and of the ordinations",
-        "and of the consecration-offering"
-      ],
-      "held_by": {
-        "and of the ordinations": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and of the consecration-offering": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ולזבח",
-      "gloss": "and of the sacrifice"
-    },
-    {
-      "surface": "השלמים",
-      "gloss": "of the peace offerings"
+      "kind": "measurement",
+      "subject": "sacrificial inventory",
+      "rationale": "a cataloguing verse enumerating the five classes of sacrifice"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "This is the instruction for the burnt offering, for the grain offering, and for the sin offering, and for the guilt offering, and for the ordination offering, and for the slaughter of peace offerings —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02b68017a2dc44200f73f39ea838d52f371bbca13fbdaabacdc94d8c71fdaff8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/7\/37-38.1791182295868.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹ֣את",
+      "gloss": "This",
+      "sense": null
+    },
+    {
+      "surface": "הַתּוֹרָ֗ה",
+      "gloss": "is the instruction",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָֽעֹלָה֙",
+      "gloss": "for the burnt offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַמִּנְחָ֔ה",
+      "gloss": "for the grain offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַֽחַטָּ֖את",
+      "gloss": "and for the sin offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלָאָשָׁ֑ם",
+      "gloss": "and for the guilt offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלַ֨מִּלּוּאִ֔ים",
+      "gloss": "and for the ordination offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְזֶ֖בַח",
+      "gloss": "and for the slaughter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשְּׁלָמִֽים",
+      "gloss": "the peace offerings",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:38:15.957762228Z",
+  "model": "glm-5.3"
 }

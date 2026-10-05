@@ -1,60 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "My spirit is broken; my days are extinguished; graves ⟨are⟩ for me.",
-  "tokens": [
+  "ref": "job 17:1",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "רוחי",
-      "gloss": "my spirit",
-      "readings": [
-        "my spirit",
-        "my breath",
-        "my wind"
-      ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "נזעכו",
+      "rationale": "Niphal of זעך, 'to be extinguished like a fire,' occurs only here in the Tanakh."
     },
     {
-      "surface": "חבלה",
-      "gloss": "is broken",
-      "readings": [
-        "is broken",
-        "is pierced"
-      ],
-      "held_by": {
-        "is broken": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew has no copula; קברים לי is literally 'graves to me'."
     },
     {
-      "surface": "ימי",
-      "gloss": "my days"
-    },
-    {
-      "surface": "נזעכו",
-      "gloss": "are extinguished"
-    },
-    {
-      "surface": "קברים",
-      "gloss": "graves"
-    },
-    {
-      "surface": "לי",
-      "gloss": "for me"
+      "kind": "wordplay",
+      "subject": "חבלה \/ ערבני",
+      "rationale": "Root חבל (pledge\/binding) recurs in 17:3's ערבני (my pledge), binding the verse pair; English keeps 'broken' and 'pledge' and loses the echo."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My spirit is broken, my days are extinguished — graves ⟨are⟩ mine.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06a1728da6f199dcb36e59747379ab41da20ac128146cdf7556b522b8147fba8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/17\/1-4.1791194325663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רוּחִ֣י",
+      "gloss": "My spirit",
+      "sense": "S1",
+      "readings": [
+        "My spirit",
+        "My breath"
+      ]
+    },
+    {
+      "surface": "חֻ֭בָּלָה",
+      "gloss": "is broken",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמַ֥י",
+      "gloss": "my days",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִזְעָ֗כוּ",
+      "gloss": "are extinguished",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְבָרִ֥ים",
+      "gloss": "graves",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִֽי",
+      "gloss": "mine",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:45.664339048Z",
+  "model": "glm-5.3"
 }

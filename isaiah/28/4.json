@@ -1,6 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And she shall be, the fading flower of the splendor of his glory, which ⟨is⟩ on the head of the valley of fatness, like the first-ripe fig before the summer, which the seer sees ⟨את⟩ her — while she is yet in his palm, he swallows her.",
+  "ref": "isaiah 28:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "ציצת",
+      "rationale": "The feminine form of 'flower' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "A copula and relative pronoun are supplied for 'while she is still in his palm' (בעודה בכפו)."
+    },
+    {
+      "kind": "crux",
+      "subject": "the seer",
+      "rationale": "הרואה is read as 'the one who sees it' — the fig-picking passer-by — not a visionary."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ראה\/הראה",
+      "rationale": "The verb 'he sees' and 'the seer' share one root, a sound-echo kept in English."
+    }
+  ],
+  "translation": "And the fading flower of his glorious beauty, which is on the head of the valley of fatness, shall be like a first-ripe fig before the summer, which, when the seer sees ⟨את⟩ her — while she is still in his palm, he swallows her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a60520ff14f135302adb79e88f442ee3a47529736af95e0a92a6be7465227fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/28\/1-4.1791188403067.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "והיתה",
@@ -8,34 +45,27 @@
     },
     {
       "surface": "ציצת",
-      "gloss": "the flower of"
+      "gloss": "the fading flower",
+      "sense": "S1"
     },
     {
       "surface": "נבל",
-      "gloss": "fading"
+      "gloss": "fading",
+      "sense": "S1",
+      "readings": [
+        "fading",
+        "wilting"
+      ]
     },
     {
       "surface": "צבי",
-      "gloss": "of the splendor",
-      "readings": [
-        "of the splendor",
-        "of beauty"
-      ],
-      "held_by": {
-        "of the splendor": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of beauty": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "of splendor",
+      "sense": "S1"
     },
     {
       "surface": "תפארתו",
-      "gloss": "of his glory"
+      "gloss": "of his glory",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -47,57 +77,33 @@
     },
     {
       "surface": "ראש",
-      "gloss": "the head of"
+      "gloss": "the head of",
+      "sense": "S2"
     },
     {
       "surface": "גיא",
-      "gloss": "the valley of"
+      "gloss": "the valley of",
+      "sense": "S1"
     },
     {
       "surface": "שמנים",
-      "gloss": "of fatness",
-      "readings": [
-        "of fatness",
-        "of the rich"
-      ],
-      "held_by": {
-        "of fatness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the rich": [
-          "en4"
-        ]
-      }
+      "gloss": "fatness",
+      "sense": "S1"
     },
     {
       "surface": "כבכורה",
-      "gloss": "like the first-ripe fig"
+      "gloss": "like a first-ripe fig",
+      "sense": "S1"
     },
     {
       "surface": "בטרם",
-      "gloss": "before"
+      "gloss": "before",
+      "sense": "S1"
     },
     {
       "surface": "קיץ",
       "gloss": "summer",
-      "readings": [
-        "summer",
-        "harvest"
-      ],
-      "held_by": {
-        "summer": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "harvest": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -105,29 +111,34 @@
     },
     {
       "surface": "יראה",
-      "gloss": "sees"
+      "gloss": "he sees",
+      "sense": "S1"
     },
     {
       "surface": "הראה",
-      "gloss": "the seer"
+      "gloss": "the seer",
+      "sense": "S1"
     },
     {
       "surface": "אותה",
-      "gloss": "⟨את⟩ her"
+      "gloss": "⟨את⟩ her",
+      "marks": "her — the first-ripe fig"
     },
     {
       "surface": "בעודה",
-      "gloss": "while she is yet"
+      "gloss": "while she still is"
     },
     {
       "surface": "בכפו",
-      "gloss": "in his palm"
+      "gloss": "in his palm",
+      "sense": "S1"
     },
     {
       "surface": "יבלענה",
-      "gloss": "he swallows her"
+      "gloss": "he swallows her",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:03.069081615Z",
+  "model": "glm-5.3"
 }

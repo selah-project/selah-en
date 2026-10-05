@@ -1,88 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "YHWH, you brought up my nefesh from Sheol; you kept me alive from among those going down to the pit.",
+  "ref": "psalms 30:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul'; transliterated to expose the Hebrew concept"
+    },
+    {
+      "kind": "crux",
+      "subject": "מיורדי בור",
+      "rationale": "ketiv 'from those going down to the pit' vs qere מירדי 'from going down (again) to the pit'"
+    },
+    {
+      "kind": "elision",
+      "subject": "מן",
+      "rationale": "the comparative min has no independent English word; absorbed into the rendering"
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "direct second-person address to YHWH"
+    }
+  ],
+  "translation": "YHWH, You have brought up my nefesh from Sheol; You have kept me alive to go down ⟨no⟩ more to the pit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7288e9b7bb690e898e7b2b53760b0ee8b22c64fd0bbdc08869d181d9930c23fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/30\/1-4.1791192557652.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְֽהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "העלית",
-      "gloss": "you brought up"
+      "surface": "הֶֽעֱלִ֙יתָ֙",
+      "gloss": "You have brought up",
+      "sense": "S1"
     },
     {
-      "surface": "מן",
-      "gloss": "from"
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
     },
     {
-      "surface": "שאול",
-      "gloss": "Sheol"
+      "surface": "שְׁא֣וֹל",
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֑י",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my life",
-        "my soul"
+        "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חייתני",
-      "gloss": "you kept me alive"
+      "surface": "חִיִּיתַ֗נִי",
+      "gloss": "You have kept me alive",
+      "sense": "S1"
     },
     {
       "surface": "מיורדי",
-      "gloss": "from among those going down",
+      "gloss": "from those who go down to",
       "readings": [
-        "from among those going down",
-        "from going down"
+        "from those who go down to",
+        "from going down to"
       ],
-      "held_by": {
-        "from among those going down": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from going down": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בור",
-      "gloss": "to the pit",
-      "readings": [
-        "to the pit",
-        "the pit"
-      ],
-      "held_by": {
-        "to the pit": [
-          "v1",
-          "en4"
-        ],
-        "the pit": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "בֽוֹר",
+      "gloss": "the pit",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:17.653199284Z",
+  "model": "glm-5.3"
 }

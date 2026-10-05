@@ -1,65 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "one golden dish of ten ⟨shekels⟩, full of incense.",
-  "tokens": [
+  "ref": "numbers 7:32",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כף",
-      "gloss": "dish",
-      "readings": [
-        "dish",
-        "pan",
-        "palm"
-      ],
-      "held_by": {
-        "dish": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "pan": [
-          "en4"
-        ],
-        "palm": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אחת",
-      "gloss": "one"
-    },
-    {
-      "surface": "עשרה",
-      "gloss": "ten"
-    },
-    {
-      "surface": "זהב",
-      "gloss": "golden"
-    },
-    {
-      "surface": "מלאה",
-      "gloss": "full"
-    },
-    {
-      "surface": "קטרת",
-      "gloss": "of incense",
-      "readings": [
-        "of incense",
-        "of smoke-offering"
-      ],
-      "held_by": {
-        "of incense": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of smoke-offering": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "shekels",
+      "rationale": "The weight of the golden dish, ‘ten’, omits the unit; the parallel with v.31 implies ten shekels, and the rendering leaves the bare number as the Hebrew does"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "One golden dish of ten, full of incense.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9e38538f1f93ef0110bf3dcb13b091bdc1adf1f1e4ab1b8657f0bf3adce357c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/7\/29-32.1791182913669.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּ֥ף",
+      "gloss": "One dish of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחַ֛ת",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲשָׂרָ֥ה",
+      "gloss": "ten",
+      "sense": null
+    },
+    {
+      "surface": "זָהָ֖ב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלֵאָ֥ה",
+      "gloss": "full",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְטֹֽרֶת",
+      "gloss": "of incense",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:48:33.670823806Z",
+  "model": "glm-5.3"
 }

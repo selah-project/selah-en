@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 99,
-  "translation": "From all my teachers I have gained insight, for your testimonies are my meditation.",
-  "tokens": [
+  "ref": "psalms 119:99",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "מכל",
-      "gloss": "From all"
-    },
-    {
-      "surface": "מלמדי",
-      "gloss": "my teachers"
-    },
-    {
-      "surface": "השכלתי",
-      "gloss": "I have gained insight",
-      "readings": [
-        "I have gained insight",
-        "I have gained understanding"
-      ],
-      "held_by": {
-        "I have gained insight": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I have gained understanding": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "עדותיך",
-      "gloss": "your testimonies"
-    },
-    {
-      "surface": "שיחה",
-      "gloss": "meditation"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
+      "kind": "wordplay",
+      "subject": "שיחה",
+      "rationale": "Repeats the rare word שיחה from v. 97, binding the two strophes; only here and Job 15:4 as noun."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From all my teachers I have gained understanding, for your testimonies are my meditation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "588d2d868209cd92f6c434422b2b3d78e469169bcd45851c3abb433e8429a711",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/97-100.1791193470435.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִכָּל",
+      "gloss": "From all",
+      "sense": null
+    },
+    {
+      "surface": "מְלַמְּדַ֥י",
+      "gloss": "my teachers",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִשְׂכַּ֑לְתִּי",
+      "gloss": "I have gained understanding",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עֵֽדְוֺתֶ֗יךָ",
+      "gloss": "your testimonies",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׂיחָ֣ה",
+      "gloss": "a meditation",
+      "readings": [
+        "a meditation",
+        "a musing"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לִֽי",
+      "gloss": "mine",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:30.435845559Z",
+  "model": "glm-5.3"
 }

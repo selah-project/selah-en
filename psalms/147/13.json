@@ -1,64 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For he strengthened ⟨the⟩ bars of your gates; he blessed your children within you.",
+  "ref": "psalms 147:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 147,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "children",
+      "rationale": "בניך is literally 'your sons'; 'children' generalizes the dual-gender offspring sense"
+    },
+    {
+      "kind": "you",
+      "subject": "to Jerusalem\/Zion",
+      "rationale": "second feminine singular suffixes continue the address to Zion from v. 12"
+    }
+  ],
+  "translation": "For He has made strong the bars of your gates; He has blessed your children within you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "953a7225810fb0278a506074c0397f1fe11782f994a5fc9650bf895310368d1a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/147\/13-16.1791193653387.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּֽי",
       "gloss": "For"
     },
     {
-      "surface": "חזק",
-      "gloss": "he strengthened"
+      "surface": "חִ֭זַּק",
+      "gloss": "He has made strong",
+      "sense": "S1"
     },
     {
-      "surface": "בריחי",
-      "gloss": "⟨the⟩ bars",
-      "readings": [
-        "⟨the⟩ bars",
-        "⟨the⟩ bolts"
-      ],
-      "held_by": {
-        "⟨the⟩ bars": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "⟨the⟩ bolts": [
-          "v1"
-        ]
-      }
+      "surface": "בְּרִיחֵ֣י",
+      "gloss": "the bars of",
+      "sense": "S1"
     },
     {
-      "surface": "שעריך",
-      "gloss": "your gates"
+      "surface": "שְׁעָרָ֑יִךְ",
+      "gloss": "your gates",
+      "sense": "S1"
     },
     {
-      "surface": "ברך",
-      "gloss": "he blessed"
+      "surface": "בֵּרַ֖ךְ",
+      "gloss": "He has blessed",
+      "sense": "S1"
     },
     {
-      "surface": "בניך",
+      "surface": "בָּנַ֣יִךְ",
       "gloss": "your children",
-      "readings": [
-        "your children",
-        "your sons"
-      ],
-      "held_by": {
-        "your children": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your sons": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בקרבך",
+      "surface": "בְּקִרְבֵּֽךְ",
       "gloss": "within you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:33.387806676Z",
+  "model": "glm-5.3"
 }

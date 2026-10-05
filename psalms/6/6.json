@@ -1,70 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "For there is no remembrance of you in death; in Sheol, who will give thanks to you?",
-  "tokens": [
+  "ref": "psalms 6:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew אין has no copula; English requires one."
     },
     {
-      "surface": "אין",
-      "gloss": "there is no"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The argument is addressed to YHWH: the dead cannot praise him."
     },
     {
-      "surface": "במות",
-      "gloss": "in death"
-    },
-    {
-      "surface": "זכרך",
-      "gloss": "remembrance of you",
-      "readings": [
-        "remembrance of you",
-        "your memorial"
-      ],
-      "held_by": {
-        "remembrance of you": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your memorial": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בשאול",
-      "gloss": "in Sheol"
-    },
-    {
-      "surface": "מי",
-      "gloss": "who"
-    },
-    {
-      "surface": "יודה",
-      "gloss": "will give thanks",
-      "readings": [
-        "will give thanks",
-        "will praise"
-      ],
-      "held_by": {
-        "will give thanks": [
-          "v2",
-          "en4"
-        ],
-        "will praise": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
+      "kind": "crux",
+      "subject": "remembrance",
+      "rationale": "זכר here is cultic celebration of YHWH's acts, not mere memory — some render 'memorial of you'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For in death is no remembrance of you; in Sheol, who will give thanks to you?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e003991b77a939beea42a6bf4cacb3561ecefe834a2f0b61774a1dc5b67d2fe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/6\/5-8.1791192362633.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֤י",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אֵ֣ין",
+      "gloss": "is no",
+      "sense": null
+    },
+    {
+      "surface": "בַּמָּ֣וֶת",
+      "gloss": "in death",
+      "sense": "S1"
+    },
+    {
+      "surface": "זִכְרֶ֑ךָ",
+      "gloss": "remembrance of you",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּ֝שְׁא֗וֹל",
+      "gloss": "in Sheol",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֣י",
+      "gloss": "who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֽוֹדֶה",
+      "gloss": "will give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָּֽךְ",
+      "gloss": "to you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:02.634289632Z",
+  "model": "glm-5.3"
 }

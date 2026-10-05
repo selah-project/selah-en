@@ -1,52 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Go up against her walls and destroy, but ⟨a⟩ full end do not make; remove her tendrils, for they are not YHWH’s.",
+  "ref": "jeremiah 5:10",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "בשרותיה",
+      "rationale": "Occurs only here; lexicon splits between ‘her walls’ and ‘her rows of vines’, the SDBH picture kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "וכלה אל תעשו",
+      "rationale": "Literally ‘and completion — do not do’; most render ‘but make not a full end’, supplied object bracketed."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "vine imagery",
+      "rationale": "Rows of vines and tendrils picture Judah as a vineyard to be pruned, not uprooted."
+    }
+  ],
+  "translation": "Go up upon her rows of vines and ruin ⟨them⟩, but not to completion — make an end? Do not; cut off her tendrils, for they are not YHWH's.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9b1166d6996eeb6fcf57b5e8d1eee6204f54525e66ed200c8a30d116a760a5d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/5\/9-12.1791189122022.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "עלו",
-      "gloss": "Go up"
+      "gloss": "Go up",
+      "sense": "S1"
     },
     {
       "surface": "בשרותיה",
-      "gloss": "against her walls",
-      "readings": [
-        "against her walls",
-        "upon her walls"
-      ],
-      "held_by": {
-        "against her walls": [
-          "v1"
-        ],
-        "upon her walls": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "gloss": "upon her rows of vines",
+      "sense": "S1"
     },
     {
       "surface": "ושחתו",
-      "gloss": "and destroy"
+      "gloss": "and ruin ⟨them⟩",
+      "sense": "S1"
     },
     {
       "surface": "וכלה",
-      "gloss": "but ⟨a⟩ full end"
+      "gloss": "but not to completion",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "do not"
+      "gloss": "Do not"
     },
     {
       "surface": "תעשו",
-      "gloss": "make"
+      "gloss": "make ⟨a full end⟩",
+      "sense": "S1"
     },
     {
       "surface": "הסירו",
-      "gloss": "remove"
+      "gloss": "cut off",
+      "sense": "S1"
     },
     {
       "surface": "נטישותיה",
-      "gloss": "her tendrils"
+      "gloss": "her tendrils",
+      "sense": null
     },
     {
       "surface": "כי",
@@ -54,17 +79,19 @@
     },
     {
       "surface": "לוא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "gloss": "YHWH's",
+      "sense": "S1"
     },
     {
       "surface": "המה",
-      "gloss": "are they"
+      "gloss": "they"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:32:02.023912507Z",
+  "model": "glm-5.3"
 }

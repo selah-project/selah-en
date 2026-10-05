@@ -1,47 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Like arrows in the hand of a mighty man, so ⟨are⟩ the sons of one's youth.",
-  "tokens": [
+  "ref": "psalms 127:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 127,
+  "notes": [
     {
-      "surface": "כחצים",
-      "gloss": "Like arrows"
-    },
-    {
-      "surface": "ביד",
-      "gloss": "in the hand"
-    },
-    {
-      "surface": "גבור",
-      "gloss": "of ⟨a⟩ mighty man"
-    },
-    {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "בני",
-      "gloss": "the sons"
-    },
-    {
-      "surface": "הנעורים",
-      "gloss": "of one's youth",
-      "readings": [
-        "of one's youth",
-        "of the young men"
-      ],
-      "held_by": {
-        "of one's youth": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the young men": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Copula supplied; Hebrew is two noun phrases compared by כ…כֵן"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like arrows in the hand of a warrior, so are the sons of youth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f0bbed57db6580c0b714a3cae6913138b7fc3408f18ead2dd39bac9324f978df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/127\/1-4.1791193540204.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּחִצִּ֥ים",
+      "gloss": "Like arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיַ֣ד",
+      "gloss": "in the hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּבּ֑וֹר",
+      "gloss": "a warrior",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵּֽן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "בְּנֵ֣י",
+      "gloss": "are the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַנְּעוּרִֽים",
+      "gloss": "youth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:40.206040063Z",
+  "model": "glm-5.3"
 }

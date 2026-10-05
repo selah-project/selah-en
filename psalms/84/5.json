@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "How happy ⟨are⟩ those who dwell in your house; still they will praise you. Selah.",
-  "tokens": [
+  "ref": "psalms 84:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 84,
+  "notes": [
     {
-      "surface": "אשרי",
-      "gloss": "How happy"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between אשרי and the participle"
     },
     {
-      "surface": "יושבי",
-      "gloss": "those who dwell",
-      "readings": [
-        "those who dwell",
-        "those who sit"
-      ],
-      "held_by": {
-        "those who dwell": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "those who sit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ביתך",
-      "gloss": "in your house"
-    },
-    {
-      "surface": "עוד",
-      "gloss": "still"
-    },
-    {
-      "surface": "יהללוך",
-      "gloss": "they will praise you"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "the praise addresses YHWH in the second person"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How happy ⟨are⟩ the dwellers of your house; still they praise you. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f92b9df6941c0fd9c3105225edbdbba7f9e85ba2c58691521b819b4679eac4c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/84\/5-8.1791193117154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַ֭שְׁרֵי",
+      "gloss": "How happy",
+      "sense": null
+    },
+    {
+      "surface": "יוֹשְׁבֵ֣י",
+      "gloss": "the dwellers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵיתֶ֑ךָ",
+      "gloss": "your house",
+      "sense": "S1"
+    },
+    {
+      "surface": "ע֝֗וֹד",
+      "gloss": "still",
+      "sense": null
+    },
+    {
+      "surface": "יְֽהַלְל֥וּךָ",
+      "gloss": "they praise you",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶּֽלָה",
+      "gloss": "Selah.",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:37.155331921Z",
+  "model": "glm-5.3"
 }

@@ -1,61 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Who can say, “I have made my heart clean; I am pure from my sin”?",
-  "tokens": [
+  "ref": "proverbs 20:9",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "who"
+      "kind": "invitation",
+      "subject": "rhetorical question",
+      "rationale": "The verse opens with a rhetorical question addressed to the reader, expecting the answer “no one.”"
     },
     {
-      "surface": "יאמר",
-      "gloss": "can say"
-    },
-    {
-      "surface": "זכיתי",
-      "gloss": "I have made clean",
-      "readings": [
-        "I have made clean",
-        "I have purified"
-      ],
-      "held_by": {
-        "I have made clean": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have purified": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "טהרתי",
-      "gloss": "I am pure",
-      "readings": [
-        "I am pure",
-        "I am clean"
-      ],
-      "held_by": {
-        "I am pure": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I am clean": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מחטאתי",
-      "gloss": "from my sin"
+      "kind": "crux",
+      "subject": "זכיתי",
+      "rationale": "Piel of זכה rendered declarative (“made pure”) vs stative “I am pure”; the piel favors the declarative sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who can say, “I have made my heart pure, I have cleansed myself from my sin”?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e4d6684fb9c3ad54937d2426ace0481f61bbf72ec9a1243e61a0edf943c8cee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/9-12.1791193933526.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹ֭אמַר",
+      "gloss": "can say",
+      "sense": "S1"
+    },
+    {
+      "surface": "זִכִּ֣יתִי",
+      "gloss": "I have made pure",
+      "sense": "S1",
+      "readings": [
+        "I have made pure",
+        "I have made innocent"
+      ]
+    },
+    {
+      "surface": "לִבִּ֑י",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "טָ֝הַ֗רְתִּי",
+      "gloss": "I have cleansed myself",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵחַטָּאתִֽי",
+      "gloss": "from my sin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:13.527254681Z",
+  "model": "glm-5.3"
 }

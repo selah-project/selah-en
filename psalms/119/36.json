@@ -1,54 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "Incline my heart to your testimonies, and not to unjust gain.",
-  "tokens": [
+  "ref": "psalms 119:36",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "הט",
-      "gloss": "Incline"
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "עדותיך",
-      "gloss": "your testimonies"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and not to"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "בצע",
-      "gloss": "unjust gain",
-      "readings": [
-        "unjust gain",
-        "plunder",
-        "covetousness"
-      ],
-      "held_by": {
-        "unjust gain": [
-          "v2",
-          "v3"
-        ],
-        "plunder": [
-          "en4"
-        ],
-        "covetousness": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "אל ... ואל אל",
+      "rationale": "The particle אל ('to') appears twice framing the contrast; the second pair ואל אל ('and not to') plays on the same sound."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Incline my heart to your testimonies, and not to unjust gain.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ca7092a556340aaa9f3795ac4972434059b7cd8ada9712dda7ea630a96e61db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/33-36.1791193440545.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַט",
+      "gloss": "Incline",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֭בִּי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "עֵדְוֺתֶ֗יךָ",
+      "gloss": "your testimonies",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַ֣ל",
+      "gloss": "and not",
+      "sense": null
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "בָּֽצַע",
+      "gloss": "unjust gain",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:00.547101115Z",
+  "model": "glm-5.3"
 }

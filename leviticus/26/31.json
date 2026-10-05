@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 31,
-  "translation": "And I will make ⟨את⟩ your cities a desolation, and I will lay waste ⟨את⟩ your sanctuaries, and I will not smell the aroma of your soothing.",
-  "tokens": [
+  "ref": "leviticus 26:31",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "ונתתי",
-      "gloss": "And I will make"
+      "kind": "wordplay",
+      "subject": "ריח \/ ניחוח",
+      "rationale": "shared root נוח under 'smell' and 'pleasing-odor' (restful scent), partially lost in the hyphenated rendering"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "עריכם",
-      "gloss": "your cities"
-    },
-    {
-      "surface": "חרבה",
-      "gloss": "a desolation"
-    },
-    {
-      "surface": "והשמותי",
-      "gloss": "and I will lay waste"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "מקדשיכם",
-      "gloss": "your sanctuaries"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and I will not"
-    },
-    {
-      "surface": "אריח",
-      "gloss": "smell",
-      "readings": [
-        "smell",
-        "I will smell"
-      ],
-      "held_by": {
-        "smell": [
-          "v1"
-        ],
-        "I will smell": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בריח",
-      "gloss": "the aroma"
-    },
-    {
-      "surface": "ניחחכם",
-      "gloss": "of your soothing"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "חרבה is a noun ('a desolation') used predicatively; 'desolate' smooths the nominal shape"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I will set ⟨את⟩ your cities desolate, and I will lay waste ⟨את⟩ your sanctuaries, and I will not smell the smell of your pleasing-odor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9573dc7778b1cd082cdc0e8198497c0a8c34fea34b431f9deb31ed5b29a50eed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/26\/29-32.1791182705630.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְנָתַתִּי",
+      "gloss": "and I will set",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your cities"
+    },
+    {
+      "surface": "עָרֵיכֶם",
+      "gloss": "your cities",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָרְבָּה",
+      "gloss": "desolate",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַהֲשִׁמֹתִי",
+      "gloss": "and I will lay waste",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your sanctuaries"
+    },
+    {
+      "surface": "מִקְדְּשֵׁיכֶם",
+      "gloss": "your sanctuaries",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָרִיחַ",
+      "gloss": "I will smell",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרֵיחַ",
+      "gloss": "the smell of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִיחֹחֲכֶם",
+      "gloss": "your pleasing-odor",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:45:05.632015916Z",
+  "model": "glm-5.3"
 }

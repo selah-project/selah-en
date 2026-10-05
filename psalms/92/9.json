@@ -1,24 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And you are high forevermore, O YHWH.",
-  "tokens": [
+  "ref": "psalms 92:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "And you"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between the pronoun and the noun מרום"
     },
     {
-      "surface": "מרום",
-      "gloss": "high"
-    },
-    {
-      "surface": "לעלם",
-      "gloss": "forevermore"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "second-person address to YHWH begins the doxology"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But you ⟨are⟩ on high forever, YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "212eda707141e33ec30e20e8c93b7fcdd287928c5b7f9494b3f098bf28487f55",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/9-12.1791193207359.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּ֥ה",
+      "gloss": "But you",
+      "sense": null
+    },
+    {
+      "surface": "מָר֗וֹם",
+      "gloss": "on high",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעֹלָ֥ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:07.360195669Z",
+  "model": "glm-5.3"
 }

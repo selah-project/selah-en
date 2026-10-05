@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 158,
-  "translation": "I saw ⟨the⟩ traitors, and ⟨I⟩ loathed ⟨them⟩, because they did not keep your word.",
-  "tokens": [
+  "ref": "psalms 119:158",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "ראיתי",
-      "gloss": "I saw"
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "English needs an object for the verb of loathing"
     },
     {
-      "surface": "בגדים",
-      "gloss": "traitors"
-    },
-    {
-      "surface": "ואתקוטטה",
-      "gloss": "and ⟨I⟩ loathed ⟨them⟩"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "because"
-    },
-    {
-      "surface": "אמרתך",
-      "gloss": "your word"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "שמרו",
-      "gloss": "they kept"
+      "kind": "alternative",
+      "subject": "and I was disgusted",
+      "rationale": "אתקוטטה hithpolel may be reflexive-experiential"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I have seen the unfaithful and I loathe them, who did not keep your word.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f229e2f94bd0b1e506eba8fa0a8862da2a10817bc1e12a7d23ada32832d00d30",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/157-160.1791193499902.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָאִ֣יתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹ֭גְדִים",
+      "gloss": "the unfaithful",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָֽאֶתְקוֹטָ֑טָה",
+      "gloss": "and I loathe ⟨them⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "אִ֝מְרָתְךָ֗",
+      "gloss": "your word",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמָֽרוּ",
+      "gloss": "did keep",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:59.903680820Z",
+  "model": "glm-5.3"
 }

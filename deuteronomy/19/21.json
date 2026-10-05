@@ -1,79 +1,115 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
+  "ref": "deuteronomy 19:21",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש is literally throat\/life-force; 'life' reads more naturally here but loses the body picture"
+    },
+    {
+      "kind": "idiom",
+      "subject": "eye for eye",
+      "rationale": "Exodus 21:24 and Leviticus 24:20 use תחת (in place of); Deuteronomy uses ב (in exchange for) — same lex talionis idiom, different preposition"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נפש בנפש",
+      "rationale": "five-fold repetition of noun-ב-noun creates a hammering parallelism, carried in English by the for-pattern"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second masculine singular address, your eye shall not spare, continuing the warning to the community"
+    }
+  ],
   "translation": "And your eye shall not spare: life for life, eye for eye, tooth for tooth, hand for hand, foot for foot.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d798fe98ec32e6fb92ecba09db7da7076c9c448ce06a04ddb35c89043c42a530",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/19\/21-21.1791183945954.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "ולא",
-      "gloss": "And not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "תחוס",
-      "gloss": "shall spare"
+      "surface": "תָחוֹס",
+      "gloss": "shall spare",
+      "sense": "S1"
     },
     {
-      "surface": "עינך",
-      "gloss": "your eye"
+      "surface": "עֵינֶךָ",
+      "gloss": "your eye",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
+      "surface": "נֶפֶשׁ",
       "gloss": "life",
       "readings": [
         "life",
-        "nefesh",
-        "a soul"
+        "throat",
+        "person"
       ],
-      "held_by": {
-        "life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "nefesh": [
-          "en4"
-        ],
-        "a soul": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בנפש",
-      "gloss": "for life"
+      "surface": "בְּנֶפֶשׁ",
+      "gloss": "for life",
+      "sense": "S1"
     },
     {
-      "surface": "עין",
-      "gloss": "eye"
+      "surface": "עַיִן",
+      "gloss": "eye",
+      "sense": "S1"
     },
     {
-      "surface": "בעין",
-      "gloss": "for eye"
+      "surface": "בְּעַיִן",
+      "gloss": "for eye",
+      "sense": "S1"
     },
     {
-      "surface": "שן",
-      "gloss": "tooth"
+      "surface": "שֵׁן",
+      "gloss": "tooth",
+      "sense": "S1"
     },
     {
-      "surface": "בשן",
-      "gloss": "for tooth"
+      "surface": "בְּשֵׁן",
+      "gloss": "for tooth",
+      "sense": "S1"
     },
     {
-      "surface": "יד",
-      "gloss": "hand"
+      "surface": "יָד",
+      "gloss": "hand",
+      "sense": "S1"
     },
     {
-      "surface": "ביד",
-      "gloss": "for hand"
+      "surface": "בְּיָד",
+      "gloss": "for hand",
+      "sense": "S1"
     },
     {
-      "surface": "רגל",
-      "gloss": "foot"
+      "surface": "רֶגֶל",
+      "gloss": "foot",
+      "sense": "S1"
     },
     {
-      "surface": "ברגל",
-      "gloss": "for foot"
+      "surface": "בְּרָגֶל",
+      "gloss": "for foot",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:05:45.955394504Z",
+  "model": "glm-5.3"
 }

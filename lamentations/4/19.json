@@ -1,26 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Swift were our pursuers — swifter than the eagles of the heavens; on the mountains they chased us hotly, in the wilderness they lay in wait for us.",
+  "ref": "lamentations 4:19",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "דלקנו",
+      "rationale": "דלק is literally 'to burn'; the picture is pursuit as if on fire, kept in 'chased us hotly'."
+    },
+    {
+      "kind": "crux",
+      "subject": "נשר",
+      "rationale": "'Eagle' vs 'vulture' — large bird of prey, exact species unknown."
+    }
+  ],
+  "translation": "Swifter than eagles of the heavens were our pursuers; on the mountains they chased us hotly, in the wilderness they lay in wait for us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d711c0aa616ba142075f1933bfd9a821a58f5205de2ab51cd6ee91f5771fe446",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/4\/17-20.1791194785566.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
       "surface": "קלים",
-      "gloss": "swift",
-      "readings": [
-        "swift",
-        "light"
-      ],
-      "held_by": {
-        "swift": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "light": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "swifter",
+      "sense": "S1"
     },
     {
       "surface": "היו",
@@ -28,15 +40,18 @@
     },
     {
       "surface": "רדפינו",
-      "gloss": "our pursuers"
+      "gloss": "our pursuers",
+      "sense": "S1"
     },
     {
       "surface": "מנשרי",
-      "gloss": "than the eagles of"
+      "gloss": "than eagles",
+      "sense": "S1"
     },
     {
       "surface": "שמים",
-      "gloss": "the heavens"
+      "gloss": "of the heavens",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -44,39 +59,29 @@
     },
     {
       "surface": "ההרים",
-      "gloss": "the mountains"
+      "gloss": "the mountains",
+      "sense": "S1"
     },
     {
       "surface": "דלקנו",
       "gloss": "they chased us hotly",
-      "readings": [
-        "they chased us hotly",
-        "they burned after us"
-      ],
-      "held_by": {
-        "they chased us hotly": [
-          "v2",
-          "v3"
-        ],
-        "they burned after us": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "במדבר",
-      "gloss": "in the wilderness"
+      "gloss": "in the wilderness",
+      "sense": "S1"
     },
     {
       "surface": "ארבו",
-      "gloss": "they lay in wait"
+      "gloss": "they lay in wait",
+      "sense": "S1"
     },
     {
       "surface": "לנו",
       "gloss": "for us"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:06:25.566995729Z",
+  "model": "glm-5.3"
 }

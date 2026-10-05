@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "From the north comes gold; upon Eloah rests awesome majesty.",
-  "tokens": [
+  "ref": "job 37:22",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "מצפון",
-      "gloss": "from the north"
+      "kind": "crux",
+      "subject": "gold comes",
+      "rationale": "זָהָב is literally 'gold'; many read 'golden splendor' — the sun's golden light from the north after the storm."
     },
     {
-      "surface": "זהב",
-      "gloss": "gold"
+      "kind": "addition",
+      "subject": "⟨is⟩",
+      "rationale": "Hebrew is verbless: 'fearsome majesty upon Eloah'; English needs the copula."
     },
     {
-      "surface": "יאתה",
-      "gloss": "comes"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "אלוה",
-      "gloss": "Eloah"
-    },
-    {
-      "surface": "נורא",
-      "gloss": "awesome",
-      "readings": [
-        "awesome",
-        "feared"
-      ],
-      "held_by": {
-        "awesome": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "feared": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הוד",
-      "gloss": "majesty"
+      "kind": "mystery",
+      "subject": "from the north",
+      "rationale": "The north and its gold-light are left unexplained, part of Elihu's withheld storm imagery."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From the north gold comes; upon Eloah ⟨is⟩ fearsome majesty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6848b330c5fe408c5b2476f4ce034ed4ac27526c7a45a4afbab21ce6f268db7a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/37\/21-24.1791194599937.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִצָּפוֹן",
+      "gloss": "From the north",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָב",
+      "gloss": "gold",
+      "readings": [
+        "gold",
+        "golden splendor"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶאֱתֶה",
+      "gloss": "comes",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "אֱלוֹהַּ",
+      "gloss": "Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹרָא",
+      "gloss": "fearsome",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹד",
+      "gloss": "majesty",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:19.938220980Z",
+  "model": "glm-5.3"
 }

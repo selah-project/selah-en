@@ -1,60 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "and a he-goat of the goats, one, a sin offering, to make atonement over you,",
+  "ref": "numbers 29:5",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "sin-offering",
+      "rationale": "חטאת is both the sin and its sacrifice; the sacrificial sense S1 is rendered, leaving the wordplay on sin unnamed"
+    },
+    {
+      "kind": "alternative",
+      "subject": "to make atonement",
+      "rationale": "כפר is literally 'to cover'; the priestly ritual sense is reading 1, 'cover' reading 2"
+    }
+  ],
+  "translation": "And one he-goat of the goats, a sin-offering, to make atonement over you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "031f07f2c24f7f35fe5298f2fa626e5ee8223107884c289255874850fa1bc6a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/29\/5-8.1791183381509.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ושעיר",
-      "gloss": "and a he-goat",
+      "surface": "וּשְׂעִיר",
+      "gloss": "And one he-goat",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִזִּ֥ים",
+      "gloss": "of the goats",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶחָ֖ד",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַטָּ֑את",
+      "gloss": "a sin-offering",
       "readings": [
-        "and a he-goat",
-        "and a goat"
+        "a sin-offering",
+        "a sin"
       ],
-      "held_by": {
-        "and a he-goat": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and a goat": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עזים",
-      "gloss": "of ⟨the⟩ goats"
-    },
-    {
-      "surface": "אחד",
-      "gloss": "one"
-    },
-    {
-      "surface": "חטאת",
-      "gloss": "a sin offering"
-    },
-    {
-      "surface": "לכפר",
+      "surface": "לְכַפֵּ֖ר",
       "gloss": "to make atonement",
       "readings": [
         "to make atonement",
-        "to cover over"
+        "to cover"
       ],
-      "held_by": {
-        "to make atonement": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to cover over": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עליכם",
-      "gloss": "over you"
+      "surface": "עֲלֵיכֶֽם",
+      "gloss": "over you",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:56:21.515635806Z",
+  "model": "glm-5.3"
 }

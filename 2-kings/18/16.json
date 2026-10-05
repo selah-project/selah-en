@@ -1,109 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "At that time Hezekiah cut off ⟨את⟩ the doors of the palace of YHWH and ⟨את⟩ the doorposts that Hezekiah king of Judah had overlaid, and gave them to the king of Assyria.",
-  "tokens": [
+  "ref": "2-kings 18:16",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "בעת",
-      "gloss": "At"
+      "kind": "hapax",
+      "subject": "הָאֹמְנוֹת",
+      "rationale": "doorposts (upright part of a door frame) occurs only here in the Tanakh"
     },
     {
-      "surface": "ההיא",
+      "kind": "substitution",
+      "subject": "temple",
+      "rationale": "הֵיכַל is a palace or grand building, here YHWH's temple palace"
+    }
+  ],
+  "translation": "At that time Hezekiah cut off ⟨את⟩ the doors of the temple of YHWH and ⟨את⟩ the doorposts that Hezekiah king of Judah had overlaid, and gave them to the king of Assyria.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bf4a85695c44d9ce1e1baaa2fd45a1588989e455a758419b71adc1aeedb3af59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/18\/13-16.1791187782720.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּעֵת",
+      "gloss": "At",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַהִיא",
       "gloss": "that time"
     },
     {
-      "surface": "קצץ",
-      "gloss": "cut off"
+      "surface": "קִצַּץ",
+      "gloss": "cut off",
+      "sense": "S1"
     },
     {
-      "surface": "חזקיה",
-      "gloss": "Hezekiah"
+      "surface": "חִזְקִיָּה",
+      "gloss": "Hezekiah",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the doors",
+      "sense": null
     },
     {
-      "surface": "דלתות",
-      "gloss": "the doors of"
+      "surface": "דַּלְתוֹת",
+      "gloss": "the doors of",
+      "sense": "S1"
     },
     {
-      "surface": "היכל",
-      "gloss": "the palace of",
-      "readings": [
-        "the palace of",
-        "the temple of"
-      ],
-      "held_by": {
-        "the palace of": [
-          "v1",
-          "en4"
-        ],
-        "the temple of": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "הֵיכַל",
+      "gloss": "the temple of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the doorposts",
+      "sense": null
     },
     {
-      "surface": "האמנות",
+      "surface": "הָאֹמְנוֹת",
       "gloss": "the doorposts",
-      "readings": [
-        "the doorposts",
-        "the pillars"
-      ],
-      "held_by": {
-        "the doorposts": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the pillars": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "that"
     },
     {
-      "surface": "צפה",
-      "gloss": "had overlaid"
+      "surface": "צִפָּה",
+      "gloss": "had overlaid",
+      "sense": "S1"
     },
     {
-      "surface": "חזקיה",
-      "gloss": "Hezekiah"
+      "surface": "חִזְקִיָּה",
+      "gloss": "Hezekiah",
+      "sense": "S1"
     },
     {
-      "surface": "מלך",
-      "gloss": "king of"
+      "surface": "מֶלֶךְ",
+      "gloss": "king of",
+      "sense": "S1"
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
+      "surface": "יְהוּדָה",
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
-      "surface": "ויתנם",
-      "gloss": "and gave them"
+      "surface": "וַיִּתְּנֵם",
+      "gloss": "and gave them",
+      "sense": null
     },
     {
-      "surface": "למלך",
-      "gloss": "to the king"
+      "surface": "לְמֶלֶךְ",
+      "gloss": "to the king of",
+      "sense": "S1"
     },
     {
-      "surface": "אשור",
-      "gloss": "of Assyria"
+      "surface": "אַשּׁוּר",
+      "gloss": "Assyria",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:09:42.722006948Z",
+  "model": "glm-5.3"
 }

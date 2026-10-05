@@ -1,70 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "For you have crushed us in a place of jackals, and covered us over with the shadow of death.",
-  "tokens": [
+  "ref": "psalms 44:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For",
-      "readings": [
-        "For",
-        "though"
-      ]
+      "kind": "crux",
+      "subject": "תנים",
+      "rationale": "same consonants can read 'sea-monsters' (תנין) or 'jackals' (תן); context of desolation favors jackals"
     },
     {
-      "surface": "דכיתנו",
-      "gloss": "you have crushed us"
-    },
-    {
-      "surface": "במקום",
-      "gloss": "in a place of"
-    },
-    {
-      "surface": "תנים",
-      "gloss": "jackals",
-      "readings": [
-        "jackals",
-        "sea-monsters"
-      ],
-      "held_by": {
-        "jackals": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sea-monsters": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותכס",
-      "gloss": "and you have covered"
-    },
-    {
-      "surface": "עלינו",
-      "gloss": "over us"
-    },
-    {
-      "surface": "בצלמות",
-      "gloss": "with the shadow of death",
-      "readings": [
-        "with the shadow of death",
-        "with deep darkness"
-      ],
-      "held_by": {
-        "with the shadow of death": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with deep darkness": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "shadow of death",
+      "rationale": "צלמות is a poetic compound of shadow (צל) and death (מות)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you have crushed us in the place of jackals, and have covered us over with the shadow of death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f29ab294ffd2634a265aaa5f6b027812c2ee89caad11504d8bcde2f57d404b7e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/17-20.1791192704698.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "דִכִּיתָנוּ",
+      "gloss": "you have crushed us",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּמְקוֹם",
+      "gloss": "in the place of",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַנִּים",
+      "gloss": "jackals",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתְּכַס",
+      "gloss": "and have covered over",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלֵינוּ",
+      "gloss": "us",
+      "sense": null
+    },
+    {
+      "surface": "בְצַלְמָוֶת",
+      "gloss": "with the shadow of death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:44.700123021Z",
+  "model": "glm-5.3"
 }

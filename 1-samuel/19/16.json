@@ -1,72 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And the messengers came in, and behold, the teraphim was on the bed, and the net of goats at its headrest.",
-  "tokens": [
+  "ref": "1-samuel 19:16",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ויבאו",
-      "gloss": "and they came in"
+      "kind": "addition",
+      "subject": "copula",
+      "rationale": "the verse is verbless noun clauses; English supplies implied 'was'"
     },
     {
-      "surface": "המלאכים",
-      "gloss": "the messengers"
-    },
-    {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "התרפים",
-      "gloss": "the teraphim"
-    },
-    {
-      "surface": "אל",
-      "gloss": "on"
-    },
-    {
-      "surface": "המטה",
-      "gloss": "the bed"
-    },
-    {
-      "surface": "וכביר",
-      "gloss": "and the net",
-      "readings": [
-        "and the net",
-        "and a cover"
-      ],
-      "held_by": {
-        "and the net": [
-          "v2",
-          "v3"
-        ],
-        "and a cover": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "העזים",
-      "gloss": "of goats"
-    },
-    {
-      "surface": "מראשתיו",
-      "gloss": "at its headrest",
-      "readings": [
-        "at its headrest",
-        "at its head"
-      ],
-      "held_by": {
-        "at its headrest": [
-          "v1",
-          "v3"
-        ],
-        "at its head": [
-          "v2"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "כביר \/ כבד",
+      "rationale": "echo of the goat-hair cover doubling for David's body — the dummy in the bed"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the messengers came, and behold, the teraphim at the bed, and the net of the goats' hair at his head-place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5e786e056b175e159bcbc4d0669c2a3d8dcb4b6646277e92eb7b1d54f5ce4d62",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/19\/13-16.1791185796337.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיָּבֹ֨אוּ֙",
+      "gloss": "and came",
+      "sense": null
+    },
+    {
+      "surface": "הַמַּלְאָכִ֔ים",
+      "gloss": "the messengers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִנֵּ֥ה",
+      "gloss": "and behold",
+      "sense": null
+    },
+    {
+      "surface": "הַתְּרָפִ֖ים",
+      "gloss": "the teraphim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "at",
+      "sense": null
+    },
+    {
+      "surface": "הַמִּטָּ֑ה",
+      "gloss": "the bed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְבִ֥יר",
+      "gloss": "and the net of",
+      "readings": [
+        "and the net of",
+        "and the braided cloth of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעִזִּ֖ים",
+      "gloss": "the goats",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְרַאֲשֹׁתָֽיו",
+      "gloss": "at his head-place",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:36:36.338643406Z",
+  "model": "glm-5.3"
 }

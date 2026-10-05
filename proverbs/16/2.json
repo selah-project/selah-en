@@ -1,53 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "All the ways of a man are clean in his own eyes, and YHWH weighs the spirits.",
-  "tokens": [
+  "ref": "proverbs 16:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "addition",
+      "subject": "are \/ is",
+      "rationale": "Hebrew verbless clauses; copulas supplied and bracketed implicitly by English word order."
     },
     {
-      "surface": "דרכי",
-      "gloss": "the ways of"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "זך",
-      "gloss": "clean",
-      "readings": [
-        "clean",
-        "pure"
-      ]
-    },
-    {
-      "surface": "בעיניו",
-      "gloss": "in his own eyes"
-    },
-    {
-      "surface": "ותכן",
-      "gloss": "and weighs",
-      "readings": [
-        "and weighs",
-        "and measures"
-      ]
-    },
-    {
-      "surface": "רוחות",
-      "gloss": "the spirits",
-      "readings": [
-        "the spirits",
-        "the winds",
-        "the breaths"
-      ]
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "alternative",
+      "subject": "weighing",
+      "rationale": "תֹכֵן is a participle, literally 'the one measuring' — could also read 'but YHWH weighs the spirits' as a verbal clause."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All the ways of a man are pure in his eyes, and the one weighing spirits is YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a4d33580bca4479e997ddfc7ffbfec69893063b2e789b9c180bd67bbc8150379",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/16\/1-4.1791193877247.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּֽל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "דַּרְכֵי",
+      "gloss": "the ways of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֭ישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "זַ֣ךְ",
+      "gloss": "are pure",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינָ֑יו",
+      "gloss": "in his eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתֹכֵ֖ן",
+      "gloss": "and the one weighing",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּח֣וֹת",
+      "gloss": "spirits",
+      "readings": [
+        "spirits",
+        "winds"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "is YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:17.248502224Z",
+  "model": "glm-5.3"
 }

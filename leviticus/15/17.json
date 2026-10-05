@@ -1,97 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And every garment, and every skin upon which there shall be upon it a lying-down of seed — it shall be washed in water, and be unclean until the evening.",
+  "ref": "leviticus 15:17",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "emission of seed",
+      "rationale": "שכבת זרע is literally 'lying of seed', a construct of the act rendered as its result"
+    },
+    {
+      "kind": "measurement",
+      "subject": "until the evening",
+      "rationale": "the uncleanness is bounded by a fixed time point, repeated through the chapter"
+    }
+  ],
+  "translation": "And every garment, and every skin on which there is an emission of seed shall be washed in water and be unclean until the evening.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d03d3205480584f5242873a54b78f0857b6dec76385fda520e82fbd6a84a010",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/15\/17-20.1791182459629.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and every"
     },
     {
-      "surface": "בגד",
-      "gloss": "garment"
+      "surface": "בֶּ֣גֶד",
+      "gloss": "garment",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and every"
     },
     {
-      "surface": "עור",
+      "surface": "ע֔וֹר",
       "gloss": "skin",
-      "readings": [
-        "skin",
-        "hide"
-      ],
-      "held_by": {
-        "skin": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "hide": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "which"
     },
     {
-      "surface": "יהיה",
-      "gloss": "shall be"
+      "surface": "יִהְיֶ֥ה",
+      "gloss": "there is"
     },
     {
-      "surface": "עליו",
-      "gloss": "upon it"
+      "surface": "עָלָ֖יו",
+      "gloss": "on it"
     },
     {
-      "surface": "שכבת",
-      "gloss": "a lying-down of",
-      "readings": [
-        "a lying-down of",
-        "an emission of",
-        "of copulation"
-      ],
-      "held_by": {
-        "a lying-down of": [
-          "en4"
-        ],
-        "an emission of": [
-          "v1"
-        ],
-        "of copulation": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "שִׁכְבַת",
+      "gloss": "an emission of",
+      "sense": "S1"
     },
     {
-      "surface": "זרע",
-      "gloss": "seed"
+      "surface": "זָ֑רַע",
+      "gloss": "seed",
+      "sense": "S1"
     },
     {
-      "surface": "וכבס",
-      "gloss": "shall be washed"
+      "surface": "וְכֻבַּ֥ס",
+      "gloss": "shall be washed",
+      "sense": "S1"
     },
     {
-      "surface": "במים",
-      "gloss": "in water"
+      "surface": "בַּמַּ֖יִם",
+      "gloss": "in water",
+      "sense": "S1"
     },
     {
-      "surface": "וטמא",
-      "gloss": "and be unclean"
+      "surface": "וְטָמֵ֥א",
+      "gloss": "and be unclean",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "until"
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
     },
     {
-      "surface": "הערב",
-      "gloss": "the evening"
+      "surface": "הָעָֽרֶב",
+      "gloss": "the evening",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:59.630776244Z",
+  "model": "glm-5.3"
 }

@@ -1,82 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Your mother was like a vine in your blood, planted upon waters; she was fruitful and full of branches because of many waters.",
+  "ref": "ezekiel 19:10",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "בדמך",
+      "rationale": "'in your blood' — many read 'in your likeness\/vitality' or emend to 'in a field' (כדמך vs בדמתך); the literal 'in your blood' is kept."
+    },
+    {
+      "kind": "hapax",
+      "subject": "ענפה",
+      "rationale": "'full of branches' occurs only here in the Tanakh."
+    }
+  ],
+  "translation": "Your mother was like a vine in your blood, planted by waters; she was fruitful and full of branches, because of many waters.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0e80dd2a302f1efc70818a08073580e6b1ef8933d6a9d9d8883deff2c5ae8ac6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/19\/9-12.1791190537951.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
       "surface": "אמך",
-      "gloss": "Your mother"
+      "gloss": "your mother",
+      "sense": "S1"
     },
     {
       "surface": "כגפן",
-      "gloss": "like a vine"
+      "gloss": "like a vine",
+      "sense": "S1"
     },
     {
       "surface": "בדמך",
-      "gloss": "in your blood"
+      "gloss": "in your blood",
+      "sense": "S3"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "by",
+      "sense": null
     },
     {
       "surface": "מים",
-      "gloss": "waters"
+      "gloss": "waters",
+      "sense": "S1"
     },
     {
       "surface": "שתולה",
       "gloss": "planted",
-      "readings": [
-        "planted",
-        "transplanted"
-      ],
-      "held_by": {
-        "planted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "transplanted": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "פריה",
-      "gloss": "fruitful"
+      "gloss": "fruitful",
+      "sense": "S1"
     },
     {
       "surface": "וענפה",
-      "gloss": "and full of branches"
+      "gloss": "and full of branches",
+      "sense": "S1"
     },
     {
       "surface": "היתה",
       "gloss": "she was",
-      "readings": [
-        "she was",
-        "she became"
-      ],
-      "held_by": {
-        "she was": [
-          "v2",
-          "en4"
-        ],
-        "she became": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": null
     },
     {
       "surface": "ממים",
-      "gloss": "because of waters"
+      "gloss": "from waters",
+      "sense": "S1"
     },
     {
       "surface": "רבים",
-      "gloss": "many"
+      "gloss": "many",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:55:37.952876770Z",
+  "model": "glm-5.3"
 }

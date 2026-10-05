@@ -1,60 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Behold, I would go far away, fleeing; I would lodge in ⟨the⟩ wilderness. Selah.",
-  "tokens": [
+  "ref": "psalms 55:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Behold",
-      "readings": [
-        "Behold",
-        "Look"
-      ],
-      "held_by": {
-        "Behold": [
-          "v2",
-          "v3"
-        ],
-        "Look": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "נְדֹד",
+      "rationale": "the infinitive 'wandering\/fleeing' is folded into 'flee far away'; English cannot carry verb + cognate infinitive smoothly."
     },
     {
-      "surface": "ארחיק",
-      "gloss": "I would go far away"
-    },
-    {
-      "surface": "נדד",
-      "gloss": "fleeing",
-      "readings": [
-        "fleeing",
-        "wandering"
-      ],
-      "held_by": {
-        "fleeing": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wandering": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אלין",
-      "gloss": "I would lodge"
-    },
-    {
-      "surface": "במדבר",
-      "gloss": "in ⟨the⟩ wilderness"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "hapax",
+      "subject": "Selah",
+      "rationale": "סֶלָה is a musical pause marker left untranslated by convention."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, I would flee far away, lodge in the wilderness. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1efba91edac9874a622bd57a88156529aae1f9660205a8d323ca9d8e03e103f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/5-8.1791192794394.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִ֭נֵּה",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "אַרְחִ֣יק",
+      "gloss": "I would flee far away",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְדֹ֑ד",
+      "gloss": "wandering",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָלִ֖ין",
+      "gloss": "lodge",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמִּדְבָּ֣ר",
+      "gloss": "in the wilderness",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:14.395628192Z",
+  "model": "glm-5.3"
 }

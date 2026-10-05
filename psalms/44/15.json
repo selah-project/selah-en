@@ -1,65 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "You make us a byword among the nations, a shaking of the head among the peoples.",
-  "tokens": [
+  "ref": "psalms 44:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "תשימנו",
-      "gloss": "You make us"
+      "kind": "hapax",
+      "subject": "מָנוֹד",
+      "rationale": "A shaking (of the head) occurs only here in the Tanakh."
     },
     {
-      "surface": "משל",
+      "kind": "crux",
+      "subject": "בַּל",
+      "rationale": "Normally the negative 'not'; here it serves as a preposition 'among' (before אֻמִּים), matching the parallel בַּגּוֹיִם — some read it as the negative, making 'not among the peoples'."
+    }
+  ],
+  "translation": "You make us a byword among the nations, a shaking of the head among the peoples.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f717e42934db461e1560ed25ee6fe4bda188414fe660678810ff384d6ea37ba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/13-16.1791192708861.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּשִׂימֵנוּ",
+      "gloss": "You make us",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָשָׁל",
       "gloss": "a byword",
       "readings": [
         "a byword",
         "a proverb"
       ],
-      "held_by": {
-        "a byword": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a proverb": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בגוים",
-      "gloss": "among the nations"
+      "surface": "בַּגּוֹיִם",
+      "gloss": "among the nations",
+      "sense": "S1"
     },
     {
-      "surface": "מנוד",
+      "surface": "מָנוֹד",
       "gloss": "a shaking",
-      "readings": [
-        "a shaking",
-        "a tossing"
-      ],
-      "held_by": {
-        "a shaking": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a tossing": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ראש",
-      "gloss": "of the head"
+      "surface": "רֹאשׁ",
+      "gloss": "of the head",
+      "sense": "S1"
     },
     {
-      "surface": "בל",
-      "gloss": "among the"
+      "surface": "בַּל",
+      "gloss": "among",
+      "sense": null
     },
     {
-      "surface": "אמים",
-      "gloss": "peoples"
+      "surface": "אֻמִּים",
+      "gloss": "the peoples",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:48.862413381Z",
+  "model": "glm-5.3"
 }

@@ -1,103 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "He has said in his heart, “I shall not at all be moved; to generation and generation, which ⟨is⟩ not in adversity.”",
+  "ref": "psalms 10:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אשר לא ברע",
+      "rationale": "Clause without a subject: 'who(ever) is not in trouble' — the wicked himself, or the fate he expects; left as bare relative."
+    },
+    {
+      "kind": "addition",
+      "subject": "one",
+      "rationale": "Relative אשר needs an English antecedent supplied."
+    }
+  ],
+  "translation": "He says in his heart, “I shall not be moved — for generation ⟨to⟩ generation, ⟨one⟩ who meets no harm.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f51a9b83469107d6ef315e2328d04bc5250cf5fe6c2ccaee60a05d0c34e68e9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/5-8.1791192419653.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "אמר",
-      "gloss": "he has said"
+      "gloss": "He says",
+      "sense": "S1"
     },
     {
       "surface": "בלבו",
-      "gloss": "in his heart"
+      "gloss": "in his heart",
+      "sense": "S1"
     },
     {
       "surface": "בל",
       "gloss": "not at all",
-      "readings": [
-        "not at all",
-        "not"
-      ],
-      "held_by": {
-        "not at all": [
-          "en4"
-        ],
-        "not": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אמוט",
-      "gloss": "I shall be moved",
-      "readings": [
-        "I shall be moved",
-        "I shall slip"
-      ],
-      "held_by": {
-        "I shall be moved": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I shall slip": [
-          "en4"
-        ]
-      }
+      "gloss": "I shall be shaken",
+      "sense": "S1"
     },
     {
       "surface": "לדר",
-      "gloss": "to generation"
+      "gloss": "for generation",
+      "sense": "S1"
     },
     {
       "surface": "ודר",
       "gloss": "and generation",
-      "readings": [
-        "and generation",
-        "upon generation"
-      ],
-      "held_by": {
-        "and generation": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "upon generation": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "⟨one⟩ who",
+      "sense": null
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "ברע",
-      "gloss": "in adversity",
-      "readings": [
-        "in adversity",
-        "in evil"
-      ],
-      "held_by": {
-        "in adversity": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in evil": [
-          "en4"
-        ]
-      }
+      "gloss": "in harm",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:59.654829853Z",
+  "model": "glm-5.3"
 }

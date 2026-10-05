@@ -1,54 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "All nations surrounded me; in the name of YHWH — indeed, I cut them off.",
-  "tokens": [
+  "ref": "psalms 118:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "crux",
+      "subject": "I will cut them off",
+      "rationale": "אמילם from מול, 'cut short\/circumcise': rendered 'cut them off' or 'destroy them'; exact force uncertain"
     },
     {
-      "surface": "גוים",
-      "gloss": "nations"
+      "kind": "alternative",
+      "subject": "for",
+      "rationale": "כי as causal 'for' rather than asseverative 'surely'"
     },
     {
-      "surface": "סבבוני",
-      "gloss": "surrounded me"
-    },
-    {
-      "surface": "בשם",
-      "gloss": "in the name of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "indeed",
-      "readings": [
-        "indeed",
-        "that",
-        "for"
-      ],
-      "held_by": {
-        "indeed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "that": [
-          "en4"
-        ],
-        "for": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "אמילם",
-      "gloss": "I cut them off"
+      "kind": "elision",
+      "subject": "כי",
+      "rationale": "conjunction rendered 'surely', carrying emphasis rather than logical content"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All nations surrounded me — in the name of YHWH I will cut them off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "279f040ab014fb48dcbe65822289af7a54363659ed59b62308af5667e01820e9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/9-12.1791193417286.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "גּוֹיִ֥ם",
+      "gloss": "nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "סְבָב֑וּנִי",
+      "gloss": "surrounded me",
+      "sense": null
+    },
+    {
+      "surface": "בְּשֵׁ֥ם",
+      "gloss": "in the name of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "surely",
+      "sense": null
+    },
+    {
+      "surface": "אֲמִילַֽם",
+      "gloss": "I will cut them off",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:37.287175673Z",
+  "model": "glm-5.3"
 }

@@ -1,75 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "⟨As for⟩ the head of those who surround me — let the toil of their lips cover them.",
+  "ref": "psalms 140:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 140,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יכסומו",
+      "rationale": "ketiv יכסומו vs qere יכסמו; both yield a jussive 'let it cover them', the ketiv's full spelling kept."
+    },
+    {
+      "kind": "substitution",
+      "subject": "מְסִבָּי",
+      "rationale": "hiphil participle of סבב, 'those who sit\/encompass around me'; 'surround' carries the circle, 'sit at table' the divan sense at Song 1:12."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עֲמַל שְׂפָתֵימוֹ",
+      "rationale": "their own malicious speech becomes the 'trouble' that covers them — the instrument turns on its user."
+    }
+  ],
+  "translation": "As for the head of those who surround me, may the trouble of their lips cover them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e8529e8fb2935ca40091aa7f24b662d1cc654d0520b7560622706d562901773e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/140\/9-12.1791193618207.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ראש",
-      "gloss": "the head",
-      "readings": [
-        "the head",
-        "the chief"
-      ],
-      "held_by": {
-        "the head": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the chief": [
-          "en4"
-        ]
-      }
+      "surface": "רֹאשׁ",
+      "gloss": "the head of",
+      "sense": "S1"
     },
     {
-      "surface": "מסבי",
-      "gloss": "of those who surround me"
+      "surface": "מְסִבָּי",
+      "gloss": "those who surround me",
+      "sense": null
     },
     {
-      "surface": "עמל",
-      "gloss": "toil",
-      "readings": [
-        "toil",
-        "trouble",
-        "mischief"
-      ],
-      "held_by": {
-        "toil": [
-          "v1",
-          "v3"
-        ],
-        "trouble": [
-          "v2",
-          "en4"
-        ],
-        "mischief": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "עֲמַל",
+      "gloss": "the trouble of",
+      "sense": "S1"
     },
     {
-      "surface": "שפתימו",
-      "gloss": "of their lips"
+      "surface": "שְׂפָתֵימוֹ",
+      "gloss": "their lips",
+      "sense": "S1"
     },
     {
       "surface": "יכסומו",
       "gloss": "let it cover them",
-      "readings": [
-        "let it cover them",
-        "it covers them"
-      ],
-      "held_by": {
-        "let it cover them": [
-          "v2",
-          "v3"
-        ],
-        "it covers them": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:58.208125837Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Hear, my people, and I will warn you, Israel — if you will hear me.",
+  "ref": "psalms 81:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 81,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "YHWH directly addresses his people in second person."
+    },
+    {
+      "kind": "invitation",
+      "subject": "Hear",
+      "rationale": "imperative summons opening the oracle, echoing the Shema."
+    },
+    {
+      "kind": "crux",
+      "subject": "בך feminine",
+      "rationale": "the suffix is pointed feminine though addressing Israel (a feminine-gendered collective); rendered simply 'you'."
+    }
+  ],
+  "translation": "Hear, my people, and I will warn you, O Israel — if you would hear me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "49f8a743779623c2e0709f2bbe2512aed80b62c7b43f20618e776e5a76b000f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/81\/9-12.1791193089509.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שמע",
+      "surface": "שְׁמַ֣ע",
       "gloss": "Hear"
     },
     {
-      "surface": "עמי",
-      "gloss": "my people"
+      "surface": "עַ֭מִּי",
+      "gloss": "my people",
+      "sense": "S1"
     },
     {
-      "surface": "ואעידה",
-      "gloss": "and I will warn",
-      "readings": [
-        "and I will warn",
-        "and I will testify"
-      ],
-      "held_by": {
-        "and I will warn": [
-          "v2",
-          "en4"
-        ],
-        "and I will testify": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וְאָעִ֣ידָה",
+      "gloss": "and I will warn"
     },
     {
-      "surface": "בך",
-      "gloss": "in you"
+      "surface": "בָּ֑ךְ",
+      "gloss": "you",
+      "sense": null
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִ֝שְׂרָאֵ֗ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "if"
     },
     {
-      "surface": "תשמע",
-      "gloss": "you will hear"
+      "surface": "תִּֽשְׁמַֽע",
+      "gloss": "you would hear"
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
+      "surface": "לִֽי",
+      "gloss": "me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:09.509736778Z",
+  "model": "glm-5.3"
 }

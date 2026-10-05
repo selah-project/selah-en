@@ -1,78 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And the priest shall look, and behold, the scab has spread in the skin, and the priest shall pronounce him unclean: it is tsara'at.",
+  "ref": "leviticus 13:8",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "tsara'at",
+      "rationale": "צרעת covers skin diseases, mildew of cloth and walls — no single English word; transliterated rather than 'leprosy'"
+    },
+    {
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "הוא emphatic pronoun without verb; copula supplied"
+    }
+  ],
+  "translation": "And the priest shall see, and behold, the scab has spread in the skin, and the priest shall pronounce him unclean: it is tsara'at.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "73160ea8ee3feb3401813f946ad29aafc8f78a1f44766d70c4c137c70e09d226",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/5-8.1791182387892.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וראה",
-      "gloss": "and he shall look"
+      "surface": "וְרָאָה֙",
+      "gloss": "and shall see",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֔ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּ֛ה",
       "gloss": "and behold"
     },
     {
-      "surface": "פשתה",
-      "gloss": "has spread"
+      "surface": "פָּשְׂתָ֥ה",
+      "gloss": "has spread",
+      "sense": "S1"
     },
     {
-      "surface": "המספחת",
+      "surface": "הַמִּסְפַּחַת֖",
       "gloss": "the scab",
-      "readings": [
-        "the scab",
-        "the scurf"
-      ],
-      "held_by": {
-        "the scab": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the scurf": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "בעור",
-      "gloss": "in the skin"
+      "surface": "בָּע֑וֹר",
+      "gloss": "in the skin",
+      "sense": "S1"
     },
     {
-      "surface": "וטמאו",
-      "gloss": "and he shall pronounce him unclean"
+      "surface": "וְטִמְּא֥וֹ",
+      "gloss": "and the priest shall pronounce him unclean",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֖ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "צרעת",
+      "surface": "צָרַ֥עַת",
       "gloss": "tsara'at",
       "readings": [
         "tsara'at",
-        "tzaraat"
+        "a scaly skin-disease"
       ],
-      "held_by": {
-        "tsara'at": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "tzaraat": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "הִֽוא",
       "gloss": "it is"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:39:47.896063303Z",
+  "model": "glm-5.3"
 }

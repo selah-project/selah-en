@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Appoint over him a wicked ⟨man⟩, and let an adversary stand at his right hand.",
+  "ref": "psalms 109:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "שטן",
+      "rationale": "Without the article: 'an accuser\/adversary' (a role) vs the proper name 'Satan'; here indefinite, a courtroom accuser."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨the⟩ wicked ⟨one⟩",
+      "rationale": "Hebrew adjective used substantively; article and 'one' supplied."
+    }
+  ],
+  "translation": "Appoint over him ⟨the⟩ wicked ⟨one⟩, and a satan stand at his right hand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10a1bfa66eb52a108037fbe4bbb3da8652c1725a619757892f282cf44a3e9945",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/5-8.1791193360020.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "הפקד",
-      "gloss": "Appoint"
+      "gloss": "Appoint",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
-      "gloss": "over him"
+      "gloss": "over him",
+      "sense": null
     },
     {
       "surface": "רשע",
-      "gloss": "a wicked ⟨man⟩"
+      "gloss": "⟨the⟩ wicked ⟨one⟩",
+      "sense": "S1"
     },
     {
       "surface": "ושטן",
-      "gloss": "and let an adversary",
+      "gloss": "and a satan",
       "readings": [
-        "and let an adversary",
-        "and let an accuser"
+        "and a satan",
+        "and an accuser"
       ],
-      "held_by": {
-        "and let an adversary": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and let an accuser": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "יעמד",
-      "gloss": "stand"
+      "gloss": "stand",
+      "sense": null
     },
     {
       "surface": "על",
-      "gloss": "at"
+      "gloss": "at",
+      "sense": null
     },
     {
       "surface": "ימינו",
-      "gloss": "his right hand"
+      "gloss": "his right hand",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:40.021404666Z",
+  "model": "glm-5.3"
 }

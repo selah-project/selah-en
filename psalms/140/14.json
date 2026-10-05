@@ -1,83 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Surely the righteous will give thanks to your name; the upright will sit ⟨את⟩ your face.",
-  "tokens": [
+  "ref": "psalms 140:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 140,
+  "notes": [
     {
-      "surface": "אך",
-      "gloss": "Surely"
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "Prepositional את ('with, before') rendered as 'before' while keeping the ⟨את⟩ marker."
     },
     {
-      "surface": "צדיקים",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "יודו",
-      "gloss": "will give thanks",
-      "readings": [
-        "will give thanks",
-        "will praise"
-      ],
-      "held_by": {
-        "will give thanks": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will praise": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לשמך",
-      "gloss": "to your name"
-    },
-    {
-      "surface": "ישבו",
-      "gloss": "will sit",
-      "readings": [
-        "will sit",
-        "will dwell"
-      ],
-      "held_by": {
-        "will sit": [
-          "v2",
-          "v3"
-        ],
-        "will dwell": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישרים",
-      "gloss": "the upright"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "פניך",
-      "gloss": "your face",
-      "readings": [
-        "your face",
-        "your presence"
-      ],
-      "held_by": {
-        "your face": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your presence": [
-          "v1"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "יודו \/ ישבו",
+      "rationale": "יודו and ישבו echo the nouns' sound pattern; the parallelism of righteous\/upright frames the psalm's close."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Surely the righteous will give thanks to your name; the upright will dwell ⟨את⟩ before your face.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "11d260fcdf603470da70b6256ed08dd130de86dcad77ea3b4f1297098b895530",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/140\/13-14.1791193597097.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַךְ",
+      "gloss": "Surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּיקִים",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹדוּ",
+      "gloss": "will give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמֶךָ",
+      "gloss": "to your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵשְׁבוּ",
+      "gloss": "will dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשָׁרִים",
+      "gloss": "the upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩ before",
+      "marks": "your face"
+    },
+    {
+      "surface": "פָּנֶיךָ",
+      "gloss": "your face",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:37.098486406Z",
+  "model": "glm-5.3"
 }

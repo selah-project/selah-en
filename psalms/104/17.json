@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Where there the birds make ⟨their⟩ nests — the stork, the cypresses ⟨are⟩ her house.",
-  "tokens": [
+  "ref": "psalms 104:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "where"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a verb in the second half; the stork's house is simply located among the cypresses"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
-    },
-    {
-      "surface": "צפרים",
-      "gloss": "birds"
-    },
-    {
-      "surface": "יקננו",
-      "gloss": "make nests"
-    },
-    {
-      "surface": "חסידה",
-      "gloss": "the stork"
-    },
-    {
-      "surface": "ברושים",
-      "gloss": "the cypresses",
-      "readings": [
-        "the cypresses",
-        "the fir trees"
-      ],
-      "held_by": {
-        "the cypresses": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the fir trees": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ביתה",
-      "gloss": "her house"
+      "kind": "hapax",
+      "subject": "חסידה",
+      "rationale": "name is built on חסד (kindness); the kind bird, per the lexical tradition"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Where the birds make their nests, the stork — the cypresses ⟨are⟩ her house.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2abb2c008f4eeb84a129afe30a1acdf889c489b532a1aec91031a02faacac1f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/17-20.1791193282284.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "where",
+      "sense": null
+    },
+    {
+      "surface": "שָׁם",
+      "gloss": "there",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִפֳּרִים",
+      "gloss": "the birds",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְקַנֵּנוּ",
+      "gloss": "make their nests",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲסִידָה",
+      "gloss": "the stork",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרוֹשִׁים",
+      "gloss": "the cypresses",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּיתָהּ",
+      "gloss": "her house",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:22.285277105Z",
+  "model": "glm-5.3"
 }

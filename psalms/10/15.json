@@ -1,55 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Break ⟨the⟩ arm of the wicked and ⟨the⟩ evil ⟨one⟩; seek out his wickedness — you will find none.",
-  "tokens": [
+  "ref": "psalms 10:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "שבר",
-      "gloss": "Break"
+      "kind": "wordplay",
+      "subject": "רשע \/ ורע \/ רשעו",
+      "rationale": "Triple root-play on רשע and רע in one verse; only partly carried in English."
     },
     {
-      "surface": "זרוע",
-      "gloss": "the arm",
-      "readings": [
-        "the arm",
-        "the strength"
-      ],
-      "held_by": {
-        "the arm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the strength": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "בל תמצא",
+      "rationale": "'You will find it no more' (wickedness gone) vs 'he will be found no more' (the wicked perished)."
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "ורע",
-      "gloss": "and ⟨the⟩ evil ⟨one⟩"
-    },
-    {
-      "surface": "תדרוש",
-      "gloss": "seek out"
-    },
-    {
-      "surface": "רשעו",
-      "gloss": "his wickedness"
-    },
-    {
-      "surface": "בל",
-      "gloss": "none"
-    },
-    {
-      "surface": "תמצא",
-      "gloss": "you will find"
+      "kind": "invitation",
+      "subject": "imperatives to YHWH",
+      "rationale": "The psalmist summons YHWH to act: break, seek."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Break the arm of the wicked and evil one; seek out his wickedness — you will find ⟨it nowhere⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5b0d34fe9901a8b284e8e29e0a062f98743263b75926a7a725b43a2eb245f78",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/13-16.1791192410583.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׁבֹר",
+      "gloss": "Break",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְרוֹעַ",
+      "gloss": "the arm of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָשָׁע",
+      "gloss": "the wicked one",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָרָע",
+      "gloss": "and evil one",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּדְרֹשׁ",
+      "gloss": "seek out",
+      "sense": "S1"
+    },
+    {
+      "surface": "רִשְׁעוֹ",
+      "gloss": "his wickedness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַל",
+      "gloss": "not at all",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּמְצָא",
+      "gloss": "you will find",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:50.584441740Z",
+  "model": "glm-5.3"
 }

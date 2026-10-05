@@ -1,85 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Deep calls to deep at the voice of your waterfalls; all your breakers and your waves have passed over me.",
-  "tokens": [
+  "ref": "psalms 42:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
     {
-      "surface": "תהום",
-      "gloss": "deep",
-      "readings": [
-        "deep",
-        "the deep"
-      ],
-      "held_by": {
-        "deep": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the deep": [
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "תְּהוֹם אֶל תְּהוֹם",
+      "rationale": "the identical pair 'deep to deep' doubles the sound; kept as repetition."
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "kind": "crux",
+      "subject": "צִנּוֹרֶיךָ",
+      "rationale": "צנור literally a water conduit (cf. 2 Sam 5:8); rendered 'waterfalls' vs 'cataracts' vs literal 'channels'."
     },
     {
-      "surface": "תהום",
-      "gloss": "deep"
-    },
-    {
-      "surface": "קורא",
-      "gloss": "calls"
-    },
-    {
-      "surface": "לקול",
-      "gloss": "at the voice of"
-    },
-    {
-      "surface": "צנוריך",
-      "gloss": "your waterfalls",
-      "readings": [
-        "your waterfalls",
-        "your cataracts",
-        "your channels"
-      ],
-      "held_by": {
-        "your waterfalls": [
-          "v1"
-        ],
-        "your cataracts": [
-          "v2",
-          "v3"
-        ],
-        "your channels": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "משבריך",
-      "gloss": "your breakers"
-    },
-    {
-      "surface": "וגליך",
-      "gloss": "and your waves"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "over me"
-    },
-    {
-      "surface": "עברו",
-      "gloss": "have passed"
+      "kind": "substitution",
+      "subject": "breakers",
+      "rationale": "משבר is water curling under wind, used figuratively for suffering; the picture is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Deep calls to deep at the voice of Your waterfalls; all Your breakers and Your waves have passed over me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "60cd3dd03d44db9091a0f2768289ee9d976066e60145c274923158893f6d06cb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/42\/5-8.1791192701687.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּה֣וֹם",
+      "gloss": "Deep",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "תְּה֣וֹם",
+      "gloss": "deep",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹרֵא",
+      "gloss": "calls",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְקוֹל",
+      "gloss": "at the voice of",
+      "sense": null
+    },
+    {
+      "surface": "צִנּוֹרֶ֑יךָ",
+      "gloss": "Your waterfalls",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּֽל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁבָּרֶ֥יךָ",
+      "gloss": "Your breakers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְגַלֶּ֗יךָ",
+      "gloss": "and Your waves",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַ֨י",
+      "gloss": "over me",
+      "sense": null
+    },
+    {
+      "surface": "עָבָֽרוּ",
+      "gloss": "have passed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:41.688561255Z",
+  "model": "glm-5.3"
 }

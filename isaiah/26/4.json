@@ -1,60 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Trust in YHWH forever, for in Yah, YHWH, ⟨is⟩ ⟨the⟩ rock of ages.",
-  "tokens": [
+  "ref": "isaiah 26:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "בטחו",
-      "gloss": "Trust"
+      "kind": "wordplay",
+      "subject": "בִּטְחוּ \/ בָּטוּחַ",
+      "rationale": "verse 4's imperative ‘trust’ answers verse 3's participle ‘trusting’ — same root, only partially carried"
     },
     {
-      "surface": "ביהוה",
-      "gloss": "in YHWH"
+      "kind": "wordplay",
+      "subject": "בְּיָהּ יְהוָה",
+      "rationale": "the short Name Yah plus YHWH sit side by side; the doubling is kept"
     },
     {
-      "surface": "עדי",
-      "gloss": "forever"
-    },
-    {
-      "surface": "עד",
-      "gloss": "forever"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "ביה",
-      "gloss": "in Yah"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "צור",
-      "gloss": "a rock"
-    },
-    {
-      "surface": "עולמים",
-      "gloss": "of ages",
-      "readings": [
-        "of ages",
-        "of eternities"
-      ],
-      "held_by": {
-        "of ages": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of eternities": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "עֲדֵי־עַד",
+      "rationale": "a bound phrase ‘unto perpetuity’; rendered ‘forevermore’ as one intensifier"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Trust in YHWH forevermore, for in Yah, YHWH, is a rock of eternities.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "abf01b6599cebbe70cece003ce4459a4faa6d8268493d3e424e8f465b89f5864",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/1-4.1791188358406.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בִּטְח֥וּ",
+      "gloss": "Trust",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּיהוָ֖ה",
+      "gloss": "in YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲדֵי",
+      "gloss": "forevermore",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֑ד",
+      "gloss": "forevermore",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֚י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "בְּיָ֣הּ",
+      "gloss": "in Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֔ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צ֖וּר",
+      "gloss": "a rock of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָמִֽים",
+      "gloss": "eternities",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:18.407480746Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Let me sojourn in ⟨your⟩ tent for ages; I will seek refuge in the shelter of ⟨your⟩ wings. Selah.",
-  "tokens": [
+  "ref": "psalms 61:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 61,
+  "notes": [
     {
-      "surface": "אגורה",
-      "gloss": "Let me sojourn"
+      "kind": "alternative",
+      "subject": "for forevers",
+      "rationale": "plural of עולם intensifies endless duration; many read simply 'forever'"
     },
     {
-      "surface": "באהלך",
-      "gloss": "in ⟨your⟩ tent"
-    },
-    {
-      "surface": "עולמים",
-      "gloss": "for ages"
-    },
-    {
-      "surface": "אחסה",
-      "gloss": "I will seek refuge"
-    },
-    {
-      "surface": "בסתר",
-      "gloss": "in the shelter of"
-    },
-    {
-      "surface": "כנפיך",
-      "gloss": "⟨your⟩ wings"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "substitution",
+      "subject": "your two wings",
+      "rationale": "כנפיך is a dual — two wings, God pictured with a bird's covering"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let me dwell in your tent for forevers, let me take refuge in the shelter of your two wings. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2c293a66f381f98271d3c6bab9ad05873aa1a025467dad624ddfff782ea962b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/61\/5-8.1791192855768.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָג֣וּרָה",
+      "gloss": "let me dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאָהָלְךָ",
+      "gloss": "in your tent",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָמִ֑ים",
+      "gloss": "for forevers",
+      "readings": [
+        "for forevers",
+        "forever"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶֽחֱסֶ֨ה",
+      "gloss": "let me take refuge",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּסֵ֖תֶר",
+      "gloss": "in the shelter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּנָפֶ֣יךָ",
+      "gloss": "your two wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶּֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:15.768587809Z",
+  "model": "glm-5.3"
 }

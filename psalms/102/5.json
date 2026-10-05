@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Struck like grass and withered is my heart, for I have forgotten to eat my bread.",
-  "tokens": [
+  "ref": "psalms 102:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
     {
-      "surface": "הוכה",
-      "gloss": "Struck"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "English copula supplied for the two nominal clauses"
     },
     {
-      "surface": "כעשב",
-      "gloss": "like grass"
-    },
-    {
-      "surface": "ויבש",
-      "gloss": "and withered"
-    },
-    {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "שכחתי",
-      "gloss": "I have forgotten"
-    },
-    {
-      "surface": "מאכל",
-      "gloss": "to eat",
-      "readings": [
-        "to eat",
-        "from eating"
-      ],
-      "held_by": {
-        "to eat": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from eating": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לחמי",
-      "gloss": "my bread"
+      "kind": "substitution",
+      "subject": "dried up",
+      "rationale": "ויבשׁ here keeps its literal drying-of-plants picture applied to the heart, SDBH's 'loss of vital energy'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Struck down like grass and dried up is my heart, for I have forgotten to eat my bread.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7182acd3da5cf7c2891bf32d590a89ed7d093c4a805ad348505ecaaad0b6848",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/5-8.1791193247744.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוּכָה",
+      "gloss": "Struck down",
+      "sense": null
+    },
+    {
+      "surface": "כָעֵשֶׂב",
+      "gloss": "like grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּבַשׁ",
+      "gloss": "and dried up",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבִּי",
+      "gloss": "is my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "שָׁכַחְתִּי",
+      "gloss": "I have forgotten",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֲכֹל",
+      "gloss": "to eat",
+      "sense": "S2"
+    },
+    {
+      "surface": "לַחְמִי",
+      "gloss": "my bread",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:47.745105501Z",
+  "model": "glm-5.3"
 }

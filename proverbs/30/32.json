@@ -1,50 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "If you have played the fool in lifting yourself up, or if you have plotted evil, hand to mouth!",
-  "tokens": [
+  "ref": "proverbs 30:32",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "if"
+      "kind": "addition",
+      "subject": "evil",
+      "rationale": "זמום takes no object here; supplied to carry the verb's bad sense — the Hebrew says only 'if you have plotted'"
     },
     {
-      "surface": "נבלת",
-      "gloss": "you have played the fool",
-      "readings": [
-        "you have played the fool",
-        "you have acted foolishly"
-      ],
-      "held_by": {
-        "you have played the fool": [
-          "v2",
-          "v3"
-        ],
-        "you have acted foolishly": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "hand to mouth",
+      "rationale": "יד לפה is the gesture of self-silencing; the literal words carry the idiom in English too"
     },
     {
-      "surface": "בהתנשא",
-      "gloss": "in lifting yourself up"
-    },
-    {
-      "surface": "ואם",
-      "gloss": "or if"
-    },
-    {
-      "surface": "זמות",
-      "gloss": "you have plotted"
-    },
-    {
-      "surface": "יד",
-      "gloss": "hand"
-    },
-    {
-      "surface": "לפה",
-      "gloss": "to ⟨the⟩ mouth"
+      "kind": "you",
+      "subject": "to the reader",
+      "rationale": "direct second-person address, the sayings turning on the hearer"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If you have acted-the-fool in lifting yourself up, and if you have plotted evil — hand to mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5da991389075b441b1daad7b7322580fc9b0148e2d049b4657d2d04a2124f53e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/29-32.1791194082695.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If"
+    },
+    {
+      "surface": "נָבַ֥לְתָּ",
+      "gloss": "you have acted-the-fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְהִתְנַשֵּׂ֑א",
+      "gloss": "in lifting yourself up",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִם",
+      "gloss": "and if"
+    },
+    {
+      "surface": "זַ֝מּ֗וֹתָ",
+      "gloss": "you have plotted",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֣ד",
+      "gloss": "hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפֶֽה",
+      "gloss": "to mouth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:42.696307310Z",
+  "model": "glm-5.3"
 }

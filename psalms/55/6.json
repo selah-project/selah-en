@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Fear and trembling come upon me, and horror covers me.",
-  "tokens": [
+  "ref": "psalms 55:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "יראה",
-      "gloss": "Fear"
+      "kind": "idiom",
+      "subject": "come upon me",
+      "rationale": "בִּי is literally 'into me'; English 'upon me' carries the sense of fear entering."
     },
     {
-      "surface": "ורעד",
-      "gloss": "and trembling"
-    },
-    {
-      "surface": "יבא",
-      "gloss": "come"
-    },
-    {
-      "surface": "בי",
-      "gloss": "upon me",
-      "readings": [
-        "upon me",
-        "into me"
-      ],
-      "held_by": {
-        "upon me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "into me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותכסני",
-      "gloss": "and covers me"
-    },
-    {
-      "surface": "פלצות",
-      "gloss": "horror"
+      "kind": "substitution",
+      "subject": "horror",
+      "rationale": "פַּלָּצוּת is bodily shuddering from fear; 'horror' loses the physical shaking."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Fear and trembling come upon me, and horror has covered me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1efba91edac9874a622bd57a88156529aae1f9660205a8d323ca9d8e03e103f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/5-8.1791192794394.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִרְאָ֣ה",
+      "gloss": "fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָ֭רַעַד",
+      "gloss": "and trembling",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֣בֹא",
+      "gloss": "come",
+      "sense": null
+    },
+    {
+      "surface": "בִ֑י",
+      "gloss": "upon me",
+      "sense": null
+    },
+    {
+      "surface": "וַ֝תְּכַסֵּ֗נִי",
+      "gloss": "and has covered me",
+      "sense": "S1"
+    },
+    {
+      "surface": "פַּלָּצֽוּת",
+      "gloss": "horror",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:14.395348665Z",
+  "model": "glm-5.3"
 }

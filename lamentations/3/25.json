@@ -1,43 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Good is YHWH to those who wait ⟨for Him⟩, to the soul that seeks Him.",
+  "ref": "lamentations 3:25",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronts the adjective טוב with no copula; English requires one."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש here is a person as a living, desiring being, not the dualist 'soul'."
+    },
+    {
+      "kind": "you",
+      "subject": "the waiting soul",
+      "rationale": "The verse addresses the suffering community indirectly, defining who receives YHWH's goodness."
+    }
+  ],
+  "translation": "Good is YHWH to the one who waits for him, to the soul that seeks him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "01bafc9a941dea8f68044d57a33ee38f9e50539cd82947a3e9fdac88bc7adfc8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/25-28.1791194694793.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Good"
+      "surface": "טוֹב",
+      "gloss": "Good",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "is YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לקוו",
-      "gloss": "to those waiting ⟨for Him⟩"
+      "surface": "לְקוֹו",
+      "gloss": "to the one who waits for",
+      "sense": "S1"
     },
     {
-      "surface": "לנפש",
+      "surface": "לְנֶפֶשׁ",
       "gloss": "to the soul",
       "readings": [
         "to the soul",
         "to the life"
       ],
-      "held_by": {
-        "to the soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תדרשנו",
-      "gloss": "that seeks Him"
+      "surface": "תִּדְרְשֶׁנּוּ",
+      "gloss": "that seeks him",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:54.793832127Z",
+  "model": "glm-5.3"
 }

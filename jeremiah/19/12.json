@@ -1,34 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Thus I will do to this place — an oracle of YHWH — and to its inhabitants, and give ⟨את⟩ this city as Topheth.",
+  "ref": "jeremiah 19:12",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "to be",
+      "rationale": "Hebrew לתת את העיר כתפת 'to give this city like Topheth'; English needs 'to be' to carry the idiom"
+    }
+  ],
+  "translation": "So I will do to this place — the oracle of YHWH — and to its inhabitants, and give this city to be like Topheth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f34ad537a309b868c23da7b4fbec5977242d6175258e55a76890b1eb6f54c69c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/19\/11-12.1791199297136.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "כן",
-      "gloss": "Thus"
+      "gloss": "So"
     },
     {
       "surface": "אעשה",
-      "gloss": "I will do"
+      "gloss": "I will do",
+      "sense": "S1"
     },
     {
       "surface": "למקום",
-      "gloss": "to this place"
+      "gloss": "to the place",
+      "sense": "S1"
     },
     {
       "surface": "הזה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "נאם",
-      "gloss": "an oracle of"
+      "gloss": "the oracle of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "וליושביו",
-      "gloss": "and to its inhabitants"
+      "gloss": "and to its inhabitants",
+      "sense": "S1"
     },
     {
       "surface": "ולתת",
@@ -36,11 +64,13 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "this city"
     },
     {
       "surface": "העיר",
-      "gloss": "the city"
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
       "surface": "הזאת",
@@ -48,9 +78,10 @@
     },
     {
       "surface": "כתפת",
-      "gloss": "as Topheth"
+      "gloss": "like Topheth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:21:37.137398588Z",
+  "model": "glm-5.3"
 }

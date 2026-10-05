@@ -1,78 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "They band together against the nefesh of the righteous, and innocent blood they declare guilty.",
-  "tokens": [
+  "ref": "psalms 94:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
     {
-      "surface": "יגודו",
-      "gloss": "they band together",
-      "readings": [
-        "they band together",
-        "they crowd together"
-      ],
-      "held_by": {
-        "they band together": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they crowd together": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש is literally throat, the life-principle residing in the blood; 'life' reads reading 1, 'throat' the literal picture"
     },
     {
-      "surface": "על",
-      "gloss": "against"
-    },
-    {
-      "surface": "נפש",
-      "gloss": "the nefesh of",
-      "readings": [
-        "the nefesh of",
-        "the life of"
-      ],
-      "held_by": {
-        "the nefesh of": [
-          "en4"
-        ],
-        "the life of": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ודם",
-      "gloss": "and blood"
-    },
-    {
-      "surface": "נקי",
-      "gloss": "innocent"
-    },
-    {
-      "surface": "ירשיעו",
-      "gloss": "they declare guilty",
-      "readings": [
-        "they declare guilty",
-        "they condemn"
-      ],
-      "held_by": {
-        "they declare guilty": [
-          "v1",
-          "v3"
-        ],
-        "they condemn": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "the wicked judges",
+      "rationale": "the verse indicts the throne that frames the righteous, continuing the accusation of v. 20"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They band together against the life of the just, and innocent blood they declare guilty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b481efeb949912b568abc9d7cf05e058d696ecf8199d4541e3cfe9d4cf31fe32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/21-23.1791193212267.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָ֭גוֹדּוּ",
+      "gloss": "they band together",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "against",
+      "sense": null
+    },
+    {
+      "surface": "נֶ֣פֶשׁ",
+      "gloss": "the life",
+      "sense": "S1",
+      "readings": [
+        "the life",
+        "the throat"
+      ]
+    },
+    {
+      "surface": "צַדִּ֑יק",
+      "gloss": "of the just",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדָ֖ם",
+      "gloss": "and blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָקִ֣י",
+      "gloss": "innocent",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַרְשִֽׁיעוּ",
+      "gloss": "they declare guilty",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:12.268276835Z",
+  "model": "glm-5.3"
 }

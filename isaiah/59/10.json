@@ -1,67 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "We grope along the wall like the blind, and like those without eyes we grope; we have stumbled at noon as in twilight; in desolate places like the dead.",
-  "tokens": [
+  "ref": "isaiah 59:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
     {
-      "surface": "נגששה",
-      "gloss": "we grope"
+      "kind": "wordplay",
+      "subject": "נְגַשְּׁשָׁה … נְגַשֵּׁשָׁה",
+      "rationale": "the verb גשש doubled within the verse, kept as repeated 'grope'"
     },
     {
-      "surface": "כעורים",
-      "gloss": "like the blind"
+      "kind": "hapax",
+      "subject": "בָּאַשְׁמַנִּים",
+      "rationale": "plural of אַשְׁמָן 'fat field' occurs only here; rendered literally 'fat places'"
     },
     {
-      "surface": "קיר",
-      "gloss": "the wall"
-    },
-    {
-      "surface": "וכאין",
-      "gloss": "and like those without"
-    },
-    {
-      "surface": "עינים",
-      "gloss": "eyes"
-    },
-    {
-      "surface": "נגששה",
-      "gloss": "we grope"
-    },
-    {
-      "surface": "כשלנו",
-      "gloss": "we have stumbled"
-    },
-    {
-      "surface": "בצהרים",
-      "gloss": "at noon"
-    },
-    {
-      "surface": "כנשף",
-      "gloss": "as in twilight"
-    },
-    {
-      "surface": "באשמנים",
-      "gloss": "in desolate places",
-      "readings": [
-        "in desolate places",
-        "among the flourishing"
-      ],
-      "held_by": {
-        "in desolate places": [
-          "v1",
-          "en4"
-        ],
-        "among the flourishing": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כמתים",
-      "gloss": "like the dead"
+      "kind": "crux",
+      "subject": "בָּאַשְׁמַנִּים כַּמֵּתִים",
+      "rationale": "'in the fat\/garden places like the dead' vs emendations like 'in desolate places'; the literal picture kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "We grope for a wall like the blind, and like those who have no eyes we grope; we stumble at noon as at twilight, in the fat places like the dead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15fbad7dc60f73511c1442115df0fb1433b2ae850e7594419c3be60bad98005b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/59\/9-12.1791188890407.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נְגַשְּׁשָׁה",
+      "gloss": "We grope",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּעִוְרִים",
+      "gloss": "like the blind",
+      "sense": "S1"
+    },
+    {
+      "surface": "קִיר",
+      "gloss": "for a wall",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְאֵין",
+      "gloss": "and like those who have no",
+      "sense": null
+    },
+    {
+      "surface": "עֵינַיִם",
+      "gloss": "eyes",
+      "sense": "S1",
+      "readings": [
+        "eyes"
+      ]
+    },
+    {
+      "surface": "נְגַשֵּׁשָׁה",
+      "gloss": "we grope",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּשַׁלְנוּ",
+      "gloss": "we stumble",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּצָּהֳרַיִם",
+      "gloss": "at noon",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּנֶּשֶׁף",
+      "gloss": "as at twilight",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאַשְׁמַנִּים",
+      "gloss": "in the fat places",
+      "sense": null
+    },
+    {
+      "surface": "כַּמֵּתִים",
+      "gloss": "like the dead",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:28:10.408178879Z",
+  "model": "glm-5.3"
 }

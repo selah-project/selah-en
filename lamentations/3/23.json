@@ -1,68 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "New every morning — abundant is Your faithfulness.",
-  "tokens": [
+  "ref": "lamentations 3:23",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "חדשים",
-      "gloss": "New",
-      "readings": [
-        "New",
-        "Renewed"
-      ],
-      "held_by": {
-        "New": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Renewed": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before אמונתך."
     },
     {
-      "surface": "לבקרים",
-      "gloss": "every morning",
-      "readings": [
-        "every morning",
-        "for the mornings"
-      ],
-      "held_by": {
-        "every morning": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for the mornings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "רבה",
-      "gloss": "abundant",
-      "readings": [
-        "abundant",
-        "great"
-      ],
-      "held_by": {
-        "abundant": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "great": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אמונתך",
-      "gloss": "Your faithfulness"
+      "kind": "crux",
+      "subject": "חדשים לבקרים",
+      "rationale": "Read variously: '(His compassions are) new every morning' (חדשים agreeing with רחמים) or 'new to the mornings'; plural בקרים is unusual."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "new to the mornings; great is Your faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a313ec1d47e1bb053f40331310287135af654673a0e2db740d41cde039f07e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/21-24.1791194696902.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חֲדָשִׁים",
+      "gloss": "new",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבְּקָרִים",
+      "gloss": "to the mornings",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַבָּה",
+      "gloss": "great",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמוּנָתֶךָ",
+      "gloss": "is Your faithfulness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:56.903688352Z",
+  "model": "glm-5.3"
 }

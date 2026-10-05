@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And the children of Israel journeyed, and camped in the plains of Moab, beyond the Jordan across from Jericho.",
-  "tokens": [
+  "ref": "numbers 22:1",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ויסעו",
-      "gloss": "and journeyed"
+      "kind": "addition",
+      "subject": "⟨from⟩",
+      "rationale": "Hebrew juxtaposes Jericho to the spatial phrase without a preposition; English needs the point of reference marked"
     },
     {
-      "surface": "בני",
-      "gloss": "the children of"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "ויחנו",
-      "gloss": "and camped"
-    },
-    {
-      "surface": "בערבות",
-      "gloss": "in the plains of"
-    },
-    {
-      "surface": "מואב",
-      "gloss": "Moab"
-    },
-    {
-      "surface": "מעבר",
-      "gloss": "beyond",
-      "readings": [
-        "beyond",
-        "on the side of"
-      ],
-      "held_by": {
-        "beyond": [
-          "v2",
-          "en4"
-        ],
-        "on the side of": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לירדן",
-      "gloss": "the Jordan"
-    },
-    {
-      "surface": "ירחו",
-      "gloss": "Jericho"
+      "kind": "alternative",
+      "subject": "pulled up",
+      "rationale": "נסע literally plucks up tent pegs; 'set out' is the idiomatic smoother"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And pulled up the sons of Israel, and they encamped in the plains of Moab, across the Jordan ⟨from⟩ Jericho.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f2bb361e78c57216a66e44cde24ec4034716b8bfefec34416e02febed4dcaaf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/22\/1-4.1791183233284.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּסְעוּ",
+      "gloss": "and pulled up",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵי",
+      "gloss": "the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּחֲנוּ",
+      "gloss": "and encamped",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעַרְבוֹת",
+      "gloss": "in the plains of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹאָב",
+      "gloss": "Moab",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעֵבֶר",
+      "gloss": "across",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיַרְדֵּן",
+      "gloss": "the Jordan",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרֵחוֹ",
+      "gloss": "Jericho",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:53:53.288896816Z",
+  "model": "glm-5.3"
 }

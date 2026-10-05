@@ -1,53 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Better is one lowly of spirit with ⟨את⟩ ⟨the⟩ poor than dividing spoil with ⟨את⟩ ⟨the⟩ proud.",
+  "ref": "proverbs 16:19",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "עניים",
+      "rationale": "ketiv עניים (poor) vs qere ענוים (humble); both fit the contrast with גאים"
+    },
+    {
+      "kind": "addition",
+      "subject": "Better to be",
+      "rationale": "טוב lacks an expressed infinitive subject and copula"
+    }
+  ],
+  "translation": "Better to be lowly of spirit with ⟨את⟩ the poor than to divide ⟨את⟩ spoil with the proud.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f2b9aae69f07bef48061f9affde44752f7201adb88820f85ac296354557665c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/16\/17-20.1791193881697.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Better"
+      "surface": "ט֣וֹב",
+      "gloss": "Better",
+      "sense": "S1"
     },
     {
-      "surface": "שפל",
-      "gloss": "lowly"
+      "surface": "שְׁפַל",
+      "gloss": "to be lowly",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "ר֭וּחַ",
       "gloss": "of spirit",
-      "readings": [
-        "of spirit",
-        "of wind",
-        "of breath"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "with ⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the poor",
+      "sense": null
     },
     {
       "surface": "עניים",
-      "gloss": "⟨the⟩ poor",
-      "readings": [
-        "⟨the⟩ poor",
-        "⟨the⟩ afflicted"
-      ]
+      "gloss": "the poor",
+      "sense": "S1"
     },
     {
-      "surface": "מחלק",
-      "gloss": "than dividing"
+      "surface": "מֵֽחַלֵּ֥ק",
+      "gloss": "than to divide",
+      "sense": "S1"
     },
     {
-      "surface": "שלל",
-      "gloss": "spoil"
+      "surface": "שָׁ֝לָ֗ל",
+      "gloss": "spoil",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "with ⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the proud",
+      "sense": null
     },
     {
-      "surface": "גאים",
-      "gloss": "⟨the⟩ proud"
+      "surface": "גֵּאִֽים",
+      "gloss": "the proud",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:21.698537134Z",
+  "model": "glm-5.3"
 }

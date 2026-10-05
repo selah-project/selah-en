@@ -1,57 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "If only you had hearkened to my commandments — then your peace would have been like a river, and your righteousness like the waves of the sea.",
+  "ref": "isaiah 48:18",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "If only you had listened",
+      "rationale": "לוא הקשבת can read as a conditional ('if you had listened') or as a wish ('oh that you had listened'); the counterfactual then governs both halves of the verse."
+    },
+    {
+      "kind": "substitution",
+      "subject": "peace",
+      "rationale": "שלום is completeness and total wellbeing, not merely absence of conflict."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "river \/ waves",
+      "rationale": "Parallel similes: כנהר…שלומך against כגלי הים…צדקתך — flowing water paired with surging water, order paired with abundance."
+    }
+  ],
+  "translation": "If only you had listened to my commands — then your peace would have been like a river, and your righteousness like the waves of the sea:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "892800b8e300050d03dc07e8e8eef574b1a4e716e0d31d365c21bc652b78687b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/48\/18-20.1791199139316.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "לוא",
-      "gloss": "If only"
+      "surface": "לוּא",
+      "gloss": "If only",
+      "sense": null
     },
     {
       "surface": "הקשבת",
-      "gloss": "you had hearkened"
+      "gloss": "you had listened",
+      "sense": "S1"
     },
     {
       "surface": "למצותי",
-      "gloss": "to my commandments"
+      "gloss": "to my commands",
+      "sense": "S1"
     },
     {
       "surface": "ויהי",
-      "gloss": "then would have been"
+      "gloss": "then would have been",
+      "sense": null
     },
     {
       "surface": "כנהר",
-      "gloss": "like a river"
+      "gloss": "like a river",
+      "sense": "S1"
     },
     {
       "surface": "שלומך",
       "gloss": "your peace",
-      "readings": [
-        "your peace",
-        "your wholeness",
-        "your welfare"
-      ],
-      "held_by": {
-        "your peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "וצדקתך",
-      "gloss": "and your righteousness"
+      "gloss": "and your righteousness",
+      "sense": "S1"
     },
     {
       "surface": "כגלי",
-      "gloss": "like the waves of"
+      "gloss": "like the waves of",
+      "sense": "S1"
     },
     {
       "surface": "הים",
-      "gloss": "the sea"
+      "gloss": "the sea",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:18:59.317497160Z",
+  "model": "glm-5.3"
 }

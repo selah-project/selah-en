@@ -1,99 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And this ⟨is⟩ the writing that was inscribed: MENE, MENE, TEKEL, and PARSIN.",
-  "tokens": [
+  "ref": "daniel 5:25",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ודנה",
-      "gloss": "And this"
+      "kind": "wordplay",
+      "subject": "מנא מנא תקל ופרסין",
+      "rationale": "Each inscription word is both a weight (mina, mina, shekel, half-minas) and an Aramaic verb played out in vv. 26–28 (numbered, weighed, divided); the weights are transliterated to keep the pun visible."
     },
     {
-      "surface": "כתבא",
-      "gloss": "the writing"
+      "kind": "secret",
+      "subject": "the writing",
+      "rationale": "The inscription's meaning is sealed until Daniel interprets it (vv. 26–28)."
     },
     {
-      "surface": "די",
-      "gloss": "that"
-    },
-    {
-      "surface": "רשים",
-      "gloss": "inscribed"
-    },
-    {
-      "surface": "מנא",
-      "gloss": "MENE",
-      "readings": [
-        "MENE",
-        "numbered"
-      ],
-      "held_by": {
-        "MENE": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "numbered": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מנא",
-      "gloss": "MENE",
-      "readings": [
-        "MENE",
-        "numbered"
-      ],
-      "held_by": {
-        "MENE": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "numbered": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תקל",
-      "gloss": "TEKEL",
-      "readings": [
-        "TEKEL",
-        "weighed"
-      ],
-      "held_by": {
-        "TEKEL": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "weighed": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ופרסין",
-      "gloss": "and PARSIN",
-      "readings": [
-        "and PARSIN",
-        "and divided"
-      ],
-      "held_by": {
-        "and PARSIN": [
-          "v1",
-          "v3"
-        ],
-        "and divided": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "measurement",
+      "subject": "mene, tekel, upharsin",
+      "rationale": "The words are units of weight: mina (~0.6 kg), shekel (~11.5 g), half-minas."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And this is the writing that was inscribed: mene, mene, tekel, and upharsin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "baae4719224039a02c7808b7fcf4f8b7c819880f2afc7c51e59e03859673b811",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/5\/25-28.1791195287235.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּדְנָ֥ה",
+      "gloss": "And this",
+      "sense": null
+    },
+    {
+      "surface": "כְתָבָ֖א",
+      "gloss": "the writing",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּ֣י",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "רְשִׁ֑ים",
+      "gloss": "was inscribed",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְנֵ֥א",
+      "gloss": "mene",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְנֵ֖א",
+      "gloss": "mene",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּקֵ֥ל",
+      "gloss": "tekel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפַרְסִֽין",
+      "gloss": "and upharsin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:14:47.236279924Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "This ⟨is⟩ my resting-place; forever, forever; here I will sit, for I have desired her.",
+  "ref": "psalms 132:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זאת and מנוחתי."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אותיה \/ אוה",
+      "rationale": "v.14 'I have desired it' answers v.13 'He desired it' — the same root repeated across the divider."
+    }
+  ],
+  "translation": "“This is My resting-place forever; here I will dwell, for I have desired it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "458a969761a7145c62e072ea48732fe676c09b27a9aea847e2b151394259d10e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/13-16.1791193549522.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "זאת",
+      "surface": "זֹאת",
       "gloss": "This"
     },
     {
-      "surface": "מנוחתי",
-      "gloss": "my resting-place",
-      "readings": [
-        "my resting-place",
-        "my rest"
-      ]
+      "surface": "מְנוּחָתִי",
+      "gloss": "is My resting-place",
+      "sense": "S1"
     },
     {
-      "surface": "עדי",
-      "gloss": "forever"
+      "surface": "עֲדֵי",
+      "gloss": "unto",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "forever"
+      "surface": "עַד",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "פה",
-      "gloss": "here"
+      "surface": "פֹּה",
+      "gloss": "here",
+      "sense": "S1"
     },
     {
-      "surface": "אשב",
-      "gloss": "I will sit",
-      "readings": [
-        "I will sit",
-        "I will dwell"
-      ],
-      "held_by": {
-        "I will sit": [
-          "v2",
-          "en4"
-        ],
-        "I will dwell": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אֵשֵׁב",
+      "gloss": "I will dwell",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "אותיה",
-      "gloss": "I have desired her"
+      "surface": "אִוִּיתִיהָ",
+      "gloss": "I have desired it",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:49.523512097Z",
+  "model": "glm-5.3"
 }

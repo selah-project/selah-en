@@ -1,40 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "If I called and he answered me, I would not believe that he gave ear to my voice.",
-  "tokens": [
+  "ref": "job 9:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
-    },
-    {
-      "surface": "קראתי",
-      "gloss": "I called"
-    },
-    {
-      "surface": "ויענני",
-      "gloss": "and he answered me"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אאמין",
-      "gloss": "I would believe"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "יאזין",
-      "gloss": "he gave ear"
-    },
-    {
-      "surface": "קולי",
-      "gloss": "my voice"
+      "kind": "crux",
+      "subject": "that he was listening",
+      "rationale": "כי read as 'that' with the infinitive-like imperfect, vs 'if' — 'I would not believe if he listened'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If I called and he answered me, I would not believe that he was listening to my voice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ba20ade314b2cbeae942cd2ff7bca1588ad13d03cd814c2b31e03de7db0260b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/9\/13-16.1791194217965.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "קָרָ֥אתִי",
+      "gloss": "I called",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיַּעֲנֵ֑נִי",
+      "gloss": "and he answered me",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַ֝אֲמִ֗ין",
+      "gloss": "I would believe",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יַאֲזִ֥ין",
+      "gloss": "he was listening",
+      "readings": [
+        "he was listening",
+        "he inclined his ear"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹלִֽי",
+      "gloss": "my voice",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:57.967005256Z",
+  "model": "glm-5.3"
 }

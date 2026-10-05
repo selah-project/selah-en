@@ -1,74 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Fire and hail, snow and mist, stormy wind doing his word —",
-  "tokens": [
+  "ref": "psalms 148:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 148,
+  "notes": [
     {
-      "surface": "אש",
-      "gloss": "Fire"
+      "kind": "crux",
+      "subject": "smoke",
+      "rationale": "קִיטֹור as 'clouds\/mist' (KJV 'vapour') vs 'smoke' — only three other occurrences, all smoke of a furnace."
     },
     {
-      "surface": "וברד",
-      "gloss": "and hail"
-    },
-    {
-      "surface": "שלג",
-      "gloss": "snow"
-    },
-    {
-      "surface": "וקיטור",
-      "gloss": "and mist"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "wind",
-      "readings": [
-        "wind",
-        "breath",
-        "spirit"
-      ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "סערה",
-      "gloss": "stormy"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "doing"
-    },
-    {
-      "surface": "דברו",
-      "gloss": "his word",
-      "readings": [
-        "his word",
-        "his matter"
-      ],
-      "held_by": {
-        "his word": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his matter": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "רוח סערה עשה",
+      "rationale": "feminine participle 'doing' agrees with the storm-wind — the weather itself is the servant of the word."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "fire and hail, snow and smoke, storm-wind doing his word,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe7b24c4f3b77fe488ab1cad6cb6fa06f67474910403de65d06d98d2126b16d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/148\/5-8.1791193661277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֣שׁ",
+      "gloss": "fire",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֭בָרָד",
+      "gloss": "and hail",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁ֣לֶג",
+      "gloss": "snow",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקִיטֹ֑ור",
+      "gloss": "and smoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "ר֥וּחַ",
+      "gloss": "wind of",
+      "sense": "S1",
+      "readings": [
+        "wind of",
+        "breath of",
+        "spirit of"
+      ]
+    },
+    {
+      "surface": "סְ֝עָרָ֗ה",
+      "gloss": "storm",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹשָׂ֥ה",
+      "gloss": "doing",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבָרֽוֹ",
+      "gloss": "his word",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:41.278759452Z",
+  "model": "glm-5.3"
 }

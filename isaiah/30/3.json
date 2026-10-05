@@ -1,59 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And the strength of Pharaoh shall be for you for shame, and the refuge in the shadow of Egypt for disgrace.",
-  "tokens": [
+  "ref": "isaiah 30:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "והיה",
-      "gloss": "And it shall be"
+      "kind": "hapax",
+      "subject": "החסות",
+      "rationale": "Feminine noun 'refuge' occurs only here in the Tanakh."
     },
     {
-      "surface": "לכם",
+      "kind": "wordplay",
+      "subject": "v.2 → v.3",
+      "rationale": "Each sought refuge of v.2 returns inverted as its shame in v.3 — stronghold→shame, shadow→disgrace."
+    }
+  ],
+  "translation": "And the stronghold of Pharaoh shall become for you shame, and the refuge in the shadow of Egypt disgrace.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c2794a62124ebbe6d36266635810cec85758fa6cf480441851e9995451016918",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/30\/1-4.1791188429132.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָיָ֥ה",
+      "gloss": "And it shall become"
+    },
+    {
+      "surface": "לָכֶ֛ם",
       "gloss": "for you"
     },
     {
-      "surface": "מעוז",
-      "gloss": "the strength of",
-      "readings": [
-        "the strength of",
-        "the stronghold of"
-      ],
-      "held_by": {
-        "the strength of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the stronghold of": [
-          "en4"
-        ]
-      }
+      "surface": "מָע֥וֹז",
+      "gloss": "the stronghold of",
+      "sense": "S1"
     },
     {
-      "surface": "פרעה",
-      "gloss": "Pharaoh"
+      "surface": "פַּרְעֹ֖ה",
+      "gloss": "Pharaoh",
+      "sense": "S1"
     },
     {
-      "surface": "לבשת",
-      "gloss": "for shame"
+      "surface": "לְבֹ֑שֶׁת",
+      "gloss": "for shame",
+      "sense": "S1"
     },
     {
-      "surface": "והחסות",
-      "gloss": "and the refuge"
+      "surface": "וְהֶחָס֥וּת",
+      "gloss": "and the refuge",
+      "sense": "S1"
     },
     {
-      "surface": "בצל",
-      "gloss": "in the shadow of"
+      "surface": "בְּצֵ֥ל",
+      "gloss": "in the shadow of",
+      "sense": "S1"
     },
     {
-      "surface": "מצרים",
-      "gloss": "Egypt"
+      "surface": "מִצְרַ֖יִם",
+      "gloss": "Egypt",
+      "sense": "S1"
     },
     {
-      "surface": "לכלמה",
-      "gloss": "for disgrace"
+      "surface": "לִכְלִמָּֽה",
+      "gloss": "for disgrace",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:29.135606069Z",
+  "model": "glm-5.3"
 }

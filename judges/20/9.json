@@ -1,45 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And now this is the word which we will do to Gibeah; against it by lot.",
+  "ref": "judges 20:9",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זה and הדבר"
+    },
+    {
+      "kind": "elision",
+      "subject": "עליה בגורל",
+      "rationale": "No verb; a colon supplies the force — 'against it, by lot'"
+    },
+    {
+      "kind": "crux",
+      "subject": "against it by lot",
+      "rationale": "עליה בגורל read as 'we will go up against it by lot' (verb supplied from context) vs 'concerning it by lot'"
+    },
+    {
+      "kind": "measurement",
+      "subject": "lot",
+      "rationale": "Decision by casting lots"
+    }
+  ],
+  "translation": "And now, this is the thing we will do to Gibeah: against it, by lot.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d12dacea8f857e8c2641397193bc2015a502f21183a49d26b1bb355f2977bc11",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/20\/9-12.1791185269803.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
       "surface": "ועתה",
-      "gloss": "And now"
+      "gloss": "And now",
+      "sense": "S1"
     },
     {
       "surface": "זה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "הדבר",
-      "gloss": "the word",
-      "readings": [
-        "the word",
-        "the thing"
-      ],
-      "held_by": {
-        "the word": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the thing": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "is the thing",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "נעשה",
-      "gloss": "we will do"
+      "gloss": "we will do",
+      "sense": "S1"
     },
     {
       "surface": "לגבעה",
-      "gloss": "to Gibeah"
+      "gloss": "to Gibeah",
+      "sense": "S1"
     },
     {
       "surface": "עליה",
@@ -47,9 +74,10 @@
     },
     {
       "surface": "בגורל",
-      "gloss": "by lot"
+      "gloss": "by lot",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:27:49.803992667Z",
+  "model": "glm-5.3"
 }

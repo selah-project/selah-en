@@ -1,60 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Those who hate you shall be clothed with shame, and ⟨the⟩ tent of ⟨the⟩ wicked is not.",
-  "tokens": [
+  "ref": "job 8:22",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "שנאיך",
-      "gloss": "Those who hate you",
-      "readings": [
-        "Those who hate you",
-        "those hating you"
-      ],
-      "held_by": {
-        "Those who hate you": [
-          "v2",
-          "v3"
-        ],
-        "those hating you": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "in",
+      "rationale": "Hebrew lacks the preposition; לבש takes shame as a bare object"
     },
     {
-      "surface": "ילבשו",
-      "gloss": "shall be clothed with"
-    },
-    {
-      "surface": "בשת",
-      "gloss": "shame"
-    },
-    {
-      "surface": "ואהל",
-      "gloss": "and ⟨the⟩ tent"
-    },
-    {
-      "surface": "רשעים",
-      "gloss": "of ⟨the⟩ wicked"
-    },
-    {
-      "surface": "איננו",
-      "gloss": "is not",
-      "readings": [
-        "is not",
-        "shall be no more"
-      ],
-      "held_by": {
-        "is not": [
-          "en4"
-        ],
-        "shall be no more": [
-          "v2",
-          "v3",
-          "v1"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "clothed in shame",
+      "rationale": "Hebrew idiom לבש בשת kept literally; shame worn as a garment"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Those who hate you will be clothed in shame, and the tent of the wicked will be no more.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b4e82af3750fb7261925a33828a446472b5b8b7c6538fb839bef5627d5d2d0b8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/8\/21-22.1791194200135.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֹׂנְאֶיךָ",
+      "gloss": "Those who hate you",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלְבְּשׁוּ",
+      "gloss": "will be clothed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹשֶׁת",
+      "gloss": "in shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֹהֶל",
+      "gloss": "and the tent of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵינֶנּוּ",
+      "gloss": "will be no more",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:40.136580420Z",
+  "model": "glm-5.3"
 }

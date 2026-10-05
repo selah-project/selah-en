@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Then at daybreak the king rose in the light, and in haste went to the den of lions.",
-  "tokens": [
+  "ref": "daniel 6:20",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "באדין",
-      "gloss": "Then"
+      "kind": "hapax",
+      "subject": "בִּשְׁפַרְפָּרָא",
+      "rationale": "the doubled noun 'early dawn' occurs only here"
     },
     {
-      "surface": "מלכא",
-      "gloss": "the king"
+      "kind": "hapax",
+      "subject": "בְּנָגְהָא",
+      "rationale": "the Aramaic noun 'dawn' occurs only here, paired with the previous hapax for emphasis"
     },
     {
-      "surface": "בשפרפרא",
-      "gloss": "at daybreak"
-    },
-    {
-      "surface": "יקום",
-      "gloss": "rose"
-    },
-    {
-      "surface": "בנגהא",
-      "gloss": "in the light"
-    },
-    {
-      "surface": "ובהתבהלה",
-      "gloss": "and in haste"
-    },
-    {
-      "surface": "לגבא",
-      "gloss": "to the den",
-      "readings": [
-        "to the den",
-        "to the pit"
-      ]
-    },
-    {
-      "surface": "די",
-      "gloss": "of"
-    },
-    {
-      "surface": "אריותא",
-      "gloss": "the lions"
-    },
-    {
-      "surface": "אזל",
-      "gloss": "went"
+      "kind": "wordplay",
+      "subject": "שְׁפַרְפָּר \/ נָגְהָא",
+      "rationale": "two dawn-words reduplicated and stacked; English flattens to one time-of-day phrase"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Then the king rose very early at the break of dawn and in haste went to the pit of the lions.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b8fafc02a474a48598e08759f2eba94d18df5f12945f7dd5872998211e5a1911",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/6\/17-20.1791195325432.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֵּאדַ֣יִן",
+      "gloss": "Then",
+      "sense": null
+    },
+    {
+      "surface": "מַלְכָּ֔א",
+      "gloss": "the king",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּשְׁפַרְפָּרָ֖א",
+      "gloss": "very early",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְק֣וּם",
+      "gloss": "arose",
+      "sense": null
+    },
+    {
+      "surface": "בְּנָגְהָ֑א",
+      "gloss": "at dawn",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְהִתְבְּהָלָ֔ה",
+      "gloss": "and in haste",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְגֻבָּ֥א",
+      "gloss": "to the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּֽי",
+      "gloss": "of",
+      "sense": null
+    },
+    {
+      "surface": "אַרְיָוָתָ֖א",
+      "gloss": "the lions",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲזַֽל",
+      "gloss": "went",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:15:25.433912399Z",
+  "model": "glm-5.3"
 }

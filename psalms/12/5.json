@@ -1,73 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Who have said, “With our tongue we will prevail; our lips ⟨את⟩ ⟨are⟩ with us — who is lord over us?”",
-  "tokens": [
+  "ref": "psalms 12:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "Who"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks copula between מי אדון and לנו"
     },
     {
-      "surface": "אמרו",
-      "gloss": "have said"
-    },
-    {
-      "surface": "ללשננו",
-      "gloss": "with our tongue"
-    },
-    {
-      "surface": "נגביר",
-      "gloss": "we will prevail",
-      "readings": [
-        "we will prevail",
-        "we will make strong"
-      ],
-      "held_by": {
-        "we will prevail": [
-          "v2",
-          "en4"
-        ],
-        "we will make strong": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שפתינו",
-      "gloss": "our lips"
-    },
-    {
-      "surface": "אתנו",
-      "gloss": "⟨את⟩ with us"
-    },
-    {
-      "surface": "מי",
-      "gloss": "who"
-    },
-    {
-      "surface": "אדון",
-      "gloss": "lord"
-    },
-    {
-      "surface": "לנו",
-      "gloss": "over us",
-      "readings": [
-        "over us",
-        "to us"
-      ],
-      "held_by": {
-        "over us": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to us": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "אתנו",
+      "rationale": "idiomatic 'our lips are with us' = our lips are our own instrument; rendered literally with marker"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "who said, “With our tongue we will prevail; our lips are ⟨את⟩ with us — who is lord over us?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f8653f44cd2032079299885ab7386f105d94d7f4e741303c31244714803d916",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/12\/5-8.1791192441414.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "אָמְרוּ",
+      "gloss": "said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִלְשֹׁנֵנוּ",
+      "gloss": "with our tongue",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַגְבִיר",
+      "gloss": "we will prevail",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂפָתֵינוּ",
+      "gloss": "our lips",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתָּנוּ",
+      "gloss": "⟨את⟩ with us",
+      "sense": null
+    },
+    {
+      "surface": "מִי",
+      "gloss": "who",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדוֹן",
+      "gloss": "is lord",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָנוּ",
+      "gloss": "over us",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:21.415433497Z",
+  "model": "glm-5.3"
 }

@@ -1,81 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Much have they afflicted me from my youth, but they have not prevailed against me.",
-  "tokens": [
+  "ref": "psalms 129:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 129,
+  "notes": [
     {
-      "surface": "רבת",
-      "gloss": "Much",
-      "readings": [
-        "Much",
-        "Many a time"
-      ],
-      "held_by": {
-        "Much": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Many a time": [
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "לא יכלו לי",
+      "rationale": "literally 'they could not to me'; English needs 'prevail over'."
     },
     {
-      "surface": "צררוני",
-      "gloss": "have they afflicted me",
-      "readings": [
-        "have they afflicted me",
-        "have they cramped me"
-      ],
-      "held_by": {
-        "have they afflicted me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "have they crammed me": [
-          "en4"
-        ]
-      },
-      "disputed": false
-    },
-    {
-      "surface": "מנעורי",
-      "gloss": "from my youth"
-    },
-    {
-      "surface": "גם",
-      "gloss": "but"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יכלו",
-      "gloss": "have they prevailed",
-      "readings": [
-        "have they prevailed",
-        "they were able"
-      ],
-      "held_by": {
-        "have they prevailed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they were able": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לי",
-      "gloss": "against me"
+      "kind": "wordplay",
+      "subject": "refrain",
+      "rationale": "verse 2 repeats verse 1's opening verbatim as a refrain."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Much have they distressed me from my youth — but they could not ⟨prevail over⟩ me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "87d32d6017c12ef732c77269563ea1fdbef6c210c590a432d7d31d288be181c9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/129\/1-4.1791193534945.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רַ֭בַּת",
+      "gloss": "Much",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְרָר֣וּנִי",
+      "gloss": "have they distressed me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנְּעוּרָ֑י",
+      "gloss": "from my youth",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּ֝ם",
+      "gloss": "but",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֥כְלוּ",
+      "gloss": "they could",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִֽי",
+      "gloss": "⟨prevail over⟩ me"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:34.945991291Z",
+  "model": "glm-5.3"
 }

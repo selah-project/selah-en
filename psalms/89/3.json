@@ -1,44 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For I said, forever chesed shall be built; the heavens, you shall establish your faithfulness in them.",
-  "tokens": [
+  "ref": "psalms 89:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "alternative",
+      "subject": "who speaks",
+      "rationale": "The 'I' of verses 2–3 is the psalmist Ethan; from verse 4 it becomes YHWH's own oath — some read verses 3–4 as YHWH's quoted speech throughout."
     },
     {
-      "surface": "אמרתי",
-      "gloss": "I said"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "חסד",
-      "gloss": "chesed"
-    },
-    {
-      "surface": "יבנה",
-      "gloss": "shall be built"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "תכן",
-      "gloss": "you shall establish"
-    },
-    {
-      "surface": "אמונתך",
-      "gloss": "your faithfulness"
-    },
-    {
-      "surface": "בהם",
-      "gloss": "in them"
+      "kind": "substitution",
+      "subject": "בָהֶם folded into the flow",
+      "rationale": "The resumptive 'in them' is absorbed as 'and in the heavens' in English word order; the row keeps it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For I said: forever a chesed will be built, ⟨and in⟩ the heavens you will establish your faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e5eafa3b194d14895671f75e4ef9168c900d6a2654ca65fada9475120c0d9cba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/1-4.1791193151647.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אָמַ֗רְתִּי",
+      "gloss": "I said",
+      "sense": "S1"
+    },
+    {
+      "surface": "ע֭וֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶ֣סֶד",
+      "gloss": "a chesed",
+      "readings": [
+        "a chesed",
+        "a steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יִבָּנֶ֑ה",
+      "gloss": "will be built",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַ֓יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּכִ֖ן",
+      "gloss": "you will establish",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמוּנָתְךָ֣",
+      "gloss": "your faithfulness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָהֶֽם",
+      "gloss": "in them",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:11.648665168Z",
+  "model": "glm-5.3"
 }

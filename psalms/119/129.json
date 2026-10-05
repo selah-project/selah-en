@@ -1,60 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 129,
-  "translation": "Wonders ⟨are⟩ your testimonies; therefore my nefesh keeps them.",
+  "ref": "psalms 119:129",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula for the fronted predicate."
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, the animating self, not the later 'soul'."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The verse addresses YHWH over His testimonies."
+    }
+  ],
+  "translation": "Extraordinary are your testimonies; therefore my nefesh keeps them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a84203b6d524ee8bc64c52c7d0b39990cb1b2b8beedb54233480c0e66dd1c1b7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/129-132.1791193488881.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פלאות",
-      "gloss": "wonders"
+      "surface": "פְּלָא֥וֹת",
+      "gloss": "Extraordinary",
+      "sense": "S1"
     },
     {
-      "surface": "עדותיך",
-      "gloss": "your testimonies"
+      "surface": "עֵדְוֺתֶ֑יךָ",
+      "gloss": "are your testimonies",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "therefore",
+      "sense": null
     },
     {
-      "surface": "כן",
-      "gloss": "therefore"
+      "surface": "כֵ֝֗ן",
+      "gloss": "therefore",
+      "sense": null
     },
     {
-      "surface": "נצרתם",
-      "gloss": "keeps them",
-      "readings": [
-        "keeps them",
-        "has kept them"
-      ],
-      "held_by": {
-        "keeps them": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "has kept them": [
-          "en4"
-        ]
-      }
+      "surface": "נְצָרָ֥תַם",
+      "gloss": "keeps",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִֽׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul"
+        "my self",
+        "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:48.881803904Z",
+  "model": "glm-5.3"
 }

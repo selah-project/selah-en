@@ -1,64 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Lest you learn his road, and you take a snare for your life.",
-  "tokens": [
+  "ref": "proverbs 22:25",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "פן",
-      "gloss": "lest"
+      "kind": "crux",
+      "subject": "ארחתו",
+      "rationale": "Ketiv 'his path' vs qere ארחתיו; also 'learn' vs an old reading 'associate with'."
     },
     {
-      "surface": "תאלף",
-      "gloss": "you learn"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש literally throat\/life-principle; rendered 'throat' to keep the snare's picture."
+    }
+  ],
+  "translation": "lest you learn his path, and take a snare for your throat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5bc8a8b6d0e85a5fc5329448d2aa8a0dc1a568e841d92693b837a1d2cf49c280",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/22\/25-28.1791193962253.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פֶּן",
+      "gloss": "lest",
+      "sense": null
+    },
+    {
+      "surface": "תֶּאֱלַף",
+      "gloss": "you learn",
+      "sense": "S1"
     },
     {
       "surface": "ארחתו",
-      "gloss": "his road",
+      "gloss": "his path",
+      "sense": "S1",
       "readings": [
-        "his road",
-        "his ways"
-      ],
-      "held_by": {
-        "his road": [
-          "v1",
-          "v3"
-        ],
-        "his ways": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "his path",
+        "his caravan"
+      ]
     },
     {
-      "surface": "ולקחת",
-      "gloss": "and you take"
+      "surface": "וְלָקַחְתָּ",
+      "gloss": "and take",
+      "sense": "S1"
     },
     {
-      "surface": "מוקש",
-      "gloss": "a snare"
+      "surface": "מוֹקֵשׁ",
+      "gloss": "a snare",
+      "sense": "S1"
     },
     {
-      "surface": "לנפשך",
-      "gloss": "for your life",
+      "surface": "לְנַפְשֶׁךָ",
+      "gloss": "for your throat",
+      "sense": "S1",
       "readings": [
-        "for your life",
-        "for your soul",
-        "for your throat"
-      ],
-      "held_by": {
-        "for your life": [
-          "v1",
-          "en4"
-        ],
-        "for your soul": [
-          "en4",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "for your throat",
+        "for your life"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:42.253993590Z",
+  "model": "glm-5.3"
 }

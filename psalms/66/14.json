@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Which my lips opened, and my mouth spoke, in my distress to me.",
-  "tokens": [
+  "ref": "psalms 66:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "which"
+      "kind": "addition",
+      "subject": "my",
+      "rationale": "Hebrew suffix on בצר supplied as possessive pronoun in English"
     },
     {
-      "surface": "פצו",
-      "gloss": "opened",
-      "readings": [
-        "opened",
-        "uttered"
-      ],
-      "held_by": {
-        "opened": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "uttered": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שפתי",
-      "gloss": "my lips"
-    },
-    {
-      "surface": "ודבר",
-      "gloss": "and spoke"
-    },
-    {
-      "surface": "פי",
-      "gloss": "my mouth"
-    },
-    {
-      "surface": "בצר",
-      "gloss": "in my distress"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
+      "kind": "substitution",
+      "subject": "distress",
+      "rationale": "צר is literally a 'narrow\/tight place', metaphor for trouble"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "which my lips opened, and my mouth spoke in my distress.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa981b9e991da459ea60f4c13a15f9dfd81185e9c13684e440a28c3d7c816c37",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/13-16.1791192886983.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "פָּצ֥וּ",
+      "gloss": "opened",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂפָתָ֑י",
+      "gloss": "my lips",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדִבֶּר",
+      "gloss": "and spoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִ֝֗י",
+      "gloss": "my mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּצַּ֣ר",
+      "gloss": "in my distress",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִֽי",
+      "gloss": "to me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:46.983854508Z",
+  "model": "glm-5.3"
 }

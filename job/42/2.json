@@ -1,70 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "I know that You are able ⟨to do⟩ all, and that no plan can be cut off from You.",
-  "tokens": [
+  "ref": "job 42:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
     {
-      "surface": "ידעת",
-      "gloss": "I know"
+      "kind": "crux",
+      "subject": "I know",
+      "rationale": "ketiv ידעת 'You know' (2ms) vs qere ידעתי 'I know' (1cs); the qere, Job's confession, is rendered."
     },
     {
-      "surface": "כי",
-      "gloss": "that"
+      "kind": "alternative",
+      "subject": "You know",
+      "rationale": "ketiv reads as Job's acknowledgment addressed to YHWH: 'You know that You can do all.'"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "תוכל",
-      "gloss": "You are able"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "יבצר",
-      "gloss": "can be cut off",
-      "readings": [
-        "can be cut off",
-        "is withheld"
-      ],
-      "held_by": {
-        "can be cut off": [
-          "v1",
-          "v3"
-        ],
-        "is withheld": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ממך",
-      "gloss": "from You"
-    },
-    {
-      "surface": "מזמה",
-      "gloss": "plan",
-      "readings": [
-        "plan",
-        "a purpose"
-      ],
-      "held_by": {
-        "plan": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a purpose": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "is beyond You",
+      "rationale": "יבצר niphal literally 'be cut off\/inaccessible'; rendered 'is beyond (your capacity)' per sense 'beyond someone's capacity to handle'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I know that You can do all, and that no plan is beyond You.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3db97721851cdb2b9f21d1a6aefc8847c9e0f29297fc0099df4aaa3bd08320b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/42\/1-4.1791194656204.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָדַעְתָּ",
+      "gloss": "I know",
+      "sense": null
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "כֹּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "תּוּכָ֑ל",
+      "gloss": "You can do",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and no",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִבָּצֵ֖ר",
+      "gloss": "is beyond",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּ֚ךָּ",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "מְזִמָּֽה",
+      "gloss": "plan",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:16.205343496Z",
+  "model": "glm-5.3"
 }

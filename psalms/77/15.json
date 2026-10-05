@@ -1,36 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "You ⟨are⟩ ⟨the⟩ El doing wonders; You have made known Your strength among ⟨the⟩ peoples.",
+  "ref": "psalms 77:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula; 'You the El who works wonder' is the bare text"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "direct second-person address to God continues from verse 14"
+    }
+  ],
+  "translation": "You are the El who works wonder; you made known among the peoples your strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef32cbbbc3b5473c714ba3a9452bfae3ddb58e696ae79948c03405b1bcb35766",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/13-16.1791193028180.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אתה",
+      "surface": "אַתָּ֣ה",
       "gloss": "You"
     },
     {
-      "surface": "האל",
-      "gloss": "⟨the⟩ El"
+      "surface": "הָ֭אֵל",
+      "gloss": "the El",
+      "sense": "S1"
     },
     {
-      "surface": "עשה",
-      "gloss": "doing"
+      "surface": "עֹ֣שֵׂה",
+      "gloss": "who works",
+      "sense": "S1"
     },
     {
-      "surface": "פלא",
-      "gloss": "wonders"
+      "surface": "פֶּ֑לֶא",
+      "gloss": "wonder",
+      "sense": "S1"
     },
     {
-      "surface": "הודעת",
-      "gloss": "You have made known"
+      "surface": "הוֹדַ֖עְתָּ",
+      "gloss": "you made known",
+      "sense": null
     },
     {
-      "surface": "בעמים",
-      "gloss": "among ⟨the⟩ peoples"
+      "surface": "בָּעַמִּ֣ים",
+      "gloss": "among the peoples",
+      "sense": "S1"
     },
     {
-      "surface": "עזך",
-      "gloss": "Your strength"
+      "surface": "עֻזֶּֽךָ",
+      "gloss": "your strength",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:08.180856398Z",
+  "model": "glm-5.3"
 }

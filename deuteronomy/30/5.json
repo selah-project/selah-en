@@ -1,71 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And YHWH your Elohim will bring you into the land which your fathers possessed, and you shall possess it; and he will do you good, and multiply you above your fathers.",
+  "ref": "deuteronomy 30:5",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "her",
+      "rationale": "Hebrew feminine suffix on the land, carried as 'her' to keep the gender"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-masculine-singular address throughout, Israel as covenant addressee"
+    }
+  ],
+  "translation": "And YHWH your Elohim will bring you to the land that your fathers possessed, and you will possess her; and he will do you good and increase you beyond your fathers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5238fd1a52df80873323881858f4ee316923e36b22accc04b8fc9701ebc13b61",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/30\/5-8.1791184159167.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "והביאך",
-      "gloss": "and he will bring you"
+      "gloss": "and will bring you",
+      "sense": null
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "into"
+      "gloss": "to",
+      "sense": null
     },
     {
       "surface": "הארץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "ירשו",
-      "gloss": "possessed"
+      "gloss": "possessed",
+      "sense": "S1"
     },
     {
       "surface": "אבתיך",
-      "gloss": "your fathers"
+      "gloss": "your fathers",
+      "sense": "S1"
     },
     {
       "surface": "וירשתה",
-      "gloss": "and you shall possess it"
+      "gloss": "and you will possess her",
+      "sense": "S1"
     },
     {
       "surface": "והיטבך",
-      "gloss": "and he will do you good"
+      "gloss": "and he will do you good",
+      "sense": "S1"
     },
     {
       "surface": "והרבך",
-      "gloss": "and multiply you"
+      "gloss": "and increase you",
+      "sense": null
     },
     {
       "surface": "מאבתיך",
-      "gloss": "above your fathers"
+      "gloss": "beyond your fathers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:09:19.169355938Z",
+  "model": "glm-5.3"
 }

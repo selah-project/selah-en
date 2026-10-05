@@ -1,44 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And David heard, and sent ⟨את⟩ Joab and ⟨את⟩ all the host of the mighty men.",
+  "ref": "1-chronicles 19:8",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "all the army of the mighty men",
+      "rationale": "2 Sam 10:7 has הַצָּבָא, 'all the army the mighty men', with the article; Chronicles lacks it"
+    }
+  ],
+  "translation": "And David heard, and he sent ⟨את⟩ Joab and ⟨את⟩ all the army of the mighty men.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5af4fa65ccbc6ac3a3b2839561d7fd5eb881c0944cf36e33fa3d1de4f3e82083",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/19\/5-8.1791196337069.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "וישמע",
-      "gloss": "and heard"
+      "surface": "וַיִּשְׁמַע",
+      "gloss": "And heard"
     },
     {
-      "surface": "דויד",
-      "gloss": "David"
+      "surface": "דָּוִיד",
+      "gloss": "David",
+      "sense": "S1"
     },
     {
-      "surface": "וישלח",
-      "gloss": "and sent"
+      "surface": "וַיִּשְׁלַח",
+      "gloss": "and he sent",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "Joab"
     },
     {
-      "surface": "יואב",
-      "gloss": "Joab"
+      "surface": "יוֹאָב",
+      "gloss": "Joab",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "all the army of the mighty men"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "צבא",
-      "gloss": "host"
+      "surface": "צָבָא",
+      "gloss": "the army of",
+      "sense": "S1"
     },
     {
-      "surface": "הגבורים",
-      "gloss": "of the mighty men"
+      "surface": "הַגִּבּוֹרִים",
+      "gloss": "the mighty men",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:32:17.071255502Z",
+  "model": "glm-5.3"
 }

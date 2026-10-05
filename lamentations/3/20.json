@@ -1,47 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Remembering, my nefesh remembers, and bows down upon me.",
+  "ref": "lamentations 3:20",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "זכור תזכור",
+      "rationale": "infinitive absolute doubled for intensity — 'remembering you shall remember' — collapsing it to 'surely remember' loses the doubling"
+    },
+    {
+      "kind": "crux",
+      "subject": "ותשיח",
+      "rationale": "ketiv ותשיח vs qere ותשוח — hiphil 'bow down' vs qal 'sink down'; both render the self sinking under remembered grief"
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש literally throat\/life-principle; 'soul' imported would narrow it"
+    }
+  ],
+  "translation": "Remembering you shall remember, and my nefesh is bowed down within me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89cb629f5f1406131422e691b3381a142533ea2e1d1da664697edbb9c87aa20a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/17-20.1791194696432.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "זכור",
-      "gloss": "Remembering"
+      "surface": "זָכוֹר",
+      "gloss": "Remembering",
+      "sense": "S1"
     },
     {
-      "surface": "תזכור",
-      "gloss": "remembers"
+      "surface": "תִּזְכּוֹר",
+      "gloss": "you shall remember",
+      "sense": "S1"
     },
     {
-      "surface": "ותשיח",
-      "gloss": "and bows down"
+      "surface": "וְתָשִׁיחַ",
+      "gloss": "and is bowed down",
+      "readings": [
+        "and is bowed down",
+        "and sinks down"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "upon me"
+      "surface": "עָלַי",
+      "gloss": "upon me",
+      "sense": null
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul",
+        "my throat",
         "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:56.433450434Z",
+  "model": "glm-5.3"
 }

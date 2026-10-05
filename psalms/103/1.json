@@ -1,77 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Of David. Bless, my soul, ⟨את⟩ YHWH, and all my inward parts ⟨את⟩ his holy name.",
+  "ref": "psalms 103:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "Bless, my soul",
+      "rationale": "The psalm opens by summoning the speaker's own soul to praise."
+    },
+    {
+      "kind": "you",
+      "subject": "my soul",
+      "rationale": "The addressee is the psalmist's own soul, addressed as feminine singular."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ברכי נפשי … ברכי נפשי",
+      "rationale": "Verses 1–2 repeat the identical refrain, an inclusio lost on a reader skimming past."
+    }
+  ],
+  "translation": "Of David. Bless, my soul, ⟨את⟩ YHWH, and all my inward parts ⟨את⟩ the name of His holiness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1eb16ef1705cb6d560836e6fac44f129457ed565dc510d07457237368ed8fa51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/1-4.1791193263668.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לדוד",
-      "gloss": "Of David"
+      "surface": "לְדָוִד",
+      "gloss": "Of David",
+      "sense": "S1"
     },
     {
-      "surface": "ברכי",
-      "gloss": "bless"
+      "surface": "בָּרֲכִי",
+      "gloss": "Bless",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my life"
+        "my very self"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
-      "gloss": "and all"
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
     },
     {
-      "surface": "קרבי",
+      "surface": "קְרָבַי",
       "gloss": "my inward parts",
-      "readings": [
-        "my inward parts",
-        "that is within me"
-      ],
-      "held_by": {
-        "my inward parts": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "that is within me": [
-          "v1"
-        ]
-      }
+      "sense": null
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the name of His holiness",
+      "sense": null
     },
     {
-      "surface": "שם",
-      "gloss": "the name of"
+      "surface": "שֵׁם",
+      "gloss": "the name",
+      "sense": "S1"
     },
     {
-      "surface": "קדשו",
-      "gloss": "his holy"
+      "surface": "קָדְשׁוֹ",
+      "gloss": "of His holiness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:03.669124122Z",
+  "model": "glm-5.3"
 }

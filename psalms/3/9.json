@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "To YHWH ⟨belongs⟩ the salvation; upon your people ⟨is⟩ your blessing. Selah.",
-  "tokens": [
+  "ref": "psalms 3:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "ליהוה",
-      "gloss": "To YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; copula supplied twice"
     },
     {
-      "surface": "הישועה",
-      "gloss": "the salvation",
-      "readings": [
-        "the salvation",
-        "the victory"
-      ],
-      "held_by": {
-        "the salvation": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the victory": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "Selah",
+      "rationale": "musical pause marker, transliterated not translated"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "your people"
-    },
-    {
-      "surface": "ברכתך",
-      "gloss": "your blessing"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalmist addresses YHWH directly in second person"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To YHWH ⟨is⟩ the deliverance; upon Your people ⟨is⟩ Your blessing. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6be15f5913f78b4e6cc7a3777eec0c3c1ab2a73b73036604a76fc5dfc4ed5f12",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/3\/9-9.1791192332409.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַיהוָ֥ה",
+      "gloss": "To YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְשׁוּעָ֑ה",
+      "gloss": "the deliverance",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַֽל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "עַמְּךָ֖",
+      "gloss": "Your people",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּרְכָתֶ֣ךָ",
+      "gloss": "Your blessing",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶּֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:32.410206835Z",
+  "model": "glm-5.3"
 }

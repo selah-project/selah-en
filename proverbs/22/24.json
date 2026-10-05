@@ -1,70 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "Do not befriend ⟨את⟩ a possessor of anger, and with ⟨את⟩ a man of heat do not go.",
+  "ref": "proverbs 22:24",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "with",
+      "rationale": "את here is the preposition 'with', preposition-like in sense yet carried as the ⟨את⟩ marker with 'with' supplied"
+    },
+    {
+      "kind": "substitution",
+      "subject": "an owner of anger",
+      "rationale": "בַּעַל אַף is literally 'a possessor of nose\/nostril', anger pictured as flared nostrils; אַף is the organ"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אף \/ חמות",
+      "rationale": "parallel pair: nostril-anger against heat-anger (plural of intensity, 'heats')"
+    },
+    {
+      "kind": "you",
+      "subject": "to the son",
+      "rationale": "second-person prohibitions address the hearer directly"
+    }
+  ],
+  "translation": "Do not associate with ⟨את⟩ an owner of anger, and with ⟨את⟩ a man of heats do not come.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ca1497be183b83c25540f412dd5e92521733cdaf7ca3b44f0d49f496fa9586a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/22\/21-24.1791193973952.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אל",
-      "gloss": "Do not"
-    },
-    {
-      "surface": "תתרע",
-      "gloss": "befriend"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "בעל",
-      "gloss": "a possessor of"
-    },
-    {
-      "surface": "אף",
-      "gloss": "anger",
-      "readings": [
-        "anger",
-        "nostrils",
-        "wrath"
-      ],
-      "held_by": {
-        "anger": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "nostrils": [
-          "v1"
-        ],
-        "wrath": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "חמות",
-      "gloss": "of heat",
-      "readings": [
-        "of heat",
-        "of fury"
-      ]
-    },
-    {
-      "surface": "לא",
+      "surface": "אַל",
       "gloss": "not"
     },
     {
-      "surface": "תבוא",
-      "gloss": "go"
+      "surface": "תִּתְרַע",
+      "gloss": "associate",
+      "readings": [
+        "associate",
+        "befriend"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "marks": "an owner of anger"
+    },
+    {
+      "surface": "בַּ֣עַל",
+      "gloss": "an owner",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֑ף",
+      "gloss": "of anger",
+      "readings": [
+        "of anger",
+        "of nostril-flare"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and with ⟨את⟩",
+      "marks": "a man of heats"
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "a man"
+    },
+    {
+      "surface": "חֵ֝מוֹת",
+      "gloss": "of heats",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָבֽוֹא",
+      "gloss": "come",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:53.953986864Z",
+  "model": "glm-5.3"
 }

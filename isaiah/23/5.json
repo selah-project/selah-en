@@ -1,61 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "As the report to Egypt, they shall writhe; as the report of Tyre.",
-  "tokens": [
+  "ref": "isaiah 23:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "כאשר",
-      "gloss": "as"
+      "kind": "wordplay",
+      "subject": "חוּל",
+      "rationale": "the root of יָחִילוּ is the childbirth word — Egypt writhes like a woman in labor."
     },
     {
-      "surface": "שמע",
-      "gloss": "report",
-      "readings": [
-        "report",
-        "rumor"
-      ],
-      "held_by": {
-        "report": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "rumor": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "למצרים",
-      "gloss": "to Egypt",
-      "readings": [
-        "to Egypt",
-        "concerning Egypt"
-      ],
-      "held_by": {
-        "to Egypt": [
-          "en4"
-        ],
-        "concerning Egypt": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "יחילו",
-      "gloss": "they shall writhe"
-    },
-    {
-      "surface": "כשמע",
-      "gloss": "as the report"
-    },
-    {
-      "surface": "צר",
-      "gloss": "Tyre"
+      "kind": "idiom",
+      "subject": "כְּשֵׁמַע צֹר",
+      "rationale": "Hebrew 'as the report of Tyre' = 'as they did at Tyre's report', rendered with an English preposition."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When the report came to Egypt, they writhed as at the report of Tyre.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2a83fd390fb2da925ee9c03437d9c3df907e06bf352a3b532e555d0ab82de0dd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/23\/5-8.1791188336795.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּֽאֲשֶׁר",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "שֵׁמַע",
+      "gloss": "the report",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמִצְרָיִם",
+      "gloss": "to Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָחִילוּ",
+      "gloss": "they writhed",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּשֵׁמַע",
+      "gloss": "as at the report",
+      "sense": "S1"
+    },
+    {
+      "surface": "צֹר",
+      "gloss": "of Tyre",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:56.796169952Z",
+  "model": "glm-5.3"
 }

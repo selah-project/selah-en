@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Evening and morning and at noon I will ponder and moan, and He hears my voice.",
+  "ref": "psalms 55:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "I murmur",
+      "rationale": "שׂיח ranges from 'ponder' to 'complain aloud'; here an inarticulate sound of distress."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אשיחה ואהמה",
+      "rationale": "Two sound-verbs of murmuring and moaning in sequence, echoing each other."
+    }
+  ],
+  "translation": "Evening and morning and noon I murmur and I moan, and he hears my voice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03b152669aab35b90a29c9f2a8bccf29a39853d41d925208539e496a6ab7dc34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/17-20.1791192806399.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ערב",
-      "gloss": "Evening"
+      "surface": "עֶ֤רֶב",
+      "gloss": "Evening",
+      "sense": "S1"
     },
     {
-      "surface": "ובקר",
-      "gloss": "and morning"
+      "surface": "וָבֹ֣קֶר",
+      "gloss": "and morning",
+      "sense": "S1"
     },
     {
-      "surface": "וצהרים",
-      "gloss": "and at noon"
+      "surface": "וְ֭צָהֳרַיִם",
+      "gloss": "and noon",
+      "sense": "S1"
     },
     {
       "surface": "אשיחה",
-      "gloss": "I will ponder",
-      "readings": [
-        "I will ponder",
-        "I muse"
-      ],
-      "held_by": {
-        "I will ponder": [
-          "v2",
-          "v3"
-        ],
-        "I muse": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "I murmur",
+      "sense": "S1"
     },
     {
-      "surface": "ואהמה",
-      "gloss": "and moan"
+      "surface": "וְאֶהֱמֶ֑ה",
+      "gloss": "and I moan",
+      "sense": "S1"
     },
     {
-      "surface": "וישמע",
-      "gloss": "and He hears"
+      "surface": "וַיִּשְׁמַ֥ע",
+      "gloss": "and he hears",
+      "sense": null
     },
     {
-      "surface": "קולי",
-      "gloss": "my voice"
+      "surface": "קוֹלִֽי",
+      "gloss": "my voice",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:26.399990339Z",
+  "model": "glm-5.3"
 }

@@ -1,74 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For behold, they lie in wait for my nefesh; mighty ones gather themselves against me — not my transgression, nor my sin, YHWH.",
+  "ref": "psalms 59:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יָגֻרוּ עָלַי עַזִים",
+      "rationale": "Word order allows 'the mighty assemble against me' or with עזים first; some read גור as 'sojourn\/dwell', but hostility fits"
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul' in the Greek sense"
+    },
+    {
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "Verse ends by naming the addressee of the protest of innocence"
+    }
+  ],
+  "translation": "For behold, they lie in wait for my nefesh; the strong gather against me — not my transgression, nor my sin, YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b873c57648c9a31c7d471275119f8833aebded84da6a826e99eb8db4005abe1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/1-4.1791192833957.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "הנה",
-      "gloss": "behold"
+      "surface": "הִנֵּה",
+      "gloss": "behold",
+      "sense": null
     },
     {
-      "surface": "ארבו",
-      "gloss": "they lie in wait"
+      "surface": "אָרְבוּ",
+      "gloss": "they lie in wait",
+      "sense": "S1"
     },
     {
-      "surface": "לנפשי",
+      "surface": "לְנַפְשִׁי",
       "gloss": "for my nefesh",
       "readings": [
         "for my nefesh",
         "for my life",
-        "for my soul"
+        "for my throat"
       ],
-      "held_by": {
-        "for my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "for my life": [
-          "v1",
-          "en4"
-        ],
-        "for my soul": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יגורו",
-      "gloss": "gather themselves"
+      "surface": "יָגֻרוּ",
+      "gloss": "the strong gather",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "against me"
+      "surface": "עָלַי",
+      "gloss": "against me",
+      "sense": null
     },
     {
-      "surface": "עזים",
-      "gloss": "mighty ones"
+      "surface": "עַזִים",
+      "gloss": "the strong",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "פשעי",
-      "gloss": "my transgression"
+      "surface": "פִּשְׁעִי",
+      "gloss": "my transgression",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "nor"
+      "surface": "וְלֹא",
+      "gloss": "nor",
+      "sense": "S1"
     },
     {
-      "surface": "חטאתי",
-      "gloss": "my sin"
+      "surface": "חַטָּאתִי",
+      "gloss": "my sin",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:53.958536305Z",
+  "model": "glm-5.3"
 }

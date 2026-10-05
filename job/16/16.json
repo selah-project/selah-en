@@ -1,63 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "My face is a churning, a reddening from weeping, and upon my eyelids is the shadow of death.",
+  "ref": "job 16:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "חמרמרה",
+      "rationale": "Ketiv (feminine plural) vs qere חמרמרו; the doubled intensive form means deeply reddened or inflamed — 'flushed with weeping' vs 'burning'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "death-shadow",
+      "rationale": "צַלְמָוֶת is a compound of shadow (צל) and death (מות), only in poetry; 'deep darkness' loses the death element."
+    }
+  ],
+  "translation": "My face is flushed red with weeping, and on my eyelids is death-shadow.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6d4888016db6432b9f36c43b86885957f7dad0d3968aa2a3379bc00cf9ff4542",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/13-16.1791194308671.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "פני",
-      "gloss": "My face"
+      "surface": "פָּנַ֣י",
+      "gloss": "my face",
+      "sense": "S1"
     },
     {
       "surface": "חמרמרה",
-      "gloss": "a churning, a reddening",
-      "readings": [
-        "a churning, a reddening",
-        "red"
-      ],
-      "held_by": {
-        "a churning, a reddening": [
-          "en4"
-        ],
-        "red": [
-          "v1",
-          "v3"
-        ]
-      }
+      "gloss": "is flushed red",
+      "sense": "S1"
     },
     {
-      "surface": "מני",
+      "surface": "מִנִּּי",
       "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "בֶּכִּּי",
+      "gloss": "weeping",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַ֖ל",
+      "gloss": "and on",
+      "sense": null
+    },
+    {
+      "surface": "עַפְעַפַּ֣י",
+      "gloss": "my two eyelids",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַלְמָֽוֶת",
+      "gloss": "death-shadow",
+      "sense": "S1",
       "readings": [
-        "from",
-        "with"
-      ],
-      "held_by": {
-        "from": [
-          "en4"
-        ],
-        "with": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "בכי",
-      "gloss": "weeping"
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and upon"
-    },
-    {
-      "surface": "עפעפי",
-      "gloss": "my eyelids"
-    },
-    {
-      "surface": "צלמות",
-      "gloss": "the shadow of death"
+        "death-shadow",
+        "deep darkness"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:28.672989361Z",
+  "model": "glm-5.3"
 }

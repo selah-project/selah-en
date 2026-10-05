@@ -1,61 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "They shall drink their fill of the fatness of your house, and from the stream of your delights you will make them drink.",
-  "tokens": [
+  "ref": "psalms 36:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "ירוין",
-      "gloss": "they shall drink their fill",
-      "readings": [
-        "they shall drink their fill",
-        "they are saturated"
-      ],
-      "held_by": {
-        "they shall drink their fill": [
-          "v2",
-          "v3"
-        ],
-        "they are saturated": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "pleasures",
+      "rationale": "עדנים is literally 'delights, things of extreme joy'"
     },
     {
-      "surface": "מדשן",
-      "gloss": "of the fatness"
-    },
-    {
-      "surface": "ביתך",
-      "gloss": "of your house"
-    },
-    {
-      "surface": "ונחל",
-      "gloss": "and from the stream"
-    },
-    {
-      "surface": "עדניך",
-      "gloss": "of your delights",
-      "readings": [
-        "of your delights",
-        "of your Edens"
-      ],
-      "held_by": {
-        "of your delights": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of your Edens": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תשקם",
-      "gloss": "you make them drink"
+      "kind": "wordplay",
+      "subject": "drink\/give to drink",
+      "rationale": "ירוין and תשקם frame the verse with the same watering root in two voices"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They drink their fill of the fatness of your house, and the stream of your pleasures — you give them to drink.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4511456d58c6c5ada6c69df4e566a33c3afafcdc2703328f21c56d80cb591ea6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/36\/9-12.1791192624431.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִ֭רְוְיֻן",
+      "gloss": "they drink their fill",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדֶּ֣שֶׁן",
+      "gloss": "of the fatness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּיתֶ֑ךָ",
+      "gloss": "of your house",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנַ֖חַל",
+      "gloss": "and the stream",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲדָנֶ֣יךָ",
+      "gloss": "of your pleasures",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּשְׁקֵֽם",
+      "gloss": "you give them to drink",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:24.432344015Z",
+  "model": "glm-5.3"
 }

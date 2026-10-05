@@ -1,110 +1,118 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "All the streams are going to the sea, and the sea is not full; to the place where the streams are going, there they are returning, to go.",
+  "ref": "ecclesiastes 1:7",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "again",
+      "rationale": "לָלָכֶת 'to go' implies resumption; 'again' makes the cycle explicit as the Hebrew idiom does."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הֹלְכִים…לָלָֽכֶת",
+      "rationale": "'Go' opens and closes the verse, framing the streams' endless round like the sun's in v. 5."
+    }
+  ],
+  "translation": "All the streams go to the sea, and the sea is not full; to the place where the streams go, there they return to go again.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "46b91b834adeb8524320056cca67dc7ee4e4ebcdd30daa7745f7a764df84e11e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/1\/5-8.1791194850134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "surface": "כָּל",
+      "gloss": "all"
     },
     {
-      "surface": "הנחלים",
+      "surface": "הַנְּחָלִים֙",
       "gloss": "the streams",
+      "sense": "S1",
       "readings": [
         "the streams",
-        "the wadis",
-        "the rivers"
-      ],
-      "held_by": {
-        "the streams": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wadis": [
-          "en4"
-        ],
-        "the rivers": [
-          "en4"
-        ]
-      }
+        "the wadis"
+      ]
     },
     {
-      "surface": "הלכים",
-      "gloss": "are going"
+      "surface": "הֹלְכִ֣ים",
+      "gloss": "go",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "הים",
-      "gloss": "the sea"
+      "surface": "הַיָּ֔ם",
+      "gloss": "the sea",
+      "sense": "S1"
     },
     {
-      "surface": "והים",
-      "gloss": "and the sea"
+      "surface": "וְהַיָּ֖ם",
+      "gloss": "and the sea",
+      "sense": "S1"
     },
     {
-      "surface": "איננו",
+      "surface": "אֵינֶ֣נּוּ",
       "gloss": "is not"
     },
     {
-      "surface": "מלא",
-      "gloss": "full"
+      "surface": "מָלֵ֑א",
+      "gloss": "full",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "מקום",
-      "gloss": "the place"
+      "surface": "מְק֗וֹם",
+      "gloss": "the place",
+      "sense": "S1"
     },
     {
-      "surface": "שהנחלים",
+      "surface": "שֶׁ֤הַנְּחָלִים֙",
       "gloss": "where the streams",
+      "sense": "S1",
       "readings": [
         "where the streams",
-        "where the wadis",
-        "where the rivers"
-      ],
-      "held_by": {
-        "where the streams": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "where the wadis": [
-          "en4"
-        ],
-        "where the rivers": [
-          "en4"
-        ]
-      }
+        "where the wadis"
+      ]
     },
     {
-      "surface": "הלכים",
-      "gloss": "are going"
+      "surface": "הֹֽלְכִ֔ים",
+      "gloss": "go",
+      "sense": "S1"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "surface": "שָׁ֛ם",
+      "gloss": "there",
+      "sense": "S1"
     },
     {
-      "surface": "הם",
+      "surface": "הֵ֥ם",
       "gloss": "they"
     },
     {
-      "surface": "שבים",
-      "gloss": "are returning"
+      "surface": "שָׁבִ֖ים",
+      "gloss": "return",
+      "sense": "S1"
     },
     {
-      "surface": "ללכת",
-      "gloss": "to go"
+      "surface": "לָלָֽכֶת",
+      "gloss": "to go",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:30.135623868Z",
+  "model": "glm-5.3"
 }

@@ -1,60 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "The waters saw you, O Elohim; the waters saw you, they writhed; even the depths trembled.",
+  "ref": "psalms 77:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "ראוך מים … ראוך מים",
+      "rationale": "The repetition ‘the waters saw you’ builds the stanza's refrain; English keeps the repetition."
+    },
+    {
+      "kind": "crux",
+      "subject": "they writhed",
+      "rationale": "חול is the labor-pang root: 'writhed\/travailed' vs the weaker 'were in anguish'."
+    }
+  ],
+  "translation": "The waters saw you, O Elohim; the waters saw you — they writhed; even the depths trembled.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f40f87e276f73fe0467f202f71005028044505c3d58395eab5c81a34ae73fbd5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/17-20.1791193034393.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ראוך",
-      "gloss": "saw you"
+      "surface": "רָאוּךָ",
+      "gloss": "saw you",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "the waters"
+      "surface": "מַיִם",
+      "gloss": "the waters",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "O Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "ראוך",
-      "gloss": "saw you"
+      "surface": "רָאוּךָ",
+      "gloss": "the waters saw you",
+      "sense": "S1"
     },
     {
-      "surface": "מים",
-      "gloss": "the waters"
+      "surface": "מַיִם",
+      "gloss": "the waters",
+      "sense": "S1"
     },
     {
-      "surface": "יחילו",
+      "surface": "יָחִילוּ",
       "gloss": "they writhed",
+      "sense": "S1",
       "readings": [
         "they writhed",
         "they trembled"
-      ],
-      "held_by": {
-        "they writhed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they trembled": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      ]
     },
     {
-      "surface": "אף",
-      "gloss": "even"
+      "surface": "אַף",
+      "gloss": "even",
+      "sense": "S1"
     },
     {
-      "surface": "ירגזו",
-      "gloss": "trembled"
+      "surface": "יִרְגְּזוּ",
+      "gloss": "trembled",
+      "sense": "S1"
     },
     {
-      "surface": "תהמות",
-      "gloss": "the depths"
+      "surface": "תְהֹמוֹת",
+      "gloss": "the depths",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:14.394025059Z",
+  "model": "glm-5.3"
 }

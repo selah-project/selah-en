@@ -1,111 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "The one roofing his upper chambers with waters, the one setting clouds as his chariot, the one walking on the wings of the wind.",
+  "ref": "psalms 104:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "רכובו",
+      "rationale": "רכוב 'chariot' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨as⟩",
+      "rationale": "The apposition (waters = upper chambers, clouds = chariot) carries no Hebrew copula or preposition."
+    },
+    {
+      "kind": "alternative",
+      "subject": "עליותיו",
+      "rationale": "The accents pair במים with עליותיו, so the waters are the material of his roof-beams and his upper chambers; some read the chambers as built on the waters."
+    }
+  ],
+  "translation": "The-one-roofing beams in the waters ⟨as⟩ his upper chambers, the-one-setting clouds ⟨as⟩ his chariot, the-one-walking on the wings of the wind —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a566b6f02c2056e7724d7007e44ff48349654b1c234ce00681723f3a777b86e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/1-4.1791193276348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "המקרה",
-      "gloss": "the one roofing",
-      "readings": [
-        "the one roofing",
-        "the one laying beams of"
-      ],
-      "held_by": {
-        "the one roofing": [
-          "v2",
-          "v3"
-        ],
-        "the one laying beams of": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "הַ֥מְקָרֶֽה",
+      "gloss": "the-one-roofing",
+      "sense": "S1"
     },
     {
-      "surface": "במים",
-      "gloss": "with waters"
+      "surface": "בַּמַּ֗יִם",
+      "gloss": "in the waters",
+      "sense": "S1"
     },
     {
-      "surface": "עליותיו",
+      "surface": "עֲֽלִיּ֫וֹתָ֥יו",
       "gloss": "his upper chambers",
-      "readings": [
-        "his upper chambers",
-        "beams of his upper chambers"
-      ],
-      "held_by": {
-        "his upper chambers": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "beams of his upper chambers": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "השם",
-      "gloss": "the one setting"
+      "surface": "הַשָּׂ֥ם",
+      "gloss": "the-one-setting",
+      "sense": "S1"
     },
     {
-      "surface": "עבים",
+      "surface": "עָבִ֥ים",
       "gloss": "clouds",
-      "readings": [
-        "clouds",
-        "thick clouds"
-      ],
-      "held_by": {
-        "clouds": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "thick clouds": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רכובו",
-      "gloss": "as his chariot"
+      "surface": "רְכוּב֑וֹ",
+      "gloss": "his chariot",
+      "sense": "S1"
     },
     {
-      "surface": "המהלך",
-      "gloss": "the one walking"
+      "surface": "הַֽ֝מְהַלֵּ֗ךְ",
+      "gloss": "the-one-walking",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "on"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "כנפי",
-      "gloss": "the wings of"
+      "surface": "כַּנְפֵ֥י",
+      "gloss": "the wings of",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "רֽוּחַ",
       "gloss": "the wind",
       "readings": [
         "the wind",
-        "the spirit",
-        "the breath"
+        "the breath",
+        "the spirit"
       ],
-      "held_by": {
-        "the wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the spirit": [
-          "en4"
-        ],
-        "the breath": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:16.349540132Z",
+  "model": "glm-5.3"
 }

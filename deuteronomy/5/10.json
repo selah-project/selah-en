@@ -1,46 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "and doing chesed to thousands, to those who love me and to those who keep my commandments.",
-  "tokens": [
+  "ref": "deuteronomy 5:10",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ועשה",
-      "gloss": "and doing"
+      "kind": "addition",
+      "subject": "⟨generation⟩",
+      "rationale": "אלפים is literally 'thousands'; 'generation' is supplied to match the third\/fourth-generation parallel in verse 9"
     },
     {
-      "surface": "חסד",
+      "kind": "crux",
+      "subject": "מצותו",
+      "rationale": "ketiv 'his commandments' vs qere מצותי 'my commandments'; the ketiv is the ground and is rendered here"
+    }
+  ],
+  "translation": "and doing chesed to the thousandth ⟨generation⟩, to those who love me and to those who keep my commandments.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ea886ca3b17e55b17d06c9d7299d36ac54c46acfa52dac105453c756ffde19f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/5\/9-12.1791183686577.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעֹשֶׂה",
+      "gloss": "and doing",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶסֶד",
       "gloss": "chesed",
+      "sense": "S1",
       "readings": [
         "chesed",
         "steadfast love"
-      ],
-      "held_by": {
-        "chesed": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "steadfast love": [
-          "v2"
-        ]
-      }
+      ]
     },
     {
-      "surface": "לאלפים",
-      "gloss": "to thousands"
+      "surface": "לָאֲלָפִים",
+      "gloss": "to the thousandth ⟨generation⟩",
+      "sense": "S1"
     },
     {
-      "surface": "לאהבי",
-      "gloss": "to those who love me"
+      "surface": "לְאֹהֲבַי",
+      "gloss": "to those who love me",
+      "sense": "S1"
     },
     {
-      "surface": "ולשמרי",
-      "gloss": "and to those who keep"
+      "surface": "וּלְשֹׁמְרֵי",
+      "gloss": "and to those who keep",
+      "sense": "S1"
     },
     {
       "surface": "מצותו",
-      "gloss": "my commandments"
+      "gloss": "his commandments",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:01:26.578392720Z",
+  "model": "glm-5.3"
 }

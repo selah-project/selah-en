@@ -1,28 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Whose paths are crooked and devious in their tracks.",
+  "ref": "proverbs 2:15",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew verbless clause requires English copula"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "paths\/tracks",
+      "rationale": "ארחות and מעגלות are near-synonyms of road and track, a doubled journey image"
+    }
+  ],
+  "translation": "whose paths are crooked, and who are devious in their tracks;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1cb54b1ab2c1b767b8b5aed0d1c403bd57f6e50486e88996c92f4681cfbb27dc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/2\/13-16.1791193698317.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "whose"
     },
     {
-      "surface": "ארחתיהם",
-      "gloss": "paths"
+      "surface": "אָרְחֹתֵיהֶם",
+      "gloss": "paths",
+      "sense": "S1"
     },
     {
-      "surface": "עקשים",
-      "gloss": "crooked"
+      "surface": "עִקְּשִׁים",
+      "gloss": "are crooked",
+      "sense": "S1"
     },
     {
-      "surface": "ונלוזים",
-      "gloss": "and devious"
+      "surface": "וּנְלוֹזִים",
+      "gloss": "and who are devious",
+      "sense": "S1"
     },
     {
-      "surface": "במעגלותם",
-      "gloss": "in their tracks"
+      "surface": "בְּמַעְגְּלוֹתָם",
+      "gloss": "in their tracks",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:48:18.318364528Z",
+  "model": "glm-5.3"
 }

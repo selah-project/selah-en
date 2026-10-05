@@ -1,40 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And this ⟨is⟩ the contribution that you shall take from ⟨את⟩ them: gold and silver and bronze.",
-  "tokens": [
+  "ref": "exodus 25:3",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "וזאת",
-      "gloss": "And this"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "copula supplied; Hebrew lacks a verb"
     },
     {
-      "surface": "התרומה",
-      "gloss": "the contribution"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "תקחו",
-      "gloss": "you shall take"
-    },
-    {
-      "surface": "מאתם",
-      "gloss": "from ⟨את⟩ them"
-    },
-    {
-      "surface": "זהב",
-      "gloss": "gold"
-    },
-    {
-      "surface": "וכסף",
-      "gloss": "and silver"
-    },
-    {
-      "surface": "ונחשת",
-      "gloss": "and bronze"
+      "kind": "crux",
+      "subject": "bronze",
+      "rationale": "נְחֹשֶׁת covers both 'copper' and the copper-tin alloy 'bronze'; 'brass' in older versions is anachronistic"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And this is the contribution that you shall take from ⟨את⟩ them: gold, and silver, and bronze;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2fcd33645707262d536b54e5995a7e43085d6927260fb568fc60054d16af5370",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/25\/2-4.1791197524055.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְזֹאת֙",
+      "gloss": "And this",
+      "sense": null
+    },
+    {
+      "surface": "הַתְּרוּמָ֔ה",
+      "gloss": "is the contribution",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "תִּקְח֖וּ",
+      "gloss": "you shall take",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאִתָּ֑ם",
+      "gloss": "from ⟨את⟩ them",
+      "sense": null,
+      "marks": "them"
+    },
+    {
+      "surface": "זָהָ֥ב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָכֶ֖סֶף",
+      "gloss": "and silver",
+      "readings": [
+        "and silver",
+        "and money"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וּנְחֹֽשֶׁת",
+      "gloss": "and bronze",
+      "readings": [
+        "and bronze",
+        "and copper"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:52:04.056685013Z",
+  "model": "glm-5.3"
 }

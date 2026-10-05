@@ -1,10 +1,37 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And it came to pass, she was riding on the donkey and descending in the covert of the hill, and behold, David and his men were descending to meet her, and she met ⟨את⟩ them.",
+  "ref": "1-samuel 25:20",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "בסתר ההר",
+      "rationale": "'in the cover\/concealment of the mountain' — hidden descent; some render 'on the slope', losing the hiding sense."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "descent",
+      "rationale": "Abigail descends (ירדת) and David's men descend (ירדים) — the shared root marks the converging paths."
+    }
+  ],
+  "translation": "And she was riding on the donkey, descending in the cover of the mountain, and there — David and his men coming down toward her, and she met ⟨את⟩ them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "95e166178f58ee1d9dcb1638018077a04c35b6fb1b3b4a6c0b41cf48a61f79ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/25\/17-20.1791185935464.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "And it came to pass"
+      "gloss": "And she was"
     },
     {
       "surface": "היא",
@@ -12,7 +39,8 @@
     },
     {
       "surface": "רכבת",
-      "gloss": "was riding"
+      "gloss": "riding",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -20,42 +48,32 @@
     },
     {
       "surface": "החמור",
-      "gloss": "the donkey"
+      "gloss": "the donkey",
+      "sense": "S1"
     },
     {
       "surface": "וירדת",
-      "gloss": "and descending"
+      "gloss": "and descending",
+      "sense": "S1"
     },
     {
       "surface": "בסתר",
-      "gloss": "in the covert"
+      "gloss": "in the cover of",
+      "sense": "S1"
     },
     {
       "surface": "ההר",
-      "gloss": "of the hill",
-      "readings": [
-        "of the hill",
-        "of the mountain"
-      ],
-      "held_by": {
-        "of the hill": [
-          "v1",
-          "en4"
-        ],
-        "of the mountain": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "the mountain",
+      "sense": "S1"
     },
     {
       "surface": "והנה",
-      "gloss": "and behold"
+      "gloss": "and there"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "ואנשיו",
@@ -63,21 +81,25 @@
     },
     {
       "surface": "ירדים",
-      "gloss": "were descending"
+      "gloss": "coming down",
+      "sense": "S1"
     },
     {
       "surface": "לקראתה",
-      "gloss": "to meet her"
+      "gloss": "toward her",
+      "sense": "S1"
     },
     {
       "surface": "ותפגש",
-      "gloss": "and she met"
+      "gloss": "and she met",
+      "sense": "S1"
     },
     {
       "surface": "אתם",
-      "gloss": "⟨את⟩ them"
+      "gloss": "⟨את⟩ them",
+      "marks": "them (David and his men)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:38:55.465921477Z",
+  "model": "glm-5.3"
 }

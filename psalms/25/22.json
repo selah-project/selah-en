@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Redeem ⟨את⟩ Israel, O Elohim, from all his troubles.",
-  "tokens": [
+  "ref": "psalms 25:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "פדה",
-      "gloss": "Redeem"
+      "kind": "invitation",
+      "subject": "Redeem",
+      "rationale": "The verse is an imperative prayer addressed to Elohim on Israel's behalf."
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "מכל",
-      "gloss": "from all"
-    },
-    {
-      "surface": "צרותיו",
-      "gloss": "his troubles"
+      "kind": "wordplay",
+      "subject": "צָרוֹתָיו",
+      "rationale": "The plural of צרה (tightness, a narrow place) rendered 'troubles'; the literal picture of confinement is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Redeem, Elohim, ⟨את⟩ Israel from all his troubles.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a222111a717ea3807c8b3c79dbaf4fd9ea433b7175f9699fca04ffed23628d77",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/21-22.1791192521975.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פְּדֵ֣ה",
+      "gloss": "Redeem",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Israel",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵ֑ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֝כֹּ֗ל",
+      "gloss": "from all",
+      "sense": null
+    },
+    {
+      "surface": "צָֽרוֹתָיו",
+      "gloss": "his troubles",
+      "sense": "S1",
+      "readings": [
+        "his troubles",
+        "his distresses"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:41.976394115Z",
+  "model": "glm-5.3"
 }

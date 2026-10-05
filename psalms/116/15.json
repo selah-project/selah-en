@@ -1,28 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Precious in the eyes of YHWH ⟨is⟩ the death of his faithful ones.",
-  "tokens": [
+  "ref": "psalms 116:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 116,
+  "notes": [
     {
-      "surface": "יקר",
-      "gloss": "Precious"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; adjective-fronted clause"
     },
     {
-      "surface": "בעיני",
-      "gloss": "in the eyes of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "המותה",
-      "gloss": "the death of"
-    },
-    {
-      "surface": "לחסידיו",
-      "gloss": "of his faithful ones"
+      "kind": "wordplay",
+      "subject": "חֲסִידָיו \/ חֶסֶד",
+      "rationale": "the 'faithful ones' are practitioners of chesed, echoing the psalm's covenant bond"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Precious in the eyes of YHWH is the death of his faithful ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "417ff895704194e2c0edb4b1b7ea342a0852cf83b75c3d808e53bbbd70835fc9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/116\/13-16.1791193416738.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָקָר",
+      "gloss": "Precious",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינֵי",
+      "gloss": "in the eyes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמָּוְתָה",
+      "gloss": "is the death",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחֲסִידָיו",
+      "gloss": "of his faithful ones",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:36.739732863Z",
+  "model": "glm-5.3"
 }

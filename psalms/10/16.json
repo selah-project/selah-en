@@ -1,83 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "YHWH is King forever and ever; the nations have perished from his land.",
-  "tokens": [
+  "ref": "psalms 10:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula: YHWH-king forever, a noun-construct declaration."
     },
     {
-      "surface": "מלך",
-      "gloss": "is King",
-      "readings": [
-        "is King",
-        "King"
-      ],
-      "held_by": {
-        "is King": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "King": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "עולם",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "of the age"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the age": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ועד",
-      "gloss": "and ever",
-      "readings": [
-        "and ever",
-        "and onward"
-      ],
-      "held_by": {
-        "and ever": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and onward": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אבדו",
-      "gloss": "have perished"
-    },
-    {
-      "surface": "גוים",
-      "gloss": "the nations"
-    },
-    {
-      "surface": "מארצו",
-      "gloss": "from his land"
+      "kind": "crux",
+      "subject": "מארצו",
+      "rationale": "'From his land' — YHWH's land or each nation's own land; reading 1 takes it as YHWH's land."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH is king forever and ever; the nations have perished from his land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5b0d34fe9901a8b284e8e29e0a062f98743263b75926a7a725b43a2eb245f78",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/13-16.1791192410583.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "king",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָעֶד",
+      "gloss": "and ever",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָבְדוּ",
+      "gloss": "have perished",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹיִם",
+      "gloss": "the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאַרְצוֹ",
+      "gloss": "from his land",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:50.584576684Z",
+  "model": "glm-5.3"
 }

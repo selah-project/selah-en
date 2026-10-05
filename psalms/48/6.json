@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "They saw ⟨it⟩, and so they marvelled; they were dismayed, they hastened away.",
-  "tokens": [
+  "ref": "psalms 48:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
     {
-      "surface": "המה",
-      "gloss": "They"
+      "kind": "wordplay",
+      "subject": "תמהו נבהלו נחפזו",
+      "rationale": "Three near-synonymous fear verbs pile up with assonance; English flattens the crescendo."
     },
     {
-      "surface": "ראו",
-      "gloss": "saw ⟨it⟩"
-    },
-    {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "תמהו",
-      "gloss": "they marvelled"
-    },
-    {
-      "surface": "נבהלו",
-      "gloss": "they were dismayed"
-    },
-    {
-      "surface": "נחפזו",
-      "gloss": "they hastened away"
+      "kind": "crux",
+      "subject": "כן",
+      "rationale": "'So, thus' — refers back to what they saw; some read it adverbially as 'at once'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They saw — so they were astounded; ‖ they were dismayed, they hurried away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "37de676db5e9025ab9f2afb81160bf2e054b2b5ae428bba490fc964b916b6d5f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/48\/5-8.1791192738421.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵ֣מָּה",
+      "gloss": "They",
+      "sense": null
+    },
+    {
+      "surface": "רָ֭אוּ",
+      "gloss": "saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵּ֣ן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "תָּמָ֑הוּ",
+      "gloss": "were astounded",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִבְהֲל֥וּ",
+      "gloss": "were dismayed",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶחְפָּֽזוּ",
+      "gloss": "hurried away",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.422328575Z",
+  "model": "glm-5.3"
 }

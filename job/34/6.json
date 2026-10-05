@@ -1,83 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "“Against my right do I lie? My arrow-wound ⟨is⟩ incurable, without transgression.”",
-  "tokens": [
+  "ref": "job 34:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "Against"
+      "kind": "crux",
+      "subject": "על משפטי אכזב",
+      "rationale": "'against my right I lie' (God falsifies my claim) vs 'though I am right, I am counted a liar' (Job speaking); both are read."
     },
     {
-      "surface": "משפטי",
-      "gloss": "my right"
+      "kind": "substitution",
+      "subject": "my arrow-wound",
+      "rationale": "חִצִּי is literally 'my arrow', the arrow as wound\/dealing of suffering."
     },
     {
-      "surface": "אכזב",
-      "gloss": "do I lie",
-      "readings": [
-        "do I lie",
-        "I am counted a liar"
-      ],
-      "held_by": {
-        "do I lie": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I am counted a liar": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "אנוש",
-      "gloss": "incurable",
-      "readings": [
-        "incurable",
-        "despairing",
-        "mortal"
-      ],
-      "held_by": {
-        "incurable": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "despairing": [
-          "en4"
-        ],
-        "mortal": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חצי",
-      "gloss": "my arrow-wound",
-      "readings": [
-        "my arrow-wound",
-        "my arrow"
-      ],
-      "held_by": {
-        "my arrow-wound": [
-          "v2",
-          "v3"
-        ],
-        "my arrow": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בלי",
-      "gloss": "without"
-    },
-    {
-      "surface": "פשע",
-      "gloss": "transgression"
+      "kind": "alternative",
+      "subject": "incurable",
+      "rationale": "אָנוּשׁ 'incurable, hopeless' stands first, its noun ('my wound') deferred — 'incurable is my arrow'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Though I am right, I am counted a liar; my arrow-wound is incurable, without transgression.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4606b04e4277b4c304372bfa7f18aab900e0cf9cf98699e3ff113bf4eb134ca2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/34\/5-8.1791194537185.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "Though",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁפָּטִי",
+      "gloss": "I am right",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲכַזֵּב",
+      "gloss": "I am counted a liar",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנוּשׁ",
+      "gloss": "incurable",
+      "sense": null
+    },
+    {
+      "surface": "חִצִּי",
+      "gloss": "my arrow-wound",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּלִי",
+      "gloss": "without",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּשַׁע",
+      "gloss": "transgression",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:17.186118685Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And he taught me and said to me, “Let your heart hold fast my words; guard my commandments, and live.”",
-  "tokens": [
+  "ref": "proverbs 4:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "וירני",
-      "gloss": "And he taught me"
+      "kind": "wordplay",
+      "subject": "word order of 4:4",
+      "rationale": "Hebrew fronts 'grasp my words' before 'your heart', an inversion English can only partly carry."
     },
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "יתמך",
-      "gloss": "Let … hold fast",
-      "readings": [
-        "Let … hold fast",
-        "it shall grasp"
-      ],
-      "held_by": {
-        "Let … hold fast": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "it shall grasp": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דברי",
-      "gloss": "my words"
-    },
-    {
-      "surface": "לבך",
-      "gloss": "your heart"
-    },
-    {
-      "surface": "שמר",
-      "gloss": "guard"
-    },
-    {
-      "surface": "מצותי",
-      "gloss": "my commandments"
-    },
-    {
-      "surface": "וחיה",
-      "gloss": "and live"
+      "kind": "addition",
+      "subject": "your heart",
+      "rationale": "Hebrew's jussive יתמך lacks an explicit subject; the following לבך supplies it, so brackets mark the fronted filler."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he taught me and said to me: “Let your heart grasp my words; keep my commandments and live.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4455b7e44f62c4f2c48b2e89423381a2b734eff516da789a7b1f5d05e408dd7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/4\/1-4.1791193725669.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּרֵ֗נִי",
+      "gloss": "And he taught me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּ֥אמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֗י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "יִֽתְמָךְ",
+      "gloss": "let ⟨your heart⟩ grasp",
+      "sense": "S1",
+      "readings": [
+        "let ⟨your heart⟩ grasp",
+        "let it hold-fast"
+      ]
+    },
+    {
+      "surface": "דְּבָרַ֥י",
+      "gloss": "my words",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבֶּ֑ךָ",
+      "gloss": "your heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמֹ֖ר",
+      "gloss": "keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְוֺתַ֣י",
+      "gloss": "my commandments",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶֽחְיֵֽה",
+      "gloss": "and live",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:45.670889159Z",
+  "model": "glm-5.3"
 }

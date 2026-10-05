@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "A wise man ⟨is⟩ in strength, and a man of knowledge strengthens power.",
-  "tokens": [
+  "ref": "proverbs 24:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "גבר",
-      "gloss": "a man",
-      "readings": [
-        "a man",
-        "a mighty man"
-      ],
-      "held_by": {
-        "a man": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a mighty man": [
-          "v1"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no copula between 'a wise man' and 'in strength'"
     },
     {
-      "surface": "חכם",
-      "gloss": "wise"
-    },
-    {
-      "surface": "בעוז",
-      "gloss": "in strength"
-    },
-    {
-      "surface": "ואיש",
-      "gloss": "and a man"
-    },
-    {
-      "surface": "דעת",
-      "gloss": "of knowledge"
-    },
-    {
-      "surface": "מאמץ",
-      "gloss": "strengthens"
-    },
-    {
-      "surface": "כח",
-      "gloss": "power"
+      "kind": "alternative",
+      "subject": "in strength",
+      "rationale": "בעוז read by some as 'mighty' (adverbial strength) rather than literal 'in strength'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A wise man ⟨is⟩ in strength, and a man of knowledge strengthens force.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a252df7f590a162b50e735ec39f58f65b06d41bd85e50e2a67958a0ba50098bd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/24\/5-8.1791193994111.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גֶּֽבֶר",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכָ֥ם",
+      "gloss": "wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּע֑וֹז",
+      "gloss": "in strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאִֽישׁ",
+      "gloss": "and a man of",
+      "sense": null
+    },
+    {
+      "surface": "דַּ֝֗עַת",
+      "gloss": "knowledge",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאַמֶּץ",
+      "gloss": "strengthens",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּֽחַ",
+      "gloss": "force",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:14.112162160Z",
+  "model": "glm-5.3"
 }

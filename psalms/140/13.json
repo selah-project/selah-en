@@ -1,83 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "I know that YHWH will do ⟨the⟩ judgment of the afflicted, ⟨the⟩ judgment of the needy.",
+  "ref": "psalms 140:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 140,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ידעת \/ ידעתי",
+      "rationale": "Ketiv 'you know' (2nd singular) vs qere 'I know'; the qere is rendered and the ketiv stands as ground."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דין \/ משפט",
+      "rationale": "Paired near-synonyms for legal ruling, a parallelism English flattens into two nouns."
+    }
+  ],
+  "translation": "I know that YHWH will do the judgement of the afflicted, the justice of the needy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "11d260fcdf603470da70b6256ed08dd130de86dcad77ea3b4f1297098b895530",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/140\/13-14.1791193597097.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ידעת",
+      "surface": "יָדַעְתִּי",
       "gloss": "I know"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "יעשה",
+      "surface": "יַעֲשֶׂה",
       "gloss": "will do",
-      "readings": [
-        "will do",
-        "will make"
-      ],
-      "held_by": {
-        "will do": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "will make": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "דין",
-      "gloss": "judgment"
+      "surface": "דִּין",
+      "gloss": "the judgement of",
+      "sense": "S1"
     },
     {
-      "surface": "עני",
+      "surface": "עָנִי",
       "gloss": "the afflicted",
-      "readings": [
-        "the afflicted",
-        "the poor"
-      ],
-      "held_by": {
-        "the afflicted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the poor": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "משפט",
-      "gloss": "judgment"
+      "surface": "מִשְׁפָּט",
+      "gloss": "the justice of",
+      "sense": "S1"
     },
     {
-      "surface": "אבינים",
+      "surface": "אֶבְיֹנִים",
       "gloss": "the needy",
-      "readings": [
-        "the needy",
-        "the destitute"
-      ],
-      "held_by": {
-        "the needy": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the destitute": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:37.098222664Z",
+  "model": "glm-5.3"
 }

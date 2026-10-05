@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And the trees said to the vine, 'Come, you, reign over us.'",
+  "ref": "judges 9:12",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "מלוכי",
+      "rationale": "Ketiv מלוכי (with vav) against qere מלכי, 'reign'; same imperative sense."
+    },
+    {
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "אַתְּ is the pronoun 'you', not the object marker."
+    }
+  ],
+  "translation": "And the trees said to the vine, “Come, you, reign over us.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1a51df7025aeab8cc364b7e9672c6569b6e487373206309119af12ba8906c1a3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/9\/9-12.1791185012137.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמרו",
-      "gloss": "And said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "העצים",
-      "gloss": "the trees"
+      "gloss": "the trees",
+      "sense": "S1"
     },
     {
       "surface": "לגפן",
-      "gloss": "to the vine"
+      "gloss": "to the vine",
+      "sense": "S1"
     },
     {
       "surface": "לכי",
-      "gloss": "Come"
+      "gloss": "Come",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "you"
+      "gloss": "you",
+      "sense": null
     },
     {
       "surface": "מלוכי",
-      "gloss": "reign"
+      "gloss": "reign",
+      "sense": "S1"
     },
     {
       "surface": "עלינו",
-      "gloss": "over us"
+      "gloss": "over us",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:23:32.139639133Z",
+  "model": "glm-5.3"
 }

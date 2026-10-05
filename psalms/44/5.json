@@ -1,51 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "You are he — my King, Elohim — command deliverances for Jacob.",
+  "ref": "psalms 44:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are ⟨it⟩",
+      "rationale": "Hebrew pronouns אתה הוא lack a copula; English supplies it"
+    },
+    {
+      "kind": "crux",
+      "subject": "command",
+      "rationale": "צוה here is God summoning victories (S2), not prescribing behavior; some read 'ordain'"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "direct second-person address to Elohim as king"
+    }
+  ],
+  "translation": "You are my king, Elohim — command deliverances for Jacob.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4bfb34bb976b9ab595bbb69bfcf9aebc6d925c90a2b4e82d7a81cecfb12efd2b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/5-8.1791192701857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אתה",
+      "surface": "אַתָּה",
       "gloss": "You"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "surface": "הוּא",
+      "gloss": "are ⟨it⟩"
     },
     {
-      "surface": "מלכי",
-      "gloss": "my King"
+      "surface": "מַלְכִּי",
+      "gloss": "my king",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "צוה",
-      "gloss": "command"
+      "surface": "צַוֵּה",
+      "gloss": "command",
+      "sense": "S2"
     },
     {
-      "surface": "ישועות",
+      "surface": "יְשׁוּעֹת",
       "gloss": "deliverances",
-      "readings": [
-        "deliverances",
-        "victories"
-      ],
-      "held_by": {
-        "deliverances": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "victories": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:41.858258758Z",
+  "model": "glm-5.3"
 }

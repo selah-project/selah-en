@@ -1,54 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "What is a mortal that he should be clean? And the one born of woman, that he should be righteous?",
-  "tokens": [
+  "ref": "job 15:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "מה",
-      "gloss": "What"
-    },
-    {
-      "surface": "אנוש",
-      "gloss": "a mortal"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "יזכה",
-      "gloss": "he should be clean"
-    },
-    {
-      "surface": "וכי",
-      "gloss": "and that",
-      "readings": [
-        "and that",
-        "or that"
-      ],
-      "held_by": {
-        "and that": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "or that": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "יצדק",
-      "gloss": "that he should be righteous"
-    },
-    {
-      "surface": "ילוד",
-      "gloss": "the one born"
-    },
-    {
-      "surface": "אשה",
-      "gloss": "of woman"
+      "kind": "wordplay",
+      "subject": "יזכה \/ זכו",
+      "rationale": "The root זכך (clean) here pairs with verse 15's זכו, binding man's cleanness to the heavens'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "What is a mortal, that he should be clean, and that one born of a woman should be righteous?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8056e1022e6595279ec711b25dbad01b3e58def95076d0c44b623ecbe58247e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/15\/13-16.1791194295004.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מָֽה",
+      "gloss": "What",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱנ֥וֹשׁ",
+      "gloss": "a mortal",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יִזְכֶּ֑ה",
+      "gloss": "he should be clean",
+      "readings": [
+        "he should be clean",
+        "he should be innocent"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִֽי",
+      "gloss": "and that",
+      "sense": null
+    },
+    {
+      "surface": "יִצְדַּ֗ק",
+      "gloss": "should be righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְל֣וּד",
+      "gloss": "one born of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִשָּֽׁה",
+      "gloss": "a woman",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:15.004808778Z",
+  "model": "glm-5.3"
 }

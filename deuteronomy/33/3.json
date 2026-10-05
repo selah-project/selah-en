@@ -1,82 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Indeed, he loves the peoples — all his holy ones are in your hand; and they, they sat down at your feet, lifting up from your words.",
-  "tokens": [
+  "ref": "deuteronomy 33:3",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "אף",
-      "gloss": "Indeed"
+      "kind": "hapax",
+      "subject": "חבב",
+      "rationale": "חֹבֵב 'loves\/cherishes' occurs only here as a verb"
     },
     {
-      "surface": "חבב",
-      "gloss": "loves"
+      "kind": "hapax",
+      "subject": "תכו",
+      "rationale": "תֻּכּוּ exact meaning unknown; rendered 'settle' after 'encamp'"
     },
     {
-      "surface": "עמים",
-      "gloss": "the peoples"
+      "kind": "hapax",
+      "subject": "מדברתיך",
+      "rationale": "מִדַּבְּרֹת 'words' (feminine plural) occurs only here"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "kind": "addition",
+      "subject": "He\/His vs You\/Your",
+      "rationale": "The verse shifts between third and second person for YHWH, a feature of Hebrew poetry carried as printed"
     },
     {
-      "surface": "קדשיו",
-      "gloss": "his holy ones"
-    },
-    {
-      "surface": "בידך",
-      "gloss": "in your hand"
-    },
-    {
-      "surface": "והם",
-      "gloss": "and they"
-    },
-    {
-      "surface": "תכו",
-      "gloss": "they sat down",
-      "readings": [
-        "they sat down",
-        "they gather"
-      ],
-      "held_by": {
-        "they sat down": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they gather": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לרגלך",
-      "gloss": "at your feet"
-    },
-    {
-      "surface": "ישא",
-      "gloss": "lifting up",
-      "readings": [
-        "lifting up",
-        "bearing"
-      ],
-      "held_by": {
-        "lifting up": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "bearing": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מדברתיך",
-      "gloss": "from your words"
+      "kind": "addition",
+      "subject": "each",
+      "rationale": "יִשָּׂא is singular against plural 'they'; the mismatch kept visible with 'each bearing'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Yes, He loves the peoples; all His holy ones are in Your hand, and they settle at Your feet, each bearing Your words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c2d75d1506d8f0d11c00f1fa56ad4159c0e5c608db71766e881c510c87cb135c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/33\/1-4.1791184247130.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַ֚ף",
+      "gloss": "Yes",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹבֵ֣ב",
+      "gloss": "He loves",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּ֔ים",
+      "gloss": "the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "קְדֹשָׁיו֙",
+      "gloss": "His holy ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיָדֶ֑ךָ",
+      "gloss": "are in Your hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהֵם֙",
+      "gloss": "and they",
+      "sense": null
+    },
+    {
+      "surface": "תֻּכּ֣וּ",
+      "gloss": "settle",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרַגְלֶ֔ךָ",
+      "gloss": "at Your feet",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשָּׂ֖א",
+      "gloss": "bearing",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדַּבְּרֹתֶֽיךָ",
+      "gloss": "Your words",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:47.131447934Z",
+  "model": "glm-5.3"
 }

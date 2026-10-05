@@ -1,94 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Make haste, answer me, O YHWH; my spirit is consumed. Do not hide your face from me, lest I become like those going down to ⟨the⟩ pit.",
+  "ref": "psalms 143:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 143,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct imperative address to YHWH: 'Hurry, answer me… do not hide your face.'"
+    },
+    {
+      "kind": "invitation",
+      "subject": "מַהֵר עֲנֵנִי",
+      "rationale": "Urgent imperatives summon YHWH to act."
+    },
+    {
+      "kind": "crux",
+      "subject": "וְנִמְשַׁלְתִּי",
+      "rationale": "Niphal of משׁל: 'I am likened\/become like' vs older reading 'I am undone'; the comparison sense fits 'with those who go down to the pit.'"
+    }
+  ],
+  "translation": "Hurry, answer me, YHWH; my spirit faints — do not hide your face from me, or I become like those who go down into the pit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "200377d7ffd6bfb33fdeb771e206b1f91656b22629745bc9e3f59df7197a53fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/143\/5-8.1791193631170.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "מהר",
-      "gloss": "Make haste"
+      "surface": "מַהֵר",
+      "gloss": "Hurry",
+      "sense": "S1"
     },
     {
-      "surface": "ענני",
-      "gloss": "answer me"
+      "surface": "עֲנֵנִי",
+      "gloss": "answer me",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כלתה",
-      "gloss": "is consumed",
-      "readings": [
-        "is consumed",
-        "has failed"
-      ],
-      "held_by": {
-        "is consumed": [
-          "v1",
-          "v3"
-        ],
-        "has failed": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "כָּלְתָה",
+      "gloss": "faints",
+      "sense": "S1"
     },
     {
-      "surface": "רוחי",
+      "surface": "רוּחִי",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
-        "my breath",
-        "my wind"
+        "my breath"
       ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my wind": [
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
     },
     {
-      "surface": "תסתר",
-      "gloss": "hide"
+      "surface": "תַּסְתֵּר",
+      "gloss": "hide",
+      "sense": "S1"
     },
     {
-      "surface": "פניך",
-      "gloss": "your face"
+      "surface": "פָּנֶיךָ",
+      "gloss": "your face",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "from me"
+      "surface": "מִמֶּנִּי",
+      "gloss": "from me",
+      "sense": null
     },
     {
-      "surface": "ונמשלתי",
-      "gloss": "lest I become like"
+      "surface": "וְנִמְשַׁלְתִּי",
+      "gloss": "or I become like",
+      "sense": "S1"
     },
     {
-      "surface": "עם",
-      "gloss": "like those"
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
     },
     {
-      "surface": "ירדי",
-      "gloss": "going down"
+      "surface": "יֹרְדֵי",
+      "gloss": "those who go down",
+      "sense": "S1"
     },
     {
-      "surface": "בור",
-      "gloss": "to ⟨the⟩ pit"
+      "surface": "בּוֹר",
+      "gloss": "into the pit",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:11.171612563Z",
+  "model": "glm-5.3"
 }

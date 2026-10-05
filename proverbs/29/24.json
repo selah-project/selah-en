@@ -1,86 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "A partner with a thief hates his own soul; he hears the adjuration and does not tell.",
-  "tokens": [
+  "ref": "proverbs 29:24",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "חולק",
-      "gloss": "a partner",
-      "readings": [
-        "a partner",
-        "one sharing"
-      ],
-      "held_by": {
-        "a partner": [
-          "v1",
-          "v3"
-        ],
-        "one sharing": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נֶפֶשׁ literally 'throat'; usually 'soul' or 'self' — 'hates his own throat' keeps the idiom's body-basis (Lev 5:1, the withheld testimony under a curse)."
     },
     {
-      "surface": "עם",
+      "kind": "crux",
+      "subject": "hears the curse and does not tell",
+      "rationale": "Allusion to the covenant curse over unreported theft: the partner keeps silent though he knows — risking the curse himself."
+    }
+  ],
+  "translation": "One who shares with a thief hates his own throat; he hears the curse and does not tell.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe971507616fd8a94cff08ea224a965353d4193ae456af7585add4f4918686c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/29\/21-24.1791194068670.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חוֹלֵק",
+      "gloss": "one who shares",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
       "gloss": "with"
     },
     {
-      "surface": "גנב",
-      "gloss": "a thief"
+      "surface": "גַּנָּב",
+      "gloss": "a thief",
+      "sense": "S1"
     },
     {
-      "surface": "שונא",
-      "gloss": "hates"
+      "surface": "שׂוֹנֵא",
+      "gloss": "hates",
+      "sense": "S1"
     },
     {
-      "surface": "נפשו",
-      "gloss": "his own soul",
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his own throat",
+      "sense": "S1",
       "readings": [
-        "his own soul",
+        "his own throat",
         "his own life"
-      ],
-      "held_by": {
-        "his own soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "his own life": [
-          "v2"
-        ]
-      }
+      ]
     },
     {
-      "surface": "אלה",
-      "gloss": "adjuration",
-      "readings": [
-        "adjuration",
-        "curse"
-      ],
-      "held_by": {
-        "adjuration": [
-          "v1",
-          "v3"
-        ],
-        "curse": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "אָלָה",
+      "gloss": "the curse",
+      "sense": "S1"
     },
     {
-      "surface": "ישמע",
+      "surface": "יִשְׁמָע",
       "gloss": "he hears"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "יגיד",
-      "gloss": "tells"
+      "surface": "יַגִּיד",
+      "gloss": "tell",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:28.671444895Z",
+  "model": "glm-5.3"
 }

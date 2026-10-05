@@ -1,57 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "But we will bless Yah, from this time forth and unto the age. Praise Yah!",
+  "ref": "psalms 115:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "Hallelu Yah",
+      "rationale": "הללו יה is the source of the English word 'Hallelujah'; the command 'Praise Yah!' closes the psalm"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨you⟩",
+      "rationale": "the Hebrew imperative 'Hallelu' carries no separate subject marker; English word order requires an implied 'you'"
+    },
+    {
+      "kind": "crux",
+      "subject": "forever",
+      "rationale": "עולם is literally 'concealed, vanishing point'; rendered 'forever' vs 'to the age'"
+    }
+  ],
+  "translation": "But we will bless Yah from this time and forever. Hallelu Yah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "282647671ec6b90822a7fc825c7aac008428bab723f3975859941fe41763e875",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/17-18.1791193395448.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואנחנו",
+      "surface": "וַאֲנַחְנוּ",
       "gloss": "But we"
     },
     {
-      "surface": "נברך",
-      "gloss": "will bless"
+      "surface": "נְבָרֵךְ",
+      "gloss": "will bless",
+      "sense": "S1"
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
+      "surface": "יָהּ",
+      "gloss": "Yah",
+      "sense": "S1"
     },
     {
-      "surface": "מעתה",
-      "gloss": "from this time forth"
+      "surface": "מֵעַתָּה",
+      "gloss": "from this time",
+      "sense": "S1"
     },
     {
-      "surface": "ועד",
-      "gloss": "and unto"
+      "surface": "וְעַד",
+      "gloss": "and until",
+      "sense": "S1"
     },
     {
-      "surface": "עולם",
-      "gloss": "the age",
+      "surface": "עוֹלָם",
+      "gloss": "forever",
+      "sense": "S1",
       "readings": [
-        "the age",
         "forever",
-        "the concealed"
-      ],
-      "held_by": {
-        "the age": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "forever": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "the age to come"
+      ]
     },
     {
-      "surface": "הללו",
-      "gloss": "Praise"
+      "surface": "הַלְלוּ",
+      "gloss": "Praise ⟨you⟩",
+      "sense": "S1",
+      "readings": [
+        "Praise ⟨you⟩",
+        "Hallelu"
+      ]
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
+      "surface": "יָהּ",
+      "gloss": "Yah",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:15.449705219Z",
+  "model": "glm-5.3"
 }

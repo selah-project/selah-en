@@ -1,43 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "At the end of seven years you shall make a release.",
-  "tokens": [
+  "ref": "deuteronomy 15:1",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "מקץ",
-      "gloss": "At the end of"
+      "kind": "measurement",
+      "subject": "seven years",
+      "rationale": "the law is framed as a count of years reaching its terminal point."
     },
     {
-      "surface": "שבע",
-      "gloss": "seven"
-    },
-    {
-      "surface": "שנים",
-      "gloss": "years"
-    },
-    {
-      "surface": "תעשה",
-      "gloss": "you shall make"
-    },
-    {
-      "surface": "שמטה",
-      "gloss": "a release",
-      "readings": [
-        "a release",
-        "a letting drop"
-      ],
-      "held_by": {
-        "a release": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a letting drop": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "remission",
+      "rationale": "שְׁמִטָּה covers both debt-remission and suspension of labor; 'release' is the second lawful reading."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "At the end of seven years you shall make a remission.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc5ce70524a5ab9920020ef19f19200fa1189bbd7ce4b83fc2b432f93b7f6aa8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/15\/1-4.1791183882470.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִקֵּץ",
+      "gloss": "At the end of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁבַע",
+      "gloss": "seven",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁנִים",
+      "gloss": "years",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּעֲשֶׂה",
+      "gloss": "you shall make",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמִטָּה",
+      "gloss": "a remission",
+      "sense": "S1",
+      "readings": [
+        "a remission",
+        "a release"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T07:04:42.471154500Z",
+  "model": "glm-5.3"
 }

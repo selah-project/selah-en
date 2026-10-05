@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "A dripping driving on in a day of pouring rain, and a wife of quarrels — they are alike.",
-  "tokens": [
+  "ref": "proverbs 27:15",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "דלף",
-      "gloss": "a dripping"
+      "kind": "hapax",
+      "subject": "סַגְרִיר",
+      "rationale": "'Pouring rain' occurs only here in the Tanakh."
     },
     {
-      "surface": "טורד",
-      "gloss": "driving on",
-      "readings": [
-        "driving on",
-        "constant"
-      ],
-      "held_by": {
-        "driving on": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "constant": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "מְדֹנִים",
+      "rationale": "Ketiv מדונים vs qere מדינים, 'quarrels' either way; the pointing differs but not the meaning."
     },
     {
-      "surface": "ביום",
-      "gloss": "in a day of"
-    },
-    {
-      "surface": "סגריר",
-      "gloss": "pouring rain"
-    },
-    {
-      "surface": "ואשת",
-      "gloss": "and a wife of"
-    },
-    {
-      "surface": "מדונים",
-      "gloss": "quarrels"
-    },
-    {
-      "surface": "נשתוה",
-      "gloss": "are alike"
+      "kind": "wordplay",
+      "subject": "parallel to 19:13",
+      "rationale": "The dripping\/quarrelsome-wife comparison repeats Proverbs 19:13 almost verbatim."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A constant dripping on a day of pouring rain, and a wife of quarrels is like it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6b756613b003c836660c0ca6e3c816b6316801a18de408962566c2cb3636639a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/27\/13-16.1791194037666.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דֶּלֶף",
+      "gloss": "A dripping",
+      "sense": "S1"
+    },
+    {
+      "surface": "טוֹרֵד",
+      "gloss": "constant",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיוֹם",
+      "gloss": "on a day of",
+      "sense": "S1"
+    },
+    {
+      "surface": "סַגְרִיר",
+      "gloss": "pouring rain",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵשֶׁת",
+      "gloss": "and a wife of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְדֹנִים",
+      "gloss": "quarrels",
+      "sense": "S1",
+      "readings": [
+        "quarrels",
+        "strifes"
+      ]
+    },
+    {
+      "surface": "נִשְׁתָּוָה",
+      "gloss": "is like it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:57.667403450Z",
+  "model": "glm-5.3"
 }

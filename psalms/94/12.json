@@ -1,78 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Happy ⟨is⟩ the man whom You discipline, Yah, and whom You teach from Your Torah.",
-  "tokens": [
+  "ref": "psalms 94:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
     {
-      "surface": "אשרי",
-      "gloss": "Happy"
+      "kind": "addition",
+      "subject": "and whom",
+      "rationale": "The second verb תְּלַמְּדֶנּוּ repeats the relative אֲשֶׁר; English supplies a second 'whom'."
     },
     {
-      "surface": "הגבר",
-      "gloss": "the man",
-      "readings": [
-        "the man",
-        "the strong man"
-      ],
-      "held_by": {
-        "the man": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the strong man": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אשר",
-      "gloss": "whom"
-    },
-    {
-      "surface": "תיסרנו",
-      "gloss": "You discipline him",
-      "readings": [
-        "You discipline him",
-        "You chasten him"
-      ],
-      "held_by": {
-        "You discipline him": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You chasten him": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "יה",
-      "gloss": "Yah"
-    },
-    {
-      "surface": "ומתורתך",
-      "gloss": "and from Your Torah",
-      "readings": [
-        "and from Your Torah",
-        "and from Your instruction"
-      ],
-      "held_by": {
-        "and from Your Torah": [
-          "v2",
-          "v3"
-        ],
-        "and from Your instruction": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תלמדנו",
-      "gloss": "You teach him"
+      "kind": "wordplay",
+      "subject": "יֹסֵר \/ תְּיַסְּרֶנּוּ",
+      "rationale": "Verse 10's 'He who disciplines (הֲיֹסֵר)' the nations returns here as blessing — the man YHWH disciplines is happy."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Happy the man whom You discipline, Yah, and whom You teach from Your Torah;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "edb315eb3af883ee06f3c3d6309c6e9bc5601a465170008567dd330a10b37d2f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/9-12.1791193209393.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַשְׁרֵי",
+      "gloss": "Happy",
+      "sense": null
+    },
+    {
+      "surface": "הַגֶּבֶר",
+      "gloss": "the man",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "whom",
+      "sense": null
+    },
+    {
+      "surface": "תְּיַסְּרֶנּוּ",
+      "gloss": "You discipline ⟨him⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָּהּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִתּוֹרָתְךָ",
+      "gloss": "and from Your Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּלַמְּדֶנּוּ",
+      "gloss": "You teach ⟨him⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:09.394252507Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "The wing of the ostrich exults joyously — is it the pinion of the stork and her plumage?",
-  "tokens": [
+  "ref": "job 39:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "כנף",
-      "gloss": "the wing of"
+      "kind": "hapax",
+      "subject": "רננים",
+      "rationale": "רְנָנִים, 'ostrich' (from its wail), occurs only here in the Tanakh."
     },
     {
-      "surface": "רננים",
-      "gloss": "the ostrich",
-      "readings": [
-        "the ostrich",
-        "the wailers"
-      ],
-      "held_by": {
-        "the ostrich": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the wailers": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "אם",
+      "rationale": "Read as an interrogative 'is it…?' or comparative 'like the pinion of a stork'; the verse compares the ostrich's wing to the stork's strong flight feathers."
     },
     {
-      "surface": "נעלסה",
-      "gloss": "exults joyously"
-    },
-    {
-      "surface": "אם",
-      "gloss": "is it?"
-    },
-    {
-      "surface": "אברה",
-      "gloss": "the pinion of"
-    },
-    {
-      "surface": "חסידה",
-      "gloss": "the stork"
-    },
-    {
-      "surface": "ונצה",
-      "gloss": "and her plumage"
+      "kind": "wordplay",
+      "subject": "חסידה",
+      "rationale": "The stork's name shares its root with חסד (chesed, steadfast kindness), an irony against the heartless ostrich that follows."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The wing of the ostriches waves joyously — ⟨is it⟩ stork pinion and plumage?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa12e9b701afa17428d7bccf05362e42149c7d18f24806fe33c01c520addc93c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/39\/13-16.1791194619333.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּנַף",
+      "gloss": "The wing of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְנָנִים",
+      "gloss": "the ostriches",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶעֱלָסָה",
+      "gloss": "waves joyously",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִם",
+      "gloss": "⟨is it⟩"
+    },
+    {
+      "surface": "אֶבְרָה",
+      "gloss": "pinion",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲסִידָה",
+      "gloss": "stork",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֹצָה",
+      "gloss": "and plumage",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:39.334594752Z",
+  "model": "glm-5.3"
 }

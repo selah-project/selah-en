@@ -1,60 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "For I ⟨am⟩ YHWH your Elohim, the Holy One of Israel, your Savior; I gave Egypt ⟨as⟩ your ransom, Cush and Seba in your place.",
+  "ref": "isaiah 43:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 43,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "as",
+      "rationale": "Hebrew stacks the nouns without a preposition; English needs 'as' to carry the exchange sense of כֹפֶר."
+    },
+    {
+      "kind": "crux",
+      "subject": "ransom of nations",
+      "rationale": "כפרך here is read either as 'your ransom-price' (nations given in exchange for Israel) or as 'your atoner\/deliverer'; the exchange reading fits תַּחְתֶּיךָ."
+    }
+  ],
+  "translation": "For I am YHWH your Elohim, the Holy One of Israel, your Savior — I gave Egypt as your ransom, Cush and Seba in your stead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0ff328c04ad6d002937ac12d346ecb5484b63f114ddc183939da6c54b8d606ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/43\/1-4.1791188673553.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֶיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "קדוש",
-      "gloss": "the Holy One of"
+      "surface": "קְדוֹשׁ",
+      "gloss": "the Holy One",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "of Israel",
+      "sense": "S1"
     },
     {
-      "surface": "מושיעך",
-      "gloss": "your Savior"
+      "surface": "מוֹשִׁיעֶךָ",
+      "gloss": "your Savior",
+      "sense": "S1"
     },
     {
-      "surface": "נתתי",
+      "surface": "נָתַתִּי",
       "gloss": "I gave"
     },
     {
-      "surface": "כפרך",
-      "gloss": "your ransom"
+      "surface": "כָּפְרְךָ",
+      "gloss": "as your ransom",
+      "sense": "S1"
     },
     {
-      "surface": "מצרים",
-      "gloss": "Egypt"
+      "surface": "מִצְרַיִם",
+      "gloss": "Egypt",
+      "sense": "S1"
     },
     {
-      "surface": "כוש",
-      "gloss": "Cush"
+      "surface": "כּוּשׁ",
+      "gloss": "Cush",
+      "sense": "S1"
     },
     {
-      "surface": "וסבא",
-      "gloss": "and Seba"
+      "surface": "וּסְבָא",
+      "gloss": "and Seba",
+      "sense": "S1"
     },
     {
-      "surface": "תחתיך",
-      "gloss": "in your place"
+      "surface": "תַּחְתֶּיךָ",
+      "gloss": "in your stead",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:24:33.555063735Z",
+  "model": "glm-5.3"
 }

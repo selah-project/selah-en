@@ -1,42 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 81,
-  "translation": "Faints my nefesh ⟨for⟩ your salvation; for your word I have waited.",
-  "tokens": [
+  "ref": "psalms 119:81",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "כלתה",
-      "gloss": "faints",
-      "readings": [
-        "faints",
-        "is consumed"
-      ],
-      "held_by": {
-        "faints": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "is consumed": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force; kept as nefesh with readings rather than 'soul'"
     },
     {
-      "surface": "לתשועתך",
-      "gloss": "for your salvation"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my nefesh"
-    },
-    {
-      "surface": "לדברך",
-      "gloss": "for your word"
-    },
-    {
-      "surface": "יחלתי",
-      "gloss": "I have waited"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalmist addresses YHWH in the second person throughout"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My nefesh is finished ⟨waiting⟩ for your rescue; for your word I have waited.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4dfaaba9b5124bd9a620156343d618ba63cd706c41eb4027a52b9925d5ccef58",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/81-84.1791193468814.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּלְתָה",
+      "gloss": "is finished",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִתְשׁוּעָתְךָ",
+      "gloss": "for your rescue",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my throat",
+        "my life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לִדְבָרְךָ",
+      "gloss": "for your word",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִחָלְתִּי",
+      "gloss": "I have waited",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:28.815008939Z",
+  "model": "glm-5.3"
 }

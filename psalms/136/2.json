@@ -1,49 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Give thanks to the Elohim of gods, for his chesed ⟨endures⟩ forever.",
+  "ref": "psalms 136:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "endures",
+      "rationale": "לעולם carries no verb; the refrain supplies one in English."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "Elohim of gods",
+      "rationale": "Superlative Hebrew idiom — the plural of the same noun heightens it, 'Elohim above all gods'."
+    }
+  ],
+  "translation": "Give thanks to the Elohim of gods, for His chesed ⟨endures⟩ forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "53e01b3d7c65ac408f02b4d26464b805ffbdb4641827bfafab1a0f9212139b3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/1-4.1791193564808.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "הודו",
-      "gloss": "Give thanks"
+      "gloss": "Give thanks",
+      "sense": "S1"
     },
     {
       "surface": "לאלהי",
-      "gloss": "to the Elohim of"
+      "gloss": "to the Elohim of",
+      "sense": "S1"
     },
     {
       "surface": "האלהים",
-      "gloss": "gods"
+      "gloss": "gods",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "לעולם",
-      "gloss": "forever"
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
       "surface": "חסדו",
-      "gloss": "his chesed",
+      "gloss": "His chesed",
       "readings": [
-        "his chesed",
-        "his steadfast love",
-        "his loving devotion"
+        "His chesed",
+        "His steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v2"
-        ],
-        "his loving devotion": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:04.808998545Z",
+  "model": "glm-5.3"
 }

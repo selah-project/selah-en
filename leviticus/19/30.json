@@ -1,36 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "⟨את⟩ my sabbaths you shall keep, and my sanctuary you shall revere; I am YHWH.",
-  "tokens": [
+  "ref": "leviticus 19:30",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "addition",
+      "subject": "⟨am⟩",
+      "rationale": "Hebrew lacks a copula between אני and יהוה."
     },
     {
-      "surface": "שבתתי",
-      "gloss": "my sabbaths"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-person plural commands to the congregation."
     },
     {
-      "surface": "תשמרו",
-      "gloss": "you shall keep"
-    },
-    {
-      "surface": "ומקדשי",
-      "gloss": "and my sanctuary"
-    },
-    {
-      "surface": "תיראו",
-      "gloss": "you shall revere"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "Verse repeats verbatim at Leviticus 26:2, opening the holiness-code conclusion."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ My sabbaths you shall keep, and my sanctuary you shall revere — I ⟨am⟩ YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f5ea23d5ac9feacf5144e54fbe043f630ec0b87ef9d4935654ecebc574df7bb3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/29-32.1791182545474.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "My sabbaths",
+      "sense": null
+    },
+    {
+      "surface": "שַׁבְּתֹתַי",
+      "gloss": "My sabbaths",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁמֹרוּ",
+      "gloss": "you shall keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִקְדָּשִׁי",
+      "gloss": "and my sanctuary",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּירָאוּ",
+      "gloss": "you shall revere",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:42:25.476046951Z",
+  "model": "glm-5.3"
 }

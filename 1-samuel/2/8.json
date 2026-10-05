@@ -1,99 +1,144 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "⟨He⟩ raises ⟨the⟩ poor from dust, ⟨and⟩ from ash-heaps lifts ⟨the⟩ needy, to seat ⟨them⟩ with nobles, and ⟨a⟩ throne of glory ⟨he⟩ makes them inherit; for to YHWH belong the pillars of ⟨the⟩ earth, and he set ⟨the⟩ world upon them.",
-  "tokens": [
+  "ref": "1-samuel 2:8",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "מקים",
-      "gloss": "raises"
+      "kind": "addition",
+      "subject": "belong",
+      "rationale": "Copula implied by לְיהוה 'to YHWH' — possession requires an English verb."
     },
     {
-      "surface": "מעפר",
-      "gloss": "from the dust"
+      "kind": "hapax",
+      "subject": "מצקי",
+      "rationale": "Plural of מצוק, 'columns\/pillars', only here (cf. מצוק 1 Sam 14:5); rendered 'pillars', the literal structure."
     },
     {
-      "surface": "דל",
-      "gloss": "poor"
+      "kind": "wordplay",
+      "subject": "parallel",
+      "rationale": "Lifting of the poor from dust and ash-heap parallels Psalm 113:7 nearly verbatim."
     },
     {
-      "surface": "מאשפת",
-      "gloss": "from ash-heaps"
-    },
-    {
-      "surface": "ירים",
-      "gloss": "lifts"
-    },
-    {
-      "surface": "אביון",
-      "gloss": "needy"
-    },
-    {
-      "surface": "להושיב",
-      "gloss": "to seat"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "נדיבים",
-      "gloss": "nobles"
-    },
-    {
-      "surface": "וכסא",
-      "gloss": "and ⟨a⟩ throne"
-    },
-    {
-      "surface": "כבוד",
-      "gloss": "of glory"
-    },
-    {
-      "surface": "ינחלם",
-      "gloss": "makes them inherit"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "מצקי",
-      "gloss": "the pillars of",
-      "readings": [
-        "the pillars of",
-        "the foundations of"
-      ],
-      "held_by": {
-        "the pillars of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the foundations of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "of the earth"
-    },
-    {
-      "surface": "וישת",
-      "gloss": "and he set"
-    },
-    {
-      "surface": "עליהם",
-      "gloss": "upon them"
-    },
-    {
-      "surface": "תבל",
-      "gloss": "the world"
+      "kind": "substitution",
+      "subject": "honor",
+      "rationale": "כבוד literally 'weight\/heaviness'; 'glory' is tradition's word, 'honor\/weight' keeps the picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He raises from the dust the poor one, from the ash-heap he lifts the needy one, to seat ⟨him⟩ with nobles, and a throne of honor he causes them to inherit; for to YHWH belong the pillars of the earth, and he set upon them the world.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b9d86cc4a8d9dc6c7d030ef70cebed5206b1e63053486a390655b8ac7cc5d76",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/5-8.1791185361176.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֵקִ֨ים",
+      "gloss": "He raises",
+      "sense": null
+    },
+    {
+      "surface": "מֵעָפָ֜ר",
+      "gloss": "from the dust",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּ֗ל",
+      "gloss": "the poor one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽאַשְׁפֹּת֙",
+      "gloss": "from the ash-heap",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרִ֣ים",
+      "gloss": "he lifts",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶבְי֔וֹן",
+      "gloss": "the needy one",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהוֹשִׁיב֙",
+      "gloss": "to seat",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "נְדִיבִ֔ים",
+      "gloss": "nobles",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִסֵּ֥א",
+      "gloss": "and a throne of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָב֖וֹד",
+      "gloss": "honor",
+      "sense": "S1",
+      "readings": [
+        "honor",
+        "weight"
+      ]
+    },
+    {
+      "surface": "יַנְחִלֵ֑ם",
+      "gloss": "he causes them to inherit",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֤י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "לַֽיהוָה֙",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְצֻ֣קֵי",
+      "gloss": "belong the pillars of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֔רֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּ֥שֶׁת",
+      "gloss": "and he set",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵיהֶ֖ם",
+      "gloss": "upon them",
+      "sense": null
+    },
+    {
+      "surface": "תֵּבֵֽל",
+      "gloss": "the world",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:29:21.178371090Z",
+  "model": "glm-5.3"
 }

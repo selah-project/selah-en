@@ -1,28 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "They send forth their little ones like a flock, and their children dance.",
-  "tokens": [
+  "ref": "job 21:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "ישלחו",
-      "gloss": "They send forth"
-    },
-    {
-      "surface": "כצאן",
-      "gloss": "like a flock"
-    },
-    {
-      "surface": "עויליהם",
-      "gloss": "their little ones"
-    },
-    {
-      "surface": "וילדיהם",
-      "gloss": "and their children"
-    },
-    {
-      "surface": "ירקדון",
-      "gloss": "dance"
+      "kind": "alternative",
+      "subject": "they send out",
+      "rationale": "ישלחו of young is 'give birth to'; could read 'they bring forth their little ones like a flock'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They send out their little ones like a flock, and their children skip about.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8b9bba63c5abcc98e0b373e2e8741dd80efc87444a98aaca2f09875d3c1976ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/9-12.1791194364704.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְשַׁלְּחוּ",
+      "gloss": "they send out",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּצֹּאן",
+      "gloss": "like a flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲוִילֵיהֶם",
+      "gloss": "their little ones",
+      "sense": "S1",
+      "readings": [
+        "their little ones",
+        "their babes"
+      ]
+    },
+    {
+      "surface": "וְיַלְדֵיהֶם",
+      "gloss": "and their children",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרַקֵּדוּן",
+      "gloss": "skip about",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:24.705462619Z",
+  "model": "glm-5.3"
 }

@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "Give to YHWH, families of peoples, give to YHWH glory and strength.",
+  "ref": "1-chronicles 16:28",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "Ascribe",
+      "rationale": "הבו is simply 'give'; 'ascribe' is the contextual rendering."
+    },
+    {
+      "kind": "you",
+      "subject": "families of the peoples",
+      "rationale": "imperative addressed to the clans of the nations."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הבו…הבו",
+      "rationale": "repetition of the imperative frames the verse."
+    }
+  ],
+  "translation": "Ascribe to YHWH, families of the peoples, ascribe to YHWH glory and strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "69eb81f1b2d01e993eb624b74bedf33fd5313e7a37c04a3e7cc6353236a15b85",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/16\/25-28.1791196286944.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "הבו",
-      "gloss": "Give",
-      "readings": [
-        "Give",
-        "Ascribe"
-      ],
-      "held_by": {
-        "Give": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "Ascribe": [
-          "v2"
-        ]
-      }
+      "surface": "הָבוּ",
+      "gloss": "Ascribe",
+      "sense": null
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "surface": "לַיהוָה",
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "משפחות",
-      "gloss": "families"
+      "surface": "מִשְׁפְּחוֹת",
+      "gloss": "families",
+      "sense": "S1"
     },
     {
-      "surface": "עמים",
-      "gloss": "of peoples"
+      "surface": "עַמִּים",
+      "gloss": "of the peoples",
+      "sense": "S1"
     },
     {
-      "surface": "הבו",
-      "gloss": "give"
+      "surface": "הָבוּ",
+      "gloss": "ascribe",
+      "sense": null
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "surface": "לַיהוָה",
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כבוד",
+      "surface": "כָּבוֹד",
       "gloss": "glory",
+      "sense": "S1",
       "readings": [
         "glory",
         "weight"
-      ],
-      "held_by": {
-        "glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "weight": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "ועז",
-      "gloss": "and strength"
+      "surface": "וָעֹז",
+      "gloss": "and strength",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:31:26.945534065Z",
+  "model": "glm-5.3"
 }

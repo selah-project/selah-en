@@ -1,40 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "YHWH is pleased with ⟨את⟩ those who fear him, ⟨את⟩ those who wait for his chesed.",
+  "ref": "psalms 147:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 147,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; 'steadfast love' is the standard English rendering, offered as a second reading"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ירטה\/יחל",
+      "rationale": "fear and hope held together in one verse — those who fear Him are those who wait for Him"
+    }
+  ],
+  "translation": "YHWH delights ⟨את⟩ in those who fear Him, ⟨את⟩ those who wait for His chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bcde5adc8bd34b415e65a37cbd645585ad9049171de287d22390ddea9f32f1e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/147\/9-12.1791193649715.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "רוצה",
-      "gloss": "is pleased with"
+      "surface": "רוֹצֶה",
+      "gloss": "delights",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "those who fear Him"
     },
     {
-      "surface": "יראיו",
-      "gloss": "those who fear him"
+      "surface": "יְרֵאָיו",
+      "gloss": "in those who fear Him",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "those who wait for His chesed"
     },
     {
-      "surface": "המיחלים",
-      "gloss": "those who wait"
+      "surface": "הַמְיַחֲלִים",
+      "gloss": "those who wait",
+      "sense": "S1"
     },
     {
-      "surface": "לחסדו",
-      "gloss": "for his chesed",
+      "surface": "לְחַסְדּוֹ",
+      "gloss": "for His chesed",
+      "sense": "S1",
       "readings": [
-        "for his chesed",
-        "for his steadfast love"
+        "for His chesed",
+        "for His steadfast love"
       ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:29.716134595Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And ⟨it⟩ shall be: Sharon for a habitation of flocks, and ⟨the⟩ valley of Achor for a lying-down place of herds, for My people who have sought Me.",
+  "ref": "isaiah 65:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 65,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the valley of",
+      "rationale": "English needs the common noun valley though עמק stands construct before the proper name Achor"
+    },
+    {
+      "kind": "crux",
+      "subject": "Valley of Achor",
+      "rationale": "Named for the trouble (עכר) of Achan in Joshua 7; Hosea 2:17 promises it becomes a door of hope — here the place of punishment becomes pasture"
+    }
+  ],
+  "translation": "And the Sharon shall become a pasture-home for flocks, and the Valley of Achor a resting-place for herds, for my people who have sought me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec1425124587f81e17407d3dea42dda95cae6b12fc05f01071b31c2040912433",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/65\/9-12.1791188964861.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and ⟨it⟩ shall be"
+      "gloss": "and it shall become",
+      "sense": null
     },
     {
       "surface": "השרון",
-      "gloss": "Sharon"
+      "gloss": "the Sharon",
+      "sense": "S1"
     },
     {
       "surface": "לנוה",
-      "gloss": "for a habitation",
-      "readings": [
-        "for a habitation",
-        "for a pasture"
-      ],
-      "held_by": {
-        "for a habitation": [
-          "v1",
-          "v3"
-        ],
-        "for a pasture": [
-          "v2",
-          "en4"
-        ]
-      }
+      "gloss": "a pasture-home for",
+      "sense": "S1"
     },
     {
       "surface": "צאן",
-      "gloss": "of flocks"
+      "gloss": "flocks",
+      "sense": "S1"
     },
     {
       "surface": "ועמק",
-      "gloss": "and ⟨the⟩ valley"
+      "gloss": "and the valley of",
+      "sense": null
     },
     {
       "surface": "עכור",
-      "gloss": "of Achor"
+      "gloss": "Achor",
+      "sense": "S1"
     },
     {
       "surface": "לרבץ",
-      "gloss": "for a lying-down place"
+      "gloss": "a resting-place for",
+      "sense": "S1"
     },
     {
       "surface": "בקר",
-      "gloss": "of herds"
+      "gloss": "herds",
+      "sense": "S1"
     },
     {
       "surface": "לעמי",
-      "gloss": "for My people"
+      "gloss": "for my people",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "who"
+      "gloss": "who",
+      "sense": null
     },
     {
       "surface": "דרשוני",
-      "gloss": "have sought Me"
+      "gloss": "who have sought me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:29:24.870324299Z",
+  "model": "glm-5.3"
 }

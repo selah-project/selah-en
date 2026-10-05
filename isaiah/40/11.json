@@ -1,78 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Like a shepherd he will feed his flock; with his arm he will gather the lambs, and in his bosom he will carry ⟨them⟩; the nursing ⟨ones⟩ he will gently lead.",
-  "tokens": [
+  "ref": "isaiah 40:11",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "כרעה",
-      "gloss": "Like a shepherd"
+      "kind": "hapax",
+      "subject": "טְלָאִים",
+      "rationale": "This plural of ‘lamb’ occurs only here in the Tanakh."
     },
     {
-      "surface": "עדרו",
-      "gloss": "his flock"
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "English needs a direct object after ‘carry’ where Hebrew leaves it implied in the verb."
     },
     {
-      "surface": "ירעה",
-      "gloss": "he will feed",
-      "readings": [
-        "he will feed",
-        "he will shepherd"
-      ],
-      "held_by": {
-        "he will feed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he will shepherd": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בזרעו",
-      "gloss": "with his arm"
-    },
-    {
-      "surface": "יקבץ",
-      "gloss": "he will gather"
-    },
-    {
-      "surface": "טלאים",
-      "gloss": "the lambs"
-    },
-    {
-      "surface": "ובחיקו",
-      "gloss": "and in his bosom"
-    },
-    {
-      "surface": "ישא",
-      "gloss": "he will carry"
-    },
-    {
-      "surface": "עלות",
-      "gloss": "the nursing ⟨ones⟩",
-      "readings": [
-        "the nursing ⟨ones⟩",
-        "the nursing ⟨ewes⟩"
-      ],
-      "held_by": {
-        "the nursing ⟨ones⟩": [
-          "v1",
-          "en4"
-        ],
-        "the nursing ⟨ewes⟩": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ינהל",
-      "gloss": "he will gently lead"
+      "kind": "crux",
+      "subject": "עָלוֹת",
+      "rationale": "Feminine plural participle of עול ‘giving suck’ — the nursing ewes (or mothers) of the flock, kept literal rather than smoothed to ‘those with young’."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like a shepherd his flock he will pasture; with his arm he will gather lambs, and in his bosom he will carry them; the nursing ones he will lead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2fd0bef40490d6d2be5d12a0842845c6b1b1098728999d2dbd14f5e7d68e5e89",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/9-12.1791188627919.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּרֹעֶה",
+      "gloss": "like a shepherd",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶדְרוֹ",
+      "gloss": "his flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְעֶה",
+      "gloss": "he will pasture",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּזְרֹעוֹ",
+      "gloss": "with his arm",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְקַבֵּץ",
+      "gloss": "he will gather",
+      "sense": "S1"
+    },
+    {
+      "surface": "טְלָאִים",
+      "gloss": "lambs",
+      "sense": null
+    },
+    {
+      "surface": "וּבְחֵיקוֹ",
+      "gloss": "and in his bosom",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשָּׂא",
+      "gloss": "he will carry",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלוֹת",
+      "gloss": "the nursing ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְנַהֵל",
+      "gloss": "he will lead",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:23:47.920770431Z",
+  "model": "glm-5.3"
 }

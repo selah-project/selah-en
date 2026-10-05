@@ -1,54 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "When you did awesome things, we did not expect ⟨them⟩; you came down — from before your face the mountains flowed ⟨down⟩.",
+  "ref": "isaiah 64:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 64,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "נָזֹלּוּ",
+      "rationale": "From זלל 'quake' or נזל 'flow, drip' — 'mountains flowed' vs 'mountains quaked'; the flowing picture is kept."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Continued direct address to YHWH."
+    }
+  ],
+  "translation": "When you did awesome things that we did not expect, you came down — from before your face mountains flowed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10561ae911eae76767677d738358b4d5bbdd92e7b6b5e6f9834cece19c502ca8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/64\/1-4.1791188959869.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "בעשותך",
-      "gloss": "when you did"
+      "surface": "בַּעֲשׂוֹתְךָ",
+      "gloss": "When you did",
+      "sense": "S1"
     },
     {
-      "surface": "נוראות",
-      "gloss": "awesome things"
+      "surface": "נוֹרָאוֹת",
+      "gloss": "awesome things",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נקוה",
+      "surface": "נְקַוֶּה",
       "gloss": "we expected",
-      "readings": [
-        "we expected",
-        "we hoped for"
-      ],
-      "held_by": {
-        "we expected": [
-          "v2",
-          "v3"
-        ],
-        "we hoped for": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ירדת",
-      "gloss": "you came down"
+      "surface": "יָרַדְתָּ",
+      "gloss": "you came down",
+      "sense": "S1"
     },
     {
-      "surface": "מפניך",
+      "surface": "מִפָּנֶיךָ",
       "gloss": "from before your face"
     },
     {
-      "surface": "הרים",
-      "gloss": "the mountains"
+      "surface": "הָרִים",
+      "gloss": "mountains",
+      "sense": "S1"
     },
     {
-      "surface": "נזלו",
-      "gloss": "flowed down"
+      "surface": "נָזֹלּוּ",
+      "gloss": "flowed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:29:19.877776649Z",
+  "model": "glm-5.3"
 }

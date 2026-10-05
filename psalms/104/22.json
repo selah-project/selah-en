@@ -1,44 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "The sun rises — they gather themselves in, and in their dens they crouch.",
+  "ref": "psalms 104:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "themselves",
+      "rationale": "Niphal 'they gather themselves' supplied reflexively; Hebrew has only 'they are gathered'."
+    }
+  ],
+  "translation": "The sun rises, they gather themselves in, and in their dens they crouch down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1d2f3c5864d7a85432f77692d0da3cdccf389034a026da106d9968f1a1055382",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/21-24.1791193283260.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תזרח",
+      "surface": "תִּזְרַח",
       "gloss": "rises",
-      "readings": [
-        "rises",
-        "dawns"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "השמש",
-      "gloss": "The sun"
+      "surface": "הַשֶּׁמֶשׁ",
+      "gloss": "The sun",
+      "sense": "S1"
     },
     {
-      "surface": "יאספון",
+      "surface": "יֵאָסֵפוּן",
       "gloss": "they gather themselves in",
-      "readings": [
-        "they gather themselves in",
-        "they are taken away"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
+      "surface": "וְאֶל",
       "gloss": "and in"
     },
     {
-      "surface": "מעונתם",
+      "surface": "מְעֹנֹתָם",
       "gloss": "their dens",
-      "readings": [
-        "their dens",
-        "their habitations"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "ירבצון",
-      "gloss": "they crouch"
+      "surface": "יִרְבָּצוּן",
+      "gloss": "they crouch down",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:23.261086010Z",
+  "model": "glm-5.3"
 }

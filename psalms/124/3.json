@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "then they would have swallowed us alive, when their anger burned against us.",
+  "ref": "psalms 124:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 124,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אַף",
+      "rationale": "'nostril\/anger' — anger as flaring nostril, picture lost in English 'anger'"
+    },
+    {
+      "kind": "idiom",
+      "subject": "חַיִּים בִּלְעוּנוּ",
+      "rationale": "'alive they swallowed us' = swallowed us whole, still living; adverbial accusative kept literal"
+    }
+  ],
+  "translation": "then alive they would have swallowed us, when their anger blazed against us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3d56ce95c2f4cece4d732881d504e8ed9edbd9e0921b93fb3b7e81ffa9ebbfbd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/124\/1-4.1791193535561.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אזי",
-      "gloss": "then"
+      "surface": "אֲזַי",
+      "gloss": "then",
+      "sense": "S1"
     },
     {
-      "surface": "חיים",
-      "gloss": "alive"
+      "surface": "חַיִּים",
+      "gloss": "alive",
+      "sense": "S1"
     },
     {
-      "surface": "בלעונו",
-      "gloss": "they would have swallowed us"
+      "surface": "בִּלְעוּנוּ",
+      "gloss": "they would have swallowed us",
+      "sense": "S1"
     },
     {
-      "surface": "בחרות",
-      "gloss": "when [it] burned",
-      "readings": [
-        "when [it] burned",
-        "in the kindling of"
-      ],
-      "held_by": {
-        "when [it] burned": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the kindling of": [
-          "en4"
-        ]
-      }
+      "surface": "בַּחֲרוֹת",
+      "gloss": "when blazed",
+      "sense": "S1"
     },
     {
-      "surface": "אפם",
-      "gloss": "their anger"
+      "surface": "אַפָּם",
+      "gloss": "their anger",
+      "sense": "S1"
     },
     {
-      "surface": "בנו",
+      "surface": "בָּנוּ",
       "gloss": "against us"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:35.562071418Z",
+  "model": "glm-5.3"
 }

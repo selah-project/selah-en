@@ -1,40 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Why do the nations rage, and the peoples mutter emptiness?",
+  "ref": "psalms 2:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "רגשו",
+      "rationale": "This verb occurs only here in the Tanakh."
+    },
+    {
+      "kind": "invitation",
+      "subject": "the verse",
+      "rationale": "Opens with an interrogative that draws the reader into the psalm's question."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "גוים \/ לאמים",
+      "rationale": "Parallel pair of near-synonyms for nations and peoples, an opening couplet."
+    }
+  ],
+  "translation": "Why are the nations in tumult, and the peoples mutter emptiness?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cdb263921aa741da6b3115b88d3cfcd2110a54ac4dcecd719012af4789a7f2af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/2\/1-4.1791192350242.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "למה",
-      "gloss": "Why"
+      "surface": "לָ֭מָּה",
+      "gloss": "Why",
+      "sense": null
     },
     {
-      "surface": "רגשו",
-      "gloss": "rage",
-      "readings": [
-        "rage",
-        "tumult"
-      ]
+      "surface": "רָגְשׁ֣וּ",
+      "gloss": "are in tumult",
+      "sense": "S1"
     },
     {
-      "surface": "גוים",
-      "gloss": "the nations"
+      "surface": "גּוֹיִ֑ם",
+      "gloss": "the nations",
+      "sense": "S1"
     },
     {
-      "surface": "ולאמים",
-      "gloss": "and the peoples"
+      "surface": "וּ֝לְאֻמִּ֗ים",
+      "gloss": "and the peoples",
+      "sense": "S1"
     },
     {
-      "surface": "יהגו",
+      "surface": "יֶהְגּ֥וּ",
       "gloss": "mutter",
       "readings": [
         "mutter",
-        "meditate"
-      ]
+        "ponder"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ריק",
-      "gloss": "emptiness"
+      "surface": "רִֽיק",
+      "gloss": "emptiness",
+      "readings": [
+        "emptiness",
+        "in vain"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:25:50.242831050Z",
+  "model": "glm-5.3"
 }

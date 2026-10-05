@@ -1,87 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "YHWH will sustain him upon the bed of languishing; all his couch You have turned in his sickness.",
+  "ref": "psalms 41:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "דְּוָי",
+      "rationale": "sickness-word rare in the Tanakh (also Job 6:7), kept as 'sickness'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "all his bed",
+      "rationale": "may mean the whole of his lying-down — you transform it wholly — but the bed-picture kept literal"
+    }
+  ],
+  "translation": "YHWH sustains him on the bed of sickness; all his bed you turn in his illness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1696f47c9fc8033c41b857f02ec3502cefe02f9a954dd503fc04d4bfe53bc05a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/41\/1-4.1791192679236.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "יסעדנו",
-      "gloss": "will sustain him",
-      "readings": [
-        "will sustain him",
-        "sustains him"
-      ],
-      "held_by": {
-        "will sustain him": [
-          "v1",
-          "v3"
-        ],
-        "sustains him": [
-          "v2"
-        ]
-      }
+      "surface": "יִסְעָדֶנּוּ",
+      "gloss": "sustains him",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on"
     },
     {
-      "surface": "ערש",
-      "gloss": "bed"
+      "surface": "עֶרֶשׂ",
+      "gloss": "the bed of",
+      "sense": "S1"
     },
     {
-      "surface": "דוי",
-      "gloss": "of languishing",
-      "readings": [
-        "of languishing",
-        "of sickness"
-      ],
-      "held_by": {
-        "of languishing": [
-          "v1",
-          "v3"
-        ],
-        "of sickness": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "דְּוָי",
+      "gloss": "sickness",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "משכבו",
-      "gloss": "his couch"
+      "surface": "מִשְׁכָּבוֹ",
+      "gloss": "his bed",
+      "sense": "S1"
     },
     {
-      "surface": "הפכת",
-      "gloss": "You have turned",
-      "readings": [
-        "You have turned",
-        "You will turn"
-      ],
-      "held_by": {
-        "You have turned": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You will turn": [
-          "en4"
-        ]
-      },
-      "disputed": false
+      "surface": "הָפַכְתָּ",
+      "gloss": "you turn",
+      "sense": "S1"
     },
     {
-      "surface": "בחליו",
-      "gloss": "in his sickness"
+      "surface": "בְּחָלְיוֹ",
+      "gloss": "in his illness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:19.238122580Z",
+  "model": "glm-5.3"
 }

@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And a priest's daughter, when she becomes ⟨the wife⟩ of a stranger — she herself shall not eat of the contribution of the holy things.",
-  "tokens": [
+  "ref": "leviticus 22:12",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ובת",
-      "gloss": "And a daughter of"
+      "kind": "idiom",
+      "subject": "becomes to a man",
+      "rationale": "הָיָה לְ is the Hebrew idiom for marriage: 'becomes to a man' = becomes his wife."
     },
     {
-      "surface": "כהן",
-      "gloss": "a priest"
-    },
-    {
-      "surface": "כי",
-      "gloss": "when"
-    },
-    {
-      "surface": "תהיה",
-      "gloss": "she becomes"
-    },
-    {
-      "surface": "לאיש",
-      "gloss": "to a man"
-    },
-    {
-      "surface": "זר",
-      "gloss": "a stranger"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "she herself"
-    },
-    {
-      "surface": "בתרומת",
-      "gloss": "of the contribution of"
-    },
-    {
-      "surface": "הקדשים",
-      "gloss": "the holy things"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תאכל",
-      "gloss": "she shall eat"
+      "kind": "substitution",
+      "subject": "holy-things",
+      "rationale": "הַקֳּדָשִׁים plural here is the concrete sacred offerings, not abstract holiness."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And a priest's daughter, if she becomes a stranger's wife — she, of the contributions of the holy-things, shall not eat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "21abfb85ac3ca9ec1850ad1027b934edc5506cffbaf58498e33f023e955af0ec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/22\/9-12.1791182595149.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבַת",
+      "gloss": "And a daughter",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹהֵ֔ן",
+      "gloss": "of a priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "תִהְיֶ֖ה",
+      "gloss": "she becomes",
+      "sense": null
+    },
+    {
+      "surface": "לְאִ֣ישׁ",
+      "gloss": "to a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָ֑ר",
+      "gloss": "an outsider",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִ֕וא",
+      "gloss": "she",
+      "sense": null
+    },
+    {
+      "surface": "בִּתְרוּמַ֥ת",
+      "gloss": "of the contributions",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַקֳּדָשִׁ֖ים",
+      "gloss": "of the holy-things",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֹּאכֵֽל",
+      "gloss": "shall eat",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:43:15.150875397Z",
+  "model": "glm-5.3"
 }

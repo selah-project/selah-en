@@ -1,67 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And you shall cause to stand ⟨את⟩ him before Eleazar the priest and before all the congregation, and you shall command ⟨את⟩ him in their eyes.",
+  "ref": "numbers 27:19",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "before",
+      "rationale": "לִפְנֵי is literally 'to the face of'; English 'before' loses the body-part picture"
+    },
+    {
+      "kind": "you",
+      "subject": "to Moses",
+      "rationale": "YHWH's instruction addressed to Moses regarding Joshua's installation"
+    }
+  ],
+  "translation": "And you shall stand him before Eleazar the priest and before all the assembly, and you shall charge him before their eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "309f12623508b67b4f070db3fc0174c23b0934bfca674fb0df61b156b0c1b93e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/27\/19-19.1791197947759.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "והעמדת",
-      "gloss": "And you shall cause to stand"
+      "surface": "וְהַֽעֲמַדְתָּ",
+      "gloss": "and you shall stand"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "surface": "אֹתוֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "him (Joshua)"
     },
     {
-      "surface": "לפני",
+      "surface": "לִפְנֵי",
       "gloss": "before"
     },
     {
-      "surface": "אלעזר",
-      "gloss": "Eleazar"
+      "surface": "אֶלְעָזָר",
+      "gloss": "Eleazar",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "ולפני",
+      "surface": "וְלִפְנֵי",
       "gloss": "and before"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "העדה",
-      "gloss": "the congregation"
+      "surface": "הָעֵדָה",
+      "gloss": "the assembly",
+      "sense": "S1"
     },
     {
-      "surface": "וצויתה",
-      "gloss": "and you shall command"
+      "surface": "וְצִוִּיתָה",
+      "gloss": "and you shall charge",
+      "sense": "S1"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "surface": "אֹתוֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "him (Joshua)"
     },
     {
-      "surface": "לעיניהם",
-      "gloss": "in their eyes",
-      "readings": [
-        "in their eyes",
-        "before their eyes"
-      ],
-      "held_by": {
-        "in their eyes": [
-          "v1",
-          "v3"
-        ],
-        "before their eyes": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "לְעֵינֵיהֶם",
+      "gloss": "before their eyes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:59:07.760390554Z",
+  "model": "glm-5.3"
 }

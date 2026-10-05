@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And he begets a son who is a violent one, a shedder of blood — and ⟨who⟩ does ⟨the like⟩ to a brother, to one of these ⟨things⟩.",
-  "tokens": [
+  "ref": "ezekiel 18:10",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "והוליד",
-      "gloss": "And ⟨he⟩ begets"
+      "kind": "elision",
+      "subject": "אָח",
+      "rationale": "Hebrew אח at the accent pause is an elided object marker אֵת, rendered by the marker"
     },
     {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "פריץ",
-      "gloss": "a violent one",
-      "readings": [
-        "a violent one",
-        "a robber"
-      ],
-      "held_by": {
-        "a violent one": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a robber": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שפך",
-      "gloss": "a shedder of"
-    },
-    {
-      "surface": "דם",
-      "gloss": "blood"
-    },
-    {
-      "surface": "ועשה",
-      "gloss": "and ⟨he⟩ does"
-    },
-    {
-      "surface": "אח",
-      "gloss": "a brother"
-    },
-    {
-      "surface": "מאחד",
-      "gloss": "to one"
-    },
-    {
-      "surface": "מאלה",
-      "gloss": "of these"
+      "kind": "crux",
+      "subject": "אָח",
+      "rationale": "ketiv reads 'a brother' (or the marker את); the pause suggests אֵת — both kept visible"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he begets a son, a violent one, a shedder of blood — and ⟨את⟩ a brother, one of these, he does.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c92f3cbd3c80215e236aa36a2df28be4656e8ff4b642162966dd3185a0eb1b93",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/18\/9-12.1791190507673.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהוֹלִיד",
+      "gloss": "And he begets",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּן",
+      "gloss": "a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּרִיץ",
+      "gloss": "a violent one",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁפֵךְ",
+      "gloss": "a shedder of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּם",
+      "gloss": "blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעָשָׂה",
+      "gloss": "and he does",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָח",
+      "gloss": "⟨את⟩ a brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאַחַד",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֵלֶּה",
+      "gloss": "of these",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:55:07.674688947Z",
+  "model": "glm-5.3"
 }

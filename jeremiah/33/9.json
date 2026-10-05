@@ -1,30 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And it shall be to me for a name of joy, for praise, and for glory, to all the nations of the earth, who hear ⟨את⟩ all the good which I am doing ⟨את⟩ them; and they shall fear and tremble because of all the good and because of all the peace which I am doing to it.",
+  "ref": "jeremiah 33:9",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "name of joy",
+      "rationale": "לשם לששון is 'for a name of joy' — the city becomes YHWH's reputation for joy among the nations, kept literally."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "פחדו ורגזו",
+      "rationale": "trembling and shaking in astonishment — near-synonymous pair intensified by juxtaposition; English carries two verbs but loses the sound-echo."
+    },
+    {
+      "kind": "elision",
+      "subject": "אתם",
+      "rationale": "object marker with 3mp suffix points back to the restoration promised in vv. 7–8; rendered only as the marker plus pronoun."
+    }
+  ],
+  "translation": "And it will be to me for a name of joy, and for praise, and for splendor to all the nations of the earth, who will hear ⟨את⟩ all the good that I am doing ⟨את⟩ them; and they will tremble and be shaken over all the good and over all the peace that I am doing for it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be1f722a168a5832b7c3025dc2d250b1602c5235bb857f9cf134023cc5d200d8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/33\/9-9.1791199380930.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "והיתה",
-      "gloss": "And it shall be"
+      "gloss": "and it will be",
+      "sense": null
     },
     {
       "surface": "לי",
-      "gloss": "to me"
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "לשם",
-      "gloss": "for a name of"
+      "gloss": "for a name",
+      "sense": "S1"
     },
     {
       "surface": "ששון",
-      "gloss": "joy"
+      "gloss": "of joy",
+      "sense": "S1"
     },
     {
       "surface": "לתהלה",
-      "gloss": "for praise"
+      "gloss": "for praise",
+      "sense": "S1"
     },
     {
       "surface": "ולתפארת",
-      "gloss": "and for glory"
+      "gloss": "and for splendor",
+      "sense": "S1"
     },
     {
       "surface": "לכל",
@@ -32,11 +70,13 @@
     },
     {
       "surface": "גויי",
-      "gloss": "the nations of"
+      "gloss": "the nations of",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
-      "gloss": "the earth"
+      "gloss": "the earth",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -44,11 +84,13 @@
     },
     {
       "surface": "ישמעו",
-      "gloss": "shall hear"
+      "gloss": "will hear",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all the good"
     },
     {
       "surface": "כל",
@@ -56,11 +98,12 @@
     },
     {
       "surface": "הטובה",
-      "gloss": "the good"
+      "gloss": "the good",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "אנכי",
@@ -68,23 +111,27 @@
     },
     {
       "surface": "עשה",
-      "gloss": "am doing"
+      "gloss": "am doing",
+      "sense": "S1"
     },
     {
       "surface": "אתם",
-      "gloss": "⟨את⟩ them"
+      "gloss": "⟨את⟩ them",
+      "marks": "⟨את⟩ them (the restored fortunes of Israel and Judah)"
     },
     {
       "surface": "ופחדו",
-      "gloss": "and they shall fear"
+      "gloss": "and they will tremble",
+      "sense": "S1"
     },
     {
       "surface": "ורגזו",
-      "gloss": "and tremble"
+      "gloss": "and be shaken",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "because of"
+      "gloss": "over"
     },
     {
       "surface": "כל",
@@ -92,11 +139,12 @@
     },
     {
       "surface": "הטובה",
-      "gloss": "the good"
+      "gloss": "the good",
+      "sense": "S1"
     },
     {
       "surface": "ועל",
-      "gloss": "and because of"
+      "gloss": "and over"
     },
     {
       "surface": "כל",
@@ -105,25 +153,11 @@
     {
       "surface": "השלום",
       "gloss": "the peace",
-      "readings": [
-        "the peace",
-        "the prosperity"
-      ],
-      "held_by": {
-        "the peace": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the prosperity": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "אנכי",
@@ -131,13 +165,14 @@
     },
     {
       "surface": "עשה",
-      "gloss": "am doing"
+      "gloss": "am doing",
+      "sense": "S1"
     },
     {
       "surface": "לה",
-      "gloss": "to it"
+      "gloss": "for it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:23:00.931281673Z",
+  "model": "glm-5.3"
 }

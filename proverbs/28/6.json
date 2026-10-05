@@ -1,70 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Better ⟨is⟩ a poor person walking in his integrity than one crooked in his ways, and he ⟨is⟩ rich.",
+  "ref": "proverbs 28:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before 'rich'; the pronoun הוא is emphatic."
+    },
+    {
+      "kind": "hapax",
+      "subject": "דרכים",
+      "rationale": "the dual form of דרך, literally 'two-ways', kept by hyphenation; usually read simply 'ways'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "a poor man",
+      "rationale": "רש is a participle 'one being destitute', rendered as a noun phrase."
+    }
+  ],
+  "translation": "Better a poor man walking in his integrity than one crooked of two-ways, and he ⟨is⟩ rich.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8267cbc1c26f1aad237a26796361374451ceacdbe8e821a16943a3854a3b3c21",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/28\/5-8.1791194042111.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Better ⟨is⟩"
+      "surface": "טוֹב",
+      "gloss": "Better",
+      "sense": "S1"
     },
     {
-      "surface": "רש",
-      "gloss": "a poor person"
+      "surface": "רָשׁ",
+      "gloss": "a poor ⟨man⟩",
+      "sense": "S1"
     },
     {
-      "surface": "הולך",
-      "gloss": "walking"
+      "surface": "הוֹלֵךְ",
+      "gloss": "walking",
+      "sense": "S1"
     },
     {
-      "surface": "בתמו",
-      "gloss": "in his integrity"
+      "surface": "בְּתֻמּוֹ",
+      "gloss": "in his integrity",
+      "sense": "S1"
     },
     {
-      "surface": "מעקש",
-      "gloss": "crooked",
+      "surface": "מֵעִקֵּשׁ",
+      "gloss": "than one crooked of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּרָכַיִם",
+      "gloss": "two-ways",
       "readings": [
-        "crooked",
-        "perverse"
+        "two-ways",
+        "ways"
       ],
-      "held_by": {
-        "crooked": [
-          "v2",
-          "en4"
-        ],
-        "perverse": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "דרכים",
-      "gloss": "in his ways",
-      "readings": [
-        "in his ways",
-        "of two ways"
-      ],
-      "held_by": {
-        "in his ways": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of two ways": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והוא",
+      "surface": "וְהוּא",
       "gloss": "and he"
     },
     {
-      "surface": "עשיר",
-      "gloss": "rich"
+      "surface": "עָשִׁיר",
+      "gloss": "rich",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:02.111839180Z",
+  "model": "glm-5.3"
 }

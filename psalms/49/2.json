@@ -1,54 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Hear this, all peoples; give ear, all inhabitants ⟨of⟩ the world.",
-  "tokens": [
+  "ref": "psalms 49:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "שמעו",
-      "gloss": "Hear"
+      "kind": "invitation",
+      "subject": "to all peoples",
+      "rationale": "Double imperative summons — hear, give ear — addressed to all peoples of the world"
     },
     {
-      "surface": "זאת",
-      "gloss": "this"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "העמים",
-      "gloss": "the peoples"
-    },
-    {
-      "surface": "האזינו",
-      "gloss": "give ear"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "ישבי",
-      "gloss": "inhabitants ⟨of⟩"
-    },
-    {
-      "surface": "חלד",
-      "gloss": "the world",
-      "readings": [
-        "the world",
-        "the age"
-      ],
-      "held_by": {
-        "the world": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the age": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "חלד",
+      "rationale": "'the world (as transient)' vs 'fleeting life'; the word carries transience either way"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Hear this, all the peoples; give ear, all inhabitants of the world,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "25d8f8e3f9ee268b719e0685f982040bd2692ce23e650345daaf2cfd79ccdc1d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/1-4.1791192738967.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׁמְעוּ",
+      "gloss": "Hear",
+      "sense": null
+    },
+    {
+      "surface": "זֹאת",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הָעַמִּ֑ים",
+      "gloss": "the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֝אֲזִ֗ינוּ",
+      "gloss": "give ear",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "יֹשְׁבֵי",
+      "gloss": "inhabitants of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָֽלֶד",
+      "gloss": "the world",
+      "sense": "S1",
+      "readings": [
+        "the world",
+        "transient life"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.967811924Z",
+  "model": "glm-5.3"
 }

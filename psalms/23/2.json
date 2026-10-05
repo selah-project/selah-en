@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "In pastures of tender grass He makes me lie down; beside waters of rest He leads me.",
-  "tokens": [
+  "ref": "psalms 23:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "בנאות",
-      "gloss": "In pastures of"
+      "kind": "substitution",
+      "subject": "beside",
+      "rationale": "על literally 'upon\/over'; waters are besided, so 'beside' reads the shepherd picture"
     },
     {
-      "surface": "דשא",
-      "gloss": "tender grass",
-      "readings": [
-        "tender grass",
-        "green"
-      ],
-      "held_by": {
-        "tender grass": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "green": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ירביצני",
-      "gloss": "He makes me lie down"
-    },
-    {
-      "surface": "על",
-      "gloss": "beside"
-    },
-    {
-      "surface": "מי",
-      "gloss": "waters of"
-    },
-    {
-      "surface": "מנחות",
-      "gloss": "rest"
-    },
-    {
-      "surface": "ינהלני",
-      "gloss": "He leads me"
+      "kind": "alternative",
+      "subject": "He leads me",
+      "rationale": "ינהל piel can also mean 'guides gently, provides for along the way'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In pastures of grass He makes me lie down; beside waters of rest He leads me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fed743c77ce8e2d47b40ff42b0091ff2f01dec58a8fc52abaab872dfd83e3985",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/23\/1-4.1791192513615.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בִּנְאוֹת",
+      "gloss": "In pastures",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֶּשֶׁא",
+      "gloss": "of grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַרְבִּיצֵנִי",
+      "gloss": "He makes me lie down",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "beside",
+      "sense": null
+    },
+    {
+      "surface": "מֵי",
+      "gloss": "waters of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְנֻחוֹת",
+      "gloss": "rest",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְנַהֲלֵנִי",
+      "gloss": "He leads me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:33.616146827Z",
+  "model": "glm-5.3"
 }

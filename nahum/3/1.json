@@ -1,18 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Woe to the city of blood — all of it deceit and plunder, full of prey; the prey does not depart.",
+  "ref": "nahum 3:1",
+  "book": "nahum",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "פרק",
+      "rationale": "'torn-off plunder' (from breaking off) vs the parallel sense 'a fork (in roads)' as in Obadiah 1:14; the same noun names both."
+    },
+    {
+      "kind": "crux",
+      "subject": "the clause chain",
+      "rationale": "Verse 1 is a string of nouns with no verb until 'does not depart'; translators supply 'she is all deceit' or read the nouns as accusatives of the never-named subject."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "טרף לא ימיש",
+      "rationale": "The city of prey cannot shake off its own prey — the violence clings to its holder."
+    }
+  ],
+  "translation": "Woe to the city of blood, all of it deceit, torn-off plunder, full — prey does not depart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea0f2b07f85bf297a88d35d9be692beedf71a88ef58e86fbdb760d354e9080d0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nahum\/3\/1-4.1791191806084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nahum.edn"
+  },
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe"
+      "gloss": "Woe",
+      "sense": "S1"
     },
     {
       "surface": "עיר",
-      "gloss": "city"
+      "gloss": "the city of",
+      "sense": "S1"
     },
     {
       "surface": "דמים",
-      "gloss": "of blood"
+      "gloss": "blood",
+      "sense": "S1"
     },
     {
       "surface": "כלה",
@@ -21,42 +56,34 @@
     {
       "surface": "כחש",
       "gloss": "deceit",
-      "readings": [
-        "deceit",
-        "falsehood"
-      ],
-      "held_by": {
-        "deceit": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "falsehood": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "פרק",
-      "gloss": "plunder"
+      "gloss": "torn-off plunder",
+      "sense": "S1"
     },
     {
       "surface": "מלאה",
-      "gloss": "full"
+      "gloss": "full",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "ימיש",
-      "gloss": "does depart"
+      "gloss": "does depart",
+      "sense": "S1"
     },
     {
       "surface": "טרף",
-      "gloss": "the prey"
+      "gloss": "prey",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:46.084913943Z",
+  "model": "glm-5.3"
 }

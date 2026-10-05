@@ -1,40 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "⟨As⟩ the heavens for height and the earth for depth, ⟨so⟩ the heart of kings is without searching.",
-  "tokens": [
+  "ref": "proverbs 25:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "kind": "hapax",
+      "subject": "לָעֹמֶק",
+      "rationale": "The noun עֹמֶק 'depth' occurs only here in the Tanakh."
     },
     {
-      "surface": "לרום",
-      "gloss": "for height"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in the final clause."
     },
     {
-      "surface": "וארץ",
-      "gloss": "and the earth"
-    },
-    {
-      "surface": "לעמק",
-      "gloss": "for depth"
-    },
-    {
-      "surface": "ולב",
-      "gloss": "and the heart of"
-    },
-    {
-      "surface": "מלכים",
-      "gloss": "of kings"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is no"
-    },
-    {
-      "surface": "חקר",
-      "gloss": "searching"
+      "kind": "wordplay",
+      "subject": "חקר",
+      "rationale": "The verb of 25:2 ('search out') returns as a noun — the royal heart admits no such searching."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Heavens for height, and earth for depth, and the heart of kings is unsearchable.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1fbc849ff3a6ed5729b4da28bd945d23afcc387c0c2ffb6ca9eef8cba6a6fb24",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/25\/1-4.1791194000251.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׁמַ֣יִם",
+      "gloss": "Heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֭רוּם",
+      "gloss": "for height",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאָ֣רֶץ",
+      "gloss": "and earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָעֹ֑מֶק",
+      "gloss": "for depth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֵ֥ב",
+      "gloss": "and the heart of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְ֝לָכִ֗ים",
+      "gloss": "kings",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֣ין",
+      "gloss": "is no",
+      "sense": null
+    },
+    {
+      "surface": "חֵֽקֶר",
+      "gloss": "searching",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:20.252780300Z",
+  "model": "glm-5.3"
 }

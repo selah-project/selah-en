@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And hail, in the going down of the forest; and in the lowland the city shall be brought low.",
-  "tokens": [
+  "ref": "isaiah 32:19",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "וברד",
-      "gloss": "and hail"
+      "kind": "wordplay",
+      "subject": "ברד\/ברדת",
+      "rationale": "hail \/ coming down: same-sounding root pair, kept by echoing “hail \/ coming down”"
     },
     {
-      "surface": "ברדת",
-      "gloss": "in the going down of"
+      "kind": "wordplay",
+      "subject": "שפלה\/תשפל",
+      "rationale": "the city shall be brought low into lowness: root repetition preserved as “bowed low into lowliness”"
     },
     {
-      "surface": "היער",
-      "gloss": "the forest"
+      "kind": "hapax",
+      "subject": "וברד",
+      "rationale": "the qal verb ברד occurs only here in the Tanakh"
     },
     {
-      "surface": "ובשפלה",
-      "gloss": "and in the lowland",
-      "readings": [
-        "and in the lowland",
-        "and in the low place"
-      ]
-    },
-    {
-      "surface": "תשפל",
-      "gloss": "shall be brought low",
-      "readings": [
-        "shall be brought low",
-        "shall be laid low"
-      ],
-      "held_by": {
-        "shall be brought low": [
-          "v1",
-          "en4"
-        ],
-        "shall be laid low": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "העיר",
-      "gloss": "the city"
+      "kind": "crux",
+      "subject": "ובשפלה",
+      "rationale": "taken as “in the lowland (the Shephelah)” vs “in lowliness, humiliation”; the pun with תשפל holds either way"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And it shall hail, in the forest's coming down; and the city shall be bowed low into lowliness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6d8113b81ed7a728ec4e0594e7a619b8099aedb472558fcb06ce045c9651bb07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/32\/17-20.1791188492160.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבָרַ֖ד",
+      "gloss": "And it shall hail",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרֶ֣דֶת",
+      "gloss": "in the coming down of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיָּ֑עַר",
+      "gloss": "the forest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבַשְּׁפֵלָה",
+      "gloss": "and into the lowland",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁפַּ֥ל",
+      "gloss": "shall be bowed low",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעִֽיר",
+      "gloss": "the city",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:21:32.164727498Z",
+  "model": "glm-5.3"
 }

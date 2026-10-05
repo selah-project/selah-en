@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Have the gates of death been revealed to you, and the gates of the shadow of death — do you see?",
-  "tokens": [
+  "ref": "job 38:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "הנגלו",
-      "gloss": "have been revealed"
+      "kind": "substitution",
+      "subject": "shadow-of-death",
+      "rationale": "צלמות is literally 'shadow of death'; tradition often softens it to 'deep darkness'"
     },
     {
-      "surface": "לך",
-      "gloss": "to you"
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "YHWH's rhetorical interrogation addresses Job directly"
     },
     {
-      "surface": "שערי",
-      "gloss": "the gates of"
-    },
-    {
-      "surface": "מות",
-      "gloss": "death"
-    },
-    {
-      "surface": "ושערי",
-      "gloss": "and the gates of"
-    },
-    {
-      "surface": "צלמות",
-      "gloss": "the shadow of death",
-      "readings": [
-        "the shadow of death",
-        "deep darkness"
-      ],
-      "held_by": {
-        "the shadow of death": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "deep darkness": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תראה",
-      "gloss": "do you see"
+      "kind": "mystery",
+      "subject": "gates of death",
+      "rationale": "the realm of death as sealed and hidden from the living"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Have the gates of death been uncovered to you, and the gates of shadow-of-death — do you see them?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8921692e4f82a75b78048f5a2afe89a63fe59406bdcadb22731b47690f6f24a8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/38\/17-20.1791194607142.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲנִגְל֣וּ",
+      "gloss": "have ... been uncovered",
+      "sense": "S2"
+    },
+    {
+      "surface": "לְ֭ךָ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "שַׁעֲרֵי",
+      "gloss": "the gates of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָ֫וֶת",
+      "gloss": "death",
+      "readings": [
+        "death",
+        "the realm of death"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשַׁעֲרֵ֖י",
+      "gloss": "and the gates of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַלְמָ֣וֶת",
+      "gloss": "shadow-of-death",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּרְאֶֽה",
+      "gloss": "do you see",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:27.142730714Z",
+  "model": "glm-5.3"
 }

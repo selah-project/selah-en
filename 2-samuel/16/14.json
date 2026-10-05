@@ -1,44 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And the king came, and all the people who were with ⟨את⟩ him, exhausted, and he refreshed himself there.",
+  "ref": "2-samuel 16:14",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "English needs a copula before the adjective 'weary'; Hebrew simply juxtaposes."
+    },
+    {
+      "kind": "substitution",
+      "subject": "refreshed himself",
+      "rationale": "נפש niphal is literally 'was breathed upon' — caught breath, paused from exertion; 'refreshed' is the nearest English can carry."
+    }
+  ],
+  "translation": "And the king came, and all the people who ⟨were⟩ ⟨את⟩ with him, weary, and refreshed himself there.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5fef96fb614161128648aca8d69e7438778caf42b95d1509ef82b6c87ce7bbe8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/16\/13-16.1791186445112.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "ויבא",
-      "gloss": "and came"
+      "surface": "וַיָּבֹא",
+      "gloss": "and came",
+      "sense": null
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
-      "gloss": "and all"
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
     },
     {
-      "surface": "העם",
-      "gloss": "the people"
+      "surface": "הָעָם",
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "who"
     },
     {
-      "surface": "אתו",
-      "gloss": "with ⟨את⟩ him"
+      "surface": "אִתּוֹ",
+      "gloss": "⟨את⟩ with him",
+      "marks": "the people",
+      "sense": null
     },
     {
-      "surface": "עיפים",
-      "gloss": "exhausted"
+      "surface": "עֲיֵפִים",
+      "gloss": "weary",
+      "sense": "S1"
     },
     {
-      "surface": "וינפש",
-      "gloss": "and he refreshed himself"
+      "surface": "וַיִּנָּפֵשׁ",
+      "gloss": "and refreshed himself",
+      "sense": "S1"
     },
     {
-      "surface": "שם",
-      "gloss": "there"
+      "surface": "שָׁם",
+      "gloss": "there",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:47:25.113232192Z",
+  "model": "glm-5.3"
 }

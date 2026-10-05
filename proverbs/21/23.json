@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "He who guards his mouth and his tongue guards his soul from troubles.",
-  "tokens": [
+  "ref": "proverbs 21:23",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "שמר",
-      "gloss": "guards"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש is literally throat \/ life-force; 'soul' would import later doctrine"
     },
     {
-      "surface": "פיו",
-      "gloss": "his mouth"
-    },
-    {
-      "surface": "ולשונו",
-      "gloss": "and his tongue"
-    },
-    {
-      "surface": "שמר",
-      "gloss": "guards"
-    },
-    {
-      "surface": "מצרות",
-      "gloss": "from troubles",
-      "readings": [
-        "from troubles",
-        "from straits"
-      ],
-      "held_by": {
-        "from troubles": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from straits": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his soul"
+      "kind": "wordplay",
+      "subject": "שֹׁמֵר…שֹׁמֵר",
+      "rationale": "guarded repetition of the participle frames the verse"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The-one-who-guards his mouth and his tongue guards his throat from troubles.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9aa9a8b552911bfd490c48270db8b32355ff1881861a91ede6bbefca05183590",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/21-24.1791193945058.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֹׁמֵ֣ר",
+      "gloss": "The-one-who-guards",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּ֭יו",
+      "gloss": "his mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְשׁוֹנ֑וֹ",
+      "gloss": "and his tongue",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמֵ֖ר",
+      "gloss": "guards",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצָּר֣וֹת",
+      "gloss": "from troubles",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֽׁוֹ",
+      "gloss": "his throat",
+      "sense": "S1",
+      "readings": [
+        "his throat",
+        "his life",
+        "his self"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:25.059681859Z",
+  "model": "glm-5.3"
 }

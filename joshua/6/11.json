@@ -1,71 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And ⟨he⟩ caused ⟨את⟩ the ark of YHWH to go around ⟨את⟩ the city the circuit one time; and they came ⟨into⟩ the camp, and lodged in the camp.",
+  "ref": "joshua 6:11",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "into",
+      "rationale": "Hebrew ויבאו המחנה lacks a preposition; 'into' supplied for English."
+    },
+    {
+      "kind": "measurement",
+      "subject": "one time",
+      "rationale": "the circuit is counted — one encirclement on this day, against seven to come."
+    }
+  ],
+  "translation": "And he caused the ark of YHWH to circle ⟨את⟩ the city, going around it one time, and they came into the camp and spent the night in the camp.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ab0752a8e396cc26ff1e3fddc92c47bd89646ccb43de6534d26322dd5159adc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/6\/9-12.1791184384807.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
-      "surface": "ויסב",
-      "gloss": "and caused to go around"
+      "surface": "וַיַּסֵּ֤ב",
+      "gloss": "And he caused to circle"
     },
     {
-      "surface": "ארון",
-      "gloss": "the ark"
+      "surface": "אֲרֹ֥ון",
+      "gloss": "the ark of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "surface": "יְהוָה֙",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the city"
     },
     {
-      "surface": "העיר",
-      "gloss": "the city"
+      "surface": "הָעִ֔יר",
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
-      "surface": "הקף",
-      "gloss": "the circuit",
-      "readings": [
-        "the circuit",
-        "going around"
-      ],
-      "held_by": {
-        "the circuit": [
-          "v1",
-          "v3"
-        ],
-        "going around": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "הַקֵּ֖ף",
+      "gloss": "going around",
+      "sense": "S1"
     },
     {
-      "surface": "פעם",
-      "gloss": "one time"
+      "surface": "פַּ֣עַם",
+      "gloss": "time",
+      "sense": "S1"
     },
     {
-      "surface": "אחת",
-      "gloss": "one"
+      "surface": "אַחַ֑ת",
+      "gloss": "one",
+      "sense": "S1"
     },
     {
-      "surface": "ויבאו",
+      "surface": "וַיָּבֹ֨אוּ֙",
       "gloss": "and they came"
     },
     {
-      "surface": "המחנה",
-      "gloss": "the camp"
+      "surface": "הַֽמַּחֲנֶ֔ה",
+      "gloss": "into the camp",
+      "sense": "S1"
     },
     {
-      "surface": "וילינו",
-      "gloss": "and lodged"
+      "surface": "וַיָּלִ֖ינוּ",
+      "gloss": "and spent the night",
+      "sense": "S1"
     },
     {
-      "surface": "במחנה",
-      "gloss": "in the camp"
+      "surface": "בַּֽמַּחֲנֶֽה",
+      "gloss": "in the camp",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:13:04.808495872Z",
+  "model": "glm-5.3"
 }

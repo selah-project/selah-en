@@ -1,71 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And YHWH was with him; in all that he went out he acted wisely and prospered, and he rebelled against the king of Assyria and did not serve him.",
-  "tokens": [
+  "ref": "2-kings 18:7",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "והיה",
-      "gloss": "and was"
+      "kind": "crux",
+      "subject": "in all that he went out he succeeded",
+      "rationale": "ישכיל hiphil: 'he succeeded' vs 'he acted wisely' — both senses of שׂכל"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "עמו",
-      "gloss": "with him"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "in all"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "יצא",
-      "gloss": "he went out"
-    },
-    {
-      "surface": "ישכיל",
-      "gloss": "he acted wisely",
-      "readings": [
-        "he acted wisely",
-        "he prospered"
-      ],
-      "held_by": {
-        "he acted wisely": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "he prospered": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וימרד",
-      "gloss": "and he rebelled"
-    },
-    {
-      "surface": "במלך",
-      "gloss": "against the king of"
-    },
-    {
-      "surface": "אשור",
-      "gloss": "Assyria"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "עבדו",
-      "gloss": "he served him"
+      "kind": "addition",
+      "subject": "did he serve him",
+      "rationale": "English word order supplies the auxiliary 'did'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And YHWH was with him; in all that he went out he succeeded, and he rebelled against the king of Assyria and did not serve him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7279293e0ca1b9af20eb2bd80e5616c5a62f21d5ed1b86976d4f9eeba1c0eb33",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/18\/5-8.1791187772228.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָיָ֤ה",
+      "gloss": "and He was",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה֙",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמּ֔וֹ",
+      "gloss": "with him",
+      "sense": null
+    },
+    {
+      "surface": "בְּכֹ֥ל",
+      "gloss": "in all",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "יֵצֵ֖א",
+      "gloss": "he went out",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׂכִּ֑יל",
+      "gloss": "he succeeded",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּמְרֹ֥ד",
+      "gloss": "and he rebelled",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמֶֽלֶךְ",
+      "gloss": "against the king of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשּׁ֖וּר",
+      "gloss": "Assyria",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֥א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲבָדֽוֹ",
+      "gloss": "did he serve him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:09:32.229508368Z",
+  "model": "glm-5.3"
 }

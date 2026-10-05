@@ -1,58 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Praise Yah, for YHWH ⟨is⟩ good; make music to His name, for ⟨it is⟩ pleasant.",
-  "tokens": [
+  "ref": "psalms 135:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 135,
+  "notes": [
     {
-      "surface": "הללו",
-      "gloss": "Praise"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in both 'for YHWH is good' and 'for it is pleasant'"
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "זמרו",
-      "gloss": "make music",
-      "readings": [
-        "make music",
-        "sing"
-      ],
-      "held_by": {
-        "make music": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sing": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לשמו",
-      "gloss": "to His name"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "נעים",
-      "gloss": "pleasant"
+      "kind": "wordplay",
+      "subject": "parallel halves",
+      "rationale": "Symmetric structure: praise\/melody — for good\/for pleasant, matching the two כי clauses"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Praise Yah, for YHWH is good; make melody to His name, for it is pleasant.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "604c2988c94fd071d035674391681ef888dec2ed7d4cfd5f8d3d363cedeae7f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/135\/1-4.1791193556511.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַלְלוּ",
+      "gloss": "Praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָּהּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "זַמְּרוּ",
+      "gloss": "make melody",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמוֹ",
+      "gloss": "to His name",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "נָעִים",
+      "gloss": "it is pleasant",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:56.512288855Z",
+  "model": "glm-5.3"
 }

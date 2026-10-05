@@ -1,74 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The mountains melted like wax before YHWH, before Adonai of all the earth.",
-  "tokens": [
+  "ref": "psalms 97:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 97,
+  "notes": [
     {
-      "surface": "הרים",
-      "gloss": "The mountains",
-      "readings": [
-        "The mountains",
-        "the hills"
-      ],
-      "held_by": {
-        "The mountains": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the hills": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "they flowed",
+      "rationale": "נמסו literally 'melted\/dissolved' — the mountains melt like wax before YHWH's presence"
     },
     {
-      "surface": "כדונג",
-      "gloss": "like wax"
+      "kind": "wordplay",
+      "subject": "מלפני...מלפני",
+      "rationale": "the repetition 'from-before...from-before' builds a parallelism English flattens"
     },
     {
-      "surface": "נמסו",
-      "gloss": "melted"
-    },
-    {
-      "surface": "מלפני",
-      "gloss": "before"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "מלפני",
-      "gloss": "before"
-    },
-    {
-      "surface": "אדון",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "Adonai of all the earth",
+      "rationale": "אדון כל הארץ: construct 'lord of all the earth' — rendered with the transliterated title as a divine seat"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The mountains flowed like wax from-before YHWH, from-before Adonai of all the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6dbb7c79b938e634fa57571005619e02fe8e94874add73729daab14990f1d8aa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/97\/5-8.1791193231732.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָרִים",
+      "gloss": "the mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּדּוֹנַג",
+      "gloss": "like wax",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָמַסּוּ",
+      "gloss": "they flowed",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלִּפְנֵי",
+      "gloss": "from-before",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלִּפְנֵי",
+      "gloss": "from-before",
+      "sense": null
+    },
+    {
+      "surface": "אֲדוֹן",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "of all",
+      "sense": null
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:31.733481822Z",
+  "model": "glm-5.3"
 }

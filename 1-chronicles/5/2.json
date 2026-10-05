@@ -1,70 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "For Judah prevailed over his brothers, and for ruler from him, and the birthright is for Joseph.",
+  "ref": "1-chronicles 5:2",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "comes",
+      "rationale": "Hebrew has no verb in the second clause; the prepositional phrase לנגיד ממנו supplies \"the leader from him,\" so the verb is bracketed."
+    },
+    {
+      "kind": "crux",
+      "subject": "ולנגיד ממנו",
+      "rationale": "Literally \"and for leader from him\" — i.e. the ruler (David) comes from Judah; some take נגיד as predicate, \"to be leader.\""
+    }
+  ],
+  "translation": "For Judah prevailed among his brothers, and ⟨from him comes⟩ the leader, but the birthright was Joseph's.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f0ff5f0c703cf032f6c9f4e784b115b29a411a18639a6ae2603edfee96531e84",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/5\/1-4.1791196068116.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֤י",
       "gloss": "For"
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
+      "surface": "יְהוּדָה֙",
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
-      "surface": "גבר",
-      "gloss": "prevailed"
-    },
-    {
-      "surface": "באחיו",
-      "gloss": "over his brothers",
+      "surface": "גָבַ֤֣ר",
+      "gloss": "prevailed",
+      "sense": "S1",
       "readings": [
-        "over his brothers",
-        "among his brothers"
-      ],
-      "held_by": {
-        "over his brothers": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "among his brothers": [
-          "v2"
-        ]
-      }
+        "prevailed",
+        "was strong"
+      ]
     },
     {
-      "surface": "ולנגיד",
-      "gloss": "and for ruler",
-      "readings": [
-        "and for ruler",
-        "and for a leader"
-      ],
-      "held_by": {
-        "and for ruler": [
-          "v1",
-          "v3"
-        ],
-        "and for a leader": [
-          "en4"
-        ],
-        "and the prince": [
-          "v2"
-        ]
-      }
+      "surface": "בְּאֶחָ֔֔יו",
+      "gloss": "among his brothers",
+      "sense": "S1"
     },
     {
-      "surface": "ממנו",
+      "surface": "וּלְנָגִִ֖יד",
+      "gloss": "and ⟨for⟩ the leader",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶֶּּ֑נּוּ",
       "gloss": "from him"
     },
     {
-      "surface": "והבכרה",
-      "gloss": "and the birthright"
+      "surface": "וְהַבְּכֹרָ֣֖ה",
+      "gloss": "but the birthright",
+      "sense": "S1"
     },
     {
-      "surface": "ליוסף",
-      "gloss": "for Joseph"
+      "surface": "לְיוֹסֵֵֽף",
+      "gloss": "was Joseph's",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:27:48.117486130Z",
+  "model": "glm-5.3"
 }

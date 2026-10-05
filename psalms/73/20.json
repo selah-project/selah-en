@@ -1,60 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Like a dream from waking, Adonai, in rousing you will despise their image.",
-  "tokens": [
+  "ref": "psalms 73:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "כחלום",
-      "gloss": "Like a dream"
+      "kind": "alternative",
+      "subject": "their phantom",
+      "rationale": "צלם here likely an illusion\/delusive appearance, not a physical image; reading 2 keeps the picture"
     },
     {
-      "surface": "מהקיץ",
-      "gloss": "from waking",
-      "readings": [
-        "from waking",
-        "when one awakens"
-      ],
-      "held_by": {
-        "from waking": [
-          "en4"
-        ],
-        "when one awakens": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "בעיר",
-      "gloss": "in rousing",
-      "readings": [
-        "in rousing",
-        "in the city"
-      ],
-      "held_by": {
-        "in rousing": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the city": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "צלמם",
-      "gloss": "their image"
-    },
-    {
-      "surface": "תבזה",
-      "gloss": "you will despise"
+      "kind": "addition",
+      "subject": "⟨yourself⟩",
+      "rationale": "English idiom requires the reflexive object for 'rouse'; Hebrew's infinitive carries none"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "As a dream when one wakes — Adonai, when you rouse ⟨yourself⟩, you despise their image.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "516a82818c6bf695355981ca8314d3341aeb873af4d87cbcc67e311b77d31afb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/17-20.1791192995829.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּחֲלוֹם",
+      "gloss": "As a dream",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵהָקִיץ",
+      "gloss": "when one wakes",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעִיר",
+      "gloss": "when you rouse ⟨yourself⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַלְמָם",
+      "gloss": "their image",
+      "readings": [
+        "their image",
+        "their phantom"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּבְזֶה",
+      "gloss": "you despise",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:35.830289038Z",
+  "model": "glm-5.3"
 }

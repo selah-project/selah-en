@@ -1,63 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And it came to pass at the end of days that the wadi dried up, for there had been no rain in the land.",
+  "ref": "1-kings 17:7",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "it",
+      "rationale": "English needs a subject for 'came about'; Hebrew's ויהי is subjectless."
+    },
+    {
+      "kind": "measurement",
+      "subject": "מִקֵּץ יָמִים",
+      "rationale": "'after days' — an unspecified span of time counted off."
+    }
+  ],
+  "translation": "And it came about after days that the wadi dried up, for there was no rain upon the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "035e1ae8128ffe2ca7518ea29833ee6a4adaf1010a6d9d6a99423e5fc57a54c7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/17\/5-8.1791187153954.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "ויהי",
-      "gloss": "And it came to pass"
+      "surface": "וַיְהִי",
+      "gloss": "and it came about"
     },
     {
-      "surface": "מקץ",
-      "gloss": "at the end"
+      "surface": "מִקֵּץ",
+      "gloss": "after",
+      "sense": "S1"
     },
     {
-      "surface": "ימים",
-      "gloss": "of days"
+      "surface": "יָמִים",
+      "gloss": "days",
+      "sense": "S1"
     },
     {
-      "surface": "וייבש",
-      "gloss": "and dried up"
+      "surface": "וַיִּיבַשׁ",
+      "gloss": "dried up",
+      "sense": "S1"
     },
     {
-      "surface": "הנחל",
-      "gloss": "the wadi"
+      "surface": "הַנַּחַל",
+      "gloss": "the wadi",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
-      "gloss": "there had been"
+      "surface": "הָיָה",
+      "gloss": "there was"
     },
     {
-      "surface": "גשם",
-      "gloss": "rain"
+      "surface": "גֶּשֶׁם",
+      "gloss": "rain",
+      "sense": "S1"
     },
     {
-      "surface": "בארץ",
-      "gloss": "in the land",
-      "readings": [
-        "in the land",
-        "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
+      "surface": "בָּאָרֶץ",
+      "gloss": "upon the land",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:59:13.956395545Z",
+  "model": "glm-5.3"
 }

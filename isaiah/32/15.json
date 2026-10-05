@@ -1,65 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Until the spirit be poured out upon us from on high, and the wilderness become a fruitful field, and the fruitful field be counted as a forest.",
+  "ref": "isaiah 32:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וכרמל",
+      "rationale": "ketiv lacks the article, qere reads והכרמל 'and the fruitful field'; the qere smooths the parallelism"
+    },
+    {
+      "kind": "crux",
+      "subject": "spirit",
+      "rationale": "רוח here is the divine spirit poured out (per the pouring idiom), not wind, though the Hebrew bears both"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מדבר\/כרמל\/יער",
+      "rationale": "ascending ladder of fertility — wilderness becomes orchard-land, orchard-land becomes forest — chiastic reversal of verses 13–14's ruin"
+    }
+  ],
+  "translation": "until a spirit is poured out upon us from on high, and the wilderness becomes a fruitful field, and the fruitful field is counted as a forest.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d5325a43c4f95d12e59e40a33faf456c3cfa44ce6f0e507c405a76172e785217",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/32\/13-16.1791188481379.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "עד",
-      "gloss": "until"
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
     },
     {
-      "surface": "יערה",
-      "gloss": "be poured out"
+      "surface": "יֵ֨עָרֶ֥ה",
+      "gloss": "is poured out",
+      "sense": "S1"
     },
     {
-      "surface": "עלינו",
-      "gloss": "upon us"
+      "surface": "עָלֵ֛ינוּ",
+      "gloss": "upon us",
+      "sense": null
     },
     {
-      "surface": "רוח",
-      "gloss": "spirit",
+      "surface": "ר֖וּחַ",
+      "gloss": "a spirit",
       "readings": [
-        "spirit",
-        "wind",
-        "breath"
+        "a spirit",
+        "a wind"
       ],
-      "held_by": {
-        "spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ממרום",
-      "gloss": "from on high"
+      "surface": "מִמָּר֑וֹם",
+      "gloss": "from on high",
+      "sense": "S1"
     },
     {
-      "surface": "והיה",
-      "gloss": "and it shall be"
+      "surface": "וְהָיָ֤ה",
+      "gloss": "and it will be",
+      "sense": null
     },
     {
-      "surface": "מדבר",
-      "gloss": "the wilderness"
+      "surface": "מִדְבָּר֙",
+      "gloss": "the wilderness",
+      "sense": "S1"
     },
     {
-      "surface": "לכרמל",
-      "gloss": "a fruitful field"
+      "surface": "לַכַּרְמֶ֔ל",
+      "gloss": "a fruitful field",
+      "sense": "S1"
     },
     {
       "surface": "וכרמל",
-      "gloss": "and the fruitful field"
+      "gloss": "and the fruitful field",
+      "sense": "S1"
     },
     {
-      "surface": "ליער",
-      "gloss": "as a forest"
+      "surface": "לַיַּ֥עַר",
+      "gloss": "a forest",
+      "sense": "S1"
     },
     {
-      "surface": "יחשב",
-      "gloss": "be counted"
+      "surface": "יֵחָשֵֽׁב",
+      "gloss": "is counted as",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:21.388920302Z",
+  "model": "glm-5.3"
 }

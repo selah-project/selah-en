@@ -1,64 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And Kattath, and Nahalal, and Shimron, and Idalah, and Beth-lehem — twelve cities and their villages.",
-  "tokens": [
+  "ref": "joshua 19:15",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "וקטת",
-      "gloss": "and Kattath"
+      "kind": "measurement",
+      "subject": "twelve cities",
+      "rationale": "Closing tally of the city list."
     },
     {
-      "surface": "ונהלל",
-      "gloss": "and Nahalal"
+      "kind": "hapax",
+      "subject": "וְקַטָּת \/ וְיִדְאֲלָה",
+      "rationale": "Kattath and Jidalah occur only here in the Tanakh."
     },
     {
-      "surface": "ושמרון",
-      "gloss": "and Shimron"
-    },
-    {
-      "surface": "וידאלה",
-      "gloss": "and Idalah"
-    },
-    {
-      "surface": "ובית",
-      "gloss": "and Beth"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "Lehem"
-    },
-    {
-      "surface": "ערים",
-      "gloss": "cities"
-    },
-    {
-      "surface": "שתים",
-      "gloss": "two"
-    },
-    {
-      "surface": "עשרה",
-      "gloss": "ten",
-      "readings": [
-        "ten",
-        "twelve"
-      ],
-      "held_by": {
-        "ten": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "twelve": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וחצריהן",
-      "gloss": "and their villages"
+      "kind": "crux",
+      "subject": "Bethlehem",
+      "rationale": "This is Zebulun's Bethlehem, not Judah's; the name is carried without disambiguation as the Hebrew does."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and Kattath, and Nahalal, and Shimron, and Jidalah, and Bethlehem — twelve cities and their unwalled-villages.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ff4017f69903336742f59316f3732d89b11e2b5ea647643d19b90a8fac9f7a14",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/19\/13-16.1791184660420.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְקַטָּת",
+      "gloss": "and Kattath",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנַהֲלָל",
+      "gloss": "and Nahalal",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשִׁמְרֹן",
+      "gloss": "and Shimron",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִדְאֲלָה",
+      "gloss": "and Jidalah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵית",
+      "gloss": "and Beth-",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶחֶם",
+      "gloss": "-lehem",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָרִים",
+      "gloss": "cities",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁתֵּים",
+      "gloss": "two",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶשְׂרֵה",
+      "gloss": "ten",
+      "sense": null
+    },
+    {
+      "surface": "וְחַצְרֵיהֶן",
+      "gloss": "and their unwalled-villages",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:17:40.421718978Z",
+  "model": "glm-5.3"
 }

@@ -1,75 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "May your priests clothe themselves with righteousness, and your chasidim shout for joy.",
-  "tokens": [
+  "ref": "psalms 132:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 132,
+  "notes": [
     {
-      "surface": "כהניך",
-      "gloss": "your priests"
+      "kind": "addition",
+      "subject": "with \/ for",
+      "rationale": "English needs prepositions where Hebrew sets the noun bare"
     },
     {
-      "surface": "ילבשו",
-      "gloss": "clothe themselves"
-    },
-    {
-      "surface": "צדק",
-      "gloss": "righteousness",
-      "readings": [
-        "righteousness",
-        "justice"
-      ],
-      "held_by": {
-        "righteousness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "justice": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וחסידיך",
-      "gloss": "your chasidim",
-      "readings": [
-        "your chasidim",
-        "your faithful ones",
-        "your pious ones"
-      ],
-      "held_by": {
-        "your chasidim": [
-          "en4"
-        ],
-        "your faithful ones": [
-          "v2",
-          "v3"
-        ],
-        "your pious ones": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ירננו",
-      "gloss": "shout for joy",
-      "readings": [
-        "shout for joy",
-        "sing for joy"
-      ],
-      "held_by": {
-        "shout for joy": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sing for joy": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "faithful ones",
+      "rationale": "חסידיך could read 'your devout ones' or 'your godly ones'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Your priests will clothe themselves with righteousness, and your faithful ones will shout for joy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "001d8f13a230b77776455c34cb81684cdd032f1fc4ef667421c61d5f1ce2b39d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/132\/9-12.1791193554253.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּהֲנֶ֥יךָ",
+      "gloss": "Your priests",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלְבְּשׁוּ",
+      "gloss": "will clothe themselves",
+      "sense": "S1"
+    },
+    {
+      "surface": "צֶ֑דֶק",
+      "gloss": "with righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַחֲסִידֶ֥יךָ",
+      "gloss": "and your faithful ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרַנֵּֽנוּ",
+      "gloss": "will shout for joy",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:54.253557449Z",
+  "model": "glm-5.3"
 }

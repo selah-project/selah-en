@@ -1,92 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And now they do not see the light — bright it is in the clouds — and a wind has passed over and cleansed them.",
+  "ref": "job 37:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "בָּהִיר",
+      "rationale": "Occurs only here; the dictionary itself offers both 'filled with light' and 'covered, invisible' as senses."
+    },
+    {
+      "kind": "crux",
+      "subject": "bright in the clouds",
+      "rationale": "Whether the light is bright among the clouds (S1) or hidden by them (S2) — the hapax permits both readings."
+    },
+    {
+      "kind": "addition",
+      "subject": "it is",
+      "rationale": "Hebrew's pronoun הוּא stands without a verb; the English copula is supplied."
+    }
+  ],
+  "translation": "And now they do not see the light — it is bright in the clouds — and a wind passes and clears them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6848b330c5fe408c5b2476f4ce034ed4ac27526c7a45a4afbab21ce6f268db7a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/37\/21-24.1791194599937.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "surface": "וְעַתָּה",
+      "gloss": "And now",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ראו",
+      "surface": "רָאוּ",
       "gloss": "they see",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹר",
+      "gloss": "the light",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּהִיר",
+      "gloss": "bright",
       "readings": [
-        "they see",
-        "they have seen"
+        "bright",
+        "veiled"
       ],
-      "held_by": {
-        "they see": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they have seen": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "אור",
-      "gloss": "light"
+      "surface": "הוּא",
+      "gloss": "it is",
+      "sense": null
     },
     {
-      "surface": "בהיר",
-      "gloss": "bright"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "it is"
-    },
-    {
-      "surface": "בשחקים",
+      "surface": "בַּשַּׁחָקִים",
       "gloss": "in the clouds",
-      "readings": [
-        "in the clouds",
-        "in the skies"
-      ],
-      "held_by": {
-        "in the clouds": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the skies": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ורוח",
+      "surface": "וְרוּחַ",
       "gloss": "and a wind",
       "readings": [
         "and a wind",
+        "and a breath",
         "and a spirit"
       ],
-      "held_by": {
-        "and a wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and a spirit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עברה",
-      "gloss": "has passed over"
+      "surface": "עָבְרָה",
+      "gloss": "passes",
+      "sense": null
     },
     {
-      "surface": "ותטהרם",
-      "gloss": "and cleansed them"
+      "surface": "וַתְּטַהֲרֵם",
+      "gloss": "and clears them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:19.938031065Z",
+  "model": "glm-5.3"
 }

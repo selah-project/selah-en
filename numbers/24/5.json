@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "How goodly are your tents, Jacob, your dwellings, Israel!",
-  "tokens": [
+  "ref": "numbers 24:5",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "מה",
-      "gloss": "How"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew exclamation lacks a copula; מה טבו is literally 'how good they are'"
     },
     {
-      "surface": "טבו",
-      "gloss": "goodly"
-    },
-    {
-      "surface": "אהליך",
-      "gloss": "your tents"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "Jacob"
-    },
-    {
-      "surface": "משכנתיך",
-      "gloss": "your dwellings"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "tents\/dwellings and Jacob\/Israel form an exact parallel couplet"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How good are your tents, Jacob, your dwellings, Israel!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "42b2ae5fead49edce05a8b493867572ebc88a195af1a323178255926e350ba6f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/24\/5-8.1791183284329.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַה",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "טֹּ֥בוּ",
+      "gloss": "good are",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹהָלֶ֖יךָ",
+      "gloss": "your tents",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹ֑ב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁכְּנֹתֶ֖יךָ",
+      "gloss": "your dwellings",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:44.334899363Z",
+  "model": "glm-5.3"
 }

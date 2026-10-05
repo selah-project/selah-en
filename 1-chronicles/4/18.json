@@ -1,115 +1,163 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And his wife, the Judean, bore ⟨את⟩ Jered, ⟨the⟩ father of Gedor, and ⟨את⟩ Heber, ⟨the⟩ father of Soco, and ⟨את⟩ Jekuthiel, ⟨the⟩ father of Zanoah. And these are ⟨the⟩ sons of Bithiah, ⟨the⟩ daughter of Pharaoh, whom Mered took.",
-  "tokens": [
+  "ref": "1-chronicles 4:18",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "ואשתו",
-      "gloss": "And his wife"
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "English requires a copula the Hebrew omits in the genealogical summary clause."
     },
     {
-      "surface": "היהדיה",
-      "gloss": "the Judean",
-      "readings": [
-        "the Judean",
-        "Jehudijah"
-      ],
-      "held_by": {
-        "the Judean": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "Jehudijah": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "היהדיה",
+      "rationale": "Hapax; taken as a proper name 'the Jehudijah' (his Judean wife) or as the common noun 'the Jewess', paired with Bithiah the Egyptian."
     },
     {
-      "surface": "ילדה",
-      "gloss": "bore"
+      "kind": "elision",
+      "subject": "את before ירד",
+      "rationale": "The first את is rendered as marker only, matching the pattern of its siblings."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ירד",
-      "gloss": "Jered"
-    },
-    {
-      "surface": "אבי",
-      "gloss": "⟨the⟩ father of"
-    },
-    {
-      "surface": "גדור",
-      "gloss": "Gedor"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "חבר",
-      "gloss": "Heber"
-    },
-    {
-      "surface": "אבי",
-      "gloss": "⟨the⟩ father of"
-    },
-    {
-      "surface": "שוכו",
-      "gloss": "Soco"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "יקותיאל",
-      "gloss": "Jekuthiel"
-    },
-    {
-      "surface": "אבי",
-      "gloss": "⟨the⟩ father of"
-    },
-    {
-      "surface": "זנוח",
-      "gloss": "Zanoah"
-    },
-    {
-      "surface": "ואלה",
-      "gloss": "And these"
-    },
-    {
-      "surface": "בני",
-      "gloss": "the sons"
-    },
-    {
-      "surface": "בתיה",
-      "gloss": "Bithiah"
-    },
-    {
-      "surface": "בת",
-      "gloss": "⟨the⟩ daughter of"
-    },
-    {
-      "surface": "פרעה",
-      "gloss": "Pharaoh"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "whom"
-    },
-    {
-      "surface": "לקח",
-      "gloss": "took"
-    },
-    {
-      "surface": "מרד",
-      "gloss": "Mered"
+      "kind": "measurement",
+      "subject": "genealogy",
+      "rationale": "Lineage list naming founders of Gedor, Soco, and Zanoah."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And his wife the Jehudijah bore ⟨את⟩ Jered, father of Gedor, and ⟨את⟩ Heber, father of Soco, and ⟨את⟩ Jekuthiel, father of Zanoah; and these ⟨are⟩ the sons of Bithiah, daughter of Pharaoh, whom Mered took.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "29bd113ddb4a7424f711ca0a80dbbd10888b9a5ae68e93209804239e7c4570f3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/4\/17-20.1791196073001.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאִשְׁתּ֣וֹ",
+      "gloss": "And his wife",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְהֻדִיָּ֗ה",
+      "gloss": "the Jewess",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָלְדָ֞ה",
+      "gloss": "bore",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Jered",
+      "sense": null
+    },
+    {
+      "surface": "יֶ֨רֶד",
+      "gloss": "Jered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבִ֤י",
+      "gloss": "father of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְדוֹר֙",
+      "gloss": "Gedor",
+      "sense": null
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "Heber",
+      "sense": null
+    },
+    {
+      "surface": "חֶ֨בֶר֙",
+      "gloss": "Heber",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבִ֣י",
+      "gloss": "father of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׂוֹכ֔וֹ",
+      "gloss": "Soco",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "Jekuthiel",
+      "sense": null
+    },
+    {
+      "surface": "יְקֽוּתִיאֵ֖ל",
+      "gloss": "Jekuthiel",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבִ֣י",
+      "gloss": "father of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָנ֑וֹחַ",
+      "gloss": "Zanoah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֗לֶּה",
+      "gloss": "and these",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵי֙",
+      "gloss": "sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּתְיָ֣ה",
+      "gloss": "Bithiah",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּת",
+      "gloss": "daughter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פַּרְעֹ֔ה",
+      "gloss": "Pharaoh",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "whom",
+      "sense": null
+    },
+    {
+      "surface": "לָקַ֖ח",
+      "gloss": "took",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָֽרֶד",
+      "gloss": "Mered",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:27:53.002987385Z",
+  "model": "glm-5.3"
 }

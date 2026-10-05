@@ -1,67 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Do you know of the balancings of clouds, the wondrous works of the one perfect in knowledge?",
-  "tokens": [
+  "ref": "job 37:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "התדע",
-      "gloss": "Do you know"
+      "kind": "hapax",
+      "subject": "מִפְלְשֵׂי",
+      "rationale": "Occurs only here; meaning uncertain — 'balancings\/spreadings' of the cloud."
     },
     {
-      "surface": "על",
-      "gloss": "of"
+      "kind": "hapax",
+      "subject": "מִפְלְאֹות",
+      "rationale": "This plural noun form occurs only here (elsewhere the feminine מִפְלָאָה with suffix)."
     },
     {
-      "surface": "מפלשי",
-      "gloss": "the balancings"
+      "kind": "crux",
+      "subject": "עַל",
+      "rationale": "The preposition before מִפְלְשֵׂי is awkward: 'Do you know concerning the balancings...' — object marker or 'upon', readings differ."
     },
     {
-      "surface": "עב",
-      "gloss": "of clouds",
-      "readings": [
-        "of clouds",
-        "the thick cloud"
-      ],
-      "held_by": {
-        "of clouds": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the thick cloud": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Second interrogative challenge in a row to Job's knowledge."
     },
     {
-      "surface": "מפלאות",
-      "gloss": "the wondrous works",
-      "readings": [
-        "the wondrous works",
-        "the wonders"
-      ],
-      "held_by": {
-        "the wondrous works": [
-          "v1",
-          "v3"
-        ],
-        "the wonders": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תמים",
-      "gloss": "of the one perfect"
-    },
-    {
-      "surface": "דעים",
-      "gloss": "in knowledge"
+      "kind": "wordplay",
+      "subject": "מִפְלְשֵׂי \/ מִפְלְאֹות",
+      "rationale": "Near-identical sounds (mifl-) in parallel cola; the echo is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Do you know the spreadings-out of the cloud, the wonders of one perfect in knowledge?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "00981d1c9a30f366e068e96e5c770ffc17e7003f471dd2d006393c348936ec59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/37\/13-16.1791194587518.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲתֵדַע",
+      "gloss": "Do you know",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "the",
+      "sense": null
+    },
+    {
+      "surface": "מִפְלְשֵׂי",
+      "gloss": "spreadings-out of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָב",
+      "gloss": "the thick cloud",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפְלְאֹות",
+      "gloss": "the wonders of",
+      "sense": null
+    },
+    {
+      "surface": "תְּמִים",
+      "gloss": "the one perfect",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֵּעִים",
+      "gloss": "in knowledge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:07.519974371Z",
+  "model": "glm-5.3"
 }

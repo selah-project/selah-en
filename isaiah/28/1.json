@@ -1,42 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Woe to the crown of pride of the drunkards of Ephraim, and to the fading flower of the splendor of his glory, which ⟨is⟩ on the head of the valley of fatness, stricken with wine.",
+  "ref": "isaiah 28:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "valley of fatness",
+      "rationale": "גיא שמנים read as 'fertile valley' by many, but שמנים is literally 'fatness\/richness', kept here."
+    },
+    {
+      "kind": "you",
+      "subject": "to Ephraim",
+      "rationale": "The הוי oracle addresses the northern kingdom directly."
+    },
+    {
+      "kind": "substitution",
+      "subject": "struck down by wine",
+      "rationale": "הלומי literally 'hammered ones', a beaten-down image for drunkenness, carried over."
+    }
+  ],
+  "translation": "Ho, crown of pride of the drunkards of Ephraim, and the wilting flower of his glorious beauty, which is on the head of the valley of fatness, those struck down by wine!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a60520ff14f135302adb79e88f442ee3a47529736af95e0a92a6be7465227fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/28\/1-4.1791188403067.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הוי",
-      "gloss": "Woe"
+      "gloss": "Ho",
+      "sense": "S1",
+      "readings": [
+        "Ho",
+        "Woe"
+      ]
     },
     {
       "surface": "עטרת",
-      "gloss": "crown"
+      "gloss": "crown",
+      "sense": null
     },
     {
       "surface": "גאות",
-      "gloss": "of pride"
+      "gloss": "of pride",
+      "sense": "S1"
     },
     {
       "surface": "שכרי",
-      "gloss": "of the drunkards"
+      "gloss": "of the drunkards",
+      "sense": "S1"
     },
     {
       "surface": "אפרים",
-      "gloss": "of Ephraim"
+      "gloss": "Ephraim",
+      "sense": "S1"
     },
     {
       "surface": "וציץ",
-      "gloss": "and the flower"
+      "gloss": "and the flower",
+      "sense": "S1"
     },
     {
       "surface": "נבל",
-      "gloss": "fading"
+      "gloss": "wilting",
+      "sense": "S1",
+      "readings": [
+        "wilting",
+        "fainting"
+      ]
     },
     {
       "surface": "צבי",
-      "gloss": "of the splendor"
+      "gloss": "of splendor",
+      "sense": "S1"
     },
     {
       "surface": "תפארתו",
-      "gloss": "of his glory"
+      "gloss": "of his glory",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -48,40 +97,30 @@
     },
     {
       "surface": "ראש",
-      "gloss": "the head"
+      "gloss": "the head of",
+      "sense": "S2"
     },
     {
       "surface": "גיא",
-      "gloss": "the valley"
+      "gloss": "the valley of",
+      "sense": "S1"
     },
     {
       "surface": "שמנים",
-      "gloss": "of fatness",
-      "readings": [
-        "of fatness",
-        "of the rich"
-      ],
-      "held_by": {
-        "of fatness": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the rich": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "fatness",
+      "sense": "S1"
     },
     {
       "surface": "הלומי",
-      "gloss": "stricken"
+      "gloss": "struck down",
+      "sense": "S1"
     },
     {
       "surface": "יין",
-      "gloss": "with wine"
+      "gloss": "by wine",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:03.068368549Z",
+  "model": "glm-5.3"
 }

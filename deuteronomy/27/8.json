@@ -1,67 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And you shall write on the stones ⟨את⟩ all the words of this Torah, engraving ⟨them⟩ plainly, well.",
-  "tokens": [
+  "ref": "deuteronomy 27:8",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "וכתבת",
-      "gloss": "And you shall write"
+      "kind": "wordplay",
+      "subject": "באר היטב",
+      "rationale": "Two infinitives absolute stacked — 'explaining, make well' — the doubling kept rather than collapsed to 'very clearly'; the Hebrew underlines the command with its own intensifier."
     },
     {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "האבנים",
-      "gloss": "the stones"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "דברי",
-      "gloss": "the words of"
-    },
-    {
-      "surface": "התורה",
-      "gloss": "the Torah"
-    },
-    {
-      "surface": "הזאת",
-      "gloss": "this"
-    },
-    {
-      "surface": "באר",
-      "gloss": "engraving plainly",
-      "readings": [
-        "engraving plainly",
-        "making plain",
-        "digging"
-      ],
-      "held_by": {
-        "engraving plainly": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "making plain": [
-          "v1",
-          "en4"
-        ],
-        "digging": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "היטב",
-      "gloss": "well"
+      "kind": "hapax",
+      "subject": "באר",
+      "rationale": "The verb באר occurs elsewhere only at Deuteronomy 1:5 and Habakkuk 2:2 — engraving-explaining, a rare root for making words plain."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you shall write upon the stones ⟨את⟩ all the words of this Torah — explaining you shall explain well.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ad15b8baed3ab59eebe24ceeb47124a94d522cbe56ca1173c61c7c3db2edadbc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/27\/5-8.1791184085000.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכָתַבְתָּ֣",
+      "gloss": "And you shall write",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "הָאֲבָנִ֗ים",
+      "gloss": "the stones",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶֽת",
+      "gloss": "⟨את⟩",
+      "marks": "all the words of this Torah",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "דִּבְרֵ֛י",
+      "gloss": "the words",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַתּוֹרָ֥ה",
+      "gloss": "of the Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזֹּ֖את",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "בַּאֵ֥ר",
+      "gloss": "explaining",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵיטֵֽב",
+      "gloss": "you shall explain well",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:08:05.001895045Z",
+  "model": "glm-5.3"
 }

@@ -1,40 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And he built ⟨את⟩ Bethlehem and ⟨את⟩ Etam and ⟨את⟩ Tekoa.",
-  "tokens": [
+  "ref": "2-chronicles 11:6",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ויבן",
-      "gloss": "and built"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "בית",
-      "gloss": "Beth-"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "-lehem"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "עיטם",
-      "gloss": "Etam"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "תקוע",
-      "gloss": "Tekoa"
+      "kind": "addition",
+      "subject": "Bethlehem",
+      "rationale": "The one name בית לחם is split across two tokens; the hyphenated gloss joins them."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he built ⟨את⟩ Bethlehem, and ⟨את⟩ Etam, and ⟨את⟩ Tekoa;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e74e407bf739021d70ac0847e7daef21799be0bcac94da013766afefd9b18a54",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/11\/5-8.1791196660249.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּ֧בֶן",
+      "gloss": "And he built",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Bethlehem"
+    },
+    {
+      "surface": "בֵּֽית",
+      "gloss": "Beth-",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶ֛חֶם",
+      "gloss": "-lehem",
+      "sense": null
+    },
+    {
+      "surface": "וְאֵ֖ת",
+      "gloss": "and ⟨את⟩",
+      "marks": "Etam"
+    },
+    {
+      "surface": "עֵיטָ֑ם",
+      "gloss": "Etam",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֥ת",
+      "gloss": "and ⟨את⟩",
+      "marks": "Tekoa"
+    },
+    {
+      "surface": "תְּקֽוֹעַ",
+      "gloss": "Tekoa",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:37:40.251027044Z",
+  "model": "glm-5.3"
 }

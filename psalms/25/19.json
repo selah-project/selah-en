@@ -1,65 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "See my enemies, for they are many, and with the hatred of violence they hate me.",
+  "ref": "psalms 25:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "they are",
+      "rationale": "Hebrew verb רבו is 'they have multiplied'; the copula 'are' smooths the stative perfect."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שנאת\/שנאוני",
+      "rationale": "Cognate accusative: 'hatred they hate me' — the root שנא doubled for intensity."
+    }
+  ],
+  "translation": "See my enemies, for they are many, and with hatred of violence they hate me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fe3081e0d0d81847b69b6b6e571f70012085372e95ce15e9c591381f5f9e68c0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/17-20.1791192530569.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ראה",
-      "gloss": "See"
+      "surface": "רְאֵה",
+      "gloss": "See",
+      "sense": "S1"
     },
     {
-      "surface": "אויבי",
-      "gloss": "my enemies"
+      "surface": "אוֹיְבַי",
+      "gloss": "my enemies",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "רבו",
+      "surface": "רָבּוּ",
       "gloss": "they are many",
-      "readings": [
-        "they are many",
-        "they have multiplied"
-      ],
-      "held_by": {
-        "they are many": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they have multiplied": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ושנאת",
-      "gloss": "and with the hatred of"
+      "surface": "וְשִׂנְאַת",
+      "gloss": "and with hatred of",
+      "sense": "S1"
     },
     {
-      "surface": "חמס",
-      "gloss": "of violence",
-      "readings": [
-        "of violence",
-        "of cruelty"
-      ],
-      "held_by": {
-        "of violence": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of cruelty": [
-          "en4"
-        ]
-      }
+      "surface": "חָמָס",
+      "gloss": "violence",
+      "sense": "S1"
     },
     {
-      "surface": "שנאוני",
-      "gloss": "they hate me"
+      "surface": "שְׂנֵאוּנִי",
+      "gloss": "they hate me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:50.569973384Z",
+  "model": "glm-5.3"
 }

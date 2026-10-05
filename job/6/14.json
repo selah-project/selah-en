@@ -1,46 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "To him who melts away from his friend belongs chesed, and the fear of Shaddai he forsakes.",
+  "ref": "job 6:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "לַמָּס",
+      "rationale": "Occurs only here; 'the fainting\/despairing one' from a root meaning to melt away."
+    },
+    {
+      "kind": "crux",
+      "subject": "grammar",
+      "rationale": "Read either 'chesed is withheld from his despairing friend' or 'to the despairing one, his friend withholds chesed'; syntax is stark."
+    }
+  ],
+  "translation": "To the one who despairs ⟨is withheld⟩ chesed from his friend — the fear of Shaddai he forsakes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "045f4ec00b29f49911569490cd1574dc84e543eaef5ee68efb75705a8fd20bcb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/6\/13-16.1791194176207.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "למס",
-      "gloss": "to him who melts away"
+      "surface": "לַמָּ֣ס",
+      "gloss": "to the despairing one",
+      "sense": null
     },
     {
-      "surface": "מרעהו",
-      "gloss": "from his friend"
+      "surface": "מֵרֵעֵ֣הוּ",
+      "gloss": "from his friend",
+      "sense": null
     },
     {
-      "surface": "חסד",
+      "surface": "חָ֑סֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
         "steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ויראת",
-      "gloss": "and the fear of"
+      "surface": "וְיִרְאַ֖ת",
+      "gloss": "and the fear of",
+      "sense": "S1"
     },
     {
-      "surface": "שדי",
-      "gloss": "Shaddai"
+      "surface": "שַׁדָּ֣י",
+      "gloss": "Shaddai",
+      "sense": "S1"
     },
     {
-      "surface": "יעזוב",
-      "gloss": "he forsakes"
+      "surface": "יַעֲזֹֽב",
+      "gloss": "he forsakes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:16.208566927Z",
+  "model": "glm-5.3"
 }

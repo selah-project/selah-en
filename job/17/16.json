@@ -1,106 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "To the bars of Sheol they go down; if together on the dust we rest.",
+  "ref": "job 17:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אִם יַחַד",
+      "rationale": "Hebrew reads 'if together'; most translators render 'together' (with the feminine hope of v.15 as subject), reading אם as an emphatic or ellipsis."
+    },
+    {
+      "kind": "crux",
+      "subject": "נָחַת",
+      "rationale": "Hapax noun from נחת; 'descent' kept literally — the act of going down to the dust — rather than smoothed to 'rest'."
+    },
+    {
+      "kind": "hapax",
+      "subject": "נָחַת",
+      "rationale": "Occurs only here in the Tanakh."
+    }
+  ],
+  "translation": "The bars of Sheol will go down together ⟨with me⟩; ⟨they⟩ go down to the dust — ⟨it is⟩ a descent.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c062e06a45f4b624570ff97c8372f964da6c0aa652225e95c6dd0064403f837d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/17\/13-16.1791194323712.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "בדי",
-      "gloss": "the bars of",
-      "readings": [
-        "the bars of",
-        "the parts of"
-      ],
-      "held_by": {
-        "the bars of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the parts of": [
-          "en4"
-        ]
-      }
+      "surface": "בַּדֵּי",
+      "gloss": "The bars of",
+      "sense": "S2"
     },
     {
-      "surface": "שאל",
-      "gloss": "of Sheol"
+      "surface": "שְׁאֹול",
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "תרדנה",
-      "gloss": "they go down",
-      "readings": [
-        "they go down",
-        "it will go down",
-        "you go down"
-      ],
-      "held_by": {
-        "they go down": [
-          "en4"
-        ],
-        "it will go down": [
-          "v2",
-          "v3"
-        ],
-        "you go down": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "תֵּרַדְנָה",
+      "gloss": "will go down",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
-      "gloss": "if",
-      "readings": [
-        "if",
-        "when"
-      ],
-      "held_by": {
-        "if": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "when": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "יחד",
+      "surface": "אִם",
       "gloss": "together"
     },
     {
-      "surface": "על",
-      "gloss": "on"
+      "surface": "יַחַד",
+      "gloss": "together",
+      "sense": "S1"
     },
     {
-      "surface": "עפר",
-      "gloss": "dust"
+      "surface": "עַל",
+      "gloss": "to"
     },
     {
-      "surface": "נחת",
-      "gloss": "we rest",
-      "readings": [
-        "we rest",
-        "rest",
-        "a descent"
-      ],
-      "held_by": {
-        "we rest": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "rest": [
-          "en4"
-        ],
-        "a descent": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "עָפָר",
+      "gloss": "the dust",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָחַת",
+      "gloss": "a descent",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:43.713485627Z",
+  "model": "glm-5.3"
 }

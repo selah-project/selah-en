@@ -1,58 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "The thick clouds poured out water; the skies gave ⟨forth⟩ a sound; even your arrows walked to and fro.",
-  "tokens": [
+  "ref": "psalms 77:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 77,
+  "notes": [
     {
-      "surface": "זרמו",
-      "gloss": "poured out"
+      "kind": "crux",
+      "subject": "your arrows",
+      "rationale": "חצציך literally 'your arrows-like bolts'; the lexeme elsewhere means gravel, but the SDBH sense here is the lightning-arrow."
     },
     {
-      "surface": "מים",
-      "gloss": "water"
-    },
-    {
-      "surface": "עבות",
-      "gloss": "the thick clouds"
-    },
-    {
-      "surface": "קול",
-      "gloss": "a sound"
-    },
-    {
-      "surface": "נתנו",
-      "gloss": "gave ⟨forth⟩"
-    },
-    {
-      "surface": "שחקים",
-      "gloss": "the skies"
-    },
-    {
-      "surface": "אף",
-      "gloss": "even"
-    },
-    {
-      "surface": "חצציך",
-      "gloss": "your arrows"
-    },
-    {
-      "surface": "יתהלכו",
-      "gloss": "walked to and fro",
-      "readings": [
-        "walked to and fro",
-        "flashed back and forth"
-      ],
-      "held_by": {
-        "walked to and fro": [
-          "en4"
-        ],
-        "flashed back and forth": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "עבות \/ שחקים",
+      "rationale": "Two different Hebrew words for cloud in parallel halves; both rendered 'cloud(s)' flattens the pair."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The thick clouds poured out water; the clouds gave a sound; even your arrows walked about.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f40f87e276f73fe0467f202f71005028044505c3d58395eab5c81a34ae73fbd5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/77\/17-20.1791193034393.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹרְמוּ",
+      "gloss": "poured out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַיִם",
+      "gloss": "water",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָבוֹת",
+      "gloss": "the thick clouds",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹל",
+      "gloss": "a sound",
+      "sense": null
+    },
+    {
+      "surface": "נָתְנוּ",
+      "gloss": "gave",
+      "sense": null
+    },
+    {
+      "surface": "שְׁחָקִים",
+      "gloss": "the clouds",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַף",
+      "gloss": "even",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲצָצֶיךָ",
+      "gloss": "your arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְהַלָּכוּ",
+      "gloss": "walked about",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:14.394214972Z",
+  "model": "glm-5.3"
 }

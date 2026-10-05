@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "The mouth of a fool is ruin to him, and his lips are a snare for his soul.",
-  "tokens": [
+  "ref": "proverbs 18:7",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "פי",
-      "gloss": "the mouth of"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula between מחתה and לו."
     },
     {
-      "surface": "כסיל",
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is throat\/life-force, the living self, not the Platonic 'soul'."
+    }
+  ],
+  "translation": "The mouth of a fool is ruin to him, and his lips a snare for his soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "919cebce013df48ddf3df7efd27be006d89255efad49facd275dc43d5a05ed74",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/18\/5-8.1791193902996.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פִּי",
+      "gloss": "The mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִיל",
       "gloss": "a fool"
     },
     {
-      "surface": "מחתה",
-      "gloss": "ruin"
+      "surface": "מְחִתָּה",
+      "gloss": "ruin",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
-      "gloss": "to him"
+      "surface": "לוֹ",
+      "gloss": "to him",
+      "sense": null
     },
     {
-      "surface": "ושפתיו",
-      "gloss": "and his lips"
+      "surface": "וּשְׂפָתָיו",
+      "gloss": "and his lips",
+      "sense": "S1"
     },
     {
-      "surface": "מוקש",
-      "gloss": "a snare"
+      "surface": "מוֹקֵשׁ",
+      "gloss": "a snare",
+      "sense": "S1"
     },
     {
-      "surface": "נפשו",
-      "gloss": "for his soul",
-      "readings": [
-        "for his soul",
-        "for his life"
-      ],
-      "held_by": {
-        "for his soul": [
-          "v1",
-          "en4"
-        ],
-        "for his life": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his soul",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:42.997818101Z",
+  "model": "glm-5.3"
 }

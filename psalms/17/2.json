@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "From before You may my judgment go forth; may Your eyes behold uprightness.",
-  "tokens": [
+  "ref": "psalms 17:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "מלפניך",
-      "gloss": "From before You"
-    },
-    {
-      "surface": "משפטי",
-      "gloss": "my judgment"
-    },
-    {
-      "surface": "יצא",
-      "gloss": "go forth"
-    },
-    {
-      "surface": "עיניך",
-      "gloss": "Your eyes"
-    },
-    {
-      "surface": "תחזינה",
-      "gloss": "behold"
-    },
-    {
-      "surface": "מישרים",
-      "gloss": "uprightness",
-      "readings": [
-        "uprightness",
-        "the upright ones"
-      ],
-      "held_by": {
-        "uprightness": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the upright ones": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "מִשְׁפָּטִי יֵצֵא",
+      "rationale": "Also read as a jussive: 'let my judgment go out from before you'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From before you my judgment goes out; your eyes behold uprightness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2335c299deac6f7542a7a75e02feab12ce3050df1210f77201320e38f3466e8a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/17\/1-4.1791192456245.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִלְּפָנֶיךָ",
+      "gloss": "from before you",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁפָּטִי",
+      "gloss": "my judgment",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵצֵא",
+      "gloss": "goes out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינֶיךָ",
+      "gloss": "your eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶּחֱזֶינָה",
+      "gloss": "behold",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵישָׁרִים",
+      "gloss": "uprightness",
+      "sense": "S1",
+      "readings": [
+        "uprightness",
+        "what is upright"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:36.245789632Z",
+  "model": "glm-5.3"
 }

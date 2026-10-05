@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 90,
-  "translation": "To generation and generation ⟨is⟩ your faithfulness; you established the earth, and it stands.",
+  "ref": "psalms 119:90",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the phrase and אמונתך"
+    },
+    {
+      "kind": "alternative",
+      "subject": "your faithfulness",
+      "rationale": "אמונה literally 'firmness'; 'faithfulness' renders the trustworthiness sense"
+    }
+  ],
+  "translation": "Generation to generation ⟨is⟩ your faithfulness; you steadied the earth, and it stands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "80391c931eb339a62882746f9a20860bbf210a2511d74ce03c2ed9d31b3dcb28",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/89-92.1791193465553.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לדר",
-      "gloss": "to generation"
+      "surface": "לְדֹר",
+      "gloss": "Generation to",
+      "sense": "S1"
     },
     {
-      "surface": "ודר",
-      "gloss": "and generation"
+      "surface": "וָדֹר",
+      "gloss": "generation",
+      "sense": "S1"
     },
     {
-      "surface": "אמונתך",
-      "gloss": "your faithfulness",
-      "readings": [
-        "your faithfulness",
-        "your firmness"
-      ],
-      "held_by": {
-        "your faithfulness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your firmness": [
-          "en4"
-        ]
-      }
+      "surface": "אֱמוּנָתֶךָ",
+      "gloss": "⟨is⟩ your faithfulness",
+      "sense": "S1"
     },
     {
-      "surface": "כוננת",
-      "gloss": "you established"
+      "surface": "כּוֹנַנְתָּ",
+      "gloss": "you steadied",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אֶרֶץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותעמד",
-      "gloss": "and it stands"
+      "surface": "וַתַּעֲמֹד",
+      "gloss": "and it stands",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:25.554705351Z",
+  "model": "glm-5.3"
 }

@@ -1,48 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And all the men of Israel assembled to the king at the feast — it is the seventh month.",
-  "tokens": [
+  "ref": "2-chronicles 5:3",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ויקהלו",
-      "gloss": "and assembled"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "הוא החדש השביעי is a verbless identifying clause; copula supplied"
     },
     {
-      "surface": "אל",
+      "kind": "crux",
+      "subject": "at the festival",
+      "rationale": "בחג: the festival of Sukkot (seventh month); 1 Kgs 8:2 adds בירח האתנים, 'in the month of Ethanim', which Chronicles omits"
+    },
+    {
+      "kind": "measurement",
+      "subject": "seventh month",
+      "rationale": "verse fixes the assembly by calendrical count"
+    }
+  ],
+  "translation": "And all the men of Israel gathered to the king at the festival — it is the seventh month.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f4d6cbac7a7b885db561e3f9a33bff25446a38aeab144b85cdfda8c2584df99d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/5\/1-4.1791196579252.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּקָּהֲלוּ",
+      "gloss": "And gathered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "איש",
+      "surface": "אִישׁ",
       "gloss": "the men of"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "בחג",
-      "gloss": "at the feast"
+      "surface": "בֶּחָג",
+      "gloss": "at the festival",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "הוּא",
       "gloss": "it is"
     },
     {
-      "surface": "החדש",
-      "gloss": "the month"
+      "surface": "הַחֹדֶשׁ",
+      "gloss": "the month",
+      "sense": "S1"
     },
     {
-      "surface": "השבעי",
-      "gloss": "the seventh"
+      "surface": "הַשְּׁבִיעִי",
+      "gloss": "the seventh",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:36:19.254392946Z",
+  "model": "glm-5.3"
 }

@@ -1,91 +1,112 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And every soul who eats a carcass or a torn thing, among the native-born or among the sojourner — he shall wash his clothes and bathe himself in water and be unclean until the evening; then he shall be clean.",
+  "ref": "leviticus 17:15",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "person",
+      "rationale": "נפש here means a human being, the life-principle metonymy for the whole person"
+    },
+    {
+      "kind": "addition",
+      "subject": "and then",
+      "rationale": "the final וְטָהֵר follows the 'until evening' limit; the sequencing word is supplied by English"
+    }
+  ],
+  "translation": "And any person who eats a carcass or what was torn apart, whether native-born or stranger, shall wash his clothes and bathe in water and be unclean until the evening — and then be clean.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8a16c79f26c2e38804fcd09924103490cdbefbd9d01243356fa971aa277ed2b7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/17\/13-16.1791182508999.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וכל",
-      "gloss": "And every"
+      "surface": "וְכָל",
+      "gloss": "And any"
     },
     {
-      "surface": "נפש",
-      "gloss": "soul",
-      "readings": [
-        "soul",
-        "person",
-        "life"
-      ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v3"
-        ],
-        "person": [
-          "v2",
-          "en4"
-        ],
-        "life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "נֶ֗פֶשׁ",
+      "gloss": "person",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֨ר",
       "gloss": "who"
     },
     {
-      "surface": "תאכל",
-      "gloss": "eats"
+      "surface": "תֹּאכַ֤ל",
+      "gloss": "eats",
+      "sense": "S1"
     },
     {
-      "surface": "נבלה",
-      "gloss": "a carcass"
+      "surface": "נְבֵלָה֙",
+      "gloss": "a carcass",
+      "sense": "S1"
     },
     {
-      "surface": "וטרפה",
-      "gloss": "or a torn thing"
+      "surface": "וּטְרֵפָ֔ה",
+      "gloss": "or what was torn apart"
     },
     {
-      "surface": "באזרח",
-      "gloss": "among the native-born"
+      "surface": "בָּאֶזְרָ֖ח",
+      "gloss": "the native-born",
+      "sense": "S1"
     },
     {
-      "surface": "ובגר",
-      "gloss": "or among the sojourner"
+      "surface": "וּבַגֵּ֑ר",
+      "gloss": "and the stranger",
+      "sense": "S1"
     },
     {
-      "surface": "וכבס",
-      "gloss": "he shall wash"
+      "surface": "וְכִבֶּ֨ס",
+      "gloss": "shall wash",
+      "sense": "S1"
     },
     {
-      "surface": "בגדיו",
-      "gloss": "his clothes"
+      "surface": "בְּגָדָ֜יו",
+      "gloss": "his clothes",
+      "sense": "S1"
     },
     {
-      "surface": "ורחץ",
-      "gloss": "and bathe himself"
+      "surface": "וְרָחַ֥ץ",
+      "gloss": "and bathe",
+      "sense": "S1"
     },
     {
-      "surface": "במים",
-      "gloss": "in water"
+      "surface": "בַּמַּ֛יִם",
+      "gloss": "in the water",
+      "sense": "S1"
     },
     {
-      "surface": "וטמא",
-      "gloss": "and be unclean"
+      "surface": "וְטָמֵ֥א",
+      "gloss": "and be unclean",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "until"
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
     },
     {
-      "surface": "הערב",
-      "gloss": "the evening"
+      "surface": "הָעֶ֖רֶב",
+      "gloss": "the evening",
+      "sense": "S1"
     },
     {
-      "surface": "וטהר",
-      "gloss": "then he shall be clean"
+      "surface": "וְטָהֵֽר",
+      "gloss": "and be clean",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:41:49.001621924Z",
+  "model": "glm-5.3"
 }

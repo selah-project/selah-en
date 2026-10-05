@@ -1,81 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "A brother offended is harder to win than a strong city, and contentions are like the bars of a citadel.",
+  "ref": "proverbs 18:19",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אח נפשע מקרית עז",
+      "rationale": "Traditions differ: 'a brother offended is harder to win than a strong city' (supplying comparison) vs the bare juxtaposition kept here — brother-who-breaks-away equals a fortified city."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨is⟩ \/ ⟨are⟩",
+      "rationale": "Hebrew juxtaposes nouns without a copula; English requires one."
+    },
+    {
+      "kind": "crux",
+      "subject": "ומדונים",
+      "rationale": "Ketiv ומדונים vs qere ומדינים, the same word 'contentions'."
+    }
+  ],
+  "translation": "A brother who breaks away ⟨is⟩ a city of strength, and contentions ⟨are⟩ like the bar of a citadel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c0d0939c000ad6769230c8cf57e770ce9be2e2c507a908f2da91d137b52a025",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/18\/17-20.1791193913961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אח",
-      "gloss": "A brother"
+      "surface": "אָ֗ח",
+      "gloss": "a brother",
+      "sense": "S1"
     },
     {
-      "surface": "נפשע",
-      "gloss": "offended",
-      "readings": [
-        "offended",
-        "one transgressed against"
-      ],
-      "held_by": {
-        "offended": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "one transgressed against": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "נִפְשָׁ֥ע",
+      "gloss": "who breaks away",
+      "sense": "S1"
     },
     {
-      "surface": "מקרית",
-      "gloss": "than a city",
-      "readings": [
-        "than a city",
-        "from a city"
-      ],
-      "held_by": {
-        "than a city": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from a city": [
-          "en4"
-        ]
-      }
+      "surface": "מִקִּרְיַת",
+      "gloss": "a city of",
+      "sense": "S1"
     },
     {
-      "surface": "עז",
-      "gloss": "of strength"
+      "surface": "עֹ֑ז",
+      "gloss": "strength",
+      "sense": "S1"
     },
     {
       "surface": "ומדונים",
-      "gloss": "and contentions"
-    },
-    {
-      "surface": "כבריח",
-      "gloss": "like the bars of",
+      "gloss": "and contentions",
       "readings": [
-        "like the bars of",
-        "like the bar of"
+        "and contentions",
+        "and strivings"
       ],
-      "held_by": {
-        "like the bars of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "like the bar of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ארמון",
-      "gloss": "of a citadel"
+      "surface": "כִּבְרִ֙יחַ֙",
+      "gloss": "like the bar of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַרְמֹ֖ון",
+      "gloss": "a citadel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:53.962427908Z",
+  "model": "glm-5.3"
 }

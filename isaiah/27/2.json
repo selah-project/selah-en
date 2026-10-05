@@ -1,47 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "In that day — a vineyard of delight — answer to her.",
-  "tokens": [
+  "ref": "isaiah 27:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "ביום",
-      "gloss": "In that day"
+      "kind": "invitation",
+      "subject": "sing to it",
+      "rationale": "imperative summons to sing over the vineyard"
     },
     {
-      "surface": "ההוא",
+      "kind": "crux",
+      "subject": "ענו לה",
+      "rationale": "rendered 'sing to it' from the piel of ענה; some read 'answer it'"
+    }
+  ],
+  "translation": "In that day — “A vineyard of delight, sing to it!”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "17d4bd23be015801be52efde698d44ad4efd2ff6c753895a24d30295ca1d0dd1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/27\/1-4.1791188386954.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּיּוֹם",
+      "gloss": "In that day",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַהוּא",
       "gloss": "that"
     },
     {
-      "surface": "כרם",
-      "gloss": "a vineyard"
+      "surface": "כֶּרֶם",
+      "gloss": "A vineyard",
+      "sense": "S1"
     },
     {
-      "surface": "חמד",
-      "gloss": "of delight"
+      "surface": "חֶמֶד",
+      "gloss": "of delight",
+      "sense": "S1"
     },
     {
-      "surface": "ענו",
-      "gloss": "answer",
-      "readings": [
-        "answer",
-        "sing"
-      ],
-      "held_by": {
-        "answer": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sing": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "עַנּוּ",
+      "gloss": "sing",
+      "sense": "S1"
     },
     {
-      "surface": "לה",
-      "gloss": "to her"
+      "surface": "לָהּ",
+      "gloss": "to it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:19:46.955129019Z",
+  "model": "glm-5.3"
 }

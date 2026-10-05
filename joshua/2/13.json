@@ -1,91 +1,131 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And you will keep alive ⟨את⟩ my father, and ⟨את⟩ my mother, and ⟨את⟩ my brothers, and ⟨את⟩ my sisters, and ⟨את⟩ all that ⟨is⟩ to them, and you will save ⟨את⟩ our lives from death.",
+  "ref": "joshua 2:13",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "my sisters",
+      "rationale": "ketiv אחותי is singular 'my sister'; qere אחיותי reads plural 'my sisters'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "our lives",
+      "rationale": "נפש is plural here, literally 'our breathing-selves'; 'lives' is nearest English."
+    }
+  ],
+  "translation": "And you shall keep alive ⟨את⟩ my father and ⟨את⟩ my mother and ⟨את⟩ my brothers and ⟨את⟩ my sisters and ⟨את⟩ all that is theirs, and you shall deliver ⟨את⟩ our lives from death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cbe2e8c6249f73251c903d6f237246d6a3f5d735d311e22fffe76d20e8d353d4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/2\/13-16.1791184340785.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
-      "surface": "והחיתם",
-      "gloss": "And you will keep alive"
+      "surface": "וְהַחֲיִתֶ֞ם",
+      "gloss": "and you shall keep alive",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my father",
+      "sense": null
     },
     {
-      "surface": "אבי",
-      "gloss": "my father"
+      "surface": "אָבִ֣י",
+      "gloss": "my father",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "my mother",
+      "sense": null
     },
     {
-      "surface": "אמי",
-      "gloss": "my mother"
+      "surface": "אִמִּ֗י",
+      "gloss": "my mother",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "my brothers",
+      "sense": null
     },
     {
-      "surface": "אחי",
-      "gloss": "my brothers"
+      "surface": "אַחַי֙",
+      "gloss": "my brothers",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "my sisters",
+      "sense": null
     },
     {
       "surface": "אחותי",
-      "gloss": "my sister"
+      "gloss": "my sisters",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵ֖ת",
+      "gloss": "and ⟨את⟩",
+      "marks": "all that is theirs",
+      "sense": null
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
+      "surface": "אֲשֶׁ֣ר",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "להם",
-      "gloss": "to them"
+      "surface": "לָהֶ֑ם",
+      "gloss": "is theirs",
+      "sense": null
     },
     {
-      "surface": "והצלתם",
-      "gloss": "and you will save"
+      "surface": "וְהִצַּלְתֶּ֥ם",
+      "gloss": "and you shall deliver",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "our lives",
+      "sense": null
     },
     {
-      "surface": "נפשתינו",
+      "surface": "נַפְשֹׁתֵ֖ינוּ",
       "gloss": "our lives",
       "readings": [
         "our lives",
+        "our throats",
         "our souls"
       ],
-      "held_by": {
-        "our lives": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "our souls": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ממות",
-      "gloss": "from death"
+      "surface": "מִמָּֽוֶת",
+      "gloss": "from death",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:12:20.786009428Z",
+  "model": "glm-5.3"
 }

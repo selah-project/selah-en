@@ -1,60 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "⟨Those⟩ sitting in darkness and the shadow of death, prisoners of affliction and iron,",
-  "tokens": [
+  "ref": "psalms 107:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ישבי",
-      "gloss": "⟨Those⟩ sitting",
-      "readings": [
-        "⟨Those⟩ sitting",
-        "dwellers of"
-      ],
-      "held_by": {
-        "⟨Those⟩ sitting": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "dwellers of": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "shadow-of-death",
+      "rationale": "צלמות is literally 'shadow of death'; many read it as a superlative 'deepest darkness' (from צל, shadow + מות, death), but the picture is kept."
     },
     {
-      "surface": "חשך",
-      "gloss": "in darkness"
-    },
-    {
-      "surface": "וצלמות",
-      "gloss": "and the shadow of death",
-      "readings": [
-        "and the shadow of death",
-        "and death-shadow"
-      ],
-      "held_by": {
-        "and the shadow of death": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and death-shadow": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אסירי",
-      "gloss": "prisoners of"
-    },
-    {
-      "surface": "עני",
-      "gloss": "affliction"
-    },
-    {
-      "surface": "וברזל",
-      "gloss": "and iron"
+      "kind": "mystery",
+      "subject": "darkness",
+      "rationale": "the verse describes a sealed, hopeless state — darkness, death-shadow, iron bonds — the withheld condition the psalm will reverse."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Dwellers in darkness and shadow-of-death, prisoners of affliction and iron —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "896a823bf7127d1bab555e9e3f454c384f96cdede8a479b05158db464dd30c55",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/9-12.1791193339024.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹשְׁבֵי",
+      "gloss": "Dwellers",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹשֶׁךְ",
+      "gloss": "in darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְצַלְמָוֶת",
+      "gloss": "and shadow-of-death",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲסִירֵי",
+      "gloss": "prisoners",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֳנִי",
+      "gloss": "of affliction",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבַרְזֶֽל",
+      "gloss": "and iron",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:19.025420241Z",
+  "model": "glm-5.3"
 }

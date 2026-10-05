@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And he said, and he made stand a storm wind, and it lifted up its waves.",
-  "tokens": [
+  "ref": "psalms 107:25",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And he said"
+      "kind": "alternative",
+      "subject": "its waves",
+      "rationale": "גליו is plural construct 'its waves' (the sea's, from v. 23), though the suffix is singular"
     },
     {
-      "surface": "ויעמד",
-      "gloss": "and he made stand",
-      "readings": [
-        "and he made stand",
-        "and he raised"
-      ],
-      "held_by": {
-        "and he made stand": [
-          "v1"
-        ],
-        "and he raised": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "רוח",
-      "gloss": "wind"
-    },
-    {
-      "surface": "סערה",
-      "gloss": "storm"
-    },
-    {
-      "surface": "ותרומם",
-      "gloss": "and it lifted up"
-    },
-    {
-      "surface": "גליו",
-      "gloss": "its waves"
+      "kind": "wordplay",
+      "subject": "רוח סערה",
+      "rationale": "bound construct 'wind of storm' kept as a chained phrase, not collapsed to 'storm-wind'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he said, and he made stand a storm-wind, and it lifted up its waves;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "840fe789ced46550b78ceb42735d827e6e38d64d288c51e809509d15ac33dd70",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/25-28.1791193347237.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֗אמֶר",
+      "gloss": "and he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיַּעֲמֵ֣ד",
+      "gloss": "and he made stand",
+      "sense": null
+    },
+    {
+      "surface": "ר֣וּחַ",
+      "gloss": "wind of",
+      "readings": [
+        "wind of",
+        "spirit of",
+        "breath of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "סְעָרָ֑ה",
+      "gloss": "a storm",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתְּרוֹמֵ֥ם",
+      "gloss": "and it lifted up",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּלָּֽיו",
+      "gloss": "its waves",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:27.238001760Z",
+  "model": "glm-5.3"
 }

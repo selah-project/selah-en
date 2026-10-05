@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "A healing tongue is a tree of life, but perverseness in it is a breaking in the spirit.",
-  "tokens": [
+  "ref": "proverbs 15:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "מרפא",
-      "gloss": "a healing"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew juxtaposes two noun phrases with no copula."
     },
     {
-      "surface": "לשון",
-      "gloss": "tongue"
+      "kind": "substitution",
+      "subject": "spirit",
+      "rationale": "רוח here is the inner person with its emotions; the same word means wind or breath."
     },
     {
-      "surface": "עץ",
-      "gloss": "tree"
-    },
-    {
-      "surface": "חיים",
-      "gloss": "of life"
-    },
-    {
-      "surface": "וסלף",
-      "gloss": "but perverseness"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in it"
-    },
-    {
-      "surface": "שבר",
-      "gloss": "a breaking"
-    },
-    {
-      "surface": "ברוח",
-      "gloss": "in the spirit",
-      "readings": [
-        "in the spirit",
-        "in the breath",
-        "in the wind"
-      ],
-      "held_by": {
-        "in the spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the breath": [
-          "en4"
-        ],
-        "in the wind": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "שבר",
+      "rationale": "שבר can also mean 'grain' or 'a dream's solution'; here 'a breaking of the spirit' fits the parallel with the healing tongue."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A healing of the tongue is a tree of life, but distortion in it is a breaking of the spirit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed213e88ead4b42faf5caa2864b6d5687fbe93e94939a9d539622548e7d5c10d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/15\/1-4.1791193863102.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַרְפֵּ֣א",
+      "gloss": "a healing of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֭שׁוֹן",
+      "gloss": "the tongue",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵ֣ץ",
+      "gloss": "a tree of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיִּ֑ים",
+      "gloss": "life",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְסֶ֥לֶף",
+      "gloss": "but distortion",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֝֗הּ",
+      "gloss": "in it",
+      "sense": null
+    },
+    {
+      "surface": "שֶׁ֣בֶר",
+      "gloss": "a breaking",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרֽוּחַ",
+      "gloss": "of the spirit",
+      "sense": "S1",
+      "readings": [
+        "of the spirit",
+        "of the wind"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:03.103881847Z",
+  "model": "glm-5.3"
 }

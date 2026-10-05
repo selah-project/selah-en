@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "To declare that YHWH is upright, my rock, and no wrong is in him.",
+  "ref": "psalms 92:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between YHWH and upright"
+    },
+    {
+      "kind": "crux",
+      "subject": "עלתה",
+      "rationale": "ketiv עלתה vs qere עולתה; both point to עוולה 'wrong', the qere spelling out the holem"
+    }
+  ],
+  "translation": "To declare that YHWH is upright, my Rock, and in him is no wrong.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "80a6233ff9ada7ed13cd54718e473b50cbc8a31f090d0a05a6e079e11f0a53db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/13-16.1791193192452.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "להגיד",
-      "gloss": "to declare"
+      "surface": "לְ֭הַגִּיד",
+      "gloss": "To declare",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "that"
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "ישר",
-      "gloss": "is upright"
+      "surface": "יָשָׁ֣ר",
+      "gloss": "upright",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "צורי",
-      "gloss": "my rock"
+      "surface": "צוּרִ֗י",
+      "gloss": "my Rock",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and no"
+      "surface": "וְֽלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "עלתה",
-      "gloss": "wrong"
+      "gloss": "wrong",
+      "sense": "S1"
     },
     {
-      "surface": "בו",
-      "gloss": "in him"
+      "surface": "בּֽוֹ",
+      "gloss": "in him",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:52.453649947Z",
+  "model": "glm-5.3"
 }

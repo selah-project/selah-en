@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Thus they exchanged ⟨את⟩ their glory for the form of an ox eating grass.",
+  "ref": "psalms 106:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "their glory",
+      "rationale": "כבודם — 'their glory' (God, their honor) vs 'their splendor'; Paul's 'the glory of the uncorruptible God' is later interpretation"
+    }
+  ],
+  "translation": "And they exchanged ⟨את⟩ their glory for the likeness of an ox eating grass.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b8ee82f3c7b743a8f177e5603fb53cc45105eee6fcf4a545102e1c492ed44104",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/17-20.1791193315202.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "וימירו",
-      "gloss": "Thus they exchanged"
+      "surface": "וַיָּמִירוּ",
+      "gloss": "And they exchanged",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "their glory"
     },
     {
-      "surface": "כבודם",
+      "surface": "כְּבוֹדָם",
       "gloss": "their glory",
+      "sense": "S1",
       "readings": [
         "their glory",
         "their weight"
-      ],
-      "held_by": {
-        "their glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their weight": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "בתבנית",
-      "gloss": "the form of"
+      "surface": "בְּתַבְנִית",
+      "gloss": "for the likeness of",
+      "sense": "S1"
     },
     {
-      "surface": "שור",
-      "gloss": "an ox"
+      "surface": "שׁוֹר",
+      "gloss": "an ox",
+      "sense": "S1"
     },
     {
-      "surface": "אכל",
-      "gloss": "eating"
+      "surface": "אֹכֵל",
+      "gloss": "eating",
+      "sense": "S1"
     },
     {
-      "surface": "עשב",
-      "gloss": "grass"
+      "surface": "עֵשֶׂב",
+      "gloss": "grass",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:55.203932122Z",
+  "model": "glm-5.3"
 }

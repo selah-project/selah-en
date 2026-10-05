@@ -1,78 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "⟨The⟩ crown of the aged ⟨is⟩ children's children, and the glory of children ⟨is⟩ their fathers.",
-  "tokens": [
+  "ref": "proverbs 17:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "עטרת",
-      "gloss": "crown"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula in both halves; nominal clause."
     },
     {
-      "surface": "זקנים",
-      "gloss": "of the aged"
-    },
-    {
-      "surface": "בני",
-      "gloss": "children of",
-      "readings": [
-        "children of",
-        "sons of"
-      ],
-      "held_by": {
-        "children of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sons of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בנים",
-      "gloss": "children",
-      "readings": [
-        "children",
-        "sons"
-      ],
-      "held_by": {
-        "children": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sons": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותפארת",
-      "gloss": "and the glory of"
-    },
-    {
-      "surface": "בנים",
-      "gloss": "children",
-      "readings": [
-        "children",
-        "sons"
-      ],
-      "held_by": {
-        "children": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sons": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אבותם",
-      "gloss": "their fathers"
+      "kind": "alternative",
+      "subject": "sons of sons",
+      "rationale": "בְּנֵי בָנִים literally 'sons of sons' = grandchildren; the literal form is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The crown of elders ⟨is⟩ sons of sons, and the glory of sons ⟨is⟩ their fathers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19bc2be68a538759a1eb51ce16ce6a575e8b062b5f86604ba6e9f7c522eba8fa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/17\/5-8.1791193903865.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲטֶרֶת",
+      "gloss": "the crown of",
+      "sense": null
+    },
+    {
+      "surface": "זְקֵנִים",
+      "gloss": "elders",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵי",
+      "gloss": "sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנִים",
+      "gloss": "sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתִפְאֶרֶת",
+      "gloss": "and the glory of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנִים",
+      "gloss": "sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבוֹתָם",
+      "gloss": "their fathers",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:43.866208760Z",
+  "model": "glm-5.3"
 }

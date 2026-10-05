@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "The glory of young men is their strength, and the splendor of old men is gray hair.",
-  "tokens": [
+  "ref": "proverbs 20:29",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "תפארת",
-      "gloss": "the glory"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; English requires the copula twice"
     },
     {
-      "surface": "בחורים",
-      "gloss": "of young men"
-    },
-    {
-      "surface": "כחם",
-      "gloss": "their strength"
-    },
-    {
-      "surface": "והדר",
-      "gloss": "and the splendor"
-    },
-    {
-      "surface": "זקנים",
-      "gloss": "of old men"
-    },
-    {
-      "surface": "שיבה",
-      "gloss": "gray hair",
-      "readings": [
-        "gray hair",
-        "old age"
-      ],
-      "held_by": {
-        "gray hair": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "old age": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "gray hair",
+      "rationale": "שֵׂיבָה is literally 'grey-headedness\/old age', the state not the hair"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The splendor of young men is their strength, and the dignity of elders is gray hair.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "db2dfef4e47e0d15d95cb443ad053ac6a9314f1cc5a34877fda6c15a251fa0cd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/29-30.1791193932936.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תִּפְאֶ֣רֶת",
+      "gloss": "The splendor of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּחוּרִ֣ים",
+      "gloss": "young men",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּחָ֑ם",
+      "gloss": "their strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַהֲדַ֖ר",
+      "gloss": "and the dignity of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְקֵנִ֣ים",
+      "gloss": "elders",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֵׂיבָֽה",
+      "gloss": "gray hair",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:12.936843263Z",
+  "model": "glm-5.3"
 }

@@ -1,77 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Shall ⟨the one who⟩ contends with Shaddai instruct? The reprover of Eloah — let him answer it.",
-  "tokens": [
+  "ref": "job 40:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "הרב",
-      "gloss": "⟨the one who⟩ contends",
-      "readings": [
-        "⟨the one who⟩ contends",
-        "a reprover"
-      ],
-      "held_by": {
-        "⟨the one who⟩ contends": [
-          "v1",
-          "en4"
-        ],
-        "a reprover": [
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "crux",
+      "subject": "יִסֹּר",
+      "rationale": "Pointing disputed: as noun 'a reprover' (hapax) or as verb יָסַר 'instruct\/correct'; syntax differs accordingly."
     },
     {
-      "surface": "עם",
+      "kind": "hapax",
+      "subject": "יִסֹּר",
+      "rationale": "This noun occurs only here in the Tanakh."
+    },
+    {
+      "kind": "crux",
+      "subject": "her",
+      "rationale": "The feminine suffix of יַעֲנֶנָּה has no stated feminine antecedent; taken as the reproof or the case at issue."
+    },
+    {
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "YHWH's rhetorical challenge is addressed to Job."
+    }
+  ],
+  "translation": "Shall a wrangler with Shaddai instruct — the reprover of Eloah, let him answer her?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fba69a30a5dd2537aa92af60065631bc055e67b5d76a5738321b1cf5cc3e659e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/1-4.1791194624693.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲ֭רֹב",
+      "gloss": "Shall a wrangler",
+      "sense": "S2"
+    },
+    {
+      "surface": "עִם",
       "gloss": "with"
     },
     {
-      "surface": "שדי",
-      "gloss": "Shaddai"
+      "surface": "שַׁדַּ֣י",
+      "gloss": "Shaddai",
+      "sense": "S1"
     },
     {
-      "surface": "יסור",
+      "surface": "יִסֹּ֑וֹר",
       "gloss": "instruct",
+      "sense": "S1",
       "readings": [
         "instruct",
-        "be corrected"
-      ],
-      "held_by": {
-        "instruct": [
-          "v1",
-          "en4"
-        ],
-        "be corrected": [
-          "en4"
-        ]
-      }
+        "a reprover"
+      ]
     },
     {
-      "surface": "מוכיח",
+      "surface": "מוֹכִ֖יחַ",
       "gloss": "the reprover",
-      "readings": [
-        "the reprover",
-        "argues"
-      ],
-      "held_by": {
-        "the reprover": [
-          "v1",
-          "en4"
-        ],
-        "argues": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אלוה",
-      "gloss": "Eloah"
+      "surface": "אֱלֹ֣והַּ",
+      "gloss": "of Eloah",
+      "sense": "S1"
     },
     {
-      "surface": "יעננה",
-      "gloss": "let him answer it"
+      "surface": "יַעֲנֶֽנָּה",
+      "gloss": "let him answer her",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:44.694325281Z",
+  "model": "glm-5.3"
 }

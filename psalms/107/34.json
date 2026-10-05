@@ -1,75 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "A land of fruit into salt-waste, for the evil of those dwelling in it.",
-  "tokens": [
+  "ref": "psalms 107:34",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ארץ",
-      "gloss": "A land"
+      "kind": "substitution",
+      "subject": "salt-flats",
+      "rationale": "מלחה is salt-poisoned barren land"
     },
     {
-      "surface": "פרי",
-      "gloss": "of fruit"
-    },
-    {
-      "surface": "למלחה",
-      "gloss": "into salt-waste",
-      "readings": [
-        "into salt-waste",
-        "into saltiness"
-      ],
-      "held_by": {
-        "into salt-waste": [
-          "v2",
-          "en4"
-        ],
-        "into saltiness": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מרעת",
-      "gloss": "for the evil of",
-      "readings": [
-        "for the evil of",
-        "from the evil of"
-      ],
-      "held_by": {
-        "for the evil of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from the evil of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישבי",
-      "gloss": "of those dwelling"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in it",
-      "readings": [
-        "in it",
-        "in her"
-      ],
-      "held_by": {
-        "in it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in her": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "because of the evil of",
+      "rationale": "מרעת may read 'for the wickedness of' — moral cause of the land's ruin"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "a land of fruit to salt-flats, because of the evil of those dwelling in it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c0da0eb974418ee8ffd7a84c587bc7f5c51f69fda2430b221c9e904e49c0a0e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/33-36.1791193355034.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶ֣רֶץ",
+      "gloss": "a land of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּרִ֭י",
+      "gloss": "fruit",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִמְלֵחָ֑ה",
+      "gloss": "⟨to⟩ salt-flats",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרָעַ֗ת",
+      "gloss": "because of the evil of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹ֣שְׁבֵי",
+      "gloss": "those dwelling",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּֽהּ",
+      "gloss": "in it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:35.035159947Z",
+  "model": "glm-5.3"
 }

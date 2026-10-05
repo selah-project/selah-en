@@ -1,58 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Am I the sea, or a tannin, that you set a watch over me?",
+  "ref": "job 7:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to God",
+      "rationale": "Job's rhetorical question aimed directly at YHWH."
+    },
+    {
+      "kind": "crux",
+      "subject": "תנין",
+      "rationale": "'Sea-monster' of chaos vs 'jackal' or 'whale' in older versions; the chaos-monster needing guarding fits the sea parallel."
+    }
+  ],
+  "translation": "Am I a sea, or a sea-monster, that you set a watch over me?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c59b70ae788c955a25a04d32f89a1c0bd30d080c1d9775ccaec923ce55cf8a2d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/9-12.1791194189711.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הים",
-      "gloss": "the sea"
+      "surface": "הֲיָם",
+      "gloss": "Am I a sea",
+      "sense": "S2"
     },
     {
-      "surface": "אני",
-      "gloss": "Am I"
+      "surface": "אָנִי",
+      "gloss": "I"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "or"
     },
     {
-      "surface": "תנין",
-      "gloss": "a tannin",
-      "readings": [
-        "a tannin",
-        "a sea-monster",
-        "a serpent"
-      ]
+      "surface": "תַּנִּין",
+      "gloss": "a sea-monster",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "תשים",
-      "gloss": "you set"
+      "surface": "תָשִׂים",
+      "gloss": "you set",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַי",
       "gloss": "over me"
     },
     {
-      "surface": "משמר",
+      "surface": "מִשְׁמָר",
       "gloss": "a watch",
-      "readings": [
-        "a watch",
-        "a guard",
-        "a prison"
-      ],
-      "held_by": {
-        "a watch": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:29.712116843Z",
+  "model": "glm-5.3"
 }

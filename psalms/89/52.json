@@ -1,55 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 52,
-  "translation": "Wherewith your enemies have reproached, O YHWH — wherewith they have reproached the footsteps of your Mashiach.",
+  "ref": "psalms 89:52",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חרפו … חרפו \/ חרפת",
+      "rationale": "root חרף repeated three times across vv. 51–52, binding the servants' reproach to the Mashiach's"
+    },
+    {
+      "kind": "crux",
+      "subject": "עקבות",
+      "rationale": "literally 'heel-tracks'; either the footsteps the anointed one walked, or (less likely) 'the heels of', i.e. the one who follows after"
+    }
+  ],
+  "translation": "which your enemies taunted, YHWH, which they taunted the footsteps of your Mashiach.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d518bc53e991949561870538559841817c1976fb9decaca2e576eb9dc90e6a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/49-52.1791193178736.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
-      "gloss": "Wherewith"
+      "surface": "אֲשֶׁר",
+      "gloss": "which"
     },
     {
-      "surface": "חרפו",
-      "gloss": "they have reproached"
+      "surface": "חֵרְפוּ",
+      "gloss": "taunted",
+      "sense": "S1"
     },
     {
-      "surface": "אויביך",
-      "gloss": "your enemies"
+      "surface": "אוֹיְבֶיךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "wherewith"
+      "surface": "אֲשֶׁר",
+      "gloss": "which"
     },
     {
-      "surface": "חרפו",
-      "gloss": "they have reproached"
+      "surface": "חֵרְפוּ",
+      "gloss": "they taunted",
+      "sense": "S1"
     },
     {
-      "surface": "עקבות",
+      "surface": "עִקְּבוֹת",
       "gloss": "the footsteps of",
       "readings": [
         "the footsteps of",
-        "the heels of"
+        "the heel-tracks of"
       ],
-      "held_by": {
-        "the footsteps of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the heels of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "משיחך",
-      "gloss": "your Mashiach"
+      "surface": "מְשִׁיחֶךָ",
+      "gloss": "your Mashiach",
+      "readings": [
+        "your Mashiach",
+        "your anointed one"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:38.737163178Z",
+  "model": "glm-5.3"
 }

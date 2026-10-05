@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A son of a year ⟨was⟩ Saul in his reigning, and two years he reigned over Israel.",
-  "tokens": [
+  "ref": "1-samuel 13:1",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "בן",
-      "gloss": "a son"
+      "kind": "crux",
+      "subject": "A son of a year",
+      "rationale": "Hebrew gives no number for Saul's age; LXX omits the verse's figures, and versions supply 'thirty' or other numbers — the text as it stands says only 'a son of a year' (one year old?).\n\n"
     },
     {
-      "surface": "שנה",
-      "gloss": "of a year"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks a copula between 'A son of a year' and 'Saul'"
     },
     {
-      "surface": "שאול",
-      "gloss": "Saul"
-    },
-    {
-      "surface": "במלכו",
-      "gloss": "in his reigning",
-      "readings": [
-        "in his reigning",
-        "when he began to reign"
-      ],
-      "held_by": {
-        "in his reigning": [
-          "en4"
-        ],
-        "when he began to reign": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ושתי",
-      "gloss": "and two"
-    },
-    {
-      "surface": "שנים",
-      "gloss": "years"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "he reigned"
-    },
-    {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "measurement",
+      "subject": "Saul's age and reign length",
+      "rationale": "verse counts the king's years"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A son of a year was Saul at his reigning, and two years he reigned over Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "84de86fd72c9461a919713ab41cb8f0cea823379352c772fa410aed4994cab83",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/13\/1-4.1791185595647.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֶּן",
+      "gloss": "A son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁנָה",
+      "gloss": "a year",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁאוּל",
+      "gloss": "Saul",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמָלְכוֹ",
+      "gloss": "at his reigning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁתֵּי",
+      "gloss": "and two",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁנִים",
+      "gloss": "years",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָלַךְ",
+      "gloss": "he reigned",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:33:15.648629516Z",
+  "model": "glm-5.3"
 }

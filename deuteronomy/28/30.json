@@ -1,120 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "A woman you shall betroth, and another man shall violate her; a house you shall build, and you shall not dwell in it; a vineyard you shall plant, and you shall not begin to enjoy it.",
+  "ref": "deuteronomy 28:30",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ישגלנה",
+      "rationale": "ketiv שׁגל 'copulate with' (a coarse word) vs qere שׁכב 'lie with'; the reading tradition softens the written text."
+    },
+    {
+      "kind": "substitution",
+      "subject": "begin-to-use its fruit",
+      "rationale": "חלל here is 'profane\/use as common' — the first harvest of a vineyard forbidden to its owner; rendered by its literal picture of first use."
+    }
+  ],
+  "translation": "A woman you shall betroth, and another man shall lie with her; a house you shall build, and you shall not dwell in it; a vineyard you shall plant, and you shall not begin-to-use its fruit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a606b4ae85dd588edb9f105c8a9d75b43b4e301b1adedcf4928aa3760729e7e7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/28\/29-32.1791184121041.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "אשה",
       "gloss": "a woman",
-      "readings": [
-        "a woman",
-        "a wife"
-      ],
-      "held_by": {
-        "a woman": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a wife": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "תארש",
-      "gloss": "you shall betroth"
+      "gloss": "you shall betroth",
+      "sense": "S1"
     },
     {
       "surface": "ואיש",
-      "gloss": "and a man"
+      "gloss": "and a man",
+      "sense": "S1"
     },
     {
       "surface": "אחר",
-      "gloss": "another"
+      "gloss": "another",
+      "sense": "S1"
     },
     {
       "surface": "ישגלנה",
-      "gloss": "shall violate her",
+      "gloss": "shall lie with her",
       "readings": [
-        "shall violate her",
-        "shall lie with her"
+        "shall lie with her",
+        "shall copulate with her"
       ],
-      "held_by": {
-        "shall violate her": [
-          "v1"
-        ],
-        "shall lie with her": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "בית",
-      "gloss": "a house"
+      "gloss": "a house",
+      "sense": "S1"
     },
     {
       "surface": "תבנה",
-      "gloss": "you shall build"
+      "gloss": "you shall build",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "תשב",
       "gloss": "you shall dwell",
-      "readings": [
-        "you shall dwell",
-        "you shall sit"
-      ],
-      "held_by": {
-        "you shall dwell": [
-          "v1",
-          "v3"
-        ],
-        "you shall sit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "in it"
+      "gloss": "in it",
+      "sense": null
     },
     {
       "surface": "כרם",
-      "gloss": "a vineyard"
+      "gloss": "a vineyard",
+      "sense": "S1"
     },
     {
       "surface": "תטע",
-      "gloss": "you shall plant"
+      "gloss": "you shall plant",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "תחללנו",
-      "gloss": "you shall begin to enjoy it",
-      "readings": [
-        "you shall begin to enjoy it",
-        "you shall make it common"
-      ],
-      "held_by": {
-        "you shall begin to enjoy it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you shall make it common": [
-          "en4"
-        ]
-      }
+      "gloss": "you shall not begin-to-use its fruit",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:08:41.042379007Z",
+  "model": "glm-5.3"
 }

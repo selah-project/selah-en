@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And yet a little while, and the wicked ⟨is⟩ no more; and you will consider his place, and he is not.",
+  "ref": "psalms 37:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew אין is the negative of existence; English needs a supplied verb"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ואין…ואיננו",
+      "rationale": "the double negative אין\/איננו bookends the verse, no wicked one… he is not"
+    }
+  ],
+  "translation": "And a little more, and ⟨there is⟩ no wicked one; and you will look closely at his place, and he is not.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3a28529cdb383569b531f4f5829a05db2d2505d8efcbf7dde57de1db5df8be68",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/9-12.1791192637326.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ועוד",
-      "gloss": "and yet"
+      "surface": "וְע֣וֹד",
+      "gloss": "And a little more",
+      "sense": null
     },
     {
-      "surface": "מעט",
-      "gloss": "a little"
+      "surface": "מְעַט",
+      "gloss": "a little",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and ⟨there is⟩ no more"
+      "surface": "וְאֵ֣ין",
+      "gloss": "and ⟨there is⟩ no",
+      "sense": null
     },
     {
       "surface": "רשע",
-      "gloss": "the wicked"
+      "gloss": "wicked one",
+      "sense": "S1"
     },
     {
-      "surface": "והתבוננת",
-      "gloss": "and you will consider"
+      "surface": "וְהִתְבּוֹנַ֖נְתָּ",
+      "gloss": "and you will look closely",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "at"
+      "surface": "עַל",
+      "gloss": "at",
+      "sense": null
     },
     {
-      "surface": "מקומו",
-      "gloss": "his place"
+      "surface": "מְקוֹמ֣וֹ",
+      "gloss": "his place",
+      "sense": "S1"
     },
     {
-      "surface": "ואיננו",
-      "gloss": "and he is not"
+      "surface": "וְאֵינֶֽנּוּ",
+      "gloss": "and he is not",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:37.326823495Z",
+  "model": "glm-5.3"
 }

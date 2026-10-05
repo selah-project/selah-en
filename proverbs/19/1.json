@@ -1,70 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Better the poor who walks in his integrity than one perverse in his lips, and he is a fool.",
+  "ref": "proverbs 19:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "than",
+      "rationale": "Hebrew טוב…מ… is a comparative 'good…from…'; English needs 'better…than'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "completeness",
+      "rationale": "תֻמּוֹ is literally wholeness\/blamelessness; 'integrity' is the conventional smoothing"
+    }
+  ],
+  "translation": "Better a poor man walking in his completeness, than one crooked in his lips — he is a fool.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9bc7435e46677a6ba350873111463a29f6402e726d3f9e7c1657b1bfd61d0ed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/1-4.1791193916663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "טוב",
-      "gloss": "Better"
+      "surface": "טֽוֹב",
+      "gloss": "Better",
+      "sense": "S1"
     },
     {
-      "surface": "רש",
-      "gloss": "the poor",
-      "readings": [
-        "the poor",
-        "the destitute"
-      ],
-      "held_by": {
-        "the poor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the destitute": [
-          "en4"
-        ]
-      }
+      "surface": "רָ֭שׁ",
+      "gloss": "a poor man",
+      "sense": "S1"
     },
     {
-      "surface": "הולך",
-      "gloss": "who walks"
+      "surface": "הוֹלֵ֣ךְ",
+      "gloss": "walking",
+      "sense": "S1"
     },
     {
-      "surface": "בתמו",
-      "gloss": "in his integrity"
+      "surface": "בְּתֻמּ֑וֹ",
+      "gloss": "in his completeness",
+      "sense": "S1"
     },
     {
-      "surface": "מעקש",
-      "gloss": "perverse"
+      "surface": "מֵעִקֵּ֥שׁ",
+      "gloss": "than one crooked",
+      "sense": "S1"
     },
     {
-      "surface": "שפתיו",
-      "gloss": "in his lips"
+      "surface": "שְׂ֝פָתָ֗יו",
+      "gloss": "in his lips",
+      "sense": "S1"
     },
     {
-      "surface": "והוא",
+      "surface": "וְה֣וּא",
       "gloss": "and he"
     },
     {
-      "surface": "כסיל",
+      "surface": "כְסִֽיל",
       "gloss": "a fool",
-      "readings": [
-        "a fool",
-        "a fat one"
-      ],
-      "held_by": {
-        "a fool": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a fat one": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:56.664526472Z",
+  "model": "glm-5.3"
 }

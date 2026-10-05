@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And it came to pass, the choicest of your valleys were full of chariots, and the horsemen set, set the gate.",
-  "tokens": [
+  "ref": "isaiah 22:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ויהי",
-      "gloss": "And it came to pass"
+      "kind": "addition",
+      "subject": "themselves",
+      "rationale": "שתו has no explicit object; the reflexive is supplied"
     },
     {
-      "surface": "מבחר",
-      "gloss": "the choicest"
-    },
-    {
-      "surface": "עמקיך",
-      "gloss": "of your valleys"
-    },
-    {
-      "surface": "מלאו",
-      "gloss": "were full"
-    },
-    {
-      "surface": "רכב",
-      "gloss": "of chariots",
-      "readings": [
-        "of chariots",
-        "of cavalry"
-      ],
-      "held_by": {
-        "of chariots": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of cavalry": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "והפרשים",
-      "gloss": "and the horsemen"
-    },
-    {
-      "surface": "שת",
-      "gloss": "set"
-    },
-    {
-      "surface": "שתו",
-      "gloss": "they set"
-    },
-    {
-      "surface": "השערה",
-      "gloss": "the gate"
+      "kind": "wordplay",
+      "subject": "שת שתו",
+      "rationale": "infinitive absolute plus verb — 'setting they set' — kept doubled, not collapsed to an idiom"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And it came to pass — the choicest of your valleys was full of chariots, and the horsemen, setting, set themselves toward the gate.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3d82908bed3066e53982d07768197e65e9e5da6d7d1a164ab17eedd9a2f7882",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/22\/5-8.1791188316043.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְהִ֥י",
+      "gloss": "And it came to pass",
+      "sense": null
+    },
+    {
+      "surface": "מִבְחַר",
+      "gloss": "the choicest of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲמָקַ֖יִךְ",
+      "gloss": "your valleys",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָ֣לְאוּ",
+      "gloss": "was full of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָ֑כֶב",
+      "gloss": "chariots",
+      "sense": "S2"
+    },
+    {
+      "surface": "וְהַפָּ֣רָשִׁ֔ים",
+      "gloss": "and the horsemen",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁ֖ת",
+      "gloss": "setting",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֥תוּ",
+      "gloss": "set themselves",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּֽׁעְרָה",
+      "gloss": "toward the gate",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:18:36.045458685Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "May YHWH make his face shine upon you, and may he be gracious to you.",
-  "tokens": [
+  "ref": "numbers 6:25",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "יאר",
-      "gloss": "may he make shine"
+      "kind": "addition",
+      "subject": "May",
+      "rationale": "English needs a jussive auxiliary; Hebrew marks the wish by the verb form itself"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "פניו",
-      "gloss": "his face"
-    },
-    {
-      "surface": "אליך",
-      "gloss": "upon you",
-      "readings": [
-        "upon you",
-        "toward you"
-      ],
-      "held_by": {
-        "upon you": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "toward you": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויחנך",
-      "gloss": "and may he be gracious to you"
+      "kind": "substitution",
+      "subject": "show you favor",
+      "rationale": "חנן is to bend or stoop in kindness to an inferior; rendered as its effect"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May YHWH make His face shine toward you, and may He show you favor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02b326d904b6a37907e96390b0b1607b863f0d03b1ad3abf94f106d34212f02e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/6\/25-27.1791182880529.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָאֵ֨ר",
+      "gloss": "make shine",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֧ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּנָיו",
+      "gloss": "His face",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶ֖יךָ",
+      "gloss": "toward you",
+      "sense": null
+    },
+    {
+      "surface": "וִֽיחֻנֶּֽךָּ",
+      "gloss": "and may He show you favor",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:48:00.529919622Z",
+  "model": "glm-5.3"
 }

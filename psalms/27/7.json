@@ -1,46 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Hear, O YHWH, my voice when I call; be gracious to me and answer me.",
+  "ref": "psalms 27:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "Hear, YHWH",
+      "rationale": "imperative summons opening direct petition."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the whole verse is direct address to YHWH."
+    },
+    {
+      "kind": "addition",
+      "subject": "when",
+      "rationale": "Hebrew juxtaposes 'my voice I call'; a temporal link is supplied for English."
+    }
+  ],
+  "translation": "Hear, YHWH, my voice when I call, and be gracious to me and answer me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ffaf7b53dc33b2cbf7ea5a5d0b086ee4b86f1b59ba6896b5f45439d7a0c9b62",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/27\/5-8.1791192547190.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שמע",
+      "surface": "שְׁמַע",
       "gloss": "Hear"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "קולי",
+      "surface": "קוֹלִי",
       "gloss": "my voice"
     },
     {
-      "surface": "אקרא",
+      "surface": "אֶקְרָא",
       "gloss": "when I call",
-      "readings": [
-        "when I call",
-        "when I cry"
-      ],
-      "held_by": {
-        "when I call": [
-          "v2",
-          "v3"
-        ],
-        "when I cry": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "וחנני",
-      "gloss": "be gracious to me"
+      "surface": "וְחָנֵּנִי",
+      "gloss": "and be gracious to me",
+      "sense": "S1"
     },
     {
-      "surface": "וענני",
-      "gloss": "and answer me"
+      "surface": "וַעֲנֵנִי",
+      "gloss": "and answer me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:07.191628309Z",
+  "model": "glm-5.3"
 }

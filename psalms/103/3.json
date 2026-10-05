@@ -1,86 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Who forgives all your iniquity, who heals all your diseases,",
-  "tokens": [
+  "ref": "psalms 103:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "הסלח",
-      "gloss": "who forgives",
-      "readings": [
-        "who forgives",
-        "the forgiver of"
-      ],
-      "held_by": {
-        "who forgives": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the forgiver of": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "הסולח לכל … הרופא לכל",
+      "rationale": "Perfect parallel couplets: participle + לכל + suffixed noun, mirroring forgiveness of sin with healing of disease."
     },
     {
-      "surface": "לכל",
-      "gloss": "all"
-    },
-    {
-      "surface": "עונכי",
-      "gloss": "your iniquity",
-      "readings": [
-        "your iniquity",
-        "your perversities"
-      ],
-      "held_by": {
-        "your iniquity": [
-          "v2"
-        ],
-        "your perversities": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הרפא",
-      "gloss": "who heals",
-      "readings": [
-        "who heals",
-        "the healer of"
-      ],
-      "held_by": {
-        "who heals": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the healer of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לכל",
-      "gloss": "all"
-    },
-    {
-      "surface": "תחלאיכי",
-      "gloss": "your diseases",
-      "readings": [
-        "your diseases",
-        "your maladies"
-      ],
-      "held_by": {
-        "your diseases": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your maladies": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "The One forgiving",
+      "rationale": "Hebrew uses the article + participle as a substantivized title of YHWH; English needs a relative construction."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The One forgiving all your iniquity, the One healing all your sicknesses.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1eb16ef1705cb6d560836e6fac44f129457ed565dc510d07457237368ed8fa51",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/1-4.1791193263668.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַסּוֹלֵחַ",
+      "gloss": "The One forgiving",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "עֲוֺנֵכִי",
+      "gloss": "your iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרֹפֵא",
+      "gloss": "the One healing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "תַּחֲלֻאָיְכִי",
+      "gloss": "your sicknesses",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:03.669501086Z",
+  "model": "glm-5.3"
 }

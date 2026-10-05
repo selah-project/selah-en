@@ -1,36 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Who would give — keeping silence, you would keep silence! — and it would be to you for wisdom.",
-  "tokens": [
+  "ref": "job 13:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "idiom",
+      "subject": "מי יתן",
+      "rationale": "Lit. 'who will give' = 'O that'; kept literal as a wish-formula."
     },
     {
-      "surface": "יתן",
+      "kind": "wordplay",
+      "subject": "החרש תחרישון",
+      "rationale": "Infinitive absolute + verb of the same root, 'silent you would keep silent' — doubling kept."
+    },
+    {
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Job addresses Eliphaz, Bildad and Zophar directly."
+    }
+  ],
+  "translation": "Who would give that, silent, you would keep silent, and it would be ⟨to⟩ you ⟨as⟩ wisdom?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "57b8c8e1bd4d6661db2a37dc21b8ff994bbdbe1f5fb6489eefa4a9522af7c4ae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/13\/5-8.1791194266606.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִֽי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִ֭תֵּן",
       "gloss": "would give"
     },
     {
-      "surface": "החרש",
-      "gloss": "keeping silence"
+      "surface": "הַחֲרֵ֣שׁ",
+      "gloss": "silent",
+      "sense": "S1"
     },
     {
       "surface": "תחרישון",
-      "gloss": "you would keep silence"
+      "gloss": "you would keep silent",
+      "sense": "S1"
     },
     {
-      "surface": "ותהי",
+      "surface": "וּתְהִ֖י",
       "gloss": "and it would be"
     },
     {
-      "surface": "לכם",
-      "gloss": "to you"
+      "surface": "לָכֶ֣ם",
+      "gloss": "⟨to⟩ you"
     },
     {
-      "surface": "לחכמה",
-      "gloss": "for wisdom"
+      "surface": "לְחָכְמָֽה",
+      "gloss": "⟨as⟩ wisdom",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:46.607067443Z",
+  "model": "glm-5.3"
 }

@@ -1,58 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Therefore the wicked shall not rise up in the judgment, nor sinners in ⟨the⟩ congregation of the righteous.",
-  "tokens": [
+  "ref": "psalms 1:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "upon"
+      "kind": "alternative",
+      "subject": "will stand",
+      "rationale": "קוּם here read as standing (in a trial) rather than rising up; both senses of the form are live."
     },
     {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יקמו",
-      "gloss": "shall rise up",
-      "readings": [
-        "shall rise up",
-        "shall stand"
-      ],
-      "held_by": {
-        "shall rise up": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "shall stand": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "רשעים",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "במשפט",
-      "gloss": "in ⟨the⟩ judgment"
-    },
-    {
-      "surface": "וחטאים",
-      "gloss": "nor sinners"
-    },
-    {
-      "surface": "בעדת",
-      "gloss": "in ⟨the⟩ congregation of"
-    },
-    {
-      "surface": "צדיקים",
-      "gloss": "the righteous"
+      "kind": "substitution",
+      "subject": "nor",
+      "rationale": "וְ is a plain conjunction 'and'; the negative לֹא carries over to the second clause, so English supplies 'nor'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Therefore the wicked will not stand in the judgment, nor sinners in the assembly of the righteous.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8eb7ca563258e5f36a193ab7b3c199006b3966dff52d6431689facb99248caf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/1\/5-6.1791192346078.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "כֵּן",
+      "gloss": "therefore",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָקֻמוּ",
+      "gloss": "will stand",
+      "readings": [
+        "will stand",
+        "will rise"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "רְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמִּשְׁפָּט",
+      "gloss": "in the judgment",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחַטָּאִים",
+      "gloss": "nor sinners",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּעֲדַת",
+      "gloss": "in the assembly of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַדִּיקִים",
+      "gloss": "the righteous",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:46.078606001Z",
+  "model": "glm-5.3"
 }

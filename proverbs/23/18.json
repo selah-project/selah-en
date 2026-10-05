@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "For surely there is a future, and your hope will not be cut off.",
-  "tokens": [
+  "ref": "proverbs 23:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "alternative",
+      "subject": "a future",
+      "rationale": "אחרית can read 'end\/outcome' or 'future'; 'an end' keeps the concrete picture."
     },
     {
-      "surface": "אם",
-      "gloss": "surely"
-    },
-    {
-      "surface": "יש",
-      "gloss": "there is"
-    },
-    {
-      "surface": "אחרית",
-      "gloss": "a future",
-      "readings": [
-        "a future",
-        "an end"
-      ],
-      "held_by": {
-        "a future": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "an end": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ותקותך",
-      "gloss": "and your hope"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "תכרת",
-      "gloss": "will be cut off"
+      "kind": "wordplay",
+      "subject": "אחרית \/ תכרת",
+      "rationale": "The end-of-things and the cutting-off stand paired: the end exists, the cutting-off will not."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For surely there is an end, and your hope will not be cut off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bbcbdc71f7eb002fdd12b95d1ba461ef938bde2019f6d19ce7d198e05031874a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/23\/17-20.1791193976310.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אִם",
+      "gloss": "surely",
+      "sense": null
+    },
+    {
+      "surface": "יֵשׁ",
+      "gloss": "there is",
+      "sense": null
+    },
+    {
+      "surface": "אַחֲרִית",
+      "gloss": "an end",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתִקְוָתְךָ",
+      "gloss": "and your hope",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּכָּרֵת",
+      "gloss": "will be cut off",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:56.311500057Z",
+  "model": "glm-5.3"
 }

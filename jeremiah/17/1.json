@@ -1,60 +1,113 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "The sin of Judah is written with a stylus of iron, with a diamond point ⟨it is⟩ engraved on the tablet of their heart, and on the horns of your altars.",
-  "tokens": [
+  "ref": "jeremiah 17:1",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "חטאת",
-      "gloss": "The sin of"
+      "kind": "hapax",
+      "subject": "שמיר",
+      "rationale": "a legendary hard stone, transliterated; 'diamond' and 'emery' are guesses at the referent."
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew participle lacks a copula; supplied for English."
     },
     {
-      "surface": "כתובה",
-      "gloss": "is written"
+      "kind": "crux",
+      "subject": "their heart \/ your altars",
+      "rationale": "the suffix shifts from third person (their heart) to second person (your altars); the shift is kept as the Hebrew has it."
     },
     {
-      "surface": "בעט",
-      "gloss": "with a stylus of"
-    },
-    {
-      "surface": "ברזל",
-      "gloss": "iron"
-    },
-    {
-      "surface": "בצפרן",
-      "gloss": "with a point of"
-    },
-    {
-      "surface": "שמיר",
-      "gloss": "diamond"
-    },
-    {
-      "surface": "חרושה",
-      "gloss": "engraved"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "לוח",
-      "gloss": "the tablet"
-    },
-    {
-      "surface": "לבם",
-      "gloss": "of their heart"
-    },
-    {
-      "surface": "ולקרנות",
-      "gloss": "and on the horns"
-    },
-    {
-      "surface": "מזבחותיכם",
-      "gloss": "of your altars"
+      "kind": "wordplay",
+      "subject": "engraved",
+      "rationale": "חרשׁ is the same verb as 'to plough' — sin ploughed into the heart as furrows; lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The sin of Judah is written with a stylus of iron, with a point of shamir — engraved on the tablet of their heart, and on the horns of your altars.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "52fda72e9a09f295bcbc876cdc0612fe3be91c42331c419942d4a17585c1a095",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/17\/1-4.1791189372421.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חַטַּ֣את",
+      "gloss": "The sin of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוּדָ֗ה",
+      "gloss": "Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּתוּבָ֛ה",
+      "gloss": "is written",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵ֥ט",
+      "gloss": "with a stylus of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּרְזֶ֖ל",
+      "gloss": "iron",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִפֹּ֣רֶן",
+      "gloss": "with a point of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמִ֑יר",
+      "gloss": "shamir",
+      "readings": [
+        "shamir",
+        "adamant-stone"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲרוּשָׁה֙",
+      "gloss": "engraved",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on"
+    },
+    {
+      "surface": "ל֣וּחַ",
+      "gloss": "the tablet of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבָּ֔ם",
+      "gloss": "their heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְקַרְנ֖וֹת",
+      "gloss": "and on the horns of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְבְּחוֹתֵיכֶֽם",
+      "gloss": "your altars",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:36:12.424391793Z",
+  "model": "glm-5.3"
 }

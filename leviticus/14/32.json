@@ -1,109 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "This is the instruction for one in whom is a plague of tzara'at, whose hand cannot reach ⟨what is needed⟩ for his cleansing.",
+  "ref": "leviticus 14:32",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "cannot reach his cleansing",
+      "rationale": "לא תשיג ידו, 'his hand does not reach', the affordability idiom again, closing the poor man's provision."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "בו, 'in him', supplies the copula English needs for 'in whom is the plague'."
+    },
+    {
+      "kind": "elision",
+      "subject": "tsara'at",
+      "rationale": "צרעת covers skin conditions and mildew on cloth and walls, broader than 'leprosy'; transliterated to keep the full span."
+    }
+  ],
+  "translation": "This is the instruction for the one in whom is the plague of tsara'at, whose hand cannot reach ⟨to⟩ his cleansing.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "71b14d6d83f91f4b272fb261fa0ada6d6f6c0771b53e5e0df16a02d9b4893b09",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/29-32.1791182427658.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "זאת",
-      "gloss": "This"
+      "gloss": "This",
+      "sense": null
     },
     {
       "surface": "תורת",
-      "gloss": "the instruction of",
-      "readings": [
-        "the instruction of",
-        "the law of"
-      ],
-      "held_by": {
-        "the instruction of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the law of": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "is the instruction for",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "for one who"
+      "gloss": "the one in whom",
+      "sense": null
     },
     {
       "surface": "בו",
-      "gloss": "in whom"
+      "gloss": "is",
+      "sense": null
     },
     {
       "surface": "נגע",
-      "gloss": "a plague"
+      "gloss": "the plague of",
+      "sense": "S1"
     },
     {
       "surface": "צרעת",
-      "gloss": "tzara'at",
-      "readings": [
-        "tzara'at",
-        "leprosy"
-      ],
-      "held_by": {
-        "tzara'at": [
-          "v2",
-          "en4"
-        ],
-        "leprosy": [
-          "v1",
-          "v3"
-        ]
-      }
+      "gloss": "tsara'at",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "whose"
+      "gloss": "whose",
+      "sense": null
     },
     {
       "surface": "לא",
-      "gloss": "cannot",
-      "readings": [
-        "cannot",
-        "does not"
-      ],
-      "held_by": {
-        "cannot": [
-          "v1",
-          "v3"
-        ],
-        "does not": [
-          "v2",
-          "en4"
-        ]
-      }
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "תשיג",
-      "gloss": "reach"
+      "gloss": "can reach",
+      "sense": "S1"
     },
     {
       "surface": "ידו",
-      "gloss": "his hand"
+      "gloss": "his hand",
+      "sense": "S1"
     },
     {
       "surface": "בטהרתו",
-      "gloss": "for his cleansing",
-      "readings": [
-        "for his cleansing",
-        "in his cleansing"
-      ],
-      "held_by": {
-        "for his cleansing": [
-          "v2",
-          "v3"
-        ],
-        "in his cleansing": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "⟨to⟩ his cleansing",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:27.660889292Z",
+  "model": "glm-5.3"
 }

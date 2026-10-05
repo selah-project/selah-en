@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "And they provoked ⟨him⟩ to anger with their deeds, and a plague broke out among them.",
-  "tokens": [
+  "ref": "psalms 106:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויכעיסו",
-      "gloss": "and they provoked ⟨him⟩ to anger"
+      "kind": "substitution",
+      "subject": "plague",
+      "rationale": "מגפה literally 'heavy blow'; plague\/pestilence is the contextual narrowing"
     },
     {
-      "surface": "במעלליהם",
-      "gloss": "with their deeds"
-    },
-    {
-      "surface": "ותפרץ",
-      "gloss": "and broke out"
-    },
-    {
-      "surface": "בם",
-      "gloss": "among them"
-    },
-    {
-      "surface": "מגפה",
-      "gloss": "a plague",
-      "readings": [
-        "a plague",
-        "a defeat"
-      ],
-      "held_by": {
-        "a plague": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a defeat": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "with their acts",
+      "rationale": "במעלליהם is bound construct 'by the acts of them'; English needs the prepositional idiom"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they provoked displeasure with their acts, and the plague broke out among them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2e783ba9f313c254a917b899c2cf996a7d1c2ce9b5747602e409ca5d0b18f59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/29-32.1791193320345.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַ֭יַּכְעִיסוּ",
+      "gloss": "and they provoked displeasure",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַֽעַלְלֵיהֶ֑ם",
+      "gloss": "with their acts",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתִּפְרָץ",
+      "gloss": "and it broke out",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֝֗ם",
+      "gloss": "among them",
+      "sense": null
+    },
+    {
+      "surface": "מַגֵּפָֽה",
+      "gloss": "a plague",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:00.345737185Z",
+  "model": "glm-5.3"
 }

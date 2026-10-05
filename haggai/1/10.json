@@ -1,87 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Therefore upon you the heavens have withheld ⟨the⟩ dew, and the earth has withheld her produce.",
+  "ref": "haggai 1:10",
+  "book": "haggai",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨the⟩",
+      "rationale": "Hebrew מִטָּל is indefinite; English idiom requires the article"
+    },
+    {
+      "kind": "you",
+      "subject": "to the returned exiles",
+      "rationale": "עֲלֵיכֶם keeps the direct second-person address"
+    }
+  ],
+  "translation": "Therefore upon you the heavens have withheld ⟨the⟩ dew, and the land has withheld its produce.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6aba5023974d5ed0a8c21003db35b9d89dd2d8d371942e33470e5782ebf5dc1f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/haggai\/1\/9-12.1791192054044.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/haggai.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "כן",
-      "gloss": "so"
+      "surface": "כֵּן",
+      "gloss": "Therefore"
     },
     {
-      "surface": "עליכם",
+      "surface": "עֲלֵיכֶם",
       "gloss": "upon you"
     },
     {
-      "surface": "כלאו",
+      "surface": "כָּלְאוּ",
       "gloss": "have withheld",
       "readings": [
         "have withheld",
-        "have shut up"
+        "have shut themselves up"
       ],
-      "held_by": {
-        "have withheld": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "have shut up": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "מטל",
-      "gloss": "from dew"
+      "surface": "מִטָּל",
+      "gloss": "⟨the⟩ dew",
+      "sense": "S1"
     },
     {
-      "surface": "והארץ",
-      "gloss": "and the earth",
+      "surface": "וְהָאָרֶץ",
+      "gloss": "and the land",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּלְאָה",
+      "gloss": "has withheld",
       "readings": [
-        "and the earth",
-        "and the land"
+        "has withheld",
+        "has shut itself up"
       ],
-      "held_by": {
-        "and the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כלאה",
-      "gloss": "has withheld"
-    },
-    {
-      "surface": "יבולה",
-      "gloss": "her produce",
-      "readings": [
-        "her produce",
-        "its produce"
-      ],
-      "held_by": {
-        "her produce": [
-          "en4"
-        ],
-        "its produce": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "יְבוּלָהּ",
+      "gloss": "its produce",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:20:54.045211967Z",
+  "model": "glm-5.3"
 }

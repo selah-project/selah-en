@@ -1,71 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And they removed ⟨את⟩ the gods of the foreigner from their midst and served ⟨את⟩ YHWH, and his soul grew short over the trouble of Israel.",
+  "ref": "judges 10:16",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "grew short",
+      "rationale": "קצר נפש literally ‘his nefesh became short’ — idiom for losing patience, kept literal"
+    },
+    {
+      "kind": "crux",
+      "subject": "וַתִּקְצַר נַפְשׁוֹ",
+      "rationale": "rendered variously as ‘he could bear it no longer’, ‘his soul was grieved’, ‘he became impatient over’ — the literal shortness kept"
+    },
+    {
+      "kind": "alternative",
+      "subject": "בַּעֲמַל יִשְׂרָאֵל",
+      "rationale": "read as YHWH's impatience with Israel's misery (‘over Israel's misery’) or with Israel's wrongdoing; the ambiguity stands"
+    }
+  ],
+  "translation": "And they removed ⟨את⟩ the gods of the foreigner from their midst and served ⟨את⟩ YHWH, and his nefesh grew short over the toil of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c100e9cf1d0d6f2dd1578078586d3ba77b61feee44ef09d7a0aeaced03a85336",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/10\/13-16.1791185063461.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
-      "surface": "ויסירו",
-      "gloss": "And they removed"
+      "surface": "וַיָּסִירוּ",
+      "gloss": "and they removed",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the gods of the foreigner"
     },
     {
-      "surface": "אלהי",
-      "gloss": "the gods of"
+      "surface": "אֱלֹהֵי",
+      "gloss": "the gods of",
+      "sense": "S1"
     },
     {
-      "surface": "הנכר",
-      "gloss": "the foreigner"
+      "surface": "הַנֵּכָר",
+      "gloss": "the foreigner",
+      "sense": "S1"
     },
     {
-      "surface": "מקרבם",
+      "surface": "מִקִּרְבָּם",
       "gloss": "from their midst"
     },
     {
-      "surface": "ויעבדו",
-      "gloss": "and served"
+      "surface": "וַיַּעַבְדוּ",
+      "gloss": "and served",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ותקצר",
-      "gloss": "and grew short"
+      "surface": "וַתִּקְצַר",
+      "gloss": "and grew short",
+      "sense": "S1"
     },
     {
-      "surface": "נפשו",
-      "gloss": "his soul",
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his nefesh",
       "readings": [
+        "his nefesh",
         "his soul",
         "his life"
       ],
-      "held_by": {
-        "his soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בעמל",
-      "gloss": "over the trouble"
+      "surface": "בַּעֲמַל",
+      "gloss": "over the toil of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:24:23.462956214Z",
+  "model": "glm-5.3"
 }

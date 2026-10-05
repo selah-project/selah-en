@@ -1,51 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Against your people they plot craftily a secret counsel, and they take counsel against your hidden ones.",
+  "ref": "psalms 83:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 83,
+  "notes": [
+    {
+      "kind": "secret",
+      "subject": "סוד",
+      "rationale": "a covert deliberation, secret counsel directed against God's people."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "סוד \/ צפוניך",
+      "rationale": "sound-link between the secret (סוד) and the hidden\/treasured ones (צפוניך, from צפן 'to hide') — the secret plan targets the hidden ones."
+    },
+    {
+      "kind": "alternative",
+      "subject": "your treasured ones",
+      "rationale": "צפוניך literally 'your hidden\/stored-up ones', i.e. those sheltered by God; 'your sheltered ones' is a nearer-literal option."
+    }
+  ],
+  "translation": "Against your people they devise a secret plan, and they take counsel together against your treasured ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0f1f7e063051ad90feb76dfd4723cf9f5db7eb224d043e9896c1f790091b09fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/83\/1-4.1791193094245.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
+      "surface": "עַֽל",
       "gloss": "Against"
     },
     {
-      "surface": "עמך",
-      "gloss": "your people"
+      "surface": "עַ֭מְּךָ",
+      "gloss": "your people",
+      "sense": "S1"
     },
     {
-      "surface": "יערימו",
-      "gloss": "they plot craftily"
+      "surface": "יַעֲרִ֣ימוּ",
+      "gloss": "they devise",
+      "sense": "S1"
     },
     {
-      "surface": "סוד",
-      "gloss": "a secret counsel"
+      "surface": "ס֑וֹד",
+      "gloss": "a secret plan",
+      "sense": "S1"
     },
     {
-      "surface": "ויתיעצו",
-      "gloss": "and they take counsel"
+      "surface": "וְ֝יִתְיָעֲצ֗וּ",
+      "gloss": "and they take counsel together",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "against"
     },
     {
-      "surface": "צפוניך",
-      "gloss": "your hidden ones",
-      "readings": [
-        "your hidden ones",
-        "your treasured ones"
-      ],
-      "held_by": {
-        "your hidden ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your treasured ones": [
-          "en4"
-        ]
-      }
+      "surface": "צְפוּנֶֽיךָ",
+      "gloss": "your treasured ones",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:14.247145728Z",
+  "model": "glm-5.3"
 }

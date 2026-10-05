@@ -1,32 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "which he cut ⟨את⟩ ⟨with⟩ Abraham, and his oath to Isaac.",
+  "ref": "psalms 105:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "cut a covenant",
+      "rationale": "כרת את אברהם literally 'cut with Abraham' — the covenant idiom of cutting; 'made' loses the knife-picture"
+    },
+    {
+      "kind": "crux",
+      "subject": "את Abraham",
+      "rationale": "את here reads as 'with' rather than a pure object marker; the covenant is cut WITH Abraham, not Abraham himself"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שבועה \/ שבע",
+      "rationale": "oath shares its root with 'seven,' the number of covenant-cursing ceremonies, lost in English"
+    }
+  ],
+  "translation": "which he cut with ⟨את⟩ Abraham, and his oath to Isaac.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "425de16693e9956b8d05e0a516bd35bed3cf425311d59f72393604be92d9a343",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/9-12.1791193293831.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֣ר",
       "gloss": "which"
     },
     {
-      "surface": "כרת",
-      "gloss": "cut"
+      "surface": "כָּ֭רַת",
+      "gloss": "he cut",
+      "readings": [
+        "he cut",
+        "cut"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Abraham"
     },
     {
-      "surface": "אברהם",
-      "gloss": "Abraham"
+      "surface": "אַבְרָהָ֑ם",
+      "gloss": "Abraham",
+      "sense": "S1"
     },
     {
-      "surface": "ושבועתו",
-      "gloss": "and his oath"
+      "surface": "וּשְׁב֖וּעָת֣וֹ",
+      "gloss": "and his oath",
+      "sense": "S1"
     },
     {
-      "surface": "לישחק",
+      "surface": "לְיִשְׂחָֽק",
       "gloss": "to Isaac"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:33.831903907Z",
+  "model": "glm-5.3"
 }

@@ -1,193 +1,133 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "YHWH will shatter his adversaries; against them in the heavens he will thunder. YHWH will judge the ends of the earth, and he will give strength to his king, and will exalt the horn of his Mashiach.",
-  "tokens": [
+  "ref": "1-samuel 2:10",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "crux",
+      "subject": "יחתו",
+      "rationale": "variously parsed as niphal of חתת “be shattered” or of נחת “be pressed down \/ descend”; the shattering sense kept as reading 1."
     },
     {
-      "surface": "יחתו",
-      "gloss": "will shatter",
+      "kind": "wordplay",
+      "subject": "עלו בשמים ירעם",
+      "rationale": "thunder “upon them in the heavens” — the same verb covers thunder and assault; English splits it."
+    },
+    {
+      "kind": "crux",
+      "subject": "קרן משיחו",
+      "rationale": "“horn of His anointed” — a strength symbol; first Tanakh mention of the king and Mashiach together, read from its own seat as Hannah's song."
+    }
+  ],
+  "translation": "YHWH — shattered are those who contend with Him; against them He thunders in the heavens. YHWH will judge the ends of the earth, and He will give strength to His king and raise high the horn of His Mashiach.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e3a954ffc06590b66f4a588387689efcb4f095f37942678ae76b524ab26b21b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/9-12.1791185363090.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָ֞ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵחַ֣תּוּ",
+      "gloss": "shattered",
+      "sense": "S1",
       "readings": [
-        "will shatter",
-        "shall be shattered"
-      ],
-      "held_by": {
-        "will shatter": [
-          "v1",
-          "en4"
-        ],
-        "shall be shattered": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "shattered",
+        "will be broken",
+        "will be pressed down"
+      ]
     },
     {
       "surface": "מריבו",
-      "gloss": "his adversaries",
-      "readings": [
-        "his adversaries",
-        "those who contend with him"
-      ],
-      "held_by": {
-        "his adversaries": [
-          "v1",
-          "en4"
-        ],
-        "those who contend with him": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "those who contend with Him",
+      "sense": "S1"
     },
     {
       "surface": "עלו",
-      "gloss": "against them"
+      "gloss": "against them",
+      "sense": null
     },
     {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
+      "surface": "בַּשָּׁמַ֣יִם",
+      "gloss": "in the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "ירעם",
-      "gloss": "he will thunder",
+      "surface": "יַרְעֵ֔ם",
+      "gloss": "He thunders",
+      "sense": "S1",
       "readings": [
-        "he will thunder",
-        "he thunders"
-      ],
-      "held_by": {
-        "he will thunder": [
-          "v1",
-          "en4"
-        ],
-        "he thunders": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+        "He thunders",
+        "He crashes upon them"
+      ]
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ידין",
+      "surface": "יָדִ֣ין",
       "gloss": "will judge",
-      "readings": [
-        "will judge",
-        "judges"
-      ],
-      "held_by": {
-        "will judge": [
-          "v1",
-          "en4"
-        ],
-        "judges": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "אפסי",
-      "gloss": "the ends of"
+      "surface": "אַפְסֵי",
+      "gloss": "the ends of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָ֑רֶץ",
       "gloss": "the earth",
+      "sense": "S1",
       "readings": [
         "the earth",
         "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "ויתן",
-      "gloss": "and he will give",
-      "readings": [
-        "and he will give",
-        "and he gives"
-      ],
-      "held_by": {
-        "and he will give": [
-          "v1",
-          "en4"
-        ],
-        "and he gives": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וְיִתֶּן",
+      "gloss": "and He will give",
+      "sense": null
     },
     {
-      "surface": "עז",
-      "gloss": "strength"
+      "surface": "עֹ֣ז",
+      "gloss": "strength",
+      "sense": "S1"
     },
     {
-      "surface": "למלכו",
-      "gloss": "to his king"
+      "surface": "לְמַלְכּ֔וֹ",
+      "gloss": "to His king",
+      "sense": "S1"
     },
     {
-      "surface": "וירם",
-      "gloss": "and will exalt",
-      "readings": [
-        "and will exalt",
-        "and exalts"
-      ],
-      "held_by": {
-        "and will exalt": [
-          "v1",
-          "en4"
-        ],
-        "and exalts": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וְיָרֵ֖ם",
+      "gloss": "and raise high",
+      "sense": "S1"
     },
     {
-      "surface": "קרן",
-      "gloss": "the horn of"
+      "surface": "קֶ֥רֶן",
+      "gloss": "the horn of",
+      "sense": "S1"
     },
     {
-      "surface": "משיחו",
-      "gloss": "his Mashiach",
-      "readings": [
-        "his Mashiach",
-        "his anointed one"
-      ],
-      "held_by": {
-        "his Mashiach": [
-          "v3",
-          "en4"
-        ],
-        "his anointed one": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "מְשִׁיחֽוֹ",
+      "gloss": "His Mashiach",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:29:23.091359757Z",
+  "model": "glm-5.3"
 }

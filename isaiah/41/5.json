@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The isles saw and feared; the ends of the earth trembled; they drew near, and came.",
-  "tokens": [
+  "ref": "isaiah 41:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "ראו",
-      "gloss": "saw"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew uses simple imperfect verbs; English needs the passive periphrasis for 'fear' and 'tremble'"
     },
     {
-      "surface": "איים",
-      "gloss": "the isles"
-    },
-    {
-      "surface": "וייראו",
-      "gloss": "and feared"
-    },
-    {
-      "surface": "קצות",
-      "gloss": "the ends of"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יחרדו",
-      "gloss": "trembled"
-    },
-    {
-      "surface": "קרבו",
-      "gloss": "they drew near"
-    },
-    {
-      "surface": "ויאתיון",
-      "gloss": "and came"
+      "kind": "wordplay",
+      "subject": "ראו \/ ייראו",
+      "rationale": "saw\/feared — near-rhyming verbs placed side by side, sound-link lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The coastlands saw and were afraid; the ends of the earth trembled; they drew near and came.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03cfd5d4e87d8419e0962d97b0e081205aea8cf72c4a6b3bfaba58d7b0298fa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/41\/5-8.1791188621150.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָאוּ",
+      "gloss": "saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִיִּים",
+      "gloss": "the coastlands",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִירָאוּ",
+      "gloss": "and were afraid",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְצוֹת",
+      "gloss": "the ends of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחֱרָדוּ",
+      "gloss": "trembled",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָרְבוּ",
+      "gloss": "they drew near",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֶּאֱתָיוּן",
+      "gloss": "and came",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:23:41.151180650Z",
+  "model": "glm-5.3"
 }

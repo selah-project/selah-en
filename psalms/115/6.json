@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Ears are to them and they do not hear; a nose is to them and they do not smell.",
-  "tokens": [
+  "ref": "psalms 115:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
     {
-      "surface": "אזנים",
-      "gloss": "ears"
+      "kind": "idiom",
+      "subject": "להם",
+      "rationale": "lit. 'to them', possession idiom rendered 'they have'"
     },
     {
-      "surface": "להם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "ישמעו",
-      "gloss": "they hear"
-    },
-    {
-      "surface": "אף",
-      "gloss": "a nose"
-    },
-    {
-      "surface": "להם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "יריחון",
-      "gloss": "they smell"
+      "kind": "alternative",
+      "subject": "they do smell",
+      "rationale": "paragogic nun on יריחון lengthens the form; kept plain"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Ears they have, but they do not hear; a nose they have, but they do not smell.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "686d236244539461d7fd7fe1c3f6d3612a2d4d5c925295b66b8a0b4e3ddeee5c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/5-8.1791193401279.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָזְנַיִם",
+      "gloss": "Ears",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָהֶם",
+      "gloss": "they have",
+      "sense": null
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁמָעוּ",
+      "gloss": "they do hear",
+      "sense": null
+    },
+    {
+      "surface": "אַף",
+      "gloss": "a nose",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָהֶם",
+      "gloss": "they have",
+      "sense": null
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרִיחוּן",
+      "gloss": "they do smell",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:21.279836505Z",
+  "model": "glm-5.3"
 }

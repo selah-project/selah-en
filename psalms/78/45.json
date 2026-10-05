@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 45,
-  "translation": "He sent among them a swarm, and it devoured them, and the frog, and it destroyed them.",
-  "tokens": [
+  "ref": "psalms 78:45",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ישלח",
-      "gloss": "He sent"
+      "kind": "crux",
+      "subject": "עָרֹב",
+      "rationale": "'swarms (of insects)' vs tradition's 'divers flies\/mixture'; literally 'mixture'."
     },
     {
-      "surface": "בהם",
-      "gloss": "among them"
-    },
-    {
-      "surface": "ערב",
-      "gloss": "a swarm",
-      "readings": [
-        "a swarm",
-        "swarming flies"
-      ],
-      "held_by": {
-        "a swarm": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "swarming flies": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויאכלם",
-      "gloss": "and it devoured them"
-    },
-    {
-      "surface": "וצפרדע",
-      "gloss": "and the frog"
-    },
-    {
-      "surface": "ותשחיתם",
-      "gloss": "and it destroyed them"
+      "kind": "substitution",
+      "subject": "frog",
+      "rationale": "Hebrew singular צפרדע used collectively for the plague's multitude."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He sent against them swarms, and it devoured them, and frog, and it destroyed them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ee3a436c9ee64e797e4434bf8c93eb6a7c98c544479de471d79e1a4d05ea3a92",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/45-48.1791193053799.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְשַׁלַּ֬ח",
+      "gloss": "He sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּהֶ֣ם",
+      "gloss": "against them",
+      "sense": null
+    },
+    {
+      "surface": "עָ֭רֹב",
+      "gloss": "swarms",
+      "sense": "S1",
+      "readings": [
+        "swarms",
+        "the mosquito-swarm"
+      ]
+    },
+    {
+      "surface": "וַיֹּאכְלֵ֑ם",
+      "gloss": "and it devoured them",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝צְפַרְדֵּ֗עַ",
+      "gloss": "and frog",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתַּשְׁחִיתֵֽם",
+      "gloss": "and it destroyed them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:33.800486077Z",
+  "model": "glm-5.3"
 }

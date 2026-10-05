@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And YHWH said to Moses, “Make for yourself a seraph, and set ⟨את⟩ it upon a pole; and it shall be that everyone who is bitten and sees ⟨את⟩ it, shall live.”",
+  "ref": "numbers 21:8",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "a burning one",
+      "rationale": "שרף singular of verse 6's השרפים: 'burning serpent\/viper'; traditionally rendered 'fiery serpent', with 'seraph' as a divine-being reading the context does not support."
+    },
+    {
+      "kind": "crux",
+      "subject": "signal-pole",
+      "rationale": "נס is a banner or standard raised on a pole, not the pole itself; 'standard' or 'pole' are the standard alternatives."
+    },
+    {
+      "kind": "invitation",
+      "subject": "everyone who is bitten",
+      "rationale": "The remedy is offered to all who look — an open summons of look-and-live."
+    }
+  ],
+  "translation": "And YHWH said to Moses, “Make yourself a burning one and set ⟨את⟩ it on a signal-pole, and it shall be that everyone who is bitten and sees ⟨את⟩ it shall live.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2b73ef114ca9822be68351abc551d8a9db7e0b21f5dc68ea880b9721e8fcaa3d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/21\/5-8.1791183211829.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "And said",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,42 +50,31 @@
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "עשה",
-      "gloss": "make"
+      "gloss": "Make",
+      "sense": "S1"
     },
     {
       "surface": "לך",
-      "gloss": "for yourself"
+      "gloss": "yourself"
     },
     {
       "surface": "שרף",
-      "gloss": "a seraph",
+      "gloss": "a burning one",
       "readings": [
-        "a seraph",
-        "a fiery serpent",
-        "a burning one"
+        "a burning one",
+        "a viper"
       ],
-      "held_by": {
-        "a seraph": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a fiery serpent": [
-          "v1"
-        ],
-        "a burning one": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "ושים",
-      "gloss": "and set"
+      "gloss": "and set",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
@@ -59,25 +82,12 @@
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on"
     },
     {
       "surface": "נס",
-      "gloss": "a pole",
-      "readings": [
-        "a pole",
-        "a standard"
-      ],
-      "held_by": {
-        "a pole": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a standard": [
-          "en4"
-        ]
-      }
+      "gloss": "a signal-pole",
+      "sense": "S1"
     },
     {
       "surface": "והיה",
@@ -85,15 +95,17 @@
     },
     {
       "surface": "כל",
-      "gloss": "everyone"
+      "gloss": "everyone who"
     },
     {
       "surface": "הנשוך",
-      "gloss": "who is bitten"
+      "gloss": "is bitten",
+      "sense": "S1"
     },
     {
       "surface": "וראה",
-      "gloss": "and sees"
+      "gloss": "and sees",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
@@ -101,9 +113,10 @@
     },
     {
       "surface": "וחי",
-      "gloss": "shall live"
+      "gloss": "shall live",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:53:31.842522441Z",
+  "model": "glm-5.3"
 }

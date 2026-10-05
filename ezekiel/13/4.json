@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Like foxes in the ruins have your prophets been, O Israel.",
-  "tokens": [
+  "ref": "ezekiel 13:4",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "כשעלים",
-      "gloss": "Like foxes"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Israel is directly addressed by the suffix 'your prophets'."
     },
     {
-      "surface": "בחרבות",
-      "gloss": "in the ruins"
-    },
-    {
-      "surface": "נביאיך",
-      "gloss": "your prophets"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "O Israel"
-    },
-    {
-      "surface": "היו",
-      "gloss": "they have been",
-      "readings": [
-        "they have been",
-        "they have become"
-      ],
-      "held_by": {
-        "they have been": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they have become": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "חֳרָבוֹת",
+      "rationale": "'deserts' shares the root of 'sword' and 'waste' (חרב), evoking a wasted land."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like jackals in the deserts have your prophets become, O Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "507888c1a77d63099be57504dbba31851c1131a398f3a407bece742f3e3f5006",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/13\/1-4.1791190379193.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּשֻׁעָלִ֖ים",
+      "gloss": "Like jackals",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּחֳרָב֑וֹת",
+      "gloss": "in the deserts",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְבִיאֶ֥יךָ",
+      "gloss": "your prophets",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵ֖ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָיֽוּ",
+      "gloss": "have they become",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:52:59.195812143Z",
+  "model": "glm-5.3"
 }

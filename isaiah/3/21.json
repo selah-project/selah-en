@@ -1,34 +1,45 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "The signet rings and the nose-rings of the nose.",
-  "tokens": [
+  "ref": "isaiah 3:21",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "הטבעות",
-      "gloss": "the signet rings"
-    },
-    {
-      "surface": "ונזמי",
-      "gloss": "and the nose-rings of"
-    },
-    {
-      "surface": "האף",
-      "gloss": "the nose",
-      "readings": [
-        "the nose",
-        "the nostril"
-      ],
-      "held_by": {
-        "the nose": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the nostril": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "the nose",
+      "rationale": "נִזְמֵי האף is a bound phrase 'rings of the nose'; English compresses to 'nose-rings'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "the signet-rings, and the nose-rings of the nostril",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9de14fbc90143383cc26bb9e4f32fcab502d8eb9582ce43505645e994474b8b8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/3\/21-24.1791188046102.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַטַּבָּע֖וֹת",
+      "gloss": "the rings",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִזְמֵ֥י",
+      "gloss": "and the nose-rings of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָֽף",
+      "gloss": "the nose",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:14:06.103055224Z",
+  "model": "glm-5.3"
 }

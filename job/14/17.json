@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Sealed in a bag is my transgression, and you fasten over my iniquity.",
-  "tokens": [
+  "ref": "job 14:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "חתם",
-      "gloss": "Sealed"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew passive participle fronted; English needs a copula"
     },
     {
-      "surface": "בצרור",
-      "gloss": "in a bag"
+      "kind": "crux",
+      "subject": "sealed in a bag",
+      "rationale": "SDBH reads forgiveness imagery; Job's tone may be ironic — sins stored up rather than erased"
     },
     {
-      "surface": "פשעי",
-      "gloss": "my transgression"
-    },
-    {
-      "surface": "ותטפל",
-      "gloss": "and you fasten up",
-      "readings": [
-        "and you fasten up",
-        "and you stitch over"
-      ],
-      "held_by": {
-        "and you fasten up": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you stitch over": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "עוני",
-      "gloss": "my iniquity"
+      "kind": "alternative",
+      "subject": "you have imputed",
+      "rationale": "טפל can mean impute falsely, as in Ps 119:69; the patch\/covering picture is reading 1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sealed in a bag is my revolt, and over my iniquity you have stuck a patch.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed4bfadbc1123a9bab0c870db8ce3d4204ec93808fbc48256ddd5e9f42c6333a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/14\/17-20.1791194286358.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָתֻ֣ם",
+      "gloss": "Sealed",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּצְרוֹר",
+      "gloss": "in a bag",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּשְׁעִי",
+      "gloss": "is my revolt",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתִטְפֹל",
+      "gloss": "and you have stuck a patch",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "עֲוֹנִי",
+      "gloss": "my iniquity",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:06.359313482Z",
+  "model": "glm-5.3"
 }

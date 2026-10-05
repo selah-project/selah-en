@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Fools, because of the way of their transgression and because of their iniquities, ⟨they⟩ are afflicted.",
-  "tokens": [
+  "ref": "psalms 107:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "אולים",
-      "gloss": "Fools"
+      "kind": "wordplay",
+      "subject": "פִּשְׁעָם \/ עֲוֹנֹתֵיהֶם",
+      "rationale": "paired synonyms for rebellion and guilt, a parallel pair intensified in Hebrew"
     },
     {
-      "surface": "מדרך",
-      "gloss": "because of the way of"
-    },
-    {
-      "surface": "פשעם",
-      "gloss": "their transgression"
-    },
-    {
-      "surface": "ומעונתיהם",
-      "gloss": "and because of their iniquities"
-    },
-    {
-      "surface": "יתענו",
-      "gloss": "are afflicted",
-      "readings": [
-        "are afflicted",
-        "afflicted themselves"
-      ],
-      "held_by": {
-        "are afflicted": [
-          "v2",
-          "v3"
-        ],
-        "afflicted themselves": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "because of",
+      "rationale": "מִן prefixed to both nouns marks cause; English needs a phrase"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Fools, because of the way of their revolt, and because of their iniquities were afflicted",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a95cca317f42caec7d0a42ee597c631c3c8904c924db7bebb8a47488cd1fff4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/17-20.1791193334262.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱ֭וִלִים",
+      "gloss": "Fools",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדֶּ֣רֶךְ",
+      "gloss": "because of the way of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּשְׁעָ֑ם",
+      "gloss": "their revolt",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽמֵעֲוֺנֹתֵיהֶ֗ם",
+      "gloss": "and because of their iniquities",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתְעַנּֽוּ",
+      "gloss": "were afflicted",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:14.263124506Z",
+  "model": "glm-5.3"
 }

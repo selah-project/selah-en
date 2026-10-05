@@ -1,49 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Give thanks to Adonai of lords, for his chesed ⟨endures⟩ forever.",
+  "ref": "psalms 136:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "endures",
+      "rationale": "לעולם carries no verb; the refrain supplies one in English."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "Adonai of lords",
+      "rationale": "Superlative idiom paralleling verse 2 — lord of lords, no article in the Hebrew."
+    }
+  ],
+  "translation": "Give thanks to the Adonai of lords, for His chesed ⟨endures⟩ forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "53e01b3d7c65ac408f02b4d26464b805ffbdb4641827bfafab1a0f9212139b3b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/1-4.1791193564808.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "הודו",
-      "gloss": "Give thanks"
+      "gloss": "Give thanks",
+      "sense": "S1"
     },
     {
       "surface": "לאדני",
-      "gloss": "to Adonai of"
+      "gloss": "to the Adonai of",
+      "sense": "S1"
     },
     {
       "surface": "האדנים",
-      "gloss": "lords"
+      "gloss": "lords",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "לעלם",
-      "gloss": "forever"
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
       "surface": "חסדו",
-      "gloss": "his chesed",
+      "gloss": "His chesed",
       "readings": [
-        "his chesed",
-        "his steadfast love",
-        "his lovingkindness"
+        "His chesed",
+        "His steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v2"
-        ],
-        "his lovingkindness": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:04.809123361Z",
+  "model": "glm-5.3"
 }

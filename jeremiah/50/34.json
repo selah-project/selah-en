@@ -1,87 +1,126 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "Their redeemer is strong — YHWH of hosts is his name — pleading he shall plead ⟨את⟩ their case, in order to give rest to ⟨את⟩ the land and disquiet the inhabitants of Babylon.",
-  "tokens": [
+  "ref": "jeremiah 50:34",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
     {
-      "surface": "גאלם",
-      "gloss": "their redeemer"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks copula in both 'their redeemer is strong' and 'his name is YHWH of hosts'"
     },
     {
-      "surface": "חזק",
-      "gloss": "strong"
+      "kind": "wordplay",
+      "subject": "ריב יריב",
+      "rationale": "Infinitive absolute doubled with the finite verb — 'pleading he will plead' — kept doubled rather than collapsed to 'surely plead'"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "צבאות",
-      "gloss": "of hosts"
-    },
-    {
-      "surface": "שמו",
-      "gloss": "his name"
-    },
-    {
-      "surface": "ריב",
-      "gloss": "pleading"
-    },
-    {
-      "surface": "יריב",
-      "gloss": "he shall plead"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ריבם",
-      "gloss": "their case"
-    },
-    {
-      "surface": "למען",
-      "gloss": "in order to"
-    },
-    {
-      "surface": "הרגיע",
-      "gloss": "give rest to"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והרגיז",
-      "gloss": "and disquiet"
-    },
-    {
-      "surface": "לישבי",
-      "gloss": "the inhabitants of"
-    },
-    {
-      "surface": "בבל",
-      "gloss": "Babylon"
+      "kind": "crux",
+      "subject": "give rest to the earth",
+      "rationale": "הרגיע את הארץ read as calming the (agitated) land; some take 'the earth' of the land of Israel"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Their redeemer is strong — YHWH of hosts is his name; pleading he will plead ⟨את⟩ their case, to give rest to ⟨את⟩ the earth and to terrify the inhabitants of Babylon.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ac46f3a57ccbd1935180d8f06cf98b01a2d9c701432d4a01b74a38ef8c16f844",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/50\/33-36.1791190080035.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גֹּאֲלָם",
+      "gloss": "Their redeemer",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָזָק",
+      "gloss": "is strong",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְבָאוֹת",
+      "gloss": "of hosts",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁמוֹ",
+      "gloss": "is his name",
+      "sense": "S1"
+    },
+    {
+      "surface": "רִיב",
+      "gloss": "pleading",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרִיב",
+      "gloss": "he will plead",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "their case",
+      "sense": null
+    },
+    {
+      "surface": "רִיבָם",
+      "gloss": "their case",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַעַן",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "הַרְגִּיעַ",
+      "gloss": "give rest to",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the earth",
+      "sense": null
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "readings": [
+        "the earth",
+        "the land"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִרְגִּיז",
+      "gloss": "and to terrify",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְיֹשְׁבֵי",
+      "gloss": "the inhabitants of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָבֶל",
+      "gloss": "Babylon",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:48:00.036528759Z",
+  "model": "glm-5.3"
 }

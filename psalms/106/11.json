@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And the waters covered their adversaries; not one of them remained.",
-  "tokens": [
+  "ref": "psalms 106:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויכסו",
-      "gloss": "And covered"
-    },
-    {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "צריהם",
-      "gloss": "their adversaries"
-    },
-    {
-      "surface": "אחד",
-      "gloss": "one"
-    },
-    {
-      "surface": "מהם",
-      "gloss": "of them"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "נותר",
-      "gloss": "remained"
+      "kind": "addition",
+      "subject": "not",
+      "rationale": "English needs 'not' before 'one of them was left'; Hebrew word order places אחד מהם first, the negation at the end"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the waters covered their adversaries — not one of them was left.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d5ad798e670d722be5d30d9a58827b1314e1cdb5eb3a5b460920ef53eab62e42",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/9-12.1791193313622.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְכַסּוּ",
+      "gloss": "and covered",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַיִם",
+      "gloss": "the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרֵיהֶם",
+      "gloss": "their adversaries",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶחָד",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵהֶם",
+      "gloss": "of them",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹתָר",
+      "gloss": "was left",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:53.623471561Z",
+  "model": "glm-5.3"
 }

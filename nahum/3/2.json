@@ -1,72 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "The sound of a whip, and the sound of rattling of ⟨a⟩ wheel, and ⟨the⟩ galloping horse, and ⟨the⟩ bounding chariot.",
+  "ref": "nahum 3:2",
+  "book": "nahum",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "דהר",
+      "rationale": "The galloping horse — this verb occurs only here in the Tanakh."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מרקדה",
+      "rationale": "The chariot 'dances' (piel of רקד, the verb of dancing); the battle noise is painted as a whirling dance, lost in 'bounding'."
+    }
+  ],
+  "translation": "Sound of the whip, and sound of the rattling wheel, and horse galloping, and chariot bounding —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea0f2b07f85bf297a88d35d9be692beedf71a88ef58e86fbdb760d354e9080d0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/nahum\/3\/1-4.1791191806084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/nahum.edn"
+  },
   "tokens": [
     {
       "surface": "קול",
-      "gloss": "the sound of"
+      "gloss": "Sound of"
     },
     {
       "surface": "שוט",
-      "gloss": "of a whip"
+      "gloss": "the whip",
+      "sense": "S1"
     },
     {
       "surface": "וקול",
-      "gloss": "and the sound of"
+      "gloss": "and sound of"
     },
     {
       "surface": "רעש",
-      "gloss": "rattling",
-      "readings": [
-        "rattling",
-        "a rumbling"
-      ],
-      "held_by": {
-        "rattling": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a rumbling": [
-          "en4"
-        ]
-      }
+      "gloss": "the rattling of",
+      "sense": "S1"
     },
     {
       "surface": "אופן",
-      "gloss": "of a wheel"
+      "gloss": "wheel",
+      "sense": "S1"
     },
     {
       "surface": "וסוס",
-      "gloss": "and a horse"
+      "gloss": "and horse",
+      "sense": "S1"
     },
     {
       "surface": "דהר",
-      "gloss": "galloping"
+      "gloss": "galloping",
+      "sense": "S1"
     },
     {
       "surface": "ומרכבה",
-      "gloss": "and a chariot"
+      "gloss": "and chariot",
+      "sense": "S1"
     },
     {
       "surface": "מרקדה",
       "gloss": "bounding",
-      "readings": [
-        "bounding",
-        "dancing"
-      ],
-      "held_by": {
-        "bounding": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "dancing": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:46.085139618Z",
+  "model": "glm-5.3"
 }

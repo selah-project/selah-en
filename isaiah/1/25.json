@@ -1,116 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And I will turn my hand upon you, and I will smelt away your dross as with lye, and I will remove all your tin.",
-  "tokens": [
+  "ref": "isaiah 1:25",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "ואשיבה",
-      "gloss": "and I will turn",
-      "readings": [
-        "and I will turn",
-        "and I will return"
-      ],
-      "held_by": {
-        "and I will turn": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and I will return": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "בר\/בדיל",
+      "rationale": "verse builds a smelting metaphor chain: lye, dross, alloy — the city is ore in the furnace"
     },
     {
-      "surface": "ידי",
-      "gloss": "my hand"
-    },
-    {
-      "surface": "עליך",
-      "gloss": "upon you",
-      "readings": [
-        "upon you",
-        "against you"
-      ],
-      "held_by": {
-        "upon you": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "against you": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואצרף",
-      "gloss": "and I will smelt",
-      "readings": [
-        "and I will smelt",
-        "and I will refine"
-      ],
-      "held_by": {
-        "and I will smelt": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and I will refine": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כבר",
-      "gloss": "as with lye",
-      "readings": [
-        "as with lye",
-        "as borax"
-      ],
-      "held_by": {
-        "as with lye": [
-          "v2",
-          "v3"
-        ],
-        "as borax": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "סיגיך",
-      "gloss": "your dross"
-    },
-    {
-      "surface": "ואסירה",
-      "gloss": "and I will remove"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "בדיליך",
-      "gloss": "your tin",
-      "readings": [
-        "your tin",
-        "your alloy"
-      ],
-      "held_by": {
-        "your tin": [
-          "v1",
-          "en4"
-        ],
-        "your alloy": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "כבר",
+      "rationale": "בר here is alkali\/flux for refining, not the homograph 'cleanness'; the picture of the flux fits the smelting frame"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I will turn My hand upon you, and I will refine you with lye, your dross, and I will take away all your alloy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d46784b9bf2ab7c7a3dc3ae1578b5da5fb3f4f62a350515a2140ce4791a9a3e3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/1\/25-28.1791188004887.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָשִׁיבָה",
+      "gloss": "and I will turn",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדִי",
+      "gloss": "My hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַיִךְ",
+      "gloss": "upon you",
+      "sense": null
+    },
+    {
+      "surface": "וְאֶצְרֹף",
+      "gloss": "and I will refine",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּבֹּר",
+      "gloss": "with lye",
+      "sense": "S1"
+    },
+    {
+      "surface": "סִיגָיִךְ",
+      "gloss": "your dross",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָסִירָה",
+      "gloss": "and I will take away",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "בְּדִילָיִךְ",
+      "gloss": "your alloy",
+      "sense": "S1",
+      "readings": [
+        "your alloy",
+        "your tin"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T08:13:24.888810484Z",
+  "model": "glm-5.3"
 }

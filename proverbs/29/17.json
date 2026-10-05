@@ -1,60 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Discipline your son, and he will give you rest; and he will give delights ⟨to⟩ your soul.",
-  "tokens": [
+  "ref": "proverbs 29:17",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "יסר",
-      "gloss": "Discipline"
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נפש literally the throat\/life-principle; often rendered 'soul'"
     },
     {
-      "surface": "בנך",
-      "gloss": "your son"
-    },
-    {
-      "surface": "ויניחך",
-      "gloss": "and he will give you rest"
-    },
-    {
-      "surface": "ויתן",
-      "gloss": "and he will give"
-    },
-    {
-      "surface": "מעדנים",
-      "gloss": "delights",
-      "readings": [
-        "delights",
-        "delicacies"
-      ],
-      "held_by": {
-        "delights": [
-          "v2",
-          "v3"
-        ],
-        "delicacies": [
-          "en4",
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "לנפשך",
-      "gloss": "⟨to⟩ your soul",
-      "readings": [
-        "⟨to⟩ your soul",
-        "⟨to⟩ your nefesh"
-      ],
-      "held_by": {
-        "⟨to⟩ your soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "⟨to⟩ your nefesh": [
-          "v2"
-        ]
-      }
+      "kind": "crux",
+      "subject": "delights",
+      "rationale": "מעדנים rare: 'delicacies\/pleasures'; the son gives delight to the parent's nefesh"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Chastise your son, and he will give you rest, and he will give delights to your throat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b64495d6e753fd4ef837334228c0b090fdcf12a8a785a5886525b170abd9c86",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/29\/17-20.1791194064504.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַסֵּ֣ר",
+      "gloss": "Chastise",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּנְ֭ךָ",
+      "gloss": "your son",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִֽינִיחֶ֑ךָ",
+      "gloss": "and he will give you rest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִתֵּ֖ן",
+      "gloss": "and he will give",
+      "sense": null
+    },
+    {
+      "surface": "מַעֲדַנִּ֣ים",
+      "gloss": "delights",
+      "sense": null
+    },
+    {
+      "surface": "לְנַפְשֶֽׁךָ",
+      "gloss": "to your throat",
+      "sense": "S1",
+      "readings": [
+        "to your throat",
+        "to your self",
+        "to your life"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:24.504876156Z",
+  "model": "glm-5.3"
 }

@@ -1,108 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And I taught Ephraim to walk, taking them by his arms; and they did not know that I healed them.",
+  "ref": "hosea 11:3",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "תִּרְגַּלְתִּי",
+      "rationale": "This piel 'taught to walk' occurs only here in the Tanakh"
+    },
+    {
+      "kind": "crux",
+      "subject": "his arms",
+      "rationale": "Suffix mismatch: object 'them' (plural) but 'his arms' (singular); many read 'my arms' or 'their arms' — the ketiv's 'his' is kept bare"
+    },
+    {
+      "kind": "crux",
+      "subject": "קָחָם",
+      "rationale": "Form is irregular (a short qal 'taking them'); rendered as perfect 'I took them'"
+    }
+  ],
+  "translation": "And I taught Ephraim to walk — I took them upon his arms — and they did not know that I healed them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "28ec2e77dd974e0f663bfd804fe71ba98a83af5fa9c43e134ecad9ebd9100f76",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/11\/1-4.1791191363320.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "ואנכי",
-      "gloss": "And I"
+      "surface": "וְאָנֹכִי",
+      "gloss": "And I",
+      "sense": null
     },
     {
-      "surface": "תרגלתי",
+      "surface": "תִּרְגַּלְתִּי",
       "gloss": "I taught to walk",
-      "readings": [
-        "I taught to walk",
-        "I caused to walk"
-      ],
-      "held_by": {
-        "I taught to walk": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I caused to walk": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "לאפרים",
-      "gloss": "Ephraim"
+      "surface": "לְאֶפְרַיִם",
+      "gloss": "Ephraim",
+      "sense": "S1"
     },
     {
-      "surface": "קחם",
-      "gloss": "taking them",
-      "readings": [
-        "taking them",
-        "I took them"
-      ],
-      "held_by": {
-        "taking them": [
-          "v1",
-          "en4"
-        ],
-        "I took them": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "קָחָם",
+      "gloss": "I took them",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "by",
-      "readings": [
-        "by",
-        "on"
-      ],
-      "held_by": {
-        "by": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "on": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
     },
     {
-      "surface": "זרועתיו",
+      "surface": "זְרֹועֹתָיו",
       "gloss": "his arms",
-      "readings": [
-        "his arms",
-        "their arms"
-      ],
-      "held_by": {
-        "his arms": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "their arms": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעו",
+      "surface": "יָדְעוּ",
       "gloss": "they knew"
     },
     {
-      "surface": "כי",
-      "gloss": "that"
+      "surface": "כִּי",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "רפאתים",
-      "gloss": "I healed them"
+      "surface": "רְפָאתִים",
+      "gloss": "I healed them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:23.321255163Z",
+  "model": "glm-5.3"
 }

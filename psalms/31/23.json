@@ -1,70 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "And I said in my haste, 'I am cut off from before your eyes'; nevertheless, you heard the voice of my supplications when I cried to you.",
+  "ref": "psalms 31:23",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "נִגְרַזְתִּי",
+      "rationale": "גָּרַז 'cut off' occurs only here in the Tanakh"
+    },
+    {
+      "kind": "addition",
+      "subject": "quotation marks",
+      "rationale": "English marks the quoted inner speech the Hebrew leaves unmarked"
+    }
+  ],
+  "translation": "But I said in my alarm, “I am cut off from before your eyes”; nevertheless you heard the voice of my pleas when I cried to you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e7eeb19494735c7574c3178eb5f19fbc70ba885f01516e9c246eae2af931eb3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/31\/21-24.1791192592551.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואני",
-      "gloss": "And I"
+      "surface": "וַאֲנִי",
+      "gloss": "But I"
     },
     {
-      "surface": "אמרתי",
-      "gloss": "said"
+      "surface": "אָמַרְתִּי",
+      "gloss": "I said",
+      "sense": "S1"
     },
     {
-      "surface": "בחפזי",
-      "gloss": "in my haste"
+      "surface": "בְּחָפְזִי",
+      "gloss": "in my alarm",
+      "sense": "S1"
     },
     {
-      "surface": "נגרזתי",
-      "gloss": "I am cut off"
+      "surface": "נִגְרַזְתִּי",
+      "gloss": "I am cut off",
+      "sense": "S1"
     },
     {
-      "surface": "מנגד",
-      "gloss": "from before"
+      "surface": "מִנֶּגֶד",
+      "gloss": "from before",
+      "sense": "S1"
     },
     {
-      "surface": "עיניך",
-      "gloss": "your eyes"
+      "surface": "עֵינֶיךָ",
+      "gloss": "your eyes",
+      "sense": "S1"
     },
     {
-      "surface": "אכן",
+      "surface": "אָכֵן",
       "gloss": "nevertheless",
-      "readings": [
-        "nevertheless",
-        "yet"
-      ],
-      "held_by": {
-        "nevertheless": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "yet": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שמעת",
+      "surface": "שָׁמַעְתָּ",
       "gloss": "you heard"
     },
     {
-      "surface": "קול",
+      "surface": "קוֹל",
       "gloss": "the voice of"
     },
     {
-      "surface": "תחנוני",
-      "gloss": "of my supplications"
+      "surface": "תַּחֲנוּנַי",
+      "gloss": "my pleas",
+      "sense": "S1"
     },
     {
-      "surface": "בשועי",
-      "gloss": "when I cried"
+      "surface": "בְּשַׁוְּעִי",
+      "gloss": "when I cried",
+      "sense": "S1"
     },
     {
-      "surface": "אליך",
+      "surface": "אֵלֶיךָ",
       "gloss": "to you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:52.552781005Z",
+  "model": "glm-5.3"
 }

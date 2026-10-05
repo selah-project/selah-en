@@ -1,18 +1,47 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And the king did not listen to the people, for the turn of affairs was from Elohim, so that YHWH might establish ⟨את⟩ his word, which he spoke by the hand of Ahijah the Shilonite to Jeroboam son of Nebat.",
+  "ref": "2-chronicles 10:15",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "נסבה",
+      "rationale": "'turn of affairs' occurs only here in the Tanakh; 1 Kgs 12:15 has the more common סבה."
+    },
+    {
+      "kind": "crux",
+      "subject": "from the Elohim",
+      "rationale": "Chronicles names האלהים where Kings reads YHWH — the divine instigation of the schism stated flatly."
+    }
+  ],
+  "translation": "And the king did not listen to the people, for the turn of affairs was from the Elohim, so that YHWH might establish ⟨את⟩ his word that he spoke by the hand of Ahijah the Shilonite to Jeroboam son of Nebat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c38c615b26cef8df7ec5745a983d0e722c31a2fe4fb30133d8a02654fef17b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/10\/13-16.1791196663264.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "שמע",
-      "gloss": "did listen"
+      "gloss": "listened"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -20,7 +49,8 @@
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -28,11 +58,12 @@
     },
     {
       "surface": "היתה",
-      "gloss": "was"
+      "gloss": "came about"
     },
     {
       "surface": "נסבה",
-      "gloss": "the turn of affairs"
+      "gloss": "the turn of affairs",
+      "sense": "S1"
     },
     {
       "surface": "מעם",
@@ -40,67 +71,45 @@
     },
     {
       "surface": "האלהים",
-      "gloss": "Elohim"
+      "gloss": "the Elohim",
+      "sense": "S1"
     },
     {
       "surface": "למען",
-      "gloss": "so that",
-      "readings": [
-        "so that",
-        "in order that"
-      ],
-      "held_by": {
-        "so that": [
-          "v2",
-          "v3"
-        ],
-        "in order that": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "so that"
     },
     {
       "surface": "הקים",
-      "gloss": "might establish"
+      "gloss": "he might establish"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "his word"
     },
     {
       "surface": "דברו",
-      "gloss": "his word"
+      "gloss": "his word",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which",
-      "readings": [
-        "which",
-        "that"
-      ],
-      "held_by": {
-        "which": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "that": [
-          "en4"
-        ]
-      }
+      "gloss": "that"
     },
     {
       "surface": "דבר",
-      "gloss": "he spoke"
+      "gloss": "he spoke",
+      "sense": "S1"
     },
     {
       "surface": "ביד",
-      "gloss": "by the hand of"
+      "gloss": "by the hand of",
+      "sense": "S1"
     },
     {
       "surface": "אחיהו",
@@ -108,7 +117,8 @@
     },
     {
       "surface": "השלוני",
-      "gloss": "the Shilonite"
+      "gloss": "the Shilonite",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -116,17 +126,20 @@
     },
     {
       "surface": "ירבעם",
-      "gloss": "Jeroboam"
+      "gloss": "Jeroboam",
+      "sense": "S1"
     },
     {
       "surface": "בן",
-      "gloss": "son of"
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
       "surface": "נבט",
-      "gloss": "Nebat"
+      "gloss": "Nebat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:37:43.265827764Z",
+  "model": "glm-5.3"
 }

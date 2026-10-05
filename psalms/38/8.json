@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For my loins are filled with burning, and there is no soundness in my flesh.",
-  "tokens": [
+  "ref": "psalms 38:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "burning",
+      "rationale": "נִקְלֶה is literally “scorched\/roasted” — the same word as parched grain — here the burning of fever in the body."
     },
     {
-      "surface": "כסלי",
-      "gloss": "my loins",
-      "readings": [
-        "my loins",
-        "my folly"
-      ],
-      "held_by": {
-        "my loins": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my folly": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מלאו",
-      "gloss": "are filled"
-    },
-    {
-      "surface": "נקלה",
-      "gloss": "with burning"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is no"
-    },
-    {
-      "surface": "מתם",
-      "gloss": "soundness"
-    },
-    {
-      "surface": "בבשרי",
-      "gloss": "in my flesh"
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "אֵין is a plain negative; English requires an existential verb."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For my loins are filled with burning, and there is no soundness in my flesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b37c3bc55e3ac1b5a10733457f6c5b49f7c685fdb2933b7aa4cece569b00cbe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/5-8.1791192656637.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "כְ֭סָלַי",
+      "gloss": "my loins",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָלְא֣וּ",
+      "gloss": "are filled",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִקְלֶ֑ה",
+      "gloss": "with burning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֥ין",
+      "gloss": "and there is not",
+      "sense": null
+    },
+    {
+      "surface": "מְתֹ֝֗ם",
+      "gloss": "soundness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּבְשָׂרִֽי",
+      "gloss": "in my flesh",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:56.638915052Z",
+  "model": "glm-5.3"
 }

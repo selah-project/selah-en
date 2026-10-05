@@ -1,60 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Seizes by the heel a snare, and a noose is strong against him.",
-  "tokens": [
+  "ref": "job 18:9",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "יאחז",
-      "gloss": "seizes"
+      "kind": "crux",
+      "subject": "צמים",
+      "rationale": "Exact meaning unsure: a woven mesh or noose that entangles the feet (also Job 5:5)."
     },
     {
-      "surface": "בעקב",
-      "gloss": "by the heel"
-    },
-    {
-      "surface": "פח",
-      "gloss": "a snare",
-      "readings": [
-        "a snare",
-        "a trap-net"
-      ],
-      "held_by": {
-        "a snare": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a trap-net": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יחזק",
-      "gloss": "is strong"
-    },
-    {
-      "surface": "עליו",
-      "gloss": "against him"
-    },
-    {
-      "surface": "צמים",
-      "gloss": "a noose",
-      "readings": [
-        "a noose",
-        "destruction"
-      ],
-      "held_by": {
-        "a noose": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "destruction": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "יאחז\/יחזק",
+      "rationale": "Two 'seize\/hold' verbs frame the line's parallelism."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A trap takes hold of ⟨the⟩ heel; a snare fastens upon him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b6a2a631fe82e1c2bc372d78c2c9e2deb7699fe4406c939a4631ed334cb2004",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/18\/9-12.1791194323535.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹאחֵ֣ז",
+      "gloss": "takes hold of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעָקֵ֣ב",
+      "gloss": "⟨the⟩ heel",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּ֑ח",
+      "gloss": "a trap",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַחֲזֵ֖ק",
+      "gloss": "fastens",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלָ֣יו",
+      "gloss": "upon him",
+      "sense": null
+    },
+    {
+      "surface": "צַמִּֽים",
+      "gloss": "a snare",
+      "sense": "S1",
+      "readings": [
+        "a snare",
+        "a mesh"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:43.535879379Z",
+  "model": "glm-5.3"
 }

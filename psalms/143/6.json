@@ -1,92 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "I spread out my hands to you; my soul is like a weary land to you. Selah.",
+  "ref": "psalms 143:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 143,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפשי is the life-principle\/self, not 'soul' in the Greek sense; kept as nefesh with reading 2 'life'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "לְךָ",
+      "rationale": "Could be 'to you' (directed at YHWH) rather than 'before you'; the land-thirst is toward him."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨and parched⟩",
+      "rationale": "עָיֵף of land means dry and famished for water; supplied the picture's other half."
+    },
+    {
+      "kind": "elision",
+      "subject": "סֶלָה",
+      "rationale": "Musical pause marker, transliterated as Selah; no English equivalent."
+    }
+  ],
+  "translation": "I spread out my two hands to you; my nefesh is like land weary ⟨and parched⟩ before you. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "200377d7ffd6bfb33fdeb771e206b1f91656b22629745bc9e3f59df7197a53fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/143\/5-8.1791193631170.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פרשתי",
-      "gloss": "I spread out"
+      "surface": "פֵּרַשְׂתִּי",
+      "gloss": "I spread out",
+      "sense": "S1"
     },
     {
-      "surface": "ידי",
-      "gloss": "my hands"
+      "surface": "יָדַי",
+      "gloss": "my two hands",
+      "sense": "S1"
     },
     {
-      "surface": "אליך",
-      "gloss": "to you"
+      "surface": "אֵלֶיךָ",
+      "gloss": "to you",
+      "sense": null
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
       "readings": [
-        "my soul",
         "my nefesh",
         "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כארץ",
-      "gloss": "like a land"
+      "surface": "כְּאֶרֶץ",
+      "gloss": "like land",
+      "sense": "S1"
     },
     {
-      "surface": "עיפה",
+      "surface": "עֲיֵפָה",
       "gloss": "weary",
-      "readings": [
-        "weary",
-        "parched"
-      ],
-      "held_by": {
-        "weary": [
-          "v2",
-          "en4"
-        ],
-        "parched": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "to you",
-      "readings": [
-        "to you",
-        "for you",
-        "before you"
-      ],
-      "held_by": {
-        "to you": [
-          "en4"
-        ],
-        "for you": [
-          "v1",
-          "v3"
-        ],
-        "before you": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "surface": "לְךָ",
+      "gloss": "before you",
+      "sense": null
     },
     {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:11.171451845Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "Then they cried out to YHWH in their distress, and from their distresses he brought them out.",
-  "tokens": [
+  "ref": "psalms 107:28",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ויצעקו",
-      "gloss": "Then they cried out"
+      "kind": "wordplay",
+      "subject": "בצר \/ מצוקות",
+      "rationale": "the narrowness root צר sounds through both 'distress' and 'troubles' — distress as a cramped space"
     },
     {
-      "surface": "אל",
+      "kind": "crux",
+      "subject": "he brings them out",
+      "rationale": "the refrain of vv. 6, 13, 19 varies its final verb (rescues \/ saves); here 'brings them out', exodus language"
+    }
+  ],
+  "translation": "And they cried out to YHWH in their distress, and out of their troubles he brings them out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "840fe789ced46550b78ceb42735d827e6e38d64d288c51e809509d15ac33dd70",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/25-28.1791193347237.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּצְעֲק֣וּ",
+      "gloss": "and they cried out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהֹוָ֭ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "בצר",
-      "gloss": "in their distress",
-      "readings": [
-        "in their distress",
-        "in their straits"
-      ],
-      "held_by": {
-        "in their distress": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in their straits": [
-          "en4"
-        ]
-      }
+      "surface": "בַּצַּ֣ר",
+      "gloss": "in distress",
+      "sense": "S1"
     },
     {
-      "surface": "להם",
+      "surface": "לָהֶ֑ם",
       "gloss": "their"
     },
     {
-      "surface": "וממצוקתיהם",
-      "gloss": "and from their distresses"
+      "surface": "וּמִמְּצֻ֥קֹתֵיהֶ֗ם",
+      "gloss": "and out of their troubles",
+      "sense": "S1"
     },
     {
-      "surface": "יוציאם",
-      "gloss": "he brought them out"
+      "surface": "יוֹצִיאֵֽם",
+      "gloss": "he brings them out",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:27.238540Z",
+  "model": "glm-5.3"
 }

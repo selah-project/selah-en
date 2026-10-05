@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Their soul dies in youth, and their life among the set-apart ones.",
-  "tokens": [
+  "ref": "job 36:14",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "תמת",
-      "gloss": "dies"
+      "kind": "substitution",
+      "subject": "their throat",
+      "rationale": "נפש literally the throat, the life-principle; rendered by its body-part sense, 'life' in reading 2."
     },
     {
-      "surface": "בנער",
-      "gloss": "in youth"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their soul",
-      "readings": [
-        "their soul",
-        "their nefesh",
-        "their life"
-      ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "en4"
-        ],
-        "their nefesh": [
-          "v2",
-          "v3"
-        ],
-        "their life": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וחיתם",
-      "gloss": "and their life"
-    },
-    {
-      "surface": "בקדשים",
-      "gloss": "among the set-apart ones",
-      "readings": [
-        "among the set-apart ones",
-        "among the male shrine-prostitutes"
-      ],
-      "held_by": {
-        "among the set-apart ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "among the male shrine-prostitutes": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "cult prostitutes",
+      "rationale": "הקדשים: male sacred prostitutes of fertility rites — some read 'among the temple consecrated' generally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Their throat dies in youth, their life among the cult prostitutes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "91594e22959235a10446b1808743f0bc58848fc0a50f044144c6294324da29fd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/36\/13-16.1791194571035.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תָּמֹ֣ת",
+      "gloss": "dies",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּנֹּ֣עַר",
+      "gloss": "in youth",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁ֑ם",
+      "gloss": "their throat",
+      "readings": [
+        "their throat",
+        "their life",
+        "their soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝חַיָּתָ֗ם",
+      "gloss": "and their life",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּקְּדֵשִֽׁים",
+      "gloss": "among the cult prostitutes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:51.036424324Z",
+  "model": "glm-5.3"
 }

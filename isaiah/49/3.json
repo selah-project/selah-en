@@ -1,74 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And he said to me, “You are my servant, Israel, in whom I will be glorified.”",
-  "tokens": [
+  "ref": "isaiah 49:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And he said"
+      "kind": "crux",
+      "subject": "my servant, Israel",
+      "rationale": "the address names the servant as Israel (the people) while the speaker of 49:1–4 is an individual — servant as Israel, for Israel, or an ideal figure."
     },
     {
-      "surface": "לי",
+      "kind": "addition",
+      "subject": "my splendor",
+      "rationale": "hithpael of פאר rendered reflexively with its object supplied; Hebrew says literally 'I will splendor myself in you'."
+    },
+    {
+      "kind": "you",
+      "subject": "the servant",
+      "rationale": "YHWH directly addresses the servant as Israel."
+    }
+  ],
+  "translation": "And he said to me, “You are my servant, Israel, in whom I will show my splendor.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "52d5c50a6f111aab41c5739726fcb0f6799010ab6a7189650dbfca2b5d935b1c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/49\/1-4.1791188753597.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "עבדי",
-      "gloss": "my servant"
+      "surface": "עַבְדִּי",
+      "gloss": "my servant",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
+      "surface": "אַתָּה",
       "gloss": "you"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "in whom",
-      "readings": [
-        "in whom",
-        "who",
-        "that"
-      ],
-      "held_by": {
-        "in whom": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "who": [
-          "en4"
-        ],
-        "that": [
-          "en4"
-        ]
-      }
+      "surface": "אֲשֶׁר",
+      "gloss": "in whom"
     },
     {
-      "surface": "בך",
+      "surface": "בְּךָ",
       "gloss": "in you"
     },
     {
-      "surface": "אתפאר",
-      "gloss": "I will be glorified",
-      "readings": [
-        "I will be glorified",
-        "I will beautify myself"
-      ],
-      "held_by": {
-        "I will be glorified": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I will beautify myself": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "אֶתְפָּאֵר",
+      "gloss": "I will show my splendor",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:25:53.599019579Z",
+  "model": "glm-5.3"
 }

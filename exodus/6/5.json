@@ -1,92 +1,108 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And moreover I have heard ⟨את⟩ the groaning of the children of Israel, whom Egypt is enslaving ⟨את⟩ them, and I have remembered ⟨את⟩ my covenant.",
+  "ref": "exodus 6:5",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "Direct-object marker rendered as the ⟨את⟩ glyph, not translated."
+    },
+    {
+      "kind": "you",
+      "subject": "divine speech",
+      "rationale": "YHWH speaks of Israel's suffering; verse 5 continues the address to Moses begun in 6:2."
+    }
+  ],
+  "translation": "And also I have heard the groaning of the sons of Israel, whom Egypt is causing to serve, and I have remembered my covenant.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "75441af181b8475a46cde7c6d631001e8a29f6fbc9d417101f7053ee9763a4af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/6\/5-8.1791197431695.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
   "tokens": [
     {
       "surface": "וגם",
-      "gloss": "And moreover"
+      "gloss": "And also",
+      "sense": "S1"
     },
     {
       "surface": "אני",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "שמעתי",
-      "gloss": "have heard"
+      "gloss": "have heard",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the groaning of the sons of Israel",
+      "sense": null
     },
     {
       "surface": "נאקת",
-      "gloss": "the groaning"
+      "gloss": "the groaning of",
+      "sense": "S1"
     },
     {
       "surface": "בני",
-      "gloss": "of the children of",
-      "readings": [
-        "of the children of",
-        "of the sons of"
-      ],
-      "held_by": {
-        "of the children of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the sons of": [
-          "en4"
-        ]
-      }
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "whom"
+      "gloss": "whom",
+      "sense": null
     },
     {
       "surface": "מצרים",
-      "gloss": "Egypt"
+      "gloss": "Egypt",
+      "sense": "S1"
     },
     {
       "surface": "מעבדים",
-      "gloss": "is enslaving",
-      "readings": [
-        "is enslaving",
-        "are enslaving"
-      ],
-      "held_by": {
-        "is enslaving": [
-          "v2",
-          "v3"
-        ],
-        "are enslaving": [
-          "v1",
-          "en4"
-        ]
-      }
+      "gloss": "is causing to serve",
+      "sense": "S1"
     },
     {
       "surface": "אתם",
-      "gloss": "⟨את⟩ them"
+      "gloss": "⟨את⟩ them",
+      "marks": "the sons of Israel",
+      "sense": null
     },
     {
       "surface": "ואזכר",
-      "gloss": "and I have remembered"
+      "gloss": "and I have remembered",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my covenant",
+      "sense": null
     },
     {
       "surface": "בריתי",
-      "gloss": "my covenant"
+      "gloss": "my covenant",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:50:31.696209919Z",
+  "model": "glm-5.3"
 }

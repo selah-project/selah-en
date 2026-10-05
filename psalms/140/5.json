@@ -1,66 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Keep me, YHWH, from the hands of the wicked; from a man of violence guard me, who have purposed to thrust aside my steps.",
+  "ref": "psalms 140:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 140,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The psalmist addresses YHWH directly with imperatives."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שמר\/נצר",
+      "rationale": "Two near-synonymous 'guard' verbs paired across the verse's halves; English needs two words where Hebrew repeats one idea."
+    }
+  ],
+  "translation": "Guard me, YHWH, from the hands of the wicked, from a man of violence keep me — who plotted to push down my steps.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fdde02f36eca2ba714014a5a89175eb3bf4d376fa908db138522fbd30a3efcd5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/140\/5-8.1791193605011.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שמרני",
-      "gloss": "Keep me"
+      "surface": "שָׁמְרֵ֤נִי",
+      "gloss": "Guard me",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֨ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "מידי",
-      "gloss": "from the hands of"
+      "surface": "מִ֘ידֵ֤י",
+      "gloss": "from the hands of",
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
+      "surface": "רָשָׁ֗ע",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "מאיש",
-      "gloss": "from a man of"
+      "surface": "מֵאִ֣ישׁ",
+      "gloss": "from a man of",
+      "sense": null
     },
     {
-      "surface": "חמסים",
-      "gloss": "violence"
-    },
-    {
-      "surface": "תנצרני",
-      "gloss": "guard me",
+      "surface": "חֲמָסִ֣ים",
+      "gloss": "violence",
+      "sense": "S1",
       "readings": [
-        "guard me",
-        "preserve me"
-      ],
-      "held_by": {
-        "guard me": [
-          "v2",
-          "v3"
-        ],
-        "preserve me": [
-          "v1",
-          "en4"
-        ]
-      }
+        "violence",
+        "violent ones"
+      ]
     },
     {
-      "surface": "אשר",
+      "surface": "תִּנְצְרֵ֑נִי",
+      "gloss": "keep me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
       "gloss": "who"
     },
     {
-      "surface": "חשבו",
-      "gloss": "have purposed"
+      "surface": "חָ֝שְׁב֗וּ",
+      "gloss": "plotted",
+      "sense": "S1"
     },
     {
-      "surface": "לדחות",
-      "gloss": "to thrust aside"
+      "surface": "לִדְח֥וֹת",
+      "gloss": "to push down",
+      "sense": "S1"
     },
     {
-      "surface": "פעמי",
-      "gloss": "my steps"
+      "surface": "פְּעָמָֽי",
+      "gloss": "my steps",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:45.012418433Z",
+  "model": "glm-5.3"
 }

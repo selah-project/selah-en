@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "YHWH will strike you with madness, and with blindness, and with astonishment of heart.",
-  "tokens": [
+  "ref": "deuteronomy 28:28",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "יככה",
-      "gloss": "will strike you"
+      "kind": "crux",
+      "subject": "שִׁגָּעוֹן",
+      "rationale": "Madness — used of Jehu's driving and of prophets; kept literal rather than softened to 'confusion'."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בשגעון",
-      "gloss": "with madness"
-    },
-    {
-      "surface": "ובעורון",
-      "gloss": "and with blindness"
-    },
-    {
-      "surface": "ובתמהון",
-      "gloss": "and with astonishment",
-      "readings": [
-        "and with astonishment",
-        "and with bewilderment"
-      ],
-      "held_by": {
-        "and with astonishment": [
-          "v1",
-          "en4"
-        ],
-        "and with bewilderment": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבב",
-      "gloss": "of heart"
+      "kind": "wordplay",
+      "subject": "שִׁגָּעוֹן\/עִוָּרוֹן\/תִּמָּהוֹן",
+      "rationale": "Triple -וֹן abstraction nouns piled in one line; Zechariah 12:4 echoes all three."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH will strike you with madness and with blindness and with bewilderment of heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b4901b8c22bea94de2e2cd8460bf53c2758f5070845ef792dc7d92a367f470a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/28\/25-28.1791184108572.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַכְּכָ֣ה",
+      "gloss": "will strike",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֔ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשִׁגָּע֖וֹן",
+      "gloss": "with madness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְעִוָּר֑וֹן",
+      "gloss": "and with blindness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְתִמְה֖וֹן",
+      "gloss": "and with bewilderment of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵבָֽב",
+      "gloss": "heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:08:28.573752691Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "My strength and ⟨my⟩ song is Yah, and he has become my salvation.",
-  "tokens": [
+  "ref": "psalms 118:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "עזי",
-      "gloss": "my strength"
+      "kind": "crux",
+      "subject": "זִמְרָה",
+      "rationale": "Rare word (only Ex 15:2, Isa 12:2, here): traditionally 'song\/praise', but the sense database reads 'source of strength'; both readings carried."
     },
     {
-      "surface": "וזמרת",
-      "gloss": "and ⟨my⟩ song"
-    },
-    {
-      "surface": "יה",
-      "gloss": "Yah"
-    },
-    {
-      "surface": "ויהי",
-      "gloss": "and he has become"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "לישועה",
-      "gloss": "for salvation"
+      "kind": "addition",
+      "subject": "and he became my salvation",
+      "rationale": "Hebrew לִי לִישׁוּעָה is 'to me for salvation'; the doubled 'my' folds the two prepositions into one possessive."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My strength and the song of Yah, and he became my salvation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3732e2c937d20f6315e81d1362d469ceb99e68df5a044eda461465dc4cdd256",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/13-16.1791193424178.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָזִּ֣י",
+      "gloss": "My strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְזִמְרָ֣ת",
+      "gloss": "and the song of",
+      "readings": [
+        "and the song of",
+        "and the strength of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֑הּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיְהִי",
+      "gloss": "and he became"
+    },
+    {
+      "surface": "לִ֝֗י",
+      "gloss": "my"
+    },
+    {
+      "surface": "לִֽישׁוּעָֽה",
+      "gloss": "salvation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:44.179523460Z",
+  "model": "glm-5.3"
 }

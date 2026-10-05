@@ -1,32 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And ⟨the⟩ waters shall fail from ⟨the⟩ sea, and ⟨the⟩ river shall be parched and dried up.",
-  "tokens": [
+  "ref": "isaiah 19:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ונשתו",
-      "gloss": "And shall fail"
+      "kind": "crux",
+      "subject": "the sea",
+      "rationale": "הַיָּם here denotes the Nile itself (SDBH), not the Mediterranean; most versions render simply “sea.”"
     },
     {
-      "surface": "מים",
-      "gloss": "waters"
-    },
-    {
-      "surface": "מהים",
-      "gloss": "from ⟨the⟩ sea"
-    },
-    {
-      "surface": "ונהר",
-      "gloss": "and ⟨the⟩ river"
-    },
-    {
-      "surface": "יחרב",
-      "gloss": "shall be parched"
-    },
-    {
-      "surface": "ויבש",
-      "gloss": "and dried up"
+      "kind": "crux",
+      "subject": "and shall dry up",
+      "rationale": "נשׁת is usually “be ashamed\/confounded”; here the drying-of-water sense (as in Isa 41:17 with יבשׁ in parallel)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the waters shall dry up from the sea, and the river shall be parched and dried up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "64efa3b457997858747fef7a3bada1c76101407d5ba9e49d681357f5061044eb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/19\/5-8.1791188277802.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְנִשְׁתוּ",
+      "gloss": "and shall dry up",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַיִם",
+      "gloss": "the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵהַיָּם",
+      "gloss": "from the sea",
+      "readings": [
+        "from the sea",
+        "from the Nile"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָהָר",
+      "gloss": "and the river",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחֱרַב",
+      "gloss": "shall be parched",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָבֵשׁ",
+      "gloss": "and dried up",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:17:57.803020951Z",
+  "model": "glm-5.3"
 }

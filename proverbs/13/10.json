@@ -1,79 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Only by insolence is strife given, and ⟨את⟩ those who take counsel — wisdom.",
-  "tokens": [
+  "ref": "proverbs 13:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "רק",
-      "gloss": "only"
+      "kind": "substitution",
+      "subject": "comes",
+      "rationale": "Hebrew 'gives' — insolence 'gives' conflict as its product; English 'comes' loses the giving picture."
     },
     {
-      "surface": "בזדון",
-      "gloss": "by insolence",
-      "readings": [
-        "by insolence",
-        "by pride"
-      ],
-      "held_by": {
-        "by insolence": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "by pride": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "ואת",
+      "rationale": "here את is the preposition 'with' (H854), not the object marker (H853); the marker is worn per family convention."
     },
     {
-      "surface": "יתן",
-      "gloss": "is given",
-      "readings": [
-        "is given",
-        "gives"
-      ],
-      "held_by": {
-        "is given": [
-          "en4",
-          "v1"
-        ],
-        "gives": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מצה",
-      "gloss": "strife"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "נועצים",
-      "gloss": "those who take counsel",
-      "readings": [
-        "those who take counsel",
-        "the well-advised"
-      ],
-      "held_by": {
-        "those who take counsel": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "the well-advised": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause: 'with the deliberators — wisdom'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Only by insolence comes conflict, but with ⟨את⟩ those who deliberate ⟨is⟩ wisdom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "337d424629c3562a1ff073a77f01e318dc924f8c0c585ec6846a0241f4040fef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/9-12.1791193842786.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רַק",
+      "gloss": "Only",
+      "sense": null
+    },
+    {
+      "surface": "בְּזָדוֹן",
+      "gloss": "by insolence",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּן",
+      "gloss": "comes",
+      "sense": null
+    },
+    {
+      "surface": "מַצָּה",
+      "gloss": "conflict",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and with ⟨את⟩",
+      "marks": "those who deliberate",
+      "sense": null
+    },
+    {
+      "surface": "נוֹעָצִים",
+      "gloss": "those who deliberate",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:42.787305196Z",
+  "model": "glm-5.3"
 }

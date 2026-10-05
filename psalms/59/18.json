@@ -1,68 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "O my strength, to you I will sing praise; for Elohim is my high tower, the Elohim of my chesed.",
+  "ref": "psalms 59:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before משגבי."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עֻזִּי \/ עֻזֶּךָ",
+      "rationale": "v.18 turns v.17's 'your strength' to 'my strength', an inclusio closing the psalm."
+    }
+  ],
+  "translation": "My strength — to you I will sing praise; for Elohim is my high stronghold, the Elohim of my chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "51cd21ef1c9796fb3ad783687c0bfbd403da3adccf6abe10262f9f86c3deca72",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/17-18.1791192829876.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עזי",
-      "gloss": "O my strength"
+      "surface": "עֻזִּ֭י",
+      "gloss": "My strength",
+      "sense": "S1"
     },
     {
-      "surface": "אליך",
-      "gloss": "to you"
+      "surface": "אֵלֶ֣יךָ",
+      "gloss": "to you",
+      "sense": null
     },
     {
-      "surface": "אזמרה",
-      "gloss": "I will sing praise"
+      "surface": "אֲזַמֵּ֑רָה",
+      "gloss": "I will sing praise",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֥ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "משגבי",
-      "gloss": "my high tower",
-      "readings": [
-        "my high tower",
-        "my high place"
-      ],
-      "held_by": {
-        "my high tower": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my high place": [
-          "en4"
-        ]
-      }
+      "surface": "מִשְׂגַּבִּ֗י",
+      "gloss": "is my high stronghold",
+      "sense": "S1"
     },
     {
-      "surface": "אלהי",
-      "gloss": "the Elohim of"
+      "surface": "אֱלֹהֵ֥י",
+      "gloss": "the Elohim of",
+      "sense": "S1"
     },
     {
-      "surface": "חסדי",
+      "surface": "חַסְדִּֽי",
       "gloss": "my chesed",
       "readings": [
         "my chesed",
-        "my lovingkindness"
+        "my steadfast love"
       ],
-      "held_by": {
-        "my chesed": [
-          "v3",
-          "en4"
-        ],
-        "my lovingkindness": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:49.877049694Z",
+  "model": "glm-5.3"
 }

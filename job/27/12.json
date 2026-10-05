@@ -1,55 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Behold, all of you have seen ⟨it⟩ — and why, this vanity, do you become vain?",
-  "tokens": [
+  "ref": "job 27:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "wordplay",
+      "subject": "הֶבֶל תֶּהְבָּלוּ",
+      "rationale": "noun and cognate verb of the same root: 'empty you become-empty'"
     },
     {
-      "surface": "אתם",
-      "gloss": "you"
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "object of 'have seen' supplied — the things just said"
     },
     {
-      "surface": "כלכם",
-      "gloss": "all of you"
-    },
-    {
-      "surface": "חזיתם",
-      "gloss": "have seen"
-    },
-    {
-      "surface": "ולמה",
-      "gloss": "and why"
-    },
-    {
-      "surface": "זה",
-      "gloss": "this"
-    },
-    {
-      "surface": "הבל",
-      "gloss": "vain",
-      "readings": [
-        "vain",
-        "vanity"
-      ],
-      "held_by": {
-        "vain": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "vanity": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תהבלו",
-      "gloss": "you become"
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Job's direct rebuke of his friends"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, all of you have seen ⟨it⟩; why then do you become vain with emptiness?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9e4a8d1032558c398b7fb6e6ec4558d380483794a933475afead38da501449c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/27\/9-12.1791194439134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵן",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "אַתֶּם",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "כֻּלְכֶם",
+      "gloss": "all of you",
+      "sense": null
+    },
+    {
+      "surface": "חֲזִיתֶם",
+      "gloss": "have seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלָמָּה",
+      "gloss": "and why",
+      "sense": null
+    },
+    {
+      "surface": "זֶה",
+      "gloss": "then",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶבֶל",
+      "gloss": "emptiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶּהְבָּלוּ",
+      "gloss": "do you become vain",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:39.135054278Z",
+  "model": "glm-5.3"
 }

@@ -1,44 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "I ⟨am⟩ YHWH your Elohim, who brought you out from the land of Egypt, from the house of slaves.",
-  "tokens": [
+  "ref": "deuteronomy 5:6",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "אנכי",
-      "gloss": "I"
+      "kind": "addition",
+      "subject": "⟨am⟩",
+      "rationale": "Hebrew lacks a copula between אנכי and the Name"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "הוצאתיך",
-      "gloss": "brought you out"
-    },
-    {
-      "surface": "מארץ",
-      "gloss": "from the land"
-    },
-    {
-      "surface": "מצרים",
-      "gloss": "of Egypt"
-    },
-    {
-      "surface": "מבית",
-      "gloss": "from the house"
-    },
-    {
-      "surface": "עבדים",
-      "gloss": "of slaves"
+      "kind": "wordplay",
+      "subject": "עֲבָדִים",
+      "rationale": "'house of servants' rather than the idiom 'house of bondage'; parallel Exodus 20:2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I ⟨am⟩ YHWH your Elohim, who brought you out from the land of Egypt, from the house of servants.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1104204900f7ea5eb4b2aa5c19fde221f9040bebe05383b2ebbcb31fd7d4e5da",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/5\/5-8.1791183685144.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֶיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "הוֹצֵאתִיךָ",
+      "gloss": "brought you out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֶרֶץ",
+      "gloss": "from the land of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְרַיִם",
+      "gloss": "Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּית",
+      "gloss": "from the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲבָדִים",
+      "gloss": "servants",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:01:25.145126491Z",
+  "model": "glm-5.3"
 }

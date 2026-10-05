@@ -1,83 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "My steps have held fast to your paths; not at all have my feet slipped.",
-  "tokens": [
+  "ref": "psalms 17:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "תמך",
-      "gloss": "have held fast",
-      "readings": [
-        "have held fast",
-        "sustain"
-      ],
-      "held_by": {
-        "have held fast": [
-          "v2",
-          "v3"
-        ],
-        "sustain": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "have held fast",
+      "rationale": "תמך is an infinitive absolute standing for a finite verb; YHWH may be the agent — 'you have upheld my steps'."
     },
     {
-      "surface": "אשרי",
-      "gloss": "my steps"
-    },
-    {
-      "surface": "במעגלותיך",
-      "gloss": "to your paths",
-      "readings": [
-        "to your paths",
-        "in your paths",
-        "in your tracks"
-      ],
-      "held_by": {
-        "to your paths": [
-          "v2"
-        ],
-        "in your paths": [
-          "v1",
-          "v3"
-        ],
-        "in your tracks": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בל",
-      "gloss": "not"
-    },
-    {
-      "surface": "נמוטו",
-      "gloss": "have slipped"
-    },
-    {
-      "surface": "פעמי",
-      "gloss": "my feet",
-      "readings": [
-        "my feet",
-        "my footsteps",
-        "my times"
-      ],
-      "held_by": {
-        "my feet": [
-          "v2",
-          "en4"
-        ],
-        "my footsteps": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "my times": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "steps\/footsteps",
+      "rationale": "אשרי and פעמי, two words for the walker's feet, bracket the verse; the journey metaphor is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Have held fast my steps in your tracks; my footsteps have not at all slipped.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d96aef1dad258a41c49ac8c7c9795a3ee4cd790fb2e86f30cca2f16ab155befd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/17\/5-8.1791192447410.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תָּמֹ֣ךְ",
+      "gloss": "have held fast",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֭שֻׁרַי",
+      "gloss": "my steps",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַעְגְּלוֹתֶ֑יךָ",
+      "gloss": "in your tracks",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not at all",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָמ֥וֹטּוּ",
+      "gloss": "have slipped",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְעָמָֽי",
+      "gloss": "my footsteps",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:27.410782964Z",
+  "model": "glm-5.3"
 }

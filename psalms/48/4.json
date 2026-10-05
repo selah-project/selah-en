@@ -1,24 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Elohim is known in her palaces as a refuge.",
-  "tokens": [
+  "ref": "psalms 48:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "crux",
+      "subject": "למשגב",
+      "rationale": "Rendered 'as a high stronghold' (title of God) or 'for a refuge' (the city's protection)"
     },
     {
-      "surface": "בארמנותיה",
-      "gloss": "in her palaces"
-    },
-    {
-      "surface": "נודע",
-      "gloss": "is known"
-    },
-    {
-      "surface": "למשגב",
-      "gloss": "as a refuge"
+      "kind": "addition",
+      "subject": "he",
+      "rationale": "English needs a subject pronoun for the participle-like נודע; Hebrew leaves it implicit"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim — in her citadels he is known as a high stronghold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "461e8f28d7dec7109430967fe8060c7895e6f0ec0e95954091cadc17c8ff87a3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/48\/1-4.1791192738506.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱלֹהִ֥ים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאַרְמְנוֹתֶ֗יהָ",
+      "gloss": "in her citadels",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹדַ֥ע",
+      "gloss": "is known",
+      "sense": null
+    },
+    {
+      "surface": "לְמִשְׂגָּֽב",
+      "gloss": "as a high stronghold",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.507974320Z",
+  "model": "glm-5.3"
 }

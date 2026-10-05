@@ -1,50 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "For you ⟨are⟩ the splendor of their might, and in your favor you exalt our horn.",
+  "ref": "psalms 89:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 89,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is\/are",
+      "rationale": "Hebrew verbless clause; English requires the copula."
+    },
+    {
+      "kind": "substitution",
+      "subject": "horn",
+      "rationale": "קרן is literally an animal's horn; symbol of strength and honor, kept literal here."
+    },
+    {
+      "kind": "crux",
+      "subject": "תרים",
+      "rationale": "Ketiv תרים vs qere תרום, both 'you lift'; the qere smooths the spelling."
+    }
+  ],
+  "translation": "For the splendor of their strength are you, and in your favor our horn is lifted high.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aec5244f7561090a62d777d1b0f573ecc51890963ef6b2c23141aad4b1fbff6d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/89\/17-20.1791193154272.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּֽי",
+      "gloss": "For"
     },
     {
-      "surface": "תפארת",
+      "surface": "תִפְאֶ֣רֶת",
       "gloss": "the splendor",
-      "readings": [
-        "the splendor",
-        "the beauty"
-      ],
-      "held_by": {
-        "the splendor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the beauty": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עזמו",
-      "gloss": "of their might"
+      "surface": "עֻזָּ֣מוֹ",
+      "gloss": "of their strength",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
-      "gloss": "you ⟨are⟩"
+      "surface": "אָ֑תָּה",
+      "gloss": "are you"
     },
     {
-      "surface": "וברצנך",
-      "gloss": "and in your favor"
+      "surface": "וּבִרְצֹנְךָ֗",
+      "gloss": "and in your favor",
+      "sense": "S1"
     },
     {
       "surface": "תרים",
-      "gloss": "you exalt"
+      "gloss": "you lift high",
+      "sense": "S1"
     },
     {
-      "surface": "קרננו",
-      "gloss": "our horn"
+      "surface": "קַרְנֵֽנוּ",
+      "gloss": "our horn",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:39:14.273302212Z",
+  "model": "glm-5.3"
 }

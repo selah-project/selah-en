@@ -1,66 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "My chesed and my fortress, my high tower and my deliverer to me; my shield, and in him I take refuge, who subdues my people under me.",
+  "ref": "psalms 144:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 144,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ומצודתי",
+      "rationale": "מצודה means both 'net' and 'fastness\/stronghold'; most read 'stronghold' here, some 'my cover'"
+    },
+    {
+      "kind": "crux",
+      "subject": "הרודד",
+      "rationale": "from רדד 'to tread down, subdue'; some repoint to הרודה (from רדה, 'who rules') — 'who subdues my people under me' vs 'who rules my people'"
+    }
+  ],
+  "translation": "My chesed and my fortress, my high stronghold and my deliverer, to me a shield, and in him I have taken refuge — the one who treads my people down under me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc4646eaf4cbfad909acc7184a0ea28dab038538642fc5adbc6e5ef893f146ac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/144\/1-4.1791193613047.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "חסדי",
+      "surface": "חַסְדִּ֥י",
       "gloss": "my chesed",
       "readings": [
         "my chesed",
         "my steadfast love"
       ],
-      "held_by": {
-        "my chesed": [
-          "v3",
-          "en4"
-        ],
-        "my steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ומצודתי",
-      "gloss": "and my fortress"
+      "surface": "וּמְצוּדָתִי֮",
+      "gloss": "and my fortress",
+      "sense": null
     },
     {
-      "surface": "משגבי",
-      "gloss": "my high tower"
+      "surface": "מִשְׂגַּבִּ֪י",
+      "gloss": "my high stronghold",
+      "sense": "S1"
     },
     {
-      "surface": "ומפלטי",
-      "gloss": "and my deliverer"
+      "surface": "וּמְפַלְטִ֫י",
+      "gloss": "and my deliverer",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִ֥י",
       "gloss": "to me"
     },
     {
-      "surface": "מגני",
-      "gloss": "my shield"
+      "surface": "מָגִנִּ֭י",
+      "gloss": "a shield",
+      "sense": "S1"
     },
     {
-      "surface": "ובו",
+      "surface": "וּב֣וֹ",
       "gloss": "and in him"
     },
     {
-      "surface": "חסיתי",
-      "gloss": "I take refuge"
+      "surface": "חָסִ֑יתִי",
+      "gloss": "I have taken refuge",
+      "sense": "S1"
     },
     {
-      "surface": "הרודד",
-      "gloss": "who subdues"
+      "surface": "הָרוֹדֵ֖ד",
+      "gloss": "the one who treads down",
+      "sense": "S1"
     },
     {
-      "surface": "עמי",
-      "gloss": "my people"
+      "surface": "עַמִּ֣י",
+      "gloss": "my people",
+      "sense": "S1"
     },
     {
-      "surface": "תחתי",
+      "surface": "תַּחְתָּֽי",
       "gloss": "under me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:53.048080695Z",
+  "model": "glm-5.3"
 }

@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 148,
-  "translation": "My eyes anticipate the night watches, to meditate on your word.",
-  "tokens": [
+  "ref": "psalms 119:148",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "קדמו",
-      "gloss": "anticipate",
-      "readings": [
-        "anticipate",
-        "preceded"
-      ],
-      "held_by": {
-        "anticipate": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "preceded": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "my eyes anticipate",
+      "rationale": "קדמו of the eyes may read 'stay open through' or 'come before' the watches; the literal 'went before' is kept."
     },
     {
-      "surface": "עיני",
-      "gloss": "my eyes"
-    },
-    {
-      "surface": "אשמרות",
-      "gloss": "the night watches"
-    },
-    {
-      "surface": "לשיח",
-      "gloss": "to meditate on"
-    },
-    {
-      "surface": "באמרתך",
-      "gloss": "on your word"
+      "kind": "wordplay",
+      "subject": "קדמתי\/קדמו",
+      "rationale": "The verb קדם opens both 147 and 148, a deliberate repetition linking rising early to waking early."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My eyes went before the night watches, to ponder your saying.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9ddb88e36a39a7aeeedf8f368a91f93e270ad64aa85ff06cfd6b92c6de2cd4af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/145-148.1791193484000.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קִדְּמ֣וּ",
+      "gloss": "went before",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵ֭ינַי",
+      "gloss": "my eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁמֻר֑וֹת",
+      "gloss": "the night watches",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֝שִׂ֗יחַ",
+      "gloss": "to ponder",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאִמְרָתֶֽךָ",
+      "gloss": "your saying",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:44.001815928Z",
+  "model": "glm-5.3"
 }

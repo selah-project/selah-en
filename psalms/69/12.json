@@ -1,47 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And I set my garment sackcloth, and I became to them for a byword.",
+  "ref": "psalms 69:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "I gave my garment sackcloth",
+      "rationale": "Hebrew 'give X for Y' idiom rendered literally: I made sackcloth my garment."
+    },
+    {
+      "kind": "alternative",
+      "subject": "a byword",
+      "rationale": "משל here 'object of mockery \/ proverb-tale told about someone'; 'a proverb' or 'a taunt' also read."
+    }
+  ],
+  "translation": "And I gave my garment sackcloth, and I became to them a byword.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "824de1ca998265d27f25896868d11547693434d2639703329aae7a18cfc4e0aa",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/9-12.1791192925058.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתנה",
-      "gloss": "and I set"
+      "surface": "וָאֶתְּנָה",
+      "gloss": "And I gave"
     },
     {
-      "surface": "לבושי",
-      "gloss": "my garment"
+      "surface": "לְבוּשִׁי",
+      "gloss": "my garment",
+      "sense": "S1"
     },
     {
-      "surface": "שק",
-      "gloss": "sackcloth"
+      "surface": "שָׂק",
+      "gloss": "sackcloth",
+      "sense": "S1"
     },
     {
-      "surface": "ואהי",
+      "surface": "וָאֱהִי",
       "gloss": "and I became"
     },
     {
-      "surface": "להם",
+      "surface": "לָהֶם",
       "gloss": "to them"
     },
     {
-      "surface": "למשל",
-      "gloss": "for a byword",
-      "readings": [
-        "for a byword",
-        "for a proverb"
-      ],
-      "held_by": {
-        "for a byword": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for a proverb": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "לְמָשָׁל",
+      "gloss": "a byword",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:35:25.059637072Z",
+  "model": "glm-5.3"
 }

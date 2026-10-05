@@ -1,59 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Is there not a warfare for mortal man upon earth, and his days like the days of a hireling?",
+  "ref": "job 7:1",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "days",
+      "rationale": "Human life measured against a hireling's fixed term of days."
+    },
+    {
+      "kind": "alternative",
+      "subject": "warfare",
+      "rationale": "צבא elsewhere means warfare\/hosts; here rendered 'service' after the SDBH sense of forced labor."
+    }
+  ],
+  "translation": "Is there not service for a mortal on the earth, and like the days of a hired man are his days?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3fd32c2d4c44cf2d79a960facfbdb6c0f819f4e6078cc13d392dd65cae812367",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/1-4.1791194194146.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הלא",
-      "gloss": "Is there not"
+      "surface": "הֲלֹא",
+      "gloss": "Is there not",
+      "sense": "S1"
     },
     {
-      "surface": "צבא",
-      "gloss": "a warfare",
-      "readings": [
-        "a warfare",
-        "enforced service",
-        "a host"
-      ],
-      "held_by": {
-        "a warfare": [
-          "v2",
-          "en4"
-        ],
-        "enforced service": [
-          "v1",
-          "v3"
-        ],
-        "a host": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "צָבָא",
+      "gloss": "service",
+      "sense": "S1"
     },
     {
-      "surface": "לאנוש",
-      "gloss": "for mortal man"
+      "surface": "לֶאֱנ֫וֹשׁ",
+      "gloss": "for a mortal",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "ארץ",
-      "gloss": "earth"
+      "surface": "אָ֑רֶץ",
+      "gloss": "the earth",
+      "sense": "S1",
+      "readings": [
+        "the earth",
+        "the land"
+      ]
     },
     {
-      "surface": "וכימי",
-      "gloss": "and like the days of"
+      "surface": "וְכִימֵ֖י",
+      "gloss": "and like the days of",
+      "sense": "S1"
     },
     {
-      "surface": "שכיר",
-      "gloss": "a hireling"
+      "surface": "שָׂכִ֣יר",
+      "gloss": "a hired man",
+      "sense": "S1"
     },
     {
-      "surface": "ימיו",
-      "gloss": "his days"
+      "surface": "יָמָֽיו",
+      "gloss": "his days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:34.147072455Z",
+  "model": "glm-5.3"
 }

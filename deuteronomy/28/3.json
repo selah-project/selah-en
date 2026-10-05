@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Blessed ⟨are⟩ you in the city, and blessed ⟨are⟩ you in the field.",
+  "ref": "deuteronomy 28:3",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula; the participle ברוך predicates directly."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ברוך … וברוך",
+      "rationale": "Parallel repetition, city paired with field — total coverage of dwelling places."
+    }
+  ],
+  "translation": "Blessed are you in the city, and blessed are you in the field.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "098fc63e7b4ed18fe8fb4c8fb675eed9d03474be0af749939710303d2fdef33d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/28\/1-4.1791184087064.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "ברוך",
-      "gloss": "blessed"
+      "gloss": "Blessed",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "you"
+      "gloss": "are you",
+      "sense": null
     },
     {
       "surface": "בעיר",
-      "gloss": "in the city"
+      "gloss": "in the city",
+      "sense": "S1"
     },
     {
       "surface": "וברוך",
-      "gloss": "and blessed"
+      "gloss": "and blessed",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "you"
+      "gloss": "are you",
+      "sense": null
     },
     {
       "surface": "בשדה",
-      "gloss": "in the field"
+      "gloss": "in the field",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:08:07.065948316Z",
+  "model": "glm-5.3"
 }

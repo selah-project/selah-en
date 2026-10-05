@@ -1,69 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Look ⟨upon⟩ ⟨the⟩ covenant, for the dark places of the land are full of haunts of violence.",
-  "tokens": [
+  "ref": "psalms 74:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
     {
-      "surface": "הבט",
-      "gloss": "Look ⟨upon⟩"
-    },
-    {
-      "surface": "לברית",
-      "gloss": "⟨the⟩ covenant"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "מלאו",
-      "gloss": "are full of"
-    },
-    {
-      "surface": "מחשכי",
-      "gloss": "the dark places of"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "en4"
-        ],
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נאות",
-      "gloss": "haunts of",
-      "readings": [
-        "haunts of",
-        "pastures of"
-      ],
-      "held_by": {
-        "haunts of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "pastures of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
+      "kind": "alternative",
+      "subject": "the haunts of violence",
+      "rationale": "נְאֹת חָמָס literally dwellings-of violence, read by some as a subjective genitive: places where violent men dwell"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Look to the covenant, for the dark places of the earth are full of the haunts of violence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c6fbf5948989110c1eaa00af7a541b2024011bed2aae51a17a4edfa75d9db3e4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/17-20.1791193005027.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַבֵּט",
+      "gloss": "Look",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַבְּרִית",
+      "gloss": "to the covenant",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "מָלְאוּ",
+      "gloss": "are full of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחֲשַׁכֵּי",
+      "gloss": "the dark places of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "the earth",
+      "sense": "S1",
+      "readings": [
+        "the earth",
+        "the land"
+      ]
+    },
+    {
+      "surface": "נְאֹת",
+      "gloss": "the haunts of",
+      "sense": "S1",
+      "readings": [
+        "the haunts of",
+        "the pastures of"
+      ]
+    },
+    {
+      "surface": "חָמָס",
+      "gloss": "violence",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:45.029017255Z",
+  "model": "glm-5.3"
 }

@@ -1,44 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For He who requires bloods — ⟨את⟩ them He remembers; He does not forget the cry of the afflicted.",
+  "ref": "psalms 9:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the one who requires bloods",
+      "rationale": "דֹרֵשׁ דָּמִים: 'he who avenges blood' vs literal 'seeks\/investigates bloods'; the participle with אוֹתָם taken as 'them' (the afflicted) or as 'it' (the blood)."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew participle has no copula; English supplies 'the one who… remembers'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "זכר\/שכח",
+      "rationale": "remember\/not-forgotten antithesis, a fixed pair partially lost in English tense structure."
+    }
+  ],
+  "translation": "For the one who requires bloods ⟨את⟩ them remembers; he has not forgotten the cry of the afflicted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "38d86098b1145ac5c714757de987be137bd6158af130ec6c735143b67e8c189f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/9\/13-16.1791192403483.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "דרש",
-      "gloss": "He who requires"
+      "surface": "דֹרֵשׁ",
+      "gloss": "the one who requires",
+      "sense": "S1"
     },
     {
-      "surface": "דמים",
-      "gloss": "bloods"
+      "surface": "דָּמִים",
+      "gloss": "bloods",
+      "sense": "S1"
     },
     {
-      "surface": "אותם",
-      "gloss": "⟨את⟩ them"
+      "surface": "אוֹתָם",
+      "gloss": "⟨את⟩ them",
+      "marks": "them — the afflicted",
+      "sense": null
     },
     {
-      "surface": "זכר",
-      "gloss": "He remembers"
+      "surface": "זָכַר",
+      "gloss": "remembers",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "שכח",
-      "gloss": "does forget"
+      "surface": "שָׁכַח",
+      "gloss": "he has forgotten",
+      "sense": "S1"
     },
     {
-      "surface": "צעקת",
-      "gloss": "the cry of"
+      "surface": "צַעֲקַת",
+      "gloss": "the cry of",
+      "sense": "S1"
     },
     {
       "surface": "עניים",
-      "gloss": "the afflicted"
+      "gloss": "the afflicted",
+      "readings": [
+        "the afflicted",
+        "the humble"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:43.483957964Z",
+  "model": "glm-5.3"
 }

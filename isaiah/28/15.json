@@ -1,125 +1,151 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Because you have said, “We have cut a covenant ⟨את⟩ Death, and with Sheol we have made a vision — the overflowing scourge, when it passes, it will not come to us, because we have made falsehood our refuge, and in lies we have hidden ourselves.”",
+  "ref": "isaiah 28:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "שיט \/ שוט",
+      "rationale": "Ketiv 'שיט' (oar?) vs qere 'שוט' (whip\/scourge); rendered by the qere, 'scourge'."
+    },
+    {
+      "kind": "crux",
+      "subject": "עבר \/ יעבר",
+      "rationale": "Ketiv perfect 'it passed' vs qere 'when it passes'; context favors the qere."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כרתנו ברית",
+      "rationale": "Hebrew 'cut a covenant' keeps its literal cutting picture; English idiom 'make a covenant' loses it."
+    }
+  ],
+  "translation": "Because you have said, “We have cut a covenant with ⟨את⟩ Death, and with Sheol we have made a pact — the overwhelming scourge, when it passes, will not come upon us, for we have made falsehood our shelter, and in the lie we have hidden ourselves.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a6b72f25a1f732ff6386565e45785b03bb945ddbb0d02d46adb1b98bcfa9eed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/28\/13-16.1791188405416.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "Because"
+      "gloss": "Because",
+      "sense": null
     },
     {
       "surface": "אמרתם",
-      "gloss": "you have said"
+      "gloss": "you have said",
+      "sense": "S1"
     },
     {
       "surface": "כרתנו",
-      "gloss": "we have cut"
+      "gloss": "we have cut",
+      "sense": "S1"
     },
     {
       "surface": "ברית",
-      "gloss": "a covenant"
+      "gloss": "a covenant",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Death",
+      "sense": null
     },
     {
       "surface": "מות",
-      "gloss": "Death"
+      "gloss": "Death",
+      "sense": "S1"
     },
     {
       "surface": "ועם",
-      "gloss": "and with"
+      "gloss": "and with",
+      "sense": null
     },
     {
       "surface": "שאול",
-      "gloss": "Sheol"
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
       "surface": "עשינו",
-      "gloss": "we have made"
+      "gloss": "we have made",
+      "sense": "S1"
     },
     {
       "surface": "חזה",
-      "gloss": "a vision",
-      "readings": [
-        "a vision",
-        "a pact"
-      ],
-      "held_by": {
-        "a vision": [
-          "v1"
-        ],
-        "a pact": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "a pact",
+      "sense": "S1"
     },
     {
       "surface": "שיט",
-      "gloss": "a scourge",
-      "readings": [
-        "a scourge",
-        "a shoot"
-      ],
-      "held_by": {
-        "a scourge": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a shoot": [
-          "en4"
-        ]
-      }
+      "gloss": "scourge",
+      "sense": "S1"
     },
     {
       "surface": "שוטף",
-      "gloss": "overflowing"
+      "gloss": "the overwhelming",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "when"
+      "gloss": "when",
+      "sense": null
     },
     {
       "surface": "עבר",
-      "gloss": "it passes"
+      "gloss": "it passes",
+      "sense": null
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יבואנו",
-      "gloss": "it will come to us"
+      "gloss": "will it come upon us",
+      "sense": null
     },
     {
       "surface": "כי",
-      "gloss": "because"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "שמנו",
-      "gloss": "we have made"
+      "gloss": "we have made",
+      "sense": "S1"
     },
     {
       "surface": "כזב",
-      "gloss": "falsehood"
+      "gloss": "falsehood",
+      "sense": "S1"
     },
     {
       "surface": "מחסנו",
-      "gloss": "our refuge"
+      "gloss": "our shelter",
+      "sense": "S1"
     },
     {
       "surface": "ובשקר",
-      "gloss": "and in lies"
+      "gloss": "and in the lie",
+      "sense": "S1"
     },
     {
       "surface": "נסתרנו",
-      "gloss": "we have hidden ourselves"
+      "gloss": "we have hidden ourselves",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:20:05.417839529Z",
+  "model": "glm-5.3"
 }

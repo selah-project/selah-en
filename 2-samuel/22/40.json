@@ -1,32 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 40,
-  "translation": "You girded me with strength for the battle; you made those who rise against me bow beneath me.",
+  "ref": "2-samuel 22:40",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "my risers",
+      "rationale": "קָמַי is literally 'those who rise against me'; kept the Hebrew's participle of rising rather than 'adversaries'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תחת",
+      "rationale": "קָמַי (risers) forced תַּחְתֵּנִי (beneath) — the risers are put under; the Hebrew puns rise\/beneath across the verse halves."
+    }
+  ],
+  "translation": "and You belted me with strength for battle; You made my risers bow beneath me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4961704ae5272404f88cdeae11e9e17c513944d7c3cefb33802fb1f6c8d6a80b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/37-40.1791186605330.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "ותזרני",
-      "gloss": "you girded me"
+      "surface": "וַתַּזְרֵ֥נִי",
+      "gloss": "and You belted",
+      "sense": "S1"
     },
     {
-      "surface": "חיל",
-      "gloss": "with strength"
+      "surface": "חַ֖יִל",
+      "gloss": "with strength",
+      "sense": "S1"
     },
     {
-      "surface": "למלחמה",
-      "gloss": "for battle"
+      "surface": "לַמִּלְחָמָ֑ה",
+      "gloss": "for battle",
+      "sense": "S1"
     },
     {
-      "surface": "תכריע",
-      "gloss": "you made bow down"
+      "surface": "תַּכְרִ֥יעַ",
+      "gloss": "You made bow",
+      "sense": "S1"
     },
     {
-      "surface": "קמי",
-      "gloss": "those who rise against me"
+      "surface": "קָמַ֖י",
+      "gloss": "my risers"
     },
     {
-      "surface": "תחתני",
+      "surface": "תַּחְתֵּֽנִי",
       "gloss": "beneath me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:50:05.331641237Z",
+  "model": "glm-5.3"
 }

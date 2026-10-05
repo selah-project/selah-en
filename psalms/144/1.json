@@ -1,58 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Of David. Blessed ⟨is⟩ YHWH, my rock, the one who trains my hands for battle, my fingers for war.",
+  "ref": "psalms 144:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 144,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between ברוך and יהוה"
+    },
+    {
+      "kind": "alternative",
+      "subject": "trains",
+      "rationale": "המלמד piel participle of למד, root sense 'to goad'; 'trains' keeps the causative teaching sense"
+    }
+  ],
+  "translation": "Of David. Blessed is YHWH, my rock, who trains my hands for battle, my fingers for warfare.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc4646eaf4cbfad909acc7184a0ea28dab038538642fc5adbc6e5ef893f146ac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/144\/1-4.1791193613047.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לדוד",
+      "surface": "לְדָוִ֨ד",
       "gloss": "Of David"
     },
     {
-      "surface": "ברוך",
+      "surface": "בָּ֘ר֤וּךְ",
       "gloss": "Blessed"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֨ה",
+      "gloss": "is YHWH"
     },
     {
-      "surface": "צורי",
+      "surface": "צוּרִ֗י",
       "gloss": "my rock"
     },
     {
-      "surface": "המלמד",
-      "gloss": "the one who trains",
-      "readings": [
-        "the one who trains",
-        "who teaches"
-      ],
-      "held_by": {
-        "the one who trains": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "who teaches": [
-          "en4"
-        ]
-      }
+      "surface": "הַֽמְלַמֵּ֣ד",
+      "gloss": "who trains"
     },
     {
-      "surface": "ידי",
+      "surface": "יָדַ֣י",
       "gloss": "my hands"
     },
     {
-      "surface": "לקרב",
+      "surface": "לַקְּרָ֑ב",
       "gloss": "for battle"
     },
     {
-      "surface": "אצבעותי",
+      "surface": "אֶ֝צְבְּעוֹתַ֗י",
       "gloss": "my fingers"
     },
     {
-      "surface": "למלחמה",
-      "gloss": "for war"
+      "surface": "לַמִּלְחָמָֽה",
+      "gloss": "for warfare"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:53.047850200Z",
+  "model": "glm-5.3"
 }

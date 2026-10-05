@@ -1,59 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "I will instruct ⟨את⟩ you by the hand of El; that which is with Shaddai I will not conceal.",
-  "tokens": [
+  "ref": "job 27:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "אורה",
-      "gloss": "I will instruct",
-      "readings": [
-        "I will instruct",
-        "I will show"
-      ],
-      "held_by": {
-        "I will instruct": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I will show": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "by the hand of El",
+      "rationale": "בְּיַד may be 'concerning' — 'I will teach you about El'"
     },
     {
-      "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
-    },
-    {
-      "surface": "ביד",
-      "gloss": "by the hand of"
-    },
-    {
-      "surface": "אל",
-      "gloss": "El"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that which"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "שדי",
-      "gloss": "Shaddai"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אכחד",
-      "gloss": "I will conceal"
+      "kind": "you",
+      "subject": "to the three friends",
+      "rationale": "Job turns to address Eliphaz, Bildad and Zophar directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will instruct ⟨את⟩ you by the hand of El; what is with Shaddai I will not conceal.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9e4a8d1032558c398b7fb6e6ec4558d380483794a933475afead38da501449c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/27\/9-12.1791194439134.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אוֹרֶה",
+      "gloss": "I will instruct",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶתְכֶם",
+      "gloss": "⟨את⟩ you",
+      "marks": "you",
+      "sense": null
+    },
+    {
+      "surface": "בְּיַד",
+      "gloss": "by the hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "El",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "what",
+      "sense": null
+    },
+    {
+      "surface": "עִם",
+      "gloss": "is with",
+      "sense": null
+    },
+    {
+      "surface": "שַׁדַּי",
+      "gloss": "Shaddai",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲכַחֵד",
+      "gloss": "I will conceal",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:39.134910182Z",
+  "model": "glm-5.3"
 }

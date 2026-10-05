@@ -1,72 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "How shall we sing ⟨את⟩ the song of YHWH upon a land of foreignness?",
-  "tokens": [
+  "ref": "psalms 137:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 137,
+  "notes": [
     {
-      "surface": "איך",
-      "gloss": "How"
+      "kind": "addition",
+      "subject": "⟨land⟩",
+      "rationale": "נכר is abstract 'foreignness'; 'land' supplied to complete the phrase"
     },
     {
-      "surface": "נשיר",
-      "gloss": "shall we sing"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "שיר",
-      "gloss": "the song"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "אדמת",
-      "gloss": "the soil of",
-      "readings": [
-        "the soil of",
-        "the land of"
-      ],
-      "held_by": {
-        "the soil of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נכר",
-      "gloss": "foreignness",
-      "readings": [
-        "foreignness",
-        "a foreign land",
-        "a foreigner"
-      ],
-      "held_by": {
-        "foreignness": [
-          "en4"
-        ],
-        "a foreign land": [
-          "en4"
-        ],
-        "a foreigner": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "invitation",
+      "subject": "the exiles",
+      "rationale": "the rhetorical question draws the reader into the psalm's dilemma"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How shall we sing ⟨את⟩ the song of YHWH on foreign soil?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b84226fc117a7d542d419fa81861db5b7a5355af8467c945e9407daeea54f4c4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/137\/1-4.1791193578504.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵיךְ",
+      "gloss": "how",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָשִׁיר",
+      "gloss": "shall we sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the song of YHWH",
+      "sense": null
+    },
+    {
+      "surface": "שִׁיר",
+      "gloss": "the song of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "אַדְמַת",
+      "gloss": "soil of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵכָר",
+      "gloss": "a foreign ⟨land⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:18.505332021Z",
+  "model": "glm-5.3"
 }

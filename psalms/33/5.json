@@ -1,75 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Loving righteousness and justice — the earth is full of the chesed of YHWH.",
+  "ref": "psalms 33:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; steadfast love is a lawful second reading"
+    },
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "construct pair חסד יהוה requires the English article"
+    }
+  ],
+  "translation": "Loving righteousness and justice — the chesed of YHWH fills the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c939cb8d72d645126adf7007017a018b8a6e6523744bafb558def12de9bfdc4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/5-8.1791192585627.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אהב",
-      "gloss": "loving",
+      "surface": "אֹ֭הֵב",
+      "gloss": "Loving",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְדָקָ֣ה",
+      "gloss": "righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִשְׁפָּ֑ט",
+      "gloss": "and justice",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶ֥סֶד",
+      "gloss": "the chesed",
       "readings": [
-        "loving",
-        "⟨He⟩ loves"
+        "the chesed",
+        "the steadfast love"
       ],
-      "held_by": {
-        "loving": [
-          "v2",
-          "en4"
-        ],
-        "⟨He⟩ loves": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "צדקה",
-      "gloss": "righteousness"
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "of YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ומשפט",
-      "gloss": "and justice"
+      "surface": "מָלְאָ֥ה",
+      "gloss": "fills",
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
-      "gloss": "chesed",
-      "readings": [
-        "chesed",
-        "lovingkindness"
-      ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "lovingkindness": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
-    },
-    {
-      "surface": "מלאה",
-      "gloss": "is full"
-    },
-    {
-      "surface": "הארץ",
+      "surface": "הָאָֽרֶץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:45.627964092Z",
+  "model": "glm-5.3"
 }

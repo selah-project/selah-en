@@ -1,50 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Paras, Cush, and Put ⟨are⟩ with ⟨את⟩ them; all of them ⟨bear⟩ shield and helmet:",
-  "tokens": [
+  "ref": "ezekiel 38:5",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "פרס",
-      "gloss": "Paras",
-      "readings": [
-        "Paras",
-        "Persia"
-      ],
-      "held_by": {
-        "Paras": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Persia": [
-          "v1"
-        ]
-      }
+      "kind": "elision",
+      "subject": "verbless list",
+      "rationale": "The verse is a nominal list continuing v.4; English supplies punctuation where Hebrew has none."
     },
     {
-      "surface": "כוש",
-      "gloss": "Cush"
-    },
-    {
-      "surface": "ופוט",
-      "gloss": "and Put"
-    },
-    {
-      "surface": "אתם",
-      "gloss": "⟨את⟩ them"
-    },
-    {
-      "surface": "כלם",
-      "gloss": "all of them"
-    },
-    {
-      "surface": "מגן",
-      "gloss": "⟨bear⟩ shield"
-    },
-    {
-      "surface": "וכובע",
-      "gloss": "and helmet"
+      "kind": "substitution",
+      "subject": "with them",
+      "rationale": "אִתָּם is the preposition אֵת 'with', not the object marker, though the family marker is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Persia, Cush, and Put with ⟨את⟩ them; all of them shield and helmet.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e684974a262761b73cb0daa8fbcd4a66a6355eb18a07cb18d9a9f94d925623c6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/38\/5-8.1791190983252.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פָּרַס",
+      "gloss": "Persia",
+      "sense": "S1"
+    },
+    {
+      "surface": "כּוּשׁ",
+      "gloss": "Cush",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפוּט",
+      "gloss": "and Put",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתָּם",
+      "gloss": "with ⟨את⟩ them",
+      "marks": "Persia, Cush and Put",
+      "sense": null
+    },
+    {
+      "surface": "כֻּלָּם",
+      "gloss": "all of them",
+      "sense": null
+    },
+    {
+      "surface": "מָגֵן",
+      "gloss": "shield",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכוֹבַע",
+      "gloss": "and helmet",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:03:03.252846245Z",
+  "model": "glm-5.3"
 }

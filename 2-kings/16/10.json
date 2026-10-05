@@ -1,26 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And king Ahaz went to meet Tiglath-Pileser king of Assyria ⟨at⟩ Damascus, and he saw ⟨את⟩ the altar that ⟨was⟩ in Damascus; and king Ahaz sent to Urijah the priest ⟨את⟩ the likeness of the altar and ⟨את⟩ its pattern, for all its workmanship.",
+  "ref": "2-kings 16:10",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨in⟩",
+      "rationale": "the first דומשק is a bare apposition of place; English needs the preposition supplied"
+    },
+    {
+      "kind": "substitution",
+      "subject": "workmanship",
+      "rationale": "מעשהו S1 is the skill of making; 'its workmanship' keeps the construct bound to the pattern, not a separate deed"
+    }
+  ],
+  "translation": "And the king Ahaz went to meet Tiglath-Pileser king of Assyria ⟨in⟩ Damascus, and he saw ⟨את⟩ the altar that was in Damascus, and the king Ahaz sent to Uriah the priest ⟨את⟩ the likeness of the altar and ⟨את⟩ its pattern, for all its workmanship.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "20aa5a8faaa145541e796e6c44d244d52209345eb53c8c25c73e8b029284e59f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/16\/10-12.1791198944943.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
       "surface": "וילך",
-      "gloss": "and went"
+      "gloss": "And went",
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אחז",
-      "gloss": "Ahaz"
+      "gloss": "Ahaz",
+      "sense": "S1"
     },
     {
       "surface": "לקראת",
-      "gloss": "to meet"
+      "gloss": "to meet",
+      "sense": "S1"
     },
     {
       "surface": "תגלת",
-      "gloss": "Tiglath-"
+      "gloss": "Tiglath-",
+      "sense": "S1"
     },
     {
       "surface": "פלאסר",
@@ -28,27 +60,32 @@
     },
     {
       "surface": "מלך",
-      "gloss": "king of"
+      "gloss": "king of",
+      "sense": "S1"
     },
     {
       "surface": "אשור",
-      "gloss": "Assyria"
+      "gloss": "Assyria",
+      "sense": "S1"
     },
     {
       "surface": "דומשק",
-      "gloss": "⟨at⟩ Damascus"
+      "gloss": "Damascus"
     },
     {
       "surface": "וירא",
-      "gloss": "and saw"
+      "gloss": "and he saw",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the altar"
     },
     {
       "surface": "המזבח",
-      "gloss": "the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -56,19 +93,23 @@
     },
     {
       "surface": "בדמשק",
-      "gloss": "in Damascus"
+      "gloss": "in Damascus",
+      "sense": "S1"
     },
     {
       "surface": "וישלח",
-      "gloss": "and sent"
+      "gloss": "and sent",
+      "sense": "S1"
     },
     {
       "surface": "המלך",
-      "gloss": "king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אחז",
-      "gloss": "Ahaz"
+      "gloss": "Ahaz",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -76,31 +117,38 @@
     },
     {
       "surface": "אוריה",
-      "gloss": "Urijah"
+      "gloss": "Uriah",
+      "sense": "S1"
     },
     {
       "surface": "הכהן",
-      "gloss": "the priest"
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the likeness of the altar"
     },
     {
       "surface": "דמות",
-      "gloss": "the likeness of"
+      "gloss": "the likeness of",
+      "sense": "S1"
     },
     {
       "surface": "המזבח",
-      "gloss": "the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "its pattern"
     },
     {
       "surface": "תבניתו",
-      "gloss": "its pattern"
+      "gloss": "its pattern",
+      "sense": "S1"
     },
     {
       "surface": "לכל",
@@ -108,9 +156,10 @@
     },
     {
       "surface": "מעשהו",
-      "gloss": "its workmanship"
+      "gloss": "its workmanship",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:15:44.944471513Z",
+  "model": "glm-5.3"
 }

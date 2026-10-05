@@ -1,69 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Happy is the one who acts wisely toward the poor; YHWH will deliver him in the day of evil.",
+  "ref": "psalms 41:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אַשְׁרֵי \/ מַשְׂכִּיל",
+      "rationale": "opening beats the psalm's blessing-motif; the happy-interjection frames the whole psalm"
+    },
+    {
+      "kind": "you",
+      "subject": "the community",
+      "rationale": "beatitude-form addresses the hearer as a wisdom saying"
+    }
+  ],
+  "translation": "Happy the one who deals wisely with the poor; in the day of trouble YHWH delivers him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1696f47c9fc8033c41b857f02ec3502cefe02f9a954dd503fc04d4bfe53bc05a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/41\/1-4.1791192679236.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשרי",
+      "surface": "אַשְׁרֵי",
       "gloss": "Happy"
     },
     {
-      "surface": "משכיל",
-      "gloss": "acts wisely",
-      "readings": [
-        "acts wisely",
-        "considers"
-      ],
-      "held_by": {
-        "acts wisely": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "considers": [
-          "en4"
-        ]
-      }
+      "surface": "מַשְׂכִּיל",
+      "gloss": "the one who deals wisely",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "toward"
+      "surface": "אֶל",
+      "gloss": "with"
     },
     {
-      "surface": "דל",
+      "surface": "דָּל",
       "gloss": "the poor",
-      "readings": [
-        "the poor",
-        "the weak"
-      ],
-      "held_by": {
-        "the poor": [
-          "v2",
-          "v3"
-        ],
-        "the weak": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ביום",
-      "gloss": "in the day of"
+      "surface": "בְּיוֹם",
+      "gloss": "in the day of",
+      "sense": "S1"
     },
     {
-      "surface": "רעה",
-      "gloss": "evil"
+      "surface": "רָעָה",
+      "gloss": "trouble",
+      "sense": "S1"
     },
     {
-      "surface": "ימלטהו",
-      "gloss": "will deliver him"
+      "surface": "יְמַלְּטֵהוּ",
+      "gloss": "YHWH delivers him",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:19.237791645Z",
+  "model": "glm-5.3"
 }

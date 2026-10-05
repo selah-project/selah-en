@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "In the night my bones are pierced from upon me, and my sinews do not lie down.",
+  "ref": "job 30:17",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "נִקַּר",
+      "rationale": "'bored\/pierced through' vs 'picked clean' — exact sense of this rare piel unsure."
+    },
+    {
+      "kind": "alternative",
+      "subject": "וְעֹרְקַי",
+      "rationale": "Participle 'my gnawers' could be pains personified gnawing like dogs on a bone; kept the picture."
+    },
+    {
+      "kind": "substitution",
+      "subject": "do rest",
+      "rationale": "שׁכב 'lie down' rendered 'rest' — the pains never lie down, i.e. never cease."
+    }
+  ],
+  "translation": "By night my bones are bored through from upon me, and my gnawing pains do not rest.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a714154afd6b475cc77b9f38b7b0accc383ae767c4329f7ff58993430e8c8a1e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/17-20.1791194483265.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "לילה",
-      "gloss": "In the night",
-      "readings": [
-        "In the night",
-        "by adversity"
-      ],
-      "held_by": {
-        "In the night": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "by adversity": [
-          "en4"
-        ]
-      }
+      "surface": "לַיְלָה",
+      "gloss": "By night",
+      "sense": "S1"
     },
     {
-      "surface": "עצמי",
-      "gloss": "my bones"
+      "surface": "עֲצָמַי",
+      "gloss": "my bones",
+      "sense": "S1"
     },
     {
-      "surface": "נקר",
-      "gloss": "are pierced"
+      "surface": "נִקַּר",
+      "gloss": "are bored through",
+      "sense": "S1"
     },
     {
-      "surface": "מעלי",
+      "surface": "מֵעָלַי",
       "gloss": "from upon me"
     },
     {
-      "surface": "וערקי",
-      "gloss": "and my sinews",
-      "readings": [
-        "and my sinews",
-        "and my gnawers"
-      ],
-      "held_by": {
-        "and my sinews": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and my gnawers": [
-          "en4"
-        ]
-      }
+      "surface": "וְעֹרְקַי",
+      "gloss": "and my gnawing pains",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "do not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ישכבון",
-      "gloss": "lie down"
+      "surface": "יִשְׁכָּבוּן",
+      "gloss": "do rest",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:23.266048579Z",
+  "model": "glm-5.3"
 }

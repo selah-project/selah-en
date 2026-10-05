@@ -1,32 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Righteous is the first in his dispute; his neighbor comes and examines him.",
+  "ref": "proverbs 18:17",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יבא \/ ובא",
+      "rationale": "Ketiv 'comes' vs qere 'and comes his fellow'; ketiv kept as ground, qere noted in readings."
+    },
+    {
+      "kind": "alternative",
+      "subject": "examines him",
+      "rationale": "וחקרו: the fellow examines the first man's case, or the first is examined by the neighbor — object of the suffix disputed."
+    }
+  ],
+  "translation": "Righteous is the first in his dispute; comes his fellow, and examines him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c0d0939c000ad6769230c8cf57e770ce9be2e2c507a908f2da91d137b52a025",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/18\/17-20.1791193913961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "צדיק",
-      "gloss": "Righteous"
+      "surface": "צַדִּ֣יק",
+      "gloss": "righteous",
+      "sense": "S1"
     },
     {
-      "surface": "הראשון",
-      "gloss": "the first"
+      "surface": "הָרִאשֹ֣ון",
+      "gloss": "the first",
+      "sense": "S1"
     },
     {
-      "surface": "בריבו",
-      "gloss": "in his dispute"
+      "surface": "בְּרִיבֹ֑ו",
+      "gloss": "in his dispute",
+      "sense": "S1"
     },
     {
       "surface": "יבא",
-      "gloss": "comes"
+      "gloss": "comes",
+      "readings": [
+        "comes",
+        "and comes"
+      ],
+      "sense": null
     },
     {
-      "surface": "רעהו",
-      "gloss": "his neighbor"
+      "surface": "רֵעֵ֗הוּ",
+      "gloss": "his fellow",
+      "sense": "S1"
     },
     {
-      "surface": "וחקרו",
-      "gloss": "and examines him"
+      "surface": "וְחֶקָרֹֽו",
+      "gloss": "and examines him",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:51:53.962080559Z",
+  "model": "glm-5.3"
 }

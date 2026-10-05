@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Take counsel a counsel, and it shall be broken; speak a word, and it shall not stand, for El ⟨is⟩ with us.",
-  "tokens": [
+  "ref": "isaiah 8:10",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "עצו",
-      "gloss": "Take counsel"
+      "kind": "wordplay",
+      "subject": "עֻצוּ עֵצָה \/ דַּבְּרוּ דָבָר",
+      "rationale": "Verb-then-cognate-noun doubling in both halves; kept as 'take counsel, a counsel \/ speak a word'."
     },
     {
-      "surface": "עצה",
-      "gloss": "a counsel"
+      "kind": "addition",
+      "subject": "⟨El is⟩ with us",
+      "rationale": "Hebrew has no verb in the clause; the copula is supplied for English word order."
     },
     {
-      "surface": "ותפר",
-      "gloss": "and it shall be broken"
-    },
-    {
-      "surface": "דברו",
-      "gloss": "speak"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "a word"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "יקום",
-      "gloss": "it shall stand",
-      "readings": [
-        "it shall stand",
-        "it shall rise"
-      ]
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "עמנו",
-      "gloss": "with us"
-    },
-    {
-      "surface": "אל",
-      "gloss": "El"
+      "kind": "crux",
+      "subject": "עִמָּנוּ אֵל",
+      "rationale": "'El is with us' — some hear an allusion to Immanuel of 7:14\/8:8 (עִמָּנוּ אֵל, 8:8)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Take counsel, ⟨a⟩ counsel, and it is frustrated; speak ⟨a⟩ word, and it does not stand, for ⟨El is⟩ with us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6596d87fac5b9b8d4f537bded267bfae1dfc2fcba1cce6d7eed4f2f5a6dcf2d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/8\/9-12.1791188147781.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֻ֥צוּ",
+      "gloss": "Take counsel",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵצָ֖ה",
+      "gloss": "⟨a⟩ counsel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתֻפָ֑ר",
+      "gloss": "and it is frustrated",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּבְּר֤וּ",
+      "gloss": "speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָבָר֙",
+      "gloss": "⟨a⟩ word",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָק֔וּם",
+      "gloss": "it does stand",
+      "sense": null
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "עִמָּ֖נוּ",
+      "gloss": "with us",
+      "sense": null
+    },
+    {
+      "surface": "אֵֽל",
+      "gloss": "El",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:15:47.782442235Z",
+  "model": "glm-5.3"
 }

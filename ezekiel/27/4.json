@@ -1,58 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "In the heart of the seas your borders; your builders have perfected your beauty.",
-  "tokens": [
+  "ref": "ezekiel 27:4",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "בלב",
-      "gloss": "In the heart"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between the locative phrase and the predicate noun."
     },
     {
-      "surface": "ימים",
-      "gloss": "of the seas"
-    },
-    {
-      "surface": "גבוליך",
-      "gloss": "your borders"
-    },
-    {
-      "surface": "בניך",
-      "gloss": "your builders",
-      "readings": [
-        "your builders",
-        "your sons"
-      ],
-      "held_by": {
-        "your builders": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כללו",
-      "gloss": "have perfected",
-      "readings": [
-        "have perfected",
-        "have completed"
-      ],
-      "held_by": {
-        "have perfected": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "have completed": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יפיך",
-      "gloss": "your beauty"
+      "kind": "wordplay",
+      "subject": "כלילת\/כללו",
+      "rationale": "Tyre's claim 'perfect (כלילת) in beauty' is echoed by 'your builders perfected (כללו) your beauty'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the heart of the seas are your borders; your builders have perfected your beauty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "77f28db54849d8533cd29bed40770d1de3401b81fe6242f73fe505bb9224a56a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/27\/1-4.1791190719788.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּלֵ֥ב",
+      "gloss": "in the heart of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַמִּ֖ים",
+      "gloss": "the seas",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּבוּלָ֑יִךְ",
+      "gloss": "your borders",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּנָ֕יִךְ",
+      "gloss": "your builders",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּלְל֖וּ",
+      "gloss": "have perfected",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָפְיֵֽךְ",
+      "gloss": "your beauty",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:58:39.790121749Z",
+  "model": "glm-5.3"
 }

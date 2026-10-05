@@ -1,99 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "By his wind ⟨are made bright⟩ the heavens; his hand pierced the fleeing serpent.",
+  "ref": "job 26:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "שִׁפְרָה",
+      "rationale": "Occurs only here in the Tanakh; a brightness, the sky's clear shining."
+    },
+    {
+      "kind": "crux",
+      "subject": "the fleeing serpent",
+      "rationale": "נָחָשׁ בָּרִיחַ is the crooked\/fleeing serpent of Isaiah 27:1, a cosmic monster; some read בָּרִיחַ as the constellation ('the Barren One', Draco)."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בְּרוּחוֹ \/ בָּרִיחַ",
+      "rationale": "Near-rhyming pair framing the verse: 'in his wind … the fleeing one'."
+    }
+  ],
+  "translation": "By his wind the heavens are made fair; his hand pierced the fleeing serpent.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "251d7b9087180d18859a5fa9cd466e4d319b008798832ce27a2e39f50ca667e3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/26\/13-14.1791194430804.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ברוחו",
+      "surface": "בְּרוּחוֹ",
       "gloss": "By his wind",
       "readings": [
         "By his wind",
-        "By his spirit",
-        "By his breath"
+        "By his breath",
+        "By his spirit"
       ],
-      "held_by": {
-        "By his wind": [
-          "v2",
-          "v3"
-        ],
-        "By his spirit": [
-          "v1",
-          "en4"
-        ],
-        "By his breath": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "שפרה",
-      "gloss": "made bright",
-      "readings": [
-        "made bright",
-        "beautified"
-      ],
-      "held_by": {
-        "made bright": [
-          "v2",
-          "en4"
-        ],
-        "beautified": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "שִׁפְרָה",
+      "gloss": "are made fair",
+      "sense": "S1"
     },
     {
-      "surface": "חללה",
+      "surface": "חֹלֲלָה",
       "gloss": "pierced",
-      "readings": [
-        "pierced",
-        "formed"
-      ],
-      "held_by": {
-        "pierced": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "formed": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ידו",
-      "gloss": "his hand"
+      "surface": "יָדוֹ",
+      "gloss": "his hand",
+      "sense": "S1"
     },
     {
-      "surface": "נחש",
-      "gloss": "the serpent"
+      "surface": "נָחָשׁ",
+      "gloss": "the serpent",
+      "sense": "S1"
     },
     {
-      "surface": "בריח",
-      "gloss": "fleeing",
-      "readings": [
-        "fleeing",
-        "swift"
-      ],
-      "held_by": {
-        "fleeing": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "swift": [
-          "en4"
-        ]
-      }
+      "surface": "בָּרִיחַ",
+      "gloss": "the fleeing ⟨one⟩",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:00:30.804933065Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Show us, YHWH, your chesed, and your salvation you will give to us.",
+  "ref": "psalms 85:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "chesed",
+      "rationale": "marked term transliterated rather than translated, per discipline"
+    }
+  ],
+  "translation": "Show us, YHWH, your chesed, and give your salvation to us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b5282cb3de1a9f01e528855c7f134eeb543faba0d3a671f6d8a8f76785b4db4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/5-8.1791193108084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הראנו",
-      "gloss": "Show us"
+      "surface": "הַרְאֵנוּ",
+      "gloss": "Show us",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "חסדך",
+      "surface": "חַסְדֶּךָ",
       "gloss": "your chesed",
       "readings": [
         "your chesed",
         "your steadfast love"
-      ]
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "וישעך",
-      "gloss": "and your salvation"
+      "surface": "וְיֶשְׁעֲךָ",
+      "gloss": "and your salvation",
+      "sense": "S1"
     },
     {
-      "surface": "תתן",
-      "gloss": "you will give"
+      "surface": "תִּתֵּן",
+      "gloss": "give",
+      "sense": null
     },
     {
-      "surface": "לנו",
-      "gloss": "to us"
+      "surface": "לָּנוּ",
+      "gloss": "to us",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:28.085176549Z",
+  "model": "glm-5.3"
 }

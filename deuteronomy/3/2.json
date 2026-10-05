@@ -1,54 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And YHWH said to me, Do not fear ⟨את⟩ him, for into your hand I have given ⟨את⟩ him and ⟨את⟩ all his people and ⟨את⟩ his land, and you shall do to him as you did to Sihon king of the Amorite, who dwells in Heshbon.",
+  "ref": "deuteronomy 3:2",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Moses",
+      "rationale": "YHWH directly addresses Moses with the prohibition and promise."
+    },
+    {
+      "kind": "substitution",
+      "subject": "into your hand",
+      "rationale": "בידך is literally 'in your hand', the idiom of control; kept the hand-picture."
+    }
+  ],
+  "translation": "And YHWH said to me, “Do not fear him, for into your hand I have given him, and ⟨את⟩ all his people, and ⟨את⟩ his land; and you shall do to him as you did to Sihon king of the Amorite, who dwelt in Heshbon.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e59b991a80700d562f40aab0bb10b0f7e1da8c6a9d967deeb97130cbdc8cf25e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/3\/2-4.1791198004760.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "And said",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלי",
-      "gloss": "to me"
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "אל",
-      "gloss": "not"
+      "gloss": "Do not",
+      "sense": null
     },
     {
       "surface": "תירא",
-      "gloss": "do fear"
+      "gloss": "fear",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "gloss": "⟨את⟩ him",
+      "sense": null,
+      "marks": "him"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "בידך",
       "gloss": "into your hand",
-      "readings": [
-        "into your hand",
-        "in your hand"
-      ]
+      "sense": "S1"
     },
     {
       "surface": "נתתי",
-      "gloss": "I have given"
+      "gloss": "I have given",
+      "sense": null
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "gloss": "⟨את⟩ him",
+      "sense": null,
+      "marks": "him"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "sense": null,
+      "marks": "all his people"
     },
     {
       "surface": "כל",
@@ -56,43 +93,54 @@
     },
     {
       "surface": "עמו",
-      "gloss": "his people"
+      "gloss": "his people",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "sense": null,
+      "marks": "his land"
     },
     {
       "surface": "ארצו",
-      "gloss": "his land"
+      "gloss": "his land",
+      "sense": "S1"
     },
     {
       "surface": "ועשית",
-      "gloss": "and you shall do"
+      "gloss": "and you shall do",
+      "sense": "S1"
     },
     {
       "surface": "לו",
-      "gloss": "to him"
+      "gloss": "to him",
+      "sense": null
     },
     {
       "surface": "כאשר",
-      "gloss": "as"
+      "gloss": "as",
+      "sense": null
     },
     {
       "surface": "עשית",
-      "gloss": "you did"
+      "gloss": "you did",
+      "sense": "S1"
     },
     {
       "surface": "לסיחן",
-      "gloss": "to Sihon"
+      "gloss": "to Sihon",
+      "sense": "S1"
     },
     {
       "surface": "מלך",
-      "gloss": "king of"
+      "gloss": "king of",
+      "sense": "S1"
     },
     {
       "surface": "האמרי",
-      "gloss": "the Amorite"
+      "gloss": "the Amorite",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -100,13 +148,15 @@
     },
     {
       "surface": "יושב",
-      "gloss": "dwelling"
+      "gloss": "dwelt",
+      "sense": "S1"
     },
     {
       "surface": "בחשבון",
-      "gloss": "in Heshbon"
+      "gloss": "in Heshbon",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:00:04.760853380Z",
+  "model": "glm-5.3"
 }

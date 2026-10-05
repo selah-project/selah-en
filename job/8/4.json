@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "If your sons sinned against him, and he sent them away by the hand of their transgression —",
+  "ref": "job 8:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ביד פשעם",
+      "rationale": "'by the hand of their transgression' — their rebellion itself the agent of their destruction; rendered 'into the hand of' to keep the hand-image."
+    },
+    {
+      "kind": "alternative",
+      "subject": "conditional",
+      "rationale": "אם may be concessive: 'if indeed your sons sinned' — Bildad assumes their guilt."
+    }
+  ],
+  "translation": "If your sons sinned against him, then he sent them away into the hand of their transgression.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "956f7c78f2f5dcdd66d9afcd36008db006764f6285fded0be5ddc591636f3498",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/8\/1-4.1791194204461.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "בניך",
-      "gloss": "your sons"
+      "surface": "בָּנֶיךָ",
+      "gloss": "your sons",
+      "sense": "S1"
     },
     {
-      "surface": "חטאו",
-      "gloss": "sinned"
+      "surface": "חָטְאוּ",
+      "gloss": "sinned",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
+      "surface": "לוֹ",
       "gloss": "against him"
     },
     {
-      "surface": "וישלחם",
-      "gloss": "and he sent them away"
+      "surface": "וַיְשַׁלְּחֵם",
+      "gloss": "then he sent them away",
+      "sense": "S1"
     },
     {
-      "surface": "ביד",
-      "gloss": "by the hand of",
-      "readings": [
-        "by the hand of",
-        "into the hand"
-      ],
-      "held_by": {
-        "by the hand of": [
-          "v1",
-          "en4"
-        ],
-        "into the hand": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּיַד",
+      "gloss": "into the hand of",
+      "sense": "S1"
     },
     {
-      "surface": "פשעם",
-      "gloss": "their transgression"
+      "surface": "פִּשְׁעָם",
+      "gloss": "their transgression",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:44.462655487Z",
+  "model": "glm-5.3"
 }

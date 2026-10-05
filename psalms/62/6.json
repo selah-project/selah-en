@@ -1,84 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Only for Elohim is my soul silent; for from him is my hope.",
-  "tokens": [
+  "ref": "psalms 62:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 62,
+  "notes": [
     {
-      "surface": "אך",
-      "gloss": "only"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, the center of desire and feeling — rendered nefesh, not 'soul'."
     },
     {
-      "surface": "לאלהים",
-      "gloss": "for Elohim"
-    },
-    {
-      "surface": "דומי",
-      "gloss": "is silent",
-      "readings": [
-        "is silent",
-        "be silent",
-        "my silence"
-      ],
-      "held_by": {
-        "is silent": [
-          "v2",
-          "v3"
-        ],
-        "be silent": [
-          "en4"
-        ],
-        "my silence": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul",
-      "readings": [
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "ממנו",
-      "gloss": "from him"
-    },
-    {
-      "surface": "תקותי",
-      "gloss": "my hope",
-      "readings": [
-        "my hope",
-        "my cord"
-      ],
-      "held_by": {
-        "my hope": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my cord": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "דומי",
+      "rationale": "Imperative 'be silent!' (rest in Elohim) vs the restful waiting sense 'wait silently for'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Only to Elohim be silent, my nefesh; for from Him is my hope.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "94d9a52990217d29dc39eaccb8743ab010c56cea31ee548bdd06bab89f8938e9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/62\/5-8.1791192864467.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַךְ",
+      "gloss": "Only",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאלֹהִים",
+      "gloss": "to Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "דּוֹמִי",
+      "gloss": "be silent",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "sense": "S1",
+      "readings": [
+        "my nefesh",
+        "my throat",
+        "my life"
+      ]
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "מִמֶּנּוּ",
+      "gloss": "from Him",
+      "sense": null
+    },
+    {
+      "surface": "תִּקְוָתִי",
+      "gloss": "is my hope",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:24.467989042Z",
+  "model": "glm-5.3"
 }

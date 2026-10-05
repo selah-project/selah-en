@@ -1,86 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For YHWH is good; His chesed is forever, and to generation and generation His faithfulness.",
-  "tokens": [
+  "ref": "psalms 100:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 100,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'YHWH' and 'good'"
     },
     {
-      "surface": "טוב",
-      "gloss": "is good"
+      "kind": "substitution",
+      "subject": "to the vanishing point",
+      "rationale": "לעולם literally 'to the concealed\/vanishing point', rendered 'forever' by convention"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "to the age"
-      ],
-      "held_by": {
-        "forever": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the age": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "His chesed",
-      "readings": [
-        "His chesed",
-        "His steadfast love"
-      ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His steadfast love": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ועד",
-      "gloss": "and to"
-    },
-    {
-      "surface": "דר",
-      "gloss": "generation"
-    },
-    {
-      "surface": "ודר",
-      "gloss": "and generation"
-    },
-    {
-      "surface": "אמונתו",
-      "gloss": "His faithfulness",
-      "readings": [
-        "His faithfulness",
-        "His firmness"
-      ],
-      "held_by": {
-        "His faithfulness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "His firmness": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "דר ודר",
+      "rationale": "generation and generation — a doubled merism spanning all generations"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For YHWH is good; his chesed ⟨is⟩ to the vanishing point, and to generation ⟨upon⟩ generation his faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "88ff7ff696ecb9ae23a21cfd4ca6c82c11c96e7651914f064ad1a5651365d813",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/100\/5-5.1791193233601.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "to the vanishing point",
+      "readings": [
+        "to the vanishing point",
+        "forever"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּוֹ",
+      "gloss": "his chesed",
+      "readings": [
+        "his chesed",
+        "his steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַד",
+      "gloss": "and to",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּר",
+      "gloss": "generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָדֹר",
+      "gloss": "and generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמוּנָתוֹ",
+      "gloss": "his faithfulness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:33.602258074Z",
+  "model": "glm-5.3"
 }

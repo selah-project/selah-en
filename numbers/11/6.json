@@ -1,73 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And now our throat is dried up — there is nothing at all, except before the manna are our eyes.",
-  "tokens": [
+  "ref": "numbers 11:6",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "kind": "substitution",
+      "subject": "our throat",
+      "rationale": "נפש here is appetite\/throat dried by craving, not 'soul'."
     },
     {
-      "surface": "נפשנו",
-      "gloss": "our throat",
-      "readings": [
-        "our throat",
-        "our soul"
-      ],
-      "held_by": {
-        "our throat": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "our soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "idiom",
+      "subject": "אין כל בלתי אל המן עינינו",
+      "rationale": "Hebrew 'nothing at all except toward the manna our eyes'; אל rendered 'before'."
     },
     {
-      "surface": "יבשה",
-      "gloss": "dried up"
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is not"
-    },
-    {
-      "surface": "כל",
-      "gloss": "anything"
-    },
-    {
-      "surface": "בלתי",
-      "gloss": "except"
-    },
-    {
-      "surface": "אל",
-      "gloss": "before",
-      "readings": [
-        "before",
-        "at"
-      ],
-      "held_by": {
-        "before": [
-          "v2",
-          "v3"
-        ],
-        "at": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "המן",
-      "gloss": "the manna"
-    },
-    {
-      "surface": "עינינו",
-      "gloss": "our eyes"
+      "kind": "wordplay",
+      "subject": "המן",
+      "rationale": "Manna's name echoes the question מן הוא, 'what is it?' (Exodus 16:15)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But now our throat is dried; there is nothing at all — except the manna ⟨before⟩ our eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c39beaedd65e4dbc5235afbab06edf208217a9780307fed1ace21ca0e248632",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/11\/5-8.1791183006346.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּ֛ה",
+      "gloss": "But now",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֵׁ֥נוּ",
+      "gloss": "our throat",
+      "sense": "S1",
+      "readings": [
+        "our throat",
+        "our appetite",
+        "our life"
+      ]
+    },
+    {
+      "surface": "יְבֵשָׁ֖ה",
+      "gloss": "is dried",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֣ין",
+      "gloss": "there is not",
+      "sense": null
+    },
+    {
+      "surface": "כֹּ֑ל",
+      "gloss": "anything at all",
+      "sense": null
+    },
+    {
+      "surface": "בִּלְתִּ֖י",
+      "gloss": "except",
+      "sense": null
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "⟨before⟩",
+      "sense": null
+    },
+    {
+      "surface": "הַמָּ֥ן",
+      "gloss": "the manna",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינֵֽינוּ",
+      "gloss": "our eyes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:50:06.354282276Z",
+  "model": "glm-5.3"
 }

@@ -1,67 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
+  "ref": "joel 3:2",
+  "book": "joel",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "servants \/ slaves",
+      "rationale": "עבדים ושפחות may be household slaves or servants; 'slaves' is the second lawful reading."
+    }
+  ],
   "translation": "And also upon the servants and upon the maidservants in those days I will pour out ⟨את⟩ my spirit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d52162faa0319fdc9423668a1e5a806edaded13c905d60a29bb7c78056adf19e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joel\/3\/1-4.1791191414460.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joel.edn"
+  },
   "tokens": [
     {
       "surface": "וגם",
-      "gloss": "and also"
+      "gloss": "And also",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "upon",
+      "sense": null
     },
     {
       "surface": "העבדים",
-      "gloss": "the servants"
+      "gloss": "the servants",
+      "readings": [
+        "the servants",
+        "the slaves"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "ועל",
-      "gloss": "and upon"
+      "gloss": "and upon",
+      "sense": null
     },
     {
       "surface": "השפחות",
-      "gloss": "the maidservants"
+      "gloss": "the maidservants",
+      "readings": [
+        "the maidservants",
+        "the female slaves"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "בימים",
-      "gloss": "in ⟨the⟩ days"
+      "gloss": "in the days",
+      "sense": "S1"
     },
     {
       "surface": "ההמה",
-      "gloss": "those"
+      "gloss": "those",
+      "sense": null
     },
     {
       "surface": "אשפוך",
-      "gloss": "I will pour out"
+      "gloss": "I will pour out",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my spirit"
     },
     {
       "surface": "רוחי",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
-        "my wind",
-        "my breath"
+        "my breath",
+        "my wind"
       ],
-      "held_by": {
-        "my spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my wind": [
-          "en4"
-        ],
-        "my breath": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:10:14.461812205Z",
+  "model": "glm-5.3"
 }

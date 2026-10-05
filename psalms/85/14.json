@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "Righteousness will walk before him, and set his footsteps for a way.",
-  "tokens": [
+  "ref": "psalms 85:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
     {
-      "surface": "צדק",
-      "gloss": "Righteousness",
-      "readings": [
-        "Righteousness",
-        "justice"
-      ],
-      "held_by": {
-        "Righteousness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "justice": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "יְהַלֵּךְ",
+      "rationale": "Piel of הלך here read as 'walk\/go before'; some render 'go before him as a forerunner', personifying righteousness as herald."
     },
     {
-      "surface": "לפניו",
-      "gloss": "before him"
-    },
-    {
-      "surface": "יהלך",
-      "gloss": "will walk"
-    },
-    {
-      "surface": "וישם",
-      "gloss": "and set"
-    },
-    {
-      "surface": "לדרך",
-      "gloss": "for a way"
-    },
-    {
-      "surface": "פעמיו",
-      "gloss": "his footsteps"
+      "kind": "wordplay",
+      "subject": "צדק",
+      "rationale": "צדק echoes v.12's וצדק, and v.14's personification closes the verse-pair begun at v.11."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Righteousness will walk before him, and set for a path his footsteps.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb31fb3f834f0c158b4b685ab844bc1be106651496884f7d88be3b36eb3fd605",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/13-14.1791193106341.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צֶדֶק",
+      "gloss": "Righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְפָנָיו",
+      "gloss": "before him",
+      "sense": null
+    },
+    {
+      "surface": "יְהַלֵּךְ",
+      "gloss": "will walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָשֵׂם",
+      "gloss": "and set",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדֶרֶךְ",
+      "gloss": "for a path",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּעָמָיו",
+      "gloss": "his footsteps",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:26.342295406Z",
+  "model": "glm-5.3"
 }

@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "A ruin to his father is a foolish son, and a continual dripping are the contentions of a wife.",
-  "tokens": [
+  "ref": "proverbs 19:13",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "הות",
-      "gloss": "a ruin",
-      "readings": [
-        "a ruin",
-        "a calamity"
-      ],
-      "held_by": {
-        "a ruin": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a calamity": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the noun phrase and its predicate"
     },
     {
-      "surface": "לאביו",
-      "gloss": "to his father"
+      "kind": "wordplay",
+      "subject": "דלף טרד",
+      "rationale": "dripping-drives-on; the participle personifies the leak as something that harasses, lost in English"
     },
     {
-      "surface": "בן",
-      "gloss": "a son"
-    },
-    {
-      "surface": "כסיל",
-      "gloss": "foolish"
-    },
-    {
-      "surface": "ודלף",
-      "gloss": "and a dripping"
-    },
-    {
-      "surface": "טרד",
-      "gloss": "continual",
-      "readings": [
-        "continual",
-        "driving"
-      ],
-      "held_by": {
-        "continual": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "driving": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מדיני",
-      "gloss": "contentions of"
-    },
-    {
-      "surface": "אשה",
-      "gloss": "a wife"
+      "kind": "alternative",
+      "subject": "a wife",
+      "rationale": "אשה can be read simply 'woman', but the parallel with the father-son house points to 'wife'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Ruin to his father ⟨is⟩ a foolish son, and a constant dripping — the contentions of a wife.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e55186f2b5726f3e4f78b51e34c721b1b4fe9ee39773646f15f31a7cc1dcb0d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/13-16.1791193918060.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַוֺּ֣ת",
+      "gloss": "ruin",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֭אָבִיו",
+      "gloss": "to his father",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֣ן",
+      "gloss": "a son",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּסִ֑יל",
+      "gloss": "foolish",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדֶ֥לֶף",
+      "gloss": "and a dripping",
+      "sense": "S1"
+    },
+    {
+      "surface": "טֹ֝רֵ֗ד",
+      "gloss": "constant",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִדְיְנֵ֥י",
+      "gloss": "the contentions of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִשָּֽׁה",
+      "gloss": "a wife",
+      "sense": "S1",
+      "readings": [
+        "a wife",
+        "a woman"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:58.061428689Z",
+  "model": "glm-5.3"
 }

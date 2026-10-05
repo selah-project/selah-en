@@ -1,47 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "But our Elohim ⟨is⟩ in the heavens — all that he pleases he has done.",
-  "tokens": [
+  "ref": "psalms 115:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
     {
-      "surface": "ואלהינו",
-      "gloss": "But our Elohim"
-    },
-    {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "חפץ",
-      "gloss": "he pleases",
-      "readings": [
-        "he pleases",
-        "he delighted in"
-      ],
-      "held_by": {
-        "he pleases": [
-          "v2",
-          "v3"
-        ],
-        "he delighted in": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עשה",
-      "gloss": "he has done"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; the verbless clause 'our Elohim in the heavens' requires 'is' in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But our Elohim is in the heavens; all that he has willed he has done.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9290cb5535ea9d78c3228ee585c6c3f2bcbe599a87e0c6d2367324c55d9a82b2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/1-4.1791193398289.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וֵאלֹהֵינוּ",
+      "gloss": "But our Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׁמַיִם",
+      "gloss": "is in the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "חָפֵץ",
+      "gloss": "he has willed",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָׂה",
+      "gloss": "he has done",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:18.290801732Z",
+  "model": "glm-5.3"
 }

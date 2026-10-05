@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "In the gorge of wadis to dwell, holes of the dust and clefts.",
-  "tokens": [
+  "ref": "job 30:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "בערוץ",
-      "gloss": "in the gorge"
+      "kind": "hapax",
+      "subject": "עָרוּץ",
+      "rationale": "Occurs only here — 'feared' place, a horrible chasm; rendered 'gorge' from the SDBH sense."
     },
     {
-      "surface": "נחלים",
-      "gloss": "of wadis",
-      "readings": [
-        "of wadis",
-        "of torrents"
-      ],
-      "held_by": {
-        "of wadis": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of torrents": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לשכן",
-      "gloss": "to dwell"
-    },
-    {
-      "surface": "חרי",
-      "gloss": "holes of"
-    },
-    {
-      "surface": "עפר",
-      "gloss": "the dust"
-    },
-    {
-      "surface": "וכפים",
-      "gloss": "and clefts",
-      "readings": [
-        "and clefts",
-        "and rocks"
-      ],
-      "held_by": {
-        "and clefts": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and rocks": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "in clefts of",
+      "rationale": "English needs a repeated preposition and a plural for וְכֵפִים where Hebrew coordinates two construct nouns."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the gorge of winter-torrents they must dwell, in holes of the dust and in clefts of the rocks.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "85dc37cfc05aaf7e786d46c90a5fdbf19128de195bb898ddade99a56c4a663af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/5-7.1791194470348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּעֲרוּץ",
+      "gloss": "in the gorge of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְחָלִים",
+      "gloss": "winter-torrents",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁכֹּן",
+      "gloss": "to dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹרֵי",
+      "gloss": "holes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָפָר",
+      "gloss": "the dust",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכֵפִים",
+      "gloss": "and clefts of the rocks",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:10.349424780Z",
+  "model": "glm-5.3"
 }

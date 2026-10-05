@@ -1,65 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And they made ⟨את⟩ the ark of Elohim ride upon a new cart from the house of Abinadab, and Uzza and Ahio were driving the cart.",
+  "ref": "1-chronicles 13:7",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "Uzza \/ עז",
+      "rationale": "Uzza's name shares the root of עֹז 'strength' (v8); his seizing of the ark plays against his name, lost in English."
+    },
+    {
+      "kind": "alternative",
+      "subject": "were driving",
+      "rationale": "נהגים is a participle, 'driving (it)'; 2 Sam 6:3 adds the object marker 'driving the cart'."
+    }
+  ],
+  "translation": "And they made ⟨את⟩ the ark of Elohim ride on a new cart, from the house of Abinadab; and Uzza and Ahio were driving the cart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c18a21a54ab302b7dc42bd0567e3419d1d5c961eb2ada6370c73b45b0a87b8f6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/13\/5-8.1791196263298.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "וירכיבו",
-      "gloss": "made to ride",
-      "readings": [
-        "made to ride",
-        "placed"
-      ],
-      "held_by": {
-        "made to ride": [
-          "en4"
-        ],
-        "placed": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "and made ride",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the ark of Elohim"
     },
     {
       "surface": "ארון",
-      "gloss": "the ark"
+      "gloss": "the ark of",
+      "sense": "S1"
     },
     {
       "surface": "האלהים",
-      "gloss": "of Elohim"
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on"
     },
     {
       "surface": "עגלה",
-      "gloss": "a cart"
+      "gloss": "a cart",
+      "sense": "S1"
     },
     {
       "surface": "חדשה",
-      "gloss": "new"
+      "gloss": "new",
+      "sense": "S1"
     },
     {
       "surface": "מבית",
-      "gloss": "from the house"
+      "gloss": "from the house of",
+      "sense": "S1"
     },
     {
       "surface": "אבינדב",
-      "gloss": "of Abinadab"
+      "gloss": "Abinadab",
+      "sense": "S1"
     },
     {
       "surface": "ועזא",
-      "gloss": "and Uzza"
+      "gloss": "and Uzza",
+      "sense": "S1"
     },
     {
       "surface": "ואחיו",
-      "gloss": "and Ahio"
+      "gloss": "and Ahio",
+      "sense": "S1"
     },
     {
       "surface": "נהגים",
@@ -67,9 +89,10 @@
     },
     {
       "surface": "בעגלה",
-      "gloss": "the cart"
+      "gloss": "the cart",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:31:03.299297652Z",
+  "model": "glm-5.3"
 }

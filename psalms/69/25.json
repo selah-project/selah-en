@@ -1,47 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Pour out upon them your fury, and let the burning of your anger overtake them.",
-  "tokens": [
+  "ref": "psalms 69:25",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
     {
-      "surface": "שפך",
-      "gloss": "Pour out"
+      "kind": "idiom",
+      "subject": "אף",
+      "rationale": "Literally 'nostril'; 'burning of your nostril' is the Hebrew picture of anger, flattened to 'your anger' in English"
     },
     {
-      "surface": "עליהם",
+      "kind": "you",
+      "subject": "prayer to YHWH",
+      "rationale": "Second-person imperatives addressed to YHWH against the psalmist's enemies"
+    }
+  ],
+  "translation": "Pour out upon them your fury, and the burning of your anger let it overtake them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "799a3bb420ef67b28a45b0b7db0176676802c8507025ec0e25752807f753fb80",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/25-28.1791192950630.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׁפָךְ",
+      "gloss": "Pour out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵיהֶץ",
       "gloss": "upon them"
     },
     {
-      "surface": "זעמך",
-      "gloss": "your fury"
+      "surface": "זַעְמֶךָ",
+      "gloss": "your fury",
+      "sense": "S1"
     },
     {
-      "surface": "וחרון",
-      "gloss": "and the burning of"
+      "surface": "וַחֲר֥וֹן",
+      "gloss": "and the burning of",
+      "sense": "S1"
     },
     {
-      "surface": "אפך",
+      "surface": "אַפְּךָ",
       "gloss": "your anger",
+      "sense": "S1",
       "readings": [
         "your anger",
-        "your nose"
-      ],
-      "held_by": {
-        "your anger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your nose": [
-          "en4"
-        ]
-      }
+        "your nostril"
+      ]
     },
     {
-      "surface": "ישיגם",
-      "gloss": "overtake them"
+      "surface": "יַשִּׂיגֵם",
+      "gloss": "let it overtake them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:35:50.631127423Z",
+  "model": "glm-5.3"
 }

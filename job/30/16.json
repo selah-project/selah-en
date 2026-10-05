@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And now upon me my soul is poured out; the days of affliction seize me.",
+  "ref": "job 30:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "is poured out upon me",
+      "rationale": "Hebrew picture of life draining away like spilled liquid; English keeps the picture."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my soul",
+      "rationale": "נֶפֶשׁ is the throat-based life-principle, not an immaterial soul; 'my life' is an equally lawful reading."
+    }
+  ],
+  "translation": "And now my soul is poured out upon me; the days of my affliction seize me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9027bc1768ce40177ad5382fcf398bfa0f87e76674279480d93d798826afb7fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/13-16.1791194486414.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ועתה",
-      "gloss": "and now"
+      "surface": "וְעַתָּ֗ה",
+      "gloss": "And now",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "upon me"
+      "surface": "עָלַ֭י",
+      "gloss": "upon me",
+      "sense": null
     },
     {
-      "surface": "תשתפך",
-      "gloss": "is poured out"
+      "surface": "תִּשְׁתַּפֵּ֣ךְ",
+      "gloss": "is poured out",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֑י",
       "gloss": "my soul",
+      "sense": "S1",
       "readings": [
         "my soul",
         "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "יאחזוני",
-      "gloss": "seize me"
+      "surface": "יֹ֭אחֲז֣וּנִי",
+      "gloss": "seize me",
+      "sense": "S1"
     },
     {
-      "surface": "ימי",
-      "gloss": "days of"
+      "surface": "יְמֵ֥י",
+      "gloss": "the days of",
+      "sense": "S1"
     },
     {
-      "surface": "עני",
-      "gloss": "affliction"
+      "surface": "עָנִֽי",
+      "gloss": "my affliction",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:26.416101275Z",
+  "model": "glm-5.3"
 }

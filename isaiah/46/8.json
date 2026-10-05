@@ -1,68 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Remember this and show yourselves men; turn back, O transgressors, to the heart.",
-  "tokens": [
+  "ref": "isaiah 46:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "זכרו",
-      "gloss": "Remember"
+      "kind": "hapax",
+      "subject": "התאשש",
+      "rationale": "occurs only here; meaning unsure — 'show courage' (S1) against 'experience grief' (S2)"
     },
     {
-      "surface": "זאת",
-      "gloss": "this"
+      "kind": "alternative",
+      "subject": "grieve",
+      "rationale": "S2 of אשש would render 'and take it to heart with grief'"
     },
     {
-      "surface": "והתאששו",
-      "gloss": "and show yourselves men",
-      "readings": [
-        "and show yourselves men",
-        "and be firm",
-        "and be ashamed"
-      ],
-      "held_by": {
-        "and show yourselves men": [
-          "v2",
-          "v3"
-        ],
-        "and be firm": [
-          "en4"
-        ],
-        "and be ashamed": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "invitation",
+      "subject": "imperatives",
+      "rationale": "three imperatives summon the transgressors to remember and repent"
     },
     {
-      "surface": "השיבו",
-      "gloss": "turn back",
-      "readings": [
-        "turn back",
-        "turn it back"
-      ],
-      "held_by": {
-        "turn back": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "turn it back": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פושעים",
-      "gloss": "transgressors"
-    },
-    {
-      "surface": "על",
-      "gloss": "to"
-    },
-    {
-      "surface": "לב",
-      "gloss": "the heart"
+      "kind": "you",
+      "subject": "to the transgressors",
+      "rationale": "vocative direct address to the rebels of the house of Jacob"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Remember this and show courage, O transgressors; bring it back to heart,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1c25e0d7359d805ee71b1c81e626d0efab6b3ac0850767712fd99e37c4198a4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/46\/5-8.1791188721600.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זִכְרוּ",
+      "gloss": "Remember",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֹאת",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "וְהִתְאֹשָּׁשׁוּ",
+      "gloss": "and show courage",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָשִׁיבוּ",
+      "gloss": "bring back",
+      "sense": "S1"
+    },
+    {
+      "surface": "פוֹשְׁעִים",
+      "gloss": "O transgressors",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "לֵב",
+      "gloss": "heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:25:21.601645214Z",
+  "model": "glm-5.3"
 }

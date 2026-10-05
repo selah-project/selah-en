@@ -1,62 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "They surrounded me like bees; they were extinguished like a fire of thorns; in the name of YHWH — indeed, I cut them off.",
-  "tokens": [
+  "ref": "psalms 118:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
     {
-      "surface": "סבוני",
-      "gloss": "They surrounded me"
+      "kind": "wordplay",
+      "subject": "סבוני",
+      "rationale": "third repetition of the surround-verb across vv. 10–12, a refrain structure"
     },
     {
-      "surface": "כדבורים",
-      "gloss": "like bees"
+      "kind": "crux",
+      "subject": "I will cut them off",
+      "rationale": "אמילם from מול, 'cut short': 'cut them off' or 'destroy them', uncertain"
     },
     {
-      "surface": "דעכו",
-      "gloss": "they were extinguished"
-    },
-    {
-      "surface": "כאש",
-      "gloss": "like a fire"
-    },
-    {
-      "surface": "קוצים",
-      "gloss": "of thorns"
-    },
-    {
-      "surface": "בשם",
-      "gloss": "in the name of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "indeed",
-      "readings": [
-        "indeed",
-        "that",
-        "for"
-      ],
-      "held_by": {
-        "indeed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "that": [
-          "en4"
-        ],
-        "for": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "אמילם",
-      "gloss": "I cut them off"
+      "kind": "wordplay",
+      "subject": "fire of thorns",
+      "rationale": "thorn-fires flare fiercely and die fast — the image of the enemies' sudden quenching"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They surrounded me like bees — they were extinguished like the fire of thorns — in the name of YHWH I will cut them off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "279f040ab014fb48dcbe65822289af7a54363659ed59b62308af5667e01820e9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/9-12.1791193417286.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "סַבּ֤וּנִי",
+      "gloss": "They surrounded me",
+      "sense": null
+    },
+    {
+      "surface": "כִדְבוֹרִ֗ים",
+      "gloss": "like bees",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּ֭עֲכוּ",
+      "gloss": "they were extinguished",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּאֵ֣שׁ",
+      "gloss": "like the fire of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹצִ֑ים",
+      "gloss": "thorns",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשֵׁ֥ם",
+      "gloss": "in the name of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "surely",
+      "sense": null
+    },
+    {
+      "surface": "אֲמִילַֽם",
+      "gloss": "I will cut them off",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:37.287464839Z",
+  "model": "glm-5.3"
 }

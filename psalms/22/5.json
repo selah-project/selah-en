@@ -1,28 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "In you trusted our fathers; they trusted, and you delivered them.",
-  "tokens": [
+  "ref": "psalms 22:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "בך",
-      "gloss": "in you"
-    },
-    {
-      "surface": "בטחו",
-      "gloss": "they trusted"
-    },
-    {
-      "surface": "אבתינו",
-      "gloss": "our fathers"
-    },
-    {
-      "surface": "בטחו",
-      "gloss": "they trusted"
-    },
-    {
-      "surface": "ותפלטמו",
-      "gloss": "and you delivered them"
+      "kind": "wordplay",
+      "subject": "בטחו…בטחו",
+      "rationale": "Doubled verb 'trusted…trusted' kept doubled, per the doubled-form rule."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In you trusted our fathers; they trusted, and you delivered them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e3d32574fc3502f4b6624bbcb3e7c2bca988d5c2d919dfd67b3f412fb65c9f5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/5-8.1791192493232.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּךָ",
+      "gloss": "In you",
+      "sense": null
+    },
+    {
+      "surface": "בָּטְחוּ",
+      "gloss": "trusted",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבֹתֵינוּ",
+      "gloss": "our fathers",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּטְחוּ",
+      "gloss": "they trusted",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתְּפַלְּטֵמוֹ",
+      "gloss": "and you delivered them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:13.233278298Z",
+  "model": "glm-5.3"
 }

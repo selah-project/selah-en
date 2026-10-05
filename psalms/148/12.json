@@ -1,60 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Young men and also maidens, old men with youths.",
-  "tokens": [
+  "ref": "psalms 148:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 148,
+  "notes": [
     {
-      "surface": "בחורים",
-      "gloss": "young men"
+      "kind": "crux",
+      "subject": "בתולות",
+      "rationale": "'virgins' vs 'young women' — the parallel with בחורים (young men) favors age over chastity"
     },
     {
-      "surface": "וגם",
-      "gloss": "and also"
-    },
-    {
-      "surface": "בתולות",
-      "gloss": "maidens",
-      "readings": [
-        "maidens",
-        "virgins"
-      ],
-      "held_by": {
-        "maidens": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "virgins": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "זקנים",
-      "gloss": "old men"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with",
-      "readings": [
-        "with",
-        "together with"
-      ],
-      "held_by": {
-        "with": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "together with": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "נערים",
-      "gloss": "youths"
+      "kind": "invitation",
+      "subject": "all humanity",
+      "rationale": "the psalm's sweep of summoned praisers reaches every age and station"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Young men and also young women, elders together with youths,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "087678201a3951c3730f4b1b58f20e97ebfc140fd9324cd76387de6bda37b6c5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/148\/9-12.1791193661519.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּחוּרִים",
+      "gloss": "Young men",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְגַם",
+      "gloss": "and also",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּתוּלוֹת",
+      "gloss": "young women",
+      "sense": "S1",
+      "readings": [
+        "young women",
+        "virgins"
+      ]
+    },
+    {
+      "surface": "זְקֵנִים",
+      "gloss": "elders",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "together with"
+    },
+    {
+      "surface": "נְעָרִים",
+      "gloss": "youths",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:41.520447309Z",
+  "model": "glm-5.3"
 }

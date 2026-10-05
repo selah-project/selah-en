@@ -1,91 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "For wind they sow, and ⟨a⟩ whirlwind they reap. ⟨The⟩ standing grain — there is nothing to it; a sprout that will not produce flour. Perhaps it produces — strangers will swallow it.",
-  "tokens": [
+  "ref": "hosea 8:7",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "wordplay",
+      "subject": "קָמָה \/ קֶמַח",
+      "rationale": "standing-grain and flour share consonants, a pun carried in the rendering"
     },
     {
-      "surface": "רוח",
+      "kind": "crux",
+      "subject": "צֶמַח בְּלִי יַעֲשֶׂה קֶמַח",
+      "rationale": "literal 'stalk — it will not make flour'; some supply 'blossom' as subject from context"
+    },
+    {
+      "kind": "alternative",
+      "subject": "אוּלַי יַעֲשֶׂה",
+      "rationale": "'perhaps it would yield' — the conditional carried as 'should it make' to expose the doubled verb"
+    }
+  ],
+  "translation": "For wind they sow, and a storm-wind they reap. Standing grain — it has no stalk; blossom makes no flour; should it make, strangers would swallow it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "276cad4eb0638837736d51cef6950c635471e09ca172bf7a9e43b42a11666903",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/8\/5-8.1791191329122.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "רוּחַ",
       "gloss": "wind",
       "readings": [
         "wind",
         "breath",
         "spirit"
       ],
-      "held_by": {
-        "wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "breath": [
-          "en4"
-        ],
-        "spirit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יזרעו",
-      "gloss": "they sow"
+      "surface": "יִזְרָעוּ",
+      "gloss": "they sow",
+      "sense": "S1"
     },
     {
-      "surface": "וסופתה",
-      "gloss": "and ⟨a⟩ whirlwind"
+      "surface": "וְסוּפָתָה",
+      "gloss": "and a storm-wind",
+      "sense": "S1"
     },
     {
-      "surface": "יקצרו",
-      "gloss": "they reap"
+      "surface": "יִקְצֹרוּ",
+      "gloss": "they reap",
+      "sense": "S1"
     },
     {
-      "surface": "קמה",
-      "gloss": "⟨the⟩ standing grain"
+      "surface": "קָמָה",
+      "gloss": "Standing grain",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
-      "gloss": "there is nothing"
+      "surface": "אֵין",
+      "gloss": "there is not",
+      "sense": null
     },
     {
-      "surface": "לו",
-      "gloss": "to it"
+      "surface": "לוֹ",
+      "gloss": "in it",
+      "sense": null
     },
     {
-      "surface": "צמח",
-      "gloss": "a sprout"
+      "surface": "צֶמַח",
+      "gloss": "stalk",
+      "sense": "S1"
     },
     {
-      "surface": "בלי",
-      "gloss": "that will not"
+      "surface": "בְּלִי",
+      "gloss": "no",
+      "sense": "S1"
     },
     {
-      "surface": "יעשה",
-      "gloss": "produce"
+      "surface": "יַעֲשֶׂה",
+      "gloss": "makes",
+      "sense": "S1"
     },
     {
-      "surface": "קמח",
-      "gloss": "flour"
+      "surface": "קֶמַח",
+      "gloss": "flour",
+      "sense": "S1"
     },
     {
-      "surface": "אולי",
-      "gloss": "Perhaps"
+      "surface": "אוּלַי",
+      "gloss": "should it make",
+      "sense": "S1"
     },
     {
-      "surface": "יעשה",
-      "gloss": "it produces"
+      "surface": "יַעֲשֶׂה",
+      "gloss": "⟨if it should⟩ yield",
+      "sense": "S1"
     },
     {
-      "surface": "זרים",
-      "gloss": "strangers"
+      "surface": "זָרִים",
+      "gloss": "strangers",
+      "sense": "S1"
     },
     {
-      "surface": "יבלעהו",
-      "gloss": "will swallow it"
+      "surface": "יִבְלָעֻהוּ",
+      "gloss": "would swallow it",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:49.123740656Z",
+  "model": "glm-5.3"
 }

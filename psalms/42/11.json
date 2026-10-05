@@ -1,76 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "With a crushing in my bones my adversaries reproach me, in their saying to me all the day, “Where ⟨is⟩ your Elohim?”",
+  "ref": "psalms 42:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "a crushing",
+      "rationale": "רצח is literally murder; here 'murder in the bones' — a shattering taunt, only elsewhere Ezek 21:27"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨my adversaries⟩",
+      "rationale": "subject of חרפוני is the participle צוררי that follows; fronted in English, bracketed"
+    },
+    {
+      "kind": "you",
+      "subject": "the taunt",
+      "rationale": "the enemies' question addresses the psalmist directly: where is your Elohim"
+    }
+  ],
+  "translation": "With a crushing in my bones my adversaries taunt me, saying to me all the day, “Where is your Elohim?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b1549c3243b1d849a9aa1e6f8b29dd1621c9cb338929b599d99d90cba8984539",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/42\/9-12.1791192704086.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ברצח",
+      "surface": "בְּרֶצַח",
       "gloss": "With a crushing",
-      "readings": [
-        "With a crushing",
-        "With a breaking"
-      ],
-      "held_by": {
-        "With a crushing": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "With a breaking": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בעצמותי",
-      "gloss": "in my bones"
+      "surface": "בְּעַצְמוֹתַי",
+      "gloss": "in my bones",
+      "sense": "S1"
     },
     {
-      "surface": "חרפוני",
-      "gloss": "they have reproached me",
-      "readings": [
-        "they have reproached me",
-        "they reproach me"
-      ],
-      "held_by": {
-        "they have reproached me": [
-          "v2",
-          "v3"
-        ],
-        "they reproach me": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "חֵרְפוּנִי",
+      "gloss": "my adversaries taunt me",
+      "sense": null
     },
     {
-      "surface": "צוררי",
-      "gloss": "my adversaries"
+      "surface": "צוֹרְרָי",
+      "gloss": "⟨my adversaries⟩",
+      "sense": "S1"
     },
     {
-      "surface": "באמרם",
-      "gloss": "in their saying"
+      "surface": "בְּאָמְרָם",
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
-      "surface": "אלי",
+      "surface": "אֵלַי",
       "gloss": "to me"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1"
     },
     {
-      "surface": "איה",
-      "gloss": "Where"
+      "surface": "אַיֵּה",
+      "gloss": "Where is",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֶיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:44.087883016Z",
+  "model": "glm-5.3"
 }

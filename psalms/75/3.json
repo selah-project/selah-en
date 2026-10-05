@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "When I take ⟨the⟩ appointed time — I, I judge with uprightness.",
-  "tokens": [
+  "ref": "psalms 75:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 75,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "When",
-      "readings": [
-        "When",
-        "For"
-      ],
-      "held_by": {
-        "When": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "For": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "כי אקח מועד",
+      "rationale": "'when I take the appointed time' vs 'when I choose the right time'; מועד kept as fixed time"
     },
     {
-      "surface": "אקח",
-      "gloss": "I take"
-    },
-    {
-      "surface": "מועד",
-      "gloss": "appointed time"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "מישרים",
-      "gloss": "with uprightness",
-      "readings": [
-        "with uprightness",
-        "with equity"
-      ],
-      "held_by": {
-        "with uprightness": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with equity": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אשפט",
-      "gloss": "I judge"
+      "kind": "you",
+      "subject": "to the wicked",
+      "rationale": "speaker turns to address the boasters in the following verse"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When I take the appointed time, I — with uprightness I judge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4e42811a481404690acc102927a028210aeb83997cc0964fab08cc226b08a32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/75\/1-4.1791193009752.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֭י",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "אֶקַּ֣ח",
+      "gloss": "I take",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹעֵ֑ד",
+      "gloss": "the appointed time",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנִ֗י",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "מֵישָׁרִ֥ים",
+      "gloss": "with uprightness",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשְׁפֹּֽט",
+      "gloss": "I judge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:49.753283668Z",
+  "model": "glm-5.3"
 }

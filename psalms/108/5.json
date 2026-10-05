@@ -1,67 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For great above the heavens is your chesed, and unto the clouds your truth.",
-  "tokens": [
+  "ref": "psalms 108:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause; copula supplied for English"
     },
     {
-      "surface": "גדול",
-      "gloss": "great"
-    },
-    {
-      "surface": "מעל",
-      "gloss": "above"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "חסדך",
-      "gloss": "your chesed",
-      "readings": [
-        "your chesed",
-        "your kindness"
-      ],
-      "held_by": {
-        "your chesed": [
-          "v3",
-          "en4"
-        ],
-        "your kindness": [
-          "v1",
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ועד",
-      "gloss": "and unto",
-      "readings": [
-        "and unto",
-        "and as far as"
-      ],
-      "held_by": {
-        "and unto": [
-          "en4"
-        ],
-        "and as far as": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "שחקים",
-      "gloss": "the clouds"
-    },
-    {
-      "surface": "אמתך",
-      "gloss": "your truth"
+      "kind": "wordplay",
+      "subject": "שמים\/שחקים",
+      "rationale": "Parallel pair heavens\/clouds frames the verse's two halves"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For great above the heavens is your chesed, and as far as the clouds your faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b6a3d295732fcfa66fe3c8302b91190c98011ce5b3100c274e9765aeb2278a6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/5-8.1791193357687.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "גָדוֹל",
+      "gloss": "great",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽעַל",
+      "gloss": "above",
+      "sense": null
+    },
+    {
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדֶּךָ",
+      "gloss": "is your chesed",
+      "readings": [
+        "is your chesed",
+        "is your steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽעַד",
+      "gloss": "and as far as",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁחָקִים",
+      "gloss": "the clouds",
+      "readings": [
+        "the clouds",
+        "the skies"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲמִתֶּךָ",
+      "gloss": "your faithfulness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:37.687773946Z",
+  "model": "glm-5.3"
 }

@@ -1,88 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "He sits in ambush in ⟨the⟩ courtyards; in hiding places he murders the innocent. His eyes for the hapless lie hidden.",
+  "ref": "psalms 10:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "חלכה",
+      "rationale": "Rare word (also Ps 10:10, 10:14), meaning unsure — a wretched, unfortunate sufferer."
+    },
+    {
+      "kind": "crux",
+      "subject": "יצפנו",
+      "rationale": "Root צפן 'hide\/hoard': 'his eyes hide themselves' (lurk) vs 'they watch for' the prey; kept the literal hide."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ambush repetition",
+      "rationale": "במארב \/ במסתרים doublet of lurking places frames the verse; joined with v.9's יארב."
+    }
+  ],
+  "translation": "He sits in ambush in the unwalled settlements; from the hiding-places he kills the innocent; his eyes lie hidden, watching for the helpless one.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f51a9b83469107d6ef315e2328d04bc5250cf5fe6c2ccaee60a05d0c34e68e9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/5-8.1791192419653.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "ישב",
-      "gloss": "he sits",
-      "readings": [
-        "he sits",
-        "he lies in wait"
-      ],
-      "held_by": {
-        "he sits": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he lies in wait": [
-          "en4"
-        ]
-      }
+      "gloss": "He sits",
+      "sense": "S1"
     },
     {
       "surface": "במארב",
-      "gloss": "in ambush"
+      "gloss": "in ambush",
+      "sense": "S1"
     },
     {
       "surface": "חצרים",
-      "gloss": "courtyards",
-      "readings": [
-        "courtyards",
-        "villages"
-      ],
-      "held_by": {
-        "courtyards": [
-          "v1",
-          "v3"
-        ],
-        "villages": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "in the unwalled settlements",
+      "sense": "S1"
     },
     {
       "surface": "במסתרים",
-      "gloss": "in hiding places"
+      "gloss": "from the hiding-places",
+      "sense": "S1"
     },
     {
       "surface": "יהרג",
-      "gloss": "he murders"
+      "gloss": "he kills",
+      "sense": "S1"
     },
     {
       "surface": "נקי",
-      "gloss": "the innocent"
+      "gloss": "the innocent",
+      "sense": "S1"
     },
     {
       "surface": "עיניו",
-      "gloss": "his eyes"
+      "gloss": "his eyes",
+      "sense": "S1"
     },
     {
       "surface": "לחלכה",
-      "gloss": "for the hapless"
+      "gloss": "for the helpless one",
+      "sense": "S1"
     },
     {
       "surface": "יצפנו",
-      "gloss": "they lie hidden",
-      "readings": [
-        "they lie hidden",
-        "they watch"
-      ],
-      "held_by": {
-        "they lie hidden": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "they watch": [
-          "v2"
-        ]
-      }
+      "gloss": "lie hidden",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:59.655168191Z",
+  "model": "glm-5.3"
 }

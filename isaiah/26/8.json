@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Indeed, in the way of your judgments, YHWH, we have waited for you; to your name and to your remembrance is the desire of ⟨our⟩ soul.",
+  "ref": "isaiah 26:8",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is throat\/life-force, the center of desire — 'soul' carries the sense here because the longing is its own."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אֹרַח",
+      "rationale": "Path-word repeated from v.7: the righteous path of v.7 becomes the path of YHWH's judgments in v.8."
+    }
+  ],
+  "translation": "Also on the path of your judgments, YHWH, we have waited for you; to your name and to your remembrance ⟨is⟩ the longing of ⟨the⟩ soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f7ad6e3730c563ae6641d3d3f4dac61f1f3da637be4e0f3db8acaef8881dbe4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/5-8.1791188369846.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אף",
-      "gloss": "Indeed"
+      "surface": "אַף",
+      "gloss": "Also",
+      "sense": "S1"
     },
     {
-      "surface": "ארח",
-      "gloss": "in the way of"
+      "surface": "אֹרַח",
+      "gloss": "on the path of",
+      "sense": "S1"
     },
     {
-      "surface": "משפטיך",
-      "gloss": "your judgments"
+      "surface": "מִשְׁפָּטֶיךָ",
+      "gloss": "your judgments",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
+      "surface": "יְהֹוָה",
       "gloss": "YHWH"
     },
     {
-      "surface": "קוינוך",
-      "gloss": "we have waited for you"
+      "surface": "קִוִּינוּךָ",
+      "gloss": "we have waited for you",
+      "sense": "S1"
     },
     {
-      "surface": "לשמך",
-      "gloss": "to your name"
+      "surface": "לְשִׁמְךָ",
+      "gloss": "to your name",
+      "sense": "S1"
     },
     {
-      "surface": "ולזכרך",
-      "gloss": "and to your remembrance"
+      "surface": "וּלְזִכְרְךָ",
+      "gloss": "and to your remembrance",
+      "sense": "S1"
     },
     {
-      "surface": "תאות",
-      "gloss": "the desire of"
+      "surface": "תַּאֲוַת",
+      "gloss": "the longing of",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "⟨our⟩ soul",
+      "surface": "נָפֶשׁ",
+      "gloss": "soul",
+      "sense": "S1",
       "readings": [
-        "⟨our⟩ soul",
-        "⟨our⟩ life"
-      ],
-      "held_by": {
-        "⟨our⟩ soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "⟨our⟩ life": [
-          "en4"
-        ]
-      }
+        "soul",
+        "life",
+        "throat"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:19:29.847925426Z",
+  "model": "glm-5.3"
 }

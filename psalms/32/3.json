@@ -1,66 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "When I kept silent, my bones wasted away, through my groaning all the day.",
+  "ref": "psalms 32:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "groaning",
+      "rationale": "שאגה is a lion's roar, full and deep; 'groaning' is quieter than the word's picture"
+    },
+    {
+      "kind": "alternative",
+      "subject": "כי",
+      "rationale": "'When' (temporal) fits the confession sequence better than causal 'for'"
+    }
+  ],
+  "translation": "When I kept silent, my bones wasted away with my groaning all the day;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "672d4d283cdf2edf4c9fe5799feb1005188dcd382a3c6f9b8b4172963adb6c49",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/32\/1-4.1791192588644.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "for"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "כִּֽי",
+      "gloss": "When"
     },
     {
-      "surface": "החרשתי",
-      "gloss": "I kept silent"
+      "surface": "הֶ֭חֱרַשְׁתִּי",
+      "gloss": "I kept silent",
+      "sense": "S1"
     },
     {
-      "surface": "בלו",
-      "gloss": "wasted away"
+      "surface": "בָּ֣לוּ",
+      "gloss": "wasted away",
+      "sense": "S1"
     },
     {
-      "surface": "עצמי",
-      "gloss": "my bones"
+      "surface": "עֲצָמָ֑י",
+      "gloss": "my bones",
+      "sense": "S1"
     },
     {
-      "surface": "בשאגתי",
-      "gloss": "through my groaning",
-      "readings": [
-        "through my groaning",
-        "through my roaring"
-      ],
-      "held_by": {
-        "through my groaning": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "through my roaring": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "בְּשַׁאֲגָתִ֗י",
+      "gloss": "with my groaning",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּֽוֹם",
+      "gloss": "the day",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:48.645179651Z",
+  "model": "glm-5.3"
 }

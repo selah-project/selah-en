@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Let their way be darkness and slipperiness, and the angel of YHWH pursuing them.",
-  "tokens": [
+  "ref": "psalms 35:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "יהי",
-      "gloss": "let it be"
+      "kind": "addition",
+      "subject": "their way be",
+      "rationale": "Hebrew jussive singular with fronted subject; English needs the verb in place."
     },
     {
-      "surface": "דרכם",
-      "gloss": "their way"
-    },
-    {
-      "surface": "חשך",
-      "gloss": "darkness"
-    },
-    {
-      "surface": "וחלקלקות",
-      "gloss": "and slipperiness"
-    },
-    {
-      "surface": "ומלאך",
-      "gloss": "and the angel of",
-      "readings": [
-        "and the angel of",
-        "and the messenger of"
-      ],
-      "held_by": {
-        "and the angel of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the messenger of": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "רדפם",
-      "gloss": "pursuing them"
+      "kind": "wordplay",
+      "subject": "חלקלקות",
+      "rationale": "reduplicated noun from חלק 'smooth' — the doubling itself is slippery; English 'slippery places' loses it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let their way be darkness and slippery places, and the messenger of YHWH pursuing them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "05fa029cba9f4d48f955c163dabac86c37ad8c2088eddc5db021ed5860865d86",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/5-8.1791192618116.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְֽהִי",
+      "gloss": "Let be"
+    },
+    {
+      "surface": "דַרְכָּ֗ם",
+      "gloss": "their way",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֹ֥שֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַחֲלַקְלַקּ֑וֹת",
+      "gloss": "and slippery places"
+    },
+    {
+      "surface": "וּמַלְאַ֥ךְ",
+      "gloss": "and the messenger of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹדְפָֽם",
+      "gloss": "pursuing them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:18.117721370Z",
+  "model": "glm-5.3"
 }

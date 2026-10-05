@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "They shall fear you with the sun, and before the moon — generation of generations.",
-  "tokens": [
+  "ref": "psalms 72:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
     {
-      "surface": "ייראוך",
-      "gloss": "They shall fear you"
+      "kind": "crux",
+      "subject": "עם שמש",
+      "rationale": "'with the sun' (alongside) vs 'as long as the sun (endures)'; both senses of עם are possible here."
     },
     {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "שמש",
-      "gloss": "the sun"
-    },
-    {
-      "surface": "ולפני",
-      "gloss": "and before"
-    },
-    {
-      "surface": "ירח",
-      "gloss": "the moon"
-    },
-    {
-      "surface": "דור",
-      "gloss": "generation"
-    },
-    {
-      "surface": "דורים",
-      "gloss": "generations"
+      "kind": "wordplay",
+      "subject": "ירח \/ דור דורים",
+      "rationale": "moon (ירח) echoes verse 7's 'no moon' (ירח), and דור דורים doubles the construct for intensity."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May they fear you with the sun, and before the moon, generation of generations.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1310b8836775d5c4d15add23f672d0528289b1952dbc88ffdc9cad3d2eff319e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/5-8.1791192977518.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִֽירָא֥וּךָ",
+      "gloss": "may they fear you",
+      "sense": null
+    },
+    {
+      "surface": "עִם",
+      "gloss": "with",
+      "readings": [
+        "with",
+        "as long as"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "שָׁ֑מֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלִפְנֵ֥י",
+      "gloss": "and before",
+      "sense": null
+    },
+    {
+      "surface": "יָ֝רֵ֗חַ",
+      "gloss": "the moon",
+      "sense": "S1"
+    },
+    {
+      "surface": "דּ֣וֹר",
+      "gloss": "generation of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דּוֹרִֽים",
+      "gloss": "generations",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:17.518699965Z",
+  "model": "glm-5.3"
 }

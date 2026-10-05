@@ -1,80 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "I said to YHWH, “You are my Adonai; my good is not apart from you.”",
-  "tokens": [
+  "ref": "psalms 16:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "אמרת",
-      "gloss": "I said",
-      "readings": [
-        "I said",
-        "you have said"
-      ],
-      "held_by": {
-        "I said": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you have said": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "טובתי בל עליך",
+      "rationale": "'my goodness is not apart from you' vs 'you have no need of my goodness' vs 'apart from you I have no good'"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "אדני",
-      "gloss": "my Adonai"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "טובתי",
-      "gloss": "my good",
-      "readings": [
-        "my good",
-        "my goodness"
-      ],
-      "held_by": {
-        "my good": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my goodness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בל",
-      "gloss": "not"
-    },
-    {
-      "surface": "עליך",
-      "gloss": "apart from you",
-      "readings": [
-        "apart from you",
-        "beyond you"
-      ],
-      "held_by": {
-        "apart from you": [
-          "v1",
-          "v3"
-        ],
-        "beyond you": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "dash",
+      "rationale": "elliptical Hebrew; punctuation supplied to carry the abruptness"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I have said to YHWH, “Adonai, you; my goodness — not apart from you.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3c3729de3b5447d8a07f07bf69f1cfce48cf068dbfd4cda1b1854f174aac9acf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/16\/1-4.1791192434287.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָמַרְתְּ",
+      "gloss": "I have said",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָה",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "טוֹבָתִי",
+      "gloss": "my goodness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּל",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלֶיךָ",
+      "gloss": "apart from you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:14.288330852Z",
+  "model": "glm-5.3"
 }

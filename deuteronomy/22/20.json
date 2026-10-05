@@ -1,59 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And if true has been this thing — no tokens of virginity were found for the young woman —",
+  "ref": "deuteronomy 22:20",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "בתולים",
+      "rationale": "Collective noun for the physical tokens of virginity (the cloth of v. 17) vs. virginity as abstract state; rendered concretely."
+    },
+    {
+      "kind": "crux",
+      "subject": "לנער (qere לנערה)",
+      "rationale": "Ketiv lacks the feminine ending ה; qere supplies it — the reading tradition's correction is kept in the gloss."
+    }
+  ],
+  "translation": "But if this thing — the matter — has been truth, that no proofs of virginity were found for the girl —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "481d1b7a99bdb6db9405a2df9a1073ea86d5b34a0b799cd9f16997664381655b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/22\/18-20.1791198107995.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "ואם",
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "אמת",
-      "gloss": "true"
+      "surface": "אֱמֶ֣ת",
+      "gloss": "truth",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
+      "surface": "הָיָ֔ה",
       "gloss": "has been"
     },
     {
-      "surface": "הדבר",
-      "gloss": "the thing"
+      "surface": "הַדָּבָ֖ר",
+      "gloss": "the matter",
+      "sense": "S1"
     },
     {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּ֑ה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נמצאו",
-      "gloss": "were found"
+      "surface": "נִמְצְא֥וּ",
+      "gloss": "were found",
+      "sense": "S1"
     },
     {
-      "surface": "בתולים",
-      "gloss": "tokens of virginity",
-      "readings": [
-        "tokens of virginity",
-        "virginity"
-      ],
-      "held_by": {
-        "tokens of virginity": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "virginity": [
-          "en4"
-        ]
-      }
+      "surface": "בְּתוּלִ֖ים",
+      "gloss": "proofs of virginity",
+      "sense": "S1"
     },
     {
-      "surface": "לנער",
-      "gloss": "for the young woman"
+      "surface": "לַנַּעֲרָה",
+      "gloss": "for the girl",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:01:47.996151799Z",
+  "model": "glm-5.3"
 }

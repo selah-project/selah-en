@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "In the day I called, You answered me; You emboldened me in my soul ⟨with⟩ strength.",
+  "ref": "psalms 138:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 138,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "תרהבני בנפשי עז",
+      "rationale": "רהב is rare (only 4x): 'embolden, give confidence'; some render 'you made me bold with strength in my soul', others 'you strengthened me with boldness'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat\/life-force; 'in my soul' keeps the Self sense."
+    }
+  ],
+  "translation": "In the day I called, you answered me; you emboldened me in my soul with strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0fe0683012e8a3506c692473b4980bc5b0e364932370f3af8e179c1d57f509c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/138\/1-4.1791193582180.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ביום",
-      "gloss": "In the day"
+      "surface": "בְּי֣וֹם",
+      "gloss": "In the day",
+      "sense": "S1"
     },
     {
-      "surface": "קראתי",
-      "gloss": "I called"
+      "surface": "קָ֭רָֽאתִי",
+      "gloss": "I called",
+      "sense": "S1"
     },
     {
-      "surface": "ותענני",
-      "gloss": "and You answered me"
+      "surface": "וַֽתַּעֲנֵ֑נִי",
+      "gloss": "you answered me",
+      "sense": "S1"
     },
     {
-      "surface": "תרהבני",
-      "gloss": "You emboldened me",
-      "readings": [
-        "You emboldened me",
-        "You urged me hard"
-      ],
-      "held_by": {
-        "You emboldened me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You urged me hard": [
-          "en4"
-        ]
-      }
+      "surface": "תַּרְהִבֵ֖נִי",
+      "gloss": "you emboldened me",
+      "sense": "S1"
     },
     {
-      "surface": "בנפשי",
+      "surface": "בְנַפְשִׁ֣י",
       "gloss": "in my soul",
       "readings": [
         "in my soul",
         "in my life"
       ],
-      "held_by": {
-        "in my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עז",
-      "gloss": "strength"
+      "surface": "עֹֽז",
+      "gloss": "with strength",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:22.181452931Z",
+  "model": "glm-5.3"
 }

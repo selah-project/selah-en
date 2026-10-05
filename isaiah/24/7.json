@@ -1,44 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "The new wine mourns, the vine languishes; all the joyful of heart sigh.",
-  "tokens": [
+  "ref": "isaiah 24:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "אבל",
-      "gloss": "mourns"
+      "kind": "wordplay",
+      "subject": "אָבַל \/ אֻמְלְלָה",
+      "rationale": "echoes v.4's אָבְלָה נָבְלָה אֻמְלְלָה — the same verbs of mourning and withering return on wine and vine"
     },
     {
-      "surface": "תירוש",
-      "gloss": "the new wine"
-    },
-    {
-      "surface": "אמללה",
-      "gloss": "languishes"
-    },
-    {
-      "surface": "גפן",
-      "gloss": "the vine",
-      "readings": [
-        "the vine",
-        "a vine"
-      ]
-    },
-    {
-      "surface": "נאנחו",
-      "gloss": "sigh"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "שמחי",
-      "gloss": "the joyful of"
-    },
-    {
-      "surface": "לב",
-      "gloss": "heart"
+      "kind": "idiom",
+      "subject": "שִׂמְחֵי לֵב",
+      "rationale": "'glad of heart' kept literal; it is the standard Hebrew phrase for the joyful, not an English idiom"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Mourns the new wine, droops the vine; all the glad of heart sigh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1cfa10167e41dcc15fa5410c17510cd24ca0cdcc2d4eee817a843e31876b7da9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/24\/5-8.1791188348656.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָבַ֥ל",
+      "gloss": "mourns",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּיר֖וֹשׁ",
+      "gloss": "the new wine",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֻמְלְלָ֥ה",
+      "gloss": "droops",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּ֤פֶן",
+      "gloss": "the vine",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶאֶנְח֖וּ",
+      "gloss": "sigh",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "שִׂמְחֵי",
+      "gloss": "the glad of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵֽב",
+      "gloss": "heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:08.657776707Z",
+  "model": "glm-5.3"
 }

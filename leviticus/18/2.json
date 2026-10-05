@@ -1,44 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Speak to the sons of Israel, and you shall say to them: I am YHWH your Elohim.",
-  "tokens": [
+  "ref": "leviticus 18:2",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "דבר",
-      "gloss": "Speak"
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew lacks a copula between אני and the divine predicate"
     },
     {
-      "surface": "אל",
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Moses is commanded to address the sons of Israel directly"
+    }
+  ],
+  "translation": "Speak to the sons of Israel and say to them: I ⟨am⟩ YHWH your Elohim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a2ee5babec2a7fb25798cbcfb4d3ef5f065ce9bd116513aa35a6f550bc50576",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/18\/1-4.1791182501020.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דַּבֵּר",
+      "gloss": "Speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
       "gloss": "to"
     },
     {
-      "surface": "בני",
-      "gloss": "the sons of"
+      "surface": "בְּנֵי",
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "ואמרת",
-      "gloss": "and you shall say"
+      "surface": "וְאָמַרְתָּ",
+      "gloss": "and say",
+      "sense": "S1"
     },
     {
-      "surface": "אלהם",
+      "surface": "אֲלֵהֶם",
       "gloss": "to them"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיכם",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֵיכֶם",
+      "gloss": "your Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:41:41.021841990Z",
+  "model": "glm-5.3"
 }

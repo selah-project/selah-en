@@ -1,71 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "You shall not sow your vineyard with two kinds ⟨of seed⟩, lest the fullness be forfeited — the seed which you sow and the yield of the vineyard.",
+  "ref": "deuteronomy 22:9",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "lest it be consecrated",
+      "rationale": "תקדש read as 'be forbidden\/consecrated to the sanctuary' or (ketiv-like) 'be forfeit'; also the feminine verb points back to the vineyard while the listed subjects follow."
+    },
+    {
+      "kind": "substitution",
+      "subject": "two-kinds",
+      "rationale": "כלאים is a dual, 'two heterogeneous kinds', hyphenated to keep the form."
+    },
+    {
+      "kind": "you",
+      "subject": "Israel",
+      "rationale": "second-person laws addressed to Israel as one speaker."
+    }
+  ],
+  "translation": "You shall not sow your vineyard ⟨with⟩ two-kinds, lest it be consecrated — the fullness, the seed that you sow, and the produce of the vineyard.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5a58afeec1732187bf229e933cdb0f5b1aff38d023c87811f2625a94ef3bfab6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/22\/9-12.1791183987142.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תזרע",
-      "gloss": "you shall sow"
+      "surface": "תִזְרַע",
+      "gloss": "you shall sow",
+      "sense": "S1"
     },
     {
-      "surface": "כרמך",
-      "gloss": "your vineyard"
+      "surface": "כַרְמְךָ",
+      "gloss": "your vineyard",
+      "sense": "S1"
     },
     {
-      "surface": "כלאים",
-      "gloss": "two kinds"
+      "surface": "כִלְאָיִם",
+      "gloss": "two-kinds",
+      "sense": "S1",
+      "readings": [
+        "two-kinds",
+        "two heterogeneous things"
+      ]
     },
     {
-      "surface": "פן",
+      "surface": "פֶן",
       "gloss": "lest"
     },
     {
-      "surface": "תקדש",
-      "gloss": "be forfeited",
-      "readings": [
-        "be forfeited",
-        "become holy"
-      ],
-      "held_by": {
-        "be forfeited": [
-          "v2",
-          "v3"
-        ],
-        "become holy": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "תִקְּדַשׁ",
+      "gloss": "it be consecrated",
+      "sense": "S1"
     },
     {
-      "surface": "המלאה",
-      "gloss": "the fullness"
+      "surface": "הַמְלֵאָה",
+      "gloss": "the fullness",
+      "sense": "S1"
     },
     {
-      "surface": "הזרע",
-      "gloss": "the seed"
+      "surface": "הַזֶּרַע",
+      "gloss": "the seed",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "which"
+      "surface": "אֲשֶׁר",
+      "gloss": "that"
     },
     {
-      "surface": "תזרע",
-      "gloss": "you sow"
+      "surface": "תִזְרָע",
+      "gloss": "you sow",
+      "sense": "S1"
     },
     {
-      "surface": "ותבואת",
-      "gloss": "and the yield"
+      "surface": "וּתְבוּאַת",
+      "gloss": "and the produce of",
+      "sense": "S1"
     },
     {
-      "surface": "הכרם",
-      "gloss": "of the vineyard"
+      "surface": "הַכָּרֶם",
+      "gloss": "the vineyard",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:06:27.142800489Z",
+  "model": "glm-5.3"
 }

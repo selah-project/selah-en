@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Behold, to bless I have received ⟨command⟩, and He has blessed, and I will not turn it back.",
-  "tokens": [
+  "ref": "numbers 23:20",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Behold"
+      "kind": "wordplay",
+      "subject": "ברך… ברך",
+      "rationale": "Infinitive absolute בָרֵךְ doubling the verb: the blessing is emphasized by repetition, kept by repeating 'to bless' in English."
     },
     {
-      "surface": "ברך",
-      "gloss": "to bless"
-    },
-    {
-      "surface": "לקחתי",
-      "gloss": "I have received"
-    },
-    {
-      "surface": "וברך",
-      "gloss": "and He has blessed"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "אשיבנה",
-      "gloss": "I will turn it back"
+      "kind": "alternative",
+      "subject": "I cannot turn it back",
+      "rationale": "Literal is 'and I will not turn it back' — ability, not permission, is the plain sense but the form is a simple negated imperfect."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, to bless I have received ⟨a command⟩ to bless, and He has blessed — and I cannot turn it back.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "535ac8b0c0c0e5c5025c45a6d900af297282f081c70f182f559c5a4ed8b1e07e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/23\/17-20.1791183266849.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִנֵּ֥ה",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "בָרֵ֖ךְ",
+      "gloss": "to bless",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָקָ֑חְתִּי",
+      "gloss": "I have received",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵרֵ֖ךְ",
+      "gloss": "and He has blessed",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֥א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשִׁיבֶֽנָּה",
+      "gloss": "I will turn it back",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:54:26.885802528Z",
+  "model": "glm-5.3"
 }

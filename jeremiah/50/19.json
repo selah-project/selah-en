@@ -1,93 +1,106 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "And I will bring back ⟨את⟩ Israel to his pasture, and he shall feed on Carmel and Bashan, and on mount Ephraim and Gilead his soul shall be satisfied.",
+  "ref": "jeremiah 50:19",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפשו is throat\/life-force\/appetite; 'his nefesh' keeps the Hebrew term with soul and appetite as lawful readings."
+    },
+    {
+      "kind": "addition",
+      "subject": "his",
+      "rationale": "נוהו carries a 3rd masculine suffix; the pasture belongs to Israel, grammatically singular though a nation."
+    }
+  ],
+  "translation": "And I will bring back ⟨את⟩ Israel to his pasture, and he will graze on Carmel and Bashan, and on the hill of Ephraim and Gilead his nefesh will be sated.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d98427363fb44e6c667700d095126da68987ff721744263a0115cd2cddd7ec17",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/50\/17-20.1791190066755.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "ושבבתי",
-      "gloss": "And I will bring back"
+      "gloss": "and I will bring back",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Israel",
+      "sense": null
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "אל",
-      "gloss": "to"
+      "gloss": "to",
+      "sense": null
     },
     {
       "surface": "נוהו",
       "gloss": "his pasture",
-      "readings": [
-        "his pasture",
-        "his habitation"
-      ],
-      "held_by": {
-        "his pasture": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his habitation": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ורעה",
-      "gloss": "and he shall feed"
+      "gloss": "and he will graze",
+      "sense": "S1"
     },
     {
       "surface": "הכרמל",
-      "gloss": "Carmel"
+      "gloss": "Carmel",
+      "sense": "S1"
     },
     {
       "surface": "והבשן",
-      "gloss": "and Bashan"
+      "gloss": "and Bashan",
+      "sense": "S1"
     },
     {
       "surface": "ובהר",
-      "gloss": "and on mount"
+      "gloss": "and on the hill of",
+      "sense": "S1"
     },
     {
       "surface": "אפרים",
-      "gloss": "Ephraim"
+      "gloss": "Ephraim",
+      "sense": "S1"
     },
     {
       "surface": "והגלעד",
-      "gloss": "and Gilead"
+      "gloss": "and Gilead",
+      "sense": "S1"
     },
     {
       "surface": "תשבע",
-      "gloss": "shall be satisfied"
+      "gloss": "will be sated",
+      "sense": "S1"
     },
     {
       "surface": "נפשו",
-      "gloss": "his soul",
+      "gloss": "his nefesh",
       "readings": [
-        "his soul",
         "his nefesh",
-        "his life"
+        "his soul",
+        "his appetite"
       ],
-      "held_by": {
-        "his soul": [
-          "v1",
-          "en4"
-        ],
-        "his nefesh": [
-          "v2",
-          "v3"
-        ],
-        "his life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:47:46.756808667Z",
+  "model": "glm-5.3"
 }

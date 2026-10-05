@@ -1,64 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Also one slack in his work — he is a brother to the master of destruction.",
-  "tokens": [
+  "ref": "proverbs 18:9",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "גם",
-      "gloss": "Also"
+      "kind": "wordplay",
+      "subject": "אָח הוּא",
+      "rationale": "The emphatic pronoun makes the identification stark: the slacker IS a brother of the destroyer — kinship, not mere resemblance."
     },
     {
-      "surface": "מתרפה",
-      "gloss": "slack",
-      "readings": [
-        "slack",
-        "one who lets drop"
-      ],
-      "held_by": {
-        "slack": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "one who lets drop": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "במלאכתו",
-      "gloss": "in his work"
-    },
-    {
-      "surface": "אח",
-      "gloss": "a brother"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "לבעל",
-      "gloss": "to the master of"
-    },
-    {
-      "surface": "משחית",
-      "gloss": "destruction",
-      "readings": [
-        "destruction",
-        "ruining"
-      ],
-      "held_by": {
-        "destruction": [
-          "v2",
-          "v3"
-        ],
-        "ruining": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "owner of destruction",
+      "rationale": "מַשְׁחִית is literally 'owner\/master of destruction'; many versions smooth to 'destroyer', losing the בעל construct pairing."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Also the-one-who-grows-slack in his work — he is a brother to the owner of destruction.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e99bee2ab8be3344a8f8014f0c247880424298d97e0cc0a9d4375d476b545f97",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/18\/9-12.1791193906843.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גַּ֭ם",
+      "gloss": "Also",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתְרַפֶּ֣ה",
+      "gloss": "the-one-who-grows-slack",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִמְלַאכְתּ֑וֹ",
+      "gloss": "in his work",
+      "sense": null
+    },
+    {
+      "surface": "אָ֥ח",
+      "gloss": "a brother",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֝֗וּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "לְבַ֣עַל",
+      "gloss": "to the owner of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׁחִֽית",
+      "gloss": "destruction",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:46.843918680Z",
+  "model": "glm-5.3"
 }

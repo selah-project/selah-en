@@ -1,89 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For he satisfied the soul that yearns, and the hungry soul he filled with good.",
+  "ref": "psalms 107:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש here is the seat of appetite and desire, near to 'throat'; both occurrences are feminine, matching the participles."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "השביע\/נפש שקקה",
+      "rationale": "the verse pairs sating a craving soul with filling a hungry one — a parallel of desire met, kept by the repetition of נפש."
+    }
+  ],
+  "translation": "For He sated the soul that craves, and the hungry soul He filled with good.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "896a823bf7127d1bab555e9e3f454c384f96cdede8a479b05158db464dd30c55",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/9-12.1791193339024.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "השביע",
-      "gloss": "satisfied"
+      "surface": "הִשְׂבִיעַ",
+      "gloss": "He sated",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "soul",
+      "surface": "נֶפֶשׁ",
+      "gloss": "the soul",
       "readings": [
-        "soul",
-        "nefesh",
-        "life"
+        "the soul",
+        "the appetite",
+        "the throat"
       ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "en4"
-        ],
-        "nefesh": [
-          "v2",
-          "v3"
-        ],
-        "life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "שקקה",
-      "gloss": "that yearns",
-      "readings": [
-        "that yearns",
-        "longing"
-      ],
-      "held_by": {
-        "that yearns": [
-          "v2",
-          "v3"
-        ],
-        "longing": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "שֹׁקֵקָה",
+      "gloss": "that craves",
+      "sense": null
     },
     {
-      "surface": "ונפש",
+      "surface": "וְנֶפֶשׁ",
       "gloss": "and the soul",
       "readings": [
         "and the soul",
-        "and the nefesh"
+        "and the appetite"
       ],
-      "held_by": {
-        "and the soul": [
-          "v1",
-          "en4"
-        ],
-        "and the nefesh": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "רעבה",
-      "gloss": "hungry"
+      "surface": "רְעֵבָה",
+      "gloss": "hungry",
+      "sense": "S1"
     },
     {
-      "surface": "מלא",
-      "gloss": "filled"
+      "surface": "מִלֵּא",
+      "gloss": "He filled",
+      "sense": "S1"
     },
     {
-      "surface": "טוב",
-      "gloss": "with good"
+      "surface": "טֽוֹב",
+      "gloss": "with good",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:19.025245484Z",
+  "model": "glm-5.3"
 }

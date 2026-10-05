@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "They return at evening; they growl like a dog, and circle ⟨the⟩ city.",
-  "tokens": [
+  "ref": "psalms 59:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
     {
-      "surface": "ישובו",
-      "gloss": "they return"
+      "kind": "substitution",
+      "subject": "howl",
+      "rationale": "הָמָה is to make a loud sound, a hum or growl; howl is the dog-context choice."
     },
     {
-      "surface": "לערב",
-      "gloss": "at evening"
-    },
-    {
-      "surface": "יהמו",
-      "gloss": "they growl",
-      "readings": [
-        "they growl",
-        "they howl"
-      ],
-      "held_by": {
-        "they growl": [
-          "v2",
-          "v3"
-        ],
-        "they howl": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ככלב",
-      "gloss": "like a dog"
-    },
-    {
-      "surface": "ויסובבו",
-      "gloss": "and circle"
-    },
-    {
-      "surface": "עיר",
-      "gloss": "⟨the⟩ city"
+      "kind": "wordplay",
+      "subject": "this verse",
+      "rationale": "The line is repeated verbatim at Psalm 59:15, a refrain bracketing the psalm."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They return at evening, they howl like the dog, and go around the city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d17f399278a8e3325c6742949d14dd6c368bf3f0a56f89c5bbd7a5a19ded510",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/5-8.1791192847541.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָשׁ֣וּבוּ",
+      "gloss": "they return",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָעֶ֑רֶב",
+      "gloss": "at evening",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶהֱמ֥וּ",
+      "gloss": "they howl",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַכֶּ֗לֶב",
+      "gloss": "like the dog",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִיסֹֽובְבוּ",
+      "gloss": "and go around"
+    },
+    {
+      "surface": "עִֽיר",
+      "gloss": "the city",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:07.541897766Z",
+  "model": "glm-5.3"
 }

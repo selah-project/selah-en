@@ -1,68 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Behold, Elohim is ⟨a⟩ helper to me; Adonai is among the upholders of my nefesh.",
-  "tokens": [
+  "ref": "psalms 54:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
     {
-      "surface": "הנה",
-      "gloss": "Behold"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew participial clauses lack a copula; supplied twice"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "עזר",
-      "gloss": "helper"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me",
-      "readings": [
-        "to me",
-        "my"
-      ],
-      "held_by": {
-        "to me": [
-          "en4"
-        ],
-        "my": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "בסמכי",
-      "gloss": "among the upholders of"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
-      "readings": [
-        "my nefesh",
-        "my life",
-        "my soul"
-      ],
-      "held_by": {
-        "my nefesh": [
-          "en4"
-        ],
-        "my life": [
-          "v2",
-          "v3"
-        ],
-        "my soul": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "בְּסֹמְכֵי",
+      "rationale": "plural participle construct ‘among the upholders of’; some read a singular sense ‘the One who upholds’"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, Elohim ⟨is⟩ my helper; Adonai ⟨is⟩ among those who uphold my life.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8f771c7228cf2ac7265cea962c66e9a97d5fdec631cef072d9d62f92ad63865",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/54\/5-8.1791192803274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִנֵּה",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹזֵר",
+      "gloss": "my helper",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "for me",
+      "sense": null
+    },
+    {
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּסֹמְכֵי",
+      "gloss": "among those who uphold",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my life",
+      "readings": [
+        "my life",
+        "my throat",
+        "myself"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:23.275616992Z",
+  "model": "glm-5.3"
 }

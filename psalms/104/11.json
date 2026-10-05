@@ -1,66 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "They give drink to every beast of the field; the wild asses break their thirst.",
-  "tokens": [
+  "ref": "psalms 104:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "ישקו",
-      "gloss": "they give drink"
+      "kind": "idiom",
+      "subject": "break their thirst",
+      "rationale": "שבר with thirst literally 'break' — English idiom would be 'quench'; the Hebrew's picture of thirst as something snapped is kept."
     },
     {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
-      "surface": "חיתו",
-      "gloss": "beast of",
-      "readings": [
-        "beast of",
-        "living thing of"
-      ],
-      "held_by": {
-        "beast of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "living thing of": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שדי",
-      "gloss": "of the field"
-    },
-    {
-      "surface": "ישברו",
-      "gloss": "they break",
-      "readings": [
-        "they break",
-        "they quench"
-      ],
-      "held_by": {
-        "they break": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they quench": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "פראים",
-      "gloss": "the wild asses"
-    },
-    {
-      "surface": "צמאם",
-      "gloss": "their thirst"
+      "kind": "wordplay",
+      "subject": "פראים",
+      "rationale": "The onager is the classic figure of untameable wilderness; 'wild donkeys' is a lawful second reading, 'onagers' the species-exact one."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They give drink to all the living-creatures of the field; the onagers break their thirst.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7290c7d036b5dbc11586cc305b6d0c12e40b2bb15c3ed28bfa9b5251ed43eb9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/9-12.1791193278863.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַ֭שְׁקוּ",
+      "gloss": "They give drink",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "חַיְת֣וֹ",
+      "gloss": "the living-creatures of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂדָ֑י",
+      "gloss": "the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁבְּר֖וּ",
+      "gloss": "the … break",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְרָאִ֣ים",
+      "gloss": "onagers",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְמָאָֽם",
+      "gloss": "their thirst",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:18.864513594Z",
+  "model": "glm-5.3"
 }

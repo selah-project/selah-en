@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For my iniquities have passed over my head; like a burden, heavy, they are too heavy for me.",
-  "tokens": [
+  "ref": "psalms 38:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "wordplay",
+      "subject": "כָּבֵד \/ יִכְבְּדוּ",
+      "rationale": "The adjective “heavy” and the verb “to be heavy” share one root, a heavy-burden repetition carried in English as heavy\/weigh heavily."
     },
     {
-      "surface": "עונתי",
-      "gloss": "my iniquities"
-    },
-    {
-      "surface": "עברו",
-      "gloss": "have passed over"
-    },
-    {
-      "surface": "ראשי",
-      "gloss": "my head"
-    },
-    {
-      "surface": "כמשא",
-      "gloss": "like a burden"
-    },
-    {
-      "surface": "כבד",
-      "gloss": "heavy"
-    },
-    {
-      "surface": "יכבדו",
-      "gloss": "they are too heavy",
-      "readings": [
-        "they are too heavy",
-        "they are burdensome"
-      ],
-      "held_by": {
-        "they are too heavy": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they are burdensome": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממני",
-      "gloss": "for me",
-      "readings": [
-        "for me",
-        "from me"
-      ],
-      "held_by": {
-        "for me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from me": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "they weigh heavily",
+      "rationale": "מִמֶּנִּי is literally “more than I (can bear)”, a comparison of excess, not simply “upon me”."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For my iniquities have passed over my head; like a heavy burden they weigh heavily upon me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b37c3bc55e3ac1b5a10733457f6c5b49f7c685fdb2933b7aa4cece569b00cbe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/38\/5-8.1791192656637.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֣י",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "עֲ֭וֺנֹתַי",
+      "gloss": "my iniquities",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָבְר֣וּ",
+      "gloss": "have passed over",
+      "sense": null
+    },
+    {
+      "surface": "רֹאשִׁ֑י",
+      "gloss": "my head",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּמַשָּׂ֥א",
+      "gloss": "like a burden",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָ֝בֵ֗ד",
+      "gloss": "heavy",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִכְבְּד֥וּ",
+      "gloss": "they weigh heavily",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּֽנִּי",
+      "gloss": "upon me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:56.638432899Z",
+  "model": "glm-5.3"
 }

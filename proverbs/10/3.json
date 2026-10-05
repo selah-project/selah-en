@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "YHWH does not let the nefesh of the righteous hunger, but the craving of the wicked he thrusts away.",
+  "ref": "proverbs 10:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "הַוַּת",
+      "rationale": "'craving\/desire' (usually evil) vs 'ruin' — both senses of הַוָּה are attested in Proverbs"
+    },
+    {
+      "kind": "substitution",
+      "subject": "throat",
+      "rationale": "נֶפֶשׁ literally throat; 'soul' or 'life' would lose the bodily picture of hunger"
+    }
+  ],
+  "translation": "YHWH does not let the throat of the righteous hunger, and the craving of the wicked he thrusts away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f19ba610587f9386be6eb8afdadc6c7ee86798ecb4a76cd5fa0c271b7f726e8c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/1-4.1791193789857.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ירעיב",
-      "gloss": "let hunger"
+      "surface": "יַרְעִיב",
+      "gloss": "lets hunger",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
-      "gloss": "nefesh"
+      "surface": "נֶפֶשׁ",
+      "gloss": "the throat of",
+      "readings": [
+        "the throat of",
+        "the life of",
+        "the soul of"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "צדיק",
-      "gloss": "of the righteous"
+      "surface": "צַדִּיק",
+      "gloss": "the righteous",
+      "sense": "S1"
     },
     {
-      "surface": "והות",
+      "surface": "וְהַוַּת",
       "gloss": "and the craving of",
       "readings": [
         "and the craving of",
         "and the ruin of"
       ],
-      "held_by": {
-        "and the craving of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and the ruin of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רשעים",
-      "gloss": "of the wicked"
+      "surface": "רְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "יהדף",
+      "surface": "יֶהְדֹּף",
       "gloss": "he thrusts away",
-      "readings": [
-        "he thrusts away",
-        "he pushes down"
-      ],
-      "held_by": {
-        "he thrusts away": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he pushes down": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:49:49.858046177Z",
+  "model": "glm-5.3"
 }

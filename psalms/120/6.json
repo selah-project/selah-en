@@ -1,64 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Too long has my nefesh dwelt for herself with the hater of peace.",
+  "ref": "psalms 120:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 120,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "English needs an object pronoun for the preposition whose referent (נפשי) follows in Hebrew."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my soul",
+      "rationale": "נפש is throat\/life-force, the breathing self, not an immaterial soul."
+    }
+  ],
+  "translation": "Long has my soul made its home with him who hates peace.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c5b9273cb129e16ba311517833c0c6558a42ad9f96d2d678a5670bfbb1527ec7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/120\/5-7.1791193502725.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "רבת",
-      "gloss": "Too long"
+      "surface": "רַבַּת",
+      "gloss": "Long",
+      "sense": "S1"
     },
     {
-      "surface": "שכנה",
-      "gloss": "has dwelt"
+      "surface": "שָֽׁכְנָה",
+      "gloss": "has made its home",
+      "sense": "S1"
     },
     {
-      "surface": "לה",
-      "gloss": "for herself"
+      "surface": "לָּהּ",
+      "gloss": "⟨it⟩"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
+      "surface": "נַפְשִׁי",
+      "gloss": "my soul",
+      "sense": "S1",
       "readings": [
-        "my nefesh",
-        "my soul"
-      ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ]
-      }
+        "my soul",
+        "my life",
+        "my throat"
+      ]
     },
     {
-      "surface": "עם",
+      "surface": "עִם",
       "gloss": "with"
     },
     {
-      "surface": "שונא",
+      "surface": "שׂוֹנֵא",
       "gloss": "the hater of",
-      "readings": [
-        "the hater of",
-        "those who hate"
-      ],
-      "held_by": {
-        "the hater of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "those who hate": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שלום",
-      "gloss": "peace"
+      "surface": "שָׁלֽוֹם",
+      "gloss": "peace",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:02.726685618Z",
+  "model": "glm-5.3"
 }

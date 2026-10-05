@@ -1,64 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "I love, for YHWH hears ⟨את⟩ my voice, my supplications.",
-  "tokens": [
+  "ref": "psalms 116:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 116,
+  "notes": [
     {
-      "surface": "אהבתי",
-      "gloss": "I love",
-      "readings": [
-        "I love",
-        "I have loved"
-      ],
-      "held_by": {
-        "I love": [
-          "v2",
-          "v3"
-        ],
-        "I have loved": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "ישמע",
-      "gloss": "hears",
-      "readings": [
-        "hears",
-        "has heard"
-      ],
-      "held_by": {
-        "hears": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "has heard": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "קולי",
-      "gloss": "my voice"
-    },
-    {
-      "surface": "תחנוני",
-      "gloss": "my supplications"
+      "kind": "alternative",
+      "subject": "I love",
+      "rationale": "perfect אָהַבְתִּי could be past 'I have loved'; present-stative chosen as the psalm's opening declaration."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I love, for YHWH hears ⟨את⟩ my voice, my pleas.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9293bbecd208c6248f4101d6f03f7ab8c9ae0165b6b90e318b5cb6e1bcf8681d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/116\/1-4.1791193406661.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָ֭הַבְתִּי",
+      "gloss": "I love",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׁמַ֥ע",
+      "gloss": "hears",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "my voice",
+      "sense": null
+    },
+    {
+      "surface": "ק֝וֹלִ֗י",
+      "gloss": "my voice",
+      "sense": null
+    },
+    {
+      "surface": "תַּחֲנוּנָֽי",
+      "gloss": "my pleas",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:26.661919751Z",
+  "model": "glm-5.3"
 }

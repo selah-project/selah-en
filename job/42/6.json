@@ -1,56 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Therefore I reject, and I am comforted, upon dust and ashes.",
+  "ref": "job 42:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ונחמתי",
+      "rationale": "niphal of נחם: 'I am comforted\/comfort myself' vs 'I repent' — both old; the parallel verb מאס (despise\/recant) pulls both ways."
+    },
+    {
+      "kind": "alternative",
+      "subject": "I despise",
+      "rationale": "מאס object unstated: 'I despise (my words\/myself)' — the Hebrew leaves it bare."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עפר ואפר",
+      "rationale": "'afar va'efer — dust and ashes rhyme; the pair survives intact in English only as near-rhyme."
+    }
+  ],
+  "translation": "Therefore I despise, and I am comforted, on dust and ashes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e193c946f603c16b1418cb04f7ea2966b0b7a3aeaceefd84a944e402d46a2794",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/42\/5-8.1791194677648.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
-      "gloss": "Therefore"
+      "surface": "עַל",
+      "gloss": "Therefore",
+      "sense": null
     },
     {
-      "surface": "כן",
-      "gloss": "therefore"
+      "surface": "כֵּ֭ן",
+      "gloss": "therefore",
+      "sense": null
     },
     {
-      "surface": "אמאס",
-      "gloss": "I reject",
+      "surface": "אֶמְאַ֣ס",
+      "gloss": "I despise",
+      "sense": "S1",
       "readings": [
-        "I reject",
         "I despise",
-        "I repent ⟨of⟩"
+        "I recant"
       ]
     },
     {
-      "surface": "ונחמתי",
+      "surface": "וְנִחַ֑מְתִּי",
       "gloss": "and I am comforted",
+      "sense": "S1",
       "readings": [
         "and I am comforted",
-        "and I relent"
-      ],
-      "held_by": {
-        "and I am comforted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and I relent": [
-          "en4"
-        ]
-      }
+        "and I repent"
+      ]
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "עפר",
-      "gloss": "dust"
+      "surface": "עָפָ֥ר",
+      "gloss": "dust",
+      "sense": "S1"
     },
     {
-      "surface": "ואפר",
-      "gloss": "and ashes"
+      "surface": "וָאֵֽפֶר",
+      "gloss": "and ashes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:37.649270326Z",
+  "model": "glm-5.3"
 }

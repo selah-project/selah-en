@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And even if truly I have gone astray, my error spends ⟨the night⟩ with ⟨את⟩ me.",
-  "tokens": [
+  "ref": "job 19:4",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ואף",
-      "gloss": "and even if"
+      "kind": "hapax",
+      "subject": "משוגתי",
+      "rationale": "The noun משוגה occurs only here in the Tanakh."
     },
     {
-      "surface": "אמנם",
-      "gloss": "truly"
-    },
-    {
-      "surface": "שגיתי",
-      "gloss": "I have gone astray"
-    },
-    {
-      "surface": "אתי",
-      "gloss": "with ⟨את⟩ me"
-    },
-    {
-      "surface": "תלין",
-      "gloss": "spends ⟨the night⟩",
-      "readings": [
-        "spends ⟨the night⟩",
-        "lodges"
-      ],
-      "held_by": {
-        "spends ⟨the night⟩": [
-          "v1",
-          "v3"
-        ],
-        "lodges": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "משוגתי",
-      "gloss": "my error"
+      "kind": "wordplay",
+      "subject": "שגיתי \/ משוגתי",
+      "rationale": "Verb and noun share the root שגה — 'I strayed… my straying' — a pairing English can only echo."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And even if I have truly strayed, my wandering lodges with ⟨את⟩ me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3c14c65d92a6013d75b3e0bd923b18c7abf0d102b5607ede4e2e2fc9d83232b3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/1-4.1791194336853.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַ֣ף",
+      "gloss": "And even",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָמְנָ֥ם",
+      "gloss": "truly",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂגִ֑יתִי",
+      "gloss": "I have strayed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתִּ֗י",
+      "gloss": "⟨את⟩ with me",
+      "sense": null
+    },
+    {
+      "surface": "תָּלִ֥ין",
+      "gloss": "lodges",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְשׁוּגָתִֽי",
+      "gloss": "my wandering",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:56.854657016Z",
+  "model": "glm-5.3"
 }

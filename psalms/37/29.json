@@ -1,46 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "The righteous shall inherit the land, and they shall dwell upon it forever.",
+  "ref": "psalms 37:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "the land \/ the earth",
+      "rationale": "ארץ here plausibly echoes the land-promise of v. 22; 'earth' is the wider sense."
+    }
+  ],
+  "translation": "The righteous will possess the land, and will dwell on it forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1de30fb2e18818238717dd34f0e1d75b54651374066e9377977a9473fc2129f7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/29-32.1791192639348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "צדיקים",
-      "gloss": "The righteous"
+      "surface": "צַדִּיקִים",
+      "gloss": "The righteous",
+      "sense": "S1"
     },
     {
-      "surface": "יירשו",
-      "gloss": "shall inherit"
+      "surface": "יִירְשׁוּ",
+      "gloss": "will possess",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָרֶץ",
       "gloss": "the land",
       "readings": [
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וישכנו",
-      "gloss": "and they shall dwell"
+      "surface": "וְיִשְׁכְּנוּ",
+      "gloss": "and will dwell",
+      "sense": "S1"
     },
     {
-      "surface": "לעד",
-      "gloss": "forever"
+      "surface": "לָעַד",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "עליה",
-      "gloss": "upon it"
+      "surface": "עָלֶיהָ",
+      "gloss": "on it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:39.349059425Z",
+  "model": "glm-5.3"
 }

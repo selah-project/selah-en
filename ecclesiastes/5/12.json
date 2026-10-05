@@ -1,77 +1,96 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "There is a sickening evil I have seen under the sun: wealth kept for its owner, to his harm.",
+  "ref": "ecclesiastes 5:12",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "חולה",
+      "rationale": "The feminine participle 'sick' modifies the feminine noun רעה — lit. 'a sick evil'; rendered 'grievous', though the illness picture is live."
+    },
+    {
+      "kind": "alternative",
+      "subject": "to his harm",
+      "rationale": "לְרָעָתוֹ may read 'resulting in his hurt' — the kept wealth turns against its keeper."
+    }
+  ],
+  "translation": "There is a grievous evil I have seen under the sun: wealth kept by its owner to his harm.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc3047f34eaafaeed36eb1a537f6738005eee8b4851bc58603ceb5cdd36f1b6d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/5\/9-12.1791194878531.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "יש",
-      "gloss": "There is"
+      "surface": "יֵ֚שׁ",
+      "gloss": "there is"
     },
     {
-      "surface": "רעה",
-      "gloss": "an evil"
+      "surface": "רָעָ֣ה",
+      "gloss": "an evil",
+      "sense": "S1"
     },
     {
-      "surface": "חולה",
-      "gloss": "sickening",
+      "surface": "חוֹלָ֔ה",
+      "gloss": "grievous",
+      "sense": "S1",
       "readings": [
-        "sickening",
-        "grievous"
-      ],
-      "held_by": {
-        "sickening": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "grievous": [
-          "en4"
-        ]
-      }
+        "grievous",
+        "sick"
+      ]
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I have seen"
+      "surface": "רָאִ֖יתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
     },
     {
-      "surface": "תחת",
+      "surface": "תַּ֣חַת",
       "gloss": "under"
     },
     {
-      "surface": "השמש",
-      "gloss": "the sun"
+      "surface": "הַשָּׁ֑מֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
     },
     {
-      "surface": "עשר",
-      "gloss": "wealth"
+      "surface": "עֹ֛שֶׁר",
+      "gloss": "wealth",
+      "sense": "S1"
     },
     {
-      "surface": "שמור",
-      "gloss": "kept"
+      "surface": "שָׁמ֥וּר",
+      "gloss": "kept",
+      "sense": "S1",
+      "readings": [
+        "kept",
+        "guarded",
+        "stored away"
+      ]
     },
     {
-      "surface": "לבעליו",
-      "gloss": "for its owner"
+      "surface": "לִבְעָלָ֖יו",
+      "gloss": "by its owner",
+      "sense": "S1"
     },
     {
-      "surface": "לרעתו",
+      "surface": "לְרָעָתֹֽו",
       "gloss": "to his harm",
+      "sense": "S1",
       "readings": [
         "to his harm",
-        "to his evil"
-      ],
-      "held_by": {
-        "to his harm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to his evil": [
-          "en4"
-        ]
-      }
+        "for his misfortune"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:58.532649024Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "To the rich ⟨man⟩ there was flock and herd, many, exceedingly.",
+  "ref": "2-samuel 12:2",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "הַרְבֵּה מְאֹד",
+      "rationale": "hiphil infinitive absolute 'multiplying greatly' rendered adverbially; literal doubling kept as 'multiplying very'"
+    }
+  ],
+  "translation": "To the rich man there was flock and herd, very many.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a18c179299096e92c7c4179d84113eb1f298d0d5ab44f82b8134c80da3dfad38",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/12\/1-4.1791186307284.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "לעשיר",
-      "gloss": "to the rich ⟨man⟩"
+      "surface": "לָעָשִׁיר",
+      "gloss": "to the rich man",
+      "sense": "S1"
     },
     {
-      "surface": "היה",
+      "surface": "הָיָה",
       "gloss": "there was"
     },
     {
-      "surface": "צאן",
+      "surface": "צֹאן",
       "gloss": "flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבָקָר",
+      "gloss": "and herd",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַרְבֵּה",
+      "gloss": "multiplying",
       "readings": [
-        "flock",
-        "sheep and goats"
-      ],
-      "held_by": {
-        "flock": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sheep and goats": [
-          "en4"
-        ]
-      }
+        "multiplying",
+        "abundantly"
+      ]
     },
     {
-      "surface": "ובקר",
-      "gloss": "and herd"
-    },
-    {
-      "surface": "הרבה",
-      "gloss": "many"
-    },
-    {
-      "surface": "מאד",
-      "gloss": "exceedingly"
+      "surface": "מְאֹד",
+      "gloss": "very",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:45:07.286057624Z",
+  "model": "glm-5.3"
 }

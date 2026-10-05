@@ -1,52 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "He who winks the eye gives grief, but a fool of lips will fall.",
-  "tokens": [
+  "ref": "proverbs 10:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "קרץ",
-      "gloss": "He who winks"
+      "kind": "hapax",
+      "subject": "עצבת",
+      "rationale": "Rare word 'pain\/anguish', elsewhere in the Psalms and Job."
     },
     {
-      "surface": "עין",
-      "gloss": "the eye"
+      "kind": "crux",
+      "subject": "ילבט",
+      "rationale": "Exact meaning unknown; rendered 'will be broken' (lit. 'will stumble\/be overthrown')."
     },
     {
-      "surface": "יתן",
-      "gloss": "gives"
-    },
-    {
-      "surface": "עצבת",
-      "gloss": "grief"
-    },
-    {
-      "surface": "ואויל",
-      "gloss": "and a fool"
-    },
-    {
-      "surface": "שפתים",
-      "gloss": "of lips"
-    },
-    {
-      "surface": "ילבט",
-      "gloss": "will fall",
-      "readings": [
-        "will fall",
-        "will be thrown down"
-      ],
-      "held_by": {
-        "will fall": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will be thrown down": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "gives pain",
+      "rationale": "Some read עצבת as 'causes vexation'; 'gives pain' is the plain sense."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The one who winks an eye gives pain, and a fool of lips will be broken.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "293cee705937b8f3ceb3f6478f56398a7d8b58f465eb8d4258335ba993001894",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/9-12.1791193796524.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קֹ֣רֵֽץ",
+      "gloss": "The one who winks",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֭יִן",
+      "gloss": "an eye",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּ֣ן",
+      "gloss": "gives",
+      "sense": null
+    },
+    {
+      "surface": "עַצָּ֫בֶת",
+      "gloss": "pain",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶאֱוִ֥יל",
+      "gloss": "and a fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂפָתַ֗יִם",
+      "gloss": "of lips",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִלָּבֵֽט",
+      "gloss": "will be broken",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:56.525635321Z",
+  "model": "glm-5.3"
 }

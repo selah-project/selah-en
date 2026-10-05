@@ -1,61 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "Upon him the quiver rattles — the flash of the spear and the javelin.",
-  "tokens": [
+  "ref": "job 39:23",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "עליו",
-      "gloss": "upon him"
+      "kind": "hapax",
+      "subject": "תִּרְנֶה",
+      "rationale": "רנה 'to whiz, rattle' occurs only here in the Tanakh."
     },
     {
-      "surface": "תרנה",
-      "gloss": "it rattles",
-      "readings": [
-        "it rattles",
-        "it whirrs"
-      ],
-      "held_by": {
-        "it rattles": [
-          "v2",
-          "en4"
-        ],
-        "it whirrs": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "אשפה",
-      "gloss": "the quiver"
-    },
-    {
-      "surface": "להב",
-      "gloss": "the flash of",
-      "readings": [
-        "the flash of",
-        "the blade of"
-      ],
-      "held_by": {
-        "the flash of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the blade of": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חנית",
-      "gloss": "the spear"
-    },
-    {
-      "surface": "וכידון",
-      "gloss": "and the javelin"
+      "kind": "wordplay",
+      "subject": "לַהַב",
+      "rationale": "the word means flash\/glint and by extension the polished blade; the construct 'flashing of spear' keeps both senses bound."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Over him rattles the quiver, the flashing of spear and javelin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "056ad138f4424ceeb2c53a969eedb825f47c30a46eb76c0eb62281388786bd4c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/39\/21-24.1791194621787.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָ֭לָיו",
+      "gloss": "over him"
+    },
+    {
+      "surface": "תִּרְנֶ֣ה",
+      "gloss": "rattles",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁפָּ֑ה",
+      "gloss": "the quiver",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַ֖הַב",
+      "gloss": "the flashing of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲנִ֣ית",
+      "gloss": "spear",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִידֹֽון",
+      "gloss": "and javelin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:41.788809650Z",
+  "model": "glm-5.3"
 }

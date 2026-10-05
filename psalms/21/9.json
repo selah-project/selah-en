@@ -1,36 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Your hand shall find all your enemies; your right hand shall find those who hate you.",
+  "ref": "psalms 21:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "hand \/ right hand",
+      "rationale": "יָד and יָמִין carry metonymic force of power and favor, kept literal here."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תמצא … תמצא",
+      "rationale": "repetition of 'will find' frames the parallel couplet."
+    }
+  ],
+  "translation": "Your hand will find all your enemies; your right hand will find those who hate you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d027b55f44e4c6f14752f2d7790d47233f82d98fdb9cea29a2043d2ee6cb2c77",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/21\/9-12.1791192495571.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תמצא",
-      "gloss": "shall find"
+      "surface": "תִּמְצָא",
+      "gloss": "will find",
+      "sense": "S1"
     },
     {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "surface": "יָדְךָ",
+      "gloss": "your hand",
+      "sense": "S1",
+      "readings": [
+        "your hand",
+        "your power"
+      ]
     },
     {
-      "surface": "לכל",
+      "surface": "לְכָל",
       "gloss": "all"
     },
     {
-      "surface": "איביך",
-      "gloss": "your enemies"
+      "surface": "אֹיְבֶיךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
     },
     {
-      "surface": "ימינך",
-      "gloss": "your right hand"
+      "surface": "יְמִינְךָ",
+      "gloss": "your right hand",
+      "sense": "S1"
     },
     {
-      "surface": "תמצא",
-      "gloss": "shall find"
+      "surface": "תִּמְצָא",
+      "gloss": "will find",
+      "sense": "S1"
     },
     {
-      "surface": "שנאיך",
-      "gloss": "those who hate you"
+      "surface": "שֹׂנְאֶיךָ",
+      "gloss": "those who hate you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:15.571635876Z",
+  "model": "glm-5.3"
 }

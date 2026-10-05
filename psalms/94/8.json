@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Understand, you brutish among the people, and you fools — when will you be wise?",
-  "tokens": [
+  "ref": "psalms 94:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
     {
-      "surface": "בינו",
-      "gloss": "understand"
+      "kind": "invitation",
+      "subject": "to the brutish and fools",
+      "rationale": "imperative summons plus a rhetorical 'when' question addressed directly to the wicked"
     },
     {
-      "surface": "בערים",
-      "gloss": "you brutish"
-    },
-    {
-      "surface": "בעם",
-      "gloss": "among the people"
-    },
-    {
-      "surface": "וכסילים",
-      "gloss": "and you fools"
-    },
-    {
-      "surface": "מתי",
-      "gloss": "when"
-    },
-    {
-      "surface": "תשכילו",
-      "gloss": "will you be wise",
-      "readings": [
-        "will you be wise",
-        "will you act wisely"
-      ],
-      "held_by": {
-        "will you be wise": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will you act wisely": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "brutish",
+      "rationale": "בער in this sense pictures one dull as cattle, lacking sense — the animal picture is the word's own"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Understand, you brutish among the people, and fools — when will you gain sense?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2dd82b4cc88b3ac3f4e32913062a615de2f059a33562b5a7983433aea721e358",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/5-8.1791193208965.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בִּינוּ",
+      "gloss": "Understand",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּעֲרִים",
+      "gloss": "you brutish",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעָם",
+      "gloss": "among the people",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְסִילִים",
+      "gloss": "and fools",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָתַי",
+      "gloss": "when",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּשְׂכִּילוּ",
+      "gloss": "will you gain sense",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:08.966153349Z",
+  "model": "glm-5.3"
 }

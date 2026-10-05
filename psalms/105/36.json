@@ -1,50 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And he struck every firstborn in their land, the firstfruits of all their strength.",
-  "tokens": [
+  "ref": "psalms 105:36",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "ויך",
-      "gloss": "and he struck"
+      "kind": "alternative",
+      "subject": "their strength",
+      "rationale": "און spans physical strength, virility, and wealth; 'strength' suits the firstborn as the firstfruits of it."
     },
     {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
-      "surface": "בכור",
-      "gloss": "firstborn"
-    },
-    {
-      "surface": "בארצם",
-      "gloss": "in their land"
-    },
-    {
-      "surface": "ראשית",
-      "gloss": "the firstfruits",
-      "readings": [
-        "the firstfruits",
-        "the first"
-      ],
-      "held_by": {
-        "the firstfruits": [
-          "v1",
-          "en4"
-        ],
-        "the first": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "לכל",
-      "gloss": "of all"
-    },
-    {
-      "surface": "אונם",
-      "gloss": "their strength"
+      "kind": "wordplay",
+      "subject": "כל בכור … לכל אונם",
+      "rationale": "'Every firstborn' parallels 'the first of all their strength' — firstness doubled in apposition."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and he struck every firstborn in their land, the first of all their strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa4a0c95fd772aaa60ba3d4722da066bada60ad025e5d66e867bed1e0ab2c479",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/33-36.1791193303822.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֣ךְ",
+      "gloss": "and he struck",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "every",
+      "sense": null
+    },
+    {
+      "surface": "בְּכ֣וֹר",
+      "gloss": "firstborn",
+      "sense": null
+    },
+    {
+      "surface": "בְּאַרְצָ֑ם",
+      "gloss": "in their land",
+      "sense": "S1",
+      "readings": [
+        "in their land",
+        "in their earth"
+      ]
+    },
+    {
+      "surface": "רֵאשִׁ֗ית",
+      "gloss": "the first",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "of all",
+      "sense": null
+    },
+    {
+      "surface": "אוֹנָֽם",
+      "gloss": "their strength",
+      "sense": "S1",
+      "readings": [
+        "their strength",
+        "their vigor"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:43.823125730Z",
+  "model": "glm-5.3"
 }

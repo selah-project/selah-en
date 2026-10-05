@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "You made men ride over our heads; we went into fire and into water, and you brought us out to abundance.",
+  "ref": "psalms 66:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 66,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "לרויה",
+      "rationale": "'abundance\/overflow' vs 'relief (from danger)' — also Ps 23:5; chosen S2, safety-after-danger fits the exodus from fire and water"
+    },
+    {
+      "kind": "idiom",
+      "subject": "through fire and through water",
+      "rationale": "באנו באש ובמים literally 'we came into fire and into water', extreme perils rendered with English 'through'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "men ride at our head",
+      "rationale": "'you let men ride over our head' (dominion) vs 'men ride at our head' (leadership of oppressors)"
+    }
+  ],
+  "translation": "You made men ride over our head; we went through fire and through water, and you brought us out to abundance.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa8650f60301c711b84e288c816dac44da2dc0468739dd00e323b4c0f8e13423",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/66\/9-12.1791192884494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הרכבת",
-      "gloss": "You made ride"
+      "surface": "הִרְכַּ֥בְתָּ",
+      "gloss": "you made ride",
+      "sense": "S1"
     },
     {
-      "surface": "אנוש",
+      "surface": "אֱנ֗וֹשׁ",
       "gloss": "men",
-      "readings": [
-        "men",
-        "mortal man"
-      ],
-      "held_by": {
-        "men": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "mortal man": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לראשנו",
-      "gloss": "over our heads"
+      "surface": "לְרֹאשֵׁ֥נוּ",
+      "gloss": "over our head",
+      "sense": "S1"
     },
     {
-      "surface": "באנו",
-      "gloss": "we went"
+      "surface": "בָּֽאנוּ",
+      "gloss": "we went",
+      "sense": null
     },
     {
-      "surface": "באש",
-      "gloss": "into fire"
+      "surface": "בָאֵ֥שׁ",
+      "gloss": "through fire",
+      "sense": "S1"
     },
     {
-      "surface": "ובמים",
-      "gloss": "and into water"
+      "surface": "וּבַמַּ֑יִם",
+      "gloss": "and through water",
+      "sense": "S1"
     },
     {
-      "surface": "ותוציאנו",
-      "gloss": "and you brought us out"
+      "surface": "וַתּוֹצִיאֵ֗נוּ",
+      "gloss": "and you brought us out",
+      "sense": "S1"
     },
     {
-      "surface": "לרויה",
+      "surface": "לָרְוָיָֽה",
       "gloss": "to abundance",
       "readings": [
         "to abundance",
-        "to saturation"
+        "to relief"
       ],
-      "held_by": {
-        "to abundance": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to saturation": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:44.494955306Z",
+  "model": "glm-5.3"
 }

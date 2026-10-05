@@ -1,191 +1,154 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "and said, “Far be it from me, ⟨from⟩ my Elohim, to do this — the blood of these men shall I drink with their lives? For with their lives they brought them.” And he was not willing to drink them. These things did the three mighty men.",
+  "ref": "1-chronicles 11:19",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "מאלהי",
+      "rationale": "2 Sam 23:17 reads יהוה; Chronicles has 'my Elohim' — the divine Name differs between the parallels."
+    },
+    {
+      "kind": "substitution",
+      "subject": "blood",
+      "rationale": "The interrogative ה on הדם makes it a question of conscience: water won at mortal risk is the men's blood."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בנפשותם ... בנפשותם",
+      "rationale": "The phrase 'with their lives' is doubled in a chiastic frame around הביאום."
+    }
+  ],
+  "translation": "And he said, “Far be it from me, my Elohim, to do this — is it the blood of these men that I should drink with their lives? For with their lives they brought it.” And he was not willing to drink it. These things did the three mighty men.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ae09b580094b00b7cdebc11731739bc5d0413436ad5b81f9846a1e028ec5796",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/17-20.1791196214404.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "חלילה",
-      "gloss": "Far be it"
+      "gloss": "Far be it",
+      "sense": "S1"
     },
     {
       "surface": "לי",
-      "gloss": "from me"
+      "gloss": "from me",
+      "sense": null
     },
     {
       "surface": "מאלהי",
       "gloss": "my Elohim",
-      "readings": [
-        "my Elohim",
-        "from my Elohim"
-      ],
-      "held_by": {
-        "my Elohim": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from my Elohim": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "מעשות",
       "gloss": "to do",
-      "readings": [
-        "to do",
-        "from doing"
-      ],
-      "held_by": {
-        "to do": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from doing": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     },
     {
       "surface": "זאת",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": null
     },
     {
       "surface": "הדם",
-      "gloss": "the blood"
+      "gloss": "is it the blood of",
+      "sense": "S1"
     },
     {
       "surface": "האנשים",
-      "gloss": "of these men"
+      "gloss": "these men",
+      "sense": null
     },
     {
       "surface": "האלה",
-      "gloss": "these"
+      "gloss": "these",
+      "sense": "S1"
     },
     {
       "surface": "אשתה",
-      "gloss": "shall I drink",
-      "readings": [
-        "shall I drink",
-        "of drinking"
-      ],
-      "held_by": {
-        "shall I drink": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of drinking": [
-          "v1"
-        ]
-      }
+      "gloss": "that I should drink",
+      "sense": "S1"
     },
     {
       "surface": "בנפשותם",
       "gloss": "with their lives",
+      "sense": "S1",
       "readings": [
         "with their lives",
-        "with their nefeshoth"
-      ],
-      "held_by": {
-        "with their lives": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with their nefeshoth": [
-          "en4"
-        ]
-      }
+        "with their throats",
+        "with their souls"
+      ]
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "בנפשותם",
       "gloss": "with their lives",
+      "sense": "S1",
       "readings": [
         "with their lives",
-        "with their nefeshoth"
-      ],
-      "held_by": {
-        "with their lives": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with their nefeshoth": [
-          "en4"
-        ]
-      }
+        "at the price of their lives"
+      ]
     },
     {
       "surface": "הביאום",
-      "gloss": "they brought them",
-      "readings": [
-        "they brought them",
-        "they brought it"
-      ],
-      "held_by": {
-        "they brought them": [
-          "en4"
-        ],
-        "they brought it": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "they brought it",
+      "sense": null
     },
     {
       "surface": "ולא",
-      "gloss": "and not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "אבה",
-      "gloss": "was he willing"
+      "gloss": "was willing",
+      "sense": "S1"
     },
     {
       "surface": "לשתותם",
-      "gloss": "to drink them",
-      "readings": [
-        "to drink them",
-        "to drink it"
-      ],
-      "held_by": {
-        "to drink them": [
-          "en4"
-        ],
-        "to drink it": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "to drink it",
+      "sense": "S1"
     },
     {
       "surface": "אלה",
-      "gloss": "These things"
+      "gloss": "These things",
+      "sense": "S1"
     },
     {
       "surface": "עשו",
-      "gloss": "did"
+      "gloss": "did",
+      "sense": "S1"
     },
     {
       "surface": "שלשת",
-      "gloss": "the three"
+      "gloss": "the three",
+      "sense": "S1"
     },
     {
       "surface": "הגבורים",
-      "gloss": "mighty men"
+      "gloss": "mighty men",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:30:14.406107277Z",
+  "model": "glm-5.3"
 }

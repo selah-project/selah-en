@@ -1,93 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the Chief Musician. Of David. In YHWH I have taken refuge. How do you say to my soul, “Flee to your mountain ⟨as⟩ a bird”?",
+  "ref": "psalms 11:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "נודו",
+      "rationale": "ketiv ‘flee (pl.)’ vs qere נודי ‘my wanderings’ (‘your mountain, my wandering, like a bird’); ketiv kept as ground"
+    },
+    {
+      "kind": "you",
+      "subject": "counselors",
+      "rationale": "the psalmist rebukes those urging him to flee, addressed as plural ‘you’"
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is life\/throat, not an immaterial soul"
+    }
+  ],
+  "translation": "For the chief musician, ⟨for⟩ David. In YHWH I have taken refuge. How do you say to my soul, “Flee ⟨to⟩ your mountain, ⟨like⟩ a bird”?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9731805a0a973d4570efccd21dcbdb3ab58402b1c710003fe774e6adbb290c96",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/11\/1-4.1791192418497.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "למנצח",
-      "gloss": "For the Chief Musician",
-      "readings": [
-        "For the Chief Musician",
-        "to the one who overrules"
-      ],
-      "held_by": {
-        "For the Chief Musician": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to the one who overrules": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "לַמְנַצֵּחַ",
+      "gloss": "For the chief musician",
+      "sense": "S1"
     },
     {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "surface": "לְדָוִד",
+      "gloss": "for David",
+      "sense": "S1"
     },
     {
-      "surface": "ביהוה",
-      "gloss": "In YHWH"
+      "surface": "בַּיהוָה",
+      "gloss": "in YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "חסיתי",
-      "gloss": "I have taken refuge"
+      "surface": "חָסִיתִי",
+      "gloss": "I have taken refuge",
+      "sense": "S1"
     },
     {
-      "surface": "איך",
-      "gloss": "how"
+      "surface": "אֵיךְ",
+      "gloss": "how",
+      "sense": "S1"
     },
     {
-      "surface": "תאמרו",
-      "gloss": "do you say"
+      "surface": "תֹּאמְרוּ",
+      "gloss": "do you say",
+      "sense": "S1"
     },
     {
-      "surface": "לנפשי",
+      "surface": "לְנַפְשִׁי",
       "gloss": "to my soul",
       "readings": [
         "to my soul",
-        "to my nefesh"
+        "to my life",
+        "to my throat"
       ],
-      "held_by": {
-        "to my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to my nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "נודו",
       "gloss": "Flee",
-      "readings": [
-        "Flee",
-        "wander"
-      ],
-      "held_by": {
-        "Flee": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wander": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "הרכם",
-      "gloss": "to your mountain"
+      "surface": "הַרְכֶם",
+      "gloss": "your mountain",
+      "sense": "S1"
     },
     {
-      "surface": "צפור",
-      "gloss": "a bird"
+      "surface": "צִפּוֹר",
+      "gloss": "a bird",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:58.497803789Z",
+  "model": "glm-5.3"
 }

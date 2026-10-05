@@ -1,51 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "How happy ⟨is⟩ the man whose strength is in you — highways are in their heart.",
-  "tokens": [
+  "ref": "psalms 84:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 84,
+  "notes": [
     {
-      "surface": "אשרי",
-      "gloss": "How happy"
+      "kind": "addition",
+      "subject": "belongs",
+      "rationale": "the verbless clause עוז לו needs an English verb"
     },
     {
-      "surface": "אדם",
-      "gloss": "the man"
+      "kind": "crux",
+      "subject": "highways in their heart",
+      "rationale": "מסלות בלבבם: either 'whose heart is set on pilgrimage highways' or, with revocalization, 'in their heart are the highways (to Zion)'"
     },
     {
-      "surface": "עוז",
-      "gloss": "strength"
-    },
-    {
-      "surface": "לו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "בך",
-      "gloss": "in you"
-    },
-    {
-      "surface": "מסלות",
-      "gloss": "highways",
-      "readings": [
-        "highways",
-        "paths"
-      ],
-      "held_by": {
-        "highways": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "paths": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בלבבם",
-      "gloss": "in their heart"
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "'in you' is feminine singular, addressing YHWH"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How happy ⟨is⟩ the man, strength ⟨belongs⟩ to him in you; highways in their heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f92b9df6941c0fd9c3105225edbdbba7f9e85ba2c58691521b819b4679eac4c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/84\/5-8.1791193117154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַשְׁרֵ֣י",
+      "gloss": "How happy",
+      "sense": null
+    },
+    {
+      "surface": "אָ֭דָם",
+      "gloss": "the man",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֽוֹז",
+      "gloss": "strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "ל֥וֹ",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "בָ֑ךְ",
+      "gloss": "in you",
+      "sense": null
+    },
+    {
+      "surface": "מְ֝סִלּ֗וֹת",
+      "gloss": "highways",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּלְבָבָֽם",
+      "gloss": "in their heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:37.155492569Z",
+  "model": "glm-5.3"
 }

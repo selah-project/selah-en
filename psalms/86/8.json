@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "There is none like You among the gods, Adonai, and there is none like Your works.",
-  "tokens": [
+  "ref": "psalms 86:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 86,
+  "notes": [
     {
-      "surface": "אין",
-      "gloss": "There is none"
+      "kind": "wordplay",
+      "subject": "אֵין כָּמוֹךָ \/ וְאֵין כְּמַעֲשֶׂיךָ",
+      "rationale": "parallel 'none like' construction, a rhetorical comparison repeated in both halves"
     },
     {
-      "surface": "כמוך",
-      "gloss": "like You"
-    },
-    {
-      "surface": "באלהים",
-      "gloss": "among the gods"
-    },
-    {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is none"
-    },
-    {
-      "surface": "כמעשיך",
-      "gloss": "like Your works"
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "direct second-person address to God"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "There is none like you among the gods, Adonai, and there are no deeds like your deeds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a2a696b985368a8952567608f7154001fd0a183edd7edd3f063f03fb2e4c163f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/86\/5-8.1791193116058.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵין",
+      "gloss": "There is none",
+      "sense": null
+    },
+    {
+      "surface": "כָּמ֖וֹךָ",
+      "gloss": "like you",
+      "sense": null
+    },
+    {
+      "surface": "בָּאֱלֹהִ֥ים",
+      "gloss": "among the gods",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנָ֗י",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֣ין",
+      "gloss": "and there are no",
+      "sense": null
+    },
+    {
+      "surface": "כְּֽמַעֲשֶֽׂיךָ",
+      "gloss": "deeds like your deeds",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:36.059026501Z",
+  "model": "glm-5.3"
 }

@@ -1,65 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And it shall be — Shaddai in your gold, and silver in heaps to you.",
+  "ref": "job 22:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "Shaddai be your golds",
+      "rationale": "read either 'Shaddai will be your treasure (in place of gold)' or, with v.24, 'Shaddai will be against\/in your gold-dust'"
+    },
+    {
+      "kind": "crux",
+      "subject": "heights",
+      "rationale": "תועפות: 'mountain-heights', 'abundance\/treasures', or 'wild-ox horns' — exact meaning unknown"
+    },
+    {
+      "kind": "you",
+      "subject": "to Job",
+      "rationale": "Eliphaz addresses Job throughout"
+    }
+  ],
+  "translation": "And Shaddai will be your golds, and silver of heights to you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f0d8bee5c83803861d1755aa5de3b8e5d631089d194be2eca72fa11ae91cc6f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/22\/25-28.1791194385824.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and it shall be"
+      "gloss": "and will be",
+      "sense": null
     },
     {
       "surface": "שדי",
-      "gloss": "Shaddai"
+      "gloss": "Shaddai",
+      "sense": "S1"
     },
     {
       "surface": "בצריך",
-      "gloss": "in your gold",
-      "readings": [
-        "in your gold",
-        "in your treasures",
-        "in your strongholds"
-      ],
-      "held_by": {
-        "in your gold": [
-          "v1",
-          "v3"
-        ],
-        "in your treasures": [
-          "v2"
-        ],
-        "in your strongholds": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "your golds",
+      "sense": "S1"
     },
     {
       "surface": "וכסף",
-      "gloss": "and silver"
+      "gloss": "and silver of",
+      "sense": "S1"
     },
     {
       "surface": "תועפות",
-      "gloss": "in heaps",
+      "gloss": "heights",
       "readings": [
-        "in heaps",
-        "of toil"
+        "heights",
+        "treasures"
       ],
-      "held_by": {
-        "in heaps": [
-          "v2"
-        ],
-        "of toil": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S2"
     },
     {
       "surface": "לך",
-      "gloss": "to you"
+      "gloss": "to you",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:45.824940916Z",
+  "model": "glm-5.3"
 }

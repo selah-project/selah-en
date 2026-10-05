@@ -1,99 +1,140 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And Esther the queen answered and said, “If I have found favor in your eyes, O king, and if it is good to the king, let my life be given to me at my petition, and my people at my request.",
+  "ref": "esther 7:3",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "my life",
+      "rationale": "נֶפֶשׁ is throat\/life-breath; 'my life' keeps the plain sense, 'my throat' the literal picture"
+    },
+    {
+      "kind": "idiom",
+      "subject": "found favor in your eyes",
+      "rationale": "Hebrew idiom מצא חן בעיני carried into near-literal English"
+    },
+    {
+      "kind": "crux",
+      "subject": "עַל הַמֶּלֶךְ טוֹב",
+      "rationale": "'if it is good to the king' vs 'if it pleases the king' — the literal keeps the preposition"
+    }
+  ],
+  "translation": "And Esther the queen answered and said, “If I have found favor in your eyes, O the king, and if it is good to the king, let my life be given to me at my petition, and my people at my request.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06fe70e046324fa779b3bc0808b9b3476213a82e1751a0d6f7c8ed680f7b066f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/7\/1-4.1791195102352.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
   "tokens": [
     {
-      "surface": "ותען",
-      "gloss": "and answered"
+      "surface": "וַתַּעַן",
+      "gloss": "and answered",
+      "sense": "S1"
     },
     {
-      "surface": "אסתר",
-      "gloss": "Esther"
+      "surface": "אֶסְתֵּר",
+      "gloss": "Esther",
+      "sense": "S1"
     },
     {
-      "surface": "המלכה",
-      "gloss": "the queen"
+      "surface": "הַמַּלְכָּה",
+      "gloss": "the queen",
+      "sense": "S1"
     },
     {
-      "surface": "ותאמר",
-      "gloss": "and said"
+      "surface": "וַתֹּאמַר",
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
-      "gloss": "if"
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
     },
     {
-      "surface": "מצאתי",
-      "gloss": "I have found"
+      "surface": "מָצָאתִי",
+      "gloss": "I have found",
+      "sense": "S1"
     },
     {
-      "surface": "חן",
-      "gloss": "favor"
+      "surface": "חֵן",
+      "gloss": "favor",
+      "sense": "S1"
     },
     {
-      "surface": "בעיניך",
-      "gloss": "in your eyes"
+      "surface": "בְּעֵינֶיךָ",
+      "gloss": "in your eyes",
+      "sense": "S1"
     },
     {
-      "surface": "המלך",
-      "gloss": "O king"
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "O the king",
+      "sense": "S1"
     },
     {
-      "surface": "ואם",
-      "gloss": "and if"
+      "surface": "וְאִם",
+      "gloss": "and if",
+      "sense": null
     },
     {
-      "surface": "על",
-      "gloss": "to"
+      "surface": "עַל",
+      "gloss": "to",
+      "sense": null
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
-      "surface": "טוב",
-      "gloss": "it is good"
+      "surface": "טוֹב",
+      "gloss": "it is good",
+      "sense": "S1"
     },
     {
-      "surface": "תנתן",
-      "gloss": "let it be given"
+      "surface": "תִּנָּתֵן",
+      "gloss": "let it be given",
+      "sense": null
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
+      "surface": "לִי",
+      "gloss": "to me",
+      "sense": null
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my life",
       "readings": [
         "my life",
-        "my nefesh"
+        "my throat",
+        "my soul"
       ],
-      "held_by": {
-        "my life": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בשאלתי",
-      "gloss": "at my petition"
+      "surface": "בִּשְׁאֵלָתִי",
+      "gloss": "at my petition",
+      "sense": "S1"
     },
     {
-      "surface": "ועמי",
-      "gloss": "and my people"
+      "surface": "וְעַמִּי",
+      "gloss": "and my people",
+      "sense": "S1"
     },
     {
-      "surface": "בבקשתי",
-      "gloss": "at my request"
+      "surface": "בְּבַקָּשָׁתִי",
+      "gloss": "at my request",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:11:42.353885175Z",
+  "model": "glm-5.3"
 }

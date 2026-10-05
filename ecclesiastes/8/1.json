@@ -1,79 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Who is like the wise ⟨man⟩, and who knows the interpretation of a matter? The wisdom of a man makes his face shine, and the strength of his face is changed.",
-  "tokens": [
+  "ref": "ecclesiastes 8:1",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "hapax",
+      "subject": "פֵּשֶׁר",
+      "rationale": "Interpretation of a dream or saying — only here in the Tanakh; Aramaic-flavored word."
     },
     {
-      "surface": "כהחכם",
-      "gloss": "like the wise ⟨man⟩"
+      "kind": "crux",
+      "subject": "עֹז פָּנָיו",
+      "rationale": "'Strength of his face' read as boldness (hardness, sternness) that wisdom softens, vs. a positive radiance that is doubled."
     },
     {
-      "surface": "ומי",
-      "gloss": "and who"
-    },
-    {
-      "surface": "יודע",
-      "gloss": "knows"
-    },
-    {
-      "surface": "פשר",
-      "gloss": "the interpretation of"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "a matter",
-      "readings": [
-        "a matter",
-        "a word"
-      ]
-    },
-    {
-      "surface": "חכמת",
-      "gloss": "The wisdom of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "a man"
-    },
-    {
-      "surface": "תאיר",
-      "gloss": "makes shine"
-    },
-    {
-      "surface": "פניו",
-      "gloss": "his face"
-    },
-    {
-      "surface": "ועז",
-      "gloss": "and the strength of"
-    },
-    {
-      "surface": "פניו",
-      "gloss": "of his face"
-    },
-    {
-      "surface": "ישנא",
-      "gloss": "is changed",
-      "readings": [
-        "is changed",
-        "is hated"
-      ],
-      "held_by": {
-        "is changed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is hated": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew interrogatives carry no copula; 'Who is like the wise.'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who is like the wise? And who knows the interpretation of a thing? A man's wisdom makes his face shine, and the hardness of his face is changed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b0946624b0d56c8bdb7ef7e8d7f63a9ba804f21870fe14f19847a5116903268b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/8\/1-4.1791194911582.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִ֚י",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּהֶ֣חָכָ֔ם",
+      "gloss": "is like the wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִ֥י",
+      "gloss": "and who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹדֵ֖עַ",
+      "gloss": "knows",
+      "sense": null
+    },
+    {
+      "surface": "פֵּ֣שֶׁר",
+      "gloss": "the interpretation of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּבָ֑ר",
+      "gloss": "a thing",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמַ֤ת",
+      "gloss": "the wisdom of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם֙",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּאִ֣יר",
+      "gloss": "makes shine",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּנָ֔יו",
+      "gloss": "his face",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֹ֥ז",
+      "gloss": "and the hardness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּנָ֖יו",
+      "gloss": "his face",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשֻׁנֶּֽא",
+      "gloss": "is changed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:08:31.582949917Z",
+  "model": "glm-5.3"
 }

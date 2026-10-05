@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Every day I will bless you, and I will praise your name forever and ever.",
-  "tokens": [
+  "ref": "psalms 145:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 145,
+  "notes": [
     {
-      "surface": "בכל",
-      "gloss": "every"
-    },
-    {
-      "surface": "יום",
-      "gloss": "day"
-    },
-    {
-      "surface": "אברכך",
-      "gloss": "I will bless you"
-    },
-    {
-      "surface": "ואהללה",
-      "gloss": "and I will praise"
-    },
-    {
-      "surface": "שמך",
-      "gloss": "your name"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "ועד",
-      "gloss": "and ever"
+      "kind": "wordplay",
+      "subject": "לעולם ועד",
+      "rationale": "the doubled-eternity formula repeats from v.1, an inclusio binding the opening couplet"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Every day I will bless You, and I will praise Your name forever and ever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "355ccb370235be6f24c4e4299c050a745fc208fa330ed4aa77c275ad5685a772",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/145\/1-4.1791193633891.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּכָל",
+      "gloss": "In every",
+      "sense": null
+    },
+    {
+      "surface": "יוֹם",
+      "gloss": "day",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲבָרֲכֶךָּ",
+      "gloss": "I will bless You",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲהַלְלָה",
+      "gloss": "and I will praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁמְךָ",
+      "gloss": "Your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָעֶד",
+      "gloss": "and ever",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:13.892745803Z",
+  "model": "glm-5.3"
 }

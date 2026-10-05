@@ -1,86 +1,108 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And from ⟨the⟩ precious things of ⟨the⟩ earth and its fullness, and ⟨the⟩ favor of him who dwelt in ⟨the⟩ bush—let it come upon the head of Joseph, and upon the crown of the head of ⟨the⟩ one set apart from his brothers.",
-  "tokens": [
+  "ref": "deuteronomy 33:16",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "וממגד",
-      "gloss": "And from the precious things of"
+      "kind": "crux",
+      "subject": "סְנֶה",
+      "rationale": "the thorn-bush of Exodus 3; the exact shrub is uncertain (acacia, hawthorn, senna)"
     },
     {
-      "surface": "ארץ",
+      "kind": "alternative",
+      "subject": "נְזִיר",
+      "rationale": "'set apart \/ consecrated one' vs 'crowned one' (from נֵזֶר, diadem) — either fits Joseph's distinction"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨from⟩",
+      "rationale": "the construct נְזִיר אֶחָיו supplies no preposition; 'from his brothers' marks separation"
+    }
+  ],
+  "translation": "and with the finest of the earth and its fullness, and the favor of the one dwelling in the thorn-bush — may it come upon the head of Joseph, and upon the crown of the head of the one set apart ⟨from⟩ his brothers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "984a0c1da5c811a936876c1d9682158ecb31a14da8e06e3cabd637d0773fede5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/33\/13-16.1791184245011.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּמִמֶּ֗גֶד",
+      "gloss": "and with the finest of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֚רֶץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ומלאה",
-      "gloss": "and its fullness"
+      "surface": "וּמְלֹאָ֔הּ",
+      "gloss": "and its fullness",
+      "sense": "S1"
     },
     {
-      "surface": "ורצון",
-      "gloss": "and the favor of"
+      "surface": "וּרְצ֥וֹן",
+      "gloss": "and the favor of",
+      "sense": "S1"
     },
     {
-      "surface": "שכני",
-      "gloss": "of him who dwelt"
+      "surface": "שֹׁכְנִ֖י",
+      "gloss": "the one dwelling in",
+      "sense": "S1"
     },
     {
-      "surface": "סנה",
-      "gloss": "in the bush"
+      "surface": "סְנֶ֑ה",
+      "gloss": "the thorn-bush",
+      "sense": "S1"
     },
     {
-      "surface": "תבואתה",
-      "gloss": "let it come"
+      "surface": "תָּב֨וֹאתָה֙",
+      "gloss": "may it come",
+      "sense": null
     },
     {
-      "surface": "לראש",
-      "gloss": "upon the head of"
+      "surface": "לְרֹ֣אשׁ",
+      "gloss": "upon the head of",
+      "sense": "S1"
     },
     {
-      "surface": "יוסף",
-      "gloss": "of Joseph"
+      "surface": "יוֹסֵ֔ף",
+      "gloss": "Joseph",
+      "sense": "S1"
     },
     {
-      "surface": "ולקדקד",
-      "gloss": "and upon the crown of the head of"
+      "surface": "וּלְקָדְקֹ֖ד",
+      "gloss": "and upon the crown of the head of",
+      "sense": "S1"
     },
     {
-      "surface": "נזיר",
+      "surface": "נְזִ֥יר",
       "gloss": "the one set apart",
       "readings": [
         "the one set apart",
-        "the nazirite"
+        "the consecrated one"
       ],
-      "held_by": {
-        "the one set apart": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the nazirite": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אחיו",
-      "gloss": "from his brothers"
+      "surface": "אֶחָֽיו",
+      "gloss": "his brothers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:10:45.012830798Z",
+  "model": "glm-5.3"
 }

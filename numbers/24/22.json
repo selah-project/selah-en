@@ -1,23 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Though Kain be for burning — until when? — Asshur shall take you captive.",
+  "ref": "numbers 24:22",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "קין",
+      "rationale": "the same word as the Kenite of v21 — read as the people ('Kain', the Kenites) or as the patriarch Cain"
+    },
+    {
+      "kind": "crux",
+      "subject": "לבער",
+      "rationale": "'to burn\/consume utterly' — 'if Kain is doomed to burning'; some revocalize לבער as 'to be gathered\/exiled'"
+    },
+    {
+      "kind": "addition",
+      "subject": "will",
+      "rationale": "English future-tense marking supplied for the imperfect"
+    }
+  ],
+  "translation": "Nevertheless, if Cain is for burning — until when? Assyria will take you captive.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f2c94005996f9f2f3f5ff77821a3a090fc9cf750826f3acd78558fb6a4a17665",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/24\/21-24.1791183283649.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "though",
-      "readings": [
-        "though",
-        "for"
-      ],
-      "held_by": {
-        "though": [
-          "en4"
-        ],
-        "for": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "nevertheless"
     },
     {
       "surface": "אם",
@@ -25,33 +44,39 @@
     },
     {
       "surface": "יהיה",
-      "gloss": "shall be"
+      "gloss": "is"
     },
     {
       "surface": "לבער",
-      "gloss": "for burning"
+      "gloss": "for burning",
+      "sense": "S1"
     },
     {
       "surface": "קין",
-      "gloss": "Kain"
+      "gloss": "Cain",
+      "sense": "S1"
     },
     {
       "surface": "עד",
-      "gloss": "until"
+      "gloss": "until",
+      "sense": "S1"
     },
     {
       "surface": "מה",
-      "gloss": "how long"
+      "gloss": "when",
+      "sense": "S1"
     },
     {
       "surface": "אשור",
-      "gloss": "Asshur"
+      "gloss": "Assyria",
+      "sense": "S1"
     },
     {
       "surface": "תשבך",
-      "gloss": "shall take you captive"
+      "gloss": "will take you captive",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:54:43.653282659Z",
+  "model": "glm-5.3"
 }

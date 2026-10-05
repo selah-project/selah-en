@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Who I swore in my wrath: If they enter my rest —",
+  "ref": "psalms 95:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 95,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אִם יְבֹאוּן",
+      "rationale": "the oath's negative particle is suppressed: 'if they shall enter' means 'they shall never enter'; some supply 'surely not'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אַף is literally 'nose\/nostril,' anger as flared nostrils"
+    },
+    {
+      "kind": "mystery",
+      "subject": "my rest",
+      "rationale": "מנוחתי withholds its referent — the land, the temple, the divine rest — leaving the psalm suspended on an unresolved oath"
+    }
+  ],
+  "translation": "that I swore in my anger: if they shall enter into my rest—",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02c988e138f7c06db689a434cf77c96ab6fc8e59dc83333d5cf7d8b3d1521d33",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/95\/10-11.1791199992129.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
-      "gloss": "who",
-      "readings": [
-        "who",
-        "where"
-      ],
-      "held_by": {
-        "who": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "where": [
-          "en4"
-        ]
-      }
+      "surface": "אֲשֶׁר",
+      "gloss": "that"
     },
     {
-      "surface": "נשבעתי",
-      "gloss": "I swore"
+      "surface": "נִשְׁבַּעְתִּי",
+      "gloss": "I swore",
+      "sense": "S1"
     },
     {
-      "surface": "באפי",
-      "gloss": "in my wrath",
+      "surface": "בְּאַפִּי",
+      "gloss": "in my anger",
+      "sense": "S1",
       "readings": [
-        "in my wrath",
+        "in my anger",
         "in my nostril"
-      ],
-      "held_by": {
-        "in my wrath": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in my nostril": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "if"
     },
     {
-      "surface": "יבאון",
-      "gloss": "they enter"
+      "surface": "יְבֹאוּן",
+      "gloss": "they shall enter"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "surface": "אֶל",
+      "gloss": "into"
     },
     {
-      "surface": "מנוחתי",
-      "gloss": "my rest"
+      "surface": "מְנוּחָתִּי",
+      "gloss": "my rest",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:33:12.130021812Z",
+  "model": "glm-5.3"
 }

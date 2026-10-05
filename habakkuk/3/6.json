@@ -1,115 +1,119 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "He stood and measured the earth; he looked and made the nations tremble; and the mountains of eternity were shattered, and the hills of eternity bowed low — the goings of eternity are his.",
+  "ref": "habakkuk 3:6",
+  "book": "habakkuk",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "וימדד",
+      "rationale": "Polel of מדד occurs only here; read as 'measured', the ancient theophany motif of measuring the earth."
+    },
+    {
+      "kind": "alternative",
+      "subject": "and measured",
+      "rationale": "SDBH S2 'caused to shake' fits the theophany's unsteady imagery; S1 'measured' kept as the plain polel sense."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עד \/ עולם",
+      "rationale": "Two words for eternity in parallel lines within three words of each other; the pairing is compressed in English."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Hebrew verbless clause 'walkings of eternity to him' requires an English copula."
+    }
+  ],
+  "translation": "He stood and measured the earth; he looked and made the nations leap; everlasting mountains shattered, hills of eternity bowed — walkings of eternity are his.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec6b2f7183c4c2073a5071b88cb7684e0f2fa81d16bfcc4b38578e6c82ab169b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/habakkuk\/3\/6-8.1791199821263.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/habakkuk.edn"
+  },
   "tokens": [
     {
-      "surface": "עמד",
-      "gloss": "he stood"
+      "surface": "עָמַד",
+      "gloss": "He stood"
     },
     {
-      "surface": "וימדד",
-      "gloss": "and measured"
+      "surface": "וַיְמֹדֶד",
+      "gloss": "and measured",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אֶרֶץ",
       "gloss": "the earth",
+      "sense": "S1",
       "readings": [
         "the earth",
         "the land"
       ]
     },
     {
-      "surface": "ראה",
-      "gloss": "he looked"
+      "surface": "רָאָה",
+      "gloss": "he looked",
+      "sense": "S1"
     },
     {
-      "surface": "ויתר",
-      "gloss": "and made tremble",
-      "readings": [
-        "and made tremble",
-        "and shook off"
-      ],
-      "held_by": {
-        "and made tremble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and shook off": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וַיַּתֵּר",
+      "gloss": "and made leap"
     },
     {
-      "surface": "גוים",
-      "gloss": "the nations"
+      "surface": "גּוֹיִם",
+      "gloss": "the nations",
+      "sense": "S1"
     },
     {
-      "surface": "ויתפצצו",
-      "gloss": "were shattered",
-      "readings": [
-        "were shattered",
-        "were scattered"
-      ],
-      "held_by": {
-        "were shattered": [
-          "v1",
-          "en4"
-        ],
-        "were scattered": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וַיִּתְפֹּצְצוּ",
+      "gloss": "and they were dashed in pieces"
     },
     {
-      "surface": "הררי",
-      "gloss": "the mountains of"
+      "surface": "הַרְרֵי",
+      "gloss": "mountains of"
     },
     {
-      "surface": "עד",
+      "surface": "עַד",
       "gloss": "eternity",
-      "readings": [
-        "eternity",
-        "antiquity"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "שחו",
-      "gloss": "bowed low"
+      "surface": "שָׁחוּ",
+      "gloss": "bowed down",
+      "sense": "S1"
     },
     {
-      "surface": "גבעות",
-      "gloss": "the hills"
+      "surface": "גִּבְעֹת",
+      "gloss": "the hills of",
+      "sense": "S1"
     },
     {
-      "surface": "עולם",
+      "surface": "עוֹלָם",
+      "gloss": "eternity",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֲלִיכֹת",
+      "gloss": "walkings",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָם",
       "gloss": "of eternity",
-      "readings": [
-        "of eternity",
-        "of long ago"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "הליכות",
-      "gloss": "the goings"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "of eternity",
-      "readings": [
-        "of eternity",
-        "of long ago"
-      ]
-    },
-    {
-      "surface": "לו",
-      "gloss": "his"
+      "surface": "לוֹ",
+      "gloss": "⟨are⟩ his"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:30:21.263820454Z",
+  "model": "glm-5.3"
 }

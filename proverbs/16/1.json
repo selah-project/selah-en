@@ -1,40 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To a man ⟨belong⟩ the arrangements of the heart, and from YHWH the answer of the tongue.",
-  "tokens": [
+  "ref": "proverbs 16:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "לאדם",
-      "gloss": "to a man"
+      "kind": "hapax",
+      "subject": "מַעֲרְכֵי לֵב",
+      "rationale": "מַעֲרָךְ occurs only here in the Tanakh; the literal picture 'arrangements' is kept."
     },
     {
-      "surface": "מערכי",
-      "gloss": "the arrangements of",
-      "readings": [
-        "the arrangements of",
-        "the preparations of"
-      ]
-    },
-    {
-      "surface": "לב",
-      "gloss": "the heart"
-    },
-    {
-      "surface": "ומיהוה",
-      "gloss": "and from YHWH"
-    },
-    {
-      "surface": "מענה",
-      "gloss": "the answer of",
-      "readings": [
-        "the answer of",
-        "the reply of"
-      ]
-    },
-    {
-      "surface": "לשון",
-      "gloss": "the tongue"
+      "kind": "crux",
+      "subject": "answer of the tongue",
+      "rationale": "Read variously as YHWH giving the spoken reply, or as man's own tongue answered (controlled) by YHWH; the parallelism leaves it open."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To a human belong the arrangements of the heart, and from YHWH the answer of the tongue.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a4d33580bca4479e997ddfc7ffbfec69893063b2e789b9c180bd67bbc8150379",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/16\/1-4.1791193877247.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְאָדָ֥ם",
+      "gloss": "To a human",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַֽעַרְכֵי",
+      "gloss": "the arrangements of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵ֑ב",
+      "gloss": "heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝מֵיְהוָ֗ה",
+      "gloss": "and from YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַעֲנֵ֥ה",
+      "gloss": "the answer of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָשֽׁוֹן",
+      "gloss": "tongue",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:17.248258738Z",
+  "model": "glm-5.3"
 }

@@ -1,86 +1,115 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Go and say to David my servant: thus says YHWH, ‘You shall not build for me the house to dwell in.’",
-  "tokens": [
+  "ref": "1-chronicles 17:4",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "לך",
-      "gloss": "Go"
+      "kind": "crux",
+      "subject": "לא אתה תבנה",
+      "rationale": "2 Sam 7:5 has the interrogative האתה תבנה ('would you build me a house?'); Chronicles flattens it to a flat denial, 'not you shall build'."
     },
     {
-      "surface": "ואמרת",
-      "gloss": "and say",
-      "readings": [
-        "and say",
-        "and you shall say"
-      ]
+      "kind": "addition",
+      "subject": "for",
+      "rationale": "לי is 'to\/for me'; the preposition's sense word is bracketed where English requires 'for'."
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "kind": "wordplay",
+      "subject": "בית",
+      "rationale": "David's cedar house (17:1) against the house David would build YHWH — the word pivots the chapter."
     },
     {
-      "surface": "דויד",
-      "gloss": "David"
-    },
-    {
-      "surface": "עבדי",
-      "gloss": "my servant"
-    },
-    {
-      "surface": "כה",
-      "gloss": "thus"
-    },
-    {
-      "surface": "אמר",
-      "gloss": "says",
-      "readings": [
-        "says",
-        "said"
-      ]
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "תבנה",
-      "gloss": "shall you build"
-    },
-    {
-      "surface": "לי",
-      "gloss": "for me"
-    },
-    {
-      "surface": "הבית",
-      "gloss": "the house"
-    },
-    {
-      "surface": "לשבת",
-      "gloss": "to dwell in",
-      "readings": [
-        "to dwell in",
-        "to sit in"
-      ],
-      "held_by": {
-        "to dwell in": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to sit in": [
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "YHWH's message, through Nathan, addresses David as 'my servant'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "“Go and say to David my servant: thus said YHWH, not you shall build ⟨for⟩ me the house to dwell in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0475b01dddb557630dbd014d8e57731ae77e683af66b5cb23623ebe6da5f3ef9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/17\/2-4.1791200542000.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֵ֤ךְ",
+      "gloss": "Go",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָמַרְתָּ֙",
+      "gloss": "and say",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "דָּוִ֣יד",
+      "gloss": "David",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַבְדִּ֔י",
+      "gloss": "my servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּ֖ה",
+      "gloss": "thus",
+      "sense": null
+    },
+    {
+      "surface": "אָמַ֣ר",
+      "gloss": "said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּ֛ה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "תִּבְנֶ֥ה",
+      "gloss": "shall build",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִּ֥י",
+      "gloss": "⟨for⟩ me",
+      "sense": null
+    },
+    {
+      "surface": "הַבַּ֖יִת",
+      "gloss": "the house",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָשָֽׁבֶת",
+      "gloss": "to dwell in",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:42:22.000988678Z",
+  "model": "glm-5.3"
 }

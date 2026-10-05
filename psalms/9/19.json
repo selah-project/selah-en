@@ -1,73 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "For not forever is the needy forgotten; the hope of the afflicted will not perish forever.",
+  "ref": "psalms 9:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "shall not perish",
+      "rationale": "second clause has no finite verb; the first clause's יִשָּׁכַח supplies it, and the negation is carried over"
+    },
+    {
+      "kind": "crux",
+      "subject": "ענוים",
+      "rationale": "ketiv 'humble' vs qere עניים 'afflicted\/poor'; the pointing decides"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שְׁכֵחֵי \/ יִשָּׁכַח",
+      "rationale": "the nations who forget Elohim (v.18) — the needy shall not be forgotten; root שׁכח binds the two verses"
+    }
+  ],
+  "translation": "For the needy shall not be forgotten forever; the hope of the afflicted shall not perish to the end.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c12ddc3ac5a7f6c279562664ccff3a0aa3c40c23e7b98a63be49b7b6f00340ed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/9\/17-20.1791192398701.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "לנצח",
-      "gloss": "forever"
+      "surface": "לָנֶצַח",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "ישכח",
-      "gloss": "is forgotten"
+      "surface": "יִשָּׁכַח",
+      "gloss": "shall be forgotten",
+      "sense": "S1"
     },
     {
-      "surface": "אביון",
-      "gloss": "the needy"
+      "surface": "אֶבְיוֹן",
+      "gloss": "the needy",
+      "sense": "S1"
     },
     {
-      "surface": "תקות",
-      "gloss": "the hope",
-      "readings": [
-        "the hope",
-        "a cord"
-      ],
-      "held_by": {
-        "the hope": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a cord": [
-          "en4"
-        ]
-      }
+      "surface": "תִּקְוַת",
+      "gloss": "the hope of",
+      "sense": "S1"
     },
     {
       "surface": "ענוים",
-      "gloss": "of the afflicted"
+      "gloss": "the afflicted",
+      "sense": "S1"
     },
     {
-      "surface": "תאבד",
-      "gloss": "will perish"
+      "surface": "תֹאבַד",
+      "gloss": "shall perish",
+      "sense": "S1"
     },
     {
-      "surface": "לעד",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "unto eternity"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "unto eternity": [
-          "en4"
-        ]
-      }
+      "surface": "לָעַד",
+      "gloss": "to the end",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:38.702408126Z",
+  "model": "glm-5.3"
 }

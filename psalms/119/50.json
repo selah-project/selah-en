@@ -1,32 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 50,
-  "translation": "This ⟨is⟩ my comfort in my affliction, for Your word has revived me.",
-  "tokens": [
+  "ref": "psalms 119:50",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "זאת",
-      "gloss": "This"
-    },
-    {
-      "surface": "נחמתי",
-      "gloss": "my comfort"
-    },
-    {
-      "surface": "בעניי",
-      "gloss": "in my affliction"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אמרתך",
-      "gloss": "Your word"
-    },
-    {
-      "surface": "חיתני",
-      "gloss": "has revived me"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זאת and נחמתי."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "This is my comfort in my misery, that your word has given me life.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b49114e839424d71b4b830f1842726da2f0502421f9f25aecb52c25c35eeb690",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/49-52.1791193453580.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹאת",
+      "gloss": "This",
+      "sense": null
+    },
+    {
+      "surface": "נֶחָמָתִי",
+      "gloss": "is my comfort",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְעָנְיִי",
+      "gloss": "in my misery",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "אִמְרָתְךָ",
+      "gloss": "your word",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִיָּתְנִי",
+      "gloss": "has given me life",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:13.581717342Z",
+  "model": "glm-5.3"
 }

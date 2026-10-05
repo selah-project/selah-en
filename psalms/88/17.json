@@ -1,28 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Over me have passed your burnings of anger; your terrors have cut me off.",
+  "ref": "psalms 88:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "בעותיך",
+      "rationale": "בִּעוּת occurs only here and in Job 6:4 in the Tanakh."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עברו\/צמתותני",
+      "rationale": "Parallel pair of plural verbs, both with 1st-person objects, sharpening the assault."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The whole verse addresses YHWH in the second person amid complaint."
+    }
+  ],
+  "translation": "Over me have passed your burnings of anger; your terrors have cut-me-off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1503f27c7cf645e4d2b9aa752807f4f7ffc9d77aeed85de9f35edde88be54642",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/17-19.1791193132877.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "עלי",
+      "surface": "עָ֭לַי",
       "gloss": "Over me"
     },
     {
-      "surface": "עברו",
-      "gloss": "have passed"
+      "surface": "עָבְר֣וּ",
+      "gloss": "have passed",
+      "readings": [
+        "have passed",
+        "have crossed over"
+      ]
     },
     {
-      "surface": "חרוניך",
-      "gloss": "your burnings of anger"
+      "surface": "חֲרוֹנֶ֑יךָ",
+      "gloss": "your burnings of anger",
+      "sense": "S1"
     },
     {
-      "surface": "בעותיך",
-      "gloss": "your terrors"
+      "surface": "בִּ֝עוּתֶ֗יךָ",
+      "gloss": "your terrors",
+      "sense": "S1"
     },
     {
-      "surface": "צמתותני",
-      "gloss": "have cut me off"
+      "surface": "צִמְּתוּתֻֽנִי",
+      "gloss": "have cut-me-off",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:52.877614402Z",
+  "model": "glm-5.3"
 }

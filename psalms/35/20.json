@@ -1,77 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "For not peace do they speak; and against the quiet of the land words of deceit they devise.",
-  "tokens": [
+  "ref": "psalms 35:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "hapax",
+      "subject": "רִגְעֵי",
+      "rationale": "רָגֵעַ 'quiet, peaceable' occurs only here in the Tanakh."
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace",
-      "readings": [
-        "peace",
-        "wholeness"
-      ],
-      "held_by": {
-        "peace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wholeness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ידברו",
-      "gloss": "do they speak"
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and against"
-    },
-    {
-      "surface": "רגעי",
-      "gloss": "the quiet of"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "land",
-      "readings": [
-        "land",
-        "the earth"
-      ],
-      "held_by": {
-        "land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דברי",
-      "gloss": "words of"
-    },
-    {
-      "surface": "מרמות",
-      "gloss": "deceit"
-    },
-    {
-      "surface": "יחשבון",
-      "gloss": "they devise"
+      "kind": "crux",
+      "subject": "וְעַל רִגְעֵי אֶרֶץ",
+      "rationale": "read 'against the quiet ones of the earth' or 'against the quiet parts of the land', i.e. the settled, unsuspecting regions."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For they do not speak peace, and against the quiet-ones of the earth words of deceit they devise.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5cb0fc82c0150cb0a70183b31af96088a7d349d8361919abedee3a789433523",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/17-20.1791192622946.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁלוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְדַבֵּרוּ",
+      "gloss": "they speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַל",
+      "gloss": "and against",
+      "sense": null
+    },
+    {
+      "surface": "רִגְעֵי",
+      "gloss": "the quiet-ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "of the earth",
+      "readings": [
+        "of the earth",
+        "of the land"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּבְרֵי",
+      "gloss": "words",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִרְמוֹת",
+      "gloss": "of deceit",
+      "sense": null
+    },
+    {
+      "surface": "יַחֲשֹׁבוּן",
+      "gloss": "they devise",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:22.947805753Z",
+  "model": "glm-5.3"
 }

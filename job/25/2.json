@@ -1,62 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Dominion and dread are with him, making peace in his high places.",
-  "tokens": [
+  "ref": "job 25:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "המשל",
-      "gloss": "Dominion"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula for the nominal clause"
     },
     {
-      "surface": "ופחד",
-      "gloss": "and dread",
-      "readings": [
-        "and dread",
-        "and fear"
-      ],
-      "held_by": {
-        "and dread": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and fear": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עמו",
-      "gloss": "with him"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "making"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "במרומיו",
-      "gloss": "in his high places",
-      "readings": [
-        "in his high places",
-        "in His heights"
-      ],
-      "held_by": {
-        "in his high places": [
-          "v1",
-          "en4"
-        ],
-        "in His heights": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "trembling",
+      "rationale": "פחד literally 'trembling', the object feared; kept 'dread' for register"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Dominion and dread are with Him, the-one-who-makes peace in His heights.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bf514f15af894603c7d6b5d25e546fe0b93f382d04b4c8f7d312e89303a31e8b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/25\/1-4.1791194421960.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַמְשֵׁל",
+      "gloss": "Dominion",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָפַחַד",
+      "gloss": "and dread",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמּוֹ",
+      "gloss": "are with Him"
+    },
+    {
+      "surface": "עֹשֶׂה",
+      "gloss": "the-one-who-makes",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁלוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּמְרוֹמָיו",
+      "gloss": "in His heights",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:21.961135116Z",
+  "model": "glm-5.3"
 }

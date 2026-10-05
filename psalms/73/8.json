@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "They mock, and they speak in wickedness of oppression; from on high they speak.",
-  "tokens": [
+  "ref": "psalms 73:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "ימיקו",
-      "gloss": "they mock"
+      "kind": "hapax",
+      "subject": "יָמִיקוּ",
+      "rationale": "מוּק occurs only here in the Tanakh"
     },
     {
-      "surface": "וידברו",
-      "gloss": "and they speak"
-    },
-    {
-      "surface": "ברע",
-      "gloss": "in wickedness"
-    },
-    {
-      "surface": "עשק",
-      "gloss": "of oppression",
-      "readings": [
-        "of oppression",
-        "of extortion"
-      ],
-      "held_by": {
-        "of oppression": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of extortion": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממרום",
-      "gloss": "from on high"
-    },
-    {
-      "surface": "ידברו",
-      "gloss": "they speak"
+      "kind": "crux",
+      "subject": "from ⟨the⟩ height",
+      "rationale": "מִמָּרוֹם: they speak arrogantly from eminence, or set their mouth against heaven (v. 9)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They mock and speak in evil oppression; from ⟨the⟩ height they speak.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "82b1c256d84c1e0d462e5021f60fa9a85c323d0b647f6b33f85810b4d89865ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/5-8.1791192982748.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָמִ֤יקוּ",
+      "gloss": "They mock",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִידַבְּר֣וּ",
+      "gloss": "and speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְרָ֣ע",
+      "gloss": "in evil",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹ֑שֶׁק",
+      "gloss": "oppression",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמָּר֥וֹם",
+      "gloss": "from ⟨the⟩ height",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְדַבֵּֽרוּ",
+      "gloss": "they speak",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:22.749548440Z",
+  "model": "glm-5.3"
 }

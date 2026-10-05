@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And Hiram sent to the king a hundred and twenty talents of gold.",
+  "ref": "1-kings 9:14",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "gold",
+      "rationale": "120 kikkar (talents, ~30 kg each) of gold — a weighed quantity."
+    },
+    {
+      "kind": "substitution",
+      "subject": "kikkar",
+      "rationale": "ככר is a weight of ~30 kg; transliterated to keep the unit rather than 'talent', a Greek-Latin unit."
+    }
+  ],
+  "translation": "And Hiram sent to the king a hundred and twenty kikkar of gold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f96ebd222c41f2a4e03ec49214b2330995b905749ffbe7a3bec7e033dac0f9dc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/9\/13-16.1791186947124.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "וישלח",
-      "gloss": "and Hiram sent"
+      "gloss": "and sent",
+      "sense": "S1"
     },
     {
       "surface": "חירם",
-      "gloss": "Hiram"
+      "gloss": "Hiram",
+      "sense": "S1"
     },
     {
       "surface": "למלך",
-      "gloss": "to the king"
+      "gloss": "to the king",
+      "sense": "S1"
     },
     {
       "surface": "מאה",
-      "gloss": "a hundred"
+      "gloss": "a hundred",
+      "sense": "S1"
     },
     {
       "surface": "ועשרים",
-      "gloss": "and twenty"
+      "gloss": "and twenty",
+      "sense": null
     },
     {
       "surface": "ככר",
-      "gloss": "talents",
-      "readings": [
-        "talents",
-        "circles"
-      ],
-      "held_by": {
-        "talents": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "circles": [
-          "en4"
-        ]
-      }
+      "gloss": "kikkar of",
+      "sense": "S1"
     },
     {
       "surface": "זהב",
-      "gloss": "gold"
+      "gloss": "gold",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:55:47.125519004Z",
+  "model": "glm-5.3"
 }

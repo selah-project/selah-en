@@ -1,51 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Its waters roar, they boil up; the mountains quake at his pride. Selah.",
-  "tokens": [
+  "ref": "psalms 46:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "יהמו",
-      "gloss": "roar"
+      "kind": "wordplay",
+      "subject": "יהמו \/ יחמרו",
+      "rationale": "Roaring and foaming open with near-identical sounds, an onomatopoeic pair for the churning sea; partly carried by 'roar\/foam'."
     },
     {
-      "surface": "יחמרו",
-      "gloss": "they boil up"
+      "kind": "crux",
+      "subject": "its swell",
+      "rationale": "גאותו: the sea's swelling height (S1) or pride\/majesty (S2); whose — the sea's, or YHWH's majesty — is left to the reader."
     },
     {
-      "surface": "מימיו",
-      "gloss": "its waters"
-    },
-    {
-      "surface": "ירעשו",
-      "gloss": "quake"
-    },
-    {
-      "surface": "הרים",
-      "gloss": "the mountains"
-    },
-    {
-      "surface": "בגאותו",
-      "gloss": "at his pride",
-      "readings": [
-        "at his pride",
-        "in its swelling"
-      ],
-      "held_by": {
-        "at his pride": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in its swelling": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "elision",
+      "subject": "Selah",
+      "rationale": "A musical pause marker with no English equivalent; kept as a transliterated interjection."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Its waters roar, foam; mountains shake in its swell. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aefefbc36a31bfef7048bd9e23609dd3f7ea12b3c67564a3170817d9f3d84fe8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/46\/1-4.1791192727607.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֶהֱמ֣וּ",
+      "gloss": "roar",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחְמְר֣וּ",
+      "gloss": "foam",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵימָ֑יו",
+      "gloss": "its waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִֽרְעֲשֽׁוּ",
+      "gloss": "shake",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִ֖ים",
+      "gloss": "mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּגַאֲוָת֣וֹ",
+      "gloss": "in its swell",
+      "readings": [
+        "in its swell",
+        "in its pride",
+        "in its majesty"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶֽלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:07.608314908Z",
+  "model": "glm-5.3"
 }

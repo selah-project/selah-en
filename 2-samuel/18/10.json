@@ -1,70 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And a man, one, saw, and told Joab, and said, Behold, I saw ⟨את⟩ Absalom hanging in the terebinth.",
+  "ref": "2-samuel 18:10",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "certain",
+      "rationale": "איש אחד is literally ‘a man, one’; English idiom smooths to ‘a certain man’."
+    }
+  ],
+  "translation": "And a certain man saw and told Joab, and he said, “Behold, I saw ⟨את⟩ Absalom hanging in the terebinth.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a1bebf39a3da84b2c720a7b81286469fff8c5457c73af490c37887f32bf83c16",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/18\/9-12.1791186482181.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "וירא",
-      "gloss": "and saw"
+      "gloss": "and saw",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "a man"
+      "gloss": "a man",
+      "sense": null
     },
     {
       "surface": "אחד",
       "gloss": "one",
-      "readings": [
-        "one",
-        "a certain one"
-      ],
-      "held_by": {
-        "one": [
-          "v1",
-          "en4"
-        ],
-        "a certain one": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ויגד",
-      "gloss": "and told"
+      "gloss": "and told",
+      "sense": "S1"
     },
     {
       "surface": "ליואב",
-      "gloss": "to Joab"
+      "gloss": "to Joab",
+      "sense": "S1"
     },
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "הנה",
-      "gloss": "Behold"
+      "gloss": "Behold",
+      "sense": null
     },
     {
       "surface": "ראיתי",
-      "gloss": "I saw"
+      "gloss": "I saw",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Absalom",
+      "sense": null
     },
     {
       "surface": "אבשלם",
-      "gloss": "Absalom"
+      "gloss": "Absalom",
+      "sense": "S1"
     },
     {
       "surface": "תלוי",
-      "gloss": "hanging"
+      "gloss": "hanging",
+      "sense": "S1"
     },
     {
       "surface": "באלה",
-      "gloss": "in the terebinth"
+      "gloss": "in the terebinth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:48:02.183238805Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And ⟨when⟩ flesh has in its skin a boil, and it has healed,",
-  "tokens": [
+  "ref": "leviticus 13:18",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "ובשר",
-      "gloss": "and flesh"
-    },
-    {
-      "surface": "כי",
-      "gloss": "when"
-    },
-    {
-      "surface": "יהיה",
-      "gloss": "has"
-    },
-    {
-      "surface": "בו",
-      "gloss": "in it"
-    },
-    {
-      "surface": "בערו",
-      "gloss": "in its skin"
-    },
-    {
-      "surface": "שחין",
-      "gloss": "a boil"
-    },
-    {
-      "surface": "ונרפא",
-      "gloss": "and it has healed"
+      "kind": "substitution",
+      "subject": "there is",
+      "rationale": "יִהְיֶה is an existential verb, not the copula English requires"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And flesh, when there is in it, on its skin, an inflammation, and it is healed,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6938d0f8892dfe826af1c8be2c583e0c99d432b4ad94c3bd66675be09d011626",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/17-20.1791182391007.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּבָשָׂ֕ר",
+      "gloss": "And flesh",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "יִהְיֶ֥ה",
+      "gloss": "there is",
+      "sense": null
+    },
+    {
+      "surface": "בֽוֹ",
+      "gloss": "in it",
+      "sense": null
+    },
+    {
+      "surface": "בְּעֹר֖וֹ",
+      "gloss": "on its skin",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁחִ֑ין",
+      "gloss": "an inflammation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִרְפָּֽא",
+      "gloss": "and it is healed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:39:51.014548550Z",
+  "model": "glm-5.3"
 }

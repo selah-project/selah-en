@@ -1,67 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "This is the instruction of the one with a discharge, and of him from whom a lying-down of seed goes out, for uncleanness in her.",
-  "tokens": [
+  "ref": "leviticus 15:32",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
     {
-      "surface": "זאת",
-      "gloss": "this"
+      "kind": "crux",
+      "subject": "תורה",
+      "rationale": "Rendered “instruction”; tradition says “law” — the word means teaching, not statute alone."
     },
     {
-      "surface": "תורת",
-      "gloss": "instruction of",
-      "readings": [
-        "instruction of",
-        "teaching of",
-        "law of"
-      ],
-      "held_by": {
-        "instruction of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "teaching of": [
-          "v1",
-          "en4"
-        ],
-        "law of": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "lying of seed",
+      "rationale": "שכבת זרע is literally “a lying of seed”; the common “emission of semen” loses the idiom's picture."
     },
     {
-      "surface": "הזב",
-      "gloss": "the one with a discharge"
-    },
-    {
-      "surface": "ואשר",
-      "gloss": "and of him who"
-    },
-    {
-      "surface": "תצא",
-      "gloss": "goes out"
-    },
-    {
-      "surface": "ממנו",
-      "gloss": "from him"
-    },
-    {
-      "surface": "שכבת",
-      "gloss": "lying-down of"
-    },
-    {
-      "surface": "זרע",
-      "gloss": "seed"
-    },
-    {
-      "surface": "לטמאה",
-      "gloss": "for uncleanness"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in her"
+      "kind": "alternative",
+      "subject": "goes out",
+      "rationale": "תצא is feminine singular though its subject הזב is masculine — the verb may agree with שכבת understood."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "This is the instruction of the one-flowing, and of him from whom a lying of seed goes out, to become impure by it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d11c5be2fc3847cccbb4eb1d60dbd4fd03a1fc9610d5df4477fccd0c7810069c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/15\/29-32.1791182481859.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זֹּ֥את",
+      "gloss": "this",
+      "sense": null
+    },
+    {
+      "surface": "תּוֹרַ֖ת",
+      "gloss": "the instruction of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזָּ֑ב",
+      "gloss": "the one-flowing",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲשֶׁ֨ר",
+      "gloss": "and him whom",
+      "sense": null
+    },
+    {
+      "surface": "תֵּצֵ֥א",
+      "gloss": "goes out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּ֛נּוּ",
+      "gloss": "from him",
+      "sense": null
+    },
+    {
+      "surface": "שִׁכְבַ֥ת",
+      "gloss": "a lying of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶ֖רַע",
+      "gloss": "seed",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְטָמְאָ֥ה",
+      "gloss": "to become impure",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָֽהּ",
+      "gloss": "by it",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T06:41:21.861331364Z",
+  "model": "glm-5.3"
 }

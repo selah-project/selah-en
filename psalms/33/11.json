@@ -1,44 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "The counsel of YHWH stands forever; the thoughts of his heart, to generation and generation.",
-  "tokens": [
+  "ref": "psalms 33:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "עצת",
-      "gloss": "The counsel"
+      "kind": "wordplay",
+      "subject": "עצת\/מחשבות",
+      "rationale": "Deliberate reuse of verse 10's nouns — the same words for the nations' failed plans describe YHWH's enduring ones."
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "תעמד",
-      "gloss": "stands"
-    },
-    {
-      "surface": "מחשבות",
-      "gloss": "the thoughts",
-      "readings": [
-        "the thoughts",
-        "the devices"
-      ]
-    },
-    {
-      "surface": "לבו",
-      "gloss": "of his heart"
-    },
-    {
-      "surface": "לדר",
-      "gloss": "to generation"
-    },
-    {
-      "surface": "ודר",
-      "gloss": "and generation"
+      "kind": "addition",
+      "subject": "forever",
+      "rationale": "לעולם is 'to the vanishing point of time'; rendered as single English adverb."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The counsel of YHWH stands forever; the plans of his heart, to generation and generation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2931ff8093e7c37f825f1a485cd9d91dc7496398d327ef04c034032e61f5f09a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/9-12.1791192587607.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲצַ֣ת",
+      "gloss": "The counsel of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּעֲמֹ֑ד",
+      "gloss": "stands",
+      "sense": null
+    },
+    {
+      "surface": "מַחְשְׁב֥וֹת",
+      "gloss": "the plans of",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֝בּ֗וֹ",
+      "gloss": "his heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדֹ֣ר",
+      "gloss": "to generation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָדֹֽר",
+      "gloss": "and generation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:47.607961220Z",
+  "model": "glm-5.3"
 }

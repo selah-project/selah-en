@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "How are the mighty fallen in the midst of the battle! Jonathan — pierced upon your high places!",
-  "tokens": [
+  "ref": "2-samuel 1:25",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "איך",
-      "gloss": "how"
+      "kind": "substitution",
+      "subject": "the mighty",
+      "rationale": "גברים is an adjective, 'the strong\/valiant ones'; the noun reading is the corpus standard"
     },
     {
-      "surface": "נפלו",
-      "gloss": "are fallen"
+      "kind": "substitution",
+      "subject": "slain",
+      "rationale": "חלל is an adjective, 'pierced (to death)'; English needs a past-participle predicate"
     },
     {
-      "surface": "גברים",
-      "gloss": "mighty"
-    },
-    {
-      "surface": "בתוך",
-      "gloss": "in the midst of"
-    },
-    {
-      "surface": "המלחמה",
-      "gloss": "the battle"
-    },
-    {
-      "surface": "יהונתן",
-      "gloss": "Jonathan"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "במותיך",
-      "gloss": "your high places"
-    },
-    {
-      "surface": "חלל",
-      "gloss": "pierced",
-      "readings": [
-        "pierced",
-        "slain"
-      ],
-      "held_by": {
-        "pierced": [
-          "v1",
-          "en4"
-        ],
-        "slain": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "חלל has no verb; the copula before 'slain' is supplied"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "How have the mighty fallen in the midst of the battle! Jonathan — slain upon your heights!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4d5934b6fb71c3ae32d29cc9cebf11d467ee607c9852c6c91f058b9f693ee061",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/1\/25-27.1791186115838.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵ֚יךְ",
+      "gloss": "How",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָפְל֣וּ",
+      "gloss": "have fallen",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִבֹּרִ֔ים",
+      "gloss": "the mighty",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּת֣וֹךְ",
+      "gloss": "in the midst of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּלְחָמָ֑ה",
+      "gloss": "the battle",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְה֣וֹנָתָ֔ן",
+      "gloss": "Jonathan",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "בָּמֹּתֶ֖יךָ",
+      "gloss": "your heights",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָלָֽל",
+      "gloss": "slain",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:41:55.838616757Z",
+  "model": "glm-5.3"
 }

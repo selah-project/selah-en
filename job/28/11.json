@@ -1,61 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "From weeping he binds up rivers, and the hidden thing he brings out to light.",
-  "tokens": [
+  "ref": "job 28:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "מבכי",
-      "gloss": "from weeping",
-      "readings": [
-        "from weeping",
-        "from the flowing"
-      ],
-      "held_by": {
-        "from weeping": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from the flowing": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "the weeping of rivers",
+      "rationale": "מבכי read as 'weeping' (damming the rivers' flow like tears) or as מבכה 'springs' — most read springs; the literal picture is kept and listed as a second reading"
     },
     {
-      "surface": "נהרות",
-      "gloss": "rivers"
+      "kind": "wordplay",
+      "subject": "מבכי",
+      "rationale": "the same consonants carry both 'weeping' and 'spring', a play on water leaving its place"
     },
     {
-      "surface": "חבש",
-      "gloss": "he binds up",
-      "readings": [
-        "he binds up",
-        "he stopped up"
-      ],
-      "held_by": {
-        "he binds up": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he stopped up": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "Hebrew has simply 'light' — the preposition marks the outcome of bringing out"
     },
     {
-      "surface": "ותעלמה",
-      "gloss": "and the hidden thing"
-    },
-    {
-      "surface": "יצא",
-      "gloss": "he brings out"
-    },
-    {
-      "surface": "אור",
-      "gloss": "to light"
+      "kind": "secret",
+      "subject": "ותעללומה",
+      "rationale": "the hidden thing (תעלמה) brought out to light — hiddenness made explicit in the mining imagery"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The weeping of rivers he bound, and the hidden thing he brings out to light.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e85d5d114f1ce2cd9071f4dea6650b6711238947c8425406b8e3391464739d62",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/28\/9-12.1791194456147.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִבְּכִי",
+      "gloss": "The weeping of",
+      "readings": [
+        "The weeping of",
+        "The springs of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "נְהָרוֹת",
+      "gloss": "rivers",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִבֵּשׁ",
+      "gloss": "he bound",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתַעֲלֻמָהּ",
+      "gloss": "and the hidden thing",
+      "sense": null
+    },
+    {
+      "surface": "יֹצִא",
+      "gloss": "he brings out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹר",
+      "gloss": "to light",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:56.148429877Z",
+  "model": "glm-5.3"
 }

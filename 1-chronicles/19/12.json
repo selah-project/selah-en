@@ -1,78 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And he said, If Aram is too strong for me, then you shall be to me for salvation; and if the sons of Ammon are too strong for you, then I will save you.",
+  "ref": "1-chronicles 19:12",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "then",
+      "rationale": "English needs an apodosis marker the Hebrew conditionals leave implicit."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תִּשׁוּעָה \/ וְהוֹשַׁעְתִּיךָ",
+      "rationale": "Root ישׁע repeated — ‘for rescue… I will rescue you’ — reciprocal pledge, partly carried by the cognates."
+    },
+    {
+      "kind": "you",
+      "subject": "to Abishai",
+      "rationale": "Joab's direct battlefield instruction to his brother, contingent pledges of mutual rescue."
+    },
+    {
+      "kind": "crux",
+      "subject": "תֶּחֱזַק",
+      "rationale": "Feminine singular verb with אֲרָם, agreeing with the nation as a feminine collective; some render impersonally ‘if it is too strong for me.’"
+    }
+  ],
+  "translation": "And he said: If Aram is stronger than I, then you will be to me for rescue; and if the sons of Ammon are stronger than you, then I will rescue you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7cbca88b728e567a9b9d8d7fb138eca01488b379b786c7e1821c6914d76cc161",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/19\/9-12.1791196337290.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
-      "gloss": "if"
+      "surface": "אִם",
+      "gloss": "If"
     },
     {
-      "surface": "תחזק",
-      "gloss": "is too strong"
+      "surface": "תֶּחֱזַק",
+      "gloss": "is stronger",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "for me"
+      "surface": "מִמֶּנִּי",
+      "gloss": "than I"
     },
     {
-      "surface": "ארם",
-      "gloss": "Aram"
+      "surface": "אֲרָם",
+      "gloss": "Aram",
+      "sense": "S1"
     },
     {
-      "surface": "והיית",
-      "gloss": "then you shall be"
+      "surface": "וְהָיִיתָ",
+      "gloss": "then you will be"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "לתשועה",
-      "gloss": "for salvation",
-      "readings": [
-        "for salvation",
-        "for deliverance"
-      ],
-      "held_by": {
-        "for salvation": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for deliverance": [
-          "en4"
-        ]
-      }
+      "surface": "לִתְשׁוּעָה",
+      "gloss": "for rescue",
+      "sense": "S1"
     },
     {
-      "surface": "ואם",
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "בני",
-      "gloss": "the sons of"
+      "surface": "בְּנֵי",
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "עמון",
-      "gloss": "Ammon"
+      "surface": "עַמּוֹן",
+      "gloss": "Ammon",
+      "sense": "S1"
     },
     {
-      "surface": "יחזקו",
-      "gloss": "are too strong"
+      "surface": "יֶחֶזְקוּ",
+      "gloss": "are stronger",
+      "sense": "S1"
     },
     {
-      "surface": "ממך",
-      "gloss": "for you"
+      "surface": "מִמֶּךָּ",
+      "gloss": "than you"
     },
     {
-      "surface": "והושעתיך",
-      "gloss": "then I will save you"
+      "surface": "וְהוֹשַׁעְתִּיךָ",
+      "gloss": "then I will rescue you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:32:17.291725990Z",
+  "model": "glm-5.3"
 }

@@ -1,33 +1,52 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And I gave to you a land which you did not toil for, and cities which you did not build, and you dwell in them; vineyards and olive trees which you did not plant, you are eating.",
+  "ref": "joshua 24:13",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew participle lacks copula; supplied for English progressive"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "triplet",
+      "rationale": "Threefold not-you — not toiled, not built, not planted — rhetorical climax lost partially in English"
+    }
+  ],
+  "translation": "And I gave you a land on which you had not toiled, and cities which you had not built, and you settled in them — vineyards and olive-trees which you had not planted, you ⟨are⟩ eating.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "feec451f46b97d04065f91fe6ea64bbbc81965e5a16f10f2f96f53a6c0ed3a8d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/24\/13-16.1791184768865.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
       "surface": "ואתן",
-      "gloss": "and I gave"
+      "gloss": "And I gave",
+      "sense": null
     },
     {
       "surface": "לכם",
-      "gloss": "to you"
+      "gloss": "to you",
+      "sense": null
     },
     {
       "surface": "ארץ",
       "gloss": "a land",
+      "sense": "S1",
       "readings": [
         "a land",
         "the earth"
-      ],
-      "held_by": {
-        "a land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
       "surface": "אשר",
@@ -35,11 +54,13 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יגעת",
-      "gloss": "you toiled"
+      "gloss": "you had toiled",
+      "sense": "S1"
     },
     {
       "surface": "בה",
@@ -47,7 +68,8 @@
     },
     {
       "surface": "וערים",
-      "gloss": "and cities"
+      "gloss": "and cities",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -55,29 +77,18 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "בניתם",
-      "gloss": "you built"
+      "gloss": "you had built",
+      "sense": "S1"
     },
     {
       "surface": "ותשבו",
-      "gloss": "and you dwell",
-      "readings": [
-        "and you dwell",
-        "and you settled"
-      ],
-      "held_by": {
-        "and you dwell": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and you settled": [
-          "en4"
-        ]
-      }
+      "gloss": "and you settled",
+      "sense": "S1"
     },
     {
       "surface": "בהם",
@@ -85,11 +96,13 @@
     },
     {
       "surface": "כרמים",
-      "gloss": "vineyards"
+      "gloss": "vineyards",
+      "sense": "S1"
     },
     {
       "surface": "וזיתים",
-      "gloss": "and olive trees"
+      "gloss": "and olive-trees",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -97,11 +110,13 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "נטעתם",
-      "gloss": "you planted"
+      "gloss": "you had planted",
+      "sense": "S1"
     },
     {
       "surface": "אתם",
@@ -109,9 +124,10 @@
     },
     {
       "surface": "אכלים",
-      "gloss": "are eating"
+      "gloss": "⟨are⟩ eating",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:19:28.866692548Z",
+  "model": "glm-5.3"
 }

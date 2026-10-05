@@ -1,47 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And he slaughtered ⟨את⟩ the burnt offering, and the sons of Aaron brought to him ⟨את⟩ the blood, and he dashed it on the altar all around.",
+  "ref": "leviticus 9:12",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "brought",
+      "rationale": "וימצאו hiphil of מצא is literally 'caused to find', i.e. handed over to him"
+    },
+    {
+      "kind": "alternative",
+      "subject": "dashed",
+      "rationale": "ויזרקהו 'sprinkled' vs 'dashed\/threw' — the blood is scattered over the altar"
+    }
+  ],
+  "translation": "And he slaughtered ⟨את⟩ the burnt-offering, and the sons of Aaron brought ⟨את⟩ the blood to him, and he dashed it on the altar all around.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7ea2058e9f96e59e6cd82f51c0ad05a9753ff96c3199b4800b2dd85cdbd4d97",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/9\/9-12.1791182318800.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "וישחט",
-      "gloss": "and he slaughtered"
+      "gloss": "And he slaughtered",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the burnt-offering"
     },
     {
       "surface": "העלה",
-      "gloss": "the burnt offering"
+      "gloss": "the burnt-offering",
+      "sense": "S1"
     },
     {
       "surface": "וימצאו",
-      "gloss": "and they brought",
-      "readings": [
-        "and they brought",
-        "and they presented"
-      ],
-      "held_by": {
-        "and they brought": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and they presented": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "gloss": "and brought",
+      "sense": "S1"
     },
     {
       "surface": "בני",
-      "gloss": "the sons of"
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
       "surface": "אהרן",
-      "gloss": "Aaron"
+      "gloss": "Aaron",
+      "sense": "S1"
     },
     {
       "surface": "אליו",
@@ -49,29 +65,18 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the blood"
     },
     {
       "surface": "הדם",
-      "gloss": "the blood"
+      "gloss": "the blood",
+      "sense": "S1"
     },
     {
       "surface": "ויזרקהו",
       "gloss": "and he dashed it",
-      "readings": [
-        "and he dashed it",
-        "and he threw it"
-      ],
-      "held_by": {
-        "and he dashed it": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and he threw it": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -79,13 +84,15 @@
     },
     {
       "surface": "המזבח",
-      "gloss": "the altar"
+      "gloss": "the altar",
+      "sense": "S1"
     },
     {
       "surface": "סביב",
-      "gloss": "all around"
+      "gloss": "all around",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:38:38.808898776Z",
+  "model": "glm-5.3"
 }

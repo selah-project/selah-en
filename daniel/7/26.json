@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "And the court shall sit, and they shall take away his dominion, to destroy it and to cause it to perish, unto the end.",
-  "tokens": [
+  "ref": "daniel 7:26",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "ודינא",
-      "gloss": "the court",
-      "readings": [
-        "the court",
-        "the judgment"
-      ],
-      "held_by": {
-        "the court": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the judgment": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "and the court will sit",
+      "rationale": "דִּינָא is literally 'the judgment'; the sitting one is the court of 7:10 — 'the judgment will sit' vs 'the court will sit'."
     },
     {
-      "surface": "יתב",
-      "gloss": "shall sit"
+      "kind": "hapax",
+      "subject": "לְהַשְׁמָדָה",
+      "rationale": "This hiphil infinitive occurs only here."
     },
     {
-      "surface": "ושלטנה",
-      "gloss": "and his dominion"
-    },
-    {
-      "surface": "יהעדון",
-      "gloss": "they shall take away"
-    },
-    {
-      "surface": "להשמדה",
-      "gloss": "to destroy"
-    },
-    {
-      "surface": "ולהובדה",
-      "gloss": "and to cause to perish"
-    },
-    {
-      "surface": "עד",
-      "gloss": "unto"
-    },
-    {
-      "surface": "סופא",
-      "gloss": "the end"
+      "kind": "elision",
+      "subject": "it",
+      "rationale": "The Hebrew infinitives lack an object; 'it' (the dominion) is supplied in ⟨…⟩ logic but folded into the infinitives."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the court will sit, and his dominion they will take away, to destroy it and to annihilate it to the end.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c0fe336374fde3371a3343510d0075620829a5af08880f696d42715a0b35bfa2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/7\/25-28.1791195378978.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְדִינָ֖א",
+      "gloss": "and the court",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתִּ֑ב",
+      "gloss": "will sit",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁלְטָנֵ֣הּ",
+      "gloss": "and his dominion",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהַעְדּ֔וּן",
+      "gloss": "they will take away",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהַשְׁמָדָ֥ה",
+      "gloss": "to destroy",
+      "sense": null
+    },
+    {
+      "surface": "וּלְהוֹבָדָ֖ה",
+      "gloss": "and to annihilate",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "to",
+      "sense": "S1"
+    },
+    {
+      "surface": "סוֹפָֽא",
+      "gloss": "the end",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:16:18.979897226Z",
+  "model": "glm-5.3"
 }

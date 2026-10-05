@@ -1,10 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And he said to me, “Do not be afraid, Daniel, for from the first day that you gave ⟨את⟩ your heart to understand and to humble yourself before your Elohim, your words were heard, and I have come because of your words.”",
+  "ref": "daniel 10:12",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Daniel",
+      "rationale": "reassuring direct address: 'Do not fear, Daniel'"
+    },
+    {
+      "kind": "idiom",
+      "subject": "you set your heart",
+      "rationale": "נתת את לבך, literally 'gave your heart', an idiom for setting one's mind to something"
+    },
+    {
+      "kind": "alternative",
+      "subject": "because of your words",
+      "rationale": "בדבריך is literally 'in\/with your words'; 'in response to your words' is a second lawful reading"
+    }
+  ],
+  "translation": "And he said to me, “Do not fear, Daniel, for from the first day that you set ⟨את⟩ your heart to understand and to humble yourself before your Elohim, your words were heard, and I have come because of your words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8cfa043666a453b1b6231e8c44e6934da198c5806bba02e5b612333cf8ca3e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/10\/9-12.1791195436722.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And he said"
+      "gloss": "And he said",
+      "sense": "S1"
     },
     {
       "surface": "אלי",
@@ -16,11 +49,13 @@
     },
     {
       "surface": "תירא",
-      "gloss": "be afraid"
+      "gloss": "fear",
+      "sense": "S1"
     },
     {
       "surface": "דניאל",
-      "gloss": "Daniel"
+      "gloss": "Daniel",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -32,11 +67,13 @@
     },
     {
       "surface": "היום",
-      "gloss": "the day"
+      "gloss": "the day",
+      "sense": "S1"
     },
     {
       "surface": "הראשון",
-      "gloss": "first"
+      "gloss": "the first",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -44,38 +81,27 @@
     },
     {
       "surface": "נתת",
-      "gloss": "you gave"
+      "gloss": "you set"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "your heart"
     },
     {
       "surface": "לבך",
-      "gloss": "your heart"
+      "gloss": "your heart",
+      "sense": "S1"
     },
     {
       "surface": "להבין",
-      "gloss": "to understand"
+      "gloss": "to understand",
+      "sense": "S1"
     },
     {
       "surface": "ולהתענות",
       "gloss": "and to humble yourself",
-      "readings": [
-        "and to humble yourself",
-        "and to afflict yourself"
-      ],
-      "held_by": {
-        "and to humble yourself": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and to afflict yourself": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לפני",
@@ -83,7 +109,8 @@
     },
     {
       "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "נשמעו",
@@ -91,7 +118,8 @@
     },
     {
       "surface": "דבריך",
-      "gloss": "your words"
+      "gloss": "your words",
+      "sense": "S1"
     },
     {
       "surface": "ואני",
@@ -104,23 +132,9 @@
     {
       "surface": "בדבריך",
       "gloss": "because of your words",
-      "readings": [
-        "because of your words",
-        "in your words"
-      ],
-      "held_by": {
-        "because of your words": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in your words": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:17:16.723631023Z",
+  "model": "glm-5.3"
 }

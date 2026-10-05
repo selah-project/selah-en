@@ -1,66 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "A lamp of YHWH is the breath of a man, searching all the chambers of the belly.",
+  "ref": "proverbs 20:27",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the two noun phrases."
+    },
+    {
+      "kind": "alternative",
+      "subject": "נִשְׁמַת",
+      "rationale": "נְשָׁמָה can be ‘spirit\/inward being’; ‘breath’ keeps the literal picture and the search still works."
+    },
+    {
+      "kind": "secret",
+      "subject": "חַדְרֵי בָטֶן",
+      "rationale": "The innermost chambers of the person, searched by YHWH's lamp — hidden things brought to light."
+    }
+  ],
+  "translation": "The lamp of YHWH is the breath of a man, searching all the rooms of the belly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "30b2a781ce6f44c779c13a957db19170a8bdde36d6f08a5cbb37b53ebd56dd07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/25-28.1791193942094.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "נר",
-      "gloss": "a lamp"
+      "surface": "נֵר",
+      "gloss": "The lamp of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נשמת",
-      "gloss": "the breath of",
-      "readings": [
-        "the breath of",
-        "the spirit of"
-      ],
-      "held_by": {
-        "the breath of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the spirit of": [
-          "v1"
-        ]
-      }
+      "surface": "נִשְׁמַת",
+      "gloss": "is the breath of",
+      "sense": "S1"
     },
     {
-      "surface": "אדם",
-      "gloss": "a man"
+      "surface": "אָדָם",
+      "gloss": "a man",
+      "sense": "S1"
     },
     {
-      "surface": "חפש",
-      "gloss": "searching"
+      "surface": "חֹפֵשׂ",
+      "gloss": "searching",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "חדרי",
-      "gloss": "the chambers of"
+      "surface": "חַדְרֵי",
+      "gloss": "the rooms of",
+      "sense": "S1"
     },
     {
-      "surface": "בטן",
+      "surface": "בָטֶן",
       "gloss": "the belly",
-      "readings": [
-        "the belly",
-        "the womb"
-      ],
-      "held_by": {
-        "the belly": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:22.095838433Z",
+  "model": "glm-5.3"
 }

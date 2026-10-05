@@ -1,51 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "YHWH has made known His salvation; before the eyes of the nations He has revealed His righteousness.",
-  "tokens": [
+  "ref": "psalms 98:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 98,
+  "notes": [
     {
-      "surface": "הודיע",
-      "gloss": "He has made known"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ישועתו",
-      "gloss": "His salvation",
-      "readings": [
-        "His salvation",
-        "His victory"
-      ],
-      "held_by": {
-        "His salvation": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "His victory": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לעיני",
-      "gloss": "before the eyes of"
-    },
-    {
-      "surface": "הגוים",
-      "gloss": "the nations"
-    },
-    {
-      "surface": "גלה",
-      "gloss": "He has revealed"
-    },
-    {
-      "surface": "צדקתו",
-      "gloss": "His righteousness"
+      "kind": "substitution",
+      "subject": "uncovered",
+      "rationale": "גלה literally 'to strip bare, expose'; the picture of unveiling is kept rather than softened to 'revealed'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH has made known his salvation; before the eyes of the nations he has uncovered his righteousness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf6a199a2cce0ee3ff54f32498dd50bc81706cd5163a03852d4d12c2aa82827e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/98\/1-4.1791193236457.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוֹדִ֣יעַ",
+      "gloss": "has made known",
+      "sense": null
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעָת֑וֹ",
+      "gloss": "his salvation",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעֵינֵ֥י",
+      "gloss": "before the eyes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַ֝גּוֹיִ֗ם",
+      "gloss": "the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּלָּ֥ה",
+      "gloss": "he has uncovered",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִדְקָתֽוֹ",
+      "gloss": "his righteousness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:36.458852415Z",
+  "model": "glm-5.3"
 }

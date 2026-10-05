@@ -1,53 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
+  "ref": "job 40:6",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "from the storm",
+      "rationale": "ketiv מנ lacks the article (qere מן); Job 38:1 reads מן הסערה 'from the storm' with article"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "framing",
+      "rationale": "this verse repeats Job 38:1 almost verbatim, opening the second divine speech"
+    }
+  ],
   "translation": "And YHWH answered ⟨את⟩ Job from the storm, and said:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "56b48d3d52f0193ce776d01136da40d8251cb69b65bd1e97ab6006e5d50bc5be",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/40\/5-8.1791194627356.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ויען",
-      "gloss": "And answered"
+      "surface": "וַיַּֽעַן",
+      "gloss": "And answered",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Job"
     },
     {
-      "surface": "איוב",
-      "gloss": "Job"
+      "surface": "אִ֭יּוֹב",
+      "gloss": "Job",
+      "sense": "S1"
     },
     {
       "surface": "מנ",
       "gloss": "from"
     },
     {
-      "surface": "סערה",
+      "surface": "סַֽעַרָה",
       "gloss": "the storm",
-      "readings": [
-        "the storm",
-        "the whirlwind"
-      ],
-      "held_by": {
-        "the storm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the whirlwind": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "surface": "וַיֹּאמַֽר",
+      "gloss": "and said",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:47.357293645Z",
+  "model": "glm-5.3"
 }

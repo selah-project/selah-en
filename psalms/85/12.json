@@ -1,48 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Truth from ⟨the⟩ earth shall sprout, and righteousness from ⟨the⟩ heavens shall look down.",
-  "tokens": [
+  "ref": "psalms 85:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
     {
-      "surface": "אמת",
-      "gloss": "Truth"
+      "kind": "wordplay",
+      "subject": "נשקו \/ נשקף",
+      "rationale": "v11 ‘kissed’ (נשקו) and v12 ‘looks down’ (נשקף) share the root letters נשק, an echo the English cannot carry."
     },
     {
-      "surface": "מארץ",
-      "gloss": "from ⟨the⟩ earth"
-    },
-    {
-      "surface": "תצמח",
-      "gloss": "shall sprout"
-    },
-    {
-      "surface": "וצדק",
-      "gloss": "and righteousness"
-    },
-    {
-      "surface": "משמים",
-      "gloss": "from ⟨the⟩ heavens"
-    },
-    {
-      "surface": "נשקף",
-      "gloss": "shall look down",
-      "readings": [
-        "shall look down",
-        "shall lean out and gaze"
-      ],
-      "held_by": {
-        "shall look down": [
-          "v2",
-          "en4"
-        ],
-        "shall lean out and gaze": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "earth \/ heavens",
+      "rationale": "vertical merism: truth rises from below, righteousness leans out from above, continuing the personifications of v11."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Truth sprouts from the earth, and righteousness looks down from the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "61cab21ff9b909cf63d7c43c88142a2ce2ce5264061848fbc114c435f7e3f1f5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/9-12.1791193120114.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱמֶת",
+      "gloss": "truth",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֶרֶץ",
+      "gloss": "from the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּצְמָח",
+      "gloss": "sprouts",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְצֶדֶק",
+      "gloss": "and righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשָּׁמַיִם",
+      "gloss": "from the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִשְׁקָף",
+      "gloss": "looks down",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:40.116172204Z",
+  "model": "glm-5.3"
 }

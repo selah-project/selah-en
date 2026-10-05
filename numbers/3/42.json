@@ -1,52 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "And Moses numbered, as YHWH had commanded ⟨את⟩ him, ⟨את⟩ every firstborn among the sons of Israel.",
+  "ref": "numbers 3:42",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "census",
+      "rationale": "Moses musters and counts the firstborn of Israel"
+    },
+    {
+      "kind": "elision",
+      "subject": "פקד",
+      "rationale": "'visit\/oversee\/muster' compressed to 'count'; the token is both oversight and enumeration"
+    }
+  ],
+  "translation": "And Moses counted, as YHWH commanded ⟨את⟩ him, ⟨את⟩ every firstborn among the sons of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b008bd0695d55e027204d06cafe07c49c4d9293a5236c97c335d1ae9bb31f4ba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/3\/41-44.1791182813462.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
       "surface": "ויפקד",
-      "gloss": "And Moses numbered"
+      "gloss": "And Moses counted",
+      "sense": "S1"
     },
     {
       "surface": "משה",
-      "gloss": "Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "כאשר",
-      "gloss": "as"
+      "gloss": "as",
+      "sense": null
     },
     {
       "surface": "צוה",
-      "gloss": "had commanded"
+      "gloss": "commanded",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "gloss": "⟨את⟩ him",
+      "marks": "Moses",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "every firstborn",
+      "sense": null
     },
     {
       "surface": "כל",
-      "gloss": "every"
+      "gloss": "every",
+      "sense": null
     },
     {
       "surface": "בכר",
-      "gloss": "firstborn"
+      "gloss": "firstborn",
+      "sense": null
     },
     {
       "surface": "בבני",
-      "gloss": "among the sons of"
+      "gloss": "among the sons of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:46:53.464707136Z",
+  "model": "glm-5.3"
 }

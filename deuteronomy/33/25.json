@@ -1,60 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Iron and bronze ⟨are⟩ your bolts, and as your days, ⟨so shall⟩ your strength ⟨be⟩.",
-  "tokens": [
+  "ref": "deuteronomy 33:25",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "ברזל",
-      "gloss": "Iron"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between the metals and מנעליך"
     },
     {
-      "surface": "ונחשת",
-      "gloss": "and bronze"
+      "kind": "hapax",
+      "subject": "מִנְעָל",
+      "rationale": "city-gate bolts, only here in the Tanakh"
     },
     {
-      "surface": "מנעליך",
-      "gloss": "⟨are⟩ your bolts",
-      "readings": [
-        "⟨are⟩ your bolts",
-        "your sandals"
-      ],
-      "held_by": {
-        "⟨are⟩ your bolts": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your sandals": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "דֹּבְאֶךָ",
+      "rationale": "hapax; meaning unsure, probably strength\/security, some read 'your decline'"
     },
     {
-      "surface": "וכימיך",
-      "gloss": "and as your days"
-    },
-    {
-      "surface": "דבאך",
-      "gloss": "your strength",
-      "readings": [
-        "your strength",
-        "your rest"
-      ],
-      "held_by": {
-        "your strength": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your rest": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "דֹּבְאֶךָ",
+      "rationale": "'your strength' vs 'your decline' — root dubia; the parallel with days favors duration"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Iron and copper are your bars, and as your days, so your strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0790b423fc96e1489daf20c6f6739531b1f57d581b90387aa433aa44b927a593",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/33\/25-28.1791184261157.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בַּרְזֶל",
+      "gloss": "Iron",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּנְחֹשֶׁת",
+      "gloss": "and copper",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנְעָלֶיךָ",
+      "gloss": "are your bars",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְיָמֶיךָ",
+      "gloss": "and as your days",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּבְאֶךָ",
+      "gloss": "so your strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:11:01.157737293Z",
+  "model": "glm-5.3"
 }

@@ -1,75 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Making his messengers winds, his ministers a fire of flame.",
-  "tokens": [
+  "ref": "psalms 104:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "עשה",
-      "gloss": "making"
+      "kind": "crux",
+      "subject": "making his messengers winds",
+      "rationale": "Hebrew can read 'who makes winds his messengers' (accusative of exchange, reflected in some ancient versions) or 'who makes his messengers into winds'; the plain form permits both."
     },
     {
-      "surface": "מלאכיו",
+      "kind": "wordplay",
+      "subject": "רוחות",
+      "rationale": "The verse plays on רוח — wind\/spirit — paired with אש, echoing verse 3's wind."
+    }
+  ],
+  "translation": "Making his messengers winds, his servants flames of fire —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a566b6f02c2056e7724d7007e44ff48349654b1c234ce00681723f3a777b86e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/1-4.1791193276348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֹשֶׂ֣ה",
+      "gloss": "Making",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְאָכָ֣יו",
       "gloss": "his messengers",
       "readings": [
         "his messengers",
         "his angels"
       ],
-      "held_by": {
-        "his messengers": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his angels": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רוחות",
+      "surface": "ר֣וּח֑וֹת",
       "gloss": "winds",
       "readings": [
         "winds",
         "spirits"
       ],
-      "held_by": {
-        "winds": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "spirits": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "משרתיו",
-      "gloss": "his ministers"
+      "surface": "מְשָׁ֝רְתָ֗יו",
+      "gloss": "his servants",
+      "sense": "S1"
     },
     {
-      "surface": "אש",
-      "gloss": "fire"
+      "surface": "אֵ֣שׁ",
+      "gloss": "fire",
+      "sense": "S1"
     },
     {
-      "surface": "להט",
-      "gloss": "of flame",
-      "readings": [
-        "of flame",
-        "flaming"
-      ],
-      "held_by": {
-        "of flame": [
-          "en4"
-        ],
-        "flaming": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "לֹהֵֽט",
+      "gloss": "flaming",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:16.349682550Z",
+  "model": "glm-5.3"
 }

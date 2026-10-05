@@ -1,55 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "A steadfast mind You keep in peace — peace — for in You it trusts.",
-  "tokens": [
+  "ref": "isaiah 26:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "יצר",
-      "gloss": "mind",
-      "readings": [
-        "mind",
-        "a purpose"
-      ],
-      "held_by": {
-        "mind": [
-          "v2",
-          "v3"
-        ],
-        "a purpose": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "A form firmly-supported",
+      "rationale": "יֵצֶר is the mind's shaping; many read ‘a mind stayed (on You)’ — KJV supplies ‘on thee’, absent in Hebrew"
     },
     {
-      "surface": "סמוך",
-      "gloss": "steadfast"
+      "kind": "wordplay",
+      "subject": "peace, peace",
+      "rationale": "doubled שלום for intensity; the doubling is kept"
     },
     {
-      "surface": "תצר",
-      "gloss": "You keep"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "בך",
-      "gloss": "in You"
-    },
-    {
-      "surface": "בטוח",
-      "gloss": "trusts"
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "second-person address to God begins here and continues"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A form firmly-supported You guard: peace, peace — for in You it trusts.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "abf01b6599cebbe70cece003ce4459a4faa6d8268493d3e424e8f465b89f5864",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/1-4.1791188358406.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֵ֣צֶר",
+      "gloss": "A form",
+      "sense": "S1"
+    },
+    {
+      "surface": "סָמ֔וּךְ",
+      "gloss": "firmly-supported",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּצֹּ֖ר",
+      "gloss": "You guard",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁל֣וֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁל֑וֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "בְךָ֖",
+      "gloss": "in You",
+      "sense": null
+    },
+    {
+      "surface": "בָּטֽוּחַ",
+      "gloss": "it trusts",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:18.407321356Z",
+  "model": "glm-5.3"
 }

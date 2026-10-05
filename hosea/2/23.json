@@ -1,14 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "And it shall come to pass in that day, I will answer — the oracle of YHWH — I will answer ⟨את⟩ the heavens, and they shall answer ⟨את⟩ the earth.",
+  "ref": "hosea 2:23",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "ענה…ענה…יענו",
+      "rationale": "The root ענה cascades through vv.23–24 five times — YHWH, heavens, earth, grain-wine-oil, Jezreel each answering the next, a chain of response lost if rendered variously."
+    },
+    {
+      "kind": "measurement",
+      "subject": "chain of answer",
+      "rationale": "The verse builds a linked order of five respondents, a numbered covenant cascade from heaven down to a named child."
+    }
+  ],
+  "translation": "And it will be in that day — I will answer, declares YHWH — I will answer ⟨את⟩ the heavens, and they will answer ⟨את⟩ the earth,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a5ab75fd111f7a13d925cf3bca2c0c9ae51ba943e6c5b452617e7552c1dffa2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/2\/21-24.1791199759044.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and it shall come to pass"
+      "gloss": "and it will be"
     },
     {
       "surface": "ביום",
-      "gloss": "in the day"
+      "gloss": "in the day",
+      "sense": "S1"
     },
     {
       "surface": "ההוא",
@@ -16,43 +44,33 @@
     },
     {
       "surface": "אענה",
-      "gloss": "I will answer"
+      "gloss": "I will answer",
+      "sense": "S1"
     },
     {
       "surface": "נאם",
-      "gloss": "the oracle of",
-      "readings": [
-        "the oracle of",
-        "the utterance of"
-      ],
-      "held_by": {
-        "the oracle of": [
-          "v2",
-          "v3"
-        ],
-        "the utterance of": [
-          "en4"
-        ],
-        "declares": [
-          "v1"
-        ]
-      }
+      "gloss": "declares",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אענה",
-      "gloss": "I will answer"
+      "gloss": "I will answer",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the heavens"
     },
     {
       "surface": "השמים",
-      "gloss": "the heavens"
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
       "surface": "והם",
@@ -60,11 +78,13 @@
     },
     {
       "surface": "יענו",
-      "gloss": "shall answer"
+      "gloss": "will answer",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the earth"
     },
     {
       "surface": "הארץ",
@@ -73,16 +93,9 @@
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:29:19.046013383Z",
+  "model": "glm-5.3"
 }

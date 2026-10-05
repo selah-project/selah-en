@@ -1,60 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "YHWH of hosts ⟨is⟩ with us; a high tower for us ⟨is⟩ the Elohim of Jacob. Selah.",
-  "tokens": [
+  "ref": "psalms 46:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'YHWH of hosts with us'."
     },
     {
-      "surface": "צבאות",
-      "gloss": "of hosts"
+      "kind": "elision",
+      "subject": "סלה",
+      "rationale": "musical pause marker, transliterated as Selah since it has no English equivalent."
     },
     {
-      "surface": "עמנו",
-      "gloss": "with us"
-    },
-    {
-      "surface": "משגב",
-      "gloss": "a high tower",
-      "readings": [
-        "a high tower",
-        "a high stronghold",
-        "a refuge"
-      ],
-      "held_by": {
-        "a high tower": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a high stronghold": [
-          "en4"
-        ],
-        "a refuge": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לנו",
-      "gloss": "for us"
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "the Elohim of"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "Jacob"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "the refrain addresses the people directly: YHWH of hosts is with us."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH of hosts is with us, a high stronghold for us is the Elohim of Jacob. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "138b5b08f7dd3068976afb0239499873e5893bb09f55aea570c91eee6d8f1e12",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/46\/5-8.1791192724714.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צְבָאוֹת",
+      "gloss": "of hosts",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּנוּ",
+      "gloss": "is with us",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׂגָּב",
+      "gloss": "a high stronghold",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָנוּ",
+      "gloss": "for us",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהֵי",
+      "gloss": "the Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:04.715638226Z",
+  "model": "glm-5.3"
 }

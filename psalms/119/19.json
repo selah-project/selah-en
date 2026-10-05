@@ -1,64 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "A sojourner ⟨am⟩ I in the land; do not hide from me your commandments.",
+  "ref": "psalms 119:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew fronted pronoun needs no copula; 'A sojourner am I' carries the emphasis without brackets."
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Deprecative plea addressed to YHWH."
+    }
+  ],
+  "translation": "A sojourner am I in the land; do not hide from me your commandments.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "23560770c89b9853717c1dfd6664db7417725c10c7951322e8bf1fc8e0b03df6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/17-20.1791193443927.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "גר",
-      "gloss": "a sojourner",
-      "readings": [
-        "a sojourner",
-        "a stranger"
-      ],
-      "held_by": {
-        "a sojourner": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a stranger": [
-          "v1"
-        ]
-      }
+      "surface": "גֵּ֣ר",
+      "gloss": "A sojourner",
+      "sense": "S1"
     },
     {
-      "surface": "אנכי",
-      "gloss": "I"
+      "surface": "אָנֹכִ֣י",
+      "gloss": "am I",
+      "sense": null
     },
     {
-      "surface": "בארץ",
+      "surface": "בָאָ֑רֶץ",
       "gloss": "in the land",
+      "sense": "S1",
       "readings": [
         "in the land",
         "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
     },
     {
-      "surface": "תסתר",
-      "gloss": "hide"
+      "surface": "תַּסְתֵּ֥ר",
+      "gloss": "hide",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "from me"
+      "surface": "מִ֝מֶּ֗נִּי",
+      "gloss": "from me",
+      "sense": null
     },
     {
-      "surface": "מצותיך",
-      "gloss": "your commandments"
+      "surface": "מִצְוֺתֶֽיךָ",
+      "gloss": "your commandments",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:44:03.928558992Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "YHWH, in distress they sought you; they poured out a whispered prayer — your chastening was upon them.",
+  "ref": "isaiah 26:16",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "פקדוך",
+      "rationale": "SDBH gives 'to long for (an absent one)' here vs the usual 'visit\/punish'; rendered as longing poured out toward YHWH"
+    },
+    {
+      "kind": "addition",
+      "subject": "before you",
+      "rationale": "the suffix on פקדוך is second person; English needs the preposition supplied"
+    },
+    {
+      "kind": "hapax",
+      "subject": "צקון",
+      "rationale": "paragogic-nun form of צוק, rare — words flowing like liquid"
+    }
+  ],
+  "translation": "YHWH, in the distress they poured out a whisper before you, your discipline for them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1bcf0dbfc331655628cf23d29272ed6b69b9b0e54613a2ce2a6118e4947faa15",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/13-16.1791188366554.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "בצר",
-      "gloss": "in distress",
-      "readings": [
-        "in distress",
-        "in the straitness"
-      ],
-      "held_by": {
-        "in distress": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the straitness": [
-          "en4"
-        ]
-      }
+      "gloss": "in the distress",
+      "sense": "S1"
     },
     {
       "surface": "פקדוך",
-      "gloss": "sought you",
+      "gloss": "they poured out before you",
+      "sense": "S1",
       "readings": [
-        "sought you",
-        "visited you"
-      ],
-      "held_by": {
-        "sought you": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "visited you": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "they poured out before you",
+        "they longed for you"
+      ]
     },
     {
       "surface": "צקון",
-      "gloss": "they poured out"
+      "gloss": "they poured out a whisper",
+      "sense": "S1"
     },
     {
       "surface": "לחש",
-      "gloss": "a whispered prayer"
+      "gloss": "a whisper",
+      "sense": "S1"
     },
     {
       "surface": "מוסרך",
-      "gloss": "your chastening"
+      "gloss": "your discipline",
+      "sense": "S1"
     },
     {
       "surface": "למו",
-      "gloss": "upon them"
+      "gloss": "for them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:19:26.555691361Z",
+  "model": "glm-5.3"
 }

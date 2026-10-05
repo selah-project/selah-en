@@ -1,77 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "For there is no righteous man on the earth who does good and does not sin.",
-  "tokens": [
+  "ref": "ecclesiastes 7:20",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "אדם",
+      "rationale": "generic 'humankind' vs individual man; universal statement either way"
     },
     {
-      "surface": "אדם",
-      "gloss": "man",
-      "readings": [
-        "man",
-        "a human"
-      ],
-      "held_by": {
-        "man": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a human": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אין",
-      "gloss": "there is no"
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "righteous"
-    },
-    {
-      "surface": "בארץ",
-      "gloss": "on the earth"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "יעשה",
-      "gloss": "does"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and does not"
-    },
-    {
-      "surface": "יחטא",
-      "gloss": "sin",
-      "readings": [
-        "sin",
-        "miss the mark"
-      ],
-      "held_by": {
-        "sin": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "miss the mark": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "חטא",
+      "rationale": "root sense 'miss (the mark)'; rendered 'sin'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For there is no righteous one on the earth who does good and does not sin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7887092497fce01a275220d10ad3d76383d602ab255e4cfaa5abe4833d00170",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/17-20.1791194894682.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "a human",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵין",
+      "gloss": "there is not",
+      "sense": null
+    },
+    {
+      "surface": "צַדִּיק",
+      "gloss": "a righteous one",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאָרֶץ",
+      "gloss": "on the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲשֶׂה",
+      "gloss": "does",
+      "sense": "S1"
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחֱטָא",
+      "gloss": "sin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:08:14.683964965Z",
+  "model": "glm-5.3"
 }

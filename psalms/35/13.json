@@ -1,70 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "But as for me, when they were sick, my clothing was sackcloth; I afflicted my soul with fasting, and my prayer would return upon my bosom.",
+  "ref": "psalms 35:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "my prayer returned upon my bosom",
+      "rationale": "Either the prayer boomeranged back unaccepted, or David kept turning his prayer back into his bosom — repeating it silently in his heart."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat \/ life-force; 'my soul' for the object of fasting."
+    }
+  ],
+  "translation": "But as for me, when they were sick, my clothing was sackcloth; I humbled my soul with a fast, and my prayer returned upon my bosom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b6d4ffb56d4f41bb8fd2dc7d82ae78d5495580131647e2c5f0ac73214d6dab54",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/13-16.1791192623839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואני",
+      "surface": "וַאֲנִי",
       "gloss": "But as for me"
     },
     {
-      "surface": "בחלותם",
-      "gloss": "when they were sick"
+      "surface": "בַּחֲלוֹתָם",
+      "gloss": "when they were sick",
+      "sense": "S1"
     },
     {
-      "surface": "לבושי",
-      "gloss": "my clothing"
+      "surface": "לְבוּשִׁי",
+      "gloss": "my clothing",
+      "sense": "S1"
     },
     {
-      "surface": "שק",
-      "gloss": "sackcloth"
+      "surface": "שָׂק",
+      "gloss": "sackcloth",
+      "sense": "S1"
     },
     {
-      "surface": "עניתי",
-      "gloss": "I afflicted"
+      "surface": "עִנֵּיתִי",
+      "gloss": "I humbled",
+      "sense": "S1"
     },
     {
-      "surface": "בצום",
-      "gloss": "with fasting"
+      "surface": "בַּצּוֹם",
+      "gloss": "with a fast",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my nefesh",
-        "my life"
+        "my throat",
+        "myself"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my nefesh": [
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותפלתי",
-      "gloss": "and my prayer"
+      "surface": "וּתְפִלָּתִי",
+      "gloss": "and my prayer",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "חיקי",
-      "gloss": "my bosom"
+      "surface": "חֵיקִי",
+      "gloss": "my bosom",
+      "sense": "S1"
     },
     {
-      "surface": "תשוב",
-      "gloss": "would return"
+      "surface": "תָשׁוּב",
+      "gloss": "returned",
+      "readings": [
+        "returned",
+        "would return"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:23.840315212Z",
+  "model": "glm-5.3"
 }

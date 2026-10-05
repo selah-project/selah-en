@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "His sneezings flash forth light, and his eyes are like the eyelids of dawn.",
-  "tokens": [
+  "ref": "job 41:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "עטישתיו",
-      "gloss": "his sneezings"
+      "kind": "hapax",
+      "subject": "עֲטִישֹׁתָיו",
+      "rationale": "'sneezings' occurs only here in the Tanakh."
     },
     {
-      "surface": "תהל",
-      "gloss": "flash forth"
-    },
-    {
-      "surface": "אור",
-      "gloss": "light",
-      "readings": [
-        "light",
-        "lightning"
-      ],
-      "held_by": {
-        "light": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "lightning": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ועיניו",
-      "gloss": "and his eyes"
-    },
-    {
-      "surface": "כעפעפי",
-      "gloss": "like the eyelids of"
-    },
-    {
-      "surface": "שחר",
-      "gloss": "dawn"
+      "kind": "crux",
+      "subject": "eyelids of dawn",
+      "rationale": "some render 'like eyelids of the morning' (the first gleam), others take it as the fluttering rays just before sunrise."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His sneezings flash forth light, and his eyes are like the eyelids of dawn.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e64f2f76cb3324f5d6b4ca2f4dc680e7ec76501541cb0e5340758305a8623a52",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/9-12.1791194646317.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֲטִישֹׁתָיו",
+      "gloss": "His sneezings",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּהֵל",
+      "gloss": "flash forth",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹר",
+      "gloss": "light",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵינָיו",
+      "gloss": "and his eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּעַפְעַפֵּי",
+      "gloss": "like the eyelids of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁחַר",
+      "gloss": "dawn",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:06.318697677Z",
+  "model": "glm-5.3"
 }

@@ -1,85 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Of David. I give thanks to You with all my heart; before Elohim I make music to You.",
+  "ref": "psalms 138:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 138,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "The psalm addresses Elohim directly in second person throughout."
+    },
+    {
+      "kind": "invitation",
+      "subject": "praise",
+      "rationale": "The verse opens a psalm of thanksgiving that summons the singer to praise."
+    }
+  ],
+  "translation": "Of David. I will give you thanks with all my heart; before Elohim I will make music for you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0fe0683012e8a3506c692473b4980bc5b0e364932370f3af8e179c1d57f509c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/138\/1-4.1791193582180.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לדוד",
-      "gloss": "Of David"
+      "surface": "לְדָוִ֨ד",
+      "gloss": "Of David",
+      "sense": "S1"
     },
     {
-      "surface": "אודך",
-      "gloss": "I give thanks to You",
-      "readings": [
-        "I give thanks to You",
-        "I praise You",
-        "I confess You"
-      ],
-      "held_by": {
-        "I give thanks to You": [
-          "v2",
-          "en4"
-        ],
-        "I praise You": [
-          "v1",
-          "v3"
-        ],
-        "I confess You": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "אוֹדְךָ֥",
+      "gloss": "I will give you thanks",
+      "sense": "S1"
     },
     {
-      "surface": "בכל",
+      "surface": "בְכָל",
       "gloss": "with all"
     },
     {
-      "surface": "לבי",
-      "gloss": "my heart"
+      "surface": "לִבִּ֑י",
+      "gloss": "my heart",
+      "sense": "S1"
     },
     {
-      "surface": "נגד",
+      "surface": "נֶ֖גֶד",
       "gloss": "before",
-      "readings": [
-        "before",
-        "opposite"
-      ],
-      "held_by": {
-        "before": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "opposite": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
+      "surface": "אֱלֹהִ֣ים",
       "gloss": "Elohim",
-      "readings": [
-        "Elohim",
-        "gods"
-      ],
-      "held_by": {
-        "Elohim": [
-          "en4"
-        ],
-        "gods": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S2"
     },
     {
-      "surface": "אזמרך",
-      "gloss": "I make music to You"
+      "surface": "אֲזַמְּרֶֽךָּ",
+      "gloss": "I will make music for you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:22.181027773Z",
+  "model": "glm-5.3"
 }

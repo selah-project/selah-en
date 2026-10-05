@@ -1,56 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Do not rob a poor man because he ⟨is⟩ poor, and do not crush the afflicted in the gate.",
+  "ref": "proverbs 22:22",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "article supplied before 'poor' and 'afflicted'; Hebrew uses the bare adjective as a substantive"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דל ... דל הוא",
+      "rationale": "the root repeats: 'the poor, for poor is he' — the justification is the very word itself"
+    },
+    {
+      "kind": "you",
+      "subject": "to the son",
+      "rationale": "second-person jussives address the instruction's hearer directly"
+    }
+  ],
+  "translation": "Do not rob the poor, for he is poor, and do not crush the afflicted at the gate.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ca1497be183b83c25540f412dd5e92521733cdaf7ca3b44f0d49f496fa9586a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/22\/21-24.1791193973952.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אל",
-      "gloss": "Do not"
+      "surface": "אַֽל",
+      "gloss": "not"
     },
     {
-      "surface": "תגזל",
-      "gloss": "rob"
+      "surface": "תִּגְזָל",
+      "gloss": "rob",
+      "sense": "S1"
     },
     {
-      "surface": "דל",
-      "gloss": "a poor man",
-      "readings": [
-        "a poor man",
-        "the poor"
-      ]
+      "surface": "דָּ֭ל",
+      "gloss": "the poor",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "because"
+      "surface": "כִּ֣י",
+      "gloss": "for"
     },
     {
-      "surface": "דל",
-      "gloss": "poor"
+      "surface": "דַּ֣ל",
+      "gloss": "poor",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "ה֑וּא",
       "gloss": "he"
     },
     {
-      "surface": "ואל",
-      "gloss": "and do not"
+      "surface": "וְאַל",
+      "gloss": "and not"
     },
     {
-      "surface": "תדכא",
+      "surface": "תְּדַכֵּ֖א",
       "gloss": "crush",
-      "readings": [
-        "crush",
-        "oppress"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "עני",
-      "gloss": "the afflicted"
+      "surface": "עָנִ֣י",
+      "gloss": "the afflicted",
+      "sense": "S1"
     },
     {
-      "surface": "בשער",
-      "gloss": "in the gate"
+      "surface": "בַּשָּֽׁעַר",
+      "gloss": "at the gate",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:53.953657256Z",
+  "model": "glm-5.3"
 }

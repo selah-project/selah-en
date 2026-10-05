@@ -1,46 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And he banished the consecrated ones from the land, and he removed ⟨את⟩ all the dung-idols that his fathers had made.",
+  "ref": "1-kings 15:12",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the qedeshim",
+      "rationale": "Cultic male devotees of fertility rites; renderings range from 'male cult prostitutes' (traditional) to 'sacred officials' — the Hebrew keeps the root 'holy ones' ironically."
+    },
+    {
+      "kind": "substitution",
+      "subject": "idols",
+      "rationale": "גלולים literally 'round logs' — shape-word for idols; the physical picture is lost in 'idols'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "caused to pass out",
+      "rationale": "hiphil of עבר — 'removed' or 'banished' also possible; the causative 'made them cross out of' kept literal."
+    }
+  ],
+  "translation": "And he caused the qedeshim to pass out of the land, and removed ⟨את⟩ all the idols that his fathers had made.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d06806997db949a2cee9e48747b3a94ad0ead7bd4b1fc5a22d8bb2202b12f65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/15\/9-12.1791187108026.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ויעבר",
-      "gloss": "and he banished",
-      "readings": [
-        "and he banished",
-        "and he passed through"
-      ],
-      "held_by": {
-        "and he banished": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and he passed through": [
-          "en4"
-        ]
-      }
+      "gloss": "And he caused to pass",
+      "sense": null
     },
     {
       "surface": "הקדשים",
-      "gloss": "the consecrated ones",
-      "readings": [
-        "the consecrated ones",
-        "the male cult prostitutes"
-      ],
-      "held_by": {
-        "the consecrated ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the male cult prostitutes": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "the qedeshim",
+      "sense": "S1"
     },
     {
       "surface": "מן",
@@ -49,29 +51,17 @@
     {
       "surface": "הארץ",
       "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ויסר",
-      "gloss": "and he removed"
+      "gloss": "and removed",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all the idols"
     },
     {
       "surface": "כל",
@@ -79,23 +69,8 @@
     },
     {
       "surface": "הגללים",
-      "gloss": "the dung-idols",
-      "readings": [
-        "the dung-idols",
-        "the idols"
-      ],
-      "held_by": {
-        "the dung-idols": [
-          "en4"
-        ],
-        "the idols": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "the idols",
+      "sense": null
     },
     {
       "surface": "אשר",
@@ -103,13 +78,15 @@
     },
     {
       "surface": "עשו",
-      "gloss": "had made"
+      "gloss": "had made",
+      "sense": "S1"
     },
     {
       "surface": "אבתיו",
-      "gloss": "his fathers"
+      "gloss": "his fathers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:58:28.027569428Z",
+  "model": "glm-5.3"
 }

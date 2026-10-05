@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "And the priest shall pour from the oil upon the palm of the priest, the left ⟨hand⟩.",
-  "tokens": [
+  "ref": "leviticus 14:26",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ומן",
-      "gloss": "and from"
+      "kind": "addition",
+      "subject": "⟨one⟩",
+      "rationale": "English needs a noun for the adjective 'left'; Hebrew has only the adjective"
     },
     {
-      "surface": "השמן",
-      "gloss": "the oil"
-    },
-    {
-      "surface": "יצק",
-      "gloss": "shall pour"
-    },
-    {
-      "surface": "הכהן",
-      "gloss": "the priest"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "כף",
-      "gloss": "the palm"
-    },
-    {
-      "surface": "הכהן",
-      "gloss": "of the priest"
-    },
-    {
-      "surface": "השמאלית",
-      "gloss": "the left"
+      "kind": "elision",
+      "subject": "verse-final dash",
+      "rationale": "Verse 26 is an unbroken command running into verse 27; the dash marks the suspended syntax"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And from the oil the priest shall pour onto the palm of the priest, the left ⟨one⟩ —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c92a17523f3cf88dc4499a9d468fab9670cc8f77a0e09a3cfdca6eff0766d5f2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/26-28.1791197717038.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּמִן",
+      "gloss": "and from",
+      "sense": null
+    },
+    {
+      "surface": "הַשֶּׁמֶן",
+      "gloss": "the oil",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִצֹק",
+      "gloss": "shall pour",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "onto",
+      "sense": null
+    },
+    {
+      "surface": "כַּף",
+      "gloss": "palm",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "of the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשְּׂמָאלִית",
+      "gloss": "the left ⟨one⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:55:17.039128657Z",
+  "model": "glm-5.3"
 }

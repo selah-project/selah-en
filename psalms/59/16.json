@@ -1,66 +1,71 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "They will wander to eat; if they are not satisfied, they will lodge.",
+  "ref": "psalms 59:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 59,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ינועון",
+      "rationale": "ketiv ינועון vs qere יניעון, 'they wander' (S3) vs causative 'they prowl about'; rendered per ketiv's sense"
+    },
+    {
+      "kind": "crux",
+      "subject": "וילינו",
+      "rationale": "sequential imperfect 'and they spend the night' — continuing the dogs image, or 'they will lodge (in wait)'"
+    }
+  ],
+  "translation": "They wander about to eat; if they are not satisfied, they pass the night.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0e1d43c73f756cc2d3e585a5401d98b0671243977c8458e8e29ff380119bb8a2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/59\/13-16.1791192842604.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "המה",
+      "surface": "הֵ֭מָּה",
       "gloss": "They"
     },
     {
       "surface": "ינועון",
-      "gloss": "will wander",
+      "gloss": "wander about",
       "readings": [
-        "will wander",
-        "will totter"
+        "wander about",
+        "stagger about"
       ],
-      "held_by": {
-        "will wander": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will totter": [
-          "en4"
-        ]
-      }
+      "sense": "S3"
     },
     {
-      "surface": "לאכל",
-      "gloss": "to eat"
+      "surface": "לֶאֱכֹ֑ל",
+      "gloss": "to eat",
+      "sense": "S1"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "if"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ישבעו",
-      "gloss": "are satisfied"
+      "surface": "יִ֝שְׂבְּע֗וּ",
+      "gloss": "they are satisfied",
+      "sense": "S1"
     },
     {
-      "surface": "וילינו",
-      "gloss": "will lodge",
-      "readings": [
-        "will lodge",
-        "will murmur"
-      ],
-      "held_by": {
-        "will lodge": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will murmur": [
-          "en4"
-        ]
-      }
+      "surface": "וַיָּלִֽינוּ",
+      "gloss": "they pass the night"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:02.605672508Z",
+  "model": "glm-5.3"
 }

@@ -1,75 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And Saul saw ⟨את⟩ the camp of the Philistines, and he feared, and his heart trembled greatly.",
-  "tokens": [
+  "ref": "1-samuel 28:5",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "וירא",
-      "gloss": "And Saul saw",
-      "readings": [
-        "And Saul saw",
-        "and Saul feared"
-      ],
-      "held_by": {
-        "And Saul saw": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and Saul feared": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "and he",
+      "rationale": "English needs the subject pronoun for the second verb; Hebrew carries it in the verb form"
     },
     {
-      "surface": "שאול",
-      "gloss": "Saul"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "מחנה",
-      "gloss": "the camp",
-      "readings": [
-        "the camp",
-        "the army"
-      ],
-      "held_by": {
-        "the camp": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the army": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פלשתים",
-      "gloss": "of the Philistines"
-    },
-    {
-      "surface": "וירא",
-      "gloss": "and he feared"
-    },
-    {
-      "surface": "ויחרד",
-      "gloss": "and trembled"
-    },
-    {
-      "surface": "לבו",
-      "gloss": "and his heart"
-    },
-    {
-      "surface": "מאד",
-      "gloss": "greatly"
+      "kind": "substitution",
+      "subject": "trembled",
+      "rationale": "חרד is fear accompanied by shaking; the English keeps the body in the word"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Saul saw ⟨את⟩ the camp of the Philistines, and he feared, and his heart trembled very much.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "41793e1aade4a153db4442f9fb095d9237a801661ea6ab6db8c6d035959354e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/28\/5-8.1791186021289.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֥רְא",
+      "gloss": "and saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁא֖וּל",
+      "gloss": "Saul",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "the camp of the Philistines"
+    },
+    {
+      "surface": "מַחֲנֵ֣ה",
+      "gloss": "the camp of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּלִשְׁתִּ֑ים",
+      "gloss": "the Philistines",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּירָ֕א",
+      "gloss": "and he feared",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֶּחֱרַ֥ד",
+      "gloss": "and trembled",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבּ֖וֹ",
+      "gloss": "his heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹֽד",
+      "gloss": "very much",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:40:21.290247933Z",
+  "model": "glm-5.3"
 }

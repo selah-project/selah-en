@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "He ⟨is⟩ Benaiah, a mighty man of the thirty, and over the thirty; and his division: Ammizabad his son.",
-  "tokens": [
+  "ref": "1-chronicles 27:6",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "הוא",
-      "gloss": "he",
-      "readings": [
-        "he",
-        "this"
-      ],
-      "held_by": {
-        "he": [
-          "v1",
-          "en4"
-        ],
-        "this": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "עַמִּיזָבָד",
+      "rationale": "Ammizabad occurs only here in the Tanakh."
     },
     {
-      "surface": "בניהו",
-      "gloss": "Benaiah"
+      "kind": "addition",
+      "subject": "⟨was under⟩",
+      "rationale": "Hebrew juxtaposes 'his division' and 'Ammizabad his son' with no verb; supplied clause marked with brackets."
     },
     {
-      "surface": "גבור",
-      "gloss": "a mighty man"
-    },
-    {
-      "surface": "השלשים",
-      "gloss": "of the thirty"
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and over"
-    },
-    {
-      "surface": "השלשים",
-      "gloss": "the thirty"
-    },
-    {
-      "surface": "ומחלקתו",
-      "gloss": "and his division"
-    },
-    {
-      "surface": "עמיזבד",
-      "gloss": "Ammizabad"
-    },
-    {
-      "surface": "בנו",
-      "gloss": "his son"
+      "kind": "crux",
+      "subject": "הַשְּׁלֹשִׁים",
+      "rationale": "'the Thirty' as the famous body of David's elite (with article) vs simple cardinal 'thirty'; taken as the named corps."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He was Benaiah, a mighty-man of the thirty, and over the thirty; and his division ⟨was under⟩ Ammizabad his son.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26b0e7b8af70cff2f414375f4abe5f2db859f45b5cccec71793b6494d6c86fac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/27\/5-8.1791196446619.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ה֧וּא",
+      "gloss": "He",
+      "sense": null
+    },
+    {
+      "surface": "בְנָיָ֛הוּ",
+      "gloss": "Benaiah",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּבּ֥וֹר",
+      "gloss": "a mighty-man of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשְּׁלֹשִׁ֖ים",
+      "gloss": "the thirty",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַל",
+      "gloss": "and over",
+      "sense": null
+    },
+    {
+      "surface": "הַשְּׁלֹשִׁ֑ים",
+      "gloss": "the thirty",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמַ֣חֲלֻקְתּ֔וֹ",
+      "gloss": "and his division",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּיזָבָ֖ד",
+      "gloss": "Ammizabad",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֽוֹ",
+      "gloss": "his son",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:34:06.620676195Z",
+  "model": "glm-5.3"
 }

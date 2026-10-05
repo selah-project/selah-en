@@ -1,57 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Ask for the peace of Jerusalem; may they be at ease, those who love you.",
-  "tokens": [
+  "ref": "psalms 122:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 122,
+  "notes": [
     {
-      "surface": "שאלו",
-      "gloss": "Ask"
+      "kind": "wordplay",
+      "subject": "שאלו\/שלום\/ישליו",
+      "rationale": "Root-play on שאל and שלם\/שלה — asking, peace, and ease alliterate, lost in English"
     },
     {
-      "surface": "שלום",
+      "kind": "invitation",
+      "subject": "to the pilgrims",
+      "rationale": "Plural imperative summons the community to pray for Jerusalem"
+    }
+  ],
+  "translation": "Ask for the peace of Jerusalem; those who love you shall be at ease.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6d025d7331ae50504a5cd08df0d3a030157f9723fef2c3f188c359bf217f4fbc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/122\/5-8.1791193513036.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שַׁאֲלוּ",
+      "gloss": "Ask for",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁלוֹם",
       "gloss": "the peace of",
-      "readings": [
-        "the peace of",
-        "the wholeness of"
-      ],
-      "held_by": {
-        "the peace of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wholeness of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "ישליו",
-      "gloss": "may they be at ease",
-      "readings": [
-        "may they be at ease",
-        "may they prosper"
-      ],
-      "held_by": {
-        "may they be at ease": [
-          "v2",
-          "v3"
-        ],
-        "may they prosper": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "יִשְׁלָיוּ",
+      "gloss": "shall be at ease",
+      "sense": "S1"
     },
     {
-      "surface": "אהביך",
-      "gloss": "those who love you"
+      "surface": "אֹהֲבָיִךְ",
+      "gloss": "those who love you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:13.037091199Z",
+  "model": "glm-5.3"
 }

@@ -1,93 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Ephraim has surrounded me with lies, and the house of Israel with deceit; and Judah is yet unruly with El, and with holy ones is faithful.",
+  "ref": "hosea 12:1",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "El",
+      "rationale": "עם אל ועם קדושים read either 'with El and with the holy ones' or 'against El and against the holy ones', both senses of עם."
+    },
+    {
+      "kind": "alternative",
+      "subject": "restless",
+      "rationale": "רוד occurs only three other times in the Tanakh (Gen 27:40, Jer 2:31, Ps 55:3); rendered with the S2 literal sense 'to be restless', tramping about."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "falsehood\/deceit",
+      "rationale": "כחש and מרמה, near-synonyms of deception, paired in parallel halves."
+    }
+  ],
+  "translation": "Ephraim has surrounded me with falsehood, and the house of Israel with deceit; and Judah is yet restless with El, and with the holy ones is faithful.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "74d8a900016d191b2f4d964fe159f8cc7d674ae3b33432db18a5957964eaa9ec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/12\/1-4.1791191360082.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "סבבני",
+      "surface": "סְבָבֻ֤נִי",
       "gloss": "has surrounded me"
     },
     {
-      "surface": "בכחש",
-      "gloss": "with lies"
+      "surface": "בְכַ֨חַשׁ֙",
+      "gloss": "with falsehood",
+      "sense": "S1"
     },
     {
-      "surface": "אפרים",
-      "gloss": "Ephraim"
+      "surface": "אֶפְרַ֔יִם",
+      "gloss": "Ephraim",
+      "sense": "S1"
     },
     {
-      "surface": "ובמרמה",
-      "gloss": "and with deceit"
+      "surface": "וּבְמִרְמָ֖ה",
+      "gloss": "and with deceit",
+      "sense": "S1"
     },
     {
-      "surface": "בית",
-      "gloss": "house of"
+      "surface": "בֵּ֣ית",
+      "gloss": "the house of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵ֑ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "ויהודה",
-      "gloss": "and Judah"
+      "surface": "וִֽיהוּדָ֗ה",
+      "gloss": "and Judah",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "yet"
+      "surface": "עֹ֥ד",
+      "gloss": "yet",
+      "sense": null
     },
     {
-      "surface": "רד",
-      "gloss": "unruly",
-      "readings": [
-        "unruly",
-        "wanders"
-      ],
-      "held_by": {
-        "unruly": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "wanders": [
-          "en4"
-        ]
-      }
+      "surface": "רָד֙",
+      "gloss": "restless",
+      "sense": "S2"
     },
     {
-      "surface": "עם",
-      "gloss": "with"
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
     },
     {
-      "surface": "אל",
-      "gloss": "El"
+      "surface": "אֵ֔ל",
+      "gloss": "El",
+      "sense": "S1"
     },
     {
-      "surface": "ועם",
-      "gloss": "and with"
+      "surface": "וְעִם",
+      "gloss": "and with",
+      "sense": null
     },
     {
-      "surface": "קדושים",
-      "gloss": "holy ones",
-      "readings": [
-        "holy ones",
-        "the Holy One"
-      ],
-      "held_by": {
-        "holy ones": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the Holy One": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "קְדוֹשִׁ֖ים",
+      "gloss": "the holy ones",
+      "sense": "S1"
     },
     {
-      "surface": "נאמן",
-      "gloss": "is faithful"
+      "surface": "נֶאֱמָֽן",
+      "gloss": "is faithful",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:09:20.083347239Z",
+  "model": "glm-5.3"
 }

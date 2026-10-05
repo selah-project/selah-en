@@ -1,26 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And Joab sent and told David ⟨את⟩ all the matters of the war.",
+  "ref": "2-samuel 11:18",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "וישלח",
+      "rationale": "Hebrew 'sent and told' — two verbs for one act of dispatching a messenger."
+    }
+  ],
+  "translation": "And Joab sent and told David ⟨את⟩ all the matters of the battle.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1e4a607a8aaf53d4446b606d629da87efbac1590a5e64347a9635e6a6b3382b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/11\/17-20.1791186289794.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "וישלח",
-      "gloss": "and sent"
+      "gloss": "and sent",
+      "sense": "S1"
     },
     {
       "surface": "יואב",
-      "gloss": "Joab"
+      "gloss": "Joab",
+      "sense": "S1"
     },
     {
       "surface": "ויגד",
-      "gloss": "and told"
+      "gloss": "and told",
+      "sense": "S1"
     },
     {
       "surface": "לדוד",
-      "gloss": "to David"
+      "gloss": "to David",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all the matters of the battle"
     },
     {
       "surface": "כל",
@@ -28,41 +55,14 @@
     },
     {
       "surface": "דברי",
-      "gloss": "the matters of",
-      "readings": [
-        "the matters of",
-        "the words of"
-      ],
-      "held_by": {
-        "the matters of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the words of": [
-          "en4"
-        ]
-      }
+      "gloss": "the matters of"
     },
     {
       "surface": "המלחמה",
-      "gloss": "the war",
-      "readings": [
-        "the war",
-        "the battle"
-      ],
-      "held_by": {
-        "the war": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the battle": [
-          "v2"
-        ]
-      }
+      "gloss": "the battle",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:44:49.795487907Z",
+  "model": "glm-5.3"
 }

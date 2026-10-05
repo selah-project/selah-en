@@ -1,123 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Bless, O my soul, ⟨את⟩ YHWH. O YHWH my Elohim, you ⟨are⟩ very great; with splendor and majesty you are clothed.",
-  "tokens": [
+  "ref": "psalms 104:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "ברכי",
-      "gloss": "Bless"
+      "kind": "invitation",
+      "subject": " Bless YHWH, my soul",
+      "rationale": "The verse opens with a self-summons imperative addressed to the psalmist's own soul."
     },
     {
-      "surface": "נפשי",
-      "gloss": "O my soul",
-      "readings": [
-        "O my soul",
-        "my life"
-      ],
-      "held_by": {
-        "O my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "my soul",
+      "rationale": "נפש is throat\/life-force, the animating self, not an immaterial 'soul'."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "crux",
+      "subject": "you are very great",
+      "rationale": "גדלת is 'you have grown great'; Hebrew uses a process verb where English uses a state predicate."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "O YHWH"
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "my Elohim"
-    },
-    {
-      "surface": "גדלת",
-      "gloss": "you ⟨are⟩ very great",
-      "readings": [
-        "you ⟨are⟩ very great",
-        "you have become very great"
-      ],
-      "held_by": {
-        "you ⟨are⟩ very great": [
-          "v1",
-          "v3"
-        ],
-        "you have become very great": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מאד",
-      "gloss": "very"
-    },
-    {
-      "surface": "הוד",
-      "gloss": "splendor",
-      "readings": [
-        "splendor",
-        "majesty"
-      ],
-      "held_by": {
-        "splendor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "majesty": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והדר",
-      "gloss": "and majesty",
-      "readings": [
-        "and majesty",
-        "and splendor"
-      ],
-      "held_by": {
-        "and majesty": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and splendor": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לבשת",
-      "gloss": "you are clothed",
-      "readings": [
-        "you are clothed",
-        "you have clothed yourself with"
-      ],
-      "held_by": {
-        "you are clothed": [
-          "v2",
-          "v3"
-        ],
-        "you have clothed yourself with": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "⟨yourself with⟩",
+      "rationale": "לבשת 'you clothed' lacks an explicit object or reflexive in Hebrew."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Bless YHWH, ⟨את⟩ my soul; YHWH my Elohim, you are very great; splendor and majesty you have clothed ⟨yourself with⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a566b6f02c2056e7724d7007e44ff48349654b1c234ce00681723f3a777b86e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/1-4.1791193276348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בָּרֲכִ֥י",
+      "gloss": "Bless",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁ֗י",
+      "gloss": "my soul",
+      "readings": [
+        "my soul",
+        "my very self"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH",
+      "sense": null
+    },
+    {
+      "surface": "יְה֫וָ֥ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱ֭לֹהַי",
+      "gloss": "my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "גָּדַ֣לְתָּ",
+      "gloss": "you are very great",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְּאֹ֑ד",
+      "gloss": "very",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֭וֹד",
+      "gloss": "splendor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָדָ֣ר",
+      "gloss": "and majesty",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָבָֽשְׁתָּ",
+      "gloss": "you have clothed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:16.349158837Z",
+  "model": "glm-5.3"
 }

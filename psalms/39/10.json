@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "I was silent, I did not open my mouth, for you did ⟨it⟩.",
-  "tokens": [
+  "ref": "psalms 39:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
     {
-      "surface": "נאלמתי",
-      "gloss": "I was silent"
+      "kind": "addition",
+      "subject": "⟨it was⟩ … ⟨it⟩",
+      "rationale": "English needs a cleft copula and an object for the verb עשית, which Hebrew leaves implicit."
     },
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אפתח",
-      "gloss": "did I open"
-    },
-    {
-      "surface": "פי",
-      "gloss": "my mouth"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "עשית",
-      "gloss": "did",
-      "readings": [
-        "did",
-        "have done"
-      ],
-      "held_by": {
-        "did": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "have done": [
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "Second-person address to Adonai continues from v. 9."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I was struck silent; I did not open my mouth, for ⟨it was⟩ you who did ⟨it⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9f6853ec26ed36ff07586712eda28c85b49495406e8caeb09de3b0dc40ddf710",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/39\/9-12.1791192672720.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֶאֱלַמְתִּי",
+      "gloss": "I was struck silent",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶפְתַּח",
+      "gloss": "I open",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּי",
+      "gloss": "my mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "עָשִׂיתָ",
+      "gloss": "did ⟨it⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:12.721480197Z",
+  "model": "glm-5.3"
 }

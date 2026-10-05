@@ -1,49 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "This their way is folly for them; and after them in their mouths they are pleased. Selah.",
+  "ref": "psalms 49:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "and after them, with their mouth they approve",
+      "rationale": "Read either 'their followers approve of their mouth (words)' or 'their mouth is their glory after them'; the literal syntax is rough, and kept rough."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨is theirs⟩",
+      "rationale": "למו, an emphatic 'to them', has no independent English word; supplied as a bracketed phrase."
+    },
+    {
+      "kind": "elision",
+      "subject": "סלה",
+      "rationale": "Musical pause mark, transliterated by convention."
+    }
+  ],
+  "translation": "This is their way, their folly; and after them, with their mouth they approve — Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "64f414bcd7eb753dfbc7d93fc251fabae637900aef809a5d5b405a372544bc5f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/13-16.1791192773043.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "זה",
-      "gloss": "This"
+      "surface": "זֶ֣ה",
+      "gloss": "This",
+      "sense": "S1"
     },
     {
-      "surface": "דרכם",
-      "gloss": "their way"
+      "surface": "דַּרְכָּ֭ם",
+      "gloss": "is their way",
+      "sense": "S1"
     },
     {
-      "surface": "כסל",
-      "gloss": "folly",
-      "readings": [
-        "folly",
-        "self-confidence"
-      ]
+      "surface": "כֵּ֣סֶל",
+      "gloss": "their folly",
+      "sense": "S1"
     },
     {
-      "surface": "למו",
-      "gloss": "for them"
+      "surface": "לָ֑מוֹ",
+      "gloss": "⟨is theirs⟩"
     },
     {
-      "surface": "ואחריהם",
+      "surface": "וְאַחֲרֵיהֶ֓ם",
       "gloss": "and after them"
     },
     {
-      "surface": "בפיהם",
-      "gloss": "in their mouths"
+      "surface": "בְּפִיהֶ֖ם",
+      "gloss": "with their mouth",
+      "sense": "S1"
     },
     {
-      "surface": "ירצו",
-      "gloss": "they are pleased",
+      "surface": "יִרְצ֣וּ",
+      "gloss": "they approve",
       "readings": [
-        "they are pleased",
-        "they approve"
+        "they approve",
+        "they are well pleased"
       ],
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
+      "surface": "סֶֽלָה",
       "gloss": "Selah"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:53.044637276Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "And he struck their vine and their fig tree, and shattered the trees of their borders.",
-  "tokens": [
+  "ref": "psalms 105:33",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "ויך",
-      "gloss": "and he struck"
+      "kind": "substitution",
+      "subject": "trees",
+      "rationale": "עץ is singular construct but rendered plural for sense with גבולם."
     },
     {
-      "surface": "גפנם",
-      "gloss": "their vine"
-    },
-    {
-      "surface": "ותאנתם",
-      "gloss": "and their fig tree"
-    },
-    {
-      "surface": "וישבר",
-      "gloss": "and shattered"
-    },
-    {
-      "surface": "עץ",
-      "gloss": "the trees"
-    },
-    {
-      "surface": "גבולם",
-      "gloss": "of their borders"
+      "kind": "wordplay",
+      "subject": "vine and fig tree",
+      "rationale": "The pair is the biblical image of peace and security (1 Kgs 5:5), here destroyed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he struck their vine and their fig tree, and broke the trees of their territory;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa4a0c95fd772aaa60ba3d4722da066bada60ad025e5d66e867bed1e0ab2c479",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/33-36.1791193303822.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֣ךְ",
+      "gloss": "and he struck",
+      "sense": null
+    },
+    {
+      "surface": "גַּ֭פְנָם",
+      "gloss": "their vine",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְאֵנָתָ֑ם",
+      "gloss": "and their fig tree",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַ֝יְשַׁבֵּ֗ר",
+      "gloss": "and broke",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵ֣ץ",
+      "gloss": "the trees of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּבוּלָֽם",
+      "gloss": "their territory",
+      "sense": "S1",
+      "readings": [
+        "their territory",
+        "their border"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:43.822653075Z",
+  "model": "glm-5.3"
 }

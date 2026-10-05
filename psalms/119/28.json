@@ -1,58 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "My soul drips away from grief; establish me according to your word.",
-  "tokens": [
+  "ref": "psalms 119:28",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "דלפה",
-      "gloss": "drips away",
-      "readings": [
-        "drips away",
-        "melts away"
-      ],
-      "held_by": {
-        "drips away": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "melts away": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "כדברך",
+      "rationale": "The refrain 'according to Your word' closes both v.25 and v.28, binding life and standing to the same word."
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul"
-    },
-    {
-      "surface": "מתוגה",
-      "gloss": "from grief"
-    },
-    {
-      "surface": "קימני",
-      "gloss": "establish me",
-      "readings": [
-        "establish me",
-        "uphold me"
-      ],
-      "held_by": {
-        "establish me": [
-          "v1",
-          "v3"
-        ],
-        "uphold me": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כדברך",
-      "gloss": "according to your word"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש as life-principle self; transliterated rather than 'soul'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Drips away my nefesh from grief; establish me according to Your word.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f883abcb80b7f18da170ec7837f23b38d7ab25fb277597ea40a61b32f758e7b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/25-28.1791193437663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דָּלְפָ֣ה",
+      "gloss": "Drips away",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַ֭פְשִׁ֑י",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my throat",
+        "my life"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתּוּגָ֑ה",
+      "gloss": "from grief",
+      "sense": "S1"
+    },
+    {
+      "surface": "קַ֝יְּמֵ֗נִי",
+      "gloss": "establish me",
+      "sense": null
+    },
+    {
+      "surface": "כִּדְבָרֶֽךָ",
+      "gloss": "according to Your word",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:57.664224958Z",
+  "model": "glm-5.3"
 }

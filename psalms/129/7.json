@@ -1,91 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "which the reaper has not filled his hand, nor his bosom ⟨he who⟩ binds sheaves.",
-  "tokens": [
+  "ref": "psalms 129:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 129,
+  "notes": [
     {
-      "surface": "שלא",
-      "gloss": "which not",
-      "readings": [
-        "which not",
-        "not"
-      ],
-      "held_by": {
-        "which not": [
-          "v2",
-          "en4"
-        ],
-        "not": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "חֹצְנוֹ",
+      "rationale": "his bosom — the only occurrence of חצן in the Tanakh"
     },
     {
-      "surface": "מלא",
-      "gloss": "filled",
-      "readings": [
-        "filled",
-        "fills"
-      ],
-      "held_by": {
-        "filled": [
-          "v1",
-          "v3"
-        ],
-        "fills": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כפו",
-      "gloss": "his hand",
-      "readings": [
-        "his hand",
-        "his palm"
-      ],
-      "held_by": {
-        "his hand": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his palm": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "קוצר",
-      "gloss": "the reaper"
-    },
-    {
-      "surface": "וחצנו",
-      "gloss": "and his lap",
-      "readings": [
-        "and his lap",
-        "and his bosom",
-        "nor his arm"
-      ],
-      "held_by": {
-        "and his lap": [
-          "v1",
-          "v3"
-        ],
-        "and his bosom": [
-          "en4"
-        ],
-        "nor his arm": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "מעמר",
-      "gloss": "binds sheaves"
+      "kind": "addition",
+      "subject": "with which",
+      "rationale": "relative שלא links back to the grass of v.6; English needs a connective"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "with which the reaper does not fill his hand, nor the binder of sheaves his bosom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f639c23e2e35941239923f82d6fbbe1ef386c57166fe615669207a0981f48470",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/129\/5-8.1791193535045.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֶׁלֹּא",
+      "gloss": "with which ⟨not⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלֵּא",
+      "gloss": "fills",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּפּוֹ",
+      "gloss": "his hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "קוֹצֵר",
+      "gloss": "the reaper",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחֹצְנוֹ",
+      "gloss": "nor his bosom",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְעַמֵּר",
+      "gloss": "the binder of sheaves",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:35.046717261Z",
+  "model": "glm-5.3"
 }

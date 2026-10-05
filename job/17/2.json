@@ -1,50 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Are there not mockers with me? And in their provocations my eye lodges.",
-  "tokens": [
+  "ref": "job 17:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "if",
-      "readings": [
-        "if",
-        "surely"
-      ],
-      "held_by": {
-        "if": [
-          "v1",
-          "v3"
-        ],
-        "surely": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "התלים",
+      "rationale": "Occurs only here; literally 'scoffers, those who mock in contempt.'"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "crux",
+      "subject": "אם לא",
+      "rationale": "Rhetorical 'surely \/ is it not so?' versus conditional 'if not'; the negative question is the plain sense here."
     },
     {
-      "surface": "התלים",
-      "gloss": "mockers"
-    },
-    {
-      "surface": "עמדי",
-      "gloss": "with me"
-    },
-    {
-      "surface": "ובהמרותם",
-      "gloss": "and in their provocations"
-    },
-    {
-      "surface": "תלן",
-      "gloss": "lodges"
-    },
-    {
-      "surface": "עיני",
-      "gloss": "my eye"
+      "kind": "idiom",
+      "subject": "תלן עיני",
+      "rationale": "Literally 'my eye passes the night'; the idiom of a sleepless, worn gaze, kept as 'my eye lodges.'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Are there not mockers with me, and upon their provocation my eye lodges?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06a1728da6f199dcb36e59747379ab41da20ac128146cdf7556b522b8147fba8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/17\/1-4.1791194325663.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "Are",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֲתֻלִ֭ים",
+      "gloss": "mockers",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּדִ֑י",
+      "gloss": "with me",
+      "sense": null
+    },
+    {
+      "surface": "וּבְהַמְרוֹתָ֗ם",
+      "gloss": "and upon their provocation",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּלַ֥ן",
+      "gloss": "lodges",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינִֽי",
+      "gloss": "my eye",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:45.664516042Z",
+  "model": "glm-5.3"
 }

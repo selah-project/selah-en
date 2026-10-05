@@ -1,60 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "Give thanks to El of the heavens, for His chesed endures forever.",
+  "ref": "psalms 136:26",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 136,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between chesed and forever"
+    },
+    {
+      "kind": "invitation",
+      "subject": "to the congregation",
+      "rationale": "imperative summons to give thanks, closing the psalm"
+    }
+  ],
+  "translation": "Give thanks to the El of the heavens, for His chesed ⟨is⟩ forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dec821cce5c9bd14fd70675d6bd0e05bce351823eadca8587512c446a4499801",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/136\/25-26.1791193571010.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הודו",
-      "gloss": "Give thanks"
+      "surface": "ה֭וֹדוּ",
+      "gloss": "Give thanks",
+      "sense": "S1"
     },
     {
-      "surface": "לאל",
-      "gloss": "to El"
+      "surface": "לְאֵ֣ל",
+      "gloss": "to the El",
+      "sense": "S1"
     },
     {
-      "surface": "השמים",
-      "gloss": "the heavens"
+      "surface": "הַשָּׁמָ֑יִם",
+      "gloss": "of the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּ֖י",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "לעולם",
+      "surface": "לְעוֹלָ֣ם",
       "gloss": "forever",
-      "readings": [
-        "forever",
-        "for the age"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for the age": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּֽוֹ",
       "gloss": "His chesed",
       "readings": [
         "His chesed",
         "His steadfast love"
       ],
-      "held_by": {
-        "His chesed": [
-          "v3",
-          "en4"
-        ],
-        "His steadfast love": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:11.011103328Z",
+  "model": "glm-5.3"
 }

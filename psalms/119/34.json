@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 34,
-  "translation": "Give me understanding, and I will keep your Torah, and I will guard it with all ⟨my⟩ heart.",
-  "tokens": [
+  "ref": "psalms 119:34",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "הבינני",
-      "gloss": "Give me understanding"
+      "kind": "alternative",
+      "subject": "Torah",
+      "rationale": "תורה could be 'instruction'\/'law'; kept as Torah, the marked term of the corpus."
     },
     {
-      "surface": "ואצרה",
-      "gloss": "and I will keep"
-    },
-    {
-      "surface": "תורתך",
-      "gloss": "your Torah",
-      "readings": [
-        "your Torah",
-        "your teaching"
-      ],
-      "held_by": {
-        "your Torah": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your teaching": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואשמרנה",
-      "gloss": "and I will guard it"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "with all"
-    },
-    {
-      "surface": "לב",
-      "gloss": "heart"
+      "kind": "wordplay",
+      "subject": "אצרה\/אשמרנה",
+      "rationale": "Two near-synonymous keep-verbs doubled, a hallmark of Psalm 119's paired verbs."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Give me understanding, that I may keep your Torah and observe it with all my heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ca7092a556340aaa9f3795ac4972434059b7cd8ada9712dda7ea630a96e61db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/33-36.1791193440545.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲ֭בִינֵנִי",
+      "gloss": "Give me understanding",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶצֶּרָ֥ה",
+      "gloss": "and I will keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּֽוֹרָתֶ֗ךָ",
+      "gloss": "your Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶשְׁמְרֶ֥נָּה",
+      "gloss": "and observe it",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "with all",
+      "sense": null
+    },
+    {
+      "surface": "לֵֽב",
+      "gloss": "heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:00.546829760Z",
+  "model": "glm-5.3"
 }

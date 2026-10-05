@@ -1,36 +1,62 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Violent witnesses rise up; what I did not know they ask of me.",
+  "ref": "psalms 35:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "things I did not know",
+      "rationale": "אשר may be the object marker (ethiopic cognate) giving 'about which I knew not', or relative 'whom I know not', referring to the witnesses."
+    }
+  ],
+  "translation": "Witnesses of violence rise up; things I did not know, they ask me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "af3f76091ad8d7df7e475bf6ad9b1811af1068352ffd551a302f46d06260bf3e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/9-12.1791192615885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יקומון",
+      "surface": "יְקוּמוּן",
       "gloss": "rise up"
     },
     {
-      "surface": "עדי",
-      "gloss": "witnesses"
+      "surface": "עֵדֵי",
+      "gloss": "Witnesses of",
+      "sense": "S1"
     },
     {
-      "surface": "חמס",
-      "gloss": "of violence"
+      "surface": "חָמָס",
+      "gloss": "violence",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
+      "surface": "אֲשֶׁר",
+      "gloss": "things that"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעתי",
-      "gloss": "I knew"
+      "surface": "יָדַעְתִּי",
+      "gloss": "I did know"
     },
     {
-      "surface": "ישאלוני",
-      "gloss": "they ask of me"
+      "surface": "יִשְׁאָלֽוּנִי",
+      "gloss": "they ask me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:15.886363307Z",
+  "model": "glm-5.3"
 }

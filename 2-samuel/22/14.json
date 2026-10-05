@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "YHWH thundered from the heavens, and Elyon gave his voice.",
-  "tokens": [
+  "ref": "2-samuel 22:14",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ירעם",
-      "gloss": "thundered",
-      "readings": [
-        "thundered",
-        "will thunder"
-      ],
-      "held_by": {
-        "thundered": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will thunder": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "thundered",
+      "rationale": "ירעם is literally 'caused them to crash'; the sense line is deity speaking with a thundering voice, so 'thundered' carries it."
     },
     {
-      "surface": "מן",
-      "gloss": "from"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ועליון",
-      "gloss": "and Elyon"
-    },
-    {
-      "surface": "יתן",
-      "gloss": "gave"
-    },
-    {
-      "surface": "קולו",
-      "gloss": "his voice"
+      "kind": "crux",
+      "subject": "Elyon",
+      "rationale": "ועליון is the divine title Elyon, the Most High, here a second subject parallel to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH thundered from the heavens, and Elyon gave his voice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf837dafd0d13181043359f382db42d1745ef6877bc85c80ae1f352ea6431ebf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/13-16.1791186583368.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַרְעֵם",
+      "gloss": "thundered",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶעֶלְיוֹן",
+      "gloss": "and Elyon",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּן",
+      "gloss": "gave",
+      "sense": null
+    },
+    {
+      "surface": "קוֹלוֹ",
+      "gloss": "his voice",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:49:43.370952180Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "From morning to evening they are shattered; without one regarding, forever they perish.",
-  "tokens": [
+  "ref": "job 4:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "מבקר",
-      "gloss": "From morning"
+      "kind": "crux",
+      "subject": "מִבְּלִי מֵשִׂים",
+      "rationale": "Literally 'without one who sets <mind\/heart>'; alternatives: 'without anyone regarding it' or, reading differently, 'without cash\/price' — most take it as 'unheeded, with no one setting heart upon them'."
     },
     {
-      "surface": "לערב",
-      "gloss": "to evening"
-    },
-    {
-      "surface": "יכתו",
-      "gloss": "they are shattered",
-      "readings": [
-        "they are shattered",
-        "they are crushed"
-      ],
-      "held_by": {
-        "they are shattered": [
-          "v2",
-          "v3"
-        ],
-        "they are crushed": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מבלי",
-      "gloss": "without"
-    },
-    {
-      "surface": "משים",
-      "gloss": "one regarding",
-      "readings": [
-        "one regarding",
-        "one who sets"
-      ]
-    },
-    {
-      "surface": "לנצח",
-      "gloss": "forever"
-    },
-    {
-      "surface": "יאבדו",
-      "gloss": "they perish"
+      "kind": "measurement",
+      "subject": "from morning to evening",
+      "rationale": "A lifespan measured in a single day, from dawn to dusk."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From morning to evening they are shattered; unheeded, they perish forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "71810019742dc0fe9a338436c41b4cbb8a0eca22e89fed6f766819cefa42f8b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/4\/17-20.1791194165324.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִבֹּ֣קֶר",
+      "gloss": "From morning",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָעֶ֣רֶב",
+      "gloss": "to evening",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֻכַּּּ֑תּוּ",
+      "gloss": "they are shattered",
+      "sense": null
+    },
+    {
+      "surface": "מִבְּלִ֥י",
+      "gloss": "unheeded",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵשִׂ֗ים",
+      "gloss": "unheeded",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָנֶ֥צַח",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאבֵֽדוּ",
+      "gloss": "they perish",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:05.325929108Z",
+  "model": "glm-5.3"
 }

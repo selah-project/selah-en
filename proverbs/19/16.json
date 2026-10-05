@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "He who keeps ⟨the⟩ commandment keeps his soul, but ⟨he who⟩ despises his ways will die.",
-  "tokens": [
+  "ref": "proverbs 19:16",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "שמר",
-      "gloss": "He who keeps"
+      "kind": "wordplay",
+      "subject": "שמר … שמר",
+      "rationale": "the repeated participle: keeping the commandment is keeping oneself — the repetition carries the point"
     },
     {
-      "surface": "מצוה",
-      "gloss": "⟨the⟩ commandment"
-    },
-    {
-      "surface": "שמר",
-      "gloss": "keeps"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his soul"
-    },
-    {
-      "surface": "בוזה",
-      "gloss": "⟨he who⟩ despises"
-    },
-    {
-      "surface": "דרכיו",
-      "gloss": "his ways"
-    },
-    {
-      "surface": "יומת",
-      "gloss": "will die",
-      "readings": [
-        "will die",
-        "shall die"
-      ]
+      "kind": "crux",
+      "subject": "יומת",
+      "rationale": "ketiv יומת vs qere ימות, hophal 'will be put to death' vs qal 'will die'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The-one-keeping a commandment keeps his soul; the-one-despising his ways will die.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e55186f2b5726f3e4f78b51e34c721b1b4fe9ee39773646f15f31a7cc1dcb0d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/13-16.1791193918060.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֹׁמֵ֣ר",
+      "gloss": "the-one-keeping",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֭צְוָה",
+      "gloss": "a commandment",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמֵ֣ר",
+      "gloss": "keeps",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁ֑וֹ",
+      "gloss": "his soul",
+      "sense": "S1",
+      "readings": [
+        "his soul",
+        "his life",
+        "his appetite"
+      ]
+    },
+    {
+      "surface": "בּוֹזֵ֖ה",
+      "gloss": "the-one-despising",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּרָכָ֣יו",
+      "gloss": "his ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹמֵת",
+      "gloss": "will die",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:58.061866141Z",
+  "model": "glm-5.3"
 }

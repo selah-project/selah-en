@@ -1,65 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And he rebuked the Sea of Suph and it dried up, and he led them through the depths as the wilderness.",
-  "tokens": [
+  "ref": "psalms 106:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויגער",
-      "gloss": "and he rebuked"
+      "kind": "alternative",
+      "subject": "the Red Sea",
+      "rationale": "ים סוף is literally 'sea of reeds'; the familiar English name is Red Sea, but the word's shape says reeds."
     },
     {
-      "surface": "בים",
-      "gloss": "the sea of"
-    },
-    {
-      "surface": "סוף",
-      "gloss": "Suph",
-      "readings": [
-        "Suph",
-        "the reed"
-      ],
-      "held_by": {
-        "Suph": [
-          "v2",
-          "en4"
-        ],
-        "the reed": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויחרב",
-      "gloss": "and it dried up",
-      "readings": [
-        "and it dried up",
-        "and it was dried up"
-      ],
-      "held_by": {
-        "and it dried up": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and it was dried up": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ויוליכם",
-      "gloss": "and he led them"
-    },
-    {
-      "surface": "בתהמות",
-      "gloss": "through the depths"
-    },
-    {
-      "surface": "כמדבר",
-      "gloss": "as the wilderness"
+      "kind": "wordplay",
+      "subject": "rebuked … dried",
+      "rationale": "the sea is addressed as a being that obeys a rebuke — the picture of a spoken command is kept in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And He rebuked the Red Sea, and it dried, and He made them walk through the depths as through the wilderness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d5ad798e670d722be5d30d9a58827b1314e1cdb5eb3a5b460920ef53eab62e42",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/9-12.1791193313622.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּגְעַר",
+      "gloss": "and He rebuked",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיַם",
+      "gloss": "the sea",
+      "sense": null
+    },
+    {
+      "surface": "סוּף",
+      "gloss": "of reeds",
+      "readings": [
+        "of reeds",
+        "Red Sea"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֶּחֱרָב",
+      "gloss": "and it dried",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיּוֹלִיכֵם",
+      "gloss": "and He made them walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּתְּהֹמוֹת",
+      "gloss": "through the depths",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּמִּדְבָּר",
+      "gloss": "as through the wilderness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:53.623138740Z",
+  "model": "glm-5.3"
 }

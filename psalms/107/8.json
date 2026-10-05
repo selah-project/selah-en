@@ -1,61 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Let them give thanks to YHWH for his chesed, and for his wonders to the children of men.",
-  "tokens": [
+  "ref": "psalms 107:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "יודו",
-      "gloss": "Let them give thanks",
-      "readings": [
-        "Let them give thanks",
-        "They will give thanks"
-      ],
-      "held_by": {
-        "Let them give thanks": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "They will give thanks": [
-          "en4"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "to the redeemed",
+      "rationale": "jussive יודו summons the redeemed to give thanks — the psalm's refrain (vv. 15, 21, 31)"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "his chesed",
-      "readings": [
-        "his chesed",
-        "his steadfast love"
-      ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ונפלאותיו",
-      "gloss": "and his wonders"
-    },
-    {
-      "surface": "לבני",
-      "gloss": "to the children"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "of men"
+      "kind": "elision",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; 'steadfast love' carried as reading 2"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let them give thanks to YHWH for his chesed, and for his wonders to the children of man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8b84cc7ff692534681d3563eac3249bc901cfdb1f16e65908f719f8fc8c1ed3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/5-8.1791193331702.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יוֹד֣וּ",
+      "gloss": "Let them give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָ֣ה",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּ֑וֹ",
+      "gloss": "for his chesed",
+      "readings": [
+        "for his chesed",
+        "for his steadfast love"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִפְלְאוֹתָ֗יו",
+      "gloss": "and for his wonders",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְנֵ֥י",
+      "gloss": "to the children of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָֽם",
+      "gloss": "man",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:11.703816028Z",
+  "model": "glm-5.3"
 }

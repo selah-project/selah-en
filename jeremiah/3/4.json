@@ -1,72 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Have you not from this time called to me, ‘My father, you are the companion of my youth’?",
+  "ref": "jeremiah 3:4",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "קָרָאתִי",
+      "rationale": "ketiv 'I called' vs qere 'you called' — qere read; the words quoted are Israel's"
+    },
+    {
+      "kind": "crux",
+      "subject": "אָתָּה",
+      "rationale": "masculine pronoun addressed to YHWH inside Israel's feminine-singular speech — the quoted voice shifts gender"
+    }
+  ],
+  "translation": "Have you not from this time called to me, ‘My father, companion of my youth you are’?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed97e501146e98ee8d2d4c042acc88b94bacd279f73b95566f42312f6da5926c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/3\/1-4.1791189051559.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "הלוא",
-      "gloss": "Have you not"
+      "surface": "הֲלוֹא",
+      "gloss": "Have you not",
+      "sense": "S1"
     },
     {
-      "surface": "מעתה",
-      "gloss": "from this time"
+      "surface": "מֵעַתָּה",
+      "gloss": "from this time",
+      "sense": "S1"
     },
     {
-      "surface": "קראתי",
-      "gloss": "you called",
+      "surface": "קָרָאתִי",
+      "gloss": "called",
+      "sense": "S1",
       "readings": [
-        "you called",
-        "you will call"
-      ],
-      "held_by": {
-        "you called": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you will call": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "called",
+        "I called"
+      ]
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "אבי",
-      "gloss": "my father"
+      "surface": "אָבִי",
+      "gloss": "My father",
+      "sense": "S1"
     },
     {
-      "surface": "אלוף",
-      "gloss": "the companion of",
-      "readings": [
-        "the companion of",
-        "the guide of"
-      ],
-      "held_by": {
-        "the companion of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the guide of": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "אַלּוּף",
+      "gloss": "companion",
+      "sense": "S1"
     },
     {
-      "surface": "נערי",
-      "gloss": "of my youth"
+      "surface": "נְעֻרַי",
+      "gloss": "of my youth",
+      "sense": "S1"
     },
     {
-      "surface": "אתה",
-      "gloss": "you ⟨are⟩"
+      "surface": "אָתָּה",
+      "gloss": "you are"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:30:51.561016104Z",
+  "model": "glm-5.3"
 }

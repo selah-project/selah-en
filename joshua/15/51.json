@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 51,
-  "translation": "and Goshen, and Holon, and Giloh — eleven cities and their villages.",
+  "ref": "joshua 15:51",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "measurement",
+      "subject": "eleven cities",
+      "rationale": "Running tally of the hill-country towns."
+    },
+    {
+      "kind": "substitution",
+      "subject": "unwalled-villages",
+      "rationale": "חצרים are unwalled settlements dependent on a city; 'villages' alone loses the enclosure picture."
+    }
+  ],
+  "translation": "and Goshen, and Holon, and Giloh — eleven cities and their unwalled-villages:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba29745b2694ebc7ae6550d9d88e5442fe7192c19ec3dfdc68ad6f72a755fd8b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/15\/49-52.1791184592600.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
       "surface": "וגשן",
-      "gloss": "and Goshen"
+      "gloss": "and Goshen",
+      "sense": "S1"
     },
     {
       "surface": "וחלן",
-      "gloss": "and Holon"
+      "gloss": "and Holon",
+      "sense": null
     },
     {
       "surface": "וגלה",
-      "gloss": "and Giloh"
+      "gloss": "and Giloh",
+      "sense": "S1"
     },
     {
       "surface": "ערים",
-      "gloss": "cities"
+      "gloss": "cities",
+      "sense": "S1"
     },
     {
       "surface": "אחת",
-      "gloss": "eleven"
+      "gloss": "eleven",
+      "sense": "S1"
     },
     {
       "surface": "עשרה",
-      "gloss": "ten"
+      "gloss": "eleven",
+      "sense": null
     },
     {
       "surface": "וחצריהן",
-      "gloss": "and their villages"
+      "gloss": "and their unwalled-villages",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:16:32.601562590Z",
+  "model": "glm-5.3"
 }

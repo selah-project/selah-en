@@ -1,70 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Eloah will not turn back His anger; under Him have bowed the helpers of Rahab.",
+  "ref": "job 9:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "his anger",
+      "rationale": "א׷ף literally 'his nose\/nostril', the seat of anger in Hebrew"
+    },
+    {
+      "kind": "crux",
+      "subject": "Rahab",
+      "rationale": "רהב: the mythic sea monster vs a proper name; kept as the name"
+    },
+    {
+      "kind": "crux",
+      "subject": "under him",
+      "rationale": "ketiv תחתו vs qere תחתיו; the sense is the same, beneath God"
+    }
+  ],
+  "translation": "Eloah will not turn back his nose-anger; under him sink down the helpers of Rahab.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ba20ade314b2cbeae942cd2ff7bca1588ad13d03cd814c2b31e03de7db0260b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/9\/13-16.1791194217965.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אלוה",
-      "gloss": "Eloah"
+      "surface": "אֱ֭לוֹהַּ",
+      "gloss": "Eloah",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ישיב",
-      "gloss": "turn back",
+      "surface": "יָשִׁ֣יב",
+      "gloss": "will turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפּ֑וֹ",
+      "gloss": "his anger",
       "readings": [
-        "turn back",
-        "return"
+        "his anger",
+        "his nose"
       ],
-      "held_by": {
-        "turn back": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "return": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אפו",
-      "gloss": "His anger"
+      "sense": "S1"
     },
     {
       "surface": "תחתו",
-      "gloss": "under Him"
+      "gloss": "under him",
+      "sense": null
     },
     {
-      "surface": "שחחו",
-      "gloss": "have bowed",
+      "surface": "שָׁ֝חֲח֗וּ",
+      "gloss": "sink down",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹ֣זְרֵי",
+      "gloss": "the helpers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָֽהַב",
+      "gloss": "Rahab",
       "readings": [
-        "have bowed",
-        "crouch"
+        "Rahab",
+        "the blusterer"
       ],
-      "held_by": {
-        "have bowed": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "crouch": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עזרי",
-      "gloss": "the helpers of"
-    },
-    {
-      "surface": "רהב",
-      "gloss": "Rahab"
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:57.966526455Z",
+  "model": "glm-5.3"
 }

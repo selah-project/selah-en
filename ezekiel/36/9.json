@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For behold, I am toward you, and I will turn toward you, and you shall be tilled and you shall be sown.",
-  "tokens": [
+  "ref": "ezekiel 36:9",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "I am",
+      "rationale": "Hebrew הנני has no verb; the copula is supplied"
     },
     {
-      "surface": "הנני",
-      "gloss": "behold, I"
-    },
-    {
-      "surface": "אליכם",
-      "gloss": "toward you"
-    },
-    {
-      "surface": "ופניתי",
-      "gloss": "and I will turn",
-      "readings": [
-        "and I will turn",
-        "and I will face"
-      ],
-      "held_by": {
-        "and I will turn": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and I will face": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אליכם",
-      "gloss": "toward you"
-    },
-    {
-      "surface": "ונעבדתם",
-      "gloss": "and you shall be tilled"
-    },
-    {
-      "surface": "ונזרעתם",
-      "gloss": "and you shall be sown"
+      "kind": "substitution",
+      "subject": "you shall be worked",
+      "rationale": "niphal of עבד is the land-work sense 'be tilled', spoken to the mountains as land"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For behold, I am toward you, and I will turn toward you, and you shall be worked and sown.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c40d5ea0609dd66a13b7f8196e1cc8559748f9d6372a9d0299b66515c871b36d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/36\/9-12.1791190927302.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "הִנְנִי",
+      "gloss": "behold, I am",
+      "sense": null
+    },
+    {
+      "surface": "אֲלֵיכֶם",
+      "gloss": "toward you",
+      "sense": null
+    },
+    {
+      "surface": "וּפָנִיתִי",
+      "gloss": "and I will turn",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲלֵיכֶם",
+      "gloss": "toward you",
+      "sense": null
+    },
+    {
+      "surface": "וְנֶעֱבַדְתֶּם",
+      "gloss": "and you shall be worked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנִזְרַעְתֶּם",
+      "gloss": "and sown",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:02:07.302593221Z",
+  "model": "glm-5.3"
 }

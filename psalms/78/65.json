@@ -1,46 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 65,
-  "translation": "Then Adonai awoke as one sleeping, like a mighty man shouting from wine.",
-  "tokens": [
+  "ref": "psalms 78:65",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ויקץ",
-      "gloss": "Then awoke"
+      "kind": "crux",
+      "subject": "מִתְרוֹנֵן",
+      "rationale": "Rare hithpolel of רון: 'shouting for joy' vs 'recovering from wine'; SDBH marks the sense unsure; rendered as shouting (S2)."
     },
     {
-      "surface": "כישן",
-      "gloss": "as one sleeping"
-    },
-    {
-      "surface": "אדני",
-      "gloss": "Adonai"
-    },
-    {
-      "surface": "כגבור",
-      "gloss": "like a mighty man",
-      "readings": [
-        "like a mighty man",
-        "like a warrior"
-      ],
-      "held_by": {
-        "like a mighty man": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "like a warrior": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מתרונן",
-      "gloss": "shouting"
-    },
-    {
-      "surface": "מיין",
-      "gloss": "from wine"
+      "kind": "wordplay",
+      "subject": "כְּיָשֵׁן…מִיָּיִן",
+      "rationale": "Anthropomorphic image of Adonai waking like a sleeper and a warrior shaking off wine."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Adonai awoke as one asleep, like a mighty one shouting because of wine.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "692598416578273fb340d8570f5a515cff0d2e3d0dd21023a2dec6ddb89e0b30",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/65-68.1791193063383.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּקַז",
+      "gloss": "and awoke",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּיָשֵׁן",
+      "gloss": "as one asleep",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּגִבּוֹר",
+      "gloss": "like a mighty one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתְרוֹנֵן",
+      "gloss": "shouting",
+      "readings": [
+        "shouting",
+        "rousing himself"
+      ],
+      "sense": "S2"
+    },
+    {
+      "surface": "מִיָּיִן",
+      "gloss": "because of wine",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:43.383807332Z",
+  "model": "glm-5.3"
 }

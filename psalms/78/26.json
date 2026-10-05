@@ -1,32 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "He made the east wind journey in the heavens, and by his strength he led the south wind.",
-  "tokens": [
+  "ref": "psalms 78:26",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "יסע",
-      "gloss": "made journey"
-    },
-    {
-      "surface": "קדים",
-      "gloss": "east wind"
-    },
-    {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
-    },
-    {
-      "surface": "וינהג",
-      "gloss": "and he led"
-    },
-    {
-      "surface": "בעזו",
-      "gloss": "by his strength"
-    },
-    {
-      "surface": "תימן",
-      "gloss": "south wind"
+      "kind": "substitution",
+      "subject": "east wind \/ south wind",
+      "rationale": "קָדִים and תֵּימָן are both wind names by direction; the SDBH wind sense is rendered directly."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He set the east wind moving in the heavens, and led with His strength the south wind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bbcf6a8a2aa8a64fa88ef29393fa39ca593f47fb65e1e308d5ea9cd4cccca27f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/25-28.1791193043789.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַסַּ֣ע",
+      "gloss": "He set moving",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדִים",
+      "gloss": "the east wind",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּשָּׁמָ֑יִם",
+      "gloss": "in the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיְנַהֵ֖ג",
+      "gloss": "and led",
+      "sense": null
+    },
+    {
+      "surface": "בְּעֻזּ֣וֹ",
+      "gloss": "with His strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵימָֽן",
+      "gloss": "the south wind",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:23.789834183Z",
+  "model": "glm-5.3"
 }

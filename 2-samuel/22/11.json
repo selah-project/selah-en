@@ -1,74 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And he rode on a cherub and flew, and he was seen on the wings of wind.",
-  "tokens": [
+  "ref": "2-samuel 22:11",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "וירכב",
-      "gloss": "And he rode"
+      "kind": "crux",
+      "subject": "and he appeared",
+      "rationale": "2 Sam has וירא (niphal of ראה, 'appear'); the parallel Ps 18:11 has וידא ('soar, dart through the air') — both are kept as readings."
     },
     {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "כרוב",
-      "gloss": "a cherub"
-    },
-    {
-      "surface": "ויעף",
-      "gloss": "and flew"
-    },
-    {
-      "surface": "וירא",
-      "gloss": "and he was seen",
-      "readings": [
-        "and he was seen",
-        "and he appeared"
-      ],
-      "held_by": {
-        "and he was seen": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and he appeared": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "כנפי",
-      "gloss": "the wings of"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "of wind",
-      "readings": [
-        "of wind",
-        "of breath",
-        "of spirit"
-      ],
-      "held_by": {
-        "of wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of breath": [
-          "en4"
-        ],
-        "of spirit": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "cherub",
+      "rationale": "כרוב is a winged heavenly creature; the English 'cherub' carries church associations the Hebrew does not have."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he rode a cherub and flew; he appeared on the wings of the wind.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb51c0295dc01cd5401339abee61ca1cef9a5e035577cb3b0b3c55ed68bd637c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/9-12.1791186602523.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּרְכַּב",
+      "gloss": "and he rode",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on"
+    },
+    {
+      "surface": "כְּרוּב",
+      "gloss": "a cherub",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּעֹף",
+      "gloss": "and flew",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֵּרָא",
+      "gloss": "and he appeared",
+      "sense": "S1",
+      "readings": [
+        "and he appeared",
+        "and he soared"
+      ]
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on"
+    },
+    {
+      "surface": "כַּנְפֵי",
+      "gloss": "the wings of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחַ",
+      "gloss": "the wind",
+      "readings": [
+        "the wind",
+        "the breath",
+        "the spirit"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:50:02.524537914Z",
+  "model": "glm-5.3"
 }

@@ -1,69 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "Man in honor, and does not understand, is likened ⟨to⟩ the beasts — they perish.",
-  "tokens": [
+  "ref": "psalms 49:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "אדם",
-      "gloss": "man",
-      "readings": [
-        "man",
-        "humankind"
-      ],
-      "held_by": {
-        "man": [
-          "v1",
-          "v3"
-        ],
-        "humankind": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "נמשל\/נדמו",
+      "rationale": "Root-play between 'made like' (משל) and 'destroyed\/swept away' (דמה) — the likeness and the perishing share the verse's final cadence, partially lost in English."
     },
     {
-      "surface": "ביקר",
-      "gloss": "in honor"
+      "kind": "crux",
+      "subject": "נִדְמוּ",
+      "rationale": "Niphal of דמה read as 'perish\/be destroyed' (as at Ps 49:13) vs 'be silent\/be made dumb' matching the beasts — both defensible."
     },
     {
-      "surface": "ולא",
-      "gloss": "and does not"
-    },
-    {
-      "surface": "יבין",
-      "gloss": "understand"
-    },
-    {
-      "surface": "נמשל",
-      "gloss": "he is likened"
-    },
-    {
-      "surface": "כבהמות",
-      "gloss": "like the beasts"
-    },
-    {
-      "surface": "נדמו",
-      "gloss": "they perish",
-      "readings": [
-        "they perish",
-        "they are silenced",
-        "they are likened"
-      ],
-      "held_by": {
-        "they perish": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they are silenced": [
-          "en4"
-        ],
-        "they are likened": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "elision",
+      "subject": "בִּיקָר",
+      "rationale": "Bare preposition phrase 'in honor' lacks a verb; English supplies the implied 'remains\/stays'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A man in honor and not understanding is like the beasts that perish — they are made like them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e50c9b0c024eaa0379f648f949783efcb9c298243ff9be27bf91021448b75239",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/21-21.1791192749269.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָדָם",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּיקָר",
+      "gloss": "in honor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָבִין",
+      "gloss": "understanding",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִמְשַׁל",
+      "gloss": "is made like",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּבְּהֵמוֹת",
+      "gloss": "like the beasts",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִדְמוּ",
+      "gloss": "they are swept away",
+      "readings": [
+        "they are swept away",
+        "they are destroyed"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:29.270102940Z",
+  "model": "glm-5.3"
 }

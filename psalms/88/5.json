@@ -1,55 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "I am reckoned with those going down ⟨into⟩ the pit; I have become like a man without strength.",
-  "tokens": [
+  "ref": "psalms 88:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
     {
-      "surface": "נחשבתי",
-      "gloss": "I am reckoned"
+      "kind": "hapax",
+      "subject": "אֱיָל",
+      "rationale": "Strength — occurs only here in the Tanakh; meaning inferred from root איל."
     },
     {
-      "surface": "עם",
+      "kind": "crux",
+      "subject": "counted with",
+      "rationale": "נחשבתי niphal: 'I am counted\/reckoned' among the dead vs. 'I am set aside as'."
+    }
+  ],
+  "translation": "I am counted with those who go down into the pit; I have become like a man with no strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed41e52732c2e13ed8a869c2928f3f2d3e489d77116493b5b929e58b51d3a774",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/5-8.1791193134998.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֶ֭חְשַׁבְתִּי",
+      "gloss": "I am counted",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
       "gloss": "with"
     },
     {
-      "surface": "יורדי",
-      "gloss": "those going down"
+      "surface": "י֣וֹרְדֵי",
+      "gloss": "those who go down",
+      "sense": "S1"
     },
     {
-      "surface": "בור",
-      "gloss": "the pit"
+      "surface": "ב֑וֹר",
+      "gloss": "into the pit",
+      "sense": "S1"
     },
     {
-      "surface": "הייתי",
+      "surface": "הָ֝יֵ֗יתִי",
       "gloss": "I have become"
     },
     {
-      "surface": "כגבר",
-      "gloss": "like a man"
+      "surface": "כְּגֶ֣בֶר",
+      "gloss": "like a man",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
-      "gloss": "without"
+      "surface": "אֵֽין",
+      "gloss": "with no"
     },
     {
-      "surface": "איל",
+      "surface": "אֱיָֽל",
       "gloss": "strength",
-      "readings": [
-        "strength",
-        "a ram"
-      ],
-      "held_by": {
-        "strength": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a ram": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:54.999470580Z",
+  "model": "glm-5.3"
 }

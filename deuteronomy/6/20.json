@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "When your son asks you in time to come, saying, “What ⟨mean⟩ the testimonies and the statutes and the judgments which YHWH our Elohim has commanded ⟨את⟩ you?”",
+  "ref": "deuteronomy 6:20",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "the son's question",
+      "rationale": "The verse stages a question that summons the parent — and the reader — into retelling the Exodus (v. 21)."
+    },
+    {
+      "kind": "elision",
+      "subject": "אתכם",
+      "rationale": "Suffixed object marker kept only as ⟨את you⟩; English word order absorbs it."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Direct address to Israel concerning the transmission of the commandments to the next generation."
+    }
+  ],
+  "translation": "When your son asks ⟨את⟩ you tomorrow, saying, “What are the testimonies and the statutes and the judgements that YHWH our Elohim has commanded ⟨את you⟩?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb52a12033527f286b23ebd3be28b948b3513fb4cc4cfe2181576fe4cba3c551",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/6\/18-20.1791198025581.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "כי",
@@ -8,72 +40,69 @@
     },
     {
       "surface": "ישאלך",
-      "gloss": "asks you"
+      "gloss": "asks you",
+      "sense": "S1"
     },
     {
       "surface": "בנך",
-      "gloss": "your son"
+      "gloss": "your son",
+      "sense": "S1"
     },
     {
       "surface": "מחר",
-      "gloss": "in time to come",
-      "readings": [
-        "in time to come",
-        "tomorrow"
-      ],
-      "held_by": {
-        "in time to come": [
-          "v2",
-          "v3"
-        ],
-        "tomorrow": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "tomorrow",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "מה",
-      "gloss": "what"
+      "gloss": "what",
+      "sense": "S1"
     },
     {
       "surface": "העדת",
-      "gloss": "the testimonies"
+      "gloss": "the testimonies",
+      "sense": "S1"
     },
     {
       "surface": "והחקים",
-      "gloss": "and the statutes"
+      "gloss": "and the statutes",
+      "sense": "S1"
     },
     {
       "surface": "והמשפטים",
-      "gloss": "and the judgments"
+      "gloss": "and the judgements",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "which"
+      "gloss": "that"
     },
     {
       "surface": "צוה",
-      "gloss": "has commanded"
+      "gloss": "has commanded",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהינו",
-      "gloss": "our Elohim"
+      "gloss": "our Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
+      "gloss": "⟨את⟩ you",
+      "marks": "you"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:00:25.582178865Z",
+  "model": "glm-5.3"
 }

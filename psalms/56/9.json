@@ -1,40 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "My wanderings You have counted; You — put my tears in Your bottle; ⟨are they⟩ not in Your book?",
-  "tokens": [
+  "ref": "psalms 56:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 56,
+  "notes": [
     {
-      "surface": "נדי",
-      "gloss": "my wanderings"
+      "kind": "hapax",
+      "subject": "נֹדִי",
+      "rationale": "נוֹד 'wandering\/exile' occurs only here in the Tanakh; the plural sense of repeated wanderings is supplied by the construct form."
     },
     {
-      "surface": "ספרתה",
-      "gloss": "You have counted"
+      "kind": "crux",
+      "subject": "my tear",
+      "rationale": "דִּמְעָתִי singular but often read distributively as 'my tears'; the singular form is kept."
     },
     {
-      "surface": "אתה",
-      "gloss": "You"
+      "kind": "wordplay",
+      "subject": "ספרתה \/ ספרתך",
+      "rationale": "Root ספר twice: 'you have counted' (verb) and 'your scroll' (noun) — counting and writing, lost as sound-play in English."
     },
     {
-      "surface": "שימה",
-      "gloss": "put"
-    },
-    {
-      "surface": "דמעתי",
-      "gloss": "my tears"
-    },
-    {
-      "surface": "בנאדך",
-      "gloss": "in your bottle"
-    },
-    {
-      "surface": "הלא",
-      "gloss": "⟨are they⟩ not"
-    },
-    {
-      "surface": "בספרתך",
-      "gloss": "in your book"
+      "kind": "mystery",
+      "subject": "divine record",
+      "rationale": "Tears stored in a skin-bag and written in a scroll — intimate divine bookkeeping withheld from human view."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My wanderings you have counted — you; put my tear in your skin-bag. Are they not in your scroll?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "32d4fcd5117ffd239ac3db8618298ec6f54697ad20e6894858422d11fec3b882",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/56\/9-12.1791192819393.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נֹדִי",
+      "gloss": "My wanderings",
+      "readings": [
+        "My wanderings",
+        "my exile"
+      ],
+      "sense": null
+    },
+    {
+      "surface": "סָפַרְתָּה",
+      "gloss": "you have counted",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַתָּה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "שִׂימָה",
+      "gloss": "put",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּמְעָתִי",
+      "gloss": "my tear",
+      "readings": [
+        "my tear",
+        "my tears"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֹאדֶךָ",
+      "gloss": "in your skin-bag",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֲלֹא",
+      "gloss": "are they not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּסִפְרָתֶךָ",
+      "gloss": "in your scroll",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:39.394619714Z",
+  "model": "glm-5.3"
 }

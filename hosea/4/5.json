@@ -1,60 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And you shall stumble ⟨in⟩ the day, and stumble shall also a prophet with you ⟨in⟩ the night; and I will silence your mother.",
-  "tokens": [
+  "ref": "hosea 4:5",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "וכשלת",
-      "gloss": "and you shall stumble"
+      "kind": "wordplay",
+      "subject": "כשלת\/כשל",
+      "rationale": "the verb 'stumble' is repeated in both halves of the line; the parallelism day\/night frames total collapse"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "וכשל",
-      "gloss": "and stumble"
-    },
-    {
-      "surface": "גם",
-      "gloss": "also"
-    },
-    {
-      "surface": "נביא",
-      "gloss": "a prophet"
-    },
-    {
-      "surface": "עמך",
-      "gloss": "with you"
-    },
-    {
-      "surface": "לילה",
-      "gloss": "the night"
-    },
-    {
-      "surface": "ודמיתי",
-      "gloss": "and I will silence",
-      "readings": [
-        "and I will silence",
-        "and I will destroy"
-      ],
-      "held_by": {
-        "and I will silence": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and I will destroy": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אמך",
-      "gloss": "your mother"
+      "kind": "alternative",
+      "subject": "your mother",
+      "rationale": "אם here is the nation or its cultic center personified as mother, not a literal woman; the mother-of-the-priests reading is also weighed"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you shall stumble in the daytime, and the prophet shall stumble with you in the night, and I will destroy your mother.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "769bd48e3571435f2cadc1aec2b3c7f287069d28338a3dfdd347e1b4a3d7f62e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/4\/5-8.1791191233207.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְכָשַׁלְתָּ",
+      "gloss": "and you shall stumble",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "in the daytime",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָשַׁל",
+      "gloss": "and shall stumble",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּם",
+      "gloss": "also",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָבִיא",
+      "gloss": "the prophet",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמְּךָ",
+      "gloss": "with you",
+      "sense": null
+    },
+    {
+      "surface": "לָיְלָה",
+      "gloss": "in the night",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדָמִיתִי",
+      "gloss": "and I will destroy",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמֶּךָ",
+      "gloss": "your mother",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:07:13.208591685Z",
+  "model": "glm-5.3"
 }

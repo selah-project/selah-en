@@ -1,24 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And he finished from prophesying, and he came to the high place.",
-  "tokens": [
+  "ref": "1-samuel 10:13",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "ויכל",
-      "gloss": "And he finished"
+      "kind": "elision",
+      "subject": "מֵ from התנבות",
+      "rationale": "the infinitive's preposition marks 'finished from doing'; rendered by the construction rather than a word"
     },
     {
-      "surface": "מהתנבות",
-      "gloss": "from prophesying"
-    },
-    {
-      "surface": "ויבא",
-      "gloss": "and he came"
-    },
-    {
-      "surface": "הבמה",
-      "gloss": "the high place"
+      "kind": "substitution",
+      "subject": "the high place",
+      "rationale": "במה is a cultic site, often elevated; 'high place' is the conventional but partial picture"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he finished ⟨from⟩ prophesying and came to the high place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "aa3d8b54310041d2801dc4afdb1484acdfd15d34ffb81c6595e2f4c6aee7245d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/10\/13-16.1791185539866.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְכַל֙",
+      "gloss": "and he finished",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽהִתְנַבּ֔וֹת",
+      "gloss": "⟨from⟩ prophesying",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּבֹ֖א",
+      "gloss": "and came",
+      "sense": null
+    },
+    {
+      "surface": "הַבָּמָֽה",
+      "gloss": "the high place",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:32:19.866646811Z",
+  "model": "glm-5.3"
 }

@@ -1,80 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "Give thanks to YHWH, for he is good, for his chesed endures forever.",
+  "ref": "psalms 118:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 118,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "he is",
+      "rationale": "Hebrew lacks a copula and pronoun in כי טוב"
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "verbless clause לעולם חסדו requires a supplied copula"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "refrain",
+      "rationale": "identical to Psalm 118:1 and 136:1, a liturgical refrain"
+    }
+  ],
+  "translation": "Give thanks to YHWH, for he is good, for to eternity ⟨is⟩ his chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ae740d69f10fd3ac62da4ac90adf769051df5e9f81251a60c06753db469b8691",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/118\/29-29.1791193416354.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הודו",
+      "surface": "הוֹד֣וּ",
       "gloss": "Give thanks",
-      "readings": [
-        "Give thanks",
-        "praise"
-      ],
-      "held_by": {
-        "Give thanks": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "praise": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "surface": "לַיהוָ֣ה",
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "טוב",
-      "gloss": "he is good"
+      "surface": "ט֑וֹב",
+      "gloss": "he is good",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever",
-      "readings": [
-        "forever",
-        "to eternity"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to eternity": [
-          "en4"
-        ]
-      }
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "to eternity",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּֽוֹ",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
         "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "en4",
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:36.354435115Z",
+  "model": "glm-5.3"
 }

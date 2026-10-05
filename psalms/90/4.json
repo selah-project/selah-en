@@ -1,63 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For a thousand years in Your eyes are like a day of yesterday, when it passes, and like a watch in the night.",
-  "tokens": [
+  "ref": "psalms 90:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "measurement",
+      "subject": "a thousand years",
+      "rationale": "The verse measures divine time against human time: a millennium equals a passing day or a four-hour night watch."
     },
     {
-      "surface": "אלף",
-      "gloss": "a thousand"
-    },
-    {
-      "surface": "שנים",
-      "gloss": "years"
-    },
-    {
-      "surface": "בעיניך",
-      "gloss": "in Your eyes"
-    },
-    {
-      "surface": "כיום",
-      "gloss": "like a day"
-    },
-    {
-      "surface": "אתמול",
-      "gloss": "of yesterday"
-    },
-    {
-      "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "for"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יעבר",
-      "gloss": "it passes"
-    },
-    {
-      "surface": "ואשמורה",
-      "gloss": "and like a watch"
-    },
-    {
-      "surface": "בלילה",
-      "gloss": "in the night"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "The comparison is verbless in Hebrew; the bracketed copula is supplied for English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For a thousand years in your eyes are as yesterday when it passes, and a watch in the night.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9bc4d256f4b79a9e37f9e386aabb6a04e479445a86febd0afa3207ceda51606d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/1-4.1791193181816.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אֶלֶף",
+      "gloss": "a thousand",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁנִים",
+      "gloss": "years",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינֶיךָ",
+      "gloss": "in your eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּיוֹם",
+      "gloss": "as a day",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶתְמוֹל",
+      "gloss": "of yesterday",
+      "sense": null
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲבֹר",
+      "gloss": "it passes",
+      "sense": null
+    },
+    {
+      "surface": "וְאַשְׁמוּרָה",
+      "gloss": "and a watch",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּלַּיְלָה",
+      "gloss": "in the night",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:41.817839253Z",
+  "model": "glm-5.3"
 }

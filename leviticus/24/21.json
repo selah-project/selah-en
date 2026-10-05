@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And one who strikes a beast shall repay it, and one who strikes a man shall be put to death.",
-  "tokens": [
+  "ref": "leviticus 24:21",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "ומכה",
-      "gloss": "And one who strikes"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "The verse mirrors v.18's structure exactly, pairing ישלמנה (restore) with יומת (be put to death) as reciprocal paybacks."
     },
     {
-      "surface": "בהמה",
-      "gloss": "a beast",
-      "readings": [
-        "a beast",
-        "cattle"
-      ],
-      "held_by": {
-        "a beast": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "cattle": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישלמנה",
-      "gloss": "shall repay it"
-    },
-    {
-      "surface": "ומכה",
-      "gloss": "and one who strikes"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "a man"
-    },
-    {
-      "surface": "יומת",
-      "gloss": "shall be put to death"
+      "kind": "measurement",
+      "subject": "lex talionis",
+      "rationale": "The verse closes the injury-for-injury legal scale of vv.17–21."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the one striking a beast shall restore it, and the one striking a man shall be put to death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d31d0ec9c00c3196569b69f5102ea913f6ff174cc7cb354f16f845c70c769446",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/24\/21-23.1791182648971.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּמַכֵּה",
+      "gloss": "and the one striking",
+      "sense": null
+    },
+    {
+      "surface": "בְהֵמָה",
+      "gloss": "a beast",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשַׁלְּמֶנָּה",
+      "gloss": "shall restore it",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמַכֵּה",
+      "gloss": "and the one striking",
+      "sense": null
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "a man",
+      "sense": "S1",
+      "readings": [
+        "a man",
+        "a human"
+      ]
+    },
+    {
+      "surface": "יוּמָת",
+      "gloss": "shall be put to death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:44:08.972527913Z",
+  "model": "glm-5.3"
 }

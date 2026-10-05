@@ -1,40 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "We have given thanks to You, Elohim; we have given thanks, and near is Your name — they recount Your wonders.",
-  "tokens": [
+  "ref": "psalms 75:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 75,
+  "notes": [
     {
-      "surface": "הודינו",
-      "gloss": "we have given thanks"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronts the adjective קרוב without a copula; bracketed copula supplied in English"
     },
     {
-      "surface": "לך",
-      "gloss": "to You"
+      "kind": "crux",
+      "subject": "ספרו",
+      "rationale": "3rd plural 'they recount' vs revocalized 1st plural 'let us recount'; kept the consonantal form"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "הודינו",
-      "gloss": "we have given thanks"
-    },
-    {
-      "surface": "וקרוב",
-      "gloss": "and near"
-    },
-    {
-      "surface": "שמך",
-      "gloss": "Your name"
-    },
-    {
-      "surface": "ספרו",
-      "gloss": "they recount"
-    },
-    {
-      "surface": "נפלאותיך",
-      "gloss": "Your wonders"
+      "kind": "wordplay",
+      "subject": "הודינו … הודינו",
+      "rationale": "repetition of the verb of thanks at the verse's two halves"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "We give thanks to You, Elohim; we give thanks, and near is Your name; they recount Your wonders.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4e42811a481404690acc102927a028210aeb83997cc0964fab08cc226b08a32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/75\/1-4.1791193009752.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "ה֘וֹדִ֤ינוּ",
+      "gloss": "we give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְּךָ֨",
+      "gloss": "to You",
+      "sense": null
+    },
+    {
+      "surface": "אֱֽלֹהִ֗ים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֭וֹדִינוּ",
+      "gloss": "we give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקָר֣וֹב",
+      "gloss": "and near",
+      "sense": null
+    },
+    {
+      "surface": "שְׁמֶ֑ךָ",
+      "gloss": "is Your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "סִ֝פְּר֗וּ",
+      "gloss": "they recount",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִפְלְאוֹתֶֽיךָ",
+      "gloss": "Your wonders",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:49.753131471Z",
+  "model": "glm-5.3"
 }

@@ -1,74 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "As snow in summer, and as rain in harvest, so honor is not seemly for a fool.",
+  "ref": "proverbs 26:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronts כבוד before the verbless clause; English needs the copula."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כבוד",
+      "rationale": "כבוד literally 'weight\/heaviness'; the picture of honor as weight is lost in English."
+    }
+  ],
+  "translation": "Like snow in summer and like rain in harvest, so honor is not fitting for a fool.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4b6eb5c4bac7b5787e0ac85e1f0ec97c19f5f086d9202be1b420b316face6f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/1-4.1791194011496.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "כשלג",
-      "gloss": "as snow"
+      "surface": "כַּשֶּׁלֶג",
+      "gloss": "Like snow",
+      "sense": "S1"
     },
     {
-      "surface": "בקיץ",
-      "gloss": "in summer"
+      "surface": "בַּקַּיִץ",
+      "gloss": "in summer",
+      "sense": "S1"
     },
     {
-      "surface": "וכמטר",
-      "gloss": "and as rain"
+      "surface": "וְכַמָּטָר",
+      "gloss": "and like rain",
+      "sense": "S1"
     },
     {
-      "surface": "בקציר",
-      "gloss": "in harvest"
+      "surface": "בַּקָּצִיר",
+      "gloss": "in harvest",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
-      "gloss": "so"
+      "surface": "כֵּן",
+      "gloss": "so",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "נאוה",
-      "gloss": "is seemly",
-      "readings": [
-        "is seemly",
-        "is beautiful"
-      ],
-      "held_by": {
-        "is seemly": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is beautiful": [
-          "en4"
-        ]
-      }
+      "surface": "נָאוֶה",
+      "gloss": "is fitting",
+      "sense": "S1"
     },
     {
-      "surface": "לכסיל",
-      "gloss": "for a fool"
+      "surface": "לִכְסִיל",
+      "gloss": "for a fool",
+      "sense": "S1"
     },
     {
-      "surface": "כבוד",
+      "surface": "כָּבוֹד",
       "gloss": "honor",
       "readings": [
         "honor",
-        "glory"
+        "weight"
       ],
-      "held_by": {
-        "honor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "glory": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:31.497014616Z",
+  "model": "glm-5.3"
 }

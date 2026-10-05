@@ -1,28 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 38,
-  "translation": "Establish for your servant your word, which ⟨is⟩ for your fear.",
-  "tokens": [
+  "ref": "psalms 119:38",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "הקם",
-      "gloss": "Establish"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between אשר clause and ליראתך; bracketed to complete the relative clause."
     },
     {
-      "surface": "לעבדך",
-      "gloss": "for your servant"
-    },
-    {
-      "surface": "אמרתך",
-      "gloss": "your word"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "ליראתך",
-      "gloss": "for your fear"
+      "kind": "crux",
+      "subject": "which is for your fear",
+      "rationale": "Some read the clause with what follows (v.39 opening), or as 'as you have promised to those who fear you'; kept plain and literal."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Establish for your servant your word, which ⟨is⟩ for your fear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "55ae57f59c8fd6f0dd68b192521ff1b0e3afa3237331820397d2fef27ad108b1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/37-40.1791193441972.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָקֵ֣ם",
+      "gloss": "Establish",
+      "sense": null
+    },
+    {
+      "surface": "לְ֭עַבְדְּךָ",
+      "gloss": "for your servant",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִמְרָתֶ֑ךָ",
+      "gloss": "your word",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֝שֶׁ֗ר",
+      "gloss": "which",
+      "sense": null
+    },
+    {
+      "surface": "לְיִרְאָתֶֽךָ",
+      "gloss": "for your fear",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:01.972851286Z",
+  "model": "glm-5.3"
 }

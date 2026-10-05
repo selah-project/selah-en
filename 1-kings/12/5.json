@@ -1,62 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And he said to them, “Go yet three days and return to me.” And the people went.",
-  "tokens": [
+  "ref": "1-kings 12:5",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "kind": "elision",
+      "subject": "quotation marks",
+      "rationale": "Direct speech marked by punctuation only; Hebrew has no quotation marks"
     },
     {
-      "surface": "אליהם",
-      "gloss": "to them"
-    },
-    {
-      "surface": "לכו",
-      "gloss": "Go"
-    },
-    {
-      "surface": "עד",
-      "gloss": "yet",
-      "readings": [
-        "yet",
-        "for"
-      ],
-      "held_by": {
-        "yet": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "שלשה",
-      "gloss": "three"
-    },
-    {
-      "surface": "ימים",
-      "gloss": "days"
-    },
-    {
-      "surface": "ושובו",
-      "gloss": "and return"
-    },
-    {
-      "surface": "אלי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "וילכו",
-      "gloss": "and went"
-    },
-    {
-      "surface": "העם",
-      "gloss": "the people"
+      "kind": "you",
+      "subject": "to the assembly and Jeroboam",
+      "rationale": "Rehoboam's imperatives address the gathered people"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he said to them, “Go yet three days, and return to me.” And the people went.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "66ce56b80fb63d3ca2ce07801f58b885196a045e62c7da7cff9808b46c2b248f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/12\/5-8.1791187034415.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֣אמֶר",
+      "gloss": "And he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲלֵיהֶ֗ם",
+      "gloss": "to them",
+      "sense": null
+    },
+    {
+      "surface": "לְכ֥וּ",
+      "gloss": "Go",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֹ֛ד",
+      "gloss": "yet"
+    },
+    {
+      "surface": "שְׁלֹשָׁ֥ה",
+      "gloss": "three",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמִ֖ים",
+      "gloss": "days",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשׁ֣וּבוּ",
+      "gloss": "and return",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָ֑י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "וַיֵּלְכ֖וּ",
+      "gloss": "and they went",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעָֽם",
+      "gloss": "the people",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:57:14.416976512Z",
+  "model": "glm-5.3"
 }

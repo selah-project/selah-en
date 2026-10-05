@@ -1,52 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Return, YHWH — how long? — and relent concerning your servants.",
-  "tokens": [
+  "ref": "psalms 90:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "שובה",
-      "gloss": "Return"
+      "kind": "crux",
+      "subject": "והנחם",
+      "rationale": "niphal of נחם: 'be comforted\/relent' vs 'repent' — the psalm asks YHWH to change His disposition toward His servants."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "alternative",
+      "subject": "עד מתי",
+      "rationale": "'how long?' — literally 'until when?', a rhetorical question fearing the point may never arrive."
     },
     {
-      "surface": "עד",
-      "gloss": "how long"
-    },
-    {
-      "surface": "מתי",
-      "gloss": "how long"
-    },
-    {
-      "surface": "והנחם",
-      "gloss": "and relent",
-      "readings": [
-        "and relent",
-        "and be comforted"
-      ],
-      "held_by": {
-        "and relent": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and be comforted": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "על",
-      "gloss": "concerning"
-    },
-    {
-      "surface": "עבדיך",
-      "gloss": "your servants"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct petition addressed to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Turn back, YHWH — how long? — and be comforted concerning your servants.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b5b6beea33baad205b75516ef70b078eb0a1b19bfc6a25a1fdfcb6dfe81486f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/13-16.1791193177903.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שׁוּבָ֣ה",
+      "gloss": "Turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "—",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָתָ֑י",
+      "gloss": "how long?",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝הִנָּחֵ֗ם",
+      "gloss": "and be comforted",
+      "readings": [
+        "and be comforted",
+        "and have second thoughts"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "concerning",
+      "sense": null
+    },
+    {
+      "surface": "עֲבָדֶֽיךָ",
+      "gloss": "your servants",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:37.904472225Z",
+  "model": "glm-5.3"
 }

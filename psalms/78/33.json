@@ -1,74 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 33,
-  "translation": "And he ended in vanity their days, and their years in terror.",
-  "tokens": [
+  "ref": "psalms 78:33",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ויכל",
-      "gloss": "and he ended",
-      "readings": [
-        "and he ended",
-        "and he consumed"
-      ],
-      "held_by": {
-        "and he ended": [
-          "v2",
-          "v3"
-        ],
-        "and he consumed": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "הֶבֶל",
+      "rationale": "the same word as Ecclesiastes' 'vapor' — their days were spent as a mere breath, lost in English"
     },
     {
-      "surface": "בהבל",
-      "gloss": "in vanity",
-      "readings": [
-        "in vanity",
-        "in breath"
-      ],
-      "held_by": {
-        "in vanity": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in breath": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ימיהם",
-      "gloss": "their days"
-    },
-    {
-      "surface": "ושנותם",
-      "gloss": "and their years"
-    },
-    {
-      "surface": "בבהלה",
-      "gloss": "in terror",
-      "readings": [
-        "in terror",
-        "in haste"
-      ],
-      "held_by": {
-        "in terror": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in haste": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "terror",
+      "rationale": "בֶּהָלָה is sudden panic with physical trembling, broader than fear"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "So He brought their days to an end in vapor, and their years in sudden terror.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "55ccef5c5dbfe0b0e6c52cebff907b16e5f3be5c6fb3fe331ea6a004960f3147",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/33-36.1791193045332.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְכַל",
+      "gloss": "So He brought to an end",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּהֶ֥בֶל",
+      "gloss": "in vapor",
+      "readings": [
+        "in vapor",
+        "in vanity"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמֵיהֶ֑ם",
+      "gloss": "their days",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֝שְׁנוֹתָ֗ם",
+      "gloss": "and their years",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּבֶּהָלָֽה",
+      "gloss": "in terror",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:37:25.332693955Z",
+  "model": "glm-5.3"
 }

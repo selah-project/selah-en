@@ -1,87 +1,111 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "And you bore ⟨את⟩ Sikkuth your king and ⟨את⟩ Kiyyun your images — the star of your gods — which you made for yourselves.",
+  "ref": "amos 5:26",
+  "book": "amos",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "סִכּוּת",
+      "rationale": "occurs only here in the Tanakh; an Assyrian deity, a manifestation of Saturn"
+    },
+    {
+      "kind": "hapax",
+      "subject": "כִּיּוּן",
+      "rationale": "occurs only here; the LXX turns Sikkut-Kiyyun into 'the tent of Moloch and the star of your god Rephan'"
+    },
+    {
+      "kind": "crux",
+      "subject": "your king",
+      "rationale": "מַלְכְּכֶם pointed as 'your king' but the consonants invite 'Molek', the Ammonite deity"
+    },
+    {
+      "kind": "you",
+      "subject": "house of Israel",
+      "rationale": "second-person accusation continues the direct address from verse 25"
+    }
+  ],
+  "translation": "And you lifted up ⟨את⟩ Sikkut your king and ⟨את⟩ Kiyyun your images, the star of your gods, which you made for yourselves.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c0d8df59c390172709d1b033b0cf018bd7a9f070ceb5d13d3218724121db48ae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/amos\/5\/25-27.1791191539725.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/amos.edn"
+  },
   "tokens": [
     {
-      "surface": "ונשאתם",
-      "gloss": "and you bore"
+      "surface": "וּנְשָׂאתֶם",
+      "gloss": "and you lifted up",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "Sikkut your king",
+      "sense": null
     },
     {
-      "surface": "סכות",
-      "gloss": "Sikkuth",
-      "readings": [
-        "Sikkuth",
-        "Sukkot, booths"
-      ],
-      "held_by": {
-        "Sikkuth": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Sukkot, booths": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "סִכּוּת",
+      "gloss": "Sikkut",
+      "sense": "S1"
     },
     {
-      "surface": "מלככם",
+      "surface": "מַלְכְּכֶם",
       "gloss": "your king",
       "readings": [
         "your king",
-        "your Moloch"
+        "Molek"
       ],
-      "held_by": {
-        "your king": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your Moloch": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "Kiyyun your images",
+      "sense": null
     },
     {
-      "surface": "כיון",
-      "gloss": "Kiyyun"
+      "surface": "כִּיּוּן",
+      "gloss": "Kiyyun",
+      "sense": "S1"
     },
     {
-      "surface": "צלמיכם",
-      "gloss": "your images"
+      "surface": "צַלְמֵיכֶם",
+      "gloss": "your images",
+      "sense": "S1"
     },
     {
-      "surface": "כוכב",
-      "gloss": "the star of"
+      "surface": "כּוֹכַב",
+      "gloss": "the star of",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיכם",
-      "gloss": "your gods"
+      "surface": "אֱלֹהֵיכֶם",
+      "gloss": "your gods",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "which"
+      "surface": "אֲשֶׁר",
+      "gloss": "which",
+      "sense": null
     },
     {
-      "surface": "עשיתם",
-      "gloss": "you made"
+      "surface": "עֲשִׂיתֶם",
+      "gloss": "you made",
+      "sense": "S1"
     },
     {
-      "surface": "לכם",
-      "gloss": "for yourselves"
+      "surface": "לָכֶם",
+      "gloss": "for yourselves",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:12:19.726870054Z",
+  "model": "glm-5.3"
 }

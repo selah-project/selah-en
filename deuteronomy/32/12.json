@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "YHWH alone guided him, and ⟨there was⟩ no foreign god with him.",
-  "tokens": [
+  "ref": "deuteronomy 32:12",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "there was",
+      "rationale": "Hebrew אֵין is a nominal negative; English needs a copula."
     },
     {
-      "surface": "בדד",
-      "gloss": "alone"
-    },
-    {
-      "surface": "ינחנו",
-      "gloss": "guided him"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and ⟨there was⟩ no"
-    },
-    {
-      "surface": "עמו",
-      "gloss": "with him"
-    },
-    {
-      "surface": "אל",
-      "gloss": "god",
-      "readings": [
-        "god",
-        "a mighty one"
-      ],
-      "held_by": {
-        "god": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a mighty one": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נכר",
-      "gloss": "foreign"
+      "kind": "crux",
+      "subject": "בָּדָד",
+      "rationale": "Read as adverb 'alone' (YHWH alone guided him) or modifying the object 'he led him into solitude'; the accent pause before it favors 'alone'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH alone guided him, and with him no foreign god.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7a853c81cca08d9a24a298a38ceb730e050b23552a587f7846c7379b6c20ba28",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/9-12.1791184218401.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּדָד",
+      "gloss": "alone",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַנְחֶנּוּ",
+      "gloss": "guided him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵין",
+      "gloss": "and ⟨there was⟩ no",
+      "sense": null
+    },
+    {
+      "surface": "עִמּוֹ",
+      "gloss": "with him",
+      "sense": null
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "god",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵכָר",
+      "gloss": "foreign",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:18.402791379Z",
+  "model": "glm-5.3"
 }

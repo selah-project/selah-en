@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And they envied Moses in the camp, and Aaron, the holy one of YHWH.",
-  "tokens": [
+  "ref": "psalms 106:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "ויקנאו",
-      "gloss": "And they envied"
+      "kind": "addition",
+      "subject": "and",
+      "rationale": "English coordination supplied before 'of Aaron'; Hebrew repeats the preposition without a conjunction."
     },
     {
-      "surface": "למשה",
-      "gloss": "of Moses"
-    },
-    {
-      "surface": "במחנה",
-      "gloss": "in ⟨the⟩ camp"
-    },
-    {
-      "surface": "לאהרן",
-      "gloss": "and of Aaron"
-    },
-    {
-      "surface": "קדוש",
-      "gloss": "holy one"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "of YHWH"
+      "kind": "crux",
+      "subject": "קדוש יהוה",
+      "rationale": "construct 'holy one of YHWH' — Aaron as YHWH's consecrated one; some read 'holy to YHWH'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they were jealous of Moses in the camp, ⟨and⟩ of Aaron, the holy one of YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "14cb42edc2a1b3a21d7c8987a6d46391b65657b307eabb521d6366ed8efd1e69",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/13-16.1791193312959.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְקַנְא֣וּ",
+      "gloss": "and they were jealous",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֭מֹשֶׁה",
+      "gloss": "of Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּֽמַּחֲנֶ֑ה",
+      "gloss": "in the camp",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְ֝אַהֲרֹ֗ן",
+      "gloss": "⟨and⟩ of Aaron",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְד֣וֹשׁ",
+      "gloss": "the holy one of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:52.960096154Z",
+  "model": "glm-5.3"
 }

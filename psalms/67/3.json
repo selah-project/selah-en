@@ -1,60 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "To make known on the earth your way, your deliverance among all the nations.",
-  "tokens": [
+  "ref": "psalms 67:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 67,
+  "notes": [
     {
-      "surface": "לדעת",
-      "gloss": "to make known"
-    },
-    {
-      "surface": "בארץ",
-      "gloss": "on the earth",
-      "readings": [
-        "on the earth",
-        "in the earth"
-      ],
-      "held_by": {
-        "on the earth": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דרכך",
-      "gloss": "your way"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "among all"
-    },
-    {
-      "surface": "גוים",
-      "gloss": "the nations"
-    },
-    {
-      "surface": "ישועתך",
-      "gloss": "your deliverance",
-      "readings": [
-        "your deliverance",
-        "your salvation"
-      ],
-      "held_by": {
-        "your deliverance": [
-          "v1",
-          "v3"
-        ],
-        "your salvation": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "to make known",
+      "rationale": "infinitive לדעת is literally 'to know'; context of the nations knowing God's way yields the causative sense"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "to make known in the earth your way, among all nations your salvation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f2cc5c4c701c34c6456ef75be1e5e4f8623e548982a868023612545136bf503c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/67\/1-4.1791192894164.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לָדַעַת",
+      "gloss": "to make known",
+      "sense": null
+    },
+    {
+      "surface": "בָּאָרֶץ",
+      "gloss": "in the earth",
+      "sense": "S1",
+      "readings": [
+        "in the earth",
+        "in the land"
+      ]
+    },
+    {
+      "surface": "דַּרְכֶּךָ",
+      "gloss": "your way",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "among all",
+      "sense": null
+    },
+    {
+      "surface": "גּוֹיִם",
+      "gloss": "nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעָתֶךָ",
+      "gloss": "your salvation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:54.165025329Z",
+  "model": "glm-5.3"
 }

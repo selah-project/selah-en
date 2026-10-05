@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And he passed away, and behold, he is not; and I sought him, and he was not found.",
-  "tokens": [
+  "ref": "psalms 37:36",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "ויעבר",
-      "gloss": "and he passed away"
+      "kind": "idiom",
+      "subject": "and he passed",
+      "rationale": "ויעבור — he passed on\/transited away, an idiom for vanishing from the scene."
     },
     {
-      "surface": "והנה",
-      "gloss": "and behold"
-    },
-    {
-      "surface": "איננו",
-      "gloss": "he is not",
-      "readings": [
-        "he is not",
-        "he was not"
-      ],
-      "held_by": {
-        "he is not": [
-          "en4"
-        ],
-        "he was not": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ואבקשהו",
-      "gloss": "and I sought him"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "נמצא",
-      "gloss": "he was found"
+      "kind": "wordplay",
+      "subject": "איננו \/ ולא נמצא",
+      "rationale": "Double negation of existence builds the verse's vanishing rhythm, lost in plain English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But he passed, and lo, he was not; and I sought him, and he was not found.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2d6181275c49b30781ad3834ce80d38b92f38e357b3c1e061712979db9192858",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/33-36.1791192651832.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַ֭יַּֽעֲבֹר",
+      "gloss": "and he passed",
+      "sense": null
+    },
+    {
+      "surface": "וְהִנֵּ֣ה",
+      "gloss": "and lo",
+      "sense": null
+    },
+    {
+      "surface": "אֵינֶ֑נּוּ",
+      "gloss": "he was not",
+      "sense": null
+    },
+    {
+      "surface": "וָֽֽאֲבַקְשֵׁ֗הוּ",
+      "gloss": "and I sought him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִמְצָֽא",
+      "gloss": "he was found",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:51.833114522Z",
+  "model": "glm-5.3"
 }

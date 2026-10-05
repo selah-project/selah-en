@@ -1,72 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "The east wind lifts him up, and he goes; and it storms him away from his place.",
-  "tokens": [
+  "ref": "job 27:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "ישאהו",
-      "gloss": "lifts him up"
+      "kind": "alternative",
+      "subject": "lifts him",
+      "rationale": "נשא here could read 'carries him off' — the wind bears him away."
     },
     {
-      "surface": "קדים",
-      "gloss": "the east wind",
-      "readings": [
-        "the east wind",
-        "the east"
-      ],
-      "held_by": {
-        "the east wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the east": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וילך",
-      "gloss": "and he goes",
-      "readings": [
-        "and he goes",
-        "and he departs"
-      ],
-      "held_by": {
-        "and he goes": [
-          "v1",
-          "en4"
-        ],
-        "and he departs": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "וישערהו",
-      "gloss": "and storms him",
-      "readings": [
-        "and storms him",
-        "and it sweeps him away"
-      ],
-      "held_by": {
-        "and storms him": [
-          "v1",
-          "v3"
-        ],
-        "and it sweeps him away": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ממקמו",
-      "gloss": "from his place"
+      "kind": "wordplay",
+      "subject": "קדים",
+      "rationale": "קדים is both 'east' and the hot east wind; the dual sense is flattened to 'east wind' in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The east wind lifts him and he vanishes, and it storms him away from his place.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ead9bafec0c27b9e1e15276ff38b164a0d3cb663fc7b31f045edd493246aacb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/27\/21-23.1791194445473.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִשָּׂאֵ֣הוּ",
+      "gloss": "lifts him",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדִ֣ים",
+      "gloss": "the east wind",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֵלַ֑ךְ",
+      "gloss": "and he vanishes",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִֽ֝ישָּׂעֲרֵ֗הוּ",
+      "gloss": "and it storms him away",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמְּקֹמֽוֹ",
+      "gloss": "from his place",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:00:45.474162324Z",
+  "model": "glm-5.3"
 }

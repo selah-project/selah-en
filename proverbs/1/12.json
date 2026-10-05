@@ -1,60 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "let us swallow them alive like Sheol, and whole, like those who go down into the pit;",
-  "tokens": [
+  "ref": "proverbs 1:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "נבלעם",
-      "gloss": "let us swallow them"
+      "kind": "wordplay",
+      "subject": "בָּלַע \/ שְׁאוֹל",
+      "rationale": "Sheol is traditionally the one that swallows the living; the sinners claim Sheol's own appetite for themselves."
     },
     {
-      "surface": "כשאול",
-      "gloss": "like Sheol"
-    },
-    {
-      "surface": "חיים",
-      "gloss": "alive"
-    },
-    {
-      "surface": "ותמימים",
-      "gloss": "and whole"
-    },
-    {
-      "surface": "כיורדי",
-      "gloss": "like those who go down",
-      "readings": [
-        "like those who go down",
-        "like those descending"
-      ],
-      "held_by": {
-        "like those who go down": [
-          "v2",
-          "v3"
-        ],
-        "like those descending": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בור",
-      "gloss": "into the pit",
-      "readings": [
-        "into the pit",
-        "the Pit"
-      ],
-      "held_by": {
-        "into the pit": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the Pit": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "whole",
+      "rationale": "תְּמִימִים may mean 'whole, undiminished' or 'those of integrity'; 'whole' keeps the swallowing image."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "“Let us swallow them like Sheol, alive, and whole, like those going down to the pit;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eebac8c43502bb6b5c8e17ebd74cf4f2d0a5c4faa76476c0968361f1b206ba8a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/1\/9-12.1791193686515.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נִבְלָעֵם",
+      "gloss": "let us swallow them",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּשְׁאוֹל",
+      "gloss": "like Sheol",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיִּים",
+      "gloss": "alive",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְמִימִים",
+      "gloss": "and whole",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּיוֹרְדֵי",
+      "gloss": "like those going down",
+      "sense": "S1"
+    },
+    {
+      "surface": "בּוֹר",
+      "gloss": "to the pit",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:06.516327946Z",
+  "model": "glm-5.3"
 }

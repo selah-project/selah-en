@@ -1,56 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "If you slacken in the day of distress, narrow is your strength.",
-  "tokens": [
+  "ref": "proverbs 24:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "התרפית",
-      "gloss": "If you slacken",
-      "readings": [
-        "If you slacken",
-        "Have you slackened"
-      ],
-      "held_by": {
-        "If you slacken": [
-          "v2",
-          "v3"
-        ],
-        "Have you slackened": [
-          "en4",
-          "v1"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "צרה\/צר",
+      "rationale": "root repetition: the day of 'narrowness' and the strength grown 'narrow'; kept in English"
     },
     {
-      "surface": "ביום",
-      "gloss": "in the day of"
-    },
-    {
-      "surface": "צרה",
-      "gloss": "distress",
-      "readings": [
-        "distress",
-        "trouble"
-      ],
-      "held_by": {
-        "distress": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "trouble": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "צר",
-      "gloss": "narrow"
-    },
-    {
-      "surface": "כחכה",
-      "gloss": "is your strength"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "copula supplied for the English nominal clause"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You slackened on the day of trouble — narrow is your strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1f7045fe014802452f7155436bd82e9d34bce4d51dee0c8214088f3e6c3b735",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/24\/9-12.1791193994090.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִ֭תְרַפִּיתָ",
+      "gloss": "You slackened",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּי֥וֹם",
+      "gloss": "on the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרָ֗ה",
+      "gloss": "of trouble",
+      "sense": "S1",
+      "readings": [
+        "of trouble",
+        "of tightness"
+      ]
+    },
+    {
+      "surface": "צַ֣ר",
+      "gloss": "narrow",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּחֶֽכָה",
+      "gloss": "is your strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:14.091066137Z",
+  "model": "glm-5.3"
 }

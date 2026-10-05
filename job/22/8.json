@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And the man of arm — the land is his, and the lifted of face dwells in it.",
+  "ref": "job 22:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "נשוא פנים",
+      "rationale": "'Lifting of face' = showing favor or partiality; kept literal with hyphenation to expose the picture."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "gloss": "copula supplied in 'the land is his'",
+      "rationale": "Hebrew has preposition+suffix לו without a verb."
+    }
+  ],
+  "translation": "And the man of arm — the land is his, and the one-lifted-of-face dwells in it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "08880e45fa75c858eb5f97c53004a11c9fef4fb746dc19d7448e1e5163fcffc3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/22\/5-8.1791194370330.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ואיש",
-      "gloss": "and the man of"
+      "surface": "וְאִ֣ישׁ",
+      "gloss": "And the man of",
+      "sense": null
     },
     {
-      "surface": "זרוע",
+      "surface": "זְ֭רוֹעַ",
       "gloss": "arm",
+      "sense": "S1",
       "readings": [
         "arm",
-        "force"
-      ],
-      "held_by": {
-        "arm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "force": [
-          "en4"
-        ]
-      }
+        "strength"
+      ]
     },
     {
-      "surface": "לו",
-      "gloss": "his"
+      "surface": "ל֣וֹ",
+      "gloss": "his is",
+      "sense": null
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָ֑רֶץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "v1"
-        ]
-      }
+      ]
     },
     {
-      "surface": "ונשוא",
-      "gloss": "and the lifted of"
+      "surface": "וּנְשׂ֥וּא",
+      "gloss": "and the lifted-up-of",
+      "sense": "S1"
     },
     {
-      "surface": "פנים",
-      "gloss": "face"
+      "surface": "פָנִ֝֗ים",
+      "gloss": "face",
+      "sense": "S1"
     },
     {
-      "surface": "ישב",
-      "gloss": "dwells"
+      "surface": "יֵ֣שֶׁב",
+      "gloss": "dwells",
+      "sense": "S1"
     },
     {
-      "surface": "בה",
-      "gloss": "in it"
+      "surface": "בָּֽהּ",
+      "gloss": "in it",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:30.331852971Z",
+  "model": "glm-5.3"
 }

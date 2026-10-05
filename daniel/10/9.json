@@ -1,36 +1,52 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And I heard ⟨את⟩ the voice of his words, and as I heard ⟨את⟩ the voice of his words, I was in a deep sleep upon my face, and my face toward the ground.",
+  "ref": "daniel 10:9",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨toward⟩",
+      "rationale": "the directional-he ending on ארצה supplies direction; English needs a word for it"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "את קול דבריו … את קול דבריו",
+      "rationale": "the clause is doubled verbatim, a repetition English carries but flattens"
+    }
+  ],
+  "translation": "And I heard ⟨את⟩ the sound of his words, and as I heard ⟨את⟩ the sound of his words, I was in a deep sleep upon my face, and my face ⟨toward⟩ the ground.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8cfa043666a453b1b6231e8c44e6934da198c5806bba02e5b612333cf8ca3e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/10\/9-12.1791195436722.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
       "surface": "ואשמע",
-      "gloss": "and I heard"
+      "gloss": "And I heard",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the sound of his words"
     },
     {
       "surface": "קול",
-      "gloss": "the voice",
-      "readings": [
-        "the voice",
-        "the sound"
-      ],
-      "held_by": {
-        "the voice": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the sound": [
-          "en4"
-        ]
-      }
+      "gloss": "the sound of"
     },
     {
       "surface": "דבריו",
-      "gloss": "of his words"
+      "gloss": "his words",
+      "sense": "S1"
     },
     {
       "surface": "וכשמעי",
@@ -38,56 +54,30 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the sound of his words"
     },
     {
       "surface": "קול",
-      "gloss": "the voice",
-      "readings": [
-        "the voice",
-        "the sound"
-      ],
-      "held_by": {
-        "the voice": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the sound": [
-          "en4"
-        ]
-      }
+      "gloss": "the sound of"
     },
     {
       "surface": "דבריו",
-      "gloss": "of his words"
+      "gloss": "his words",
+      "sense": "S1"
     },
     {
       "surface": "ואני",
-      "gloss": "then I"
+      "gloss": "and I"
     },
     {
       "surface": "הייתי",
-      "gloss": "was"
+      "gloss": "I was"
     },
     {
       "surface": "נרדם",
       "gloss": "in a deep sleep",
-      "readings": [
-        "in a deep sleep",
-        "stunned"
-      ],
-      "held_by": {
-        "in a deep sleep": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "stunned": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -95,7 +85,8 @@
     },
     {
       "surface": "פני",
-      "gloss": "my face"
+      "gloss": "my face",
+      "sense": "S1"
     },
     {
       "surface": "ופני",
@@ -103,9 +94,10 @@
     },
     {
       "surface": "ארצה",
-      "gloss": "toward the ground"
+      "gloss": "toward the ground",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:17:16.722974809Z",
+  "model": "glm-5.3"
 }

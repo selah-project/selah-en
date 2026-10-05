@@ -1,61 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "I will teach transgressors Your ways, and sinners will return to You.",
-  "tokens": [
+  "ref": "psalms 51:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "אלמדה",
-      "gloss": "I will teach",
-      "readings": [
-        "I will teach",
-        "let me teach"
-      ],
-      "held_by": {
-        "I will teach": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "let me teach": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פשעים",
-      "gloss": "transgressors",
-      "readings": [
-        "transgressors",
-        "rebels"
-      ],
-      "held_by": {
-        "transgressors": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "rebels": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "דרכיך",
-      "gloss": "Your ways"
-    },
-    {
-      "surface": "וחטאים",
-      "gloss": "and sinners"
-    },
-    {
-      "surface": "אליך",
-      "gloss": "to You"
-    },
-    {
-      "surface": "ישובו",
-      "gloss": "will return"
+      "kind": "substitution",
+      "subject": "wrongdoers",
+      "rationale": "פשעים is a qal participle 'ones who break away (from authority)', rendered as an English noun"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will teach wrongdoers your ways, and sinners will turn back to you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8cb29cbdb9bf5a7d62a3361b58c18a32c2fbc19de259c099e74cc92ad0a7924d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/13-16.1791192777141.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲלַמְּדָה",
+      "gloss": "I will teach",
+      "sense": "S1"
+    },
+    {
+      "surface": "פֹּשְׁעִים",
+      "gloss": "wrongdoers",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּרָכֶיךָ",
+      "gloss": "your ways",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחַטָּאִים",
+      "gloss": "and sinners",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶיךָ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "יָשׁוּבוּ",
+      "gloss": "will turn back",
+      "readings": [
+        "will turn back",
+        "will return"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:57.142555404Z",
+  "model": "glm-5.3"
 }

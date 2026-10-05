@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "To Egypt we gave ⟨the⟩ hand, to Assyria, to be satisfied ⟨with⟩ bread.",
-  "tokens": [
+  "ref": "lamentations 5:6",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "מצרים",
-      "gloss": "Egypt"
+      "kind": "idiom",
+      "subject": "gave a hand",
+      "rationale": "Hebrew idiom 'give the hand' = submit to another's authority; rendered literally to keep the picture."
     },
     {
-      "surface": "נתנו",
-      "gloss": "we gave"
-    },
-    {
-      "surface": "יד",
-      "gloss": "hand"
-    },
-    {
-      "surface": "אשור",
-      "gloss": "Assyria"
-    },
-    {
-      "surface": "לשבע",
-      "gloss": "to be satisfied"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "bread",
-      "readings": [
-        "bread",
-        "food"
-      ],
-      "held_by": {
-        "bread": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "food": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "with",
+      "rationale": "English needs a preposition before 'bread'; Hebrew uses the bare infinitive construct with its object."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "To Egypt we gave a hand, to Assyria, to be sated with bread.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f84257ac7c138814906982a596c0c485d86bb68af435db42f4192ffa08b8890",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/5-8.1791194776142.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִצְרַיִם",
+      "gloss": "To Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַנּוּ",
+      "gloss": "we gave",
+      "sense": null
+    },
+    {
+      "surface": "יָד",
+      "gloss": "a hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשּׁוּר",
+      "gloss": "to Assyria",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׂבֹּעַ",
+      "gloss": "to be sated",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָחֶם",
+      "gloss": "with bread",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:16.143998481Z",
+  "model": "glm-5.3"
 }

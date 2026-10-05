@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The voice of YHWH is in power; the voice of YHWH is in splendor.",
-  "tokens": [
+  "ref": "psalms 29:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "קול",
-      "gloss": "The voice of"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Copula supplied for the verbless parallel couplet."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בכח",
-      "gloss": "is in power"
-    },
-    {
-      "surface": "קול",
-      "gloss": "the voice of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בהדר",
-      "gloss": "is in splendor",
-      "readings": [
-        "is in splendor",
-        "is in majesty"
-      ],
-      "held_by": {
-        "is in splendor": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "is in majesty": [
-          "v2"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "Identical framing קול יהוה … קול יהוה carries the thunder refrain."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The voice of YHWH is in power; the voice of YHWH is in majesty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e650f762a76f191b654fced000d84cc8248cf757f3a47bcf335b3ced506c6404",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/29\/1-4.1791192551027.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קוֹל",
+      "gloss": "The voice of",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֥ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּכֹּ֑חַ",
+      "gloss": "is in power",
+      "sense": "S1"
+    },
+    {
+      "surface": "ק֥וֹל",
+      "gloss": "the voice of",
+      "sense": null
+    },
+    {
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶּהָדָֽר",
+      "gloss": "is in majesty",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:11.028867213Z",
+  "model": "glm-5.3"
 }

@@ -1,91 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "But now send forth your hand and touch all that is his: if not — to your face he will bless you.",
+  "ref": "job 1:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יברכך",
+      "rationale": "The text writes 'bless' (barach) but the SDBH and most translators read it as the euphemism for 'curse' (a scribal shielding of the Name); the literal 'he will bless you to your face' is kept as reading 2"
+    },
+    {
+      "kind": "elision",
+      "subject": "אם לא",
+      "rationale": "The oath formula 'if not…' (surely he will) has no clean English equivalent; carried as ⟨if⟩ … not"
+    }
+  ],
+  "translation": "But stretch out now your hand and touch all that he has — ⟨if⟩ he will not curse you to your face.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0e959edf20f015730f5181e1458ca07dd33809181e8ca0ad56b08773d9ebad34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/1\/9-12.1791194143862.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "ואולם",
-      "gloss": "But now"
+      "surface": "וְאוּלָם֙",
+      "gloss": "But",
+      "sense": "S1"
     },
     {
-      "surface": "שלח",
-      "gloss": "send forth"
+      "surface": "שְֽׁלַֽח",
+      "gloss": "stretch out",
+      "sense": "S1"
     },
     {
-      "surface": "נא",
-      "gloss": "now",
-      "readings": [
-        "now",
-        "please"
-      ],
-      "held_by": {
-        "now": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "please": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "נָ֣א",
+      "gloss": "now"
     },
     {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "surface": "יָדְךָ֔",
+      "gloss": "your hand",
+      "sense": "S1"
     },
     {
-      "surface": "וגע",
-      "gloss": "and touch"
+      "surface": "וְגַ֖ע",
+      "gloss": "and touch",
+      "sense": "S1"
     },
     {
-      "surface": "בכל",
+      "surface": "בְּכָל",
       "gloss": "all"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֣ר",
       "gloss": "that"
     },
     {
-      "surface": "לו",
-      "gloss": "is his"
+      "surface": "ל֑וֹ",
+      "gloss": "he has"
     },
     {
-      "surface": "אם",
-      "gloss": "if"
+      "surface": "אִם",
+      "gloss": "⟨if⟩"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "to"
     },
     {
-      "surface": "פניך",
-      "gloss": "your face"
+      "surface": "פָּנֶ֖יךָ",
+      "gloss": "your face",
+      "sense": "S1"
     },
     {
-      "surface": "יברכך",
-      "gloss": "he will bless you",
+      "surface": "יְבָרֲכֶֽךָּ",
+      "gloss": "he will curse ⟨you⟩",
+      "sense": "S1",
       "readings": [
-        "he will bless you",
-        "he will curse you"
-      ],
-      "held_by": {
-        "he will bless you": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "he will curse you": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "he will curse you",
+        "he will bless you"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:55:43.863667519Z",
+  "model": "glm-5.3"
 }

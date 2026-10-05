@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "All glorious is the daughter of the king within; from settings of gold is her garment.",
-  "tokens": [
+  "ref": "psalms 45:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'all her splendor' and 'within'."
     },
     {
-      "surface": "כבודה",
-      "gloss": "glorious",
-      "readings": [
-        "glorious",
-        "her glory"
-      ],
-      "held_by": {
-        "glorious": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "her glory": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "משבצות",
+      "rationale": "a rare word, pattern-woven gold web used to set gems into cloth; the compound picture kept hyphenated."
     },
     {
-      "surface": "בת",
-      "gloss": "the daughter of"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "the king"
-    },
-    {
-      "surface": "פנימה",
-      "gloss": "within"
-    },
-    {
-      "surface": "ממשבצות",
-      "gloss": "from settings",
-      "readings": [
-        "from settings",
-        "from embroidered work"
-      ],
-      "held_by": {
-        "from settings": [
-          "v2"
-        ],
-        "from embroidered work": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "זהב",
-      "gloss": "of gold"
-    },
-    {
-      "surface": "לבושה",
-      "gloss": "her garment"
+      "kind": "alternative",
+      "subject": "כבודה",
+      "rationale": "the word means objects of value in one's possession — 'her splendor' or 'her wealth'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All her splendor, the king's daughter, is within; of settings-of-gold her clothing is woven.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dfc5d461a3636c8bd30486a990f112f17e016054395ddcc2c9bfc9aed0226c78",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/13-16.1791192723972.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "כְּבוּדָּה",
+      "gloss": "her splendor",
+      "sense": "S1",
+      "readings": [
+        "her splendor",
+        "her wealth"
+      ]
+    },
+    {
+      "surface": "בַּת",
+      "gloss": "the daughter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּנִימָה",
+      "gloss": "is within",
+      "sense": null
+    },
+    {
+      "surface": "מִמְּשַׁבְּצוֹת",
+      "gloss": "of settings woven-in-pattern",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָב",
+      "gloss": "of gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְבוּשָׁהּ",
+      "gloss": "her clothing",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:03.972902349Z",
+  "model": "glm-5.3"
 }

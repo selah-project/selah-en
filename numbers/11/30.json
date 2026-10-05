@@ -1,56 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And Moses gathered to the camp, he and the elders of Israel.",
-  "tokens": [
+  "ref": "numbers 11:30",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "ויאסף",
-      "gloss": "and gathered",
-      "readings": [
-        "and gathered",
-        "and was gathered",
-        "and returned"
-      ],
-      "held_by": {
-        "and gathered": [
-          "v1",
-          "en4"
-        ],
-        "and was gathered": [
-          "v2",
-          "v3"
-        ],
-        "and returned": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "משה",
-      "gloss": "Moses"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "המחנה",
-      "gloss": "the camp"
-    },
-    {
-      "surface": "הוא",
-      "gloss": "he"
-    },
-    {
-      "surface": "וזקני",
-      "gloss": "and the elders of"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "alternative",
+      "subject": "was gathered",
+      "rationale": "niphal 'was gathered to the camp' also possible; SDBH supports 'moved back'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Moses returned to the camp, he and the elders of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1f4233c227fe9e02578732dd7e82088756e6c9ab9b7a43b9e91181c4c1e1e8c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/11\/29-32.1791183030489.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֵּאָסֵף",
+      "gloss": "And returned",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֹשֶׁה",
+      "gloss": "Moses",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "הַמַּחֲנֶה",
+      "gloss": "the camp",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוּא",
+      "gloss": "he",
+      "sense": null
+    },
+    {
+      "surface": "וְזִקְנֵי",
+      "gloss": "and the elders of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:50:30.490351766Z",
+  "model": "glm-5.3"
 }

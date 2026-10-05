@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 75,
-  "translation": "I know, YHWH, that your judgments ⟨are⟩ righteous, and ⟨in⟩ faithfulness you have afflicted me.",
-  "tokens": [
+  "ref": "psalms 119:75",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "ידעתי",
-      "gloss": "I know"
+      "kind": "addition",
+      "subject": "are \/ in",
+      "rationale": "Hebrew is nominal clauses; English supplies copula and preposition"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "צדק",
-      "gloss": "righteous",
-      "readings": [
-        "righteous",
-        "righteousness"
-      ],
-      "held_by": {
-        "righteous": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "righteousness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "משפטיך",
-      "gloss": "your judgments"
-    },
-    {
-      "surface": "ואמונה",
-      "gloss": "and ⟨in⟩ faithfulness"
-    },
-    {
-      "surface": "עניתני",
-      "gloss": "you have afflicted me"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct address to YHWH by name mid-confession"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I know, YHWH, that your judgments are righteousness, and that in faithfulness you have afflicted me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "df46f8751357030fb760624f34335f6e81e3befee9f4f0899abace9562e877bc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/73-76.1791193457579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָדַ֣עְתִּי",
+      "gloss": "I know",
+      "sense": null
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "צֶ֣דֶק",
+      "gloss": "are righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁפָּטֶ֑יךָ",
+      "gloss": "your judgments",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֶ֝אֱמוּנָ֗ה",
+      "gloss": "and in faithfulness",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִנִּיתָֽנִי",
+      "gloss": "you have afflicted me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:17.580843177Z",
+  "model": "glm-5.3"
 }

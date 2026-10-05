@@ -1,99 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Firm ⟨are⟩ his ways at all times; your judgments ⟨are⟩ on high, far from before him; all his adversaries he puffs at them.",
+  "ref": "psalms 10:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יחילו",
+      "rationale": "Root חול: 'endure\/prosper' (as the wicked's ways lasting) vs 'twist, writhe'; SDBH sense is Endure."
+    },
+    {
+      "kind": "crux",
+      "subject": "דרכו",
+      "rationale": "Ketiv 'his way' (singular) vs qere דרכיו 'his ways' (plural); both rendered."
+    },
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between מרום and משפטיך."
+    },
+    {
+      "kind": "idiom",
+      "subject": "he puffs at them",
+      "rationale": "יפיח ב = literally 'blows at', dismissive snorting; idiom of contempt."
+    }
+  ],
+  "translation": "His ways endure at all times; high above ⟨are⟩ your judgments, far from him; all his adversaries — he puffs ⟨את⟩ them away.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f51a9b83469107d6ef315e2328d04bc5250cf5fe6c2ccaee60a05d0c34e68e9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/10\/5-8.1791192419653.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יחילו",
-      "gloss": "are firm",
+      "surface": "יָחִילוּ",
+      "gloss": "endure",
       "readings": [
-        "are firm",
         "endure",
-        "prosper"
+        "are firm",
+        "twist"
       ],
-      "held_by": {
-        "are firm": [
-          "v2",
-          "v3"
-        ],
-        "endure": [
-          "en4"
-        ],
-        "prosper": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "דרכו",
-      "gloss": "his ways"
+      "gloss": "his ways",
+      "readings": [
+        "his ways",
+        "his way"
+      ],
+      "sense": "S2"
     },
     {
       "surface": "בכל",
-      "gloss": "at all"
+      "gloss": "at all",
+      "sense": null
     },
     {
       "surface": "עת",
-      "gloss": "times"
+      "gloss": "times",
+      "sense": "S1"
     },
     {
       "surface": "מרום",
-      "gloss": "on high",
-      "readings": [
-        "on high",
-        "a height"
-      ],
-      "held_by": {
-        "on high": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a height": [
-          "en4"
-        ]
-      }
+      "gloss": "high above",
+      "sense": "S1"
     },
     {
       "surface": "משפטיך",
-      "gloss": "your judgments"
+      "gloss": "your judgments",
+      "sense": "S1"
     },
     {
       "surface": "מנגדו",
-      "gloss": "from before him",
-      "readings": [
-        "from before him",
-        "far from his sight"
-      ],
-      "held_by": {
-        "from before him": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "far from his sight": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "far from him",
+      "sense": "S1"
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "all",
+      "sense": null
     },
     {
       "surface": "צורריו",
-      "gloss": "his adversaries"
+      "gloss": "his adversaries",
+      "sense": "S1"
     },
     {
       "surface": "יפיח",
-      "gloss": "he puffs at"
+      "gloss": "he puffs",
+      "sense": "S1"
     },
     {
       "surface": "בהם",
-      "gloss": "at them"
+      "gloss": "⟨את⟩ them away",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:59.654610813Z",
+  "model": "glm-5.3"
 }

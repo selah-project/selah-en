@@ -1,100 +1,126 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Woe, O inhabitants of the coast of the sea, nation of the Cherethites! The word of YHWH is against you, Canaan, land of the Philistines; and I will destroy you without ⟨an⟩ inhabitant.",
-  "tokens": [
+  "ref": "zephaniah 2:5",
+  "book": "zephaniah",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "הוי",
-      "gloss": "Woe"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between 'the word of YHWH' and 'against you'"
     },
     {
-      "surface": "ישבי",
-      "gloss": "O inhabitants of"
+      "kind": "crux",
+      "subject": "tract of the sea",
+      "rationale": "חבל literally 'rope\/measuring-line', hence 'tract of land'; many render 'coastland' or 'territory'"
     },
     {
-      "surface": "חבל",
-      "gloss": "the coast of",
-      "readings": [
-        "the coast of",
-        "the region of",
-        "the cord of"
-      ],
-      "held_by": {
-        "the coast of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the region of": [
-          "en4"
-        ],
-        "the cord of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "Canaan",
+      "rationale": "the Philistine plain is addressed as 'Canaan' — merchant or lowland sense debated"
     },
     {
-      "surface": "הים",
-      "gloss": "the sea"
-    },
-    {
-      "surface": "גוי",
-      "gloss": "nation of"
-    },
-    {
-      "surface": "כרתים",
-      "gloss": "the Cherethites"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "The word of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "עליכם",
-      "gloss": "against you"
-    },
-    {
-      "surface": "כנען",
-      "gloss": "Canaan"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "land of"
-    },
-    {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
-    },
-    {
-      "surface": "והאבדתיך",
-      "gloss": "and I will destroy you"
-    },
-    {
-      "surface": "מאין",
-      "gloss": "without",
-      "readings": [
-        "without",
-        "from no"
-      ],
-      "held_by": {
-        "without": [
-          "v2",
-          "v3"
-        ],
-        "from no": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יושב",
-      "gloss": "inhabitant"
+      "kind": "you",
+      "subject": "to the Philistines",
+      "rationale": "the oracle addresses the Kerethites and Philistines directly"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Ho, dwellers of the tract of the sea, nation of the Kerethites — the word of YHWH is against you, Canaan, land of the Philistines, and I will destroy you ⟨so that there is⟩ no dweller.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c187bea643ed111eed7390874102caff49bb47971d1f913b8e0838e3df5f6cca",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/zephaniah\/2\/5-8.1791191947709.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/zephaniah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הוֹי",
+      "gloss": "Ho",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹשְׁבֵי",
+      "gloss": "dwellers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶבֶל",
+      "gloss": "tract",
+      "readings": [
+        "tract",
+        "coastland"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיָּם",
+      "gloss": "of the sea",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹי",
+      "gloss": "nation of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּרֵתִים",
+      "gloss": "Kerethites",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבַר",
+      "gloss": "the word of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲלֵיכֶם",
+      "gloss": "is against you"
+    },
+    {
+      "surface": "כְּנַעַן",
+      "gloss": "Canaan",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרֶץ",
+      "gloss": "land of",
+      "readings": [
+        "land of",
+        "earth of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּלִשְׁתִּים",
+      "gloss": "Philistines",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַאֲבַדְתִּיךְ",
+      "gloss": "and I will destroy you",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֵין",
+      "gloss": "so that there is"
+    },
+    {
+      "surface": "יוֹשֵׁב",
+      "gloss": "dweller",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:19:07.710364706Z",
+  "model": "glm-5.3"
 }

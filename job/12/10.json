@@ -1,87 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "in whose hand is the life of every living thing, and the spirit of all flesh of man.",
+  "ref": "job 12:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש literally throat, the life-principle animating humans and animals, residing in the blood — not an immaterial 'soul'"
+    },
+    {
+      "kind": "crux",
+      "subject": "of man",
+      "rationale": "אישׁ after 'all flesh': read as 'of mankind' (all human flesh) or as emphatic apposition ('of every man alike')"
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause; copula supplied"
+    }
+  ],
+  "translation": "in whose hand is the life of every living thing, and the breath of all flesh of man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b3244768164fb4938096c8879abec198961e0a54886461e2397133d4c1b97a00",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/12\/9-12.1791194256909.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
-      "gloss": "in whose"
+      "surface": "אֲשֶׁר",
+      "gloss": "in whom",
+      "sense": null
     },
     {
-      "surface": "בידו",
-      "gloss": "his hand",
-      "readings": [
-        "his hand",
-        "in his hand"
-      ],
-      "held_by": {
-        "his hand": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in his hand": [
-          "en4"
-        ]
-      }
+      "surface": "בְּיָדוֹ",
+      "gloss": "⟨whose⟩ hand",
+      "sense": "S1"
     },
     {
-      "surface": "נפש",
+      "surface": "נֶפֶשׁ",
       "gloss": "the life",
       "readings": [
         "the life",
-        "the soul",
-        "the breath"
+        "the throat",
+        "the soul"
       ],
-      "held_by": {
-        "the life": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "of every"
+      "surface": "כָּל",
+      "gloss": "of every",
+      "sense": null
     },
     {
-      "surface": "חי",
-      "gloss": "living thing"
+      "surface": "חַי",
+      "gloss": "living thing",
+      "sense": "S1"
     },
     {
-      "surface": "ורוח",
-      "gloss": "and the spirit",
+      "surface": "וְרוּחַ",
+      "gloss": "and the breath",
       "readings": [
-        "and the spirit",
+        "and the breath",
         "and the wind",
-        "and the breath"
+        "and the spirit"
       ],
-      "held_by": {
-        "and the spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "of all"
+      "surface": "כָּל",
+      "gloss": "of all",
+      "sense": null
     },
     {
-      "surface": "בשר",
-      "gloss": "flesh"
+      "surface": "בְּשַׂר",
+      "gloss": "flesh",
+      "sense": "S1"
     },
     {
-      "surface": "איש",
+      "surface": "אִישׁ",
       "gloss": "of man"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:36.910038180Z",
+  "model": "glm-5.3"
 }

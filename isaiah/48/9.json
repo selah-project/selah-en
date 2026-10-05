@@ -1,60 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "For the sake of my name I will lengthen my anger, and my praise I will restrain ⟨for⟩ you, that I not cut you off.",
+  "ref": "isaiah 48:9",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 48,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "אחטם",
+      "rationale": "חטם 'to restrain\/check' occurs only here in the Tanakh."
+    },
+    {
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אף is literally 'nose\/nostril', the seat of anger; English cannot carry the body part."
+    },
+    {
+      "kind": "you",
+      "subject": "to Jacob\/Israel",
+      "rationale": "YHWH addresses the refractory house of Jacob (v. 8)."
+    }
+  ],
+  "translation": "For the sake of my name I prolong my anger, and ⟨for the sake of⟩ my praise I restrain it toward you, so as not to cut you off.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d043d7b7b686836ed154340866cf7f8d645808606a38842e58474e459b57e07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/48\/9-12.1791188735962.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "למען",
-      "gloss": "for the sake of"
+      "surface": "לְמַ֤עַן",
+      "gloss": "for the sake of",
+      "sense": null
     },
     {
-      "surface": "שמי",
-      "gloss": "my name"
+      "surface": "שְׁמִי֙",
+      "gloss": "my name",
+      "sense": "S1"
     },
     {
-      "surface": "אאריך",
-      "gloss": "I will lengthen"
+      "surface": "אַאֲרִ֣יךְ",
+      "gloss": "I prolong",
+      "sense": "S1"
     },
     {
-      "surface": "אפי",
+      "surface": "אַפִּ֔י",
       "gloss": "my anger",
+      "sense": "S1",
       "readings": [
         "my anger",
         "my nose"
-      ],
-      "held_by": {
-        "my anger": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nose": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      ]
     },
     {
-      "surface": "ותהלתי",
-      "gloss": "and my praise"
+      "surface": "וּתְהִלָּתִ֖י",
+      "gloss": "and my praise",
+      "sense": "S1"
     },
     {
-      "surface": "אחטם",
-      "gloss": "I will restrain"
+      "surface": "אֶחֱטָם",
+      "gloss": "I restrain ⟨it⟩",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "for you"
+      "surface": "לָ֑ךְ",
+      "gloss": "toward you",
+      "sense": null
     },
     {
-      "surface": "לבלתי",
-      "gloss": "so as not to"
+      "surface": "לְבִלְתִּ֖י",
+      "gloss": "so as not to",
+      "sense": null
     },
     {
-      "surface": "הכריתך",
-      "gloss": "cut you off"
+      "surface": "הַכְרִיתֶֽךָ",
+      "gloss": "cut you off",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:25:35.962651510Z",
+  "model": "glm-5.3"
 }

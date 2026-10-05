@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "All in whose nostrils was the breath of the spirit of life, of all that was in the dry land — they died.",
-  "tokens": [
+  "ref": "genesis 7:22",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "all"
+      "kind": "substitution",
+      "subject": "breath \/ spirit",
+      "rationale": "נשמת and רוח are near-synonyms here, 'puff\/wind' and 'breath\/wind'; both are breath-words, not immaterial soul."
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "נשמת",
-      "gloss": "the breath of"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "of the spirit",
-      "readings": [
-        "of the spirit",
-        "of the wind",
-        "of the breath"
-      ],
-      "held_by": {
-        "of the spirit": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the wind": [
-          "en4"
-        ],
-        "of the breath": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חיים",
-      "gloss": "of life"
-    },
-    {
-      "surface": "באפיו",
-      "gloss": "in his nostrils"
-    },
-    {
-      "surface": "מכל",
-      "gloss": "of all"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "בחרבה",
-      "gloss": "in the dry land"
-    },
-    {
-      "surface": "מתו",
-      "gloss": "they died"
+      "kind": "addition",
+      "subject": "that was",
+      "rationale": "אשר second occurrence supplied an English verb the Hebrew leaves implicit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All that had the breath of the spirit of life in its nostrils, from all that was on the dry land, died.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5e6ff66e77436ba68b27e58213345269a6a45ba62c302d4a3324e08c738299de",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/7\/22-24.1791197157579.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֹּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "נִשְׁמַת",
+      "gloss": "the breath of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוּחַ",
+      "gloss": "the spirit of",
+      "readings": [
+        "the spirit of",
+        "the wind of",
+        "the breath of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיִּים",
+      "gloss": "life",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאַפָּיו",
+      "gloss": "in its nostrils",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִכֹּל",
+      "gloss": "from all",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that was",
+      "sense": null
+    },
+    {
+      "surface": "בֶּחָרָבָה",
+      "gloss": "on the dry land",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵתוּ",
+      "gloss": "died",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:45:57.580492355Z",
+  "model": "glm-5.3"
 }

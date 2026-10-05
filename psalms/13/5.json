@@ -1,84 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Lest my enemy say, “I have prevailed over him”; my foes rejoice when I am shaken.",
+  "ref": "psalms 13:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "when I shake",
+      "rationale": "כי אמוט could read “because I am shaken” or “that I totter”; SDBH sense is being Unsafe"
+    },
+    {
+      "kind": "substitution",
+      "subject": "prevailed over him",
+      "rationale": "יכלתיו is literally “I have been able (against) him”; the object marker is inside the suffix, not an את token"
+    }
+  ],
+  "translation": "Lest my foe say, “I have prevailed over him”; lest my foes rejoice when I shake.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ea446b5342c673641b5c4d2482c251a4ef870d97d8b939603acbd5972539a1f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/13\/5-6.1791192417759.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פן",
+      "surface": "פֶּן",
       "gloss": "lest"
     },
     {
-      "surface": "יאמר",
-      "gloss": "say"
+      "surface": "יֹאמַר",
+      "gloss": "say",
+      "sense": "S1"
     },
     {
-      "surface": "איבי",
-      "gloss": "my enemy"
+      "surface": "אֹיְבִי",
+      "gloss": "my foe",
+      "sense": "S1"
     },
     {
-      "surface": "יכלתיו",
-      "gloss": "I have prevailed over him"
+      "surface": "יְכָלְתִּיו",
+      "gloss": "I have prevailed over him",
+      "sense": "S1"
     },
     {
-      "surface": "צרי",
+      "surface": "צָרַי",
       "gloss": "my foes",
-      "readings": [
-        "my foes",
-        "my adversaries"
-      ],
-      "held_by": {
-        "my foes": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my adversaries": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יגילו",
-      "gloss": "rejoice"
+      "surface": "יָגִילוּ",
+      "gloss": "rejoice",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "for"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for": [
-          "en4"
-        ]
-      }
+      "surface": "כִּי",
+      "gloss": "when"
     },
     {
-      "surface": "אמוט",
-      "gloss": "I am shaken",
-      "readings": [
-        "I am shaken",
-        "I totter"
-      ],
-      "held_by": {
-        "I am shaken": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I totter": [
-          "en4"
-        ]
-      }
+      "surface": "אֶמּוֹט",
+      "gloss": "I shake",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:57.759519759Z",
+  "model": "glm-5.3"
 }

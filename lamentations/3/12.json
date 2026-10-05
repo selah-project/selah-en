@@ -1,56 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "He has bent his bow and set me as a target for the arrow.",
-  "tokens": [
+  "ref": "lamentations 3:12",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "דרך",
-      "gloss": "he has bent",
-      "readings": [
-        "he has bent",
-        "he has trodden"
-      ],
-      "held_by": {
-        "he has bent": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he has trodden": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "He bent",
+      "rationale": "דרך literally 'to tread' the bow — bending it underfoot to string it; English 'bend a bow' carries the same act."
     },
     {
-      "surface": "קשתו",
-      "gloss": "his bow"
-    },
-    {
-      "surface": "ויציבני",
-      "gloss": "and set me",
-      "readings": [
-        "and set me",
-        "and set me up"
-      ],
-      "held_by": {
-        "and set me": [
-          "v2",
-          "en4"
-        ],
-        "and set me up": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "כמטרא",
-      "gloss": "as a target"
-    },
-    {
-      "surface": "לחץ",
-      "gloss": "for the arrow"
+      "kind": "substitution",
+      "subject": "the arrow",
+      "rationale": "לחץ from a root meaning 'pierce'; glosses vary between 'arrow' and 'wound'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He bent his bow and stationed me as the target for the arrow.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7c0e11887e297e157779a72933f9a5e70b715fd20418eb931fbfa0bb4935afc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/9-12.1791194698548.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דָּרַךְ",
+      "gloss": "He bent",
+      "sense": "S1",
+      "readings": [
+        "He bent",
+        "He trod"
+      ]
+    },
+    {
+      "surface": "קַשְׁתּוֹ",
+      "gloss": "his bow",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּצִּיבֵנִי",
+      "gloss": "and stationed me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּמַּטָּרָא",
+      "gloss": "as the target",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַחֵץ",
+      "gloss": "for the arrow",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:58.549739644Z",
+  "model": "glm-5.3"
 }

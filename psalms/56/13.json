@@ -1,47 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Upon me, O Elohim, are your vows; I will repay thank-offerings to you.",
-  "tokens": [
+  "ref": "psalms 56:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 56,
+  "notes": [
     {
-      "surface": "עלי",
-      "gloss": "Upon me"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between עלי and נדריך"
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "kind": "crux",
+      "subject": "Upon me",
+      "rationale": "ketiv עָלַי 'upon me' vs the common qere reading עָלֶיךָ 'upon you'; the consonants as written are kept"
     },
     {
-      "surface": "נדריך",
-      "gloss": "your vows"
-    },
-    {
-      "surface": "אשלם",
-      "gloss": "I will repay"
-    },
-    {
-      "surface": "תודת",
-      "gloss": "thank-offerings",
-      "readings": [
-        "thank-offerings",
-        "thanksgivings"
-      ],
-      "held_by": {
-        "thank-offerings": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "thanksgivings": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
+      "kind": "substitution",
+      "subject": "thanksgivings",
+      "rationale": "תודה is literally an extension of the hand, the thank-offering"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Upon me, O Elohim, are your vows; I will repay — thanksgivings to you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b847a90fe417a028f1831ae0ca51e57e58e953e83456581fe992be2f4c6d41fb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/56\/13-14.1791192813944.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָלַ֣י",
+      "gloss": "Upon me",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהִ֣ים",
+      "gloss": "O Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְדָרֶ֑יךָ",
+      "gloss": "are your vows",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשַׁלֵּ֖ם",
+      "gloss": "I will repay",
+      "sense": "S1"
+    },
+    {
+      "surface": "תּוֹדֹ֣ת",
+      "gloss": "thanksgivings",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָֽךְ",
+      "gloss": "to you",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:33.945415620Z",
+  "model": "glm-5.3"
 }

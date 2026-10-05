@@ -1,79 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "If you are honest, one of your brothers shall be bound in the house of your custody, and you — go, bring grain for the famine of your houses.",
+  "ref": "genesis 42:19",
+  "book": "genesis",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to the brothers of Joseph",
+      "rationale": "Joseph addresses his brothers directly with imperatives and second-person forms throughout."
+    },
+    {
+      "kind": "alternative",
+      "subject": "house of your guard",
+      "rationale": "בית משמרכם could read 'your prison'; the construct keeps the picture 'house of your guarding'."
+    },
+    {
+      "kind": "elision",
+      "subject": "אם",
+      "rationale": "Hebrew 'if you are honest' implies 'if you are honest [then do this]'; the condition governs verse 19's imperatives."
+    }
+  ],
+  "translation": "If you are honest, let one of your brothers be bound in the house of your guard, and you — go, bring grain for the famine of your houses.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15f1bf3d3b6807f9ed5fa8c0ac448e2d063811922eb1b8e797065cb3ddae52f3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/genesis\/42\/18-20.1791197353684.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/genesis.edn"
+  },
   "tokens": [
     {
       "surface": "אם",
-      "gloss": "if"
+      "gloss": "if",
+      "sense": null
     },
     {
       "surface": "כנים",
       "gloss": "honest",
-      "readings": [
-        "honest",
-        "upright"
-      ],
-      "held_by": {
-        "honest": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "upright": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אתם",
-      "gloss": "you"
+      "gloss": "you",
+      "sense": null
     },
     {
       "surface": "אחיכם",
-      "gloss": "your brothers"
+      "gloss": "of your brothers",
+      "sense": "S1"
     },
     {
       "surface": "אחד",
-      "gloss": "one"
+      "gloss": "one",
+      "sense": "S1"
     },
     {
       "surface": "יאסר",
-      "gloss": "shall be bound"
+      "gloss": "let be bound",
+      "sense": "S1"
     },
     {
       "surface": "בבית",
-      "gloss": "in the house"
+      "gloss": "in the house",
+      "sense": "S1"
     },
     {
       "surface": "משמרכם",
-      "gloss": "of your custody"
+      "gloss": "of your guard",
+      "sense": "S1"
     },
     {
       "surface": "ואתם",
-      "gloss": "and you"
+      "gloss": "and you",
+      "sense": null
     },
     {
       "surface": "לכו",
-      "gloss": "go"
+      "gloss": "go",
+      "sense": "S1"
     },
     {
       "surface": "הביאו",
-      "gloss": "bring"
+      "gloss": "bring",
+      "sense": null
     },
     {
       "surface": "שבר",
-      "gloss": "grain"
+      "gloss": "grain",
+      "sense": "S1"
     },
     {
       "surface": "רעבון",
-      "gloss": "famine"
+      "gloss": "for the famine",
+      "sense": "S1"
     },
     {
       "surface": "בתיכם",
-      "gloss": "of your houses"
+      "gloss": "of your houses",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:49:13.685707869Z",
+  "model": "glm-5.3"
 }

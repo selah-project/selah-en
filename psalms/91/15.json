@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "He shall call upon me, and I will answer him; with him ⟨am⟩ I in trouble; I will deliver him, and honor him.",
-  "tokens": [
+  "ref": "psalms 91:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 91,
+  "notes": [
     {
-      "surface": "יקראני",
-      "gloss": "He shall call upon me"
+      "kind": "addition",
+      "subject": "I will be",
+      "rationale": "Hebrew gives pronoun אנכי with preposition, no verb; English needs a copula"
     },
     {
-      "surface": "ואענהו",
-      "gloss": "and I will answer him"
-    },
-    {
-      "surface": "עמו",
-      "gloss": "with him"
-    },
-    {
-      "surface": "אנכי",
-      "gloss": "I"
-    },
-    {
-      "surface": "בצרה",
-      "gloss": "in trouble"
-    },
-    {
-      "surface": "אחלצהו",
-      "gloss": "I will deliver him"
-    },
-    {
-      "surface": "ואכבדהו",
-      "gloss": "and I will honor him"
+      "kind": "wordplay",
+      "subject": "suffix chain",
+      "rationale": "four suffixed verbs in a row ('him… him… him… him') bind the verse to the beloved"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He will call on me and I will answer him; ⟨I will be⟩ with him in trouble — I will rescue him and honor him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "01d514d53e0e7b6bfd0b4974ed1b17f1609634a3812071455c85ee76eadea7a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/91\/13-16.1791193195555.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִקְרָאֵנִי",
+      "gloss": "He will call on me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶעֱנֵהוּ",
+      "gloss": "and I will answer him",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמּוֹ",
+      "gloss": "with him",
+      "sense": null
+    },
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "⟨I will be⟩",
+      "sense": null
+    },
+    {
+      "surface": "בְּצָרָה",
+      "gloss": "in trouble",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲחַלְּצֵהוּ",
+      "gloss": "I will rescue him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲכַבְּדֵהוּ",
+      "gloss": "and honor him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:55.556576708Z",
+  "model": "glm-5.3"
 }

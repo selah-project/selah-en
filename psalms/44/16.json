@@ -1,49 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "All the day my disgrace is before me, and the shame of my face has covered me.",
-  "tokens": [
+  "ref": "psalms 44:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "כל",
-      "gloss": "All"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in the first clause."
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "כלמתי",
-      "gloss": "my disgrace",
-      "readings": [
-        "my disgrace",
-        "I am shamed"
-      ],
-      "held_by": {
-        "my disgrace": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I am shamed": []
-      }
-    },
-    {
-      "surface": "נגדי",
-      "gloss": "is before me"
-    },
-    {
-      "surface": "ובשת",
-      "gloss": "and the shame"
-    },
-    {
-      "surface": "פני",
-      "gloss": "of my face"
-    },
-    {
-      "surface": "כסתני",
-      "gloss": "has covered me"
+      "kind": "wordplay",
+      "subject": "כְּלִמָּה \/ בֹשֶׁת",
+      "rationale": "Paired shame-nouns in parallel cola; the near-synonymy builds intensity."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "All the day my disgrace is before me, and the shame of my face has covered me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5f717e42934db461e1560ed25ee6fe4bda188414fe660678810ff384d6ea37ba",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/13-16.1791192708861.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כָּל",
+      "gloss": "All",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּלִמָּתִי",
+      "gloss": "my disgrace",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶגְדִּי",
+      "gloss": "is before me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֹשֶׁת",
+      "gloss": "and the shame",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּנַי",
+      "gloss": "of my face",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּסָּתְנִי",
+      "gloss": "has covered me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:48.862561736Z",
+  "model": "glm-5.3"
 }

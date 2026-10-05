@@ -1,53 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And YHWH became to me for a high place, and my Elohim for a rock of my refuge.",
-  "tokens": [
+  "ref": "psalms 94:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 94,
+  "notes": [
     {
-      "surface": "ויהי",
-      "gloss": "and became"
+      "kind": "addition",
+      "subject": "a",
+      "rationale": "English needs the article before 'rock'; the Hebrew has the preposition לְ only"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "למשגב",
-      "gloss": "for a high place",
-      "readings": [
-        "for a high place",
-        "for a high tower",
-        "for a stronghold"
-      ],
-      "held_by": {
-        "for a high place": [
-          "v1",
-          "v3"
-        ],
-        "for a high tower": [
-          "v2"
-        ],
-        "for a stronghold": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ואלהי",
-      "gloss": "and my Elohim"
-    },
-    {
-      "surface": "לצור",
-      "gloss": "a rock"
-    },
-    {
-      "surface": "מחסי",
-      "gloss": "of my refuge"
+      "kind": "alternative",
+      "subject": "stronghold",
+      "rationale": "משגב literally a high, inaccessible cliff; 'high fortress' keeps the loftiness"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And YHWH became for me a high fortress, and my Elohim ⟨a⟩ rock, my refuge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b481efeb949912b568abc9d7cf05e058d696ecf8199d4541e3cfe9d4cf31fe32",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/94\/21-23.1791193212267.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְהִ֬י",
+      "gloss": "and became",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֣י",
+      "gloss": "for me",
+      "sense": null
+    },
+    {
+      "surface": "לְמִשְׂגָּ֑ב",
+      "gloss": "a high fortress",
+      "sense": "S1"
+    },
+    {
+      "surface": "וֵ֝אלֹהַ֗י",
+      "gloss": "and my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְצ֥וּר",
+      "gloss": "⟨a⟩ rock",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַחְסִֽי",
+      "gloss": "my refuge",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:12.268452919Z",
+  "model": "glm-5.3"
 }

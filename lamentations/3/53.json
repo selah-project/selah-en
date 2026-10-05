@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 53,
-  "translation": "They extinguished my life in the pit, and threw a stone upon me.",
-  "tokens": [
+  "ref": "lamentations 3:53",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "צמתו",
-      "gloss": "they extinguished",
-      "readings": [
-        "they extinguished",
-        "they silenced",
-        "they cut off"
-      ],
-      "held_by": {
-        "they extinguished": [
-          "v1",
-          "v3"
-        ],
-        "they silenced": [
-          "en4"
-        ],
-        "they cut off": [
-          "en4",
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "ובַיַּדּוּ",
+      "rationale": "Ketiv וידו (from ידה, throw) beside qere; piel 'they threw' is the plain sense."
     },
     {
-      "surface": "בבור",
-      "gloss": "in the pit"
+      "kind": "alternative",
+      "subject": "בִּֽי",
+      "rationale": "Preposition ב may read 'at me' or 'on me'; throwing stones into a pit suggests 'on me.'"
     },
     {
-      "surface": "חיי",
-      "gloss": "my life"
-    },
-    {
-      "surface": "וידו",
-      "gloss": "and threw"
-    },
-    {
-      "surface": "אבן",
-      "gloss": "a stone"
-    },
-    {
-      "surface": "בי",
-      "gloss": "upon me"
+      "kind": "wordplay",
+      "subject": "בבור \/ תחתיות",
+      "rationale": "The pit of v. 53 returns in v. 55 as 'the lowest pit,' framing the descent."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They cut off my life in the pit, and they threw a stone on me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "174facdb6e35ece32391ba9cc63c928108fadffda994aca779bbf7a62c7ccee3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/53-56.1791194756602.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צָֽמְת֤וּ",
+      "gloss": "They cut off",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַבּוֹר֙",
+      "gloss": "in the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיָּ֔י",
+      "gloss": "my life",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּדּוּ",
+      "gloss": "and they threw",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֖בֶן",
+      "gloss": "a stone",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּֽי",
+      "gloss": "on me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:05:56.602988290Z",
+  "model": "glm-5.3"
 }

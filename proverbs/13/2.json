@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "From the fruit of a man's mouth he eats good, and the soul of the treacherous — violence.",
-  "tokens": [
+  "ref": "proverbs 13:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "מפרי",
-      "gloss": "from the fruit of"
+      "kind": "addition",
+      "subject": "one \/ eats",
+      "rationale": "The second half has no verb; the parallel 'eat' from the first half is supplied and bracketed."
     },
     {
-      "surface": "פי",
-      "gloss": "the mouth of"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "יאכל",
-      "gloss": "he eats"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "ונפש",
-      "gloss": "and the soul of",
-      "readings": [
-        "and the soul of",
-        "and the appetite of",
-        "and the life of"
-      ],
-      "held_by": {
-        "and the soul of": [
-          "v1",
-          "en4"
-        ],
-        "and the appetite of": [
-          "v2",
-          "v3"
-        ],
-        "and the life of": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בגדים",
-      "gloss": "of the treacherous"
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
+      "kind": "substitution",
+      "subject": "appetite",
+      "rationale": "נפש spans throat\/life\/self; here the craving self, so 'appetite' with soul and life kept as readings."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From the fruit of a man's mouth ⟨one⟩ eats good, but the appetite of the treacherous ⟨eats⟩ violence.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ec8ffc22860b4e57504bfd2794d7796d9eff07ae688499d0fe67750c37a5506",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/1-4.1791193841109.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִפְּרִ֣י",
+      "gloss": "from the fruit of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּ֭י",
+      "gloss": "the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֣ישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "יֹ֣אכַל",
+      "gloss": "eats",
+      "sense": "S1"
+    },
+    {
+      "surface": "ט֑וֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֶ֖פֶשׁ",
+      "gloss": "but the appetite of",
+      "readings": [
+        "but the appetite of",
+        "but the soul of",
+        "but the life of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּגְדִ֣ים",
+      "gloss": "the treacherous",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָמָֽס",
+      "gloss": "violence",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:41.109928752Z",
+  "model": "glm-5.3"
 }

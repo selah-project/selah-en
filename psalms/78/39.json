@@ -1,53 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 39,
-  "translation": "And he remembered that they were flesh, a wind that passes and does not return.",
-  "tokens": [
+  "ref": "psalms 78:39",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ויזכר",
-      "gloss": "And he remembered"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew asyndetic noun clause lacks a copula"
     },
     {
-      "surface": "כי",
+      "kind": "crux",
+      "subject": "רוח",
+      "rationale": "'wind\/breath\/spirit' — evanescence of human life; the same word as Genesis 1:2"
+    }
+  ],
+  "translation": "And He remembered that they were flesh, a wind going and not returning.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "28d01acd42c17f13b0c142fff9439783569324d30f62aaed28c57b1efd36e4ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/37-40.1791193051687.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַ֭יִּזְכֹּר",
+      "gloss": "And He remembered",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "בשר",
-      "gloss": "flesh"
+      "surface": "בָשָׂ֣ר",
+      "gloss": "flesh",
+      "sense": "S1"
     },
     {
-      "surface": "המה",
+      "surface": "הֵ֑מָּה",
       "gloss": "they"
     },
     {
-      "surface": "רוח",
+      "surface": "ר֥וּחַ",
       "gloss": "a wind",
       "readings": [
         "a wind",
         "a breath",
         "a spirit"
       ],
-      "held_by": {
-        "a wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "הולך",
-      "gloss": "that passes"
+      "surface": "ה֝וֹלֵ֗ךְ",
+      "gloss": "going",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and does not"
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ישוב",
-      "gloss": "return"
+      "surface": "יָשֽׁוּב",
+      "gloss": "returning",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:31.688588185Z",
+  "model": "glm-5.3"
 }

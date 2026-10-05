@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And now, YHWH, ⟨You are⟩ our Father; we ⟨are⟩ the clay, and You ⟨are⟩ our potter, and the work of Your hand — all of us ⟨are⟩.",
-  "tokens": [
+  "ref": "isaiah 64:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 64,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "and now"
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Hebrew omits the copula in 'you our father'; English requires it."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אבינו",
-      "gloss": "our Father"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "You"
-    },
-    {
-      "surface": "אנחנו",
-      "gloss": "we ⟨are⟩"
-    },
-    {
-      "surface": "החמר",
-      "gloss": "the clay"
-    },
-    {
-      "surface": "ואתה",
-      "gloss": "and You ⟨are⟩"
-    },
-    {
-      "surface": "יצרנו",
-      "gloss": "our potter"
-    },
-    {
-      "surface": "ומעשה",
-      "gloss": "and the work of"
-    },
-    {
-      "surface": "ידך",
-      "gloss": "Your hand"
-    },
-    {
-      "surface": "כלנו",
-      "gloss": "all of us ⟨are⟩"
+      "kind": "wordplay",
+      "subject": "חֹמֶר \/ יֹצֵר",
+      "rationale": "clay\/potter pairing builds on יָצַר's literal picture of shaping clay; kept literal."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And now, YHWH, you are our father; we are the clay, and you are our potter, and the work of your hand — all of us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6bd9b9d9fb6450d8574c481f6ba6ae2bcabc44e2ad64dafe0cf690162ce8df5f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/64\/5-8.1791188959413.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּה",
+      "gloss": "And now",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהֹוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָבִינוּ",
+      "gloss": "our father",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָתָּה",
+      "gloss": "you ⟨are⟩",
+      "sense": null
+    },
+    {
+      "surface": "אֲנַחְנוּ",
+      "gloss": "we",
+      "sense": null
+    },
+    {
+      "surface": "הַחֹמֶר",
+      "gloss": "the clay",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַתָּה",
+      "gloss": "and you",
+      "sense": null
+    },
+    {
+      "surface": "יֹצְרֵנוּ",
+      "gloss": "our potter",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמַעֲשֵׂה",
+      "gloss": "and the work",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדְךָ",
+      "gloss": "of your hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֻּלָּנוּ",
+      "gloss": "all of us",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T08:29:19.420865058Z",
+  "model": "glm-5.3"
 }

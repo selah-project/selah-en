@@ -1,74 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "By day YHWH will command his chesed, and in the night his song is with me — a prayer to the El of my life.",
+  "ref": "psalms 42:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "his song",
+      "rationale": "ketiv שירה (a song) vs qere שירו (his song, i.e. YHWH's); qere taken as the lens"
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no copula between the night-song clause and עמי"
+    },
+    {
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "marked term, transliterated; reading 2 'steadfast love' carries the covenant-obligation sense"
+    }
+  ],
+  "translation": "By day YHWH will enjoin his chesed, and in the night his song is with me — a prayer to El of my life.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b1549c3243b1d849a9aa1e6f8b29dd1621c9cb338929b599d99d90cba8984539",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/42\/9-12.1791192704086.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יומם",
-      "gloss": "By day"
+      "surface": "יוֹמָם",
+      "gloss": "By day",
+      "sense": "S1"
     },
     {
-      "surface": "יצוה",
-      "gloss": "will command"
+      "surface": "יְצַוֶּה",
+      "gloss": "will enjoin",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּוֹ",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
         "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": []
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ובלילה",
-      "gloss": "and in the night"
+      "surface": "וּבַלַּיְלָה",
+      "gloss": "and in the night",
+      "sense": "S1"
     },
     {
-      "surface": "שירה",
-      "gloss": "a song",
-      "readings": [
-        "a song",
-        "his song"
-      ],
-      "held_by": {
-        "a song": [
-          "en4"
-        ],
-        "his song": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "שִׁירָה",
+      "gloss": "his song",
+      "sense": "S1"
     },
     {
-      "surface": "עמי",
+      "surface": "עִמִּי",
       "gloss": "is with me"
     },
     {
-      "surface": "תפלה",
-      "gloss": "a prayer"
+      "surface": "תְּפִלָּה",
+      "gloss": "a prayer",
+      "sense": "S1"
     },
     {
-      "surface": "לאל",
-      "gloss": "to El"
+      "surface": "לְאֵל",
+      "gloss": "to El",
+      "sense": "S1"
     },
     {
-      "surface": "חיי",
-      "gloss": "of my life"
+      "surface": "חַיַּי",
+      "gloss": "of my life",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:44.087517716Z",
+  "model": "glm-5.3"
 }

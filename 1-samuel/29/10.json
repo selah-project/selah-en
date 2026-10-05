@@ -1,40 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "“And now, rise early in the morning, you and the servants of your lord who came with ⟨את⟩ you, and rise early in the morning; and as soon as ⟨it is⟩ light for you, go.”",
+  "ref": "1-samuel 29:10",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to David",
+      "rationale": "Akish's dismissal addressed directly to David"
+    },
+    {
+      "kind": "idiom",
+      "subject": "and it has grown light for you",
+      "rationale": "ואור לכם literally 'and light came to be for you', idiom for daybreak"
+    }
+  ],
+  "translation": "And now, rise early in the morning, you and the servants of your lord who came ⟨את⟩ with you, and rise early in the morning, and as soon as it is light for you, go.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "569b21912988bfd6063f3dd2781155b5c8477001334096792d02517a7895f3a8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/29\/9-11.1791186003895.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ועתה",
-      "gloss": "and now"
+      "gloss": "and now",
+      "sense": "S1"
     },
     {
       "surface": "השכם",
-      "gloss": "rise early"
+      "gloss": "rise early",
+      "sense": "S1"
     },
     {
       "surface": "בבקר",
-      "gloss": "in the morning"
+      "gloss": "in the morning",
+      "sense": "S1"
     },
     {
       "surface": "ועבדי",
-      "gloss": "and the servants of"
+      "gloss": "and the servants of",
+      "sense": "S1"
     },
     {
       "surface": "אדניך",
       "gloss": "your lord",
-      "readings": [
-        "your lord",
-        "your lords"
-      ],
-      "held_by": {
-        "your lord": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your lords": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -46,19 +64,23 @@
     },
     {
       "surface": "אתך",
-      "gloss": "with ⟨את⟩ you"
+      "gloss": "⟨את⟩ with you",
+      "marks": "you"
     },
     {
       "surface": "והשכמתם",
-      "gloss": "and you shall rise early"
+      "gloss": "and rise early",
+      "sense": "S1"
     },
     {
       "surface": "בבקר",
-      "gloss": "in the morning"
+      "gloss": "in the morning",
+      "sense": "S1"
     },
     {
       "surface": "ואור",
-      "gloss": "and it is light"
+      "gloss": "and it has grown light",
+      "sense": "S1"
     },
     {
       "surface": "לכם",
@@ -66,9 +88,10 @@
     },
     {
       "surface": "ולכו",
-      "gloss": "go"
+      "gloss": "and go",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:40:03.896931028Z",
+  "model": "glm-5.3"
 }

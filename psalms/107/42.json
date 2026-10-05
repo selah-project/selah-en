@@ -1,36 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "The upright see ⟨it⟩ and rejoice, and all iniquity shuts her mouth.",
-  "tokens": [
+  "ref": "psalms 107:42",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "יראו",
-      "gloss": "see"
+      "kind": "substitution",
+      "subject": "wrong shuts its mouth",
+      "rationale": "עולה is personified with a mouth; English keeps the personification literally rather than smoothing it"
     },
     {
-      "surface": "ישרים",
-      "gloss": "the upright"
-    },
-    {
-      "surface": "וישמחו",
-      "gloss": "and rejoice"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "עולה",
-      "gloss": "iniquity"
-    },
-    {
-      "surface": "קפצה",
-      "gloss": "shuts"
-    },
-    {
-      "surface": "פיה",
-      "gloss": "her mouth"
+      "kind": "wordplay",
+      "subject": "ראו\/ישמחו",
+      "rationale": "parallel verbs of seeing and joy, a fixed pair in the Psalms"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The upright see and rejoice, and all wrong shuts its mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "196540cc1b2f1abee7f57abf18e7c1ab1b306bc15c1cf7ca1e7464aa7379dbd7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/41-43.1791193354092.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִרְא֣וּ",
+      "gloss": "see",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשָׁרִ֣ים",
+      "gloss": "the upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיִשְׂמָ֑חוּ",
+      "gloss": "and rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "עַ֝וְלָ֗ה",
+      "gloss": "wrong",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָ֣פְצָה",
+      "gloss": "has shut",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּֽיהָ",
+      "gloss": "its mouth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:34.092851359Z",
+  "model": "glm-5.3"
 }

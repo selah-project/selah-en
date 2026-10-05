@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "May he give you according to your heart, and may he fulfill all your counsel.",
-  "tokens": [
+  "ref": "psalms 20:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "יתן",
-      "gloss": "may he give"
+      "kind": "substitution",
+      "subject": "according to your heart",
+      "rationale": "Hebrew כלבבך is 'as your heart' — the heart as seat of desire and planning, no 'according to' in the form"
     },
     {
-      "surface": "לך",
-      "gloss": "you"
-    },
-    {
-      "surface": "כלבבך",
-      "gloss": "according to your heart"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "and all"
-    },
-    {
-      "surface": "עצתך",
-      "gloss": "your counsel"
-    },
-    {
-      "surface": "ימלא",
-      "gloss": "may he fulfill"
+      "kind": "alternative",
+      "subject": "may He fulfill",
+      "rationale": "the piel of מלא here means carry out plans; literal 'fill' also possible: 'may He fill all your counsel'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "May He give to you according to your heart, and may He fulfill all your counsel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1dd898b63ec67dd761e3c39268a4275ecbb1500d0120bb725f16c0e77f30cdd2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/20\/5-8.1791192490995.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִֽתֶּן",
+      "gloss": "may He give",
+      "sense": null
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "כִּלְבָבֶךָ",
+      "gloss": "according to your heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "עֲצָתְךָ",
+      "gloss": "your counsel",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמַלֵּא",
+      "gloss": "may He fulfill",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:10.996290229Z",
+  "model": "glm-5.3"
 }

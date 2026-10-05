@@ -1,48 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 141,
-  "translation": "Small I am and despised; your precepts I have not forgotten.",
-  "tokens": [
+  "ref": "psalms 119:141",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "צעיר",
-      "gloss": "Small",
-      "readings": [
-        "Small",
-        "Young"
-      ],
-      "held_by": {
-        "Small": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Young": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "⟨I have not forgotten⟩",
+      "rationale": "Hebrew fronts the object פקדיך with לא שכחתי; English supplies a subject to carry the clause"
     },
     {
-      "surface": "אנכי",
-      "gloss": "I"
-    },
-    {
-      "surface": "ונבזה",
-      "gloss": "and despised"
-    },
-    {
-      "surface": "פקדיך",
-      "gloss": "your precepts"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "שכחתי",
-      "gloss": "I have not forgotten"
+      "kind": "wordplay",
+      "subject": "צעיר\/נבזה",
+      "rationale": "pairing of insignificance and contempt, two states of being disregarded"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Small am I and despised; ⟨I have not forgotten⟩ your precepts.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "df48d3177f5051f8eb598b42f553cd96a47664aa9e8ba9740c7d06dd1bd77776",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/141-144.1791193490313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צָעִיר",
+      "gloss": "small",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "am I",
+      "sense": null
+    },
+    {
+      "surface": "וְנִבְזֶה",
+      "gloss": "and despised",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּקֻּדֶיךָ",
+      "gloss": "your precepts",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁכַחְתִּי",
+      "gloss": "have I forgotten",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:50.313630997Z",
+  "model": "glm-5.3"
 }

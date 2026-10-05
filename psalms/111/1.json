@@ -1,59 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Praise Yah! I will give thanks to YHWH with all the heart, in the council of the upright and in the congregation.",
-  "tokens": [
+  "ref": "psalms 111:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 111,
+  "notes": [
     {
-      "surface": "הללו",
-      "gloss": "Praise"
+      "kind": "addition",
+      "subject": "⟨my⟩",
+      "rationale": "Hebrew has no suffix on לבב; English requires a possessor"
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
+      "kind": "crux",
+      "subject": "סוד",
+      "rationale": "'council\/intimate assembly' vs 'secret'; rendered 'council of' after SDBH S1 group sense"
     },
     {
-      "surface": "אודה",
-      "gloss": "I will give thanks"
+      "kind": "invitation",
+      "subject": "Praise Yah",
+      "rationale": "Opening imperative summons the congregation to praise"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "with all"
-    },
-    {
-      "surface": "לבב",
-      "gloss": "heart"
-    },
-    {
-      "surface": "בסוד",
-      "gloss": "in the council of",
-      "readings": [
-        "in the council of",
-        "in the secret of"
-      ],
-      "held_by": {
-        "in the council of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the secret of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ישרים",
-      "gloss": "of the upright"
-    },
-    {
-      "surface": "ועדה",
-      "gloss": "and the congregation"
+      "kind": "secret",
+      "subject": "בסוד",
+      "rationale": "סוד is the council-of-intimates word used of YHWH's secret counsel"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Praise Yah! I will give thanks to YHWH with all ⟨my⟩ heart, in the council of the upright and the congregation.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19b5383d19e8701905215489ed1cf6c4b448cf0a8c5671a91b521fee4ee3c3ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/111\/1-4.1791193385274.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַלְלוּ",
+      "gloss": "Praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָהּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹדֶה",
+      "gloss": "I will give thanks",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "with all",
+      "sense": null
+    },
+    {
+      "surface": "לֵבָב",
+      "gloss": "⟨my⟩ heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּסוֹד",
+      "gloss": "in the council of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשָׁרִים",
+      "gloss": "the upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵדָה",
+      "gloss": "and the congregation",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:05.275576303Z",
+  "model": "glm-5.3"
 }

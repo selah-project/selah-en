@@ -1,132 +1,165 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "And the priest shall put from the oil that is on his palm upon the lobe of the right ear of the one being cleansed, and upon the thumb of his right hand, and upon the big toe of his right foot — upon the place of the blood of the guilt offering.",
-  "tokens": [
+  "ref": "leviticus 14:28",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ונתן",
-      "gloss": "and the priest shall put",
-      "readings": [
-        "and the priest shall put",
-        "and shall put"
-      ],
-      "held_by": {
-        "and the priest shall put": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and shall put": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew relative clause 'that on his palm' needs an English copula"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "kind": "addition",
+      "subject": "⟨one⟩",
+      "rationale": "English needs a noun for the feminine adjective 'right' referring back to ear, hand, foot"
     },
     {
-      "surface": "מן",
-      "gloss": "from"
+      "kind": "hapax",
+      "subject": "תְּנוּךְ",
+      "rationale": "Ear-lobe occurs only in Leviticus 8 and 14; rendered literally as 'lobe'"
     },
     {
-      "surface": "השמן",
-      "gloss": "the oil"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "על",
-      "gloss": "is on",
-      "readings": [
-        "is on",
-        "is upon"
-      ],
-      "held_by": {
-        "is on": [
-          "v2",
-          "v3"
-        ],
-        "is upon": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כפו",
-      "gloss": "his palm"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "תנוך",
-      "gloss": "the lobe of"
-    },
-    {
-      "surface": "אזן",
-      "gloss": "the ear of"
-    },
-    {
-      "surface": "המטהר",
-      "gloss": "the one being cleansed"
-    },
-    {
-      "surface": "הימנית",
-      "gloss": "the right"
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and upon"
-    },
-    {
-      "surface": "בהן",
-      "gloss": "the thumb of"
-    },
-    {
-      "surface": "ידו",
-      "gloss": "his hand"
-    },
-    {
-      "surface": "הימנית",
-      "gloss": "the right"
-    },
-    {
-      "surface": "ועל",
-      "gloss": "and upon"
-    },
-    {
-      "surface": "בהן",
-      "gloss": "the big toe of"
-    },
-    {
-      "surface": "רגלו",
-      "gloss": "his foot"
-    },
-    {
-      "surface": "הימנית",
-      "gloss": "the right"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "מקום",
-      "gloss": "the place of"
-    },
-    {
-      "surface": "דם",
-      "gloss": "the blood of"
-    },
-    {
-      "surface": "האשם",
-      "gloss": "the guilt offering"
+      "kind": "substitution",
+      "subject": "thumb",
+      "rationale": "בֹּהֶן covers both thumb and great toe; English must split it by context"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the priest shall put from the oil that is on his palm onto the lobe of the ear of the one being cleansed, the right ⟨one⟩, and onto the thumb of his right hand and onto the thumb of his right foot, on the place of the blood of the guilt offering.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c92a17523f3cf88dc4499a9d468fab9670cc8f77a0e09a3cfdca6eff0766d5f2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/14\/26-28.1791197717038.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְנָתַן",
+      "gloss": "and shall put",
+      "sense": null
+    },
+    {
+      "surface": "הַכֹּהֵן",
+      "gloss": "the priest",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "הַשֶּׁמֶן",
+      "gloss": "the oil",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "עַל",
+      "gloss": "is on",
+      "sense": null
+    },
+    {
+      "surface": "כַּפּוֹ",
+      "gloss": "his palm",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "onto",
+      "sense": null
+    },
+    {
+      "surface": "תְּנוּךְ",
+      "gloss": "the lobe",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹזֶן",
+      "gloss": "of the ear",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּטַּהֵר",
+      "gloss": "of the one being cleansed",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְמָנִית",
+      "gloss": "the right ⟨one⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַל",
+      "gloss": "and onto",
+      "sense": null
+    },
+    {
+      "surface": "בֹּהֶן",
+      "gloss": "the thumb",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדוֹ",
+      "gloss": "of his hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְמָנִית",
+      "gloss": "the right ⟨one⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַל",
+      "gloss": "and onto",
+      "sense": null
+    },
+    {
+      "surface": "בֹּהֶן",
+      "gloss": "the thumb",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַגְלוֹ",
+      "gloss": "of his foot",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיְמָנִית",
+      "gloss": "the right ⟨one⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "מְקוֹם",
+      "gloss": "the place",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּם",
+      "gloss": "of the blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָשָׁם",
+      "gloss": "of the guilt offering",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:55:17.039509672Z",
+  "model": "glm-5.3"
 }

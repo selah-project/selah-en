@@ -1,54 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "They go from strength to strength; ⟨each one⟩ will appear before Elohim in Zion.",
-  "tokens": [
+  "ref": "psalms 84:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 84,
+  "notes": [
     {
-      "surface": "ילכו",
-      "gloss": "They go"
+      "kind": "wordplay",
+      "subject": "מחיל אל חיל",
+      "rationale": "strength to strength — the repetition of חיל frames the pilgrims' progress"
     },
     {
-      "surface": "מחיל",
-      "gloss": "from strength"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "חיל",
-      "gloss": "strength"
-    },
-    {
-      "surface": "יראה",
-      "gloss": "will appear",
-      "readings": [
-        "will appear",
-        "he is seen"
-      ],
-      "held_by": {
-        "will appear": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he is seen": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אל",
-      "gloss": "before"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "בציון",
-      "gloss": "in Zion"
+      "kind": "crux",
+      "subject": "יֵרָאֶה",
+      "rationale": "niphal of ראה: 'appears (before Elohim)' vs 'is seen by Elohim'; subject singular against plural 'they go'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They go from strength to strength; he appears before Elohim in Zion.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f92b9df6941c0fd9c3105225edbdbba7f9e85ba2c58691521b819b4679eac4c2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/84\/5-8.1791193117154.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֵ֭לְכוּ",
+      "gloss": "They go",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵחַ֣יִל",
+      "gloss": "from strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "חָ֑יִל",
+      "gloss": "strength",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵרָאֶ֖ה",
+      "gloss": "he appears",
+      "readings": [
+        "he appears",
+        "he will be seen"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "before",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהִ֣ים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִיּֽוֹן",
+      "gloss": "in Zion",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:37.155800454Z",
+  "model": "glm-5.3"
 }

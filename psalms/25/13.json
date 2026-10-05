@@ -1,47 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "His nefesh shall abide in good, and his seed shall inherit ⟨the⟩ land.",
+  "ref": "psalms 25:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English requires the article before ארץ here; Hebrew has none"
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, the animating self — not 'soul' in the Greek sense"
+    }
+  ],
+  "translation": "His nefesh will lodge in goodness, and his seed will inherit ⟨the⟩ land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "127986823e4d78163c0232e1601ea81ccfcee136d5d48d14547b421483ed98e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/13-16.1791192532574.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "נפשו",
-      "gloss": "his nefesh"
+      "surface": "נַ֭פְשׁוֹ",
+      "gloss": "his nefesh",
+      "readings": [
+        "his nefesh",
+        "his soul",
+        "his life"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "בטוב",
-      "gloss": "in good"
+      "surface": "בְּט֣וֹב",
+      "gloss": "in goodness",
+      "sense": "S1"
     },
     {
-      "surface": "תלין",
-      "gloss": "shall abide"
+      "surface": "תָּלִ֑ין",
+      "gloss": "will lodge",
+      "sense": "S1"
     },
     {
-      "surface": "וזרעו",
-      "gloss": "and his seed"
+      "surface": "וְ֝זַרְע֗וֹ",
+      "gloss": "and his seed",
+      "sense": "S1"
     },
     {
-      "surface": "יירש",
-      "gloss": "shall inherit"
+      "surface": "יִ֣ירַשׁ",
+      "gloss": "will inherit",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "land",
       "readings": [
         "land",
-        "the earth"
+        "earth"
       ],
-      "held_by": {
-        "land": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:52.574938299Z",
+  "model": "glm-5.3"
 }

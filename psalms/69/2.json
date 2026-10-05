@@ -1,69 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Save me, O Elohim, for the waters have come in even unto the nefesh.",
+  "ref": "psalms 69:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 69,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "Save me, Elohim",
+      "rationale": "Opening imperative cry summoning Elohim's help."
+    },
+    {
+      "kind": "crux",
+      "subject": "עד נפש",
+      "rationale": "'unto my soul' vs 'unto the throat' — the bodily picture of waters rising to the neck; suffix supplied."
+    }
+  ],
+  "translation": "Save me, Elohim, for waters have come in unto ⟨my⟩ soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9b8866ed43f6e704677861cabbac6ef06e558e2a298ff7bd5e0d3803b4ba5397",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/69\/1-4.1791192917474.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "הושיעני",
-      "gloss": "Save me"
+      "surface": "הוֹשִׁיעֵ֥נִי",
+      "gloss": "Save me",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֤י",
       "gloss": "for"
     },
     {
-      "surface": "באו",
-      "gloss": "have come",
+      "surface": "בָּ֖אוּ",
+      "gloss": "have come in"
+    },
+    {
+      "surface": "מַ֣יִם",
+      "gloss": "waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "unto",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָֽפֶשׁ",
+      "gloss": "soul",
       "readings": [
-        "have come",
-        "have come in"
+        "soul",
+        "throat",
+        "life"
       ],
-      "held_by": {
-        "have come": [
-          "v1",
-          "en4"
-        ],
-        "have come in": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מים",
-      "gloss": "the waters"
-    },
-    {
-      "surface": "עד",
-      "gloss": "even unto"
-    },
-    {
-      "surface": "נפש",
-      "gloss": "nefesh",
-      "readings": [
-        "nefesh",
-        "the soul",
-        "the life"
-      ],
-      "held_by": {
-        "nefesh": [
-          "v2",
-          "v3"
-        ],
-        "the soul": [
-          "v1",
-          "en4"
-        ],
-        "the life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:35:17.474949859Z",
+  "model": "glm-5.3"
 }

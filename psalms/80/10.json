@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "You cleared ⟨the ground⟩ before her, and she struck root — her roots ⟨took hold⟩ — and she filled the land.",
+  "ref": "psalms 80:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 80,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨space⟩",
+      "rationale": "פנה 'to clear before' implies the object cleared; English needs the supplied noun."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "הִשְׁרִישׁ שָׁרָשֶׁיהָ",
+      "rationale": "Root-verb with root-noun — 'she rooted her roots' — a cognate construction, kept doubled."
+    }
+  ],
+  "translation": "You cleared ⟨space⟩ before her, and she struck root her roots, and she filled the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "734d458b8ae93b8495d020e8622297ab4f03583cf0302e19dceb0332a45e4699",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/80\/9-12.1791193078537.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "פנית",
-      "gloss": "You cleared",
-      "readings": [
-        "You cleared",
-        "You made room"
-      ],
-      "held_by": {
-        "You cleared": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "You made room": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "פִּנִּ֥יתָ",
+      "gloss": "you cleared",
+      "sense": "S1"
     },
     {
-      "surface": "לפניה",
-      "gloss": "before her"
+      "surface": "לְפָנֶ֑יהָ",
+      "gloss": "before her",
+      "sense": null
     },
     {
-      "surface": "ותשרש",
-      "gloss": "and she struck root"
+      "surface": "וַתַּשְׁרֵ֥שׁ",
+      "gloss": "and she struck root",
+      "sense": "S1"
     },
     {
-      "surface": "שרשיה",
-      "gloss": "her roots"
+      "surface": "שָׁ֝רָשֶׁ֗יהָ",
+      "gloss": "her roots",
+      "sense": "S1"
     },
     {
-      "surface": "ותמלא",
-      "gloss": "and she filled"
+      "surface": "וַתְּמַלֵּ֥א",
+      "gloss": "and she filled",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָֽרֶץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:58.538246042Z",
+  "model": "glm-5.3"
 }

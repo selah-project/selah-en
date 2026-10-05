@@ -1,58 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "But you — a man like my value, my companion and my close friend.",
-  "tokens": [
+  "ref": "psalms 55:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "But you"
-    },
-    {
-      "surface": "אנוש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "כערכי",
-      "gloss": "like my value",
-      "readings": [
-        "like my value",
-        "like me"
-      ],
-      "held_by": {
-        "like my value": [
-          "en4"
-        ],
-        "like me": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אלופי",
-      "gloss": "my companion",
-      "readings": [
-        "my companion",
-        "my chief"
-      ],
-      "held_by": {
-        "my companion": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "my chief": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ומידעי",
-      "gloss": "and my close friend"
+      "kind": "you",
+      "subject": "to the betrayed friend",
+      "rationale": "Direct second-person address to the companion who turned enemy"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But you — a man like me, my close friend and my acquaintance.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bd06d5f68382508867072fd3c43f6b837452d6c30706872fd70314ea1948c3af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/13-16.1791192811115.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּה",
+      "gloss": "But you",
+      "sense": null
+    },
+    {
+      "surface": "אֱנוֹשׁ",
+      "gloss": "a man",
+      "sense": "S1",
+      "readings": [
+        "a man",
+        "a mortal"
+      ]
+    },
+    {
+      "surface": "כְּעֶרְכִּי",
+      "gloss": "like me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַלּוּפִי",
+      "gloss": "my close friend",
+      "sense": "S1",
+      "readings": [
+        "my close friend",
+        "my companion"
+      ]
+    },
+    {
+      "surface": "וּמְיֻדָּעִי",
+      "gloss": "and my acquaintance",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:31.116299068Z",
+  "model": "glm-5.3"
 }

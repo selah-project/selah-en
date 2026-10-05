@@ -1,93 +1,111 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And Elohim met Balaam, and he said to him, “⟨את⟩ the seven altars I have arranged, and I have offered a bull and a ram on the altar.”",
-  "tokens": [
+  "ref": "numbers 23:4",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "ויקר",
-      "gloss": "And Elohim met",
-      "readings": [
-        "And Elohim met",
-        "And Elohim happened upon"
-      ],
-      "held_by": {
-        "And Elohim met": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "And Elohim happened upon": [
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "Object marker has no English equivalent; rendered as ⟨את⟩ glyph pointing to 'the seven alters'."
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "substitution",
+      "subject": "met",
+      "rationale": "קרה S1 is literally '(a deity) happens to someone' — a chance encounter; 'met' carries the sense but loses the accident nuance."
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "בלעם",
-      "gloss": "Balaam"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and said"
-    },
-    {
-      "surface": "אליו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "שבעת",
-      "gloss": "seven"
-    },
-    {
-      "surface": "המזבחת",
-      "gloss": "⟨of the⟩ altars"
-    },
-    {
-      "surface": "ערכתי",
-      "gloss": "I have arranged"
-    },
-    {
-      "surface": "ואעל",
-      "gloss": "and I offered up",
-      "readings": [
-        "and I offered up",
-        "and I made go up"
-      ],
-      "held_by": {
-        "and I offered up": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and I made go up": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פר",
-      "gloss": "a bull"
-    },
-    {
-      "surface": "ואיל",
-      "gloss": "and a ram"
-    },
-    {
-      "surface": "במזבח",
-      "gloss": "on the altar"
+      "kind": "wordplay",
+      "subject": "מזבחות\/מזבח",
+      "rationale": "Verse opens with the plural 'alters' and closes on the singular 'altar', framing Balaam's report."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Elohim met with Balaam, and he said to him, “The seven alters I have set in a row, and I have brought up a bull and a ram on the altar.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c4acb42fec959fca7c4e80fb599c9e2efef89a4f68871959b3a6a55adca4ba0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/23\/4-4.1791197934808.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּקָּר",
+      "gloss": "and met",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "with",
+      "sense": null
+    },
+    {
+      "surface": "בִּלְעָם",
+      "gloss": "Balaam",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלָיו",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the seven altars",
+      "sense": null
+    },
+    {
+      "surface": "שֶׁבַעַת",
+      "gloss": "the seven",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמִּזְבְּחֹת",
+      "gloss": "alters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָרַכְתִּי",
+      "gloss": "I have set in a row",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאַעַל",
+      "gloss": "and I have brought up",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּר",
+      "gloss": "a bull",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאַיִל",
+      "gloss": "and a ram",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמִּזְבֵּחַ",
+      "gloss": "on the altar",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:58:54.808484385Z",
+  "model": "glm-5.3"
 }

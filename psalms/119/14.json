@@ -1,46 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "In the way of your testimonies I have rejoiced, as over all wealth.",
+  "ref": "psalms 119:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "as over",
+      "rationale": "כְּעַל can read 'more than' (above all wealth), a common comparative sense"
+    }
+  ],
+  "translation": "In the way of Your testimonies I rejoice, as over all wealth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7a812c00a77d15dab45dca18e8ea8c96512fea5af7528edb35329ddbbcd61c8d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/13-16.1791193438563.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בדרך",
-      "gloss": "in the way of"
+      "surface": "בְּדֶרֶךְ",
+      "gloss": "In the way of",
+      "sense": "S1"
     },
     {
-      "surface": "עדותיך",
-      "gloss": "your testimonies"
+      "surface": "עֵדְוֺתֶיךָ",
+      "gloss": "Your testimonies",
+      "sense": "S1"
     },
     {
-      "surface": "ששתי",
-      "gloss": "I have rejoiced"
+      "surface": "שַׂשְׂתִּי",
+      "gloss": "I rejoice",
+      "sense": "S1"
     },
     {
-      "surface": "כעל",
+      "surface": "כְּעַל",
       "gloss": "as over"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "הון",
+      "surface": "הוֹן",
       "gloss": "wealth",
-      "readings": [
-        "wealth",
-        "riches"
-      ],
-      "held_by": {
-        "wealth": [
-          "v1",
-          "en4"
-        ],
-        "riches": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:58.564639019Z",
+  "model": "glm-5.3"
 }

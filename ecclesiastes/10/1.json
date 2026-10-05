@@ -1,84 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Flies of death make the perfumer's oil stink and gush ⟨out⟩ — ⟨so⟩ preciousness from wisdom, from honor: a little folly.",
-  "tokens": [
+  "ref": "ecclesiastes 10:1",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "זבובי",
-      "gloss": "Flies"
+      "kind": "wordplay",
+      "subject": "יבאישׁ יביע",
+      "rationale": "double hiphil verbs 'make-stink, make-ferment' — alliterative pair, the second verb's subject is ambiguous (the oil or the flies)"
     },
     {
-      "surface": "מות",
-      "gloss": "of death"
+      "kind": "crux",
+      "subject": "סכלות מעט",
+      "rationale": "ellipsis: 'a little folly (outweighs wisdom and honor)' — the verb must be supplied"
     },
     {
-      "surface": "יבאיש",
-      "gloss": "make stink",
-      "readings": [
-        "make stink",
-        "make offensive"
-      ],
-      "held_by": {
-        "make stink": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "make offensive": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יביע",
-      "gloss": "make gush ⟨out⟩",
-      "readings": [
-        "make gush ⟨out⟩",
-        "make bubble up",
-        "make ferment"
-      ],
-      "held_by": {
-        "make gush ⟨out⟩": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "make bubble up": [
-          "en4"
-        ],
-        "make ferment": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "שמן",
-      "gloss": "oil"
-    },
-    {
-      "surface": "רוקח",
-      "gloss": "of the perfumer"
-    },
-    {
-      "surface": "יקר",
-      "gloss": "preciousness"
-    },
-    {
-      "surface": "מחכמה",
-      "gloss": "from wisdom"
-    },
-    {
-      "surface": "מכבוד",
-      "gloss": "from honor"
-    },
-    {
-      "surface": "סכלות",
-      "gloss": "folly"
-    },
-    {
-      "surface": "מעט",
-      "gloss": "a little"
+      "kind": "substitution",
+      "subject": "רוקח",
+      "rationale": "the perfumer (a mixer of spices), not 'ointment' — the construct is the oil belonging to the professional"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Dead flies make the perfumer's oil stink, bubble over; more precious than wisdom, than honor — a little folly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6af24eb8b5b39c5acb1866f9e0204a266557bab254a90ae47df80aa077d07bbf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/10\/1-4.1791194966001.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זְבוּבֵי",
+      "gloss": "flies of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָוֶת",
+      "gloss": "death",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַבְאִישׁ",
+      "gloss": "make stink",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַבִּיעַ",
+      "gloss": "bubble over",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁמֶן",
+      "gloss": "oil of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רוֹקֵחַ",
+      "gloss": "the perfumer",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָקָר",
+      "gloss": "more precious",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵחָכְמָה",
+      "gloss": "than wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִכָּבוֹד",
+      "gloss": "than honor",
+      "sense": "S1"
+    },
+    {
+      "surface": "סִכְלוּת",
+      "gloss": "a little folly",
+      "sense": null
+    },
+    {
+      "surface": "מְעַט",
+      "gloss": "⟨is⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:09:26.001734010Z",
+  "model": "glm-5.3"
 }

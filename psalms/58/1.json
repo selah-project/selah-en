@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To the one who presides. Do not destroy. To David. A michtam.",
-  "tokens": [
+  "ref": "psalms 58:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 58,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "To the one who presides",
-      "readings": [
-        "To the one who presides",
-        "For the Chief Musician"
-      ],
-      "held_by": {
-        "To the one who presides": [
-          "en4"
-        ],
-        "For the Chief Musician": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "מִכְתָּם",
+      "rationale": "A technical psalm-title word of uncertain meaning, possibly 'engraved writing'; transliterated rather than guessed."
     },
     {
-      "surface": "אל",
-      "gloss": "do not"
-    },
-    {
-      "surface": "תשחת",
-      "gloss": "you destroy"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "To David"
-    },
-    {
-      "surface": "מכתם",
-      "gloss": "a michtam"
+      "kind": "crux",
+      "subject": "אַל תַּשְׁחֵת",
+      "rationale": "Likely the opening words of a known tune named 'Do Not Destroy' (cf. Psalms 57, 59, 75), not a command within the psalm."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, “Do Not Destroy,” of David, a michtam.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "30674c9acf8a2df4050203ad377349b28b5f40a37a7cf2335f06b1bac184de0d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/58\/1-4.1791192834784.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּ֥חַ",
+      "gloss": "For the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "Do not",
+      "sense": null
+    },
+    {
+      "surface": "תַּשְׁחֵ֗ת",
+      "gloss": "destroy",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִ֥ד",
+      "gloss": "of David",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִכְתָּֽם",
+      "gloss": "a michtam",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:54.785080525Z",
+  "model": "glm-5.3"
 }

@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For all the gods of the peoples ⟨are⟩ idols, and YHWH made the heavens.",
-  "tokens": [
+  "ref": "psalms 96:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 96,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between subject and predicate אלילים"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "kind": "crux",
+      "subject": "idols",
+      "rationale": "אלילים: 'idols' vs literal 'worthless things \/ no-gods'; the word's root means naught"
     },
     {
-      "surface": "אלהי",
-      "gloss": "the gods of"
-    },
-    {
-      "surface": "העמים",
-      "gloss": "the peoples"
-    },
-    {
-      "surface": "אלילים",
-      "gloss": "idols",
-      "readings": [
-        "idols",
-        "nothings"
-      ],
-      "held_by": {
-        "idols": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "nothings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויהוה",
-      "gloss": "and YHWH"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "עשה",
-      "gloss": "made"
+      "kind": "alternative",
+      "subject": "but YHWH — the heavens He made",
+      "rationale": "Hebrew word order puts YHWH first for contrast; fronting kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For all the gods of the peoples are idols, but YHWH — the heavens He made.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "66d3ea26b64174c335e131842566a76f397d261523004f70003a851b8d48906e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/96\/5-8.1791199997906.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהֵי",
+      "gloss": "the gods of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעַמִּים",
+      "gloss": "the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלִילִים",
+      "gloss": "are idols",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיהוָה",
+      "gloss": "but YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָשָׂה",
+      "gloss": "made",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:33:17.906919960Z",
+  "model": "glm-5.3"
 }

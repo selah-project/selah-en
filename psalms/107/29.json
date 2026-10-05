@@ -1,57 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "He raises the storm to a stillness, and their waves are hushed.",
-  "tokens": [
+  "ref": "psalms 107:29",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "יקם",
-      "gloss": "He raises",
-      "readings": [
-        "He raises",
-        "He causes to stand"
-      ],
-      "held_by": {
-        "He raises": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "He causes to stand": [
-          "v1"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "to a hush",
+      "rationale": "לְ here reads as 'into' — the storm is turned into stillness, its substance changed."
     },
     {
-      "surface": "סערה",
-      "gloss": "a storm",
-      "readings": [
-        "a storm",
-        "a whirlwind"
-      ],
-      "held_by": {
-        "a storm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a whirlwind": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לדממה",
-      "gloss": "to a stillness"
-    },
-    {
-      "surface": "ויחשו",
-      "gloss": "and their waves are hushed"
-    },
-    {
-      "surface": "גליהם",
-      "gloss": "their waves"
+      "kind": "wordplay",
+      "subject": "stillness",
+      "rationale": "דְּמָמָה echoes 1 Kings 19:12's hushed sound, the same word for YHWH's own quiet presence."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He raises a storm to a hush, and their waves grow still.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb91a928b2570bb2d312be1ff44f68bf8a71e7a5f2096171219c98df4cf127e6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/29-32.1791193350609.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָקֵ֣ם",
+      "gloss": "He raises",
+      "sense": null
+    },
+    {
+      "surface": "סְ֭עָרָה",
+      "gloss": "a storm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִדְמָמָ֑ה",
+      "gloss": "to a hush",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַ֝יֶּחֱשׁ֗וּ",
+      "gloss": "and grow still",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּלֵּיהֶֽם",
+      "gloss": "their waves",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:30.610364515Z",
+  "model": "glm-5.3"
 }

@@ -1,49 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Let the pious exult in glory; let them sing aloud upon their beds.",
-  "tokens": [
+  "ref": "psalms 149:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 149,
+  "notes": [
     {
-      "surface": "יעלזו",
-      "gloss": "let them exult"
+      "kind": "alternative",
+      "subject": "glory",
+      "rationale": "כבוד literally 'weight, honor' — 'in honor' is the nearer form-sense."
     },
     {
-      "surface": "חסידים",
-      "gloss": "the pious",
-      "readings": [
-        "the pious",
-        "the chasidim",
-        "the saints"
-      ],
-      "held_by": {
-        "the pious": [
-          "v2",
-          "v3"
-        ],
-        "the chasidim": [
-          "en4"
-        ],
-        "the saints": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בכבוד",
-      "gloss": "in glory"
-    },
-    {
-      "surface": "ירננו",
-      "gloss": "let them sing aloud"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "משכבותם",
-      "gloss": "their beds"
+      "kind": "wordplay",
+      "subject": "יעלזו \/ ירננו",
+      "rationale": "paired verbs of joyful shouting, a parallelism carried by two distinct verbs in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let the faithful exult in glory; let them shout for joy upon their beds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ecc71b71e0853267b5ed589e80a521432bbcb629463948aeed3281e2056d007",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/149\/5-8.1791193659079.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַעְלְזוּ",
+      "gloss": "let them exult",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲסִידִים",
+      "gloss": "the faithful",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָבוֹד",
+      "gloss": "in glory",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְרַנְּנוּ",
+      "gloss": "let them shout for joy",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁכְּבוֹתָם",
+      "gloss": "their beds",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:39.079914914Z",
+  "model": "glm-5.3"
 }

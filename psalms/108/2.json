@@ -1,67 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "My heart ⟨is⟩ ready, O Elohim; I will sing, and I will make music — yes, my glory.",
+  "ref": "psalms 108:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew fronted participle needs a copula in English."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my glory",
+      "rationale": "כבודי here is the inner self summoned to praise (parallel Ps 57:9 'Awake, my glory'), not splendor."
+    },
+    {
+      "kind": "alternative",
+      "subject": "Ready is my heart",
+      "rationale": "נכון can read 'prepared\/ready' (see Ps 108:2 parallel 57:8 doubled form)."
+    }
+  ],
+  "translation": "Established is my heart, Elohim; I will sing, yes, I will make melody — even my glory.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b0d116b09dbe7650a7fededea825f8f2df335eecd2806bae47c288f528d2d08",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/1-4.1791193354874.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "נכון",
-      "gloss": "ready",
+      "surface": "נָכ֣וֹן",
+      "gloss": "Established",
       "readings": [
-        "ready",
-        "fixed"
+        "Established",
+        "Ready"
       ],
-      "held_by": {
-        "ready": [
-          "v1",
-          "v3"
-        ],
-        "fixed": [
-          "en4"
-        ],
-        "steadfast": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לבי",
-      "gloss": "my heart"
+      "surface": "לִבִּ֣י",
+      "gloss": "is my heart",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אשירה",
-      "gloss": "I will sing"
+      "surface": "אָשִׁ֥ירָה",
+      "gloss": "I will sing",
+      "sense": "S1"
     },
     {
-      "surface": "ואזמרה",
-      "gloss": "and I will make music"
+      "surface": "וַ֝אֲזַמְּרָ֗ה",
+      "gloss": "yes, I will make melody",
+      "sense": "S1"
     },
     {
-      "surface": "אף",
-      "gloss": "yes"
+      "surface": "אַף",
+      "gloss": "even",
+      "sense": "S1"
     },
     {
-      "surface": "כבודי",
+      "surface": "כְּבוֹדִֽי",
       "gloss": "my glory",
       "readings": [
         "my glory",
-        "my weight"
+        "my self",
+        "my soul"
       ],
-      "held_by": {
-        "my glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my weight": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:34.875469034Z",
+  "model": "glm-5.3"
 }

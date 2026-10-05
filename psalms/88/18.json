@@ -1,36 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "They surrounded me like waters all the day; they closed in on me together.",
+  "ref": "psalms 88:18",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "סבוני\/הקיפו",
+      "rationale": "Near-synonymous verbs of encircling frame the verse, a chiastic intensification."
+    },
+    {
+      "kind": "addition",
+      "subject": "They",
+      "rationale": "English requires a subject; the Hebrew leaves the terrors of v.17 implicit."
+    }
+  ],
+  "translation": "They have surrounded me like waters all the day; they have encircled ⟨את⟩ me together.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1503f27c7cf645e4d2b9aa752807f4f7ffc9d77aeed85de9f35edde88be54642",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/17-19.1791193132877.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "סבוני",
-      "gloss": "They surrounded me"
+      "surface": "סַבּ֣וּנִי",
+      "gloss": "They have surrounded me"
     },
     {
-      "surface": "כמים",
-      "gloss": "like waters"
+      "surface": "כַ֭מַּיִם",
+      "gloss": "like waters",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "היום",
-      "gloss": "the day"
+      "surface": "הַיּ֑וֹם",
+      "gloss": "the day",
+      "sense": "S1"
     },
     {
-      "surface": "הקיפו",
-      "gloss": "they closed in"
+      "surface": "הִקִּ֖יפוּ",
+      "gloss": "they have encircled",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "on me"
+      "surface": "עָלַ֣י",
+      "gloss": "against me"
     },
     {
-      "surface": "יחד",
-      "gloss": "together"
+      "surface": "יָֽחַד",
+      "gloss": "together",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:52.877811580Z",
+  "model": "glm-5.3"
 }

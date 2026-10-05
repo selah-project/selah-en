@@ -1,52 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Give us help from distress, and vain ⟨is⟩ the rescue of man.",
-  "tokens": [
+  "ref": "psalms 108:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "הבה",
-      "gloss": "Give"
+      "kind": "idiom",
+      "subject": "עֶזְרָת מִצָּר",
+      "rationale": "Literally 'help from a narrow place (distress\/foe)'; מצר plays on both the tight place and the enemy who presses."
     },
     {
-      "surface": "לנו",
-      "gloss": "us"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "Imperative addressed to Elohim, following v. 12's complaint."
     },
     {
-      "surface": "עזרת",
-      "gloss": "help"
-    },
-    {
-      "surface": "מצר",
-      "gloss": "from distress",
-      "readings": [
-        "from distress",
-        "from the foe"
-      ],
-      "held_by": {
-        "from distress": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from the foe": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ושוא",
-      "gloss": "and vain"
-    },
-    {
-      "surface": "תשועת",
-      "gloss": "the rescue of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "man"
+      "kind": "alternative",
+      "subject": "vain",
+      "rationale": "שוא could also read as 'deceitful' — human rescue that fails or misleads."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Give us help from the foe, and vain is the rescue of man.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c3035fdd3b6fb97fbe3c2f5d0975e7642577463af1f759b95333704dd97c74c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/13-14.1791193351287.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָֽבָה",
+      "gloss": "Give",
+      "sense": null
+    },
+    {
+      "surface": "לָּ֣נוּ",
+      "gloss": "us",
+      "sense": null
+    },
+    {
+      "surface": "עֶזְרָ֣ת",
+      "gloss": "help of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצָּ֑ר",
+      "gloss": "the foe",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝שָׁ֗וְא",
+      "gloss": "and vain",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּשׁוּעַ֥ת",
+      "gloss": "the rescue of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָֽם",
+      "gloss": "man",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:31.287482465Z",
+  "model": "glm-5.3"
 }

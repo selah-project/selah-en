@@ -1,68 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The soul of the sluggard craves and has nothing, but the soul of the diligent shall be fattened.",
+  "ref": "proverbs 13:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "נפשו\/ונפש",
+      "rationale": "נפש frames both halves — the craving self against the fattened self — while the verb fronts the line before its subject."
+    },
+    {
+      "kind": "substitution",
+      "subject": "appetite",
+      "rationale": "נפש in context of craving; 'soul' and 'life' kept as readings."
+    },
+    {
+      "kind": "alternative",
+      "subject": "will be made fat",
+      "rationale": "דשן pual: literally fattened, idiom of prosperity; the fat picture is kept."
+    }
+  ],
+  "translation": "Craves, and there is nothing — the appetite of the lazy; but the appetite of the diligent will be made fat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ec8ffc22860b4e57504bfd2794d7796d9eff07ae688499d0fe67750c37a5506",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/1-4.1791193841109.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מתאוה",
-      "gloss": "craves"
+      "surface": "מִתְאַוָּ֣ה",
+      "gloss": "craves",
+      "sense": "S1"
     },
     {
-      "surface": "ואין",
-      "gloss": "and has nothing"
+      "surface": "וָ֭אַיִן",
+      "gloss": "and there is nothing",
+      "sense": null
     },
     {
-      "surface": "נפשו",
-      "gloss": "the soul of",
+      "surface": "נַפְשׁ֣וֹ",
+      "gloss": "the appetite of",
       "readings": [
+        "the appetite of",
         "the soul of",
-        "the life of",
-        "the throat of"
+        "the life of"
       ],
-      "held_by": {
-        "the soul of": [
-          "v1",
-          "en4"
-        ],
-        "the life of": [
-          "v2",
-          "v3"
-        ],
-        "the throat of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "עצל",
-      "gloss": "of the sluggard"
+      "surface": "עָצֵ֑ל",
+      "gloss": "the lazy one",
+      "sense": "S1"
     },
     {
-      "surface": "ונפש",
-      "gloss": "but the soul of",
+      "surface": "וְנֶ֖פֶשׁ",
+      "gloss": "but the appetite of",
       "readings": [
+        "but the appetite of",
         "but the soul of",
         "but the life of"
       ],
-      "held_by": {
-        "but the soul of": [
-          "v1",
-          "en4"
-        ],
-        "but the life of": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חרצים",
-      "gloss": "of the diligent"
+      "surface": "חָרֻצִ֣ים",
+      "gloss": "the diligent",
+      "sense": "S1"
     },
     {
-      "surface": "תדשן",
-      "gloss": "shall be fattened"
+      "surface": "תְּדֻשָּֽׁן",
+      "gloss": "will be made fat",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:41.110223437Z",
+  "model": "glm-5.3"
 }

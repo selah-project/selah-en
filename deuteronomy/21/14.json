@@ -1,10 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And it shall be, if you take no delight in her, that you shall send her away for her nefesh, and selling you shall not sell her for silver; you shall not deal as a slave with her, because you have humbled her.",
+  "ref": "deuteronomy 21:14",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "לנפשה",
+      "rationale": "for her-nehfesh, Hebrew idiom for to herself, for her own life; kept the noun visible."
+    },
+    {
+      "kind": "substitution",
+      "subject": "humbled",
+      "rationale": "עניתה in this sense names the man's forcing himself upon her; 'humbled' keeps the root's common face while the sense is sexual."
+    },
+    {
+      "kind": "crux",
+      "subject": "ומכר לא תמכרנה",
+      "rationale": "infinitive absolute doubling: 'selling you shall not sell her' kept doubled, not collapsed to 'you shall certainly not sell her'."
+    }
+  ],
+  "translation": "And it shall be, if you do not delight in her, then you shall send her away for her-nehfesh, but selling you shall not sell her for silver, and you shall not treat-her-as-a-slave, since you have humbled her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c02be9ed46c836a6657d3a45f6cbafd5e054c71b8c0af976435e5c998be6629f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/21\/13-16.1791183986303.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
-      "gloss": "and it shall be"
+      "gloss": "And it shall be"
     },
     {
       "surface": "אם",
@@ -12,11 +44,13 @@
     },
     {
       "surface": "לא",
-      "gloss": "no"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "חפצת",
-      "gloss": "you take delight"
+      "gloss": "you do not delight",
+      "sense": "S1"
     },
     {
       "surface": "בה",
@@ -24,87 +58,62 @@
     },
     {
       "surface": "ושלחתה",
-      "gloss": "you shall send her away"
+      "gloss": "then you shall send her away",
+      "sense": "S1"
     },
     {
       "surface": "לנפשה",
-      "gloss": "for her nefesh",
-      "readings": [
-        "for her nefesh",
-        "for her life",
-        "for her soul"
-      ],
-      "held_by": {
-        "for her nefesh": [
-          "en4"
-        ],
-        "for her life": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for her soul": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "for her-nehfesh",
+      "sense": "S1"
     },
     {
       "surface": "ומכר",
-      "gloss": "and selling"
+      "gloss": "selling",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "you shall not",
+      "sense": "S1"
     },
     {
       "surface": "תמכרנה",
-      "gloss": "you shall sell her"
+      "gloss": "sell her",
+      "sense": "S1"
     },
     {
       "surface": "בכסף",
-      "gloss": "for silver"
+      "gloss": "for silver",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "and you shall not",
+      "sense": "S1"
     },
     {
       "surface": "תתעמר",
-      "gloss": "you shall deal as a slave"
+      "gloss": "treat-her-as-a-slave",
+      "sense": "S1"
     },
     {
       "surface": "בה",
-      "gloss": "with her"
+      "gloss": "her"
     },
     {
       "surface": "תחת",
-      "gloss": "because"
+      "gloss": "since"
     },
     {
       "surface": "אשר",
-      "gloss": "that"
+      "gloss": "that which"
     },
     {
       "surface": "עניתה",
-      "gloss": "you have humbled her",
-      "readings": [
-        "you have humbled her",
-        "you have afflicted her"
-      ],
-      "held_by": {
-        "you have humbled her": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you have afflicted her": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "you have humbled",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:06:26.304775770Z",
+  "model": "glm-5.3"
 }

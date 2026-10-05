@@ -1,62 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "A boar from ⟨the⟩ forest lays it waste, and a moving thing of ⟨the⟩ field grazes it.",
-  "tokens": [
+  "ref": "psalms 80:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 80,
+  "notes": [
     {
-      "surface": "יכרסמנה",
-      "gloss": "lays it waste",
-      "readings": [
-        "lays it waste",
-        "gnaws it down"
-      ],
-      "held_by": {
-        "lays it waste": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "gnaws it down": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax",
+      "subject": "יכרסמנה",
+      "rationale": "כרסם occurs only here; exact meaning unknown, probably 'to lay waste \/ gnaw' by wild animals."
     },
     {
-      "surface": "חזיר",
-      "gloss": "a boar"
-    },
-    {
-      "surface": "מיער",
-      "gloss": "from forest"
-    },
-    {
-      "surface": "וזיז",
-      "gloss": "and a moving thing"
-    },
-    {
-      "surface": "שדי",
-      "gloss": "of field"
-    },
-    {
-      "surface": "ירענה",
-      "gloss": "grazes it",
-      "readings": [
-        "grazes it",
-        "shepherds it"
-      ],
-      "held_by": {
-        "grazes it": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "shepherds it": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "זיז שדי",
+      "rationale": "'moving creature of the field' (collective wild beasts) vs 'fullness of the field'; context favors wild animals."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The boar from the forest gnaws it, and the moving creature of the field feeds on it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ddb3623d907110a6d761ebdb2bf6e6447f3573537ca3953ad8e9c759128a8eb0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/80\/13-16.1791193082495.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְכַרְסְמֶנָּה",
+      "gloss": "gnaws it",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֲזִיר",
+      "gloss": "The boar",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִיָּעַר",
+      "gloss": "from the forest",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְזִיז",
+      "gloss": "and the moving creature of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂדַי",
+      "gloss": "the field",
+      "sense": null
+    },
+    {
+      "surface": "יִרְעֶנָּה",
+      "gloss": "feeds on it",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:02.496066531Z",
+  "model": "glm-5.3"
 }

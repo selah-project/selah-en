@@ -1,89 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 139,
-  "translation": "My zeal has consumed me, because my adversaries have forgotten your words.",
-  "tokens": [
+  "ref": "psalms 119:139",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "צמתתני",
-      "gloss": "has consumed me",
-      "readings": [
-        "has consumed me",
-        "has cut me off"
-      ],
-      "held_by": {
-        "has consumed me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "has cut me off": [
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "consumed me",
+      "rationale": "Hebrew צמתני, intense emotion as destruction; English keeps the metaphor"
     },
     {
-      "surface": "קנאתי",
-      "gloss": "my zeal",
-      "readings": [
-        "my zeal",
-        "my jealousy"
-      ],
-      "held_by": {
-        "my zeal": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my jealousy": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כי",
-      "gloss": "because",
-      "readings": [
-        "because",
-        "for"
-      ],
-      "held_by": {
-        "because": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "שכחו",
-      "gloss": "have forgotten"
-    },
-    {
-      "surface": "דבריך",
-      "gloss": "your words"
-    },
-    {
-      "surface": "צרי",
-      "gloss": "my adversaries",
-      "readings": [
-        "my adversaries",
-        "my foes"
-      ],
-      "held_by": {
-        "my adversaries": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "my foes": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "zeal",
+      "rationale": "קנאה can read 'zeal' — jealousy on behalf of YHWH's words rather than envy"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My jealousy has consumed me, because my enemies have forgotten your words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5e2fbb9f62fb30678640b5408977e9d5dbacfd7b7a42f3fcdcdc3caaa0841d9d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/137-140.1791193489369.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "צִמְּתַ֥תְנִי",
+      "gloss": "has consumed ⟨me⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "קִנְאָתִ֑י",
+      "gloss": "My jealousy",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "because",
+      "sense": null
+    },
+    {
+      "surface": "שָׁכְח֖וּ",
+      "gloss": "have forgotten",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְּבָרֶ֣יךָ",
+      "gloss": "your words",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָרָֽי",
+      "gloss": "my enemies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:49.370034098Z",
+  "model": "glm-5.3"
 }

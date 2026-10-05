@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "If I wash myself with snow, and cleanse my palms with lye,",
-  "tokens": [
+  "ref": "job 9:30",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "kind": "crux",
+      "subject": "במו שלג",
+      "rationale": "ketiv בְּמוֹ 'with snow'; qere בְּמֵי 'with snow-water'"
     },
     {
-      "surface": "התרחצתי",
-      "gloss": "I wash myself"
+      "kind": "substitution",
+      "subject": "hands",
+      "rationale": "כַּפַּי is a dual — 'my two palms' — and figuratively my deeds"
+    }
+  ],
+  "translation": "If I washed myself in snow-water, and cleansed my hands with lye,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "08e0f601d592b02e9d18c50b9d05d9f4724c8cb54465b90d5f5eb3fc17c1167b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/9\/29-32.1791194225936.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "הִתְרַחַצְתִּי",
+      "gloss": "I washed myself",
+      "sense": "S1"
     },
     {
       "surface": "במו",
-      "gloss": "with"
+      "gloss": "with",
+      "sense": null
     },
     {
-      "surface": "שלג",
-      "gloss": "snow"
+      "surface": "שָׁלֶג",
+      "gloss": "snow-water",
+      "sense": "S1"
     },
     {
-      "surface": "והזכותי",
-      "gloss": "and I cleanse"
+      "surface": "וַהֲזִכּוֹתִי",
+      "gloss": "and cleansed",
+      "sense": "S1"
     },
     {
-      "surface": "בבר",
+      "surface": "בְּבֹר",
       "gloss": "with lye",
-      "readings": [
-        "with lye",
-        "with borith"
-      ],
-      "held_by": {
-        "with lye": [
-          "v2",
-          "v3"
-        ],
-        "with borith": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כפי",
-      "gloss": "my palms",
-      "readings": [
-        "my palms",
-        "my palm"
-      ],
-      "held_by": {
-        "my palms": [
-          "en4"
-        ],
-        "my palm": [
-          "v1",
-          "v3"
-        ]
-      }
+      "surface": "כַּפָּי",
+      "gloss": "my hands",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:05.937557825Z",
+  "model": "glm-5.3"
 }

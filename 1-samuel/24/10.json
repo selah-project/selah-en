@@ -1,18 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And David said to Saul, Why do you listen to ⟨את⟩ the words of a man, saying, Behold, David seeks your harm?",
+  "ref": "1-samuel 24:10",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to Saul",
+      "rationale": "David's direct address to Saul begins here with a rhetorical question"
+    }
+  ],
+  "translation": "And David said to Saul, “Why do you listen to ⟨את⟩ the words of men, saying, ‘Behold, David seeks your harm’?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3685a01803704687c33bbc37e03d0470266d9a62f1f410cc8c05c0c5795cb01b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/24\/9-12.1791185929119.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "and said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "לשאול",
-      "gloss": "to Saul"
+      "gloss": "to Saul",
+      "sense": "S1"
     },
     {
       "surface": "למה",
@@ -24,67 +49,44 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the words of men"
     },
     {
       "surface": "דברי",
-      "gloss": "the words of"
+      "gloss": "the words of",
+      "sense": "S1"
     },
     {
       "surface": "אדם",
-      "gloss": "a man",
-      "readings": [
-        "a man",
-        "men"
-      ],
-      "held_by": {
-        "a man": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "men": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "men",
+      "sense": "S1"
     },
     {
       "surface": "לאמר",
-      "gloss": "saying"
+      "gloss": "saying",
+      "sense": "S1"
     },
     {
       "surface": "הנה",
-      "gloss": "behold"
+      "gloss": "Behold"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "מבקש",
-      "gloss": "seeks"
+      "gloss": "seeks",
+      "sense": "S1"
     },
     {
       "surface": "רעתך",
       "gloss": "your harm",
-      "readings": [
-        "your harm",
-        "your evil"
-      ],
-      "held_by": {
-        "your harm": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your evil": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:38:49.121533588Z",
+  "model": "glm-5.3"
 }

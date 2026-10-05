@@ -1,68 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "With my voice I call to YHWH, and he answered me from ⟨the⟩ mountain of his holiness. Selah.",
-  "tokens": [
+  "ref": "psalms 3:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "קולי",
-      "gloss": "with my voice",
-      "readings": [
-        "with my voice",
-        "my voice"
-      ],
-      "held_by": {
-        "with my voice": [
-          "v2",
-          "v3"
-        ],
-        "my voice": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "Selah",
+      "rationale": "musical pause marker kept as the transliteration Selah"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אקרא",
-      "gloss": "I call"
-    },
-    {
-      "surface": "ויענני",
-      "gloss": "and he answered me",
-      "readings": [
-        "and he answered me",
-        "and he answers me"
-      ],
-      "held_by": {
-        "and he answered me": [
-          "v1",
-          "en4"
-        ],
-        "and he answers me": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מהר",
-      "gloss": "from ⟨the⟩ mountain"
-    },
-    {
-      "surface": "קדשו",
-      "gloss": "of his holiness"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the speaker David addresses YHWH directly in prayer"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My voice — to YHWH I call, and He answers me from His mountain of holiness. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4fae80d6684459734603e72231d8e2bd34104db472e037bb9b9ab158e80aafd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/3\/5-8.1791192343839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קוֹלִי",
+      "gloss": "my voice",
+      "sense": null
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶקְרָא",
+      "gloss": "I call",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּעֲנֵנִי",
+      "gloss": "and He answers me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵהַר",
+      "gloss": "from the mountain of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדְשׁוֹ",
+      "gloss": "His holiness",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:43.839788849Z",
+  "model": "glm-5.3"
 }

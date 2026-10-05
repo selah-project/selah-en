@@ -1,74 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "No longer shall the fool be called noble, nor the miser said ⟨to be⟩ rich.",
-  "tokens": [
+  "ref": "isaiah 32:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "wordplay",
+      "subject": "נָבָל \/ נָדִיב",
+      "rationale": "fool vs noble — the verse turns on inverted titles, sharpened again in vv. 6–8"
     },
     {
-      "surface": "יקרא",
-      "gloss": "shall be called"
-    },
-    {
-      "surface": "עוד",
-      "gloss": "any longer"
-    },
-    {
-      "surface": "לנבל",
-      "gloss": "the fool"
-    },
-    {
-      "surface": "נדיב",
-      "gloss": "noble",
-      "readings": [
-        "noble",
-        "generous"
-      ],
-      "held_by": {
-        "noble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "generous": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ולכילי",
-      "gloss": "nor ⟨to⟩ the miser"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יאמר",
-      "gloss": "shall be said"
-    },
-    {
-      "surface": "שוע",
-      "gloss": "rich",
-      "readings": [
-        "rich",
-        "generous"
-      ],
-      "held_by": {
-        "rich": [
-          "v1",
-          "v3"
-        ],
-        "generous": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "knave",
+      "rationale": "כִּילַי occurs only here and in v. 7; “miser\/churl” also fits the form"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "No longer will be called to the fool “noble”, and to the knave will not be said “rich”.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c43af036aec02bdefc971e15b1ba11e1f1f70ec336340ffb07e2506f6eb7aa98",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/32\/5-8.1791188467912.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִקָּרֵ֥א",
+      "gloss": "will be called",
+      "sense": "S1"
+    },
+    {
+      "surface": "ע֛וֹד",
+      "gloss": "no longer"
+    },
+    {
+      "surface": "לְנָבָ֖ל",
+      "gloss": "to the fool",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָדִ֑יב",
+      "gloss": "“noble”",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְכִילַ֕י",
+      "gloss": "and to the knave",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵֽאָמֵ֖ר",
+      "gloss": "will be said",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֽׁוֹעַ",
+      "gloss": "“rich”",
+      "sense": "S1",
+      "readings": [
+        "“rich”",
+        "“noble”"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T08:21:07.919645779Z",
+  "model": "glm-5.3"
 }

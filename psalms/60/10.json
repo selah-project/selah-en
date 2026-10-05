@@ -1,62 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Moab ⟨is⟩ my washpot; upon Edom I cast my sandal; over Philistia I shout in triumph.",
-  "tokens": [
+  "ref": "psalms 60:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 60,
+  "notes": [
     {
-      "surface": "מואב",
-      "gloss": "Moab"
+      "kind": "idiom",
+      "subject": "I cast my sandal",
+      "rationale": "Casting a sandal on a land is a gesture of mastery or contempt; the Hebrew picture is kept literally."
     },
     {
-      "surface": "סיר",
-      "gloss": "washpot"
+      "kind": "crux",
+      "subject": "סִיר רַחְצִי",
+      "rationale": "'Pot of my washing' — wash-basin for the feet, a menial vessel; some render 'my washpot' as one word."
     },
     {
-      "surface": "רחצי",
-      "gloss": "of my washing"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "אדום",
-      "gloss": "Edom"
-    },
-    {
-      "surface": "אשליך",
-      "gloss": "I cast"
-    },
-    {
-      "surface": "נעלי",
-      "gloss": "my sandal"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "over",
-      "readings": [
-        "over",
-        "upon me"
-      ],
-      "held_by": {
-        "over": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פלשת",
-      "gloss": "Philistia"
-    },
-    {
-      "surface": "התרעעי",
-      "gloss": "I shout in triumph"
+      "kind": "alternative",
+      "subject": "הִתְרֹעָעִי",
+      "rationale": "Hithpolel of רוע: 'cry\/shout aloud' (triumph over me) or 'shout in triumph'; feminine singular addressed to Philistia."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Moab is my wash-pot; upon Edom I cast my sandal; over me, Philistia, cry aloud.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e598ed58514dae982d4ba2934db9f8322f99a26d20e12cb9c2d97de97defcf59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/60\/9-12.1791192854112.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מוֹאָב",
+      "gloss": "Moab",
+      "sense": "S1"
+    },
+    {
+      "surface": "סִיר",
+      "gloss": "is my wash-pot of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רַחְצִי",
+      "gloss": "my washing",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "אֱדוֹם",
+      "gloss": "Edom",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַשְׁלִיךְ",
+      "gloss": "I cast",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַעֲלִי",
+      "gloss": "my sandal",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַי",
+      "gloss": "over me",
+      "sense": null
+    },
+    {
+      "surface": "פְּלֶשֶׁת",
+      "gloss": "Philistia",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִתְרֹעָעִי",
+      "gloss": "cry aloud",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:14.113257099Z",
+  "model": "glm-5.3"
 }

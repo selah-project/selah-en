@@ -1,93 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "There is no ruler over the dust; he is made to be without fear.",
-  "tokens": [
+  "ref": "job 41:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "אין",
-      "gloss": "there is no"
+      "kind": "crux",
+      "subject": "his like",
+      "rationale": "מָשְׁלוֹ is read either as 'his dominion' (מִשְׁלָל\/mimshal line) or 'his like, his parallel' (מֹשֶׁל); 'his like' fits Leviathan's uniqueness."
     },
     {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "עפר",
-      "gloss": "the dust",
-      "readings": [
-        "the dust",
-        "the earth"
-      ],
-      "held_by": {
-        "the dust": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "משלו",
-      "gloss": "his ruler",
-      "readings": [
-        "his ruler",
-        "his rule"
-      ],
-      "held_by": {
-        "his ruler": [
-          "v2",
-          "v3"
-        ],
-        "his rule": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "העשו",
-      "gloss": "he is made",
-      "readings": [
-        "he is made",
-        "the made one"
-      ],
-      "held_by": {
-        "he is made": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the made one": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבלי",
-      "gloss": "to be without"
-    },
-    {
-      "surface": "חת",
-      "gloss": "fear",
-      "readings": [
-        "fear",
-        "terror"
-      ],
-      "held_by": {
-        "fear": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "terror": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "he who is made",
+      "rationale": "Some read הֶעָשׂוּ with the preceding line: 'the one made to be without fear', i.e. fashioned fearless."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "There is no one like him upon the dust; he who is made ⟨is⟩ without fear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9f269389dc550ef059ba296fc89880fa79ba86deed8993686113e0d8a0c7fc61",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/25-26.1791194647383.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵֽין",
+      "gloss": "There is no",
+      "sense": null
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "עָפָ֥ר",
+      "gloss": "the dust",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָשְׁל֑וֹ",
+      "gloss": "his like",
+      "readings": [
+        "his like",
+        "his dominion"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶ֝עָשׂ֗וּ",
+      "gloss": "he who is made",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבְלִי",
+      "gloss": "without",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָֽת",
+      "gloss": "fear",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:07.384174259Z",
+  "model": "glm-5.3"
 }

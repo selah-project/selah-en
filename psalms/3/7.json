@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "I will not fear myriads of people who have set themselves against me round about.",
-  "tokens": [
+  "ref": "psalms 3:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "אירא",
-      "gloss": "I will fear"
-    },
-    {
-      "surface": "מרבבות",
-      "gloss": "myriads of",
-      "readings": [
-        "myriads of",
-        "from myriads of"
-      ],
-      "held_by": {
-        "myriads of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from myriads of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עם",
-      "gloss": "people"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "סביב",
-      "gloss": "round about"
-    },
-    {
-      "surface": "שתו",
-      "gloss": "have set themselves"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "against me"
+      "kind": "idiom",
+      "subject": "fear from",
+      "rationale": "Hebrew מִן with ירא keeps its literal 'from'; English idiom drops it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will not fear from myriads of people who have set themselves around against me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4fae80d6684459734603e72231d8e2bd34104db472e037bb9b9ab158e80aafd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/3\/5-8.1791192343839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִירָא",
+      "gloss": "I will fear",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵרִבְבוֹת",
+      "gloss": "from myriads of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָם",
+      "gloss": "people",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "סָבִיב",
+      "gloss": "around",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁתוּ",
+      "gloss": "have set themselves",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַי",
+      "gloss": "against me",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:25:43.840109865Z",
+  "model": "glm-5.3"
 }

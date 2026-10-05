@@ -1,50 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "If I spurned the judgment of my manservant or the cause of my maidservant in their dispute with me,",
+  "ref": "job 31:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "refused",
+      "rationale": "מאס S1 is 'unwilling to engage with, despise'; rendered 'refused' to carry the legal context"
+    },
+    {
+      "kind": "you",
+      "subject": "Job",
+      "rationale": "Job's oath protesting his justice toward his servants, spoken to Elohim and the friends"
+    }
+  ],
+  "translation": "If I refused the claim of my manservant or my maidservant in their dispute with me,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "049fdbc527a3bdda05838374e7d8ff8e042e4abbf0da456113907269822b9ed3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/13-16.1791194501259.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "אמאס",
-      "gloss": "spurned"
+      "surface": "אֶמְאַס",
+      "gloss": "I refused",
+      "sense": "S1"
     },
     {
-      "surface": "משפט",
-      "gloss": "the judgment of",
-      "readings": [
-        "the judgment of",
-        "the cause of"
-      ],
-      "held_by": {
-        "the judgment of": [
-          "v1"
-        ],
-        "the cause of": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "מִשְׁפַּט",
+      "gloss": "the claim of",
+      "sense": "S1"
     },
     {
-      "surface": "עבדי",
-      "gloss": "of my manservant"
+      "surface": "עַבְדִּי",
+      "gloss": "my manservant",
+      "sense": "S1"
     },
     {
-      "surface": "ואמתי",
-      "gloss": "or my maidservant"
+      "surface": "וַאֲמָתִי",
+      "gloss": "or my maidservant",
+      "sense": "S1"
     },
     {
-      "surface": "ברבם",
-      "gloss": "in their dispute with"
+      "surface": "בְּרִיבָם",
+      "gloss": "in their dispute",
+      "sense": "S1"
     },
     {
-      "surface": "עמדי",
-      "gloss": "me"
+      "surface": "עִמָּדִי",
+      "gloss": "with me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:41.261008047Z",
+  "model": "glm-5.3"
 }

@@ -1,206 +1,162 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "and I will not again remove ⟨את⟩ the foot of Israel from off ⟨את⟩ the land which I have appointed for your fathers, if only they observe to do ⟨את⟩ all that I have commanded them — to all the Torah and the statutes and the judgments by the hand of Moses.",
+  "ref": "2-chronicles 33:8",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "the foot of Israel",
+      "rationale": "רגל is metonymy for the whole person; 'remove the foot' = exile the people, but the body-part picture is kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "for all the Torah",
+      "rationale": "לכל התורה reads oddly beside 2 Kings 21:8 ולכל התורה אשר צוה אותם עבדי משה; Chronicles absorbs the relative clause and attributes the commanding to 'I', God."
+    },
+    {
+      "kind": "alternative",
+      "subject": "I established",
+      "rationale": "Kings has 'that I gave'; Chronicles' העמדתי is 'caused to stand', rendered literally as 'established'."
+    }
+  ],
+  "translation": "And I will not add again to remove ⟨את⟩ the foot of Israel from upon the ground that I established for your fathers — only if they keep watch to do ⟨את⟩ all that I commanded them: for all the Torah and the statutes and the ordinances by the hand of Moses.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "de73c607f021041e6341adbea683d945ca8425cb13e2a584524156363136e132",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/33\/8-8.1791200669339.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "אוסיף",
-      "gloss": "I will again"
+      "surface": "אוֹסִ֗יף",
+      "gloss": "I will add",
+      "sense": null
     },
     {
-      "surface": "להסיר",
-      "gloss": "remove"
+      "surface": "לְהָסִיר֙",
+      "gloss": "to remove",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the foot of Israel"
     },
     {
-      "surface": "רגל",
-      "gloss": "the foot"
+      "surface": "רֶ֣גֶל",
+      "gloss": "the foot of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵ֔ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "מעל",
-      "gloss": "from off",
+      "surface": "מֵעַל֙",
+      "gloss": "from upon"
+    },
+    {
+      "surface": "הָֽאֲדָמָ֔ה",
+      "gloss": "the ground",
+      "sense": "S1",
       "readings": [
-        "from off",
-        "from upon"
-      ],
-      "held_by": {
-        "from off": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from upon": [
-          "en4"
-        ]
-      }
+        "the ground",
+        "the land"
+      ]
     },
     {
-      "surface": "האדמה",
-      "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "v1"
-        ]
-      }
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that"
     },
     {
-      "surface": "אשר",
-      "gloss": "which",
-      "readings": [
-        "which",
-        "that"
-      ],
-      "held_by": {
-        "which": [
-          "v1",
-          "v2"
-        ],
-        "that": [
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "הֶֽעֱמַ֖דְתִּי",
+      "gloss": "I established",
+      "sense": null
     },
     {
-      "surface": "העמדתי",
-      "gloss": "I have appointed",
-      "readings": [
-        "I have appointed",
-        "I caused to stand"
-      ],
-      "held_by": {
-        "I have appointed": [
-          "v2",
-          "v3"
-        ],
-        "I caused to stand": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "לַאֲבֹֽתֵיכֶ֑ם",
+      "gloss": "for your fathers",
+      "sense": "S1"
     },
     {
-      "surface": "לאבתיכם",
-      "gloss": "for your fathers"
-    },
-    {
-      "surface": "רק",
+      "surface": "רַ֣ק",
       "gloss": "only"
     },
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "if"
     },
     {
-      "surface": "ישמרו",
-      "gloss": "they keep",
-      "readings": [
-        "they keep",
-        "they observe"
-      ],
-      "held_by": {
-        "they keep": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "they observe": [
-          "v2"
-        ]
-      }
+      "surface": "יִשְׁמְר֣וּ",
+      "gloss": "they keep watch",
+      "sense": "S1"
     },
     {
-      "surface": "לעשות",
-      "gloss": "to do"
+      "surface": "לַעֲשׂ֗וֹת",
+      "gloss": "to do",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵ֚ת",
+      "gloss": "⟨את⟩",
+      "marks": "all that I commanded them"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "אשר",
-      "gloss": "that",
-      "readings": [
-        "that",
-        "which"
-      ],
-      "held_by": {
-        "that": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "which": [
-          "v1"
-        ]
-      }
+      "surface": "אֲש׶ֶ֣ר",
+      "gloss": "that"
     },
     {
-      "surface": "צויתים",
-      "gloss": "I have commanded them"
+      "surface": "צִוִּיתִ֔ים",
+      "gloss": "I commanded them",
+      "sense": "S1"
     },
     {
-      "surface": "לכל",
-      "gloss": "to all"
+      "surface": "לְכָל",
+      "gloss": "for all"
     },
     {
-      "surface": "התורה",
-      "gloss": "the Torah"
+      "surface": "הַתּוֹרָ֛ה",
+      "gloss": "the Torah",
+      "sense": "S1"
     },
     {
-      "surface": "והחקים",
-      "gloss": "and the statutes"
+      "surface": "וְהַֽחֻקִּ֥ים",
+      "gloss": "and the statutes",
+      "sense": "S1"
     },
     {
-      "surface": "והמשפטים",
-      "gloss": "and the judgments",
-      "readings": [
-        "and the judgments",
-        "and the ordinances"
-      ],
-      "held_by": {
-        "and the judgments": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and the ordinances": [
-          "v2"
-        ]
-      }
+      "surface": "וְהַמִּשְׁפָּטִ֖ים",
+      "gloss": "and the ordinances",
+      "sense": "S1"
     },
     {
-      "surface": "ביד",
-      "gloss": "by the hand"
+      "surface": "בְּיַ֥ד",
+      "gloss": "by the hand of",
+      "sense": "S1"
     },
     {
-      "surface": "משה",
-      "gloss": "of Moses"
+      "surface": "מֹשֶֽׁה",
+      "gloss": "Moses",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:44:29.340205404Z",
+  "model": "glm-5.3"
 }

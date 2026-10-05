@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Gird your sword upon your thigh, O mighty one — your splendor and your majesty.",
-  "tokens": [
+  "ref": "psalms 45:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
     {
-      "surface": "חגור",
-      "gloss": "Gird"
+      "kind": "addition",
+      "subject": "⟨your⟩",
+      "rationale": "ירך carries no suffix; 'your' supplied from context to make the phrase communicate."
     },
     {
-      "surface": "חרבך",
-      "gloss": "your sword"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "ירך",
-      "gloss": "thigh",
-      "readings": [
-        "thigh",
-        "loin"
-      ],
-      "held_by": {
-        "thigh": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "גבור",
-      "gloss": "O mighty one"
-    },
-    {
-      "surface": "הודך",
-      "gloss": "your splendor",
-      "readings": [
-        "your splendor",
-        "your majesty"
-      ],
-      "held_by": {
-        "your splendor": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your majesty": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "והדרך",
-      "gloss": "and your majesty"
+      "kind": "crux",
+      "subject": "your splendor and your majesty",
+      "rationale": "הודך והדרך is a verbless exclamation; read 'your splendor and your majesty are (upon you)' or as the object of girding — 'gird on your splendor'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Gird your sword upon ⟨your⟩ thigh, O mighty one — your splendor and your majesty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "44e9bcaacc69309d5484772e6f113aad7357264ed83b7f7eb72cf7ae4c6682e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/45\/1-4.1791192732212.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חֲגֹֽר",
+      "gloss": "Gird",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַרְבְּךָ֣",
+      "gloss": "your sword",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "יָרֵ֣ךְ",
+      "gloss": "⟨your⟩ thigh",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּבּ֑וֹר",
+      "gloss": "O mighty one",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹדְךָ֗",
+      "gloss": "your splendor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַהֲדָרֶֽךָ",
+      "gloss": "and your majesty",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:12.214126013Z",
+  "model": "glm-5.3"
 }

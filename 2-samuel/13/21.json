@@ -1,14 +1,43 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And the king David heard ⟨את⟩ all these words, and it burned to him very.",
+  "ref": "2-samuel 13:21",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "ויחר לו",
+      "rationale": "literally 'it burned to him', idiom for anger"
+    },
+    {
+      "kind": "alternative",
+      "subject": "the king David",
+      "rationale": "Hebrew order puts the title before the name"
+    }
+  ],
+  "translation": "And David the king heard ⟨את⟩ all these matters, and it burned in him exceedingly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2ac00962d02796c1ac6c317dc5006e8a586af96b5c6780e6219a946264bc8249",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/13\/21-24.1791186332593.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "והמלך",
-      "gloss": "and the king"
+      "gloss": "And the king",
+      "sense": "S1"
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "שמע",
@@ -16,7 +45,8 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all these matters"
     },
     {
       "surface": "כל",
@@ -24,40 +54,33 @@
     },
     {
       "surface": "הדברים",
-      "gloss": "the words"
+      "gloss": "these matters",
+      "sense": "S1",
+      "readings": [
+        "these matters",
+        "these words"
+      ]
     },
     {
       "surface": "האלה",
-      "gloss": "these"
+      "gloss": "these",
+      "sense": "S1"
     },
     {
       "surface": "ויחר",
       "gloss": "and it burned",
-      "readings": [
-        "and it burned",
-        "and it was vexing"
-      ],
-      "held_by": {
-        "and it burned": [
-          "en4"
-        ],
-        "and it was vexing": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "לו",
-      "gloss": "to him"
+      "gloss": "in him"
     },
     {
       "surface": "מאד",
-      "gloss": "very"
+      "gloss": "exceedingly",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:45:32.594601697Z",
+  "model": "glm-5.3"
 }

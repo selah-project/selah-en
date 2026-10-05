@@ -1,50 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And behold, a woman to meet him — the dress of a harlot, and guarded of heart.",
+  "ref": "proverbs 7:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "שִׁית",
+      "rationale": "Rare word, only here and Psalm 73:6; exact meaning uncertain, likely a garment."
+    },
+    {
+      "kind": "alternative",
+      "subject": "hidden of heart",
+      "rationale": "Could read 'guarded of heart' (passive of נצר), but context favors 'her intentions concealed'."
+    }
+  ],
+  "translation": "And behold, a woman ⟨to meet⟩ him — the dress of a prostitute, and hidden of heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3540a615e6f4e7ae2c7e98c6c57011db256ca227f3f6aa8bb672d3920e38ddd4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/7\/9-12.1791193756676.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "והנה",
+      "surface": "וְהִנֵּ֣ה",
       "gloss": "and behold"
     },
     {
-      "surface": "אשה",
-      "gloss": "a woman"
+      "surface": "אִ֭שָּׁה",
+      "gloss": "a woman",
+      "sense": "S1"
     },
     {
-      "surface": "לקראתו",
-      "gloss": "to meet him"
+      "surface": "לִקְרָאת֑וֹ",
+      "gloss": "⟨to meet⟩ him",
+      "sense": "S1"
     },
     {
-      "surface": "שית",
-      "gloss": "the dress of",
-      "readings": [
-        "the dress of",
-        "wearing the attire of"
-      ],
-      "held_by": {
-        "the dress of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wearing the attire of": [
-          "v1"
-        ]
-      }
+      "surface": "שִׁ֥ית",
+      "gloss": "the dress",
+      "sense": "S1"
     },
     {
-      "surface": "זונה",
-      "gloss": "a harlot"
+      "surface": "ז֝וֹנָ֗ה",
+      "gloss": "of a prostitute",
+      "sense": "S1"
     },
     {
-      "surface": "ונצרת",
-      "gloss": "and guarded of"
+      "surface": "וּנְצֻ֥רַת",
+      "gloss": "and hidden",
+      "sense": "S2"
     },
     {
-      "surface": "לב",
-      "gloss": "heart"
+      "surface": "לֵֽב",
+      "gloss": "of heart",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:49:16.677357015Z",
+  "model": "glm-5.3"
 }

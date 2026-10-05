@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The bows of the mighty are broken, and those who stumbled ⟨have⟩ girded themselves with strength.",
-  "tokens": [
+  "ref": "1-samuel 2:4",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "קשת",
-      "gloss": "bows"
+      "kind": "substitution",
+      "subject": "is broken",
+      "rationale": "חתים literally 'crushed\/terrified', an adjective matching the broken bow, not a passive verb"
     },
     {
-      "surface": "גברים",
-      "gloss": "of the mighty"
-    },
-    {
-      "surface": "חתים",
-      "gloss": "are broken",
-      "readings": [
-        "are broken",
-        "dismayed"
-      ],
-      "held_by": {
-        "are broken": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "dismayed": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ונכשלים",
-      "gloss": "and those who stumbled"
-    },
-    {
-      "surface": "אזרו",
-      "gloss": "girded themselves"
-    },
-    {
-      "surface": "חיל",
-      "gloss": "strength",
-      "readings": [
-        "strength",
-        "might"
-      ],
-      "held_by": {
-        "strength": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "might": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "girded",
+      "rationale": "אזרו literally to belt on a girdle; girding on strength is battle-dress imagery, the picture kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The bow of the mighty is broken, and the stumbling ones girded themselves with strength.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7ac64b1af2da9e6086d3679c64e95f9a852806e4e941da49bcfc864f984aa72",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/1-4.1791185391759.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קֶשֶׁת",
+      "gloss": "the bow",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּבֹּרִים",
+      "gloss": "of the mighty",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַתִּים",
+      "gloss": "is broken",
+      "sense": "S1",
+      "readings": [
+        "is broken",
+        "are shattered"
+      ]
+    },
+    {
+      "surface": "וְנִכְשָׁלִים",
+      "gloss": "and the stumbling ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָזְרוּ",
+      "gloss": "girded themselves",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָיִל",
+      "gloss": "with strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:29:51.761716060Z",
+  "model": "glm-5.3"
 }

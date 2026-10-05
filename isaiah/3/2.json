@@ -1,36 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "The mighty man and the man of war, the judge and the prophet, the diviner and the elder.",
-  "tokens": [
+  "ref": "isaiah 3:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "גבור",
-      "gloss": "the mighty man"
-    },
-    {
-      "surface": "ואיש",
-      "gloss": "and the man of"
-    },
-    {
-      "surface": "מלחמה",
-      "gloss": "war"
-    },
-    {
-      "surface": "שופט",
-      "gloss": "the judge"
-    },
-    {
-      "surface": "ונביא",
-      "gloss": "and the prophet"
-    },
-    {
-      "surface": "וקסם",
-      "gloss": "and the diviner"
-    },
-    {
-      "surface": "וזקן",
-      "gloss": "and the elder"
+      "kind": "elision",
+      "subject": "supply-list",
+      "rationale": "the verse is an itemized list of what YHWH removes (v.1 מסיר); the relative 'whom he removes' is carried by the dash"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "mighty-man and man of war, judge and prophet and diviner and elder —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3a9c59c06bf55677072466ae5c50f854814a31458c6ef0c45d8b0a61da158616",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/3\/1-4.1791188023412.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גִּבּוֹר",
+      "gloss": "mighty-man",
+      "sense": "S1",
+      "readings": [
+        "mighty-man",
+        "warrior"
+      ]
+    },
+    {
+      "surface": "וְאִישׁ",
+      "gloss": "and man of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלְחָמָה",
+      "gloss": "war",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹפֵט",
+      "gloss": "judge",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָבִיא",
+      "gloss": "and prophet",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְקֹסֵם",
+      "gloss": "and diviner",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְזָקֵן",
+      "gloss": "and elder",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:13:43.413898840Z",
+  "model": "glm-5.3"
 }

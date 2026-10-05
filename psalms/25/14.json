@@ -1,45 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "The secret of YHWH is for those who fear him, and his covenant — to make them know ⟨it⟩.",
+  "ref": "psalms 25:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the subject phrases and what follows"
+    },
+    {
+      "kind": "crux",
+      "subject": "secret",
+      "rationale": "סוד can be the intimate council itself or the confidential matter shared within it"
+    },
+    {
+      "kind": "secret",
+      "subject": "סוד יהוה",
+      "rationale": "the verse names YHWH's סוד — the hidden counsel shared with those who fear him"
+    }
+  ],
+  "translation": "The secret of YHWH is for those who fear him, and his covenant, to make them know.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "127986823e4d78163c0232e1601ea81ccfcee136d5d48d14547b421483ed98e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/13-16.1791192532574.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "סוד",
-      "gloss": "the secret",
+      "surface": "ס֣וֹד",
+      "gloss": "the secret of",
       "readings": [
-        "the secret",
-        "the secret council"
+        "the secret of",
+        "the council of"
       ],
-      "held_by": {
-        "the secret": [
-          "v2",
-          "v3"
-        ],
-        "the secret council": [
-          "en4"
-        ],
-        "the intimate council": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ליראיו",
-      "gloss": "for those who fear him"
+      "surface": "לִירֵאָ֑יו",
+      "gloss": "for those who fear him",
+      "sense": "S1"
     },
     {
-      "surface": "ובריתו",
-      "gloss": "and his covenant"
+      "surface": "וּ֝בְרִית֗וֹ",
+      "gloss": "and his covenant",
+      "sense": "S1"
     },
     {
-      "surface": "להודיעם",
+      "surface": "לְהוֹדִיעָֽם",
       "gloss": "to make them know"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:52.575122346Z",
+  "model": "glm-5.3"
 }

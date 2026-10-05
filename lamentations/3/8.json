@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Even when I cry out and call for help, he shuts out my prayer.",
-  "tokens": [
+  "ref": "lamentations 3:8",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "גם",
-      "gloss": "Even"
+      "kind": "crux",
+      "subject": "shuts out",
+      "rationale": "שָׂתַם literally 'stops up' (as a wall or well is stopped); of prayer: 'blocks\/shuts out' vs 'keeps secret'"
     },
     {
-      "surface": "כי",
-      "gloss": "when"
-    },
-    {
-      "surface": "אזעק",
-      "gloss": "I cry out"
-    },
-    {
-      "surface": "ואשוע",
-      "gloss": "and call for help"
-    },
-    {
-      "surface": "שתם",
-      "gloss": "he shuts out",
-      "readings": [
-        "he shuts out",
-        "he has stopped up"
-      ],
-      "held_by": {
-        "he shuts out": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he has stopped up": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תפלתי",
-      "gloss": "my prayer"
+      "kind": "wordplay",
+      "subject": "אֶזְעַק \/ וַאֲשַׁוֵּעַ",
+      "rationale": "Near-synonymous pair of cry-verbs, a doubled plea against the one shutting it out"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Even when I cry out and call for help, He shuts out my prayer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4caf35ec4ca5acdaf3873223faf2e77339d04e3f650aa732e05511fc71839a47",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/5-8.1791194696390.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גַּם",
+      "gloss": "Even",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "אֶזְעַק",
+      "gloss": "I cry out",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲשַׁוֵּעַ",
+      "gloss": "and call for help",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂתַם",
+      "gloss": "He shuts out",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּפִלָּתִי",
+      "gloss": "my prayer",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:56.391491847Z",
+  "model": "glm-5.3"
 }

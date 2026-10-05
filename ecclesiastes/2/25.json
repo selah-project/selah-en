@@ -1,62 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "For who can eat, and who can feel enjoyment, apart from me?",
+  "ref": "ecclesiastes 2:25",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ממני",
+      "rationale": "'from me' vs 'from Him' — the 1st-person suffix is kept, though the referent is Elohim from v. 24."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יאכל\/יחוש",
+      "rationale": "rhetorical double question pairs eating with enjoyment; the idiom חוץ ממני 'outside of me' is kept literally."
+    }
+  ],
+  "translation": "For who will eat, and who will enjoy himself, out from beside me?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a02a6abb980d8182cc172594a6edb853ecac2154c162656b129fb9c9b5ac7fa2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/2\/25-26.1791194811333.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "For"
     },
     {
-      "surface": "מי",
-      "gloss": "who"
+      "surface": "מִ֥י",
+      "gloss": "who",
+      "sense": "S1"
     },
     {
-      "surface": "יאכל",
-      "gloss": "can eat"
+      "surface": "יֹאכַ֛ל",
+      "gloss": "will eat",
+      "sense": "S1"
     },
     {
-      "surface": "ומי",
-      "gloss": "and who"
+      "surface": "וּמִ֥י",
+      "gloss": "and who",
+      "sense": "S1"
     },
     {
-      "surface": "יחוש",
-      "gloss": "can feel enjoyment",
+      "surface": "יָח֖וּשׁ",
+      "gloss": "will enjoy himself",
+      "sense": "S1",
       "readings": [
-        "can feel enjoyment",
-        "can hurry"
-      ],
-      "held_by": {
-        "can feel enjoyment": [
-          "v2",
-          "v3"
-        ],
-        "can hurry": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+        "will enjoy himself",
+        "will be eager"
+      ]
     },
     {
-      "surface": "חוץ",
-      "gloss": "apart from",
+      "surface": "ח֥וּץ",
+      "gloss": "out from beside"
+    },
+    {
+      "surface": "מִמֶּֽנִּי",
+      "gloss": "me",
       "readings": [
-        "apart from",
-        "outside"
-      ],
-      "held_by": {
-        "apart from": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממני",
-      "gloss": "from me"
+        "me",
+        "Him"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:06:51.334411826Z",
+  "model": "glm-5.3"
 }

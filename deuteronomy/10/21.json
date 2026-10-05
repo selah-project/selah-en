@@ -1,22 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "He is your praise, and He is your Elohim, who did with ⟨את⟩ you ⟨את⟩ the great things and ⟨את⟩ the fearsome things, these that your eyes saw.",
+  "ref": "deuteronomy 10:21",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "praise",
+      "rationale": "תהללתך is concrete: he is the object of your praise — 'He is your praise' kept literally"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second-masculine-singular address throughout, Moses speaking to Israel"
+    }
+  ],
+  "translation": "He is your praise, and he is your Elohim, who did ⟨את⟩ with you ⟨את⟩ the great things and ⟨את⟩ the fearsome things, these, that saw your two eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf81150e70b8176b107b8b7aa952acc67daa91f5098e1668909d001e86180511",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/10\/21-22.1791183770415.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "הוא",
-      "gloss": "He"
+      "gloss": "He",
+      "sense": null
     },
     {
       "surface": "תהלתך",
-      "gloss": "your praise"
+      "gloss": "your praise",
+      "sense": "S1"
     },
     {
       "surface": "והוא",
-      "gloss": "and He"
+      "gloss": "and he",
+      "sense": null
     },
     {
       "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -24,31 +55,40 @@
     },
     {
       "surface": "עשה",
-      "gloss": "did"
+      "gloss": "did",
+      "sense": "S1"
     },
     {
       "surface": "אתך",
-      "gloss": "with ⟨את⟩ you"
+      "gloss": "⟨את⟩ with you",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the great things",
+      "sense": null
     },
     {
       "surface": "הגדלת",
-      "gloss": "the great things"
+      "gloss": "the great things",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the fearsome things",
+      "sense": null
     },
     {
       "surface": "הנוראת",
-      "gloss": "the fearsome things"
+      "gloss": "the fearsome things",
+      "sense": "S1"
     },
     {
       "surface": "האלה",
-      "gloss": "these"
+      "gloss": "these",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -56,13 +96,15 @@
     },
     {
       "surface": "ראו",
-      "gloss": "saw"
+      "gloss": "saw",
+      "sense": "S1"
     },
     {
       "surface": "עיניך",
-      "gloss": "your eyes"
+      "gloss": "your two eyes",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:02:50.416477244Z",
+  "model": "glm-5.3"
 }

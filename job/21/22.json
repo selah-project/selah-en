@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Shall ⟨anyone⟩ teach El knowledge, He who judges the high ones?",
-  "tokens": [
+  "ref": "job 21:22",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "הלאל",
-      "gloss": "to El"
+      "kind": "crux",
+      "subject": "הַלְאֵל",
+      "rationale": "Interrogative ה + ל + אל: 'Shall one teach knowledge to El?' — a rhetorical question denying that a mortal can instruct God."
     },
     {
-      "surface": "ילמד",
-      "gloss": "shall ⟨anyone⟩ teach"
-    },
-    {
-      "surface": "דעת",
-      "gloss": "knowledge"
-    },
-    {
-      "surface": "והוא",
-      "gloss": "And He"
-    },
-    {
-      "surface": "רמים",
-      "gloss": "the high ones",
-      "readings": [
-        "the high ones",
-        "the exalted ones"
-      ],
-      "held_by": {
-        "the high ones": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the exalted ones": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ישפוט",
-      "gloss": "judges"
+      "kind": "elision",
+      "subject": "ל prefix",
+      "rationale": "The preposition ל ('to El') has no separate English row; 'teach El' carries it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Does one teach El knowledge, ⟨את⟩ he who judges the exalted ones?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0fe2702ba6ba305a7563b211d3038fb5df69f850bd5abeac00e89b7f3b884769",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/21-24.1791194374681.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַלְאֵל",
+      "gloss": "Does one teach El",
+      "sense": "S2"
+    },
+    {
+      "surface": "יְלַמֶּד",
+      "gloss": "Does one teach",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּעַת",
+      "gloss": "knowledge",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהוּא",
+      "gloss": "⟨את⟩ he",
+      "sense": null
+    },
+    {
+      "surface": "רָמִים",
+      "gloss": "the exalted ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁפֹּט",
+      "gloss": "judges",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:34.682001168Z",
+  "model": "glm-5.3"
 }

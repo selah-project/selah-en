@@ -1,50 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "They cried for help, and there was no savior; unto YHWH, and he did not answer them.",
-  "tokens": [
+  "ref": "psalms 18:42",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "ישועו",
-      "gloss": "they cried for help"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there was not"
-    },
-    {
-      "surface": "מושיע",
-      "gloss": "one saving",
-      "readings": [
-        "one saving",
-        "a savior"
-      ],
-      "held_by": {
-        "one saving": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a savior": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "על",
-      "gloss": "unto"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "ענם",
-      "gloss": "he answered them"
+      "kind": "crux",
+      "subject": "על",
+      "rationale": "Psalm reads עַל ‘upon\/against’ where 2 Sam 22:42 reads אֶל ‘to’; rendered as the direction of the cry"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They shout for help, and there is no savior; to YHWH — but he does not answer them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a6aba5e932e856b3d3d2fe88f871ab393b7a01dd181e92040d688b2c1a7575ce",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/41-44.1791192480932.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְשַׁוְּע֥וּ",
+      "gloss": "they shout for help",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵין",
+      "gloss": "and there is not",
+      "sense": null
+    },
+    {
+      "surface": "מוֹשִׁ֑יעַ",
+      "gloss": "a savior",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָנָֽם",
+      "gloss": "he answers them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:00.933579454Z",
+  "model": "glm-5.3"
 }

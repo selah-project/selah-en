@@ -1,64 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "May Elohim show us favor and bless us, may he make his face shine with ⟨את⟩ us. Selah.",
-  "tokens": [
+  "ref": "psalms 67:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 67,
+  "notes": [
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "crux",
+      "subject": "אִתָּנוּ",
+      "rationale": "preposition את 'with' (not the object marker); 'with us' vs traditional 'upon us'"
     },
     {
-      "surface": "יחננו",
-      "gloss": "show us favor",
-      "readings": [
-        "show us favor",
-        "be gracious to us"
-      ],
-      "held_by": {
-        "show us favor": [
-          "v1",
-          "en4"
-        ],
-        "be gracious to us": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ויברכנו",
-      "gloss": "and bless us"
-    },
-    {
-      "surface": "יאר",
-      "gloss": "make shine",
-      "readings": [
-        "make shine",
-        "cause to illuminate"
-      ],
-      "held_by": {
-        "make shine": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "cause to illuminate": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "פניו",
-      "gloss": "his face"
-    },
-    {
-      "surface": "אתנו",
-      "gloss": "⟨את⟩ with us"
-    },
-    {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "kind": "invitation",
+      "subject": "prayer for blessing",
+      "rationale": "the verse is a spoken petition summoning Elohim's favor"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim favors us and blesses us, may he make his face shine ⟨את⟩ with us. Selah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f2cc5c4c701c34c6456ef75be1e5e4f8623e548982a868023612545136bf503c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/67\/1-4.1791192894164.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְחַנֵּנוּ",
+      "gloss": "favors us",
+      "sense": "S1"
+    },
+    {
+      "surface": "וִיבָרְכֵנוּ",
+      "gloss": "and blesses us",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָאֵר",
+      "gloss": "may he make shine",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּנָיו",
+      "gloss": "his face",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתָּנוּ",
+      "gloss": "⟨את⟩ with us",
+      "sense": null
+    },
+    {
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:54.164878860Z",
+  "model": "glm-5.3"
 }

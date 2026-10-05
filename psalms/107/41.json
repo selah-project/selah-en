@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And He sets the needy on high from affliction, and makes ⟨his⟩ families like a flock.",
-  "tokens": [
+  "ref": "psalms 107:41",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "וישגב",
-      "gloss": "and He sets on high"
+      "kind": "addition",
+      "subject": "him",
+      "rationale": "Hebrew leaves the object of וישם implicit; supplied to make English read"
     },
     {
-      "surface": "אביון",
-      "gloss": "the needy"
-    },
-    {
-      "surface": "מעוני",
-      "gloss": "from affliction"
-    },
-    {
-      "surface": "וישם",
-      "gloss": "and makes"
-    },
-    {
-      "surface": "כצאן",
-      "gloss": "like a flock"
-    },
-    {
-      "surface": "משפחות",
-      "gloss": "families"
+      "kind": "crux",
+      "subject": "families",
+      "rationale": "משפחות can be the object of 'sets' (sets families like a flock) or an appositional gloss on the flock; both readings circulate"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And He raises the poor ⟨from⟩ his misery, and sets ⟨him⟩ like a flock, the families.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "196540cc1b2f1abee7f57abf18e7c1ab1b306bc15c1cf7ca1e7464aa7379dbd7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/41-43.1791193354092.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְשַׂגֵּ֣ב",
+      "gloss": "and He raises high",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶבְי֣וֹן",
+      "gloss": "the needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵע֑וֹנִי",
+      "gloss": "from misery",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיָּ֥שֶׂם",
+      "gloss": "and sets",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּ֝צֹּ֗אן",
+      "gloss": "like the flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁפָּחֽוֹת",
+      "gloss": "families",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:34.092649152Z",
+  "model": "glm-5.3"
 }

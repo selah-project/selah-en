@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "In famine he ransoms you from death, and in battle from the hands of the sword.",
-  "tokens": [
+  "ref": "job 5:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ברעב",
-      "gloss": "In famine"
+      "kind": "wordplay",
+      "subject": "מִיְּדֵי חֶרֶב",
+      "rationale": "'from the hands of the sword' — the sword personified with hands; kept literally rather than smoothed to 'from the sword'"
     },
     {
-      "surface": "פדך",
-      "gloss": "he ransoms you"
-    },
-    {
-      "surface": "ממות",
-      "gloss": "from death"
-    },
-    {
-      "surface": "ובמלחמה",
-      "gloss": "and in battle",
-      "readings": [
-        "and in battle",
-        "and in war"
-      ],
-      "held_by": {
-        "and in battle": [
-          "v1",
-          "v3"
-        ],
-        "and in war": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מידי",
-      "gloss": "from the hands of"
-    },
-    {
-      "surface": "חרב",
-      "gloss": "the sword",
-      "readings": [
-        "the sword",
-        "the drought"
-      ],
-      "held_by": {
-        "the sword": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the drought": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "חרב",
+      "rationale": "the word's base sense is 'drought'; here clearly the weapon, but the drought\/famine echo stands behind the parallel"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In famine he will ransom you from death, and in war from the hands of the sword.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "278f03c6a165003f583314ef0f327ca0a6aa6b877b7d2b1af339d8c89a4aadc8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/17-20.1791194166424.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּרָעָב",
+      "gloss": "In famine",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּדְךָ",
+      "gloss": "he will ransom you",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמָּוֶת",
+      "gloss": "from death",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְמִלְחָמָה",
+      "gloss": "and in war",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִיְּדֵי",
+      "gloss": "from the hands of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָרֶב",
+      "gloss": "the sword",
+      "sense": "S1",
+      "readings": [
+        "the sword",
+        "drought"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:06.425570788Z",
+  "model": "glm-5.3"
 }

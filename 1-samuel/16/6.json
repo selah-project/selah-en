@@ -1,77 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And it came to pass, when they came, and he saw ⟨את⟩ Eliab, and said, Surely before YHWH ⟨is⟩ his Mashiach.",
-  "tokens": [
+  "ref": "1-samuel 16:6",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "ויהי",
-      "gloss": "and it came to pass"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no copula; the exclamation is noun-only, “surely before YHWH his anointed”"
     },
     {
-      "surface": "בבואם",
-      "gloss": "when they came"
+      "kind": "crux",
+      "subject": "משיחו",
+      "rationale": "rendered “his anointed one” per the phrase rule; a Mashiach transliteration is the marked alternative"
     },
     {
-      "surface": "וירא",
-      "gloss": "and he saw"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "אליאב",
-      "gloss": "Eliab"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and said"
-    },
-    {
-      "surface": "אך",
-      "gloss": "surely",
-      "readings": [
-        "surely",
-        "only"
-      ],
-      "held_by": {
-        "surely": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "only": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נגד",
-      "gloss": "before"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "משיחו",
-      "gloss": "his Mashiach",
-      "readings": [
-        "his Mashiach",
-        "his anointed one"
-      ],
-      "held_by": {
-        "his Mashiach": [
-          "v3"
-        ],
-        "his anointed one": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "Surely",
+      "rationale": "אך here is Samuel’s mistaken certainty — the limiting particle read as affirmation of his wrong guess"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And it came to pass, when they came, and he saw ⟨את⟩ Eliab, and he said, “Surely before YHWH is his anointed one.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d45777a98b7e56bc24deada5b57e4e17538cdba58a9daabf7f6fea97c9bc77d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/16\/5-8.1791185726191.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְהִ֣י",
+      "gloss": "And it came to pass",
+      "sense": null
+    },
+    {
+      "surface": "בְּבוֹאָ֔ם",
+      "gloss": "when they came",
+      "sense": null
+    },
+    {
+      "surface": "וַיַּ֖רְא",
+      "gloss": "and he saw",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "Eliab"
+    },
+    {
+      "surface": "אֱלִיאָ֑ב",
+      "gloss": "Eliab",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּ֕אמֶר",
+      "gloss": "and he said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַ֛ךְ",
+      "gloss": "Surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶ֥גֶד",
+      "gloss": "before",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְשִׁיחֽוֹ",
+      "gloss": "is his anointed one",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:35:26.192908584Z",
+  "model": "glm-5.3"
 }

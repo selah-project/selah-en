@@ -1,43 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "to keep discretion, and ⟨that⟩ your lips may guard knowledge.",
-  "tokens": [
+  "ref": "proverbs 5:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "לשמר",
-      "gloss": "to keep"
+      "kind": "addition",
+      "subject": "⟨that⟩",
+      "rationale": "English needs a subordinator for the second purpose clause; Hebrew parataxis lacks one."
     },
     {
-      "surface": "מזמות",
+      "kind": "wordplay",
+      "subject": "לשמר\/ינצרו",
+      "rationale": "Two near-synonymous guarding verbs frame the verse; the pairing is only partly carried."
+    }
+  ],
+  "translation": "to keep discretion, and ⟨that⟩ knowledge may guard your lips.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a9fc2d3726bec4a35dd2e30951c3f30f141cab9ce7a9f02409f8e0f7bfa3072c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/5\/1-4.1791193717149.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לִשְׁמֹר",
+      "gloss": "to keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְזִמּוֹת",
       "gloss": "discretion",
       "readings": [
         "discretion",
-        "schemes"
+        "plans"
       ],
-      "held_by": {
-        "discretion": [
-          "v2",
-          "v3"
-        ],
-        "schemes": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ודעת",
-      "gloss": "and ⟨that⟩ knowledge"
+      "surface": "וְדַעַת",
+      "gloss": "and ⟨that⟩ knowledge",
+      "sense": "S1"
     },
     {
-      "surface": "שפתיך",
-      "gloss": "your lips"
+      "surface": "שְׂפָתֶיךָ",
+      "gloss": "your lips",
+      "sense": "S1"
     },
     {
-      "surface": "ינצרו",
-      "gloss": "may guard"
+      "surface": "יִנְצֹרוּ",
+      "gloss": "may guard",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:48:37.150210375Z",
+  "model": "glm-5.3"
 }

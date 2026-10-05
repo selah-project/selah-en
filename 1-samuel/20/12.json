@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And Jonathan said to David, “YHWH, Elohim of Israel — when I sound out ⟨את⟩ my father about this time tomorrow, the third, and behold, good toward David, and I will not then send to you and uncover ⟨את⟩ your ear — ”",
+  "ref": "1-samuel 20:12",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "uncover your ear",
+      "rationale": "גלה אזן, literally “uncover the ear,” idiom for disclosing information; the literal picture kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "כי",
+      "rationale": "After the divine name the כי opens either an oath formula (“if…”) or a simple causal “that”; the oath-conditional taken here."
+    },
+    {
+      "kind": "measurement",
+      "subject": "tomorrow the third day",
+      "rationale": "Jonathan fixes the probe precisely at the time, tomorrow, the third day."
+    }
+  ],
+  "translation": "And Jonathan said to David, “YHWH, Elohim of Israel, if I examine ⟨את⟩ my father at this time tomorrow, the third day, and behold, it is good toward David, then I will not then send to you and uncover ⟨את⟩ your ear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2efc55a4959753406063376178fd88b625e3663c82c3071db2bc47eae5a07ba7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/20\/9-12.1791185819697.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ויאמר",
-      "gloss": "And he said"
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
       "surface": "יהונתן",
-      "gloss": "Jonathan"
+      "gloss": "Jonathan",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -16,90 +50,57 @@
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהי",
-      "gloss": "Elohim"
+      "gloss": "Elohim of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "of Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "when",
-      "readings": [
-        "when",
-        "if"
-      ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "gloss": "if"
     },
     {
       "surface": "אחקר",
-      "gloss": "I sound out",
-      "readings": [
-        "I sound out",
-        "I have searched out"
-      ],
-      "held_by": {
-        "I sound out": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have searched out": [
-          "en4"
-        ]
-      }
+      "gloss": "I examine",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my father"
     },
     {
       "surface": "אבי",
-      "gloss": "my father"
+      "gloss": "my father",
+      "sense": "S1"
     },
     {
       "surface": "כעת",
-      "gloss": "about this time"
+      "gloss": "at this time",
+      "sense": "S1"
     },
     {
       "surface": "מחר",
-      "gloss": "tomorrow"
+      "gloss": "tomorrow",
+      "sense": "S1"
     },
     {
       "surface": "השלשית",
       "gloss": "the third",
-      "readings": [
-        "the third",
-        "the third day",
-        "or the third day"
-      ],
-      "held_by": {
-        "the third": [
-          "v1",
-          "v3"
-        ],
-        "the third day": [
-          "en4"
-        ],
-        "or the third day": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "והנה",
@@ -107,7 +108,8 @@
     },
     {
       "surface": "טוב",
-      "gloss": "good"
+      "gloss": "good",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -115,19 +117,23 @@
     },
     {
       "surface": "דוד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "ולא",
-      "gloss": "and I will not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "אז",
-      "gloss": "then"
+      "gloss": "then",
+      "sense": "S1"
     },
     {
       "surface": "אשלח",
-      "gloss": "I will send"
+      "gloss": "I will send",
+      "sense": "S1"
     },
     {
       "surface": "אליך",
@@ -135,30 +141,20 @@
     },
     {
       "surface": "וגליתי",
-      "gloss": "and I will uncover",
-      "readings": [
-        "and I will uncover",
-        "and have uncovered"
-      ],
-      "held_by": {
-        "and I will uncover": [
-          "v1",
-          "v3"
-        ],
-        "and have uncovered": [
-          "en4"
-        ]
-      }
+      "gloss": "and uncover",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "your ear"
     },
     {
       "surface": "אזנך",
-      "gloss": "your ear"
+      "gloss": "your ear",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:36:59.699275998Z",
+  "model": "glm-5.3"
 }

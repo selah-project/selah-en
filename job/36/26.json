@@ -1,44 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "Behold, El is great, and we do not know ⟨him⟩; the number of his years cannot be searched out.",
-  "tokens": [
+  "ref": "job 36:26",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "substitution",
+      "subject": "is unsearchable",
+      "rationale": "Hebrew has no verb in the second clause; 'and no searching-out' rendered as a predicate."
     },
     {
-      "surface": "אל",
-      "gloss": "El"
+      "kind": "addition",
+      "subject": "him",
+      "rationale": "Object of 'know' supplied; Hebrew has none."
     },
     {
-      "surface": "שגיא",
-      "gloss": "great"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "נדע",
-      "gloss": "we know"
-    },
-    {
-      "surface": "מספר",
-      "gloss": "the number"
-    },
-    {
-      "surface": "שניו",
-      "gloss": "of his years"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "חקר",
-      "gloss": "searched out"
+      "kind": "mystery",
+      "subject": "verse",
+      "rationale": "God's greatness and years declared beyond human knowing and searching."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Lo, El is great beyond our knowing — the number of his years is unsearchable.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5d265c913048c6b2c4c517937dea1565d0261c1bbeca32871fae5968c4b83eca",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/36\/25-28.1791194572494.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵן",
+      "gloss": "Lo",
+      "sense": null
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "El",
+      "sense": "S1"
+    },
+    {
+      "surface": "שַׂגִּיא",
+      "gloss": "is great beyond",
+      "sense": "S1",
+      "readings": [
+        "is great beyond",
+        "is surpassing"
+      ]
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵדָע",
+      "gloss": "we know ⟨him⟩",
+      "sense": null
+    },
+    {
+      "surface": "מִסְפַּר",
+      "gloss": "the number of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁנָיו",
+      "gloss": "his years",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "is without",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵקֶר",
+      "gloss": "searching-out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:52.495083177Z",
+  "model": "glm-5.3"
 }

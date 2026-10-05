@@ -1,99 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "They mount up to the heavens, they go down to the depths; their soul melts away in trouble.",
+  "ref": "psalms 107:26",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is the life-principle, closer to 'life' or 'throat' than the dualistic 'soul'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "going up \/ going down",
+      "rationale": "the sailors themselves rise and fall with the waves — merism kept as parallel verbs"
+    }
+  ],
+  "translation": "They go up to the heavens, they go down to the deeps; their soul melts away in trouble.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "840fe789ced46550b78ceb42735d827e6e38d64d288c51e809509d15ac33dd70",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/25-28.1791193347237.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יעלו",
-      "gloss": "They mount up",
-      "readings": [
-        "They mount up",
-        "They go up"
-      ],
-      "held_by": {
-        "They mount up": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "They go up": [
-          "en4"
-        ]
-      }
+      "surface": "יַעֲל֣וּ",
+      "gloss": "they go up",
+      "sense": "S1"
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "surface": "שָׁ֭מַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "ירדו",
-      "gloss": "they go down"
+      "surface": "יֵרְד֣וּ",
+      "gloss": "they go down",
+      "sense": "S1"
     },
     {
-      "surface": "תהומות",
-      "gloss": "the depths",
-      "readings": [
-        "the depths",
-        "the deeps"
-      ],
-      "held_by": {
-        "the depths": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the deeps": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "תְּהוֹמ֑וֹת",
+      "gloss": "the deeps",
+      "sense": "S1"
     },
     {
-      "surface": "נפשם",
+      "surface": "נַפְשָׁ֗ם",
       "gloss": "their soul",
       "readings": [
         "their soul",
-        "their nefesh",
-        "their life"
+        "their life",
+        "their throat"
       ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their nefesh": [
-          "en4"
-        ],
-        "their life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ברעה",
+      "surface": "בְּרָעָ֥ה",
       "gloss": "in trouble",
-      "readings": [
-        "in trouble",
-        "in evil"
-      ],
-      "held_by": {
-        "in trouble": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in evil": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "תתמוגג",
-      "gloss": "melts away"
+      "surface": "תִּתְמוֹגָֽג",
+      "gloss": "melts away",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:27.238214234Z",
+  "model": "glm-5.3"
 }

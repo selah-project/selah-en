@@ -1,51 +1,66 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "He sent darkness, and it was dark; and they did not rebel against ⟨את⟩ His word.",
+  "ref": "psalms 105:28",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "and they did not rebel against His words",
+      "rationale": "ambiguity: Egypt (who suffered the plague without defying) or Israel; ancient versions differ, some reading 'and they did not obey'"
+    }
+  ],
+  "translation": "He sent darkness, and it grew dark, and they did not rebel against ⟨את⟩ His words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8f9c6d091d52c9040fc1c5b59ee3b95a8100cfd1c67f1eedd5bdcf138b18972b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/25-28.1791193305474.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שלח",
-      "gloss": "He sent"
+      "surface": "שָׁ֣לַֽח",
+      "gloss": "He sent",
+      "sense": "S1"
     },
     {
-      "surface": "חשך",
-      "gloss": "darkness"
+      "surface": "חֹ֭שֶׁךְ",
+      "gloss": "darkness",
+      "sense": "S1"
     },
     {
-      "surface": "ויחשך",
-      "gloss": "and it was dark"
+      "surface": "וַיַּחְשִׁ֑ךְ",
+      "gloss": "and it grew dark",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹֽא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "מרו",
-      "gloss": "they rebelled against",
-      "readings": [
-        "they rebelled against",
-        "they were bitter against"
-      ],
-      "held_by": {
-        "they rebelled against": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they were bitter against": [
-          "en4"
-        ]
-      }
+      "surface": "מָ֝ר֗וּ",
+      "gloss": "they rebelled",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "His words",
+      "sense": null
     },
     {
       "surface": "דברוו",
-      "gloss": "His word"
+      "gloss": "His words",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:45.475566166Z",
+  "model": "glm-5.3"
 }

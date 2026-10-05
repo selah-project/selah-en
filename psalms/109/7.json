@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "In his being judged, let him go forth guilty, and let his prayer become sin.",
+  "ref": "psalms 109:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יצא רשע",
+      "rationale": "'go out guilty' — found guilty in court (SDBH) vs KJV 'be condemned'."
+    },
+    {
+      "kind": "crux",
+      "subject": "לחטאה",
+      "rationale": "'become sin' vs 'be counted as sin'; possibly his very prayer is reckoned an offense."
+    }
+  ],
+  "translation": "When he is judged, let him go out guilty, and his prayer become sin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10a1bfa66eb52a108037fbe4bbb3da8652c1725a619757892f282cf44a3e9945",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/5-8.1791193360020.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "בהשפטו",
-      "gloss": "In his being judged"
+      "gloss": "When he is judged",
+      "sense": "S1"
     },
     {
       "surface": "יצא",
-      "gloss": "let him go forth"
+      "gloss": "let him go out",
+      "readings": [
+        "let him go out",
+        "let him be found guilty"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "רשע",
       "gloss": "guilty",
-      "readings": [
-        "guilty",
-        "wicked"
-      ],
-      "held_by": {
-        "guilty": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "wicked": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "ותפלתו",
-      "gloss": "and let his prayer"
+      "gloss": "and his prayer",
+      "sense": "S1"
     },
     {
       "surface": "תהיה",
-      "gloss": "become"
+      "gloss": "become",
+      "sense": null
     },
     {
       "surface": "לחטאה",
-      "gloss": "for sin"
+      "gloss": "sin",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:40.021541566Z",
+  "model": "glm-5.3"
 }

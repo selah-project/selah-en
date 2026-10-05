@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Surely his salvation is near to those who fear him, for glory to dwell in our land.",
-  "tokens": [
+  "ref": "psalms 85:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
     {
-      "surface": "אך",
-      "gloss": "Surely"
+      "kind": "addition",
+      "subject": "may",
+      "rationale": "English needs a purpose modal for the infinitive לשכן; Hebrew has only the bare infinitive."
     },
     {
-      "surface": "קרוב",
-      "gloss": "is near"
-    },
-    {
-      "surface": "ליראיו",
-      "gloss": "to ⟨those who⟩ fear him"
-    },
-    {
-      "surface": "ישעו",
-      "gloss": "his salvation"
-    },
-    {
-      "surface": "לשכן",
-      "gloss": "to dwell"
-    },
-    {
-      "surface": "כבוד",
-      "gloss": "glory",
-      "readings": [
-        "glory",
-        "weight"
-      ],
-      "held_by": {
-        "glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "weight": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בארצנו",
-      "gloss": "in our land"
+      "kind": "alternative",
+      "subject": "glory",
+      "rationale": "כבוד literally weight; also rendered splendor or honor."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Surely his salvation is near to those who fear him, that glory may dwell in our land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "61cab21ff9b909cf63d7c43c88142a2ce2ce5264061848fbc114c435f7e3f1f5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/9-12.1791193120114.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַךְ",
+      "gloss": "surely",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָרוֹב",
+      "gloss": "near"
+    },
+    {
+      "surface": "לִירֵאָיו",
+      "gloss": "to those who fear him",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁעוֹ",
+      "gloss": "his salvation",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁכֹּן",
+      "gloss": "to dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּבוֹד",
+      "gloss": "glory",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּאַרְצֵנוּ",
+      "gloss": "in our land",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:40.115896867Z",
+  "model": "glm-5.3"
 }

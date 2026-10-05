@@ -1,87 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "To the Chief Musician; upon Alamoth Labben. A psalm of David.",
-  "tokens": [
+  "ref": "psalms 9:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "to the Chief Musician",
-      "readings": [
-        "to the Chief Musician",
-        "to the one who overcomes"
-      ],
-      "held_by": {
-        "to the Chief Musician": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the one who overcomes": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "עלמות לבן",
+      "rationale": "read as 'alamoth' (maidens, a tune) vs 'al mut labben' ('upon the death of the son'); the consonants permit both."
     },
     {
-      "surface": "עלמות",
-      "gloss": "upon Alamoth",
-      "readings": [
-        "upon Alamoth",
-        "upon maidens"
-      ],
-      "held_by": {
-        "upon Alamoth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "upon maidens": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לבן",
-      "gloss": "Labben",
-      "readings": [
-        "Labben",
-        "for the son"
-      ],
-      "held_by": {
-        "Labben": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for the son": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm",
-      "readings": [
-        "a psalm",
-        "a song set to strings"
-      ],
-      "held_by": {
-        "a psalm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a song set to strings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "kind": "hapax",
+      "subject": "עלמות לבן",
+      "rationale": "this division of the phrase occurs only here and at Psalm 48:15 in the Tanakh."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, upon the death of the son, a psalm of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "156f8a29552a53fdd2c352bcd9d67dd0d1a1fe2d0b3b102dfe18321b391d296b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/9\/1-4.1791192382245.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַ֭מְנַצֵּחַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַלְמ֥וּת",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "לַבֵּ֗ן",
+      "gloss": "the death of the son",
+      "sense": null
+    },
+    {
+      "surface": "מִזְמ֥וֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִֽד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:22.246442177Z",
+  "model": "glm-5.3"
 }

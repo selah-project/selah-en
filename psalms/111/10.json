@@ -1,67 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The beginning of wisdom is the fear of YHWH; good understanding to all who do them; his praise stands forever.",
+  "ref": "psalms 111:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 111,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause requires a copula in English"
+    },
+    {
+      "kind": "crux",
+      "subject": "עֹשֵׂיהֶם",
+      "rationale": "the 3mpl suffix 'them' has no antecedent in this verse; most read it as pointing back to YHWH's precepts (v.7 פקודי) or to wisdom's ways, hence the supplied ⟨it⟩"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יִרְאַת \/ וְנוֹרָא",
+      "rationale": "the root ירא binds v.9 (awesome, niph. participle) to v.10 (fear), a link partly lost in rendering 'awesome' and 'fear'"
+    },
+    {
+      "kind": "invitation",
+      "subject": "the verse",
+      "rationale": "the psalm's closing summons: wisdom begins with the fear of YHWH, addressed to the congregation"
+    }
+  ],
+  "translation": "The beginning of wisdom ⟨is⟩ the fear of YHWH; good understanding to all who practice ⟨it⟩; his praise stands forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ad65539c8e8e1aa8ec59f9d4a37d2c1bfa66532a5ebbc6682ff6c53acb46b7ad",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/111\/9-10.1791193382559.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ראשית",
-      "gloss": "the beginning of"
+      "surface": "רֵאשִׁית",
+      "gloss": "The beginning of",
+      "sense": "S1"
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
     },
     {
-      "surface": "יראת",
-      "gloss": "the fear of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "שכל",
-      "gloss": "understanding",
+      "surface": "יִרְאַת",
+      "gloss": "the fear of",
+      "sense": "S1",
       "readings": [
-        "understanding",
-        "success"
-      ],
-      "held_by": {
-        "understanding": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "success": [
-          "en4"
-        ]
-      }
+        "the fear of",
+        "the reverence of"
+      ]
     },
     {
-      "surface": "טוב",
-      "gloss": "good"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לכל",
+      "surface": "שֵׂכֶל",
+      "gloss": "understanding",
+      "sense": "S1"
+    },
+    {
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
       "gloss": "to all"
     },
     {
-      "surface": "עשיהם",
-      "gloss": "who do them"
+      "surface": "עֹשֵׂיהֶם",
+      "gloss": "who practice ⟨it⟩",
+      "sense": "S1"
     },
     {
-      "surface": "תהלתו",
-      "gloss": "his praise"
+      "surface": "תְּהִלָּתוֹ",
+      "gloss": "his praise",
+      "sense": "S1"
     },
     {
-      "surface": "עמדת",
+      "surface": "עֹמֶדֶת",
       "gloss": "stands"
     },
     {
-      "surface": "לעד",
-      "gloss": "forever"
+      "surface": "לָעַד",
+      "gloss": "forever",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:02.560272102Z",
+  "model": "glm-5.3"
 }

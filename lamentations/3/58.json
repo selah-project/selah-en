@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 58,
-  "translation": "You have pleaded, Adonai, the pleadings of my nefesh; You have redeemed my life.",
+  "ref": "lamentations 3:58",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "רבת \/ ריבי",
+      "rationale": "Verb and noun from the same root ריב in one clause — 'you have pleaded the pleas of' — kept as repetition in English."
+    },
+    {
+      "kind": "substitution",
+      "subject": "my nefesh",
+      "rationale": "נפש kept as transliteration at the head of a construct chain; readings carry 'life' and the literal 'throat'."
+    }
+  ],
+  "translation": "You have pleaded, Adonai, the pleas of my nefesh; you have redeemed my life.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "263e2d572e2db5010f8403066a161851e2f653437d6d2fff21c92c9b235fbd1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/57-60.1791194749417.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "רבת",
-      "gloss": "You have pleaded"
+      "surface": "רַ֧בְתָּ",
+      "gloss": "You have pleaded",
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָ֛י",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "ריבי",
-      "gloss": "the pleadings of"
+      "surface": "רִיבֵ֥י",
+      "gloss": "the pleas of",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֖י",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul",
-        "my life"
+        "my life",
+        "my throat"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "v3"
-        ],
-        "my life": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "גאלת",
-      "gloss": "You have redeemed"
+      "surface": "גָּאַ֥לְתָּ",
+      "gloss": "you have redeemed",
+      "sense": "S1"
     },
     {
-      "surface": "חיי",
-      "gloss": "my life"
+      "surface": "חַיָּֽי",
+      "gloss": "my life",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:05:49.417983831Z",
+  "model": "glm-5.3"
 }

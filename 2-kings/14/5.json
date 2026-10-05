@@ -1,6 +1,28 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And it came to pass, as soon as the kingdom was strong in his hand, he struck ⟨את⟩ his servants, who struck ⟨את⟩ the king his father.",
+  "ref": "2-kings 14:5",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "in his hand",
+      "rationale": "בידו literally 'in his hand', kept as picture of control"
+    }
+  ],
+  "translation": "And it came to pass, when the kingdom grew strong in his hand, that he struck ⟨את⟩ his servants, the ones who had struck ⟨את⟩ the king his father.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a715f02776be739ead1fe67889ebe0bfed4256fdcd66cbac16f1c95ec1848cd0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/14\/5-8.1791187677022.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ויהי",
@@ -8,33 +30,22 @@
     },
     {
       "surface": "כאשר",
-      "gloss": "as soon as",
-      "readings": [
-        "as soon as",
-        "when"
-      ],
-      "held_by": {
-        "as soon as": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "when": [
-          "en4"
-        ]
-      }
+      "gloss": "when"
     },
     {
       "surface": "חזקה",
-      "gloss": "was strong"
+      "gloss": "grew strong",
+      "sense": "S1"
     },
     {
       "surface": "הממלכה",
-      "gloss": "the kingdom"
+      "gloss": "the kingdom",
+      "sense": "S1"
     },
     {
       "surface": "בידו",
-      "gloss": "in his hand"
+      "gloss": "in his hand",
+      "sense": "S1"
     },
     {
       "surface": "ויך",
@@ -42,29 +53,34 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "his servants"
     },
     {
       "surface": "עבדיו",
-      "gloss": "his servants"
+      "gloss": "his servants",
+      "sense": "S1"
     },
     {
       "surface": "המכים",
-      "gloss": "who struck"
+      "gloss": "the ones who had struck"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the king his father"
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "אביו",
-      "gloss": "his father"
+      "gloss": "his father",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:07:57.023102836Z",
+  "model": "glm-5.3"
 }

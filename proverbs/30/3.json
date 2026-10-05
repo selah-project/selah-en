@@ -1,52 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And I have not learned wisdom, and the knowledge of the Holy Ones I would not know.",
-  "tokens": [
+  "ref": "proverbs 30:3",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "kind": "crux",
+      "subject": "קדשים",
+      "rationale": "Plural 'holy ones' (the Holy One, i.e. Elohim) vs 'saints\/holy people'; the plural of majesty reading is traditional."
     },
     {
-      "surface": "למדתי",
-      "gloss": "learned"
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "wisdom"
-    },
-    {
-      "surface": "ודעת",
-      "gloss": "and the knowledge"
-    },
-    {
-      "surface": "קדשים",
-      "gloss": "the Holy Ones",
-      "readings": [
-        "the Holy Ones",
-        "the Holy One",
-        "holy things"
-      ],
-      "held_by": {
-        "the Holy Ones": [
-          "v1",
-          "en4"
-        ],
-        "the Holy One": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "holy things": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אדע",
-      "gloss": "would I know"
+      "kind": "wordplay",
+      "subject": "דעת \/ אדע",
+      "rationale": "'knowledge' and 'do I know' share the root ידע, an emphatic echo."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I have not learned wisdom, nor the knowledge of the Holy Ones do I know.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "68e19fae4474453572172ca026a97e11da3b82ff25e0a68cd3d28b71ba1fa661",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/1-4.1791194074229.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְלֹא",
+      "gloss": "And not",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמַדְתִּי",
+      "gloss": "have I learned",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַעַת",
+      "gloss": "nor the knowledge of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְדֹשִׁים",
+      "gloss": "the Holy Ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵדָע",
+      "gloss": "do I know",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:34.230597036Z",
+  "model": "glm-5.3"
 }

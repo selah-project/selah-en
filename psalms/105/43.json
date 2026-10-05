@@ -1,50 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 43,
-  "translation": "And he brought forth his people with joy, and with singing ⟨את⟩ his chosen ones.",
+  "ref": "psalms 105:43",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "He",
+      "rationale": "Subject YHWH supplied from context"
+    }
+  ],
+  "translation": "And He brought out His people with joy, with a shout — ⟨את⟩ His chosen ones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2d7b97ed26939908b9adaa6f7350450f35e284c8f0bddfdf669ee75c2761773",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/41-44.1791193311645.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ויוצא",
-      "gloss": "And he brought forth",
+      "surface": "וַיּוֹצִ֣א",
+      "gloss": "And He brought out",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמּ֣וֹ",
+      "gloss": "His people",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְשָׂשׂ֑וֹן",
+      "gloss": "with joy",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְ֝רִנָּ֗ה",
+      "gloss": "with a shout",
+      "sense": "S1",
       "readings": [
-        "And he brought forth",
-        "And he brought out"
+        "with a shout",
+        "with a ringing cry"
       ]
     },
     {
-      "surface": "עמו",
-      "gloss": "his people"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "His chosen ones"
     },
     {
-      "surface": "בששון",
-      "gloss": "with joy"
-    },
-    {
-      "surface": "ברנה",
-      "gloss": "with singing",
-      "readings": [
-        "with singing",
-        "with ringing-cry"
-      ],
-      "held_by": {
-        "with singing": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "with ringing-cry": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "בחיריו",
-      "gloss": "his chosen ones"
+      "surface": "בְּחִירָֽיו",
+      "gloss": "His chosen ones",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:51.645969412Z",
+  "model": "glm-5.3"
 }

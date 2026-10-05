@@ -1,103 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "But Jeremiah said, “They shall not give you ⟨over⟩. Hear now the voice of YHWH, in what I speak to you, and it shall be well with you, and your nefesh shall live.”",
-  "tokens": [
+  "ref": "jeremiah 38:20",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
     {
-      "surface": "ויאמר",
-      "gloss": "And said"
+      "kind": "elision",
+      "subject": "יִתֵּנּוּ",
+      "rationale": "object 'you' is carried from the previous verse; verb 'give' stands without a stated object"
     },
     {
-      "surface": "ירמיהו",
-      "gloss": "Jeremiah"
+      "kind": "invitation",
+      "subject": "Hear now the voice of YHWH",
+      "rationale": "imperative summons to obey"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "you",
+      "subject": "to Zedekiah",
+      "rationale": "Jeremiah's exhortation addresses the king directly"
     },
     {
-      "surface": "יתנו",
-      "gloss": "they shall give"
-    },
-    {
-      "surface": "שמע",
-      "gloss": "Hear"
-    },
-    {
-      "surface": "נא",
-      "gloss": "now",
-      "readings": [
-        "now",
-        "I pray you"
-      ],
-      "held_by": {
-        "now": [
-          "v2",
-          "v3"
-        ],
-        "I pray you": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בקול",
-      "gloss": "the voice of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לאשר",
-      "gloss": "in what"
-    },
-    {
-      "surface": "אני",
-      "gloss": "I"
-    },
-    {
-      "surface": "דבר",
-      "gloss": "speak"
-    },
-    {
-      "surface": "אליך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "וייטב",
-      "gloss": "and it shall be well"
-    },
-    {
-      "surface": "לך",
-      "gloss": "with you"
-    },
-    {
-      "surface": "ותחי",
-      "gloss": "and shall live"
-    },
-    {
-      "surface": "נפשך",
-      "gloss": "your nefesh",
-      "readings": [
-        "your nefesh",
-        "your life",
-        "your soul"
-      ],
-      "held_by": {
-        "your nefesh": [
-          "en4"
-        ],
-        "your life": [
-          "v2",
-          "v3"
-        ],
-        "your life-breath": [
-          "v1"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "your life",
+      "rationale": "נפש is throat\/life-force; rendered 'life', not 'soul'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But Jeremiah said: They will not give ⟨you⟩ ⟨את⟩-you. Hear now the voice of YHWH, to what I am speaking to you, and it will go well for you, and your life will live.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef2ddf70fc2e169170ce937e2f4a99584c2107827f9d07b4771f03c3242ed1c4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/38\/17-20.1791189842592.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיֹּ֥אמֶר",
+      "gloss": "And said",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְמְיָ֖הוּ",
+      "gloss": "Jeremiah",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּ֑נּוּ",
+      "gloss": "they will give",
+      "sense": null
+    },
+    {
+      "surface": "שְֽׁמַֽע",
+      "gloss": "Hear",
+      "sense": null
+    },
+    {
+      "surface": "נָ֣א",
+      "gloss": "now",
+      "sense": null
+    },
+    {
+      "surface": "בְּק֣וֹל",
+      "gloss": "the voice of",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַאֲשֶׁ֤ר",
+      "gloss": "to what",
+      "sense": null
+    },
+    {
+      "surface": "אֲנִי֙",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "דֹּבֵ֣ר",
+      "gloss": "am speaking",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶ֔יךָ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "וְיִיטַ֥ב",
+      "gloss": "and it will go well",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ֖",
+      "gloss": "for you",
+      "sense": null
+    },
+    {
+      "surface": "וּתְחִ֥י",
+      "gloss": "and may live",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֶֽׁךָ",
+      "gloss": "your life",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:44:02.593601490Z",
+  "model": "glm-5.3"
 }

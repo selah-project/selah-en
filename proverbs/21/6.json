@@ -1,67 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "The making of treasures by a lying tongue ⟨is⟩ a vapor driven away — those seeking death.",
-  "tokens": [
+  "ref": "proverbs 21:6",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "פעל",
-      "gloss": "the making of",
-      "readings": [
-        "the making of",
-        "the work of"
-      ],
-      "held_by": {
-        "the making of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause; English requires a copula"
     },
     {
-      "surface": "אוצרות",
-      "gloss": "treasures"
+      "kind": "crux",
+      "subject": "seekers of death",
+      "rationale": "מבקשי מות read either as 'those who seek it (the treasure) to their own death' or as a predicate of הבל — 'a pursued vapor, ⟨ending in⟩ death'"
     },
     {
-      "surface": "בלשון",
-      "gloss": "by a tongue"
-    },
-    {
-      "surface": "שקר",
-      "gloss": "of falsehood"
-    },
-    {
-      "surface": "הבל",
-      "gloss": "a vapor",
-      "readings": [
-        "a vapor",
-        "vanity"
-      ],
-      "held_by": {
-        "a vapor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "vanity": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "נדף",
-      "gloss": "driven away"
-    },
-    {
-      "surface": "מבקשי",
-      "gloss": "those seeking"
-    },
-    {
-      "surface": "מות",
-      "gloss": "death"
+      "kind": "wordplay",
+      "subject": "הבל",
+      "rationale": "'breeze\/vapor' echoes Ecclesiastes' הבל — transitoriness built into the word itself"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A making of treasures by a tongue of falsehood is a breeze driven away — the seeking of death.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba4b78dc5d2a2847d2a12740f117355b90d68608fb45921773f7645715a7e186",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/5-8.1791193948839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פֹּ֣עַל",
+      "gloss": "a making",
+      "sense": "S1",
+      "readings": [
+        "a making",
+        "a work"
+      ]
+    },
+    {
+      "surface": "א֭וֹצָרוֹת",
+      "gloss": "of treasures",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּלְשׁ֣וֹן",
+      "gloss": "by a tongue",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֑קֶר",
+      "gloss": "of falsehood",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶ֥בֶל",
+      "gloss": "a breeze",
+      "sense": "S1",
+      "readings": [
+        "a breeze",
+        "vapor",
+        "futility"
+      ]
+    },
+    {
+      "surface": "נִדָּ֗ף",
+      "gloss": "driven away",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְבַקְשֵׁ֥י",
+      "gloss": "seekers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָֽוֶת",
+      "gloss": "death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:28.840711200Z",
+  "model": "glm-5.3"
 }

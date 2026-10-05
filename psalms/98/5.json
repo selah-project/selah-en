@@ -1,64 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Make music to YHWH with a lyre, with a lyre and the voice of a song.",
-  "tokens": [
+  "ref": "psalms 98:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 98,
+  "notes": [
     {
-      "surface": "זמרו",
-      "gloss": "make music",
-      "readings": [
-        "make music",
-        "sing",
-        "play"
-      ],
-      "held_by": {
-        "make music": [
-          "en4"
-        ],
-        "sing": [
-          "v1",
-          "v3"
-        ],
-        "play": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "זמרו \/ זמרה",
+      "rationale": "The verb 'sing' (זִמְּרוּ) and the noun 'song' (זִמְרָה) share one root; the doubled כִּנּוֹר repeats at the accent divider."
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "בכנור",
-      "gloss": "with a lyre",
-      "readings": [
-        "with a lyre",
-        "on the kinnor"
-      ],
-      "held_by": {
-        "with a lyre": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "on the kinnor": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "בכנור",
-      "gloss": "with a lyre"
-    },
-    {
-      "surface": "וקול",
-      "gloss": "and the voice of"
-    },
-    {
-      "surface": "זמרה",
-      "gloss": "of song"
+      "kind": "invitation",
+      "subject": "Sing to YHWH",
+      "rationale": "Imperatives summon the whole earth to praise."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sing to YHWH with the harp — with the harp and the sound of song.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7ed4f4a6604d1c9ee9ca13f7f8adbbf9f854a4343be1860a5c8566f31136abc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/98\/5-8.1791193236820.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זַמְּר֣וּ",
+      "gloss": "Sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָ֣ה",
+      "gloss": "to YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכִנּ֑וֹר",
+      "gloss": "with the harp",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּ֝כִנּ֗וֹר",
+      "gloss": "with the harp",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְק֣וֹל",
+      "gloss": "and the sound of",
+      "sense": null
+    },
+    {
+      "surface": "זִמְרָֽה",
+      "gloss": "song",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:36.820814327Z",
+  "model": "glm-5.3"
 }

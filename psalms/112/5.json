@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Good is the man — gracious and lending; he sustains his matters in judgment.",
-  "tokens": [
+  "ref": "psalms 112:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 112,
+  "notes": [
     {
-      "surface": "טוב",
-      "gloss": "Good"
+      "kind": "addition",
+      "subject": "who",
+      "rationale": "Participles without an article rendered with a relative pronoun English requires"
     },
     {
-      "surface": "איש",
+      "kind": "alternative",
+      "subject": "lends",
+      "rationale": "וּמַלְוֶה could read 'and borrows' (qal), but hiphil points to lending"
+    }
+  ],
+  "translation": "Good is the man who shows favor and lends; he sustains his affairs with right.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ebd8df97ee36ad851a939756eea5fb5bd3d1f6b1f0e4a67314098edf4cdcaa43",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/112\/5-8.1791193387313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "טֽוֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֭ישׁ",
       "gloss": "is the man"
     },
     {
-      "surface": "חונן",
-      "gloss": "gracious"
+      "surface": "חוֹנֵ֣ן",
+      "gloss": "who shows favor",
+      "sense": "S1"
     },
     {
-      "surface": "ומלוה",
-      "gloss": "and lending"
+      "surface": "וּמַלְוֶ֑ה",
+      "gloss": "and lends",
+      "sense": "S1"
     },
     {
-      "surface": "יכלכל",
-      "gloss": "he sustains"
+      "surface": "יְכַלְכֵּ֖ל",
+      "gloss": "he sustains",
+      "sense": "S1"
     },
     {
-      "surface": "דבריו",
-      "gloss": "his matters",
-      "readings": [
-        "his matters",
-        "his words"
-      ],
-      "held_by": {
-        "his matters": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his words": [
-          "en4"
-        ]
-      }
+      "surface": "דְּבָרָ֣יו",
+      "gloss": "his affairs",
+      "sense": "S1"
     },
     {
-      "surface": "במשפט",
-      "gloss": "in judgment"
+      "surface": "בְּמִשְׁפָּֽט",
+      "gloss": "with right",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:07.314239810Z",
+  "model": "glm-5.3"
 }

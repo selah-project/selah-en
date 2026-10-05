@@ -1,68 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For everything an appointed time, and a time for every pleasure under the heavens.",
-  "tokens": [
+  "ref": "ecclesiastes 3:1",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "לכל",
-      "gloss": "for everything"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between זמן and לכל; the verse is nominal"
     },
     {
-      "surface": "זמן",
-      "gloss": "an appointed time",
-      "readings": [
-        "an appointed time",
-        "a season"
-      ],
-      "held_by": {
-        "an appointed time": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "a season": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "חפץ",
+      "rationale": "usually 'desire\/pleasure' in Ecclesiastes; here the rarer sense 'matter, event that takes place'"
     },
     {
-      "surface": "ועת",
-      "gloss": "and a time"
-    },
-    {
-      "surface": "לכל",
-      "gloss": "for every"
-    },
-    {
-      "surface": "חפץ",
-      "gloss": "pleasure",
-      "readings": [
-        "pleasure",
-        "desire"
-      ],
-      "held_by": {
-        "pleasure": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "desire": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תחת",
-      "gloss": "under"
-    },
-    {
-      "surface": "השמים",
-      "gloss": "the heavens"
+      "kind": "measurement",
+      "subject": "the verse",
+      "rationale": "opens the catalogue of appointed times, vv. 1–8"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For everything an appointed season, and a time for every event under the heavens.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "81348a9bb44491606b112d77fd8eba7b0c41f65c8eb3b844c1337e782209e6b0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/3\/1-4.1791194809094.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַכֹּל",
+      "gloss": "For everything",
+      "sense": null
+    },
+    {
+      "surface": "זְמָן",
+      "gloss": "an appointed season",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵת",
+      "gloss": "and a time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְכָל",
+      "gloss": "for every",
+      "sense": null
+    },
+    {
+      "surface": "חֵפֶץ",
+      "gloss": "event",
+      "sense": "S1",
+      "readings": [
+        "event",
+        "desire"
+      ]
+    },
+    {
+      "surface": "תַּחַת",
+      "gloss": "under",
+      "sense": null
+    },
+    {
+      "surface": "הַשָּׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:49.095358289Z",
+  "model": "glm-5.3"
 }

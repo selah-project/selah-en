@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
+  "ref": "psalms 107:27",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "is swallowed up",
+      "rationale": "תתבלע hithpael of בלע: 'is swallowed up' (literal picture) vs 'fails \/ is confounded'; the swallowing picture kept"
+    },
+    {
+      "kind": "hapax",
+      "subject": "they reel",
+      "rationale": "יחוגו from חגג 'move in a circle' — this unsteady sense occurs only here"
+    }
+  ],
   "translation": "They reel and stagger like a drunkard, and all their wisdom is swallowed up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "840fe789ced46550b78ceb42735d827e6e38d64d288c51e809509d15ac33dd70",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/25-28.1791193347237.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יחוגו",
-      "gloss": "They reel"
+      "surface": "יָח֣וֹגּוּ",
+      "gloss": "they reel",
+      "sense": "S1"
     },
     {
-      "surface": "וינועו",
+      "surface": "וְיָנ֣וּעוּ",
       "gloss": "and stagger",
-      "readings": [
-        "and stagger",
-        "and sway"
-      ],
-      "held_by": {
-        "and stagger": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and sway": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כשכור",
-      "gloss": "like a drunkard"
+      "surface": "כַּשִּׁכּ֑וֹר",
+      "gloss": "like a drunkard",
+      "sense": "S1"
     },
     {
-      "surface": "וכל",
+      "surface": "וְכָל",
       "gloss": "and all"
     },
     {
-      "surface": "חכמתם",
-      "gloss": "their wisdom"
+      "surface": "חָכְמָתָ֗ם",
+      "gloss": "their wisdom",
+      "sense": "S1"
     },
     {
-      "surface": "תתבלע",
-      "gloss": "is swallowed up"
+      "surface": "תִּתְבַּלָּֽע",
+      "gloss": "is swallowed up",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:27.238404847Z",
+  "model": "glm-5.3"
 }

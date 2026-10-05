@@ -1,69 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "For a nation lost to counsel are they, and there is no understanding in them.",
-  "tokens": [
+  "ref": "deuteronomy 32:28",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "are they",
+      "rationale": "Hebrew fronts the predicate 'a nation lost in counsel'; English needs the pronoun-copula"
     },
     {
-      "surface": "גוי",
-      "gloss": "a nation"
-    },
-    {
-      "surface": "אבד",
-      "gloss": "lost",
-      "readings": [
-        "lost",
-        "perishing"
-      ],
-      "held_by": {
-        "lost": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "perishing": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "עצות",
-      "gloss": "to counsel"
-    },
-    {
-      "surface": "המה",
-      "gloss": "are they"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is no"
-    },
-    {
-      "surface": "בהם",
-      "gloss": "in them"
-    },
-    {
-      "surface": "תבונה",
-      "gloss": "understanding",
-      "readings": [
-        "understanding",
-        "discernment"
-      ],
-      "held_by": {
-        "understanding": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "discernment": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "lost in counsel",
+      "rationale": "עצות taken as counsel they lack ('perished as to counsel') vs 'their plans perish' — construct participle read attributively"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For a nation lost in counsel are they, and there is no understanding in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4db6e86d16ca9b483bbfe78ce607f8f81d2fd0da01cd9309a927a546c88b2e1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/25-28.1791184217731.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "גּוֹי",
+      "gloss": "a nation",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹבַד",
+      "gloss": "lost",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵצוֹת",
+      "gloss": "in counsel",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵמָּה",
+      "gloss": "are they",
+      "sense": null
+    },
+    {
+      "surface": "וְאֵין",
+      "gloss": "and there is not",
+      "sense": null
+    },
+    {
+      "surface": "בָּהֶם",
+      "gloss": "in them",
+      "sense": null
+    },
+    {
+      "surface": "תְּבוּנָה",
+      "gloss": "understanding",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:17.732460659Z",
+  "model": "glm-5.3"
 }

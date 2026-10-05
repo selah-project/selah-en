@@ -1,61 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Purge me with hyssop, and I shall be clean; wash me, and whiter than snow I shall be.",
-  "tokens": [
+  "ref": "psalms 51:9",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "תחטאני",
-      "gloss": "Purge me",
-      "readings": [
-        "Purge me",
-        "un-sin me"
-      ],
-      "held_by": {
-        "Purge me": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "un-sin me": [
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "חטא piel",
+      "rationale": "Elsewhere 'to sin'; piel here is causative — to un-sin, to purge guilt; rendered 'purge me'."
     },
     {
-      "surface": "באזוב",
-      "gloss": "with hyssop"
+      "kind": "crux",
+      "subject": "ומשלג",
+      "rationale": "Taken as comparative min, 'more than snow' (LXX 'upon snow'); some read 'with snow'."
     },
     {
-      "surface": "ואטהר",
-      "gloss": "and I shall be clean",
-      "readings": [
-        "and I shall be clean",
-        "and I am clean"
-      ],
-      "held_by": {
-        "and I shall be clean": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and I am clean": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תכבסני",
-      "gloss": "wash me"
-    },
-    {
-      "surface": "ומשלג",
-      "gloss": "and than snow"
-    },
-    {
-      "surface": "אלבין",
-      "gloss": "I shall be whiter"
+      "kind": "invitation",
+      "subject": "to Elohim",
+      "rationale": "Imperatives continue the plea begun in v.3."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Purge me with hyssop, and I shall be clean; wash me, and more than snow I shall be whiter.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "601dab851df696beafce03a428c3071a2b5c29410835d30123d501f8b549b5e8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/9-12.1791192776820.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּחַטְּאֵ֣נִי",
+      "gloss": "Purge me",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְאֵז֣וֹב",
+      "gloss": "with hyssop",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶטְהָ֑ר",
+      "gloss": "and I shall be clean",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּכַבְּסֵ֗נִי",
+      "gloss": "wash me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִשֶּׁ֥לֶג",
+      "gloss": "than snow",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַלְבִּֽין",
+      "gloss": "I shall be whiter",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:56.821145734Z",
+  "model": "glm-5.3"
 }

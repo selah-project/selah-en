@@ -1,43 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Healing shall be to your navel, and moisture to your bones.",
-  "tokens": [
+  "ref": "proverbs 3:8",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "רפאות",
-      "gloss": "healing"
+      "kind": "hapax",
+      "subject": "רִפְאוּת",
+      "rationale": "'Healing' occurs only here in the Tanakh."
     },
     {
-      "surface": "תהי",
-      "gloss": "shall be"
-    },
-    {
-      "surface": "לשרך",
-      "gloss": "to your navel"
-    },
-    {
-      "surface": "ושקוי",
-      "gloss": "and moisture",
-      "readings": [
-        "and moisture",
-        "and drink"
-      ],
-      "held_by": {
-        "and moisture": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and drink": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לעצמותיך",
-      "gloss": "to your bones"
+      "kind": "substitution",
+      "subject": "navel",
+      "rationale": "שֹׁר is literally the navel but stands for the whole body; the literal picture is kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Healing will it be to your navel, and drink to your bones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e72498247d05237b9de709c41f1f666e06b96627cdce3e84ec71a63668aaf086",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/3\/5-8.1791193698886.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רִ֭פְאוּת",
+      "gloss": "Healing",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּהִ֣י",
+      "gloss": "will it be",
+      "sense": null
+    },
+    {
+      "surface": "לְשָׁרֶּ֑ךָ",
+      "gloss": "to your navel",
+      "sense": "S1",
+      "readings": [
+        "to your navel",
+        "to your body"
+      ]
+    },
+    {
+      "surface": "וְ֝שִׁקּ֗וּי",
+      "gloss": "and drink",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעַצְמוֹתֶֽיךָ",
+      "gloss": "to your bones",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:18.887920870Z",
+  "model": "glm-5.3"
 }

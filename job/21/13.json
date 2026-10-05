@@ -1,25 +1,42 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "They wear out in good their days, and in a moment Sheol they go down.",
+  "ref": "job 21:13",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יבלו",
+      "rationale": "ketiv ‘they wear out (בלה)’ vs qere ‘they finish (כלה)’ their days; rendered from the qere."
+    },
+    {
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "Hebrew has no preposition before Sheol; the goal of נחת is supplied."
+    }
+  ],
+  "translation": "They spend their days in good, and in a moment ⟨to⟩ Sheol they sink down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "99c22aa8deb979c88ba0010916f03ceb6eff2f6b310f45c9449b63094bc18343",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/13-16.1791194377947.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
       "surface": "יבלו",
-      "gloss": "they wear out",
+      "gloss": "they spend",
       "readings": [
-        "they wear out",
-        "they spend"
+        "they spend",
+        "they finish"
       ],
-      "held_by": {
-        "they wear out": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "they spend": [
-          "v2",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "בטוב",
@@ -28,46 +45,29 @@
         "in good",
         "in prosperity"
       ],
-      "held_by": {
-        "in good": [
-          "v2",
-          "en4"
-        ],
-        "in prosperity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ימיהם",
-      "gloss": "their days"
+      "gloss": "their days",
+      "sense": "S1"
     },
     {
       "surface": "וברגע",
-      "gloss": "and in a moment"
+      "gloss": "and in a moment",
+      "sense": null
     },
     {
       "surface": "שאול",
-      "gloss": "Sheol"
+      "gloss": "Sheol",
+      "sense": "S1"
     },
     {
       "surface": "יחתו",
-      "gloss": "they go down",
-      "readings": [
-        "they go down",
-        "they descend"
-      ],
-      "held_by": {
-        "they go down": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they descend": []
-      }
+      "gloss": "they sink down",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:37.948506845Z",
+  "model": "glm-5.3"
 }

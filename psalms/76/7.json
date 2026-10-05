@@ -1,65 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "From your rebuke, Elohim of Jacob, both chariot and horse are cast into dead sleep.",
-  "tokens": [
+  "ref": "psalms 76:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 76,
+  "notes": [
     {
-      "surface": "מגערתך",
-      "gloss": "from your rebuke"
-    },
-    {
-      "surface": "אלהי",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "of Jacob"
-    },
-    {
-      "surface": "נרדם",
-      "gloss": "is cast into dead sleep",
-      "readings": [
-        "is cast into dead sleep",
-        "sleeps deep"
-      ],
-      "held_by": {
-        "is cast into dead sleep": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sleeps deep": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ורכב",
-      "gloss": "and chariot",
-      "readings": [
-        "and chariot",
-        "and rider"
-      ],
-      "held_by": {
-        "and chariot": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and rider": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וסוס",
-      "gloss": "and horse"
+      "kind": "alternative",
+      "subject": "rider",
+      "rationale": "רכב here is the man on the horse (SDBH 'people'); 'chariot' is the traditional reading"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "At your rebuke, Elohim of Jacob, both rider and horse lie stunned in deep sleep.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03c77dd2472723cd438692c1a7ee72d22ee22296424b0678a56f2f9ec36afa40",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/76\/7-8.1791231197965.json",
+    "code": "d2ea2f22-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִ֭גַּעֲרָ֣תְךָ",
+      "gloss": "at your rebuke",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֵ֣י",
+      "gloss": "Elohim",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲקֹ֑ב",
+      "gloss": "of Jacob",
+      "sense": null
+    },
+    {
+      "surface": "נִ֝רְדָּ֗ם",
+      "gloss": "lie stunned in deep sleep",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרֶ֣כֶב",
+      "gloss": "and rider",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָסֽוּס",
+      "gloss": "and horse",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T20:13:17.966266978Z",
+  "model": "glm-5.3"
 }

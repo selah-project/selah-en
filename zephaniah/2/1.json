@@ -1,43 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Gather yourselves, and gather, O nation not desired;",
-  "tokens": [
+  "ref": "zephaniah 2:1",
+  "book": "zephaniah",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "התקוששו",
-      "gloss": "Gather yourselves"
+      "kind": "wordplay",
+      "subject": "התקוששו וקושו",
+      "rationale": "Doubled imperative of קשׁשׁ (gather stubble \/ assemble), rendered doubled, not collapsed to an idiom."
     },
     {
-      "surface": "וקושו",
-      "gloss": "and gather"
-    },
-    {
-      "surface": "הגוי",
-      "gloss": "O nation"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "נכסף",
-      "gloss": "desired",
-      "readings": [
-        "desired",
-        "pining"
-      ],
-      "held_by": {
-        "desired": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "pining": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "לא נכסף",
+      "rationale": " niphal of כסף read as 'not longing\/pining' or 'not ashamed'; shame-sense chosen after SDBH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Gather-yourselves-together, and gather, O nation, not ashamed",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e55d90a8336e1b47d1c38297792acda4706f58eded108cdc86fda8322a22fb9b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/zephaniah\/2\/1-4.1791191946292.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/zephaniah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִֽתְקוֹשְׁשׁ֖וּ",
+      "gloss": "Gather-yourselves-together",
+      "sense": "S1",
+      "readings": [
+        "Gather-yourselves-together",
+        "forage-for-stubble"
+      ]
+    },
+    {
+      "surface": "וָק֑וֹשּׁוּ",
+      "gloss": "and gather",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַגּ֖וֹי",
+      "gloss": "O nation",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִכְסָֽף",
+      "gloss": "ashamed",
+      "sense": "S1",
+      "readings": [
+        "ashamed",
+        "grown-pale"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:19:06.293568745Z",
+  "model": "glm-5.3"
 }

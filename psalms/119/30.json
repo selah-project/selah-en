@@ -1,42 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "The way of faithfulness I have chosen; your judgments I have set before me.",
-  "tokens": [
+  "ref": "psalms 119:30",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "דרך",
-      "gloss": "the way"
-    },
-    {
-      "surface": "אמונה",
-      "gloss": "of faithfulness"
-    },
-    {
-      "surface": "בחרתי",
-      "gloss": "I have chosen"
-    },
-    {
-      "surface": "משפטיך",
-      "gloss": "your judgments"
-    },
-    {
-      "surface": "שויתי",
-      "gloss": "I have set before me",
-      "readings": [
-        "I have set before me",
-        "I have set level"
-      ],
-      "held_by": {
-        "I have set before me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have set level": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "before me",
+      "rationale": "שויתי is literally 'I have set'; the SDBH sense includes 'placed before oneself', hence the supplement"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The way of faithfulness I have chosen; your ordinances I have set before me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2cdaf2ae4497cdd3522ae34982353bc58a5ad0f784676756fee229a5c5d69fd8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/29-32.1791193438714.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "דֶּֽרֶךְ",
+      "gloss": "The way of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱמוּנָ֥ה",
+      "gloss": "faithfulness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָחַ֑רְתִּי",
+      "gloss": "I have chosen",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁפָּטֶ֥יךָ",
+      "gloss": "your ordinances",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁוִּֽיתִי",
+      "gloss": "I have set before me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:58.715604934Z",
+  "model": "glm-5.3"
 }

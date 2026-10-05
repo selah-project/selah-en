@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "Mortal — his days ⟨are⟩ like grass; as a flower of the field, so he blossoms.",
-  "tokens": [
+  "ref": "psalms 103:15",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "אנוש",
-      "gloss": "Mortal"
+      "kind": "wordplay",
+      "subject": "ציץ\/יציץ",
+      "rationale": "the noun 'blossom' and the verb 'blossoms' share one root, a sound-link lost if read as mere simile"
     },
     {
-      "surface": "כחציר",
-      "gloss": "like grass"
-    },
-    {
-      "surface": "ימיו",
-      "gloss": "his days"
-    },
-    {
-      "surface": "כציץ",
-      "gloss": "as a flower"
-    },
-    {
-      "surface": "השדה",
-      "gloss": "of the field"
-    },
-    {
-      "surface": "כן",
-      "gloss": "so"
-    },
-    {
-      "surface": "יציץ",
-      "gloss": "he blossoms"
+      "kind": "alternative",
+      "subject": "Enosh",
+      "rationale": "אנוש can be the generic 'mortal man'; kept the name-form for its concreteness"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Enosh — like grass are his days; like a flower of the field, so he blossoms:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4165d72fcedbc11bd6b81586511682440c86a748aeabad76e89fa11da7d7ec38",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/13-16.1791193266369.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱנוֹשׁ",
+      "gloss": "Enosh",
+      "readings": [
+        "Enosh",
+        "mortal man"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּחָצִיר",
+      "gloss": "like the grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָמָיו",
+      "gloss": "are his days",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּצִיץ",
+      "gloss": "like a blossom",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַשָּׂדֶה",
+      "gloss": "of the field",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֵּן",
+      "gloss": "so",
+      "sense": null
+    },
+    {
+      "surface": "יָצִיץ",
+      "gloss": "he blossoms",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:06.369827351Z",
+  "model": "glm-5.3"
 }

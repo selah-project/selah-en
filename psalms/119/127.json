@@ -1,76 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 127,
-  "translation": "Therefore I love your commandments above gold, and above fine gold.",
-  "tokens": [
+  "ref": "psalms 119:127",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "upon",
-      "readings": [
-        "upon",
-        "on account of"
-      ],
-      "held_by": {
-        "upon": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "on account of": [
-          "v2"
-        ]
-      }
+      "kind": "crux",
+      "subject": "more than gold",
+      "rationale": "The comparative מן is supplied by context; some read 'besides gold', but the parallel with פז (refined gold) favors 'more than'."
     },
     {
-      "surface": "כן",
-      "gloss": "therefore"
-    },
-    {
-      "surface": "אהבתי",
-      "gloss": "I love",
-      "readings": [
-        "I love",
-        "I have loved"
-      ],
-      "held_by": {
-        "I love": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I have loved": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מצותיך",
-      "gloss": "your commandments"
-    },
-    {
-      "surface": "מזהב",
-      "gloss": "above gold",
-      "readings": [
-        "above gold",
-        "than gold"
-      ],
-      "held_by": {
-        "above gold": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "than gold": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "ומפז",
-      "gloss": "and above fine gold"
+      "kind": "wordplay",
+      "subject": "זהב \/ פז",
+      "rationale": "Two grades of gold paired for escalation — gold, then refined gold — a step-parallelism."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Therefore I love your commandments more than gold, even much fine gold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c194c0943a0b28fe9bb7a8e3fc9022385dbec4ae9fea424d1c636bdf1b07f175",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/125-128.1791193492191.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "Therefore",
+      "sense": null
+    },
+    {
+      "surface": "כֵּן",
+      "gloss": "therefore",
+      "sense": null
+    },
+    {
+      "surface": "אָהַבְתִּי",
+      "gloss": "I love",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְוֹתֶיךָ",
+      "gloss": "your commandments",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזָּהָב",
+      "gloss": "more than gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִפָּז",
+      "gloss": "even than fine gold",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:52.192738682Z",
+  "model": "glm-5.3"
 }

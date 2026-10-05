@@ -1,61 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And you shall do ⟨את⟩ my statutes, and ⟨את⟩ my ordinances you shall keep, and you shall do ⟨את⟩ them; and you shall dwell upon the land in security.",
+  "ref": "leviticus 25:18",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "ועשיתם…ועשיתם",
+      "rationale": "the verb 'do' frames the verse, do-keep-do, an envelope lost in English"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second-person plural commands to the Israelites"
+    }
+  ],
+  "translation": "And you shall do ⟨את⟩ my statutes, and ⟨את⟩ my ordinances you shall keep and do ⟨את⟩ them, and you shall dwell on the land in safety.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1fa365605e05cbd07cc8dbe77c0caef80312ea3b493890719b376832880583a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/25\/17-20.1791182645888.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ועשיתם",
-      "gloss": "And you shall do"
+      "gloss": "and you shall do",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my statutes"
     },
     {
       "surface": "חקתי",
-      "gloss": "my statutes"
+      "gloss": "my statutes",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "my ordinances"
     },
     {
       "surface": "משפטי",
       "gloss": "my ordinances",
-      "readings": [
-        "my ordinances",
-        "my judgments"
-      ],
-      "held_by": {
-        "my ordinances": [
-          "v1",
-          "v3"
-        ],
-        "my judgments": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "תשמרו",
-      "gloss": "you shall keep"
+      "gloss": "you shall keep",
+      "sense": "S1"
     },
     {
       "surface": "ועשיתם",
-      "gloss": "and you shall do"
+      "gloss": "and do",
+      "sense": "S1"
     },
     {
       "surface": "אתם",
-      "gloss": "⟨את⟩ them"
+      "gloss": "⟨את⟩ them",
+      "marks": "my statutes and my ordinances"
     },
     {
       "surface": "וישבתם",
-      "gloss": "and you shall dwell"
+      "gloss": "and you shall dwell",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "on",
+      "sense": null
     },
     {
       "surface": "הארץ",
@@ -64,23 +86,14 @@
         "the land",
         "the earth"
       ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לבטח",
-      "gloss": "in security"
+      "gloss": "in safety",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:44:05.890000998Z",
+  "model": "glm-5.3"
 }

@@ -1,84 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And strangers shall stand and pasture your flocks, and sons of the foreigner shall be your farmers and your vinedressers.",
-  "tokens": [
+  "ref": "isaiah 61:5",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 61,
+  "notes": [
     {
-      "surface": "ועמדו",
-      "gloss": "And they shall stand"
+      "kind": "alternative",
+      "subject": "sons of the foreigner",
+      "rationale": "בני נכר is literally 'sons of foreignness\/heathendom'; kept the plural construct literally."
     },
     {
-      "surface": "זרים",
+      "kind": "measurement",
+      "subject": "role reversal",
+      "rationale": "The verse enumerates foreign nations' occupations serving Israel — a census of reversed roles."
+    }
+  ],
+  "translation": "And strangers will stand and shepherd your flocks, and sons of the foreigner will be your farmers and your vinedressers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "062a2630fc03391ed4a32bce1272a6f9b943d2e18c945c25439f963041aeaf40",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/61\/5-8.1791188923052.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעָמְד֣וּ",
+      "gloss": "and will stand",
+      "sense": null
+    },
+    {
+      "surface": "זָרִ֔ים",
       "gloss": "strangers",
+      "sense": "S1",
       "readings": [
         "strangers",
         "foreigners"
-      ],
-      "held_by": {
-        "strangers": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "foreigners": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "ורעו",
-      "gloss": "and pasture",
-      "readings": [
-        "and pasture",
-        "and feed"
-      ],
-      "held_by": {
-        "and pasture": [
-          "v2",
-          "v3"
-        ],
-        "and feed": [
-          "v1",
-          "en4"
-        ]
-      }
+      "surface": "וְרָע֖וּ",
+      "gloss": "and shepherd",
+      "sense": "S1"
     },
     {
-      "surface": "צאנכם",
-      "gloss": "your flocks"
+      "surface": "צֹאנְכֶ֑ם",
+      "gloss": "your flocks",
+      "sense": "S1"
     },
     {
-      "surface": "ובני",
-      "gloss": "and sons of"
+      "surface": "וּבְנֵ֣י",
+      "gloss": "and sons of",
+      "sense": "S1"
     },
     {
-      "surface": "נכר",
-      "gloss": "the foreigner"
+      "surface": "נֵכָ֔ר",
+      "gloss": "the foreigner",
+      "sense": "S1"
     },
     {
-      "surface": "אכריכם",
+      "surface": "אִכָּרֵיכֶ֖ם",
       "gloss": "your farmers",
-      "readings": [
-        "your farmers",
-        "your plowmen"
-      ],
-      "held_by": {
-        "your farmers": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your plowmen": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וכרמיכם",
-      "gloss": "and your vinedressers"
+      "surface": "וְכֹרְמֵיכֶֽם",
+      "gloss": "and your vinedressers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:28:43.055584664Z",
+  "model": "glm-5.3"
 }

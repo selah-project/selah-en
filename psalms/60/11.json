@@ -1,54 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Who will bring me into the fortified city? Who will lead me unto Edom?",
-  "tokens": [
+  "ref": "psalms 60:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 60,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "addition",
+      "subject": "into the",
+      "rationale": "Hebrew has no preposition before עיר מצור; English supplies 'into' to carry the verb's goal."
     },
     {
-      "surface": "יבלני",
-      "gloss": "will bring me"
+      "kind": "alternative",
+      "subject": "עִיר מָצוֹר",
+      "rationale": "Parallel Ps 108:11 reads מִבְצָר 'stronghold'; the construct here is literally 'city of fortification'."
     },
     {
-      "surface": "עיר",
-      "gloss": "city"
-    },
-    {
-      "surface": "מצור",
-      "gloss": "of fortification",
-      "readings": [
-        "of fortification",
-        "of siege"
-      ],
-      "held_by": {
-        "of fortification": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of siege": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מי",
-      "gloss": "Who"
-    },
-    {
-      "surface": "נחני",
-      "gloss": "will lead me"
-    },
-    {
-      "surface": "עד",
-      "gloss": "unto"
-    },
-    {
-      "surface": "אדום",
-      "gloss": "Edom"
+      "kind": "mystery",
+      "subject": "rhetorical questions",
+      "rationale": "The doubled 'Who?' expects the answer 'no one but Elohim' — a veiled plea answered in v. 12."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who will bring me into the fortified city? Who will lead me as far as Edom?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e598ed58514dae982d4ba2934db9f8322f99a26d20e12cb9c2d97de97defcf59",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/60\/9-12.1791192854112.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹבִלֵנִי",
+      "gloss": "will bring me",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִיר",
+      "gloss": "into the city of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָצוֹר",
+      "gloss": "fortification",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָחַנִי",
+      "gloss": "will lead me",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "as far as",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱדוֹם",
+      "gloss": "Edom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:14.113428853Z",
+  "model": "glm-5.3"
 }

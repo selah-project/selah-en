@@ -1,88 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "What shall I speak? And he has said ⟨it⟩ to me, and he himself has done ⟨it⟩; I will go softly all my years on account of the bitterness of my nefesh.",
+  "ref": "isaiah 38:15",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 38,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וְאָמַר לִי",
+      "rationale": "'when he said to me' vs 'he will say to me'; some read 'and say to me', others emend to 'and it is enough for me'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "וְהוּא עָשָׂה",
+      "rationale": "'and he has done it' — God accomplished the word spoken; some read 'while he does it', the deed still in progress."
+    },
+    {
+      "kind": "hapax",
+      "subject": "אֶדַּדֶּה",
+      "rationale": "Rare verb דדה, only here and Psalm 42:5; 'walk softly', slowly, in subdued quiet."
+    }
+  ],
+  "translation": "What shall I speak, when he ⟨has said⟩ to me — and he has done ⟨it⟩? I shall walk softly all my years on account of the bitterness of my soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8a65f0d154f0b578b17fbedef4f3f1a6b9c714257725a6c7a1ef0f5ebb5f8859",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/38\/13-16.1791188592734.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "מה",
-      "gloss": "What"
+      "surface": "מָה",
+      "gloss": "what",
+      "sense": "S1"
     },
     {
-      "surface": "אדבר",
-      "gloss": "shall I speak"
+      "surface": "אֲדַבֵּר",
+      "gloss": "shall I speak",
+      "sense": "S1"
     },
     {
-      "surface": "ואמר",
-      "gloss": "and he has said",
-      "readings": [
-        "and he has said",
-        "and shall I say"
-      ],
-      "held_by": {
-        "and he has said": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and shall I say": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "וְאָמַר",
+      "gloss": "and he said",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִי",
       "gloss": "to me"
     },
     {
-      "surface": "והוא",
-      "gloss": "and he himself"
+      "surface": "וְהוּא",
+      "gloss": "and he"
     },
     {
-      "surface": "עשה",
-      "gloss": "has done"
+      "surface": "עָשָׂה",
+      "gloss": "has done",
+      "sense": "S1"
     },
     {
-      "surface": "אדדה",
-      "gloss": "I will go softly"
+      "surface": "אֶדַּדֶּה",
+      "gloss": "I shall walk softly",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָל",
       "gloss": "all"
     },
     {
-      "surface": "שנותי",
-      "gloss": "my years"
+      "surface": "שְׁנוֹתַי",
+      "gloss": "my years",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "on account of"
     },
     {
-      "surface": "מר",
-      "gloss": "the bitterness"
+      "surface": "מַר",
+      "gloss": "of the bitterness",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "of my nefesh",
+      "surface": "נַפְשִׁי",
+      "gloss": "of my soul",
       "readings": [
-        "of my nefesh",
         "of my soul",
+        "of my life",
         "of my throat"
       ],
-      "held_by": {
-        "of my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "of my soul": [
-          "en4"
-        ],
-        "of my throat": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:12.735586461Z",
+  "model": "glm-5.3"
 }

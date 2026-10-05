@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Then they cried out to YHWH in their trouble, and out of their distresses he delivered them.",
-  "tokens": [
+  "ref": "psalms 107:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "ויצעקו",
-      "gloss": "Then they cried out"
+      "kind": "idiom",
+      "subject": "in the tight place",
+      "rationale": "צר literally 'narrow place', idiom for distress; the suffixed preposition להם 'to them' is absorbed into the possessive"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בצר",
-      "gloss": "in their trouble",
-      "readings": [
-        "in their trouble",
-        "in their straits"
-      ],
-      "held_by": {
-        "in their trouble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in their straits": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "להם",
-      "gloss": "their"
-    },
-    {
-      "surface": "ממצוקותיהם",
-      "gloss": "out of their distresses"
-    },
-    {
-      "surface": "יצילם",
-      "gloss": "he delivered them"
+      "kind": "wordplay",
+      "subject": "בצר \/ ממצוקותיהם",
+      "rationale": "the two nouns share the root צוק\/צרר 'narrow' — parallel 'narrow place' and 'narrownesses', flattened in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And they cried out to YHWH in their distress; from their troubles he delivered them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8b84cc7ff692534681d3563eac3249bc901cfdb1f16e65908f719f8fc8c1ed3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/5-8.1791193331702.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּצְעֲק֣וּ",
+      "gloss": "and they cried out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֭ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּצַּ֣ר",
+      "gloss": "in their distress",
+      "readings": [
+        "in the distress",
+        "in the tight place"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶָ֑ם",
+      "gloss": "⟨their⟩",
+      "sense": null
+    },
+    {
+      "surface": "מִמְּצֻֽקוֹתֵיהֶ֗ם",
+      "gloss": "from their troubles",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַצִּילֵֽם",
+      "gloss": "he delivered them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:11.703529516Z",
+  "model": "glm-5.3"
 }

@@ -1,51 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Crooked is the way of a man of guilt, but the pure — upright is his work.",
-  "tokens": [
+  "ref": "proverbs 21:8",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "הפכפך",
-      "gloss": "crooked"
+      "kind": "hapax",
+      "subject": "הֲפַכְפַּךְ",
+      "rationale": "doubled participle 'turned-and-turned', occurs only here in the Tanakh"
     },
     {
-      "surface": "דרך",
-      "gloss": "the way"
+      "kind": "hapax",
+      "subject": "וָזָר",
+      "rationale": "meaning unknown; senses proposed range from 'guilty\/criminal' to 'foreigner' to reading it as זָר 'strange'"
     },
     {
-      "surface": "איש",
-      "gloss": "of a man"
-    },
-    {
-      "surface": "וזר",
-      "gloss": "of guilt",
-      "readings": [
-        "of guilt",
-        "and strange"
-      ],
-      "held_by": {
-        "of guilt": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and strange": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וזך",
-      "gloss": "but the pure"
-    },
-    {
-      "surface": "ישר",
-      "gloss": "upright"
-    },
-    {
-      "surface": "פעלו",
-      "gloss": "his work"
+      "kind": "crux",
+      "subject": "וָזָר",
+      "rationale": "whether it predicates the man ('crooked is the way of a man of guilt') or adds a second subject ('and the stranger's way is crooked') is disputed"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Crooked is the way of a man — and a stranger; and pure, upright is his work.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba4b78dc5d2a2847d2a12740f117355b90d68608fb45921773f7645715a7e186",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/5-8.1791193948839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲפַכְפַּ֬ךְ",
+      "gloss": "crooked",
+      "sense": "S1",
+      "readings": [
+        "crooked",
+        "turning-every-which-way"
+      ]
+    },
+    {
+      "surface": "דֶּ֣רֶךְ",
+      "gloss": "the way",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֣ישׁ",
+      "gloss": "of a man",
+      "sense": null
+    },
+    {
+      "surface": "וָזָ֑ר",
+      "gloss": "and a stranger",
+      "sense": "S1",
+      "readings": [
+        "and a stranger",
+        "and a criminal",
+        "and guilt"
+      ]
+    },
+    {
+      "surface": "וְזַ֗ךְ",
+      "gloss": "but the pure",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָשָׁ֥ר",
+      "gloss": "— upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "פָּעֳלֽוֹ",
+      "gloss": "his work",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:28.840999808Z",
+  "model": "glm-5.3"
 }

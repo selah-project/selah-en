@@ -1,103 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "For great ⟨is⟩ your chesed toward me, and you have delivered my nefesh from Sheol, from beneath it.",
-  "tokens": [
+  "ref": "psalms 86:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 86,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between חסדך and גדול"
     },
     {
-      "surface": "חסדך",
+      "kind": "substitution",
+      "subject": "my life",
+      "rationale": "נפש is literally throat, the animating life-principle, not the disembodied soul"
+    },
+    {
+      "kind": "crux",
+      "subject": "lowermost Sheol",
+      "rationale": "תחתיה as postposed adjective 'lowermost Sheol' vs the traditional 'Sheol beneath'"
+    }
+  ],
+  "translation": "For your chesed is great over me, and you have delivered my life from lowermost Sheol.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e710f70ef36bd26f69202f1d2f1c3719b99db438b18e35aaabbf97442ce7641f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/86\/13-16.1791193135177.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "חַסְדְּךָ",
       "gloss": "your chesed",
       "readings": [
         "your chesed",
-        "your kindness"
+        "your steadfast love"
       ],
-      "held_by": {
-        "your chesed": [
-          "v3",
-          "en4"
-        ],
-        "your kindness": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "גדול",
-      "gloss": "great"
+      "surface": "גָּדוֹל",
+      "gloss": "is great",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "toward me",
+      "surface": "עָלָי",
+      "gloss": "over me",
+      "sense": null
+    },
+    {
+      "surface": "וְהִצַּלְתָּ",
+      "gloss": "and you have delivered",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my life",
       "readings": [
-        "toward me",
-        "upon me"
+        "my life",
+        "my throat",
+        "my soul"
       ],
-      "held_by": {
-        "toward me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "upon me": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "והצלת",
-      "gloss": "and you have delivered"
+      "surface": "מִשְּׁאֹול",
+      "gloss": "from Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
-      "readings": [
-        "my nefesh",
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my nefesh": [
-          "en4"
-        ],
-        "my soul": [
-          "v1"
-        ],
-        "my life": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "משאול",
-      "gloss": "from Sheol"
-    },
-    {
-      "surface": "תחתיה",
-      "gloss": "from beneath it",
-      "readings": [
-        "from beneath it",
-        "below",
-        "the lowest"
-      ],
-      "held_by": {
-        "from beneath it": [
-          "v3"
-        ],
-        "below": [
-          "v2",
-          "v3"
-        ],
-        "the lowest": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "תַּחְתִּיָּה",
+      "gloss": "lowermost",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:55.178009884Z",
+  "model": "glm-5.3"
 }

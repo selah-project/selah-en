@@ -1,36 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "The eyes of YHWH ⟨are⟩ toward the righteous, and His ears ⟨are⟩ toward their cry.",
-  "tokens": [
+  "ref": "psalms 34:16",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "עיני",
-      "gloss": "the eyes of"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a verb; the prepositional phrase predicated of 'the eyes of YHWH' needs an English copula."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אל",
-      "gloss": "toward"
-    },
-    {
-      "surface": "צדיקים",
-      "gloss": "the righteous"
-    },
-    {
-      "surface": "ואזניו",
-      "gloss": "and His ears"
-    },
-    {
-      "surface": "אל",
-      "gloss": "toward"
-    },
-    {
-      "surface": "שועתם",
-      "gloss": "their cry"
+      "kind": "substitution",
+      "subject": "cry",
+      "rationale": "שועה S1 is the act of raising the voice in hardship; 'cry' narrows it slightly."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The eyes of YHWH are toward the righteous, and His ears to their cry.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0869d8a4f7223c7ec9f52e4b5db2805e36fc2e9121977e96d9151c598da5b74c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/13-16.1791192602906.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵינֵ֣י",
+      "gloss": "The eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהֹוָ֗ה",
+      "gloss": "YHWH",
+      "sense": null
+    },
+    {
+      "surface": "אֶ֣ל",
+      "gloss": "are toward"
+    },
+    {
+      "surface": "צַדִּּיקִ֑ים",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝אָזְנָ֗יו",
+      "gloss": "and His ears",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶ֣ל",
+      "gloss": "to"
+    },
+    {
+      "surface": "שַׁוְעָתָֽם",
+      "gloss": "their cry",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:02.908202189Z",
+  "model": "glm-5.3"
 }

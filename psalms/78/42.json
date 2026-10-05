@@ -1,73 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 42,
-  "translation": "They did not remember ⟨את⟩ his hand, the day when he ransomed them from the foe.",
+  "ref": "psalms 78:42",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "his hand",
+      "rationale": "יד is literally 'hand'; here the sense 'exerted power' is carried by the body part kept literal."
+    }
+  ],
+  "translation": "They did not remember ⟨את⟩ his hand, the day he ransomed them from the foe.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0e1edc873adbf5ad7ced1ceaca37a8a0b9b64b819e1aff65f1b536647a6b884",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/41-44.1791193055924.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "זכרו",
-      "gloss": "remembered"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "ידו",
-      "gloss": "his hand"
-    },
-    {
-      "surface": "יום",
-      "gloss": "day"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "when",
+      "surface": "זָכְר֥וּ",
+      "gloss": "They did remember",
       "readings": [
-        "when",
-        "that"
+        "They did remember",
+        "they remembered"
       ],
-      "held_by": {
-        "when": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "that": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "פדם",
-      "gloss": "he ransomed them"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "his hand"
     },
     {
-      "surface": "מני",
+      "surface": "יָד֑וֹ",
+      "gloss": "his hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "י֝֗וֹם",
+      "gloss": "the day",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲֽשֶׁר",
+      "gloss": "when"
+    },
+    {
+      "surface": "פָּדָ֥ם",
+      "gloss": "he ransomed them",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנִּי",
       "gloss": "from"
     },
     {
-      "surface": "צר",
+      "surface": "צָֽר",
       "gloss": "the foe",
-      "readings": [
-        "the foe",
-        "distress"
-      ],
-      "held_by": {
-        "the foe": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "distress": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:35.925518413Z",
+  "model": "glm-5.3"
 }

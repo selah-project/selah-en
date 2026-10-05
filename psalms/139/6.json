@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "⟨It is⟩ knowledge too wonderful for me; it is high — I am not able for it.",
+  "ref": "psalms 139:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨It is⟩",
+      "rationale": "Hebrew has no copula; adjective stands first"
+    },
+    {
+      "kind": "substitution",
+      "subject": "attain",
+      "rationale": "לָהּ is only a preposition 'for\/to it'; the verb 'attain' is supplied from context"
+    },
+    {
+      "kind": "crux",
+      "subject": "פלאיה",
+      "rationale": "ketiv פלאיה vs qere פליאה; 'too wonderful' (extraordinary beyond grasp)"
+    }
+  ],
+  "translation": "⟨It is⟩ too wonderful for me, this knowledge; it is lofty, I cannot attain it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ad278c25faa5e6e21d28c05387f8ecfd89d230dfd925489a83e5ebc5bd7ea11a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/5-8.1791193586148.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "פלאיה",
       "gloss": "too wonderful",
-      "readings": [
-        "too wonderful",
-        "beyond reach"
-      ],
-      "held_by": {
-        "too wonderful": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "beyond reach": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "דעת",
-      "gloss": "knowledge"
+      "surface": "דַּעַת",
+      "gloss": "knowledge",
+      "sense": "S1"
     },
     {
-      "surface": "ממני",
-      "gloss": "for me"
+      "surface": "מִמֶּנִּי",
+      "gloss": "for me",
+      "sense": null
     },
     {
-      "surface": "נשגבה",
-      "gloss": "it is high",
-      "readings": [
-        "it is high",
-        "it is inaccessible"
-      ],
-      "held_by": {
-        "it is high": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "it is inaccessible": [
-          "en4"
-        ]
-      }
+      "surface": "נִשְׂגְּבָה",
+      "gloss": "it is lofty",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "אוכל",
-      "gloss": "I am able"
+      "surface": "אוּכַל",
+      "gloss": "I can",
+      "sense": "S1"
     },
     {
-      "surface": "לה",
-      "gloss": "for it"
+      "surface": "לָּהּ",
+      "gloss": "attain ⟨it⟩",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:26.148929812Z",
+  "model": "glm-5.3"
 }

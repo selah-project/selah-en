@@ -1,98 +1,116 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "A man, a Judean, was in Shushan the citadel, and his name was Mordecai, son of Jair, son of Shimei, son of Kish, a man of Benjamin —",
+  "ref": "esther 2:5",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew היה here supplies the verb 'was' that the English clause requires."
+    },
+    {
+      "kind": "measurement",
+      "subject": "genealogy",
+      "rationale": "The verse lists Mordecai's lineage — a four-name genealogy of exiled descent."
+    },
+    {
+      "kind": "crux",
+      "subject": "Judahite",
+      "rationale": "יְהוּדִי post-exilically means both member of Judah and 'Jew'; Mordecai is simultaneously a Benjaminite."
+    }
+  ],
+  "translation": "A man, a Judahite, was in Shushan the citadel, and his name was Mordecai, son of Jair, son of Shimei, son of Kish, a Benjaminite.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9969c8d31f3057713c2f060e2e3ca53fd5359c222e661b16ee67636e8f58b97c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/2\/5-8.1791195059084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
   "tokens": [
     {
-      "surface": "איש",
+      "surface": "אִישׁ",
       "gloss": "a man"
     },
     {
-      "surface": "יהודי",
-      "gloss": "a Judean",
+      "surface": "יְהוּדִי",
+      "gloss": "a Judahite",
+      "sense": "S1",
       "readings": [
-        "a Judean",
+        "a Judahite",
         "a Jew"
-      ],
-      "held_by": {
-        "a Judean": [
-          "v1",
-          "v3"
-        ],
-        "a Jew": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      ]
     },
     {
-      "surface": "היה",
+      "surface": "הָיָה",
       "gloss": "was"
     },
     {
-      "surface": "בשושן",
-      "gloss": "in Shushan"
+      "surface": "בְּשׁוּשַׁן",
+      "gloss": "in Shushan",
+      "sense": "S1"
     },
     {
-      "surface": "הבירה",
-      "gloss": "the citadel"
+      "surface": "הַבִּירָה",
+      "gloss": "the citadel",
+      "sense": "S1"
     },
     {
-      "surface": "ושמו",
-      "gloss": "and his name"
+      "surface": "וּשְׁמוֹ",
+      "gloss": "and his name",
+      "sense": "S1"
     },
     {
-      "surface": "מרדכי",
-      "gloss": "Mordecai"
+      "surface": "מָרְדֳּכַי",
+      "gloss": "Mordecai",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "יאיר",
-      "gloss": "Jair"
+      "surface": "יָאִיר",
+      "gloss": "Jair",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "שמעי",
-      "gloss": "Shimei"
+      "surface": "שִׁמְעִי",
+      "gloss": "Shimei",
+      "sense": "S1"
     },
     {
-      "surface": "בן",
-      "gloss": "son of"
+      "surface": "בֶּן",
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
-      "surface": "קיש",
-      "gloss": "Kish"
+      "surface": "קִישׁ",
+      "gloss": "Kish",
+      "sense": "S1"
     },
     {
-      "surface": "איש",
-      "gloss": "a man of"
+      "surface": "אִישׁ",
+      "gloss": "a man"
     },
     {
-      "surface": "ימיני",
-      "gloss": "Benjamin",
-      "readings": [
-        "Benjamin",
-        "a Benjaminite"
-      ],
-      "held_by": {
-        "Benjamin": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a Benjaminite": [
-          "v3"
-        ]
-      }
+      "surface": "יְמִינִי",
+      "gloss": "a Benjaminite",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:10:59.085312027Z",
+  "model": "glm-5.3"
 }

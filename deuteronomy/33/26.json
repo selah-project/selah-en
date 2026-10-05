@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "There is none like El, O Jeshurun, riding the heavens in your help, and in his majesty the skies.",
-  "tokens": [
+  "ref": "deuteronomy 33:26",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "אין",
-      "gloss": "There is none"
+      "kind": "addition",
+      "subject": "There is",
+      "rationale": "Hebrew's אֵין needs an English verb to carry the clause"
     },
     {
-      "surface": "כאל",
-      "gloss": "like El"
-    },
-    {
-      "surface": "ישרון",
-      "gloss": "O Jeshurun"
-    },
-    {
-      "surface": "רכב",
-      "gloss": "riding"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens"
-    },
-    {
-      "surface": "בעזרך",
-      "gloss": "in your help"
-    },
-    {
-      "surface": "ובגאותו",
-      "gloss": "and in his majesty"
-    },
-    {
-      "surface": "שחקים",
-      "gloss": "the skies",
-      "readings": [
-        "the skies",
-        "the clouds"
-      ],
-      "held_by": {
-        "the skies": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the clouds": [
-          "v1",
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "בְּעֶזְרֶךָ",
+      "rationale": "'in your help' (El rides as Israel's helper) vs 'as your help' (El himself is the help)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "There is none like El, Jeshurun, riding the heavens in your help, and in his majesty the skies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0790b423fc96e1489daf20c6f6739531b1f57d581b90387aa433aa44b927a593",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/33\/25-28.1791184261157.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵין",
+      "gloss": "There is none",
+      "sense": null
+    },
+    {
+      "surface": "כָּאֵל",
+      "gloss": "like El",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשֻׁרוּן",
+      "gloss": "Jeshurun",
+      "sense": "S1"
+    },
+    {
+      "surface": "רֹכֵב",
+      "gloss": "riding",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁמַיִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֶזְרֶךָ",
+      "gloss": "in your help",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְגַאֲוָתוֹ",
+      "gloss": "and in his majesty",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁחָקִים",
+      "gloss": "the skies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:11:01.157932516Z",
+  "model": "glm-5.3"
 }

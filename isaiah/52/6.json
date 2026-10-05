@@ -1,56 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Therefore my people shall know my name; therefore in that day ⟨they shall know⟩ that I am he who speaks: behold me.",
+  "ref": "isaiah 52:6",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 52,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew אני הוא lacks a copula; the doubled pronoun is emphatic"
+    },
+    {
+      "kind": "addition",
+      "subject": "they shall know",
+      "rationale": "second clause carries the verb by ellipsis from the first; supplied to make the English sentence stand"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "the verse addresses my people with YHWH's own first-person speech"
+    }
+  ],
+  "translation": "Therefore my people shall know my name; therefore in that day they shall know that I — I ⟨am⟩ he who speaks — here I am.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0923887a4a9805c4f8af629dc231cda599e53ae33fc4f5d9dee145942d9cb399",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/52\/5-8.1791188815379.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "לכן",
+      "surface": "לָכֵ֛ן",
       "gloss": "Therefore"
     },
     {
-      "surface": "ידע",
+      "surface": "יֵדַ֥ע",
       "gloss": "shall know"
     },
     {
-      "surface": "עמי",
+      "surface": "עַמִּ֖י",
       "gloss": "my people"
     },
     {
-      "surface": "שמי",
-      "gloss": "my name"
+      "surface": "שְׁמִ֑י",
+      "gloss": "my name",
+      "sense": "S1"
     },
     {
-      "surface": "לכן",
+      "surface": "לָכֵן֙",
       "gloss": "therefore"
     },
     {
-      "surface": "ביום",
-      "gloss": "in that day"
+      "surface": "בַּיּ֣וֹם",
+      "gloss": "in the day",
+      "sense": "S1"
     },
     {
-      "surface": "ההוא",
-      "gloss": "that (one)"
-    },
-    {
-      "surface": "כי",
+      "surface": "הַה֔וּא",
       "gloss": "that"
     },
     {
-      "surface": "אני",
+      "surface": "כִּֽי",
+      "gloss": "that"
+    },
+    {
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "הוא",
+      "surface": "ה֥וּא",
       "gloss": "he"
     },
     {
-      "surface": "המדבר",
-      "gloss": "who speaks"
+      "surface": "הַֽמְדַבֵּ֖ר",
+      "gloss": "who speaks",
+      "sense": "S1"
     },
     {
-      "surface": "הנני",
-      "gloss": "behold me"
+      "surface": "הִנֵּֽנִי",
+      "gloss": "here I am"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:26:55.380175007Z",
+  "model": "glm-5.3"
 }

@@ -1,63 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Whose harvest the hungry one eats, and from the thorns he takes it, and the thirsty pant after their wealth.",
-  "tokens": [
+  "ref": "job 5:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "אשר",
-      "gloss": "whose"
+      "kind": "crux",
+      "subject": "צַמִּים",
+      "rationale": "'thirsty ones' (from a root for thirst\/longing) vs the traditional 'robbers' or 'noose' reading."
     },
     {
-      "surface": "קצירו",
-      "gloss": "harvest"
-    },
-    {
-      "surface": "רעב",
-      "gloss": "the hungry one"
-    },
-    {
-      "surface": "יאכל",
-      "gloss": "eats"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and from"
-    },
-    {
-      "surface": "מצנים",
-      "gloss": "the thorns"
-    },
-    {
-      "surface": "יקחהו",
-      "gloss": "he takes it"
-    },
-    {
-      "surface": "ושאף",
-      "gloss": "and pant"
-    },
-    {
-      "surface": "צמים",
-      "gloss": "the thirsty"
-    },
-    {
-      "surface": "חילם",
-      "gloss": "their wealth",
-      "readings": [
-        "their wealth",
-        "their substance",
-        "their force"
-      ],
-      "held_by": {
-        "their wealth": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their substance": [
-          "v1"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "וְשָׁאַף \/ צַמִּים",
+      "rationale": "the panting word pairs with the thirsty word, a sound-and-sense echo carried only partly in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Whose harvest a hungry one eats, and from among thorns he takes it, and thirsty ones pant after their wealth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ff8ccbb40e2d8973dadac2c99195d8bfeda27fbf31543b853ab3371750b37d89",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/5-8.1791194191038.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "whose",
+      "sense": null
+    },
+    {
+      "surface": "קְצִירוֹ",
+      "gloss": "harvest",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָעֵב",
+      "gloss": "a hungry one",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכֵל",
+      "gloss": "eats",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶל",
+      "gloss": "and from among",
+      "sense": null
+    },
+    {
+      "surface": "מִצַּנִּים",
+      "gloss": "thorns",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִקָּחֵהוּ",
+      "gloss": "he takes it",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְשָׁאַף",
+      "gloss": "and pants",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַמִּים",
+      "gloss": "thirsty ones",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֵילָם",
+      "gloss": "after their wealth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:31.038767293Z",
+  "model": "glm-5.3"
 }

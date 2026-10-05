@@ -1,59 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "He who watches the wind will not sow, and he who gazes at the clouds will not reap.",
-  "tokens": [
+  "ref": "ecclesiastes 11:4",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "שמר",
-      "gloss": "watches"
-    },
-    {
-      "surface": "רוח",
-      "gloss": "the wind",
-      "readings": [
-        "the wind",
-        "the breath",
-        "the spirit"
-      ],
-      "held_by": {
-        "the wind": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the breath": [
-          "en4"
-        ],
-        "the spirit": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יזרע",
-      "gloss": "will sow"
-    },
-    {
-      "surface": "וראה",
-      "gloss": "and gazes"
-    },
-    {
-      "surface": "בעבים",
-      "gloss": "at the clouds"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יקצור",
-      "gloss": "will reap"
+      "kind": "wordplay",
+      "subject": "רוח",
+      "rationale": "The wind watched here echoes 'the way of the wind' in verse 5; the one word spans breeze, breath, and spirit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The one watching the wind will not sow, and the one looking at the clouds will not reap.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cdee764a5a26e074d25b233f246a78beb068937e23c03460854f38452a751f04",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/11\/1-4.1791194966782.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שֹׁמֵ֥ר",
+      "gloss": "The one watching",
+      "sense": "S1"
+    },
+    {
+      "surface": "ר֖וּחַ",
+      "gloss": "wind",
+      "sense": "S1",
+      "readings": [
+        "wind",
+        "breath",
+        "spirit"
+      ]
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִזְרָ֑ע",
+      "gloss": "will sow",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרֹאֶ֥ה",
+      "gloss": "and the one looking at",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֶעָבִ֖ים",
+      "gloss": "the clouds",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֥א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִקְצֽוֹר",
+      "gloss": "will reap",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:09:26.784166051Z",
+  "model": "glm-5.3"
 }

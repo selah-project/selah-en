@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Terror, and pit, and snare ⟨are⟩ upon you, O inhabitant of the earth.",
-  "tokens": [
+  "ref": "isaiah 24:17",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "פחד",
-      "gloss": "Terror"
+      "kind": "wordplay",
+      "subject": "פחד ופחת ופח",
+      "rationale": "three near-identical nouns — terror, pit, snare — a sound-climax that English can only partly carry"
     },
     {
-      "surface": "ופחת",
-      "gloss": "and pit"
-    },
-    {
-      "surface": "ופח",
-      "gloss": "and snare"
-    },
-    {
-      "surface": "עליך",
-      "gloss": "upon you"
-    },
-    {
-      "surface": "יושב",
-      "gloss": "O inhabitant of"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "יושב הארץ",
+      "rationale": "direct address to the inhabitant of the earth"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Terror, and the pit, and the snare — upon you, O inhabitant of the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8e8ee75901e1c447ceb11ddcfe9dc82c9dbf11e553517d170cae4577c5b1dc4c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/24\/17-20.1791188360059.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פַּ֥חַד",
+      "gloss": "Terror",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָפַ֖חַת",
+      "gloss": "and the pit",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָפָ֑ח",
+      "gloss": "and the snare",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלֶ֖יךָ",
+      "gloss": "upon you",
+      "sense": null
+    },
+    {
+      "surface": "יוֹשֵׁ֥ב",
+      "gloss": "inhabitant of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאָֽרֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:19:20.060275054Z",
+  "model": "glm-5.3"
 }

@@ -1,76 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "I have seen ⟨את⟩ the task that Elohim has given to the sons of man, to be occupied with it.",
+  "ref": "ecclesiastes 3:10",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "task",
+      "rationale": "הָעִנְיָן is 'affair\/employment'; rendered 'task' to carry the SDBH sense of assigned responsibilities."
+    },
+    {
+      "kind": "crux",
+      "subject": "לַעֲנ֥וֹת בּֽוֹ",
+      "rationale": "'to be afflicted with it' vs 'to be occupied\/busied with it'; same verb ענה as affliction."
+    }
+  ],
+  "translation": "I have seen ⟨את⟩ the task that Elohim has given to the sons of the human to be preoccupied with in it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ee6225e18b46990e02561f8208e3c5bcfd9a4f92ed539b916cd8b4a661f6c9b9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/3\/9-12.1791194833731.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
   "tokens": [
     {
-      "surface": "ראיתי",
-      "gloss": "I have seen"
+      "surface": "רָאִ֣יתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the task"
     },
     {
-      "surface": "הענין",
+      "surface": "הָֽעִנְיָ֗ן",
       "gloss": "the task",
-      "readings": [
-        "the task",
-        "the burden"
-      ],
-      "held_by": {
-        "the task": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the burden": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁ֨ר",
       "gloss": "that"
     },
     {
-      "surface": "נתן",
+      "surface": "נָתַ֧ן",
       "gloss": "has given"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֛ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "לבני",
-      "gloss": "to the sons of"
+      "surface": "לִבְנֵ֥י",
+      "gloss": "to the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "האדם",
-      "gloss": "man"
+      "surface": "הָאָדָ֖ם",
+      "gloss": "the human",
+      "sense": "S1"
     },
     {
-      "surface": "לענות",
-      "gloss": "to be occupied with",
-      "readings": [
-        "to be occupied with",
-        "to be exercised"
-      ],
-      "held_by": {
-        "to be occupied with": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to be exercised": [
-          "v1"
-        ]
-      }
+      "surface": "לַעֲנ֥וֹת",
+      "gloss": "to be preoccupied with",
+      "sense": "S1"
     },
     {
-      "surface": "בו",
-      "gloss": "with it"
+      "surface": "בּֽוֹ",
+      "gloss": "in it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:07:13.731839408Z",
+  "model": "glm-5.3"
 }

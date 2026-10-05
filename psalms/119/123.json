@@ -1,43 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 123,
-  "translation": "My eyes fail for your salvation, and for the word of your righteousness.",
-  "tokens": [
+  "ref": "psalms 119:123",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "עיני",
-      "gloss": "My eyes"
-    },
-    {
-      "surface": "כלו",
-      "gloss": "fail",
-      "readings": [
-        "fail",
-        "are consumed"
-      ],
-      "held_by": {
-        "fail": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are consumed": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לישועתך",
-      "gloss": "for your salvation"
-    },
-    {
-      "surface": "ולאמרת",
-      "gloss": "and for the word of"
-    },
-    {
-      "surface": "צדקך",
-      "gloss": "your righteousness"
+      "kind": "substitution",
+      "subject": "fail",
+      "rationale": "כָּלוּ literally 'are finished\/spent', the eyes worn out by watching."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My eyes fail for your salvation, and for your righteous word.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fd286f02f40dd5d37a63bfeba0b3ca003b3e1ceb1b7fcbb665eacbd952ec85f3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/121-124.1791193478978.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵ֭ינַי",
+      "gloss": "My eyes",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל֣וּ",
+      "gloss": "fail",
+      "sense": "S1",
+      "readings": [
+        "fail",
+        "are spent"
+      ]
+    },
+    {
+      "surface": "לִֽישׁוּעָתֶ֑ךָ",
+      "gloss": "for your salvation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּלְאִמְרַ֥ת",
+      "gloss": "and for the word of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִדְקֶֽךָ",
+      "gloss": "your righteousness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:38.979866925Z",
+  "model": "glm-5.3"
 }

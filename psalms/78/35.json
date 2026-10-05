@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 35,
-  "translation": "And they remembered that Elohim ⟨was⟩ their Rock, and El Elyon ⟨was⟩ their redeemer.",
-  "tokens": [
+  "ref": "psalms 78:35",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
     {
-      "surface": "ויזכרו",
-      "gloss": "and they remembered"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew lacks copula in the appositional clauses"
     },
     {
-      "surface": "כי",
+      "kind": "wordplay",
+      "subject": "גֹּאֲלָם",
+      "rationale": "kinsman-redeemer — the next of kin who buys back, not a general savior"
+    }
+  ],
+  "translation": "And they remembered that Elohim was their Rock, and El Elyon their redeemer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "55ccef5c5dbfe0b0e6c52cebff907b16e5f3be5c6fb3fe331ea6a004960f3147",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/33-36.1791193045332.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַֽ֭יִּזְכְּרוּ",
+      "gloss": "And they remembered",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
       "gloss": "that"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִ֣ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "צורם",
-      "gloss": "their Rock",
-      "readings": [
-        "their Rock",
-        "their cliff"
-      ],
-      "held_by": {
-        "their Rock": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "their cliff": [
-          "en4"
-        ]
-      }
+      "surface": "צוּרָ֑ם",
+      "gloss": "was their Rock",
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
-      "gloss": "and El"
+      "surface": "וְאֵ֥ל",
+      "gloss": "and El",
+      "sense": "S1"
     },
     {
-      "surface": "עליון",
-      "gloss": "Elyon"
+      "surface": "עֶ֝לְי֗וֹן",
+      "gloss": "Elyon",
+      "sense": "S1"
     },
     {
-      "surface": "גאלם",
-      "gloss": "their redeemer"
+      "surface": "גֹּאֲלָֽם",
+      "gloss": "their redeemer",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:25.332996811Z",
+  "model": "glm-5.3"
 }

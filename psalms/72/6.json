@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "He shall come down like rain upon mown grass, like showers dripping on the earth.",
+  "ref": "psalms 72:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "זרזיף",
+      "rationale": "Occurs only here in the Tanakh; a pouring\/streaming rain, meaning not fully certain."
+    },
+    {
+      "kind": "crux",
+      "subject": "גז",
+      "rationale": "'mown grass' (SDBH) vs 'a fleece' (as shorn); both senses of the same noun."
+    }
+  ],
+  "translation": "May he come down like rain upon mown grass, like showers, a-pouring-down upon earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1310b8836775d5c4d15add23f672d0528289b1952dbc88ffdc9cad3d2eff319e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/5-8.1791192977518.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ירד",
-      "gloss": "He shall come down"
+      "surface": "יֵ֭רֵד",
+      "gloss": "may he come down",
+      "sense": "S1"
     },
     {
-      "surface": "כמטר",
-      "gloss": "like rain"
+      "surface": "כְּמָטָ֣ר",
+      "gloss": "like rain",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
     },
     {
-      "surface": "גז",
+      "surface": "גֵּ֑ז",
       "gloss": "mown grass",
       "readings": [
         "mown grass",
         "a fleece"
       ],
-      "held_by": {
-        "mown grass": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a fleece": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כרביבים",
-      "gloss": "like showers"
+      "surface": "כִּ֝רְבִיבִ֗ים",
+      "gloss": "like showers",
+      "sense": "S1"
     },
     {
-      "surface": "זרזיף",
-      "gloss": "dripping"
+      "surface": "זַרְזִ֥יף",
+      "gloss": "a-pouring-down",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "surface": "אָֽרֶץ",
+      "gloss": "earth",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:36:17.518889390Z",
+  "model": "glm-5.3"
 }

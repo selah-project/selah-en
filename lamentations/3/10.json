@@ -1,59 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "A bear lying in wait — he is to me a lion in hiding places.",
+  "ref": "lamentations 3:10",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "lion",
+      "rationale": "אריה is ketiv; the qere reads ארי — the same animal, spelling variants."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has pronoun הוא plus prepositional phrase; the copula sense is carried by הוא itself."
+    }
+  ],
+  "translation": "A bear lying in wait he is to me, ⟨a⟩ lion in the hiding places.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7c0e11887e297e157779a72933f9a5e70b715fd20418eb931fbfa0bb4935afc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/9-12.1791194698548.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "דב",
-      "gloss": "a bear"
+      "surface": "דֹב",
+      "gloss": "A bear",
+      "sense": "S1"
     },
     {
-      "surface": "ארב",
+      "surface": "אֹרֵב",
       "gloss": "lying in wait",
-      "readings": [
-        "lying in wait",
-        "an ambusher"
-      ],
-      "held_by": {
-        "lying in wait": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "an ambusher": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "surface": "הוּא",
+      "gloss": "he is",
+      "sense": null
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
+      "surface": "לִי",
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "אריה",
-      "gloss": "a lion"
+      "gloss": "⟨a⟩ lion",
+      "sense": "S2"
     },
     {
-      "surface": "במסתרים",
-      "gloss": "in hiding places",
-      "readings": [
-        "in hiding places",
-        "in secret hiding-places"
-      ],
-      "held_by": {
-        "in hiding places": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "בְּמִסְתָּרִים",
+      "gloss": "in the hiding places",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:58.549467519Z",
+  "model": "glm-5.3"
 }

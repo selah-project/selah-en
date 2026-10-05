@@ -1,66 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "A son ⟨of⟩ twenty and one years was Zedekiah in his reign, and one and ten years he reigned in Jerusalem.",
-  "tokens": [
+  "ref": "2-chronicles 36:11",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "בן",
-      "gloss": "A son"
+      "kind": "addition",
+      "subject": "was \/ when he began to reign",
+      "rationale": "Hebrew's age formula lacks copula and 'when'; supplied for English syntax"
     },
     {
-      "surface": "עשרים",
+      "kind": "measurement",
+      "subject": "ages and reign lengths",
+      "rationale": "the verse gives the king's age and reign length"
+    }
+  ],
+  "translation": "A son of twenty and one years was Zedekiah when he began to reign, and eleven years he reigned in Jerusalem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9858994559bad809154be541a105225d60eae465e97c7a93d3f3a0355da3ac8b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/36\/9-12.1791197091578.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בֶּן",
+      "gloss": "A son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶשְׂרִים",
       "gloss": "twenty"
     },
     {
-      "surface": "ואחת",
-      "gloss": "and one"
+      "surface": "וְאַחַת",
+      "gloss": "and one",
+      "sense": "S1"
     },
     {
-      "surface": "שנה",
-      "gloss": "years"
+      "surface": "שָׁנָה",
+      "gloss": "years",
+      "sense": "S1"
     },
     {
-      "surface": "צדקיהו",
-      "gloss": "Zedekiah"
+      "surface": "צִדְקִיָּהוּ",
+      "gloss": "was Zedekiah"
     },
     {
-      "surface": "במלכו",
-      "gloss": "in his reign",
-      "readings": [
-        "in his reign",
-        "in his becoming king"
-      ],
-      "held_by": {
-        "in his reign": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in his becoming king": [
-          "en4"
-        ]
-      }
+      "surface": "בְּמָלְכוֹ",
+      "gloss": "when he began to reign",
+      "sense": "S1"
     },
     {
-      "surface": "ואחת",
-      "gloss": "and one"
+      "surface": "וְאַחַת",
+      "gloss": "and one",
+      "sense": "S1"
     },
     {
-      "surface": "עשרה",
+      "surface": "עֶשְׂרֵה",
       "gloss": "ten"
     },
     {
-      "surface": "שנה",
-      "gloss": "years"
+      "surface": "שָׁנָה",
+      "gloss": "years",
+      "sense": "S1"
     },
     {
-      "surface": "מלך",
-      "gloss": "he reigned"
+      "surface": "מָלַךְ",
+      "gloss": "he reigned",
+      "sense": "S1"
     },
     {
-      "surface": "בירושלם",
-      "gloss": "in Jerusalem"
+      "surface": "בִּירוּשָׁלִָם",
+      "gloss": "in Jerusalem",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:44:51.579833418Z",
+  "model": "glm-5.3"
 }

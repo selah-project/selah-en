@@ -1,63 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And all your sons are taught of YHWH, and great ⟨is⟩ the peace of your sons.",
+  "ref": "isaiah 54:13",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are \/ is",
+      "rationale": "Hebrew verbless clauses lack a copula"
+    },
+    {
+      "kind": "you",
+      "subject": "to the afflicted city (Jerusalem)",
+      "rationale": "second feminine singular addressee carried over from Isaiah 54:11"
+    }
+  ],
+  "translation": "And all your sons are taught of YHWH, and great is the peace of your sons.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "639a941b3342364a6936487d5bf0f170d5f9392bc1bd4566d7f863d7ef40ee34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/54\/13-16.1791188833792.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "וכל",
-      "gloss": "And all"
+      "gloss": "and all",
+      "sense": null
     },
     {
       "surface": "בניך",
       "gloss": "your sons",
-      "readings": [
-        "your sons",
-        "your children"
-      ],
-      "held_by": {
-        "your sons": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "your children": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "למודי",
-      "gloss": "taught ones of"
+      "gloss": "taught of",
+      "sense": null
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ורב",
-      "gloss": "and great"
+      "gloss": "and great",
+      "sense": "S1"
     },
     {
       "surface": "שלום",
-      "gloss": "the peace"
+      "gloss": "the peace of",
+      "sense": "S1"
     },
     {
       "surface": "בניך",
-      "gloss": "of your sons",
-      "readings": [
-        "of your sons",
-        "of your children"
-      ],
-      "held_by": {
-        "of your sons": [
-          "v1",
-          "v3"
-        ],
-        "of your children": [
-          "v2"
-        ]
-      }
+      "gloss": "your sons",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:27:13.793566498Z",
+  "model": "glm-5.3"
 }

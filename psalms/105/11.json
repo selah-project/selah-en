@@ -1,74 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "saying, “To you I will give ⟨את⟩ the land of Canaan, the cord of your inheritance,”",
-  "tokens": [
+  "ref": "psalms 105:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 105,
+  "notes": [
     {
-      "surface": "לאמר",
-      "gloss": "saying"
+      "kind": "wordplay",
+      "subject": "חבל",
+      "rationale": "חבל is literally a rope\/measuring-line, extended to mean a measured tract of land — the surveyor's picture is lost in 'region'"
     },
     {
-      "surface": "לך",
+      "kind": "you",
+      "subject": "Israel",
+      "rationale": "the covenant promise quoted as direct speech to the patriarchs\/Israel"
+    }
+  ],
+  "translation": "“To you I give ⟨את⟩ the land of Canaan as the region of your inheritance.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "425de16693e9956b8d05e0a516bd35bed3cf425311d59f72393604be92d9a343",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/105\/9-12.1791193293831.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֵאמֹ֗ר",
+      "gloss": "saying",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ֗",
       "gloss": "to you"
     },
     {
-      "surface": "אתן",
-      "gloss": "I will give"
+      "surface": "אֶתֵּ֥ן",
+      "gloss": "I give"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the land of Canaan"
     },
     {
-      "surface": "ארץ",
+      "surface": "אֶֽרֶץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "כנען",
-      "gloss": "of Canaan"
+      "surface": "כְּנָ֑עַן",
+      "gloss": "of Canaan",
+      "sense": "S1"
     },
     {
-      "surface": "חבל",
-      "gloss": "the cord",
+      "surface": "חֶ֝֗בֶל",
+      "gloss": "the region",
+      "sense": "S1",
       "readings": [
-        "the cord",
-        "the portion",
-        "the measuring line"
-      ],
-      "held_by": {
-        "the cord": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the portion": [
-          "en4"
-        ],
-        "the measuring line": [
-          "en4"
-        ]
-      }
+        "the region",
+        "the measuring-line"
+      ]
     },
     {
-      "surface": "נחלתכם",
-      "gloss": "of your inheritance"
+      "surface": "נַחֲלַתְכֶֽם",
+      "gloss": "of your inheritance",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:33.832256634Z",
+  "model": "glm-5.3"
 }

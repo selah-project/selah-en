@@ -1,62 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "⟨את⟩ YHWH your Elohim you shall fear; ⟨את⟩ Him you shall serve, and to Him you shall cling, and by His name you shall swear.",
-  "tokens": [
+  "ref": "deuteronomy 10:20",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-person singular commands addressed to Israel"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
-    },
-    {
-      "surface": "תירא",
-      "gloss": "you shall fear"
-    },
-    {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ Him"
-    },
-    {
-      "surface": "תעבד",
-      "gloss": "you shall serve"
-    },
-    {
-      "surface": "ובו",
-      "gloss": "and to Him",
-      "readings": [
-        "and to Him",
-        "and in Him"
-      ],
-      "held_by": {
-        "and to Him": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and in Him": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תדבק",
-      "gloss": "you shall cling"
-    },
-    {
-      "surface": "ובשמו",
-      "gloss": "and by His name"
-    },
-    {
-      "surface": "תשבע",
-      "gloss": "you shall swear"
+      "kind": "wordplay",
+      "subject": "תשבע",
+      "rationale": "שבע 'swear' is built on 'seven', as if repeating a declaration seven times — lost in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ YHWH your Elohim you shall fear, ⟨את⟩ him you shall serve, and to him you shall cling, and in his name you shall swear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3687f4bc44f5a7f4c0713c95bb8b5b7044e18481a5a194fa0a75b8b783fb6e39",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/10\/17-20.1791183789756.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH your Elohim",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֧ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֶ֛יךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּירָ֖א",
+      "gloss": "you shall fear",
+      "sense": "S1",
+      "readings": [
+        "you shall fear",
+        "you shall revere"
+      ]
+    },
+    {
+      "surface": "אֹת֣וֹ",
+      "gloss": "⟨את⟩ him",
+      "marks": "you shall serve",
+      "sense": null
+    },
+    {
+      "surface": "תַעֲבֹ֑ד",
+      "gloss": "you shall serve",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּב֣וֹ",
+      "gloss": "and to him",
+      "sense": null
+    },
+    {
+      "surface": "תִּדְבָּ֔ק",
+      "gloss": "you shall cling",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבִשְׁמ֖וֹ",
+      "gloss": "and in his name",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשָּׁבֵֽעַ",
+      "gloss": "you shall swear",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:03:09.757613014Z",
+  "model": "glm-5.3"
 }

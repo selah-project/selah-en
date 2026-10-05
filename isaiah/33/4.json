@@ -1,26 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "And your spoil shall be gathered — a gathering of the devouring locust; like the sweeping of locusts, sweeping upon it.",
+  "ref": "isaiah 33:4",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "גבים",
+      "rationale": "גֵּב, a kind of locust, occurs only here in the Tanakh."
+    },
+    {
+      "kind": "hapax",
+      "subject": "כמשק",
+      "rationale": "The noun מַשּׁק occurs only here; 'rushing' keeps the rapid-motion picture."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אסף\/אסף",
+      "rationale": "Verb and noun of one root — 'gathered like the gathering' — preserves the harvest image of the swarming locusts."
+    }
+  ],
+  "translation": "And your spoil is gathered like the gathering of the locust, like the rushing of locusts rushing upon it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc6268de457e4cb00d3abb8c329c573c2e58c8f2c8de8c56e42339153a7ce41b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/1-4.1791188488744.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "ואסף",
-      "gloss": "And shall be gathered"
+      "gloss": "And is gathered",
+      "sense": "S1"
     },
     {
       "surface": "שללכם",
-      "gloss": "your spoil"
+      "gloss": "your spoil",
+      "sense": "S1"
     },
     {
       "surface": "אסף",
-      "gloss": "a gathering"
+      "gloss": "the gathering of",
+      "sense": "S1"
     },
     {
       "surface": "החסיל",
-      "gloss": "the devouring locust"
+      "gloss": "the locust",
+      "sense": "S1"
     },
     {
       "surface": "כמשק",
-      "gloss": "like the sweeping of"
+      "gloss": "like the rushing of",
+      "sense": "S1"
     },
     {
       "surface": "גבים",
@@ -28,13 +65,14 @@
     },
     {
       "surface": "שוקק",
-      "gloss": "sweeping"
+      "gloss": "rushing",
+      "sense": "S1"
     },
     {
       "surface": "בו",
       "gloss": "upon it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:28.751558176Z",
+  "model": "glm-5.3"
 }

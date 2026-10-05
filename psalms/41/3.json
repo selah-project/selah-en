@@ -1,89 +1,87 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "YHWH will guard him and keep him alive; he will be called happy in the land; and do not give him to the nefesh of his enemies.",
+  "ref": "psalms 41:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יְאַשְּׁרֵהוּ",
+      "rationale": "ketiv יאשר (he blesses him) vs qere ואשר (and blessed is he); ketiv rendered as the ground"
+    },
+    {
+      "kind": "substitution",
+      "subject": "appetite",
+      "rationale": "נפש here is the desire\/life-force of the enemies craving him, not 'soul'"
+    },
+    {
+      "kind": "invitation",
+      "subject": "prayer",
+      "rationale": "the verse turns from statement to petition — 'do not give him'"
+    }
+  ],
+  "translation": "YHWH keeps him and keeps him alive; blessed he pronounces him in the land, and do not give him over to the appetite of his enemies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1696f47c9fc8033c41b857f02ec3502cefe02f9a954dd503fc04d4bfe53bc05a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/41\/1-4.1791192679236.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ישמרהו",
-      "gloss": "will guard him"
+      "surface": "יִשְׁמְרֵהוּ",
+      "gloss": "keeps him",
+      "sense": "S1"
     },
     {
-      "surface": "ויחיהו",
-      "gloss": "and keeps him alive"
+      "surface": "וִיחַיֵּהוּ",
+      "gloss": "and keeps him alive",
+      "sense": "S1"
     },
     {
-      "surface": "יאשר",
-      "gloss": "he will be called happy",
+      "surface": "יְאַשְּׁרֵהוּ",
+      "gloss": "blessed he pronounces him",
+      "sense": "S1",
       "readings": [
-        "he will be called happy",
-        "he will be happy"
-      ],
-      "held_by": {
-        "he will be called happy": [
-          "en4"
-        ],
-        "he will be happy": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+        "blessed he pronounces him",
+        "and he pronounces him happy"
+      ]
     },
     {
-      "surface": "בארץ",
+      "surface": "בָּאָרֶץ",
       "gloss": "in the land",
-      "readings": [
-        "in the land",
-        "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "en4"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
+      "surface": "וְאַל",
       "gloss": "and do not"
     },
     {
-      "surface": "תתנהו",
-      "gloss": "give him"
+      "surface": "תִּתְּנֵהוּ",
+      "gloss": "give him over"
     },
     {
-      "surface": "בנפש",
-      "gloss": "to the nefesh of",
-      "readings": [
-        "to the nefesh of",
-        "to the desire of",
-        "to the appetite of"
-      ],
-      "held_by": {
-        "to the nefesh of": [
-          "en4"
-        ],
-        "to the desire of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the appetite of": [
-          "en4"
-        ]
-      }
+      "surface": "בְּנֶפֶשׁ",
+      "gloss": "to the appetite of",
+      "sense": "S1"
     },
     {
-      "surface": "איביו",
-      "gloss": "of his enemies"
+      "surface": "אֹיְבָיו",
+      "gloss": "his enemies",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:19.237974295Z",
+  "model": "glm-5.3"
 }

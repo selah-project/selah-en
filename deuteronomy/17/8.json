@@ -1,33 +1,47 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "If a matter is too extraordinary for you for judgment, between blood to blood, between judgment to judgment, and between plague to plague — matters of dispute within your gates — then you shall arise and go up to the place that YHWH your Elohim shall choose.",
+  "ref": "deuteronomy 17:8",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יפלא ממך",
+      "rationale": "Literally 'is extraordinary from you' — too difficult\/beyond your ability; hiphil-less niphal of פלא rendered 'too extraordinary for you' to keep the root's wonder sense."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "דם לדם, דין לדין, נגע לנגע",
+      "rationale": "Three paired merisms with ל 'X to X' — between kinds of bloodshed, verdict, and skin-affliction; the repetition kept literally."
+    },
+    {
+      "kind": "mystery",
+      "subject": "the place that YHWH will choose",
+      "rationale": "The place is left unnamed — a deliberately withheld reference pointing forward to a chosen sanctuary."
+    }
+  ],
+  "translation": "If a matter of judgment is too extraordinary for you, between blood and blood, between verdict and verdict, and between affliction and affliction — matters of dispute in your gates — then you shall rise and go up to the place that YHWH your Elohim will choose,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0732c1504f6f4d2a2a2c941a0bc3c1aae7473ec4702d73b36f94ebd85f4fd702",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/17\/5-8.1791183914706.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "If"
+      "gloss": "if"
     },
     {
       "surface": "יפלא",
       "gloss": "is too extraordinary",
-      "readings": [
-        "is too extraordinary",
-        "is too wonderful",
-        "is too difficult"
-      ],
-      "held_by": {
-        "is too extraordinary": [
-          "v1",
-          "v3"
-        ],
-        "is too wonderful": [
-          "en4"
-        ],
-        "is too difficult": [
-          "en4",
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "ממך",
@@ -35,11 +49,13 @@
     },
     {
       "surface": "דבר",
-      "gloss": "a matter"
+      "gloss": "a matter",
+      "sense": "S1"
     },
     {
       "surface": "למשפט",
-      "gloss": "for judgment"
+      "gloss": "of judgment",
+      "sense": "S1"
     },
     {
       "surface": "בין",
@@ -47,26 +63,13 @@
     },
     {
       "surface": "דם",
-      "gloss": "blood"
+      "gloss": "blood",
+      "sense": "S1"
     },
     {
       "surface": "לדם",
-      "gloss": "to blood",
-      "readings": [
-        "to blood",
-        "and blood"
-      ],
-      "held_by": {
-        "to blood": [
-          "v1",
-          "v3"
-        ],
-        "and blood": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and blood",
+      "sense": "S1"
     },
     {
       "surface": "בין",
@@ -74,41 +77,13 @@
     },
     {
       "surface": "דין",
-      "gloss": "judgment",
-      "readings": [
-        "judgment",
-        "claim"
-      ],
-      "held_by": {
-        "judgment": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "claim": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "gloss": "verdict",
+      "sense": "S1"
     },
     {
       "surface": "לדין",
-      "gloss": "to judgment",
-      "readings": [
-        "to judgment",
-        "and judgment"
-      ],
-      "held_by": {
-        "to judgment": [
-          "v1",
-          "v3"
-        ],
-        "and judgment": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and verdict",
+      "sense": "S1"
     },
     {
       "surface": "ובין",
@@ -116,64 +91,36 @@
     },
     {
       "surface": "נגע",
-      "gloss": "plague",
-      "readings": [
-        "plague",
-        "affliction",
-        "stroke"
-      ],
-      "held_by": {
-        "plague": [
-          "en4"
-        ],
-        "affliction": [
-          "v1",
-          "v3"
-        ],
-        "stroke": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "affliction",
+      "sense": "S1"
     },
     {
       "surface": "לנגע",
-      "gloss": "to plague",
-      "readings": [
-        "to plague",
-        "and plague"
-      ],
-      "held_by": {
-        "to plague": [
-          "v1",
-          "v3"
-        ],
-        "and plague": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and affliction",
+      "sense": "S1"
     },
     {
       "surface": "דברי",
-      "gloss": "matters of"
+      "gloss": "matters of",
+      "sense": "S1"
     },
     {
       "surface": "ריבת",
-      "gloss": "of dispute"
+      "gloss": "dispute"
     },
     {
       "surface": "בשעריך",
-      "gloss": "within your gates"
+      "gloss": "in your gates",
+      "sense": "S1"
     },
     {
       "surface": "וקמת",
-      "gloss": "then you shall arise"
+      "gloss": "then you shall rise"
     },
     {
       "surface": "ועלית",
-      "gloss": "and go up"
+      "gloss": "and go up",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -181,7 +128,8 @@
     },
     {
       "surface": "המקום",
-      "gloss": "the place"
+      "gloss": "the place",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -189,36 +137,24 @@
     },
     {
       "surface": "יבחר",
-      "gloss": "shall choose",
-      "readings": [
-        "shall choose",
-        "chooses"
-      ],
-      "held_by": {
-        "shall choose": [
-          "v1",
-          "v3"
-        ],
-        "chooses": [
-          "en4",
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "will choose",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "in it"
+      "gloss": "⟨in it⟩"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:05:14.708388301Z",
+  "model": "glm-5.3"
 }

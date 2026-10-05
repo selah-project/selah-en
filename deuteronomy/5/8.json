@@ -1,100 +1,120 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "You shall not make for yourself a carved image, any likeness that is in the heavens from above, and that is in the earth from beneath, and that is in the waters from beneath to the earth.",
-  "tokens": [
+  "ref": "deuteronomy 5:8",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Copula supplied for each relative clause, absent in Hebrew"
     },
     {
-      "surface": "תעשה",
-      "gloss": "you shall make"
+      "kind": "substitution",
+      "subject": "פֶּסֶל",
+      "rationale": "Literally a carved thing; 'carved image' keeps the carving in the picture"
     },
     {
-      "surface": "לך",
-      "gloss": "for yourself"
-    },
-    {
-      "surface": "פסל",
-      "gloss": "a carved image"
-    },
-    {
-      "surface": "כל",
-      "gloss": "any"
-    },
-    {
-      "surface": "תמונה",
-      "gloss": "likeness"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "בשמים",
-      "gloss": "in the heavens"
-    },
-    {
-      "surface": "ממעל",
-      "gloss": "from above"
-    },
-    {
-      "surface": "ואשר",
-      "gloss": "and that",
-      "readings": [
-        "and that",
-        "or that"
-      ],
-      "held_by": {
-        "and that": [
-          "v1",
-          "en4"
-        ],
-        "or that": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "בארץ",
-      "gloss": "in the earth"
-    },
-    {
-      "surface": "מתחת",
-      "gloss": "from beneath"
-    },
-    {
-      "surface": "ואשר",
-      "gloss": "and that",
-      "readings": [
-        "and that",
-        "or that"
-      ],
-      "held_by": {
-        "and that": [
-          "v1",
-          "en4"
-        ],
-        "or that": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "במים",
-      "gloss": "in the waters"
-    },
-    {
-      "surface": "מתחת",
-      "gloss": "from beneath"
-    },
-    {
-      "surface": "לארץ",
-      "gloss": "to the earth"
+      "kind": "crux",
+      "subject": "מִתַּחַת לָאָרֶץ",
+      "rationale": "'from below to the earth' — waters beneath the earth, a three-tier cosmos; parallel Exodus 20:4 adds וכל before תמונה"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You shall not make for yourself a carved image of any shape that is in the heavens from above, and that is in the earth from below, and that is in the waters from below to the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1104204900f7ea5eb4b2aa5c19fde221f9040bebe05383b2ebbcb31fd7d4e5da",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/5\/5-8.1791183685144.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַעֲשֶׂה",
+      "gloss": "you shall make",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "for yourself",
+      "sense": null
+    },
+    {
+      "surface": "פֶּסֶל",
+      "gloss": "a carved image of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "any",
+      "sense": null
+    },
+    {
+      "surface": "תְּמוּנָה",
+      "gloss": "shape",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "בַּשָּׁמַיִם",
+      "gloss": "is in the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמַּעַל",
+      "gloss": "from above",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲשֶׁר",
+      "gloss": "and that",
+      "sense": null
+    },
+    {
+      "surface": "בָּאָרֶץ",
+      "gloss": "is in the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתָּחַת",
+      "gloss": "from below",
+      "sense": null
+    },
+    {
+      "surface": "וַאֲשֶׁר",
+      "gloss": "and that",
+      "sense": null
+    },
+    {
+      "surface": "בַּמַּיִם",
+      "gloss": "is in the waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתַּחַת",
+      "gloss": "from below",
+      "sense": null
+    },
+    {
+      "surface": "לָאָרֶץ",
+      "gloss": "to the earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:01:25.145449812Z",
+  "model": "glm-5.3"
 }

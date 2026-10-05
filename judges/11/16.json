@@ -1,80 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "For when they came up from Egypt, Israel walked through the wilderness as far as ⟨the⟩ Sea of Reeds, and came to Kadesh.",
+  "ref": "judges 11:16",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "the Red Sea",
+      "rationale": "ים סוף is literally 'Sea of Reeds'; 'Red Sea' is the traditional convention."
+    },
+    {
+      "kind": "measurement",
+      "subject": "wilderness route: Egypt — Sea of Reeds — Kadesh",
+      "rationale": "The route is traced by named waypoints."
+    }
+  ],
+  "translation": "for in their coming up from Egypt, Israel walked in the wilderness to the Sea of Reeds and came to Kadesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "661d209ad39d42e7d7fc1dab07a59f0dd306344e7a424a4d88531d3362c40977",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/11\/13-16.1791185075504.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
       "surface": "כי",
-      "gloss": "For"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "בעלותם",
-      "gloss": "when they came up",
-      "readings": [
-        "when they came up",
-        "in their coming up"
-      ],
-      "held_by": {
-        "when they came up": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in their coming up": [
-          "en4"
-        ]
-      }
+      "gloss": "in their coming up",
+      "sense": "S1"
     },
     {
       "surface": "ממצרים",
-      "gloss": "from Egypt"
+      "gloss": "from Egypt",
+      "sense": "S1"
     },
     {
       "surface": "וילך",
       "gloss": "and walked",
-      "readings": [
-        "and walked",
-        "and went"
-      ],
-      "held_by": {
-        "and walked": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and went": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "במדבר",
-      "gloss": "through the wilderness"
+      "gloss": "in the wilderness",
+      "sense": "S1"
     },
     {
       "surface": "עד",
-      "gloss": "as far as"
+      "gloss": "to",
+      "sense": "S1"
     },
     {
       "surface": "ים",
-      "gloss": "⟨the⟩ Sea of"
+      "gloss": "the Sea of",
+      "sense": null
     },
     {
       "surface": "סוף",
-      "gloss": "Reeds"
+      "gloss": "Reeds",
+      "sense": "S1"
     },
     {
       "surface": "ויבא",
-      "gloss": "and came"
+      "gloss": "and came",
+      "sense": null
     },
     {
       "surface": "קדשה",
-      "gloss": "to Kadesh"
+      "gloss": "to Kadesh",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:24:35.505958381Z",
+  "model": "glm-5.3"
 }

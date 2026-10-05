@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And he set judges in the land, in all the fortified cities of Judah, city by city.",
-  "tokens": [
+  "ref": "2-chronicles 19:5",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "ויעמד",
-      "gloss": "and set"
+      "kind": "wordplay",
+      "subject": "לְעִיר וָעִיר",
+      "rationale": "Distributive repetition 'to a city and to a city', rendered as the English idiom 'city by city'."
     },
     {
-      "surface": "שפטים",
-      "gloss": "judges"
-    },
-    {
-      "surface": "בארץ",
-      "gloss": "in the land",
-      "readings": [
-        "in the land",
-        "in the earth"
-      ],
-      "held_by": {
-        "in the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the earth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בכל",
-      "gloss": "in all"
-    },
-    {
-      "surface": "ערי",
-      "gloss": "cities of"
-    },
-    {
-      "surface": "יהודה",
-      "gloss": "Judah"
-    },
-    {
-      "surface": "הבצרות",
-      "gloss": "the fortified"
-    },
-    {
-      "surface": "לעיר",
-      "gloss": "for city"
-    },
-    {
-      "surface": "ועיר",
-      "gloss": "and city"
+      "kind": "substitution",
+      "subject": "the land",
+      "rationale": "אֶרֶץ here is the specific territory of Judah, not the earth at large."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he set judges in the land, in all the fortified cities of Judah, city by city.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b41844e3165c58bf4e7f71349cbdf24b599655e9ee3f4ff3375e9a6cc308b2ec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/19\/5-8.1791196802687.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּעֲמֵ֨ד",
+      "gloss": "and he set",
+      "sense": null
+    },
+    {
+      "surface": "שֹֽׁפְטִ֜ים",
+      "gloss": "judges",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאָ֗רֶץ",
+      "gloss": "in the land",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "in all",
+      "sense": null
+    },
+    {
+      "surface": "עָרֵ֧י",
+      "gloss": "the cities of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוּדָ֛ה",
+      "gloss": "Judah",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַבְּצֻר֖וֹת",
+      "gloss": "the fortified",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעִ֥יר",
+      "gloss": "city by city",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָעִֽיר",
+      "gloss": "city by city",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:40:02.688501728Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "YHWH is your keeper; YHWH is your shade upon your right hand.",
-  "tokens": [
+  "ref": "psalms 121:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 121,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; copula supplied twice, unbracketed as natural English"
     },
     {
-      "surface": "שמרך",
-      "gloss": "your keeper"
+      "kind": "substitution",
+      "subject": "shade",
+      "rationale": "צל literally shadow; here safety from harm, the shelter picture kept"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "צלך",
-      "gloss": "your shade"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "יד",
-      "gloss": "hand"
-    },
-    {
-      "surface": "ימינך",
-      "gloss": "your right"
+      "kind": "you",
+      "subject": "the psalmist's addressee",
+      "rationale": "second-person address throughout, the traveler spoken of as 'you'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH is your keeper; YHWH is your shade on your right hand.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea4360178d6439241b7d6ea33d640f321496cd25c900c2df8bd1004ba4e28836",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/121\/5-8.1791193507395.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָ֥ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמְרֶ֑ךָ",
+      "gloss": "is your keeper",
+      "sense": "S1",
+      "readings": [
+        "is your keeper",
+        "guards you"
+      ]
+    },
+    {
+      "surface": "יְהוָ֥ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִ֝לְּךָ֗",
+      "gloss": "is your shade",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "יַ֥ד",
+      "gloss": "the hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִינֶֽךָ",
+      "gloss": "your right",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:07.396379200Z",
+  "model": "glm-5.3"
 }

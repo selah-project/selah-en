@@ -1,82 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "But I — with a voice of thanksgiving I will sacrifice to You; what I have vowed I will pay. Deliverance belongs to YHWH.",
-  "tokens": [
+  "ref": "jonah 2:10",
+  "book": "jonah",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ואני",
-      "gloss": "but I"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in 'Salvation ⟨is⟩ YHWH’s'."
     },
     {
-      "surface": "בקול",
-      "gloss": "with a voice of"
+      "kind": "crux",
+      "subject": "to you (feminine)",
+      "rationale": "לך carries a 2nd feminine singular suffix, a rare grammatical feminine reference to YHWH."
     },
     {
-      "surface": "תודה",
-      "gloss": "thanksgiving",
-      "readings": [
-        "thanksgiving",
-        "confession",
-        "extension of the hand"
-      ],
-      "held_by": {
-        "thanksgiving": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "confession": [
-          "en4"
-        ],
-        "extension of the hand": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אזבחה",
-      "gloss": "I will sacrifice"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to You"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "what"
-    },
-    {
-      "surface": "נדרתי",
-      "gloss": "I have vowed"
-    },
-    {
-      "surface": "אשלמה",
-      "gloss": "I will pay"
-    },
-    {
-      "surface": "ישועתה",
-      "gloss": "Deliverance",
-      "readings": [
-        "Deliverance",
-        "Salvation"
-      ],
-      "held_by": {
-        "Deliverance": [
-          "v1",
-          "v3"
-        ],
-        "Salvation": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ליהוה",
-      "gloss": "belongs to YHWH"
+      "kind": "wordplay",
+      "subject": "עזב\/אזבחה",
+      "rationale": "v9's יעזבו (forsake) sounds against v10's אזבחה (I will sacrifice) — the idol-keepers forsake, Jonah sacrifices."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But as for me, with the voice of thanksgiving I will sacrifice to you; what I have vowed I will pay. Salvation is YHWH’s.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ea63040dcc3fa45375f8dffda924f5ec9abbe0113534bd72cbfb2a859c6e4251",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jonah\/2\/9-11.1791191635266.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jonah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַאֲנִי",
+      "gloss": "But as for me",
+      "sense": null
+    },
+    {
+      "surface": "בְּקוֹל",
+      "gloss": "with the voice of",
+      "sense": null
+    },
+    {
+      "surface": "תּוֹדָה",
+      "gloss": "thanksgiving",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶזְבְּחָה",
+      "gloss": "I will sacrifice",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָּךְ",
+      "gloss": "to you",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "what",
+      "sense": null
+    },
+    {
+      "surface": "נָדַרְתִּי",
+      "gloss": "I have vowed",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשַׁלֵּמָה",
+      "gloss": "I will pay",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשׁוּעָתָה",
+      "gloss": "Salvation",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָֽה",
+      "gloss": "is YHWH’s",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:13:55.267261951Z",
+  "model": "glm-5.3"
 }

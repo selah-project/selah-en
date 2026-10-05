@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "The lambs ⟨are⟩ for your clothing, and the he-goats ⟨are⟩ the price of a field.",
-  "tokens": [
+  "ref": "proverbs 27:26",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 27,
+  "notes": [
     {
-      "surface": "כבשים",
-      "gloss": "the lambs"
+      "kind": "crux",
+      "subject": "he-goats",
+      "rationale": "accent pause places עתודים after שדה: 'the price of a field: he-goats' — goats buy the field — vs reading 'he-goats of the field'."
     },
     {
-      "surface": "ללבושך",
-      "gloss": "for your clothing"
-    },
-    {
-      "surface": "ומחיר",
-      "gloss": "and the price"
-    },
-    {
-      "surface": "שדה",
-      "gloss": "of a field"
-    },
-    {
-      "surface": "עתודים",
-      "gloss": "the he-goats",
-      "readings": [
-        "the he-goats",
-        "the prepared ones"
-      ],
-      "held_by": {
-        "the he-goats": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the prepared ones": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "for",
+      "rationale": "preposition-less juxtaposition כבשים ללבושך supplies the purpose link; lamed in ללבושך carries it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Lambs for your clothing, and the price of a field — he-goats.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1f87b266a4a847f83687cd84878a74c4fab6c84433cffd0efa4b4961aa18b464",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/27\/25-27.1791194038778.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּבָשִׂים",
+      "gloss": "Lambs",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִלְבוּשֶׁךָ",
+      "gloss": "for your clothing",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְחִיר",
+      "gloss": "and the price of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂדֶה",
+      "gloss": "a field",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַתּוּדִים",
+      "gloss": "he-goats",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:58.779225799Z",
+  "model": "glm-5.3"
 }

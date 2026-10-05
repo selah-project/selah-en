@@ -1,97 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Who counted ⟨the⟩ dust of Jacob, and ⟨the⟩ number ⟨את⟩ fourth-part of Israel? May my nefesh die ⟨the⟩ death of ⟨the⟩ upright ones, and let my end be like his!",
+  "ref": "numbers 23:10",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "רֹבַע",
+      "rationale": "'the fourth part of Israel' (a mere quarter, uncountable even so) vs 'the dust-cloud of Israel' (2 Kings 6:25); both senses attested for this rare word."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תָּמֹת \/ מוֹת",
+      "rationale": "the verb 'die' and the noun 'death' share one root, a sound-echo kept in 'die the death'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "counting the dust",
+      "rationale": "the verse turns on counting what cannot be counted — dust, number, fraction."
+    }
+  ],
+  "translation": "Who has counted the dust of Jacob, and ⟨את⟩ the number of the fourth-part of Israel? Let my nefesh die the death of the upright, and let my end be like his.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8265145917aea976bf2c99990271b5b80289f4571b19202ad967ed229cb90097",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/23\/9-12.1791183276723.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
     },
     {
-      "surface": "מנה",
-      "gloss": "counted"
+      "surface": "מָנָה",
+      "gloss": "has counted",
+      "sense": "S1"
     },
     {
-      "surface": "עפר",
-      "gloss": "dust"
+      "surface": "עֲפַר",
+      "gloss": "the dust of",
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "of Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
-      "surface": "ומספר",
-      "gloss": "and ⟨the⟩ number"
+      "surface": "וּמִסְפָּר",
+      "gloss": "and the number of",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the fourth-part of Israel",
+      "sense": null
     },
     {
-      "surface": "רבע",
-      "gloss": "fourth-part"
+      "surface": "רֹבַע",
+      "gloss": "the fourth-part of",
+      "readings": [
+        "the fourth-part of",
+        "the dust-cloud of"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "תמת",
-      "gloss": "May my nefesh die"
+      "surface": "תָּמֹת",
+      "gloss": "Let … die",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul"
+        "my life",
+        "my throat"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מות",
-      "gloss": "⟨the⟩ death"
+      "surface": "מוֹת",
+      "gloss": "the death of",
+      "sense": "S1"
     },
     {
-      "surface": "ישרים",
-      "gloss": "of ⟨the⟩ upright ones"
+      "surface": "יְשָׁרִים",
+      "gloss": "the upright",
+      "sense": "S1"
     },
     {
-      "surface": "ותהי",
-      "gloss": "and let … be"
+      "surface": "וּתְהִי",
+      "gloss": "and let … be",
+      "sense": null
     },
     {
-      "surface": "אחריתי",
+      "surface": "אַחֲרִיתִי",
       "gloss": "my end",
-      "readings": [
-        "my end",
-        "my posterity"
-      ],
-      "held_by": {
-        "my end": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my posterity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כמהו",
-      "gloss": "like his"
+      "surface": "כָּמֹהוּ",
+      "gloss": "like his",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:54:36.727132084Z",
+  "model": "glm-5.3"
 }

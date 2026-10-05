@@ -1,54 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "and the gecko, and the monitor lizard, and the lizard, and the skink, and the chameleon.",
-  "tokens": [
+  "ref": "leviticus 11:30",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "והאנקה",
-      "gloss": "and the gecko"
+      "kind": "hapax",
+      "subject": "אֲנָקָה · לְטָאָה · חֹמֶט",
+      "rationale": "three of the five creature names in this verse occur only here; all identifications are zoological inferences, not certainties."
     },
     {
-      "surface": "והכח",
-      "gloss": "and the monitor lizard",
-      "readings": [
-        "and the monitor lizard",
-        "and the land-crocodile"
-      ],
-      "held_by": {
-        "and the monitor lizard": [
-          "v1",
-          "v3"
-        ],
-        "and the land-crocodile": [
-          "v2"
-        ]
-      }
+      "kind": "crux",
+      "subject": "כֹּחַ",
+      "rationale": "the word is the common noun for 'strength\/power'; here, uniquely, it names the monitor lizard — a homograph lost in English."
     },
     {
-      "surface": "והלטאה",
-      "gloss": "and the lizard"
+      "kind": "crux",
+      "subject": "תִּנְשֶׁמֶת",
+      "rationale": "the same name names a bird in Lev 11:18 and this lizard here; 'chameleon' here follows the SDBH sense."
     },
     {
-      "surface": "והחמט",
-      "gloss": "and the skink",
-      "readings": [
-        "and the skink",
-        "and the sand-lizard"
-      ],
-      "held_by": {
-        "and the skink": [
-          "v1",
-          "v3"
-        ],
-        "and the sand-lizard": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "והתנשמת",
-      "gloss": "and the chameleon"
+      "kind": "measurement",
+      "subject": "the catalogue",
+      "rationale": "the verse continues the species list begun in v. 29 with no verb of its own."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and the gecko, and the monitor-lizard, and the wall-lizard, and the skink, and the chameleon.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98ce292cec3e032d22b108208ce5652a72f51817be3938af3e01d88319ecc7c8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/11\/29-32.1791182371420.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהָאֲנָקָ֥ה",
+      "gloss": "and the gecko",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַכֹּ֖חַ",
+      "gloss": "and the monitor-lizard",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַלְּטָאָ֑ה",
+      "gloss": "and the wall-lizard",
+      "sense": "S2"
+    },
+    {
+      "surface": "וְהַחֹ֖מֶט",
+      "gloss": "and the skink",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַתִּנְשָֽׁׁמֶת",
+      "gloss": "and the chameleon",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:39:31.422148195Z",
+  "model": "glm-5.3"
 }

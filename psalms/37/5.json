@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Roll your way onto YHWH, and trust upon him, and he will do it.",
-  "tokens": [
+  "ref": "psalms 37:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "גול",
-      "gloss": "Roll",
-      "readings": [
-        "Roll",
-        "commit"
-      ],
-      "held_by": {
-        "Roll": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "commit": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "גול",
+      "rationale": "The imperative of 'roll' keeps its literal picture — like a heavy stone rolled onto someone able to carry it — which English idiom 'commit' would erase."
     },
     {
-      "surface": "על",
-      "gloss": "onto"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "דרכך",
-      "gloss": "your way"
-    },
-    {
-      "surface": "ובטח",
-      "gloss": "and trust"
-    },
-    {
-      "surface": "עליו",
-      "gloss": "upon him"
-    },
-    {
-      "surface": "והוא",
-      "gloss": "and he"
-    },
-    {
-      "surface": "יעשה",
-      "gloss": "will do"
+      "kind": "alternative",
+      "subject": "and He will act",
+      "rationale": "יַעֲשֶׂה can also read 'and He will do it', with your way as implied object."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Roll onto YHWH your way, and trust in Him, and He will act.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ab576facd925fe6eeecf7f55b057ed7340aa4b8ee5737c5cbb58d9457a0032c9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/5-8.1791192653256.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "גּ֣וֹל",
+      "gloss": "Roll",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "onto",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּרְכֶּ֑ךָ",
+      "gloss": "your way",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְטַ֥ח",
+      "gloss": "and trust",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָ֝לָ֗יו",
+      "gloss": "in Him",
+      "sense": null
+    },
+    {
+      "surface": "וְה֣וּא",
+      "gloss": "and He",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲשֶֽׂה",
+      "gloss": "will act",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:53.257169556Z",
+  "model": "glm-5.3"
 }

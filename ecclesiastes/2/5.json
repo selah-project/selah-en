@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "I made for myself gardens and orchards, and I planted in them trees of every fruit.",
-  "tokens": [
+  "ref": "ecclesiastes 2:5",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "עשיתי",
-      "gloss": "I made"
+      "kind": "hapax",
+      "subject": "פַרְדֵּס",
+      "rationale": "Persian loanword 'park' occurs only here, Song 4:13 and Neh 2:8 in the Tanakh."
     },
     {
-      "surface": "לי",
-      "gloss": "for myself"
-    },
-    {
-      "surface": "גנות",
-      "gloss": "gardens"
-    },
-    {
-      "surface": "ופרדסים",
-      "gloss": "and orchards"
-    },
-    {
-      "surface": "ונטעתי",
-      "gloss": "and I planted"
-    },
-    {
-      "surface": "בהם",
-      "gloss": "in them"
-    },
-    {
-      "surface": "עץ",
-      "gloss": "trees",
-      "readings": [
-        "trees",
-        "tree"
-      ],
-      "held_by": {
-        "trees": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "tree": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "כל",
-      "gloss": "every"
-    },
-    {
-      "surface": "פרי",
-      "gloss": "fruit"
+      "kind": "measurement",
+      "subject": "possessions",
+      "rationale": "The verse enumerates the speaker's acquisitions in a catalog of wealth."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I made for myself gardens and parks, and I planted in them a tree of every fruit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d98289246ca3d8d070f5467159e909a082e01e3332d0017d39e8b2888a20ffda",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/2\/5-8.1791194821028.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָשִׂ֣יתִי",
+      "gloss": "I made",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִ֔י",
+      "gloss": "for myself",
+      "sense": null
+    },
+    {
+      "surface": "גַּנּ֖וֹת",
+      "gloss": "gardens",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּפַרְדֵּסִ֑ים",
+      "gloss": "and parks",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָטַ֥עְתִּי",
+      "gloss": "and I planted",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָהֶ֖ם",
+      "gloss": "in them",
+      "sense": null
+    },
+    {
+      "surface": "עֵ֥ץ",
+      "gloss": "a tree of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "every",
+      "sense": null
+    },
+    {
+      "surface": "פֶּֽרִי",
+      "gloss": "fruit",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:07:01.029660048Z",
+  "model": "glm-5.3"
 }

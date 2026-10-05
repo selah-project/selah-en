@@ -1,92 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "When my enemies turn back, they stumble and perish from before your face.",
-  "tokens": [
+  "ref": "psalms 9:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "בשוב",
-      "gloss": "When",
-      "readings": [
-        "When",
-        "In the turning back of"
-      ],
-      "held_by": {
-        "When": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "In the turning back of": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "שׁוב…אחור",
+      "rationale": "'turn back…backward' doubles the reversal; kept literal rather than smoothed to 'flee'."
     },
     {
-      "surface": "אויבי",
-      "gloss": "my enemies"
-    },
-    {
-      "surface": "אחור",
-      "gloss": "back",
-      "readings": [
-        "back",
-        "backward"
-      ],
-      "held_by": {
-        "back": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "backward": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יכשלו",
-      "gloss": "they stumble",
-      "readings": [
-        "they stumble",
-        "they fall"
-      ],
-      "held_by": {
-        "they stumble": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they fall": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויאבדו",
-      "gloss": "and perish"
-    },
-    {
-      "surface": "מפניך",
-      "gloss": "from before your face",
-      "readings": [
-        "from before your face",
-        "from Your presence"
-      ],
-      "held_by": {
-        "from before your face": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from Your presence": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "idiom",
+      "subject": "מפניך",
+      "rationale": "'from your face' rendered 'before your face', a Hebrew spatial idiom for 'from your presence'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the turning back of my enemies backward, they stumble and perish before your face,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "156f8a29552a53fdd2c352bcd9d67dd0d1a1fe2d0b3b102dfe18321b391d296b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/9\/1-4.1791192382245.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּשׁוּב",
+      "gloss": "in the turning back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אוֹיְבַ֥י",
+      "gloss": "of my enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָח֑וֹר",
+      "gloss": "backward",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִכָּשְׁל֥וּ",
+      "gloss": "they stumble",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֹאבְד֗וּ",
+      "gloss": "and perish",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִפָּנֶֽיךָ",
+      "gloss": "before your face",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:22.246893807Z",
+  "model": "glm-5.3"
 }

@@ -1,79 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 40,
-  "translation": "Instead of wheat let a thorn go forth, and instead of barley stink-weed. The words of Job are ended.",
-  "tokens": [
+  "ref": "job 31:40",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "תחת",
-      "gloss": "instead of"
+      "kind": "hapax",
+      "subject": "באשה",
+      "rationale": "stink-weed occurs only here in the Tanakh."
     },
     {
-      "surface": "חטה",
-      "gloss": "wheat"
-    },
-    {
-      "surface": "יצא",
-      "gloss": "let go forth"
-    },
-    {
-      "surface": "חוח",
-      "gloss": "a thorn"
-    },
-    {
-      "surface": "ותחת",
-      "gloss": "and instead of"
-    },
-    {
-      "surface": "שערה",
-      "gloss": "barley"
-    },
-    {
-      "surface": "באשה",
-      "gloss": "stink-weed",
-      "readings": [
-        "stink-weed",
-        "a noxious weed"
-      ],
-      "held_by": {
-        "stink-weed": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a noxious weed": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תמו",
-      "gloss": "are ended",
-      "readings": [
-        "are ended",
-        "are finished"
-      ],
-      "held_by": {
-        "are ended": [
-          "v2",
-          "v3"
-        ],
-        "are finished": [
-          "en4"
-        ],
-        "grow": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "דברי",
-      "gloss": "the words of"
-    },
-    {
-      "surface": "איוב",
-      "gloss": "Job"
+      "kind": "wordplay",
+      "subject": "curse-formula",
+      "rationale": "the thorns-under-wheat formula echoes Genesis 3:18's curse; Job invokes the curse on himself if guilty."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Under wheat thorns come out, and under barley stink-weed — the words of Job are ended.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e2f44d7cbd6479ed1b56c2ca0d1abf6a5962ab684b640a9beaed50fa495bd34c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/31\/37-40.1791194502884.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תַּחַת",
+      "gloss": "under"
+    },
+    {
+      "surface": "חִטָּה",
+      "gloss": "wheat",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵצֵא",
+      "gloss": "thorns come out",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוֹחַ",
+      "gloss": "thorns",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתַחַת",
+      "gloss": "and under"
+    },
+    {
+      "surface": "שְׂעֹרָה",
+      "gloss": "barley",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּאְשָׁה",
+      "gloss": "stink-weed",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּמּוּ",
+      "gloss": "are ended",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּבְרֵי",
+      "gloss": "the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִיּוֹב",
+      "gloss": "Job",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:42.885573066Z",
+  "model": "glm-5.3"
 }

@@ -1,65 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "But You, YHWH my Adonai — act with ⟨את⟩ me for the sake of Your name; for Your chesed is good — deliver me!",
+  "ref": "psalms 109:21",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is good",
+      "rationale": "Hebrew lacks a copula between טוב and חסדך"
+    },
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct appeal to YHWH by the psalmist"
+    },
+    {
+      "kind": "crux",
+      "subject": "act with me",
+      "rationale": "עשה אתי: 'do with me' — some render 'deal with me', i.e. act for my benefit; the Hebrew is unusually bare"
+    }
+  ],
+  "translation": "But You, YHWH Adonai — act ⟨את⟩ with me for the sake of Your name, for Your chesed is good; deliver me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "98da8c95d53ae6916b66dd5a09747898c9ba35628ea58e543e1daf602a652683",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/21-24.1791193372093.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ואתה",
-      "gloss": "But You"
+      "surface": "וְאַתָּה",
+      "gloss": "But You",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אדני",
-      "gloss": "my Adonai"
+      "surface": "אֲדֹנָי",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "עשה",
-      "gloss": "act"
+      "surface": "עֲשֵׂה",
+      "gloss": "act",
+      "sense": "S1"
     },
     {
-      "surface": "אתי",
-      "gloss": "with ⟨את⟩ me"
+      "surface": "אִתִּי",
+      "gloss": "⟨את⟩ with me",
+      "sense": null,
+      "marks": "me"
     },
     {
-      "surface": "למען",
-      "gloss": "for the sake of"
+      "surface": "לְמַעַן",
+      "gloss": "for the sake of",
+      "sense": null
     },
     {
-      "surface": "שמך",
-      "gloss": "Your name"
+      "surface": "שְׁמֶךָ",
+      "gloss": "Your name",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "טוב",
-      "gloss": "is good"
+      "surface": "טוֹב",
+      "gloss": "is good",
+      "sense": "S1"
     },
     {
-      "surface": "חסדך",
+      "surface": "חַסְדְּךָ",
       "gloss": "Your chesed",
+      "sense": "S1",
       "readings": [
         "Your chesed",
         "Your steadfast love"
-      ],
-      "held_by": {
-        "Your chesed": [
-          "v3",
-          "en4"
-        ],
-        "Your steadfast love": [
-          "v1"
-        ]
-      }
+      ]
     },
     {
-      "surface": "הצילני",
-      "gloss": "deliver me!"
+      "surface": "הַצִּילֵנִי",
+      "gloss": "deliver me",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:52.093601928Z",
+  "model": "glm-5.3"
 }

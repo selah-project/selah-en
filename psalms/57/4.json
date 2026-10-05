@@ -1,81 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "He will send from the heavens and save me; he reproaches the one who pants after me. Selah. Elohim will send his chesed and his truth.",
+  "ref": "psalms 57:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 57,
+  "notes": [
+    {
+      "kind": "elision",
+      "subject": "סֶלָה",
+      "rationale": "musical pause marker, transliterated rather than translated."
+    },
+    {
+      "kind": "crux",
+      "subject": "שֹׁאֲפִי",
+      "rationale": "from שׁאף “pant\/trample\/swallow”: the one who eagerly pants after me vs the one who tramples me."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יִשְׁלַח … יִשְׁלַח",
+      "rationale": "the sending verb frames both halves of the verse."
+    }
+  ],
+  "translation": "He will send from the heavens and save me; he has put to shame the one who tramples me, Selah. Elohim will send his chesed and his faithfulness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fb697ec98527a806d76fdbbde7cf2123cdfc5f6e307d3954ebce237d3eae5292",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/57\/1-4.1791192821812.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ישלח",
-      "gloss": "He will send"
+      "surface": "יִשְׁלַח",
+      "gloss": "He will send",
+      "sense": "S1"
     },
     {
-      "surface": "משמים",
-      "gloss": "from the heavens"
+      "surface": "מִשָּׁמַיִם",
+      "gloss": "from the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "ויושיעני",
-      "gloss": "and save me"
+      "surface": "וְיוֹשִׁיעֵנִי",
+      "gloss": "and save me",
+      "sense": "S1"
     },
     {
-      "surface": "חרף",
-      "gloss": "he reproaches"
+      "surface": "חֵרֵף",
+      "gloss": "he has put to shame",
+      "sense": "S1"
     },
     {
-      "surface": "שאפי",
-      "gloss": "the one who pants after me"
+      "surface": "שֹׁאֲפִי",
+      "gloss": "the one who tramples me",
+      "readings": [
+        "the one who tramples me",
+        "the one who pants after me"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "סלה",
-      "gloss": "Selah"
+      "surface": "סֶלָה",
+      "gloss": "Selah",
+      "sense": null
     },
     {
-      "surface": "ישלח",
-      "gloss": "will send"
+      "surface": "יִשְׁלַח",
+      "gloss": "will send",
+      "sense": "S2"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּוֹ",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
-        "his steadfast love",
-        "his kindness"
+        "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "en4"
-        ],
-        "his kindness": [
-          "v1",
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואמתו",
-      "gloss": "his truth",
-      "readings": [
-        "his truth",
-        "his faithfulness"
-      ],
-      "held_by": {
-        "his truth": [
-          "v1",
-          "en4"
-        ],
-        "his faithfulness": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וַאֲמִתּוֹ",
+      "gloss": "and his faithfulness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:33:41.813237397Z",
+  "model": "glm-5.3"
 }

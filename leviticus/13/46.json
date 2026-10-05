@@ -1,90 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 46,
-  "translation": "All the days that the plague is in him he shall be unclean — he is unclean; alone he shall dwell; outside the camp ⟨is⟩ his dwelling.",
+  "ref": "leviticus 13:46",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "shall be",
+      "rationale": "the final clause מחוץ למחנה מושבו has no verb; English supplies a copula."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בדד \/ מושבו",
+      "rationale": "the verse pivots on solitude (בדד) versus dwelling (מושב) — his dwelling is defined by separation; chiastic placement is kept."
+    }
+  ],
+  "translation": "All the days that the spot is in him he is unclean; alone he shall dwell, outside the camp shall be his dwelling.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "771105284b1cfad3d6c3df7b35ff0afac15906755dd4a167377d3271d267357f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/13\/45-48.1791182406479.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "All",
+      "sense": null
     },
     {
       "surface": "ימי",
-      "gloss": "the days"
+      "gloss": "the days",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "that"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "הנגע",
-      "gloss": "the plague"
+      "gloss": "the spot",
+      "sense": "S1"
     },
     {
       "surface": "בו",
-      "gloss": "in him"
+      "gloss": "is in",
+      "sense": null
     },
     {
       "surface": "יטמא",
-      "gloss": "he shall be unclean"
+      "gloss": "he shall be unclean",
+      "sense": "S1"
     },
     {
       "surface": "טמא",
-      "gloss": "unclean"
+      "gloss": "unclean",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "he is"
+      "gloss": "he",
+      "sense": null
     },
     {
       "surface": "בדד",
-      "gloss": "alone"
+      "gloss": "Alone",
+      "sense": "S1"
     },
     {
       "surface": "ישב",
       "gloss": "he shall dwell",
-      "readings": [
-        "he shall dwell",
-        "he shall sit"
-      ],
-      "held_by": {
-        "he shall dwell": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he shall sit": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "מחוץ",
-      "gloss": "outside"
+      "gloss": "outside",
+      "sense": "S1"
     },
     {
       "surface": "למחנה",
-      "gloss": "the camp"
+      "gloss": "the camp",
+      "sense": "S1"
     },
     {
       "surface": "מושבו",
-      "gloss": "his dwelling",
-      "readings": [
-        "his dwelling",
-        "his seat"
-      ],
-      "held_by": {
-        "his dwelling": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his seat": [
-          "en4"
-        ]
-      }
+      "gloss": "shall be his dwelling",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:40:06.481095336Z",
+  "model": "glm-5.3"
 }

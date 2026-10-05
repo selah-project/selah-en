@@ -1,59 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Upon breasts ⟨they⟩ are wailing, upon fields of delight, upon the vine ⟨of⟩ its fruit.",
-  "tokens": [
+  "ref": "isaiah 32:12",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "upon"
+      "kind": "wordplay",
+      "subject": "שדים\/ספדים\/שדי",
+      "rationale": "Triple sound-play: breasts (שדים), mourners beating the breast (ספדים), fields (שדי) — the mourning on the breasts echoes the desolate fields."
     },
     {
-      "surface": "שדים",
-      "gloss": "breasts"
-    },
-    {
-      "surface": "ספדים",
-      "gloss": "wailing"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "שדי",
-      "gloss": "fields of"
-    },
-    {
-      "surface": "חמד",
-      "gloss": "delight"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "גפן",
-      "gloss": "the vine"
-    },
-    {
-      "surface": "פריה",
-      "gloss": "its fruit",
-      "readings": [
-        "its fruit",
-        "fruitful"
-      ],
-      "held_by": {
-        "its fruit": [
-          "v1",
-          "v3"
-        ],
-        "fruitful": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "beating-the-breast",
+      "rationale": "ספד is the full mourning rite (wailing, tearing clothes); the literal gesture of beating the breasts is kept to preserve the pun."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Upon two breasts, beating-the-breast, upon fields of delight, upon the fruit-bearing vine.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bb39c88234a7b391bffa3723f82be26ff7429d69ced02439f70fd8d64e969982",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/32\/9-12.1791188479739.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַל",
+      "gloss": "Upon"
+    },
+    {
+      "surface": "שָׁדַיִם",
+      "gloss": "two breasts",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֹפְדִים",
+      "gloss": "beating-the-breast",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon"
+    },
+    {
+      "surface": "שְׂדֵי",
+      "gloss": "fields of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶמֶד",
+      "gloss": "delight",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon"
+    },
+    {
+      "surface": "גֶּפֶן",
+      "gloss": "the vine",
+      "sense": "S1"
+    },
+    {
+      "surface": "פֹרִיָּה",
+      "gloss": "the fruit-bearing",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:21:19.749595874Z",
+  "model": "glm-5.3"
 }

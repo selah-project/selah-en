@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The one satisfying with good your adornment; your youth is renewed like the eagle.",
-  "tokens": [
+  "ref": "psalms 103:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
     {
-      "surface": "המשביע",
-      "gloss": "The one satisfying"
+      "kind": "crux",
+      "subject": "עדיך",
+      "rationale": "'your finery' (BDB) vs ketiv-read tradition 'your mouth' (עדיך from עד, cf. LXX; qere-style gloss 'your desire') — the form points either way."
     },
     {
-      "surface": "בטוב",
-      "gloss": "with good"
+      "kind": "alternative",
+      "subject": "תתחדש כנשר נעוריכי",
+      "rationale": "the youth, not the eagle, is renewed: 'your youth is renewed like the eagle's' reads the simile more naturally."
     },
     {
-      "surface": "עדיך",
-      "gloss": "your adornment",
-      "readings": [
-        "your adornment",
-        "your desire"
-      ],
-      "held_by": {
-        "your adornment": [
-          "en4"
-        ],
-        "your desire": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תתחדש",
-      "gloss": "is renewed"
-    },
-    {
-      "surface": "כנשר",
-      "gloss": "like the eagle"
-    },
-    {
-      "surface": "נעוריכי",
-      "gloss": "your youth"
+      "kind": "wordplay",
+      "subject": "כנשר",
+      "rationale": "eagle-renewal rests on a folk tradition of molting; the Hebrew says only 'like the eagle'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "who sates you with good things — your finery, renewed like the eagle's is your youth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ac723ed1c3d8b1f8b82e5a199eeb7e67fd2bcf75ffd4201a3a761edf322350ad",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/5-8.1791193273885.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַמַּשְׂבִּ֣יַע",
+      "gloss": "the-one-who-sates",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּטּ֣וֹב",
+      "gloss": "with the good",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶדְיֵ֑ךְ",
+      "gloss": "your finery",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּתְחַדֵּ֖שׁ",
+      "gloss": "is renewed",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּנֶּ֣שֶׁר",
+      "gloss": "like the eagle",
+      "sense": "S1"
+    },
+    {
+      "surface": "נְעוּרָֽיְכִי",
+      "gloss": "your youth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:13.886265371Z",
+  "model": "glm-5.3"
 }

@@ -1,18 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
+  "ref": "2-chronicles 34:5",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "their altars",
+      "rationale": "Ketiv מזבחותים doubles the plural ending; qere מזבחותם reads “their altars,” taken here."
+    },
+    {
+      "kind": "elision",
+      "subject": "כהנים",
+      "rationale": "Construct “bones of priests” rendered with “the” before priests, which the Hebrew lacks."
+    }
+  ],
   "translation": "And the bones of the priests he burned upon their altars, and he purified ⟨את⟩ Judah and ⟨את⟩ Jerusalem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "168f4d7e4c827315aedd71c074ca5ff2e78875de290a0f591e90bfaae7ad00c7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/34\/5-8.1791197053942.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ועצמות",
-      "gloss": "And the bones of"
+      "gloss": "And the bones of",
+      "sense": "S1"
     },
     {
       "surface": "כהנים",
-      "gloss": "priests"
+      "gloss": "the priests",
+      "sense": "S1"
     },
     {
       "surface": "שרף",
-      "gloss": "he burned"
+      "gloss": "he burned",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -20,43 +50,35 @@
     },
     {
       "surface": "מזבחותים",
-      "gloss": "their altars"
+      "gloss": "their altars",
+      "sense": "S1"
     },
     {
       "surface": "ויטהר",
       "gloss": "and he purified",
-      "readings": [
-        "and he purified",
-        "and he cleansed"
-      ],
-      "held_by": {
-        "and he purified": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and he cleansed": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Judah"
     },
     {
       "surface": "יהודה",
-      "gloss": "Judah"
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "Jerusalem"
     },
     {
       "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:44:13.943277117Z",
+  "model": "glm-5.3"
 }

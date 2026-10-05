@@ -1,95 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And you shall not oppress — a man ⟨את⟩ his fellow — and you shall fear your Elohim, for I am YHWH your Elohim.",
+  "ref": "leviticus 25:17",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew lacks a copula between אני and יהוה"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "second-person plural address, the Israelites at Sinai"
+    }
+  ],
+  "translation": "And you shall not wrong, a man ⟨את⟩ his fellow, and you shall fear your Elohim, for I ⟨am⟩ YHWH your Elohim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1fa365605e05cbd07cc8dbe77c0caef80312ea3b493890719b376832880583a7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/25\/17-20.1791182645888.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ולא",
-      "gloss": "and you shall not"
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
       "surface": "תונו",
-      "gloss": "oppress",
-      "readings": [
-        "oppress",
-        "wrong"
-      ],
-      "held_by": {
-        "oppress": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "wrong": [
-          "en4"
-        ]
-      }
+      "gloss": "you shall wrong",
+      "sense": "S1"
     },
     {
       "surface": "איש",
-      "gloss": "a man"
+      "gloss": "a man",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "his fellow"
     },
     {
       "surface": "עמיתו",
       "gloss": "his fellow",
-      "readings": [
-        "his fellow",
-        "his kinsman"
-      ],
-      "held_by": {
-        "his fellow": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his kinsman": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ויראת",
-      "gloss": "and you shall fear"
+      "gloss": "and you shall fear",
+      "sense": "S1"
     },
     {
       "surface": "מאלהיך",
       "gloss": "your Elohim",
-      "readings": [
-        "your Elohim",
-        "from your Elohim"
-      ],
-      "held_by": {
-        "your Elohim": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from your Elohim": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "אני",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אלהיכם",
-      "gloss": "your Elohim"
+      "gloss": "your Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:44:05.889012245Z",
+  "model": "glm-5.3"
 }

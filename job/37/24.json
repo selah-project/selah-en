@@ -1,55 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "Therefore do men fear him — he does not see any ⟨who are⟩ wise of heart.",
-  "tokens": [
+  "ref": "job 37:24",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "לכן",
-      "gloss": "Therefore"
+      "kind": "wordplay",
+      "subject": "יְרֵאוּהוּ \/ יִרְאֶה",
+      "rationale": "ירא 'fear' and ראה 'see\/regard' sound near-identical: men fear Him, He does not look upon the wise — the pun is lost in English."
     },
     {
-      "surface": "יראוהו",
-      "gloss": "they fear him"
-    },
-    {
-      "surface": "אנשים",
-      "gloss": "men"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יראה",
-      "gloss": "He sees"
-    },
-    {
-      "surface": "כל",
-      "gloss": "any",
-      "readings": [
-        "any",
-        "all"
-      ],
-      "held_by": {
-        "any": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "all": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "חכמי",
-      "gloss": "wise of"
-    },
-    {
-      "surface": "לב",
-      "gloss": "heart"
+      "kind": "crux",
+      "subject": "He does not regard",
+      "rationale": "Verb is ראה 'see': 'He does not regard' vs 'He does not appear before' any wise of heart."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Therefore men fear Him; He does not regard any wise of heart.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6848b330c5fe408c5b2476f4ce034ed4ac27526c7a45a4afbab21ce6f268db7a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/37\/21-24.1791194599937.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לָכֵן",
+      "gloss": "Therefore",
+      "sense": null
+    },
+    {
+      "surface": "יְרֵאוּהוּ",
+      "gloss": "they fear Him",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲנָשִׁים",
+      "gloss": "men",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְאֶה",
+      "gloss": "He regards",
+      "readings": [
+        "He regards",
+        "He appears to"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "any",
+      "sense": null
+    },
+    {
+      "surface": "חַכְמֵי",
+      "gloss": "wise",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵב",
+      "gloss": "of heart",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:19.938531451Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "YHWH has done great things with us; we were glad.",
-  "tokens": [
+  "ref": "psalms 126:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 126,
+  "notes": [
     {
-      "surface": "הגדיל",
-      "gloss": "has done great things"
+      "kind": "idiom",
+      "subject": "has made great to do with us",
+      "rationale": "same idiom as verse 2, here echoed in the psalm's refrain; literal kept."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "לעשות",
-      "gloss": "to do"
-    },
-    {
-      "surface": "עמנו",
-      "gloss": "with us"
-    },
-    {
-      "surface": "היינו",
-      "gloss": "we were"
-    },
-    {
-      "surface": "שמחים",
-      "gloss": "glad"
+      "kind": "wordplay",
+      "subject": "verse 2 ↔ verse 3",
+      "rationale": "the nations' words in verse 2 are taken up verbatim by the speakers — quotation turned confession."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH has made great to do with us; we were glad.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "096ca27f4f63840ece830df434f062a8a332f5937eeeea847babfa297e79e7df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/126\/1-4.1791193525595.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הִגְדִּ֣יל",
+      "gloss": "has made great",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַעֲשׂ֥וֹת",
+      "gloss": "to do",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּ֗נוּ",
+      "gloss": "with us",
+      "sense": null
+    },
+    {
+      "surface": "הָיִ֥ינוּ",
+      "gloss": "we were",
+      "sense": null
+    },
+    {
+      "surface": "שְׂמֵחִֽים",
+      "gloss": "glad",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:25.597091307Z",
+  "model": "glm-5.3"
 }

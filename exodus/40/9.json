@@ -1,108 +1,125 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And you shall take ⟨את⟩ the anointing oil, and anoint ⟨את⟩ the tabernacle and ⟨את⟩ all that is in it, and consecrate ⟨את⟩ it and ⟨את⟩ all its vessels, and it shall be holy.",
+  "ref": "exodus 40:9",
+  "book": "exodus",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "English requires a copula in 'all that is in it'; Hebrew has only כל אשר בו"
+    },
+    {
+      "kind": "elision",
+      "subject": "את",
+      "rationale": "Object markers rendered as ⟨את⟩ glyph, not translated"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שמן\/משחה\/ומשחת",
+      "rationale": "Root משח 'anoint' sounds through oil-of-anointing\/anoint — carried by cognate rendering"
+    }
+  ],
+  "translation": "And you shall take ⟨את⟩ the oil of anointing, and anoint ⟨את⟩ the tabernacle and ⟨את⟩ all that is in it, and consecrate it and ⟨את⟩ all its equipment, and it shall be holy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "30b071db978bdeda394be17c74030ee8a45c84761f8bb88c85fa6f03bd668323",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/exodus\/40\/9-9.1791197636823.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/exodus.edn"
+  },
   "tokens": [
     {
-      "surface": "ולקחת",
-      "gloss": "and you shall take"
+      "surface": "וְלָקַחְתָּ",
+      "gloss": "and you shall take",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the oil"
     },
     {
-      "surface": "שמן",
-      "gloss": "oil"
+      "surface": "שֶׁמֶן",
+      "gloss": "the oil",
+      "sense": "S1"
     },
     {
-      "surface": "המשחה",
-      "gloss": "of the anointing"
+      "surface": "הַמִּשְׁחָה",
+      "gloss": "of anointing",
+      "sense": "S1"
     },
     {
-      "surface": "ומשחת",
-      "gloss": "and anoint"
+      "surface": "וּמָשַׁחְתָּ",
+      "gloss": "and anoint",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the tabernacle"
     },
     {
-      "surface": "המשכן",
-      "gloss": "the tabernacle"
+      "surface": "הַמִּשְׁכָּן",
+      "gloss": "the tabernacle",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "all"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "that"
     },
     {
-      "surface": "בו",
+      "surface": "בּוֹ",
       "gloss": "is in it"
     },
     {
-      "surface": "וקדשת",
+      "surface": "וְקִדַּשְׁתָּ",
       "gloss": "and consecrate",
-      "readings": [
-        "and consecrate",
-        "and sanctify"
-      ],
-      "held_by": {
-        "and consecrate": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and sanctify": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ it"
+      "surface": "אֹתוֹ",
+      "gloss": "⟨את⟩ it",
+      "marks": "the tabernacle"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֵת",
+      "gloss": "and ⟨את⟩",
+      "marks": "all"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "כליו",
-      "gloss": "its vessels",
-      "readings": [
-        "its vessels",
-        "its furnishings"
-      ],
-      "held_by": {
-        "its vessels": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "its furnishings": [
-          "v1"
-        ]
-      }
+      "surface": "כֵּלָיו",
+      "gloss": "its equipment",
+      "sense": "S1"
     },
     {
-      "surface": "והיה",
+      "surface": "וְהָיָה",
       "gloss": "and it shall be"
     },
     {
-      "surface": "קדש",
-      "gloss": "holy"
+      "surface": "קֹדֶשׁ",
+      "gloss": "holy",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:53:56.824054902Z",
+  "model": "glm-5.3"
 }

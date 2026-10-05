@@ -1,51 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Why do you draw back your hand, even your right hand? From within your bosom finish ⟨it⟩ — consume ⟨them⟩!",
+  "ref": "psalms 74:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "חוקך \/ חיקך",
+      "rationale": "ketiv 'your statute' (חק) vs qere 'your bosom' (חיק); the image of God's hand drawn from His robe-fold favors the qere, rendered here"
+    },
+    {
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "imperative 'finish!' closes a direct plea to God"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "the imperative כלה has no stated object; the enemy of v.10 is supplied in brackets"
+    }
+  ],
+  "translation": "Why do you draw back your hand and your right hand from the midst of your bosom? Finish ⟨it⟩!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f81e7d59cfd8892337a40805b57287bd7015cd1c4232eb92ace08a5e0bdcd869",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/9-12.1791193005898.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "למה",
-      "gloss": "why"
+      "surface": "לָ֤מָּה",
+      "gloss": "Why",
+      "sense": null
     },
     {
-      "surface": "תשיב",
-      "gloss": "do you draw back"
+      "surface": "תָשִׁ֣יב",
+      "gloss": "do you draw back",
+      "sense": "S1"
     },
     {
-      "surface": "ידך",
-      "gloss": "your hand"
+      "surface": "יָ֭דְךָ",
+      "gloss": "your hand",
+      "sense": "S1"
     },
     {
-      "surface": "וימינך",
-      "gloss": "even your right hand"
+      "surface": "וִֽימִינֶ֑ךָ",
+      "gloss": "and your right hand",
+      "sense": "S1"
     },
     {
-      "surface": "מקרב",
-      "gloss": "from within"
+      "surface": "מִקֶּ֖רֶב",
+      "gloss": "from the midst of",
+      "sense": null
     },
     {
       "surface": "חוקך",
-      "gloss": "your bosom"
+      "gloss": "your bosom",
+      "readings": [
+        "your bosom",
+        "your statute"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "כלה",
-      "gloss": "consume ⟨them⟩",
-      "readings": [
-        "consume ⟨them⟩",
-        "finish ⟨it⟩"
-      ],
-      "held_by": {
-        "consume ⟨them⟩": [
-          "v1",
-          "en4"
-        ],
-        "finish ⟨it⟩": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "כַלֵּֽה",
+      "gloss": "Finish",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:36:45.899428172Z",
+  "model": "glm-5.3"
 }

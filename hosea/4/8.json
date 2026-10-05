@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "The sin-offering of my people they eat, and to their iniquity they lift up their soul.",
-  "tokens": [
+  "ref": "hosea 4:8",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "חטאת",
-      "gloss": "the sin-offering of",
-      "readings": [
-        "the sin-offering of",
-        "the sin of"
-      ],
-      "held_by": {
-        "the sin-offering of": [
-          "v2",
-          "en4"
-        ],
-        "the sin of": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "חטאת",
+      "rationale": "חטאת is both 'sin' and 'sin-offering'; 'they eat my people's sin' may mean the priests feed on the sin-offerings — the ambiguity stands"
     },
     {
-      "surface": "עמי",
-      "gloss": "of my people"
+      "kind": "crux",
+      "subject": "נפשו",
+      "rationale": "'they lift up his nefesh' — whose? the priest's own appetite, or 'they set their nefesh upon their iniquity'; נפש kept as appetite\/life-force, not 'soul'"
     },
     {
-      "surface": "יאכלו",
-      "gloss": "they eat"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and to"
-    },
-    {
-      "surface": "עונם",
-      "gloss": "their iniquity"
-    },
-    {
-      "surface": "ישאו",
-      "gloss": "they lift up"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "their soul",
-      "readings": [
-        "their soul",
-        "their nefesh",
-        "their appetite"
-      ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "their nefesh": [
-          "v2"
-        ],
-        "their appetite": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "they lift up",
+      "rationale": "ישאו נפשו can read 'they covet\/crave it' — lifting the nefesh toward a thing as desire"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The sin of my people they eat, and to their iniquity they lift up his nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "769bd48e3571435f2cadc1aec2b3c7f287069d28338a3dfdd347e1b4a3d7f62e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/4\/5-8.1791191233207.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חַטַּאת",
+      "gloss": "The sin of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּי",
+      "gloss": "my people",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאכֵלוּ",
+      "gloss": "they eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶל",
+      "gloss": "and to",
+      "sense": null
+    },
+    {
+      "surface": "עֲוֺנָם",
+      "gloss": "their iniquity",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂאוּ",
+      "gloss": "they lift up",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his nefesh",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:07:13.209104851Z",
+  "model": "glm-5.3"
 }

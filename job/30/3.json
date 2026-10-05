@@ -1,69 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "In want and in famine they are gaunt, those gnawing the dry ground — yesterday, wasteness and desolation.",
-  "tokens": [
+  "ref": "job 30:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "בחסר",
-      "gloss": "in want"
+      "kind": "wordplay",
+      "subject": "שואה \/ ומשאה",
+      "rationale": "Near-rhyming nouns, both meaning devastation — the sound pairing is lost in English."
     },
     {
-      "surface": "ובכפן",
-      "gloss": "and in famine"
+      "kind": "crux",
+      "subject": "gnawing the parched land",
+      "rationale": "הָעֹרְקִים may be 'who gnaw' (eating desert plants) or from a root for 'fleeing' — those who flee to the waste."
     },
     {
-      "surface": "גלמוד",
-      "gloss": "gaunt",
-      "readings": [
-        "gaunt",
-        "sterile"
-      ],
-      "held_by": {
-        "gaunt": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sterile": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "הערקים",
-      "gloss": "those gnawing",
-      "readings": [
-        "those gnawing",
-        "those fleeing"
-      ],
-      "held_by": {
-        "those gnawing": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "those fleeing": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ציה",
-      "gloss": "the dry ground"
-    },
-    {
-      "surface": "אמש",
-      "gloss": "yesterday"
-    },
-    {
-      "surface": "שואה",
-      "gloss": "wasteness"
-    },
-    {
-      "surface": "ומשאה",
-      "gloss": "and desolation"
+      "kind": "crux",
+      "subject": "barren",
+      "rationale": "גַּלְמוּד can be literal childlessness or figurative 'desolate, solitary' — of men, likely the latter."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In want and in hunger, barren — gnawing the parched land by night, desolation and ruin.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "10b183d7cb7b8ab62e5084f692313f8f1bf0ae5f2bd7bf787e22c7eee46a438b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/1-4.1791194481498.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּחֶסֶר",
+      "gloss": "In want",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְכָפָן",
+      "gloss": "and in hunger",
+      "sense": "S1"
+    },
+    {
+      "surface": "גַּלְמוּד",
+      "gloss": "barren",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָעֹרְקִים",
+      "gloss": "gnawing",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִיָּה",
+      "gloss": "the parched land",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶמֶשׁ",
+      "gloss": "by night",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹאָה",
+      "gloss": "desolation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְשֹׁאָה",
+      "gloss": "and ruin",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:21.499737321Z",
+  "model": "glm-5.3"
 }

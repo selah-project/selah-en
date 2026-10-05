@@ -1,22 +1,54 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And she shall remove ⟨את⟩ the garment of her captivity from upon her, and dwell in your house, and weep ⟨את⟩ her father and ⟨את⟩ her mother a month of days, and afterward you shall come to her and be her husband, and she shall be to you for a wife.",
+  "ref": "deuteronomy 21:13",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "ירח ימים",
+      "rationale": "a month of days — Hebrew idiom for a full month; kept literally."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בעלתה",
+      "rationale": "root בעל means both be-master and marry; the verb makes the man the baal of the woman."
+    }
+  ],
+  "translation": "and she shall remove ⟨את⟩ the garment of her captivity from upon her, and shall dwell in your house, and shall weep ⟨את⟩ her father and ⟨את⟩ her mother a month of days, and after that you shall come in to her and marry her, and she shall be to you for a wife.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c02be9ed46c836a6657d3a45f6cbafd5e054c71b8c0af976435e5c998be6629f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/21\/13-16.1791183986303.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "והסירה",
-      "gloss": "and she shall remove"
+      "gloss": "and she shall remove",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the garment of her captivity",
+      "sense": null
     },
     {
       "surface": "שמלת",
-      "gloss": "the garment"
+      "gloss": "the garment of",
+      "sense": "S1"
     },
     {
       "surface": "שביה",
-      "gloss": "of her captivity"
+      "gloss": "her captivity",
+      "sense": "S1"
     },
     {
       "surface": "מעליה",
@@ -24,66 +56,63 @@
     },
     {
       "surface": "וישבה",
-      "gloss": "and dwell",
-      "readings": [
-        "and dwell",
-        "and sit"
-      ],
-      "held_by": {
-        "and dwell": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and sit": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "gloss": "and shall dwell",
+      "sense": "S1"
     },
     {
       "surface": "בביתך",
-      "gloss": "in your house"
+      "gloss": "in your house",
+      "sense": "S1"
     },
     {
       "surface": "ובכתה",
-      "gloss": "and weep"
+      "gloss": "and shall weep",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "her father",
+      "sense": null
     },
     {
       "surface": "אביה",
-      "gloss": "her father"
+      "gloss": "her father",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "her mother",
+      "sense": null
     },
     {
       "surface": "אמה",
-      "gloss": "her mother"
+      "gloss": "her mother",
+      "sense": "S1"
     },
     {
       "surface": "ירח",
-      "gloss": "a month"
+      "gloss": "a month",
+      "sense": "S1"
     },
     {
       "surface": "ימים",
-      "gloss": "of days"
+      "gloss": "of days",
+      "sense": "S1"
     },
     {
       "surface": "ואחר",
-      "gloss": "and afterward"
+      "gloss": "and after",
+      "sense": "S1"
     },
     {
       "surface": "כן",
-      "gloss": "so"
+      "gloss": "that"
     },
     {
       "surface": "תבוא",
-      "gloss": "you shall come"
+      "gloss": "you shall come in"
     },
     {
       "surface": "אליה",
@@ -91,22 +120,8 @@
     },
     {
       "surface": "ובעלתה",
-      "gloss": "and be her husband",
-      "readings": [
-        "and be her husband",
-        "and possess her"
-      ],
-      "held_by": {
-        "and be her husband": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and possess her": [
-          "en4"
-        ]
-      }
+      "gloss": "and marry her",
+      "sense": "S1"
     },
     {
       "surface": "והיתה",
@@ -118,9 +133,10 @@
     },
     {
       "surface": "לאשה",
-      "gloss": "for a wife"
+      "gloss": "for a wife",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:06:26.304538360Z",
+  "model": "glm-5.3"
 }

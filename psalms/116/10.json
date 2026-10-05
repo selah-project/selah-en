@@ -1,98 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "I believed, for I speak — I, I was greatly afflicted.",
+  "ref": "psalms 116:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 116,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "עָנִיתִי",
+      "rationale": "'I was brought low \/ afflicted' (SDBH: bowed down) vs tradition 'I said' (from ענה answer); also the ketiv of v.10 in some traditions reads אמרתי here"
+    },
+    {
+      "kind": "crux",
+      "subject": "כִּי אֲדַבֵּר",
+      "rationale": "'though I speak' (concessive) vs 'for I speak' (causal) vs 'when I speak'"
+    }
+  ],
+  "translation": "I trusted ⟨that⟩ when I speak — I, I was brought very low.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "85d6e50048f91024c6b04b432259e1d6945bb24a87d2e41fc4b1ff36579986b8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/116\/9-12.1791193407491.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "האמנתי",
-      "gloss": "I believed",
-      "readings": [
-        "I believed",
-        "I trusted"
-      ],
-      "held_by": {
-        "I believed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I trusted": [
-          "en4"
-        ]
-      }
+      "surface": "הֶאֱמַנְתִּי",
+      "gloss": "I trusted",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for",
-      "readings": [
-        "for",
-        "that",
-        "when"
-      ],
-      "held_by": {
-        "for": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "that": [
-          "en4"
-        ],
-        "when": [
-          "en4"
-        ]
-      }
+      "surface": "כִּי",
+      "gloss": "⟨that⟩",
+      "sense": null
     },
     {
-      "surface": "אדבר",
-      "gloss": "I speak",
-      "readings": [
-        "I speak",
-        "I will speak"
-      ],
-      "held_by": {
-        "I speak": [
-          "v2",
-          "en4"
-        ],
-        "I will speak": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אֲדַבֵּר",
+      "gloss": "when I speak",
+      "sense": "S1"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִי",
       "gloss": "I"
     },
     {
-      "surface": "עניתי",
-      "gloss": "I was afflicted",
-      "readings": [
-        "I was afflicted",
-        "I answered",
-        "I bowed down"
-      ],
-      "held_by": {
-        "I was afflicted": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I answered": [
-          "en4"
-        ],
-        "I bowed down": [
-          "en4"
-        ]
-      }
+      "surface": "עָנִיתִי",
+      "gloss": "I was brought low",
+      "sense": "S1"
     },
     {
-      "surface": "מאד",
-      "gloss": "greatly"
+      "surface": "מְאֹד",
+      "gloss": "very",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:27.492076828Z",
+  "model": "glm-5.3"
 }

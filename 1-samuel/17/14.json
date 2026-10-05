@@ -1,54 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And David — he ⟨was⟩ the youngest, and the three eldest went after Saul.",
-  "tokens": [
+  "ref": "1-samuel 17:14",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "ודוד",
-      "gloss": "And David"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Emphatic pronoun הוא with no verb; English supplies a copula, unbracketed in flow as natural predication."
     },
     {
-      "surface": "הוא",
+      "kind": "substitution",
+      "subject": "youngest \/ oldest",
+      "rationale": "קטן and גדול literally 'small' and 'great', here relative age."
+    }
+  ],
+  "translation": "And David — he was the youngest, and the three oldest went after Saul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26afe54764ccb05b474c0a85c11240d5174ad341f43a9a1736416d60119504e2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/17\/13-16.1791185724445.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְדָוִ֖ד",
+      "gloss": "and David",
+      "sense": "S1"
+    },
+    {
+      "surface": "ה֣וּא",
       "gloss": "he"
     },
     {
-      "surface": "הקטן",
-      "gloss": "the youngest"
+      "surface": "הַקָּטָ֑ן",
+      "gloss": "the youngest",
+      "sense": "S1"
     },
     {
-      "surface": "ושלשה",
-      "gloss": "and the three"
+      "surface": "וּשְׁלֹשָׁה֙",
+      "gloss": "and the three",
+      "sense": "S1"
     },
     {
-      "surface": "הגדלים",
-      "gloss": "eldest",
-      "readings": [
-        "eldest",
-        "oldest"
-      ],
-      "held_by": {
-        "eldest": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "oldest": [
-          "v2"
-        ]
-      }
+      "surface": "הַגְּדֹלִ֔ים",
+      "gloss": "the oldest",
+      "sense": "S1"
     },
     {
-      "surface": "הלכו",
-      "gloss": "went"
+      "surface": "הָלְכ֖וּ",
+      "gloss": "went",
+      "sense": "S1"
     },
     {
-      "surface": "אחרי",
-      "gloss": "after"
+      "surface": "אַחֲרֵ֥י",
+      "gloss": "after",
+      "sense": "S1"
     },
     {
-      "surface": "שאול",
-      "gloss": "Saul"
+      "surface": "שָׁאֽוּל",
+      "gloss": "Saul",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:35:24.446440216Z",
+  "model": "glm-5.3"
 }

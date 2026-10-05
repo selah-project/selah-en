@@ -1,46 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "⟨The⟩ Builder of Jerusalem ⟨is⟩ YHWH; ⟨he⟩ gathers the outcasts of Israel.",
+  "ref": "psalms 147:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 147,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨he⟩",
+      "rationale": "pronoun of v.2's subjects supplied where English needs it before the verb"
+    }
+  ],
+  "translation": "The builder of Jerusalem is YHWH; the driven-out of Israel he gathers in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ee9048b71a94e175afe6875be14152a30c015d7b2a30166d5bf500768045b2c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/147\/1-4.1791193647633.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בונה",
-      "gloss": "builder of"
+      "surface": "בּוֹנֵה",
+      "gloss": "The builder of",
+      "sense": "S1"
     },
     {
       "surface": "ירושלם",
-      "gloss": "of Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נדחי",
-      "gloss": "outcasts",
-      "readings": [
-        "outcasts",
-        "the dispersed"
-      ],
-      "held_by": {
-        "outcasts": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the dispersed": [
-          "en4"
-        ]
-      }
+      "surface": "נִדְחֵי",
+      "gloss": "the driven-out of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "יכנס",
-      "gloss": "gathers"
+      "surface": "יְכַנֵּס",
+      "gloss": "he gathers in",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:47:27.634599177Z",
+  "model": "glm-5.3"
 }

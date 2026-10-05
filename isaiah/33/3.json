@@ -1,80 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "From the voice of the tumult peoples fled; from your exaltation nations were scattered.",
+  "ref": "isaiah 33:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "מרוממתך",
+      "rationale": "The noun רוממות occurs only here; 'rising' keeps the literal picture."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "parallel couplet",
+      "rationale": "The verse is a tight parallelism: sound\/rising, fled\/scattered, peoples\/nations."
+    }
+  ],
+  "translation": "At the sound of the tumult peoples fled; at your rising nations were scattered.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc6268de457e4cb00d3abb8c329c573c2e58c8f2c8de8c56e42339153a7ce41b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/33\/1-4.1791188488744.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "מקול",
-      "gloss": "from the voice of"
+      "gloss": "At the sound of"
     },
     {
       "surface": "המון",
-      "gloss": "tumult",
-      "readings": [
-        "tumult",
-        "a multitude"
-      ],
-      "held_by": {
-        "tumult": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a multitude": [
-          "en4"
-        ]
-      }
+      "gloss": "the tumult",
+      "sense": "S1"
     },
     {
       "surface": "נדדו",
-      "gloss": "fled"
+      "gloss": "fled",
+      "sense": "S1"
     },
     {
       "surface": "עמים",
-      "gloss": "peoples"
+      "gloss": "peoples",
+      "sense": "S1"
     },
     {
       "surface": "מרוממתך",
-      "gloss": "from your exaltation",
-      "readings": [
-        "from your exaltation",
-        "from your lifting up"
-      ],
-      "held_by": {
-        "from your exaltation": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "from your lifting up": [
-          "en4"
-        ]
-      }
+      "gloss": "at your rising",
+      "sense": "S1"
     },
     {
       "surface": "נפצו",
       "gloss": "were scattered",
-      "readings": [
-        "were scattered",
-        "were dashed to pieces"
-      ],
-      "held_by": {
-        "were scattered": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "were dashed to pieces": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "גוים",
-      "gloss": "nations"
+      "gloss": "nations",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:21:28.750674264Z",
+  "model": "glm-5.3"
 }

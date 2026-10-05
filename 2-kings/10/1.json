@@ -1,106 +1,139 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And to Ahab were seventy sons in Samaria. And Jehu wrote letters and sent to Samaria, to the rulers of Jezreel, the elders, and to them that brought up Ahab, saying,",
-  "tokens": [
+  "ref": "2-kings 10:1",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "ולאחאב",
-      "gloss": "and to Ahab"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew lacks a copula for 'and to Ahab seventy sons'"
     },
     {
-      "surface": "שבעים",
-      "gloss": "seventy"
+      "kind": "addition",
+      "subject": "to",
+      "rationale": "וישלח שמרון lacks a preposition; 'sent to Samaria' supplies it"
     },
     {
-      "surface": "בנים",
-      "gloss": "sons"
+      "kind": "substitution",
+      "subject": "letters",
+      "rationale": "ספרים literally 'documents\/scrolls'; rendered 'letters' from context"
     },
     {
-      "surface": "בשמרון",
-      "gloss": "in Samaria"
+      "kind": "crux",
+      "subject": "the guardians of Ahab",
+      "rationale": "האמנים: those who raised Ahab's sons — 'guardians' vs traditional 'tutors' or 'governors'"
     },
     {
-      "surface": "ויכתב",
-      "gloss": "and wrote"
-    },
-    {
-      "surface": "יהוא",
-      "gloss": "Jehu"
-    },
-    {
-      "surface": "ספרים",
-      "gloss": "letters",
-      "readings": [
-        "letters",
-        "writings"
-      ],
-      "held_by": {
-        "letters": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "writings": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וישלח",
-      "gloss": "and sent"
-    },
-    {
-      "surface": "שמרון",
-      "gloss": "Samaria"
-    },
-    {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "שרי",
-      "gloss": "rulers of"
-    },
-    {
-      "surface": "יזרעאל",
-      "gloss": "Jezreel"
-    },
-    {
-      "surface": "הזקנים",
-      "gloss": "the elders"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and to"
-    },
-    {
-      "surface": "האמנים",
-      "gloss": "them that brought up",
-      "readings": [
-        "them that brought up",
-        "the guardians of"
-      ],
-      "held_by": {
-        "them that brought up": [
-          "v2",
-          "v3"
-        ],
-        "the guardians of": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אחאב",
-      "gloss": "Ahab"
-    },
-    {
-      "surface": "לאמר",
-      "gloss": "saying"
+      "kind": "you",
+      "subject": "to the princes, elders and guardians",
+      "rationale": "letter opens an address carried in verses 2–3"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And to Ahab were seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, to the princes of Jezreel, the elders, and to the guardians of Ahab, saying:",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "32d5f22dd36c27a97d38acbea00c8cd120fa50d3bf9c1ce146c2760545682555",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/10\/1-4.1791187579039.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּלְאַחְאָ֛ב",
+      "gloss": "And to Ahab",
+      "sense": "S1"
+    },
+    {
+      "surface": "שִׁבְעִ֥ים",
+      "gloss": "seventy",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנִ֖ים",
+      "gloss": "sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשֹׁמְר֑וֹן",
+      "gloss": "in Samaria",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּכְתֹּב֩",
+      "gloss": "and wrote",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵה֨וּא",
+      "gloss": "Jehu",
+      "sense": "S1"
+    },
+    {
+      "surface": "סְפָרִ֜ים",
+      "gloss": "letters",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּשְׁלַ֣ח",
+      "gloss": "and sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹׁמְר֗וֹן",
+      "gloss": "Samaria",
+      "sense": "S1",
+      "readings": [
+        "Samaria",
+        "to Samaria"
+      ]
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "שָׂרֵ֤י",
+      "gloss": "the princes of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִזְרְעֶאל֙",
+      "gloss": "Jezreel",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַזְּקֵנִ֔ים",
+      "gloss": "the elders",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶל",
+      "gloss": "and to",
+      "sense": null
+    },
+    {
+      "surface": "הָאֹמְנִ֥ים",
+      "gloss": "the guardians of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחְאָ֖ב",
+      "gloss": "Ahab",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֵאמֹֽר",
+      "gloss": "saying",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:06:19.040317716Z",
+  "model": "glm-5.3"
 }

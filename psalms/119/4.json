@@ -1,57 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "You have commanded Your precepts, to keep them diligently.",
-  "tokens": [
+  "ref": "psalms 119:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "אתה",
-      "gloss": "You"
+      "kind": "addition",
+      "subject": "them",
+      "rationale": "The infinitive לשמר carries no object; 'them' is supplied for English, marked in flow."
     },
     {
-      "surface": "צויתה",
-      "gloss": "have commanded"
-    },
-    {
-      "surface": "פקדיך",
-      "gloss": "Your precepts"
-    },
-    {
-      "surface": "לשמר",
-      "gloss": "to keep",
-      "readings": [
-        "to keep",
-        "to guard"
-      ],
-      "held_by": {
-        "to keep": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to guard": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מאד",
-      "gloss": "diligently",
-      "readings": [
-        "diligently",
-        "exceedingly"
-      ],
-      "held_by": {
-        "diligently": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "exceedingly": [
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "YHWH",
+      "rationale": "Direct address turns to God from v.3's third person."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You — You commanded Your precepts, to keep them exceedingly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "59b5019c85be845583745b606de89866ce05f9e62fe95f5922666726849fa6ab",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/1-4.1791193425118.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַתָּה",
+      "gloss": "You",
+      "sense": null
+    },
+    {
+      "surface": "צִוִּיתָה",
+      "gloss": "You commanded",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִקּוּדֶיךָ",
+      "gloss": "Your precepts",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמֹר",
+      "gloss": "to keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֹד",
+      "gloss": "exceedingly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:45.119811545Z",
+  "model": "glm-5.3"
 }

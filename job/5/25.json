@@ -1,40 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And you shall know that your seed ⟨is⟩ abundant, and your offspring like the grass of the earth.",
-  "tokens": [
+  "ref": "job 5:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "וידעת",
-      "gloss": "And you shall know"
+      "kind": "substitution",
+      "subject": "seed",
+      "rationale": "זרע here is descendants (S1 'children'), kept as 'seed' to expose the picture."
     },
     {
-      "surface": "כי",
+      "kind": "wordplay",
+      "subject": "זרע\/צאצאים",
+      "rationale": "seed and offshoots, two plant-images continued by 'grass of the earth'."
+    }
+  ],
+  "translation": "And you will know that your seed is many, and your offspring like the grass of the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "02268bd510f29bd79784d31a9a894668d7a633295a37711e59526bd289332563",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/25-27.1791194168483.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְֽ֭יָדַעְתָּ",
+      "gloss": "And you will know"
+    },
+    {
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "רב",
-      "gloss": "abundant"
+      "surface": "רַב",
+      "gloss": "many",
+      "sense": "S1"
     },
     {
-      "surface": "זרעך",
-      "gloss": "your seed"
+      "surface": "זַרְעֶךָ",
+      "gloss": "your seed",
+      "sense": "S1",
+      "readings": [
+        "your seed",
+        "your offspring"
+      ]
     },
     {
-      "surface": "וצאצאיך",
+      "surface": "וְצֶאֱצָאֶיךָ",
       "gloss": "and your offspring"
     },
     {
-      "surface": "כעשב",
-      "gloss": "like the grass of"
+      "surface": "כְּעֵשֶׂב",
+      "gloss": "like the grass",
+      "sense": "S1"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the earth",
+      "surface": "הָאָרֶץ",
+      "gloss": "of the earth",
+      "sense": "S1",
       "readings": [
-        "the earth",
-        "the land"
+        "of the earth",
+        "of the land"
       ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:08.483869134Z",
+  "model": "glm-5.3"
 }

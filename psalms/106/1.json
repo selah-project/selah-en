@@ -1,60 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Praise Yah! Give thanks to YHWH, for ⟨he is⟩ good, for his chesed ⟨endures⟩ forever.",
-  "tokens": [
+  "ref": "psalms 106:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "הללו",
-      "gloss": "Praise"
+      "kind": "addition",
+      "subject": "endures",
+      "rationale": "Hebrew has no verb in the second clause; English requires one"
     },
     {
-      "surface": "יה",
-      "gloss": "Yah"
+      "kind": "invitation",
+      "subject": "to the congregation",
+      "rationale": "Opening double imperative summons the community to praise"
     },
     {
-      "surface": "הודו",
-      "gloss": "give thanks to"
-    },
-    {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "לעולם",
-      "gloss": "forever"
-    },
-    {
-      "surface": "חסדו",
-      "gloss": "his chesed",
-      "readings": [
-        "his chesed",
-        "his steadfast love"
-      ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "הללו יה \/ הודו",
+      "rationale": "hallelu-Yah is itself the praise-command containing the Name; the two verbs pair praise and thanks"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Praise Yah! Give thanks to YHWH, for He is good, for His chesed ⟨endures⟩ forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7c91dcde4bb8e7554d74a06a6a013bff5776e041dd6e6efd2440f7a5258c8115",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/1-4.1791193310504.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַֽלְלוּ",
+      "gloss": "Praise",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֨הּ",
+      "gloss": "Yah",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹד֣וּ",
+      "gloss": "give thanks to",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַיהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "ט֑וֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֖י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "לְעוֹלָ֣ם",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַסְדּֽוֹ",
+      "gloss": "His chesed",
+      "readings": [
+        "His chesed",
+        "His steadfast love"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:50.505511356Z",
+  "model": "glm-5.3"
 }

@@ -1,115 +1,135 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And Noah, Daniel, and Job in its midst — as I live, ⟨is⟩ the oracle of Adonai YHWH — whether son or daughter, they would deliver; they by their righteousness would deliver their lives.",
+  "ref": "ezekiel 14:20",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "דנאל",
+      "rationale": "ketiv דנאל vs qere דניאל; likely the Dan'el of Ugaritic fame rather than the biblical Daniel — Ezekiel's three are ancient righteous figures."
+    },
+    {
+      "kind": "substitution",
+      "subject": "life",
+      "rationale": "נפש is literally throat \/ the life-principle, not an immortal “soul.”"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יצילו … יצילו",
+      "rationale": "the verb repeats: they will not save (others), they will save (only their own nefesh) — the pivot kept in the repetition."
+    }
+  ],
+  "translation": "though Noah, Daniel, and Job are in her midst — as I live, declares Adonai YHWH, if a son, if a daughter, they will not save; they will save their ⟨own⟩ life by their righteousness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eee4d2c3cdf4a21799847b157517e4bb2a70835e366ad2ede641f3f187f9cb0e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/14\/17-20.1791190428330.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
       "surface": "ונח",
-      "gloss": "and Noah"
+      "gloss": "though Noah",
+      "sense": "S1"
     },
     {
       "surface": "דנאל",
-      "gloss": "Daniel"
+      "gloss": "Daniel",
+      "sense": "S4"
     },
     {
       "surface": "ואיוב",
-      "gloss": "and Job"
+      "gloss": "and Job",
+      "sense": "S1"
     },
     {
       "surface": "בתוכה",
-      "gloss": "in its midst"
+      "gloss": "in her midst",
+      "sense": "S1"
     },
     {
       "surface": "חי",
       "gloss": "as I live",
-      "readings": [
-        "as I live",
-        "alive"
-      ],
-      "held_by": {
-        "as I live": [
-          "v2",
-          "v3"
-        ],
-        "alive": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "אני",
-      "gloss": "I"
+      "gloss": "I",
+      "sense": null
     },
     {
       "surface": "נאם",
-      "gloss": "an oracle"
+      "gloss": "declares",
+      "sense": "S1"
     },
     {
       "surface": "אדני",
-      "gloss": "Adonai"
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אם",
-      "gloss": "whether"
+      "gloss": "if",
+      "sense": null
     },
     {
       "surface": "בן",
-      "gloss": "son"
+      "gloss": "a son",
+      "sense": "S1"
     },
     {
       "surface": "אם",
-      "gloss": "or"
+      "gloss": "if",
+      "sense": null
     },
     {
       "surface": "בת",
-      "gloss": "daughter"
+      "gloss": "a daughter",
+      "sense": "S1"
     },
     {
       "surface": "יצילו",
-      "gloss": "they would deliver"
+      "gloss": "they will save",
+      "sense": "S1"
     },
     {
       "surface": "המה",
-      "gloss": "they"
+      "gloss": "they",
+      "sense": null
     },
     {
       "surface": "בצדקתם",
-      "gloss": "by their righteousness"
+      "gloss": "by their righteousness",
+      "sense": "S1"
     },
     {
       "surface": "יצילו",
-      "gloss": "would deliver"
+      "gloss": "they will save",
+      "sense": "S1"
     },
     {
       "surface": "נפשם",
-      "gloss": "their lives",
+      "gloss": "their life",
       "readings": [
-        "their lives",
-        "their soul",
-        "their nefesh"
+        "their life",
+        "their throat",
+        "their soul"
       ],
-      "held_by": {
-        "their lives": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "their soul": [
-          "v1",
-          "en4"
-        ],
-        "their nefesh": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:53:48.333066544Z",
+  "model": "glm-5.3"
 }

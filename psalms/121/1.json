@@ -1,58 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A song of ascents. I lift up my eyes to the mountains: from where will my help come?",
+  "ref": "psalms 121:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 121,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to the psalmist\/speaker",
+      "rationale": "Rhetorical question addressed to the self or to the hearer about the source of help."
+    },
+    {
+      "kind": "alternative",
+      "subject": "from where will my help come?",
+      "rationale": "מאין can be read as a genuine question or as a rhetorical prelude answered in v.2; the question shape is kept."
+    }
+  ],
+  "translation": "A song of ascents. I lift my eyes to the mountains — from where will my help come?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ce48a604c2613a0be0413c87f37a80586599eb48bf5afa8feed4344e333251d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/121\/1-4.1791193507248.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שיר",
-      "gloss": "A song"
+      "surface": "שִׁ֗יר",
+      "gloss": "A song",
+      "sense": "S1"
     },
     {
-      "surface": "למעלות",
-      "gloss": "of ascents"
+      "surface": "לַֽמַּ֫עֲל֥וֹת",
+      "gloss": "of ascents",
+      "sense": "S1"
     },
     {
-      "surface": "אשא",
-      "gloss": "I lift up"
+      "surface": "אֶשָּׂ֣א",
+      "gloss": "I lift",
+      "sense": "S1"
     },
     {
-      "surface": "עיני",
-      "gloss": "my eyes"
+      "surface": "עֵינַ֭י",
+      "gloss": "my eyes",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
-      "gloss": "to"
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
     },
     {
-      "surface": "ההרים",
+      "surface": "הֶהָרִ֑ים",
       "gloss": "the mountains",
+      "sense": "S1",
       "readings": [
         "the mountains",
         "the hills"
-      ],
-      "held_by": {
-        "the mountains": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the hills": [
-          "v1"
-        ]
-      }
+      ]
     },
     {
-      "surface": "מאין",
-      "gloss": "from where"
+      "surface": "מֵאַ֗יִן",
+      "gloss": "from where",
+      "sense": "S1"
     },
     {
-      "surface": "יבא",
-      "gloss": "will come"
+      "surface": "יָבֹ֥א",
+      "gloss": "will come",
+      "sense": null
     },
     {
-      "surface": "עזרי",
-      "gloss": "my help"
+      "surface": "עֶזְרִֽי",
+      "gloss": "my help",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:07.249330788Z",
+  "model": "glm-5.3"
 }

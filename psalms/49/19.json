@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "For in his lifetime his soul blesses ⟨itself⟩ — and ⟨men⟩ praise you when you do well to yourself —",
-  "tokens": [
+  "ref": "psalms 49:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "addition",
+      "subject": "him",
+      "rationale": "The object of 'blesses' is supplied — the Hebrew leaves it implicit; some read reflexive 'blesses himself'."
     },
     {
-      "surface": "נפשו",
-      "gloss": "his soul",
-      "readings": [
-        "his soul",
-        "his life",
-        "his throat"
-      ],
-      "held_by": {
-        "his soul": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his life": [
-          "en4"
-        ],
-        "his throat": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "they praise you",
+      "rationale": "Second person singular shifts in mid-verse — the rich man apostrophized as 'you' who do good to yourself; some repoint to keep third person throughout."
     },
     {
-      "surface": "בחייו",
-      "gloss": "in his lifetime"
-    },
-    {
-      "surface": "יברך",
-      "gloss": "he blesses"
-    },
-    {
-      "surface": "ויודך",
-      "gloss": "and praise you"
-    },
-    {
-      "surface": "כי",
-      "gloss": "when"
-    },
-    {
-      "surface": "תיטיב",
-      "gloss": "you do well"
-    },
-    {
-      "surface": "לך",
-      "gloss": "to yourself"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש here the self, the life-principle that congratulates itself — not a disembodied 'soul'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For his nefesh blesses ⟨him⟩ in his life, and they praise you, for you do well to yourself.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c8496690989f7d7c17d287c784586f0437b53771afd319967422719927f08aa9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/49\/17-20.1791192764761.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his nefesh",
+      "readings": [
+        "his nefesh",
+        "his soul",
+        "his very self"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחַיָּיו",
+      "gloss": "in his life",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְבָרֵךְ",
+      "gloss": "blesses",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיוֹדֻךָ",
+      "gloss": "and they praise you",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "תֵיטִיב",
+      "gloss": "you do well",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָךְ",
+      "gloss": "to yourself",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:44.762608653Z",
+  "model": "glm-5.3"
 }

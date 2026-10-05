@@ -1,63 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 29,
-  "translation": "And Zephaniah the priest read ⟨את⟩ the letter, this, in the ears of Jeremiah the prophet.",
+  "ref": "jeremiah 29:29",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "English requires the article before 'scroll' though the Hebrew article stands on the noun itself"
+    },
+    {
+      "kind": "idiom",
+      "subject": "in the ears of",
+      "rationale": "Hebrew idiom for 'in the hearing of'; the dual אָזְנֵי keeps the two ears literally"
+    }
+  ],
+  "translation": "And Zephaniah the priest read ⟨את⟩ this scroll in the ears of Jeremiah the prophet.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "df069ca4b73f055c02fb8ceeb682640e270347fe6b05ae915ee3e3646816ef09",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/29\/29-31.1791199362492.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "ויקרא",
-      "gloss": "and read"
+      "surface": "וַיִּקְרָ֛א",
+      "gloss": "And read",
+      "sense": "S1"
     },
     {
-      "surface": "צפניה",
-      "gloss": "Zephaniah"
+      "surface": "צְפַנְיָ֥ה",
+      "gloss": "Zephaniah",
+      "sense": "S1"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵ֖ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "this scroll"
     },
     {
-      "surface": "הספר",
-      "gloss": "the letter",
-      "readings": [
-        "the letter",
-        "the scroll",
-        "the book"
-      ],
-      "held_by": {
-        "the letter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the scroll": [
-          "en4"
-        ],
-        "the book": [
-          "en4"
-        ]
-      }
+      "surface": "הַסֵּ֣פֶר",
+      "gloss": "scroll",
+      "sense": "S1"
     },
     {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּ֑ה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "באזני",
-      "gloss": "in the ears of"
+      "surface": "בְּאָזְנֵ֖י",
+      "gloss": "in the ears of",
+      "sense": "S1"
     },
     {
-      "surface": "ירמיהו",
+      "surface": "יִרְמְיָ֥הוּ",
       "gloss": "Jeremiah"
     },
     {
-      "surface": "הנביא",
-      "gloss": "the prophet"
+      "surface": "הַנָּבִֽיא",
+      "gloss": "the prophet",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:22:42.492547806Z",
+  "model": "glm-5.3"
 }

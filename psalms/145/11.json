@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "The glory of your kingdom they will tell, and your might they will speak.",
-  "tokens": [
+  "ref": "psalms 145:11",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 145,
+  "notes": [
     {
-      "surface": "כבוד",
-      "gloss": "the glory of",
-      "readings": [
-        "the glory of",
-        "the weight of"
-      ],
-      "held_by": {
-        "the glory of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the weight of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מלכותך",
-      "gloss": "your kingdom"
-    },
-    {
-      "surface": "יאמרו",
-      "gloss": "they will tell"
-    },
-    {
-      "surface": "וגבורתך",
-      "gloss": "and your might",
-      "readings": [
-        "and your might",
-        "and your valor"
-      ],
-      "held_by": {
-        "and your might": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and your valor": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ידברו",
-      "gloss": "they will speak"
+      "kind": "wordplay",
+      "subject": "יאמרו\/ידברו",
+      "rationale": "parallel pair of speaking verbs frames the line; Hebrew keeps two distinct verbs where English pairs speak\/tell"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The glory of Your kingship they shall speak, and Your might they shall tell.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "074f7e7b489428e9973c1ac8566b596af32e3d2cd6ae8a1048635a0a153c8447",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/145\/9-12.1791193633219.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּב֣וֹד",
+      "gloss": "The glory of",
+      "readings": [
+        "The glory of",
+        "The weight of",
+        "The splendor of"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מַלְכוּתְךָ֣",
+      "gloss": "Your kingship",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֹאמֵ֑רוּ",
+      "gloss": "they shall speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּגְבוּרָתְךָ֥",
+      "gloss": "and Your might",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְדַבֵּֽרוּ",
+      "gloss": "they shall tell",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:13.220830265Z",
+  "model": "glm-5.3"
 }

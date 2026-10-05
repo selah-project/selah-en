@@ -1,74 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "so that the last generation might know — children ⟨who⟩ shall be born — ⟨that they⟩ shall rise and declare to their children.",
+  "ref": "psalms 78:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "יקומו \/ ויקם",
+      "rationale": "the sons 'rise up' (יקומו) echoing YHWH who 'raised up' the testimony (ויקם) in v.5 — the chain of generations mirrors the founding act."
+    },
+    {
+      "kind": "measurement",
+      "subject": "דור אחרון",
+      "rationale": "the verse counts generations — a later generation, sons, and their sons."
+    }
+  ],
+  "translation": "so that a later generation might know — sons who will be born ⟨will rise⟩ and tell them to their sons;",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "355a44e44e2b1b82b5ec43b1a96cd9d057a1f3b225b73c2c89ece15956f55970",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/5-8.1791193045660.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "למען",
-      "gloss": "so that"
+      "gloss": "so that",
+      "sense": null
     },
     {
       "surface": "ידעו",
-      "gloss": "might know"
+      "gloss": "might know",
+      "sense": null
     },
     {
       "surface": "דור",
-      "gloss": "generation"
+      "gloss": "a generation",
+      "sense": "S1"
     },
     {
       "surface": "אחרון",
-      "gloss": "last"
+      "gloss": "later",
+      "sense": "S1"
     },
     {
       "surface": "בנים",
-      "gloss": "children"
+      "gloss": "sons",
+      "sense": "S1"
     },
     {
       "surface": "יולדו",
-      "gloss": "⟨who⟩ shall be born"
+      "gloss": "who will be born",
+      "sense": "S1"
     },
     {
       "surface": "יקמו",
-      "gloss": "⟨they⟩ will arise",
-      "readings": [
-        "⟨they⟩ will arise",
-        "⟨who⟩ will arise"
-      ],
-      "held_by": {
-        "⟨they⟩ will arise": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "⟨who⟩ will arise": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "⟨will rise⟩",
+      "sense": null
     },
     {
       "surface": "ויספרו",
-      "gloss": "and recount",
-      "readings": [
-        "and recount",
-        "and count"
-      ],
-      "held_by": {
-        "and recount": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and count": [
-          "en4"
-        ]
-      }
+      "gloss": "and tell",
+      "sense": "S1"
     },
     {
       "surface": "לבניהם",
-      "gloss": "to their children"
+      "gloss": "to their sons",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:25.661526569Z",
+  "model": "glm-5.3"
 }

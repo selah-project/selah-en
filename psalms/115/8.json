@@ -1,50 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Like them shall their makers become — all who trust in them.",
+  "ref": "psalms 115:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 115,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "their makers",
+      "rationale": "עשיהם participle 'their makers' vs simple 'those who make them'; participle kept — powerlessness transfers from idol to worshipper"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כמוהם...בהם",
+      "rationale": "verse pivots on 'them': like them (the idols) become those who trust in them; verbatim in Ps 135:18"
+    }
+  ],
+  "translation": "Like them will be their makers — all who trust in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "686d236244539461d7fd7fe1c3f6d3612a2d4d5c925295b66b8a0b4e3ddeee5c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/115\/5-8.1791193401279.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כמוהם",
-      "gloss": "like them"
+      "surface": "כְּמוֹהֶם",
+      "gloss": "Like them",
+      "sense": null
     },
     {
-      "surface": "יהיו",
-      "gloss": "shall become",
-      "readings": [
-        "shall become",
-        "may they become"
-      ],
-      "held_by": {
-        "shall become": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "may they become": [
-          "en4"
-        ]
-      }
+      "surface": "יִהְיוּ",
+      "gloss": "will be",
+      "sense": null
     },
     {
-      "surface": "עשיהם",
-      "gloss": "their makers"
+      "surface": "עֹשֵׂיהֶם",
+      "gloss": "their makers",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כֹּל",
       "gloss": "all"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "who"
     },
     {
-      "surface": "בטח",
-      "gloss": "trust"
+      "surface": "בּוֹטֵחַ",
+      "gloss": "who trust",
+      "sense": "S1"
     },
     {
-      "surface": "בהם",
-      "gloss": "in them"
+      "surface": "בָּהֶם",
+      "gloss": "in them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:43:21.280113309Z",
+  "model": "glm-5.3"
 }

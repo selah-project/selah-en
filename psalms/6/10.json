@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "YHWH has heard my supplication; YHWH will receive my prayer.",
+  "ref": "psalms 6:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "שמע\/תחנה\/תפלה parallelism",
+      "rationale": "The verse repeats v.9's 'has heard' and balances plea and prayer in parallel halves, a hallmark of Hebrew poetry."
+    },
+    {
+      "kind": "alternative",
+      "subject": "will receive",
+      "rationale": "יקח is literally 'take'; 'will take my prayer' is the more form-exposing rendering."
+    }
+  ],
+  "translation": "YHWH has heard my plea; YHWH will receive my prayer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc9404e4f5094ef22943fc0dad110a35a66db9148f5cdfe98452e63dd72de318",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/6\/9-11.1791192363402.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שמע",
+      "surface": "שָׁמַ֣ע",
       "gloss": "has heard"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "תחנתי",
-      "gloss": "my supplication"
+      "surface": "תְּחִנָּתִ֑י",
+      "gloss": "my plea",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "תפלתי",
-      "gloss": "my prayer"
+      "surface": "תְּֽפִלָּתִ֥י",
+      "gloss": "my prayer",
+      "sense": "S1"
     },
     {
-      "surface": "יקח",
+      "surface": "יִקָּֽח",
       "gloss": "will receive",
-      "readings": [
-        "will receive",
-        "takes"
-      ],
-      "held_by": {
-        "will receive": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "takes": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:26:03.402896854Z",
+  "model": "glm-5.3"
 }

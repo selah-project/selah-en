@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Of ⟨the⟩ uprightness of my heart ⟨are⟩ my sayings, and ⟨the⟩ knowledge of my lips ⟨is⟩ pure, let ⟨them⟩ speak.",
-  "tokens": [
+  "ref": "job 33:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
     {
-      "surface": "ישר",
-      "gloss": "uprightness"
+      "kind": "addition",
+      "subject": "⟨are⟩",
+      "rationale": "Hebrew verbless clause needs an English copula."
     },
     {
-      "surface": "לבי",
-      "gloss": "of my heart"
-    },
-    {
-      "surface": "אמרי",
-      "gloss": "my sayings"
-    },
-    {
-      "surface": "ודעת",
-      "gloss": "and the knowledge"
-    },
-    {
-      "surface": "שפתי",
-      "gloss": "of my lips"
-    },
-    {
-      "surface": "ברור",
-      "gloss": "pure",
-      "readings": [
-        "pure",
-        "clear"
-      ],
-      "held_by": {
-        "pure": [
-          "v1",
-          "en4"
-        ],
-        "clear": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מללו",
-      "gloss": "let ⟨them⟩ speak"
+      "kind": "wordplay",
+      "subject": "verbless parallelism",
+      "rationale": "Two chiastic word-pairs (uprightness-of-heart\/words, knowledge-of-lips\/utter) with the verbs deferred; English must supply structure."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The uprightness of my heart ⟨are⟩ my words, and the knowledge of my lips clearly they utter.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ccea920d8b2b6a9694c3a632317491945d01ea5c9e10638b5cd6e6d4d9ae6481",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/33\/1-4.1791194516944.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יֹֽשֶׁר",
+      "gloss": "The uprightness",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִבִּ֥י",
+      "gloss": "of my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲמָרָ֑י",
+      "gloss": "my words",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַ֥עַת",
+      "gloss": "and the knowledge",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂ֝פָתַ֗י",
+      "gloss": "of my lips",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֥רוּר",
+      "gloss": "clearly",
+      "sense": null
+    },
+    {
+      "surface": "מִלֵּֽלוּ",
+      "gloss": "they utter",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:56.945399709Z",
+  "model": "glm-5.3"
 }

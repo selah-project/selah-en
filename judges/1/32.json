@@ -1,57 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 32,
-  "translation": "And the Asherite dwelt in the midst of the Canaanite, the inhabitants of the land, for they did not dispossess them.",
+  "ref": "judges 1:32",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "האשרי",
+      "rationale": "the gentilic 'the Asherite' (collective) occurs only here in the Tanakh"
+    },
+    {
+      "kind": "elision",
+      "subject": "הורישו suffix",
+      "rationale": "third-person suffix on הורישו names the object (the Canaanite); 'him' supplied by the verb form"
+    }
+  ],
+  "translation": "And the Asherite dwelt in the midst of the Canaanite, the inhabitants of the land, for he did not dispossess him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "082713b2b59f7372d4c643098dcae7028ceab71e0deebd94f6b05c5965a6894a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/1\/29-32.1791184853122.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
       "surface": "וישב",
-      "gloss": "And dwelt"
+      "gloss": "And dwelt",
+      "sense": "S1"
     },
     {
       "surface": "האשרי",
       "gloss": "the Asherite",
-      "readings": [
-        "the Asherite",
-        "the Asherites"
-      ],
-      "held_by": {
-        "the Asherite": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "the Asherites": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "בקרב",
-      "gloss": "in the midst of"
+      "gloss": "in the midst of",
+      "sense": null
     },
     {
       "surface": "הכנעני",
-      "gloss": "the Canaanite"
+      "gloss": "the Canaanite",
+      "sense": "S1"
     },
     {
       "surface": "ישבי",
-      "gloss": "the inhabitants of"
+      "gloss": "the inhabitants of",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
       "gloss": "the land",
+      "sense": "S1",
       "readings": [
         "the land",
         "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": []
-      }
+      ]
     },
     {
       "surface": "כי",
@@ -59,27 +69,15 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "הורישו",
-      "gloss": "they did dispossess",
-      "readings": [
-        "they did dispossess",
-        "he did dispossess"
-      ],
-      "held_by": {
-        "they did dispossess": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he did dispossess": [
-          "en4"
-        ]
-      }
+      "gloss": "he dispossessed him",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:20:53.123929143Z",
+  "model": "glm-5.3"
 }

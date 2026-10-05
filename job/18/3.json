@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Why are we counted as beasts, made unclean in your eyes?",
-  "tokens": [
+  "ref": "job 18:3",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "מדוע",
-      "gloss": "Why"
+      "kind": "hapax",
+      "subject": "נִטְמִינוּ",
+      "rationale": "טָמָה occurs only here; meaning uncertain — 'unclean', 'stupid', 'despised'"
     },
     {
-      "surface": "נחשבנו",
-      "gloss": "are we counted"
-    },
-    {
-      "surface": "כבהמה",
-      "gloss": "as beasts"
-    },
-    {
-      "surface": "נטמינו",
-      "gloss": "made unclean",
-      "readings": [
-        "made unclean",
-        "we are dull"
-      ],
-      "held_by": {
-        "made unclean": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "we are dull": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בעיניכם",
-      "gloss": "in your eyes"
+      "kind": "substitution",
+      "subject": "in your eyes",
+      "rationale": "בעיניכם is an idiom for 'in your judgment'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Why are we accounted as beasts, become unclean in your eyes?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b13b6ad8d3a9f275f0d21f962db798ffcf60ec3cae26c14fe2f42adb39fcf62e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/18\/1-4.1791194322527.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַ֭דּוּעַ",
+      "gloss": "Why",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֶחְשַׁ֣בְנוּ",
+      "gloss": "are we accounted",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּבְּהֵמָ֑ה",
+      "gloss": "as the beasts",
+      "sense": "S1"
+    },
+    {
+      "surface": "נִ֝טְמִ֗ינוּ",
+      "gloss": "become unclean",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינֵיכֶֽם",
+      "gloss": "in your eyes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:42.528717861Z",
+  "model": "glm-5.3"
 }

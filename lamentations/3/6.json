@@ -1,54 +1,50 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "In dark places he has made me dwell, like the dead of long ago.",
-  "tokens": [
+  "ref": "lamentations 3:6",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "במחשכים",
-      "gloss": "in dark places"
-    },
-    {
-      "surface": "הושיבני",
-      "gloss": "he has made me dwell",
-      "readings": [
-        "he has made me dwell",
-        "he has seated me"
-      ],
-      "held_by": {
-        "he has made me dwell": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he has seated me": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כמתי",
-      "gloss": "like the dead"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "of long ago",
-      "readings": [
-        "of long ago",
-        "of eternity"
-      ],
-      "held_by": {
-        "of long ago": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of eternity": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "of eternity",
+      "rationale": "עוֹלָם can read 'eternity' (like the eternally dead) or 'long ago' (those dead for ages)"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In dark places He has made me dwell, like the dead of long ago.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4caf35ec4ca5acdaf3873223faf2e77339d04e3f650aa732e05511fc71839a47",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/5-8.1791194696390.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּמַחֲשַׁכִּים",
+      "gloss": "In dark places",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹשִׁיבַנִי",
+      "gloss": "He has made me dwell",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּמֵתֵי",
+      "gloss": "like the dead of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָם",
+      "gloss": "long ago",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:04:56.391240607Z",
+  "model": "glm-5.3"
 }

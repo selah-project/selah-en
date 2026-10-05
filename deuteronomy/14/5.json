@@ -1,83 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The deer, and the gazelle, and the roe deer, and the wild goat, and the ibex, and the antelope, and the mountain sheep.",
-  "tokens": [
+  "ref": "deuteronomy 14:5",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "איל",
-      "gloss": "the deer",
-      "readings": [
-        "the deer",
-        "the stag"
-      ],
-      "held_by": {
-        "the deer": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the stag": [
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "אַקּוֹ",
+      "rationale": "Occurs only here in the Tanakh; identified as the wild goat or ibex."
     },
     {
-      "surface": "וצבי",
-      "gloss": "and the gazelle"
+      "kind": "hapax",
+      "subject": "דִּישֹׁן",
+      "rationale": "Occurs only here; probably the addax antelope."
     },
     {
-      "surface": "ויחמור",
-      "gloss": "and the roe deer"
+      "kind": "hapax",
+      "subject": "זֶמֶר",
+      "rationale": "Occurs only here; exact animal uncertain — wild sheep, wild goat, or deer."
     },
     {
-      "surface": "ואקו",
-      "gloss": "and the wild goat"
-    },
-    {
-      "surface": "ודישן",
-      "gloss": "the ibex",
-      "readings": [
-        "the ibex",
-        "the pygarg",
-        "the antelope"
-      ],
-      "held_by": {
-        "the ibex": [
-          "v2",
-          "v3"
-        ],
-        "the pygarg": [
-          "v1",
-          "en4"
-        ],
-        "the antelope": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ותאו",
-      "gloss": "the antelope",
-      "readings": [
-        "the antelope",
-        "the wild ox"
-      ],
-      "held_by": {
-        "the antelope": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the wild ox": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וזמר",
-      "gloss": "and the mountain sheep"
+      "kind": "crux",
+      "subject": "animal identifications",
+      "rationale": "Several of these clean wild animals are uncertain; English names are zoological best guesses, not certainties."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "the deer, and the gazelle, and the roe deer, and the ibex, and the antelope, and the oryx, and the mountain goat.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "08e4812cd2b7b58af25c8ed72fe33c28866cff385faa56d72eaf5dea3ee27582",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/14\/5-8.1791183867617.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַיָּל",
+      "gloss": "the deer",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּצְבִי",
+      "gloss": "and the gazelle",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיַחְמוּר",
+      "gloss": "and the roe deer",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַקּוֹ",
+      "gloss": "and the ibex",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדִישֹׁן",
+      "gloss": "and the antelope",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּתְאוֹ",
+      "gloss": "and the oryx",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָזָמֶר",
+      "gloss": "and the mountain goat",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:04:27.617851019Z",
+  "model": "glm-5.3"
 }

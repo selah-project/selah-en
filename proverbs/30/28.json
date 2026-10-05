@@ -1,46 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "A lizard ⟨is⟩ taken ⟨in⟩ ⟨the⟩ hands, yet she ⟨is⟩ in the palaces of ⟨a⟩ king.",
-  "tokens": [
+  "ref": "proverbs 30:28",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "שממית",
-      "gloss": "A lizard"
+      "kind": "hapax",
+      "subject": "gecko",
+      "rationale": "שְׂמָמִית occurs only here in the Tanakh; a small lizard able to walk on walls and ceilings"
     },
     {
-      "surface": "בידים",
-      "gloss": "in the hands"
+      "kind": "crux",
+      "subject": "can be seized",
+      "rationale": "תִּתְפַּשׂ is formally piel 2nd person singular 'you seize', but is read as passive 'it can be caught'"
     },
     {
-      "surface": "תתפש",
-      "gloss": "is taken",
-      "readings": [
-        "is taken",
-        "she seizes"
-      ],
-      "held_by": {
-        "is taken": [
-          "v1",
-          "v3"
-        ],
-        "she seizes": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והיא",
-      "gloss": "yet she"
-    },
-    {
-      "surface": "בהיכלי",
-      "gloss": "in the palaces of"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "a king"
+      "kind": "wordplay",
+      "subject": "two hands",
+      "rationale": "בְּיָדַיִם is a dual — literally 'with a pair of hands' – emphasising how little it takes to hold this creature"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A gecko can be seized with two hands, and it is in the palaces of a king.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0b3b1ea885210777bc08b9f390a4bf37ffb992da731174e4626436340ff14014",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/25-28.1791194081532.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׂמָמִית",
+      "gloss": "A gecko",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיָדַיִם",
+      "gloss": "with two hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּתְפַּשׂ",
+      "gloss": "can be seized",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִיא",
+      "gloss": "and it",
+      "sense": null
+    },
+    {
+      "surface": "בְּהֵיכְלֵי",
+      "gloss": "in the palaces",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "of a king",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:41.533901981Z",
+  "model": "glm-5.3"
 }

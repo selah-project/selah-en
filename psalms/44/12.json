@@ -1,57 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "You give us like sheep as food, and among the nations you scattered us.",
-  "tokens": [
+  "ref": "psalms 44:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 44,
+  "notes": [
     {
-      "surface": "תתננו",
-      "gloss": "You give us",
-      "readings": [
-        "You give us",
-        "You gave us"
-      ],
-      "held_by": {
-        "You give us": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You gave us": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "כצאן",
-      "gloss": "like sheep"
-    },
-    {
-      "surface": "מאכל",
-      "gloss": "as food"
-    },
-    {
-      "surface": "ובגוים",
-      "gloss": "and among the nations"
-    },
-    {
-      "surface": "זריתנו",
-      "gloss": "you scattered us",
-      "readings": [
-        "you scattered us",
-        "you scatter us"
-      ],
-      "held_by": {
-        "you scattered us": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "you scatter us": [
-          "v2"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "זֵרִיתָנוּ",
+      "rationale": "זרה is winnowing imagery applied to scattering a people; both senses live in the one verb."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You give us like sheep for food, and among the nations you have scattered us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f339eaf2d82ae9e6bf05cc9c83db861ea3bc053e0473e16d3d6a4ef04b36499a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/44\/9-12.1791192702276.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תִּתְּנֵנוּ",
+      "gloss": "You give us",
+      "sense": null
+    },
+    {
+      "surface": "כְּצֹאן",
+      "gloss": "like sheep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַאֲכָל",
+      "gloss": "for food",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבַגּוֹיִם",
+      "gloss": "and among the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֵרִיתָנוּ",
+      "gloss": "you have scattered us",
+      "sense": "S1",
+      "readings": [
+        "you have scattered us",
+        "you have winnowed us"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:31:42.277028997Z",
+  "model": "glm-5.3"
 }

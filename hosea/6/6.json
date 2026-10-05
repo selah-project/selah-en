@@ -1,60 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "For chesed I desired, and not sacrifice, and the knowledge of Elohim more than burnt offerings.",
-  "tokens": [
+  "ref": "hosea 6:6",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "more than burnt-offerings",
+      "rationale": "מן comparative: 'knowledge of Elohim rather than burnt-offerings'; the min of preference"
     },
     {
-      "surface": "חסד",
+      "kind": "wordplay",
+      "subject": "chesed",
+      "rationale": "echoes 6:4 וחסדכם — YHWH's chesed against their evaporating chesed"
+    }
+  ],
+  "translation": "For chesed I desired, and not slaughter, and knowledge of Elohim more than burnt-offerings.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7335435acec3d43ba4cb5a78b3495e1337ddb78f02ae34b733ee0e0c0d3836f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/6\/5-8.1791191300018.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "חֶסֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
-        "steadfast love",
-        "kindness"
+        "steadfast love"
       ],
-      "held_by": {
-        "chesed": [
-          "v3",
-          "en4"
-        ],
-        "steadfast love": [
-          "en4"
-        ],
-        "kindness": [
-          "v1",
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "חפצתי",
-      "gloss": "I desired"
+      "surface": "חָפַצְתִּי",
+      "gloss": "I desired",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "זבח",
-      "gloss": "sacrifice"
+      "surface": "זָבַח",
+      "gloss": "slaughter",
+      "sense": "S1"
     },
     {
-      "surface": "ודעת",
-      "gloss": "and the knowledge of"
+      "surface": "וְדַעַת",
+      "gloss": "and knowledge of",
+      "sense": "S1"
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "מעלות",
-      "gloss": "more than burnt offerings"
+      "surface": "מֵעֹלוֹת",
+      "gloss": "more than burnt-offerings",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:20.019434027Z",
+  "model": "glm-5.3"
 }

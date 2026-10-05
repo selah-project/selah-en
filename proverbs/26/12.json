@@ -1,52 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Have you seen a man wise in his own eyes? There is more hope for a fool than for him.",
-  "tokens": [
+  "ref": "proverbs 26:12",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "ראית",
-      "gloss": "Have you seen"
+      "kind": "addition",
+      "subject": "⟨There is⟩",
+      "rationale": "The second half is a verbless noun clause; English requires a copula."
     },
     {
-      "surface": "איש",
+      "kind": "invitation",
+      "subject": "to the reader",
+      "rationale": "The verse opens with a direct second-person question, drawing the reader in."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "כסיל \/ חכם",
+      "rationale": "The closing line of the fool-cycle: self-perceived wisdom is worse than declared folly."
+    }
+  ],
+  "translation": "Have you seen a man wise in his own eyes? ⟨There is⟩ more hope for a fool than for him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6b77eacc6722ab16204d3ef85fb0356a9712e63d9b33dab46f9edab1d4563a90",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/9-12.1791194016431.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "רָאִ֗יתָ",
+      "gloss": "Have you seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֭ישׁ",
       "gloss": "a man"
     },
     {
-      "surface": "חכם",
-      "gloss": "wise"
+      "surface": "חָכָ֣ם",
+      "gloss": "wise",
+      "sense": "S1"
     },
     {
-      "surface": "בעיניו",
-      "gloss": "in his own eyes"
+      "surface": "בְּעֵינָ֑יו",
+      "gloss": "in his own eyes",
+      "sense": "S1"
     },
     {
-      "surface": "תקוה",
+      "surface": "תִּקְוָ֖ה",
       "gloss": "hope",
-      "readings": [
-        "hope",
-        "a cord",
-        "expectancy"
-      ],
-      "held_by": {
-        "hope": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a cord": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לכסיל",
-      "gloss": "for a fool"
+      "surface": "לִכְסִ֣יל",
+      "gloss": "for a fool",
+      "sense": "S1"
     },
     {
-      "surface": "ממנו",
+      "surface": "מִמֶּֽנּוּ",
       "gloss": "than for him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:36.432788425Z",
+  "model": "glm-5.3"
 }

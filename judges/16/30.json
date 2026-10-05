@@ -1,191 +1,179 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And Samson said, “Let my nefesh die with the Philistines.” And he bent with his strength, and the house fell upon the lords and upon all the people who were in it. And the dead whom he put to death in his death were more than those whom he put to death in his life.",
+  "ref": "judges 16:30",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "my throat",
+      "rationale": "נפש is literally the throat, the seat of breathing life; 'soul' would import later anthropology."
+    },
+    {
+      "kind": "crux",
+      "subject": "the lords",
+      "rationale": "סרנים is a Philistine word for the five city-rulers; rendered 'lords' vs 'serens' (transliteration) vs 'tyrants'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "המית…במותו…בחייו",
+      "rationale": "threefold play on מות (die\/put to death\/in his death) set against his life, heightening the final count."
+    }
+  ],
+  "translation": "And Samson said, “Let my throat die with the Philistines.” And he bent with strength, and the house fell on the lords and on all the people who were in it. And the dead that he put to death in his death were more than those he put to death in his life.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4a166699b3b41dc4327e60dbe98508e64e6891eb203092297924bc58242507c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/16\/29-31.1791185194994.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
   "tokens": [
     {
-      "surface": "ויאמר",
-      "gloss": "and said"
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
     },
     {
-      "surface": "שמשון",
-      "gloss": "Samson"
+      "surface": "שִׁמְשׁוֹן",
+      "gloss": "Samson",
+      "sense": "S1"
     },
     {
-      "surface": "תמות",
-      "gloss": "die"
+      "surface": "תָּמוּת",
+      "gloss": "let die",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
+      "surface": "נַפְשִׁי",
+      "gloss": "my throat",
       "readings": [
-        "my nefesh",
-        "my soul",
-        "my life"
+        "my throat",
+        "my life",
+        "my self"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "עם",
-      "gloss": "with"
+      "surface": "עִם",
+      "gloss": "with",
+      "sense": null
     },
     {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "surface": "פְּלִשְׁתִּים",
+      "gloss": "the Philistines",
+      "sense": "S1"
     },
     {
-      "surface": "ויט",
+      "surface": "וַיֵּט",
       "gloss": "and he bent",
-      "readings": [
-        "and he bent",
-        "and he stretched out"
-      ],
-      "held_by": {
-        "and he bent": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and he stretched out": [
-          "en4"
-        ]
-      }
+      "sense": "S2"
     },
     {
-      "surface": "בכח",
-      "gloss": "with strength"
+      "surface": "בְּכֹחַ",
+      "gloss": "with strength",
+      "sense": "S1"
     },
     {
-      "surface": "ויפל",
-      "gloss": "and fell"
+      "surface": "וַיִּפֹּל",
+      "gloss": "and fell",
+      "sense": "S1"
     },
     {
-      "surface": "הבית",
-      "gloss": "the house"
+      "surface": "הַבַּיִת",
+      "gloss": "the house",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "הסרנים",
+      "surface": "הַסְּרָנִים",
       "gloss": "the lords",
       "readings": [
         "the lords",
-        "the rulers"
+        "the rulers of the Philistines"
       ],
-      "held_by": {
-        "the lords": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the rulers": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ועל",
-      "gloss": "and upon"
+      "surface": "וְעַל",
+      "gloss": "and on",
+      "sense": null
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "העם",
-      "gloss": "the people"
+      "surface": "הָעָם",
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
     },
     {
-      "surface": "בו",
-      "gloss": "in it"
+      "surface": "בּוֹ",
+      "gloss": "in it",
+      "sense": null
     },
     {
-      "surface": "ויהיו",
-      "gloss": "and they were"
+      "surface": "וַיִּהְיוּ",
+      "gloss": "and were",
+      "sense": null
     },
     {
-      "surface": "המתים",
-      "gloss": "the dead"
+      "surface": "הַמֵּתִים",
+      "gloss": "the dead",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "whom"
+      "surface": "אֲשֶׁר",
+      "gloss": "whom",
+      "sense": null
     },
     {
-      "surface": "המית",
+      "surface": "הֵמִית",
       "gloss": "he put to death",
-      "readings": [
-        "he put to death",
-        "he killed"
-      ],
-      "held_by": {
-        "he put to death": [
-          "en4"
-        ],
-        "he killed": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "במותו",
-      "gloss": "in his death"
+      "surface": "בְּמוֹתוֹ",
+      "gloss": "in his death",
+      "sense": "S1"
     },
     {
-      "surface": "רבים",
-      "gloss": "many"
+      "surface": "רַבִּים",
+      "gloss": "more",
+      "sense": "S1"
     },
     {
-      "surface": "מאשר",
-      "gloss": "than whom"
+      "surface": "מֵאֲשֶׁר",
+      "gloss": "than those whom",
+      "sense": null
     },
     {
-      "surface": "המית",
+      "surface": "הֵמִית",
       "gloss": "he put to death",
-      "readings": [
-        "he put to death",
-        "he killed"
-      ],
-      "held_by": {
-        "he put to death": [
-          "en4"
-        ],
-        "he killed": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "בחייו",
-      "gloss": "in his life"
+      "surface": "בְּחַיָּיו",
+      "gloss": "in his life",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:26:34.995353887Z",
+  "model": "glm-5.3"
 }

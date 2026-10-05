@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "A tree of life she ⟨is⟩ to those who hold her fast, and her upholders are happy.",
-  "tokens": [
+  "ref": "proverbs 3:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "עץ",
-      "gloss": "a tree"
+      "kind": "crux",
+      "subject": "מְאֻשָּׁר",
+      "rationale": "Pual participle of אשר: rendered 'held-blessed' to keep the passive form; alternatives range from 'happy' to 'blessed'."
     },
     {
-      "surface": "חיים",
-      "gloss": "of life"
+      "kind": "substitution",
+      "subject": "held-blessed",
+      "rationale": "The SDBH sense is 'call fortunate\/blessed'; the pual here is usually smoothed to 'happy', losing the form."
     },
     {
-      "surface": "היא",
-      "gloss": "she ⟨is⟩"
-    },
-    {
-      "surface": "למחזיקים",
-      "gloss": "to those who hold her fast"
-    },
-    {
-      "surface": "בה",
-      "gloss": "in her"
-    },
-    {
-      "surface": "ותמכיה",
-      "gloss": "and her upholders"
-    },
-    {
-      "surface": "מאשר",
-      "gloss": "are happy",
-      "readings": [
-        "are happy",
-        "are blessed"
-      ],
-      "held_by": {
-        "are happy": [
-          "v1",
-          "en4"
-        ],
-        "are blessed": [
-          "v2",
-          "v3"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "מַחֲזִיקִים \/ תֹמְכֶיהָ",
+      "rationale": "Two near-synonymous grasp-words frame the line; the paired holding repetition is weakened in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A tree of life she is to those who take hold of her, and her holders are held-blessed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a68e37a7d879cd26b9a34ebe4414c0d4c2491651a0009bf7bb0ae1b33047ca8e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/3\/18-20.1791200120217.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵץ",
+      "gloss": "a tree of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַיִּים",
+      "gloss": "life",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִיא",
+      "gloss": "she",
+      "sense": null
+    },
+    {
+      "surface": "לַמַּחֲזִיקִים",
+      "gloss": "to those who take hold",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּהּ",
+      "gloss": "of her"
+    },
+    {
+      "surface": "וְתֹמְכֶיהָ",
+      "gloss": "and her holders",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְאֻשָּׁר",
+      "gloss": "held-blessed",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:35:20.217587450Z",
+  "model": "glm-5.3"
 }

@@ -1,79 +1,91 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And ⟨את⟩ the wall of Jerusalem round about tore down all the army of the Chaldeans who were with the chief of the executioners.",
-  "tokens": [
+  "ref": "2-kings 25:10",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "ואת",
-      "gloss": "And ⟨את⟩"
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Kings reads אשר רב טבחים with no verb; Jer 52:14 supplies את — the copula is bracketed."
     },
     {
-      "surface": "חומת",
-      "gloss": "the wall of"
+      "kind": "crux",
+      "subject": "רב טבחים",
+      "rationale": "Literally 'great one of the butchers'; tradition renders 'captain of the guard' — the literal butchers\/executioners title is kept."
+    }
+  ],
+  "translation": "And ⟨את⟩ the walls of Jerusalem all around tore down all the force of the Chaldeans who ⟨were⟩ with the chief of the butchers.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e924b6bd4e7554b3f7c6134ed9d7bd13f468e17e6d1ac141614e527b2ad826d4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/25\/9-12.1791187959343.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the walls of Jerusalem",
+      "sense": null
+    },
+    {
+      "surface": "חֹמֹת",
+      "gloss": "the walls of",
+      "sense": "S1"
     },
     {
       "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "סביב",
-      "gloss": "round about",
-      "readings": [
-        "round about",
-        "all around"
-      ],
-      "held_by": {
-        "round about": [
-          "v1",
-          "en4"
-        ],
-        "all around": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "סָבִיב",
+      "gloss": "all around",
+      "sense": "S1"
     },
     {
-      "surface": "נתצו",
+      "surface": "נָתְצוּ",
       "gloss": "tore down",
-      "readings": [
-        "tore down",
-        "broke down"
-      ],
-      "held_by": {
-        "tore down": [
-          "v2",
-          "v3"
-        ],
-        "broke down": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "חיל",
-      "gloss": "the army of"
+      "surface": "חֵיל",
+      "gloss": "the force of",
+      "sense": "S1"
     },
     {
-      "surface": "כשדים",
-      "gloss": "the Chaldeans"
+      "surface": "כַּשְׂדִּים",
+      "gloss": "the Chaldeans",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
     },
     {
-      "surface": "רב",
-      "gloss": "chief of"
+      "surface": "רַב",
+      "gloss": "chief of",
+      "sense": "S1"
     },
     {
-      "surface": "טבחים",
-      "gloss": "the executioners"
+      "surface": "טַבָּחִים",
+      "gloss": "the butchers",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:12:39.344933674Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And Lebanon is not enough to burn, and its beasts are not enough for a burnt offering.",
-  "tokens": [
+  "ref": "isaiah 40:16",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 40,
+  "notes": [
     {
-      "surface": "ולבנון",
-      "gloss": "And Lebanon"
+      "kind": "addition",
+      "subject": "is\/are",
+      "rationale": "Hebrew verbless clause: אין די 'not enough' carries no copula"
     },
     {
-      "surface": "אין",
+      "kind": "alternative",
+      "subject": "for burning",
+      "rationale": "בער piel infinitive construct: 'to kindle\/consume'; the unnamed burner is YHWH"
+    }
+  ],
+  "translation": "And Lebanon is not enough for burning, and its animals are not enough for a burnt offering.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa2e53f92f389fba16de0484ea0cab3eb96e4ea4351b604766d7297d25247c1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/40\/13-16.1791188610996.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּלְבָנ֕וֹן",
+      "gloss": "And Lebanon",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֥ין",
       "gloss": "is not"
     },
     {
-      "surface": "די",
-      "gloss": "enough"
+      "surface": "דֵּ֖י",
+      "gloss": "enough",
+      "sense": "S1"
     },
     {
-      "surface": "בער",
-      "gloss": "to burn",
-      "readings": [
-        "to burn",
-        "for burning"
-      ]
+      "surface": "בָּעֵ֑ר",
+      "gloss": "for burning",
+      "sense": "S1"
     },
     {
-      "surface": "וחיתו",
-      "gloss": "and its beasts"
+      "surface": "וְחַיָּת֔וֹ",
+      "gloss": "and its animals",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
+      "surface": "אֵ֥ין",
       "gloss": "are not"
     },
     {
-      "surface": "די",
-      "gloss": "enough"
+      "surface": "דֵּ֖י",
+      "gloss": "enough",
+      "sense": "S1"
     },
     {
-      "surface": "עולה",
+      "surface": "עוֹלָֽה",
       "gloss": "for a burnt offering",
-      "readings": [
-        "for a burnt offering",
-        "an ascending-offering"
-      ],
-      "held_by": {
-        "for a burnt offering": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "an ascending-offering": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:23:30.997735447Z",
+  "model": "glm-5.3"
 }

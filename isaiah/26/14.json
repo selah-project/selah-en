@@ -1,105 +1,113 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "The dead shall not live; the Rephaim shall not rise. Therefore you have visited and destroyed them, and caused all memory of them to perish.",
+  "ref": "isaiah 26:14",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨them with judgment⟩",
+      "rationale": "פקדת takes its object implied; English needs the punitive object spelled out"
+    },
+    {
+      "kind": "crux",
+      "subject": "פקדת",
+      "rationale": "'visited' (to take notice, for penalty) vs 'punished' vs 'mustered'; the Hebrew keeps the ambiguity"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מתים\/רפאים",
+      "rationale": "parallel pair dead\/shades; Rephaim also names a giant people, a double sense lost in English"
+    }
+  ],
+  "translation": "The dead — not at all will they live; the shades — not at all will they rise; therefore you have visited ⟨them with judgment⟩ and destroyed them, and caused to perish all remembrance of them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1bcf0dbfc331655628cf23d29272ed6b69b9b0e54613a2ce2a6118e4947faa15",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/26\/13-16.1791188366554.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "מתים",
-      "gloss": "the dead"
+      "gloss": "the dead",
+      "sense": "S1"
     },
     {
       "surface": "בל",
-      "gloss": "not"
+      "gloss": "not at all",
+      "sense": "S1"
     },
     {
       "surface": "יחיו",
-      "gloss": "shall live"
+      "gloss": "will they live",
+      "sense": "S1"
     },
     {
       "surface": "רפאים",
-      "gloss": "Rephaim",
+      "gloss": "the shades",
+      "sense": "S1",
       "readings": [
-        "Rephaim",
-        "the shades"
-      ],
-      "held_by": {
-        "Rephaim": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the shades": [
-          "en4"
-        ]
-      }
+        "the shades",
+        "the Rephaim"
+      ]
     },
     {
       "surface": "בל",
-      "gloss": "not"
+      "gloss": "not at all",
+      "sense": "S1"
     },
     {
       "surface": "יקמו",
-      "gloss": "shall rise"
+      "gloss": "will they rise",
+      "sense": null
     },
     {
       "surface": "לכן",
-      "gloss": "Therefore"
+      "gloss": "therefore",
+      "sense": null
     },
     {
       "surface": "פקדת",
       "gloss": "you have visited",
+      "sense": "S1",
       "readings": [
         "you have visited",
         "you have punished"
-      ],
-      "held_by": {
-        "you have visited": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you have punished": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
       "surface": "ותשמידם",
-      "gloss": "and destroyed them"
+      "gloss": "and destroyed them",
+      "sense": null
     },
     {
       "surface": "ותאבד",
-      "gloss": "and made to perish"
+      "gloss": "and caused to perish",
+      "sense": "S1"
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "all",
+      "sense": null
     },
     {
       "surface": "זכר",
-      "gloss": "memory",
-      "readings": [
-        "memory",
-        "remembrance"
-      ],
-      "held_by": {
-        "memory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "remembrance": [
-          "en4"
-        ]
-      }
+      "gloss": "remembrance",
+      "sense": "S1"
     },
     {
       "surface": "למו",
-      "gloss": "of them"
+      "gloss": "of them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:19:26.555355049Z",
+  "model": "glm-5.3"
 }

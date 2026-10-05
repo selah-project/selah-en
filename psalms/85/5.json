@@ -1,46 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Turn us back, O Elohim of our salvation, and annul Your vexation with us.",
-  "tokens": [
+  "ref": "psalms 85:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
     {
-      "surface": "שובנו",
-      "gloss": "Turn us back"
+      "kind": "substitution",
+      "subject": "Turn us back",
+      "rationale": "שׁוב here is causative — the deity restores, not the people returning on their own"
     },
     {
-      "surface": "אלהי",
-      "gloss": "O Elohim of"
-    },
-    {
-      "surface": "ישענו",
-      "gloss": "our salvation",
-      "readings": [
-        "our salvation",
-        "our deliverance"
-      ],
-      "held_by": {
-        "our salvation": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "our deliverance": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "והפר",
-      "gloss": "and annul"
-    },
-    {
-      "surface": "כעסך",
-      "gloss": "Your vexation"
-    },
-    {
-      "surface": "עמנו",
-      "gloss": "with us"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "imperatives addressed to Elohim of our salvation"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Turn us back, Elohim of our salvation, and break your vexation ⟨את⟩ toward us.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5b5282cb3de1a9f01e528855c7f134eeb543faba0d3a671f6d8a8f76785b4db4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/5-8.1791193108084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שׁוּבֵנוּ",
+      "gloss": "Turn us back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֵי",
+      "gloss": "Elohim of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׁעֵנוּ",
+      "gloss": "our salvation",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָפֵר",
+      "gloss": "and break",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּעַסְךָ",
+      "gloss": "your vexation",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִמָּנוּ",
+      "gloss": "toward us",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T09:38:28.084667225Z",
+  "model": "glm-5.3"
 }

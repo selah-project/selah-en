@@ -1,47 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 161,
-  "translation": "Princes pursued me without cause, but at your words my heart trembled.",
+  "ref": "psalms 119:161",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ומדבריך",
+      "rationale": "Ketiv plural 'your words' against qere singular 'your word'; ketiv kept as ground, both readings listed."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨as for⟩",
+      "rationale": "English needs a topic-marking frame for the fronted object; Hebrew has none."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רדפוני חנם",
+      "rationale": "Echoes the psalmist's refrain of groundless persecution (v. 78, 86, 95)."
+    }
+  ],
+  "translation": "Princes pursued me without cause, but ⟨as for⟩ your word, my heart trembles.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d1aa2c2f08c0c791093f3388c3322ef9b47d9a7100f01c8f3c2f8ada9f5c78af",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/161-164.1791193503004.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שרים",
-      "gloss": "Princes"
+      "surface": "שָׂרִים",
+      "gloss": "Princes",
+      "sense": "S1"
     },
     {
-      "surface": "רדפוני",
-      "gloss": "pursued me"
+      "surface": "רְדָפוּנִי",
+      "gloss": "pursued me",
+      "sense": "S1"
     },
     {
-      "surface": "חנם",
-      "gloss": "without cause"
+      "surface": "חִנָּם",
+      "gloss": "without cause",
+      "sense": "S1"
     },
     {
       "surface": "ומדבריך",
-      "gloss": "but at your words",
+      "gloss": "but ⟨as for⟩ your word",
       "readings": [
-        "but at your words",
-        "and from your words"
+        "but ⟨as for⟩ your word",
+        "but ⟨as for⟩ your words"
       ],
-      "held_by": {
-        "but at your words": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and from your words": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "פחד",
-      "gloss": "trembled"
+      "surface": "פָּחַד",
+      "gloss": "trembles",
+      "sense": "S1"
     },
     {
-      "surface": "לבי",
-      "gloss": "my heart"
+      "surface": "לִבִּי",
+      "gloss": "my heart",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:03.005242328Z",
+  "model": "glm-5.3"
 }

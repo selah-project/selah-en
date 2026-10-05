@@ -1,50 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And I — I instructed, I strengthened their arms, and against me they devise evil.",
+  "ref": "hosea 7:15",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "I trained",
+      "rationale": "ויסרתי: 'I trained\/instructed' vs 'I chastised'; the parallel with 'I strengthened their arms' favors nurture over punishment."
+    }
+  ],
+  "translation": "And I trained them, I strengthened their arms, but against me they devise evil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a4ad7ba49190df090ea083e6b5353febe9de3f25f83cb34c3f04495f126e53c4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/7\/13-16.1791191329144.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
       "surface": "ואני",
-      "gloss": "and I"
+      "gloss": "and I",
+      "sense": null
     },
     {
       "surface": "יסרתי",
-      "gloss": "I instructed",
+      "gloss": "I trained",
       "readings": [
-        "I instructed",
-        "I disciplined"
+        "I trained",
+        "I chastened"
       ],
-      "held_by": {
-        "I instructed": [
-          "v2",
-          "v3"
-        ],
-        "I disciplined": [
-          "en4",
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "חזקתי",
-      "gloss": "I strengthened"
+      "gloss": "I strengthened",
+      "sense": "S1"
     },
     {
       "surface": "זרועתם",
-      "gloss": "their arms"
+      "gloss": "their arms",
+      "sense": "S1"
     },
     {
       "surface": "ואלי",
-      "gloss": "and against me"
+      "gloss": "but against me",
+      "sense": null
     },
     {
       "surface": "יחשבו",
-      "gloss": "they devise"
+      "gloss": "they devise",
+      "sense": "S1"
     },
     {
       "surface": "רע",
-      "gloss": "evil"
+      "gloss": "evil",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:49.145581618Z",
+  "model": "glm-5.3"
 }

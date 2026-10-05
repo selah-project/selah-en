@@ -1,52 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And Shallum son of Jabesh conspired against him, and struck him down before the people, and put him to death, and reigned in his place.",
+  "ref": "2-kings 15:10",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "קבל",
+      "rationale": "קבל 'in front of' occurs only here in the Tanakh; its construct form before עם is 'in front of the people'"
+    },
+    {
+      "kind": "addition",
+      "subject": "the",
+      "rationale": "Hebrew עם lacks the article; English needs it for the public-execution sense"
+    }
+  ],
+  "translation": "And Shallum son of Jabesh conspired against him, and struck him in front of the people, and killed him, and reigned in his stead.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7c268a4151014e8b6cf3cbe0fa3459119fe3325c9afcd68bef590036ed43dd10",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/15\/9-12.1791187699269.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
       "surface": "ויקשר",
-      "gloss": "and conspired"
+      "gloss": "and conspired",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
-      "gloss": "against him"
+      "gloss": "against him",
+      "sense": null
     },
     {
       "surface": "שלם",
-      "gloss": "Shallum"
+      "gloss": "Shallum",
+      "sense": "S1"
     },
     {
       "surface": "בן",
-      "gloss": "son of"
+      "gloss": "son of",
+      "sense": "S1"
     },
     {
       "surface": "יבש",
-      "gloss": "Jabesh"
+      "gloss": "Jabesh",
+      "sense": null
     },
     {
       "surface": "ויכהו",
-      "gloss": "and struck him down"
+      "gloss": "and struck him",
+      "sense": null
     },
     {
       "surface": "קבל",
-      "gloss": "before"
+      "gloss": "in front of",
+      "sense": "S1"
     },
     {
       "surface": "עם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "וימיתהו",
-      "gloss": "and put him to death"
+      "gloss": "and killed him",
+      "sense": "S1"
     },
     {
       "surface": "וימלך",
-      "gloss": "and reigned"
+      "gloss": "and reigned",
+      "sense": "S1"
     },
     {
       "surface": "תחתיו",
-      "gloss": "in his place"
+      "gloss": "in his stead",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:08:19.270320599Z",
+  "model": "glm-5.3"
 }

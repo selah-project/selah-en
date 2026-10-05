@@ -1,45 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Near is YHWH to the broken of heart, and ⟨את⟩ the crushed of spirit He saves.",
+  "ref": "psalms 34:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; adjective first for emphasis"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "broken of heart \/\/ crushed of spirit — a synonymous pair; דכא is literally crushed to powder"
+    }
+  ],
+  "translation": "Near is YHWH to the broken of heart, and ⟨את⟩ the crushed of spirit he saves.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5ce5171c13b21e4eb839275888c581427482bfa0c0fe1629b69bfe03bf45b406",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/17-20.1791192603343.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "קרוב",
-      "gloss": "near"
+      "surface": "קָרוֹב",
+      "gloss": "Near",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "is YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לנשברי",
-      "gloss": "to the broken of"
+      "surface": "לְנִשְׁבְּרֵי",
+      "gloss": "to the broken of",
+      "sense": "S1"
     },
     {
-      "surface": "לב",
-      "gloss": "heart"
+      "surface": "לֵב",
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
+      "surface": "וְאֵת",
       "gloss": "and ⟨את⟩"
     },
     {
-      "surface": "דכאי",
-      "gloss": "the crushed of"
+      "surface": "דַּכְּאֵי",
+      "gloss": "the crushed of",
+      "sense": "S1"
     },
     {
-      "surface": "רוח",
+      "surface": "רוּחַ",
       "gloss": "spirit",
       "readings": [
         "spirit",
-        "wind",
         "breath"
-      ]
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "יושיע",
-      "gloss": "He saves"
+      "surface": "יוֹשִׁיעַ",
+      "gloss": "he saves",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:03.344528162Z",
+  "model": "glm-5.3"
 }

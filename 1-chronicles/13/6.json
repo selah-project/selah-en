@@ -1,14 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "And David went up, and all Israel, to Baalah, to Kiriath-jearim, which is to Judah, to bring up from there ⟨את⟩ the ark of Elohim YHWH, who sits ⟨between⟩ the cherubim, where the name is called.",
+  "ref": "1-chronicles 13:6",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨above⟩",
+      "rationale": "Hebrew says only 'YHWH who sits the cherubim'; the locative preposition is supplied."
+    },
+    {
+      "kind": "crux",
+      "subject": "who sits the cherubim",
+      "rationale": "Rendered appositional to YHWH; some take 'who sits the cherubim' as describing the ark's title — cf. the parallel 2 Sam 6:2, 'the Name of YHWH of hosts who sits the cherubim, is called upon it'."
+    },
+    {
+      "kind": "alternative",
+      "subject": "on whom the Name is called",
+      "rationale": "2 Sam 6:2 reads 'on which the Name... is called'; Chronicles omits 'of hosts' and the doubling of שם."
+    }
+  ],
+  "translation": "And David went up, and all Israel, to Baalah, to Kiriath-Jearim which belongs to Judah, to bring up from there ⟨את⟩ the ark of Elohim, YHWH, who sits ⟨above⟩ the cherubim, on whom ⟨the⟩ Name is called.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c18a21a54ab302b7dc42bd0567e3419d1d5c961eb2ada6370c73b45b0a87b8f6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/13\/5-8.1791196263298.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויעל",
-      "gloss": "And … went up"
+      "gloss": "and went up",
+      "sense": "S1"
     },
     {
       "surface": "דויד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "וכל",
@@ -16,11 +50,13 @@
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "בעלתה",
-      "gloss": "to Baalah"
+      "gloss": "to Baalah",
+      "sense": "S1"
     },
     {
       "surface": "אל",
@@ -28,11 +64,12 @@
     },
     {
       "surface": "קרית",
-      "gloss": "Kiriath-"
+      "gloss": "Kiriath-",
+      "sense": "S1"
     },
     {
       "surface": "יערים",
-      "gloss": "jearim"
+      "gloss": "Jearim"
     },
     {
       "surface": "אשר",
@@ -40,53 +77,64 @@
     },
     {
       "surface": "ליהודה",
-      "gloss": "to Judah"
+      "gloss": "belongs to Judah",
+      "sense": "S1"
     },
     {
       "surface": "להעלות",
-      "gloss": "to bring up"
+      "gloss": "to bring up",
+      "sense": "S1"
     },
     {
       "surface": "משם",
-      "gloss": "from there"
+      "gloss": "from there",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the ark of Elohim"
     },
     {
       "surface": "ארון",
-      "gloss": "the ark"
+      "gloss": "the ark of",
+      "sense": "S1"
     },
     {
       "surface": "האלהים",
-      "gloss": "of Elohim"
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "יושב",
-      "gloss": "who sits"
+      "gloss": "who sits",
+      "sense": "S1"
     },
     {
       "surface": "הכרובים",
-      "gloss": "the cherubim"
+      "gloss": "⟨above⟩ the cherubim",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
-      "gloss": "where"
+      "gloss": "on whom"
     },
     {
       "surface": "נקרא",
-      "gloss": "is called"
+      "gloss": "is called",
+      "sense": "S1"
     },
     {
       "surface": "שם",
-      "gloss": "the name"
+      "gloss": "⟨the⟩ Name",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:31:03.299091184Z",
+  "model": "glm-5.3"
 }

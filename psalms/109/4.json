@@ -1,28 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "In return for my love they accuse me, but I ⟨am all⟩ prayer.",
-  "tokens": [
+  "ref": "psalms 109:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
     {
-      "surface": "תחת",
-      "gloss": "In return for"
+      "kind": "addition",
+      "subject": "⟨am⟩",
+      "rationale": "Hebrew has no copula: 'and I prayer'; the bracketed verb is supplied."
     },
     {
-      "surface": "אהבתי",
-      "gloss": "my love"
+      "kind": "crux",
+      "subject": "they accuse me",
+      "rationale": "ישטנוני is from the root שטן (as in 'satan', the accuser); rendered 'accuse', though some take 'oppose' or 'adversarially attack'."
     },
     {
-      "surface": "ישטנוני",
-      "gloss": "they accuse me"
-    },
-    {
-      "surface": "ואני",
-      "gloss": "but I"
-    },
-    {
-      "surface": "תפלה",
-      "gloss": "prayer"
+      "kind": "wordplay",
+      "subject": "תחת",
+      "rationale": "'In return for' (תחת) frames the love-for-hate exchange repeated in the neighbouring verse 5, an enveloping inversion structure."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In return for my love they accuse me, and I ⟨am⟩ prayer.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "33e64ea2b1b0c7fba80acf5056bf7120e1c15cfc87312bff03c9d89e2ff09a11",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/1-4.1791193366782.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תַּֽחַת",
+      "gloss": "In return for",
+      "sense": null
+    },
+    {
+      "surface": "אַהֲבָתִ֥י",
+      "gloss": "my love",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂטְנ֗וּנִי",
+      "gloss": "they accuse me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲנִ֥י",
+      "gloss": "and I",
+      "sense": null
+    },
+    {
+      "surface": "תְּפִלָּֽה",
+      "gloss": "prayer",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:46.783693523Z",
+  "model": "glm-5.3"
 }

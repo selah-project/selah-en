@@ -1,43 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And he sent arrows and scattered them; lightning, and confounded them.",
-  "tokens": [
+  "ref": "2-samuel 22:15",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "וישלח",
-      "gloss": "And he sent"
+      "kind": "crux",
+      "subject": "ויהמם",
+      "rationale": "Ketiv ויהמם vs qere ויהם; both from המם, to throw into commotion — rendered 'confounded them.'"
     },
     {
-      "surface": "חצים",
-      "gloss": "arrows"
+      "kind": "wordplay",
+      "subject": "arrows\/lightning",
+      "rationale": "חצים and ברק stand in parallel: lightning is the visible arrow-shot of God, a comparison the sense data itself notes."
     },
     {
-      "surface": "ויפיצם",
-      "gloss": "and scattered them"
-    },
-    {
-      "surface": "ברק",
-      "gloss": "lightning",
-      "readings": [
-        "lightning",
-        "a flashing blade"
-      ],
-      "held_by": {
-        "lightning": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a flashing blade": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויהמם",
-      "gloss": "and confounded them"
+      "kind": "alternative",
+      "subject": "Psalm 18:15",
+      "rationale": "The parallel reads חציו (his arrows) and וברקים רב (much lightning), plural forms where 2 Samuel is singular."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he sent arrows and scattered them; lightning, and confounded them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cf837dafd0d13181043359f382db42d1745ef6877bc85c80ae1f352ea6431ebf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/13-16.1791186583368.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּשְׁלַח",
+      "gloss": "and he sent",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִצִּים",
+      "gloss": "arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיְפִיצֵם",
+      "gloss": "and scattered them",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּרָק",
+      "gloss": "lightning",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיְהֻמָּם",
+      "gloss": "and confounded them",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:49:43.371443204Z",
+  "model": "glm-5.3"
 }

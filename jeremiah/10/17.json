@@ -1,58 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "Gather up your bundle from the land, you who dwell under siege!",
+  "ref": "jeremiah 10:17",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "כנעתך",
+      "rationale": "כנעה, a bundled package of belongings for a journey, occurs only here."
+    },
+    {
+      "kind": "crux",
+      "subject": "you who sit",
+      "rationale": "ketiv ישבתי (with yod) vs qere ישבת, feminine participle addressed to Jerusalem."
+    },
+    {
+      "kind": "invitation",
+      "subject": "Gather",
+      "rationale": "imperative addressed to the besieged inhabitant (Jerusalem)."
+    },
+    {
+      "kind": "you",
+      "subject": "to Jerusalem",
+      "rationale": "feminine singular address, the city under siege."
+    }
+  ],
+  "translation": "Gather from the land your bundle, you who sit ⟨in⟩ the siege.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "34bac5378f1a3114ecfd5fdbd13bf6051cc1f3d88d19baca5f5db283de19c8b9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/10\/17-20.1791189243344.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אספי",
-      "gloss": "Gather up",
-      "readings": [
-        "Gather up",
-        "take away"
-      ],
-      "held_by": {
-        "Gather up": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "take away": [
-          "en4"
-        ]
-      }
+      "surface": "אִסְפִּי",
+      "gloss": "Gather",
+      "sense": "S1"
     },
     {
-      "surface": "מארץ",
-      "gloss": "from the land"
+      "surface": "מֵאֶרֶץ",
+      "gloss": "from the land",
+      "sense": "S1"
     },
     {
-      "surface": "כנעתך",
-      "gloss": "your bundle"
+      "surface": "כִּנְעָתֵךְ",
+      "gloss": "your bundle",
+      "sense": "S1"
     },
     {
       "surface": "ישבתי",
-      "gloss": "you who dwell"
+      "gloss": "you who sit",
+      "sense": "S1"
     },
     {
-      "surface": "במצור",
-      "gloss": "under siege",
-      "readings": [
-        "under siege",
-        "in the bulwark"
-      ],
-      "held_by": {
-        "under siege": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the bulwark": [
-          "en4"
-        ]
-      }
+      "surface": "בַּמָּצוֹר",
+      "gloss": "in the siege",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:34:03.347468274Z",
+  "model": "glm-5.3"
 }

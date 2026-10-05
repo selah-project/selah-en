@@ -1,78 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Have you not cast us off, Elohim, and do you not go out, Elohim, with our hosts?",
-  "tokens": [
+  "ref": "psalms 108:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "הלא",
-      "gloss": "Have you not"
+      "kind": "crux",
+      "subject": "Elohim before a 2nd-person verb",
+      "rationale": "Elohim stands before a verb in the second person; Ps 60:12 adds אתה 'you' — rendered as direct address to Elohim."
     },
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "The community's plea addressed directly to Elohim."
     },
     {
-      "surface": "זנחתנו",
-      "gloss": "cast us off",
-      "readings": [
-        "cast us off",
-        "rejected us"
-      ],
-      "held_by": {
-        "cast us off": [
-          "v2",
-          "v3"
-        ],
-        "rejected us": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "תצא",
-      "gloss": "go out",
-      "readings": [
-        "go out",
-        "go forth"
-      ],
-      "held_by": {
-        "go out": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "go forth": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "בצבאתינו",
-      "gloss": "with our hosts",
-      "readings": [
-        "with our hosts",
-        "with our armies"
-      ],
-      "held_by": {
-        "with our hosts": [
-          "v2",
-          "en4"
-        ],
-        "with our armies": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "armies",
+      "rationale": "צבאתינו is literally 'our hosts\/masses of persons'; 'armies' narrows the sense to the war camp."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Have you not, Elohim, rejected us? And you do not go out, Elohim, with our armies.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f3150f6822158c7a105ec6d2ef52fc7e147ef277d433aebfc6169055d0d07afe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/9-12.1791193366909.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲלֹֽא",
+      "gloss": "Have … not",
+      "sense": "S2"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "זְנַחְתָּ֑נוּ",
+      "gloss": "you rejected us",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְֽלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֵצֵ֥א",
+      "gloss": "you go out",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִבְאֹתֵֽינוּ",
+      "gloss": "with our armies",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:46.910947785Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "As for me, to Elohim I call, and YHWH saves me.",
-  "tokens": [
+  "ref": "psalms 55:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "אני",
-      "gloss": "As for me"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "The psalmist's cry addresses Elohim directly."
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "אקרא",
-      "gloss": "I call",
-      "readings": [
-        "I call",
-        "I cry out"
-      ],
-      "held_by": {
-        "I call": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I cry out": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויהוה",
-      "gloss": "and YHWH"
-    },
-    {
-      "surface": "יושיעני",
-      "gloss": "saves me"
+      "kind": "alternative",
+      "subject": "saves me",
+      "rationale": "יושיעני as jussive 'may he save me' or confident imperfect 'he will save me'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I — to Elohim I call, and YHWH saves me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "03b152669aab35b90a29c9f2a8bccf29a39853d41d925208539e496a6ab7dc34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/17-20.1791192806399.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲ֭נִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "אֱלֹהִ֣ים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶקְרָ֑א",
+      "gloss": "I call",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַ֝יהוָ֗ה",
+      "gloss": "and YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹשִׁיעֵֽנִי",
+      "gloss": "saves me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:26.399816699Z",
+  "model": "glm-5.3"
 }

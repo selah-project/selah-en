@@ -1,69 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "What is a mortal that you remember him, and the son of man that you visit him?",
-  "tokens": [
+  "ref": "psalms 8:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "מה",
-      "gloss": "What"
+      "kind": "crux",
+      "subject": "visit",
+      "rationale": "פקד spans visit, muster, attend to, punish; here the divine noticing-and-intervening sense."
     },
     {
-      "surface": "אנוש",
-      "gloss": "a mortal",
-      "readings": [
-        "a mortal",
-        "a frail man"
-      ],
-      "held_by": {
-        "a mortal": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a frail man": [
-          "en4"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "to YHWH",
+      "rationale": "Rhetorical questions of wonder addressed directly to YHWH."
     },
     {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "תזכרנו",
-      "gloss": "You remember him"
-    },
-    {
-      "surface": "ובן",
-      "gloss": "and the son of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "of man"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "תפקדנו",
-      "gloss": "You visit him",
-      "readings": [
-        "You visit him",
-        "You attend to him"
-      ],
-      "held_by": {
-        "You visit him": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You attend to him": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "enosh \/ son of adam",
+      "rationale": "parallel names for humankind, both echoing mortality (enosh fragility, adam of the ground)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "What is a mortal that You remember him, and the son of man that You visit him?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40dd0d3bf53620056c37557620397391c412856818f097ed93c73108d6287a5d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/8\/5-8.1791192390277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מָֽה",
+      "gloss": "What",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱנ֥וֹשׁ",
+      "gloss": "a mortal",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּֽי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "תִזְכְּרֶ֑נּוּ",
+      "gloss": "You remember him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֶן",
+      "gloss": "and the son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֝דָ֗ם",
+      "gloss": "man",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "תִפְקְדֶֽנּוּ",
+      "gloss": "You visit him",
+      "sense": "S1",
+      "readings": [
+        "You visit him",
+        "You care for him"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:30.278424207Z",
+  "model": "glm-5.3"
 }

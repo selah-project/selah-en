@@ -1,75 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "If you make yourself high like the eagle, and if among the stars you set your nest — from there I will bring you down — the oracle of YHWH.",
+  "ref": "obadiah 1:4",
+  "book": "obadiah",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "your nest (first clause)",
+      "rationale": "the object of תגביה is implied by verse 3's dwelling; only verse 4's second clause has קנך explicitly."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מרום\/תגביה vs אורידך",
+      "rationale": "height and bringing down form the verse's antithesis; Edom's boast in 1:3 is inverted."
+    }
+  ],
+  "translation": "If you raise your nest high like the eagle, and if among the stars your nest is set — from there I will bring you down, oracle of YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2cb2782f525dec7a38f770c9fe1dc356b8c17042f9a97b9204e337dbec310271",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/obadiah\/1\/1-4.1791191609456.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/obadiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
+      "surface": "אִם",
       "gloss": "If"
     },
     {
-      "surface": "תגביה",
-      "gloss": "you make yourself high"
+      "surface": "תַּגְבִּיהַּ",
+      "gloss": "you raise high",
+      "sense": "S1"
     },
     {
-      "surface": "כנשר",
-      "gloss": "like the eagle"
+      "surface": "כַּנֶּשֶׁר",
+      "gloss": "like the eagle",
+      "sense": "S1"
     },
     {
-      "surface": "ואם",
+      "surface": "וְאִם",
       "gloss": "and if"
     },
     {
-      "surface": "בין",
-      "gloss": "among",
-      "readings": [
-        "among",
-        "between"
-      ]
+      "surface": "בֵּין",
+      "gloss": "among"
     },
     {
-      "surface": "כוכבים",
+      "surface": "כּוֹכָבִים",
       "gloss": "the stars",
-      "readings": [
-        "the stars",
-        "the princes"
-      ],
-      "held_by": {
-        "the stars": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the princes": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שים",
-      "gloss": "you set"
+      "surface": "שִׂים",
+      "gloss": "is set",
+      "sense": "S1"
     },
     {
-      "surface": "קנך",
-      "gloss": "your nest"
+      "surface": "קִנֶּךָ",
+      "gloss": "your nest",
+      "sense": "S1"
     },
     {
-      "surface": "משם",
-      "gloss": "from there"
+      "surface": "מִשָּׁם",
+      "gloss": "from there",
+      "sense": "S1"
     },
     {
-      "surface": "אורידך",
-      "gloss": "I will bring you down"
+      "surface": "אוֹרִידְךָ",
+      "gloss": "I will bring you down",
+      "sense": "S1"
     },
     {
-      "surface": "נאם",
-      "gloss": "the oracle of"
+      "surface": "נְאֻם",
+      "gloss": "oracle of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:13:29.457655267Z",
+  "model": "glm-5.3"
 }

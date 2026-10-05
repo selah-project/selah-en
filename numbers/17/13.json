@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And he stood between the dead and between the living, and the plague was stopped.",
-  "tokens": [
+  "ref": "numbers 17:13",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "ויעמד",
-      "gloss": "and he stood"
+      "kind": "substitution",
+      "subject": "plague",
+      "rationale": "מַגֵּפָה literally 'heavy blow'; 'plague' reads the effect, not the picture"
     },
     {
-      "surface": "בין",
-      "gloss": "between"
-    },
-    {
-      "surface": "המתים",
-      "gloss": "the dead"
-    },
-    {
-      "surface": "ובין",
-      "gloss": "and between"
-    },
-    {
-      "surface": "החיים",
-      "gloss": "the living"
-    },
-    {
-      "surface": "ותעצר",
-      "gloss": "and was stopped"
-    },
-    {
-      "surface": "המגפה",
-      "gloss": "the plague"
+      "kind": "wordplay",
+      "subject": "בין…ובין",
+      "rationale": "Aaron stands 'between the dead and between the living' — the preposition repeated on each side, a frame the English flattens"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he stood between the dead and between the living, and the plague was held back.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cfe8df675cda25efbd7f1bc05d7596bedcceb4ac99898aa8978e503296f29f90",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/17\/13-16.1791183119366.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּעֲמֹד",
+      "gloss": "and stood",
+      "sense": null
+    },
+    {
+      "surface": "בֵּין",
+      "gloss": "between",
+      "sense": null
+    },
+    {
+      "surface": "הַמֵּתִים",
+      "gloss": "the dead",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵין",
+      "gloss": "and between",
+      "sense": null
+    },
+    {
+      "surface": "הַחַיִּים",
+      "gloss": "the living",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתֵּעָצַר",
+      "gloss": "and was held back",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמַּגֵּפָה",
+      "gloss": "the plague",
+      "sense": "S1",
+      "readings": [
+        "the plague",
+        "the blow"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T06:51:59.369757183Z",
+  "model": "glm-5.3"
 }

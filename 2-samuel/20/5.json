@@ -1,63 +1,97 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "And Amasa went to summon ⟨את⟩ Judah, but he delayed past the appointed time that he had appointed him.",
+  "ref": "2-samuel 20:5",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וייחר",
+      "rationale": "Ketiv וייחר against qere ויוחר, a hapax in this form; the ketiv is kept as ground."
+    },
+    {
+      "kind": "hapax",
+      "subject": "וייחר",
+      "rationale": "This form of אחר occurs only here in the Tanakh."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨for⟩",
+      "rationale": "English needs 'for him' where Hebrew carries the suffix on the verb alone."
+    },
+    {
+      "kind": "measurement",
+      "subject": "the appointed time",
+      "rationale": "The verse turns on a fixed time set in v. 4."
+    }
+  ],
+  "translation": "And Amasa went to summon ⟨את⟩ Judah, and he was delayed from the appointed time that he had appointed ⟨for⟩ him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6a7f04bf73de35e1c30c06eff3aa6d3b3bf0e9968942ab8c40bc6ee385477dd3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/20\/5-8.1791186555816.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "וילך",
-      "gloss": "and went"
+      "surface": "וַיֵּ֥לֶךְ",
+      "gloss": "and went",
+      "sense": "S1"
     },
     {
-      "surface": "עמשא",
-      "gloss": "Amasa"
+      "surface": "עֲמָשָׂ֖א",
+      "gloss": "Amasa",
+      "sense": "S1"
     },
     {
-      "surface": "להזעיק",
-      "gloss": "to summon"
+      "surface": "לְהַזְעִ֣יק",
+      "gloss": "to summon",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Judah"
     },
     {
-      "surface": "יהודה",
-      "gloss": "Judah"
+      "surface": "יְהוּדָ֑ה",
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "וייחר",
-      "gloss": "and he delayed"
-    },
-    {
-      "surface": "מן",
-      "gloss": "past"
-    },
-    {
-      "surface": "המועד",
-      "gloss": "the appointed time",
+      "gloss": "and he was delayed",
+      "sense": "S2",
       "readings": [
-        "the appointed time",
-        "the appointed place"
-      ],
-      "held_by": {
-        "the appointed time": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the appointed place": [
-          "en4"
-        ]
-      }
+        "and he was delayed",
+        "and he lingered"
+      ]
     },
     {
-      "surface": "אשר",
+      "surface": "מִן",
+      "gloss": "from"
+    },
+    {
+      "surface": "הַמּוֹעֵ֖ד",
+      "gloss": "the appointed time",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
       "gloss": "that"
     },
     {
-      "surface": "יעדו",
-      "gloss": "he had appointed him"
+      "surface": "יְעָדֽוֹ",
+      "gloss": "he had appointed ⟨for⟩ him",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:49:15.817247677Z",
+  "model": "glm-5.3"
 }

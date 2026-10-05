@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "You were pleased with your land, YHWH; you turned the fortunes of Jacob.",
+  "ref": "psalms 85:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 85,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "שבת שבות",
+      "rationale": "verb שׁוּב and noun שְׁבוּת share one root; the sound itself says 'return the return'"
+    },
+    {
+      "kind": "crux",
+      "subject": "שבות",
+      "rationale": "ketiv שְׁבוּת 'captivity' vs qere שְׁבִית 'restore the fortune'; rendered on the ketiv"
+    }
+  ],
+  "translation": "You showed favor, YHWH, to your land; You turned back the captivity of Jacob.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fa21d65f35d6bb014fb771b48f9d43e67251af6f2c188db530b38ccf09398359",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/85\/1-4.1791193110591.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "רצית",
-      "gloss": "You were pleased with"
+      "surface": "רָצִיתָ",
+      "gloss": "You showed favor",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "ארצך",
-      "gloss": "your land"
+      "surface": "אַרְצֶךָ",
+      "gloss": "to your land",
+      "sense": "S1"
     },
     {
-      "surface": "שבת",
-      "gloss": "you turned",
-      "readings": [
-        "you turned",
-        "you returned"
-      ],
-      "held_by": {
-        "you turned": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you returned": [
-          "en4"
-        ]
-      }
+      "surface": "שַׁבְתָּ",
+      "gloss": "You turned back",
+      "sense": "S1"
     },
     {
       "surface": "שבות",
-      "gloss": "the fortunes",
+      "gloss": "the captivity",
       "readings": [
-        "the fortunes",
-        "the captivity"
+        "the captivity",
+        "the fortune"
       ],
-      "disputed": true,
-      "held_by": {
-        "the fortunes": [
-          "v1"
-        ],
-        "the captivity": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יעקב",
-      "gloss": "of Jacob"
+      "surface": "יַעֲקֹב",
+      "gloss": "of Jacob",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:30.592024509Z",
+  "model": "glm-5.3"
 }

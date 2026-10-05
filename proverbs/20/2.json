@@ -1,51 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Like the growl of a young lion ⟨is⟩ the terror of a king; whoever provokes him sins ⟨against⟩ his own soul.",
-  "tokens": [
+  "ref": "proverbs 20:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "נהם",
-      "gloss": "the growl of"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew nominal clause lacks a copula"
     },
     {
-      "surface": "ככפיר",
-      "gloss": "like a young lion"
+      "kind": "substitution",
+      "subject": "provokes",
+      "rationale": "מתעברו is hithpael 'making oneself cross with him', rendered as plain causative in English"
     },
     {
-      "surface": "אימת",
-      "gloss": "the terror of"
-    },
-    {
-      "surface": "מלך",
-      "gloss": "a king"
-    },
-    {
-      "surface": "מתעברו",
-      "gloss": "whoever provokes him"
-    },
-    {
-      "surface": "חוטא",
-      "gloss": "sins"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his own soul",
-      "readings": [
-        "his own soul",
-        "his own life"
-      ],
-      "held_by": {
-        "his own soul": [
-          "v1",
-          "en4"
-        ],
-        "his own life": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "sins against his own nefesh",
+      "rationale": "חוטא נפשו reads literally 'sins his nefesh' — 'forfeits his life', 'endangers himself', or 'sins against his own person'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The snarl of a young lion is the terror of a king; one who provokes him sins against his own nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4f64cc3dd4e2e86ed45976a9221ca0ada3481341f54ae2bc5914ac99175c3022",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/1-4.1791193933368.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "נַ֣הַם",
+      "gloss": "The snarl",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּכְּפִ֣יר",
+      "gloss": "of a young lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵימַ֣ת",
+      "gloss": "is the terror",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶ֣לֶךְ",
+      "gloss": "of a king",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִתְעַבְּר֗וֹ",
+      "gloss": "one who provokes",
+      "sense": null
+    },
+    {
+      "surface": "חוֹטֵ֥א",
+      "gloss": "sins against",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשֽׁוֹ",
+      "gloss": "his own nefesh",
+      "readings": [
+        "his own nefesh",
+        "his own life",
+        "his own soul"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:13.369394641Z",
+  "model": "glm-5.3"
 }

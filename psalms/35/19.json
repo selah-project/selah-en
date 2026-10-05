@@ -1,75 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Let not my enemies in deceit rejoice over me; those who hate me without cause wink ⟨the⟩ eye.",
-  "tokens": [
+  "ref": "psalms 35:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "אל",
-      "gloss": "Let not"
+      "kind": "crux",
+      "subject": "שֶׁקֶר",
+      "rationale": "reads adverbially 'rejoice over me falsely' or attributively 'my enemies who are false'; parallel with חִנָּם favors the attributive."
     },
     {
-      "surface": "ישמחו",
-      "gloss": "rejoice"
-    },
-    {
-      "surface": "לי",
-      "gloss": "over me"
-    },
-    {
-      "surface": "איבי",
-      "gloss": "my enemies"
-    },
-    {
-      "surface": "שקר",
-      "gloss": "in deceit",
-      "readings": [
-        "in deceit",
-        "falsely"
-      ],
-      "held_by": {
-        "in deceit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "falsely": [
-          "v2"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שנאי",
-      "gloss": "those who hate"
-    },
-    {
-      "surface": "חנם",
-      "gloss": "without cause"
-    },
-    {
-      "surface": "יקרצו",
-      "gloss": "wink",
-      "readings": [
-        "wink",
-        "bite the lip"
-      ],
-      "held_by": {
-        "wink": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "bite the lip": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עין",
-      "gloss": "⟨the⟩ eye"
+      "kind": "wordplay",
+      "subject": "שֶׁקֶר \/ חִנָּם",
+      "rationale": "parallel negatives — falsehood and causelessness — both denying any justifying ground for the enemies' malice."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let not my enemies who-are-false rejoice over me, nor my haters without cause wink the eye.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5cb0fc82c0150cb0a70183b31af96088a7d349d8361919abedee3a789433523",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/17-20.1791192622946.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אַל",
+      "gloss": "let not",
+      "sense": null
+    },
+    {
+      "surface": "יִשְׂמְחוּ",
+      "gloss": "rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "over me",
+      "sense": null
+    },
+    {
+      "surface": "אֹיְבַי",
+      "gloss": "my enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁקֶר",
+      "gloss": "who-are-false",
+      "readings": [
+        "who-are-false",
+        "falsely"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "שׂנְאַי",
+      "gloss": "my haters",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִנָּם",
+      "gloss": "without cause",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִקְרְצוּ",
+      "gloss": "wink",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַיִן",
+      "gloss": "the eye",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:22.947659773Z",
+  "model": "glm-5.3"
 }

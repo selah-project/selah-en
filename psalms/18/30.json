@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "For by you I run ⟨against⟩ a troop, and by my Elohim I leap ⟨over⟩ a wall.",
-  "tokens": [
+  "ref": "psalms 18:30",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "against",
+      "rationale": "The verb רוץ takes גְּדוּד as its target; English needs the preposition."
     },
     {
-      "surface": "בך",
-      "gloss": "by you"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "I run"
-    },
-    {
-      "surface": "גדוד",
-      "gloss": "a troop"
-    },
-    {
-      "surface": "ובאלהי",
-      "gloss": "and by my Elohim"
-    },
-    {
-      "surface": "אדלג",
-      "gloss": "I leap"
-    },
-    {
-      "surface": "שור",
-      "gloss": "a wall",
-      "readings": [
-        "a wall",
-        "one who watches"
-      ],
-      "held_by": {
-        "a wall": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "one who watches": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "run against a troop",
+      "rationale": "Some read גְּדוּד as 'a band of raiders' and render 'run through a troop'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For in you I run against a troop, and in my Elohim I leap over a wall.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d92cd67112a4aeb461b800f4e789c96340ced633018464e761edc0e4b001d07",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/29-32.1791192463541.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "בְּךָ",
+      "gloss": "in you",
+      "sense": null
+    },
+    {
+      "surface": "אָרֻץ",
+      "gloss": "I run",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּדוּד",
+      "gloss": "against a troop",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵאלֹהַי",
+      "gloss": "and in my Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲדַלֵּג",
+      "gloss": "I leap over",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוּר",
+      "gloss": "a wall",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:43.542437442Z",
+  "model": "glm-5.3"
 }

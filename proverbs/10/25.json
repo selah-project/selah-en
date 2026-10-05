@@ -1,36 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "As the passing of a whirlwind, so the wicked is not; but the righteous is a foundation forever.",
-  "tokens": [
+  "ref": "proverbs 10:25",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "כעבור",
-      "gloss": "as the passing of"
+      "kind": "alternative",
+      "subject": "foundation for the age",
+      "rationale": "יְסוֹד עוֹלָם can read 'an everlasting foundation' (bound adjectivally) or 'a foundation for the age' (temporal); the construct is kept bound either way."
     },
     {
-      "surface": "סופה",
-      "gloss": "a whirlwind"
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and is not"
-    },
-    {
-      "surface": "רשע",
-      "gloss": "the wicked"
-    },
-    {
-      "surface": "וצדיק",
-      "gloss": "but the righteous"
-    },
-    {
-      "surface": "יסוד",
-      "gloss": "a foundation"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "forever"
+      "kind": "addition",
+      "subject": "so is",
+      "rationale": "כַּעֲבוֹר opens a simile whose 'so' clause is carried by וְאֵין alone; English needs the link supplied."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like the passing of a storm-whirl, so the wicked is no more; but the righteous is a foundation for the age.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d643ef1799bfe8d681d6638b961826c12d0d9c63e8bddbfb4e8e5a5082b153e8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/10\/25-28.1791193796868.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּעֲב֣וֹר",
+      "gloss": "like the passing of",
+      "sense": null
+    },
+    {
+      "surface": "סוּפָה",
+      "gloss": "a storm-whirl",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֣ין",
+      "gloss": "so is no more",
+      "sense": null
+    },
+    {
+      "surface": "רָשָׁע",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְצַדִּיק",
+      "gloss": "but the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְס֣וֹד",
+      "gloss": "is a foundation for",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָֽם",
+      "gloss": "the age",
+      "sense": "S1",
+      "readings": [
+        "the age",
+        "ever"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:56.868675900Z",
+  "model": "glm-5.3"
 }

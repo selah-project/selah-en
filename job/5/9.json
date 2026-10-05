@@ -1,55 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Doing great things, and there is no searching; wonders, until there is no number.",
-  "tokens": [
+  "ref": "job 5:9",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "עשה",
-      "gloss": "doing"
+      "kind": "wordplay",
+      "subject": "אין חקר \/ אין מספר",
+      "rationale": "Parallel negative clauses, 'no searching \/ no number', frame the verse as a chiastic pair."
     },
     {
-      "surface": "גדלות",
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "Hebrew אין is a negative of existence; English supplies a verb to carry it."
+    }
+  ],
+  "translation": "Doing great things beyond searching, and wonders beyond number —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "edbfd1f321f7658ee5afd964dc35a7376179cebda57445e03a52a5cdfef1b420",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/9-12.1791194184694.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֹשֶׂה",
+      "gloss": "Doing",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְדֹלוֹת",
       "gloss": "great things",
-      "readings": [
-        "great things",
-        "greatness"
-      ],
-      "held_by": {
-        "great things": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "greatness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ואין",
       "gloss": "and there is no"
     },
     {
-      "surface": "חקר",
-      "gloss": "searching"
+      "surface": "חֵקֶר",
+      "gloss": "searching",
+      "sense": "S1",
+      "readings": [
+        "searching",
+        "fathoming"
+      ]
     },
     {
-      "surface": "נפלאות",
-      "gloss": "wonders"
+      "surface": "נִפְלָאוֹת",
+      "gloss": "wonders",
+      "sense": "S1"
     },
     {
-      "surface": "עד",
-      "gloss": "until"
+      "surface": "עַד",
+      "gloss": "beyond",
+      "sense": "S1"
     },
     {
-      "surface": "אין",
-      "gloss": "there is no"
+      "surface": "אֵין",
+      "gloss": "no"
     },
     {
-      "surface": "מספר",
-      "gloss": "number"
+      "surface": "מִסְפָּר",
+      "gloss": "number",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:24.695382884Z",
+  "model": "glm-5.3"
 }

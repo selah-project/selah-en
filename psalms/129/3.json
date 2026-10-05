@@ -1,32 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
+  "ref": "psalms 129:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 129,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "חרשו חרשים",
+      "rationale": "verb and participle share the root חרשׁ, 'plowed plowers' — the alliteration carries in English only partially."
+    },
+    {
+      "kind": "crux",
+      "subject": "furrows",
+      "rationale": "למענותם is a rare word (elsewhere only 1 Sam 14:14); ketiv vs qere למעניתם, both 'furrows'."
+    },
+    {
+      "kind": "hapax",
+      "subject": "plural form למענות",
+      "rationale": "the plural of מענה 'furrow' occurs only here in the Tanakh."
+    }
+  ],
   "translation": "Upon my back plowers plowed; they made long their furrows.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "87d32d6017c12ef732c77269563ea1fdbef6c210c590a432d7d31d288be181c9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/129\/1-4.1791193534945.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "Upon"
     },
     {
-      "surface": "גבי",
-      "gloss": "my back"
+      "surface": "גַּבִּ֭י",
+      "gloss": "my back",
+      "sense": "S1"
     },
     {
-      "surface": "חרשו",
-      "gloss": "plowed"
+      "surface": "חָרְשׁ֣וּ",
+      "gloss": "plowed",
+      "sense": "S1"
     },
     {
-      "surface": "חרשים",
-      "gloss": "plowers"
+      "surface": "חֹרְשִׁ֑ים",
+      "gloss": "plowers",
+      "sense": "S1"
     },
     {
-      "surface": "האריכו",
-      "gloss": "they made long"
+      "surface": "הֶ֝אֱרִ֗יכוּ",
+      "gloss": "they made long",
+      "sense": "S1"
     },
     {
-      "surface": "למענותם",
+      "surface": "לְמַעֲנ֣וֹתָם",
       "gloss": "their furrows"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:34.946123022Z",
+  "model": "glm-5.3"
 }

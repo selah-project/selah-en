@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Adonai gives the word; the women who proclaim glad tidings ⟨are⟩ a great host:",
-  "tokens": [
+  "ref": "psalms 68:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 68,
+  "notes": [
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "kind": "crux",
+      "subject": "the women-bearers-of-news",
+      "rationale": "המבשרות feminine plural: 'the women who announce' (cf. Jael's victors-song, Judg 5) vs repointed masculine 'the bearers of news'"
     },
     {
-      "surface": "יתן",
+      "kind": "wordplay",
+      "subject": "אמר ... מבשרות",
+      "rationale": "the word given and the women who carry it — speech cascading from Adonai through the host"
+    }
+  ],
+  "translation": "Adonai gives the word — the women-bearers-of-news are a great host.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5415800b50aae81871b430f1fbb5ec42c9bebe6f31281d326db8b7b52b8af6e1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/68\/9-12.1791192906562.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲדֹנָ֥י",
+      "gloss": "Adonai",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתֵּ֥ן",
       "gloss": "gives"
     },
     {
-      "surface": "אמר",
+      "surface": "אֹ֑מֶר",
       "gloss": "the word",
-      "readings": [
-        "the word",
-        "a word"
-      ],
-      "held_by": {
-        "the word": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a word": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "המבשרות",
-      "gloss": "the women who proclaim glad tidings"
+      "surface": "הַֽמְבַשֵּׂר֗וֹת",
+      "gloss": "the women-bearers-of-news",
+      "sense": "S1"
     },
     {
-      "surface": "צבא",
-      "gloss": "a host"
+      "surface": "צָבָ֥א",
+      "gloss": "a host",
+      "sense": "S1"
     },
     {
-      "surface": "רב",
-      "gloss": "great"
+      "surface": "רָֽב",
+      "gloss": "great",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:35:06.563337707Z",
+  "model": "glm-5.3"
 }

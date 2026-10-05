@@ -1,55 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 27,
-  "translation": "An abomination to the righteous is a man of injustice, and an abomination to the wicked is the one upright in ⟨the⟩ way.",
-  "tokens": [
+  "ref": "proverbs 29:27",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 29,
+  "notes": [
     {
-      "surface": "תועבת",
-      "gloss": "an abomination"
+      "kind": "addition",
+      "subject": "is a man",
+      "rationale": "The construct chain 'abhorrence… a man of wrongdoing' needs an implicit copula in English."
     },
     {
-      "surface": "צדיקים",
-      "gloss": "to the righteous"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "עול",
-      "gloss": "of injustice"
-    },
-    {
-      "surface": "ותועבת",
-      "gloss": "and an abomination"
-    },
-    {
-      "surface": "רשע",
-      "gloss": "to the wicked",
-      "readings": [
-        "to the wicked",
-        "of the wicked"
-      ],
-      "held_by": {
-        "to the wicked": [
-          "v1",
-          "en4"
-        ],
-        "of the wicked": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ישר",
-      "gloss": "the one upright"
-    },
-    {
-      "surface": "דרך",
-      "gloss": "in ⟨the⟩ way"
+      "kind": "crux",
+      "subject": "ישר דרך",
+      "rationale": "'The one upright of way' — construct adjective plus noun: 'upright in conduct' or 'the upright way' as a unit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "An abhorrence of the righteous is a man of wrongdoing, and an abhorrence of the wicked is the one upright in ⟨his⟩ way.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f02dca6353c9fefd1ddef4b7b3e0b56b1360a3270f2cd4a21bb85b914f5295bd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/29\/25-27.1791194062849.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תּוֹעֲבַ֣ת",
+      "gloss": "An abhorrence of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צַ֭דִּיקִים",
+      "gloss": "the righteous",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֣ישׁ",
+      "gloss": "a man",
+      "readings": [
+        "a man",
+        "is a man"
+      ]
+    },
+    {
+      "surface": "עָ֑וֶל",
+      "gloss": "of wrongdoing",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְתוֹעֲבַ֖ת",
+      "gloss": "and an abhorrence of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רָשָׁ֣ע",
+      "gloss": "the wicked",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְשַׁר",
+      "gloss": "the one upright",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּֽרֶךְ",
+      "gloss": "in ⟨his⟩ way",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:22.850171638Z",
+  "model": "glm-5.3"
 }

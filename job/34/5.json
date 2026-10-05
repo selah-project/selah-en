@@ -1,49 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For Job has said, “I am righteous, but El has turned aside my right.”",
-  "tokens": [
+  "ref": "job 34:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "substitution",
+      "subject": "my right",
+      "rationale": "מִשְׁפָּט here is Job's legal claim to justice, not a punishment."
     },
     {
-      "surface": "אמר",
-      "gloss": "has said"
-    },
-    {
-      "surface": "איוב",
-      "gloss": "Job"
-    },
-    {
-      "surface": "צדקתי",
-      "gloss": "I am righteous"
-    },
-    {
-      "surface": "ואל",
-      "gloss": "and El"
-    },
-    {
-      "surface": "הסיר",
-      "gloss": "has turned aside"
-    },
-    {
-      "surface": "משפטי",
-      "gloss": "my right",
-      "readings": [
-        "my right",
-        "my judgment"
-      ],
-      "held_by": {
-        "my right": [
-          "v2",
-          "v3"
-        ],
-        "my judgment": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew verb צדקתי is a verb 'I am right\/innocent'; English needs a copula and adjective."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For Job said, “I am innocent, and El has removed my right.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4606b04e4277b4c304372bfa7f18aab900e0cf9cf98699e3ff113bf4eb134ca2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/34\/5-8.1791194537185.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּֽי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "אָמַר",
+      "gloss": "said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִיּוֹב",
+      "gloss": "Job",
+      "sense": "S1"
+    },
+    {
+      "surface": "צָדַקְתִּי",
+      "gloss": "I am innocent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵל",
+      "gloss": "and El",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֵסִיר",
+      "gloss": "has removed",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְׁפָּטִי",
+      "gloss": "my right",
+      "sense": "S1",
+      "readings": [
+        "my right",
+        "my verdict"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:17.185903066Z",
+  "model": "glm-5.3"
 }

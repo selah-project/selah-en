@@ -1,57 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "A longing attained is sweet to the nefesh, but an abomination to fools is turning from evil.",
+  "ref": "proverbs 13:19",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נֶפֶשׁ is literally the throat and the life-principle residing in it; rendered transliteratively with readings kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "turning from evil",
+      "rationale": "Some repoint סוּר מֵרָע as שְׂוָרָה מֵרָע ('it departs from him as evil'), but the plain infinitive 'turning from evil' is kept."
+    }
+  ],
+  "translation": "A longing that has come to be is sweet to the nefesh, but turning from evil is an abhorrence to fools.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "87fd61d7430c2bdeb7c26eeafffd64e266f96ec5d0507f7770f8d9ef5938a3d9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/17-20.1791193846182.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "תאוה",
-      "gloss": "A longing"
+      "surface": "תַּאֲוָ֣ה",
+      "gloss": "a longing",
+      "sense": "S1"
     },
     {
-      "surface": "נהיה",
-      "gloss": "attained"
+      "surface": "נִ֭הְיָה",
+      "gloss": "that has come to be",
+      "sense": null
     },
     {
-      "surface": "תערב",
-      "gloss": "is sweet"
+      "surface": "תֶּעֱרַ֣ב",
+      "gloss": "is sweet",
+      "sense": "S1"
     },
     {
-      "surface": "לנפש",
+      "surface": "לְנָ֑פֶשׁ",
       "gloss": "to the nefesh",
       "readings": [
         "to the nefesh",
         "to the soul",
         "to the throat"
       ],
-      "held_by": {
-        "to the nefesh": [
-          "v2"
-        ],
-        "to the soul": [
-          "en4"
-        ],
-        "to the throat": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ותועבת",
-      "gloss": "but an abomination"
+      "surface": "וְתוֹעֲבַ֥ת",
+      "gloss": "but an abhorrence of",
+      "sense": "S1"
     },
     {
-      "surface": "כסילים",
-      "gloss": "to fools"
+      "surface": "כְּ֝סִילִ֗ים",
+      "gloss": "fools",
+      "sense": "S1"
     },
     {
-      "surface": "סור",
-      "gloss": "to turn"
+      "surface": "ס֣וּר",
+      "gloss": "turning",
+      "sense": "S1"
     },
     {
-      "surface": "מרע",
-      "gloss": "from evil"
+      "surface": "מֵרָֽע",
+      "gloss": "from evil",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:46.183647840Z",
+  "model": "glm-5.3"
 }

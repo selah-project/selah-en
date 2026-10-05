@@ -1,51 +1,68 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "A lion, mighty among beasts, that turns not back from before any.",
+  "ref": "proverbs 30:30",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "he",
+      "rationale": "pronoun supplied; the Hebrew verb's subject is the lion"
+    },
+    {
+      "kind": "elision",
+      "subject": "מפני",
+      "rationale": "'from the face of' rendered 'away from before'; the body part kept half-literal"
+    }
+  ],
+  "translation": "A lion, mighty among beasts, and ⟨he⟩ turns not away from before any.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5da991389075b441b1daad7b7322580fc9b0148e2d049b4657d2d04a2124f53e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/30\/29-32.1791194082695.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "ליש",
-      "gloss": "a lion",
-      "readings": [
-        "a lion",
-        "an old lion"
-      ],
-      "held_by": {
-        "a lion": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "an old lion": [
-          "en4"
-        ]
-      }
+      "surface": "לַ֭יִשׁ",
+      "gloss": "A lion",
+      "sense": "S1"
     },
     {
-      "surface": "גבור",
-      "gloss": "mighty"
+      "surface": "גִּבּ֣וֹר",
+      "gloss": "mighty",
+      "sense": "S1"
     },
     {
-      "surface": "בבהמה",
-      "gloss": "among beasts"
+      "surface": "בַּבְּהֵמָ֑ה",
+      "gloss": "among beasts",
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "ישוב",
-      "gloss": "turns back"
+      "surface": "יָ֝שׁ֗וּב",
+      "gloss": "he turns",
+      "sense": "S1"
     },
     {
-      "surface": "מפני",
-      "gloss": "from before"
+      "surface": "מִפְּנֵי",
+      "gloss": "away from before"
     },
     {
-      "surface": "כל",
+      "surface": "כֹֽל",
       "gloss": "any"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:42.695987900Z",
+  "model": "glm-5.3"
 }

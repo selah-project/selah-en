@@ -1,79 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "And if there be in it a blemish — lame or blind, any evil blemish — you shall not slaughter it to YHWH your Elohim.",
+  "ref": "deuteronomy 15:21",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there",
+      "rationale": "Hebrew verb יהיה with the blemish as subject; English requires 'there be'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "מום…מום",
+      "rationale": "blemish repeated before and after the list, framing it"
+    }
+  ],
+  "translation": "And if there be in it a blemish — lame or blind, any blemish bad — you shall not slaughter it to YHWH your Elohim,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9c6a94db6dfce198377741373bec20c7bdd566fb62b360751c56cfea9915c7e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/15\/21-23.1791183870764.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
-      "surface": "וכי",
-      "gloss": "and if"
+      "surface": "וְכִֽי",
+      "gloss": "And if"
     },
     {
-      "surface": "יהיה",
-      "gloss": "be"
+      "surface": "יִהְיֶ֨ה",
+      "gloss": "there be"
     },
     {
-      "surface": "בו",
+      "surface": "ב֜וֹ",
       "gloss": "in it"
     },
     {
-      "surface": "מום",
+      "surface": "מ֗וּם",
       "gloss": "a blemish"
     },
     {
-      "surface": "פסח",
-      "gloss": "lame"
+      "surface": "פִּסֵּ֨חַ֙",
+      "gloss": "lame",
+      "sense": "S1"
     },
     {
-      "surface": "או",
-      "gloss": "or"
+      "surface": "א֣וֹ",
+      "gloss": "or",
+      "sense": "S1"
     },
     {
-      "surface": "עור",
-      "gloss": "blind"
+      "surface": "עִוֵּ֔ר",
+      "gloss": "blind",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כֹּ֖ל",
       "gloss": "any"
     },
     {
-      "surface": "מום",
+      "surface": "מ֣וּם",
       "gloss": "blemish"
     },
     {
-      "surface": "רע",
-      "gloss": "evil"
+      "surface": "רָ֑ע",
+      "gloss": "bad",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "תזבחנו",
+      "surface": "תִזְבָּחֶ֔נּוּ",
       "gloss": "you shall slaughter it",
-      "readings": [
-        "you shall slaughter it",
-        "you shall sacrifice it"
-      ],
-      "held_by": {
-        "you shall slaughter it": [
-          "v1"
-        ],
-        "you shall sacrifice it": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "surface": "לַיהוָ֖ה",
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֶֽיךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:04:30.765447570Z",
+  "model": "glm-5.3"
 }

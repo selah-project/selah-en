@@ -1,62 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Is it the time for you, you, to dwell in your houses, paneled, while this house lies waste?",
-  "tokens": [
+  "ref": "haggai 1:4",
+  "book": "haggai",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "העת",
-      "gloss": "Is it the time"
+      "kind": "addition",
+      "subject": "lies",
+      "rationale": "Hebrew is a bare adjective 'waste'; English needs a verb of state"
     },
     {
-      "surface": "לכם",
+      "kind": "you",
+      "subject": "to the people",
+      "rationale": "rhetorical question addressed directly to the people who said it is not time to build"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עֵת",
+      "rationale": "the question flings the people's own word עֵת from v.2 back at them"
+    }
+  ],
+  "translation": "Is it a time for you, you, to dwell in your paneled houses, while this house lies waste?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b6f87ea2cbcad0f73dfbf21fc3aa6bb8430055ca6007ea20d6ecc78c2160abf7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/haggai\/1\/1-4.1791192014423.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/haggai.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַעֵת",
+      "gloss": "Is it a time",
+      "sense": "S2"
+    },
+    {
+      "surface": "לָכֶם",
       "gloss": "for you"
     },
     {
-      "surface": "אתם",
+      "surface": "אַתֶּם",
       "gloss": "you"
     },
     {
-      "surface": "לשבת",
-      "gloss": "to dwell"
+      "surface": "לָשֶׁבֶת",
+      "gloss": "to dwell",
+      "sense": "S1"
     },
     {
-      "surface": "בבתיכם",
-      "gloss": "in your houses"
+      "surface": "בְּבָתֵּיכֶם",
+      "gloss": "in your houses",
+      "sense": "S1"
     },
     {
-      "surface": "ספונים",
+      "surface": "סְפוּנִים",
       "gloss": "paneled",
-      "readings": [
-        "paneled",
-        "roofed",
-        "covered"
-      ],
-      "held_by": {
-        "paneled": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "roofed": [
-          "v1"
-        ],
-        "covered": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "והבית",
-      "gloss": "and the house"
+      "surface": "וְהַבַּיִת",
+      "gloss": "and the house",
+      "sense": "S1"
     },
     {
-      "surface": "הזה",
-      "gloss": "this"
+      "surface": "הַזֶּה",
+      "gloss": "this",
+      "sense": "S1"
     },
     {
-      "surface": "חרב",
-      "gloss": "lies waste"
+      "surface": "חָרֵב",
+      "gloss": "lies waste",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:20:14.424869592Z",
+  "model": "glm-5.3"
 }

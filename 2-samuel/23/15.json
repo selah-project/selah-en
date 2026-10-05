@@ -1,66 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And David craved ⟨it⟩, and he said, “Who will give me to drink water from the well of Beth-lehem, which is at the gate?”",
-  "tokens": [
+  "ref": "2-samuel 23:15",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "ויתאוה",
-      "gloss": "and he craved",
-      "readings": [
-        "and he craved",
-        "and he longed"
-      ],
-      "held_by": {
-        "and he craved": [
-          "v1",
-          "v3"
-        ],
-        "and he longed": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "idiom",
+      "subject": "Who will give me",
+      "rationale": "מִי יַשְׁקֵנִי is a longing wish, not a literal offer of reward; English keeps the question's shape."
     },
     {
-      "surface": "דוד",
-      "gloss": "David"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and he said"
-    },
-    {
-      "surface": "מי",
-      "gloss": "who"
-    },
-    {
-      "surface": "ישקני",
-      "gloss": "will give me to drink"
-    },
-    {
-      "surface": "מים",
-      "gloss": "water"
-    },
-    {
-      "surface": "מבאר",
-      "gloss": "from the well of"
-    },
-    {
-      "surface": "בית",
-      "gloss": "Beth-"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "lehem"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "which"
-    },
-    {
-      "surface": "בשער",
-      "gloss": "at the gate"
+      "kind": "substitution",
+      "subject": "well",
+      "rationale": "בֹּאר is a dug cistern or well; 1 Chron 11:17 has בּוֹר, same word."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And David longed and said, “Who will give me water to drink from the well of Bethlehem that is at the gate?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c2fad412272e339461ee289ec715e8d3398cb47a64541821973de90f1f4c7629",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/23\/13-16.1791186633834.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּתְאַוֶּ֥ה",
+      "gloss": "And David longed",
+      "readings": [
+        "And David longed",
+        "And David craved"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּוִ֖ד",
+      "gloss": "David",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּאמַ֑ר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִ֚י",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַשְׁקֵ֣נִי",
+      "gloss": "will give me to drink",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַ֔יִם",
+      "gloss": "water",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֹּ֥אר",
+      "gloss": "from the well of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּֽית",
+      "gloss": "Bethlehem",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶ֖חֶם",
+      "gloss": "Bethlehem",
+      "sense": null
+    },
+    {
+      "surface": "אֲשֶׁ֥ר",
+      "gloss": "that"
+    },
+    {
+      "surface": "בַּשָּֽׁעַר",
+      "gloss": "is at the gate",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:50:33.835638047Z",
+  "model": "glm-5.3"
 }

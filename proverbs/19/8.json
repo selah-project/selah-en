@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "He who gets a heart loves his life; he who guards understanding, to find good.",
+  "ref": "proverbs 19:8",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "נַפְשׁוֹ",
+      "rationale": "נפש is throat\/breath\/life-principle, not 'soul'; 'life' chosen as reading 1."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "participles",
+      "rationale": "Three participles in chain (acquiring, loving, keeping) give the verse its gnomic proverb rhythm."
+    }
+  ],
+  "translation": "The-one-who-acquires a heart loves his life; the-one-who-keeps understanding, to find good.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d883429d2bc9999e77b0dc24aba0b64c9b3362d6216195408ecaf0203652a81",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/5-8.1791193922200.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "קנה",
-      "gloss": "he who gets"
+      "surface": "קֹנֶה",
+      "gloss": "The-one-who-acquires",
+      "readings": [
+        "The-one-who-acquires",
+        "The-one-who-gets"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "לב",
-      "gloss": "a heart"
+      "surface": "לֵב",
+      "gloss": "a heart",
+      "sense": "S1"
     },
     {
-      "surface": "אהב",
-      "gloss": "loves"
+      "surface": "אֹהֵב",
+      "gloss": "loves",
+      "sense": "S1"
     },
     {
-      "surface": "נפשו",
+      "surface": "נַפְשׁוֹ",
       "gloss": "his life",
       "readings": [
         "his life",
-        "his soul",
-        "his nefesh"
+        "his throat",
+        "his self"
       ],
-      "held_by": {
-        "his life": [
-          "v2",
-          "v3"
-        ],
-        "his soul": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "his nefesh": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "שמר",
-      "gloss": "he who guards"
+      "surface": "שֹׁמֵר",
+      "gloss": "the-one-who-keeps",
+      "sense": "S1"
     },
     {
-      "surface": "תבונה",
-      "gloss": "understanding"
+      "surface": "תְּבוּנָה",
+      "gloss": "understanding",
+      "sense": "S1"
     },
     {
-      "surface": "למצא",
-      "gloss": "to find"
+      "surface": "לִמְצֹא",
+      "gloss": "to find",
+      "sense": "S1"
     },
     {
-      "surface": "טוב",
-      "gloss": "good"
+      "surface": "טוֹב",
+      "gloss": "good",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:02.201271727Z",
+  "model": "glm-5.3"
 }

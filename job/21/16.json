@@ -1,40 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Lo, their good is not in their hand — the counsel of the wicked is far from me.",
+  "ref": "job 21:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clauses; the English copula is supplied in both halves."
+    }
+  ],
+  "translation": "Behold, their prosperity ⟨is⟩ not in their hand; the counsel of the wicked ⟨is⟩ far from me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "99c22aa8deb979c88ba0010916f03ceb6eff2f6b310f45c9449b63094bc18343",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/13-16.1791194377947.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
       "surface": "הן",
-      "gloss": "Lo"
+      "gloss": "Behold",
+      "sense": null
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "בידם",
-      "gloss": "in their hand"
+      "gloss": "in their hand",
+      "sense": "S1"
     },
     {
       "surface": "טובם",
-      "gloss": "their good"
+      "gloss": "their prosperity",
+      "readings": [
+        "their prosperity",
+        "their good"
+      ],
+      "sense": "S1"
     },
     {
       "surface": "עצת",
-      "gloss": "the counsel of"
+      "gloss": "the counsel of",
+      "sense": "S1"
     },
     {
       "surface": "רשעים",
-      "gloss": "the wicked"
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
       "surface": "רחקה",
-      "gloss": "is far"
+      "gloss": "far",
+      "sense": "S1"
     },
     {
       "surface": "מני",
-      "gloss": "from me"
+      "gloss": "from me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:37.948966022Z",
+  "model": "glm-5.3"
 }

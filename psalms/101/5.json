@@ -1,99 +1,111 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The one who slanders his neighbor in secret — ⟨את⟩ him I will cut off; the haughty of eyes and broad of heart — ⟨את⟩ him I cannot ⟨endure⟩.",
+  "ref": "psalms 101:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 101,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "cannot endure",
+      "rationale": "לא אוכל is literally 'I am not able'; the object marker אתו and context force 'I cannot endure him' in English"
+    },
+    {
+      "kind": "addition",
+      "subject": "endure",
+      "rationale": "English needs a supplied verb object to communicate לא אוכל; bracketed as ⟨endure⟩"
+    },
+    {
+      "kind": "crux",
+      "subject": "אצמית",
+      "rationale": "צמת hiphil 'cut off \/ silence \/ destroy' — the slanderer's tongue silenced vs the person extirpated"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "structure",
+      "rationale": "Parallelismus: two subjects each followed by fronted אותו before the verb, a chiasm of judgment the English keeps in order"
+    }
+  ],
+  "translation": "The one slandering his companion in secret — him I will cut off; the lofty of eyes and broad of heart — him I cannot ⟨endure⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "476834b18de8408bfe04fb1d3971d4daf93d5e0eb2110c1ad65b52946f26b387",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/101\/5-5.1791199990267.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
       "surface": "מלושני",
-      "gloss": "the one who slanders"
+      "gloss": "the one slandering",
+      "sense": "S1",
+      "readings": [
+        "the one slandering",
+        "the talebearer"
+      ]
     },
     {
       "surface": "בסתר",
-      "gloss": "in secret"
+      "gloss": "in secret",
+      "sense": "S1"
     },
     {
       "surface": "רעהו",
-      "gloss": "his neighbor"
+      "gloss": "his companion",
+      "sense": "S1"
     },
     {
       "surface": "אותו",
-      "gloss": "⟨את⟩ him"
+      "gloss": "⟨את⟩ him",
+      "marks": "the one slandering",
+      "sense": null
     },
     {
       "surface": "אצמית",
       "gloss": "I will cut off",
-      "readings": [
-        "I will cut off",
-        "I will destroy"
-      ],
-      "held_by": {
-        "I will cut off": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I will destroy": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "גבה",
-      "gloss": "haughty",
-      "readings": [
-        "haughty",
-        "high"
-      ],
-      "held_by": {
-        "haughty": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "high": [
-          "en4"
-        ]
-      }
+      "gloss": "lofty of",
+      "sense": "S1"
     },
     {
       "surface": "עינים",
-      "gloss": "of eyes"
+      "gloss": "eyes",
+      "sense": "S1"
     },
     {
       "surface": "ורחב",
-      "gloss": "and broad"
+      "gloss": "and broad of",
+      "sense": "S1"
     },
     {
       "surface": "לבב",
-      "gloss": "of heart"
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
       "surface": "אתו",
-      "gloss": "⟨את⟩ him"
+      "gloss": "⟨את⟩ him",
+      "marks": "the lofty of eyes and broad of heart",
+      "sense": null
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "אוכל",
       "gloss": "I can",
-      "readings": [
-        "I can",
-        "I endure"
-      ],
-      "held_by": {
-        "I can": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I endure": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:33:10.267593616Z",
+  "model": "glm-5.3"
 }

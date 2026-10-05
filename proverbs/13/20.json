@@ -1,65 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "Walking ⟨את⟩ the wise, one becomes wise, but a companion of fools will be broken.",
+  "ref": "proverbs 13:20",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "and be wise",
+      "rationale": "Ketiv וחכם is an imperative; qere יֶחְכַּם reads 'he becomes wise'; ketiv is rendered."
+    },
+    {
+      "kind": "crux",
+      "subject": "וְרֹעֶה",
+      "rationale": "Participle of רָעָה — 'the one who shepherds\/companions fools'; the association sense 'companion' is kept over 'shepherd'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "וְרֹעֶה \/ יֵרֽוֹעַ",
+      "rationale": "Root play: רעה (companion) against רוע (be broken) — the companion of fools is broken, lost in English."
+    },
+    {
+      "kind": "elision",
+      "subject": "הלוך",
+      "rationale": "Infinitive absolute הָלוֹךְ used adverbially ('he who walks'); rendered 'walking' to keep the form."
+    }
+  ],
+  "translation": "Walking with ⟨את⟩ the wise, and be wise; but the companion of fools will be broken.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "87fd61d7430c2bdeb7c26eeafffd64e266f96ec5d0507f7770f8d9ef5938a3d9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/13\/17-20.1791193846182.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
       "surface": "הלוך",
-      "gloss": "Walking"
+      "gloss": "walking",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "with ⟨את⟩",
+      "marks": "the wise",
+      "sense": null
     },
     {
-      "surface": "חכמים",
-      "gloss": "the wise"
+      "surface": "חֲכָמִ֣ים",
+      "gloss": "the wise",
+      "sense": "S1"
     },
     {
       "surface": "וחכם",
-      "gloss": "and one becomes wise"
-    },
-    {
-      "surface": "ורעה",
-      "gloss": "a companion of",
+      "gloss": "and be wise",
       "readings": [
-        "a companion of",
-        "one who grazes with"
+        "and be wise",
+        "and he becomes wise"
       ],
-      "held_by": {
-        "a companion of": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "one who grazes with": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כסילים",
-      "gloss": "fools"
+      "surface": "וְרֹעֶ֖ה",
+      "gloss": "but the companion",
+      "sense": "S1"
     },
     {
-      "surface": "ירוע",
+      "surface": "כְּסִילִ֣ים",
+      "gloss": "of fools",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵרֽוֹעַ",
       "gloss": "will be broken",
-      "readings": [
-        "will be broken",
-        "suffers harm"
-      ],
-      "held_by": {
-        "will be broken": [
-          "v2",
-          "en4"
-        ],
-        "suffers harm": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:46.183809605Z",
+  "model": "glm-5.3"
 }

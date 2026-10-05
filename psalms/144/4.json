@@ -1,48 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Man is like a breath; his days are like a passing shadow.",
-  "tokens": [
+  "ref": "psalms 144:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 144,
+  "notes": [
     {
-      "surface": "אדם",
-      "gloss": "Man"
+      "kind": "crux",
+      "subject": "להבל דמה",
+      "rationale": "'man is like a breath' (דמה 'resemble') vs 'man is likened to vanity' — same sense; some parse דמה II 'cease, be destroyed' giving 'man comes to nothing'"
     },
     {
-      "surface": "להבל",
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "copula supplied for the comparison clause, absent in Hebrew"
+    }
+  ],
+  "translation": "Man is like a breath; his days ⟨are⟩ as a passing shadow.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "dc4646eaf4cbfad909acc7184a0ea28dab038538642fc5adbc6e5ef893f146ac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/144\/1-4.1791193613047.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אָ֭דָם",
+      "gloss": "Man",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַהֶ֣בֶל",
       "gloss": "like a breath",
       "readings": [
         "like a breath",
-        "like to vanity"
+        "to vanity"
       ],
-      "held_by": {
-        "like a breath": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "like to vanity": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "דמה",
-      "gloss": "is like"
+      "surface": "דָּמָ֑ה",
+      "gloss": "is like",
+      "sense": "S1"
     },
     {
-      "surface": "ימיו",
-      "gloss": "his days"
+      "surface": "יָמָ֗יו",
+      "gloss": "his days",
+      "sense": "S1"
     },
     {
-      "surface": "כצל",
-      "gloss": "like a shadow"
+      "surface": "כְּצֵ֣ל",
+      "gloss": "as a shadow",
+      "sense": "S1"
     },
     {
-      "surface": "עובר",
-      "gloss": "passing"
+      "surface": "עוֹבֵֽר",
+      "gloss": "passing",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:53.048240854Z",
+  "model": "glm-5.3"
 }

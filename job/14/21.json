@@ -1,70 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "His sons come to honor, and he does not know ⟨it⟩; and they are brought low, but he does not perceive ⟨it⟩ of them.",
+  "ref": "job 14:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "English needs the object of 'knows' and 'understands'; Hebrew leaves both verbs absolute"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "יכבדו \/ ויצערו",
+      "rationale": "heavy\/honor set against small\/insignificant — an antithesis of weight the English 'honored \/ brought low' partly carries"
+    },
+    {
+      "kind": "alternative",
+      "subject": "למו",
+      "rationale": "archaic particle 'for himself'; some read it as emphatic 'at all', or as a plural suffix 'for them' pointing back to the sons"
+    }
+  ],
+  "translation": "His sons are honored and he knows ⟨it⟩ not, and they are brought low and he understands ⟨it⟩ not for himself.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "04f4f6e2acae0e61eb8bdc9df3cd6bdcc266ea264cca5f531fc9d5a260100c47",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/14\/21-22.1791194278152.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "יכבדו",
-      "gloss": "come to honor",
+      "surface": "יִכְבְּד֣וּ",
+      "gloss": "are honored",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּנָיו",
+      "gloss": "his sons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵדָ֑ע",
+      "gloss": "he knows",
       "readings": [
-        "come to honor",
-        "become heavy"
+        "he knows",
+        "he recognizes"
       ],
-      "held_by": {
-        "come to honor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "become heavy": [
-          "en4"
-        ]
-      }
+      "sense": null
     },
     {
-      "surface": "בניו",
-      "gloss": "his sons"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and he does not"
-    },
-    {
-      "surface": "ידע",
-      "gloss": "know"
-    },
-    {
-      "surface": "ויצערו",
+      "surface": "וְיִצְעֲר֗וּ",
       "gloss": "and they are brought low",
       "readings": [
         "and they are brought low",
-        "and they become few"
+        "and they are made small"
       ],
-      "held_by": {
-        "and they are brought low": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and they become few": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ולא",
-      "gloss": "but he does not"
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "יבין",
-      "gloss": "perceive"
+      "surface": "יָבִ֥ין",
+      "gloss": "he understands",
+      "sense": "S1"
     },
     {
-      "surface": "למו",
-      "gloss": "of them"
+      "surface": "לָֽמוֹ",
+      "gloss": "for himself",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:58.152560187Z",
+  "model": "glm-5.3"
 }

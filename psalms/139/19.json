@@ -1,40 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "If you would slay the wicked, O Eloah — and men of blood, turn aside from me!",
+  "ref": "psalms 139:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אם תקטל",
+      "rationale": "'If only you would kill' (wish) vs 'Will you not kill?' (rhetorical question) vs conditional 'if you kill'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "bloods",
+      "rationale": "Hebrew plural דמים (bloodshed, plural of intensity) kept literal; English idiom would say 'bloodthirsty men'."
+    },
+    {
+      "kind": "you",
+      "subject": "to Eloah and to the wicked",
+      "rationale": "Sudden shift of addressee: plea to Eloah, then imperative to the wicked men themselves."
+    }
+  ],
+  "translation": "Oh that you would kill the wicked, Eloah — and men of bloods, turn aside from me!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0c4d8e281a2648059d69bd29556f83976854ac5470334cb7208b9ad4022a918e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/17-20.1791193595433.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "surface": "אִם",
+      "gloss": "Oh that"
     },
     {
-      "surface": "תקטל",
-      "gloss": "you would slay"
+      "surface": "תִּקְטֹ֖ל",
+      "gloss": "you would kill",
+      "sense": "S1"
     },
     {
-      "surface": "אלוה",
+      "surface": "אֱלֹ֥והַּ",
       "gloss": "Eloah"
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
+      "surface": "רָשָׁ֑ע",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "ואנשי",
+      "surface": "וְאַנְשֵׁ֥י",
       "gloss": "and men of"
     },
     {
-      "surface": "דמים",
-      "gloss": "blood"
+      "surface": "דָּ֝מִ֗ים",
+      "gloss": "bloods",
+      "sense": "S1"
     },
     {
-      "surface": "סורו",
-      "gloss": "turn aside"
+      "surface": "ס֣וּרוּ",
+      "gloss": "turn aside",
+      "sense": "S1"
     },
     {
-      "surface": "מני",
+      "surface": "מֶֽנִּי",
       "gloss": "from me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:35.434666588Z",
+  "model": "glm-5.3"
 }

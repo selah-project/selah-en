@@ -1,44 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "And the Philistines came and spread themselves out in the valley of Rephaim.",
-  "tokens": [
+  "ref": "1-chronicles 14:9",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ופלשתים",
-      "gloss": "and the Philistines"
+      "kind": "alternative",
+      "subject": "made a raid",
+      "rationale": "פשט here is a sudden armed raid for plunder; 2 Sam 5:18 parallel has וינטשׁו, 'they spread out'."
     },
     {
-      "surface": "באו",
-      "gloss": "came"
-    },
-    {
-      "surface": "ויפשטו",
-      "gloss": "and spread themselves out",
-      "readings": [
-        "and spread themselves out",
-        "and made a raid"
-      ],
-      "held_by": {
-        "and spread themselves out": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and made a raid": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בעמק",
-      "gloss": "in the valley of"
-    },
-    {
-      "surface": "רפאים",
-      "gloss": "Rephaim"
+      "kind": "wordplay",
+      "subject": "Rephaim",
+      "rationale": "Valley named for the giant clan Rephaim; the name stands untranslated as a proper name."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the Philistines came, and they made a raid in the Valley of Rephaim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7979a51762e8231fe90434a8e6f1f959e24662838ead51539b31cb629452c7bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/14\/9-12.1791196269739.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּפְלִשְׁתִּ֖ים",
+      "gloss": "And the Philistines",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּ֑אוּ",
+      "gloss": "came",
+      "sense": null
+    },
+    {
+      "surface": "וַֽיִּפְשְׁט֖וּ",
+      "gloss": "and they made a raid",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵ֥מֶק",
+      "gloss": "in the valley of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְפָאִֽים",
+      "gloss": "Rephaim",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:09.740529827Z",
+  "model": "glm-5.3"
 }

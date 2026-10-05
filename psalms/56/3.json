@@ -1,74 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "My enemies swallow me all the day, for many are fighting against me from on high.",
-  "tokens": [
+  "ref": "psalms 56:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 56,
+  "notes": [
     {
-      "surface": "שאפו",
-      "gloss": "they swallow",
-      "readings": [
-        "they swallow",
-        "they pant after",
-        "they trample"
-      ],
-      "held_by": {
-        "they swallow": [
-          "en4"
-        ],
-        "they pant after": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "⟨after me⟩",
+      "rationale": "Object of שאפו implied from suffix in v.2; bracketed as supplied."
     },
     {
-      "surface": "שוררי",
-      "gloss": "my enemies"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "היום",
-      "gloss": "the day"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "רבים",
-      "gloss": "many"
-    },
-    {
-      "surface": "לחמים",
-      "gloss": "fighting"
-    },
-    {
-      "surface": "לי",
-      "gloss": "against me"
-    },
-    {
-      "surface": "מרום",
-      "gloss": "from on high",
-      "readings": [
-        "from on high",
-        "O High One"
-      ],
-      "held_by": {
-        "from on high": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "O High One": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "from on high",
+      "rationale": "מרום read as 'proudly, from a height' (foes fighting haughtily), or with some versions 'proudly exalt themselves over me'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My adversaries pant ⟨after me⟩ all day long, for many are those fighting ⟨against me⟩ from on high.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e2a9612b1e48de184f9a839693ff2db4c7cc8eda1f646728241f56190630c195",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/56\/1-4.1791192817546.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׁאֲפוּ",
+      "gloss": "they pant",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוֹרְרַי",
+      "gloss": "my adversaries",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "הַיּוֹם",
+      "gloss": "day long",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "רַבִּים",
+      "gloss": "many",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹחֲמִים",
+      "gloss": "those fighting",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "⟨against⟩ me",
+      "sense": null
+    },
+    {
+      "surface": "מָרוֹם",
+      "gloss": "from on high",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:37.547120114Z",
+  "model": "glm-5.3"
 }

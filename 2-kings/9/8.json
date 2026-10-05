@@ -1,56 +1,93 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "And the whole house of Ahab shall perish, and I will cut off from Ahab everyone who urinates against the wall, both the shut-up and the left-behind, in Israel.",
-  "tokens": [
+  "ref": "2-kings 9:8",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "ואבד",
-      "gloss": "and shall perish"
+      "kind": "idiom",
+      "subject": "one-who-urinates-against-a-wall",
+      "rationale": "מַשְׁתִּין בְּקִיר is a coarse idiom for “male person”; kept literal per rule 7 rather than smoothed to “male.”"
     },
     {
-      "surface": "כל",
-      "gloss": "the whole"
+      "kind": "crux",
+      "subject": "the confined and the set-free",
+      "rationale": "עָצוּר וְעָזוּב: traditionally rendered “bond and free” or “slave and free”; the participles picture one shut in and one left loose."
     },
     {
-      "surface": "בית",
-      "gloss": "house of"
-    },
-    {
-      "surface": "אחאב",
-      "gloss": "Ahab"
-    },
-    {
-      "surface": "והכרתי",
-      "gloss": "and I will cut off"
-    },
-    {
-      "surface": "לאחאב",
-      "gloss": "to Ahab"
-    },
-    {
-      "surface": "משתין",
-      "gloss": "urinating",
-      "readings": [
-        "urinating",
-        "him who urinates"
-      ]
-    },
-    {
-      "surface": "בקיר",
-      "gloss": "against the wall"
-    },
-    {
-      "surface": "ועצור",
-      "gloss": "and ⟨the⟩ shut-up"
-    },
-    {
-      "surface": "ועזוב",
-      "gloss": "and ⟨the⟩ left-behind"
-    },
-    {
-      "surface": "בישראל",
-      "gloss": "in Israel"
+      "kind": "wordplay",
+      "subject": "עָצוּר \/ עָזוּב",
+      "rationale": "A near-rhyming pair of passive participiles whose sound-pairing is lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and all the house of Ahab shall perish, and I will cut off from Ahab every one-who-urinates-against-a-wall, both the confined and the set-free, in Israel.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ed7b19236ec4ca76c3174115b3b34361e5e19b9a9483f362cb7624d5cb0a4bac",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/9\/5-8.1791187558994.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָבַ֖ד",
+      "gloss": "and shall perish",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all"
+    },
+    {
+      "surface": "בֵּ֣ית",
+      "gloss": "the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחְאָ֑ב",
+      "gloss": "Ahab",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִכְרַתִּ֤י",
+      "gloss": "and I will cut off",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאַחְאָב֙",
+      "gloss": "from Ahab",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׁתִּ֣ין",
+      "gloss": "one-who-urinates-against-a-wall"
+    },
+    {
+      "surface": "בְּקִ֔יר",
+      "gloss": "against a wall",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעָצ֥וּר",
+      "gloss": "the confined",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעָז֖וּב",
+      "gloss": "and the set-free",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיִשְׂרָאֵֽל",
+      "gloss": "in Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:05:58.995936556Z",
+  "model": "glm-5.3"
 }

@@ -1,67 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
+  "ref": "ezra 1:9",
+  "book": "ezra",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a copula between 'these' and 'their number'"
+    },
+    {
+      "kind": "hapax",
+      "subject": "מחלפים",
+      "rationale": "Occurs only here; identified by some as knives, by others as covered dishes"
+    },
+    {
+      "kind": "measurement",
+      "subject": "vessel inventory",
+      "rationale": "The verse is a tally of temple vessels by material and count"
+    }
+  ],
   "translation": "And these ⟨are⟩ their number: basins of gold, thirty; basins of silver, a thousand; knives, nine and twenty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8683a5d2b0559ddce61388996d535f92cf84fd6234f9a43ea9b1570696e826ca",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezra\/1\/9-11.1791195505043.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezra.edn"
+  },
   "tokens": [
     {
-      "surface": "ואלה",
-      "gloss": "And these"
+      "surface": "וְאֵ֖לֶּה",
+      "gloss": "And these",
+      "sense": "S1"
     },
     {
-      "surface": "מספרם",
-      "gloss": "their number"
+      "surface": "מִסְפָּרָם",
+      "gloss": "their number",
+      "sense": "S1"
     },
     {
-      "surface": "אגרטלי",
-      "gloss": "basins"
+      "surface": "אֲגַרְטְלֵ֨י",
+      "gloss": "basins of",
+      "sense": "S1"
     },
     {
-      "surface": "זהב",
-      "gloss": "of gold"
+      "surface": "זָהָ֜ב",
+      "gloss": "gold",
+      "sense": "S1"
     },
     {
-      "surface": "שלשים",
-      "gloss": "thirty"
+      "surface": "שְׁלֹשִׁ֗ים",
+      "gloss": "thirty",
+      "sense": "S1"
     },
     {
-      "surface": "אגרטלי",
-      "gloss": "basins"
+      "surface": "אֲגַרְטְלֵי",
+      "gloss": "basins of",
+      "sense": "S1"
     },
     {
-      "surface": "כסף",
-      "gloss": "of silver"
+      "surface": "כֶ֨סֶף֙",
+      "gloss": "silver",
+      "sense": "S1"
     },
     {
-      "surface": "אלף",
-      "gloss": "a thousand"
+      "surface": "אָ֔לֶף",
+      "gloss": "a thousand",
+      "sense": "S1"
     },
     {
-      "surface": "מחלפים",
+      "surface": "מַחֲלָפִ֖ים",
       "gloss": "knives",
       "readings": [
         "knives",
-        "replacements"
+        "covered dishes"
       ],
-      "held_by": {
-        "knives": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "replacements": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "תשעה",
-      "gloss": "nine"
+      "surface": "תִּשְׁעָ֥ה",
+      "gloss": "nine",
+      "sense": "S1"
     },
     {
-      "surface": "ועשרים",
+      "surface": "וְעֶשְׂרִֽים",
       "gloss": "and twenty"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:18:25.043960726Z",
+  "model": "glm-5.3"
 }

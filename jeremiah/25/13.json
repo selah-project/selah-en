@@ -1,26 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And I will bring upon that land ⟨את⟩ all my words which I have spoken against it, ⟨את⟩ all that is written in this book, which Jeremiah prophesied against all the nations.",
+  "ref": "jeremiah 25:13",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "והבאיתי",
+      "rationale": "Ketiv והבאיתי vs qere והבאתי, both 'and I will bring'; the aleph is the ground."
+    },
+    {
+      "kind": "elision",
+      "subject": "that is written",
+      "rationale": "Hebrew participle הכתוב carries no relative; English supplies 'that is'."
+    }
+  ],
+  "translation": "And I will bring upon that land ⟨את⟩ all my words which I spoke against it — ⟨את⟩ all that is written in this book, which Jeremiah prophesied against all the nations.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "947a2e2524a67c7734d3f856254b9e15f7fb47f05a4ccf34f22dabe6f067ff7e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/25\/13-16.1791199340262.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "והבאיתי",
-      "gloss": "And I will bring"
+      "gloss": "and I will bring",
+      "sense": null
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "upon",
+      "sense": null
     },
     {
       "surface": "הארץ",
-      "gloss": "the land"
+      "gloss": "the land",
+      "sense": "S1"
     },
     {
       "surface": "ההיא",
-      "gloss": "that"
+      "gloss": "that",
+      "sense": null
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all my words"
     },
     {
       "surface": "כל",
@@ -28,7 +60,8 @@
     },
     {
       "surface": "דברי",
-      "gloss": "my words"
+      "gloss": "my words",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -36,7 +69,8 @@
     },
     {
       "surface": "דברתי",
-      "gloss": "I have spoken"
+      "gloss": "I spoke",
+      "sense": "S1"
     },
     {
       "surface": "עליה",
@@ -44,7 +78,8 @@
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "all that is written"
     },
     {
       "surface": "כל",
@@ -52,15 +87,18 @@
     },
     {
       "surface": "הכתוב",
-      "gloss": "that is written"
+      "gloss": "that is written",
+      "sense": "S1"
     },
     {
       "surface": "בספר",
-      "gloss": "in this book"
+      "gloss": "in the book",
+      "sense": "S1"
     },
     {
       "surface": "הזה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -68,11 +106,13 @@
     },
     {
       "surface": "נבא",
-      "gloss": "prophesied"
+      "gloss": "prophesied",
+      "sense": null
     },
     {
       "surface": "ירמיהו",
-      "gloss": "Jeremiah"
+      "gloss": "Jeremiah",
+      "sense": null
     },
     {
       "surface": "על",
@@ -84,9 +124,10 @@
     },
     {
       "surface": "הגוים",
-      "gloss": "the nations"
+      "gloss": "the nations",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:22:20.263174170Z",
+  "model": "glm-5.3"
 }

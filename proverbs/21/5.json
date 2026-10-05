@@ -1,52 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "The plans of the diligent ⟨are⟩ only for abundance, but all who hasten — only for want.",
-  "tokens": [
+  "ref": "proverbs 21:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "מחשבות",
-      "gloss": "the plans",
-      "readings": [
-        "the plans",
-        "thoughts"
-      ],
-      "held_by": {
-        "the plans": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "lead \/ are",
+      "rationale": "Hebrew juxtaposes nouns with לְ of result; English needs a verb or dash to carry the outcome"
     },
     {
-      "surface": "חרוץ",
-      "gloss": "of the diligent"
-    },
-    {
-      "surface": "אך",
-      "gloss": "only"
-    },
-    {
-      "surface": "למותר",
-      "gloss": "for abundance"
-    },
-    {
-      "surface": "וכל",
-      "gloss": "but all who"
-    },
-    {
-      "surface": "אץ",
-      "gloss": "hasten"
-    },
-    {
-      "surface": "אך",
-      "gloss": "only"
-    },
-    {
-      "surface": "למחסור",
-      "gloss": "for want"
+      "kind": "wordplay",
+      "subject": "אך … אך",
+      "rationale": "the balancing 'only … only' frames the two halves of the antithesis; kept in English"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Plans of the diligent — only to surplus; but all who hurry — only to lack.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba4b78dc5d2a2847d2a12740f117355b90d68608fb45921773f7645715a7e186",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/21\/5-8.1791193948839.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַחְשְׁב֣וֹת",
+      "gloss": "plans",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָ֭רוּץ",
+      "gloss": "of the diligent",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַךְ",
+      "gloss": "only",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמוֹתָ֑ר",
+      "gloss": "to surplus",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָל",
+      "gloss": "but every",
+      "sense": null
+    },
+    {
+      "surface": "אָ֝֗ץ",
+      "gloss": "one-who-hurries",
+      "sense": "S1",
+      "readings": [
+        "one-who-hurries",
+        "one-pressed-to-act"
+      ]
+    },
+    {
+      "surface": "אַךְ",
+      "gloss": "only",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמַחְסֽוֹר",
+      "gloss": "to lack",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:28.840525198Z",
+  "model": "glm-5.3"
 }

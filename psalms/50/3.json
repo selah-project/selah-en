@@ -1,77 +1,82 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Our Elohim will come and will not keep silent; fire before him will devour, and round about him it storms vehemently.",
+  "ref": "psalms 50:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 50,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וְאַל יֶחֱרַשׁ",
+      "rationale": "jussive 'let him not keep silence' vs the indicative 'he will not keep silence'; most read it as a statement of the coming judge."
+    },
+    {
+      "kind": "substitution",
+      "subject": "storms",
+      "rationale": "נשערה, niphal of שער, is a storm-wind raging — the storm is the theophany's attend."
+    }
+  ],
+  "translation": "Our Elohim comes and does not keep silence; fire before him devours, and around him it storms vehemently.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "bc1813745be57ab9a3267c06af793730dd70e00a9d8731d2779159184d7d201c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/50\/1-4.1791192761471.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יבא",
-      "gloss": "will come"
+      "surface": "יָבֹא",
+      "gloss": "comes"
     },
     {
-      "surface": "אלהינו",
-      "gloss": "Our Elohim"
+      "surface": "אֱלֹהֵינוּ",
+      "gloss": "Our Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "ואל",
-      "gloss": "and not"
+      "surface": "וְאַל",
+      "gloss": "and let not"
     },
     {
-      "surface": "יחרש",
-      "gloss": "will keep silent"
+      "surface": "יֶחֱרַשׁ",
+      "gloss": "he keep silence",
+      "sense": "S1"
     },
     {
-      "surface": "אש",
-      "gloss": "fire"
+      "surface": "אֵשׁ",
+      "gloss": "fire",
+      "sense": "S1"
     },
     {
-      "surface": "לפניו",
+      "surface": "לְפָנָיו",
       "gloss": "before him"
     },
     {
-      "surface": "תאכל",
-      "gloss": "will devour"
+      "surface": "תֹּאכֵל",
+      "gloss": "devours",
+      "sense": "S1"
     },
     {
-      "surface": "וסביביו",
-      "gloss": "and round about him"
+      "surface": "וּסְבִיבָיו",
+      "gloss": "and around him",
+      "sense": "S1"
     },
     {
-      "surface": "נשערה",
+      "surface": "נִשְׂעֲרָה",
       "gloss": "it storms",
-      "readings": [
-        "it storms",
-        "it is greatly feared"
-      ],
-      "held_by": {
-        "it storms": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "it is greatly feared": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "מאד",
+      "surface": "מְאֹד",
       "gloss": "vehemently",
-      "readings": [
-        "vehemently",
-        "greatly"
-      ],
-      "held_by": {
-        "vehemently": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "greatly": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:41.472351966Z",
+  "model": "glm-5.3"
 }

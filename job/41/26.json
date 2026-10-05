@@ -1,62 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "⟨את⟩ all that is high he sees; he ⟨is⟩ king over all sons of pride.",
+  "ref": "job 41:26",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "sons of pride",
+      "rationale": "בְּנֵי שַׁחַץ (also Job 28:8) is usually 'proud wild animals' (Job 28 context), but as Leviathan's finale 'all the proud' carries the rhetorical weight."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew has no copula between הוא and מלך."
+    }
+  ],
+  "translation": "All that is high he sees; he ⟨is⟩ king over ⟨את⟩ all the sons of pride.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9f269389dc550ef059ba296fc89880fa79ba86deed8993686113e0d8a0c7fc61",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/41\/25-26.1791194647383.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֵֽת",
+      "gloss": "⟨את⟩",
+      "marks": "all that is high",
+      "sense": null
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "גבה",
+      "surface": "גָּבֹ֥הַּ",
       "gloss": "that is high",
       "readings": [
         "that is high",
-        "high things"
+        "the proud"
       ],
-      "held_by": {
-        "that is high": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "high things": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יראה",
-      "gloss": "he sees"
+      "surface": "יִרְאֶ֑ה",
+      "gloss": "he sees",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "he"
+      "surface": "ה֝֗וּא",
+      "gloss": "he",
+      "sense": null
     },
     {
-      "surface": "מלך",
-      "gloss": "⟨is⟩ king"
+      "surface": "מֶ֣לֶךְ",
+      "gloss": "king",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "over"
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "בני",
-      "gloss": "sons"
+      "surface": "בְּנֵי",
+      "gloss": "the sons of",
+      "sense": "S1"
     },
     {
-      "surface": "שחץ",
-      "gloss": "pride"
+      "surface": "שָֽׁחַץ",
+      "gloss": "pride",
+      "readings": [
+        "pride",
+        "proud beasts"
+      ],
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:07.384408597Z",
+  "model": "glm-5.3"
 }

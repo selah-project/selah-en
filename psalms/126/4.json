@@ -1,60 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Return, YHWH, ⟨את⟩ our captivity, like streams in the Negev.",
+  "ref": "psalms 126:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 126,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "שבותנו",
+      "rationale": "ketiv שבותנו vs qere שביתנו; 'our captivity\/restored fortunes' vs 'our return' — both from שׁוב."
+    },
+    {
+      "kind": "invitation",
+      "subject": "Turn back, O YHWH",
+      "rationale": "imperative petition addressed to YHWH, the psalm's pivot from memory to plea."
+    },
+    {
+      "kind": "you",
+      "subject": "O YHWH",
+      "rationale": "direct address to YHWH."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שׁוּבָה … שבותנו",
+      "rationale": "the imperative and its object share the root שׁוב — 'turn back our turning-back'."
+    }
+  ],
+  "translation": "Turn back, O YHWH, ⟨את⟩ our captivity like the streambeds in the Negev.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "096ca27f4f63840ece830df434f062a8a332f5937eeeea847babfa297e79e7df",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/126\/1-4.1791193525595.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "שובה",
-      "gloss": "Return",
+      "surface": "שׁוּבָ֣ה",
+      "gloss": "Turn back",
       "readings": [
-        "Return",
-        "Turn back"
+        "turn back",
+        "restore"
       ],
-      "held_by": {
-        "Return": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "Turn back": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֭הוָה",
+      "gloss": "O YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "our captivity"
     },
     {
       "surface": "שבותנו",
-      "gloss": "our captivity"
-    },
-    {
-      "surface": "כאפיקים",
-      "gloss": "like streams",
+      "gloss": "our captivity",
       "readings": [
-        "like streams",
-        "like the wadis"
+        "our captivity",
+        "our restoration",
+        "our fortunes"
       ],
-      "held_by": {
-        "like streams": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "like the wadis": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בנגב",
-      "gloss": "in the Negev"
+      "surface": "כַּאֲפִיקִ֥ים",
+      "gloss": "like the streambeds",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּנֶּֽגֶב",
+      "gloss": "in the Negev",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:45:25.597245529Z",
+  "model": "glm-5.3"
 }

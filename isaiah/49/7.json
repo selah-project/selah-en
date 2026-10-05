@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Thus says YHWH, the Redeemer of Israel, his Holy One, to the despised of soul, to the abhorred of a nation, to a servant of rulers: kings shall see and arise, princes, and they shall bow down — for the sake of YHWH, who is faithful, the Holy One of Israel, and he has chosen you.",
+  "ref": "isaiah 49:7",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 49,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "לבזה",
+      "rationale": "this infinitive form of בזה occurs only here."
+    },
+    {
+      "kind": "substitution",
+      "subject": "as a nefesh",
+      "rationale": "נפש is throat\/life-force; the despised one is abhorred as a living being, not a 'soul' in the Greek sense."
+    },
+    {
+      "kind": "you",
+      "subject": "the servant",
+      "rationale": "the address ends on 'he has chosen you' — second person suffix."
+    }
+  ],
+  "translation": "Thus says YHWH, the Redeemer of Israel, his Holy One, to the one despised, to the one abhorred as a nefesh by a nation, to the servant of rulers: kings shall see and arise, princes, and they shall bow down, for the sake of YHWH, who is faithful, the Holy One of Israel, and he has chosen you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c4364044aa842bb621a17958b3b1631a87afd2ae271837d8dc8e9d0f4d87b604",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/49\/5-8.1791188762971.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "כה",
@@ -8,85 +40,68 @@
     },
     {
       "surface": "אמר",
-      "gloss": "says"
+      "gloss": "says",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "גאל",
-      "gloss": "the Redeemer",
-      "readings": [
-        "the Redeemer",
-        "the kinsman-redeemer"
-      ],
-      "held_by": {
-        "the Redeemer": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the kinsman-redeemer": [
-          "en4"
-        ]
-      }
+      "gloss": "the Redeemer of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "of Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "קדושו",
-      "gloss": "his Holy One"
+      "gloss": "his Holy One",
+      "sense": "S1"
     },
     {
       "surface": "לבזה",
-      "gloss": "to the despised of"
+      "gloss": "to the one despised",
+      "sense": "S1"
     },
     {
       "surface": "נפש",
-      "gloss": "soul",
-      "readings": [
-        "soul",
-        "nefesh"
-      ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "nefesh": [
-          "en4"
-        ]
-      }
+      "gloss": "as a nefesh",
+      "sense": "S1"
     },
     {
       "surface": "למתעב",
-      "gloss": "to the abhorred of"
+      "gloss": "to the one abhorred",
+      "sense": "S1"
     },
     {
       "surface": "גוי",
-      "gloss": "a nation"
+      "gloss": "by a nation",
+      "sense": "S1"
     },
     {
       "surface": "לעבד",
-      "gloss": "to a servant"
+      "gloss": "to the servant of",
+      "sense": "S1"
     },
     {
       "surface": "משלים",
-      "gloss": "of rulers"
+      "gloss": "rulers",
+      "sense": "S1"
     },
     {
       "surface": "מלכים",
-      "gloss": "kings"
+      "gloss": "kings",
+      "sense": "S1"
     },
     {
       "surface": "יראו",
-      "gloss": "shall see"
+      "gloss": "shall see",
+      "sense": "S1"
     },
     {
       "surface": "וקמו",
@@ -94,11 +109,13 @@
     },
     {
       "surface": "שרים",
-      "gloss": "princes"
+      "gloss": "princes",
+      "sense": "S1"
     },
     {
       "surface": "וישתחוו",
-      "gloss": "and they shall bow down"
+      "gloss": "and they shall bow down",
+      "sense": "S1"
     },
     {
       "surface": "למען",
@@ -106,7 +123,8 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -115,35 +133,24 @@
     {
       "surface": "נאמן",
       "gloss": "is faithful",
-      "readings": [
-        "is faithful",
-        "is firm"
-      ],
-      "held_by": {
-        "is faithful": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is firm": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "קדש",
-      "gloss": "the Holy One of"
+      "gloss": "the Holy One of",
+      "sense": "S1"
     },
     {
       "surface": "ישראל",
-      "gloss": "Israel"
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
       "surface": "ויבחרך",
-      "gloss": "and he has chosen you"
+      "gloss": "and he has chosen you",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:26:02.973124024Z",
+  "model": "glm-5.3"
 }

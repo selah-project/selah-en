@@ -1,102 +1,136 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And ⟨את⟩ that which he sinned, from the holy thing, he shall repay, and ⟨את⟩ its fifth he shall add to it, and he shall give ⟨את⟩ it to the priest; and the priest shall make atonement for him with the ram of the guilt offering, and it shall be forgiven to him.",
-  "tokens": [
+  "ref": "leviticus 5:16",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "kind": "measurement",
+      "subject": "its fifth",
+      "rationale": "Restitution of 120% — the principal plus a fifth — is a quantified penalty."
     },
     {
-      "surface": "אשר",
+      "kind": "substitution",
+      "subject": "cover over",
+      "rationale": "כפר is literally 'cover'; 'atone' is a tradition-mediated rendering, kept as reading 2."
+    },
+    {
+      "kind": "crux",
+      "subject": "אשם",
+      "rationale": "Guilt \/ guilt-offering \/ reparation-offering — one Hebrew word for both the fault and the sacrifice that compensates it."
+    }
+  ],
+  "translation": "And ⟨את⟩ that which he sinned from the holy thing he shall repay, and ⟨את⟩ its fifth he shall add upon it, and give ⟨את⟩ it to the priest; and the priest shall cover over him with the ram of the guilt-offering, and it shall be forgiven him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "38dcb3219394deb35f0b818ebaa98f9090ab465388b682dba482b8d7836f488a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/5\/16-16.1791197664009.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאֵ֣ת",
+      "gloss": "and ⟨את⟩",
+      "marks": "that which he sinned from the holy thing"
+    },
+    {
+      "surface": "אֲשֶׁר֩",
       "gloss": "that which"
     },
     {
-      "surface": "חטא",
-      "gloss": "he sinned"
+      "surface": "חָטָ֨א",
+      "gloss": "he sinned",
+      "sense": "S1"
     },
     {
-      "surface": "מן",
+      "surface": "מִן",
       "gloss": "from"
     },
     {
-      "surface": "הקדש",
-      "gloss": "the holy thing"
+      "surface": "הַקֹּ֜דֶשׁ",
+      "gloss": "the holy thing",
+      "sense": "S1"
     },
     {
-      "surface": "ישלם",
+      "surface": "יְשַׁלֵּ֗ם",
       "gloss": "he shall repay",
-      "readings": [
-        "he shall repay",
-        "he shall restore"
-      ],
-      "held_by": {
-        "he shall repay": [
-          "v2",
-          "en4"
-        ],
-        "he shall restore": [
-          "v1",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "its fifth"
     },
     {
-      "surface": "חמישתו",
+      "surface": "חֲמִֽישִׁתוֹ֙",
       "gloss": "its fifth"
     },
     {
-      "surface": "יוסף",
+      "surface": "יוֹסֵ֣ף",
       "gloss": "he shall add"
     },
     {
-      "surface": "עליו",
-      "gloss": "to it"
+      "surface": "עָלָ֔יו",
+      "gloss": "upon it"
     },
     {
-      "surface": "ונתן",
-      "gloss": "and he shall give"
+      "surface": "וְנָתַ֥ן",
+      "gloss": "and give"
     },
     {
-      "surface": "אתו",
-      "gloss": "⟨את⟩ it"
+      "surface": "אֹת֖וֹ",
+      "gloss": "⟨את⟩ it",
+      "marks": "to the priest"
     },
     {
-      "surface": "לכהן",
-      "gloss": "to the priest"
+      "surface": "לַכֹּהֵ֑ן",
+      "gloss": "to the priest",
+      "sense": "S1"
     },
     {
-      "surface": "והכהן",
-      "gloss": "and the priest"
+      "surface": "וְהַכֹּהֵ֗ן",
+      "gloss": "and the priest",
+      "sense": "S1"
     },
     {
-      "surface": "יכפר",
-      "gloss": "shall make atonement"
+      "surface": "יְכַפֵּ֥ר",
+      "gloss": "shall cover over",
+      "readings": [
+        "shall cover over",
+        "shall atone for"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
-      "gloss": "for him"
+      "surface": "עָלָ֛יו",
+      "gloss": "him"
     },
     {
-      "surface": "באיל",
-      "gloss": "with the ram of"
+      "surface": "בְּאֵ֥יל",
+      "gloss": "with the ram of",
+      "sense": "S1"
     },
     {
-      "surface": "האשם",
-      "gloss": "the guilt offering"
+      "surface": "הָאָשָׁ֖ם",
+      "gloss": "the guilt-offering",
+      "sense": "S1"
     },
     {
-      "surface": "ונסלח",
-      "gloss": "and it shall be forgiven"
+      "surface": "וְנִסְלַ֥ח",
+      "gloss": "and it shall be forgiven",
+      "sense": "S1"
     },
     {
-      "surface": "לו",
-      "gloss": "to him"
+      "surface": "לֽוֹ",
+      "gloss": "him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:54:24.009772901Z",
+  "model": "glm-5.3"
 }

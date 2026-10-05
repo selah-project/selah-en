@@ -1,76 +1,139 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "We remember ⟨את⟩ the fish that we ate in Egypt for nothing, ⟨את⟩ the cucumbers, and ⟨את⟩ the melons, and ⟨את⟩ the leeks, and ⟨את⟩ the onions, and ⟨את⟩ the garlic.",
-  "tokens": [
+  "ref": "numbers 11:5",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "זכרנו",
-      "gloss": "We remember"
+      "kind": "hapax",
+      "subject": "האבטחים",
+      "rationale": "אבטיח, melons, occurs only here in the Tanakh."
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "you",
+      "subject": "to the complaint of Israel",
+      "rationale": "Direct speech of the rabble and Israel, remembering Egypt's foods."
     },
     {
-      "surface": "הדגה",
-      "gloss": "the fish"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "that"
-    },
-    {
-      "surface": "נאכל",
-      "gloss": "we ate"
-    },
-    {
-      "surface": "במצרים",
-      "gloss": "in Egypt"
-    },
-    {
-      "surface": "חנם",
-      "gloss": "for nothing"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הקשאים",
-      "gloss": "the cucumbers"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "האבטחים",
-      "gloss": "the melons"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "החציר",
-      "gloss": "the leeks"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "הבצלים",
-      "gloss": "the onions"
-    },
-    {
-      "surface": "ואת",
-      "gloss": "and ⟨את⟩"
-    },
-    {
-      "surface": "השומים",
-      "gloss": "the garlic"
+      "kind": "measurement",
+      "subject": "five foods enumerated",
+      "rationale": "A listed catalogue of Egyptian vegetables, each with its own את marker."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "We remember ⟨את⟩ the fish that we ate in Egypt without cost — ⟨את⟩ the cucumbers, and ⟨את⟩ the melons, and ⟨את⟩ the leeks, and ⟨את⟩ the onions, and ⟨את⟩ the garlic.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8c39beaedd65e4dbc5235afbab06edf208217a9780307fed1ace21ca0e248632",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/11\/5-8.1791183006346.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זָכַ֨רְנוּ֙",
+      "gloss": "We remember",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the fish",
+      "sense": null
+    },
+    {
+      "surface": "הַדָּגָ֔ה",
+      "gloss": "the fish",
+      "sense": "S1",
+      "readings": [
+        "the fish",
+        "the fish-eating"
+      ]
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "נֹאכַ֥ל",
+      "gloss": "we ate",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמִצְרַ֖יִם",
+      "gloss": "in Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִנָּ֑ם",
+      "gloss": "without cost",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵ֣ת",
+      "gloss": "⟨את⟩",
+      "marks": "the cucumbers",
+      "sense": null
+    },
+    {
+      "surface": "הַקִּשֻּׁאִ֗ים",
+      "gloss": "the cucumbers",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵת֙",
+      "gloss": "and ⟨את⟩",
+      "marks": "the melons",
+      "sense": null
+    },
+    {
+      "surface": "הָֽאֲבַטִּחִ֔ים",
+      "gloss": "the melons",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the leeks",
+      "sense": null
+    },
+    {
+      "surface": "הֶחָצִ֥יר",
+      "gloss": "the leeks",
+      "sense": "S1",
+      "readings": [
+        "the leeks",
+        "the greens"
+      ]
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the onions",
+      "sense": null
+    },
+    {
+      "surface": "הַבְּצָלִ֖ים",
+      "gloss": "the onions",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶת",
+      "gloss": "and ⟨את⟩",
+      "marks": "the garlic",
+      "sense": null
+    },
+    {
+      "surface": "הַשּׁוּמִֽים",
+      "gloss": "the garlic",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:50:06.352635773Z",
+  "model": "glm-5.3"
 }

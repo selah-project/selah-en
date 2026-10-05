@@ -1,65 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "I cry out to you, and you do not answer me; I stand, and you gaze at me.",
-  "tokens": [
+  "ref": "job 30:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
     {
-      "surface": "אשוע",
-      "gloss": "I cry out"
+      "kind": "you",
+      "subject": "to God",
+      "rationale": "Job addresses El Shaddai directly — his accusation turned to a second-person appeal."
     },
     {
-      "surface": "אליך",
+      "kind": "crux",
+      "subject": "וַתִּתְבּוֹנֵן",
+      "rationale": "Hithpolel of בין 'gaze at intently \/ consider': God stares at him but does not answer — 'look at' keeps the watching without explaining it."
+    },
+    {
+      "kind": "invitation",
+      "subject": "the cry",
+      "rationale": "Job's unanswered appeal — the verse's whole weight is a summons that receives silence."
+    }
+  ],
+  "translation": "I cry to you and you do not answer me; I stand, and you only look at me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a714154afd6b475cc77b9f38b7b0accc383ae767c4329f7ff58993430e8c8a1e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/30\/17-20.1791194483265.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֲשַׁוַּע",
+      "gloss": "I cry",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶיךָ",
       "gloss": "to you"
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "תענני",
-      "gloss": "you answer me"
+      "surface": "תַּעֲנֵנִי",
+      "gloss": "you answer me",
+      "sense": "S1"
     },
     {
-      "surface": "עמדתי",
-      "gloss": "I stand",
-      "readings": [
-        "I stand",
-        "I stood"
-      ],
-      "held_by": {
-        "I stand": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I stood": [
-          "en4"
-        ]
-      }
+      "surface": "עָמַדְתִּי",
+      "gloss": "I stand"
     },
     {
-      "surface": "ותתבנן",
-      "gloss": "and you gaze",
-      "readings": [
-        "and you gaze",
-        "and you consider"
-      ],
-      "held_by": {
-        "and you gaze": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and you consider": [
-          "en4"
-        ]
-      }
+      "surface": "וַתִּתְבּוֹנֵן",
+      "gloss": "and you look at",
+      "sense": "S1"
     },
     {
-      "surface": "בי",
-      "gloss": "at me"
+      "surface": "בִּי",
+      "gloss": "me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:01:23.266620838Z",
+  "model": "glm-5.3"
 }

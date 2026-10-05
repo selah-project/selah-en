@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For my nefesh is sated with troubles, and my life has reached Sheol.",
+  "ref": "psalms 88:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 88,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not soul; transliterated to keep the range."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨to⟩",
+      "rationale": "English verb requires to before Sheol; the Hebrew preposition is already there but the infinitive of reach needs it marked."
+    }
+  ],
+  "translation": "For my nefesh is sated with troubles, and my life has reached ⟨to⟩ Sheol.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "787b1e213b50c59468ce6761d603e9a15725d4cd9b7cdbb50588a1c80c3a78eb",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/88\/1-4.1791193131569.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "שבעה",
-      "gloss": "is sated"
+      "surface": "שָׂבְעָה",
+      "gloss": "is sated",
+      "sense": "S1"
     },
     {
-      "surface": "ברעות",
+      "surface": "בְּרָעוֹת",
       "gloss": "with troubles",
-      "readings": [
-        "with troubles",
-        "with evils"
-      ],
-      "held_by": {
-        "with troubles": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "with evils": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul"
+        "my throat",
+        "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "וחיי",
-      "gloss": "and my life"
+      "surface": "וְחַיַּי",
+      "gloss": "and my life",
+      "sense": "S1"
     },
     {
-      "surface": "לשאול",
-      "gloss": "to Sheol"
+      "surface": "לִשְׁאוֹל",
+      "gloss": "⟨to⟩ Sheol",
+      "sense": "S1"
     },
     {
-      "surface": "הגיעו",
-      "gloss": "has reached"
+      "surface": "הִגִּיעוּ",
+      "gloss": "has reached",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:51.570307802Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "From YHWH are the steps of a man — they are established — and his way He delights in.",
-  "tokens": [
+  "ref": "psalms 37:23",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "מיהוה",
-      "gloss": "From YHWH"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew fronts מן phrase with verb after; English requires copula-inverted order"
     },
     {
-      "surface": "מצעדי",
-      "gloss": "the steps of"
-    },
-    {
-      "surface": "גבר",
-      "gloss": "a man",
-      "readings": [
-        "a man",
-        "a valiant man"
-      ],
-      "held_by": {
-        "a man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a valiant man": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כוננו",
-      "gloss": "are established"
-    },
-    {
-      "surface": "ודרכו",
-      "gloss": "and his way"
-    },
-    {
-      "surface": "יחפץ",
-      "gloss": "He delights in"
+      "kind": "crux",
+      "subject": "ודרכו יחפץ",
+      "rationale": "subject may be YHWH (He delights in his way) or the man (he delights in His way); suffix pronoun ambiguous"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From YHWH are the steps of a man established, and His way He delights in.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "968be17db8c58fa250b768d4ba3fd4eb801cb572dc3209229bb1d7ad9a6cd915",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/21-24.1791192633931.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מֵיְהוָה",
+      "gloss": "From YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְעֲדֵי",
+      "gloss": "the steps of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גֶּבֶר",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "כּוֹנָנוּ",
+      "gloss": "⟨are⟩ established",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַרְכּוֹ",
+      "gloss": "and His way",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶחְפָּץ",
+      "gloss": "He delights in",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:33.932745252Z",
+  "model": "glm-5.3"
 }

@@ -1,70 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "For my days are consumed like smoke, and my bones are scorched like a hearth.",
+  "ref": "psalms 102:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "a hearth",
+      "rationale": "קֵד is rare (only here and Isaiah 33:14): 'hearth\/fire-pot' vs 'kindling'; rendered as the fireplace framework"
+    },
+    {
+      "kind": "alternative",
+      "subject": "are burned",
+      "rationale": "נִחָרוּ niphal of חרר, 'glow\/scorch' — 'smolder' is also possible"
+    }
+  ],
+  "translation": "For my days are finished like smoke, and my bones are burned like a hearth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "632fb421cb4652830aa815851cc44ab06b365be1eb7a895e049f889b8f133b8e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/1-4.1791193248707.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "כלו",
-      "gloss": "my days are consumed"
+      "surface": "כָּלוּ",
+      "gloss": "are finished",
+      "sense": "S1"
     },
     {
-      "surface": "בעשן",
-      "gloss": "like smoke"
+      "surface": "בְעָשָׁן",
+      "gloss": "like smoke",
+      "sense": "S1"
     },
     {
-      "surface": "ימי",
-      "gloss": "my days"
+      "surface": "יָמַי",
+      "gloss": "my days",
+      "sense": "S1"
     },
     {
-      "surface": "ועצמותי",
-      "gloss": "and my bones"
+      "surface": "וְעַצְמוֹתַי",
+      "gloss": "and my bones",
+      "sense": "S1"
     },
     {
-      "surface": "כמו",
+      "surface": "כְּמוֹ",
       "gloss": "like"
     },
     {
-      "surface": "קד",
+      "surface": "קֵד",
       "gloss": "a hearth",
-      "readings": [
-        "a hearth",
-        "a fire-pit"
-      ],
-      "held_by": {
-        "a hearth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a fire-pit": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "נחרו",
-      "gloss": "are scorched",
-      "readings": [
-        "are scorched",
-        "are burned dry"
-      ],
-      "held_by": {
-        "are scorched": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "are burned dry": [
-          "en4"
-        ]
-      }
+      "surface": "נִחָרוּ",
+      "gloss": "are burned",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:40:48.708839313Z",
+  "model": "glm-5.3"
 }

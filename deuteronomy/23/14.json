@@ -1,83 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "And a peg shall there be for you on your tool, and it shall be when you sit down outside, and you dig with it, and you return, then you shall cover ⟨את⟩ your excrement.",
-  "tokens": [
+  "ref": "deuteronomy 23:14",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 23,
+  "notes": [
     {
-      "surface": "ויתד",
-      "gloss": "And a peg"
+      "kind": "hapax",
+      "subject": "אֲזֵנֶךָ",
+      "rationale": "אָזֵן 'spade\/paddle (as having a broad end)' occurs only here in the Tanakh"
     },
     {
-      "surface": "תהיה",
-      "gloss": "shall there be"
-    },
-    {
-      "surface": "לך",
-      "gloss": "for you"
-    },
-    {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "אזנך",
-      "gloss": "your tool",
-      "readings": [
-        "your tool",
-        "your equipment",
-        "your ear"
-      ],
-      "held_by": {
-        "your tool": [
-          "v1",
-          "v3"
-        ],
-        "your equipment": [
-          "v2",
-          "en4"
-        ],
-        "your ear": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "והיה",
-      "gloss": "and it shall be"
-    },
-    {
-      "surface": "בשבתך",
-      "gloss": "when you sit down"
-    },
-    {
-      "surface": "חוץ",
-      "gloss": "outside"
-    },
-    {
-      "surface": "וחפרתה",
-      "gloss": "and you dig"
-    },
-    {
-      "surface": "בה",
-      "gloss": "with it"
-    },
-    {
-      "surface": "ושבת",
-      "gloss": "and you return"
-    },
-    {
-      "surface": "וכסית",
-      "gloss": "then you shall cover"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "צאתך",
-      "gloss": "your excrement"
+      "kind": "crux",
+      "subject": "on your tool",
+      "rationale": "עַל אֲזֵנֶךָ: 'on your gear' vs. tradition reading 'beside your weapon\/awe (זֵין)'; the hapax keeps the literal picture of a broad-ended digging paddle"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And a peg shall there be for you on your tool, and it shall be when you sit outside, you shall dig with it and turn back and cover ⟨את⟩ your excrement.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "91eaf837fb377f57329545b13eca3aef317dba9a5feb349d2c49e6f7728a93b2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/23\/13-16.1791184020874.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְיָתֵד",
+      "gloss": "and a peg",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּהְיֶה",
+      "gloss": "shall be",
+      "sense": null
+    },
+    {
+      "surface": "לְךָ",
+      "gloss": "for you",
+      "sense": null
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "אֲזֵנֶךָ",
+      "gloss": "your tool",
+      "sense": "S1",
+      "readings": [
+        "your tool",
+        "your paddle"
+      ]
+    },
+    {
+      "surface": "וְהָיָה",
+      "gloss": "and it shall be",
+      "sense": null
+    },
+    {
+      "surface": "בְּשִׁבְתְּךָ",
+      "gloss": "when you sit",
+      "sense": "S1"
+    },
+    {
+      "surface": "חוּץ",
+      "gloss": "outside",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְחָפַרְתָּה",
+      "gloss": "you shall dig",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּהּ",
+      "gloss": "with it",
+      "sense": null
+    },
+    {
+      "surface": "וְשַׁבְתָּ",
+      "gloss": "and turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִסִּיתָ",
+      "gloss": "and cover",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "sense": null,
+      "marks": "your excrement"
+    },
+    {
+      "surface": "צֵאָתֶךָ",
+      "gloss": "your excrement",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:07:00.875197425Z",
+  "model": "glm-5.3"
 }

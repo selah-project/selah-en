@@ -1,43 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "And ⟨the⟩ Philistines came and spread themselves out in ⟨the⟩ valley of Rephaim.",
+  "ref": "2-samuel 5:18",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "spread out",
+      "rationale": "וינטשו niphal 'spread\/scattered themselves'; the parallel 1 Chr 14:9 reads ויפשטו 'raided, spread out'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רפאים",
+      "rationale": "Valley of Rephaim — named for the giant people group, not the shades-of-the-dead sense of the same word."
+    }
+  ],
+  "translation": "And the Philistines came and spread out in the valley of Rephaim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "598f115df5841827143a5a8ff960bfc5cad65d95060208def2873d0e1a36b25c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/5\/17-20.1791186193849.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
   "tokens": [
     {
       "surface": "ופלשתים",
-      "gloss": "and ⟨the⟩ Philistines"
+      "gloss": "And the Philistines",
+      "sense": "S1"
     },
     {
       "surface": "באו",
-      "gloss": "came"
+      "gloss": "came",
+      "sense": null
     },
     {
       "surface": "וינטשו",
-      "gloss": "and spread themselves out",
-      "readings": [
-        "and spread themselves out",
-        "and were poured out"
-      ],
-      "held_by": {
-        "and spread themselves out": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and were poured out": [
-          "en4"
-        ]
-      }
+      "gloss": "and spread out",
+      "sense": "S1"
     },
     {
       "surface": "בעמק",
-      "gloss": "in ⟨the⟩ valley of"
+      "gloss": "in the valley",
+      "sense": "S1"
     },
     {
       "surface": "רפאים",
-      "gloss": "Rephaim"
+      "gloss": "of Rephaim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:43:13.850666658Z",
+  "model": "glm-5.3"
 }

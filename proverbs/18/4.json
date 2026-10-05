@@ -1,58 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "The words of a man's mouth are deep waters, a flowing wadi, a fountain of wisdom.",
-  "tokens": [
+  "ref": "proverbs 18:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "מים",
-      "gloss": "waters"
+      "kind": "wordplay",
+      "subject": "word order",
+      "rationale": "The predicate 'deep waters' stands first, before its subject 'the words of a man's mouth' — fronting preserved by the comma, though English reorders."
     },
     {
-      "surface": "עמקים",
-      "gloss": "deep"
-    },
-    {
-      "surface": "דברי",
-      "gloss": "the words of"
-    },
-    {
-      "surface": "פי",
-      "gloss": "of a mouth"
-    },
-    {
-      "surface": "איש",
-      "gloss": "of a man"
-    },
-    {
-      "surface": "נחל",
-      "gloss": "a wadi"
-    },
-    {
-      "surface": "נבע",
-      "gloss": "bubbling forth",
-      "readings": [
-        "bubbling forth",
-        "flowing"
-      ],
-      "held_by": {
-        "bubbling forth": [
-          "en4"
-        ],
-        "flowing": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "מקור",
-      "gloss": "a fountain"
-    },
-    {
-      "surface": "חכמה",
-      "gloss": "of wisdom"
+      "kind": "crux",
+      "subject": "נבע",
+      "rationale": "Rare participle, exact sense unsure — 'gushing\/flowing forth'; rendered 'flowing'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The words of a man's mouth are deep waters, a flowing stream, a spring of wisdom.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0dbf38bf1b3a149038380c61ba1680302a2ad5cab1140fb329b341a89744ece7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/18\/1-4.1791193910989.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַיִם",
+      "gloss": "waters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲמֻקִּים",
+      "gloss": "deep",
+      "sense": "S1"
+    },
+    {
+      "surface": "דִּבְרֵי",
+      "gloss": "the words of",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּי",
+      "gloss": "the mouth of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "נַחַל",
+      "gloss": "a stream",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֹבֵעַ",
+      "gloss": "flowing",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָקוֹר",
+      "gloss": "a spring of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:51:50.990216758Z",
+  "model": "glm-5.3"
 }

@@ -1,58 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And she is cast off from peace, my nefesh; I have forgotten good.",
+  "ref": "lamentations 3:17",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "shalom",
+      "rationale": "שלום literally completeness — wholeness, welfare, ease; 'peace' alone narrows it"
+    },
+    {
+      "kind": "alternative",
+      "subject": "נפשי",
+      "rationale": "could read 'my throat' or 'my very self'; the life-principle is in view"
+    }
+  ],
+  "translation": "And my nefesh is rejected from shalom; I have forgotten goodness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89cb629f5f1406131422e691b3381a142533ea2e1d1da664697edbb9c87aa20a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/17-20.1791194696432.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "ותזנח",
-      "gloss": "and she is cast off"
+      "surface": "וַתִּזְנַח",
+      "gloss": "and is rejected",
+      "sense": "S1"
     },
     {
-      "surface": "משלום",
-      "gloss": "from peace"
+      "surface": "מִשָּׁלוֹם",
+      "gloss": "from shalom",
+      "readings": [
+        "from shalom",
+        "from peace"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁי",
       "gloss": "my nefesh",
       "readings": [
         "my nefesh",
-        "my soul",
+        "my throat",
         "my life"
       ],
-      "held_by": {
-        "my nefesh": [
-          "en4"
-        ],
-        "my soul": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "נשיתי",
-      "gloss": "I have forgotten"
+      "surface": "נָשִׁיתִי",
+      "gloss": "I have forgotten",
+      "sense": "S1"
     },
     {
-      "surface": "טובה",
-      "gloss": "good",
-      "readings": [
-        "good",
-        "goodness"
-      ],
-      "held_by": {
-        "good": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "goodness": [
-          "en4"
-        ]
-      }
+      "surface": "טוֹבָה",
+      "gloss": "goodness",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:56.433019616Z",
+  "model": "glm-5.3"
 }

@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And they turned back and tested El, and the Holy One of Israel they grieved.",
+  "ref": "psalms 78:41",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 78,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "התוו",
+      "rationale": "Occurs only here in the Tanakh; hiphil of תוה, 'they caused grief', rendered 'they provoked'."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "verse-final verb",
+      "rationale": "Hebrew fronts both objects (El; the Holy One of Israel) and defers the verb התוו to the verse's last word; English keeps the fronting."
+    }
+  ],
+  "translation": "And they turned again and tested El, and the Holy One of Israel they provoked.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e0e1edc873adbf5ad7ced1ceaca37a8a0b9b64b819e1aff65f1b536647a6b884",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/78\/41-44.1791193055924.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "וישובו",
-      "gloss": "and they turned back"
+      "surface": "וַיָּשׁ֣וּבוּ",
+      "gloss": "And they turned again",
+      "sense": "S1"
     },
     {
-      "surface": "וינסו",
-      "gloss": "and tested"
+      "surface": "וַיְנַסּ֣וּ",
+      "gloss": "and tested",
+      "sense": "S1"
     },
     {
-      "surface": "אל",
+      "surface": "אֵ֑ל",
       "gloss": "El"
     },
     {
-      "surface": "וקדוש",
-      "gloss": "and the Holy One of"
+      "surface": "וּקְדֹ֖ושׁ",
+      "gloss": "and the Holy One of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵ֣ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "התוו",
-      "gloss": "they grieved",
-      "readings": [
-        "they grieved",
-        "they limited"
-      ],
-      "held_by": {
-        "they grieved": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they limited": [
-          "en4"
-        ]
-      }
+      "surface": "הִתְוּ",
+      "gloss": "they provoked",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:37:35.925318791Z",
+  "model": "glm-5.3"
 }

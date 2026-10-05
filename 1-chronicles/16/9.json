@@ -1,50 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Sing to him, make music to him, speak of all his wonders.",
-  "tokens": [
+  "ref": "1-chronicles 16:9",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "שירו",
-      "gloss": "Sing"
+      "kind": "invitation",
+      "subject": "to Israel",
+      "rationale": "Chain of imperatives summoning the assembly to praise."
     },
     {
-      "surface": "לו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "זמרו",
-      "gloss": "make music"
-    },
-    {
-      "surface": "לו",
-      "gloss": "to him"
-    },
-    {
-      "surface": "שיחו",
-      "gloss": "speak of",
-      "readings": [
-        "speak of",
-        "meditate on"
-      ],
-      "held_by": {
-        "speak of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "meditate on": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "בכל",
-      "gloss": "all"
-    },
-    {
-      "surface": "נפלאתיו",
-      "gloss": "his wonders"
+      "kind": "wordplay",
+      "subject": "שירו \/ זמרו \/ שיחו",
+      "rationale": "Three near-synonymous imperative verbs in parallel, a stair of praise lost in flat English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sing to him, make music to him, speak of all his extraordinary deeds.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5061ea542ec913855297092531b526c0d97b0a4288689b30c0bdb8da985ba798",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/16\/9-12.1791196275436.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שִׁירוּ",
+      "gloss": "Sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "זַמְּרוּ",
+      "gloss": "make music",
+      "sense": "S1",
+      "readings": [
+        "make music",
+        "sing praise"
+      ]
+    },
+    {
+      "surface": "לוֹ",
+      "gloss": "to him",
+      "sense": null
+    },
+    {
+      "surface": "שִׂיחוּ",
+      "gloss": "speak",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "of all",
+      "sense": null
+    },
+    {
+      "surface": "נִפְלְאֹתָיו",
+      "gloss": "his extraordinary deeds",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:15.436740715Z",
+  "model": "glm-5.3"
 }

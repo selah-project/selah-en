@@ -1,32 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 94,
-  "translation": "I am yours — save me, for your precepts I have sought.",
-  "tokens": [
+  "ref": "psalms 119:94",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "לך",
-      "gloss": "yours"
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew lacks a copula: לך אני is literally 'to you I'; brackets mark the supplied verb."
     },
     {
-      "surface": "אני",
-      "gloss": "I"
+      "kind": "invitation",
+      "subject": "save me",
+      "rationale": "Imperative petition addressed to YHWH."
     },
     {
-      "surface": "הושיעני",
-      "gloss": "save me"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "פקודיך",
-      "gloss": "your precepts"
-    },
-    {
-      "surface": "דרשתי",
-      "gloss": "I have sought"
+      "kind": "you",
+      "subject": "save me",
+      "rationale": "Direct address to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I am yours — save me, for I have sought your precepts.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8455ddcebfa28005349b755357b1a4ca9c644015d32fb012d408bc4a83ff77d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/93-96.1791193466384.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לְֽךָ",
+      "gloss": "⟨I am⟩ yours",
+      "sense": null
+    },
+    {
+      "surface": "אֲנִי",
+      "gloss": "I",
+      "sense": null
+    },
+    {
+      "surface": "הוֹשִׁיעֵ֑נִי",
+      "gloss": "save me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֖י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "פִקּוּדֶ֣יךָ",
+      "gloss": "your precepts",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּרַֽשְׁתִּי",
+      "gloss": "I have sought",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:26.385424298Z",
+  "model": "glm-5.3"
 }

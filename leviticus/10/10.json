@@ -1,59 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And to distinguish between the holy and between the common, and between the unclean and between the clean.",
-  "tokens": [
+  "ref": "leviticus 10:10",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "ולהבדיל",
-      "gloss": "and to distinguish"
+      "kind": "wordplay",
+      "subject": "בין…ובין",
+      "rationale": "The fourfold repeated 'between…and between' frames two mirrored pairs, holy\/common and unclean\/pure, a balance English must keep by repetition."
     },
     {
-      "surface": "בין",
+      "kind": "alternative",
+      "subject": "the common",
+      "rationale": "חל is the profane — what is outside the realm of the holy — not 'secular' in a modern sense."
+    }
+  ],
+  "translation": "and to distinguish between the holy and between the common, and between the unclean and between the pure.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8b47ff99fcd01f9da316f9b2f9e4a33f7cef48b7c43fa8cf46ac03971eebf1b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/10\/9-12.1791182351766.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּֽלֲהַבְדִּ֔יל",
+      "gloss": "and to distinguish",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּ֥ין",
       "gloss": "between"
     },
     {
-      "surface": "הקדש",
-      "gloss": "the holy"
+      "surface": "הַקֹּ֖דֶשׁ",
+      "gloss": "the holy",
+      "sense": "S1"
     },
     {
-      "surface": "ובין",
+      "surface": "וּבֵ֣ין",
       "gloss": "and between"
     },
     {
-      "surface": "החל",
+      "surface": "הַחֹ֑ל",
       "gloss": "the common",
-      "readings": [
-        "the common",
-        "the profane"
-      ],
-      "held_by": {
-        "the common": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the profane": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ובין",
+      "surface": "וּבֵ֥ין",
       "gloss": "and between"
     },
     {
-      "surface": "הטמא",
-      "gloss": "the unclean"
+      "surface": "הַטָּמֵ֖א",
+      "gloss": "the unclean",
+      "sense": "S1"
     },
     {
-      "surface": "ובין",
+      "surface": "וּבֵ֥ין",
       "gloss": "and between"
     },
     {
-      "surface": "הטהור",
-      "gloss": "the clean"
+      "surface": "הַטָּהֽוֹר",
+      "gloss": "the pure"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:39:11.767984201Z",
+  "model": "glm-5.3"
 }

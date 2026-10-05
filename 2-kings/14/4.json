@@ -1,58 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Only the high places were not removed; still the people were sacrificing and burning incense on the high places.",
+  "ref": "2-kings 14:4",
+  "book": "2-kings",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "הבמות…בבמות",
+      "rationale": "The verse opens and closes on 'the high places', an inclusio."
+    },
+    {
+      "kind": "crux",
+      "subject": "במות",
+      "rationale": "'High places' (cultic sites, often elevated) vs 'sanctuaries\/shrines' — the literal elevation is kept here."
+    }
+  ],
+  "translation": "Only the high places did not depart; still the people were sacrificing and making smoke on the high places.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ee95a3ece3a6e473c1c12c796e8f03e2a37016beca37ad58209895f459c2ab4d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-kings\/14\/1-4.1791187675478.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "רק",
+      "surface": "רַק",
       "gloss": "Only"
     },
     {
-      "surface": "הבמות",
-      "gloss": "the high places"
+      "surface": "הַבָּמוֹת",
+      "gloss": "the high places",
+      "sense": "S1"
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "סרו",
-      "gloss": "were removed",
-      "readings": [
-        "were removed",
-        "turned aside"
-      ],
-      "held_by": {
-        "were removed": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "turned aside": [
-          "en4"
-        ]
-      }
+      "surface": "סָרוּ",
+      "gloss": "did depart",
+      "sense": "S1"
     },
     {
-      "surface": "עוד",
+      "surface": "עוֹד",
       "gloss": "still"
     },
     {
-      "surface": "העם",
-      "gloss": "the people"
+      "surface": "הָעָם",
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
-      "surface": "מזבחים",
-      "gloss": "were sacrificing"
+      "surface": "מְזַבְּחִים",
+      "gloss": "were sacrificing",
+      "sense": "S1"
     },
     {
-      "surface": "ומקטרים",
-      "gloss": "and burning incense"
+      "surface": "וּמְקַטְּרִים",
+      "gloss": "and making smoke",
+      "sense": "S1"
     },
     {
-      "surface": "בבמות",
-      "gloss": "on the high places"
+      "surface": "בַּבָּמוֹת",
+      "gloss": "on the high places",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:07:55.479760973Z",
+  "model": "glm-5.3"
 }

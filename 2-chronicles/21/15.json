@@ -1,22 +1,52 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And you, with many sicknesses, with disease of your bowels, until your bowels come out from the sickness, day upon day.",
+  "ref": "2-chronicles 21:15",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "days upon days",
+      "rationale": "Hebrew ימים על ימים kept literally; it means a prolonged period, day after day."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חלי \/ מחלה",
+      "rationale": "Sickness-nouns from the same root recur three times in the verse; the repetition is kept."
+    }
+  ],
+  "translation": "and you, in many sicknesses, with a disease of your bowels, until your bowels come out from the sickness, days upon days.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "540d3379e560ea1904b35a2c5ed2a94658ffe1a9017b22881a59973b5b0994f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/21\/13-16.1791196830791.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ואתה",
-      "gloss": "And you"
+      "gloss": "and you"
     },
     {
       "surface": "בחליים",
-      "gloss": "with sicknesses"
+      "gloss": "in sicknesses",
+      "sense": "S1"
     },
     {
       "surface": "רבים",
-      "gloss": "many"
+      "gloss": "many",
+      "sense": "S1"
     },
     {
       "surface": "במחלה",
-      "gloss": "with disease of"
+      "gloss": "with a disease of",
+      "sense": "S1"
     },
     {
       "surface": "מעיך",
@@ -24,15 +54,17 @@
     },
     {
       "surface": "עד",
-      "gloss": "until"
+      "gloss": "until",
+      "sense": "S1"
     },
     {
       "surface": "יצאו",
-      "gloss": "come out"
+      "gloss": "they come out",
+      "sense": "S1"
     },
     {
       "surface": "מעיך",
-      "gloss": "your bowels"
+      "gloss": "from your bowels"
     },
     {
       "surface": "מן",
@@ -40,11 +72,13 @@
     },
     {
       "surface": "החלי",
-      "gloss": "the sickness"
+      "gloss": "the sickness",
+      "sense": "S1"
     },
     {
       "surface": "ימים",
-      "gloss": "day"
+      "gloss": "days",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -52,9 +86,10 @@
     },
     {
       "surface": "ימים",
-      "gloss": "day"
+      "gloss": "days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:40:30.792212015Z",
+  "model": "glm-5.3"
 }

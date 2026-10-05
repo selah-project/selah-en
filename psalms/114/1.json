@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "In the going out of Israel from Egypt, the house of Jacob from a people of strange language,",
-  "tokens": [
+  "ref": "psalms 114:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 114,
+  "notes": [
     {
-      "surface": "בצאת",
-      "gloss": "in the going out of"
+      "kind": "hapax",
+      "subject": "לֹעֵז",
+      "rationale": "This word occurs only here in the Tanakh; rendered literally as 'speaking a foreign tongue'."
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "ממצרים",
-      "gloss": "from Egypt"
-    },
-    {
-      "surface": "בית",
-      "gloss": "the house of"
-    },
-    {
-      "surface": "יעקב",
-      "gloss": "Jacob"
-    },
-    {
-      "surface": "מעם",
-      "gloss": "from a people"
-    },
-    {
-      "surface": "לעז",
-      "gloss": "of strange language",
-      "readings": [
-        "of strange language",
-        "of a foreign tongue"
-      ],
-      "held_by": {
-        "of strange language": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of a foreign tongue": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "parallel halves",
+      "rationale": "Israel\/house of Jacob and Egypt\/people of strange speech form a strict parallel pair, lost as structure in English prose."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When Israel went out from Egypt, the house of Jacob from a people of strange speech,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b64288dad1fe742294db1affb6953d85ab6cce78e208a48bf429f10719ec42a1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/114\/1-4.1791193388624.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּצֵאת",
+      "gloss": "when … went out",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמִּצְרָיִם",
+      "gloss": "from Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּית",
+      "gloss": "the house of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲקֹב",
+      "gloss": "Jacob",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעַם",
+      "gloss": "from a people",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹעֵז",
+      "gloss": "of strange speech",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:43:08.625453073Z",
+  "model": "glm-5.3"
 }

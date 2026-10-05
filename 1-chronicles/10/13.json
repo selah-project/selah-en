@@ -1,33 +1,53 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And Saul died in his trespass which he trespassed against YHWH, upon the word of YHWH which he did not keep, and also to inquire ⟨of⟩ a medium, to seek.",
+  "ref": "1-chronicles 10:13",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "spirit-of-the-dead",
+      "rationale": "אוב literally a mumble \/ waterskin from its hollow sound; here a spirit of a dead person consulted through a medium"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "במעלו \/ מעל",
+      "rationale": "noun and verb of the same root paired — 'in his unfaithfulness with which he acted unfaithfully'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שאול \/ לשאאול",
+      "rationale": "Saul inquired (שאל) of the spirit — a name-root echo, lost in English"
+    }
+  ],
+  "translation": "And Saul died in his unfaithfulness with which he acted unfaithfully against YHWH, over the word of YHWH which he did not keep, and also to inquire of the spirit-of-the-dead, to seek ⟨guidance⟩.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "573f508b4580d1bbe4df07015021c062015d3b024d332cc657995ae30a0af4d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/10\/13-14.1791196172834.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "וימת",
-      "gloss": "and died"
+      "gloss": "and died",
+      "sense": "S1"
     },
     {
       "surface": "שאול",
-      "gloss": "Saul"
+      "gloss": "Saul",
+      "sense": "S1"
     },
     {
       "surface": "במעלו",
-      "gloss": "in his trespass",
-      "readings": [
-        "in his trespass",
-        "in his unfaithfulness"
-      ],
-      "held_by": {
-        "in his trespass": [
-          "v2",
-          "v3"
-        ],
-        "in his unfaithfulness": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "in his unfaithfulness",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -35,37 +55,27 @@
     },
     {
       "surface": "מעל",
-      "gloss": "he acted treacherously",
-      "readings": [
-        "he acted treacherously",
-        "he trespassed"
-      ],
-      "held_by": {
-        "he acted treacherously": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "he trespassed": [
-          "v2"
-        ]
-      }
+      "gloss": "acted unfaithfully",
+      "sense": "S1"
     },
     {
       "surface": "ביהוה",
-      "gloss": "against YHWH"
+      "gloss": "against YHWH",
+      "sense": "S1"
     },
     {
       "surface": "על",
-      "gloss": "upon"
+      "gloss": "over"
     },
     {
       "surface": "דבר",
-      "gloss": "the word of"
+      "gloss": "the word of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -73,43 +83,35 @@
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "שמר",
-      "gloss": "he kept"
+      "gloss": "he kept",
+      "sense": "S1"
     },
     {
       "surface": "וגם",
-      "gloss": "and also"
+      "gloss": "and also",
+      "sense": "S1"
     },
     {
       "surface": "לשאול",
-      "gloss": "to inquire"
+      "gloss": "to inquire",
+      "sense": "S1"
     },
     {
       "surface": "באוב",
-      "gloss": "a medium",
-      "readings": [
-        "a medium",
-        "an ob"
-      ],
-      "held_by": {
-        "a medium": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "an ob": [
-          "en4"
-        ]
-      }
+      "gloss": "of the spirit-of-the-dead",
+      "sense": "S1"
     },
     {
       "surface": "לדרוש",
-      "gloss": "to seek"
+      "gloss": "to seek",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:29:32.835620968Z",
+  "model": "glm-5.3"
 }

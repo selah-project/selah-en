@@ -1,86 +1,111 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And it came to pass after this that David struck ⟨את⟩ the Philistines and subdued them, and took ⟨את⟩ Gath and her daughters from the hand of the Philistines.",
+  "ref": "1-chronicles 18:1",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "daughters",
+      "rationale": "בנות here means dependent towns, rendered literally as 'daughters' with a second reading"
+    },
+    {
+      "kind": "crux",
+      "subject": "Gath and her daughters",
+      "rationale": "2 Sam 8:1 parallel reads 'the bridle of the meteg' — Chronicles rewords the conquest"
+    }
+  ],
+  "translation": "And it came to pass after this, that David struck the Philistines and subdued them, and took Gath and her daughters out of the hand of the Philistines.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "264b57a01f1d5938efedbb982873d8b77f0d96b61acb302c84b784b73c5077d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/18\/1-4.1791200547380.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ויהי",
-      "gloss": "and it came to pass"
+      "surface": "וַיְהִי֙",
+      "gloss": "And it came to pass",
+      "sense": null
     },
     {
-      "surface": "אחרי",
-      "gloss": "after"
+      "surface": "אַחֲרֵי",
+      "gloss": "after",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
-      "gloss": "this"
+      "surface": "כֵ֔ן",
+      "gloss": "this",
+      "sense": null
     },
     {
-      "surface": "ויך",
-      "gloss": "and struck"
+      "surface": "וַיַּ֥ךְ",
+      "gloss": "struck",
+      "sense": null
     },
     {
-      "surface": "דויד",
-      "gloss": "David"
+      "surface": "דָּוִ֛יד",
+      "gloss": "David",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the Philistines",
+      "sense": null
     },
     {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "surface": "פְּלִשְׁתִּ֖ים",
+      "gloss": "the Philistines",
+      "sense": "S1"
     },
     {
-      "surface": "ויכניעם",
-      "gloss": "and subdued them"
+      "surface": "וַיַּכְנִיעֵ֑ם",
+      "gloss": "and subdued them",
+      "sense": "S1"
     },
     {
-      "surface": "ויקח",
-      "gloss": "and took"
+      "surface": "וַיִּקַּ֛ח",
+      "gloss": "and took",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Gath",
+      "sense": null
     },
     {
-      "surface": "גת",
+      "surface": "גַּ֥ת",
       "gloss": "Gath",
-      "readings": [
-        "Gath",
-        "Gath of the Philistines"
-      ]
+      "sense": "S1"
     },
     {
-      "surface": "ובנתיה",
+      "surface": "וּבְנֹתֶ֖יהָ",
       "gloss": "and her daughters",
       "readings": [
         "and her daughters",
-        "and her daughter-towns",
-        "and her towns"
+        "and her villages"
       ],
-      "held_by": {
-        "and her daughters": [
-          "v2",
-          "v3"
-        ],
-        "and her daughter-towns": [
-          "en4"
-        ],
-        "and her towns": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "מיד",
-      "gloss": "from the hand of"
+      "surface": "מִיַּ֥ד",
+      "gloss": "out of the hand of",
+      "sense": "S1"
     },
     {
-      "surface": "פלשתים",
-      "gloss": "the Philistines"
+      "surface": "פְּלִשְׁתִּֽים",
+      "gloss": "the Philistines",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:42:27.380826154Z",
+  "model": "glm-5.3"
 }

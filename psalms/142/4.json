@@ -1,75 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "When my spirit grows faint over me, and you — you have known my path. In the way where I walk they have hidden a snare for me.",
+  "ref": "psalms 142:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 142,
+  "notes": [
+    {
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct address shifts to the second person: 'and You — You know my path.'"
+    },
+    {
+      "kind": "addition",
+      "subject": "when",
+      "rationale": "Hebrew infinitive construct בהתעטף requires a temporal conjunction in English."
+    },
+    {
+      "kind": "substitution",
+      "subject": "grows faint",
+      "rationale": "התעטף literally 'to wrap\/shroud oneself'; here of the spirit losing all inner strength."
+    }
+  ],
+  "translation": "When my spirit grows faint over me, and You — You know my path; in the way that I walk they have hidden a trap for me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "94d366b05e74be73108cc2318a349e774a746b2ea11101fb997c3ce97825dda3",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/142\/1-4.1791193619180.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בהתעטף",
-      "gloss": "grows faint"
+      "surface": "בְּהִתְעַטֵּ֬ף",
+      "gloss": "grows faint",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
-      "gloss": "over me",
-      "readings": [
-        "over me",
-        "within me"
-      ],
-      "held_by": {
-        "over me": [
-          "en4"
-        ],
-        "within me": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "עָלַ֨י",
+      "gloss": "over",
+      "sense": null
     },
     {
-      "surface": "רוחי",
+      "surface": "רוּחִ֗י",
       "gloss": "my spirit",
       "readings": [
         "my spirit",
-        "my breath",
-        "my wind"
-      ]
+        "my breath"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "ואתה",
-      "gloss": "and you"
+      "surface": "וְאַתָּ֮",
+      "gloss": "and You",
+      "sense": null
     },
     {
-      "surface": "ידעת",
-      "gloss": "you have known"
+      "surface": "יָדַ֪עְתָּ",
+      "gloss": "You know",
+      "sense": null
     },
     {
-      "surface": "נתיבתי",
-      "gloss": "my path"
+      "surface": "נְתִיבָתִֽ֫י",
+      "gloss": "my path",
+      "sense": "S1"
     },
     {
-      "surface": "בארח",
-      "gloss": "in the way"
+      "surface": "בְּאֹֽרַח",
+      "gloss": "in the way",
+      "sense": "S1"
     },
     {
-      "surface": "זו",
-      "gloss": "where"
+      "surface": "ז֥וּ",
+      "gloss": "that",
+      "sense": null
     },
     {
-      "surface": "אהלך",
-      "gloss": "I walk"
+      "surface": "אֲהַלֵּ֑ךְ",
+      "gloss": "I walk",
+      "sense": "S1"
     },
     {
-      "surface": "טמנו",
-      "gloss": "they have hidden"
+      "surface": "טָמְנ֖וּ",
+      "gloss": "they have hidden",
+      "sense": "S1"
     },
     {
-      "surface": "פח",
-      "gloss": "a snare"
+      "surface": "פַַ֣ח",
+      "gloss": "a trap",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
-      "gloss": "for me"
+      "surface": "לִֽי",
+      "gloss": "for me",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:46:59.181239199Z",
+  "model": "glm-5.3"
 }

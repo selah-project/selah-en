@@ -1,63 +1,77 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "Fools mock at guilt, but among the upright is favor.",
+  "ref": "proverbs 14:9",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "אשם",
+      "rationale": "'guilt' vs 'guilt-offering'; fools mock the very idea of guilt, or mock the offering for it."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula before רצון."
+    },
+    {
+      "kind": "substitution",
+      "subject": "scoff at",
+      "rationale": "לוץ literally 'to make mouths at', i.e. to scoff with the mouth."
+    }
+  ],
+  "translation": "Fools scoff at guilt, but among the upright is favor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2142dfe819804dfe076a55150dbf99adf1f7e4ba32d1830a7af6171f1937add",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/14\/9-12.1791193855397.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "אולים",
-      "gloss": "fools"
+      "surface": "אֱ֭וִלִים",
+      "gloss": "Fools",
+      "sense": "S1"
     },
     {
-      "surface": "יליץ",
-      "gloss": "mocks at"
+      "surface": "יָלִ֣יץ",
+      "gloss": "scoff at",
+      "readings": [
+        "scoff at",
+        "mock"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "אשם",
+      "surface": "אָשָׁ֑ם",
       "gloss": "guilt",
       "readings": [
         "guilt",
-        "a guilt-offering"
+        "guilt-offering"
       ],
-      "held_by": {
-        "guilt": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a guilt-offering": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "ובין",
+      "surface": "וּבֵ֖ין",
       "gloss": "but among"
     },
     {
-      "surface": "ישרים",
-      "gloss": "the upright"
+      "surface": "יְשָׁרִ֣ים",
+      "gloss": "the upright",
+      "sense": "S1"
     },
     {
-      "surface": "רצון",
+      "surface": "רָצֽוֹן",
       "gloss": "favor",
-      "readings": [
-        "favor",
-        "delight"
-      ],
-      "held_by": {
-        "favor": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "delight": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:55.398381675Z",
+  "model": "glm-5.3"
 }

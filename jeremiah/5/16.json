@@ -1,43 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "Its quiver is as ⟨an⟩ open grave, all of them are mighty men.",
+  "ref": "jeremiah 5:16",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew has no verb; the copula is supplied."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אַשְׁפָּתוֹ \/ כֶּבֶר פָּתוּחַ",
+      "rationale": "the opened quiver as an open grave — death stands ready gaped wide, the arrows its devouring mouth."
+    }
+  ],
+  "translation": "Its quiver is like an open grave; all of them are mighty men.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9e013afe71cabb77a97e4ae967f4fad0cc8e1fc048c21da663e88492c4935b4e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/5\/13-16.1791189130873.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אשפתו",
-      "gloss": "its quiver",
-      "readings": [
-        "its quiver",
-        "his quiver"
-      ],
-      "held_by": {
-        "its quiver": [
-          "v2",
-          "en4"
-        ],
-        "his quiver": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "אַשְׁפָּתוֹ",
+      "gloss": "Its quiver",
+      "sense": "S1"
     },
     {
-      "surface": "כקבר",
-      "gloss": "as ⟨an⟩ open grave"
+      "surface": "כְּקֶבֶר",
+      "gloss": "like a grave",
+      "sense": "S1"
     },
     {
-      "surface": "פתוח",
-      "gloss": "open"
+      "surface": "פָּתוּחַ",
+      "gloss": "open",
+      "sense": "S1"
     },
     {
-      "surface": "כלם",
+      "surface": "כֻּלָּם",
       "gloss": "all of them"
     },
     {
-      "surface": "גבורים",
-      "gloss": "mighty men"
+      "surface": "גִּבּוֹרִים",
+      "gloss": "are mighty men",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:32:10.876777819Z",
+  "model": "glm-5.3"
 }

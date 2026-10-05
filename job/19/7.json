@@ -1,48 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Behold, I cry out: violence! and I am not answered; I cry for help, and there is no justice.",
-  "tokens": [
+  "ref": "job 19:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
+      "kind": "wordplay",
+      "subject": "צעק \/ שוע",
+      "rationale": "Two near-synonymous 'cry out' verbs in parallel; English splits the repetition into 'cry out' and 'cry for help'."
     },
     {
-      "surface": "אצעק",
-      "gloss": "I cry out"
-    },
-    {
-      "surface": "חמס",
-      "gloss": "violence"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "אענה",
-      "gloss": "I am answered"
-    },
-    {
-      "surface": "אשוע",
-      "gloss": "I cry for help",
-      "readings": [
-        "I cry for help",
-        "I cry aloud"
-      ]
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is no"
-    },
-    {
-      "surface": "משפט",
-      "gloss": "justice",
-      "readings": [
-        "justice",
-        "judgment"
-      ]
+      "kind": "alternative",
+      "subject": "“violence!”",
+      "rationale": "חמס as the content of the cry; could instead be an adverbial accusative, 'I cry out violently.'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Behold, I cry out “violence!” but I am not answered; I cry for help, and there is no justice.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2bb07a8c142737bd5952f32ac868933b3c1265a96de14f8af1d6f5f0e93e595",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/19\/5-8.1791194338309.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵ֤ן",
+      "gloss": "Behold",
+      "sense": null
+    },
+    {
+      "surface": "אֶצְעַ֣ק",
+      "gloss": "I cry out",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָמָ֡ס",
+      "gloss": "“violence!”",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "but not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵעָנֶ֑ה",
+      "gloss": "I am answered",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲ֝שַׁוַּ֗ע",
+      "gloss": "I cry for help",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֣ין",
+      "gloss": "and there is no",
+      "sense": null
+    },
+    {
+      "surface": "מִשְׁפָּֽט",
+      "gloss": "justice",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:58.310212092Z",
+  "model": "glm-5.3"
 }

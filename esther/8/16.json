@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "To the Jews there was light and gladness, and joy and honor.",
-  "tokens": [
+  "ref": "esther 8:16",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "ליהודים",
-      "gloss": "to the Jews",
-      "readings": [
-        "to the Jews",
-        "for the Jews"
-      ],
-      "held_by": {
-        "to the Jews": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for the Jews": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "light",
+      "rationale": "אורה is literal light read figuratively as prosperity and relief, reversing the darkness of the earlier decree."
     },
     {
-      "surface": "היתה",
+      "kind": "addition",
+      "subject": "there was",
+      "rationale": "Copula היתה is emphatic existence ('there came to be'), not a mere 'was'."
+    }
+  ],
+  "translation": "To the Yehudim there was light and gladness, and joy, and honor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a9c57eb2e199cdaaa1b0625f7e746479641a904d1eadd6e686883bab168c3554",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/8\/13-16.1791195107229.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַיְּהוּדִ֕ים",
+      "gloss": "To the Yehudim",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָֽיְתָ֥ה",
       "gloss": "there was"
     },
     {
-      "surface": "אורה",
-      "gloss": "light"
+      "surface": "אוֹרָ֖ה",
+      "gloss": "light",
+      "sense": "S1"
     },
     {
-      "surface": "ושמחה",
-      "gloss": "and gladness"
+      "surface": "וְשִׂמְחָ֑ה",
+      "gloss": "and gladness",
+      "sense": "S1"
     },
     {
-      "surface": "וששן",
-      "gloss": "and joy"
+      "surface": "וְשָׂשֹׂ֖ן",
+      "gloss": "and joy",
+      "sense": "S1"
     },
     {
-      "surface": "ויקר",
-      "gloss": "and honor"
+      "surface": "וִיקָֽר",
+      "gloss": "and honor",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:11:47.230853539Z",
+  "model": "glm-5.3"
 }

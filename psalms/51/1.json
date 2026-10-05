@@ -1,20 +1,45 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "For the Chief Musician. A psalm of David.",
-  "tokens": [
+  "ref": "psalms 51:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
     {
-      "surface": "למנצח",
-      "gloss": "For the Chief Musician"
-    },
-    {
-      "surface": "מזמור",
-      "gloss": "a psalm"
-    },
-    {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "kind": "substitution",
+      "subject": "chief musician",
+      "rationale": "למנצח literally 'to the one overseeing', the director of the temple worship"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For the chief musician, a psalm of David,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1579f6b71096a48a75aea5e41f78e539b6cbd2bd0291ab40cd9508cb742af3b4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/1-4.1791192758084.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לַמְנַצֵּחַ",
+      "gloss": "for the chief musician",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִזְמוֹר",
+      "gloss": "a psalm",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִד",
+      "gloss": "of David",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:38.085284097Z",
+  "model": "glm-5.3"
 }

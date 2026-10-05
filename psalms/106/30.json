@@ -1,47 +1,56 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "Then Phinehas stood and intervened, and ⟨so⟩ the plague was restrained.",
+  "ref": "psalms 106:30",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "translation": "And Phinehas stood and interposed, and the plague was held back.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "54f580e1b285bb1e078c729538c35a5f7e8b27a10bf2838e4c284a025f06b57a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/30-32.1791200009896.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ויעמד",
-      "gloss": "Then stood"
+      "surface": "וַיַּעֲמֹ֣ד",
+      "gloss": "and stood",
+      "sense": null
     },
     {
-      "surface": "פינחס",
-      "gloss": "Phinehas"
+      "surface": "פִּֽ֭ינְחָס",
+      "gloss": "Phinehas",
+      "sense": "S1"
     },
     {
-      "surface": "ויפלל",
-      "gloss": "and intervened",
+      "surface": "וַיְפַלֵּ֑ל",
+      "gloss": "and interposed",
+      "sense": "S1",
       "readings": [
-        "and intervened",
-        "and prayed",
-        "and judged"
-      ],
-      "held_by": {
-        "and intervened": [
-          "v1",
-          "v3"
-        ],
-        "and prayed": [
-          "v2",
-          "en4"
-        ],
-        "and judged": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "and interposed",
+        "and interceded"
+      ]
     },
     {
-      "surface": "ותעצר",
-      "gloss": "and was restrained"
+      "surface": "וַתֵּ֝עָצַ֗ר",
+      "gloss": "and was held back",
+      "sense": "S1"
     },
     {
-      "surface": "המגפה",
-      "gloss": "the plague"
+      "surface": "הַמַּגֵּפָֽה",
+      "gloss": "the plague",
+      "sense": "S1",
+      "readings": [
+        "the plague",
+        "the blow"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:33:29.896716938Z",
+  "model": "glm-5.3"
 }

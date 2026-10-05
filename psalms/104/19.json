@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "He made the moon for the appointed seasons; the sun knows its going in.",
-  "tokens": [
+  "ref": "psalms 104:19",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "עשה",
-      "gloss": "He made"
+      "kind": "measurement",
+      "subject": "appointed seasons",
+      "rationale": "the moon marks fixed times — the calendar of festivals"
     },
     {
-      "surface": "ירח",
-      "gloss": "the moon"
-    },
-    {
-      "surface": "למועדים",
-      "gloss": "for the appointed seasons"
-    },
-    {
-      "surface": "שמש",
-      "gloss": "the sun"
-    },
-    {
-      "surface": "ידע",
-      "gloss": "knows"
-    },
-    {
-      "surface": "מבואו",
-      "gloss": "its going in",
-      "readings": [
-        "its going in",
-        "its setting"
-      ],
-      "held_by": {
-        "its going in": [
-          "v1",
-          "en4"
-        ],
-        "its setting": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "its going-down",
+      "rationale": "מבוא can mean place of setting (the west) as well as the act of sunset"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He made the moon for the appointed seasons; the sun knows its going-down.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2abb2c008f4eeb84a129afe30a1acdf889c489b532a1aec91031a02faacac1f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/17-20.1791193282284.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָשָׂה",
+      "gloss": "He made",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָרֵחַ",
+      "gloss": "the moon",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמוֹעֲדִים",
+      "gloss": "for the appointed seasons",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֶׁמֶשׁ",
+      "gloss": "the sun",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַע",
+      "gloss": "knows",
+      "sense": null
+    },
+    {
+      "surface": "מְבוֹאוֹ",
+      "gloss": "its going-down",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:22.285576399Z",
+  "model": "glm-5.3"
 }

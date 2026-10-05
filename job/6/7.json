@@ -1,80 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "My soul refuses to touch them; they are like my sickening bread.",
+  "ref": "job 6:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "my throat",
+      "rationale": "נפש here is the appetite in the throat; 'my soul' or 'myself' would lose the physical picture"
+    },
+    {
+      "kind": "crux",
+      "subject": "כִּדְוֵי לַחְמִי",
+      "rationale": "'like the sickness of my food' (food that disgusts) vs 'like my loathing of my food' — some take דָּוִי as 'what I loathe'"
+    }
+  ],
+  "translation": "My throat refuses to touch them; they are like a sickness to my food.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "89d41b0ddd776c4aab97317e405c41f03339ca79618820bb6cf5216c1f0daa65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/6\/5-8.1791194184959.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "מאנה",
-      "gloss": "refuses"
+      "surface": "מֵאֲנָה",
+      "gloss": "refuses",
+      "sense": "S1"
     },
     {
-      "surface": "לנגוע",
-      "gloss": "to touch"
+      "surface": "לִנְגֹּעַ",
+      "gloss": "to touch",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
-      "gloss": "my soul",
+      "surface": "נַפְשִׁי",
+      "gloss": "My throat",
+      "sense": "S1",
       "readings": [
-        "my soul",
-        "my nefesh",
-        "my life"
-      ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v3"
-        ],
-        "my nefesh": [
-          "v2",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
+        "My throat",
+        "my life",
+        "myself"
+      ]
     },
     {
-      "surface": "המה",
+      "surface": "הֵמָּה",
       "gloss": "they"
     },
     {
-      "surface": "כדוי",
-      "gloss": "like my sickening",
+      "surface": "כִּדְוֵי",
+      "gloss": "like a sickness of",
       "readings": [
-        "like my sickening",
-        "like the sickness of"
-      ],
-      "held_by": {
-        "like my sickening": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "like the sickness of": [
-          "en4"
-        ]
-      }
+        "like a sickness of",
+        "like the loathing of"
+      ]
     },
     {
-      "surface": "לחמי",
-      "gloss": "my bread",
-      "readings": [
-        "my bread",
-        "my food"
-      ],
-      "held_by": {
-        "my bread": [
-          "en4"
-        ],
-        "my food": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "לַחְמִי",
+      "gloss": "my food",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:24.960072910Z",
+  "model": "glm-5.3"
 }

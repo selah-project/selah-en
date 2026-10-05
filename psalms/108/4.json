@@ -1,32 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "I will give thanks to you among ⟨the⟩ peoples, YHWH, and I will make music to you among ⟨the⟩ nations.",
-  "tokens": [
+  "ref": "psalms 108:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 108,
+  "notes": [
     {
-      "surface": "אודך",
-      "gloss": "I will give thanks to you"
+      "kind": "crux",
+      "subject": "בל",
+      "rationale": "usually a negative 'not', but here parallel to בעמים it is the Aramaic preposition 'among, in'; some read a negative, which the parallelism excludes."
     },
     {
-      "surface": "בעמים",
-      "gloss": "among ⟨the⟩ peoples"
+      "kind": "crux",
+      "subject": "YHWH",
+      "rationale": "parallel Ps 57:10 reads אדני (Adonai); Ps 108 has יהוה — a variant between twins."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ואזמרך",
-      "gloss": "and I will make music to you"
-    },
-    {
-      "surface": "בל",
-      "gloss": "among ⟨the⟩"
-    },
-    {
-      "surface": "אמים",
-      "gloss": "nations"
+      "kind": "wordplay",
+      "subject": "עמים \/ אמים",
+      "rationale": "near-synonymous pair 'am \/ le'om' in parallel cola, echo lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I will praise You among the peoples, YHWH, and I will make melody to You among the nations.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1b0d116b09dbe7650a7fededea825f8f2df335eecd2806bae47c288f528d2d08",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/108\/1-4.1791193354874.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אוֹדְךָ֖",
+      "gloss": "I will praise You",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּעַמִּ֥ים",
+      "gloss": "among the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַ֝אֲזַמֶּרְךָ֗",
+      "gloss": "and I will make melody to You",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּּל",
+      "gloss": "among",
+      "sense": null
+    },
+    {
+      "surface": "אֻמִּֽים",
+      "gloss": "the nations",
+      "readings": [
+        "the nations",
+        "the peoples"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:34.875742345Z",
+  "model": "glm-5.3"
 }

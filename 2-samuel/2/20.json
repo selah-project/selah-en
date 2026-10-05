@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "And Abner turned behind him, and said, “Are you this one, Asahel?” And he said, “I.”",
-  "tokens": [
+  "ref": "2-samuel 2:20",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
     {
-      "surface": "ויפן",
-      "gloss": "And turned",
-      "readings": [
-        "And turned",
-        "And looked"
-      ],
-      "held_by": {
-        "And turned": [
-          "en4"
-        ],
-        "And looked": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "you",
+      "subject": "הַאַתָּה זֶה עֲשָׂהאֵל",
+      "rationale": "Abner's question directly addresses Asahel, running behind him."
     },
     {
-      "surface": "אבנר",
-      "gloss": "Abner"
+      "kind": "idiom",
+      "subject": "הַאַתָּה זֶה",
+      "rationale": "Lit. 'Are you this (one), Asahel?' — Hebrew identification formula, rendered 'Is that you, Asahel?'."
     },
     {
-      "surface": "אחריו",
-      "gloss": "behind him"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "and said"
-    },
-    {
-      "surface": "האתה",
-      "gloss": "Are you"
-    },
-    {
-      "surface": "זה",
-      "gloss": "this one"
-    },
-    {
-      "surface": "עשהאל",
-      "gloss": "Asahel"
-    },
-    {
-      "surface": "ויאמר",
-      "gloss": "And he said"
-    },
-    {
-      "surface": "אנכי",
-      "gloss": "I"
+      "kind": "wordplay",
+      "subject": "אָנֹכִי",
+      "rationale": "Asahel answers with the bare emphatic pronoun 'It is I', matching the emphatic אתה+זה of the question."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And Abner looked behind him and said, “Is that you, Asahel?” And he said, “I am.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "eba1f93a140c64e5dc72d90c76c3c62bb4465c52633784112799662960790448",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/2\/17-20.1791186123317.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיִּפֶן",
+      "gloss": "and turned",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַבְנֵר",
+      "gloss": "Abner",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחֲרָיו",
+      "gloss": "behind him",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַאַתָּה",
+      "gloss": "Is it you",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶה",
+      "gloss": "this",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲשָׂהאֵל",
+      "gloss": "Asahel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיֹּאמֶר",
+      "gloss": "and said",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָנֹכִי",
+      "gloss": "“I am.”",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:42:03.319272754Z",
+  "model": "glm-5.3"
 }

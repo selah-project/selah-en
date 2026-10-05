@@ -1,72 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Rather, in the Torah of YHWH ⟨is⟩ his delight, and in His Torah he murmurs by day and by night.",
-  "tokens": [
+  "ref": "psalms 1:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "but"
+      "kind": "crux",
+      "subject": "כי אם",
+      "rationale": "After the negatives of v.1 the pair reads 'but rather' — or as simple emphasis 'indeed, only in the Torah…'."
     },
     {
-      "surface": "אם",
-      "gloss": "rather",
-      "readings": [
-        "rather",
-        "only"
-      ],
-      "held_by": {
-        "rather": [
-          "v2",
-          "v3"
-        ],
-        "only": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "יהגה",
+      "rationale": "'Murmurs\/recites\/meditates' — low muttering as thinking aloud; 'meditates' loses the sound, 'recites' loses the pondering."
     },
     {
-      "surface": "בתורת",
-      "gloss": "in the Torah of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "חפצו",
-      "gloss": "his delight"
-    },
-    {
-      "surface": "ובתורתו",
-      "gloss": "and in His Torah"
-    },
-    {
-      "surface": "יהגה",
-      "gloss": "he murmurs",
-      "readings": [
-        "he murmurs",
-        "he meditates"
-      ],
-      "held_by": {
-        "he murmurs": [
-          "v2",
-          "en4"
-        ],
-        "he meditates": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יומם",
-      "gloss": "by day"
-    },
-    {
-      "surface": "ולילה",
-      "gloss": "and by night"
+      "kind": "substitution",
+      "subject": "Torah",
+      "rationale": "תורה rendered 'Torah' as the marked instruction-collection; 'law' would narrow it."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Rather, in the Torah of YHWH is his delight, and in His Torah he murmurs day and night.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a907db44dc7bd7aef8fda0160324350c1231340a3c03546587415585ef6457f8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/1\/1-4.1791192368705.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּ֤י",
+      "gloss": "Rather",
+      "sense": null
+    },
+    {
+      "surface": "אִ֥ם",
+      "gloss": "⟨but rather⟩",
+      "sense": null
+    },
+    {
+      "surface": "בְּתוֹרַ֥ת",
+      "gloss": "in the Torah of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "חֶ֫פְצ֥וֹ",
+      "gloss": "is his delight",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּֽבְתוֹרָת֥וֹ",
+      "gloss": "and in His Torah",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶהְגֶּ֗ה",
+      "gloss": "he murmurs",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹמָ֥ם",
+      "gloss": "day",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָלָֽיְלָה",
+      "gloss": "and night",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:08.706641046Z",
+  "model": "glm-5.3"
 }

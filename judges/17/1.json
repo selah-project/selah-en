@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And there was a man of the hill-country of Ephraim, and his name ⟨was⟩ Micah.",
-  "tokens": [
+  "ref": "judges 17:1",
+  "book": "judges",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "ויהי",
-      "gloss": "And there was"
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew ויהי is emphatic 'and it came to pass', rendered as existential 'there was'"
     },
     {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "מהר",
-      "gloss": "of the hill-country"
-    },
-    {
-      "surface": "אפרים",
-      "gloss": "of Ephraim"
-    },
-    {
-      "surface": "ושמו",
-      "gloss": "and his name"
-    },
-    {
-      "surface": "מיכיהו",
-      "gloss": "Micah"
+      "kind": "elision",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula before 'his name Micah'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And there was a man from the hill country of Ephraim, and his name Micah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ef5bb460984c63183d4b02c2725dbf503f0c00902b6bdcb8bd30cbc0e2d9cc28",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/judges\/17\/1-4.1791185198077.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/judges.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַֽיְהִי",
+      "gloss": "And there was",
+      "sense": null
+    },
+    {
+      "surface": "אִ֥ישׁ",
+      "gloss": "a man",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵֽהַר",
+      "gloss": "from the hill country of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶפְרָ֖יִם",
+      "gloss": "Ephraim",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁמ֥וֹ",
+      "gloss": "and his name",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִיכָֽיְהוּ",
+      "gloss": "Micah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:26:38.078992929Z",
+  "model": "glm-5.3"
 }

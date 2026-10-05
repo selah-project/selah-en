@@ -1,92 +1,128 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Incline your ear and come to me; hear, and your nefesh shall live; and I will cut for you an everlasting covenant — the chesed of David, the faithful ones.",
+  "ref": "isaiah 55:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "cut a covenant",
+      "rationale": "כרת ברית is literally 'cut a covenant' (from passing between cut pieces); English 'make a covenant' loses the picture, so 'cut' is kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "the cheseds of David",
+      "rationale": "Either the covenant-faithfulness promised to David, or David as the source of blessings for the people; the construct permits both."
+    },
+    {
+      "kind": "invitation",
+      "subject": "to the audience",
+      "rationale": "Chain of imperatives — incline, come, hear — with the promise of life."
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨time⟩",
+      "rationale": "עולם is a temporal referent; 'everlasting' carries it, and the bracket marks the noun supplied by the adjective."
+    }
+  ],
+  "translation": "Incline your ear and come to me; hear, and your nefesh shall live, and I will cut for you an everlasting covenant — the faithful cheseds of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cb9a5d23430de7485f55f70fac2323637c4475f75dbfb864746887e44f380e38",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/55\/1-4.1791188843272.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "הטו",
-      "gloss": "Incline"
+      "gloss": "Incline",
+      "sense": "S1"
     },
     {
       "surface": "אזנכם",
-      "gloss": "your ear"
+      "gloss": "your ear",
+      "sense": "S1"
     },
     {
       "surface": "ולכו",
-      "gloss": "and come"
+      "gloss": "and come",
+      "sense": "S1",
+      "readings": [
+        "and come",
+        "and walk"
+      ]
     },
     {
       "surface": "אלי",
-      "gloss": "to me"
+      "gloss": "to me",
+      "sense": null
     },
     {
       "surface": "שמעו",
-      "gloss": "hear"
+      "gloss": "hear",
+      "sense": null
     },
     {
       "surface": "ותחי",
-      "gloss": "and shall live"
+      "gloss": "and… shall live",
+      "sense": "S1"
     },
     {
       "surface": "נפשכם",
       "gloss": "your nefesh",
+      "sense": "S1",
       "readings": [
         "your nefesh",
-        "your soul"
-      ],
-      "held_by": {
-        "your nefesh": [
-          "v2",
-          "v3"
-        ],
-        "your soul": [
-          "v1",
-          "en4"
-        ]
-      }
+        "your soul",
+        "your life"
+      ]
     },
     {
       "surface": "ואכרתה",
-      "gloss": "and I will cut"
+      "gloss": "and I will cut",
+      "sense": "S1"
     },
     {
       "surface": "לכם",
-      "gloss": "for you"
+      "gloss": "for you",
+      "sense": null
     },
     {
       "surface": "ברית",
-      "gloss": "a covenant"
+      "gloss": "a covenant of",
+      "sense": "S1"
     },
     {
       "surface": "עולם",
-      "gloss": "everlasting"
+      "gloss": "everlasting ⟨time⟩",
+      "sense": "S1"
     },
     {
       "surface": "חסדי",
-      "gloss": "the chesed",
+      "gloss": "cheseds of",
+      "sense": "S1",
       "readings": [
-        "the chesed",
-        "the steadfast love"
-      ],
-      "held_by": {
-        "the chesed": [
-          "v3",
-          "en4"
-        ],
-        "the steadfast love": [
-          "v1",
-          "v2"
-        ]
-      }
+        "cheseds of",
+        "steadfast loves of"
+      ]
     },
     {
       "surface": "דוד",
-      "gloss": "of David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "הנאמנים",
-      "gloss": "the faithful ones"
+      "gloss": "the faithful",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:27:23.274126278Z",
+  "model": "glm-5.3"
 }

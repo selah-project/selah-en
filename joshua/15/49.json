@@ -1,28 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 49,
-  "translation": "and Dannah, and Kirjath-Sannah (it ⟨is⟩ Debir).",
+  "ref": "joshua 15:49",
+  "book": "joshua",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "Dannah",
+      "rationale": "דנה occurs only here in the Tanakh."
+    },
+    {
+      "kind": "elision",
+      "subject": "היא",
+      "rationale": "Pronoun 'she\/it' in apposition to identify the town; rendered 'that is'."
+    },
+    {
+      "kind": "measurement",
+      "subject": "town list",
+      "rationale": "Verse is part of the counted list of Judah's hill-country towns."
+    }
+  ],
+  "translation": "and Dannah, and Kirjath-Sannah — that is Debir —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba29745b2694ebc7ae6550d9d88e5442fe7192c19ec3dfdc68ad6f72a755fd8b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joshua\/15\/49-52.1791184592600.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joshua.edn"
+  },
   "tokens": [
     {
       "surface": "ודנה",
-      "gloss": "and Dannah"
+      "gloss": "and Dannah",
+      "sense": "S1"
     },
     {
       "surface": "וקרית",
-      "gloss": "and Kirjath"
+      "gloss": "and Kirjath-",
+      "sense": "S1"
     },
     {
       "surface": "סנה",
-      "gloss": "Sannah"
+      "gloss": "Sannah",
+      "sense": null
     },
     {
       "surface": "היא",
-      "gloss": "it ⟨is⟩"
+      "gloss": "that is",
+      "sense": null
     },
     {
       "surface": "דבר",
-      "gloss": "Debir"
+      "gloss": "Debir",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:16:32.601225508Z",
+  "model": "glm-5.3"
 }

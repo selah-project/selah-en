@@ -1,51 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "He will have compassion on the poor and needy, and the souls of the needy he will save.",
-  "tokens": [
+  "ref": "psalms 72:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
     {
-      "surface": "יחס",
-      "gloss": "He will have compassion"
+      "kind": "substitution",
+      "subject": "lives",
+      "rationale": "נפש is literally throat, the animating life-principle; 'lives' is the nearest English seat, readings keep the picture."
     },
     {
-      "surface": "על",
-      "gloss": "on"
-    },
-    {
-      "surface": "דל",
-      "gloss": "⟨the⟩ poor"
-    },
-    {
-      "surface": "ואביון",
-      "gloss": "and needy"
-    },
-    {
-      "surface": "ונפשות",
-      "gloss": "and the souls of",
-      "readings": [
-        "and the souls of",
-        "and the lives of"
-      ],
-      "held_by": {
-        "and the souls of": [
-          "v1",
-          "en4"
-        ],
-        "and the lives of": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "אביונים",
-      "gloss": "the needy"
-    },
-    {
-      "surface": "יושיע",
-      "gloss": "he will save"
+      "kind": "you",
+      "subject": "the king",
+      "rationale": "The unstated subject of 'have compassion' and 'save' is the king of verse 1."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He will have compassion on the poor and the needy, and the lives of the needy he will save.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a87b23138647964ffc2ffca0acb2019e0f48ca02c072b3fff4f2af4ac06c68c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/13-16.1791192985179.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָ֭חֹס",
+      "gloss": "He will have compassion",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
+    },
+    {
+      "surface": "דַּ֣ל",
+      "gloss": "the weak",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶבְי֑וֹן",
+      "gloss": "and the needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנַפְשׁ֖וֹת",
+      "gloss": "and the lives",
+      "sense": "S1",
+      "readings": [
+        "and the lives",
+        "and the throats"
+      ]
+    },
+    {
+      "surface": "אֶבְיוֹנִ֣ים",
+      "gloss": "of the needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹשִֽׁיעַ",
+      "gloss": "he will save",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:25.179876279Z",
+  "model": "glm-5.3"
 }

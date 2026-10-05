@@ -1,65 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "He delivers me from my strong enemy, and from those who hate me; for they were too strong for me.",
-  "tokens": [
+  "ref": "2-samuel 22:18",
+  "book": "2-samuel",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "יצילני",
-      "gloss": "He delivers me",
-      "readings": [
-        "He delivers me",
-        "He delivered me"
-      ],
-      "held_by": {
-        "He delivers me": [
-          "v1",
-          "v3"
-        ],
-        "He delivered me": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "alternative",
+      "subject": "for",
+      "rationale": "כי may be causal ('for') or relative ('who were too strong for me')."
     },
     {
-      "surface": "מאיבי",
-      "gloss": "from my enemy"
-    },
-    {
-      "surface": "עז",
-      "gloss": "strong"
-    },
-    {
-      "surface": "משנאי",
-      "gloss": "and from those who hate me"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אמצו",
-      "gloss": "they were too strong"
-    },
-    {
-      "surface": "ממני",
-      "gloss": "for me",
-      "readings": [
-        "for me",
-        "than me"
-      ],
-      "held_by": {
-        "for me": [
-          "v1",
-          "v3"
-        ],
-        "than me": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "עז \/ אמצו",
+      "rationale": "two strength-words in one verse, the enemy's force named twice."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "He delivered me from my enemy strong, from those who hate me, for they were stronger than I.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "209ddfde02d7f8a0a8ad72a2c042ea90a72a58eb39102f44e792f8c7c684e9db",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-samuel\/22\/17-20.1791186583375.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-samuel.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַצִּילֵ֕נִי",
+      "gloss": "He delivered me",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֹיְבִ֖י",
+      "gloss": "from my enemy",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָ֑ז",
+      "gloss": "strong",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשֹּֽׂנְאַ֔י",
+      "gloss": "from those who hate me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֥י",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "אָמְצ֖וּ",
+      "gloss": "they were stronger",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמֶּֽנִּי",
+      "gloss": "than I",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T07:49:43.376768967Z",
+  "model": "glm-5.3"
 }

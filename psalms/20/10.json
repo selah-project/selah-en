@@ -1,61 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "YHWH, save ⟨the⟩ king! May ⟨he⟩ answer us in the day we call.",
-  "tokens": [
+  "ref": "psalms 20:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "crux",
+      "subject": "הושיעה המלך",
+      "rationale": "'save, O King' (vocative, addressing YHWH) vs 'save the king' (object, the anointed of v.7); the accent divider after הושיעה keeps both possible"
     },
     {
-      "surface": "הושיעה",
-      "gloss": "save!",
-      "readings": [
-        "save!",
-        "give victory!"
-      ],
-      "held_by": {
-        "save!": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "give victory!": [
-          "en4"
-        ]
-      }
+      "kind": "invitation",
+      "subject": "save",
+      "rationale": "the psalm's closing imperative is a summons to YHWH on the singers' behalf"
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
-    },
-    {
-      "surface": "יעננו",
-      "gloss": "may ⟨he⟩ answer us"
-    },
-    {
-      "surface": "ביום",
-      "gloss": "in the day"
-    },
-    {
-      "surface": "קראנו",
-      "gloss": "we call",
-      "readings": [
-        "we call",
-        "of our calling"
-      ],
-      "held_by": {
-        "we call": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of our calling": [
-          "en4"
-        ]
-      }
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "direct address to YHWH in the final petition"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH, save ⟨the king⟩! May the King answer us on the day we call.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b471fb7fa545daedb17ea6e55bca141c4780600144554278f6296719a5be1539",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/20\/9-10.1791192480289.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹשִׁיעָה",
+      "gloss": "save",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַעֲנֵנוּ",
+      "gloss": "may he answer us",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְיוֹם",
+      "gloss": "on the day of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָרְאֵנוּ",
+      "gloss": "our calling",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:00.289689389Z",
+  "model": "glm-5.3"
 }

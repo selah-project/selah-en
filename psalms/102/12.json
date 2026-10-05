@@ -1,50 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "My days are like a shadow stretched out, and I — like grass I wither.",
-  "tokens": [
+  "ref": "psalms 102:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
     {
-      "surface": "ימי",
-      "gloss": "My days"
-    },
-    {
-      "surface": "כצל",
-      "gloss": "like a shadow"
-    },
-    {
-      "surface": "נטוי",
-      "gloss": "stretched out"
-    },
-    {
-      "surface": "ואני",
-      "gloss": "and I"
-    },
-    {
-      "surface": "כעשב",
-      "gloss": "like grass"
-    },
-    {
-      "surface": "איבש",
-      "gloss": "I wither",
-      "readings": [
-        "I wither",
-        "am withered",
-        "drying up"
-      ],
-      "held_by": {
-        "I wither": [
-          "v2",
-          "v3"
-        ],
-        "am withered": [
-          "en4"
-        ],
-        "drying up": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "איבש",
+      "rationale": "יבש doubles as 'dry up' and 'be ashamed\/dismayed'; the withering grass carries both fading and disgrace."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My days are like a lengthened shadow, and I — like grass I wither.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a3e6a39537c1d17a750b3e9d66ea6d98f8cded691021221af2e35492ff83d486",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/9-12.1791193249029.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יָמַי",
+      "gloss": "My days",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּצֵל",
+      "gloss": "like a shadow",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָטוּי",
+      "gloss": "lengthened",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַאֲנִי",
+      "gloss": "and I",
+      "sense": null
+    },
+    {
+      "surface": "כָּעֵשֶׂב",
+      "gloss": "like grass",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִיבָשׁ",
+      "gloss": "I wither",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:49.030873910Z",
+  "model": "glm-5.3"
 }

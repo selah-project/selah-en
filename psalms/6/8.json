@@ -1,90 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "My eye is dim from vexation; it grows old because of all my adversaries.",
-  "tokens": [
+  "ref": "psalms 6:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "עששה",
-      "gloss": "is dim",
-      "readings": [
-        "is dim",
-        "is wasted away"
-      ],
-      "held_by": {
-        "is dim": [
-          "v2",
-          "v3"
-        ],
-        "is wasted away": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "It is",
+      "rationale": "Hebrew fronts the verb before its subject; English needs a pronoun placeholder."
     },
     {
-      "surface": "מכעס",
-      "gloss": "from vexation",
-      "readings": [
-        "from vexation",
-        "from anger"
-      ],
-      "held_by": {
-        "from vexation": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from anger": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עיני",
-      "gloss": "my eye"
-    },
-    {
-      "surface": "עתקה",
-      "gloss": "it grows old"
-    },
-    {
-      "surface": "בכל",
-      "gloss": "because of all",
-      "readings": [
-        "because of all",
-        "from all"
-      ],
-      "held_by": {
-        "because of all": [
-          "v1",
-          "en4"
-        ],
-        "from all": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "צוררי",
-      "gloss": "my adversaries",
-      "readings": [
-        "my adversaries",
-        "my besiegers"
-      ],
-      "held_by": {
-        "my adversaries": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my besiegers": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "עששה … עתקה",
+      "rationale": "Parallel weakening-verbs, both feminine singular agreeing with 'my eye' — paired decay."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "It is worn out from vexation, my eye; it has grown old because of all my adversaries.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1e003991b77a939beea42a6bf4cacb3561ecefe834a2f0b61774a1dc5b67d2fe",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/6\/5-8.1791192362633.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עָֽשְׁשָׁ֣ה",
+      "gloss": "It is worn out",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִכַּ֣עַס",
+      "gloss": "from vexation",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵינִ֑י",
+      "gloss": "my eye",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָֽ֝תְקָ֗ה",
+      "gloss": "it has grown old",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכָל",
+      "gloss": "because of all",
+      "sense": null
+    },
+    {
+      "surface": "צוֹרְרָֽי",
+      "gloss": "my adversaries",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:02.634585294Z",
+  "model": "glm-5.3"
 }

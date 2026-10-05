@@ -1,70 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "You turn man back to dust, and say, Return, sons of Adam.",
-  "tokens": [
+  "ref": "psalms 90:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 90,
+  "notes": [
     {
-      "surface": "תשב",
-      "gloss": "You turn back"
+      "kind": "wordplay",
+      "subject": "תשב \/ שובו",
+      "rationale": "Same root שׁוב twice: God ‘turns back’ humanity to dust and commands ‘return’ — the echo is deliberate and partly lost in English."
     },
     {
-      "surface": "אנוש",
-      "gloss": "man",
-      "readings": [
-        "man",
-        "mortal man"
-      ],
-      "held_by": {
-        "man": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "mortal man": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "Return, children of Adam",
+      "rationale": "Read either as a decree of death (return to the dust) or a call to repentance; the wordplay sustains both."
     },
     {
-      "surface": "עד",
-      "gloss": "to"
-    },
-    {
-      "surface": "דכא",
-      "gloss": "dust",
-      "readings": [
-        "dust",
-        "crushing"
-      ],
-      "held_by": {
-        "dust": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "crushing": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ותאמר",
-      "gloss": "and say"
-    },
-    {
-      "surface": "שובו",
-      "gloss": "Return"
-    },
-    {
-      "surface": "בני",
-      "gloss": "sons"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "of Adam"
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "Second-person address to God continues throughout."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You turn back enosh to crushing, and you say, “Return, children of Adam.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9bc4d256f4b79a9e37f9e386aabb6a04e479445a86febd0afa3207ceda51606d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/90\/1-4.1791193181816.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תָּשֵׁב",
+      "gloss": "You turn back",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱנוֹשׁ",
+      "gloss": "enosh",
+      "sense": "S1",
+      "readings": [
+        "enosh",
+        "mortal man"
+      ]
+    },
+    {
+      "surface": "עַד",
+      "gloss": "to",
+      "sense": "S1"
+    },
+    {
+      "surface": "דַּכָּא",
+      "gloss": "crushing",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַתֹּאמֶר",
+      "gloss": "and you say",
+      "sense": "S1"
+    },
+    {
+      "surface": "שׁוּבוּ",
+      "gloss": "Return",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵי",
+      "gloss": "children",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "of Adam",
+      "sense": "S1",
+      "readings": [
+        "of Adam",
+        "of humankind"
+      ]
+    }
+  ],
+  "timestamp": "2026-10-05T09:39:41.817675602Z",
+  "model": "glm-5.3"
 }

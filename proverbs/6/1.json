@@ -1,50 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "My son, if you have become surety for your neighbor, ⟨if⟩ you have struck your palm for a stranger,",
-  "tokens": [
+  "ref": "proverbs 6:1",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "My son"
+      "kind": "addition",
+      "subject": "⟨yourself⟩",
+      "rationale": "Hebrew verb ערב carries the pledge without a stated object"
     },
     {
-      "surface": "אם",
-      "gloss": "if"
+      "kind": "addition",
+      "subject": "⟨if⟩",
+      "rationale": "One אם governs both conditions; English needs it repeated"
     },
     {
-      "surface": "ערבת",
-      "gloss": "you have become surety",
-      "readings": [
-        "you have become surety",
-        "you have pledged"
-      ],
-      "held_by": {
-        "you have become surety": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you have pledged": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "struck your palms",
+      "rationale": "Striking palm against palm sealed a pledge, so the gesture means the same as the verb"
     },
     {
-      "surface": "לרעך",
-      "gloss": "for your neighbor"
-    },
-    {
-      "surface": "תקעת",
-      "gloss": "you have struck"
-    },
-    {
-      "surface": "לזר",
-      "gloss": "for ⟨a⟩ stranger"
-    },
-    {
-      "surface": "כפיך",
-      "gloss": "your palm"
+      "kind": "invitation",
+      "subject": "My son",
+      "rationale": "The teacher addresses the pupil directly, drawing him in"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "My son, if you have pledged ⟨yourself⟩ for your neighbor, ⟨if⟩ you have struck your palms for a stranger,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a83fc40a67037219713e0ca541250ca1da474e6102f0a6afc508bb37adf37c12",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/6\/1-4.1791193739592.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּ֭נִי",
+      "gloss": "My son",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִם",
+      "gloss": "if",
+      "sense": null
+    },
+    {
+      "surface": "עָרַ֣בְתָּ",
+      "gloss": "you have pledged",
+      "readings": [
+        "you have pledged",
+        "you have stood surety for"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לְרֵעֶ֑ךָ",
+      "gloss": "for your neighbor",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָּקַ֖עְתָּ",
+      "gloss": "you have struck",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַזָּ֣ר",
+      "gloss": "for the stranger",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּפֶּֽיךָ",
+      "gloss": "your palms",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:48:59.593251460Z",
+  "model": "glm-5.3"
 }

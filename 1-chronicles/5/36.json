@@ -1,71 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 36,
-  "translation": "And Johanan begot ⟨את⟩ Azariah — he it is who served as priest in the house that Solomon built in Jerusalem.",
+  "ref": "1-chronicles 5:36",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "כהן בבית",
+      "rationale": "Rendered 'officiated as priest in the house'; the same Azariah is listed under a different father in Ezra 7 and 1Chr 6, a known genealogical disagreement."
+    },
+    {
+      "kind": "substitution",
+      "subject": "כִּהֵן",
+      "rationale": "Piel of כהן is a verb, 'served as priest'; English forces a periphrastic verb phrase."
+    }
+  ],
+  "translation": "And Johanan begot ⟨את⟩ Azariah — he is the one who officiated as priest in the house that Solomon built in Jerusalem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fc88237683ac29c2578417062efd15555375db583282d0a088b68f0ad478a3d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/5\/33-36.1791196077181.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ויוחנן",
-      "gloss": "And Johanan"
+      "surface": "וְיוֹחָנָ֖ן",
+      "gloss": "and Johanan",
+      "sense": null
     },
     {
-      "surface": "הוליד",
-      "gloss": "begot"
+      "surface": "הוֹלִיד",
+      "gloss": "begot",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Azariah"
     },
     {
-      "surface": "עזריה",
-      "gloss": "Azariah"
+      "surface": "עֲזַרְיָה",
+      "gloss": "Azariah",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
+      "surface": "הוּא",
       "gloss": "he"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "who"
     },
     {
-      "surface": "כהן",
-      "gloss": "served as priest",
-      "readings": [
-        "served as priest",
-        "priest"
-      ],
-      "held_by": {
-        "served as priest": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "priest": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "surface": "כִּהֵן",
+      "gloss": "officiated as priest",
+      "sense": "S1"
     },
     {
-      "surface": "בבית",
-      "gloss": "in the house"
+      "surface": "בַּבַּ֕יִת",
+      "gloss": "in the house",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "that"
     },
     {
-      "surface": "בנה",
-      "gloss": "built"
+      "surface": "בָּנָה",
+      "gloss": "built",
+      "sense": "S1"
     },
     {
-      "surface": "שלמה",
-      "gloss": "Solomon"
+      "surface": "שְׁלֹמֹה",
+      "gloss": "Solomon",
+      "sense": "S1"
     },
     {
-      "surface": "בירושלם",
-      "gloss": "in Jerusalem"
+      "surface": "בִּירוּשָׁלִֽם",
+      "gloss": "in Jerusalem",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:27:57.182588941Z",
+  "model": "glm-5.3"
 }

@@ -1,41 +1,67 @@
 {
+  "tier": "glm-5.2",
   "verse": 45,
+  "ref": "psalms 106:45",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "וינחם",
+      "rationale": "niphal of נחם: 'relented \/ had compassion' vs 'repented'; the SDBH sense is having second thoughts about past actions."
+    },
+    {
+      "kind": "substitution",
+      "subject": "chesed",
+      "rationale": "חסד transliterated per discipline; covenant-faithfulness, reading 2 'steadfast love'."
+    },
+    {
+      "kind": "crux",
+      "subject": "חסדו",
+      "rationale": "ketiv singular חסדו vs qere plural חסדיו ('his cheseds'); ketiv is the ground."
+    }
+  ],
   "translation": "And he remembered for them his covenant, and relented according to the abundance of his chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "914e7698ac5898f6d2b1a8c6141f1a4f13fa6ee9e2483db2eaf5080ef6dff6ec",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/45-48.1791193337612.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ויזכר",
-      "gloss": "and he remembered"
+      "surface": "וַיִּזְכֹּר",
+      "gloss": "and he remembered",
+      "sense": "S1"
     },
     {
-      "surface": "להם",
-      "gloss": "for them"
+      "surface": "לָהֶם",
+      "gloss": "for them",
+      "sense": null
     },
     {
-      "surface": "בריתו",
-      "gloss": "his covenant"
+      "surface": "בְּרִיתוֹ",
+      "gloss": "his covenant",
+      "sense": "S1"
     },
     {
-      "surface": "וינחם",
+      "surface": "וַיִּנָּחֵם",
       "gloss": "and relented",
       "readings": [
         "and relented",
-        "and was comforted"
+        "and had second thoughts"
       ],
-      "held_by": {
-        "and relented": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and was comforted": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "כרב",
-      "gloss": "according to the abundance"
+      "surface": "כְּרֹב",
+      "gloss": "according to the abundance of",
+      "sense": "S1"
     },
     {
       "surface": "חסדו",
@@ -44,17 +70,9 @@
         "his chesed",
         "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:42:17.613105618Z",
+  "model": "glm-5.3"
 }

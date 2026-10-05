@@ -1,90 +1,102 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "And the priest shall make ⟨את⟩ them, the one a sin offering and the other a burnt offering, and the priest shall make atonement for him before YHWH on account of his discharge.",
+  "ref": "leviticus 15:15",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "ascending offering",
+      "rationale": "עלה is literally 'that which goes up', rendered by its burnt-offering sense, not 'holocaust'"
+    },
+    {
+      "kind": "alternative",
+      "subject": "atonement",
+      "rationale": "כפר piel keeps its literal picture 'cover over' as a lawful second reading"
+    }
+  ],
+  "translation": "And the priest shall make ⟨את⟩ them, the one a sin offering and the one an ascending offering, and the priest shall make atonement for him before YHWH because of his discharge.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e7eaed1d60daad577c1d7bb6b41001012087e8d1fc3e7b631333a75932c61b72",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/15\/14-16.1791197734141.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "ועשה",
-      "gloss": "shall make"
+      "surface": "וְעָשָׂ֤ה",
+      "gloss": "And shall make",
+      "sense": "S1"
     },
     {
-      "surface": "אתם",
-      "gloss": "⟨את⟩ them"
+      "surface": "אֹתָם֙",
+      "gloss": "⟨את⟩ them",
+      "marks": "the two birds"
     },
     {
-      "surface": "הכהן",
-      "gloss": "the priest"
+      "surface": "הַכֹּהֵן֔",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "אחד",
-      "gloss": "one"
+      "surface": "אֶחָ֣ד",
+      "gloss": "the one",
+      "sense": "S2"
     },
     {
-      "surface": "חטאת",
+      "surface": "חַטָּ֔את",
       "gloss": "a sin offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהָאֶחָ֖ד",
+      "gloss": "and the one",
+      "sense": "S2"
+    },
+    {
+      "surface": "עֹלָ֑ה",
+      "gloss": "an ascending offering",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִפֶּ֨ר",
+      "gloss": "and shall make atonement",
       "readings": [
-        "a sin offering",
-        "a purification offering"
+        "and shall make atonement",
+        "and shall cover over"
       ],
-      "held_by": {
-        "a sin offering": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "a purification offering": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "והאחד",
-      "gloss": "and the other"
+      "surface": "עָלָ֧יו",
+      "gloss": "over him"
     },
     {
-      "surface": "עלה",
-      "gloss": "a burnt offering",
-      "readings": [
-        "a burnt offering",
-        "an ascent offering"
-      ],
-      "held_by": {
-        "a burnt offering": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "an ascent offering": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "הַכֹּהֵ֛ן",
+      "gloss": "the priest",
+      "sense": "S1"
     },
     {
-      "surface": "וכפר",
-      "gloss": "and shall make atonement"
-    },
-    {
-      "surface": "עליו",
-      "gloss": "for him"
-    },
-    {
-      "surface": "הכהן",
-      "gloss": "the priest"
-    },
-    {
-      "surface": "לפני",
+      "surface": "לִפְנֵ֥י",
       "gloss": "before"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֖ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "מזובו",
-      "gloss": "on account of his discharge"
+      "surface": "מִזֹּובֽוֹ",
+      "gloss": "because of his discharge",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:55:34.142591318Z",
+  "model": "glm-5.3"
 }

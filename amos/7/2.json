@@ -1,6 +1,38 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And it came to pass — if they finished to consume ⟨את⟩ the grass of the land — then I said, “Adonai YHWH, forgive, I pray! Who will raise up Jacob, for he ⟨is⟩ small?”",
+  "ref": "amos 7:2",
+  "book": "amos",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "alternative",
+      "subject": "יקום",
+      "rationale": "'will stand \/ arise' — the plain root sense; 'raise up' reads Jacob as object, the common rendering."
+    },
+    {
+      "kind": "you",
+      "subject": "to Adonai YHWH",
+      "rationale": "Amos's intercession addresses YHWH directly with an imperative."
+    },
+    {
+      "kind": "invitation",
+      "subject": "מִי יָקוּם יַעֲקֹב",
+      "rationale": "a rhetorical question pleading on Israel's smallness."
+    }
+  ],
+  "translation": "And it came to pass, if it finished eating ⟨את⟩ the grass of the land, then I said, “Adonai YHWH, forgive, I pray. Who will raise Jacob up? For he is small.”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a5c4ad7676778f4953bf815662709f5f5185e7deb6d62a7fe0fefc27d903f6ff",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/amos\/7\/1-4.1791191550759.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/amos.edn"
+  },
   "tokens": [
     {
       "surface": "והיה",
@@ -8,58 +40,52 @@
     },
     {
       "surface": "אם",
-      "gloss": "if",
-      "readings": [
-        "if",
-        "when"
-      ],
-      "held_by": {
-        "if": [
-          "v2",
-          "en4"
-        ],
-        "when": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "if"
     },
     {
       "surface": "כלה",
-      "gloss": "finished"
+      "gloss": "it finished",
+      "sense": "S1"
     },
     {
       "surface": "לאכול",
-      "gloss": "to consume"
+      "gloss": "eating",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the grass of the land"
     },
     {
       "surface": "עשב",
-      "gloss": "the grass"
+      "gloss": "the grass of",
+      "sense": "S1"
     },
     {
       "surface": "הארץ",
-      "gloss": "of the land"
+      "gloss": "the land",
+      "sense": "S1"
     },
     {
       "surface": "ואמר",
-      "gloss": "then I said"
+      "gloss": "then I said",
+      "sense": "S1"
     },
     {
       "surface": "אדני",
-      "gloss": "Adonai"
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "סלח",
-      "gloss": "forgive"
+      "gloss": "forgive",
+      "sense": "S1"
     },
     {
       "surface": "נא",
@@ -67,7 +93,8 @@
     },
     {
       "surface": "מי",
-      "gloss": "Who"
+      "gloss": "Who",
+      "sense": "S1"
     },
     {
       "surface": "יקום",
@@ -75,7 +102,8 @@
     },
     {
       "surface": "יעקב",
-      "gloss": "Jacob"
+      "gloss": "Jacob",
+      "sense": "S1"
     },
     {
       "surface": "כי",
@@ -83,13 +111,14 @@
     },
     {
       "surface": "קטן",
-      "gloss": "small"
+      "gloss": "small",
+      "sense": "S1"
     },
     {
       "surface": "הוא",
-      "gloss": "he"
+      "gloss": "he is"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:12:30.760350952Z",
+  "model": "glm-5.3"
 }

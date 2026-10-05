@@ -1,69 +1,105 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And the king of Egypt removed him in Jerusalem, and fined ⟨את⟩ the land a hundred talents of silver and a talent of gold.",
-  "tokens": [
+  "ref": "2-chronicles 36:3",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "ויסירהו",
-      "gloss": "and he removed him",
-      "readings": [
-        "and he removed him",
-        "and he deposed him"
-      ],
-      "held_by": {
-        "and he removed him": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and he deposed him": []
-      }
+      "kind": "substitution",
+      "subject": "talents",
+      "rationale": "ככר is a weight of about 30 kilograms; 'talent' is the conventional English weight-word"
     },
     {
-      "surface": "מלך",
-      "gloss": "the king of"
+      "kind": "measurement",
+      "subject": "the fine",
+      "rationale": "the indemnity is weighed in talents of silver and gold"
     },
     {
-      "surface": "מצרים",
-      "gloss": "Egypt"
-    },
-    {
-      "surface": "בירושלם",
-      "gloss": "in Jerusalem"
-    },
-    {
-      "surface": "ויענש",
-      "gloss": "and he fined"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the land"
-    },
-    {
-      "surface": "מאה",
-      "gloss": "a hundred"
-    },
-    {
-      "surface": "ככר",
-      "gloss": "talents of"
-    },
-    {
-      "surface": "כסף",
-      "gloss": "silver"
-    },
-    {
-      "surface": "וככר",
-      "gloss": "and a talent of"
-    },
-    {
-      "surface": "זהב",
-      "gloss": "gold"
+      "kind": "alternative",
+      "subject": "and fined",
+      "rationale": "parallel 2 Kings 23:33 uses a noun, 'and put a penalty on the land'; Chronicles uses the verb 'he fined'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And removed him the king of Egypt in Jerusalem, and fined ⟨את⟩ the land a hundred talents of silver and a talent of gold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "48ca5494f3fada7f25db1ddb9460a4bad6b9d1caf0ffaef03e02efb2870da9ef",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/36\/1-4.1791197074721.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְסִירֵהוּ",
+      "gloss": "and removed him",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "the king of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְרַיִם",
+      "gloss": "Egypt",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּירוּשָׁלִַם",
+      "gloss": "in Jerusalem",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיַּעֲנֹשׁ",
+      "gloss": "and fined",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "the land",
+      "sense": null
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the land",
+      "sense": "S1",
+      "readings": [
+        "the land",
+        "the earth"
+      ]
+    },
+    {
+      "surface": "מֵאָה",
+      "gloss": "a hundred",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּכַּר",
+      "gloss": "talents of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֶּסֶף",
+      "gloss": "silver",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכִכַּר",
+      "gloss": "and a talent of",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָהָב",
+      "gloss": "gold",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:44:34.722919662Z",
+  "model": "glm-5.3"
 }

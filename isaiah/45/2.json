@@ -1,67 +1,100 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "I Myself will go before you, and the heights I will make straight; doors of bronze I will break, and bars of iron I will cut down.",
+  "ref": "isaiah 45:2",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 45,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "והדורים",
+      "rationale": "rare plural of הדר 'swelling' — 'swollen\/rugged places' vs 'majestic things'; the literal picture 'swollen' is kept."
+    },
+    {
+      "kind": "crux",
+      "subject": "אושר",
+      "rationale": "ketiv אושר vs qere אישר 'I will make straight'; the qere is rendered and the ketiv stands as the ground."
+    },
+    {
+      "kind": "you",
+      "subject": "to Cyrus",
+      "rationale": "second-person address to Cyrus continues from verse 1."
+    }
+  ],
+  "translation": "I Myself will go before you, and the swollen places I will make level; doors of bronze I will shatter, and bolts of iron I will cut in two.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6f38298d63d81699a68bfca1a2e146f81d78de65309ab04a6e525192ac325052",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/45\/1-4.1791188711258.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "אני",
-      "gloss": "I"
+      "surface": "אֲנִי",
+      "gloss": "I Myself",
+      "sense": null
     },
     {
-      "surface": "לפניך",
-      "gloss": "before you"
+      "surface": "לְפָנֶיךָ",
+      "gloss": "before you",
+      "sense": null
     },
     {
-      "surface": "אלך",
-      "gloss": "will go"
+      "surface": "אֵלֵךְ",
+      "gloss": "will go",
+      "sense": "S1"
     },
     {
-      "surface": "והדורים",
-      "gloss": "and the heights",
+      "surface": "וַהֲדוּרִים",
+      "gloss": "and the swollen places",
       "readings": [
-        "and the heights",
+        "and the swollen places",
+        "and the rugged heights",
         "and the crooked places"
       ],
-      "held_by": {
-        "and the heights": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "and the crooked places": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "sense": null
     },
     {
       "surface": "אושר",
-      "gloss": "I will make straight"
+      "gloss": "I will make level",
+      "sense": "S1"
     },
     {
-      "surface": "דלתות",
-      "gloss": "doors"
+      "surface": "דַּלְתוֹת",
+      "gloss": "doors of",
+      "sense": "S1"
     },
     {
-      "surface": "נחושה",
-      "gloss": "of bronze"
+      "surface": "נְחוּשָׁה",
+      "gloss": "bronze",
+      "sense": "S1"
     },
     {
-      "surface": "אשבר",
-      "gloss": "I will break"
+      "surface": "אֲשַׁבֵּר",
+      "gloss": "I will shatter",
+      "sense": "S1"
     },
     {
-      "surface": "ובריחי",
-      "gloss": "and bars of"
+      "surface": "וּבְרִיחֵי",
+      "gloss": "and bolts of",
+      "sense": "S1"
     },
     {
-      "surface": "ברזל",
-      "gloss": "iron"
+      "surface": "בַּרְזֶל",
+      "gloss": "iron",
+      "sense": "S1"
     },
     {
-      "surface": "אגדע",
-      "gloss": "I will cut down"
+      "surface": "אֲגַדֵּעַ",
+      "gloss": "I will cut in two",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:25:11.259798976Z",
+  "model": "glm-5.3"
 }

@@ -1,60 +1,63 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "Let him sit alone and be silent, for ⟨it was⟩ laid upon him.",
+  "ref": "lamentations 3:28",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "he has laid it",
+      "rationale": "נטל עליו has no stated subject or object; most supply YHWH and the yoke of v. 27 — 'YHWH has laid it upon him'."
+    },
+    {
+      "kind": "elision",
+      "subject": "it",
+      "rationale": "The object of נטל is unstated in Hebrew and supplied from the preceding yoke verse."
+    }
+  ],
+  "translation": "Let him sit alone and be silent, for he has laid it upon him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "01bafc9a941dea8f68044d57a33ee38f9e50539cd82947a3e9fdac88bc7adfc8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/3\/25-28.1791194694793.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
   "tokens": [
     {
-      "surface": "ישב",
+      "surface": "יֵשֵׁב",
       "gloss": "Let him sit",
-      "readings": [
-        "Let him sit",
-        "He shall sit"
-      ],
-      "held_by": {
-        "Let him sit": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "He shall sit": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בדד",
-      "gloss": "alone"
+      "surface": "בָדָד",
+      "gloss": "alone",
+      "sense": "S1"
     },
     {
-      "surface": "וידם",
-      "gloss": "and be silent"
+      "surface": "וְיִדֹּם",
+      "gloss": "and be silent",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "נטל",
-      "gloss": "⟨it was⟩ laid",
-      "readings": [
-        "⟨it was⟩ laid",
-        "He laid ⟨it⟩"
-      ],
-      "held_by": {
-        "⟨it was⟩ laid": [
-          "v2"
-        ],
-        "He laid ⟨it⟩": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "נָטַל",
+      "gloss": "he has laid it",
+      "sense": "S1"
     },
     {
-      "surface": "עליו",
+      "surface": "עָלָיו",
       "gloss": "upon him"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:04:54.794379450Z",
+  "model": "glm-5.3"
 }

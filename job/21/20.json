@@ -1,62 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "His eye shall see his destruction, and he shall drink of ⟨the⟩ wrath of Shaddai.",
+  "ref": "job 21:20",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "כידו",
+      "rationale": "כיד 'a crushing, calamity' occurs only here in the Tanakh; meaning uncertain."
+    },
+    {
+      "kind": "crux",
+      "subject": "עינו",
+      "rationale": "Ketiv עינו 'his eye' (singular in form) vs qere עיניו 'his eyes'; the dual form read as plural."
+    },
+    {
+      "kind": "secret",
+      "subject": "the cup",
+      "rationale": "Drinking the wrath of Shaddai images divine anger as a cup consumed — hidden retribution the wicked never taste, per Job's complaint."
+    }
+  ],
+  "translation": "His own eyes see his crushing, and from the wrath of Shaddai he drinks.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e737e37f824b34b11923be0455d8761baca48ef1e3da0866e99925a8d7af91c8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/17-20.1791194372152.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "יראו",
-      "gloss": "shall see"
+      "surface": "יִרְאוּ",
+      "gloss": "see",
+      "sense": "S1"
     },
     {
       "surface": "עינו",
-      "gloss": "his eye",
-      "readings": [
-        "his eye",
-        "his eyes"
-      ],
-      "held_by": {
-        "his eye": [
-          "en4"
-        ],
-        "his eyes": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "gloss": "his eyes",
+      "sense": "S1"
     },
     {
-      "surface": "כידו",
-      "gloss": "his destruction",
-      "readings": [
-        "his destruction",
-        "his crushing"
-      ],
-      "held_by": {
-        "his destruction": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "his crushing": [
-          "en4"
-        ]
-      }
+      "surface": "כִּידוֹ",
+      "gloss": "his crushing",
+      "sense": "S1"
     },
     {
-      "surface": "ומחמת",
-      "gloss": "and of ⟨the⟩ wrath of"
+      "surface": "וּמֵחֲמַת",
+      "gloss": "and from the wrath of",
+      "sense": "S1"
     },
     {
-      "surface": "שדי",
-      "gloss": "Shaddai"
+      "surface": "שַׁדַּי",
+      "gloss": "Shaddai",
+      "sense": "S1"
     },
     {
-      "surface": "ישתה",
-      "gloss": "he shall drink"
+      "surface": "יִשְׁתֶּה",
+      "gloss": "he drinks",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:59:32.154038548Z",
+  "model": "glm-5.3"
 }

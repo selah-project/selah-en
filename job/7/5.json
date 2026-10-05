@@ -1,70 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "My flesh is clothed with worms and clods of dust; my skin breaks open and becomes loathsome.",
+  "ref": "job 7:5",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is clothed with",
+      "rationale": "Hebrew verb לבשׁ lacks the preposition; English needs 'with'"
+    },
+    {
+      "kind": "crux",
+      "subject": "רגע",
+      "rationale": "meaning uncertain: 'cracked\/hardened' (form's picture of skin breaking out) vs traditional 'clotted\/formed scabs'"
+    },
+    {
+      "kind": "crux",
+      "subject": "וימאאס",
+      "rationale": "niphal of מאס here 'flows with pus\/festers' rather than the usual 'despised'"
+    },
+    {
+      "kind": "hapax",
+      "subject": "גוש",
+      "rationale": "גיש\/גוש in the sense 'clod' occurs only here in the Tanakh"
+    }
+  ],
+  "translation": "My flesh is clothed with maggots and a clod of dust; my skin has cracked and festered.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40bec140168ec4bc873c3fbf0879a76a35994a3dcd991f995e346642b794b8cd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/7\/5-8.1791194186086.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "לבש",
-      "gloss": "is clothed"
+      "surface": "לָבַשׁ",
+      "gloss": "is clothed",
+      "sense": "S1"
     },
     {
-      "surface": "בשרי",
-      "gloss": "my flesh"
+      "surface": "בְּשָׂרִי",
+      "gloss": "my flesh",
+      "sense": "S1"
     },
     {
-      "surface": "רמה",
-      "gloss": "with worms"
+      "surface": "רִמָּה",
+      "gloss": "with maggots",
+      "sense": "S1"
     },
     {
       "surface": "וגיש",
-      "gloss": "and clods of"
+      "gloss": "and a clod of",
+      "sense": "S1"
     },
     {
-      "surface": "עפר",
-      "gloss": "dust"
+      "surface": "עָפָר",
+      "gloss": "dust",
+      "sense": "S1"
     },
     {
-      "surface": "עורי",
-      "gloss": "my skin"
+      "surface": "עוֹרִי",
+      "gloss": "my skin",
+      "sense": "S1"
     },
     {
-      "surface": "רגע",
-      "gloss": "breaks open",
-      "readings": [
-        "breaks open",
-        "is tossed"
-      ],
-      "held_by": {
-        "breaks open": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is tossed": [
-          "en4"
-        ]
-      }
+      "surface": "רָגַע",
+      "gloss": "has cracked",
+      "sense": "S1"
     },
     {
-      "surface": "וימאס",
-      "gloss": "and becomes loathsome",
-      "readings": [
-        "and becomes loathsome",
-        "and festers"
-      ],
-      "held_by": {
-        "and becomes loathsome": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and festers": [
-          "en4"
-        ]
-      }
+      "surface": "וַיִּמָּאֵס",
+      "gloss": "and festered",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:56:26.086840994Z",
+  "model": "glm-5.3"
 }

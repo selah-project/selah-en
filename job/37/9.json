@@ -1,47 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "From the chamber comes the storm, and from the scatterings, cold.",
-  "tokens": [
+  "ref": "job 37:9",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
     {
-      "surface": "מן",
-      "gloss": "from"
+      "kind": "hapax",
+      "subject": "מזרים",
+      "rationale": "Occurs only here; literally 'scatterers' (the north wind that disperses clouds), kept literal."
     },
     {
-      "surface": "החדר",
-      "gloss": "the chamber"
-    },
-    {
-      "surface": "תבוא",
-      "gloss": "comes"
-    },
-    {
-      "surface": "סופה",
-      "gloss": "the storm",
-      "readings": [
-        "the storm",
-        "the whirlwind"
-      ],
-      "held_by": {
-        "the storm": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the whirlwind": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וממזרים",
-      "gloss": "and from the scatterings"
-    },
-    {
-      "surface": "קרה",
-      "gloss": "cold"
+      "kind": "wordplay",
+      "subject": "מזרים \/ מן",
+      "rationale": "Alliteration of min, mimmezarim — the doubled 'm' sounds frame the line, lost in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From the chamber comes the storm-wind, and from the scatterers the cold.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7b352f93a4520d96f12064eaccdac8763d78353bc70474df2f35970abf7a33e4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/37\/9-12.1791194588790.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִן",
+      "gloss": "from",
+      "sense": null
+    },
+    {
+      "surface": "הַחֶדֶר",
+      "gloss": "the chamber",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָבוֹא",
+      "gloss": "comes",
+      "sense": null
+    },
+    {
+      "surface": "סוּפָה",
+      "gloss": "the storm-wind",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמִמְּזָרִים",
+      "gloss": "and from the scatterers",
+      "sense": "S1",
+      "readings": [
+        "and from the scatterers",
+        "and from the north-winds"
+      ]
+    },
+    {
+      "surface": "קָרָה",
+      "gloss": "the cold",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:03:08.790606575Z",
+  "model": "glm-5.3"
 }

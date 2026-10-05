@@ -1,42 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And they removed the burnt offerings, to give them by divisions to the house of fathers, for the sons of the people, to bring near to YHWH, as written in the book of Moses, and so for the cattle.",
+  "ref": "2-chronicles 35:12",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "לְמִפְלַגּוֹת",
+      "rationale": "מִפְלַגָּה occurs only here in the Tanakh — a division or grouping within the larger body."
+    },
+    {
+      "kind": "substitution",
+      "subject": "bring near",
+      "rationale": "לְהַקְרִיב is literally 'cause to approach' — the standard verb for offering sacrifice."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "למפלגות \/ מחלקות",
+      "rationale": "v.10's מַחֲלֹקֶת and v.12's מִפְלַגָּה share the root חלק\/פלג 'divide' — the Levites' divisions apportion the offerings."
+    }
+  ],
+  "translation": "And they removed the burnt-offering to give them to the divisions of the father-houses of the sons of the people, to bring near to YHWH, as written in the scroll of Moses — and so also for the cattle.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f8eee2dfeff331e42cf83948c0a51cd622d23bc37d20580d5212f574eb3cae83",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/35\/9-12.1791197071128.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "ויסירו",
-      "gloss": "and they removed",
-      "readings": [
-        "and they removed",
-        "and they set aside"
-      ],
-      "held_by": {
-        "and they removed": [
-          "v1",
-          "en4"
-        ],
-        "and they set aside": [
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "And removed",
+      "sense": "S1"
     },
     {
       "surface": "העלה",
-      "gloss": "the burnt offering",
-      "readings": [
-        "the burnt offering",
-        "the burnt offerings"
-      ],
-      "held_by": {
-        "the burnt offering": [
-          "en4"
-        ],
-        "the burnt offerings": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "gloss": "the burnt-offering",
+      "sense": "S1"
     },
     {
       "surface": "לתתם",
@@ -44,81 +50,65 @@
     },
     {
       "surface": "למפלגות",
-      "gloss": "by divisions"
+      "gloss": "to the divisions of",
+      "sense": "S1"
     },
     {
       "surface": "לבית",
-      "gloss": "to the house"
+      "gloss": "the father-houses of",
+      "sense": "S1"
     },
     {
       "surface": "אבות",
-      "gloss": "of fathers"
+      "gloss": "the houses of fathers",
+      "sense": "S1"
     },
     {
       "surface": "לבני",
-      "gloss": "for the sons of"
+      "gloss": "to the sons of",
+      "sense": "S1"
     },
     {
       "surface": "העם",
-      "gloss": "the people"
+      "gloss": "the people",
+      "sense": "S1"
     },
     {
       "surface": "להקריב",
       "gloss": "to bring near",
-      "readings": [
-        "to bring near",
-        "to present"
-      ],
-      "held_by": {
-        "to bring near": [
-          "v1",
-          "en4"
-        ],
-        "to present": [
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ככתוב",
-      "gloss": "as written"
+      "gloss": "as written",
+      "sense": "S1"
     },
     {
       "surface": "בספר",
-      "gloss": "in the book"
+      "gloss": "in the scroll of",
+      "sense": "S1"
     },
     {
       "surface": "משה",
-      "gloss": "of Moses"
+      "gloss": "Moses",
+      "sense": "S1"
     },
     {
       "surface": "וכן",
-      "gloss": "and so"
+      "gloss": "and so",
+      "sense": null
     },
     {
       "surface": "לבקר",
       "gloss": "for the cattle",
-      "readings": [
-        "for the cattle",
-        "for the oxen"
-      ],
-      "held_by": {
-        "for the cattle": [
-          "en4"
-        ],
-        "for the oxen": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:44:31.129360605Z",
+  "model": "glm-5.3"
 }

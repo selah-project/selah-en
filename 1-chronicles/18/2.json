@@ -1,56 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "And he struck ⟨את⟩ Moab, and the Moabites became servants to David, bearers of tribute.",
-  "tokens": [
+  "ref": "1-chronicles 18:2",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "ויך",
-      "gloss": "and struck"
+      "kind": "substitution",
+      "subject": "tribute",
+      "rationale": "מנחה is a gift\/donation; 'tribute' supplies the vassal context the verse implies"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "מואב",
-      "gloss": "Moab"
-    },
-    {
-      "surface": "ויהיו",
-      "gloss": "and they became"
-    },
-    {
-      "surface": "מואב",
-      "gloss": "Moab"
-    },
-    {
-      "surface": "עבדים",
-      "gloss": "servants"
-    },
-    {
-      "surface": "לדויד",
-      "gloss": "to David"
-    },
-    {
-      "surface": "נשאי",
-      "gloss": "bearers of"
-    },
-    {
-      "surface": "מנחה",
-      "gloss": "tribute",
-      "readings": [
-        "tribute",
-        "gift offering"
-      ],
-      "held_by": {
-        "tribute": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "elision",
+      "subject": "2 Sam 8:2 measuring scene",
+      "rationale": "Chronicles omits Samuel's cord-measuring of Moab, keeping only the subjection"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And he struck ⟨את⟩ Moab, and the Moabites became servants to David, bearers of a tribute.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "264b57a01f1d5938efedbb982873d8b77f0d96b61acb302c84b784b73c5077d1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/18\/1-4.1791200547380.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיַּ֖ךְ",
+      "gloss": "And he struck",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "Moab",
+      "sense": null
+    },
+    {
+      "surface": "מוֹאָ֑ב",
+      "gloss": "Moab",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּהְי֤וּ",
+      "gloss": "and became",
+      "sense": null
+    },
+    {
+      "surface": "מוֹאָב֙",
+      "gloss": "the Moabites",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲבָדִ֣ים",
+      "gloss": "servants",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְדָוִ֔יד",
+      "gloss": "to David",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֹשְׂאֵ֖י",
+      "gloss": "bearers of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנְחָֽה",
+      "gloss": "a tribute",
+      "readings": [
+        "a tribute",
+        "an offering"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T11:42:27.381032693Z",
+  "model": "glm-5.3"
 }

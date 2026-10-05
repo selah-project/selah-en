@@ -1,51 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Let Israel rejoice in his Makers; let the children of Zion exult in their King.",
-  "tokens": [
+  "ref": "psalms 149:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 149,
+  "notes": [
     {
-      "surface": "ישמח",
-      "gloss": "let rejoice"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "בעשיו",
-      "gloss": "in his Makers",
-      "readings": [
-        "in his Makers",
-        "in his Maker"
-      ],
-      "held_by": {
-        "in his Makers": [
-          "en4"
-        ],
-        "in his Maker": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בני",
-      "gloss": "the children of"
-    },
-    {
-      "surface": "ציון",
-      "gloss": "Zion"
-    },
-    {
-      "surface": "יגילו",
-      "gloss": "let exult"
-    },
-    {
-      "surface": "במלכם",
-      "gloss": "in their King"
+      "kind": "alternative",
+      "subject": "spin-round",
+      "rationale": "גיל literally 'to spin round' under violent emotion; 'exult' is the smooth reading."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Let Israel rejoice in its Maker, let the children of Zion spin-round in their King.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "66814d263e096b3ff7e91bdb594a56fdb66d5b273eb3acaacafc31d1fababb9f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/149\/1-4.1791193669526.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יִשְׂמַח",
+      "gloss": "rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֹשָׂיו",
+      "gloss": "in its Maker",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵי",
+      "gloss": "the children of",
+      "sense": "S1"
+    },
+    {
+      "surface": "צִיּוֹן",
+      "gloss": "Zion",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָגִילוּ",
+      "gloss": "spin-round",
+      "readings": [
+        "spin-round",
+        "exult"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַלְכָּם",
+      "gloss": "in their King",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:47:49.527312345Z",
+  "model": "glm-5.3"
 }

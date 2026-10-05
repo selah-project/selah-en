@@ -1,88 +1,106 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "⟨את⟩ All I have seen in the days of my vanity: there is a righteous one perishing in his righteousness, and there is a wicked one prolonging in his evil.",
-  "tokens": [
+  "ref": "ecclesiastes 7:15",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "substitution",
+      "subject": "my vapor",
+      "rationale": "הֶבֶל literally 'breath\/vapor'; tradition renders 'vanity', losing the picture."
     },
     {
-      "surface": "הכל",
-      "gloss": "All"
+      "kind": "crux",
+      "subject": "אֹבֵד בְּצִדְקוֹ",
+      "rationale": "Long-standing crux: perishing 'in' his righteousness (despite it) or 'because of' it."
     },
     {
-      "surface": "ראיתי",
-      "gloss": "I have seen"
-    },
-    {
-      "surface": "בימי",
-      "gloss": "in the days of"
-    },
-    {
-      "surface": "הבלי",
-      "gloss": "my vanity",
-      "readings": [
-        "my vanity",
-        "my vapor"
-      ],
-      "held_by": {
-        "my vanity": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "my vapor": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "יש",
-      "gloss": "there is"
-    },
-    {
-      "surface": "צדיק",
-      "gloss": "a righteous one"
-    },
-    {
-      "surface": "אבד",
-      "gloss": "perishing"
-    },
-    {
-      "surface": "בצדקו",
-      "gloss": "in his righteousness"
-    },
-    {
-      "surface": "ויש",
-      "gloss": "and there is"
-    },
-    {
-      "surface": "רשע",
-      "gloss": "a wicked one"
-    },
-    {
-      "surface": "מאריך",
-      "gloss": "prolonging"
-    },
-    {
-      "surface": "ברעתו",
-      "gloss": "in his evil",
-      "readings": [
-        "in his evil",
-        "in his wickedness"
-      ],
-      "held_by": {
-        "in his evil": [
-          "v2",
-          "en4"
-        ],
-        "in his wickedness": [
-          "v1",
-          "v3"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "צַדִּיק\/בְּצִדְקוֹ · רָשָׁע\/בְּרָעָתוֹ",
+      "rationale": "Chiastic parallel: each man's fate stands in his own quality — righteous perishing in righteousness, wicked enduring in evil."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ the all I have seen in the days of my vapor: there is a righteous one perishing in his righteousness, and there is a wicked one prolonging ⟨his days⟩ in his evil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1c23e6c9c8ba06082b7660e64dac98a487cd1848f6a53fe2569790a36d020275",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/7\/13-16.1791194902199.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the all",
+      "sense": null
+    },
+    {
+      "surface": "הַכֹּל",
+      "gloss": "the all",
+      "sense": null
+    },
+    {
+      "surface": "רָאִיתִי",
+      "gloss": "I have seen",
+      "sense": "S1"
+    },
+    {
+      "surface": "בִּימֵי",
+      "gloss": "in the days of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶבְלִי",
+      "gloss": "my vapor",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֵשׁ",
+      "gloss": "there is",
+      "sense": null
+    },
+    {
+      "surface": "צַדִּיק",
+      "gloss": "a righteous one",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹבֵד",
+      "gloss": "perishing",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצִדְקוֹ",
+      "gloss": "in his righteousness",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֵשׁ",
+      "gloss": "and there is",
+      "sense": null
+    },
+    {
+      "surface": "רָשָׁע",
+      "gloss": "a wicked one",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַאֲרִיךְ",
+      "gloss": "prolonging",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּרָעָתוֹ",
+      "gloss": "in his evil",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:08:22.200727433Z",
+  "model": "glm-5.3"
 }

@@ -1,42 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 60,
-  "translation": "I hurried, and did not delay, to keep your commandments.",
-  "tokens": [
+  "ref": "psalms 119:60",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "חשתי",
-      "gloss": "I hurried",
-      "readings": [
-        "I hurried",
-        "I made haste"
-      ],
-      "held_by": {
-        "I hurried": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I made haste": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "התמהמהתי",
-      "gloss": "did I delay"
-    },
-    {
-      "surface": "לשמר",
-      "gloss": "to keep"
-    },
-    {
-      "surface": "מצותיך",
-      "gloss": "your commandments"
+      "kind": "wordplay",
+      "subject": "הִתְמַהְמָהְתִּי",
+      "rationale": "reduplicated hitpalpel of מההּ, the doubling carries the sense of lingering — lost in the single English word 'delay'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I hurry and do not delay to keep Your commandments.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0720a47f61b086039eeb35481308ddc127f4e7dd1b38731319b8a551a5cd6119",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/57-60.1791193454208.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חַשְׁתִּי",
+      "gloss": "I hurry",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִתְמַהְמָהְתִּי",
+      "gloss": "do I delay",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִשְׁמֹר",
+      "gloss": "to keep",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִצְוֺתֶיךָ",
+      "gloss": "Your commandments",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:14.209507296Z",
+  "model": "glm-5.3"
 }

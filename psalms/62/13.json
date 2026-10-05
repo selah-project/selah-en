@@ -1,85 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "And to you, Adonai, is chesed; for you repay to a man according to his deed.",
+  "ref": "psalms 62:13",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 62,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula before chesed"
+    },
+    {
+      "kind": "substitution",
+      "subject": "repay",
+      "rationale": "שׁלם piel, literally 'pay back \/ make whole', rendered as repayment"
+    }
+  ],
+  "translation": "And to you, Adonai, ⟨is⟩ chesed, for you repay a man according to his deed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b26fb33f5c6c9a7e7a50626e31da58b1c01ef14d9edeecbb19601b352bab5e0b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/62\/13-13.1791192853241.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ולך",
-      "gloss": "and to you"
+      "surface": "וּלְךָֽ",
+      "gloss": "And to you",
+      "sense": null
     },
     {
-      "surface": "אדני",
-      "gloss": "Adonai"
+      "surface": "אֲדֹנָ֥י",
+      "gloss": "Adonai",
+      "sense": "S1"
     },
     {
-      "surface": "חסד",
+      "surface": "חָ֑סֶד",
       "gloss": "chesed",
       "readings": [
         "chesed",
         "steadfast love"
-      ]
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "אתה",
-      "gloss": "you"
-    },
-    {
-      "surface": "תשלם",
-      "gloss": "you will repay",
-      "readings": [
-        "you will repay",
-        "you will recompense"
       ],
-      "held_by": {
-        "you will repay": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "you will recompense": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "לאיש",
-      "gloss": "to ⟨a⟩ man",
-      "readings": [
-        "to ⟨a⟩ man",
-        "each man"
-      ],
-      "held_by": {
-        "to ⟨a⟩ man": [
-          "en4"
-        ],
-        "each man": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "כִּֽי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "כמעשהו",
+      "surface": "אַתָּ֨ה",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "תְשַׁלֵּ֖ם",
+      "gloss": "repay",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאִ֣ישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "כְּֽמַעֲשֵֽׂהוּ",
       "gloss": "according to his deed",
-      "readings": [
-        "according to his deed",
-        "according to his work"
-      ],
-      "held_by": {
-        "according to his deed": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "according to his work": [
-          "v2"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:34:13.242479630Z",
+  "model": "glm-5.3"
 }

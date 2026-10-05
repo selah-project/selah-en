@@ -1,109 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "I say to El, my rock: “Why have you forgotten me? Why do I go mourning under the oppression of an enemy?”",
+  "ref": "psalms 42:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 42,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "gloomy",
+      "rationale": "קדר literally to be dark\/ashen — mourning in dark clothes or a darkened face; both readings kept"
+    },
+    {
+      "kind": "you",
+      "subject": "to El",
+      "rationale": "the psalmist's direct questioning address to God"
+    },
+    {
+      "kind": "addition",
+      "subject": "must",
+      "rationale": "modal supplied in English for the imperfect of walking"
+    }
+  ],
+  "translation": "I would say to El, my Rock: why have you forgotten me? Why must I walk gloomy under the oppression of an enemy?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b1549c3243b1d849a9aa1e6f8b29dd1621c9cb338929b599d99d90cba8984539",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/42\/9-12.1791192704086.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אומרה",
-      "gloss": "I say",
-      "readings": [
-        "I say",
-        "I will say"
-      ],
-      "held_by": {
-        "I say": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "I will say": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "אוֹמְרָה",
+      "gloss": "I would say",
+      "sense": "S1"
     },
     {
-      "surface": "לאל",
-      "gloss": "to El"
+      "surface": "לְאֵל",
+      "gloss": "to El",
+      "sense": "S1"
     },
     {
-      "surface": "סלעי",
-      "gloss": "my rock"
+      "surface": "סַלְעִי",
+      "gloss": "my Rock",
+      "sense": "S1"
     },
     {
-      "surface": "למה",
-      "gloss": "Why"
-    },
-    {
-      "surface": "שכחתני",
-      "gloss": "have you forgotten me"
-    },
-    {
-      "surface": "למה",
+      "surface": "לָמָּה",
       "gloss": "why"
     },
     {
-      "surface": "קדר",
-      "gloss": "mourning",
-      "readings": [
-        "mourning",
-        "going dark"
-      ],
-      "held_by": {
-        "mourning": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "going dark": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "שְׁכַחְתָּנִי",
+      "gloss": "have you forgotten me",
+      "sense": "S1"
     },
     {
-      "surface": "אלך",
-      "gloss": "must I go",
-      "readings": [
-        "must I go",
-        "I walk"
-      ],
-      "held_by": {
-        "must I go": [
-          "v1",
-          "v3"
-        ],
-        "I walk": [
-          "en4"
-        ],
-        "must I walk": [
-          "v2"
-        ]
-      }
+      "surface": "לָמָּה",
+      "gloss": "why"
     },
     {
-      "surface": "בלחץ",
+      "surface": "קֹדֵר",
+      "gloss": "gloomy",
+      "readings": [
+        "gloomy",
+        "dark-clad"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֵךְ",
+      "gloss": "must I walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּלַחַץ",
       "gloss": "under the oppression of",
-      "readings": [
-        "under the oppression of",
-        "in the crush of"
-      ],
-      "held_by": {
-        "under the oppression of": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "in the crush of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אויב",
-      "gloss": "an enemy"
+      "surface": "אוֹיֵב",
+      "gloss": "an enemy",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:44.087723276Z",
+  "model": "glm-5.3"
 }

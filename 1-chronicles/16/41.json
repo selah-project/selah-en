@@ -1,87 +1,110 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And with them were Heman and Jeduthun, and the rest of the chosen ones who were designated by names, to give thanks to YHWH, for his chesed is forever.",
+  "ref": "1-chronicles 16:41",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "were",
+      "rationale": "Hebrew lacks a copula in the opening clause"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נקבו בשמות",
+      "rationale": "literally 'pierced by names', the idiom of calling names out; rendered 'designated by names'"
+    },
+    {
+      "kind": "elision",
+      "subject": "חסדו",
+      "rationale": "transliterated as chesed per the marked-terms discipline"
+    }
+  ],
+  "translation": "And with them were Heman and Jeduthun and the rest of the chosen ones, who were designated by names, to give thanks to YHWH, for forever is his chesed.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d88deed34dcfd049b83b0ee253023e61ba1a06804ce2c1edd24d6e3045295451",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/16\/41-43.1791196300196.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
-      "surface": "ועמהם",
+      "surface": "וְעִמָּהֶם",
       "gloss": "and with them"
     },
     {
-      "surface": "הימן",
-      "gloss": "Heman"
+      "surface": "הֵימָן",
+      "gloss": "Heman",
+      "sense": "S1"
     },
     {
-      "surface": "וידותון",
-      "gloss": "and Jeduthun"
+      "surface": "וִידוּתוּן",
+      "gloss": "and Jeduthun",
+      "sense": "S1"
     },
     {
-      "surface": "ושאר",
-      "gloss": "and the rest of"
+      "surface": "וּשְׁאָר",
+      "gloss": "and the rest of",
+      "sense": "S1"
     },
     {
-      "surface": "הברורים",
-      "gloss": "the chosen ones"
+      "surface": "הַבְּרוּרִים",
+      "gloss": "the chosen ones",
+      "sense": "S1"
     },
     {
-      "surface": "אשר",
+      "surface": "אֲשֶׁר",
       "gloss": "who"
     },
     {
-      "surface": "נקבו",
-      "gloss": "were designated"
+      "surface": "נִקְּבוּ",
+      "gloss": "were designated",
+      "readings": [
+        "were designated",
+        "were named"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "בשמות",
-      "gloss": "by names"
+      "surface": "בְּשֵׁמוֹת",
+      "gloss": "by names",
+      "sense": "S1"
     },
     {
-      "surface": "להדות",
-      "gloss": "to give thanks"
+      "surface": "לְהֹדוֹת",
+      "gloss": "to give thanks",
+      "sense": "S1"
     },
     {
-      "surface": "ליהוה",
-      "gloss": "to YHWH"
+      "surface": "לַיהוָה",
+      "gloss": "to YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "for"
     },
     {
-      "surface": "לעולם",
+      "surface": "לְעוֹלָם",
       "gloss": "forever",
-      "readings": [
-        "forever",
-        "for the age"
-      ],
-      "held_by": {
-        "forever": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "for the age": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "חסדו",
+      "surface": "חַסְדּוֹ",
       "gloss": "his chesed",
       "readings": [
         "his chesed",
         "his steadfast love"
       ],
-      "held_by": {
-        "his chesed": [
-          "v3",
-          "en4"
-        ],
-        "his steadfast love": [
-          "v1"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:31:40.197288917Z",
+  "model": "glm-5.3"
 }

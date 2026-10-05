@@ -1,48 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Jerusalem: mountains are round about her, and YHWH is round about His people, from this time forth even unto forever.",
-  "tokens": [
+  "ref": "psalms 125:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 125,
+  "notes": [
     {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
+      "kind": "substitution",
+      "subject": "His people",
+      "rationale": "עמו is construct with 3rd-person suffix; 'His' refers to YHWH, not supplied"
     },
     {
-      "surface": "הרים",
-      "gloss": "mountains"
-    },
-    {
-      "surface": "סביב",
-      "gloss": "round about"
-    },
-    {
-      "surface": "לה",
-      "gloss": "her"
-    },
-    {
-      "surface": "ויהוה",
-      "gloss": "and YHWH"
-    },
-    {
-      "surface": "סביב",
-      "gloss": "round about"
-    },
-    {
-      "surface": "לעמו",
-      "gloss": "His people"
-    },
-    {
-      "surface": "מעתה",
-      "gloss": "from this time forth"
-    },
-    {
-      "surface": "ועד",
-      "gloss": "even unto"
-    },
-    {
-      "surface": "עולם",
-      "gloss": "forever"
+      "kind": "wordplay",
+      "subject": "סביב",
+      "rationale": "the same word repeats on each half — mountains around Jerusalem, YHWH around His people — an envelope figure"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Jerusalem — mountains surround her, and YHWH surrounds His people, from now and unto forever.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "24e2dd5521a9c432f55a7e9a7ad6ef76e660f4fd9e8f4e9dbcd81ee957340d18",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/125\/1-4.1791193532625.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְרוּשָׁלִַ֗ם",
+      "gloss": "Jerusalem",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָרִים",
+      "gloss": "mountains",
+      "sense": "S1"
+    },
+    {
+      "surface": "סָבִיב",
+      "gloss": "surround",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָהּ",
+      "gloss": "her",
+      "sense": null
+    },
+    {
+      "surface": "וַיהוָה",
+      "gloss": "and YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "סָבִיב",
+      "gloss": "surrounds",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְעַמּוֹ",
+      "gloss": "His people",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵעַתָּה",
+      "gloss": "from now",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעַד",
+      "gloss": "and unto",
+      "sense": "S1"
+    },
+    {
+      "surface": "עוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:32.626362281Z",
+  "model": "glm-5.3"
 }

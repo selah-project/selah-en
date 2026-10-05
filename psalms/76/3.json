@@ -1,73 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And He was in Salem, His booth, and His den in Zion.",
-  "tokens": [
+  "ref": "psalms 76:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 76,
+  "notes": [
     {
-      "surface": "ויהי",
-      "gloss": "and He was",
-      "readings": [
-        "and He was",
-        "and it was"
-      ],
-      "held_by": {
-        "and He was": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and it was": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "שלם",
+      "rationale": "Salem shares consonants with shalom, peace — the city of peace is God's abode; lost in English"
     },
     {
-      "surface": "בשלם",
-      "gloss": "in Salem",
-      "readings": [
-        "in Salem",
-        "in wholeness"
-      ],
-      "held_by": {
-        "in Salem": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in wholeness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "סכו",
-      "gloss": "His booth"
-    },
-    {
-      "surface": "ומעונתו",
-      "gloss": "and His den",
-      "readings": [
-        "and His den",
-        "and His dwelling-place"
-      ],
-      "held_by": {
-        "and His den": [
-          "v2",
-          "v3"
-        ],
-        "and His dwelling-place": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בציון",
-      "gloss": "in Zion"
+      "kind": "alternative",
+      "subject": "booth",
+      "rationale": "סכ is the fragile succah-booth; 'lair' (of a lion, Ps 10:9) is also attested for this form"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And His booth came to be in Salem, His dwelling-place in Zion.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "77672d7e5abd5d9b0fdbf7cb9883e5c35988d682b20785a9d3f9df08b0e04eb0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/76\/1-4.1791193017005.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַיְהִי",
+      "gloss": "And came to be",
+      "sense": null
+    },
+    {
+      "surface": "בְשָׁלֵם",
+      "gloss": "in Salem",
+      "sense": "S1"
+    },
+    {
+      "surface": "סֻכּוֹ",
+      "gloss": "His booth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּמְעוֹנָתוֹ",
+      "gloss": "His dwelling-place",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְצִיּוֹן",
+      "gloss": "in Zion",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:57.005851984Z",
+  "model": "glm-5.3"
 }

@@ -1,67 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Bless YHWH, all his works, in all places of his dominion; bless ⟨את⟩ YHWH, my soul.",
+  "ref": "psalms 103:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 103,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "to all YHWH's works",
+      "rationale": "Imperative summoning all creation to bless YHWH, closing the psalm."
+    },
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is the life-principle, the breathing self; 'my soul' is the psalm's own address to it."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "ברכו\/ברכי",
+      "rationale": "Masculine-plural imperative shifts to feminine singular for the נפש, an inclusio echoing Psalm 103:1."
+    }
+  ],
+  "translation": "Bless YHWH, all his works, in all places of his dominion; bless, my soul, ⟨את⟩ YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d2633ddddef3aeb28ebeda344ed65e43a4acc2dc5d738ba852a294842f30889f",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/103\/21-22.1791193266579.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "ברכו",
-      "gloss": "Bless"
+      "surface": "בָּרֲכ֤וּ",
+      "gloss": "Bless",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֨ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּֽל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "מעשיו",
-      "gloss": "his works"
+      "surface": "מַעֲשָׂ֗יו",
+      "gloss": "his works",
+      "sense": "S1"
     },
     {
-      "surface": "בכל",
-      "gloss": "in all"
+      "surface": "בְּכָל",
+      "gloss": "in all",
+      "sense": null
     },
     {
-      "surface": "מקמות",
-      "gloss": "places"
+      "surface": "מְקֹמ֥וֹת",
+      "gloss": "places of",
+      "sense": "S1"
     },
     {
-      "surface": "ממשלתו",
-      "gloss": "of his dominion"
+      "surface": "מֶמְשַׁלְתּ֑וֹ",
+      "gloss": "his dominion",
+      "sense": null
     },
     {
-      "surface": "ברכי",
-      "gloss": "bless"
+      "surface": "בָּרֲכִ֥י",
+      "gloss": "bless",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַ֝פְשִׁ֗י",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my nefesh"
+        "my life",
+        "my very self"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my nefesh": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:06.580511571Z",
+  "model": "glm-5.3"
 }

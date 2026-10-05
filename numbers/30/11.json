@@ -1,62 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And if in the house of her husband she vowed, or bound a bond upon her soul with an oath,",
+  "ref": "numbers 30:11",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "אסרה\/אסר",
+      "rationale": "verb 'she bound' repeated as its noun 'a binding', kept by cognate rendering"
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force, not 'soul'"
+    }
+  ],
+  "translation": "And if in the house of her husband she vowed, or bound a binding upon her nefesh with an oath,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6208c9d1bfa3b34264ce493e32d8935e0ca1abe47dbcd5fc419a329b921b3eee",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/30\/9-12.1791183400337.json",
+    "code": "debc18f6-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
   "tokens": [
     {
-      "surface": "ואם",
+      "surface": "וְאִם",
       "gloss": "And if"
     },
     {
-      "surface": "בית",
-      "gloss": "in the house"
+      "surface": "בֵּ֥ית",
+      "gloss": "in the house",
+      "sense": "S1"
     },
     {
-      "surface": "אישה",
-      "gloss": "of her husband"
+      "surface": "אִישָׁ֖הּ",
+      "gloss": "of her husband",
+      "sense": "S1"
     },
     {
-      "surface": "נדרה",
-      "gloss": "she vowed"
+      "surface": "נָדְרָ֖ה",
+      "gloss": "she vowed",
+      "sense": "S1"
     },
     {
-      "surface": "או",
-      "gloss": "or"
+      "surface": "אֽוֹ",
+      "gloss": "or",
+      "sense": "S1"
     },
     {
-      "surface": "אסרה",
-      "gloss": "bound"
+      "surface": "אָסְרָ֥ה",
+      "gloss": "bound",
+      "sense": "S1"
     },
     {
-      "surface": "אסר",
-      "gloss": "a bond",
-      "readings": [
-        "a bond",
-        "a binding-obligation"
-      ],
-      "held_by": {
-        "a bond": [
-          "en4"
-        ],
-        "a binding-obligation": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "אִסָּ֛ר",
+      "gloss": "a binding",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "upon"
     },
     {
-      "surface": "נפשה",
-      "gloss": "her soul"
+      "surface": "נַפְשָׁ֖הּ",
+      "gloss": "her nefesh",
+      "sense": "S1"
     },
     {
-      "surface": "בשבעה",
-      "gloss": "with an oath"
+      "surface": "בִּשְׁבֻעָֽה",
+      "gloss": "with an oath",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:56:40.348129957Z",
+  "model": "glm-5.3"
 }

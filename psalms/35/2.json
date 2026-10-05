@@ -1,28 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Take hold of shield and buckler, and rise up for my help.",
-  "tokens": [
+  "ref": "psalms 35:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 35,
+  "notes": [
     {
-      "surface": "החזק",
-      "gloss": "Take hold of"
+      "kind": "substitution",
+      "subject": "buckler",
+      "rationale": "צנה is the tall full-body shield, opposed to the small מגן; English needs two distinct shield-words."
     },
     {
-      "surface": "מגן",
-      "gloss": "shield"
-    },
-    {
-      "surface": "וצנה",
-      "gloss": "and buckler"
-    },
-    {
-      "surface": "וקומה",
-      "gloss": "and rise up"
-    },
-    {
-      "surface": "בעזרתי",
-      "gloss": "for my help"
+      "kind": "invitation",
+      "subject": "Take hold… and rise",
+      "rationale": "Continued imperatives to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Take hold of shield and buckler, and rise to my help.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "39f827750f602c4652e5729fa9463c3dc2dfea5cd748650ec71b4ef5b82efc6c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/35\/1-4.1791192619291.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַחֲזֵק",
+      "gloss": "Take hold of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָגֵן",
+      "gloss": "shield",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְצִנָּה",
+      "gloss": "and buckler",
+      "sense": "S1",
+      "readings": [
+        "and buckler",
+        "and large shield"
+      ]
+    },
+    {
+      "surface": "וְקוּמָה",
+      "gloss": "and rise",
+      "sense": null
+    },
+    {
+      "surface": "בְּעֶזְרָתִי",
+      "gloss": "to my help",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:30:19.292295358Z",
+  "model": "glm-5.3"
 }

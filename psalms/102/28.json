@@ -1,28 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "But you are the same, and your years will not end.",
-  "tokens": [
+  "ref": "psalms 102:28",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 102,
+  "notes": [
     {
-      "surface": "ואתה",
-      "gloss": "But you"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew verbless clause: 'and you — he\/the same'; a copula is supplied"
     },
     {
-      "surface": "הוא",
-      "gloss": "the same"
-    },
-    {
-      "surface": "ושנותיך",
-      "gloss": "and your years"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "יתמו",
-      "gloss": "will end"
+      "kind": "crux",
+      "subject": "הוא",
+      "rationale": "'you are he' (identity with the Creator of v.26) vs 'you are the same' (unchanging); the pronoun alone carries both"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you ⟨are⟩ the same, and your years will not come to an end.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "784df32a2e1c157ca65012208581b122daf563c99a092cffc407ce310fe5a17e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/102\/25-28.1791193259203.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאַתָּ֥ה",
+      "gloss": "And you",
+      "sense": null
+    },
+    {
+      "surface": "ה֑וּא",
+      "gloss": "the same",
+      "sense": null
+    },
+    {
+      "surface": "וּ֝שְׁנוֹתֶ֗יךָ",
+      "gloss": "and your years",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִתָּֽמּוּ",
+      "gloss": "will come to an end",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:59.204698012Z",
+  "model": "glm-5.3"
 }

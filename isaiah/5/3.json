@@ -1,62 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And now, ⟨you⟩ inhabitants of Jerusalem and men of Judah, judge please between me and between my vineyard.",
-  "tokens": [
+  "ref": "isaiah 5:3",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ועתה",
-      "gloss": "And now"
+      "kind": "invitation",
+      "subject": "שפטו נא",
+      "rationale": "the parable turns on its hearers: an imperative summoning Jerusalem and Judah to judge."
     },
     {
-      "surface": "יושב",
-      "gloss": "⟨you⟩ inhabitants"
+      "kind": "you",
+      "subject": "to Jerusalem and Judah",
+      "rationale": "direct address in the second person plural, the audience drawn inside the song."
+    }
+  ],
+  "translation": "And now, inhabitant of Jerusalem and man of Judah, judge now between me and my vineyard.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2364fd109e84e2e727e520da422c885d28e67277292807cb18db158ad1d0e125",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/5\/1-4.1791188078060.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְעַתָּה",
+      "gloss": "And now",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹשֵׁב",
+      "gloss": "inhabitant of",
+      "sense": "S1"
     },
     {
       "surface": "ירושלם",
-      "gloss": "of Jerusalem"
+      "gloss": "Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "ואיש",
-      "gloss": "and men"
+      "surface": "וְאִישׁ",
+      "gloss": "and man of",
+      "sense": null
     },
     {
-      "surface": "יהודה",
-      "gloss": "of Judah"
+      "surface": "יְהוּדָה",
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
-      "surface": "שפטו",
-      "gloss": "judge"
+      "surface": "שִׁפְטוּ",
+      "gloss": "judge",
+      "sense": "S1"
     },
     {
-      "surface": "נא",
-      "gloss": "please",
-      "readings": [
-        "please",
-        "now"
-      ],
-      "held_by": {
-        "please": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "now": [
-          "en4"
-        ]
-      }
+      "surface": "נָא",
+      "gloss": "now",
+      "sense": null
     },
     {
-      "surface": "ביני",
-      "gloss": "between me"
+      "surface": "בֵּינִי",
+      "gloss": "between me",
+      "sense": null
     },
     {
-      "surface": "ובין",
-      "gloss": "and between"
+      "surface": "וּבֵין",
+      "gloss": "and between",
+      "sense": null
     },
     {
-      "surface": "כרמי",
-      "gloss": "my vineyard"
+      "surface": "כַּרְמִי",
+      "gloss": "my vineyard",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:14:38.061968568Z",
+  "model": "glm-5.3"
 }

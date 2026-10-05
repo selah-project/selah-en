@@ -1,62 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "Yet you have made him lack a little from Elohim, and with glory and splendor you crown him.",
-  "tokens": [
+  "ref": "psalms 8:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "ותחסרהו",
-      "gloss": "Yet you have made him lack"
+      "kind": "crux",
+      "subject": "a little less than Elohim",
+      "rationale": "מעט מאלהים read as 'a little less than God' (following the Masoretic pointing) or 'a little while inferior to God'; LXX 'less than angels' fed later readings."
     },
     {
-      "surface": "מעט",
-      "gloss": "a little"
-    },
-    {
-      "surface": "מאלהים",
-      "gloss": "from Elohim",
-      "readings": [
-        "from Elohim",
-        "than Elohim"
-      ],
-      "held_by": {
-        "from Elohim": [
-          "v1",
-          "en4"
-        ],
-        "than Elohim": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וכבוד",
-      "gloss": "and with glory",
-      "readings": [
-        "and with glory",
-        "and weight"
-      ],
-      "held_by": {
-        "and with glory": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and weight": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "והדר",
-      "gloss": "and splendor"
-    },
-    {
-      "surface": "תעטרהו",
-      "gloss": "you crown him"
+      "kind": "alternative",
+      "subject": "little",
+      "rationale": "Some read מעט adverbially: 'for a little while You made him lower than Elohim.'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And You made him lack little of Elohim, and with glory and splendor You crown him.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "40dd0d3bf53620056c37557620397391c412856818f097ed93c73108d6287a5d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/8\/5-8.1791192390277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתְּחַסְּרֵ֣הוּ",
+      "gloss": "And You made him lack",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְּ֭עַט",
+      "gloss": "little",
+      "sense": "S1"
+    },
+    {
+      "surface": "מֵאֱלֹהִ֑ים",
+      "gloss": "of Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכָב֖וֹד",
+      "gloss": "and with glory",
+      "sense": "S1",
+      "readings": [
+        "and with glory",
+        "and with weight"
+      ]
+    },
+    {
+      "surface": "וְהָדָ֣ר",
+      "gloss": "and splendor",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּעַטְרֵֽהוּ",
+      "gloss": "You crown him",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:26:30.278632141Z",
+  "model": "glm-5.3"
 }

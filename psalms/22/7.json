@@ -1,48 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "But I am a worm and not a man; a reproach of mankind and despised by the people.",
-  "tokens": [
+  "ref": "psalms 22:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "ואנכי",
-      "gloss": "But I"
+      "kind": "addition",
+      "subject": "am",
+      "rationale": "Hebrew lacks a copula between 'I' and 'a worm'."
     },
     {
-      "surface": "תולעת",
-      "gloss": "a worm"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "איש",
-      "gloss": "a man"
-    },
-    {
-      "surface": "חרפת",
-      "gloss": "a reproach of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "mankind",
-      "readings": [
-        "mankind",
-        "Adam"
-      ]
-    },
-    {
-      "surface": "ובזוי",
-      "gloss": "and despised by"
-    },
-    {
-      "surface": "עם",
-      "gloss": "the people",
-      "readings": [
-        "the people",
-        "a people"
-      ]
+      "kind": "alternative",
+      "subject": "a worm",
+      "rationale": "תולעת literally a maggot; 'worm' is the softer traditional picture."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "But I am a worm, and not a man — a reproach of humankind, and despised of ⟨the⟩ people.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e3d32574fc3502f4b6624bbcb3e7c2bca988d5c2d919dfd67b3f412fb65c9f5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/5-8.1791192493232.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְאָנֹכִי",
+      "gloss": "But I",
+      "sense": null
+    },
+    {
+      "surface": "תּוֹלַעַת",
+      "gloss": "a worm",
+      "sense": null
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִישׁ",
+      "gloss": "a man",
+      "sense": null
+    },
+    {
+      "surface": "חֶרְפַּת",
+      "gloss": "a reproach of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָם",
+      "gloss": "humankind",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְזוּי",
+      "gloss": "and despised of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָם",
+      "gloss": "⟨the⟩ people",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:13.233639267Z",
+  "model": "glm-5.3"
 }

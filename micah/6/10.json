@@ -1,74 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Are there still, in the house of the wicked, treasures of wickedness, and the scant ephah that is accursed?",
+  "ref": "micah 6:10",
+  "book": "micah",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "רָשָׁע \/ רֶשַׁע",
+      "rationale": "the wicked (noun) and wickedness (cognate noun) ring against each other in one line, lost in English"
+    },
+    {
+      "kind": "measurement",
+      "subject": "the ephah scant",
+      "rationale": "the ephah, a dry measure deliberately made 'thin' — smaller than the prescribed size"
+    },
+    {
+      "kind": "crux",
+      "subject": "הַאִשׁ",
+      "rationale": "rare interrogative + אִשׁ 'is there' (also 2 Sam 14:19); word order in Hebrew puts עוד first, smoothed here"
+    }
+  ],
+  "translation": "Are there still treasures of wickedness in the house of the wicked, and the ephah scant — cursed?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c34dc11017337b49a23c1ad9eddae392d6068fe1a61787c6ace7d35e9b6f624",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/micah\/6\/9-12.1791191772093.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/micah.edn"
+  },
   "tokens": [
     {
-      "surface": "עוד",
+      "surface": "עוֹד",
       "gloss": "still"
     },
     {
-      "surface": "האש",
-      "gloss": "are there",
-      "readings": [
-        "are there",
-        "the fire"
-      ],
-      "held_by": {
-        "are there": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the fire": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "הַאִשׁ",
+      "gloss": "Are there",
+      "sense": "S2"
     },
     {
-      "surface": "בית",
-      "gloss": "in the house of"
+      "surface": "בֵּית",
+      "gloss": "in the house of",
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
+      "surface": "רָשָׁע",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "אצרות",
-      "gloss": "treasures"
+      "surface": "אֹצְרֹת",
+      "gloss": "treasures",
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
-      "gloss": "of wickedness"
+      "surface": "רֶשַׁע",
+      "gloss": "of wickedness",
+      "sense": "S1"
     },
     {
-      "surface": "ואיפת",
-      "gloss": "and the scant ephah"
+      "surface": "וְאֵיפַת",
+      "gloss": "and the ephah",
+      "sense": "S1"
     },
     {
-      "surface": "רזון",
+      "surface": "רָזוֹן",
       "gloss": "scant",
-      "readings": [
-        "scant",
-        "leanness"
-      ],
-      "held_by": {
-        "scant": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "leanness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "זעומה",
-      "gloss": "that is accursed"
+      "surface": "זְעוּמָה",
+      "gloss": "cursed",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:16:12.094000191Z",
+  "model": "glm-5.3"
 }

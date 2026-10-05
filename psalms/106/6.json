@@ -1,28 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "We have sinned with our fathers; we have acted crookedly, we have done wickedly.",
-  "tokens": [
+  "ref": "psalms 106:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 106,
+  "notes": [
     {
-      "surface": "חטאנו",
-      "gloss": "we have sinned"
-    },
-    {
-      "surface": "עם",
-      "gloss": "with"
-    },
-    {
-      "surface": "אבותינו",
-      "gloss": "our fathers"
-    },
-    {
-      "surface": "העוינו",
-      "gloss": "we have acted crookedly"
-    },
-    {
-      "surface": "הרשענו",
-      "gloss": "we have done wickedly"
+      "kind": "crux",
+      "subject": "עִם אֲבוֹתֵינוּ",
+      "rationale": "'together with our fathers' vs 'like our fathers'; the confession reads either way"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "We have sinned like our fathers; we have done wrong, we have acted wickedly.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4534868f8cd6056b6f28bda6adb2387babccc7e91f15a9e3c5aebba2a9400978",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/106\/5-8.1791193311538.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָטָאנוּ",
+      "gloss": "we have sinned",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִם",
+      "gloss": "like",
+      "readings": [
+        "like",
+        "together with"
+      ]
+    },
+    {
+      "surface": "אֲבוֹתֵינוּ",
+      "gloss": "our fathers",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶעֱוִינוּ",
+      "gloss": "we have done wrong",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִרְשָׁעְנוּ",
+      "gloss": "we have acted wickedly",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:51.539081412Z",
+  "model": "glm-5.3"
 }

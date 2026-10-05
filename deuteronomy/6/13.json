@@ -1,40 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "⟨את⟩ YHWH your Elohim you shall fear, and ⟨את⟩ him you shall serve, and by his name you shall swear.",
-  "tokens": [
+  "ref": "deuteronomy 6:13",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Second-person singular commands addressed to Israel."
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
-    },
-    {
-      "surface": "תירא",
-      "gloss": "you shall fear"
-    },
-    {
-      "surface": "ואתו",
-      "gloss": "and ⟨את⟩ him"
-    },
-    {
-      "surface": "תעבד",
-      "gloss": "you shall serve"
-    },
-    {
-      "surface": "ובשמו",
-      "gloss": "and by his name"
-    },
-    {
-      "surface": "תשבע",
-      "gloss": "you shall swear"
+      "kind": "crux",
+      "subject": "fear",
+      "rationale": "ירא rendered 'fear' vs 'revere'; the literal fear-sense kept."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "⟨את⟩ YHWH your Elohim you shall fear, and ⟨את⟩ him you shall serve, and in his name you shall swear.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "054e6648e814ef1b8e431cdf5617cca6898a27576a83a6d9fb08b2b09d00631b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/6\/13-16.1791183707285.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "YHWH your Elohim",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָ֧ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהֶ֛יךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּירָ֖א",
+      "gloss": "you shall fear",
+      "readings": [
+        "you shall fear",
+        "you shall revere"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֹת֣וֹ",
+      "gloss": "and ⟨את⟩ him",
+      "marks": "him — YHWH",
+      "sense": null
+    },
+    {
+      "surface": "תַעֲבֹ֑ד",
+      "gloss": "you shall serve",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבִשְׁמ֖וֹ",
+      "gloss": "and in his name",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשָּׁבֵֽעַ",
+      "gloss": "you shall swear",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:01:47.286823010Z",
+  "model": "glm-5.3"
 }

@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "They have gaped upon me with their mouth; with reproach they have struck my cheeks; together against me they fill themselves.",
-  "tokens": [
+  "ref": "job 16:10",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 16,
+  "notes": [
     {
-      "surface": "פערו",
-      "gloss": "They have gaped"
+      "kind": "alternative",
+      "subject": "they gathered themselves",
+      "rationale": "Hitpael of מלא here means to band together; the literal 'filled themselves' is the root's plain sense."
     },
     {
-      "surface": "עלי",
-      "gloss": "upon me"
-    },
-    {
-      "surface": "בפיהם",
-      "gloss": "with their mouth"
-    },
-    {
-      "surface": "בחרפה",
-      "gloss": "with reproach"
-    },
-    {
-      "surface": "הכו",
-      "gloss": "they have struck"
-    },
-    {
-      "surface": "לחיי",
-      "gloss": "my cheeks"
-    },
-    {
-      "surface": "יחד",
-      "gloss": "together"
-    },
-    {
-      "surface": "עלי",
-      "gloss": "against me"
-    },
-    {
-      "surface": "יתמלאון",
-      "gloss": "they fill themselves",
-      "readings": [
-        "they fill themselves",
-        "they gather themselves"
-      ],
-      "held_by": {
-        "they fill themselves": [
-          "en4"
-        ],
-        "they gather themselves": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "חרפה \/ לחיי",
+      "rationale": "Striking the cheek with scorn echoes the shaming gesture; לחיי is dual, 'both my cheeks'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They opened wide against me with their mouth; with scorn they struck my cheek; together against me they gathered themselves.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "db2baf71f8ca850fe0cecdb954731a07415a8ce7fc79e420a05fe8b9b381f129",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/16\/9-12.1791194311356.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "פָּעֲר֬וּ",
+      "gloss": "they opened wide",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַ֨י",
+      "gloss": "against me",
+      "sense": null
+    },
+    {
+      "surface": "בְּפִיהֶ֗ם",
+      "gloss": "their mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחֶרְפָּ֭ה",
+      "gloss": "with scorn",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִכּ֣וּ",
+      "gloss": "they struck",
+      "sense": null
+    },
+    {
+      "surface": "לְחָיָ֑י",
+      "gloss": "my cheek",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַ֝֗חַד",
+      "gloss": "together",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַ֥י",
+      "gloss": "against me",
+      "sense": null
+    },
+    {
+      "surface": "יִתְמַלָּֽאוּן",
+      "gloss": "they gathered themselves",
+      "readings": [
+        "they gathered themselves",
+        "they filled themselves"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:58:31.357438316Z",
+  "model": "glm-5.3"
 }

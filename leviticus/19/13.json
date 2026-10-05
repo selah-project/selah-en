@@ -1,89 +1,101 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "You shall not oppress ⟨את⟩ your neighbor, and you shall not rob; the labor of a hired worker shall not stay overnight ⟨את⟩ with you until morning.",
-  "tokens": [
+  "ref": "leviticus 19:13",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "לא",
-      "gloss": "you shall not"
+      "kind": "idiom",
+      "subject": "אִתְּךָ עַד בֹקר",
+      "rationale": "literally 'with you until morning' — wages kept overnight; the sense carried, the picture kept"
     },
     {
-      "surface": "תעשק",
-      "gloss": "oppress"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "רעך",
-      "gloss": "your neighbor"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and you shall not"
-    },
-    {
-      "surface": "תגזל",
-      "gloss": "rob"
-    },
-    {
-      "surface": "לא",
-      "gloss": "you shall not"
-    },
-    {
-      "surface": "תלין",
-      "gloss": "keep overnight",
-      "readings": [
-        "keep overnight",
-        "stay overnight"
-      ],
-      "held_by": {
-        "keep overnight": [
-          "v1"
-        ],
-        "stay overnight": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "פעלת",
-      "gloss": "the labor of",
-      "readings": [
-        "the labor of",
-        "the wages of"
-      ],
-      "held_by": {
-        "the labor of": [
-          "v1",
-          "en4"
-        ],
-        "the wages of": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "שכיר",
-      "gloss": "of a hired worker"
-    },
-    {
-      "surface": "אתך",
-      "gloss": "⟨את⟩ with you"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until"
-    },
-    {
-      "surface": "בקר",
-      "gloss": "morning"
+      "kind": "alternative",
+      "subject": "תָלִין",
+      "rationale": "3rd feminine singular verb agreeing with פעלה (wages); 'it shall not stay overnight'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "You shall not oppress ⟨את⟩ your neighbor, and you shall not rob. The wages of a hired worker shall not stay overnight ⟨את⟩ with you until morning.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2831e0a24ad4141800de5c91eb9487fc341c5db50d5e92a614a74e3f7e557f8a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/13-16.1791182533170.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַעֲשֹׁ֥ק",
+      "gloss": "you shall oppress",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your neighbor",
+      "sense": null
+    },
+    {
+      "surface": "רֵֽעֲךָ֖",
+      "gloss": "your neighbor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹ֣א",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִגְזֹ֑ל",
+      "gloss": "you shall rob",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹֽא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תָלִ֞ין",
+      "gloss": "shall stay overnight",
+      "sense": "S1"
+    },
+    {
+      "surface": "פְּעֻלַּ֥ת",
+      "gloss": "the wages of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׂכִ֛יר",
+      "gloss": "a hired worker",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִתְּךָ֖",
+      "gloss": "⟨את⟩ with you",
+      "sense": null
+    },
+    {
+      "surface": "עַד",
+      "gloss": "until",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֹּֽקֶר",
+      "gloss": "morning",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:42:13.171293110Z",
+  "model": "glm-5.3"
 }

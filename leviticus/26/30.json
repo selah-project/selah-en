@@ -1,82 +1,120 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And I will destroy ⟨את⟩ your high places, and cut off ⟨את⟩ your sun-pillars, and lay ⟨את⟩ your carcasses upon the carcasses of your idols; and my soul shall abhor ⟨את⟩ you.",
-  "tokens": [
+  "ref": "leviticus 26:30",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "והשמדתי",
-      "gloss": "and I will destroy"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש is throat\/life-force\/personhood, not 'soul'; left untranslated to keep the form"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "kind": "wordplay",
+      "subject": "פגריכם \/ פגרי גלוליכם",
+      "rationale": "the same word 'carcass' applied to the people and to their idols — corpses heaped on corpse-like logs"
     },
     {
-      "surface": "במתיכם",
-      "gloss": "your high places"
-    },
-    {
-      "surface": "והכרתי",
-      "gloss": "and I will cut off"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "חמניכם",
-      "gloss": "your sun-pillars"
-    },
-    {
-      "surface": "ונתתי",
-      "gloss": "and I will lay"
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "פגריכם",
-      "gloss": "your carcasses"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "פגרי",
-      "gloss": "the carcasses of"
-    },
-    {
-      "surface": "גלוליכם",
-      "gloss": "your idols",
-      "readings": [
-        "your idols",
-        "your dung-idols"
-      ],
-      "held_by": {
-        "your idols": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "your dung-idols": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וגעלה",
-      "gloss": "and shall abhor"
-    },
-    {
-      "surface": "נפשי",
-      "gloss": "my soul"
-    },
-    {
-      "surface": "אתכם",
-      "gloss": "⟨את⟩ you"
+      "kind": "crux",
+      "subject": "במות",
+      "rationale": "'high places' (cult sites on elevations) vs 'shrines'; the elevated picture is kept"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And I will destroy ⟨את⟩ your high places, and I will cut off ⟨את⟩ your sun-pillars, and I will set ⟨את⟩ your carcasses upon the carcasses of your idols, and my nefesh will detest ⟨את⟩ you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9573dc7778b1cd082cdc0e8198497c0a8c34fea34b431f9deb31ed5b29a50eed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/26\/29-32.1791182705630.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְהִשְׁמַדְתִּי",
+      "gloss": "and I will destroy",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your high places"
+    },
+    {
+      "surface": "בָּמֹתֵיכֶם",
+      "gloss": "your high places",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִכְרַתִּי",
+      "gloss": "and I will cut off",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your sun-pillars"
+    },
+    {
+      "surface": "חַמָּנֵיכֶם",
+      "gloss": "your sun-pillars",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנָתַתִּי",
+      "gloss": "and I will set",
+      "sense": null
+    },
+    {
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "your carcasses"
+    },
+    {
+      "surface": "פִּגְרֵיכֶם",
+      "gloss": "your carcasses",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "פִּגְרֵי",
+      "gloss": "the carcasses of",
+      "sense": "S1"
+    },
+    {
+      "surface": "גִּלּוּלֵיכֶם",
+      "gloss": "your idols",
+      "sense": null
+    },
+    {
+      "surface": "וְגָעֲלָה",
+      "gloss": "and will detest",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my nefesh",
+      "readings": [
+        "my nefesh",
+        "my life",
+        "my throat"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶתְכֶם",
+      "gloss": "⟨את⟩ you",
+      "marks": ""
+    }
+  ],
+  "timestamp": "2026-10-05T06:45:05.631602072Z",
+  "model": "glm-5.3"
 }

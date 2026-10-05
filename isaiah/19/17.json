@@ -1,26 +1,58 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "And the land of Judah shall become for trembling to Egypt; everyone who mentions ⟨את⟩ her to him shall fear, from before the counsel of YHWH of hosts, which he is counseling against it.",
+  "ref": "isaiah 19:17",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "hapax",
+      "subject": "חגא",
+      "rationale": "Occurs only here; the lexicon pictures vertigo, dizziness — rendered as a thing that inspires fear."
+    },
+    {
+      "kind": "crux",
+      "subject": "עליו",
+      "rationale": "The counsel is 'counseled upon' Egypt — rendered 'upon it' rather than smoothed to 'against'."
+    }
+  ],
+  "translation": "And the soil of Judah will become to Egypt a terror; everyone who mentions ⟨את⟩ her to it will fear, from before the counsel of YHWH of hosts, which he is counseling upon it.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8cbe1d0b899fffe4cefc9b5764127f1873650eceee1a3f118c2e96bd7297b766",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/19\/17-20.1791188285849.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
       "surface": "והיתה",
-      "gloss": "And it shall become"
+      "gloss": "and she will become",
+      "sense": null
     },
     {
       "surface": "אדמת",
-      "gloss": "the land of"
+      "gloss": "the soil of",
+      "sense": "S1"
     },
     {
       "surface": "יהודה",
-      "gloss": "Judah"
+      "gloss": "Judah",
+      "sense": "S1"
     },
     {
       "surface": "למצרים",
-      "gloss": "to Egypt"
+      "gloss": "to Egypt",
+      "sense": "S1"
     },
     {
       "surface": "לחגא",
-      "gloss": "for trembling"
+      "gloss": "for a terror",
+      "sense": "S1"
     },
     {
       "surface": "כל",
@@ -32,19 +64,23 @@
     },
     {
       "surface": "יזכיר",
-      "gloss": "mentions"
+      "gloss": "mentions",
+      "sense": "S1"
     },
     {
       "surface": "אתה",
-      "gloss": "⟨את⟩ her"
+      "gloss": "⟨את⟩ her",
+      "marks": "her — the soil of Judah",
+      "sense": null
     },
     {
       "surface": "אליו",
-      "gloss": "to him"
+      "gloss": "to it"
     },
     {
       "surface": "יפחד",
-      "gloss": "shall fear"
+      "gloss": "will fear",
+      "sense": "S1"
     },
     {
       "surface": "מפני",
@@ -52,15 +88,18 @@
     },
     {
       "surface": "עצת",
-      "gloss": "the counsel of"
+      "gloss": "the counsel of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "צבאות",
-      "gloss": "of hosts"
+      "gloss": "of hosts",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -72,13 +111,14 @@
     },
     {
       "surface": "יועץ",
-      "gloss": "is counseling"
+      "gloss": "is counseling",
+      "sense": "S1"
     },
     {
       "surface": "עליו",
-      "gloss": "against it"
+      "gloss": "upon it"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:18:05.850712792Z",
+  "model": "glm-5.3"
 }

@@ -1,87 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "Nations roar, kingdoms totter; he gives with his voice — the earth melts.",
-  "tokens": [
+  "ref": "psalms 46:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 46,
+  "notes": [
     {
-      "surface": "המו",
-      "gloss": "roar",
-      "readings": [
-        "roar",
-        "rage",
-        "be in commotion"
-      ],
-      "held_by": {
-        "roar": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "rage": [
-          "en4"
-        ],
-        "be in commotion": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "idiom",
+      "subject": "נתן בקולו",
+      "rationale": "literally 'gave in His voice', i.e. He thundered; rendered 'gave His voice' to keep the verb's shape."
     },
     {
-      "surface": "גוים",
-      "gloss": "the nations"
+      "kind": "wordplay",
+      "subject": "מטו\/תמוג",
+      "rationale": "the near-rhyme of totter (מוט) and melt (מוג) answers the roaring of the nations with the earth's dissolution."
     },
     {
-      "surface": "מטו",
-      "gloss": "totter",
-      "readings": [
-        "totter",
-        "slip"
-      ],
-      "held_by": {
-        "totter": [
-          "v2",
-          "v3"
-        ],
-        "slip": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ממלכות",
-      "gloss": "kingdoms"
-    },
-    {
-      "surface": "נתן",
-      "gloss": "he gives"
-    },
-    {
-      "surface": "בקולו",
-      "gloss": "with his voice"
-    },
-    {
-      "surface": "תמוג",
-      "gloss": "melts"
-    },
-    {
-      "surface": "ארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "roar",
+      "rationale": "המה is a low hum or tumult; 'roar' carries the sound of the sea-figure from v. 4."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Nations roar, kingdoms totter; He gave ⟨את⟩ His voice — the earth melts.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "138b5b08f7dd3068976afb0239499873e5893bb09f55aea570c91eee6d8f1e12",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/46\/5-8.1791192724714.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הָמוּ",
+      "gloss": "roar",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹיִם",
+      "gloss": "Nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָטוּ",
+      "gloss": "totter",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַמְלָכוֹת",
+      "gloss": "kingdoms",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָתַן",
+      "gloss": "He gave",
+      "sense": null
+    },
+    {
+      "surface": "בְּקוֹלוֹ",
+      "gloss": "⟨את⟩ His voice",
+      "sense": null
+    },
+    {
+      "surface": "תָּמוּג",
+      "gloss": "melts",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:04.715492735Z",
+  "model": "glm-5.3"
 }

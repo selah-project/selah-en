@@ -1,57 +1,59 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "His face will you lift, or for El will you contend?",
-  "tokens": [
+  "ref": "job 13:8",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
     {
-      "surface": "הפניו",
-      "gloss": "his face"
+      "kind": "idiom",
+      "subject": "lift the face",
+      "rationale": "Lit. 'lift his face' = show partiality; the literal picture kept."
     },
     {
-      "surface": "תשאון",
-      "gloss": "will you lift"
-    },
-    {
-      "surface": "אם",
-      "gloss": "or",
-      "readings": [
-        "or",
-        "whether"
-      ],
-      "held_by": {
-        "or": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "whether": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "לאל",
-      "gloss": "for El"
-    },
-    {
-      "surface": "תריבון",
-      "gloss": "will you contend",
-      "readings": [
-        "will you contend",
-        "would you strive"
-      ],
-      "held_by": {
-        "will you contend": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "would you strive": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "אם",
+      "rationale": "Read as interrogative 'or that' introducing the second stinger question, not a conditional 'if'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "His face will you lift, that for El you contend?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "57b8c8e1bd4d6661db2a37dc21b8ff994bbdbe1f5fb6489eefa4a9522af7c4ae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/13\/5-8.1791194266606.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲפָנָ֥יו",
+      "gloss": "His face",
+      "sense": "S2"
+    },
+    {
+      "surface": "תִּשָּׂא֑וּן",
+      "gloss": "will you lift",
+      "sense": "S1"
+    },
+    {
+      "surface": "אִ֥ם",
+      "gloss": "that"
+    },
+    {
+      "surface": "לָאֵ֥ל",
+      "gloss": "for El",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּרִיבֽוּן",
+      "gloss": "you contend",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:46.607538914Z",
+  "model": "glm-5.3"
 }

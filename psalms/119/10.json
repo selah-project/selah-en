@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "With all my heart I have sought you; do not let me stray from your commandments.",
-  "tokens": [
+  "ref": "psalms 119:10",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 119,
+  "notes": [
     {
-      "surface": "בכל",
-      "gloss": "With all"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "the psalmist addresses YHWH directly in the second person"
     },
     {
-      "surface": "לבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "דרשתיך",
-      "gloss": "I have sought you",
-      "readings": [
-        "I have sought you",
-        "I have trodden after you"
-      ],
-      "held_by": {
-        "I have sought you": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I have trodden after you": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "אל",
-      "gloss": "do not"
-    },
-    {
-      "surface": "תשגני",
-      "gloss": "let me stray"
-    },
-    {
-      "surface": "ממצותיך",
-      "gloss": "from your commandments"
+      "kind": "crux",
+      "subject": "do not make me stray",
+      "rationale": "hiphil of שגה is causative — the straying is caused, here by God permitting it; many versions soften to 'let me not wander'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "With all my heart I have sought you; do not make me stray from your commandments.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e4616dfaea5e65f5856ae618c242b88eeef442f24a3bc7776bd2fbdccc73d882",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/119\/9-12.1791193446736.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּכָל",
+      "gloss": "with all",
+      "sense": null
+    },
+    {
+      "surface": "לִבִּי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְרַשְׁתִּיךָ",
+      "gloss": "I have sought you",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "תַּשְׁגֵּנִי",
+      "gloss": "make me stray",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִמִּצְוֺתֶיךָ",
+      "gloss": "from your commandments",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:44:06.737163799Z",
+  "model": "glm-5.3"
 }

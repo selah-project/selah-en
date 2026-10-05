@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "According to your knowledge that I am not wicked, and there is none from your hand delivering.",
-  "tokens": [
+  "ref": "job 10:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "על",
-      "gloss": "according to"
+      "kind": "crux",
+      "subject": "על דעתך",
+      "rationale": "'According to your knowledge' vs causal 'since you know'; rendered as concessive 'though you know'."
     },
     {
-      "surface": "דעתך",
-      "gloss": "your knowledge"
-    },
-    {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ארשע",
-      "gloss": "I am wicked",
-      "readings": [
-        "I am wicked",
-        "I do wrong"
-      ],
-      "held_by": {
-        "I am wicked": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "I do wrong": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ואין",
-      "gloss": "and there is none"
-    },
-    {
-      "surface": "מידך",
-      "gloss": "from your hand"
-    },
-    {
-      "surface": "מציל",
-      "gloss": "delivering",
-      "readings": [
-        "delivering",
-        "snatching away"
-      ],
-      "held_by": {
-        "delivering": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "snatching away": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "⟨there is⟩ \/ ⟨me⟩",
+      "rationale": "English requires the existential verb and the object pronoun Hebrew leaves implicit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "though you know that I am not guilty, and ⟨there is⟩ no one to snatch ⟨me⟩ from your hand!",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "be3ac6cdb09c31e51904be55f4df52fd5cc2da3112c503be75f8ac87d6c694ea",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/10\/5-8.1791194230277.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַֽל",
+      "gloss": "though",
+      "sense": null
+    },
+    {
+      "surface": "דַּעְתְּךָ֭",
+      "gloss": "you know",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּ֣י",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶרְשָׁ֑ע",
+      "gloss": "I am guilty",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֵ֖ין",
+      "gloss": "and ⟨there is⟩ no one",
+      "sense": null
+    },
+    {
+      "surface": "מִיָּדְךָ֣",
+      "gloss": "from your hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַצִּֽיל",
+      "gloss": "snatching ⟨me⟩",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:10.278258930Z",
+  "model": "glm-5.3"
 }

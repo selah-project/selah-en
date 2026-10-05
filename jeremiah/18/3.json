@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "And I went down to the house of the potter, and behold, he was doing a work on the wheels.",
+  "ref": "jeremiah 18:3",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "the two stones",
+      "rationale": "הָאָבְנָיִם is a dual, 'the two stones', the potter's wheel of two stone discs; traditionally 'the wheels'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "עֹשֶׂה מְלָאכָה",
+      "rationale": "verb and cognate noun, 'working a work', kept doubled in English"
+    }
+  ],
+  "translation": "And I went down to the house of the potter, and there he was, working a work on the two stones.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8f4b2d39aba2276131faf84c8ef6174bfa4fcd6841f51aff6217cb87a4e04d4e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/18\/1-4.1791189387007.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
-      "surface": "וארד",
-      "gloss": "And I went down"
+      "surface": "וָאֵרֵד",
+      "gloss": "And I went down",
+      "sense": "S1"
     },
     {
-      "surface": "בית",
-      "gloss": "the house of"
+      "surface": "בֵּית",
+      "gloss": "to the house of",
+      "sense": "S1"
     },
     {
-      "surface": "היוצר",
+      "surface": "הַיּוֹצֵר",
       "gloss": "the potter",
-      "readings": [
-        "the potter",
-        "the one who shapes"
-      ],
-      "held_by": {
-        "the potter": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the one who shapes": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "והנהו",
-      "gloss": "and behold"
+      "gloss": "and there he was",
+      "sense": null
     },
     {
-      "surface": "עשה",
-      "gloss": "doing"
+      "surface": "עֹשֶׂה",
+      "gloss": "working",
+      "sense": "S1"
     },
     {
-      "surface": "מלאכה",
-      "gloss": "a work"
+      "surface": "מְלָאכָה",
+      "gloss": "a work",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "on"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "האבנים",
-      "gloss": "the wheels",
-      "readings": [
-        "the wheels",
-        "the two stones"
-      ],
-      "held_by": {
-        "the wheels": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "the two stones": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "הָאָבְנָיִם",
+      "gloss": "the two stones",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:36:27.008874261Z",
+  "model": "glm-5.3"
 }

@@ -1,44 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "They wandered in the wilderness, in a desert way — a city of dwelling they did not find.",
-  "tokens": [
+  "ref": "psalms 107:4",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 107,
+  "notes": [
     {
-      "surface": "תעו",
-      "gloss": "They wandered"
-    },
-    {
-      "surface": "במדבר",
-      "gloss": "in the wilderness",
-      "readings": [
-        "in the wilderness",
-        "in the desert"
-      ]
-    },
-    {
-      "surface": "בישימון",
-      "gloss": "in a desert"
-    },
-    {
-      "surface": "דרך",
-      "gloss": "way"
-    },
-    {
-      "surface": "עיר",
-      "gloss": "city"
-    },
-    {
-      "surface": "מושב",
-      "gloss": "of dwelling"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "מצאו",
-      "gloss": "they found"
+      "kind": "crux",
+      "subject": "דרך",
+      "rationale": "dangling noun after ישימון: 'a way of…' — some read 'the way to a city', others a broken construct; kept bare"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "They wandered in the wilderness, in a wasteland — a way; a city to dwell in they did not find.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f681a9f61e488972684fa272a77084ae67de686b560c2131fff182948f8037e1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/107\/1-4.1791193329028.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תָּע֣וּ",
+      "gloss": "They wandered",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּמִּדְבָּ֭ר",
+      "gloss": "in the wilderness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיִשִׁימ֣וֹן",
+      "gloss": "in wasteland",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֶּ֣רֶךְ",
+      "gloss": "a way",
+      "sense": "S1"
+    },
+    {
+      "surface": "עִ֥יר",
+      "gloss": "a city of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מוֹשָׁ֗ב",
+      "gloss": "dwelling",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹ֣א",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָצָֽאוּ",
+      "gloss": "they found",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:09.029023556Z",
+  "model": "glm-5.3"
 }

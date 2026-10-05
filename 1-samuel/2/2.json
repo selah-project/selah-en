@@ -1,59 +1,84 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "There is none holy like YHWH, for there is none besides You, and there is no rock like our Elohim.",
+  "ref": "1-samuel 2:2",
+  "book": "1-samuel",
+  "lang": "en6",
+  "chapter": 2,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "rock",
+      "rationale": "צור literally a cliff or boulder; here a title for God as protector, the literal picture kept"
+    },
+    {
+      "kind": "addition",
+      "subject": "there is",
+      "rationale": "English expletive supplied for the Hebrew negative אין, which has no verb"
+    }
+  ],
+  "translation": "There is no holy one like YHWH, for there is none besides you, and there is no rock like our Elohim.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f7ac64b1af2da9e6086d3679c64e95f9a852806e4e941da49bcfc864f984aa72",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-samuel\/2\/1-4.1791185391759.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-samuel.edn"
+  },
   "tokens": [
     {
-      "surface": "אין",
-      "gloss": "there is none"
+      "surface": "אֵין",
+      "gloss": "there is no",
+      "sense": null
     },
     {
-      "surface": "קדוש",
-      "gloss": "holy"
+      "surface": "קָדוֹשׁ",
+      "gloss": "holy one",
+      "sense": "S1"
     },
     {
-      "surface": "כיהוה",
-      "gloss": "like YHWH"
+      "surface": "כַּיהוָה",
+      "gloss": "like YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "אין",
-      "gloss": "there is none"
+      "surface": "אֵין",
+      "gloss": "there is none",
+      "sense": null
     },
     {
-      "surface": "בלתך",
-      "gloss": "besides You"
+      "surface": "בִלְתֶּךָ",
+      "gloss": "besides you",
+      "sense": null
     },
     {
-      "surface": "ואין",
-      "gloss": "and there is no"
+      "surface": "וְאֵין",
+      "gloss": "and there is no",
+      "sense": null
     },
     {
-      "surface": "צור",
+      "surface": "צוּר",
       "gloss": "rock",
+      "sense": "S1",
       "readings": [
         "rock",
         "cliff"
-      ],
-      "held_by": {
-        "rock": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "cliff": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "כאלהינו",
-      "gloss": "like our Elohim"
+      "surface": "כֵּאלֹהֵינוּ",
+      "gloss": "like our Elohim",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:29:51.761145201Z",
+  "model": "glm-5.3"
 }

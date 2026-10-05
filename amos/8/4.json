@@ -1,65 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "Hear this, ⟨you⟩ who swallow up the needy, and to make the poor of the land cease,",
+  "ref": "amos 8:4",
+  "book": "amos",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "Hear this",
+      "rationale": "imperative summons opening the oracle."
+    },
+    {
+      "kind": "you",
+      "subject": "to the exploiters of the poor",
+      "rationale": "direct address to the merchants who oppress the needy."
+    },
+    {
+      "kind": "crux",
+      "subject": "ענוי",
+      "rationale": "ketiv עניו 'humble' vs qere עניי 'poor of' — the qere fits 'poor of the land'."
+    }
+  ],
+  "translation": "Hear this, you who trample the needy, and put an end to the poor of the land.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1c735faacb9baf36e7e53dcc8c381e0459c97bfeb0e0c64ac433d666cca93c91",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/amos\/8\/1-4.1791191555606.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/amos.edn"
+  },
   "tokens": [
     {
-      "surface": "שמעו",
-      "gloss": "Hear"
+      "surface": "שִׁמְעוּ",
+      "gloss": "Hear",
+      "sense": null
     },
     {
-      "surface": "זאת",
-      "gloss": "this"
+      "surface": "זֹאת",
+      "gloss": "this",
+      "sense": null
     },
     {
-      "surface": "השאפים",
-      "gloss": "swallowing up",
-      "readings": [
-        "swallowing up",
-        "panting after"
-      ],
-      "held_by": {
-        "swallowing up": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "panting after": [
-          "en4"
-        ]
-      }
+      "surface": "הַשֹּׁאֲפִים",
+      "gloss": "you who trample",
+      "sense": "S1"
     },
     {
-      "surface": "אביון",
-      "gloss": "the needy"
+      "surface": "אֶבְיוֹן",
+      "gloss": "the needy",
+      "sense": "S1"
     },
     {
-      "surface": "ולשבית",
-      "gloss": "and to make cease"
+      "surface": "ולְשַׁבִּית",
+      "gloss": "and put an end to",
+      "sense": "S1"
     },
     {
       "surface": "ענוי",
-      "gloss": "the poor of"
+      "gloss": "the afflicted of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָרֶץ",
       "gloss": "the land",
-      "readings": [
-        "the land",
-        "the earth"
-      ],
-      "held_by": {
-        "the land": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the earth": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:12:35.607323827Z",
+  "model": "glm-5.3"
 }

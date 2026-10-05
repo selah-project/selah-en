@@ -1,58 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Shall I not, as I have done to Samaria and to her idols, so I will do to Jerusalem and to her idols?",
-  "tokens": [
+  "ref": "isaiah 10:11",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "הלא",
-      "gloss": "Shall I not"
+      "kind": "addition",
+      "subject": "shall I",
+      "rationale": "The verb 'do' is repeated in Hebrew but English needs the auxiliary frame 'shall I … do' split across the verse."
     },
     {
-      "surface": "כאשר",
+      "kind": "crux",
+      "subject": "עצביה",
+      "rationale": "'Her images' — the Hebrew implies Jerusalem has images of her own, a sharp accusation against Judah."
+    }
+  ],
+  "translation": "shall I not, as I have done to Samaria and to her idols, so do to Jerusalem and to her images?”",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b757003119aa3a4f3fac36c77178fad4299211130a355b8023df8f5129d79ce5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/10\/9-12.1791188182267.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲלֹ֗א",
+      "gloss": "shall I not",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּאֲשֶׁ֥ר",
       "gloss": "as"
     },
     {
-      "surface": "עשיתי",
-      "gloss": "I have done"
+      "surface": "עָשִׂ֛יתִי",
+      "gloss": "I have done",
+      "sense": "S1"
     },
     {
-      "surface": "לשמרון",
-      "gloss": "to Samaria"
+      "surface": "לְשֹׁמְר֖וֹן",
+      "gloss": "to Samaria",
+      "sense": "S1"
     },
     {
-      "surface": "ולאליליה",
-      "gloss": "and to her idols"
+      "surface": "וְלֶאֱלִילֶ֑יהָ",
+      "gloss": "and to her idols",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
+      "surface": "כֵּ֛ן",
       "gloss": "so"
     },
     {
-      "surface": "אעשה",
-      "gloss": "I will do"
+      "surface": "אֶעֱשֶׂ֥ה",
+      "gloss": "I will do",
+      "sense": "S1"
     },
     {
-      "surface": "לירושלם",
-      "gloss": "to Jerusalem"
+      "surface": "לִירוּשָׁלִַ֖ם",
+      "gloss": "to Jerusalem",
+      "sense": "S1"
     },
     {
-      "surface": "ולעצביה",
-      "gloss": "and to her idols",
-      "readings": [
-        "and to her idols",
-        "and to her grievous things"
-      ],
-      "held_by": {
-        "and to her idols": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and to her grievous things": [
-          "en4"
-        ]
-      }
+      "surface": "וְלַעֲצַבֶּֽיהָ",
+      "gloss": "and to her images",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:16:22.268631198Z",
+  "model": "glm-5.3"
 }

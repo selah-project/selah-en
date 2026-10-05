@@ -1,66 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Guard me as the pupil, the daughter of the eye; in the shadow of your wings hide me.",
-  "tokens": [
+  "ref": "psalms 17:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "שמרני",
-      "gloss": "guard me"
+      "kind": "substitution",
+      "subject": "little-man of the daughter of the eye",
+      "rationale": "אישון בת עין is literally 'the little man of the daughter of the eye' — the pupil seen as a tiny reflection of a person; idiom usually collapsed to 'apple of the eye'."
     },
     {
-      "surface": "כאישון",
-      "gloss": "as the pupil",
-      "readings": [
-        "as the pupil",
-        "as the little man"
-      ],
-      "held_by": {
-        "as the pupil": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "as the little man": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "אישון\/בת",
+      "rationale": "The Hebrew pictures the pupil as a 'little man' and the eye as its 'daughter' — the personification is lost in ordinary English."
     },
     {
-      "surface": "בת",
-      "gloss": "daughter"
-    },
-    {
-      "surface": "עין",
-      "gloss": "of the eye"
-    },
-    {
-      "surface": "בצל",
-      "gloss": "in the shadow"
-    },
-    {
-      "surface": "כנפיך",
-      "gloss": "your wings",
-      "readings": [
-        "your wings",
-        "your edges"
-      ],
-      "held_by": {
-        "your wings": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "your edges": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "תסתירני",
-      "gloss": "hide me"
+      "kind": "invitation",
+      "subject": "prayer",
+      "rationale": "Imperatives 'guard' and 'hide' continue the direct petition to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Guard me as the little-man of the daughter of the eye; in the shadow of your two wings hide me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d96aef1dad258a41c49ac8c7c9795a3ee4cd790fb2e86f30cca2f16ab155befd",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/17\/5-8.1791192447410.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שָׁ֭מְרֵנִי",
+      "gloss": "Guard me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּאִישׁ֥וֹן",
+      "gloss": "as the little-man of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּת",
+      "gloss": "the daughter of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָ֑יִן",
+      "gloss": "the eye",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצֵ֥ל",
+      "gloss": "in the shadow of",
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּנָפֶ֗יךָ",
+      "gloss": "your two wings",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּסְתִּירֵֽנִי",
+      "gloss": "hide me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:27.411286700Z",
+  "model": "glm-5.3"
 }

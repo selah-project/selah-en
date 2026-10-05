@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 18,
-  "translation": "Like a madman shooting firebrands, arrows, and death.",
-  "tokens": [
+  "ref": "proverbs 26:18",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
     {
-      "surface": "כמתלהלה",
-      "gloss": "like a madman",
-      "readings": [
-        "like a madman",
-        "like one feigning madness"
-      ],
-      "held_by": {
-        "like a madman": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "like one feigning madness": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "זקים",
+      "rationale": "'Burning arrows' (from זין\/זוק, sparks) vs 'sparks'; both supported, fire-arrows fits 'and death'."
     },
     {
-      "surface": "הירה",
-      "gloss": "shooting"
-    },
-    {
-      "surface": "זקים",
-      "gloss": "firebrands",
-      "readings": [
-        "firebrands",
-        "sparks"
-      ],
-      "held_by": {
-        "firebrands": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "sparks": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "חצים",
-      "gloss": "arrows"
-    },
-    {
-      "surface": "ומות",
-      "gloss": "and death"
+      "kind": "wordplay",
+      "subject": "זקים חצים ומות",
+      "rationale": "Climactic pile of three nouns — fire-arrows, arrows, death — the escalation flattens in English."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Like a madman who throws burning arrows, arrows and death,",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "192110e4ad03748b2af77ace3b9d9b3442404dccfe7c0b985ec2c5ada7635216",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/17-20.1791194026120.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כְּמִתְלַהְלֵהַּ",
+      "gloss": "like a madman",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיֹּרֶה",
+      "gloss": "who throws",
+      "sense": "S1"
+    },
+    {
+      "surface": "זִקִּים",
+      "gloss": "burning arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "חִצִּים",
+      "gloss": "arrows",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָמָוֶת",
+      "gloss": "and death",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:46.121625782Z",
+  "model": "glm-5.3"
 }

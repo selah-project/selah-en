@@ -1,59 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 13,
-  "translation": "Eat, my son, honey, for it ⟨is⟩ good; and the honeycomb, sweet upon your palate.",
-  "tokens": [
+  "ref": "proverbs 24:13",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 24,
+  "notes": [
     {
-      "surface": "אכל",
-      "gloss": "Eat"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between מתוק and the implied subject"
     },
     {
-      "surface": "בני",
-      "gloss": "my son"
+      "kind": "alternative",
+      "subject": "dripping-honey",
+      "rationale": "נופת is virgin honey dripping straight from the comb; 'honeycomb' is the usual smoothing"
     },
     {
-      "surface": "דבש",
-      "gloss": "honey"
-    },
-    {
-      "surface": "כי",
-      "gloss": "for"
-    },
-    {
-      "surface": "טוב",
-      "gloss": "good"
-    },
-    {
-      "surface": "ונפת",
-      "gloss": "and the honeycomb",
-      "readings": [
-        "and the honeycomb",
-        "and the dripped honey"
-      ],
-      "held_by": {
-        "and the honeycomb": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the dripped honey": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "מתוק",
-      "gloss": "sweet"
-    },
-    {
-      "surface": "על",
-      "gloss": "upon"
-    },
-    {
-      "surface": "חכך",
-      "gloss": "your palate"
+      "kind": "invitation",
+      "subject": "to the son",
+      "rationale": "imperative addressed to the son, drawing him into the analogy"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Eat, my son, honey, for it is good, and dripping-honey ⟨is⟩ sweet upon your palate.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "118a6664feac3d470f9ba1cd4e3878d09617c96a9328fb4819a8f54e462823d9",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/24\/13-16.1791193989072.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱכָל",
+      "gloss": "Eat",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנִ֣י",
+      "gloss": "my son",
+      "sense": "S1"
+    },
+    {
+      "surface": "דְבַשׁ",
+      "gloss": "honey",
+      "sense": "S1"
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "ט֑וֹב",
+      "gloss": "good",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְנֹפֶת",
+      "gloss": "and dripping-honey",
+      "sense": "S1"
+    },
+    {
+      "surface": "מָתוֹק",
+      "gloss": "sweet",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "upon",
+      "sense": null
+    },
+    {
+      "surface": "חִכֶּךָ",
+      "gloss": "your palate",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:53:09.072729859Z",
+  "model": "glm-5.3"
 }

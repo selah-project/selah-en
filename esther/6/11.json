@@ -1,72 +1,92 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And Haman took ⟨את⟩ the garment and ⟨את⟩ the horse, and clothed ⟨את⟩ Mordecai, and caused him to ride on ⟨the⟩ street of the city, and proclaimed before him: Thus shall be done to ⟨the⟩ man whom the king delights in his honor.",
+  "ref": "esther 6:11",
+  "book": "esther",
+  "lang": "en6",
+  "chapter": 6,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "reversal of voice",
+      "rationale": "Haman must speak his own honor-herald cry 'like this shall it be done' over Mordecai — the refrain from v. 9 now from his own mouth"
+    }
+  ],
+  "translation": "And Haman took ⟨את⟩ the garment and ⟨את⟩ the horse, and clothed ⟨את⟩ Mordecai, and caused him to ride in the square of the city, and called out before him: like this shall it be done to the man whom the king delights to honor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7441d7047df84b574232e2b24fe41ef213bb44e368bd8fcf593bc33cd50c92f0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/esther\/6\/9-12.1791195084664.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/esther.edn"
+  },
   "tokens": [
     {
       "surface": "ויקח",
-      "gloss": "And took"
+      "gloss": "and took",
+      "sense": "S1"
     },
     {
       "surface": "המן",
-      "gloss": "Haman"
+      "gloss": "Haman",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "the garment"
     },
     {
       "surface": "הלבוש",
-      "gloss": "the garment"
+      "gloss": "the garment",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the horse"
     },
     {
       "surface": "הסוס",
-      "gloss": "the horse"
+      "gloss": "the horse",
+      "sense": "S1"
     },
     {
       "surface": "וילבש",
-      "gloss": "and clothed"
+      "gloss": "and clothed",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "Mordecai"
     },
     {
       "surface": "מרדכי",
-      "gloss": "Mordecai"
+      "gloss": "Mordecai",
+      "sense": "S1"
     },
     {
       "surface": "וירכיבהו",
-      "gloss": "and caused him to ride"
+      "gloss": "and caused him to ride",
+      "sense": "S1"
     },
     {
       "surface": "ברחוב",
-      "gloss": "on ⟨the⟩ street",
-      "readings": [
-        "on ⟨the⟩ street",
-        "in ⟨the⟩ square"
-      ],
-      "held_by": {
-        "on ⟨the⟩ street": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "in ⟨the⟩ square": [
-          "v2"
-        ]
-      }
+      "gloss": "in the square of"
     },
     {
       "surface": "העיר",
-      "gloss": "of the city"
+      "gloss": "the city",
+      "sense": "S1"
     },
     {
       "surface": "ויקרא",
-      "gloss": "and proclaimed"
+      "gloss": "and called out",
+      "sense": "S1"
     },
     {
       "surface": "לפניו",
@@ -74,15 +94,17 @@
     },
     {
       "surface": "ככה",
-      "gloss": "Thus"
+      "gloss": "like this",
+      "sense": "S1"
     },
     {
       "surface": "יעשה",
-      "gloss": "shall be done"
+      "gloss": "shall it be done",
+      "sense": "S1"
     },
     {
       "surface": "לאיש",
-      "gloss": "to ⟨the⟩ man"
+      "gloss": "to the man"
     },
     {
       "surface": "אשר",
@@ -90,31 +112,20 @@
     },
     {
       "surface": "המלך",
-      "gloss": "the king"
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
       "surface": "חפץ",
       "gloss": "delights",
-      "readings": [
-        "delights",
-        "desires"
-      ],
-      "held_by": {
-        "delights": [
-          "v2",
-          "v3"
-        ],
-        "desires": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ביקרו",
-      "gloss": "in his honor"
+      "gloss": "to honor him",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:11:24.665903007Z",
+  "model": "glm-5.3"
 }

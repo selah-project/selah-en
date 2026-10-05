@@ -1,53 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 6,
-  "translation": "By the word of YHWH the heavens were made, and by the breath of his mouth all their host.",
+  "ref": "psalms 33:6",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "host",
+      "rationale": "צבאם here the host of heaven, the celestial bodies, not armies"
+    },
+    {
+      "kind": "addition",
+      "subject": "their",
+      "rationale": "suffix 3mp on צבאם points back to the heavens"
+    }
+  ],
+  "translation": "By the word of YHWH the heavens were made, and by the breath of His mouth all their host.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "6c939cb8d72d645126adf7007017a018b8a6e6523744bafb558def12de9bfdc4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/5-8.1791192585627.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "בדבר",
-      "gloss": "by the word of"
+      "surface": "בִּדְבַ֣ר",
+      "gloss": "By the word of",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֭הוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "שמים",
-      "gloss": "the heavens"
+      "surface": "שָׁמַ֣יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
     },
     {
-      "surface": "נעשו",
-      "gloss": "were made"
+      "surface": "נַעֲשׂ֑וּ",
+      "gloss": "were made",
+      "sense": "S1"
     },
     {
-      "surface": "וברוח",
+      "surface": "וּבְר֥וּחַ",
       "gloss": "and by the breath of",
       "readings": [
         "and by the breath of",
-        "and by the wind of",
-        "and by the spirit of"
+        "and by the spirit of",
+        "and by the wind of"
       ],
-      "held_by": {
-        "and by the breath of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "פיו",
-      "gloss": "his mouth"
+      "surface": "פִּ֝֗יו",
+      "gloss": "His mouth",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "צבאם",
-      "gloss": "their host"
+      "surface": "צְבָאָֽם",
+      "gloss": "their host",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:45.628161270Z",
+  "model": "glm-5.3"
 }

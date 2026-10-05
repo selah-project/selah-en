@@ -1,64 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "For the arms of the wicked shall be broken, but YHWH upholds the righteous.",
+  "ref": "psalms 37:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 37,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "and the One upholding…is YHWH",
+      "rationale": "Hebrew puts the participle first with YHWH last; English needs either a supplied copula or a relative phrasing."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Copula supplied for the participle-noun inversion; bracketed ⟨is⟩ would also be lawful."
+    }
+  ],
+  "translation": "For the arms of the wicked shall be broken, but the One upholding the righteous is YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "67c640fdd6053f95b2f70b6ad613e5d746ea8c8de17737bae5d7fb1f8c2a3552",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/37\/17-20.1791192634676.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "For"
     },
     {
-      "surface": "זרועות",
+      "surface": "זְרוֹעוֹת",
       "gloss": "the arms of",
-      "readings": [
-        "the arms of",
-        "the forces of"
-      ],
-      "held_by": {
-        "the arms of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the forces of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רשעים",
-      "gloss": "the wicked"
+      "surface": "רְשָׁעִים",
+      "gloss": "the wicked",
+      "sense": "S1"
     },
     {
-      "surface": "תשברנה",
-      "gloss": "shall be broken"
+      "surface": "תִּשָּׁבַרְנָה",
+      "gloss": "shall be broken",
+      "sense": "S1"
     },
     {
-      "surface": "וסומך",
-      "gloss": "but upholds",
-      "readings": [
-        "but upholds",
-        "but is sustaining"
-      ],
-      "held_by": {
-        "but upholds": [
-          "v2",
-          "v3"
-        ],
-        "but is sustaining": [
-          "en4"
-        ]
-      }
+      "surface": "וְסוֹמֵךְ",
+      "gloss": "and the One upholding",
+      "sense": "S1"
     },
     {
-      "surface": "צדיקים",
-      "gloss": "the righteous"
+      "surface": "צַדִּיקִים",
+      "gloss": "the righteous",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:34.676772760Z",
+  "model": "glm-5.3"
 }

@@ -1,74 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Behold I waited for your words; I listened to your understandings until you searched out sayings.",
-  "tokens": [
+  "ref": "job 32:11",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "הן",
-      "gloss": "Behold"
-    },
-    {
-      "surface": "הוחלתי",
-      "gloss": "I waited"
-    },
-    {
-      "surface": "לדבריכם",
-      "gloss": "for your words"
-    },
-    {
-      "surface": "אזין",
-      "gloss": "I listened"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until",
-      "readings": [
-        "until",
-        "while"
-      ],
-      "held_by": {
-        "until": [
-          "v1",
-          "v3"
-        ],
-        "while": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תבונתיכם",
-      "gloss": "your understandings"
-    },
-    {
-      "surface": "עד",
-      "gloss": "until",
-      "readings": [
-        "until",
-        "while"
-      ],
-      "held_by": {
-        "until": [
-          "v1",
-          "v3"
-        ],
-        "while": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "תחקרון",
-      "gloss": "you searched out"
-    },
-    {
-      "surface": "מלין",
-      "gloss": "sayings"
+      "kind": "wordplay",
+      "subject": "parallel infinitive\/verb pair",
+      "rationale": "עַד…עַד 'while…while' frames the couplet; the two half-lines swap their predicates (listening\/waiting, searching\/weighing)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Indeed, I waited for your words; I listened while you searched out understandings, while you weighed words.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "39f1a90f9c90d7020fc8261dbbb6e226339109dc651e3d666dba09d9f249c644",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/32\/9-12.1791194516544.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֵ֤ן",
+      "gloss": "Indeed",
+      "sense": null
+    },
+    {
+      "surface": "הוֹחַ֨לְתִּי",
+      "gloss": "I waited",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְֽדִבְרֵיכֶ֗ם",
+      "gloss": "for your words",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֭זִין",
+      "gloss": "I listened",
+      "readings": [
+        "I listened",
+        "I gave ear"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "עַד",
+      "gloss": "while",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּב֥וּנֹֽתֵיכֶ֑ם",
+      "gloss": "you searched out understandings",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַֽד",
+      "gloss": "while",
+      "sense": "S1"
+    },
+    {
+      "surface": "תַּחְקְר֥וּן",
+      "gloss": "⟨you searched out⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלִּֽין",
+      "gloss": "words",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:01:56.545328831Z",
+  "model": "glm-5.3"
 }

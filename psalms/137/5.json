@@ -1,28 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "If I forget you, Jerusalem, let my right hand forget.",
-  "tokens": [
+  "ref": "psalms 137:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 137,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "kind": "wordplay",
+      "subject": "אשכחך \/ תשכח",
+      "rationale": "Root שׁכח repeated: 'if I forget you… may my hand forget' — the curse turns the verb on the speaker's own body."
     },
     {
-      "surface": "אשכחך",
-      "gloss": "I forget you"
+      "kind": "addition",
+      "subject": "let ⟨her⟩ forget",
+      "rationale": "Hebrew תשכח lacks an expressed subject; the right hand in apposition supplies it."
     },
     {
-      "surface": "ירושלם",
-      "gloss": "Jerusalem"
-    },
-    {
-      "surface": "תשכח",
-      "gloss": "let ⟨it⟩ forget"
-    },
-    {
-      "surface": "ימיני",
-      "gloss": "my right hand"
+      "kind": "you",
+      "subject": "to Jerusalem",
+      "rationale": "The exiles address Jerusalem directly in the second person feminine."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "If I forget you, O Jerusalem, let my right hand forget.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ec3ccf98fd91562e2881baa247ffcbbb2d053f0da1d215b3928c7445d22dfabc",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/137\/5-8.1791193585516.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִֽם",
+      "gloss": "If",
+      "sense": null
+    },
+    {
+      "surface": "אֶשְׁכָּחֵ֥ךְ",
+      "gloss": "I forget you",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְֽרוּשָׁלִָ֗ם",
+      "gloss": "O Jerusalem",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁכַּ֥ח",
+      "gloss": "let ⟨her⟩ forget",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִינִֽי",
+      "gloss": "my right hand",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:25.517247538Z",
+  "model": "glm-5.3"
 }

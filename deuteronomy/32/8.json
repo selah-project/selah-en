@@ -1,71 +1,109 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "When Elyon gave nations ⟨an⟩ inheritance, when he separated sons of Adam, he set the boundaries of peoples by the number of sons of Israel.",
-  "tokens": [
+  "ref": "deuteronomy 32:8",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 32,
+  "notes": [
     {
-      "surface": "בהנחל",
-      "gloss": "when he gave ⟨an⟩ inheritance"
+      "kind": "crux",
+      "subject": "בְּנֵי אָדָם",
+      "rationale": "MT 'sons of Adam (mankind)'; 4QDeut(j) and LXX read 'sons of God (אלהים\/angels)'"
     },
     {
-      "surface": "עליון",
-      "gloss": "Elyon"
+      "kind": "crux",
+      "subject": "לְמִסְפַּר בְּנֵי יִשְׂרָאֵל",
+      "rationale": "'according to the number of the sons of Israel' (MT) vs. LXX 'according to the number of the angels of God'"
     },
     {
-      "surface": "גוים",
-      "gloss": "nations"
+      "kind": "measurement",
+      "subject": "boundaries… number",
+      "rationale": "counting and boundary-fixing frame the verse"
     },
     {
-      "surface": "בהפרידו",
-      "gloss": "when he separated"
-    },
-    {
-      "surface": "בני",
-      "gloss": "sons of"
-    },
-    {
-      "surface": "אדם",
-      "gloss": "Adam",
-      "readings": [
-        "Adam",
-        "man"
-      ],
-      "held_by": {
-        "Adam": [
-          "v2",
-          "en4"
-        ],
-        "man": [
-          "v1",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "יצב",
-      "gloss": "he set"
-    },
-    {
-      "surface": "גבלת",
-      "gloss": "the boundaries of"
-    },
-    {
-      "surface": "עמים",
-      "gloss": "peoples"
-    },
-    {
-      "surface": "למספר",
-      "gloss": "by the number of"
-    },
-    {
-      "surface": "בני",
-      "gloss": "sons of"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "kind": "addition",
+      "subject": "when ⟨He⟩ gave",
+      "rationale": "English requires the subject and temporal sense the infinitive construct leaves implicit"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "When Elyon gave the nations their inheritance, when He separated the sons of Adam, He set the boundaries of the peoples according to the number of the sons of Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2f049f7f886434b9e077540c877a208bc541969ed3006f74007a19aed35b0781",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/32\/5-8.1791184215335.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּהַנְחֵ֤ל",
+      "gloss": "when ⟨He⟩ gave ⟨as⟩ inheritance",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֶלְיוֹן֙",
+      "gloss": "Elyon",
+      "sense": "S1"
+    },
+    {
+      "surface": "גּוֹיִ֔ם",
+      "gloss": "the nations",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּהַפְרִיד֖וֹ",
+      "gloss": "when He separated",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵ֣י",
+      "gloss": "the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָדָ֑ם",
+      "gloss": "Adam",
+      "sense": "S1",
+      "readings": [
+        "Adam",
+        "mankind"
+      ]
+    },
+    {
+      "surface": "יַצֵּב֙",
+      "gloss": "He set",
+      "sense": "S1"
+    },
+    {
+      "surface": "גְּבֻלֹ֣ת",
+      "gloss": "the boundaries of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַמִּ֔ים",
+      "gloss": "the peoples",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְמִסְפַּ֖ר",
+      "gloss": "according to the number of",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֵ֥י",
+      "gloss": "the sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T07:10:15.336855950Z",
+  "model": "glm-5.3"
 }

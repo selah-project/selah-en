@@ -1,61 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
+  "ref": "job 13:7",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 13,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "הלאל",
+      "rationale": "Interrogative ha + le + El: 'for El' (favouring him flatteringly) vs 'against El'; the sense S1 of ה alone marks the question, sense S2 names El."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תדברו…תדברו",
+      "rationale": "The same verb repeats in parallel halves, bounding the verse."
+    }
+  ],
   "translation": "For El will you speak wrong, and for him will you speak deceit?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "57b8c8e1bd4d6661db2a37dc21b8ff994bbdbe1f5fb6489eefa4a9522af7c4ae",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/13\/5-8.1791194266606.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "הלאל",
-      "gloss": "for El"
+      "surface": "הַ֭לְאֵל",
+      "gloss": "For El",
+      "sense": "S2"
     },
     {
-      "surface": "תדברו",
-      "gloss": "will you speak"
+      "surface": "תְּדַבְּר֣וּ",
+      "gloss": "will you speak",
+      "sense": "S1"
     },
     {
-      "surface": "עולה",
+      "surface": "עַוְלָ֑ה",
       "gloss": "wrong",
-      "readings": [
-        "wrong",
-        "perverseness"
-      ],
-      "held_by": {
-        "wrong": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "perverseness": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "ולו",
+      "surface": "וְל֗וֹ",
       "gloss": "and for him"
     },
     {
-      "surface": "תדברו",
-      "gloss": "will you speak"
+      "surface": "תְּֽדַבְּר֥וּ",
+      "gloss": "will you speak",
+      "sense": "S1"
     },
     {
-      "surface": "רמיה",
+      "surface": "רְמִיָּֽה",
       "gloss": "deceit",
-      "readings": [
-        "deceit",
-        "treachery"
-      ],
-      "held_by": {
-        "deceit": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "treachery": [
-          "v1",
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:57:46.607406902Z",
+  "model": "glm-5.3"
 }

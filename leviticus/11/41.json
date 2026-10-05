@@ -1,59 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 41,
-  "translation": "And every swarming thing that swarms upon the earth — it ⟨is⟩ an abomination; it shall not be eaten.",
+  "ref": "leviticus 11:41",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "wordplay",
+      "subject": "השרץ השרץ",
+      "rationale": "noun שֶׁרֶץ and participle שֹׁרֵץ from the same root juxtaposed — swarmer that swarms — the paronomasia kept but flattened in English."
+    },
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew pronoun הוא stands without a verb; English requires a copula."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "Impersonal prohibition continuing the food-law address to Israel."
+    }
+  ],
+  "translation": "And every swarmer that swarms on the earth is detestable; it shall not be eaten.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "19441d4dd27fb18eea77fd4bb83549762aea5637661380d42f407261df24cda7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/11\/41-44.1791182376103.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "וכל",
-      "gloss": "and every"
+      "surface": "וְכָל",
+      "gloss": "And every",
+      "sense": null
     },
     {
-      "surface": "השרץ",
-      "gloss": "swarming thing"
+      "surface": "הַשֶּׁרֶץ",
+      "gloss": "swarmer",
+      "sense": "S1"
     },
     {
-      "surface": "השרץ",
-      "gloss": "that swarms"
+      "surface": "הַשֹּׁרֵץ",
+      "gloss": "that swarms",
+      "sense": "S1"
     },
     {
-      "surface": "על",
-      "gloss": "upon"
+      "surface": "עַל",
+      "gloss": "on",
+      "sense": null
     },
     {
-      "surface": "הארץ",
+      "surface": "הָאָרֶץ",
       "gloss": "the earth",
+      "sense": "S1",
       "readings": [
         "the earth",
         "the land"
-      ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "שקץ",
-      "gloss": "an abomination"
+      "surface": "שֶׁקֶץ",
+      "gloss": "detestable",
+      "sense": "S1"
     },
     {
-      "surface": "הוא",
-      "gloss": "it"
+      "surface": "הוּא",
+      "gloss": "it is",
+      "sense": null
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "יאכל",
-      "gloss": "shall be eaten"
+      "surface": "יֵאָכֵל",
+      "gloss": "shall be eaten",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:39:36.107175212Z",
+  "model": "glm-5.3"
 }

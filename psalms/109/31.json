@@ -1,65 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 31,
-  "translation": "For he stands at the right hand of the needy, to save ⟨him⟩ from those judging his life.",
-  "tokens": [
+  "ref": "psalms 109:31",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 109,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "for"
+      "kind": "crux",
+      "subject": "his nefesh",
+      "rationale": "נפשו read as object of judging (his life at stake) or as reflexive dative (judges who condemn him); kept Hebrew-carrying with 'life' as reading 2."
     },
     {
-      "surface": "יעמד",
-      "gloss": "he stands",
-      "readings": [
-        "he stands",
-        "will stand"
-      ],
-      "held_by": {
-        "he stands": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will stand": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "לימין",
-      "gloss": "at the right hand of"
-    },
-    {
-      "surface": "אביון",
-      "gloss": "the needy"
-    },
-    {
-      "surface": "להושיע",
-      "gloss": "to save"
-    },
-    {
-      "surface": "משפטי",
-      "gloss": "from those judging"
-    },
-    {
-      "surface": "נפשו",
-      "gloss": "his life",
-      "readings": [
-        "his life",
-        "his soul"
-      ],
-      "held_by": {
-        "his life": [
-          "v2",
-          "v3"
-        ],
-        "his soul": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "those who judge",
+      "rationale": "משפטי is a participle, 'the ones judging', not an abstract 'judgments'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For he stands at the right hand of the needy, to save him from those who judge his nefesh.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e86ac7c058fe0806201b34d722da7caa05894ccb9fee05f8c322d846c94a6fc6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/109\/29-31.1791193371855.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
+    },
+    {
+      "surface": "יַעֲמֹד",
+      "gloss": "he stands",
+      "sense": null
+    },
+    {
+      "surface": "לִימִין",
+      "gloss": "at the right hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶבְיוֹן",
+      "gloss": "the needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהוֹשִׁיעַ",
+      "gloss": "to save",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשֹּׁפְטֵי",
+      "gloss": "from those who judge",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשׁוֹ",
+      "gloss": "his nefesh",
+      "readings": [
+        "his nefesh",
+        "his life"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:42:51.856521619Z",
+  "model": "glm-5.3"
 }

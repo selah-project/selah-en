@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Wrapping light like a garment, stretching out the heavens like a curtain.",
-  "tokens": [
+  "ref": "psalms 104:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "עטה",
-      "gloss": "wrapping"
+      "kind": "addition",
+      "subject": "yourself in",
+      "rationale": "The participle עטה has no explicit object or reflexive; the subject carries over from verse 1."
     },
     {
-      "surface": "אור",
-      "gloss": "light"
-    },
-    {
-      "surface": "כשלמה",
-      "gloss": "like a garment"
-    },
-    {
-      "surface": "נוטה",
-      "gloss": "stretching out"
-    },
-    {
-      "surface": "שמים",
-      "gloss": "the heavens",
-      "readings": [
-        "the heavens",
-        "the sky"
-      ],
-      "held_by": {
-        "the heavens": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the sky": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כיריעה",
-      "gloss": "like a curtain"
+      "kind": "wordplay",
+      "subject": "כשלמה \/ כיריעה",
+      "rationale": "Two clothing images in parallel — outer garment and tent-curtain — frame the verse's symmetry."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Wrapping yourself in light like a cloak, stretching out the heavens like a tent-curtain —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a566b6f02c2056e7724d7007e44ff48349654b1c234ce00681723f3a777b86e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/1-4.1791193276348.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֹֽטֶה",
+      "gloss": "wrapping",
+      "sense": "S1"
+    },
+    {
+      "surface": "א֭וֹר",
+      "gloss": "light",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּשַּׂלְמָ֑ה",
+      "gloss": "like a cloak",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוֹטֶ֥ה",
+      "gloss": "stretching out",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁ֝מַ֗יִם",
+      "gloss": "the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּיְרִיעָֽה",
+      "gloss": "like a tent-curtain",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:41:16.349386399Z",
+  "model": "glm-5.3"
 }

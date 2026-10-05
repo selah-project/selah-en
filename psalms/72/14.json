@@ -1,65 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "From oppression and from violence he will redeem their soul, and precious will their blood be in his eyes.",
-  "tokens": [
+  "ref": "psalms 72:14",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 72,
+  "notes": [
     {
-      "surface": "מתוך",
-      "gloss": "from oppression",
-      "readings": [
-        "from oppression",
-        "from deceit"
-      ],
-      "held_by": {
-        "from oppression": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "from deceit": [
-          "v2"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "deceit",
+      "rationale": "מתוך is rare (also Ps 10:7; 55:12); 'deceit' vs 'oppression' — the SDBH sense favors deception for gain."
     },
     {
-      "surface": "ומחמס",
-      "gloss": "and from violence"
+      "kind": "addition",
+      "subject": "it will be",
+      "rationale": "Hebrew lacks a copula before 'precious'; English supplies one."
     },
     {
-      "surface": "יגאל",
-      "gloss": "he will redeem"
-    },
-    {
-      "surface": "נפשם",
-      "gloss": "their soul",
-      "readings": [
-        "their soul",
-        "their life"
-      ],
-      "held_by": {
-        "their soul": [
-          "v1",
-          "v3"
-        ],
-        "their life": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "וייקר",
-      "gloss": "and precious"
-    },
-    {
-      "surface": "דמם",
-      "gloss": "their blood"
-    },
-    {
-      "surface": "בעיניו",
-      "gloss": "in his eyes"
+      "kind": "substitution",
+      "subject": "their life",
+      "rationale": "נפשם singular with plural suffix — each one's life-principle; English pluralizes naturally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "From deceit and from violence he will redeem their life, and their blood will be precious in his eyes.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a87b23138647964ffc2ffca0acb2019e0f48ca02c072b3fff4f2af4ac06c68c1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/72\/13-16.1791192985179.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִתֹּ֣וךְ",
+      "gloss": "From deceit",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּ֭מֵחָמָס",
+      "gloss": "and from violence",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִגְאַ֣ל",
+      "gloss": "he will redeem",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשָׁ֑ם",
+      "gloss": "their life",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיֵיקַ֖ר",
+      "gloss": "and it will be precious",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּמָ֣ם",
+      "gloss": "their blood",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעֵינָֽיו",
+      "gloss": "in his eyes",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:25.180080441Z",
+  "model": "glm-5.3"
 }

@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 23,
-  "translation": "Search me, El, and know my heart; test me, and know my thoughts.",
-  "tokens": [
+  "ref": "psalms 139:23",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 139,
+  "notes": [
     {
-      "surface": "חקרני",
-      "gloss": "Search me"
+      "kind": "wordplay",
+      "subject": "ודע … ודע",
+      "rationale": "The imperative 'know' repeats in exact parallelism, framing heart and thoughts as one searched domain."
     },
     {
-      "surface": "אל",
-      "gloss": "El"
+      "kind": "invitation",
+      "subject": "imperatives to El",
+      "rationale": "Four imperatives summon God to examine the speaker — the verse's whole engine."
     },
     {
-      "surface": "ודע",
-      "gloss": "and know"
-    },
-    {
-      "surface": "לבבי",
-      "gloss": "my heart"
-    },
-    {
-      "surface": "בחנני",
-      "gloss": "test me"
-    },
-    {
-      "surface": "ודע",
-      "gloss": "and know"
-    },
-    {
-      "surface": "שרעפי",
-      "gloss": "my thoughts"
+      "kind": "you",
+      "subject": "to El",
+      "rationale": "Direct address to El, the searching God."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Search me, El, and know my heart; test me and know my thoughts —",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b67bd63c964709d206ab9ada6b96f1fb5d17f6ec5184b00e3f5edb4ffe042a9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/139\/21-24.1791193591434.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "חָקְרֵנִי",
+      "gloss": "Search me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "El",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַע",
+      "gloss": "and know",
+      "sense": null
+    },
+    {
+      "surface": "לְבָבִי",
+      "gloss": "my heart",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחָנֵנִי",
+      "gloss": "test me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַע",
+      "gloss": "and know",
+      "sense": null
+    },
+    {
+      "surface": "שַׂרְעַפַּי",
+      "gloss": "my anxious thoughts",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:31.435293237Z",
+  "model": "glm-5.3"
 }

@@ -1,60 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "For dogs have encircled me: ⟨the⟩ assembly of evildoers has enclosed me—like a lion, my hands and my feet.",
-  "tokens": [
+  "ref": "psalms 22:17",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "crux",
+      "subject": "like a lion",
+      "rationale": "כארי ‘like a lion’ (ketiv) leaves the syntax dangling (like a lion [at] my hands and my feet); the qere tradition and some MSS read כארו ‘they dug\/pierced my hands and my feet’."
     },
     {
-      "surface": "סבבוני",
-      "gloss": "have encircled me"
+      "kind": "wordplay",
+      "subject": "סבבוני \/ הקיפוני",
+      "rationale": "paired near-synonyms of encircling, intensifying the siege image."
     },
     {
-      "surface": "כלבים",
-      "gloss": "dogs"
-    },
-    {
-      "surface": "עדת",
-      "gloss": "⟨the⟩ assembly of"
-    },
-    {
-      "surface": "מרעים",
-      "gloss": "evildoers"
-    },
-    {
-      "surface": "הקיפוני",
-      "gloss": "has enclosed me"
-    },
-    {
-      "surface": "כארי",
-      "gloss": "like a lion",
-      "readings": [
-        "like a lion",
-        "they pierce"
-      ],
-      "held_by": {
-        "like a lion": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "they pierce": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ידי",
-      "gloss": "my hands"
-    },
-    {
-      "surface": "ורגלי",
-      "gloss": "and my feet"
+      "kind": "mystery",
+      "subject": "like a lion my hands and my feet",
+      "rationale": "the elliptical clause is deliberately opaque, its meaning withheld."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For dogs have surrounded me, an assembly of evildoers has encircled me, like a lion my hands and my feet.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0fa85f40d7811127e2fbd1a80a158d599307286b8d4f87ab7536130316f4947d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/22\/17-20.1791192511682.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "סְבָב֫וּנִי",
+      "gloss": "have surrounded me",
+      "sense": null
+    },
+    {
+      "surface": "כְּלָבִים",
+      "gloss": "dogs",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲדַת",
+      "gloss": "an assembly of",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְרֵעִים",
+      "gloss": "evildoers",
+      "sense": "S1"
+    },
+    {
+      "surface": "הִקִּיפ֫וּנִי",
+      "gloss": "has encircled me",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּאֲרִי",
+      "gloss": "like a lion",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַי",
+      "gloss": "my hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְרַגְלָי",
+      "gloss": "and my feet",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:31.683243606Z",
+  "model": "glm-5.3"
 }

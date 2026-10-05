@@ -1,68 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 24,
-  "translation": "And you shall know that peace ⟨is⟩ in your tent, and you shall visit your fold and shall not miss the mark.",
-  "tokens": [
+  "ref": "job 5:24",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "וידעת",
-      "gloss": "and you shall know"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula; supplied for the fronted predicate 'peace'."
     },
     {
-      "surface": "כי",
-      "gloss": "that"
-    },
-    {
-      "surface": "שלום",
-      "gloss": "peace"
-    },
-    {
-      "surface": "אהלך",
-      "gloss": "your tent"
-    },
-    {
-      "surface": "ופקדת",
-      "gloss": "and you shall visit"
-    },
-    {
-      "surface": "נוך",
-      "gloss": "your dwelling",
-      "readings": [
-        "your dwelling",
-        "your fold"
-      ],
-      "held_by": {
-        "your dwelling": [
-          "v1",
-          "en4"
-        ],
-        "your fold": [
-          "v2",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "תחטא",
-      "gloss": "miss the mark",
-      "readings": [
-        "miss the mark",
-        "sin"
-      ],
-      "held_by": {
-        "miss the mark": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "sin": [
-          "en4"
-        ]
-      }
+      "kind": "alternative",
+      "subject": "fail",
+      "rationale": "חָטָא here is literally 'miss' — 'you will find nothing missing'; rendered 'fail' to keep the sense of missing rather than moral sin."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And you know that peace is your tent, and you inspect your pasture and do not fail.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f3f37333c143be9bff5a82a62f083fbde18b776d583fc8c660bd4fc50d82a08",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/21-24.1791194164951.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְיָדַעְתָּ",
+      "gloss": "And you know",
+      "sense": null
+    },
+    {
+      "surface": "כִּי",
+      "gloss": "that",
+      "sense": null
+    },
+    {
+      "surface": "שָׁלוֹם",
+      "gloss": "peace",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָהֳלֶךָ",
+      "gloss": "is your tent",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְפָקַדְתָּ",
+      "gloss": "and you inspect",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָוְךָ",
+      "gloss": "your pasture",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "תֶּחֱטָא",
+      "gloss": "fail",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:04.952864506Z",
+  "model": "glm-5.3"
 }

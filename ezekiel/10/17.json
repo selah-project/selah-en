@@ -1,63 +1,86 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "In their standing they stood, and in their rising they rose, ⟨את⟩ them, for the spirit of the living creature was in them.",
+  "ref": "ezekiel 10:17",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "the living creature",
+      "rationale": "החיה singular collective; some render 'living creatures' plural"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בעמדם\/יעמדו, ברומם\/ירומו",
+      "rationale": "infinitive-construct plus cognate verb pairs, doubling kept in English"
+    }
+  ],
+  "translation": "When they stood, these stood, and when they rose, these rose ⟨את⟩ them, for the spirit of the living creature was in them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "9ca38840fd307c4ab7bc7259e3ea1ce532b81167d3815fb44507bfe58156eaed",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/10\/17-20.1791190362092.json",
+    "code": "4547410f-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
-      "surface": "בעמדם",
-      "gloss": "in their standing"
+      "surface": "בְּעָמְדָם",
+      "gloss": "when they stood",
+      "sense": null
     },
     {
-      "surface": "יעמדו",
-      "gloss": "they stood"
+      "surface": "יַעֲמֹדוּ",
+      "gloss": "they stood",
+      "sense": null
     },
     {
-      "surface": "וברומם",
-      "gloss": "and in their rising"
+      "surface": "וּבְרוֹמָם",
+      "gloss": "and when they rose",
+      "sense": "S1"
     },
     {
-      "surface": "ירומו",
-      "gloss": "they rose"
+      "surface": "יֵרוֹמוּ",
+      "gloss": "these rose",
+      "sense": "S1"
     },
     {
-      "surface": "אותם",
-      "gloss": "⟨את⟩ them"
+      "surface": "אוֹתָם",
+      "gloss": "⟨את⟩ them",
+      "marks": "these",
+      "sense": null
     },
     {
-      "surface": "כי",
-      "gloss": "for"
+      "surface": "כִּי",
+      "gloss": "for",
+      "sense": null
     },
     {
-      "surface": "רוח",
+      "surface": "רוּחַ",
       "gloss": "the spirit of",
       "readings": [
         "the spirit of",
         "the wind of",
         "the breath of"
       ],
-      "held_by": {
-        "the spirit of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the wind of": [
-          "en4"
-        ],
-        "the breath of": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "החיה",
-      "gloss": "the living creature"
+      "surface": "הַחַיָּה",
+      "gloss": "the living creature",
+      "sense": "S1"
     },
     {
-      "surface": "בהם",
-      "gloss": "was in them"
+      "surface": "בָּהֶם",
+      "gloss": "in them",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:52:42.093558712Z",
+  "model": "glm-5.3"
 }

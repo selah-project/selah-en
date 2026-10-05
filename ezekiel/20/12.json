@@ -1,18 +1,48 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And also ⟨את⟩ my sabbaths I gave to them to be for a sign between me and between them to know that I ⟨am⟩ YHWH sanctifying them.",
+  "ref": "ezekiel 20:12",
+  "book": "ezekiel",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "secret",
+      "subject": "sabbath as sign",
+      "rationale": "The sabbath framed as a covenantal sign between YHWH and Israel, marking a knowledge the nations do not share."
+    },
+    {
+      "kind": "addition",
+      "subject": "the one who",
+      "rationale": "English requires a nominal frame for the participle מקדשם; Hebrew has only the construct participle 'sanctifying them'."
+    }
+  ],
+  "translation": "And also ⟨את⟩ my sabbaths I gave them, to be a sign between me and between them, to know that I am YHWH, the one who sanctifies them.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0560bf3fc5a73bc5e95d78804f47d7dcc440698ea37d3c1b75467c486867cc1a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ezekiel\/20\/9-12.1791190548807.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ezekiel.edn"
+  },
   "tokens": [
     {
       "surface": "וגם",
-      "gloss": "And also"
+      "gloss": "And also",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "my sabbaths"
     },
     {
       "surface": "שבתותי",
-      "gloss": "my sabbaths"
+      "gloss": "my sabbaths",
+      "sense": "S1"
     },
     {
       "surface": "נתתי",
@@ -28,7 +58,8 @@
     },
     {
       "surface": "לאות",
-      "gloss": "for a sign"
+      "gloss": "for a sign",
+      "sense": "S1"
     },
     {
       "surface": "ביני",
@@ -52,27 +83,15 @@
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "מקדשם",
-      "gloss": "sanctifying them",
-      "readings": [
-        "sanctifying them",
-        "setting them apart"
-      ],
-      "held_by": {
-        "sanctifying them": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "setting them apart": [
-          "en4"
-        ]
-      }
+      "gloss": "the one who sanctifies them",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:55:48.808473035Z",
+  "model": "glm-5.3"
 }

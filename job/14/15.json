@@ -1,46 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "You would call, and I would answer You; for the work of Your hands You would long.",
-  "tokens": [
+  "ref": "job 14:15",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "תקרא",
-      "gloss": "You would call"
+      "kind": "substitution",
+      "subject": "תכסף",
+      "rationale": "Literally 'grow pale' with longing; 'long for' keeps the desire, loses the pallor."
     },
     {
-      "surface": "ואנכי",
+      "kind": "wordplay",
+      "subject": "job 14:13-15",
+      "rationale": "Call\/answer frame: hidden from God in v.13, answered by God in v.15 — reversal lost on English readers without the pair."
+    }
+  ],
+  "translation": "You would call, and I would answer You; for the work of Your hands You would long.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ba8e50da2a76dbac3cd45cb41c9eb5618d320ff761be46efed3e240849dae4bf",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/14\/13-16.1791194292496.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תִּקְרָא",
+      "gloss": "You would call",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָנֹכִי",
       "gloss": "and I"
     },
     {
-      "surface": "אענך",
-      "gloss": "would answer You"
+      "surface": "אֶעֱנֶה",
+      "gloss": "would answer You",
+      "sense": "S1"
     },
     {
-      "surface": "למעשה",
-      "gloss": "for the work of"
+      "surface": "לְמַעֲשֵׂה",
+      "gloss": "for the work of",
+      "sense": "S1"
     },
     {
-      "surface": "ידיך",
-      "gloss": "Your hands"
+      "surface": "יָדֶיךָ",
+      "gloss": "Your hands",
+      "sense": "S1"
     },
     {
-      "surface": "תכסף",
+      "surface": "תִּכְסֹף",
       "gloss": "You would long",
-      "readings": [
-        "You would long",
-        "You would yearn"
-      ],
-      "held_by": {
-        "You would long": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "You would yearn": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:58:12.497406611Z",
+  "model": "glm-5.3"
 }

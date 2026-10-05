@@ -1,74 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "As a sparrow in its wandering, as a swallow in its flying, so a curse without cause does not come.",
+  "ref": "proverbs 26:2",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 26,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "לא",
+      "rationale": "Ketiv לא 'not' vs qere לוֹ 'to him'; qere would read 'so a baseless curse — to him it will not come'."
+    },
+    {
+      "kind": "substitution",
+      "subject": "to wandering \/ to flying",
+      "rationale": "Hebrew uses infinitives of motion verbs; the picture is a bird never at rest, winged to flit and fly."
+    }
+  ],
+  "translation": "Like a sparrow to wandering, like a swallow to flying, so a curse without cause does not come.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d4b6eb5c4bac7b5787e0ac85e1f0ec97c19f5f086d9202be1b420b316face6f4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/26\/1-4.1791194011496.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "כצפור",
-      "gloss": "as a sparrow",
-      "readings": [
-        "as a sparrow",
-        "as a bird"
-      ],
-      "held_by": {
-        "as a sparrow": [
-          "v2",
-          "v3"
-        ],
-        "as a bird": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "surface": "כַּצִּפּוֹר",
+      "gloss": "Like a sparrow",
+      "sense": "S1"
     },
     {
-      "surface": "לנוד",
-      "gloss": "in its wandering"
+      "surface": "לָנוּד",
+      "gloss": "to wandering",
+      "sense": "S1"
     },
     {
-      "surface": "כדרור",
-      "gloss": "as a swallow"
+      "surface": "כַּדְּרוֹר",
+      "gloss": "like a swallow",
+      "sense": "S1"
     },
     {
-      "surface": "לעוף",
-      "gloss": "in its flying"
+      "surface": "לָעוּף",
+      "gloss": "to flying",
+      "sense": "S1"
     },
     {
-      "surface": "כן",
-      "gloss": "so"
+      "surface": "כֵּן",
+      "gloss": "so",
+      "sense": null
     },
     {
-      "surface": "קללת",
-      "gloss": "a curse"
+      "surface": "קִלְלַת",
+      "gloss": "a curse of",
+      "sense": "S1"
     },
     {
-      "surface": "חנם",
+      "surface": "חִנָּם",
       "gloss": "without cause",
-      "readings": [
-        "without cause",
-        "for nothing"
-      ],
-      "held_by": {
-        "without cause": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "for nothing": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "does not",
+      "sense": null
     },
     {
-      "surface": "תבא",
-      "gloss": "will come"
+      "surface": "תָבֹא",
+      "gloss": "come",
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:53:31.497253562Z",
+  "model": "glm-5.3"
 }

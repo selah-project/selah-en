@@ -1,104 +1,126 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And as from the days that I commanded judges over my people Israel, and I have subdued ⟨את⟩ all your enemies, and I declare to you that a house YHWH will build for you.",
-  "tokens": [
+  "ref": "1-chronicles 17:10",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 17,
+  "notes": [
     {
-      "surface": "ולמימים",
-      "gloss": "and as from the days"
+      "kind": "crux",
+      "subject": "and I tell you that",
+      "rationale": "Chronicles lacks 2 Sam 7:11's כי 'that'; the connective ואגד לך is read as introducing the declaration that follows."
     },
     {
-      "surface": "אשר",
-      "gloss": "that"
+      "kind": "addition",
+      "subject": "that",
+      "rationale": "English requires a connective between 'I tell you' and the declared content; Hebrew leaves it implicit."
     },
     {
-      "surface": "צויתי",
-      "gloss": "I commanded"
-    },
-    {
-      "surface": "שפטים",
-      "gloss": "judges"
-    },
-    {
-      "surface": "על",
-      "gloss": "over"
-    },
-    {
-      "surface": "עמי",
-      "gloss": "my people"
-    },
-    {
-      "surface": "ישראל",
-      "gloss": "Israel"
-    },
-    {
-      "surface": "והכנעתי",
-      "gloss": "and I have subdued",
-      "readings": [
-        "and I have subdued",
-        "and I will subdue"
-      ],
-      "held_by": {
-        "and I have subdued": [
-          "v1",
-          "v3"
-        ],
-        "and I will subdue": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "את",
-      "gloss": "⟨את⟩"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "אויביך",
-      "gloss": "your enemies"
-    },
-    {
-      "surface": "ואגד",
-      "gloss": "and I declare",
-      "readings": [
-        "and I declare",
-        "and I have declared"
-      ],
-      "held_by": {
-        "and I declare": [
-          "v2",
-          "v3"
-        ],
-        "and I have declared": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לך",
-      "gloss": "to you"
-    },
-    {
-      "surface": "ובית",
-      "gloss": "and a house"
-    },
-    {
-      "surface": "יבנה",
-      "gloss": "will build"
-    },
-    {
-      "surface": "לך",
-      "gloss": "for you"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "wordplay",
+      "subject": "house",
+      "rationale": "בית pivots from 'house (dynasty) I will build for you' to 'house (temple) he will build for me' — the pun is the verse's hinge."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "as in the days when I appointed judges over my people Israel, and I subdued ⟨את⟩ all your enemies, and I tell you that YHWH will build a house for you.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e1140f54c7053efa584536fb89eece580748eb63e0c0b69dc5d22b1bcae1af65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/17\/9-12.1791196307950.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וּלְמִיָּמִ֗ים",
+      "gloss": "as in the days",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁ֨ר",
+      "gloss": "when",
+      "sense": null
+    },
+    {
+      "surface": "צִוִּ֤יתִי",
+      "gloss": "I appointed",
+      "sense": "S1"
+    },
+    {
+      "surface": "שֹֽׁפְטִים֙",
+      "gloss": "judges",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַל",
+      "gloss": "over",
+      "sense": null
+    },
+    {
+      "surface": "עַמִּ֣י",
+      "gloss": "my people",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִשְׂרָאֵ֔ל",
+      "gloss": "Israel",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהִכְנַ֖עְתִּי",
+      "gloss": "and I subdued",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵת",
+      "gloss": "⟨את⟩",
+      "marks": "all your enemies",
+      "sense": null
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
+    },
+    {
+      "surface": "אוֹיְבֶ֑יךָ",
+      "gloss": "your enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "וָאַגֵּ֣ד",
+      "gloss": "and I tell",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָ֔ךְ",
+      "gloss": "you",
+      "sense": null
+    },
+    {
+      "surface": "וּבַ֖יִת",
+      "gloss": "and a house",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִֽבְנֶה",
+      "gloss": "he will build",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְךָ֥",
+      "gloss": "for you",
+      "sense": null
+    },
+    {
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:31:47.951972239Z",
+  "model": "glm-5.3"
 }

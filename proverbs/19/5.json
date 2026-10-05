@@ -1,55 +1,83 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "A witness of lies shall not be cleared, and ⟨one who⟩ breathes out falsehoods shall not escape.",
-  "tokens": [
+  "ref": "proverbs 19:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
     {
-      "surface": "עד",
-      "gloss": "a witness of"
+      "kind": "idiom",
+      "subject": "לֹא יִנָּקֶה",
+      "rationale": "Literally 'will not be clean\/innocent', i.e. will not be held innocent of guilt; English idiom supplied."
     },
     {
-      "surface": "שקרים",
-      "gloss": "lies"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ינקה",
-      "gloss": "will be cleared",
-      "readings": [
-        "will be cleared",
-        "will go unpunished"
-      ],
-      "held_by": {
-        "will be cleared": [
-          "en4"
-        ],
-        "will go unpunished": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ויפיח",
-      "gloss": "and ⟨one who⟩ breathes out"
-    },
-    {
-      "surface": "כזבים",
-      "gloss": "falsehoods"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "ימלט",
-      "gloss": "shall escape"
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "Two near-synonymous roots for lying (שקר \/ כזב) paired across the halves, a synonym-parallel couplet."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A witness of falsehoods will not go unpunished, and the-one-who-breathes lies will not escape.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "0d883429d2bc9999e77b0dc24aba0b64c9b3362d6216195408ecaf0203652a81",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/19\/5-8.1791193922200.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵד",
+      "gloss": "A witness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׁקָרִים",
+      "gloss": "falsehoods",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִנָּקֶה",
+      "gloss": "will go unpunished",
+      "readings": [
+        "will go unpunished",
+        "will be held innocent"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָפִיחַ",
+      "gloss": "and the-one-who-breathes-out",
+      "readings": [
+        "and the-one-who-breathes-out",
+        "and the-one-who-puffs"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "כְּזָבִים",
+      "gloss": "lies",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִמָּלֵט",
+      "gloss": "will escape",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:52:02.200757862Z",
+  "model": "glm-5.3"
 }

@@ -1,55 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Deep waters ⟨are⟩ counsel in the heart of a man, and a man of understanding will draw it out.",
+  "ref": "proverbs 20:5",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula between the metaphor and its meaning"
+    },
+    {
+      "kind": "idiom",
+      "subject": "draws it up",
+      "rationale": "דלה is the well-drawing verb; counsel is pictured as deep water hauled up bucket by bucket"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אישׁ ... ואישׁ",
+      "rationale": "man-of-counsel set against man-of-understanding; the parallel pair frames the verse"
+    }
+  ],
+  "translation": "Deep water ⟨is⟩ counsel in the heart of a man, and a man of understanding draws it up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5c594830d8e0a8a4f0030cdf7ffecb3d57fbd0fba71e3e0142fb1bdc3019a96e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/20\/5-8.1791193933722.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מים",
-      "gloss": "waters"
+      "surface": "מַ֣יִם",
+      "gloss": "water",
+      "sense": "S1"
     },
     {
-      "surface": "עמקים",
-      "gloss": "deep"
+      "surface": "עֲ֭מֻקִּים",
+      "gloss": "deep",
+      "sense": "S1"
     },
     {
-      "surface": "עצה",
+      "surface": "עֵצָ֣ה",
       "gloss": "counsel",
-      "readings": [
-        "counsel",
-        "a plan"
-      ],
-      "held_by": {
-        "counsel": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a plan": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "בלב",
-      "gloss": "in the heart of"
+      "surface": "בְלֶב",
+      "gloss": "in the heart of",
+      "sense": "S1"
     },
     {
-      "surface": "איש",
+      "surface": "אִ֑ישׁ",
       "gloss": "a man"
     },
     {
-      "surface": "ואיש",
-      "gloss": "and a man"
+      "surface": "וְאִ֖ישׁ",
+      "gloss": "and a man of"
     },
     {
-      "surface": "תבונה",
-      "gloss": "of understanding"
+      "surface": "תְּבוּנָ֣ה",
+      "gloss": "understanding",
+      "sense": "S1"
     },
     {
-      "surface": "ידלנה",
-      "gloss": "will draw it out"
+      "surface": "יִדְלֶֽנָּה",
+      "gloss": "draws it up",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:52:13.723133132Z",
+  "model": "glm-5.3"
 }

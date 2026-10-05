@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "And the mighty men of the armies: Asahel brother of Joab, Elhanan son of Dodo of Beth-lehem.",
-  "tokens": [
+  "ref": "1-chronicles 11:26",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
     {
-      "surface": "וגבורי",
-      "gloss": "and the mighty men"
+      "kind": "elision",
+      "subject": "אֵל",
+      "rationale": "Second half of the name עֲשָׂה־אֵל (Asahel), written as a separate token; its gloss is folded into the name."
     },
     {
-      "surface": "החילים",
-      "gloss": "of the armies",
-      "readings": [
-        "of the armies",
-        "of the forces"
-      ],
-      "held_by": {
-        "of the armies": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "of the forces": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עשה",
-      "gloss": "Asa"
-    },
-    {
-      "surface": "אל",
-      "gloss": "hel"
-    },
-    {
-      "surface": "אחי",
-      "gloss": "brother of"
-    },
-    {
-      "surface": "יואב",
-      "gloss": "Joab"
-    },
-    {
-      "surface": "אלחנן",
-      "gloss": "Elhanan"
-    },
-    {
-      "surface": "בן",
-      "gloss": "son of"
-    },
-    {
-      "surface": "דודו",
-      "gloss": "Dodo"
-    },
-    {
-      "surface": "מבית",
-      "gloss": "of Beth"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "lehem"
+      "kind": "addition",
+      "subject": " Bethlehem",
+      "rationale": "The name is split across two tokens (בֵּית לֶחֶם) and one English form covers both."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the mighty men of valor: Asahel brother of Joab, Elchanan son of Dodo of Bethlehem.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "2eb65ad625c637d1b415014adf5baf6525c769361525e19c613857ba999a970e",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/25-28.1791196200678.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְגִבּוֹרֵי",
+      "gloss": "And the mighty men of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֶחֲיָלִים",
+      "gloss": "valor",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲשָׂה",
+      "gloss": "Asahel",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵל",
+      "gloss": "",
+      "sense": null
+    },
+    {
+      "surface": "אֲחִי",
+      "gloss": "brother of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹאָב",
+      "gloss": "Joab",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶלְחָנָן",
+      "gloss": "Elchanan",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּן",
+      "gloss": "son of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דֹּדוֹ",
+      "gloss": "Dodo",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִבֵּית",
+      "gloss": "of Beth",
+      "sense": "S1"
+    },
+    {
+      "surface": "לֶחֶם",
+      "gloss": "-lehem",
+      "sense": null
+    }
+  ],
+  "timestamp": "2026-10-05T10:30:00.678889845Z",
+  "model": "glm-5.3"
 }

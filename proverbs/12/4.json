@@ -1,70 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 4,
-  "translation": "A woman of valor ⟨is⟩ a crown to her husband, but as rottenness in his bones ⟨is⟩ one causing shame.",
-  "tokens": [
+  "ref": "proverbs 12:4",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 12,
+  "notes": [
     {
-      "surface": "אשת",
-      "gloss": "A woman of"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in both cola; supplied for English."
     },
     {
-      "surface": "חיל",
-      "gloss": "of valor",
-      "readings": [
-        "of valor",
-        "of strength",
-        "of worth"
-      ],
-      "held_by": {
-        "of valor": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of strength": [
-          "en4"
-        ],
-        "of worth": [
-          "en4"
-        ]
-      }
+      "kind": "crux",
+      "subject": "חַיִל",
+      "rationale": "'Worth\/strength\/wealth' — tradition renders 'virtuous' or 'capable'; the word spans valor and resourcefulness."
     },
     {
-      "surface": "עטרת",
-      "gloss": "a crown"
-    },
-    {
-      "surface": "בעלה",
-      "gloss": "to her husband"
-    },
-    {
-      "surface": "וכרקב",
-      "gloss": "but as rottenness"
-    },
-    {
-      "surface": "בעצמותיו",
-      "gloss": "in his bones"
-    },
-    {
-      "surface": "מבישה",
-      "gloss": "one causing shame",
-      "readings": [
-        "one causing shame",
-        "she who brings shame"
-      ],
-      "held_by": {
-        "one causing shame": [
-          "v1",
-          "v3"
-        ],
-        "she who brings shame": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "hapax-adjacent",
+      "subject": "רָקָב",
+      "rationale": "Rare word, only five occurrences; the bone-rot picture kept literally."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A woman of worth is the crown of her husband, but like rottenness in his bones is she who shames.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "61184250e7f47569a5806135b9a2aee53d38a270e5d63ee4e8b297c035bf669b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/12\/1-4.1791193822537.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵֽ֫שֶׁת",
+      "gloss": "A woman of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חַ֭יִל",
+      "gloss": "worth",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲטֶ֣רֶת",
+      "gloss": "is the crown of",
+      "sense": null
+    },
+    {
+      "surface": "בַּעְלָ֑הּ",
+      "gloss": "her husband",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּכְרָקָ֖ב",
+      "gloss": "but like rottenness",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּעַצְמוֹתָ֣יו",
+      "gloss": "in his bones",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְבִישָֽׁה",
+      "gloss": "is she who shames",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:50:22.538412228Z",
+  "model": "glm-5.3"
 }

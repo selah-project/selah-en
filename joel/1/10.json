@@ -1,97 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "Laid waste is the field, mourns the ground, for laid waste is the grain; the new wine is dried up, the oil languishes.",
+  "ref": "joel 1:10",
+  "book": "joel",
+  "lang": "en6",
+  "chapter": 1,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew passive perfects need English copulas"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "שדד\/שדה",
+      "rationale": "verb שדד echoes noun שדה — wasted is the field — lost in English"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "אבלה",
+      "rationale": "the soil 'mourns' as the priests do in v.9 — same verb sustained"
+    }
+  ],
+  "translation": "Laid waste is the field, in mourning is the soil, for grain is laid waste, new wine is dried up, oil droops.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "15f74b1d53c0ed09e8c1bbf8e8085cb156c1288d90e9de4acf1b5ddf90692ac1",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/joel\/1\/9-12.1791191411758.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/joel.edn"
+  },
   "tokens": [
     {
       "surface": "שדד",
-      "gloss": "Laid waste"
+      "gloss": "laid waste is",
+      "sense": "S1"
     },
     {
       "surface": "שדה",
-      "gloss": "field"
+      "gloss": "the field",
+      "sense": "S1"
     },
     {
       "surface": "אבלה",
-      "gloss": "mourns"
+      "gloss": "in mourning is",
+      "sense": "S1"
     },
     {
       "surface": "אדמה",
-      "gloss": "ground",
-      "readings": [
-        "ground",
-        "land"
-      ],
-      "held_by": {
-        "ground": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "land": [
-          "v1",
-          "v3"
-        ]
-      }
+      "gloss": "the soil",
+      "sense": "S1"
     },
     {
       "surface": "כי",
-      "gloss": "for"
+      "gloss": "for",
+      "sense": null
     },
     {
       "surface": "שדד",
-      "gloss": "laid waste"
+      "gloss": "is laid waste",
+      "sense": "S1"
     },
     {
       "surface": "דגן",
-      "gloss": "grain"
+      "gloss": "grain",
+      "sense": "S1"
     },
     {
       "surface": "הוביש",
       "gloss": "is dried up",
-      "readings": [
-        "is dried up",
-        "is put to shame"
-      ],
-      "held_by": {
-        "is dried up": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "is put to shame": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "תירוש",
-      "gloss": "new wine"
+      "gloss": "new wine",
+      "sense": "S1"
     },
     {
       "surface": "אמלל",
-      "gloss": "languishes"
+      "gloss": "droops",
+      "sense": "S1"
     },
     {
       "surface": "יצהר",
       "gloss": "oil",
-      "readings": [
-        "oil",
-        "fresh oil"
-      ],
-      "held_by": {
-        "oil": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "fresh oil": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:10:11.759315033Z",
+  "model": "glm-5.3"
 }

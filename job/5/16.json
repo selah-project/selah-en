@@ -1,61 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
-  "translation": "And there is hope for the poor, and injustice shuts its mouth.",
-  "tokens": [
+  "ref": "job 5:16",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "ותהי",
-      "gloss": "And there is",
-      "readings": [
-        "And there is",
-        "and it became"
-      ],
-      "held_by": {
-        "And there is": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and it became": [
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "hope",
+      "rationale": "תִּקְוָה literally a cord\/attachment; figuratively expectancy — the cord picture is lost."
     },
     {
-      "surface": "לדל",
-      "gloss": "for ⟨the⟩ poor"
-    },
-    {
-      "surface": "תקוה",
-      "gloss": "hope",
-      "readings": [
-        "hope",
-        "a cord"
-      ],
-      "held_by": {
-        "hope": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "a cord": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ועלתה",
-      "gloss": "and injustice"
-    },
-    {
-      "surface": "קפצה",
-      "gloss": "shuts"
-    },
-    {
-      "surface": "פיה",
-      "gloss": "its mouth"
+      "kind": "wordplay",
+      "subject": "mouth",
+      "rationale": "פֶּה frames the stanza: the oppressors' mouth (v.15) silenced, wrongdoing's mouth (v.16) closed."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And there is hope for the poor, and wrongdoing closes its mouth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f9a1427279b5da619202fc68bb7741359add96349ac726d00c6efc6e26febf13",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/5\/13-16.1791194159490.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וַתְּהִ֣י",
+      "gloss": "And there is",
+      "sense": null
+    },
+    {
+      "surface": "לַדַּ֣ל",
+      "gloss": "for the poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּקְוָ֑ה",
+      "gloss": "hope",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝עֹלָ֗תָה",
+      "gloss": "and wrongdoing",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָ֣פְצָה",
+      "gloss": "closes",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּֽיהָ",
+      "gloss": "its mouth",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:55:59.491929181Z",
+  "model": "glm-5.3"
 }

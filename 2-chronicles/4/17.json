@@ -1,62 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 17,
-  "translation": "In the plain of the Jordan the king cast them, in the thick clay of the ground, between Succoth and between Zeredathah.",
-  "tokens": [
+  "ref": "2-chronicles 4:17",
+  "book": "2-chronicles",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "בככר",
-      "gloss": "in the plain of",
-      "readings": [
-        "in the plain of",
-        "in the circuit of"
-      ],
-      "held_by": {
-        "in the plain of": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in the circuit of": [
-          "v1"
-        ]
-      }
+      "kind": "crux",
+      "subject": "Zeredah",
+      "rationale": "צרדתה here vs צרתן (Zarethan) in the parallel 1 Kings 7:46; the two names may mark the same area in the Jordan valley."
     },
     {
-      "surface": "הירדן",
-      "gloss": "the Jordan"
+      "kind": "wordplay",
+      "subject": "between … and between",
+      "rationale": "Hebrew repeats בין before each place name; kept literally rather than collapsed to a single 'between'."
     },
     {
-      "surface": "יצקם",
-      "gloss": "cast them"
-    },
-    {
-      "surface": "המלך",
-      "gloss": "the king"
-    },
-    {
-      "surface": "בעבי",
-      "gloss": "in the thick clay of"
-    },
-    {
-      "surface": "האדמה",
-      "gloss": "the ground"
-    },
-    {
-      "surface": "בין",
-      "gloss": "between"
-    },
-    {
-      "surface": "סכות",
-      "gloss": "Succoth"
-    },
-    {
-      "surface": "ובין",
-      "gloss": "and between"
-    },
-    {
-      "surface": "צרדתה",
-      "gloss": "Zeredathah"
+      "kind": "measurement",
+      "subject": "casting site",
+      "rationale": "The verse locates the foundry by region and bounding towns, a geographic fixing of where the bronzes were poured."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "In the circle of the Jordan the king cast them, in the thickness of the ground, between Succoth and between Zeredah.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8d39578588cfe4a17c159da13c1ab9d03122c12dabaa75aec02a7d522d8bb06c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/2-chronicles\/4\/17-20.1791196558903.json",
+    "code": "5f5c6ade-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/2-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּכִכַּר",
+      "gloss": "in the circle of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַיַּרְדֵּן",
+      "gloss": "the Jordan",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְצָקָם",
+      "gloss": "he cast them",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַמֶּלֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּעֲבִי",
+      "gloss": "in the thickness of",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָאֲדָמָה",
+      "gloss": "the ground",
+      "sense": "S1"
+    },
+    {
+      "surface": "בֵּין",
+      "gloss": "between",
+      "sense": null
+    },
+    {
+      "surface": "סֻכּוֹת",
+      "gloss": "Succoth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבֵין",
+      "gloss": "and between",
+      "sense": null
+    },
+    {
+      "surface": "צְרֵדָתָה",
+      "gloss": "Zeredah",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:35:58.903751360Z",
+  "model": "glm-5.3"
 }

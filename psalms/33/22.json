@@ -1,36 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Let your chesed be upon us, YHWH, as we have hoped in you.",
+  "ref": "psalms 33:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 33,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨it⟩",
+      "rationale": "Jussive 'may it be' requires an English subject the Hebrew leaves implicit in יהי."
+    },
+    {
+      "kind": "invitation",
+      "subject": "prayer for chesed",
+      "rationale": "A jussive petition closing the psalm — the community asks YHWH for His covenant faithfulness."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "חסד \/ יחלנו",
+      "rationale": "The verse pivots on covenant words — chesed and confident waiting — framing the psalm's close."
+    }
+  ],
+  "translation": "May Your chesed be upon us, YHWH, as we have hoped in You.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b892d36a40beb7d113c7469d226d9ebd9dcc91175bccd5159cdd5bedad15c009",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/33\/21-22.1791192585218.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "יהי",
-      "gloss": "let ⟨it⟩ be"
+      "surface": "יְהִֽי",
+      "gloss": "May ⟨it⟩ be"
     },
     {
-      "surface": "חסדך",
-      "gloss": "your chesed"
+      "surface": "חַסְדְּךָ֣",
+      "gloss": "your chesed",
+      "readings": [
+        "your chesed",
+        "your steadfast love"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָ֣ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "עלינו",
+      "surface": "עָלֵ֑ינוּ",
       "gloss": "upon us"
     },
     {
-      "surface": "כאשר",
+      "surface": "כַּ֝אֲשֶׁ֗ר",
       "gloss": "as"
     },
     {
-      "surface": "יחלנו",
-      "gloss": "we have hoped"
+      "surface": "יִחַ֥לְנוּ",
+      "gloss": "we have hoped",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
-      "gloss": "in you"
+      "surface": "לָֽךְ",
+      "gloss": "in You"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:29:45.219516761Z",
+  "model": "glm-5.3"
 }

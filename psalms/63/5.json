@@ -1,74 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "Thus I will bless you in my life; in your name I will lift up my palms.",
-  "tokens": [
+  "ref": "psalms 63:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 63,
+  "notes": [
     {
-      "surface": "כן",
-      "gloss": "Thus",
-      "readings": [
-        "Thus",
-        "So"
-      ],
-      "held_by": {
-        "Thus": [
-          "v1",
-          "v3"
-        ],
-        "So": [
-          "v2",
-          "en4"
-        ]
-      }
+      "kind": "substitution",
+      "subject": "two-hands",
+      "rationale": "כפי is a dual, 'my two palms'; the raised empty palms are a stance of prayer"
     },
     {
-      "surface": "אברכך",
-      "gloss": "I will bless you"
-    },
-    {
-      "surface": "בחיי",
-      "gloss": "in my life",
-      "readings": [
-        "in my life",
-        "while I live"
-      ],
-      "held_by": {
-        "in my life": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "while I live": [
-          "v1"
-        ]
-      }
-    },
-    {
-      "surface": "בשמך",
-      "gloss": "in your name"
-    },
-    {
-      "surface": "אשא",
-      "gloss": "I will lift up"
-    },
-    {
-      "surface": "כפי",
-      "gloss": "my palms",
-      "readings": [
-        "my palms",
-        "my hands"
-      ],
-      "held_by": {
-        "my palms": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my hands": [
-          "v1"
-        ]
-      }
+      "kind": "crux",
+      "subject": "Thus",
+      "rationale": "כן looks back to v.4: 'so\/therefore I will bless You', since Your chesed is better than life"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Thus I will bless You in my life; in Your name I will lift my two-hands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "20d317a5c073f2bb43ff6d82c87d8882c594d4f7a81b72015688c38a3a2496d8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/63\/5-8.1791192868689.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כֵּן",
+      "gloss": "Thus",
+      "sense": null
+    },
+    {
+      "surface": "אֲבָרֶכְךָ",
+      "gloss": "I will bless You",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּחַיַּי",
+      "gloss": "in my life",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשִׁמְךָ",
+      "gloss": "in Your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶשָּׂא",
+      "gloss": "I will lift",
+      "sense": "S1"
+    },
+    {
+      "surface": "כַּפַּי",
+      "gloss": "my two-hands",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:34:28.690308569Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 26,
-  "translation": "He who withholds grain — the people will curse him, but blessing ⟨is⟩ on the head of him who sells.",
+  "ref": "proverbs 11:26",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "יקבהו",
+      "rationale": "from קבב 'curse' (SDBH) vs נקב 'pierce'; most take 'the people will execrate him'"
+    },
+    {
+      "kind": "addition",
+      "subject": "⟨the⟩, ⟨is⟩",
+      "rationale": "English articles and copula supplied; Hebrew has none"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בר\/משביר",
+      "rationale": "grain and grain-dealer share the root — the contrast is between hoarding grain and trading grain"
+    }
+  ],
+  "translation": "The one withholding grain — ⟨the⟩ people will curse him, and blessing ⟨is⟩ on the head of the one selling grain.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "78935e6db6cce6927252ed08e949907ab4068726258f1029a6eeb90beaede6d4",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/11\/25-28.1791193815899.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מנע",
-      "gloss": "he who withholds"
+      "surface": "מֹ֣נֵֽעַ",
+      "gloss": "the one withholding",
+      "sense": "S1"
     },
     {
-      "surface": "בר",
+      "surface": "בָּ֭ר",
       "gloss": "grain",
-      "readings": [
-        "grain",
-        "the open country"
-      ],
-      "held_by": {
-        "grain": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the open country": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "יקבהו",
+      "surface": "יִקְּבֻ֣הוּ",
       "gloss": "will curse him",
+      "sense": "S1",
       "readings": [
         "will curse him",
         "will pierce him"
-      ],
-      "held_by": {
-        "will curse him": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will pierce him": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "לאום",
-      "gloss": "the people"
+      "surface": "לְאֹ֑ם",
+      "gloss": "⟨the⟩ people",
+      "sense": "S1"
     },
     {
-      "surface": "וברכה",
-      "gloss": "but blessing"
+      "surface": "וּבְרָכָ֗ה",
+      "gloss": "and blessing",
+      "sense": "S1"
     },
     {
-      "surface": "לראש",
-      "gloss": "on the head of"
+      "surface": "לְרֹ֣אשׁ",
+      "gloss": "on the head of",
+      "sense": "S1"
     },
     {
-      "surface": "משביר",
-      "gloss": "of him who sells"
+      "surface": "מַשְׁבִּֽיר",
+      "gloss": "the one selling grain",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:50:15.900088096Z",
+  "model": "glm-5.3"
 }

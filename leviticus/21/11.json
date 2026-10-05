@@ -1,62 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "And upon all soul of the dead he shall not come; for his father and for his mother he shall not defile himself.",
+  "ref": "leviticus 21:11",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "dead body",
+      "rationale": "נפשות מת is literally 'souls of a dead one' — nefesh here means the corpse that conveys uncleanness"
+    }
+  ],
+  "translation": "and for any dead body he shall not come — for his father and for his mother he shall not make himself unclean.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7d418f4e2ee7d5a735716db57b73c8b6c26bef987ee19c98ae0df456455f45f6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/21\/9-12.1791182578393.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
       "surface": "ועל",
-      "gloss": "And upon"
+      "gloss": "and for",
+      "sense": null
     },
     {
       "surface": "כל",
-      "gloss": "all"
+      "gloss": "any",
+      "sense": null
     },
     {
       "surface": "נפשת",
-      "gloss": "soul",
-      "readings": [
-        "soul",
-        "nefesh"
-      ],
-      "held_by": {
-        "soul": [
-          "v1",
-          "v3"
-        ],
-        "nefesh": [
-          "v2",
-          "en4"
-        ]
-      }
+      "gloss": "dead body",
+      "sense": "S1"
     },
     {
       "surface": "מת",
-      "gloss": "of the dead"
+      "gloss": "of one who has died",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יבא",
-      "gloss": "he shall come"
+      "gloss": "he shall come",
+      "sense": null
     },
     {
       "surface": "לאביו",
-      "gloss": "for his father"
+      "gloss": "for his father",
+      "sense": "S1"
     },
     {
       "surface": "ולאמו",
-      "gloss": "and for his mother"
+      "gloss": "and for his mother",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "יטמא",
-      "gloss": "he shall defile himself"
+      "gloss": "he shall make himself unclean",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:42:58.400508540Z",
+  "model": "glm-5.3"
 }

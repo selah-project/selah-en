@@ -1,48 +1,81 @@
 {
+  "tier": "glm-5.2",
   "verse": 16,
+  "ref": "1-kings 15:16",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 15,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "there was",
+      "rationale": "English requires an existential subject 'there' that the Hebrew verb היתה does not carry."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "בין...ובין",
+      "rationale": "the paired 'between...and between' is the Hebrew correlative construction, kept literally."
+    }
+  ],
   "translation": "And there was war between Asa and between Baasha king of Israel all their days.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "abad300d4bdbd5a51de039ca81833ea4c4baaac15b53f26f509afe562dbc1e76",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/15\/13-16.1791187115316.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "ומלחמה",
-      "gloss": "and war"
+      "surface": "וּמִלְחָמָ֨ה",
+      "gloss": "and war",
+      "sense": "S1"
     },
     {
-      "surface": "היתה",
-      "gloss": "was"
+      "surface": "הָיְתָ֜ה",
+      "gloss": "there was"
     },
     {
-      "surface": "בין",
+      "surface": "בֵּ֣ין",
       "gloss": "between"
     },
     {
-      "surface": "אסא",
-      "gloss": "Asa"
+      "surface": "אָסָ֗א",
+      "gloss": "Asa",
+      "sense": "S1"
     },
     {
-      "surface": "ובין",
+      "surface": "וּבֵ֛ין",
       "gloss": "and between"
     },
     {
-      "surface": "בעשא",
-      "gloss": "Baasha"
+      "surface": "בַּעְשָׁ֥א",
+      "gloss": "Baasha",
+      "sense": "S1"
     },
     {
-      "surface": "מלך",
-      "gloss": "king"
+      "surface": "מֶֽלֶךְ",
+      "gloss": "king of",
+      "sense": "S1"
     },
     {
-      "surface": "ישראל",
-      "gloss": "of Israel"
+      "surface": "יִשְׂרָאֵ֖ל",
+      "gloss": "Israel",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "ימיהם",
-      "gloss": "their days"
+      "surface": "יְמֵיהֶֽם",
+      "gloss": "their days",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:58:35.317549936Z",
+  "model": "glm-5.3"
 }

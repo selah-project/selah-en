@@ -1,52 +1,73 @@
 {
+  "tier": "glm-5.2",
   "verse": 31,
-  "translation": "May the glory of YHWH be forever; may YHWH rejoice in his works.",
-  "tokens": [
+  "ref": "psalms 104:31",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 104,
+  "notes": [
     {
-      "surface": "יהי",
-      "gloss": "let it be"
+      "kind": "addition",
+      "subject": "it \/ He",
+      "rationale": "Hebrew jussives יהי and ישמח carry no pronoun; English needs bracketed subjects."
     },
     {
-      "surface": "כבוד",
+      "kind": "alternative",
+      "subject": "glory",
+      "rationale": "כבוד is literally 'weight'; the figurative sense 'splendor\/position of honor' is reading 1."
+    }
+  ],
+  "translation": "May the glory of YHWH be forever; may YHWH rejoice in His works.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "26ece9100abaa5e65b1242919428e28b138b98125fbcfbfb17192690be4f4a91",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/104\/29-32.1791193291961.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְהִי",
+      "gloss": "May ⟨it⟩ be"
+    },
+    {
+      "surface": "כְּבוֹד",
       "gloss": "the glory of",
       "readings": [
         "the glory of",
         "the weight of"
       ],
-      "held_by": {
-        "the glory of": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the weight of": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "לעולם",
-      "gloss": "forever"
+      "surface": "לְעוֹלָם",
+      "gloss": "forever",
+      "sense": "S1"
     },
     {
-      "surface": "ישמח",
-      "gloss": "may YHWH rejoice"
+      "surface": "יִשְׂמַח",
+      "gloss": "may ⟨He⟩ rejoice",
+      "sense": "S1"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "במעשיו",
-      "gloss": "in his works"
+      "surface": "בְּמַעֲשָׂיו",
+      "gloss": "in His works",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:41:31.962366329Z",
+  "model": "glm-5.3"
 }

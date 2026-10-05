@@ -1,120 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "A pure heart create in me, O Elohim, and a steadfast spirit renew within me.",
+  "ref": "psalms 51:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 51,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "רוח",
+      "rationale": "Human spirit here, not the Holy Spirit of v.13; readings include spirit\/breath\/wind."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "create\/renew",
+      "rationale": "ברא (the Genesis verb) paired with חדש — creation language applied to inner renewal."
+    }
+  ],
+  "translation": "A clean heart create for me, Elohim, and a steadfast spirit renew within me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "601dab851df696beafce03a428c3071a2b5c29410835d30123d501f8b549b5e8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/51\/9-12.1791192776820.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לב",
-      "gloss": "heart"
+      "surface": "לֵ֣ב",
+      "gloss": "heart",
+      "sense": "S1"
     },
     {
-      "surface": "טהור",
-      "gloss": "pure",
-      "readings": [
-        "pure",
-        "clean"
-      ],
-      "held_by": {
-        "pure": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "clean": [
-          "en4"
-        ]
-      }
+      "surface": "טָ֭הוֹר",
+      "gloss": "clean",
+      "sense": null
     },
     {
-      "surface": "ברא",
-      "gloss": "create"
+      "surface": "בְּרָא",
+      "gloss": "create",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
-      "gloss": "in me",
-      "readings": [
-        "in me",
-        "for me"
-      ],
-      "held_by": {
-        "in me": [
-          "v1",
-          "en4"
-        ],
-        "for me": [
-          "v2",
-          "v3"
-        ]
-      }
+      "surface": "לִ֣י",
+      "gloss": "for me",
+      "sense": null
     },
     {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
+      "surface": "אֱלֹהִ֑ים",
+      "gloss": "Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "ורוח",
+      "surface": "וְר֥וּחַ",
       "gloss": "and a spirit",
+      "sense": "S1",
       "readings": [
         "and a spirit",
         "and a wind",
         "and a breath"
-      ],
-      "held_by": {
-        "and a spirit": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "and a wind": [
-          "en4"
-        ],
-        "and a breath": [
-          "en4"
-        ]
-      }
+      ]
     },
     {
-      "surface": "נכון",
+      "surface": "נָ֝כ֗וֹן",
       "gloss": "steadfast",
-      "readings": [
-        "steadfast",
-        "right"
-      ],
-      "held_by": {
-        "steadfast": [
-          "v1",
-          "en4"
-        ],
-        "right": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "חדש",
-      "gloss": "renew"
+      "surface": "חַדֵּ֥שׁ",
+      "gloss": "renew",
+      "sense": "S1"
     },
     {
-      "surface": "בקרבי",
+      "surface": "בְּקִרְבִּֽי",
       "gloss": "within me",
-      "readings": [
-        "within me",
-        "in my inward parts"
-      ],
-      "held_by": {
-        "within me": [
-          "v1",
-          "v3",
-          "en4"
-        ],
-        "in my inward parts": [
-          "v2"
-        ]
-      }
+      "sense": null
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:32:56.821666233Z",
+  "model": "glm-5.3"
 }

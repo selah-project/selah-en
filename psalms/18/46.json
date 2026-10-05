@@ -1,58 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 46,
-  "translation": "Sons of a foreigner will fade away and will tremble out of their strongholds.",
-  "tokens": [
+  "ref": "psalms 18:46",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 18,
+  "notes": [
     {
-      "surface": "בני",
-      "gloss": "Sons of"
+      "kind": "hapax",
+      "subject": "ויחרגו",
+      "rationale": "חרג occurs only here in the Tanakh; 2 Sam 22:46 reads יחגרו instead"
     },
     {
-      "surface": "נכר",
-      "gloss": "a foreigner",
-      "readings": [
-        "a foreigner",
-        "foreignness"
-      ],
-      "held_by": {
-        "a foreigner": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "foreignness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "יבלו",
-      "gloss": "will fade away",
-      "readings": [
-        "will fade away",
-        "will fall away"
-      ],
-      "held_by": {
-        "will fade away": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "will fall away": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויחרגו",
-      "gloss": "and will tremble"
-    },
-    {
-      "surface": "ממסגרותיהם",
-      "gloss": "out of their strongholds"
+      "kind": "crux",
+      "subject": "ממסגרותיהם",
+      "rationale": "מסגרת meaning uncertain: 'fortifications' vs 'strongholds' vs 'enclosures'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Sons of the foreigner will wilt and tremble from their fortifications.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "23ef39fa7d51f96623b72f571cd7ff6f9f413b8ee2e16cb5b40e3039093fdf34",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/18\/45-48.1791192478614.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "בְּנֵי",
+      "gloss": "sons of",
+      "sense": "S1"
+    },
+    {
+      "surface": "נֵכָ֥ר",
+      "gloss": "the foreigner",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִבֹּ֑לוּ",
+      "gloss": "will wilt",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְ֝יַחְרְג֗וּ",
+      "gloss": "and tremble",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִֽמִּסְגְּרֹתֵיהֶֽם",
+      "gloss": "from their fortifications",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:27:58.615541753Z",
+  "model": "glm-5.3"
 }

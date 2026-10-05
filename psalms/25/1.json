@@ -1,47 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "Of David. To you, YHWH, I lift up my soul.",
+  "ref": "psalms 25:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is throat\/life-force, the animating self; 'soul' is the conventional English seat"
+    },
+    {
+      "kind": "invitation",
+      "subject": "to YHWH",
+      "rationale": "The psalm opens as direct address to YHWH"
+    }
+  ],
+  "translation": "Of David. To You, O YHWH, I lift up my soul.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "de568b66e151e90a20befda35ef7c892f79b1bd2958ac4cd6e3c4eb68b0d8960",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/1-4.1791192519044.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לדוד",
-      "gloss": "of David"
+      "surface": "לְדָוִ֡ד",
+      "gloss": "Of David",
+      "sense": "S1"
     },
     {
-      "surface": "אליך",
-      "gloss": "to you"
+      "surface": "אֵלֶ֥יךָ",
+      "gloss": "to You",
+      "sense": null
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְ֝הוָ֗ה",
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
-      "surface": "נפשי",
+      "surface": "נַפְשִׁ֥י",
       "gloss": "my soul",
       "readings": [
         "my soul",
-        "my life",
-        "my throat"
+        "my life"
       ],
-      "held_by": {
-        "my soul": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ],
-        "my throat": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "אשא",
-      "gloss": "I lift up"
+      "surface": "אֶשָּֽׂא",
+      "gloss": "I lift up",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:28:39.045106343Z",
+  "model": "glm-5.3"
 }

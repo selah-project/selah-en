@@ -1,45 +1,61 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "And David dwelt in ⟨the⟩ stronghold; therefore they called it ⟨the⟩ City of David.",
+  "ref": "1-chronicles 11:7",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 11,
+  "notes": [
+    {
+      "kind": "idiom",
+      "subject": "על כן",
+      "rationale": "Literally 'on so' — rendered 'therefore'"
+    },
+    {
+      "kind": "substitution",
+      "subject": "לו",
+      "rationale": "Literally 'to him\/it'; parallel 2 Sam 5:9 has 'to her' (לה), pointing to the fortress as feminine"
+    }
+  ],
+  "translation": "And David dwelt in the stronghold; therefore they called it the city of David.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "1ad38981e89f844e3d742b4721412310208340aa4e6898d6c877258b2525a97b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/11\/5-8.1791196196454.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
   "tokens": [
     {
       "surface": "וישב",
-      "gloss": "and dwelt"
+      "gloss": "and dwelt",
+      "sense": "S1"
     },
     {
       "surface": "דויד",
-      "gloss": "David"
+      "gloss": "David",
+      "sense": "S1"
     },
     {
       "surface": "במצד",
-      "gloss": "in ⟨the⟩ stronghold"
+      "gloss": "in the stronghold",
+      "sense": null
     },
     {
       "surface": "על",
-      "gloss": "on account",
-      "readings": [
-        "on account",
-        "therefore"
-      ],
-      "held_by": {
-        "on account": [
-          "v1",
-          "en4"
-        ],
-        "therefore": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "gloss": "on"
     },
     {
       "surface": "כן",
-      "gloss": "of this"
+      "gloss": "this account"
     },
     {
       "surface": "קראו",
-      "gloss": "they called"
+      "gloss": "they called",
+      "sense": "S1"
     },
     {
       "surface": "לו",
@@ -47,13 +63,15 @@
     },
     {
       "surface": "עיר",
-      "gloss": "⟨the⟩ City"
+      "gloss": "the city of",
+      "sense": "S1"
     },
     {
       "surface": "דויד",
-      "gloss": "of David"
+      "gloss": "David",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:29:56.456004292Z",
+  "model": "glm-5.3"
 }

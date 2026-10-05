@@ -1,53 +1,78 @@
 {
+  "tier": "glm-5.2",
   "verse": 9,
-  "translation": "On account of these shall I not punish — oracle of YHWH — and on a nation such as this, shall not my soul avenge itself?",
+  "ref": "jeremiah 5:9",
+  "book": "jeremiah",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "פקד",
+      "rationale": "‘visit\/punish’ vs ‘take notice of’; the same verb returns in v12 for the people's denial, an irony lost in English."
+    },
+    {
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפשי is YHWH's self, throat-life, not a disembodied soul."
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel\/Judah through the prophet",
+      "rationale": "Rhetorical questions addressed to the people."
+    }
+  ],
+  "translation": "On account of these things, shall I not punish? — the oracle of YHWH. And against a nation such as this, shall my nefesh not take vengeance?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c9b1166d6996eeb6fcf57b5e8d1eee6204f54525e66ed200c8a30d116a760a5d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/jeremiah\/5\/9-12.1791189122022.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/jeremiah.edn"
+  },
   "tokens": [
     {
       "surface": "העל",
-      "gloss": "on account of"
+      "gloss": "On account of",
+      "sense": "S1"
     },
     {
       "surface": "אלה",
-      "gloss": "these"
+      "gloss": "these things",
+      "sense": "S1"
     },
     {
       "surface": "לוא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "אפקד",
       "gloss": "shall I punish",
-      "readings": [
-        "shall I punish",
-        "shall I visit"
-      ],
-      "held_by": {
-        "shall I punish": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "shall I visit": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
       "surface": "נאם",
-      "gloss": "oracle of"
+      "gloss": "the oracle of",
+      "sense": "S1"
     },
     {
       "surface": "יהוה",
-      "gloss": "YHWH"
+      "gloss": "YHWH",
+      "sense": "S1"
     },
     {
       "surface": "ואם",
-      "gloss": "and if"
+      "gloss": "and against",
+      "sense": null
     },
     {
       "surface": "בגוי",
-      "gloss": "on a nation"
+      "gloss": "a nation",
+      "sense": "S1"
     },
     {
       "surface": "אשר",
@@ -55,21 +80,29 @@
     },
     {
       "surface": "כזה",
-      "gloss": "this"
+      "gloss": "this",
+      "sense": "S1"
     },
     {
       "surface": "לא",
-      "gloss": "not"
+      "gloss": "not",
+      "sense": "S1"
     },
     {
       "surface": "תתנקם",
-      "gloss": "avenge itself"
+      "gloss": "shall take vengeance",
+      "sense": "S1"
     },
     {
       "surface": "נפשי",
-      "gloss": "my soul"
+      "gloss": "my nefesh",
+      "sense": "S1",
+      "readings": [
+        "my nefesh",
+        "my life"
+      ]
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:32:02.023667275Z",
+  "model": "glm-5.3"
 }

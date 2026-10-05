@@ -1,63 +1,69 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "Evil shall put to death the wicked, and the haters of the righteous shall be held guilty.",
+  "ref": "psalms 34:22",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 34,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "Kills the wicked one evil",
+      "rationale": "no subject and no object marker — 'evil kills the wicked' (evil as subject) vs 'the death of the wicked is evil' (noun) vs 'He kills the wicked by evil'"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "רשע\/רעה",
+      "rationale": "wicked\/evil sound echo, untransferred"
+    }
+  ],
+  "translation": "Kills the wicked one evil, and haters of the righteous one are held guilty.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "c7ae731b811dd4e83904d3017c893139deded15d0270d9d6d6dbc08478b92686",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/34\/21-23.1791192604740.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "תמותת",
-      "gloss": "shall put to death"
+      "surface": "תְּמוֹתֵ֣ת",
+      "gloss": "Kills",
+      "sense": "S1"
     },
     {
-      "surface": "רשע",
-      "gloss": "the wicked"
+      "surface": "רָשָׁ֣ע",
+      "gloss": "the wicked one",
+      "sense": "S1"
     },
     {
-      "surface": "רעה",
+      "surface": "רָעָ֑ה",
       "gloss": "evil",
+      "sense": "S1",
       "readings": [
         "evil",
-        "harm"
+        "calamity"
       ]
     },
     {
-      "surface": "ושנאי",
-      "gloss": "and ⟨those who⟩ hate",
-      "readings": [
-        "and ⟨those who⟩ hate",
-        "and the haters of"
-      ],
-      "held_by": {
-        "and ⟨those who⟩ hate": [
-          "v1",
-          "v3"
-        ],
-        "and the haters of": [
-          "v2",
-          "en4"
-        ]
-      }
+      "surface": "וְשֹׂנְאֵ֖י",
+      "gloss": "and haters of",
+      "sense": "S1"
     },
     {
-      "surface": "צדיק",
-      "gloss": "the righteous"
+      "surface": "צַדִּ֣יק",
+      "gloss": "the righteous one",
+      "sense": "S1"
     },
     {
-      "surface": "יאשמו",
-      "gloss": "shall be held guilty",
-      "readings": [
-        "shall be held guilty",
-        "shall be punished",
-        "shall perish"
-      ],
-      "held_by": {
-        "shall be held guilty": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "surface": "יֶאְשָֽׁמוּ",
+      "gloss": "are held guilty",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:30:04.741156273Z",
+  "model": "glm-5.3"
 }

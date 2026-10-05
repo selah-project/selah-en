@@ -1,58 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 28,
-  "translation": "Her sons rise up and call her blessed; her husband also, and he praises her.",
-  "tokens": [
+  "ref": "proverbs 31:28",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 31,
+  "notes": [
     {
-      "surface": "קמו",
-      "gloss": "risen up",
-      "readings": [
-        "risen up",
-        "rise up"
-      ],
-      "held_by": {
-        "risen up": [
-          "v1",
-          "v3"
-        ],
-        "rise up": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "addition",
+      "subject": "also",
+      "rationale": "her husband stands alone in the Hebrew; the marker carries the ellipsis of the verb"
     },
     {
-      "surface": "בניה",
-      "gloss": "her sons",
-      "readings": [
-        "her sons",
-        "her children"
-      ],
-      "held_by": {
-        "her sons": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "her children": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ויאשרוה",
-      "gloss": "and they call her blessed"
-    },
-    {
-      "surface": "בעלה",
-      "gloss": "her husband"
-    },
-    {
-      "surface": "ויהללה",
-      "gloss": "and he praises her"
+      "kind": "wordplay",
+      "subject": "אשר\/יהלל",
+      "rationale": "call-her-happy (אשר) and praise (הלל) form the acrostic's doubled commendation, rising to praise"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Her children rise up and call her happy; her husband ⟨also⟩, and he praises her.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "32666d229301b493f95025404be9cc89ded3e27c48adaa1bd944f293de692918",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/31\/25-28.1791194096251.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "קָ֣מוּ",
+      "gloss": "rise up",
+      "sense": null
+    },
+    {
+      "surface": "בָּנֶ֭יהָ",
+      "gloss": "Her children",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיְאַשְּׁר֑וּהָ",
+      "gloss": "and call her happy",
+      "sense": "S1",
+      "readings": [
+        "and call her happy",
+        "and bless her"
+      ]
+    },
+    {
+      "surface": "בַּּעְלָ֗הּ",
+      "gloss": "her husband",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַֽיְהַֽלְלָֽהּ",
+      "gloss": "and he praises her",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:54:56.252805229Z",
+  "model": "glm-5.3"
 }

@@ -1,66 +1,90 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "Hear the voice of my supplications when I cry to You, when I lift up my hands toward Your holy inner sanctuary.",
-  "tokens": [
+  "ref": "psalms 28:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
     {
-      "surface": "שמע",
-      "gloss": "Hear"
+      "kind": "invitation",
+      "subject": "Hear",
+      "rationale": "The verse opens with an imperative summoning YHWH to hear."
     },
     {
-      "surface": "קול",
-      "gloss": "the voice"
+      "kind": "crux",
+      "subject": "דביר קדשך",
+      "rationale": "'The innermost room of your sanctuary' vs 'your holy innermost room'; the construct is compressed — literally 'innermost-room of your holiness'."
     },
     {
-      "surface": "תחנוני",
-      "gloss": "of my supplications"
-    },
-    {
-      "surface": "בשועי",
-      "gloss": "when I cry"
-    },
-    {
-      "surface": "אליך",
-      "gloss": "to You"
-    },
-    {
-      "surface": "בנשאי",
-      "gloss": "when I lift up"
-    },
-    {
-      "surface": "ידי",
-      "gloss": "my hands"
-    },
-    {
-      "surface": "אל",
-      "gloss": "toward"
-    },
-    {
-      "surface": "דביר",
-      "gloss": "holy ⟨inner⟩ sanctuary",
-      "readings": [
-        "holy ⟨inner⟩ sanctuary",
-        "innermost room",
-        "oracle"
-      ],
-      "held_by": {
-        "holy ⟨inner⟩ sanctuary": [
-          "v2",
-          "v3",
-          "v1"
-        ],
-        "innermost room": [
-          "en4"
-        ],
-        "oracle": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "קדשך",
-      "gloss": "Your holy"
+      "kind": "addition",
+      "subject": "room of",
+      "rationale": "English needs 'room' to carry דביר as a place; supplied in brackets."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Hear the voice of my supplications when I cry to You, when I lift my hands toward the innermost ⟨room of⟩ Your holiness.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a541b062d6ec907b73983a34d5cf8fcc5d2682c079bc4edc0b7f3be5e33d7700",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/28\/1-4.1791192559124.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "שְׁמַ֤ע",
+      "gloss": "Hear",
+      "sense": null
+    },
+    {
+      "surface": "ק֣וֹל",
+      "gloss": "the voice of",
+      "sense": null
+    },
+    {
+      "surface": "תַּחֲנוּנַ֥י",
+      "gloss": "my supplications",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשַׁוְּעִ֣י",
+      "gloss": "when I cry",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֵלֶ֑יךָ",
+      "gloss": "to You",
+      "sense": null
+    },
+    {
+      "surface": "בְּנָשְׂאִ֥י",
+      "gloss": "when I lift",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדַ֗י",
+      "gloss": "my hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "toward",
+      "sense": null
+    },
+    {
+      "surface": "דְּבִ֥יר",
+      "gloss": "the innermost ⟨room of⟩",
+      "sense": "S1"
+    },
+    {
+      "surface": "קָדְשֶֽׁךָ",
+      "gloss": "Your holiness",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:29:19.125178728Z",
+  "model": "glm-5.3"
 }

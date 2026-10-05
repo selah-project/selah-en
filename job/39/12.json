@@ -1,51 +1,72 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Will you trust in him that he will bring back your seed, and gather ⟨it⟩ to your threshing-floor?",
+  "ref": "job 39:12",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 39,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ישוב",
+      "rationale": "Ketiv intransitive 'turn back' vs qere ישיב transitive 'bring back your seed'; the qere fits the object and is rendered."
+    },
+    {
+      "kind": "addition",
+      "subject": "gather in",
+      "rationale": "'Gather your threshing-floor' means gather the grain on it; English needs the produce made explicit."
+    }
+  ],
+  "translation": "Will you rely on him to return your seed, and gather in your threshing-floor?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8ae1ba9e646bb6c05d67a26364402ec3a7bff0c2225a08b9820a4952d7855f74",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/39\/9-12.1791194614313.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
   "tokens": [
     {
-      "surface": "התאמין",
-      "gloss": "Will you trust"
+      "surface": "הֲתַאֲמִ֣ין",
+      "gloss": "Will you rely",
+      "sense": "S2"
     },
     {
-      "surface": "בו",
-      "gloss": "in him"
+      "surface": "בּ֭וֹ",
+      "gloss": "on him"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
       "surface": "ישוב",
-      "gloss": "he will bring back",
+      "gloss": "he will return",
+      "sense": "S1",
       "readings": [
-        "he will bring back",
-        "he will return"
-      ],
-      "held_by": {
-        "he will bring back": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "he will return": [
-          "en4"
-        ]
-      }
+        "he will return",
+        "he will turn back"
+      ]
     },
     {
-      "surface": "זרעך",
-      "gloss": "your seed"
+      "surface": "זַרְעֶ֑ךָ",
+      "gloss": "your seed",
+      "sense": "S1"
     },
     {
-      "surface": "וגרנך",
-      "gloss": "and to your threshing-floor"
+      "surface": "וְֽגָרְנְךָ֥",
+      "gloss": "and your threshing-floor",
+      "sense": "S1"
     },
     {
-      "surface": "יאסף",
-      "gloss": "will he gather"
+      "surface": "יֶאֱסֹֽף",
+      "gloss": "he will gather",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:03:34.314476682Z",
+  "model": "glm-5.3"
 }

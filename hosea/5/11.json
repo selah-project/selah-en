@@ -1,60 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 11,
-  "translation": "Oppressed is Ephraim, crushed in judgment, for he willingly walked after a command.",
+  "ref": "hosea 5:11",
+  "book": "hosea",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "צו",
+      "rationale": "hapax-like rare word: ‘precept\/command’ (LXX) vs ‘worthless thing’ (SDBH) vs a proper name (Tsv, an Assyrian deity); rendered with the plain-noun reading."
+    },
+    {
+      "kind": "crux",
+      "subject": "רצוץ משפט",
+      "rationale": "‘crushed by judgment’ vs ‘crushed in\/through judgment’ — the construct allows both oppression by legal verdict and oppressive judgment generally."
+    }
+  ],
+  "translation": "Ephraim is oppressed, crushed in judgment, for he determined to walk after a precept.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "ddbaa5a1d6a669af5292507a5ceb05949829309389063ed957f2064f19e0b05b",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/hosea\/5\/9-12.1791191280628.json",
+    "code": "8f2f4cfe-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/hosea.edn"
+  },
   "tokens": [
     {
-      "surface": "עשוק",
-      "gloss": "is oppressed"
+      "surface": "עָשׁ֥וּק",
+      "gloss": "oppressed",
+      "sense": "S1"
     },
     {
-      "surface": "אפרים",
-      "gloss": "Ephraim"
+      "surface": "אֶפְרַ֖יִם",
+      "gloss": "Ephraim",
+      "sense": "S1"
     },
     {
-      "surface": "רצוץ",
-      "gloss": "crushed"
+      "surface": "רְצ֣וּץ",
+      "gloss": "crushed",
+      "sense": "S1"
     },
     {
-      "surface": "משפט",
-      "gloss": "in judgment"
+      "surface": "מִשְׁפָּ֑ט",
+      "gloss": "in judgment",
+      "sense": "S1"
     },
     {
-      "surface": "כי",
+      "surface": "כִּ֣י",
       "gloss": "for"
     },
     {
-      "surface": "הואיל",
-      "gloss": "willingly"
+      "surface": "הוֹאִ֔יל",
+      "gloss": "he determined",
+      "sense": "S1"
     },
     {
-      "surface": "הלך",
-      "gloss": "walked"
+      "surface": "הָלַ֖ךְ",
+      "gloss": "to walk",
+      "sense": "S1"
     },
     {
-      "surface": "אחרי",
-      "gloss": "after"
+      "surface": "אַחֲרֵ֥י",
+      "gloss": "after",
+      "sense": "S1"
     },
     {
-      "surface": "צו",
-      "gloss": "a command",
-      "readings": [
-        "a command",
-        "filth"
-      ],
-      "held_by": {
-        "a command": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "filth": [
-          "en4"
-        ]
-      },
-      "disputed": false
+      "surface": "צָֽו",
+      "gloss": "a precept",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:08:00.629365336Z",
+  "model": "glm-5.3"
 }

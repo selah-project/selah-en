@@ -1,40 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "Who is for me in ⟨the⟩ heavens? And with you I have not desired ⟨anything⟩ in ⟨the⟩ earth.",
-  "tokens": [
+  "ref": "psalms 73:25",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 73,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "who"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew lacks a copula in מי לי, 'who (is) to me'"
     },
     {
-      "surface": "לי",
-      "gloss": "for me"
+      "kind": "idiom",
+      "subject": "לא חפצתי בארץ",
+      "rationale": "literally 'I have not delighted in the earth' — the idiom חפץ ב means to take pleasure in something"
     },
     {
-      "surface": "בשמים",
-      "gloss": "in ⟨the⟩ heavens"
-    },
-    {
-      "surface": "ועמך",
-      "gloss": "and with you"
-    },
-    {
-      "surface": "לא",
-      "gloss": "not"
-    },
-    {
-      "surface": "חפצתי",
-      "gloss": "I have desired"
-    },
-    {
-      "surface": "בארץ",
-      "gloss": "in ⟨the⟩ earth",
-      "readings": [
-        "in ⟨the⟩ earth",
-        "in ⟨the⟩ land"
-      ]
+      "kind": "you",
+      "subject": "to Adonai",
+      "rationale": "the psalmist addresses Elohim directly in the second person"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who is for me in the heavens? And with you, I desire nothing on the earth.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "fed803afc024d8b022178d865daf94b691c4c980237c7fe791497e98f91b4a9a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/73\/25-28.1791192997873.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִי",
+      "gloss": "Who",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִי",
+      "gloss": "is for me",
+      "sense": null
+    },
+    {
+      "surface": "בַשָּׁמַיִם",
+      "gloss": "in the heavens",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעִמְּךָ",
+      "gloss": "And with you",
+      "sense": null
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָפַצְתִּי",
+      "gloss": "I have desired",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָאָרֶץ",
+      "gloss": "on the earth",
+      "readings": [
+        "on the earth",
+        "in the land"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:37.873711387Z",
+  "model": "glm-5.3"
 }

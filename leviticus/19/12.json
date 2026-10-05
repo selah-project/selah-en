@@ -1,62 +1,85 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "And you shall not swear by my name to falsehood, and you have profaned ⟨את⟩ the name of your Elohim — I am YHWH.",
+  "ref": "leviticus 19:12",
+  "book": "leviticus",
+  "lang": "en6",
+  "chapter": 19,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "so",
+      "rationale": "the vav-consecutive result 'and you would profane' rendered 'and so' to expose the consequence."
+    },
+    {
+      "kind": "substitution",
+      "subject": "profane",
+      "rationale": "חלל literally 'bore through\/pierce' — to violate what is holy; the wounding picture is lost in 'profane'."
+    }
+  ],
+  "translation": "And you shall not swear by My name falsely, and so profane ⟨את⟩ the name of your Elohim — I am YHWH.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "85957cc62f7f0782db7dc37a2607653f066efc698318a23bc8602d86084d8f58",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/leviticus\/19\/9-12.1791182534645.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/leviticus.edn"
+  },
   "tokens": [
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹֽא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "תשבעו",
-      "gloss": "you shall swear"
+      "surface": "תִּשָּׁבְע֥וּ",
+      "gloss": "you shall swear",
+      "sense": "S1"
     },
     {
-      "surface": "בשמי",
-      "gloss": "by my name"
+      "surface": "בִּשְׁמִ֖י",
+      "gloss": "by My name",
+      "sense": "S1"
     },
     {
-      "surface": "לשקר",
-      "gloss": "to falsehood"
+      "surface": "לַשָּׁ֑קֶר",
+      "gloss": "falsely",
+      "sense": "S1"
     },
     {
-      "surface": "וחללת",
-      "gloss": "and you have profaned",
-      "readings": [
-        "and you have profaned",
-        "and you would profane"
-      ],
-      "held_by": {
-        "and you have profaned": [
-          "v1"
-        ],
-        "and you would profane": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "surface": "וְחִלַּלְתָּ֛",
+      "gloss": "and so profane",
+      "sense": "S1"
     },
     {
-      "surface": "את",
-      "gloss": "⟨את⟩"
+      "surface": "אֶת",
+      "gloss": "⟨את⟩",
+      "marks": "the name of your Elohim",
+      "sense": null
     },
     {
-      "surface": "שם",
-      "gloss": "the name of"
+      "surface": "שֵׁ֥ם",
+      "gloss": "the name of",
+      "sense": "S1"
     },
     {
-      "surface": "אלהיך",
-      "gloss": "your Elohim"
+      "surface": "אֱלֹהֶ֖יךָ",
+      "gloss": "your Elohim",
+      "sense": "S1"
     },
     {
-      "surface": "אני",
+      "surface": "אֲנִ֥י",
       "gloss": "I"
     },
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "surface": "יְהוָֽה",
+      "gloss": "YHWH",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T06:42:14.646982845Z",
+  "model": "glm-5.3"
 }

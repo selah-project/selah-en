@@ -1,52 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "The beginning of wisdom is the fear of YHWH, and knowledge of holy ones is understanding.",
-  "tokens": [
+  "ref": "proverbs 9:10",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 9,
+  "notes": [
     {
-      "surface": "תחלת",
-      "gloss": "the beginning of"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew omits the copula between the construct phrases."
     },
     {
-      "surface": "חכמה",
-      "gloss": "wisdom"
+      "kind": "crux",
+      "subject": "קדשים",
+      "rationale": "Masculine plural form; 'the holy ones' (saints\/angels) vs intensive-plural 'the Holy One' (God) — the plural form is kept."
     },
     {
-      "surface": "יראת",
-      "gloss": "the fear of"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "ודעת",
-      "gloss": "and knowledge of"
-    },
-    {
-      "surface": "קדשים",
-      "gloss": "holy ones",
-      "readings": [
-        "holy ones",
-        "the Holy One"
-      ],
-      "held_by": {
-        "holy ones": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the Holy One": [
-          "en4"
-        ]
-      },
-      "disputed": false
-    },
-    {
-      "surface": "בינה",
-      "gloss": "understanding"
+      "kind": "mystery",
+      "subject": "fear of YHWH",
+      "rationale": "The verse names the hidden starting point of wisdom, a keynote of Proverbs (1:7; Ps 111:10)."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "The beginning of wisdom is the fear of YHWH, and the knowledge of the holy ones is understanding.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "a8f00ef4089e53fe54da4d24ba0f2246b2e268e637bf6fbc4fa80bad8599a2a6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/9\/9-12.1791193785609.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
+  "tokens": [
+    {
+      "surface": "תְּחִלַּת",
+      "gloss": "The beginning of",
+      "sense": "S1"
+    },
+    {
+      "surface": "חָכְמָה",
+      "gloss": "wisdom",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְאַת",
+      "gloss": "the fear of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְדַעַת",
+      "gloss": "and the knowledge of",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְדֹשִׁים",
+      "gloss": "the holy ones",
+      "sense": "S1",
+      "readings": [
+        "the holy ones",
+        "the Holy One"
+      ]
+    },
+    {
+      "surface": "בִּינָה",
+      "gloss": "understanding",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:49:45.609896Z",
+  "model": "glm-5.3"
 }

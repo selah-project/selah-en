@@ -1,81 +1,88 @@
 {
+  "tier": "glm-5.2",
   "verse": 19,
-  "translation": "Will your cry avail — that you are not in distress? Or all the efforts of strength?",
-  "tokens": [
+  "ref": "job 36:19",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 36,
+  "notes": [
     {
-      "surface": "היערך",
-      "gloss": "will it avail",
-      "readings": [
-        "will it avail",
-        "will it be set in order"
-      ],
-      "held_by": {
-        "will it avail": [
-          "v2",
-          "v3"
-        ],
-        "will it be set in order": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "hapax",
+      "subject": "בצר",
+      "rationale": "This form occurs only here; lexicon glosses 'gold', but the sense line reads distress (narrowness) — kept literal."
     },
     {
-      "surface": "שועך",
-      "gloss": "your cry"
+      "kind": "hapax",
+      "subject": "מאמצי",
+      "rationale": "Plural 'efforts\/exertions' occurs only here in the Tanakh."
     },
     {
-      "surface": "לא",
-      "gloss": "not"
+      "kind": "crux",
+      "subject": "שועך",
+      "rationale": "Homograph: 'your cry' (S1) vs 'your wealth' (S2) — the whole line's meaning pivots on which is meant."
     },
     {
-      "surface": "בצר",
-      "gloss": "in distress",
-      "readings": [
-        "in distress",
-        "in straitness"
-      ],
-      "held_by": {
-        "in distress": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "in straitness": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "וכל",
-      "gloss": "or all"
-    },
-    {
-      "surface": "מאמצי",
-      "gloss": "the efforts of",
-      "readings": [
-        "the efforts of",
-        "the strong ones of"
-      ],
-      "held_by": {
-        "the efforts of": [
-          "v2",
-          "v3"
-        ],
-        "the strong ones of": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "כח",
-      "gloss": "strength"
+      "kind": "crux",
+      "subject": "היערך…לא בצר",
+      "rationale": "Word order and negation are knotted: 'will your cry avail, that you not be in distress?' vs 'will he regard your wealth without distress?'; rendered word-for-word to leave the difficulty visible."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Will he set in order your cry — is it not in distress — and all the efforts of strength?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7e70ea9bcec65f1acdefcaa376247ff69a36ad15d90819c742daac10d440b5b6",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/36\/17-20.1791194574606.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הֲיַעֲרֹךְ",
+      "gloss": "will he set in order",
+      "readings": [
+        "will he set in order",
+        "will it avail"
+      ],
+      "sense": "S2"
+    },
+    {
+      "surface": "שׁוּעֲךָ",
+      "gloss": "your cry",
+      "readings": [
+        "your cry",
+        "your wealth"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְצָר",
+      "gloss": "in distress",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְכֹל",
+      "gloss": "and all",
+      "sense": null
+    },
+    {
+      "surface": "מַאֲמָצֵי",
+      "gloss": "the efforts",
+      "sense": "S1"
+    },
+    {
+      "surface": "כֹּחַ",
+      "gloss": "of strength",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:02:54.606962705Z",
+  "model": "glm-5.3"
 }

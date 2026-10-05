@@ -1,6 +1,28 @@
 {
+  "tier": "glm-5.2",
   "verse": 10,
-  "translation": "And behold, a hand touched me, and it set me trembling upon my knees and upon the palms of my hands.",
+  "ref": "daniel 10:10",
+  "book": "daniel",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
+    {
+      "kind": "substitution",
+      "subject": "set me shaking",
+      "rationale": "התניעני is hiphil of נוע, 'caused me to quiver'; rendered with an auxiliary verb where Hebrew has one verb"
+    }
+  ],
+  "translation": "And behold, a hand touched me, and it set me shaking upon my knees and the palms of my hands.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "d8cfa043666a453b1b6231e8c44e6934da198c5806bba02e5b612333cf8ca3e0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/daniel\/10\/9-12.1791195436722.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/daniel.edn"
+  },
   "tokens": [
     {
       "surface": "והנה",
@@ -8,11 +30,13 @@
     },
     {
       "surface": "יד",
-      "gloss": "a hand"
+      "gloss": "a hand",
+      "sense": "S1"
     },
     {
       "surface": "נגעה",
-      "gloss": "touched"
+      "gloss": "touched",
+      "sense": "S1"
     },
     {
       "surface": "בי",
@@ -20,22 +44,8 @@
     },
     {
       "surface": "ותניעני",
-      "gloss": "and it set me trembling",
-      "readings": [
-        "and it set me trembling",
-        "and it moved me"
-      ],
-      "held_by": {
-        "and it set me trembling": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and it moved me": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "and it set me shaking",
+      "sense": "S1"
     },
     {
       "surface": "על",
@@ -43,17 +53,20 @@
     },
     {
       "surface": "ברכי",
-      "gloss": "my knees"
+      "gloss": "my two knees",
+      "sense": "S1"
     },
     {
       "surface": "וכפות",
-      "gloss": "and upon the palms of"
+      "gloss": "and the palms of",
+      "sense": "S1"
     },
     {
       "surface": "ידי",
-      "gloss": "my hands"
+      "gloss": "my two hands",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T10:17:16.723160672Z",
+  "model": "glm-5.3"
 }

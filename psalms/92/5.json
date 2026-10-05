@@ -1,51 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "For you have made me glad, YHWH, in your work; at the works of your hands I sing for joy.",
-  "tokens": [
+  "ref": "psalms 92:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 92,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "idiom",
+      "subject": "in your work \/ deeds of your hands",
+      "rationale": "parallel pair: פועל and מעשי ידים both denote YHWH's activity; 'hands' is metonymy for the doer"
     },
     {
-      "surface": "שמחתני",
-      "gloss": "you have made me glad"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "בפעלך",
-      "gloss": "in your work"
-    },
-    {
-      "surface": "במעשי",
-      "gloss": "at the works of"
-    },
-    {
-      "surface": "ידיך",
-      "gloss": "your hands"
-    },
-    {
-      "surface": "ארנן",
-      "gloss": "I sing for joy",
-      "readings": [
-        "I sing for joy",
-        "I cry out"
-      ],
-      "held_by": {
-        "I sing for joy": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I cry out": [
-          "en4"
-        ]
-      }
+      "kind": "addition",
+      "subject": "for joy",
+      "rationale": "ארנן is a bare verb 'I shout'; the object of the shouting is supplied by English idiom"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For you made me rejoice, YHWH, in your work; at the deeds of your hands I shout for joy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "5503b5174bbe29c3fdc0950fe7c8da56b6113f10a23e7d57eb649c80dc7e5771",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/92\/5-8.1791193208190.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "שִׂמַּחְתַּנִי",
+      "gloss": "you made me rejoice",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּפָעֳלֶךָ",
+      "gloss": "in your work",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּמַעֲשֵׂי",
+      "gloss": "at the deeds of",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדֶיךָ",
+      "gloss": "your hands",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲרַנֵּן",
+      "gloss": "I shout for joy",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:40:08.190796329Z",
+  "model": "glm-5.3"
 }

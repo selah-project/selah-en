@@ -1,66 +1,74 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "One who increases his wealth by interest and unjust gain gathers it for ⟨one⟩ who shows favor to the poor.",
+  "ref": "proverbs 28:8",
+  "book": "proverbs",
+  "lang": "en6",
+  "chapter": 28,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "לחונן דלים",
+      "rationale": "read as 'for him who is gracious to the poor' (the lender's gain ends up serving the generous), or 'from him who is gracious' — most take it as the destiny of the ill-gotten wealth."
+    },
+    {
+      "kind": "wordplay",
+      "subject": "נשך \/ תרבית",
+      "rationale": "two terms for usury, 'bite' and 'increase', paired as a legal pair (cf. Lev 25:36)."
+    }
+  ],
+  "translation": "One who multiplies his wealth by interest and by increase gathers it for one who shows favor to the poor.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8267cbc1c26f1aad237a26796361374451ceacdbe8e821a16943a3854a3b3c21",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/proverbs\/28\/5-8.1791194042111.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/proverbs.edn"
+  },
   "tokens": [
     {
-      "surface": "מרבה",
-      "gloss": "increases"
+      "surface": "מַרְבֶּה",
+      "gloss": "One who multiplies",
+      "sense": null
     },
     {
-      "surface": "הונו",
-      "gloss": "his wealth"
+      "surface": "הוֹנוֹ",
+      "gloss": "his wealth",
+      "sense": "S1"
     },
     {
-      "surface": "בנשך",
+      "surface": "בְּנֶשֶׁךְ",
       "gloss": "by interest",
-      "readings": [
-        "by interest",
-        "by biting"
-      ],
-      "held_by": {
-        "by interest": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "by biting": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
       "surface": "ובתרבית",
-      "gloss": "and unjust gain",
+      "gloss": "and by increase",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְחוֹנֵן",
+      "gloss": "for one who shows favor to",
       "readings": [
-        "and unjust gain",
-        "and by usury"
+        "for one who shows favor to",
+        "for one who is gracious to"
       ],
-      "held_by": {
-        "and unjust gain": [
-          "v1",
-          "v3"
-        ],
-        "and by usury": [
-          "v2",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "לחונן",
-      "gloss": "for ⟨one⟩ who shows favor"
+      "surface": "דַּלִּים",
+      "gloss": "the poor",
+      "sense": "S1"
     },
     {
-      "surface": "דלים",
-      "gloss": "to ⟨the⟩ poor"
-    },
-    {
-      "surface": "יקבצנו",
-      "gloss": "gathers it"
+      "surface": "יִקְבְּצֶנּוּ",
+      "gloss": "gathers it",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:54:02.112126880Z",
+  "model": "glm-5.3"
 }

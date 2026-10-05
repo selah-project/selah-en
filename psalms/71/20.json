@@ -1,82 +1,89 @@
 {
+  "tier": "glm-5.2",
   "verse": 20,
-  "translation": "You who have shown me troubles many and evils — you will return, you will revive me; and from the depths of the earth you will return, you will bring me up.",
+  "ref": "psalms 71:20",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 71,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "ketiv\/qere suffixes",
+      "rationale": "ketiv 'us' (הראיתנו, תחיינו) vs qere 'me' — the verse shifts from plural to singular in תעלני regardless"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "תָּשׁוּב … תָּשׁוּב",
+      "rationale": "repetition of 'you will turn' frames the two acts of restoration as a mirror pair"
+    }
+  ],
+  "translation": "You who have shown us troubles many and evils: you will turn, you will restore us to life; and from the depths of the earth you will turn, you will raise me up.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "4ce08da5e5f348b5d81730be47e7d4c8e3c5d4352cdd9f551d4bdc3da2a33993",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/71\/18-20.1791199968739.json",
+    "code": "752fd82b-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "אשר",
-      "gloss": "who"
+      "surface": "אֲשֶׁ֤ר",
+      "gloss": "You who"
     },
     {
       "surface": "הראיתנו",
-      "gloss": "you have shown me",
-      "readings": [
-        "you have shown me",
-        "you have made us see"
-      ],
-      "held_by": {
-        "you have shown me": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "you have made us see": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "gloss": "have shown us",
+      "sense": "S4"
     },
     {
-      "surface": "צרות",
+      "surface": "צָר֥וֹת",
       "gloss": "troubles",
-      "readings": [
-        "troubles",
-        "narrownesses"
-      ],
-      "held_by": {
-        "troubles": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "narrownesses": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     },
     {
-      "surface": "רבות",
-      "gloss": "many"
+      "surface": "רַבּ֗וֹת",
+      "gloss": "many",
+      "sense": "S1"
     },
     {
-      "surface": "ורעות",
-      "gloss": "and evils"
+      "surface": "וְרָ֫ע֥וֹת",
+      "gloss": "and evils",
+      "sense": "S1"
     },
     {
-      "surface": "תשוב",
-      "gloss": "you will return"
+      "surface": "תָּשׁ֥וּב",
+      "gloss": "you will turn",
+      "sense": "S1"
     },
     {
       "surface": "תחיינו",
-      "gloss": "you will revive me"
+      "gloss": "you will restore us to life",
+      "sense": "S1"
     },
     {
-      "surface": "ומתהמות",
-      "gloss": "and from the depths"
+      "surface": "וּֽמִתְּהֹמ֥וֹת",
+      "gloss": "and from the depths",
+      "sense": "S1"
     },
     {
-      "surface": "הארץ",
-      "gloss": "the earth"
+      "surface": "הָאָ֗רֶץ",
+      "gloss": "of the earth",
+      "sense": "S1"
     },
     {
-      "surface": "תשוב",
-      "gloss": "you will return"
+      "surface": "תָּשׁ֥וּב",
+      "gloss": "you will turn",
+      "sense": "S1"
     },
     {
-      "surface": "תעלני",
-      "gloss": "you will bring me up"
+      "surface": "תַּעֲלֵֽנִי",
+      "gloss": "you will raise me up",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T11:32:48.740736646Z",
+  "model": "glm-5.3"
 }

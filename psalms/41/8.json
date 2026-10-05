@@ -1,44 +1,76 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "Together against me they whisper — all my haters; against me they devise evil for me.",
-  "tokens": [
+  "ref": "psalms 41:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 41,
+  "notes": [
     {
-      "surface": "יחד",
-      "gloss": "Together"
+      "kind": "wordplay",
+      "subject": "עלי … עלי",
+      "rationale": "The preposition 'against me' repeats at the head of both halves, binding the whispering and the scheming into one parallel."
     },
     {
-      "surface": "עלי",
+      "kind": "secret",
+      "subject": "יתלחשו",
+      "rationale": "Whispered conspiracy — talk deliberately kept from the psalmist's ears."
+    }
+  ],
+  "translation": "Together against me they whisper, all who hate me; against me they devise harm for me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "812011fc056b758fd1ce589459b2760ebdf450f49f9e9afe14f912f7aedd58d0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/41\/5-8.1791192683464.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יַ֗חַד",
+      "gloss": "Together",
+      "sense": "S1"
+    },
+    {
+      "surface": "עָלַ֣י",
       "gloss": "against me"
     },
     {
-      "surface": "יתלחשו",
-      "gloss": "they whisper"
+      "surface": "יִ֭תְלַחֲשׁוּ",
+      "gloss": "they whisper",
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "שנאי",
-      "gloss": "my haters"
+      "surface": "שֹׂנְאָ֑י",
+      "gloss": "who hate me",
+      "sense": "S1"
     },
     {
-      "surface": "עלי",
+      "surface": "עָלַ֓י",
       "gloss": "against me"
     },
     {
-      "surface": "יחשבו",
-      "gloss": "they devise"
+      "surface": "יַחְשְׁב֖וּ",
+      "gloss": "they devise",
+      "sense": "S1"
     },
     {
-      "surface": "רעה",
-      "gloss": "evil"
+      "surface": "רָעָ֣ה",
+      "gloss": "harm",
+      "sense": "S1"
     },
     {
-      "surface": "לי",
+      "surface": "לִֽי",
       "gloss": "for me"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:31:23.465619191Z",
+  "model": "glm-5.3"
 }

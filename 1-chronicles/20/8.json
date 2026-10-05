@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "These were born to the Raphah in Gath, and they fell by the hand of David and by the hand of his servants.",
-  "tokens": [
+  "ref": "1-chronicles 20:8",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 20,
+  "notes": [
     {
-      "surface": "אל",
-      "gloss": "These"
+      "kind": "substitution",
+      "subject": "the Raphah",
+      "rationale": "The gentilic לְהָרָפָא names descent from Raphah, ancestor of the giants."
     },
     {
-      "surface": "נולדו",
-      "gloss": "were born"
-    },
-    {
-      "surface": "להרפא",
-      "gloss": "to the Raphah",
-      "readings": [
-        "to the Raphah",
-        "to the giant"
-      ],
-      "held_by": {
-        "to the Raphah": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "to the giant": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בגת",
-      "gloss": "in Gath"
-    },
-    {
-      "surface": "ויפלו",
-      "gloss": "and they fell"
-    },
-    {
-      "surface": "ביד",
-      "gloss": "by the hand"
-    },
-    {
-      "surface": "דויד",
-      "gloss": "of David"
-    },
-    {
-      "surface": "וביד",
-      "gloss": "and by the hand"
-    },
-    {
-      "surface": "עבדיו",
-      "gloss": "of his servants"
+      "kind": "crux",
+      "subject": "These",
+      "rationale": "2 Samuel 21:22 names 'these four'; Chronicles' אֵל without the number leaves the count implicit."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "These were born to the Raphah at Gath, and they fell by the hand of David and by the hand of his servants.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "70ce0264d06864371b1a2aa174efc1febacf16539ceacb6c7f05472b3ab92d25",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/20\/5-8.1791196353284.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֵל",
+      "gloss": "These",
+      "sense": "S1"
+    },
+    {
+      "surface": "נוּלְדוּ",
+      "gloss": "were born",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְהָרָפָא",
+      "gloss": "to the Raphah",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּגַת",
+      "gloss": "at Gath",
+      "sense": "S1"
+    },
+    {
+      "surface": "וַיִּפְּלוּ",
+      "gloss": "and they fell",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּיַד",
+      "gloss": "by the hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "דָּוִיד",
+      "gloss": "David",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבְיַד",
+      "gloss": "and by the hand of",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲבָדָיו",
+      "gloss": "his servants",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:32:33.285757506Z",
+  "model": "glm-5.3"
 }

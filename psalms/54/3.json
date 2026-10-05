@@ -1,43 +1,55 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "O Elohim, save me by your name, and by your might judge me.",
-  "tokens": [
+  "ref": "psalms 54:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 54,
+  "notes": [
     {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "בשמך",
-      "gloss": "by your name"
-    },
-    {
-      "surface": "הושיעני",
-      "gloss": "save me"
-    },
-    {
-      "surface": "ובגבורתך",
-      "gloss": "and by your might"
-    },
-    {
-      "surface": "תדינני",
-      "gloss": "judge me",
-      "readings": [
-        "judge me",
-        "vindicate me"
-      ],
-      "held_by": {
-        "judge me": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "vindicate me": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "invitation",
+      "subject": "to Elohim",
+      "rationale": "paired imperatives open the plea"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elohim, by Your name save me, and by Your might judge me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "3b8eca522b82453f4bca7d409c78baaa4d1dc7820f1a17b9bb0672f938d35e83",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/54\/1-4.1791192789701.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֱ֭לֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשִׁמְךָ֣",
+      "gloss": "by Your name",
+      "sense": "S1"
+    },
+    {
+      "surface": "הוֹשִׁיעֵ֑נִי",
+      "gloss": "save me",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּבִגְבוּרָתְךָ֥",
+      "gloss": "and by Your might",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּדִינֵֽנִי",
+      "gloss": "judge me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:09.701889213Z",
+  "model": "glm-5.3"
 }

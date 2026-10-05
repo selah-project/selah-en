@@ -1,55 +1,75 @@
 {
+  "tier": "glm-5.2",
   "verse": 12,
-  "translation": "Who is this — the man fearing YHWH? He will instruct him in the way he should choose.",
-  "tokens": [
+  "ref": "psalms 25:12",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 25,
+  "notes": [
     {
-      "surface": "מי",
-      "gloss": "Who"
+      "kind": "crux",
+      "subject": "יִבְחָר",
+      "rationale": "Subject ambiguous: 'the way he (the man) should choose' vs 'the way He (YHWH) chooses'; the man is the likelier chooser, matching the fear-YHWH condition."
     },
     {
-      "surface": "זה",
-      "gloss": "this"
-    },
-    {
-      "surface": "האיש",
-      "gloss": "the man"
-    },
-    {
-      "surface": "ירא",
-      "gloss": "fearing"
-    },
-    {
-      "surface": "יהוה",
-      "gloss": "YHWH"
-    },
-    {
-      "surface": "יורנו",
-      "gloss": "He will instruct him"
-    },
-    {
-      "surface": "בדרך",
-      "gloss": "in the way"
-    },
-    {
-      "surface": "יבחר",
-      "gloss": "he should choose",
-      "readings": [
-        "he should choose",
-        "he will choose"
-      ],
-      "held_by": {
-        "he should choose": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "he will choose": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "invitation",
+      "subject": "מי זה האיש",
+      "rationale": "Rhetorical question drawing the hearer to identify with the one who fears YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Who is the man who fears YHWH? He will instruct him in the way he should choose.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "807b99b3215ecc4a8706d63e76ba8f3c2b0eb448a5fb02d44d8b5606715e181c",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/25\/9-12.1791192528680.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מִי",
+      "gloss": "who",
+      "sense": "S1"
+    },
+    {
+      "surface": "זֶ֣ה",
+      "gloss": "is the one",
+      "sense": "S1"
+    },
+    {
+      "surface": "הָ֭אִישׁ",
+      "gloss": "the man",
+      "sense": null
+    },
+    {
+      "surface": "יְרֵ֣א",
+      "gloss": "fearing",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְהוָ֑ה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "יוֹרֶ֗נּוּ",
+      "gloss": "he will instruct him",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּדֶ֣רֶךְ",
+      "gloss": "in the way",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִבְחָֽר",
+      "gloss": "he should choose",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:28:48.681571499Z",
+  "model": "glm-5.3"
 }

@@ -1,96 +1,99 @@
 {
+  "tier": "glm-5.2",
   "verse": 7,
-  "translation": "If I walk in the midst of trouble, you keep me alive; against the anger of my enemies you stretch out your hand, and your right hand saves me.",
-  "tokens": [
+  "ref": "psalms 138:7",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 138,
+  "notes": [
     {
-      "surface": "אם",
-      "gloss": "If"
+      "kind": "substitution",
+      "subject": "anger",
+      "rationale": "אַף is literally 'nose\/nostril', the flaring of nostrils in anger; the body part is lost."
     },
     {
-      "surface": "אלך",
-      "gloss": "I walk"
-    },
-    {
-      "surface": "בקרב",
-      "gloss": "in the midst of"
-    },
-    {
-      "surface": "צרה",
-      "gloss": "trouble"
-    },
-    {
-      "surface": "תחיני",
-      "gloss": "you keep me alive",
-      "readings": [
-        "you keep me alive",
-        "you revive me"
-      ],
-      "held_by": {
-        "you keep me alive": [
-          "v2",
-          "en4"
-        ],
-        "you revive me": [
-          "v1",
-          "v3"
-        ]
-      }
-    },
-    {
-      "surface": "על",
-      "gloss": "against"
-    },
-    {
-      "surface": "אף",
-      "gloss": "the anger of",
-      "readings": [
-        "the anger of",
-        "the nose of"
-      ],
-      "held_by": {
-        "the anger of": [
-          "en4"
-        ],
-        "the nose of": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "איבי",
-      "gloss": "of my enemies"
-    },
-    {
-      "surface": "תשלח",
-      "gloss": "you stretch out",
-      "readings": [
-        "you stretch out",
-        "you send forth"
-      ],
-      "held_by": {
-        "you stretch out": [
-          "v2",
-          "v3"
-        ],
-        "you send forth": [
-          "v1",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "ידך",
-      "gloss": "your hand"
-    },
-    {
-      "surface": "ותושיעני",
-      "gloss": "and saves me"
-    },
-    {
-      "surface": "ימינך",
-      "gloss": "your right hand"
+      "kind": "alternative",
+      "subject": "עַל אַף",
+      "rationale": "Read by some 'in spite of the anger of my enemies'; 'against' keeps the hand's direction toward the enemies."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Though I walk in the midst of trouble, you keep me alive; against the anger of my enemies you stretch out your hand, and your right hand delivers me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7f808ab253e4de9e0c4c51e8b42484525bdbbbe80773a584dc944ab8491561d2",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/138\/5-8.1791193584788.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אִם",
+      "gloss": "Though",
+      "sense": null
+    },
+    {
+      "surface": "אֵלֵ֤ךְ",
+      "gloss": "I walk",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּקֶ֥רֶב",
+      "gloss": "in the midst of",
+      "sense": null
+    },
+    {
+      "surface": "צָרָ֗ה",
+      "gloss": "trouble",
+      "sense": "S1",
+      "readings": [
+        "trouble",
+        "distress"
+      ]
+    },
+    {
+      "surface": "תְּחַ֫יֵּ֥נִי",
+      "gloss": "you keep me alive",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַ֤ל",
+      "gloss": "against",
+      "sense": null
+    },
+    {
+      "surface": "אַ֣ף",
+      "gloss": "the anger of",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֹ֭יְבַי",
+      "gloss": "my enemies",
+      "sense": "S1"
+    },
+    {
+      "surface": "תִּשְׁלַ֣ח",
+      "gloss": "you stretch out",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָדֶ֑ךָ",
+      "gloss": "your hand",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְת֖וֹשִׁיעֵ֣נִי",
+      "gloss": "and it delivers me",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמִינֶֽךָ",
+      "gloss": "your right hand",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:46:24.789900822Z",
+  "model": "glm-5.3"
 }

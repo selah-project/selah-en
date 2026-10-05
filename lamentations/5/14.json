@@ -1,59 +1,60 @@
 {
+  "tier": "glm-5.2",
   "verse": 14,
-  "translation": "The elders have ceased from the gate, the young men from their music.",
-  "tokens": [
+  "ref": "lamentations 5:14",
+  "book": "lamentations",
+  "lang": "en6",
+  "chapter": 5,
+  "notes": [
     {
-      "surface": "זקנים",
-      "gloss": "the elders"
+      "kind": "substitution",
+      "subject": "שָׁבָתוּ",
+      "rationale": "Rendered 'ceased (to be found)' — the sense is no longer present at the gate, not rest."
     },
     {
-      "surface": "משער",
-      "gloss": "from the gate"
-    },
-    {
-      "surface": "שבתו",
-      "gloss": "have ceased"
-    },
-    {
-      "surface": "בחורים",
-      "gloss": "the young men",
-      "readings": [
-        "the young men",
-        "the chosen men"
-      ],
-      "held_by": {
-        "the young men": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the chosen men": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מנגינתם",
-      "gloss": "from their music",
-      "readings": [
-        "from their music",
-        "from their song"
-      ],
-      "held_by": {
-        "from their music": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "from their song": [
-          "v1",
-          "en4"
-        ]
-      },
-      "disputed": true
+      "kind": "idiom",
+      "subject": "from the gate",
+      "rationale": "The gate is the seat of elder council and judgment; its ceasing means public order is gone."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Elders have ceased from the gate, young men from their music.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "f5a6bbd42708a00219109e695666687db35e25f3aa48de108a033bb5f3b90457",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/lamentations\/5\/13-16.1791194776535.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/lamentations.edn"
+  },
+  "tokens": [
+    {
+      "surface": "זְקֵנִים",
+      "gloss": "Elders",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשַּׁעַר",
+      "gloss": "from the gate",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁבָתוּ",
+      "gloss": "have ceased",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּחוּרִים",
+      "gloss": "young men",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִנְּגִינָתָם",
+      "gloss": "from their music",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:16.536711975Z",
+  "model": "glm-5.3"
 }

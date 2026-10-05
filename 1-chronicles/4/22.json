@@ -1,104 +1,114 @@
 {
+  "tier": "glm-5.2",
   "verse": 22,
-  "translation": "And Jokim and ⟨the⟩ men of Cozeba and Joash and Saraph, who ruled in Moab and Jashubi-Lehem, and the words are ancient.",
-  "tokens": [
+  "ref": "1-chronicles 4:22",
+  "book": "1-chronicles",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
     {
-      "surface": "ויוקים",
-      "gloss": "And Jokim"
+      "kind": "hapax",
+      "subject": "יוֹקִים",
+      "rationale": "Jokim occurs only here in the Tanakh."
     },
     {
-      "surface": "ואנשי",
-      "gloss": "and ⟨the⟩ men of"
+      "kind": "hapax",
+      "subject": "כֹזֵבָא",
+      "rationale": "Cozeba occurs only here in the Tanakh (cf. Chezib, a related form)."
     },
     {
-      "surface": "כזבא",
-      "gloss": "Cozeba"
+      "kind": "addition",
+      "subject": "are",
+      "rationale": "Hebrew lacks a verb; the bracketed copula is supplied for the clause 'and the matters ⟨are⟩ ancient'."
     },
     {
-      "surface": "ויואש",
-      "gloss": "and Joash"
+      "kind": "crux",
+      "subject": "בָּעֲלוּ",
+      "rationale": "'had dominion over' vs 'married (wives) in' Moab — ba'al carries both rule and marriage senses."
     },
     {
-      "surface": "ושרף",
-      "gloss": "and Saraph"
-    },
-    {
-      "surface": "אשר",
-      "gloss": "who"
-    },
-    {
-      "surface": "בעלו",
-      "gloss": "ruled",
-      "readings": [
-        "ruled",
-        "married",
-        "mastered"
-      ],
-      "held_by": {
-        "ruled": [
-          "v2",
-          "v3"
-        ],
-        "married": [
-          "v1"
-        ],
-        "mastered": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "למואב",
-      "gloss": "in Moab"
-    },
-    {
-      "surface": "וישבי",
-      "gloss": "and Jashubi"
-    },
-    {
-      "surface": "לחם",
-      "gloss": "Lehem"
-    },
-    {
-      "surface": "והדברים",
-      "gloss": "and the words",
-      "readings": [
-        "and the words",
-        "and the things",
-        "and the records"
-      ],
-      "held_by": {
-        "and the words": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and the things": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "עתיקים",
-      "gloss": "of ancient times",
-      "readings": [
-        "of ancient times",
-        "ancient"
-      ],
-      "held_by": {
-        "of ancient times": [
-          "v2",
-          "en4"
-        ],
-        "ancient": [
-          "v1",
-          "v3",
-          "en4"
-        ]
-      }
+      "kind": "measurement",
+      "subject": "genealogy",
+      "rationale": "Continuation of Shelah's line, mixing personal names and place names."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "and Jokim, and the men of Cozeba, and Joash and Saraph, who had dominion in Moab, and Jashubi-Lehem — and the matters ⟨are⟩ ancient.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "110e3018c07864bab9d6391c910280cd595c78c844e8aa84a12c1ad363b39967",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-chronicles\/4\/21-24.1791196065906.json",
+    "code": "e4954736-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-chronicles.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְיוֹקִים",
+      "gloss": "and Jokim",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאַנְשֵׁי",
+      "gloss": "and the men of",
+      "sense": null
+    },
+    {
+      "surface": "כֹזֵבָא",
+      "gloss": "Cozeba",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיוֹאָשׁ",
+      "gloss": "and Joash",
+      "sense": null
+    },
+    {
+      "surface": "וְשָׂרָף",
+      "gloss": "and Saraph",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֲשֶׁר",
+      "gloss": "who",
+      "sense": null
+    },
+    {
+      "surface": "בָּעֲלוּ",
+      "gloss": "had dominion",
+      "sense": "S1",
+      "readings": [
+        "had dominion",
+        "married"
+      ]
+    },
+    {
+      "surface": "לְמוֹאָב",
+      "gloss": "in Moab",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְיָשֻׁבִי",
+      "gloss": "and Jashubi",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָחֶם",
+      "gloss": "-Lehem",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהַדְּבָרִים",
+      "gloss": "and the matters",
+      "sense": "S1"
+    },
+    {
+      "surface": "עַתִּיקִים",
+      "gloss": "ancient",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:27:45.907483079Z",
+  "model": "glm-5.3"
 }

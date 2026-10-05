@@ -1,50 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 62,
-  "translation": "One palm-pan of ten ⟨shekels⟩ of gold, full of incense;",
-  "tokens": [
+  "ref": "numbers 7:62",
+  "book": "numbers",
+  "lang": "en6",
+  "chapter": 7,
+  "notes": [
     {
-      "surface": "כף",
-      "gloss": "palm-pan",
-      "readings": [
-        "palm-pan",
-        "pan",
-        "spoon"
-      ],
-      "held_by": {
-        "palm-pan": [
-          "v2",
-          "v3"
-        ],
-        "pan": [
-          "en4"
-        ],
-        "spoon": [
-          "v1"
-        ]
-      },
-      "disputed": true
+      "kind": "substitution",
+      "subject": "palm-dish",
+      "rationale": "כף is literally the palm of the hand; here a shallow vessel named from it"
     },
     {
-      "surface": "אחת",
-      "gloss": "one"
+      "kind": "addition",
+      "subject": "shekels",
+      "rationale": "the weight unit of the ten is supplied in English, absent in Hebrew"
     },
     {
-      "surface": "עשרה",
-      "gloss": "ten"
-    },
-    {
-      "surface": "זהב",
-      "gloss": "gold"
-    },
-    {
-      "surface": "מלאה",
-      "gloss": "full"
-    },
-    {
-      "surface": "קטרת",
-      "gloss": "incense"
+      "kind": "measurement",
+      "subject": "vessel weight",
+      "rationale": "gold dish weighed at ten"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "One palm-dish of gold, ten ⟨shekels⟩, full of incense.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b559f75cd7c1d706effac4efc9a8aa153dce8ace46cdba8a1ef0817df77ca1e5",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/numbers\/7\/61-64.1791182936506.json",
+    "code": "37292d87-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/numbers.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כַּף",
+      "gloss": "palm-dish",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַחַת",
+      "gloss": "one",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֲשָׂרָה",
+      "gloss": "ten",
+      "sense": null
+    },
+    {
+      "surface": "זָהָב",
+      "gloss": "gold",
+      "sense": "S1"
+    },
+    {
+      "surface": "מְלֵאָה",
+      "gloss": "full",
+      "sense": "S1"
+    },
+    {
+      "surface": "קְטֹרֶת",
+      "gloss": "incense",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T06:48:56.507935714Z",
+  "model": "glm-5.3"
 }

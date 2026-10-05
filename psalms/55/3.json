@@ -1,47 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 3,
-  "translation": "Attend to me and answer me; I wander restlessly in my complaint and moan.",
-  "tokens": [
+  "ref": "psalms 55:3",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 55,
+  "notes": [
     {
-      "surface": "הקשיבה",
-      "gloss": "Attend"
+      "kind": "idiom",
+      "subject": "attend",
+      "rationale": "הקשיבה literally 'prick up the ears'; the bodily picture is lost."
     },
     {
-      "surface": "לי",
-      "gloss": "to me"
-    },
-    {
-      "surface": "וענני",
-      "gloss": "and answer me"
-    },
-    {
-      "surface": "אריד",
-      "gloss": "I wander restlessly",
-      "readings": [
-        "I wander restlessly",
-        "I am distraught"
-      ],
-      "held_by": {
-        "I wander restlessly": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "I am distraught": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בשיחי",
-      "gloss": "in my complaint"
-    },
-    {
-      "surface": "ואהימה",
-      "gloss": "and moan"
+      "kind": "alternative",
+      "subject": "I cry out",
+      "rationale": "ואהימה is hiphil cohortative, 'I make an uproar \/ I am in turmoil'; cohortative force is flattened to plain present."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Attend to me and answer me; I wander restless in my grief, and I cry out.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "70d3dad5f8f0dbe95bb7453690c5041ad9cfda5c71f036b3aa0d2bf37124211d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/55\/1-4.1791192799862.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "הַקְשִׁ֣יבָה",
+      "gloss": "Attend",
+      "sense": "S1"
+    },
+    {
+      "surface": "לִּ֣י",
+      "gloss": "to me",
+      "sense": null
+    },
+    {
+      "surface": "וַעֲנֵ֑נִי",
+      "gloss": "and answer me",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָרִ֖יד",
+      "gloss": "I wander restless",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּשִׂיחִ֣י",
+      "gloss": "in my grief",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאָהִֽימָה",
+      "gloss": "and I cry out",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:33:19.863464298Z",
+  "model": "glm-5.3"
 }

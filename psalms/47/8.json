@@ -1,55 +1,70 @@
 {
+  "tier": "glm-5.2",
   "verse": 8,
-  "translation": "For Elohim ⟨is⟩ King of all the earth — sing praises, a maskil.",
-  "tokens": [
+  "ref": "psalms 47:8",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 47,
+  "notes": [
     {
-      "surface": "כי",
-      "gloss": "For"
+      "kind": "addition",
+      "subject": "is",
+      "rationale": "Hebrew verbless clause; English requires the copula."
     },
     {
-      "surface": "מלך",
-      "gloss": "King"
-    },
-    {
-      "surface": "כל",
-      "gloss": "all"
-    },
-    {
-      "surface": "הארץ",
-      "gloss": "the earth",
-      "readings": [
-        "the earth",
-        "the land"
-      ]
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "Elohim"
-    },
-    {
-      "surface": "זמרו",
-      "gloss": "sing praises"
-    },
-    {
-      "surface": "משכיל",
-      "gloss": "a maskil",
-      "readings": [
-        "a maskil",
-        "with understanding"
-      ],
-      "held_by": {
-        "a maskil": [
-          "en4"
-        ],
-        "with understanding": [
-          "v1",
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "crux",
+      "subject": "משכיל",
+      "rationale": "A musical\/didactic term of uncertain meaning — 'a maskil' kept as the Hebrew word rather than resolved."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "For Elohim is King of all the earth; sing a maskil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8769a07051f7786157c8db8f2d72e992c467e31ed8a20b99caf18dfc45f90e6d",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/47\/5-8.1791192738901.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "כִּי",
+      "gloss": "For",
+      "sense": null
+    },
+    {
+      "surface": "מֶלֶךְ",
+      "gloss": "is King",
+      "sense": "S1"
+    },
+    {
+      "surface": "כָּל",
+      "gloss": "of all",
+      "sense": null
+    },
+    {
+      "surface": "הָאָרֶץ",
+      "gloss": "the earth",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֱלֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "זַמְּרוּ",
+      "gloss": "sing",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַשְׂכִּיל",
+      "gloss": "a maskil",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:32:18.902783735Z",
+  "model": "glm-5.3"
 }

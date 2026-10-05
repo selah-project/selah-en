@@ -1,69 +1,79 @@
 {
+  "tier": "glm-5.2",
   "verse": 25,
-  "translation": "And this one dies with a bitter soul, and has not eaten of the good.",
-  "tokens": [
+  "ref": "job 21:25",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 21,
+  "notes": [
     {
-      "surface": "וזה",
-      "gloss": "and this one"
+      "kind": "substitution",
+      "subject": "nefesh",
+      "rationale": "נפש rendered 'nefesh\/life' — the life-principle in distress, not the English 'soul'"
     },
     {
-      "surface": "ימות",
-      "gloss": "dies"
-    },
-    {
-      "surface": "בנפש",
-      "gloss": "with a soul",
-      "readings": [
-        "with a soul",
-        "with a life",
-        "with a throat"
-      ],
-      "held_by": {
-        "with a soul": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "with a life": [
-          "en4"
-        ],
-        "with a throat": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מרה",
-      "gloss": "bitter"
-    },
-    {
-      "surface": "ולא",
-      "gloss": "and not"
-    },
-    {
-      "surface": "אכל",
-      "gloss": "eaten"
-    },
-    {
-      "surface": "בטובה",
-      "gloss": "of the good",
-      "readings": [
-        "of the good",
-        "of the goodness"
-      ],
-      "held_by": {
-        "of the good": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "of the goodness": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "זה … וזה",
+      "rationale": "This verse mirrors 21:23's 'this one dies at ease' with 'this one dies in bitterness'"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And this one dies in a bitter nefesh, and has not eaten ⟨of⟩ the good.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "407929f986d2e154b68d5c9d718e29c64be80b120b0a3c993d58d387d5d29406",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/21\/25-28.1791194370818.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְזֶ֗ה",
+      "gloss": "and this one",
+      "sense": "S1"
+    },
+    {
+      "surface": "יָ֭מוּת",
+      "gloss": "dies",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּנֶ֣פֶשׁ",
+      "gloss": "in a nefesh",
+      "readings": [
+        "in a nefesh",
+        "in a life",
+        "in a soul"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מָרָ֑ה",
+      "gloss": "bitter",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְלֹֽא",
+      "gloss": "and not",
+      "sense": "S1"
+    },
+    {
+      "surface": "אָ֝כַ֗ל",
+      "gloss": "has eaten",
+      "sense": "S1"
+    },
+    {
+      "surface": "בַּטּוֹבָֽה",
+      "gloss": "the good",
+      "readings": [
+        "the good",
+        "prosperity"
+      ],
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:59:30.819253545Z",
+  "model": "glm-5.3"
 }

@@ -1,32 +1,65 @@
 {
+  "tier": "glm-5.2",
   "verse": 21,
-  "translation": "Until he fills your mouth with laughter, and your lips with a shout of joy.",
-  "tokens": [
+  "ref": "job 8:21",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 8,
+  "notes": [
     {
-      "surface": "עד",
-      "gloss": "Until"
+      "kind": "addition",
+      "subject": "with \/ ⟨with⟩",
+      "rationale": "Hebrew has no preposition; the filling verb takes two bare objects"
     },
     {
-      "surface": "ימלה",
-      "gloss": "he fills"
-    },
-    {
-      "surface": "שחוק",
-      "gloss": "with laughter"
-    },
-    {
-      "surface": "פיך",
-      "gloss": "your mouth"
-    },
-    {
-      "surface": "ושפתיך",
-      "gloss": "and your lips"
-    },
-    {
-      "surface": "תרועה",
-      "gloss": "with a shout of joy"
+      "kind": "elision",
+      "subject": "שחוק\/פיך word order",
+      "rationale": "laughter precedes your mouth in Hebrew; English pulls the object phrase together"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "Until he fills your mouth with laughter, and your lips ⟨with⟩ a shout of joy.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "b4e82af3750fb7261925a33828a446472b5b8b7c6538fb839bef5627d5d2d0b8",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/8\/21-22.1791194200135.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עַד",
+      "gloss": "Until",
+      "sense": "S1"
+    },
+    {
+      "surface": "יְמַלֵּא",
+      "gloss": "he fills",
+      "sense": "S1"
+    },
+    {
+      "surface": "שְׂחֹוק",
+      "gloss": "your mouth with laughter",
+      "sense": "S1"
+    },
+    {
+      "surface": "פִּיךָ",
+      "gloss": "your mouth",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׂפָתֶיךָ",
+      "gloss": "and your lips",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּרוּעָה",
+      "gloss": "a shout of joy",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:56:40.136358446Z",
+  "model": "glm-5.3"
 }

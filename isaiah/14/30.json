@@ -1,67 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 30,
-  "translation": "And the firstborn of the poor will graze, and the needy will lie down in safety; and I will kill your root with famine, and your remnant it will slay.",
-  "tokens": [
+  "ref": "isaiah 14:30",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 14,
+  "notes": [
     {
-      "surface": "ורעו",
-      "gloss": "and will graze"
+      "kind": "crux",
+      "subject": "יהרג",
+      "rationale": "Third masculine 'he will kill' after first-person 'I will kill'; many read the second verb as also first person ('I will slay')."
     },
     {
-      "surface": "בכורי",
-      "gloss": "the firstborn of"
+      "kind": "wordplay",
+      "subject": "שרש",
+      "rationale": "The root imagery continues from v. 29: the viper's root is killed at its own root."
     },
     {
-      "surface": "דלים",
-      "gloss": "the poor"
-    },
-    {
-      "surface": "ואביונים",
-      "gloss": "and the needy"
-    },
-    {
-      "surface": "לבטח",
-      "gloss": "in safety"
-    },
-    {
-      "surface": "ירבצו",
-      "gloss": "will lie down"
-    },
-    {
-      "surface": "והמתי",
-      "gloss": "and I will kill"
-    },
-    {
-      "surface": "ברעב",
-      "gloss": "with famine"
-    },
-    {
-      "surface": "שרשך",
-      "gloss": "your root"
-    },
-    {
-      "surface": "ושאריתך",
-      "gloss": "and your remnant"
-    },
-    {
-      "surface": "יהרג",
-      "gloss": "it will slay",
-      "readings": [
-        "it will slay",
-        "will be slain"
-      ],
-      "held_by": {
-        "it will slay": [
-          "v1",
-          "en4"
-        ],
-        "will be slain": [
-          "v2",
-          "v3"
-        ]
-      },
-      "disputed": true
+      "kind": "wordplay",
+      "subject": "רעו",
+      "rationale": "Grazing-flock imagery for Judah's poor contrasts with the serpent brood of Philistia."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "And the firstborn of the poor will graze, and the needy will lie down in safety; but I will kill your root with famine, and your remnant he will kill.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "8d9e9afc372b6c644af9c636e3166d84d8e840f8d01083a409eb7aced50d067a",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/14\/29-32.1791188244598.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
+  "tokens": [
+    {
+      "surface": "וְרָעוּ",
+      "gloss": "And will graze",
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּכוֹרֵי",
+      "gloss": "the firstborn of",
+      "sense": null
+    },
+    {
+      "surface": "דַלִּים",
+      "gloss": "the poor",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְאֶבְיוֹנִים",
+      "gloss": "and the needy",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָבֶטַח",
+      "gloss": "in safety",
+      "sense": "S1"
+    },
+    {
+      "surface": "יִרְבָּצוּ",
+      "gloss": "will lie down",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְהֵמַתִּי",
+      "gloss": "but I will kill",
+      "sense": "S1"
+    },
+    {
+      "surface": "בָּרָעָב",
+      "gloss": "with famine",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁרְשֵׁךְ",
+      "gloss": "your root",
+      "sense": "S1"
+    },
+    {
+      "surface": "וּשְׁאֵרִיתֵךְ",
+      "gloss": "and your remnant",
+      "sense": "S1"
+    },
+    {
+      "surface": "יַהֲרֹג",
+      "gloss": "he will kill",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T08:17:24.600110963Z",
+  "model": "glm-5.3"
 }

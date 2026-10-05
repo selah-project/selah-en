@@ -1,78 +1,98 @@
 {
+  "tier": "glm-5.2",
   "verse": 5,
-  "translation": "They do not know, and they do not understand; in darkness they walk about; all the foundations of the earth are shaken.",
+  "ref": "psalms 82:5",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 82,
+  "notes": [
+    {
+      "kind": "crux",
+      "subject": "they",
+      "rationale": "The imperfects refer to the gods of v.1 (the unjust judges); some read the human judges of Israel instead."
+    },
+    {
+      "kind": "substitution",
+      "subject": "tremble",
+      "rationale": "ימוטו is literally 'slip, waver, be unsteady'; 'tremble' carries the shaken-foundations picture."
+    },
+    {
+      "kind": "mystery",
+      "subject": "darkness",
+      "rationale": "The gods' ignorance and blindness are pictured as literal darkness they walk in."
+    }
+  ],
+  "translation": "They do not know and they do not understand; in darkness they walk about — all the foundations of the earth tremble.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "06eb889842822361aac8e778fc35776f35f5bad69e78a1aecf231118661b77d7",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/82\/5-8.1791193100023.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
   "tokens": [
     {
-      "surface": "לא",
-      "gloss": "not"
+      "surface": "לֹא",
+      "gloss": "not",
+      "sense": "S1"
     },
     {
-      "surface": "ידעו",
-      "gloss": "they know"
+      "surface": "יָדְעוּ",
+      "gloss": "they do not know",
+      "sense": null
     },
     {
-      "surface": "ולא",
-      "gloss": "and not"
+      "surface": "וְלֹא",
+      "gloss": "and not",
+      "sense": "S1"
     },
     {
-      "surface": "יבינו",
-      "gloss": "they understand"
+      "surface": "יָבִינוּ",
+      "gloss": "understand",
+      "sense": "S1"
     },
     {
-      "surface": "בחשכה",
-      "gloss": "in darkness"
+      "surface": "בַּחֲשֵׁכָה",
+      "gloss": "in darkness",
+      "sense": "S1"
     },
     {
-      "surface": "יתהלכו",
-      "gloss": "they walk about"
+      "surface": "יִתְהַלָּכוּ",
+      "gloss": "they walk about",
+      "sense": "S1"
     },
     {
-      "surface": "ימוטו",
-      "gloss": "are shaken",
+      "surface": "יִמּוֹטוּ",
+      "gloss": "tremble",
       "readings": [
-        "are shaken",
-        "they slip"
+        "tremble",
+        "slip",
+        "be shaken"
       ],
-      "held_by": {
-        "are shaken": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "they slip": [
-          "en4"
-        ]
-      },
-      "disputed": true
+      "sense": "S1"
     },
     {
-      "surface": "כל",
+      "surface": "כָּל",
       "gloss": "all"
     },
     {
-      "surface": "מוסדי",
-      "gloss": "foundations of"
+      "surface": "מוֹסְדֵי",
+      "gloss": "the foundations of",
+      "sense": "S1"
     },
     {
-      "surface": "ארץ",
+      "surface": "אָרֶץ",
       "gloss": "the earth",
       "readings": [
         "the earth",
         "the land"
       ],
-      "held_by": {
-        "the earth": [
-          "v1",
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the land": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T09:38:20.024466087Z",
+  "model": "glm-5.3"
 }

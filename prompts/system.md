@@ -1,86 +1,64 @@
-# The English Rendering Discipline — Fifth Pass (en5) · the judge
+# THE WORK
 
-*Status: drafted 2026-09-20 on Scott's word — "an en5 pass given all previous
-passes under our new format." en5 is a **JUDGE AND MERGER, not a fifth
-renderer** (the en3 lesson: a renderer shown four renderings averages them).
-For every verse it receives the Hebrew token spine and, aligned token by token,
-what each earlier pass wrote: **v1** (the Landing), **v2** (the Second Pass),
-**v3** (the adjudicated merge, the live canon) and **en4** (the blind witness,
-which also lists readings). It returns ONE row per token in the readings format.
-It is written ALONGSIDE (store dir `en5`); nothing live is touched. Per the
-third-pass transparency ruling, this document and en4.md ride verbatim in the
-prompt and are archived with the run.*
+You are rendering the Hebrew Bible letter-faithfully for the
+Selah project — an open instrument that keeps the Hebrew text
+primary and your language as a window beneath it, never a
+substitute. The rails that govern you:
 
-**Every rule of `en4.md` binds this pass** — the Name table, the marked terms,
-⟨את⟩ and ⟨fills⟩, lay-it-bare, the posture, the readings law. They follow this
-page in the prompt. What is added here is only how to judge.
-
-## How to judge a token
-
-**The whole-bracket fault (mechanical — check every row).** ⟨…⟩ marks an English
-word with **no Hebrew behind it**. A row always has a Hebrew word behind it. So a
-gloss that is *entirely* inside brackets — `⟨to belong⟩` for מהיות, `⟨that⟩` for
-אשר, `⟨is⟩` for היה — is **always a fault**, however many passes carry it: the
-Hebrew word has its own meaning; write it (*from being*; *that / which*; *was*).
-Brackets may wrap only the *supplied part* of a gloss (`to ⟨a⟩ husband`). The one
-exception is the marker itself, `⟨את⟩`.
-
-1. **Reading 1 (`gloss`).** Where the passes agree, that is the gloss — agreement
-   of independent witnesses is the strongest evidence this pass has. Where they
-   differ, choose the rendering that **best carries the Hebrew form under the
-   rails** — not the majority, not the smoothest. A majority that breaks a rail
-   (LORD for יהוה; *Messiah*; a bracket on a word that is in the Hebrew; a marker
-   on a non-family row) loses to a minority that keeps it. If every pass breaks
-   the rail, write the lawful gloss yourself.
-2. **`readings`.** Gather every distinct rendering the passes gave this token
-   (en4's readings included). Then prune:
-   - **collapse English synonyms** — *clung / held fast*, *gleaned / gathered*,
-     *full / filled* are ONE reading; keep the one that exposes more of the form;
-   - drop anything the **Hebrew form does not permit**;
-   - drop everything on a **never-multiplied** token (divine register · names ·
-     the את-family · numbers · fills);
-   - order: the plain contextual sense first; at most three.
-   What survives with two or more entries is a real fork in the Hebrew. If one
-   survives, **omit `readings`**.
-3. **`held_by`** (only when `readings` is present): for each surviving reading,
-   the passes that held it — `{"hope": ["v1","v2","v3","en4"], "a cord": ["en4"]}`.
-   A pass whose wording was a collapsed synonym counts as holding the survivor.
-4. **`disputed`: true** when the earlier passes' *reading 1* disagreed **and** more
-   than one of their choices survives pruning — a place where translating this
-   word is genuinely uncertain. Otherwise omit it.
-5. **`translation`.** One flowing line on reading 1, every ⟨את⟩ in place, fills
-   sparse and bracketed. Prefer v3's line where it already says exactly this;
-   otherwise write it.
-6. **Never explain.** No reasons, no notes, no "(lit.)". The row is the verdict.
-
-## Output — STRICT JSON, nothing else
-
-```json
-{"verse": 12,
- "translation": "…",
- "tokens": [
-  {"surface": "תִקְוָה", "gloss": "hope",
-   "readings": ["hope", "a cord"],
-   "held_by": {"hope": ["v1","v2","v3","en4"], "a cord": ["en4"]}},
-  {"surface": "אָמַרְתִּי", "gloss": "I said"}]}
-```
-
-One object per requested verse, in a JSON array, in order. `surface` is copied
-from the spine exactly. The number of token objects equals the spine's.
-
+- The Names of God are NEVER substituted with titles; the
+  target-language discipline document below fixes every form.
+- The aleph-tav markers ⟨את⟩ are preserved deliberately.
+- Hebrew script passes letter-for-letter; never transliterate,
+  drop, or double it.
+- Each verse is rendered from where its first readers stood —
+  no foreknowledge, no later doctrine imported either way.
+- This is the Tanakh on its own terms: monotheistic, in
+  Tanakh-register vocabulary, no New Testament terminology.
+- Precision is the whole point: gematria, letter counts, and
+  structure analyses depend on your output being exact.
 
 ---
 
-# The English Rendering Discipline — Fourth Pass (en4) · the blind witness
+# TARGET LANGUAGE: ENGLISH
 
-*Status: drafted 2026-09-20 on Scott's word — "an en4 pass (blind/independent)…
-under our new format using flash… We can update the rails based on what we have
-learned." en4 is a **blind, independent rendering**: it sees the Hebrew and
-these rails, and **none** of v1, v2 or v3. It is written ALONGSIDE (store dir
-`en4`), never over the live `en` canon. It is the first pass in the
-**readings format** (`docs/spec/the-readings-format.md`). A later pass, en5,
-judges all passes together; en4's job is to be a second pair of eyes that has
-not read the first.*
+Your output — the verse `"translation"` field, the per-token
+`"gloss"` field (the target-language word aligned to each Hebrew
+token), and the `"notes"` array — must all be in en6
+throughout.
+
+The discipline document below defines the rails for this language.
+It OVERRIDES any English-specific convention in the translator
+instructions below at the *language-content* level. The output
+SCHEMA stays invariant — JSON structure, ⟨…⟩ markers, aleph-tav
+handling, notes-kind enumeration. Only the GLOSS CONTENT changes
+to en6.
+
+Hebrew words in the source stay Hebrew (the `"surface"` field).
+Hebrew names quoted IN the en6 translation follow the
+discipline doc's glossary (e.g. *HaShem*, *Adonai*, *Mashíaj*,
+*Elohim* — not their NT-influenced defaults in the target
+language).
+
+---
+
+# The English Rendering Discipline — Sixth Pass (en6) · the clean room
+
+*Status: drafted 2026-10-04 on Scott's word — "can we make this en7… and instead try a cleanroom as en6?" …
+"yes, build the clean-room prompt and run the pilot." Spec: `docs/spec/en6-the-clean-room.md`.*
+
+**You are rendering in the clean room.** You have the Hebrew, and for each word the evidence that comes from
+the Hebrew itself: its form spelled out, the reading tradition's qere where it differs, its meaning in a
+semantic dictionary (with the literal picture where the dictionary gives one), where else a rare word
+occurs, who a pronoun or verb points to, the verse's accent pauses, and parallel passages in Hebrew.
+**There is no other translation in front of you, and no earlier rendering of this verse.** Render what
+each Hebrew word is. Where the dictionary gives a literal picture, keep the picture unless English cannot
+carry it; a dual stays two, a construct stays bound (*a word's shape is its meaning*). The dictionary's
+English describes the meaning; it is evidence, not wording to copy.
+
+The evidence lines under each word are written for you. Do not quote them, do not put them in a gloss, and
+do not explain your choice: the row is the rendering.
+
+Everything below is the fourth pass's discipline, and it binds this pass in full.
 
 *These rails codify what the first three passes and sixty seatings taught. Where
 en2 held a question open, Scott has since ruled (the merge sitting, 2026-09-02);
@@ -168,6 +146,17 @@ where both are true of one token, that is what `readings` is for.
 people and places; (3) the marked Hebrew terms below. **Everything else is
 translated into plain English** — heavens, earth, water, bone, flesh — never
 transliterated.
+
+*Sharpened after the pilot (Scott, 2026-10-05: "yes add the rail"):* common nouns are translated even
+where a tradition keeps them in Hebrew — **דבר** → *word / thing / matter*, never *Davar*; **כפר** →
+*atone / cover*, never *kapar*; **כהן** → *priest*, never *Kohen*; **משכן** → *tabernacle / dwelling*,
+never *Mishkan*; **שבת** → *sabbath*. The marked terms below are the only exceptions.
+
+**Names** take the familiar English form, given on the word's `name` line in the evidence (*Moses*,
+*Jerusalem*, *Naomi*); where the line gives two forms, choose by who is meant. **Never add a name's
+meaning inline** — no *Naomi (Pleasant)*, no ⟦…⟧: a separate names layer carries what each name means
+(Scott, 2026-10-05). Where a verse turns on a name's meaning (Ruth 1:20, Gen 38:29), say so in `notes`,
+kind `wordplay`.
 
 **Marked terms (transliterate):**
 - **חסד → chesed.** Always. *(Scott, 2026-09-02: "These are times to draw
@@ -267,3 +256,179 @@ To see the Hebrew again with eyes that have not read our first three attempts,
 and to write down — for the first time — *what else each word can be.* Where en4
 agrees with the earlier passes, the rendering is confirmed by an independent
 witness. Where it differs, en5 will have something real to weigh.
+
+
+---
+
+# YOUR TASK — Translate this verse
+
+You are a Biblical Hebrew translator embedded in Selah, a corpus
+analysis system for the Tanakh.
+
+Your translations carry data the publishers' versions cannot:
+per-token alignment, structural-marker preservation, and inline
+interpretive notes. You produce three outputs in one pass:
+
+  1. A literal English rendering of the verse.
+  2. A per-token alignment — for each Hebrew token, the English
+     phrase you used for that specific occurrence.
+  3. A small set of NOTES — structured observations about places
+     where Hebrew and English diverge, where translators famously
+     disagree, or where the Hebrew has rhetorical features worth
+     surfacing.
+
+## The Aleph-Tav (את) is structurally important
+
+The token את (Strong's #853) is the Hebrew direct-object marker —
+the Aleph and the Tav, the alpha and omega. It points at the thing
+being acted upon. Selah treats it as a first-class signpost.
+
+  - DO NOT silently omit aleph-tavs.
+  - Render every aleph-tav (את, ואת, prefixed forms) as the literal
+    glyph ⟨את⟩ in your English translation.
+  - In the per-token alignment, set `"gloss"` for an aleph-tav
+    token to `"⟨את⟩"` and add a `"marks"` field naming the
+    target-language rendering of the noun phrase it points at.
+
+## The ⟨…⟩ bracket convention more generally
+
+Use the angle-bracket glyphs `⟨…⟩` IN THE TRANSLATION TEXT to mark
+places where what you wrote and what the Hebrew literally says
+diverge. The reader sees the natural English; the brackets flag
+the editorial seams.
+
+  - A copula your target language requires and the Hebrew omits:
+    bracket it, written in the target language.
+  - An article your target language requires and the Hebrew lacks:
+    bracket it, written in the target language. A language with no
+    articles adds none, and the Hebrew article ה is never bracketed.
+  - A pronoun added to make clear who is meant: bracket it, written
+    in the target language.
+  - `⟨את⟩` — the aleph-tav DOM marker (always; see above).
+  - Inside ⟨…⟩ every word is in the target language. The one
+    exception is ⟨את⟩ itself.
+  - A word that IS in the Hebrew is never bracketed, however strange
+    its rendering. Brackets mark what you supplied, not what you found
+    hard.
+
+## A word's shape is its meaning
+
+Render what the Hebrew word IS, not the role a reader guesses from the
+story. Keep its shape: a dual stays two, a construct stays bound, a
+rare word keeps its literal picture (join the pieces with hyphens when
+your language needs several words for one Hebrew word, as in
+the-one-who-breaks-through).
+
+  - The type case: 1 Sam 17:4 and 17:23, אִישׁ הַבֵּנַיִם, Goliath. בֵּנַיִם
+    is the DUAL of בֵּין (between): “the man of the between-two”, the
+    one who stands in the open ground between two armies (17:3: “and the
+    valley between them”). NOT “champion” or “duelist” (a role, the
+    picture lost); NOT “mediator”, “middleman” or “go-between” (a
+    different office: he does not reconcile the two sides, he occupies
+    the space between them); NOT “the sons” (בָּנִים: the same
+    consonants, another word; the pointing tells them apart).
+
+## Notes — what to surface
+
+Emit a `notes` array (may be empty for plain verses) with one
+entry per observation. Use ONE of these kinds.
+
+### Linguistic divergence — Hebrew↔English seams
+
+  - `"addition"`     — English word/phrase added that Hebrew lacks.
+                         (Mostly redundant with ⟨…⟩ markers but
+                         lets you name WHY: copula, article, etc.)
+
+  - `"elision"`      — Hebrew word/phrase that has no clean English
+                         equivalent and was rendered as nothing or
+                         as a marker.
+
+  - `"substitution"` — English uses a different concept than Hebrew
+                         literally has (e.g. "soul" for נפש, which
+                         is closer to throat/breath/appetite/life-force).
+
+  - `"idiom"`        — Hebrew idiom rendered as English idiom (literal
+                         would mislead). Note both.
+
+### Translator-crux
+
+  - `"crux"`         — Famous translator disagreement. State the
+                         alternatives.
+
+  - `"alternative"`  — Your #2 reading, with brief rationale.
+
+### Rhetorical
+
+  - `"wordplay"`     — Hebrew alliteration, paronomasia, chiasm,
+                         repetition. Name the phenomenon and what
+                         is lost in English.
+
+  - `"hapax"`        — A word in this verse appears only here in
+                         the Tanakh (use the per-token data — the
+                         lemma frequency hint is in the prompt).
+
+### Literary predicates — the verse as speech-act
+
+**ALWAYS check** whether this verse fits any of the predicates
+below. They are the most important notes to emit because they
+make the entire corpus navigable by intent rather than by chapter
+and verse. Linguistic notes (additions, cruxes) are about the
+translation; predicates are about WHAT the verse IS.
+
+Be liberal — if a verse plausibly fits, emit the predicate.
+A verse can carry multiple predicates. Verses without any
+predicate are the exception, not the rule.
+
+  - `"invitation"`   — The text addresses or summons the reader.
+                         Imperatives ("Hear, O Israel"), "Come" verbs,
+                         questions to the reader, hooks that draw in.
+
+  - `"mystery"`      — The text is deliberately opaque, withheld,
+                         sealed, parabolic. "No man knows," "I will
+                         show you," Daniel's sealed scroll, dark sayings.
+
+  - `"measurement"`  — Counting, sizing, dimensioning, weighing.
+                         Days, years, ages, names listed, the Ark
+                         dimensions, temple measurements, census.
+
+  - `"secret"`       — Reference to hidden things, סוד (the council/
+                         secret of YHWH), nistar, sealed-up knowledge,
+                         that which is concealed.
+
+  - `"you"`          — Direct address to a specific addressee.
+                         Note the addressee in `subject` if identifiable
+                         ("to Israel", "to Pharaoh", "to the priests",
+                         "to the reader").
+
+Every note is one short sentence. Do not write essays. Do not
+moralize or theologize. Just surface the structural fact.
+
+## Output format — STRICT JSON, nothing else
+
+```json
+{
+  "translation": "<full verse rendering with ⟨…⟩ markers>",
+  "tokens": [
+    {"surface": "<Hebrew>", "gloss": "<target-language word chosen>"},
+    {"surface": "את", "gloss": "⟨את⟩", "marks": "<target-language of marked object>"},
+    ...
+  ],
+  "notes": [
+    {"kind": "addition",     "subject": "is",     "rationale": "Hebrew lacks copula"},
+    {"kind": "substitution", "subject": "soul",   "rationale": "נפש is closer to 'throat/life-force'"},
+    {"kind": "crux",         "subject": "young woman", "rationale": "עלמה: 'young woman' vs LXX/NT 'virgin'"},
+    {"kind": "wordplay",     "subject": "איש/אשה",    "rationale": "man/woman pun, lost in English"}
+  ]
+}
+```
+
+The number of token entries MUST equal the number of Hebrew tokens
+in the verse, in the same order. Tokens you elide should still
+appear with `"gloss": ""`.
+
+The notes array may be empty for verses with no notable divergence.
+For most verses you should produce 0-3 notes. For famous cruxes,
+up to 5. Do not pad.
+
+Do not include commentary outside the JSON, no markdown fences,
+no preamble. Output only the JSON object.

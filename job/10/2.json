@@ -1,72 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "I will say to Eloah: Do not condemn me; make me know why you contend with me.",
-  "tokens": [
+  "ref": "job 10:2",
+  "book": "job",
+  "lang": "en6",
+  "chapter": 10,
+  "notes": [
     {
-      "surface": "אמר",
-      "gloss": "I will say"
+      "kind": "you",
+      "subject": "to Eloah",
+      "rationale": "Job addresses Eloah directly with petitions and a question."
     },
     {
-      "surface": "אל",
-      "gloss": "to"
-    },
-    {
-      "surface": "אלוה",
-      "gloss": "Eloah"
-    },
-    {
-      "surface": "אל",
-      "gloss": "Do not"
-    },
-    {
-      "surface": "תרשיעני",
-      "gloss": "condemn me",
-      "readings": [
-        "condemn me",
-        "declare me wrong"
-      ],
-      "held_by": {
-        "condemn me": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "declare me wrong": [
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "הודיעני",
-      "gloss": "make me know"
-    },
-    {
-      "surface": "על",
-      "gloss": "for",
-      "readings": [
-        "for",
-        "why"
-      ],
-      "held_by": {
-        "for": [
-          "v1",
-          "v3"
-        ],
-        "why": [
-          "v2",
-          "en4"
-        ]
-      }
-    },
-    {
-      "surface": "מה",
-      "gloss": "what"
-    },
-    {
-      "surface": "תריבני",
-      "gloss": "you contend with me"
+      "kind": "alternative",
+      "subject": "on-what",
+      "rationale": "על מה may read 'for what reason' as well as 'concerning what'."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "I say to Eloah: do not declare-me guilty; make-known to me on-what you contend-with-me.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "cdae75779330de4c80ba753bb489131a3959cbae7df5566b336f85859aafc063",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/job\/10\/1-4.1791194231884.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/job.edn"
+  },
+  "tokens": [
+    {
+      "surface": "אֹמַ֣ר",
+      "gloss": "I say",
+      "sense": "S1"
+    },
+    {
+      "surface": "אֶל",
+      "gloss": "to",
+      "sense": null
+    },
+    {
+      "surface": "אֱלוֹהַּ֭",
+      "gloss": "Eloah",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַל",
+      "gloss": "do not",
+      "sense": null
+    },
+    {
+      "surface": "תַּרְשִׁיעֵ֑נִי",
+      "gloss": "declare-me guilty",
+      "sense": "S1"
+    },
+    {
+      "surface": "הֽ֝וֹדִיעֵ֗נִי",
+      "gloss": "make-known to me",
+      "sense": null
+    },
+    {
+      "surface": "עַ֣ל",
+      "gloss": "on-what",
+      "sense": null
+    },
+    {
+      "surface": "מַ֣ה",
+      "gloss": "what",
+      "sense": "S1"
+    },
+    {
+      "surface": "תְּרִיבֵֽנִי",
+      "gloss": "you contend-with-me",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:57:11.885695230Z",
+  "model": "glm-5.3"
 }

@@ -1,78 +1,94 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "An instructive ⟨poem⟩ of Asaph. Why, O Elohim, have You cast ⟨us⟩ off forever? Why does Your nose smoke against the flock of Your pasture?",
-  "tokens": [
+  "ref": "psalms 74:1",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 74,
+  "notes": [
     {
-      "surface": "משכיל",
-      "gloss": "an instructive ⟨poem⟩"
+      "kind": "wordplay",
+      "subject": "אפך",
+      "rationale": "literally 'your nose', anger pictured as smoke rising from the nostrils; English 'anger' loses the body-picture"
     },
     {
-      "surface": "לאסף",
-      "gloss": "of Asaph"
+      "kind": "you",
+      "subject": "to Elohim",
+      "rationale": "the psalm opens with direct second-person address to Elohim"
     },
     {
-      "surface": "למה",
-      "gloss": "why"
-    },
-    {
-      "surface": "אלהים",
-      "gloss": "O Elohim"
-    },
-    {
-      "surface": "זנחת",
-      "gloss": "have You cast ⟨us⟩ off",
-      "readings": [
-        "have You cast ⟨us⟩ off",
-        "have You rejected ⟨us⟩"
-      ],
-      "held_by": {
-        "have You cast ⟨us⟩ off": [
-          "v1"
-        ],
-        "have You rejected ⟨us⟩": [
-          "v2",
-          "v3",
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "לנצח",
-      "gloss": "forever"
-    },
-    {
-      "surface": "יעשן",
-      "gloss": "does smoke"
-    },
-    {
-      "surface": "אפך",
-      "gloss": "Your nose",
-      "readings": [
-        "Your nose",
-        "Your anger"
-      ],
-      "held_by": {
-        "Your nose": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "Your anger": [
-          "v1"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "בצאן",
-      "gloss": "against the flock"
-    },
-    {
-      "surface": "מרעיתך",
-      "gloss": "of Your pasture"
+      "kind": "invitation",
+      "subject": "למה",
+      "rationale": "opening interrogative draws the speaker (and hearer) into the lament"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "An instructive poem of Asaph: Why, Elohim, have you rejected forever, has your nose smoked against the flock of your pasture?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "13eb9ef1218045eccd6b232f2cc7b6c7812909c017b6539bf89df2f53a63bc65",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/74\/1-4.1791193010156.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "מַשְׂכִּ֗יל",
+      "gloss": "An instructive poem",
+      "sense": "S1"
+    },
+    {
+      "surface": "לְאָ֫סָ֥ף",
+      "gloss": "of Asaph",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמָ֣ה",
+      "gloss": "Why",
+      "sense": null
+    },
+    {
+      "surface": "אֱ֭לֹהִים",
+      "gloss": "Elohim",
+      "sense": "S1"
+    },
+    {
+      "surface": "זָנַ֣חְתָּ",
+      "gloss": "have you rejected",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָנֶ֑צַח",
+      "gloss": "forever",
+      "sense": "S1"
+    },
+    {
+      "surface": "יֶעְשַׁ֥ן",
+      "gloss": "has smoked",
+      "sense": "S1"
+    },
+    {
+      "surface": "אַפְּךָ֗",
+      "gloss": "your nose",
+      "readings": [
+        "your nose",
+        "your anger"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "בְּצֹ֣אן",
+      "gloss": "against the flock",
+      "sense": "S1"
+    },
+    {
+      "surface": "מַרְעִיתֶֽךָ",
+      "gloss": "of your pasture",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:36:50.157629907Z",
+  "model": "glm-5.3"
 }

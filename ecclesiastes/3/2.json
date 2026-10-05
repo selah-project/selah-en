@@ -1,59 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "A time to be born, and a time to die; a time to plant, and a time to uproot ⟨what is⟩ planted.",
-  "tokens": [
+  "ref": "ecclesiastes 3:2",
+  "book": "ecclesiastes",
+  "lang": "en6",
+  "chapter": 3,
+  "notes": [
     {
-      "surface": "עת",
-      "gloss": "a time"
+      "kind": "substitution",
+      "subject": "to be born",
+      "rationale": "the qal infinitive ללדת is active 'to give birth'; English idiom requires the passive of the child's side"
     },
     {
-      "surface": "ללדת",
-      "gloss": "to be born",
-      "readings": [
-        "to be born",
-        "to give birth"
-      ],
-      "held_by": {
-        "to be born": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "to give birth": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "ועת",
-      "gloss": "and a time"
-    },
-    {
-      "surface": "למות",
-      "gloss": "to die"
-    },
-    {
-      "surface": "עת",
-      "gloss": "a time"
-    },
-    {
-      "surface": "לטעת",
-      "gloss": "to plant"
-    },
-    {
-      "surface": "ועת",
-      "gloss": "and a time"
-    },
-    {
-      "surface": "לעקור",
-      "gloss": "to uproot"
-    },
-    {
-      "surface": "נטוע",
-      "gloss": "planted"
+      "kind": "wordplay",
+      "subject": "לטעת\/נטוע",
+      "rationale": "'plant' and 'planted' share the root נטע, an antithetical pair within one root"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "A time to be born and a time to die; a time to plant and a time to uproot what is planted.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "81348a9bb44491606b112d77fd8eba7b0c41f65c8eb3b844c1337e782209e6b0",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/ecclesiastes\/3\/1-4.1791194809094.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/ecclesiastes.edn"
+  },
+  "tokens": [
+    {
+      "surface": "עֵת",
+      "gloss": "A time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָלֶדֶת",
+      "gloss": "to be born",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵת",
+      "gloss": "and a time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָמוּת",
+      "gloss": "to die",
+      "sense": "S1"
+    },
+    {
+      "surface": "עֵת",
+      "gloss": "a time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לָטַעַת",
+      "gloss": "to plant",
+      "sense": "S1"
+    },
+    {
+      "surface": "וְעֵת",
+      "gloss": "and a time",
+      "sense": "S1"
+    },
+    {
+      "surface": "לַעֲקוֹר",
+      "gloss": "to uproot",
+      "sense": "S1"
+    },
+    {
+      "surface": "נָטוּעַ",
+      "gloss": "what is planted",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T10:06:49.095621404Z",
+  "model": "glm-5.3"
 }

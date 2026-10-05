@@ -1,50 +1,64 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "And King Solomon was king over all Israel.",
+  "ref": "1-kings 4:1",
+  "book": "1-kings",
+  "lang": "en6",
+  "chapter": 4,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "was",
+      "rationale": "Hebrew apposition 'the king Solomon, king over all Israel' needs an English copula"
+    }
+  ],
+  "translation": "And it came to pass, the king Solomon was king over all Israel.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "7196e8acde684eabc5b21399cfb4586a4d60785376174ef257a181a9aa840a10",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/1-kings\/4\/1-4.1791186779844.json",
+    "code": "bf867c53-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/1-kings.edn"
+  },
   "tokens": [
     {
-      "surface": "ויהי",
-      "gloss": "and he was",
-      "readings": [
-        "and he was",
-        "and he became"
-      ],
-      "held_by": {
-        "and he was": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "and he became": [
-          "en4"
-        ]
-      }
+      "surface": "וַֽיְהִי֙",
+      "gloss": "And it came to pass",
+      "sense": null
     },
     {
-      "surface": "המלך",
-      "gloss": "the king"
+      "surface": "הַמֶּ֣לֶךְ",
+      "gloss": "the king",
+      "sense": "S1"
     },
     {
-      "surface": "שלמה",
-      "gloss": "Solomon"
+      "surface": "שְׁלֹמֹ֔ה",
+      "gloss": "Solomon",
+      "sense": "S1"
     },
     {
-      "surface": "מלך",
-      "gloss": "king"
+      "surface": "מֶ֖לֶךְ",
+      "gloss": "was king",
+      "sense": "S1"
     },
     {
-      "surface": "על",
+      "surface": "עַל",
       "gloss": "over"
     },
     {
-      "surface": "כל",
-      "gloss": "all"
+      "surface": "כָּל",
+      "gloss": "all",
+      "sense": null
     },
     {
-      "surface": "ישראל",
-      "gloss": "Israel"
+      "surface": "יִשְׂרָאֵֽל",
+      "gloss": "Israel",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:52:59.846360058Z",
+  "model": "glm-5.3"
 }

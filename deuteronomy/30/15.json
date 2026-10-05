@@ -1,82 +1,104 @@
 {
+  "tier": "glm-5.2",
   "verse": 15,
-  "translation": "See, I have set before your face today ⟨את⟩ the life and ⟨את⟩ the good, and ⟨את⟩ death and ⟨את⟩ the evil.",
+  "ref": "deuteronomy 30:15",
+  "book": "deuteronomy",
+  "lang": "en6",
+  "chapter": 30,
+  "notes": [
+    {
+      "kind": "invitation",
+      "subject": "ראה",
+      "rationale": "opening imperative summons the hearer to attend"
+    },
+    {
+      "kind": "you",
+      "subject": "to Israel",
+      "rationale": "direct second-person address, Moses speaking to Israel"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "chiastic pairing",
+      "rationale": "life\/good set against death\/evil in balanced pairs"
+    }
+  ],
+  "translation": "See, I have set before you today ⟨את⟩ life and ⟨את⟩ the good, and ⟨את⟩ death and ⟨את⟩ the evil.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "46d8a502153933804ff5d1492595ec1d810e9287c01b8b17824758dd87d4f018",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/deuteronomy\/30\/13-16.1791184169326.json",
+    "code": "53251ca8-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/deuteronomy.edn"
+  },
   "tokens": [
     {
       "surface": "ראה",
-      "gloss": "See"
+      "gloss": "See",
+      "sense": "S1"
     },
     {
       "surface": "נתתי",
-      "gloss": "I have set"
+      "gloss": "I have set",
+      "sense": null
     },
     {
       "surface": "לפניך",
-      "gloss": "before your face"
+      "gloss": "before you",
+      "sense": null
     },
     {
       "surface": "היום",
-      "gloss": "today"
+      "gloss": "today",
+      "sense": "S1"
     },
     {
       "surface": "את",
-      "gloss": "⟨את⟩"
+      "gloss": "⟨את⟩",
+      "marks": "life",
+      "sense": null
     },
     {
       "surface": "החיים",
-      "gloss": "the life",
-      "readings": [
-        "the life",
-        "the living"
-      ],
-      "held_by": {
-        "the life": [
-          "en4"
-        ],
-        "the living": [
-          "en4"
-        ]
-      }
+      "gloss": "life",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the good",
+      "sense": null
     },
     {
       "surface": "הטוב",
-      "gloss": "the good"
+      "gloss": "the good",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "death",
+      "sense": null
     },
     {
       "surface": "המות",
-      "gloss": "death"
+      "gloss": "death",
+      "sense": "S1"
     },
     {
       "surface": "ואת",
-      "gloss": "and ⟨את⟩"
+      "gloss": "and ⟨את⟩",
+      "marks": "the evil",
+      "sense": null
     },
     {
       "surface": "הרע",
       "gloss": "the evil",
-      "readings": [
-        "the evil",
-        "the calamity"
-      ],
-      "held_by": {
-        "the evil": [
-          "v2",
-          "v3",
-          "en4"
-        ],
-        "the calamity": [
-          "en4"
-        ]
-      }
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T07:09:29.327655119Z",
+  "model": "glm-5.3"
 }

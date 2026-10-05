@@ -1,48 +1,95 @@
 {
+  "tier": "glm-5.2",
   "verse": 1,
-  "translation": "A burden concerning the valley of vision. What is to you now, that you have gone up — all of you — to the housetops?",
+  "ref": "isaiah 22:1",
+  "book": "isaiah",
+  "lang": "en6",
+  "chapter": 22,
+  "notes": [
+    {
+      "kind": "addition",
+      "subject": "⟨is it⟩",
+      "rationale": "English requires a copula the Hebrew omits in the question"
+    },
+    {
+      "kind": "crux",
+      "subject": "מה לך אפוא",
+      "rationale": "'What to you then?' — some render 'What do you mean that' or 'Why, then'; the idiom is compressed"
+    },
+    {
+      "kind": "you",
+      "subject": "to the city (Jerusalem)",
+      "rationale": "The question addresses the valley-city directly, feminine suffixes throughout"
+    },
+    {
+      "kind": "wordplay",
+      "subject": "גיא חזיון",
+      "rationale": "'Valley of Vision': the seer's oracle comes to a valley, Jerusalem's ironic title"
+    }
+  ],
+  "translation": "The burden of the valley of vision. What ⟨is it⟩ to you, then, that you have gone up, all of you, to the roofs?",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "e7b25f97d47d4fb6d8675a0abfbf2ea64c6e6432eb4638e12d1f9d5e02f8b953",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/isaiah\/22\/1-4.1791188317464.json",
+    "code": "389593a0-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/isaiah.edn"
+  },
   "tokens": [
     {
-      "surface": "משא",
-      "gloss": "a burden"
+      "surface": "מַשָּׂא",
+      "gloss": "The burden",
+      "readings": [
+        "The burden",
+        "The oracle"
+      ],
+      "sense": "S1"
     },
     {
-      "surface": "גיא",
-      "gloss": "valley"
+      "surface": "גֵּיא",
+      "gloss": "of the valley",
+      "sense": "S1"
     },
     {
-      "surface": "חזיון",
-      "gloss": "of vision"
+      "surface": "חִזָּיוֹן",
+      "gloss": "of Vision",
+      "sense": "S1"
     },
     {
-      "surface": "מה",
-      "gloss": "what"
+      "surface": "מַה",
+      "gloss": "What",
+      "sense": "S1"
     },
     {
-      "surface": "לך",
+      "surface": "לָּךְ",
       "gloss": "to you"
     },
     {
-      "surface": "אפוא",
-      "gloss": "now"
+      "surface": "אֵפוֹ",
+      "gloss": "then"
     },
     {
-      "surface": "כי",
+      "surface": "כִּי",
       "gloss": "that"
     },
     {
-      "surface": "עלית",
-      "gloss": "you have gone up"
+      "surface": "עָלִית",
+      "gloss": "you have gone up",
+      "sense": "S1"
     },
     {
-      "surface": "כלך",
+      "surface": "כֻּלָּךְ",
       "gloss": "all of you"
     },
     {
-      "surface": "לגגות",
-      "gloss": "to the housetops"
+      "surface": "לַגַּגּוֹת",
+      "gloss": "to the roofs",
+      "sense": "S1"
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "timestamp": "2026-10-05T08:18:37.464885556Z",
+  "model": "glm-5.3"
 }

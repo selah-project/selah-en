@@ -1,69 +1,80 @@
 {
+  "tier": "glm-5.2",
   "verse": 2,
-  "translation": "YHWH, deliver my nefesh from a lip of falsehood, from a tongue of deceit.",
-  "tokens": [
+  "ref": "psalms 120:2",
+  "book": "psalms",
+  "lang": "en6",
+  "chapter": 120,
+  "notes": [
     {
-      "surface": "יהוה",
-      "gloss": "YHWH"
+      "kind": "substitution",
+      "subject": "soul",
+      "rationale": "נפש is literally throat, the life-principle as breath and desire; 'life' is a lawful alternative."
     },
     {
-      "surface": "הצילה",
-      "gloss": "deliver",
-      "readings": [
-        "deliver",
-        "rescue"
-      ],
-      "held_by": {
-        "deliver": [
-          "v1",
-          "v2",
-          "v3"
-        ],
-        "rescue": [
-          "en4"
-        ]
-      }
+      "kind": "wordplay",
+      "subject": "parallelism",
+      "rationale": "lip of falsehood \/ tongue of deceit — the paired body-metonymies for lying speech mirror each other."
     },
     {
-      "surface": "נפשי",
-      "gloss": "my nefesh",
-      "readings": [
-        "my nefesh",
-        "my soul",
-        "my life"
-      ],
-      "held_by": {
-        "my nefesh": [
-          "v2",
-          "v3"
-        ],
-        "my soul": [
-          "v1",
-          "en4"
-        ],
-        "my life": [
-          "en4"
-        ]
-      },
-      "disputed": true
-    },
-    {
-      "surface": "משפת",
-      "gloss": "from a lip"
-    },
-    {
-      "surface": "שקר",
-      "gloss": "of falsehood"
-    },
-    {
-      "surface": "מלשון",
-      "gloss": "from a tongue"
-    },
-    {
-      "surface": "רמיה",
-      "gloss": "of deceit"
+      "kind": "you",
+      "subject": "to YHWH",
+      "rationale": "Direct imperative address to YHWH."
     }
   ],
-  "pass": "en5",
-  "judge": "glm-5.3"
+  "translation": "YHWH, deliver my soul from a lip of falsehood, from a tongue of deceit.",
+  "provenance": {
+    "system-sha256": "7880f37ac95c984d3a2fdd521bcad6ede271c654d2fa677af7f76a9db3a14186",
+    "user-sha256": "845039802c5004e391aaef67c4b61fd48f1adf086af25e6614f5e54a2d763d18",
+    "prompt-file": ".selah\/sources\/translations\/prompts\/en6\/psalms\/120\/1-4.1791193505736.json",
+    "code": "97a00eed-dirty",
+    "model": "glm-5.3",
+    "tier": "glm-5.2",
+    "clean-room?": true,
+    "evidence": "data\/experiments\/1118\/books\/psalms.edn"
+  },
+  "tokens": [
+    {
+      "surface": "יְֽהוָה",
+      "gloss": "YHWH",
+      "sense": "S1"
+    },
+    {
+      "surface": "הַצִּילָה",
+      "gloss": "deliver",
+      "sense": "S1"
+    },
+    {
+      "surface": "נַפְשִׁי",
+      "gloss": "my soul",
+      "readings": [
+        "my soul",
+        "my life",
+        "my throat"
+      ],
+      "sense": "S1"
+    },
+    {
+      "surface": "מִשְּׂפַת",
+      "gloss": "from a lip of",
+      "sense": "S1"
+    },
+    {
+      "surface": "שָׁקֶר",
+      "gloss": "falsehood",
+      "sense": "S1"
+    },
+    {
+      "surface": "מִלָּשׁוֹן",
+      "gloss": "from a tongue of",
+      "sense": "S1"
+    },
+    {
+      "surface": "רְמִיָּה",
+      "gloss": "deceit",
+      "sense": "S1"
+    }
+  ],
+  "timestamp": "2026-10-05T09:45:05.736916205Z",
+  "model": "glm-5.3"
 }
