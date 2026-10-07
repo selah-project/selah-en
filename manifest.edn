@@ -3,7 +3,7 @@
             {:text :oshb-wlc,
              :corpus :tanakh,
              :verses 23213,
-             :tokens 305508},
+             :tokens 305507},
             :provenance
             {:derived
              [:lang
@@ -21,34 +21,34 @@
               :license
               :catalog],
              :declared
-             [:rendering/people
-              :role
+             [:role
               :open-questions
+              :rendering/people
               :rendering/process
               :rendering/checks]},
             :role :served,
-            :produced {:from "2026-05-03", :to "2026-08-24"},
+            :produced {:from "2026-05-03", :to "2026-08-30"},
             :people
             {:ruled-by "Scott",
              :shovel "Claude (Fable 5)",
              :assayer "Codex"},
-            :id "en.v1",
+            :id "en.v3.1",
             :catalog {:ui "resources/i18n/ui/en.edn"},
             :license "CC BY-SA 4.0 (The Selah English Rendering)",
             :model
             {:provider :z.ai,
              :models
-             {"glm-4.5" 15206,
-              "glm-5.2" 6518,
-              "glm-5.1" 663,
-              "opus-4.8-hand" 455,
-              "glm-5.3" 371},
-             :tiers {"bulk" 15430, "glm-5.2" 7110, "glm-5.1" 673},
+             {"glm-4.5" 3470,
+              "glm-5.2" 3057,
+              "glm-5.3" 16241,
+              "glm-5.1" 283,
+              "opus-4.8-hand" 162},
+             :tiers {"bulk" 3509, "glm-5.2" 19420, "glm-5.1" 284},
              :prompt "selah.translate.prompt",
              :canonical-forms "data/translation/canonical-forms.edn"},
             :discipline
             {:rails "docs/methodology/translation-discipline/en.md",
-             :rails-commit "8d3b2ac9",
+             :rails-commit "8d3b2ac98",
              :foundation
              [:hebrew-first
               :deut-6-4-double-fidelity
@@ -73,16 +73,31 @@
               :Yahweh-stray 9,
               :God-files 46,
               :note "measured by the en1↔en2 diff survey 2026-08-30"},
-             :fills {:count 143965}},
-            :version "v1",
+             :fills {:count 143965},
+             :v3.1
+             {:verses-parse 23213,
+              :flow-row-marker-parity-failures 0,
+              :glued 0,
+              :stranded 0,
+              :h854-with-glyph "888/888",
+              :files-changed-since-v3-final 1524,
+              :open {:nested-bracket-markers 7}}},
+            :version "v3.1",
             :lineage
             {:git
              {:repo "selah-project/selah-en",
-              :ref "v1-final",
-              :commit "f5ef7056a",
-              :tags ["v1-final" "v2-final"],
-              :branches ["main" "v2" "v3"]},
-             :parents []},
+              :ref "v3.1",
+              :commit "e42fb70fb",
+              :tags
+              ["v1-final"
+               "v2-final"
+               "v3-final"
+               "v3.1"
+               "v4-final"
+               "v5-final"
+               "v6-final"],
+              :branches ["main" "v2" "v3" "v4" "v5" "v6"]},
+             :parents ["en.v3"]},
             :lang :en,
             :process
             [{:stage :burn,
@@ -93,4 +108,11 @@
               "aleph-tav (deterministic) + surface restoration from graph"}
              {:stage :normalization,
               :note
-              "the Name normalization 2026-07-16 — YHWH/Elohim, no variants"}]}
+              "the Name normalization 2026-07-16 — YHWH/Elohim, no variants"}
+             {:stage :third-pass,
+              :note
+              "v3: v1 and v2 judged verse by verse and composed under six rulings (2026-09-02); the default English from 2026-09-03"}
+             {:stage :update,
+              :version "v3.1",
+              :note
+              "the marker repair (790 pronoun rows, glued brackets, flow-parity damage: 124 mechanical, 843 proven model repair, 36 by hand) and the H854 correction and restore (2026-10-04 to 10-07)"}]}
