@@ -85,9 +85,12 @@ The rendering was made in passes, each kept as a tag in this repository so any t
   Each verse was proven: the verse with the restored markers taken out is the verse as it was; markers in
   the verse equal marker rows; none glued, stranded, or inside a bracket.
 
+The 122 verses the restore could not place with certainty were finished the same morning — 94 by the
+nearest place to the Hebrew word, each read, and 28 by hand — together with six rows where the glyph had
+stood for a 'with' the English never wrote (the word written in); see [NOTES.md](NOTES.md).
+
 After the restore, across all 23,213 verses: every verse carries as many ⟨את⟩ in its flow as in its rows;
-none is glued to a letter; none stands before punctuation. Of the 888 H854 words, 746 carry the glyph;
-the rest are listed as open in [NOTES.md](NOTES.md).
+none is glued to a letter; none stands before punctuation. **All 888 H854 words carry the glyph.**
 
 ## Two lenses kept
 
