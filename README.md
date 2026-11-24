@@ -57,7 +57,7 @@ English.
 
 This rendering remains open under CC BY-SA 4.0. If it serves you and you want
 to help carry its translation, correction, publication, and continued work,
-visit [selahproject.com/support](https://selahproject.com/support).
+visit [s33k3r.com/learn/support](https://s33k3r.com/learn/support).
 
 ## Contribute a correction
 
@@ -69,6 +69,6 @@ reason for the change.
 
 ## Selah
 
-- The languages of Selah — every chair, native name and status: https://selahproject.com/learn/languages/index.md
-- How the renderings are made — the process, the discipline, the receipts: https://selahproject.com/learn/data-sources/selah-renderings.md
-- The source text — OSHB / WLC 4.20, the record every rendering stands on: https://selahproject.com/learn/data-sources/oshb-wlc.md
+- The languages of Selah — every chair, native name and status: https://s33k3r.com/learn/languages/index
+- How the renderings are made — the process, the discipline, the receipts: https://s33k3r.com/learn/data-sources/selah-renderings
+- The source text — OSHB / WLC 4.20, the record every rendering stands on: https://s33k3r.com/learn/data-sources/oshb-wlc

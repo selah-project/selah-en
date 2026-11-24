@@ -3,7 +3,7 @@
 Do not report vulnerabilities, credentials, account identifiers, private
 correspondence, or personal information in a public issue.
 
-Send a private report to `support@selahproject.com` with **Security** in the
+Send a private report to [s33k3r.com/learn/support](https://s33k3r.com/learn/support) with **Security** in the
 subject. Include the affected repository or Selah page, a concise description,
 reproduction steps when safe, and the possible impact. Do not include live
 credentials. Please allow time to investigate before publishing details.

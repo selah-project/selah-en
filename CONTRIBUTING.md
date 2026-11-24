@@ -10,7 +10,7 @@ what you know, show your evidence, and distinguish certainty from suggestion.
   are possible, or when you are unsure how the aligned record should change.
 - Open a **pull request** when the error and exact replacement are clear.
 - For a visual or application bug rather than a corpus correction, use
-  [Selah support](https://selahproject.com/support).
+  [Selah support](https://s33k3r.com/learn/support).
 - Never report security problems, account details, private correspondence, or
   personal information in a public issue. Use Selah support privately.
 
